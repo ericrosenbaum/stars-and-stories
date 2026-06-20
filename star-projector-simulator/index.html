@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Star Projector Simulator &amp; Design Tool</title>
+<style>
+  :root { color-scheme: dark; }
+  html, body { margin: 0; height: 100%; overflow: hidden; background: #05060a; }
+  body { font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  #app { position: fixed; inset: 0; }
+  canvas { display: block; }
+
+  #overlay {
+    position: fixed; top: 14px; left: 16px; z-index: 10;
+    color: #e7ecf5; max-width: 360px; pointer-events: none;
+    text-shadow: 0 1px 6px rgba(0,0,0,.8);
+  }
+  #overlay h1 { font-size: 16px; margin: 0 0 4px; font-weight: 650; letter-spacing: .2px; }
+  #overlay p { font-size: 12px; margin: 0; opacity: .72; line-height: 1.45; }
+  #stats {
+    margin-top: 8px; font-size: 11.5px; opacity: .9;
+    font-variant-numeric: tabular-nums;
+  }
+  #stats b { color: #ffd479; font-weight: 600; }
+  #stats .warn { color: #ff9a8a; }
+
+  #viewbtns {
+    position: fixed; bottom: 14px; left: 16px; z-index: 10; display: flex; gap: 8px;
+  }
+  #viewbtns button {
+    pointer-events: auto; cursor: pointer;
+    background: rgba(20,24,34,.78); color: #cfd6e4;
+    border: 1px solid rgba(255,255,255,.12); border-radius: 8px;
+    padding: 7px 11px; font-size: 12px; backdrop-filter: blur(6px);
+  }
+  #viewbtns button:hover { background: rgba(40,46,62,.9); color: #fff; }
+
+  #toast {
+    position: fixed; bottom: 18px; left: 50%; transform: translateX(-50%);
+    z-index: 20; background: rgba(18,20,30,.92); color: #e9eefb;
+    border: 1px solid rgba(255,255,255,.14); border-radius: 9px;
+    padding: 10px 16px; font-size: 13px; opacity: 0; transition: opacity .25s;
+    pointer-events: none; max-width: 70vw; text-align: center;
+  }
+  #toast.show { opacity: 1; }
+  .lil-gui { --width: 312px; font-size: 11.5px; }
+</style>
+
+<!-- Import map: all dependencies from CDN, no build step required -->
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.161.0/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.161.0/examples/jsm/",
+    "lil-gui": "https://cdn.jsdelivr.net/npm/lil-gui@0.19.2/dist/lil-gui.esm.js",
+    "three-mesh-bvh": "https://cdn.jsdelivr.net/npm/three-mesh-bvh@0.7.3/build/index.module.js",
+    "three-bvh-csg": "https://cdn.jsdelivr.net/npm/three-bvh-csg@0.0.16/build/index.module.js"
+  }
+}
+</script>
+</head>
+<body>
+<div id="app"></div>
+
+<div id="overlay">
+  <h1>✦ Star Projector Simulator</h1>
+  <p>iPhone face-down on the floor, flashlight on, a 3D-printed cap over the flash. Tune the design, then export a printable STL.</p>
+  <div id="stats"></div>
+</div>
+
+<div id="viewbtns">
+  <button id="btn-room">Room view</button>
+  <button id="btn-lookup">Lie down &amp; look up</button>
+  <button id="btn-side">Side view</button>
+</div>
+
+<div id="toast"></div>
+
+<script type="module">
+import * as THREE from 'three';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import { STLExporter } from 'three/addons/exporters/STLExporter.js';
+import { EffectComposer } from 'three/addons/postprocessing/EffectComposer.js';
+import { RenderPass } from 'three/addons/postprocessing/RenderPass.js';
+import { UnrealBloomPass } from 'three/addons/postprocessing/UnrealBloomPass.js';
+import { OutputPass } from 'three/addons/postprocessing/OutputPass.js';
+import * as BufferGeometryUtils from 'three/addons/utils/BufferGeometryUtils.js';
+import GUI from 'lil-gui';
+
+/* =========================================================================
+   PHYSICAL / OPTICAL MODEL  (see README for the full derivation)
+   - The iPhone LED is treated as a small point-ish source at the object base.
+   - Each hole defines a DIRECTION from the LED; the star lands where that ray
+     hits the ceiling. Magnification M = (ceiling height)/(hole height).
+   - We compute star positions/size/brightness analytically (no GPU shadow
+     casting) which is robust, fast and accurate enough for this device.
+   ========================================================================= */
+
+// ----- iPhone presets (APPROXIMATE — Apple publishes no beam/LED specs) -----
+// offX/offZ: flash offset from phone centre (mm). led: emitter size (mm).
+// beam: flood half-angle (deg). bright: relative torch brightness.
+const PHONES = {
+  'iPhone 14':      { offX: 25, offZ: 48, led: 1.4, beam: 63, bright: 0.95, w: 71.5, d: 146.7, t: 7.8 },
+  'iPhone 15':      { offX: 26, offZ: 47, led: 1.5, beam: 62, bright: 1.00, w: 71.6, d: 147.6, t: 7.8 },
+  'iPhone 15 Pro':  { offX: 27, offZ: 46, led: 1.6, beam: 60, bright: 1.10, w: 70.6, d: 146.6, t: 8.3 },
+  'iPhone 16':      { offX: 26, offZ: 47, led: 1.5, beam: 62, bright: 1.05, w: 71.6, d: 147.6, t: 7.8 },
+  'iPhone 16 Pro':  { offX: 27, offZ: 45, led: 1.7, beam: 58, bright: 1.15, w: 71.5, d: 149.6, t: 8.3 },
+  'Custom':         null,
+};
+
+// ----------------------------- App state ----------------------------------
+const params = {
+  // Room (metres)
+  roomW: 3.6, roomD: 3.6, roomH: 2.5, ambient: 0.05,
+  // Phone
+  phoneModel: 'iPhone 15',
+  flashOffX: 26, flashOffZ: 47,   // mm, from phone centre
+  ledSize: 1.5,                   // mm, effective emitter (die) size — drives penumbra/blur
+  beam: 62,                       // deg, flood half-angle (FOV)
+  brightness: 1.0,
+  colorTemp: 5200,                // K, LED colour
+  // Object (mm)
+  objShape: 'Dome',
+  objRadius: 30, objHeight: 36, wallThickness: 2.0, holeDia: 1.0,
+  objSegments: 120,
+  // Star layout
+  pattern: 'Scatter',
+  count: 140, seed: 7, spread: 1.0,
+  gradient: 0.0,                  // >0 = denser toward centre
+  clusters: 6, clusterSize: 0.16,
+  spiralArms: 2, spiralTurns: 1.4,
+  bandAngle: 25, bandWidth: 0.16,
+  rings: 5,
+  brightnessVar: 0.55, sizeVar: 0.5,
+  // Optics
+  blur: 1.0,                      // multiplier on LED-size penumbra
+  falloff: true, vignette: 0.7,   // inverse-sq + cos^4 vignetting
+  beamRolloff: 0.18,              // soft fade fraction at beam edge
+  diffraction: 0.6,               // sparkle spike intensity
+  chroma: 0.12,                   // chromatic fringe
+  // Render
+  exposure: 1.0, bloom: 0.9, starScale: 1.0, showRays: true, showCone: true, showHoles: true,
+};
+
+let SKIPPED = 0, REALIZED = 0;           // stats
+let currentHoles = [];                   // realised holes {pLocal:Vector3(m), dir:Vector3}
+
+// ----------------------------- Helpers ------------------------------------
+function mulberry32(a){ return function(){ a|=0; a=a+0x6D2B79F5|0; let t=Math.imul(a^a>>>15,1|a); t=t+Math.imul(t^t>>>7,61|t)^t; return ((t^t>>>14)>>>0)/4294967296; }; }
+function gauss(rng){ let u=0,v=0; while(u===0)u=rng(); while(v===0)v=rng(); return Math.sqrt(-2*Math.log(u))*Math.cos(2*Math.PI*v); }
+const ORIGIN = new THREE.Vector3(0,0,0);
+const clamp=(x,a,b)=>Math.min(b,Math.max(a,x));
+const smoothstep=(a,b,x)=>{ const t=clamp((x-a)/(b-a),0,1); return t*t*(3-2*t); };
+
+// Colour temperature (K) -> linear RGB (Tanner Helland approximation)
+function kelvinToColor(kelvin){
+  const t = clamp(kelvin,1000,12000)/100; let r,g,b;
+  if(t<=66){ r=255; g=99.47*Math.log(t)-161.12; }
+  else { r=329.7*Math.pow(t-60,-0.1332); g=288.12*Math.pow(t-60,-0.0755); }
+  if(t>=66) b=255; else if(t<=19) b=0; else b=138.52*Math.log(t-10)-305.04;
+  const c = new THREE.Color(clamp(r,0,255)/255, clamp(g,0,255)/255, clamp(b,0,255)/255);
+  c.convertSRGBToLinear();
+  return c;
+}
+
+// ----------------------------- Three setup --------------------------------
+const app = document.getElementById('app');
+const renderer = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true });
+renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+renderer.setSize(innerWidth, innerHeight);
+renderer.toneMapping = THREE.ACESFilmicToneMapping;
+renderer.toneMappingExposure = 1.0;
+app.appendChild(renderer.domElement);
+
+const scene = new THREE.Scene();
+scene.background = new THREE.Color(0x05060a);
+
+const camera = new THREE.PerspectiveCamera(55, innerWidth/innerHeight, 0.01, 100);
+const controls = new OrbitControls(camera, renderer.domElement);
+controls.enableDamping = true;
+controls.target.set(0, params.roomH*0.55, 0);
+
+// Lights (dim — it's a dark room)
+const ambient = new THREE.AmbientLight(0xffffff, params.ambient);
+scene.add(ambient);
+const fillTop = new THREE.HemisphereLight(0x223044, 0x000000, 0.12);
+scene.add(fillTop);
+const torch = new THREE.PointLight(0xffe6c0, 0.35, 2.0, 2.0); // glow inside the object
+scene.add(torch);
+
+// Post-processing (bloom for star glow)
+const composer = new EffectComposer(renderer);
+composer.addPass(new RenderPass(scene, camera));
+const bloomPass = new UnrealBloomPass(new THREE.Vector2(innerWidth, innerHeight), params.bloom, 0.7, 0.0);
+composer.addPass(bloomPass);
+composer.addPass(new OutputPass());
+
+// ----------------------------- Scene groups -------------------------------
+let roomMesh, floorMesh, phoneGroup, flashMarker;
+let objectGroup, objectShell, holeMarkers, coneMesh, raysGroup;
+let starPoints, starMaterial;
+
+const sceneRoot = new THREE.Group();
+scene.add(sceneRoot);
+
+// ---- Star point shader (soft glow + diffraction spikes + chromatic fringe)
+function makeStarMaterial(){
+  return new THREE.ShaderMaterial({
+    uniforms: {
+      uPixelScale: { value: heightPixelScale() },
+      uSizeMul:    { value: 2.6 },
+      uExposure:   { value: params.exposure },
+      uDiffraction:{ value: params.diffraction },
+      uChroma:     { value: params.chroma },
+    },
+    vertexShader: /* glsl */`
+      attribute float aSize;
+      attribute float aBright;
+      attribute vec3  aColor;
+      varying float vBright;
+      varying vec3  vColor;
+      uniform float uPixelScale;
+      uniform float uSizeMul;
+      void main(){
+        vBright = aBright; vColor = aColor;
+        vec4 mv = modelViewMatrix * vec4(position, 1.0);
+        gl_Position = projectionMatrix * mv;
+        float px = aSize * uSizeMul * uPixelScale / max(0.0001, -mv.z);
+        gl_PointSize = clamp(px, 1.0, 900.0);
+      }`,
+    fragmentShader: /* glsl */`
+      precision highp float;
+      varying float vBright;
+      varying vec3  vColor;
+      uniform float uExposure;
+      uniform float uDiffraction;
+      uniform float uChroma;
+      float glow(float r){ float v = clamp(1.0 - r, 0.0, 1.0); return v*v*v; }
+      void main(){
+        vec2 c = (gl_PointCoord - 0.5) * 2.0;   // -1..1
+        float r = length(c);
+        if(r > 1.0) discard;
+        // chromatic fringe: sample the radial glow at slightly different radii
+        float gR = glow(r * (1.0 + uChroma));
+        float gG = glow(r);
+        float gB = glow(r * (1.0 - uChroma));
+        vec3 core = vColor * gG + vec3(gR, gG, gB) * (uChroma * 1.5);
+        // 4-point diffraction spikes
+        vec2 a = abs(c);
+        float sx = pow(clamp(1.0 - a.x, 0.0, 1.0), 26.0) * clamp(1.0 - a.y*1.3, 0.0, 1.0);
+        float sy = pow(clamp(1.0 - a.y, 0.0, 1.0), 26.0) * clamp(1.0 - a.x*1.3, 0.0, 1.0);
+        vec3 spike = vColor * (sx + sy) * uDiffraction;
+        vec3 col = (core + spike) * vBright * uExposure;
+        gl_FragColor = vec4(col, 1.0);
+      }`,
+    transparent: true,
+    blending: THREE.AdditiveBlending,
+    depthWrite: false,
+    depthTest: true,
+  });
+}
+function heightPixelScale(){ return innerHeight / (2.0 * Math.tan(THREE.MathUtils.degToRad(camera.fov)/2)); }
+
+/* =========================================================================
+   OBJECT GEOMETRY (surface of revolution -> closed manifold shell)
+   ========================================================================= */
+// Outer profile points {r,z} in mm, base (z=0) up to the (truncated) top.
+function outerProfile(){
+  const R = params.objRadius, H = params.objHeight, steps = 56;
+  const pts = [];
+  for(let i=0;i<=steps;i++){
+    const f = i/steps, z = H*f; let r;
+    if(params.objShape==='Dome'){ r = R*Math.sqrt(Math.max(0,1-f*f)); }
+    else if(params.objShape==='Cone'){ r = R*(1-f); }
+    else { // Cylinder with domed cap over the top 25%
+      const cap = 0.75;
+      if(f < cap) r = R; else { const tt=(f-cap)/(1-cap); r = R*Math.sqrt(Math.max(0,1-tt*tt)); }
+    }
+    pts.push({ r, z });
+  }
+  // Truncate the tip so the revolved surface never touches the axis (keeps it
+  // a clean manifold and gives a small flat top the zenith hole can sit on).
+  const rMinTop = Math.max(params.wallThickness*1.25, 0.8);
+  const out = pts.filter(p => p.r >= rMinTop);
+  if(out.length < 2) out.push(pts[0], { r: rMinTop, z: pts[0].z + 1 });
+  return out;
+}
+
+// Closed cross-section loop of the wall: outer up, flat top, inner down, base.
+function shellLoop(){
+  const o = outerProfile();
+  const t = params.wallThickness;
+  const loop = [];
+  for(const p of o) loop.push({ r: p.r, z: p.z });                 // outer, base->top
+  const top = o[o.length-1];
+  for(let i=o.length-1;i>=0;i--){                                   // inner, top->base
+    loop.push({ r: Math.max(o[i].r - t, 0.4), z: o[i].z });
+  }
+  return loop; // last point (inner base) -> first (outer base) closes via revolve wrap
+}
+
+// Revolve a CLOSED loop -> closed manifold BufferGeometry.
+function revolveLoop(loop, segments){
+  const P = loop.length, pos = [], idx = [];
+  for(let j=0;j<segments;j++){
+    const a = (j/segments)*Math.PI*2, ca=Math.cos(a), sa=Math.sin(a);
+    for(let i=0;i<P;i++) pos.push(loop[i].r*ca, loop[i].z, loop[i].r*sa);
+  }
+  const at = (j,i)=> (j%segments)*P + i;
+  for(let j=0;j<segments;j++) for(let i=0;i<P;i++){
+    const i2=(i+1)%P, a=at(j,i), b=at(j,i2), c=at(j+1,i2), d=at(j+1,i);
+    idx.push(a,b,d, b,c,d);
+  }
+  const g = new THREE.BufferGeometry();
+  g.setAttribute('position', new THREE.Float32BufferAttribute(pos,3));
+  g.setIndex(idx);
+  ensureOutward(g);
+  g.computeVertexNormals();
+  return g;
+}
+
+// Revolve an OPEN profile -> open strip (used for raycasting hole positions).
+function revolveStrip(points, segments){
+  const P = points.length, pos = [], idx = [];
+  for(let j=0;j<=segments;j++){
+    const a = (j/segments)*Math.PI*2, ca=Math.cos(a), sa=Math.sin(a);
+    for(let i=0;i<P;i++) pos.push(points[i].r*ca, points[i].z, points[i].r*sa);
+  }
+  const at=(j,i)=> j*P+i;
+  for(let j=0;j<segments;j++) for(let i=0;i<P-1;i++){
+    const a=at(j,i), b=at(j,i+1), c=at(j+1,i+1), d=at(j+1,i);
+    idx.push(a,b,d, b,c,d);
+  }
+  const g=new THREE.BufferGeometry();
+  g.setAttribute('position', new THREE.Float32BufferAttribute(pos,3));
+  g.setIndex(idx); g.computeVertexNormals();
+  return g;
+}
+
+// Flip winding if the mesh ended up inside-out (negative signed volume).
+function ensureOutward(geom){
+  const p = geom.attributes.position, index = geom.index.array; let vol=0;
+  const a=new THREE.Vector3(), b=new THREE.Vector3(), c=new THREE.Vector3();
+  for(let i=0;i<index.length;i+=3){
+    a.fromBufferAttribute(p,index[i]); b.fromBufferAttribute(p,index[i+1]); c.fromBufferAttribute(p,index[i+2]);
+    vol += a.dot(b.clone().cross(c))/6;
+  }
+  if(vol < 0) for(let i=0;i<index.length;i+=3){ const tmp=index[i+1]; index[i+1]=index[i+2]; index[i+2]=tmp; }
+}
+
+// Raycast helper: an outer-surface mesh in metres for projecting holes.
+let outerRayMesh = null;
+function rebuildOuterRayMesh(){
+  if(outerRayMesh){ outerRayMesh.geometry.dispose(); }
+  const o = outerProfile().map(p=>({ r:p.r/1000, z:p.z/1000 }));
+  outerRayMesh = new THREE.Mesh(revolveStrip(o, params.objSegments),
+                                new THREE.MeshBasicMaterial({ side: THREE.DoubleSide }));
+  outerRayMesh.updateMatrixWorld(true); // raycast in LED-local space (base at origin)
+}
+
+/* =========================================================================
+   SCENE BUILDERS
+   ========================================================================= */
+function flashWorld(){
+  return new THREE.Vector3(params.flashOffX/1000, params.phoneT()/1000, params.flashOffZ/1000);
+}
+params.phoneT = () => (PHONES[params.phoneModel]?.t ?? 7.8);
+
+function buildRoom(){
+  if(roomMesh){ sceneRoot.remove(roomMesh); roomMesh.geometry.dispose(); }
+  const g = new THREE.BoxGeometry(params.roomW, params.roomH, params.roomD);
+  const m = new THREE.MeshStandardMaterial({ color: 0x10131c, roughness: 1, metalness: 0, side: THREE.BackSide });
+  roomMesh = new THREE.Mesh(g, m);
+  roomMesh.position.set(0, params.roomH/2, 0);
+  sceneRoot.add(roomMesh);
+  controls.target.set(0, params.roomH*0.55, 0);
+}
+
+function buildPhone(){
+  if(phoneGroup){ sceneRoot.remove(phoneGroup); }
+  phoneGroup = new THREE.Group();
+  const spec = PHONES[params.phoneModel] || { w:71.6, d:147.6, t:7.8 };
+  const w=spec.w/1000, d=spec.d/1000, t=spec.t/1000;
+  const body = new THREE.Mesh(
+    new THREE.BoxGeometry(w, t, d),
+    new THREE.MeshStandardMaterial({ color: 0x1b1e27, roughness:0.5, metalness:0.6 }));
+  body.position.set(0, t/2, 0);
+  phoneGroup.add(body);
+  // flash marker (where the torch actually is)
+  flashMarker = new THREE.Mesh(
+    new THREE.CircleGeometry(0.004, 24),
+    new THREE.MeshBasicMaterial({ color: 0xfff2d8 }));
+  flashMarker.rotation.x = -Math.PI/2;
+  flashMarker.position.set(params.flashOffX/1000, t+0.0005, params.flashOffZ/1000);
+  phoneGroup.add(flashMarker);
+  sceneRoot.add(phoneGroup);
+}
+
+function buildObject(){
+  if(objectGroup){ sceneRoot.remove(objectGroup); }
+  objectGroup = new THREE.Group();
+  const f = flashWorld();
+  objectGroup.position.copy(f).setY(params.phoneT()/1000);
+
+  const loopM = shellLoop().map(p=>({ r:p.r/1000, z:p.z/1000 }));
+  const geo = revolveLoop(loopM, params.objSegments);
+  objectShell = new THREE.Mesh(geo, new THREE.MeshStandardMaterial({
+    color: 0x2a2f3c, roughness: 0.6, metalness: 0.1,
+    transparent: true, opacity: 0.45, side: THREE.DoubleSide,
+    emissive: 0x110b03, emissiveIntensity: 1.0,
+  }));
+  objectGroup.add(objectShell);
+  sceneRoot.add(objectGroup);
+
+  // beam cone visualisation
+  if(coneMesh){ objectGroup.remove(coneMesh); }
+  const ch = params.roomH - f.y;
+  const rTop = ch * Math.tan(THREE.MathUtils.degToRad(params.beam));
+  const cg = new THREE.ConeGeometry(rTop, ch, 48, 1, true);
+  coneMesh = new THREE.Mesh(cg, new THREE.MeshBasicMaterial({
+    color: 0xffe1a8, transparent: true, opacity: 0.05, side: THREE.DoubleSide, depthWrite:false }));
+  coneMesh.rotation.x = Math.PI;          // apex at the LED, opening up at the ceiling
+  coneMesh.position.set(0, ch/2, 0);
+  coneMesh.visible = params.showCone;
+  objectGroup.add(coneMesh);
+
+  torch.position.copy(f).setY(params.phoneT()/1000 + 0.003);
+  rebuildOuterRayMesh();
+}
+
+/* =========================================================================
+   STAR LAYOUT (procedural / artistic) -> normalized unit-disk points
+   ========================================================================= */
+function generateLayout(){
+  const rng = mulberry32(params.seed>>>0), n = params.count, pts = [];
+  const push=(x,y)=>{ if(x*x+y*y<=1.02) pts.push({x,y}); };
+  const cap = n*40; let tries=0;
+  const pat = params.pattern;
+  if(pat==='Clusters'){
+    const K=Math.max(1,Math.round(params.clusters)), centers=[];
+    for(let i=0;i<K;i++){ const r=Math.sqrt(rng())*0.8, a=rng()*2*Math.PI; centers.push([r*Math.cos(a),r*Math.sin(a)]); }
+    while(pts.length<n && tries++<cap){ const c=centers[(rng()*K)|0]; push(c[0]+gauss(rng)*params.clusterSize, c[1]+gauss(rng)*params.clusterSize); }
+  } else if(pat==='Spiral'){
+    const arms=Math.max(1,Math.round(params.spiralArms));
+    while(pts.length<n && tries++<cap){
+      const tt=rng(), arm=(rng()*arms)|0;
+      const ang=tt*params.spiralTurns*2*Math.PI + arm*2*Math.PI/arms;
+      const jx=gauss(rng)*params.clusterSize*0.5, jy=gauss(rng)*params.clusterSize*0.5;
+      push(tt*Math.cos(ang)+jx, tt*Math.sin(ang)+jy);
+    }
+  } else if(pat==='Milky Band'){
+    const ang=THREE.MathUtils.degToRad(params.bandAngle), ca=Math.cos(ang), sa=Math.sin(ang);
+    while(pts.length<n && tries++<cap){ const u=rng()*2-1, v=gauss(rng)*params.bandWidth; push(u*ca - v*sa, u*sa + v*ca); }
+  } else if(pat==='Rings'){
+    const rings=Math.max(1,Math.round(params.rings));
+    while(pts.length<n && tries++<cap){ const ri=(rng()*rings)|0, r=(ri+1)/rings*0.95, a=rng()*2*Math.PI; push((r+gauss(rng)*0.015)*Math.cos(a),(r+gauss(rng)*0.015)*Math.sin(a)); }
+  } else { // Scatter (with optional centre-weighted gradient)
+    while(pts.length<n && tries++<cap){ const r=Math.pow(rng(), 0.5 + params.gradient), a=rng()*2*Math.PI; push(r*Math.cos(a), r*Math.sin(a)); }
+  }
+  return pts.map(p=>({ x:p.x, y:p.y,
+    mag: 1 - params.brightnessVar*rng(),
+    sz:  1 - params.sizeVar*rng() }));
+}
+
+/* =========================================================================
+   PROJECTION + OPTICS  -> build the star Points + hole list
+   ========================================================================= */
+const raycaster = new THREE.Raycaster();
+// Intersect a ray from the LED with the room interior (ceiling or walls).
+function rayRoomHit(f, d){
+  const hx=params.roomW/2, hz=params.roomD/2, H=params.roomH, e=1e-6;
+  let best=Infinity, hit=null, normal=null;
+  const test=(t, px,py,pz, nx,ny,nz, okA,okB)=>{
+    if(t>e && t<best && okA && okB){ best=t; hit=new THREE.Vector3(px,py,pz); normal=new THREE.Vector3(nx,ny,nz); }
+  };
+  if(d.y> e){ const t=(H-f.y)/d.y, x=f.x+d.x*t, z=f.z+d.z*t; test(t,x,H,z, 0,-1,0, Math.abs(x)<=hx+e, Math.abs(z)<=hz+e); }
+  if(d.x> e){ const t=(hx-f.x)/d.x, y=f.y+d.y*t, z=f.z+d.z*t; test(t,hx,y,z, -1,0,0, y>=0&&y<=H, Math.abs(z)<=hz+e); }
+  if(d.x<-e){ const t=(-hx-f.x)/d.x, y=f.y+d.y*t, z=f.z+d.z*t; test(t,-hx,y,z, 1,0,0, y>=0&&y<=H, Math.abs(z)<=hz+e); }
+  if(d.z> e){ const t=(hz-f.z)/d.z, y=f.y+d.y*t, x=f.x+d.x*t; test(t,x,y,hz, 0,0,-1, y>=0&&y<=H, Math.abs(x)<=hx+e); }
+  if(d.z<-e){ const t=(-hz-f.z)/d.z, y=f.y+d.y*t, x=f.x+d.x*t; test(t,x,y,-hz, 0,0,1, y>=0&&y<=H, Math.abs(x)<=hx+e); }
+  return hit ? { point:hit, dist:best, normal } : null;
+}
+
+function updateStars(){
+  const layout = generateLayout();
+  const f = flashWorld();
+  const beamRad = THREE.MathUtils.degToRad(params.beam);
+  const dHole = params.holeDia/1000, dLED = params.ledSize/1000;
+  const baseColor = kelvinToColor(params.colorTemp);
+  const rng = mulberry32((params.seed*2+1)>>>0);
+
+  const positions=[], sizes=[], colors=[], brights=[];
+  currentHoles = []; SKIPPED = 0;
+  const raw = [];
+
+  for(const s of layout){
+    // map the normalized layout point to a direction inside the beam cone:
+    // disk radius -> polar angle theta, disk angle -> azimuth phi
+    const nr = Math.min(Math.hypot(s.x, s.y), 1.4);
+    const phi = Math.atan2(s.y, s.x);
+    const theta = nr * beamRad * params.spread;
+    const st = Math.sin(theta), ct = Math.cos(theta);
+    const dir = new THREE.Vector3(st*Math.cos(phi), ct, st*Math.sin(phi)).normalize();
+
+    // beam cone limit (FOV) with soft edge rolloff
+    const edge0 = beamRad*(1-params.beamRolloff);
+    const beamF = 1 - smoothstep(edge0, beamRad, theta);
+    if(beamF <= 0.004){ SKIPPED++; continue; }
+
+    // find the hole on the object surface for this direction.
+    // outerRayMesh lives in LED-local space (base at origin), so cast from origin.
+    raycaster.set(ORIGIN, dir);
+    const hit = raycaster.intersectObject(outerRayMesh, false)[0];
+    if(!hit){ SKIPPED++; continue; }                       // object doesn't cover this direction
+    const rHole = hit.point.length();                      // LED -> hole distance (m)
+    if(rHole <= 0.0008){ SKIPPED++; continue; }
+
+    // where does the beam land in the room (ceiling or a wall)?
+    const room = rayRoomHit(f, dir);
+    if(!room){ SKIPPED++; continue; }
+    const dist = room.dist;                                 // LED -> surface distance (m)
+    const M = dist / rHole;                                 // magnification
+    const cosInc = Math.abs(dir.dot(room.normal));          // incidence (1 = head-on)
+
+    // penumbra/blur: spot diameter ~ M*(hole + effective LED size)
+    const spot = M*(dHole + dLED*params.blur) / Math.max(cosInc, 0.25); // grazing -> stretched
+    const worldSize = Math.max(spot, 0.004) * (0.7 + 0.6*s.sz);
+
+    // brightness: inverse-square + off-axis & incidence vignette, gated by beam
+    let b = 1.0;
+    if(params.falloff){
+      b *= 1.0/(dist*dist);
+      b *= THREE.MathUtils.lerp(1.0, Math.pow(ct,3)*cosInc, params.vignette);
+    }
+    b *= beamF * s.mag * params.brightness;
+
+    // slight per-star colour variation for playfulness
+    const col = baseColor.clone();
+    const hsl = {}; col.getHSL(hsl);
+    col.setHSL((hsl.h + (rng()-0.5)*0.06 + 1)%1, clamp(hsl.s + (rng()-0.5)*0.1,0,1), hsl.l);
+
+    // nudge the sprite just off the surface so it doesn't z-fight the wall/ceiling
+    const p = room.point.clone().addScaledVector(room.normal, 0.006);
+    raw.push({ p, worldSize, b, col });
+    currentHoles.push({ pLocal: hit.point.clone(), dir: dir.clone(), world: room.point.clone() });
+  }
+
+  // normalise brightness so the brightest star ≈ 1
+  let maxB = 1e-6; for(const r of raw) maxB = Math.max(maxB, r.b);
+  for(const r of raw){
+    positions.push(r.p.x, r.p.y, r.p.z);
+    sizes.push(r.worldSize);
+    const bn = Math.pow(r.b/maxB, 0.85);
+    brights.push(bn);
+    colors.push(r.col.r, r.col.g, r.col.b);
+  }
+  REALIZED = raw.length;
+
+  // (re)build the Points object
+  if(starPoints){ sceneRoot.remove(starPoints); starPoints.geometry.dispose(); }
+  const g = new THREE.BufferGeometry();
+  g.setAttribute('position', new THREE.Float32BufferAttribute(positions,3));
+  g.setAttribute('aSize',  new THREE.Float32BufferAttribute(sizes,1));
+  g.setAttribute('aBright',new THREE.Float32BufferAttribute(brights,1));
+  g.setAttribute('aColor', new THREE.Float32BufferAttribute(colors,3));
+  if(!starMaterial) starMaterial = makeStarMaterial();
+  starPoints = new THREE.Points(g, starMaterial);
+  starPoints.frustumCulled = false;
+  sceneRoot.add(starPoints);
+
+  buildHoleMarkers();
+  buildRays(f);
+  updateStats();
+}
+
+function buildHoleMarkers(){
+  if(holeMarkers){ objectGroup.remove(holeMarkers); holeMarkers.geometry.dispose(); holeMarkers.dispose?.(); }
+  const n = currentHoles.length;
+  const geo = new THREE.SphereGeometry(0.0014, 6, 4);
+  holeMarkers = new THREE.InstancedMesh(geo, new THREE.MeshBasicMaterial({ color: 0xffce7a }), Math.max(1,n));
+  const m = new THREE.Matrix4();
+  for(let i=0;i<n;i++){ m.setPosition(currentHoles[i].pLocal); holeMarkers.setMatrixAt(i,m); }
+  holeMarkers.count = n;
+  holeMarkers.instanceMatrix.needsUpdate = true;
+  holeMarkers.visible = params.showHoles;
+  objectGroup.add(holeMarkers);
+}
+
+function buildRays(f){
+  if(raysGroup){ raysGroup.traverse(o=>o.geometry?.dispose()); sceneRoot.remove(raysGroup); }
+  raysGroup = new THREE.Group();
+  raysGroup.visible = params.showRays;
+  const mat = new THREE.LineBasicMaterial({ color: 0xffd9a0, transparent:true, opacity:0.16 });
+  const step = Math.max(1, Math.floor(currentHoles.length/16));
+  for(let i=0;i<currentHoles.length;i+=step){
+    const g = new THREE.BufferGeometry().setFromPoints([f, currentHoles[i].world]);
+    raysGroup.add(new THREE.Line(g, mat));
+  }
+  sceneRoot.add(raysGroup);
+}
+
+/* =========================================================================
+   STL EXPORT (real printable model — holes punched via CSG)
+   ========================================================================= */
+async function exportSTL(){
+  if(currentHoles.length === 0){ toast('No realisable holes — widen the object or beam first.'); return; }
+  toast('Building STL… (CSG can take a few seconds)');
+  await new Promise(r=>setTimeout(r,30));
+  try{
+    // base shell in mm (give it a uv attribute so it matches the cylinders'
+    // attribute set — three-bvh-csg interpolates attributes across both brushes)
+    const base = revolveLoop(shellLoop(), params.objSegments);
+    base.setAttribute('uv', new THREE.Float32BufferAttribute(new Float32Array(base.attributes.position.count*2), 2));
+    // hole cylinders in mm, aligned to each ray direction
+    const span = Math.max(params.wallThickness*6, 8);
+    const up = new THREE.Vector3(0,1,0), q = new THREE.Quaternion();
+    const cyls = [];
+    const cap = 200;
+    const holes = currentHoles.slice(0, cap);
+    for(const h of holes){
+      const cg = new THREE.CylinderGeometry(params.holeDia/2, params.holeDia/2, span, 14, 1);
+      q.setFromUnitVectors(up, h.dir);
+      const mtx = new THREE.Matrix4().compose(h.pLocal.clone().multiplyScalar(1000), q, new THREE.Vector3(1,1,1));
+      cg.applyMatrix4(mtx);
+      cyls.push(cg);
+    }
+    const merged = BufferGeometryUtils.mergeGeometries(cyls, false);
+
+    const { Brush, Evaluator, SUBTRACTION } = await import('three-bvh-csg');
+    const ev = new Evaluator(); ev.useGroups = false;
+    const result = ev.evaluate(new Brush(base), new Brush(merged), SUBTRACTION);
+
+    const stl = new STLExporter().parse(new THREE.Mesh(result.geometry), { binary: true });
+    download(new Blob([stl], { type: 'application/octet-stream' }), `star-projector_${params.objShape}_${holes.length}holes.stl`);
+    const note = currentHoles.length > cap ? ` (capped at ${cap}/${currentHoles.length})` : '';
+    toast(`STL exported · ${holes.length} holes · Ø${(params.objRadius*2).toFixed(0)}×${params.objHeight.toFixed(0)} mm${note}`);
+  }catch(err){
+    console.error(err);
+    toast('STL export failed — see console. (CSG library may be unavailable offline.)');
+  }
+}
+
+// ----------------------------- Save / load / capture ----------------------
+function download(blob, name){ const u=URL.createObjectURL(blob); const a=document.createElement('a'); a.href=u; a.download=name; a.click(); URL.revokeObjectURL(u); }
+function saveSettings(){
+  const out={}; for(const k in params) if(typeof params[k]!=='function') out[k]=params[k];
+  download(new Blob([JSON.stringify(out,null,2)],{type:'application/json'}), 'star-projector-settings.json');
+}
+function loadSettings(){
+  const inp=document.createElement('input'); inp.type='file'; inp.accept='application/json';
+  inp.onchange=()=>{ const fr=new FileReader(); fr.onload=()=>{ try{ Object.assign(params, JSON.parse(fr.result)); refreshAll(); gui.controllersRecursive().forEach(c=>c.updateDisplay()); toast('Settings loaded'); }catch(e){ toast('Bad settings file'); } }; fr.readAsText(inp.files[0]); };
+  inp.click();
+}
+function screenshot(){ composer.render(); download(dataURLtoBlob(renderer.domElement.toDataURL('image/png')), 'star-projector.png'); toast('Screenshot saved'); }
+function dataURLtoBlob(u){ const b=atob(u.split(',')[1]), a=new Uint8Array(b.length); for(let i=0;i<b.length;i++)a[i]=b.charCodeAt(i); return new Blob([a],{type:'image/png'}); }
+
+// ----------------------------- Refresh orchestration ----------------------
+function refreshScene(){ buildRoom(); buildPhone(); buildObject(); }
+function refreshAll(){ ambient.intensity=params.ambient; torch.intensity=0.35*params.brightness; renderer.toneMappingExposure=1.0; refreshScene(); updateStars(); applyUniforms(); }
+function applyUniforms(){
+  if(!starMaterial) return;
+  starMaterial.uniforms.uExposure.value = params.exposure;
+  starMaterial.uniforms.uDiffraction.value = params.diffraction;
+  starMaterial.uniforms.uChroma.value = params.chroma;
+  starMaterial.uniforms.uPixelScale.value = heightPixelScale();
+  starMaterial.uniforms.uSizeMul.value = 2.6 * params.starScale;
+  bloomPass.strength = params.bloom;
+}
+
+function updateStats(){
+  const el=document.getElementById('stats');
+  const warn = SKIPPED > params.count*0.25
+    ? `<span class="warn"> · ${SKIPPED} unrealisable (object too small for the beam)</span>` : '';
+  el.innerHTML = `<b>${REALIZED}</b> stars projected · beam ±<b>${params.beam.toFixed(0)}°</b> · holes Ø${params.holeDia.toFixed(2)} mm${warn}`;
+}
+
+/* =========================================================================
+   GUI
+   ========================================================================= */
+const gui = new GUI({ title: '✦ Controls' });
+
+const gPhone = gui.addFolder('iPhone');
+gPhone.add(params,'phoneModel', Object.keys(PHONES)).name('Model').onChange(v=>{
+  const s=PHONES[v]; if(s){ params.flashOffX=s.offX; params.flashOffZ=s.offZ; params.ledSize=s.led; params.beam=s.beam; params.brightness=s.bright; }
+  refreshAll(); gui.controllersRecursive().forEach(c=>c.updateDisplay());
+});
+gPhone.add(params,'beam',20,85,1).name('Beam half-angle (FOV°)').onChange(refreshAll);
+gPhone.add(params,'ledSize',0.5,10,0.1).name('LED size (mm)').onChange(updateStars);
+gPhone.add(params,'brightness',0.1,3,0.05).name('Torch brightness').onChange(refreshAll);
+gPhone.add(params,'colorTemp',2000,8000,50).name('Colour temp (K)').onChange(updateStars);
+gPhone.add(params,'flashOffX',-40,40,1).name('Flash offset X (mm)').onChange(refreshAll);
+gPhone.add(params,'flashOffZ',-75,75,1).name('Flash offset Z (mm)').onChange(refreshAll);
+
+const gObj = gui.addFolder('Object (3D-printed cap)');
+gObj.add(params,'objShape',['Dome','Cylinder','Cone']).name('Shape').onChange(refreshAll);
+gObj.add(params,'objRadius',8,80,1).name('Base radius (mm)').onChange(refreshAll);
+gObj.add(params,'objHeight',8,90,1).name('Height (mm)').onChange(refreshAll);
+gObj.add(params,'wallThickness',0.8,5,0.1).name('Wall (mm)').onChange(refreshAll);
+gObj.add(params,'holeDia',0.3,4,0.05).name('Hole Ø (mm)').onChange(updateStars);
+
+const gLayout = gui.addFolder('Star layout');
+gLayout.add(params,'pattern',['Scatter','Clusters','Spiral','Milky Band','Rings']).name('Pattern').onChange(updateStars);
+gLayout.add(params,'count',10,400,1).name('Star count').onChange(updateStars);
+gLayout.add(params,'seed',0,999,1).name('Seed').onChange(updateStars);
+gLayout.add(params,'spread',0.2,1.6,0.01).name('Spread (×beam)').onChange(updateStars);
+gLayout.add(params,'gradient',-0.3,1.2,0.05).name('Centre density').onChange(updateStars);
+gLayout.add(params,'clusters',1,20,1).name('Clusters #').onChange(updateStars);
+gLayout.add(params,'clusterSize',0.02,0.4,0.01).name('Cluster spread').onChange(updateStars);
+gLayout.add(params,'spiralArms',1,7,1).name('Spiral arms').onChange(updateStars);
+gLayout.add(params,'spiralTurns',0.3,4,0.1).name('Spiral turns').onChange(updateStars);
+gLayout.add(params,'bandAngle',0,180,1).name('Band angle°').onChange(updateStars);
+gLayout.add(params,'bandWidth',0.03,0.4,0.01).name('Band width').onChange(updateStars);
+gLayout.add(params,'rings',1,12,1).name('Rings #').onChange(updateStars);
+gLayout.add(params,'brightnessVar',0,1,0.02).name('Brightness variety').onChange(updateStars);
+gLayout.add(params,'sizeVar',0,1,0.02).name('Size variety').onChange(updateStars);
+gLayout.close();
+
+const gOpt = gui.addFolder('Optics');
+gOpt.add(params,'blur',0,3,0.05).name('Penumbra/blur').onChange(updateStars);
+gOpt.add(params,'falloff').name('Brightness falloff').onChange(updateStars);
+gOpt.add(params,'vignette',0,1,0.02).name('Edge vignette').onChange(updateStars);
+gOpt.add(params,'beamRolloff',0,0.5,0.01).name('Beam edge softness').onChange(updateStars);
+gOpt.add(params,'diffraction',0,2,0.05).name('Diffraction sparkle').onChange(applyUniforms);
+gOpt.add(params,'chroma',0,0.4,0.01).name('Chromatic fringe').onChange(applyUniforms);
+
+const gRoom = gui.addFolder('Room');
+gRoom.add(params,'roomW',2,6,0.1).name('Width (m)').onChange(refreshAll);
+gRoom.add(params,'roomD',2,6,0.1).name('Depth (m)').onChange(refreshAll);
+gRoom.add(params,'roomH',2,3.5,0.05).name('Ceiling height (m)').onChange(refreshAll);
+gRoom.add(params,'ambient',0,0.3,0.01).name('Ambient light').onChange(v=>ambient.intensity=v);
+gRoom.close();
+
+const gRender = gui.addFolder('Render');
+gRender.add(params,'exposure',0.2,3,0.05).name('Star exposure').onChange(applyUniforms);
+gRender.add(params,'bloom',0,2.5,0.05).name('Glow / bloom').onChange(applyUniforms);
+gRender.add(params,'starScale',0.3,3,0.05).name('Star size ×').onChange(()=>{ starMaterial.uniforms.uSizeMul.value=2.6*params.starScale; });
+gRender.add(params,'showCone').name('Show beam cone').onChange(v=>coneMesh.visible=v);
+gRender.add(params,'showRays').name('Show sample rays').onChange(v=>raysGroup.visible=v);
+gRender.add(params,'showHoles').name('Show hole markers').onChange(v=>holeMarkers.visible=v);
+gRender.close();
+
+const gExport = gui.addFolder('Export & share');
+gExport.add({ stl: ()=>exportSTL() },'stl').name('⬇ Export printable STL');
+gExport.add({ s: ()=>saveSettings() },'s').name('Save settings (.json)');
+gExport.add({ l: ()=>loadSettings() },'l').name('Load settings');
+gExport.add({ p: ()=>screenshot() },'p').name('📷 Screenshot (.png)');
+
+// ----------------------------- View presets -------------------------------
+function setView(which){
+  const f = flashWorld();
+  if(which==='room'){ camera.position.set(params.roomW*0.55, params.roomH*0.85, params.roomD*0.6); controls.target.set(0, params.roomH*0.55, 0); }
+  else if(which==='lookup'){ camera.position.set(f.x, 0.18, f.z+0.05); controls.target.set(f.x, params.roomH, f.z); }
+  else { camera.position.set(params.roomW*0.85, params.roomH*0.5, 0.001); controls.target.set(0, params.roomH*0.5, 0); }
+  controls.update();
+}
+document.getElementById('btn-room').onclick   = ()=>setView('room');
+document.getElementById('btn-lookup').onclick = ()=>setView('lookup');
+document.getElementById('btn-side').onclick   = ()=>setView('side');
+
+// ----------------------------- Toast --------------------------------------
+let toastTimer=null;
+function toast(msg){ const t=document.getElementById('toast'); t.textContent=msg; t.classList.add('show'); clearTimeout(toastTimer); toastTimer=setTimeout(()=>t.classList.remove('show'),3200); }
+
+// ----------------------------- Boot + loop --------------------------------
+refreshAll();
+setView('room');
+
+addEventListener('resize', ()=>{
+  camera.aspect = innerWidth/innerHeight; camera.updateProjectionMatrix();
+  renderer.setSize(innerWidth, innerHeight);
+  composer.setSize(innerWidth, innerHeight);
+  if(starMaterial) starMaterial.uniforms.uPixelScale.value = heightPixelScale();
+});
+
+renderer.setAnimationLoop(()=>{
+  controls.update();
+  composer.render();
+});
+
+// expose for debugging
+window.__sp = { params, updateStars, refreshAll, exportSTL };
+</script>
+</body>
+</html>
