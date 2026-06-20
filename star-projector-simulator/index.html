@@ -112,35 +112,35 @@ const PHONES = {
 // ----------------------------- App state ----------------------------------
 const params = {
   // Room (metres)
-  roomW: 3.6, roomD: 3.6, roomH: 2.5, ambient: 0.05,
+  roomW: 3.6, roomD: 3.6, roomH: 2.5, ambient: 0.07,
   // Phone
   phoneModel: 'iPhone 15',
   flashOffX: 26, flashOffZ: 47,   // mm, from phone centre
   ledSize: 1.5,                   // mm, effective emitter (die) size — drives penumbra/blur
   beam: 62,                       // deg, flood half-angle (FOV)
   brightness: 1.0,
-  colorTemp: 5200,                // K, LED colour
+  colorTemp: 4600,                // K, LED colour (warm white, like the reference)
   // Object (mm)
   objShape: 'Dome',
-  objRadius: 30, objHeight: 36, wallThickness: 2.0, holeDia: 1.0,
+  objRadius: 30, objHeight: 40, wallThickness: 2.0, apertureSize: 3.5,
   objSegments: 120,
   // Star layout
   pattern: 'Scatter',
-  count: 140, seed: 7, spread: 1.0,
+  count: 170, seed: 7, spread: 1.05,
   gradient: 0.0,                  // >0 = denser toward centre
   clusters: 6, clusterSize: 0.16,
   spiralArms: 2, spiralTurns: 1.4,
   bandAngle: 25, bandWidth: 0.16,
   rings: 5,
-  brightnessVar: 0.55, sizeVar: 0.5,
+  brightnessVar: 0.45, sizeVar: 0.5,
+  // Aperture shape mix (relative weights) — like the reference: mostly stars
+  shapeStars: 68, shapeMoons: 12, shapeDots: 18, shapeSparkles: 2, rotateShapes: true,
   // Optics
-  blur: 1.0,                      // multiplier on LED-size penumbra
-  falloff: true, vignette: 0.7,   // inverse-sq + cos^4 vignetting
-  beamRolloff: 0.18,              // soft fade fraction at beam edge
-  diffraction: 0.6,               // sparkle spike intensity
-  chroma: 0.12,                   // chromatic fringe
+  blur: 0.7,                      // multiplier on LED-size penumbra (edge softness)
+  falloff: true, vignette: 0.6,   // inverse-sq + off-axis/incidence vignetting
+  beamRolloff: 0.16,              // soft fade fraction at beam edge
   // Render
-  exposure: 1.0, bloom: 0.9, starScale: 1.0, showRays: true, showCone: true, showHoles: true,
+  exposure: 1.15, bloom: 0.6, starScale: 1.0, showRays: false, showCone: true, showHoles: true,
 };
 
 let SKIPPED = 0, REALIZED = 0;           // stats
@@ -204,63 +204,86 @@ let starPoints, starMaterial;
 const sceneRoot = new THREE.Group();
 scene.add(sceneRoot);
 
-// ---- Star point shader (soft glow + diffraction spikes + chromatic fringe)
-function makeStarMaterial(){
+/* ---- Aperture SHAPE atlas (2×2: star, moon, dot, sparkle) ------------------
+   Each hole is cut as one of these shapes; the wall shows a magnified, softly
+   feathered image of the shape — exactly the look in the reference photo. */
+function drawStarShape(ctx, cx, cy, R, points, inner){
+  ctx.beginPath();
+  for(let i=0;i<points*2;i++){
+    const rr=(i%2===0)?R:R*inner, a=-Math.PI/2 + i*Math.PI/points;
+    const x=cx+Math.cos(a)*rr, y=cy+Math.sin(a)*rr;
+    i===0?ctx.moveTo(x,y):ctx.lineTo(x,y);
+  }
+  ctx.closePath(); ctx.fill();
+}
+function makeShapeAtlas(){
+  const S=256, cv=document.createElement('canvas'); cv.width=cv.height=S*2;
+  const ctx=cv.getContext('2d'); ctx.fillStyle='#fff';
+  const place=(col,row,fn)=>{ const cx=col*S+S/2, cy=row*S+S/2; fn(cx,cy,S*0.36); };
+  place(0,0,(cx,cy,R)=>drawStarShape(ctx,cx,cy,R,5,0.42));              // 0 star
+  place(1,0,(cx,cy,R)=>{                                                // 1 crescent moon
+    ctx.save();
+    ctx.beginPath(); ctx.arc(cx,cy,R,0,Math.PI*2); ctx.fill();
+    ctx.globalCompositeOperation='destination-out';
+    ctx.beginPath(); ctx.arc(cx+R*0.5, cy-R*0.12, R*0.9, 0, Math.PI*2); ctx.fill();
+    ctx.restore();
+  });
+  place(0,1,(cx,cy,R)=>{ ctx.beginPath(); ctx.arc(cx,cy,R*0.78,0,Math.PI*2); ctx.fill(); }); // 2 dot
+  place(1,1,(cx,cy,R)=>drawStarShape(ctx,cx,cy,R,4,0.34));              // 3 sparkle
+  // Soften edges so the penumbra feather has a gradient to work with.
+  const out=document.createElement('canvas'); out.width=out.height=S*2;
+  const o=out.getContext('2d'); o.filter='blur(4px)'; o.drawImage(cv,0,0);
+  const tex=new THREE.CanvasTexture(out);
+  tex.flipY=false; tex.generateMipmaps=false;
+  tex.minFilter=THREE.LinearFilter; tex.magFilter=THREE.LinearFilter;
+  tex.colorSpace=THREE.NoColorSpace;
+  return tex;
+}
+const shapeAtlas = makeShapeAtlas();
+function edgeFromBlur(){ return clamp(0.06 + params.blur*0.13, 0.03, 0.46); }
+
+// Unit quad as an InstancedBufferGeometry seed (one decal per instance).
+function makeQuadGeom(){
+  const g=new THREE.InstancedBufferGeometry();
+  g.setAttribute('position', new THREE.BufferAttribute(new Float32Array([-0.5,-0.5,0, 0.5,-0.5,0, 0.5,0.5,0, -0.5,0.5,0]),3));
+  g.setAttribute('uv', new THREE.BufferAttribute(new Float32Array([0,0, 1,0, 1,1, 0,1]),2));
+  g.setIndex([0,1,2, 0,2,3]);
+  return g;
+}
+
+// Decal material: each instance is a flat shape lying on the wall/ceiling.
+function makeDecalMaterial(){
   return new THREE.ShaderMaterial({
-    uniforms: {
-      uPixelScale: { value: heightPixelScale() },
-      uSizeMul:    { value: 2.6 },
-      uExposure:   { value: params.exposure },
-      uDiffraction:{ value: params.diffraction },
-      uChroma:     { value: params.chroma },
-    },
+    uniforms: { uAtlas:{value:shapeAtlas}, uExposure:{value:params.exposure}, uEdge:{value:edgeFromBlur()} },
     vertexShader: /* glsl */`
-      attribute float aSize;
-      attribute float aBright;
-      attribute vec3  aColor;
-      varying float vBright;
-      varying vec3  vColor;
-      uniform float uPixelScale;
-      uniform float uSizeMul;
+      attribute vec3 iCenter; attribute vec3 iAxisX; attribute vec3 iAxisY;
+      attribute vec3 iColor;  attribute float iBright; attribute float iShape; attribute float iRot;
+      varying vec2 vUv; varying vec3 vColor; varying float vBright;
       void main(){
-        vBright = aBright; vColor = aColor;
-        vec4 mv = modelViewMatrix * vec4(position, 1.0);
-        gl_Position = projectionMatrix * mv;
-        float px = aSize * uSizeMul * uPixelScale / max(0.0001, -mv.z);
-        gl_PointSize = clamp(px, 1.0, 900.0);
+        vec3 wp = iCenter + position.x*iAxisX + position.y*iAxisY;
+        vec2 c = uv - 0.5;
+        float cs=cos(iRot), sn=sin(iRot);
+        vec2 rc = vec2(c.x*cs - c.y*sn, c.x*sn + c.y*cs);
+        float col = mod(iShape, 2.0);
+        float row = floor(iShape*0.5);
+        vUv = vec2(col,row)*0.5 + (rc*0.9 + 0.5)*0.5;   // into the right atlas cell
+        vColor=iColor; vBright=iBright;
+        gl_Position = projectionMatrix * viewMatrix * modelMatrix * vec4(wp, 1.0);
       }`,
     fragmentShader: /* glsl */`
       precision highp float;
-      varying float vBright;
-      varying vec3  vColor;
-      uniform float uExposure;
-      uniform float uDiffraction;
-      uniform float uChroma;
-      float glow(float r){ float v = clamp(1.0 - r, 0.0, 1.0); return v*v*v; }
+      uniform sampler2D uAtlas; uniform float uExposure, uEdge;
+      varying vec2 vUv; varying vec3 vColor; varying float vBright;
       void main(){
-        vec2 c = (gl_PointCoord - 0.5) * 2.0;   // -1..1
-        float r = length(c);
-        if(r > 1.0) discard;
-        // chromatic fringe: sample the radial glow at slightly different radii
-        float gR = glow(r * (1.0 + uChroma));
-        float gG = glow(r);
-        float gB = glow(r * (1.0 - uChroma));
-        vec3 core = vColor * gG + vec3(gR, gG, gB) * (uChroma * 1.5);
-        // 4-point diffraction spikes
-        vec2 a = abs(c);
-        float sx = pow(clamp(1.0 - a.x, 0.0, 1.0), 26.0) * clamp(1.0 - a.y*1.3, 0.0, 1.0);
-        float sy = pow(clamp(1.0 - a.y, 0.0, 1.0), 26.0) * clamp(1.0 - a.x*1.3, 0.0, 1.0);
-        vec3 spike = vColor * (sx + sy) * uDiffraction;
-        vec3 col = (core + spike) * vBright * uExposure;
-        gl_FragColor = vec4(col, 1.0);
+        float a = texture2D(uAtlas, vUv).a;
+        a = smoothstep(0.5-uEdge, 0.5+uEdge, a);   // penumbra feather
+        if(a <= 0.003) discard;
+        gl_FragColor = vec4(vColor * a * vBright * uExposure, 1.0);
       }`,
-    transparent: true,
-    blending: THREE.AdditiveBlending,
-    depthWrite: false,
-    depthTest: true,
+    transparent: true, blending: THREE.AdditiveBlending, depthWrite: false, depthTest: true,
+    side: THREE.DoubleSide,
   });
 }
-function heightPixelScale(){ return innerHeight / (2.0 * Math.tan(THREE.MathUtils.degToRad(camera.fov)/2)); }
 
 /* =========================================================================
    OBJECT GEOMETRY (surface of revolution -> closed manifold shell)
@@ -486,17 +509,22 @@ function updateStars(){
   const layout = generateLayout();
   const f = flashWorld();
   const beamRad = THREE.MathUtils.degToRad(params.beam);
-  const dHole = params.holeDia/1000, dLED = params.ledSize/1000;
+  const apM = params.apertureSize/1000, dLED = params.ledSize/1000;
   const baseColor = kelvinToColor(params.colorTemp);
   const rng = mulberry32((params.seed*2+1)>>>0);
 
-  const positions=[], sizes=[], colors=[], brights=[];
+  // aperture shape mix (relative weights) -> per-star shape index
+  const W=[Math.max(0,params.shapeStars),Math.max(0,params.shapeMoons),Math.max(0,params.shapeDots),Math.max(0,params.shapeSparkles)];
+  const Wsum=(W[0]+W[1]+W[2]+W[3])||1;
+  const pickShape=(r)=>{ let a=r*Wsum; if((a-=W[0])<0)return 0; if((a-=W[1])<0)return 1; if((a-=W[2])<0)return 2; return 3; };
+  const shapeSizeMul=[1.0, 1.15, 0.55, 0.8];   // star, moon, dot, sparkle
+
   currentHoles = []; SKIPPED = 0;
   const raw = [];
+  const tmpA=new THREE.Vector3(), tmpB=new THREE.Vector3();
 
   for(const s of layout){
-    // map the normalized layout point to a direction inside the beam cone:
-    // disk radius -> polar angle theta, disk angle -> azimuth phi
+    // map the normalized layout point to a direction inside the beam cone
     const nr = Math.min(Math.hypot(s.x, s.y), 1.4);
     const phi = Math.atan2(s.y, s.x);
     const theta = nr * beamRad * params.spread;
@@ -508,64 +536,79 @@ function updateStars(){
     const beamF = 1 - smoothstep(edge0, beamRad, theta);
     if(beamF <= 0.004){ SKIPPED++; continue; }
 
-    // find the hole on the object surface for this direction.
-    // outerRayMesh lives in LED-local space (base at origin), so cast from origin.
+    // hole on the object surface (outerRayMesh is in LED-local space)
     raycaster.set(ORIGIN, dir);
     const hit = raycaster.intersectObject(outerRayMesh, false)[0];
-    if(!hit){ SKIPPED++; continue; }                       // object doesn't cover this direction
-    const rHole = hit.point.length();                      // LED -> hole distance (m)
+    if(!hit){ SKIPPED++; continue; }
+    const rHole = hit.point.length();
     if(rHole <= 0.0008){ SKIPPED++; continue; }
 
-    // where does the beam land in the room (ceiling or a wall)?
+    // where the beam lands in the room (ceiling or a wall)
     const room = rayRoomHit(f, dir);
     if(!room){ SKIPPED++; continue; }
-    const dist = room.dist;                                 // LED -> surface distance (m)
+    const n = room.normal, dist = room.dist;
     const M = dist / rHole;                                 // magnification
-    const cosInc = Math.abs(dir.dot(room.normal));          // incidence (1 = head-on)
+    const cosInc = Math.abs(dir.dot(n));                    // 1 = head-on
 
-    // penumbra/blur: spot diameter ~ M*(hole + effective LED size)
-    const spot = M*(dHole + dLED*params.blur) / Math.max(cosInc, 0.25); // grazing -> stretched
-    const worldSize = Math.max(spot, 0.004) * (0.7 + 0.6*s.sz);
+    const shp = pickShape(rng());
+    const rot = params.rotateShapes ? rng()*Math.PI*2 : 0;
 
-    // brightness: inverse-square + off-axis & incidence vignette, gated by beam
+    // projected shape size (m): magnified aperture + LED penumbra
+    const core = M * apM * shapeSizeMul[shp];
+    const penumbra = M * dLED * params.blur;
+    const diam = Math.max((core + penumbra) * (0.7 + 0.6*s.sz) * params.starScale, 0.012);
+    const half = diam * 0.5;
+    const stretch = 1 / clamp(cosInc, 0.28, 1);            // elongate at grazing incidence
+
+    // in-plane basis: A along the incidence direction (stretch axis), B = n × A
+    let A = tmpA.copy(dir).addScaledVector(n, -dir.dot(n));
+    if(A.lengthSq() < 1e-8){ A.set(Math.abs(n.y)<0.9?0:1, Math.abs(n.y)<0.9?1:0, 0).addScaledVector(n, -tmpA.dot(n)); }
+    A.normalize();
+    const B = tmpB.crossVectors(n, A).normalize();
+    const axisX = A.clone().multiplyScalar(half*stretch);
+    const axisY = B.clone().multiplyScalar(half);
+
+    // brightness: inverse-square + off-axis/incidence vignette, gated by beam
     let b = 1.0;
-    if(params.falloff){
-      b *= 1.0/(dist*dist);
-      b *= THREE.MathUtils.lerp(1.0, Math.pow(ct,3)*cosInc, params.vignette);
-    }
+    if(params.falloff){ b *= 1.0/(dist*dist); b *= THREE.MathUtils.lerp(1.0, Math.pow(ct,3)*cosInc, params.vignette); }
     b *= beamF * s.mag * params.brightness;
 
-    // slight per-star colour variation for playfulness
-    const col = baseColor.clone();
-    const hsl = {}; col.getHSL(hsl);
-    col.setHSL((hsl.h + (rng()-0.5)*0.06 + 1)%1, clamp(hsl.s + (rng()-0.5)*0.1,0,1), hsl.l);
+    // gentle per-star colour variation
+    const col = baseColor.clone(); const hsl={}; col.getHSL(hsl);
+    col.setHSL((hsl.h + (rng()-0.5)*0.05 + 1)%1, clamp(hsl.s + (rng()-0.5)*0.08,0,1), hsl.l);
 
-    // nudge the sprite just off the surface so it doesn't z-fight the wall/ceiling
-    const p = room.point.clone().addScaledVector(room.normal, 0.006);
-    raw.push({ p, worldSize, b, col });
-    currentHoles.push({ pLocal: hit.point.clone(), dir: dir.clone(), world: room.point.clone() });
+    const p = room.point.clone().addScaledVector(n, 0.006); // off-surface to avoid z-fighting
+    raw.push({ p, axisX, axisY, b, col, shp, rot });
+    currentHoles.push({ pLocal: hit.point.clone(), dir: dir.clone(), world: room.point.clone(), shape: shp });
   }
 
-  // normalise brightness so the brightest star ≈ 1
+  // normalise brightness so the brightest decal ≈ 1, then pack instance buffers
   let maxB = 1e-6; for(const r of raw) maxB = Math.max(maxB, r.b);
-  for(const r of raw){
-    positions.push(r.p.x, r.p.y, r.p.z);
-    sizes.push(r.worldSize);
-    const bn = Math.pow(r.b/maxB, 0.85);
-    brights.push(bn);
-    colors.push(r.col.r, r.col.g, r.col.b);
+  const N = raw.length; REALIZED = N;
+  const iC=new Float32Array(N*3), iX=new Float32Array(N*3), iY=new Float32Array(N*3), iCol=new Float32Array(N*3);
+  const iB=new Float32Array(N), iS=new Float32Array(N), iR=new Float32Array(N);
+  for(let k=0;k<N;k++){
+    const r=raw[k];
+    iC.set([r.p.x,r.p.y,r.p.z], k*3);
+    iX.set([r.axisX.x,r.axisX.y,r.axisX.z], k*3);
+    iY.set([r.axisY.x,r.axisY.y,r.axisY.z], k*3);
+    iCol.set([r.col.r,r.col.g,r.col.b], k*3);
+    iB[k]=Math.pow(r.b/maxB, 0.8)*1.25; iS[k]=r.shp; iR[k]=r.rot;
   }
-  REALIZED = raw.length;
 
-  // (re)build the Points object
+  // (re)build the instanced decal mesh
   if(starPoints){ sceneRoot.remove(starPoints); starPoints.geometry.dispose(); }
-  const g = new THREE.BufferGeometry();
-  g.setAttribute('position', new THREE.Float32BufferAttribute(positions,3));
-  g.setAttribute('aSize',  new THREE.Float32BufferAttribute(sizes,1));
-  g.setAttribute('aBright',new THREE.Float32BufferAttribute(brights,1));
-  g.setAttribute('aColor', new THREE.Float32BufferAttribute(colors,3));
-  if(!starMaterial) starMaterial = makeStarMaterial();
-  starPoints = new THREE.Points(g, starMaterial);
+  const g = makeQuadGeom();
+  g.setAttribute('iCenter', new THREE.InstancedBufferAttribute(iC,3));
+  g.setAttribute('iAxisX',  new THREE.InstancedBufferAttribute(iX,3));
+  g.setAttribute('iAxisY',  new THREE.InstancedBufferAttribute(iY,3));
+  g.setAttribute('iColor',  new THREE.InstancedBufferAttribute(iCol,3));
+  g.setAttribute('iBright', new THREE.InstancedBufferAttribute(iB,1));
+  g.setAttribute('iShape',  new THREE.InstancedBufferAttribute(iS,1));
+  g.setAttribute('iRot',    new THREE.InstancedBufferAttribute(iR,1));
+  g.instanceCount = N;
+  if(!starMaterial) starMaterial = makeDecalMaterial();
+  starPoints = new THREE.Mesh(g, starMaterial);
   starPoints.frustumCulled = false;
   sceneRoot.add(starPoints);
 
@@ -601,8 +644,46 @@ function buildRays(f){
 }
 
 /* =========================================================================
-   STL EXPORT (real printable model — holes punched via CSG)
+   STL EXPORT (real printable model — shaped holes punched via CSG)
    ========================================================================= */
+const APERTURE_SIZEMUL = [1.0, 1.15, 0.55, 0.8];   // star, moon, dot, sparkle
+function starShape2D(R, points, inner){
+  const s=new THREE.Shape();
+  for(let i=0;i<points*2;i++){ const rr=(i%2===0)?R:R*inner, a=-Math.PI/2+i*Math.PI/points; const x=Math.cos(a)*rr, y=Math.sin(a)*rr; i===0?s.moveTo(x,y):s.lineTo(x,y); }
+  s.closePath(); return s;
+}
+function crescentShape2D(R){
+  const rc=0.9*R, cx=0.5*R, d=cx;
+  const a=(d*d - rc*rc + R*R)/(2*d), h=Math.sqrt(Math.max(0, R*R - a*a));
+  if(!(h>1e-4)){ const c=new THREE.Shape(); c.absarc(0,0,R,0,Math.PI*2,false); return c; }
+  const thU=Math.atan2(h,a), N=40, s=new THREE.Shape();
+  for(let i=0;i<=N;i++){ const t=thU + (2*Math.PI-2*thU)*i/N; const x=R*Math.cos(t), y=R*Math.sin(t); i===0?s.moveTo(x,y):s.lineTo(x,y); } // outer rim (long way)
+  const fL=Math.atan2(-h, a-cx), fU2=Math.atan2(h, a-cx)-2*Math.PI;          // inner bite (through leftmost)
+  for(let i=0;i<=N;i++){ const t=fL + (fU2-fL)*i/N; s.lineTo(cx+rc*Math.cos(t), rc*Math.sin(t)); }
+  s.closePath(); return s;
+}
+function apertureShape2D(shp, R){
+  if(shp===0) return starShape2D(R, 5, 0.42);   // star
+  if(shp===3) return starShape2D(R, 4, 0.34);   // sparkle
+  return crescentShape2D(R);                     // moon
+}
+// One solid cutter prism (mm), oriented along the hole's ray direction.
+function buildCutter(h, span){
+  const R = (params.apertureSize/2) * APERTURE_SIZEMUL[h.shape];
+  let geo, axis;
+  if(h.shape===2){                                // dot -> cylinder
+    geo = new THREE.CylinderGeometry(R, R, span, 20, 1); axis = new THREE.Vector3(0,1,0);
+  } else {                                         // star/moon/sparkle -> extruded prism
+    let shp2d; try { shp2d = apertureShape2D(h.shape, R); } catch(e){ const c=new THREE.Shape(); c.absarc(0,0,R,0,Math.PI*2,false); shp2d=c; }
+    geo = new THREE.ExtrudeGeometry(shp2d, { depth: span, bevelEnabled:false, steps:1 });
+    geo.translate(0,0,-span/2); axis = new THREE.Vector3(0,0,1);
+  }
+  const q = new THREE.Quaternion().setFromUnitVectors(axis, h.dir);
+  geo.applyMatrix4(new THREE.Matrix4().compose(h.pLocal.clone().multiplyScalar(1000), q, new THREE.Vector3(1,1,1)));
+  if(!geo.attributes.uv) geo.setAttribute('uv', new THREE.Float32BufferAttribute(new Float32Array(geo.attributes.position.count*2),2));
+  return geo;
+}
+
 async function exportSTL(){
   if(currentHoles.length === 0){ toast('No realisable holes — widen the object or beam first.'); return; }
   toast('Building STL… (CSG can take a few seconds)');
@@ -612,20 +693,12 @@ async function exportSTL(){
     // attribute set — three-bvh-csg interpolates attributes across both brushes)
     const base = revolveLoop(shellLoop(), params.objSegments);
     base.setAttribute('uv', new THREE.Float32BufferAttribute(new Float32Array(base.attributes.position.count*2), 2));
-    // hole cylinders in mm, aligned to each ray direction
+    // shaped hole cutters in mm, aligned to each ray direction
     const span = Math.max(params.wallThickness*6, 8);
-    const up = new THREE.Vector3(0,1,0), q = new THREE.Quaternion();
-    const cyls = [];
     const cap = 200;
     const holes = currentHoles.slice(0, cap);
-    for(const h of holes){
-      const cg = new THREE.CylinderGeometry(params.holeDia/2, params.holeDia/2, span, 14, 1);
-      q.setFromUnitVectors(up, h.dir);
-      const mtx = new THREE.Matrix4().compose(h.pLocal.clone().multiplyScalar(1000), q, new THREE.Vector3(1,1,1));
-      cg.applyMatrix4(mtx);
-      cyls.push(cg);
-    }
-    const merged = BufferGeometryUtils.mergeGeometries(cyls, false);
+    const cutters = holes.map(h => buildCutter(h, span));
+    const merged = BufferGeometryUtils.mergeGeometries(cutters, false);
 
     const { Brush, Evaluator, SUBTRACTION } = await import('three-bvh-csg');
     const ev = new Evaluator(); ev.useGroups = false;
@@ -661,10 +734,7 @@ function refreshAll(){ ambient.intensity=params.ambient; torch.intensity=0.35*pa
 function applyUniforms(){
   if(!starMaterial) return;
   starMaterial.uniforms.uExposure.value = params.exposure;
-  starMaterial.uniforms.uDiffraction.value = params.diffraction;
-  starMaterial.uniforms.uChroma.value = params.chroma;
-  starMaterial.uniforms.uPixelScale.value = heightPixelScale();
-  starMaterial.uniforms.uSizeMul.value = 2.6 * params.starScale;
+  starMaterial.uniforms.uEdge.value = edgeFromBlur();
   bloomPass.strength = params.bloom;
 }
 
@@ -672,7 +742,7 @@ function updateStats(){
   const el=document.getElementById('stats');
   const warn = SKIPPED > params.count*0.25
     ? `<span class="warn"> · ${SKIPPED} unrealisable (object too small for the beam)</span>` : '';
-  el.innerHTML = `<b>${REALIZED}</b> stars projected · beam ±<b>${params.beam.toFixed(0)}°</b> · holes Ø${params.holeDia.toFixed(2)} mm${warn}`;
+  el.innerHTML = `<b>${REALIZED}</b> shapes projected · beam ±<b>${params.beam.toFixed(0)}°</b> · aperture ${params.apertureSize.toFixed(1)} mm${warn}`;
 }
 
 /* =========================================================================
@@ -697,7 +767,7 @@ gObj.add(params,'objShape',['Dome','Cylinder','Cone']).name('Shape').onChange(re
 gObj.add(params,'objRadius',8,80,1).name('Base radius (mm)').onChange(refreshAll);
 gObj.add(params,'objHeight',8,90,1).name('Height (mm)').onChange(refreshAll);
 gObj.add(params,'wallThickness',0.8,5,0.1).name('Wall (mm)').onChange(refreshAll);
-gObj.add(params,'holeDia',0.3,4,0.05).name('Hole Ø (mm)').onChange(updateStars);
+gObj.add(params,'apertureSize',1.0,8,0.1).name('Aperture size (mm)').onChange(updateStars);
 
 const gLayout = gui.addFolder('Star layout');
 gLayout.add(params,'pattern',['Scatter','Clusters','Spiral','Milky Band','Rings']).name('Pattern').onChange(updateStars);
@@ -716,13 +786,18 @@ gLayout.add(params,'brightnessVar',0,1,0.02).name('Brightness variety').onChange
 gLayout.add(params,'sizeVar',0,1,0.02).name('Size variety').onChange(updateStars);
 gLayout.close();
 
+const gShape = gui.addFolder('Aperture shapes');
+gShape.add(params,'shapeStars',0,100,1).name('Stars (weight)').onChange(updateStars);
+gShape.add(params,'shapeMoons',0,100,1).name('Moons (weight)').onChange(updateStars);
+gShape.add(params,'shapeDots',0,100,1).name('Dots (weight)').onChange(updateStars);
+gShape.add(params,'shapeSparkles',0,100,1).name('Sparkles (weight)').onChange(updateStars);
+gShape.add(params,'rotateShapes').name('Random rotation').onChange(updateStars);
+
 const gOpt = gui.addFolder('Optics');
-gOpt.add(params,'blur',0,3,0.05).name('Penumbra/blur').onChange(updateStars);
+gOpt.add(params,'blur',0,3,0.05).name('Penumbra / edge blur').onChange(()=>{ updateStars(); applyUniforms(); });
 gOpt.add(params,'falloff').name('Brightness falloff').onChange(updateStars);
 gOpt.add(params,'vignette',0,1,0.02).name('Edge vignette').onChange(updateStars);
 gOpt.add(params,'beamRolloff',0,0.5,0.01).name('Beam edge softness').onChange(updateStars);
-gOpt.add(params,'diffraction',0,2,0.05).name('Diffraction sparkle').onChange(applyUniforms);
-gOpt.add(params,'chroma',0,0.4,0.01).name('Chromatic fringe').onChange(applyUniforms);
 
 const gRoom = gui.addFolder('Room');
 gRoom.add(params,'roomW',2,6,0.1).name('Width (m)').onChange(refreshAll);
@@ -734,7 +809,7 @@ gRoom.close();
 const gRender = gui.addFolder('Render');
 gRender.add(params,'exposure',0.2,3,0.05).name('Star exposure').onChange(applyUniforms);
 gRender.add(params,'bloom',0,2.5,0.05).name('Glow / bloom').onChange(applyUniforms);
-gRender.add(params,'starScale',0.3,3,0.05).name('Star size ×').onChange(()=>{ starMaterial.uniforms.uSizeMul.value=2.6*params.starScale; });
+gRender.add(params,'starScale',0.3,3,0.05).name('Shape size ×').onChange(updateStars);
 gRender.add(params,'showCone').name('Show beam cone').onChange(v=>coneMesh.visible=v);
 gRender.add(params,'showRays').name('Show sample rays').onChange(v=>raysGroup.visible=v);
 gRender.add(params,'showHoles').name('Show hole markers').onChange(v=>holeMarkers.visible=v);
@@ -770,7 +845,6 @@ addEventListener('resize', ()=>{
   camera.aspect = innerWidth/innerHeight; camera.updateProjectionMatrix();
   renderer.setSize(innerWidth, innerHeight);
   composer.setSize(innerWidth, innerHeight);
-  if(starMaterial) starMaterial.uniforms.uPixelScale.value = heightPixelScale();
 });
 
 renderer.setAnimationLoop(()=>{

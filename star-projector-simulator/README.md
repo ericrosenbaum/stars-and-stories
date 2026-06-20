@@ -33,12 +33,14 @@ python3 -m http.server 8000
     size, torch brightness, colour temperature, and the flash's offset from the
     phone centre.
   - **Object** — shape (dome / cylinder / cone), base radius, height, wall
-    thickness, and hole diameter (all in mm).
+    thickness, and aperture size (all in mm).
   - **Star layout** — procedural patterns (scatter, clusters, spiral, Milky-Way
-    band, rings), star count, seed, spread, density and brightness/size variety.
-  - **Optics** — penumbra/blur, brightness falloff, edge vignette, beam-edge
-    softness, diffraction sparkle, chromatic fringe.
-  - **Render** — exposure, bloom/glow, star size, and toggles for the beam cone,
+    band, rings), count, seed, spread, density and brightness/size variety.
+  - **Aperture shapes** — the mix of cut-out shapes (★ stars, ☾ crescent moons,
+    • dots, ✦ sparkles) and whether each is randomly rotated.
+  - **Optics** — penumbra / edge blur, brightness falloff, edge vignette, and
+    beam-edge softness.
+  - **Render** — exposure, bloom/glow, shape size, and toggles for the beam cone,
     sample light rays, and hole markers.
 - **Export & share** — download a **printable STL**, save/load all settings as
   JSON, and grab a PNG screenshot.
@@ -46,25 +48,29 @@ python3 -m http.server 8000
 ## How the simulation works
 
 The LED torch is modelled as a small point source sitting at the base of the
-cap. The key insight: **each hole defines a direction from the LED**, and the
-star lands where that ray meets the ceiling.
+cap. The key insight: this is a **gobo / shaped-aperture projection** — each
+cut-out (star, moon, dot…) defines a direction from the LED, and the wall shows
+a magnified, softly-blurred **image of that shape's silhouette** (just like the
+reference photo, where pierced shapes in a metal lamp cast crisp stars and
+moons on the walls).
 
 - Position: a hole along direction `d` projects to wherever that ray first hits
   the room — the **ceiling in the centre, the upper walls toward the edges** (a
   ~60° beam in a 2.5 m room is wider than the ceiling, so the field naturally
   wraps onto the walls). Magnification `M = (LED→surface distance) / (LED→hole
   distance)`.
-- **Penumbra / blur:** because the LED has a finite size, each star is a soft
-  spot of diameter ≈ `M · (hole_Ø + LED_size)` (stretched at grazing incidence
-  on the walls). Bigger holes, bigger LEDs and taller magnification all make
-  softer, larger stars — so a *small* hole on a *tall* cap gives the crispest
-  stars.
-- **Brightness falloff:** inverse-square over the LED→ceiling path length, times
-  a `cos⁴θ` off-axis vignette, so stars near the edge of the beam are dimmer.
+- **Shape size:** each projected shape is `≈ M ×` its aperture size, drawn as a
+  flat decal lying on the surface and **stretched along the incidence direction**
+  on the walls (grazing angles elongate it, like a real projection).
+- **Penumbra / blur:** the finite LED size feathers every shape's edge by
+  `≈ M · LED_size`. Bigger LED or magnification → softer edges; a *small* LED on
+  a *tall* cap keeps the shapes crisp and recognisable.
+- **Brightness falloff:** inverse-square over the LED→surface path length, times
+  an off-axis / incidence vignette, so shapes near the beam edge are dimmer.
 - **Beam-cone FOV:** the torch only emits within a cone (half-angle from the
-  iPhone preset, adjustable). Stars beyond it fade out at the edge.
-- **Diffraction & colour:** small holes add sparkle/spikes and a slight
-  chromatic fringe; the LED colour temperature tints the whole field.
+  iPhone preset, adjustable). Shapes beyond it fade out at the edge.
+- **Colour:** the LED colour-temperature tints the whole field (a warm white by
+  default), with gentle per-shape variation.
 
 Star positions, sizes and brightness are computed **analytically** and drawn as
 additive glowing points — not via GPU shadow casting. This is far faster and
@@ -74,8 +80,9 @@ smooth shell with hole markers; the STL export punches the real holes.
 ### STL export
 
 The cap is built as a closed manifold surface of revolution (dome/cylinder/cone
-shell with a wall and a small flat top). For every realisable star, a cylinder
-is drilled along that star's ray direction and subtracted from the shell using
+shell with a wall and a small flat top). For every realisable shape, a matching
+**shaped prism** (star / crescent / circle / sparkle) is drilled along that
+shape's ray direction and subtracted from the shell using
 [`three-bvh-csg`](https://github.com/gkjohnson/three-bvh-csg). The result is
 exported in **millimetres**, ready to slice and print. Print it in an opaque
 material; the inside should be light-tight except the holes. Hole count for
