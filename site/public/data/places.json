@@ -1,0 +1,4874 @@
+[
+  {
+    "id": "02paza6jhazVJak5KQa3",
+    "name": "The Bistrom Store",
+    "description": "A specialized shop on the corner of Cornell and Poplar that exclusively sells mushrooms.",
+    "storyIds": [
+      "Hattie_s_Indigo_Mushroom_Adventure"
+    ],
+    "firstAppearanceStoryId": "Hattie_s_Indigo_Mushroom_Adventure"
+  },
+  {
+    "id": "0Af7QEQG3awVVhKohrLP",
+    "name": "Isabella's House",
+    "description": "A home on Cornell Street with a basement containing bins of storybooks.",
+    "storyIds": [
+      "The_Sparkling_Dust_of_Book_World"
+    ],
+    "firstAppearanceStoryId": "The_Sparkling_Dust_of_Book_World"
+  },
+  {
+    "id": "0EhqBXd9nIGWRAjnsuYY",
+    "name": "Mischief Mouse's Gigantic Dotted House",
+    "description": "A large house with purple stripes and a unique 'Bing bong bingo Esta' doorbell.",
+    "storyIds": [
+      "The_Magic_Forest_Photo_Tour"
+    ],
+    "firstAppearanceStoryId": "The_Magic_Forest_Photo_Tour"
+  },
+  {
+    "id": "0NvISHs7BPChtMR9PyF4",
+    "name": "Hilltop House",
+    "description": "A landmark where the map-maker Pisco resides.",
+    "storyIds": [
+      "The_Legend_of_the_Ice_Gem"
+    ],
+    "firstAppearanceStoryId": "The_Legend_of_the_Ice_Gem"
+  },
+  {
+    "id": "0UORB9bxgHINEKOfciRt",
+    "name": "The Dark Forest",
+    "description": "A friendly forest filled with twigs, worms, slugs, and bugs.",
+    "storyIds": [
+      "Tigger_s_Quest_for_the_Wizard_s_Magic_Wand"
+    ],
+    "firstAppearanceStoryId": "Tigger_s_Quest_for_the_Wizard_s_Magic_Wand"
+  },
+  {
+    "id": "0UZybe7A5f71s0anTy3H",
+    "name": "The Island",
+    "description": "Across the vast ocean lies a remote expanse where sun-bleached sandy beaches give way to a suffocatingly dense jungle. Above the emerald canopy, a range of jagged, cloud-piercing mountains dominates the horizon, shielding a lonely playground nestled strangely within the wild, untamed terrain.",
+    "storyIds": [
+      "Tiggy_Riggy_and_the_Rainbow_Fish",
+      "The_Great_Expedition_of_the_Sas-ma-ras-ma-fla-mas_Frog"
+    ],
+    "firstAppearanceStoryId": "Tiggy_Riggy_and_the_Rainbow_Fish"
+  },
+  {
+    "id": "0WS8oeSkiLgljSZERoEM",
+    "name": "The Attic",
+    "description": "At the spaceship’s highest point—a vital hub for testing critical systems and the original home of Oscar Mouse before his move—lies a dusty alcove within Isabella’s home; there, in a vault Seeker once discovered, a fractured crown still glimmers with a stubborn, broken brilliance.",
+    "storyIds": [
+      "The_Imaginary_Road_Trip_to_Nana_s_House",
+      "Captain_Izzy_s_Martian_Mission",
+      "Seeker_s_Tour_of_the_Rooftop_Garden_and_Dollhouse",
+      "The_Ice_Dragon_s_New_Hat"
+    ],
+    "firstAppearanceStoryId": "The_Imaginary_Road_Trip_to_Nana_s_House"
+  },
+  {
+    "id": "0dIDzRGh5pekeo9rrQiH",
+    "name": "Potion Closet",
+    "description": "Hidden behind a secret door in Seeker’s castle lies a vaulted chamber lined with enchanted cabinets, rare ingredients, and complex concoctions. Shimmering vials containing the molten heat of Volcano World and the verdant gales of Grassy World glow upon the shelves, while the air remains thick with curious sniffs—fleeting, sensory echoes of the bottled magic stored within this hidden sanctum.",
+    "storyIds": [
+      "A_Sticky_Adventure_to_the_Castle_of_Slime",
+      "Slime-Ka-Bye_The_Beard-Dweller_s_Deep_Sea_Adventure",
+      "Shark_Friends_and_the_Deep_Deep_Dark"
+    ],
+    "firstAppearanceStoryId": "A_Sticky_Adventure_to_the_Castle_of_Slime"
+  },
+  {
+    "id": "0nrqaCfCclGso1hsUyq3",
+    "name": "Museum",
+    "description": "A place in Mexicota where Mistress Mouse reads Dinosaur Dance and builds block towers.",
+    "storyIds": [
+      "The_Many_Adventures_of_Mistress_Mouse"
+    ],
+    "firstAppearanceStoryId": "The_Many_Adventures_of_Mistress_Mouse"
+  },
+  {
+    "id": "0pmtVrEvrUPL5Ea3VYfW",
+    "name": "The Shady Spot",
+    "description": "A wooded area on the edge of the island where Seeker and Hattie land their magic ladder.",
+    "storyIds": [
+      "The_Giant_Rescue_on_Volcano_Island"
+    ],
+    "firstAppearanceStoryId": "The_Giant_Rescue_on_Volcano_Island"
+  },
+  {
+    "id": "0vJmaV98wiFcPDdxlAOS",
+    "name": "Outer Space Planet Land",
+    "description": "A distant region of the galaxy that contains the sun and various planets.",
+    "storyIds": [
+      "The_Red_Planet_Potion"
+    ],
+    "firstAppearanceStoryId": "The_Red_Planet_Potion"
+  },
+  {
+    "id": "0yTGMod6OGgSN7hzIC64",
+    "name": "Haddy's House",
+    "description": "The home of Haddy the Mouse where she keeps her large collection of Legos.",
+    "storyIds": [
+      "Haddy_the_Mouse_and_the_Lego_Airplane"
+    ],
+    "firstAppearanceStoryId": "Haddy_the_Mouse_and_the_Lego_Airplane"
+  },
+  {
+    "id": "15490A91iqA3WALS7mBq",
+    "name": "Uncle Grisko's House",
+    "description": "The cozy setting where the characters meet and the magic potion is sampled.",
+    "storyIds": [
+      "The_Polka-Dot_Potion_and_the_Magic_Spell"
+    ],
+    "firstAppearanceStoryId": "The_Polka-Dot_Potion_and_the_Magic_Spell"
+  },
+  {
+    "id": "19MqWCukU0eg2Xawe5Ly",
+    "name": "The Playground",
+    "description": "This inclusive island recreational area features soaring wing-rails and traditional swings anchored by a grand tower with a vibrant blue slide and ascending stairs. Designed for every species, the school grounds transform during rainfall into a landscape of shimmering puddles where Hattie retreats to play amidst the thoughtfully integrated architecture.",
+    "storyIds": [
+      "Tiggy_Riggy_and_the_Rainbow_Fish",
+      "Hattie_the_Mouse_and_the_Baby_Chipmunk_s_Snack",
+      "Dimatar_s_Big_Day_at_Ginger_Catasorry"
+    ],
+    "firstAppearanceStoryId": "Tiggy_Riggy_and_the_Rainbow_Fish"
+  },
+  {
+    "id": "1L9lUjNxNipifxJf19H0",
+    "name": "Flutter's House",
+    "description": "A house with a red roof where the birthday party takes place.",
+    "storyIds": [
+      "The_Sardine_Bakery_and_the_Rainbow_Disco_Birthday"
+    ],
+    "firstAppearanceStoryId": "The_Sardine_Bakery_and_the_Rainbow_Disco_Birthday"
+  },
+  {
+    "id": "1RGgCHP5acnLflkBFeUJ",
+    "name": "Underground Tunnel",
+    "description": "Tucked behind Goofy the Gopher’s overstuffed armchair and a bookshelf of weathered lore lies a yawning, meticulously carved excavation. This plunging vertical shaft—the very site where industrious moles labored until their claws struck the cold hull of a buried rocket—spirals downward from the cozy retreat as a gateway into a vast and echoing subterranean world.",
+    "storyIds": [
+      "The_Moles_Intergalactic_Snack_Run",
+      "Seeker_s_Deep_Earth_Adventure",
+      "The_Gopher_s_Squerret_Quest_in_Australia"
+    ],
+    "firstAppearanceStoryId": "The_Moles_Intergalactic_Snack_Run"
+  },
+  {
+    "id": "1SstBBUu7RBtPAv9tf5A",
+    "name": "Submarine",
+    "description": "A vessel used by the mermaid Jessica to investigate the ocean depths.",
+    "storyIds": [
+      "Mickey_s_Adventure_and_the_Deep_Sea_Shark"
+    ],
+    "firstAppearanceStoryId": "Mickey_s_Adventure_and_the_Deep_Sea_Shark"
+  },
+  {
+    "id": "1VklLYE97Qjz4IOoBHox",
+    "name": "The City",
+    "description": "An urban area that Mistress Mouse navigates in her pink tow truck.",
+    "storyIds": [
+      "The_Chronicles_of_Pinecone_Mouse_and_the_Pink_Tow_Truck"
+    ],
+    "firstAppearanceStoryId": "The_Chronicles_of_Pinecone_Mouse_and_the_Pink_Tow_Truck"
+  },
+  {
+    "id": "1aA9jpjqJQW1rBoRhhN1",
+    "name": "Peacock's Magical Castle",
+    "description": "A castle located on top of a great hill where the quest begins and ends.",
+    "storyIds": [
+      "The_Wizard_s_Play-Doh_Hat_Quest"
+    ],
+    "firstAppearanceStoryId": "The_Wizard_s_Play-Doh_Hat_Quest"
+  },
+  {
+    "id": "1vdqZqFeuunm9u1Y8JEt",
+    "name": "Mousey Grocery Store",
+    "description": "A shop that sells a vast array of gnome-themed stickers.",
+    "storyIds": [
+      "Hattie_s_Giant_Robot_and_the_Rainbow_Gnome_Hat"
+    ],
+    "firstAppearanceStoryId": "Hattie_s_Giant_Robot_and_the_Rainbow_Gnome_Hat"
+  },
+  {
+    "id": "2CJWhfepw8nxJREMXIbY",
+    "name": "South America",
+    "description": "A destination on Earth listed during the voyage's planning.",
+    "storyIds": [
+      "Cosmic_Controls_at_the_Captain_s_Desk"
+    ],
+    "firstAppearanceStoryId": "Cosmic_Controls_at_the_Captain_s_Desk"
+  },
+  {
+    "id": "2DG1CYBYfSUwyXApkCdS",
+    "name": "Moon",
+    "description": "An celestial body with low gravity where visitors bounce as they walk.",
+    "storyIds": [
+      "Seeker_s_Guide_to_Volcanoes_Space_and_Sunlight"
+    ],
+    "firstAppearanceStoryId": "Seeker_s_Guide_to_Volcanoes_Space_and_Sunlight"
+  },
+  {
+    "id": "2JlyEKMttqONkMf5cDtI",
+    "name": "Sophie's Bakery",
+    "description": "A shop known for making delicious treats.",
+    "storyIds": [
+      "The_Sardine_Bakery_and_the_Rainbow_Disco_Birthday",
+      "Science_in_the_Bakery",
+      "Dimatar_s_Big_Day_at_Ginger_Catasorry"
+    ],
+    "firstAppearanceStoryId": "The_Sardine_Bakery_and_the_Rainbow_Disco_Birthday"
+  },
+  {
+    "id": "2MRLyRwxDj8O2WesLIJP",
+    "name": "The Mountain",
+    "description": "A large structure containing hidden tunnels, secret holes, and a wooden door at the back.",
+    "storyIds": [
+      "Hattie_and_the_Mystery_of_the_Muddy_Mountain"
+    ],
+    "firstAppearanceStoryId": "Hattie_and_the_Mystery_of_the_Muddy_Mountain"
+  },
+  {
+    "id": "2SKYSYkdIud5tbZLUpVU",
+    "name": "Pine Tree House",
+    "description": "The elevated home where Pinecone Mouse wakes up.",
+    "storyIds": [
+      "The_Chronicles_of_Pinecone_Mouse_and_the_Pink_Tow_Truck"
+    ],
+    "firstAppearanceStoryId": "The_Chronicles_of_Pinecone_Mouse_and_the_Pink_Tow_Truck"
+  },
+  {
+    "id": "2TZcLNlimsbYmye8YkZ6",
+    "name": "Behind the tree",
+    "description": "The specific hiding spot where the search party discovers both robots and eventually Mole.",
+    "storyIds": [
+      "The_Glowing_Expedition_for_Mole"
+    ],
+    "firstAppearanceStoryId": "The_Glowing_Expedition_for_Mole"
+  },
+  {
+    "id": "2VuvRhas7Vo3QeMNfO3v",
+    "name": "Tunnel",
+    "description": "A brightly lit passage leading deep underground to the library.",
+    "storyIds": [
+      "The_Underground_Library_and_the_Big_Bubble_Bonanza"
+    ],
+    "firstAppearanceStoryId": "The_Underground_Library_and_the_Big_Bubble_Bonanza"
+  },
+  {
+    "id": "2ZiNqPoArJrHs9ay68aE",
+    "name": "Kingdom of the Ants",
+    "description": "A massive, bustling underground city where ants build buildings and worms wiggle through the dirt.",
+    "storyIds": [
+      "The_Mischief_Moles_and_the_Kingdom_of_the_Ants"
+    ],
+    "firstAppearanceStoryId": "The_Mischief_Moles_and_the_Kingdom_of_the_Ants"
+  },
+  {
+    "id": "2fz06lmu6IMGJiZ2tQ1x",
+    "name": "The Tunnel",
+    "description": "A dark, enclosed passage the train travels through.",
+    "storyIds": [
+      "The_Chugga-Chugga_Journey_to_Nana_s_House"
+    ],
+    "firstAppearanceStoryId": "The_Chugga-Chugga_Journey_to_Nana_s_House"
+  },
+  {
+    "id": "2xJL2ewHMvWC7nN3iC2P",
+    "name": "Mergirls' Cave",
+    "description": "A home on the sea floor where the Mergirls live.",
+    "storyIds": [
+      "Shark_Friends_and_the_Deep_Deep_Dark"
+    ],
+    "firstAppearanceStoryId": "Shark_Friends_and_the_Deep_Deep_Dark"
+  },
+  {
+    "id": "2xiOtlF0popbcxsgvyvc",
+    "name": "Kitchen",
+    "description": "Within this shared sanctuary, Finncat keeps a watchful eye as Hattie tends to the hearth, the air growing thick with the savory, comforting steam of the hot stew she prepares.",
+    "storyIds": [
+      "Hattie_and_the_Lego_Aquarium_Adventure",
+      "The_Silver_Kitten_s_Snuggle_Emergency"
+    ],
+    "firstAppearanceStoryId": "Hattie_and_the_Lego_Aquarium_Adventure"
+  },
+  {
+    "id": "38fiUXVOLWYovBlvsw2j",
+    "name": "The Stream",
+    "description": "Tucked within the lush jungle near the mouth of Goofy’s tunnel, this refreshing basin offers a cool reprieve to any traveler patient enough to follow a local frog's lead. Its mirror-still surface serves as a somber sanctuary where Eeyore retreats on his birthday, spending the hours in quiet contemplation of his own reflection.",
+    "storyIds": [
+      "Stars_and_Stories_Piglet_s_Birthday_Surprise",
+      "The_Great_Expedition_of_the_Sas-ma-ras-ma-fla-mas_Frog",
+      "The_Gopher_s_Squerret_Quest_in_Australia"
+    ],
+    "firstAppearanceStoryId": "Stars_and_Stories_Piglet_s_Birthday_Surprise"
+  },
+  {
+    "id": "3TfWzSxNqb3U44h7MV4R",
+    "name": "Root Cellar",
+    "description": "A chilly underground storage area filled with potatoes, parsnips, and rutabagas.",
+    "storyIds": [
+      "The_Gopher_s_Squerret_Quest_in_Australia"
+    ],
+    "firstAppearanceStoryId": "The_Gopher_s_Squerret_Quest_in_Australia"
+  },
+  {
+    "id": "3lukKAG8FeURQmD4qO6q",
+    "name": "Magical Crystal Mountain",
+    "description": "A peak made of vibrant, multi-colored crystals with stairs and tunnels.",
+    "storyIds": [
+      "Izzy_the_Kiddo_and_the_Crystal_Mountain_Rescue"
+    ],
+    "firstAppearanceStoryId": "Izzy_the_Kiddo_and_the_Crystal_Mountain_Rescue"
+  },
+  {
+    "id": "3rff1wlfN69v9hklCakQ",
+    "name": "Julian's Home",
+    "description": "The setting on the front of the book where Julian is peacefully sleeping.",
+    "storyIds": [
+      "Hattie_s_Masterpiece_The_Elephant_Who_Could_Chirp"
+    ],
+    "firstAppearanceStoryId": "Hattie_s_Masterpiece_The_Elephant_Who_Could_Chirp"
+  },
+  {
+    "id": "3uG5ZV9vGyTI71fQTpdh",
+    "name": "Rainbow Forest Island",
+    "description": "A distant island featuring a multi-colored forest and beach.",
+    "storyIds": [],
+    "firstAppearanceStoryId": null
+  },
+  {
+    "id": "45AuNfsAr3uKjvK0ogBh",
+    "name": "Dragon Nest",
+    "description": "A structure made of strawberries, feathers, gold, glittery branches, and sea grass.",
+    "storyIds": [
+      "Dimitar_and_the_Blueberry_Dragon_Pop"
+    ],
+    "firstAppearanceStoryId": "Dimitar_and_the_Blueberry_Dragon_Pop"
+  },
+  {
+    "id": "46BCsu1EyPbx9ASzaia6",
+    "name": "Venus",
+    "description": "A distant, parched world where ship sensors track a critical and relentless rise in temperature across the empty expanse; here, amidst the lifeless, searing dust, the crew follows a haunting trail of footprints.",
+    "storyIds": [
+      "The_Galactic_Search_for_Chicky",
+      "Seeker_s_Guide_to_Volcanoes_Space_and_Sunlight",
+      "Cosmic_Controls_at_the_Captain_s_Desk"
+    ],
+    "firstAppearanceStoryId": "The_Galactic_Search_for_Chicky"
+  },
+  {
+    "id": "494xKqv7FQjkZhp7aEoS",
+    "name": "Red Bolt of Mars",
+    "description": "A specific search location on the side of the planet Mars.",
+    "storyIds": [
+      "The_Galactic_Search_for_Chicky"
+    ],
+    "firstAppearanceStoryId": "The_Galactic_Search_for_Chicky"
+  },
+  {
+    "id": "4JBLI9HsSsUcjKKsUGTf",
+    "name": "The Supermarket",
+    "description": "A bustling store that stocks everything from art supplies and feathers to squishy toys and music.",
+    "storyIds": [
+      "Hattie_the_Mouse_s_Custom_Hat_Shop"
+    ],
+    "firstAppearanceStoryId": "Hattie_the_Mouse_s_Custom_Hat_Shop"
+  },
+  {
+    "id": "4Qj3q9PKZQa7kYVb7YwE",
+    "name": "Living Room",
+    "description": "Tucked within the mole hole’s earthy embrace, this cozy sanctuary is anchored by overstuffed chairs and the lingering warmth of shared laughter. It is a cherished retreat where family and friends gather to pore over the pages of a new book, settling together into the quiet, subterranean comfort of their home.",
+    "storyIds": [
+      "The_Underground_Library_and_the_Big_Bubble_Bonanza",
+      "The_Best_Mole_Hole_Ever"
+    ],
+    "firstAppearanceStoryId": "The_Underground_Library_and_the_Big_Bubble_Bonanza"
+  },
+  {
+    "id": "4gyXeh3o9dNujeR68apy",
+    "name": "Store",
+    "description": "A place where Wibble the giraffe goes to purchase bubble soap, despite his height.",
+    "storyIds": [
+      "The_Underground_Library_and_the_Big_Bubble_Bonanza"
+    ],
+    "firstAppearanceStoryId": "The_Underground_Library_and_the_Big_Bubble_Bonanza"
+  },
+  {
+    "id": "4jfhiU8xIT1jW0ulR4BN",
+    "name": "Kibble World",
+    "description": "A magical world where everything—including houses, trees, and clouds—is made of kibble.",
+    "storyIds": [
+      "The_Thirty_Cats_of_Kibble_World"
+    ],
+    "firstAppearanceStoryId": "The_Thirty_Cats_of_Kibble_World"
+  },
+  {
+    "id": "4jpM8RiQMw4YdrvOYeFJ",
+    "name": "Deep Sea Bridge",
+    "description": "A large structure the explorers must pass under on their way to the reef.",
+    "storyIds": [
+      "Disco_and_Thisco_s_Deep-Sea_Submarine_Adventure"
+    ],
+    "firstAppearanceStoryId": "Disco_and_Thisco_s_Deep-Sea_Submarine_Adventure"
+  },
+  {
+    "id": "4mbV0zL0A32PLvY6EoBE",
+    "name": "Garage",
+    "description": "The place where Mistress Mouse parks her little pink truck.",
+    "storyIds": [
+      "The_Lego_Adventures_of_Mistress_Mouse_and_Other_Mouse"
+    ],
+    "firstAppearanceStoryId": "The_Lego_Adventures_of_Mistress_Mouse_and_Other_Mouse"
+  },
+  {
+    "id": "589CpoAkjNoh4dnY4xSR",
+    "name": "The Garage",
+    "description": "Where Mistress Mouse keeps her pink and purple race car with five wheels.",
+    "storyIds": [
+      "The_Many_Adventures_of_Mistress_Mouse"
+    ],
+    "firstAppearanceStoryId": "The_Many_Adventures_of_Mistress_Mouse"
+  },
+  {
+    "id": "5LKyXBzSDvyrMq2xTveR",
+    "name": "Clearing",
+    "description": "A big empty space in the forest where Hattie keeps her robot.",
+    "storyIds": [
+      "Hattie_s_Giant_Robot_and_the_Rainbow_Gnome_Hat"
+    ],
+    "firstAppearanceStoryId": "Hattie_s_Giant_Robot_and_the_Rainbow_Gnome_Hat"
+  },
+  {
+    "id": "5N5A8mtxA9n0UMP0GN0A",
+    "name": "The School Playground",
+    "description": "The place where Dimetar and Zudy first meet and fly together.",
+    "storyIds": [
+      "The_Flying_Friends_of_Strawberry_Island"
+    ],
+    "firstAppearanceStoryId": "The_Flying_Friends_of_Strawberry_Island"
+  },
+  {
+    "id": "5TxXON9c0hgooXKxcOkd",
+    "name": "Muck",
+    "description": "A messy destination accessible via a specific potion.",
+    "storyIds": [
+      "The_Floof-Berry_Mission_and_the_Great_Snowstorm"
+    ],
+    "firstAppearanceStoryId": "The_Floof-Berry_Mission_and_the_Great_Snowstorm"
+  },
+  {
+    "id": "5lrPCC1AxlkRoaU077Q0",
+    "name": "The Glowing Basket",
+    "description": "A house perched on a lion stool that projects stars onto the walls and ceiling through small holes.",
+    "storyIds": [
+      "The_Star-Lit_Basket_Adventure"
+    ],
+    "firstAppearanceStoryId": "The_Star-Lit_Basket_Adventure"
+  },
+  {
+    "id": "5m6syvwBp4FdK0jeuifQ",
+    "name": "The Christmas Tree",
+    "description": "The place where mice gather to put their holiday presents.",
+    "storyIds": [
+      "Tiggy_Riggy_and_the_Rainbow_Fish"
+    ],
+    "firstAppearanceStoryId": "Tiggy_Riggy_and_the_Rainbow_Fish"
+  },
+  {
+    "id": "5qnsBCNfKB43rXBo72IE",
+    "name": "Mars",
+    "description": "Serving as the home of Julian and the primary destination for the Floofers’ quest for the mookball, this primordial red world hosts the Red Bolt landing site. Defined by the rhythmic thunder of giant volcanoes and the jagged edges of ancient impact craters, the ash-shrouded landscape rests under a hazy pink sky in a haunting silence—a world devoid of other human life where only the fire and dust endure.",
+    "storyIds": [
+      "Captain_Izzy_s_Martian_Mission",
+      "The_Galactic_Search_for_Chicky",
+      "The_Red_Planet_Potion",
+      "Seeker_s_Guide_to_Volcanoes_Space_and_Sunlight",
+      "Cosmic_Controls_at_the_Captain_s_Desk",
+      "The_Mookers_the_Floofers_and_the_Solar_Mookball"
+    ],
+    "firstAppearanceStoryId": "Captain_Izzy_s_Martian_Mission"
+  },
+  {
+    "id": "5qo1oH4jLPGhz96P2hYk",
+    "name": "Izzy's House",
+    "description": "Once the silent harbor of Jinjar’s return and the site of Rizzo and Izzy’s fateful council, this fortified sanctuary now serves as the primary destination reachable via a magical potion. Anchoring the company against the encroaching storm, the hallowed dwelling resembles a quaint hotel of labyrinthine rooms, featuring a celestial starry rug that blankets the ground where heroes once prepared for their departure to the dragon’s castle.",
+    "storyIds": [
+      "The_Potion_to_the_Little_Hotel_House",
+      "The_Potion_to_Izzy_s_Attic",
+      "The_Ice_Dragon_s_Sparkly_Castle_and_the_Great_Ice_Festival",
+      "The_Floof-Berry_Mission_and_the_Great_Snowstorm",
+      "A_Sticky_Adventure_to_the_Castle_of_Slime"
+    ],
+    "firstAppearanceStoryId": "The_Potion_to_the_Little_Hotel_House"
+  },
+  {
+    "id": "5vNrwsinWN23QbS4hjBJ",
+    "name": "Exam Room",
+    "description": "A specialized room within the hospital used for diagnostics and consultations.",
+    "storyIds": [
+      "Doctor_Izzy_s_Busy_Hospital_Day"
+    ],
+    "firstAppearanceStoryId": "Doctor_Izzy_s_Busy_Hospital_Day"
+  },
+  {
+    "id": "5y2jh6fOjS4sR9A9YRa3",
+    "name": "Trolley",
+    "description": "A musical transport that takes everyone to the playground.",
+    "storyIds": [
+      "Hattie_and_the_Lego_Aquarium_Adventure"
+    ],
+    "firstAppearanceStoryId": "Hattie_and_the_Lego_Aquarium_Adventure"
+  },
+  {
+    "id": "61QR6fi8D5RtjOarsRuv",
+    "name": "Princess's Boat",
+    "description": "An enormous sparkly vessel equipped with both a traditional sail and secret rocket engines.",
+    "storyIds": [
+      "The_Rocket_Boat_to_Mouseland"
+    ],
+    "firstAppearanceStoryId": "The_Rocket_Boat_to_Mouseland"
+  },
+  {
+    "id": "66eY9b6fDLGi5FaMr4xN",
+    "name": "Strawberry Island",
+    "description": "The home of Zudy Dragon, known for having strawberries for every meal.",
+    "storyIds": [
+      "The_Flying_Friends_of_Strawberry_Island"
+    ],
+    "firstAppearanceStoryId": "The_Flying_Friends_of_Strawberry_Island"
+  },
+  {
+    "id": "6E8IHzSqduxQOcoNcU5X",
+    "name": "Space",
+    "description": "The weightless, black void beyond Earth’s atmosphere is a vast expanse of drifting giant rocks that serves as Captain Izzy’s silent laboratory. Now the final destination of the robot's mission, this lethal frontier requires a specialized suit to navigate its airless and crushing stillness.",
+    "storyIds": [
+      "Gonk-a-Bona_and_the_Soup-Seeking_Mole",
+      "Mission_to_Silver_s_Planet",
+      "The_Solar_Expedition_of_Stars_and_Snories"
+    ],
+    "firstAppearanceStoryId": "Gonk-a-Bona_and_the_Soup-Seeking_Mole"
+  },
+  {
+    "id": "6Q2JHVgP2E7BgZ8LzeiT",
+    "name": "The Outside",
+    "description": "A gooey playground in Slime World where students bounce and run through the slime.",
+    "storyIds": [
+      "The_Magic_of_Slime_School"
+    ],
+    "firstAppearanceStoryId": "The_Magic_of_Slime_School"
+  },
+  {
+    "id": "6hvyftIo18fndGZr5Wy7",
+    "name": "Dimitar's Castle",
+    "description": "Perched upon the scorched crags of the volcano, the weathered stone fortress where Dimitar and Hattie reside is dominated by a massive bell tower that echoes through the rising sulfurous mists.",
+    "storyIds": [
+      "The_Giant_Rescue_on_Volcano_Island",
+      "The_Sardine_Bakery_and_the_Rainbow_Disco_Birthday",
+      "The_Sparkling_Dust_of_Book_World"
+    ],
+    "firstAppearanceStoryId": "The_Giant_Rescue_on_Volcano_Island"
+  },
+  {
+    "id": "6lAPJ9XRHP5ARpvEceAm",
+    "name": "Seeker's castle",
+    "description": "Seeker's home located in New York City.",
+    "storyIds": [
+      "The_Salty_Solution_for_a_Frozen_Island"
+    ],
+    "firstAppearanceStoryId": "The_Salty_Solution_for_a_Frozen_Island"
+  },
+  {
+    "id": "6n6ZC3nvXdGshVs4cbwU",
+    "name": "Canada",
+    "description": "A specific northern terrestrial location mentioned during the flight.",
+    "storyIds": [
+      "Cosmic_Controls_at_the_Captain_s_Desk"
+    ],
+    "firstAppearanceStoryId": "Cosmic_Controls_at_the_Captain_s_Desk"
+  },
+  {
+    "id": "6r3CuZLRutFgGM2orlLU",
+    "name": "Floofer",
+    "description": "The specific location within the clouds where Siffle Papiffle is found.",
+    "storyIds": [
+      "The_Floofer_s_Trampoline_and_the_Butterfly_Valentine"
+    ],
+    "firstAppearanceStoryId": "The_Floofer_s_Trampoline_and_the_Butterfly_Valentine"
+  },
+  {
+    "id": "6xTZSWEfPuGwH18J5Dp8",
+    "name": "The School",
+    "description": "An educational building that serves as a landmark on the way to the gopher tunnel.",
+    "storyIds": [
+      "The_Case_of_the_Carrot-Loving_Gophers"
+    ],
+    "firstAppearanceStoryId": "The_Case_of_the_Carrot-Loving_Gophers"
+  },
+  {
+    "id": "75PM4XgjvW5zKopzyQQr",
+    "name": "Big Pink Continent",
+    "description": "The faraway home of the Mer-Girls where Kelp Bass are common.",
+    "storyIds": [
+      "The_Great_Kelp_Caper_of_the_Pink_Continent"
+    ],
+    "firstAppearanceStoryId": "The_Great_Kelp_Caper_of_the_Pink_Continent"
+  },
+  {
+    "id": "77eczkqObq6AQeMtEM6C",
+    "name": "Planet Circle",
+    "description": "A restricted area or navigation tool within the command center.",
+    "storyIds": [
+      "Cosmic_Controls_at_the_Captain_s_Desk"
+    ],
+    "firstAppearanceStoryId": "Cosmic_Controls_at_the_Captain_s_Desk"
+  },
+  {
+    "id": "78BjADR1xgG30rOXeXzA",
+    "name": "Balloon Twisting School",
+    "description": "A building in Balloon World where Squeaky works and teaches balloon twisting.",
+    "storyIds": [
+      "The_Squeaky_Adventures_in_Balloon_World"
+    ],
+    "firstAppearanceStoryId": "The_Squeaky_Adventures_in_Balloon_World"
+  },
+  {
+    "id": "7AwWq6rvh4kgel8uEtxU",
+    "name": "The Mountain of Crystal Magic",
+    "description": "The higher reaches of the mountain where the Big Fluffy Bunny resides.",
+    "storyIds": [
+      "Izzy_the_Kiddo_and_the_Crystal_Mountain_Rescue"
+    ],
+    "firstAppearanceStoryId": "Izzy_the_Kiddo_and_the_Crystal_Mountain_Rescue"
+  },
+  {
+    "id": "7B1Q2lIyqyLbG2ILwfIP",
+    "name": "Pluto",
+    "description": "A tiny, cold planet where Avery's rattle was found.",
+    "storyIds": [
+      "The_Galactic_Search_for_Chicky"
+    ],
+    "firstAppearanceStoryId": "The_Galactic_Search_for_Chicky"
+  },
+  {
+    "id": "7IFGOOuQU6P4EnSLz7gS",
+    "name": "The Garden",
+    "description": "Behind the house, a junk-strewn expanse gives way to the tangled thicket, a strategic blind overlooking the decimated vegetable patch. Once used to ambush the pool noodle nibbler, it now guards the hollowed stalks of a woodchuck’s feast, its floor a messy tapestry of discarded refuse and rabbit droppings.",
+    "storyIds": [
+      "The_Big_Muck_Problem_One_Pile_at_a_Time",
+      "Hattie_s_Block-Built_Nature_Walk_Adventure",
+      "The_Mystery_of_the_Pool_Noodle_Nibbler"
+    ],
+    "firstAppearanceStoryId": "The_Big_Muck_Problem_One_Pile_at_a_Time"
+  },
+  {
+    "id": "7V7qh74rM0B8JY537vfu",
+    "name": "Gemstone Coral Reef",
+    "description": "A place Dimitar wants to visit now that he is no longer allergic to coral.",
+    "storyIds": [
+      "Shark_Friends_and_the_Deep_Deep_Dark"
+    ],
+    "firstAppearanceStoryId": "Shark_Friends_and_the_Deep_Deep_Dark"
+  },
+  {
+    "id": "7VwOYbkyoQamefxzyUDc",
+    "name": "Barbie's Garden",
+    "description": "An enchanted garden mentioned by Uncle Grisco.",
+    "storyIds": [
+      "The_Potion_to_the_Little_Hotel_House"
+    ],
+    "firstAppearanceStoryId": "The_Potion_to_the_Little_Hotel_House"
+  },
+  {
+    "id": "7oyA2CRyMzw3yF3Dt48W",
+    "name": "The Potion Closet",
+    "description": "A magical storage area containing various brews, including one that leads to the human world.",
+    "storyIds": [
+      "The_Potion_to_the_Little_Hotel_House"
+    ],
+    "firstAppearanceStoryId": "The_Potion_to_the_Little_Hotel_House"
+  },
+  {
+    "id": "7xELufvGHiu91Hl4tT2P",
+    "name": "Bert",
+    "description": "The primary setting where spring cleaning is desperately needed.",
+    "storyIds": [
+      "The_Big_Muck_Problem_One_Pile_at_a_Time"
+    ],
+    "firstAppearanceStoryId": "The_Big_Muck_Problem_One_Pile_at_a_Time"
+  },
+  {
+    "id": "7xMdGkpdP7P0zXDM3rvK",
+    "name": "New School",
+    "description": "The place where Baby Jane had a difficult day.",
+    "storyIds": [
+      "The_Mystery_of_the_Pool_Noodle_Nibbler"
+    ],
+    "firstAppearanceStoryId": "The_Mystery_of_the_Pool_Noodle_Nibbler"
+  },
+  {
+    "id": "84ylilbf8GS6EzKXiE3y",
+    "name": "Mole's Front Yard",
+    "description": "A pleasant yard with lush green grass, dandelions, and flowers.",
+    "storyIds": [
+      "The_Putt-Putt_Road_Trip_Adventure"
+    ],
+    "firstAppearanceStoryId": "The_Putt-Putt_Road_Trip_Adventure"
+  },
+  {
+    "id": "88tLRpnjCo6JB1qnS9x0",
+    "name": "Hattie's Garden",
+    "description": "A yard featuring a lovely bench where friends gather to chat.",
+    "storyIds": [
+      "A_Shell_Hat_and_Jingle_Bells"
+    ],
+    "firstAppearanceStoryId": "A_Shell_Hat_and_Jingle_Bells"
+  },
+  {
+    "id": "8GVt3UKjCIhEo4lmGaYm",
+    "name": "Hattie's Hollow Tree Workshop",
+    "description": "The starting point of the journey, where Hattie the mouse works.",
+    "storyIds": [
+      "The_Magic_Forest_Photo_Tour"
+    ],
+    "firstAppearanceStoryId": "The_Magic_Forest_Photo_Tour"
+  },
+  {
+    "id": "8OHqyIDmkJCgVGFfxYg5",
+    "name": "Rainbow Forest",
+    "description": "Once charted by the Seeker and reachable only via the alchemical potency of Uncle Grisco’s potions, this kaleidoscopic forest is partitioned into radiant domains of red, orange, and gold. Beneath shifting, vibrant canopies, travelers navigate these distinct chromatic sections in search of the magical creatures lost within its shimmering depths.",
+    "storyIds": [
+      "The_Potion_to_the_Little_Hotel_House",
+      "The_Dragonettes_and_the_Rainbow_Forest_Quest",
+      "A_Sticky_Adventure_to_the_Castle_of_Slime"
+    ],
+    "firstAppearanceStoryId": "The_Potion_to_the_Little_Hotel_House"
+  },
+  {
+    "id": "8SZ3tKlkgDoILi3FzAa8",
+    "name": "Nana's House",
+    "description": "A beautiful house with a smoking chimney marks the end of a long, wooded driveway, serving as the crew’s secondary destination as they navigate the vastness of the stars.",
+    "storyIds": [
+      "The_Imaginary_Road_Trip_to_Nana_s_House",
+      "Mission_to_the_Astro-Orange_Restaurant"
+    ],
+    "firstAppearanceStoryId": "The_Imaginary_Road_Trip_to_Nana_s_House"
+  },
+  {
+    "id": "8Wen3IsuRXRGNle4mRCF",
+    "name": "The Mole Burrow",
+    "description": "The cozy home where the mole family gathers to hear stories and sleep.",
+    "storyIds": [
+      "Dimitar_the_Dragon_and_the_Sleepy_Moles"
+    ],
+    "firstAppearanceStoryId": "Dimitar_the_Dragon_and_the_Sleepy_Moles"
+  },
+  {
+    "id": "8hAtWOGDnQEaIUrjt1m3",
+    "name": "The Sidewalk",
+    "description": "The winding path where Mama Mole and Disco forage for nature’s treasures now begins at a formidable threshold: a massive, sticky mud puddle that sprawls across the front of the house, turning their usual starting point into a thick, gooey mire.",
+    "storyIds": [
+      "The_Big_Muck_Problem_One_Pile_at_a_Time",
+      "Mama_Mole_s_Sidewalk_Safari"
+    ],
+    "firstAppearanceStoryId": "The_Big_Muck_Problem_One_Pile_at_a_Time"
+  },
+  {
+    "id": "8q9h1seToVrKchAAChdg",
+    "name": "Land of the Clouds",
+    "description": "A bright, blue sky world filled with fluffy clouds and flying creatures.",
+    "storyIds": [
+      "Haddy_the_Mouse_and_the_Quest_for_the_Talking_Hat"
+    ],
+    "firstAppearanceStoryId": "Haddy_the_Mouse_and_the_Quest_for_the_Talking_Hat"
+  },
+  {
+    "id": "8t3MJwPWEq17MCeAFU6F",
+    "name": "The Canyon",
+    "description": "A rocky area between two steep cliffs with a trickling stream.",
+    "storyIds": [
+      "Hattie_s_Shell_Necklace_Adventure"
+    ],
+    "firstAppearanceStoryId": "Hattie_s_Shell_Necklace_Adventure"
+  },
+  {
+    "id": "90kxXuqVz2frIlSfwsb4",
+    "name": "Surprise Mouse's Fort",
+    "description": "The home where the story begins.",
+    "storyIds": [
+      "The_Adventures_of_Surprise_Mouse_and_Friends"
+    ],
+    "firstAppearanceStoryId": "The_Adventures_of_Surprise_Mouse_and_Friends"
+  },
+  {
+    "id": "97X3MYTSklYwhtPhrDTY",
+    "name": "Songo Restaurant",
+    "description": "A distant restaurant that is the initial destination for the feast.",
+    "storyIds": [
+      "Hattie_s_Flight_to_the_Songo_Feast"
+    ],
+    "firstAppearanceStoryId": "Hattie_s_Flight_to_the_Songo_Feast"
+  },
+  {
+    "id": "9LImx5XSouKYuOPWyxkK",
+    "name": "Sauthica",
+    "description": "The planet of the Mookers, located just a few streets away from the garden.",
+    "storyIds": [
+      "The_Moles_Intergalactic_Snack_Run"
+    ],
+    "firstAppearanceStoryId": "The_Moles_Intergalactic_Snack_Run"
+  },
+  {
+    "id": "9LyGMaiXTBqYyIPGujtT",
+    "name": "Limbo",
+    "description": "A scary and dangerous realm with a rift that threatens the rest of the world.",
+    "storyIds": [
+      "The_Quest_to_Close_the_Limbo_Rift"
+    ],
+    "firstAppearanceStoryId": "The_Quest_to_Close_the_Limbo_Rift"
+  },
+  {
+    "id": "9PHZGBJ3gVM16CjE71mb",
+    "name": "The Neighborhood",
+    "description": "The surrounding community where all the mice and animal friends live.",
+    "storyIds": [
+      "Hattie_the_Mouse_and_the_Massive_Shopping_List"
+    ],
+    "firstAppearanceStoryId": "Hattie_the_Mouse_and_the_Massive_Shopping_List"
+  },
+  {
+    "id": "9WICwIMaCk2E2gtPsCXD",
+    "name": "The Screen",
+    "description": "Where the pool noodle crumbs were displayed to solve the mystery.",
+    "storyIds": [
+      "The_Mystery_of_the_Pool_Noodle_Nibbler"
+    ],
+    "firstAppearanceStoryId": "The_Mystery_of_the_Pool_Noodle_Nibbler"
+  },
+  {
+    "id": "9fPIHomJBGDvU08bG0Jr",
+    "name": "Submersible",
+    "description": "The large vessel capable of taking everyone on an underwater mission.",
+    "storyIds": [
+      "Voyage_to_the_Kingdom_of_the_Sea_Mice"
+    ],
+    "firstAppearanceStoryId": "Voyage_to_the_Kingdom_of_the_Sea_Mice"
+  },
+  {
+    "id": "9fRM0ysqJ3OfjlXiohr5",
+    "name": "Nana's house",
+    "description": "At the final stop of the long train journey stands a meticulously crafted dollhouse, a quiet sanctuary where tiny, sharpened pencils await the scholarly paws of resident mice.",
+    "storyIds": [
+      "The_Chugga-Chugga_Journey_to_Nana_s_House",
+      "The_Salty_Solution_for_a_Frozen_Island"
+    ],
+    "firstAppearanceStoryId": "The_Chugga-Chugga_Journey_to_Nana_s_House"
+  },
+  {
+    "id": "9fWjMNAwkcz8xjqdTKrL",
+    "name": "The Fireplace",
+    "description": "A cozy spot in the castle with a rug, games, and toys.",
+    "storyIds": [
+      "Peacock_s_Castle_and_the_Neighborhood_Photo_Project"
+    ],
+    "firstAppearanceStoryId": "Peacock_s_Castle_and_the_Neighborhood_Photo_Project"
+  },
+  {
+    "id": "9oFqSYILkHhzZy8gX7l7",
+    "name": "The Bridge",
+    "description": "A structure the train crosses after exiting the tunnel.",
+    "storyIds": [
+      "The_Chugga-Chugga_Journey_to_Nana_s_House"
+    ],
+    "firstAppearanceStoryId": "The_Chugga-Chugga_Journey_to_Nana_s_House"
+  },
+  {
+    "id": "9wuGLsdcNI67dehjkqTs",
+    "name": "The Lake",
+    "description": "A body of water that Finn crossed via a small boat on his journey North.",
+    "storyIds": [
+      "Finn_the_Cat_s_Arctic_Rainbow_Quest"
+    ],
+    "firstAppearanceStoryId": "Finn_the_Cat_s_Arctic_Rainbow_Quest"
+  },
+  {
+    "id": "9yTTle1QF8q0S4JKXn3F",
+    "name": "The Volcano",
+    "description": "A large mountain in the center of the circular island that is threatening to erupt.",
+    "storyIds": [
+      "The_Giant_Rescue_on_Volcano_Island"
+    ],
+    "firstAppearanceStoryId": "The_Giant_Rescue_on_Volcano_Island"
+  },
+  {
+    "id": "A4w9Cez4nWplqG2rN349",
+    "name": "Mischief's Hardware Store",
+    "description": "A local shop that sells everything from dollhouse accessories to gardening tools.",
+    "storyIds": [
+      "The_Polka-Dotted_Car_and_the_Shadow_Lab"
+    ],
+    "firstAppearanceStoryId": "The_Polka-Dotted_Car_and_the_Shadow_Lab"
+  },
+  {
+    "id": "A72u4bAa8Jg2t1nEWeQa",
+    "name": "Australia",
+    "description": "A remote country spanning the Big Orange Continent, characterized by the winding labyrinth of the gopher’s tunnel and the amber-lit coastal waters where the Kelp Bass thrive.",
+    "storyIds": [
+      "The_Gopher_s_Squerret_Quest_in_Australia",
+      "The_Great_Kelp_Caper_of_the_Pink_Continent"
+    ],
+    "firstAppearanceStoryId": "The_Gopher_s_Squerret_Quest_in_Australia"
+  },
+  {
+    "id": "ANr42Rh4wNSqKMun2mLe",
+    "name": "Deep Deep Dark",
+    "description": "A dark, mysterious underwater realm filled with unique sharks and mergirls.",
+    "storyIds": [
+      "Shark_Friends_and_the_Deep_Deep_Dark"
+    ],
+    "firstAppearanceStoryId": "Shark_Friends_and_the_Deep_Deep_Dark"
+  },
+  {
+    "id": "AQIzjINrORSB6n6RtqA0",
+    "name": "Spaceship",
+    "description": "The crew’s primary vessel centers on a command bridge where ergonomic chairs face a panoramic window and a console projecting a specialized space map. Integrated sound machines provide auditory depth to the mission’s operations, echoing through a sleek interior lined with high-tech books. Outfitted with a dexterous robot arm for harvesting geological specimens and a reinforced storage bay for space rocks, the craft serves as both a high-tech laboratory and a long-term home, seamlessly blending the grit of deep-space exploration with a sanctuary for advanced scholarship.",
+    "storyIds": [
+      "Blast_Off_to_the_Hundred_Acre_Wood",
+      "Mission_to_the_Taco_Space_Station",
+      "Mission_to_the_Astro-Orange_Restaurant",
+      "Captain_Izzy_s_Martian_Mission"
+    ],
+    "firstAppearanceStoryId": "Blast_Off_to_the_Hundred_Acre_Wood"
+  },
+  {
+    "id": "AWRc993DKaUaL1uQHmt5",
+    "name": "The Backyard",
+    "description": "The site behind Hattie's house where the new playhouse is constructed.",
+    "storyIds": [
+      "Hattie_s_Grand_Playhouse_Construction"
+    ],
+    "firstAppearanceStoryId": "Hattie_s_Grand_Playhouse_Construction"
+  },
+  {
+    "id": "AdxY0ahQT4hQbycbE7LB",
+    "name": "Bearhead's House",
+    "description": "The place where Bearhead and Sophie meet to discuss their plans and practice rhymes.",
+    "storyIds": [
+      "A_Valentine_for_Gravity_Goldfish"
+    ],
+    "firstAppearanceStoryId": "A_Valentine_for_Gravity_Goldfish"
+  },
+  {
+    "id": "ApmZgzXF0hMoOfFPesi5",
+    "name": "The Supervillain's Lair",
+    "description": "The home of Gravity Goldfish where he receives a surprising and heartwarming Valentine's Day visit.",
+    "storyIds": [
+      "A_Valentine_for_Gravity_Goldfish"
+    ],
+    "firstAppearanceStoryId": "A_Valentine_for_Gravity_Goldfish"
+  },
+  {
+    "id": "ArUIDjThiSe3pdfk2V1q",
+    "name": "The Road",
+    "description": "Where Tigger and Christopher Robin first meet to start their quest.",
+    "storyIds": [
+      "Tigger_s_Quest_for_the_Wizard_s_Magic_Wand"
+    ],
+    "firstAppearanceStoryId": "Tigger_s_Quest_for_the_Wizard_s_Magic_Wand"
+  },
+  {
+    "id": "AtdCxxk87yFUtLkKQFYd",
+    "name": "The Moon",
+    "description": "Visible from Earth as a pockmarked sphere of gray, white, and black, this low-gravity waypoint for sun-bound crews is a playground of ancient space rocks and leaping Floofers; its silver dust now serves as a silent sanctuary for a misplaced book and the long-lost mother cat.",
+    "storyIds": [
+      "The_Big_Muck_Problem_One_Pile_at_a_Time",
+      "The_Red_Planet_Potion",
+      "The_Solar_Expedition_of_Stars_and_Snories",
+      "The_Mookers_the_Floofers_and_the_Solar_Mookball",
+      "The_Quest_for_the_Moon_Mother"
+    ],
+    "firstAppearanceStoryId": "The_Big_Muck_Problem_One_Pile_at_a_Time"
+  },
+  {
+    "id": "Av8PwgGBOZT8ggKGnjdx",
+    "name": "Mischief Mouse's House",
+    "description": "Atop the weathered rafters where Mischief’s roof repairs were cut short by her sudden summoning, a festive transformation has taken hold; here, Mistress Mouse presides over a steaming spaghetti feast, her boisterous family gathered amidst the shingles and moonlight to celebrate where labor was left behind.",
+    "storyIds": [
+      "Mistress_Mouse_and_the_Pink_Tow_Truck_Rescue",
+      "Hattie_s_Magic_Mouse_Summoning"
+    ],
+    "firstAppearanceStoryId": "Mistress_Mouse_and_the_Pink_Tow_Truck_Rescue"
+  },
+  {
+    "id": "B1jm77PisliQuGcqWtkl",
+    "name": "House",
+    "description": "A home thick with the sour scent of bile and the rhythmic, wet retching of a cat sickened since dawn, this is the unlikely threshold where Izzy first received the brilliant, transformative glow of her special new light.",
+    "storyIds": [
+      "Izzy_the_Kiddo_and_the_Quest_for_the_Deep_Sea_Pearl",
+      "The_Puking_Cats_Anthem"
+    ],
+    "firstAppearanceStoryId": "Izzy_the_Kiddo_and_the_Quest_for_the_Deep_Sea_Pearl"
+  },
+  {
+    "id": "B5TKYmMaSGbq77o4RtP2",
+    "name": "Atsukeeseet",
+    "description": "The hometown of Isabella, visited by Seeker before arriving at Uncle Grisko's house.",
+    "storyIds": [
+      "The_Polka-Dot_Potion_and_the_Magic_Spell"
+    ],
+    "firstAppearanceStoryId": "The_Polka-Dot_Potion_and_the_Magic_Spell"
+  },
+  {
+    "id": "BAi5HsKAMqzdfEuCZSfj",
+    "name": "The Murgirl House",
+    "description": "The home where Blue, Yellow, and Pink Murgirl live.",
+    "storyIds": [
+      "The_Mystery_of_the_Missing_Kelp_Forest"
+    ],
+    "firstAppearanceStoryId": "The_Mystery_of_the_Missing_Kelp_Forest"
+  },
+  {
+    "id": "BBFvR60zDmlIL2Y0HBbn",
+    "name": "Dimitar's Circular Island",
+    "description": "An island with a volcano and a castle, which becomes entirely frozen.",
+    "storyIds": [
+      "The_Salty_Solution_for_a_Frozen_Island"
+    ],
+    "firstAppearanceStoryId": "The_Salty_Solution_for_a_Frozen_Island"
+  },
+  {
+    "id": "BJbnA0iPMfmjHez0tmSe",
+    "name": "The Jungle",
+    "description": "Dimitar’s sanctuary is a sweltering, vapor-thick forest of towering trees and emerald vines, where he builds his home beneath a heavy canopy that shelters kaleidoscopic butterflies and the enigmatic Cindy-Wan the Frog-a-loza. This humid wilderness, teeming with chattering monkeys and a roaming elephant, serves as a wild transit for racers who must navigate its dense, wet depths twice.",
+    "storyIds": [
+      "Mistress_Mouse_and_the_Great_Penguin_Car_Race",
+      "The_Great_Expedition_of_the_Sas-ma-ras-ma-fla-mas_Frog",
+      "Dimitar_and_the_Blueberry_Dragon_Pop"
+    ],
+    "firstAppearanceStoryId": "Mistress_Mouse_and_the_Great_Penguin_Car_Race"
+  },
+  {
+    "id": "BSP7Iel8vN1brFBU6Hqf",
+    "name": "Bear tunnel",
+    "description": "The largest and most comfortable tunnel built by the moles for Zingo the bear's hibernation.",
+    "storyIds": [
+      "The_Busy_Day_of_Disco_and_Disco_Moles"
+    ],
+    "firstAppearanceStoryId": "The_Busy_Day_of_Disco_and_Disco_Moles"
+  },
+  {
+    "id": "BcJzlbYO8rxNbz86ccCQ",
+    "name": "Front Bench",
+    "description": "A pretty little bench outside Hattie's house used for quiet listening and observation.",
+    "storyIds": [
+      "Hattie_s_Rain_Boots_and_the_Honey_Bee_s_Hat"
+    ],
+    "firstAppearanceStoryId": "Hattie_s_Rain_Boots_and_the_Honey_Bee_s_Hat"
+  },
+  {
+    "id": "BqiI0MvYWIxPUralDh0m",
+    "name": "Worms",
+    "description": "A massive, bustling underground city where ants build buildings and worms wiggle through the dirt.",
+    "storyIds": [
+      "The_Mischief_Moles_and_the_Kingdom_of_the_Ants"
+    ],
+    "firstAppearanceStoryId": "The_Mischief_Moles_and_the_Kingdom_of_the_Ants"
+  },
+  {
+    "id": "Bry1k5x8hQn5w6Hv8NPQ",
+    "name": "The Small Mountain",
+    "description": "A smaller mountain located at the back of the playground.",
+    "storyIds": [
+      "Tiggy_Riggy_and_the_Rainbow_Fish"
+    ],
+    "firstAppearanceStoryId": "Tiggy_Riggy_and_the_Rainbow_Fish"
+  },
+  {
+    "id": "CANvZqQ2A3wZWnNo4kEc",
+    "name": "Mouse Family Castle",
+    "description": "A large castle in the Arctic inhabited by a family of mice.",
+    "storyIds": [
+      "Finn_the_Cat_s_Arctic_Rainbow_Quest"
+    ],
+    "firstAppearanceStoryId": "Finn_the_Cat_s_Arctic_Rainbow_Quest"
+  },
+  {
+    "id": "COyFQoaifM70nNvNqsQU",
+    "name": "High Mountains",
+    "description": "The cold, lofty location where the dragon nest is situated.",
+    "storyIds": [
+      "Dimitar_and_the_Blueberry_Dragon_Pop"
+    ],
+    "firstAppearanceStoryId": "Dimitar_and_the_Blueberry_Dragon_Pop"
+  },
+  {
+    "id": "CfwIjonOfhka2ICE7Z9i",
+    "name": "The Woods",
+    "description": "A forested area where the mice find a fallen tree and a special stick.",
+    "storyIds": [
+      "The_Chronicles_of_Pinecone_Mouse_and_the_Pink_Tow_Truck"
+    ],
+    "firstAppearanceStoryId": "The_Chronicles_of_Pinecone_Mouse_and_the_Pink_Tow_Truck"
+  },
+  {
+    "id": "CiHqFx43gzR5bit1nC8v",
+    "name": "Winterworld",
+    "description": "A freezing landscape filled with snow and hidden ice towers.",
+    "storyIds": [
+      "Winterworld_Rescue_and_the_Magic_Shining_Hat"
+    ],
+    "firstAppearanceStoryId": "Winterworld_Rescue_and_the_Magic_Shining_Hat"
+  },
+  {
+    "id": "D2xA9jIZzZBzhK1cGS7P",
+    "name": "Pond",
+    "description": "A refreshing body of water where the friends go to swim and wash off the pine sap.",
+    "storyIds": [
+      "Frasgle_and_the_Sticky_Situation"
+    ],
+    "firstAppearanceStoryId": "Frasgle_and_the_Sticky_Situation"
+  },
+  {
+    "id": "D3C3ETMB5K4X2E1GQpU0",
+    "name": "Slime World",
+    "description": "A vibrant, magical realm where the landscape is sculpted from iridescent orange and blue slime. This viscous dimension is inherently bouncy and sticky, ensuring that every fall is met with a soft, rhythmic rebound and turning the undulating ground into a playground of safe, gravity-defying leaps.",
+    "storyIds": [
+      "A_Sticky_Adventure_to_the_Castle_of_Slime",
+      "The_Magic_of_Slime_School"
+    ],
+    "firstAppearanceStoryId": "A_Sticky_Adventure_to_the_Castle_of_Slime"
+  },
+  {
+    "id": "D6skdLlan86XN0b2SRPF",
+    "name": "Veggie Store",
+    "description": "A stop on the highway where the group buys snacks like dried raspberries.",
+    "storyIds": [
+      "The_Imaginary_Road_Trip_to_Nana_s_House"
+    ],
+    "firstAppearanceStoryId": "The_Imaginary_Road_Trip_to_Nana_s_House"
+  },
+  {
+    "id": "DEhuwVz6G1tJeaKr4ha1",
+    "name": "Beaker's House",
+    "description": "The starting point of the story where Kitty and her crew visit.",
+    "storyIds": [
+      "The_Gopher_s_Squerret_Quest_in_Australia"
+    ],
+    "firstAppearanceStoryId": "The_Gopher_s_Squerret_Quest_in_Australia"
+  },
+  {
+    "id": "DkWAM5PvPFPDRaxPWccU",
+    "name": "The Beach",
+    "description": "The circular island is ringed by a brilliant, sparkling shore of lemon-yellow sand, providing a warm sanctuary for weary adventurers to dry off and recover from their journey through the depths.",
+    "storyIds": [
+      "The_Giant_Rescue_on_Volcano_Island",
+      "The_Potion_of_the_Gemstone_Reef"
+    ],
+    "firstAppearanceStoryId": "The_Giant_Rescue_on_Volcano_Island"
+  },
+  {
+    "id": "DqdP7AdCOM5OsCioh8Re",
+    "name": "Rooftop Garden",
+    "description": "A sprawling garden located on a cardboard castle roof, featuring specialized sections for bees, spiders, and flowers.",
+    "storyIds": [
+      "Seeker_s_Tour_of_the_Rooftop_Garden_and_Dollhouse"
+    ],
+    "firstAppearanceStoryId": "Seeker_s_Tour_of_the_Rooftop_Garden_and_Dollhouse"
+  },
+  {
+    "id": "DuVy943StKiVU3X57ugJ",
+    "name": "Playground",
+    "description": "An outdoor area where students might make snow-canos.",
+    "storyIds": [
+      "Dimitar_s_Flight_to_Cadasori"
+    ],
+    "firstAppearanceStoryId": "Dimitar_s_Flight_to_Cadasori"
+  },
+  {
+    "id": "DyoCUNo2A5I0YJyDZmKI",
+    "name": "Planet Mars",
+    "description": "A red planet reached by drinking a circular red potion.",
+    "storyIds": [
+      "The_Quest_for_the_Moon_Mother"
+    ],
+    "firstAppearanceStoryId": "The_Quest_for_the_Moon_Mother"
+  },
+  {
+    "id": "EFg7OvKhQ4aZWdkte5P1",
+    "name": "The Drawer",
+    "description": "A storage space in the workshop where Hattie keeps her 'pretend mushrooms'.",
+    "storyIds": [
+      "A_Hat_for_Mistress_Mouse"
+    ],
+    "firstAppearanceStoryId": "A_Hat_for_Mistress_Mouse"
+  },
+  {
+    "id": "EJ2OkxA10SehEJo4wpUl",
+    "name": "Emergency Room",
+    "description": "The room where Dr. Izzy performs the medical examination.",
+    "storyIds": [
+      "Dr_Izzy_and_the_Forest_Rescue"
+    ],
+    "firstAppearanceStoryId": "Dr_Izzy_and_the_Forest_Rescue"
+  },
+  {
+    "id": "ENEy24xtlOZq5C4Lsyct",
+    "name": "Nana's Hall",
+    "description": "A location where Nana Mouse keeps some of her blocks.",
+    "storyIds": [
+      "Hattie_s_Block-Built_Nature_Walk_Adventure"
+    ],
+    "firstAppearanceStoryId": "Hattie_s_Block-Built_Nature_Walk_Adventure"
+  },
+  {
+    "id": "ERmTirmeL1fLki70HrEG",
+    "name": "The Shelf",
+    "description": "The place where the characters keep their supplies and flashlights.",
+    "storyIds": [
+      "The_Glowing_Expedition_for_Mole"
+    ],
+    "firstAppearanceStoryId": "The_Glowing_Expedition_for_Mole"
+  },
+  {
+    "id": "EWV7ZEqR0BQkCKV11k5u",
+    "name": "Papa Mole's House",
+    "description": "The starting location where Papa Mole is found sleeping.",
+    "storyIds": [
+      "Under_the_Bed_and_Over_the_Sky"
+    ],
+    "firstAppearanceStoryId": "Under_the_Bed_and_Over_the_Sky"
+  },
+  {
+    "id": "EbK1IoR4MGbpNIfpqQec",
+    "name": "Grocery store",
+    "description": "The place where Mole went shopping for carrots, jalapeños, and gouda cheese.",
+    "storyIds": [
+      "Gonk-a-Bona_and_the_Soup-Seeking_Mole"
+    ],
+    "firstAppearanceStoryId": "Gonk-a-Bona_and_the_Soup-Seeking_Mole"
+  },
+  {
+    "id": "EcEfO6adOFnuqdCOS95C",
+    "name": "The Finish Line",
+    "description": "The paradoxical beginning and end point of the great race.",
+    "storyIds": [
+      "Mistress_Mouse_and_the_Great_Penguin_Car_Race"
+    ],
+    "firstAppearanceStoryId": "Mistress_Mouse_and_the_Great_Penguin_Car_Race"
+  },
+  {
+    "id": "F7zxCmlnPXYpL7p7qxhq",
+    "name": "Lily's school",
+    "description": "The destination where Hattie and Mistress Mouse deliver a custom hat to Mr. Swinger.",
+    "storyIds": [
+      "Hattie_s_Workshop_Puzzles_and_Purple_Hats"
+    ],
+    "firstAppearanceStoryId": "Hattie_s_Workshop_Puzzles_and_Purple_Hats"
+  },
+  {
+    "id": "FPXEwc4TkCjvEQH5bgqx",
+    "name": "Izzy's Closet",
+    "description": "The location where Isabella keeps her important jungle map picture.",
+    "storyIds": [
+      "Dimitar_and_the_Blueberry_Dragon_Pop"
+    ],
+    "firstAppearanceStoryId": "Dimitar_and_the_Blueberry_Dragon_Pop"
+  },
+  {
+    "id": "FWgs5oEDPaNYxrjF2Pne",
+    "name": "The Bush Bed",
+    "description": "A comfortable sleeping spot on a shelf in Izzy's room featuring a fruit-themed pillow.",
+    "storyIds": [
+      "The_Potion_to_Izzy_s_Attic"
+    ],
+    "firstAppearanceStoryId": "The_Potion_to_Izzy_s_Attic"
+  },
+  {
+    "id": "FZdQlJzOFRVzrvmHqQxT",
+    "name": "Cadasori",
+    "description": "A school where both dragonettes and cats attend classes.",
+    "storyIds": [
+      "Dimatar_s_Big_Day_at_Ginger_Catasorry",
+      "Dimitar_s_Flight_to_Cadasori"
+    ],
+    "firstAppearanceStoryId": "Dimatar_s_Big_Day_at_Ginger_Catasorry"
+  },
+  {
+    "id": "FtJAPuahY46lSupwOgeY",
+    "name": "The Airport",
+    "description": "The starting point for Hattie's flight across the world.",
+    "storyIds": [
+      "Hattie_s_Flight_to_the_Songo_Feast"
+    ],
+    "firstAppearanceStoryId": "Hattie_s_Flight_to_the_Songo_Feast"
+  },
+  {
+    "id": "Fwyz6qeo7RUEIV8f9ya3",
+    "name": "Dark Cupboard",
+    "description": "The location where Oscar Mouse finds a sugar can to use as a bed.",
+    "storyIds": [
+      "The_Imaginary_Road_Trip_to_Nana_s_House"
+    ],
+    "firstAppearanceStoryId": "The_Imaginary_Road_Trip_to_Nana_s_House"
+  },
+  {
+    "id": "G4ceLzwv2c6hP0K5teUr",
+    "name": "Laundromat",
+    "description": "A soapy-smelling place where characters go to wash, dry, and fold their colorful laundry.",
+    "storyIds": [
+      "The_Sleepy-Time_Science_Experiment"
+    ],
+    "firstAppearanceStoryId": "The_Sleepy-Time_Science_Experiment"
+  },
+  {
+    "id": "G5jUrZs7ucaz66eYk62z",
+    "name": "The River",
+    "description": "A mirror-still waterway tracking the edge of the dense jungle path, known to locals as the challenging destination where Pistis Mouse ventures to test the mettle of his little car.",
+    "storyIds": [
+      "Pistis_and_Potty_Mouse_s_Sprinkle_Adventure",
+      "Mistress_Mouse_and_the_Great_Penguin_Car_Race"
+    ],
+    "firstAppearanceStoryId": "Pistis_and_Potty_Mouse_s_Sprinkle_Adventure"
+  },
+  {
+    "id": "G9qIIF0H02EKvmQnUmGJ",
+    "name": "Under the ocean",
+    "description": "A destination where trucks go in a story, and where the robot goes on a mission.",
+    "storyIds": [
+      "Gonk-a-Bona_and_the_Soup-Seeking_Mole"
+    ],
+    "firstAppearanceStoryId": "Gonk-a-Bona_and_the_Soup-Seeking_Mole"
+  },
+  {
+    "id": "GBbO1oCj431HIqjIkIV1",
+    "name": "The Mouse House",
+    "description": "The cozy family home where Hattie and her family live.",
+    "storyIds": [
+      "Hattie_Mouse_and_the_Big_Sister_Surprise"
+    ],
+    "firstAppearanceStoryId": "Hattie_Mouse_and_the_Big_Sister_Surprise"
+  },
+  {
+    "id": "GEIM322XfoBtSzZtZLsd",
+    "name": "River Lake",
+    "description": "A pond nearby where the moss goes to find moisture.",
+    "storyIds": [
+      "Mossy_s_New_Home_at_River_Lake"
+    ],
+    "firstAppearanceStoryId": "Mossy_s_New_Home_at_River_Lake"
+  },
+  {
+    "id": "GHUd3U3zm9IM4skQ4Wvp",
+    "name": "Upper Floofer Cloud",
+    "description": "The high-altitude destination where Seeker must deliver floof-berries using a flying machine.",
+    "storyIds": [
+      "The_Floof-Berry_Mission_and_the_Great_Snowstorm"
+    ],
+    "firstAppearanceStoryId": "The_Floof-Berry_Mission_and_the_Great_Snowstorm"
+  },
+  {
+    "id": "GLJd09l1uwPtW3z9Ivzu",
+    "name": "The Pooky Home",
+    "description": "Where Spooky Pooky lives, reads books, and crafts handmade gifts with his mother.",
+    "storyIds": [
+      "Spooky_Pooky_s_Handmade_Gifts"
+    ],
+    "firstAppearanceStoryId": "Spooky_Pooky_s_Handmade_Gifts"
+  },
+  {
+    "id": "GP64Vq39QSnhbL60f0OU",
+    "name": "Hollow Tree Workshop",
+    "description": "Hattie's home and workplace located under the ground.",
+    "storyIds": [
+      "Hattie_and_the_Celestial_Shooting_Star"
+    ],
+    "firstAppearanceStoryId": "Hattie_and_the_Celestial_Shooting_Star"
+  },
+  {
+    "id": "GQbvX5KP7U8XE4CDOHbJ",
+    "name": "The Deep Blue Sea",
+    "description": "The home of the Rainbow Fish and his ocean friends.",
+    "storyIds": [
+      "Tiggy_Riggy_and_the_Rainbow_Fish"
+    ],
+    "firstAppearanceStoryId": "Tiggy_Riggy_and_the_Rainbow_Fish"
+  },
+  {
+    "id": "Gk23eRfGsJBhFGtHJBuR",
+    "name": "The Farm",
+    "description": "The place where Hatty and Finn obtained wool from a sheep.",
+    "storyIds": [
+      "Finn_the_Cat_s_Arctic_Rainbow_Quest"
+    ],
+    "firstAppearanceStoryId": "Finn_the_Cat_s_Arctic_Rainbow_Quest"
+  },
+  {
+    "id": "GkcEAOYT8SJn3gLHAYql",
+    "name": "Ice Skating Rink",
+    "description": "The location where the mouse suffered a tail injury during a slip.",
+    "storyIds": [
+      "Doctor_Izzy_s_Busy_Hospital_Day"
+    ],
+    "firstAppearanceStoryId": "Doctor_Izzy_s_Busy_Hospital_Day"
+  },
+  {
+    "id": "GpDu8JPjPke22S7HHydc",
+    "name": "Special tape store",
+    "description": "A store on Pepperoni Street featuring a tape parrot and a vegetable aisle.",
+    "storyIds": [
+      "Hattie_s_Magical_Rainbow_Tape_Quest"
+    ],
+    "firstAppearanceStoryId": "Hattie_s_Magical_Rainbow_Tape_Quest"
+  },
+  {
+    "id": "H7LZ40BkWqhM5jzqzNcp",
+    "name": "The Aquarium",
+    "description": "A grand facility filled with marine life, including special exhibits for rainbow fish and amphibians.",
+    "storyIds": [
+      "The_Moles_Great_Aquarium_Adventure"
+    ],
+    "firstAppearanceStoryId": "The_Moles_Great_Aquarium_Adventure"
+  },
+  {
+    "id": "H9QQLCdWizZ9Wq6wiM9r",
+    "name": "The Science Lab",
+    "description": "A room containing a world map, a human skeleton, and various jars of chemicals for mixing.",
+    "storyIds": [
+      "Science_in_the_Bakery"
+    ],
+    "firstAppearanceStoryId": "Science_in_the_Bakery"
+  },
+  {
+    "id": "HGc4Xx4UwP3LLd7elwYC",
+    "name": "The Wall",
+    "description": "A high obstacle that the adventurers overcome using a stool and a stack of items.",
+    "storyIds": [
+      "Tigger_s_Quest_for_the_Wizard_s_Magic_Wand"
+    ],
+    "firstAppearanceStoryId": "Tigger_s_Quest_for_the_Wizard_s_Magic_Wand"
+  },
+  {
+    "id": "HH3xXmuWGZ492byUekSe",
+    "name": "Ttia's House",
+    "description": "The final Earth-bound destination once the mission is finished.",
+    "storyIds": [
+      "Mission_to_the_Astro-Orange_Restaurant"
+    ],
+    "firstAppearanceStoryId": "Mission_to_the_Astro-Orange_Restaurant"
+  },
+  {
+    "id": "HN50nCJ2GtAUGOO57hut",
+    "name": "Coral Reef",
+    "description": "An underwater location filled with gemstones and sparkling clear water.",
+    "storyIds": [
+      "Slime-Ka-Bye_The_Beard-Dweller_s_Deep_Sea_Adventure"
+    ],
+    "firstAppearanceStoryId": "Slime-Ka-Bye_The_Beard-Dweller_s_Deep_Sea_Adventure"
+  },
+  {
+    "id": "HNKvswKkXHicjaaeIOer",
+    "name": "The Caves",
+    "description": "A sparkling, blue underground chamber where a magical gem is hidden.",
+    "storyIds": [
+      "The_Legend_of_the_Ice_Gem"
+    ],
+    "firstAppearanceStoryId": "The_Legend_of_the_Ice_Gem"
+  },
+  {
+    "id": "HaTNIiPaJJhU04GB6xeJ",
+    "name": "Mariana Trench",
+    "description": "A deep ocean trench mentioned by Seeker as a place where deep-sea creatures live.",
+    "storyIds": [
+      "Science_and_Hand_Mountains_with_Seeker_and_Uncle_Grisco"
+    ],
+    "firstAppearanceStoryId": "Science_and_Hand_Mountains_with_Seeker_and_Uncle_Grisco"
+  },
+  {
+    "id": "HjS5gkqBQ4TgaGuuIYeU",
+    "name": "The Balloon Playground",
+    "description": "A wobbly and bouncy recreational area featuring balloon swing sets, seesaws, and climbing structures.",
+    "storyIds": [
+      "The_Bouncy_Adventures_in_Balloon_World"
+    ],
+    "firstAppearanceStoryId": "The_Bouncy_Adventures_in_Balloon_World"
+  },
+  {
+    "id": "HkdxKdZUU5TVn1epMbcH",
+    "name": "Dentist's Office",
+    "description": "The place where the Frasgle Dentist performs procedures like tooth brushing and flossing.",
+    "storyIds": [
+      "Orange_Frasgle_and_the_Blackberry_Seed"
+    ],
+    "firstAppearanceStoryId": "Orange_Frasgle_and_the_Blackberry_Seed"
+  },
+  {
+    "id": "HndPOSMs3qh4Zl9l50Bn",
+    "name": "Crib",
+    "description": "The cozy place where Hattie the Mouse sleeps with her blanket and pillow.",
+    "storyIds": [
+      "Hattie_the_Mouse_s_One-Step-at-a-Time_Bedtime"
+    ],
+    "firstAppearanceStoryId": "Hattie_the_Mouse_s_One-Step-at-a-Time_Bedtime"
+  },
+  {
+    "id": "I2Pz08RayjYns3yCoF1y",
+    "name": "Possible Street",
+    "description": "The street where Hattie the Mouse and Mistress Mouse live.",
+    "storyIds": [
+      "Hattie_s_Workshop_Puzzles_and_Purple_Hats"
+    ],
+    "firstAppearanceStoryId": "Hattie_s_Workshop_Puzzles_and_Purple_Hats"
+  },
+  {
+    "id": "I4XCKjpq9IYhuARRh1nr",
+    "name": "The Closet",
+    "description": "A secluded hollow Izzy suggested for the moles’ exploration, though she initially warned of its sparse interior; it has since become a clandestine cache where the pets squirrel away their plush fish and mouse toys.",
+    "storyIds": [
+      "The_Chugga-Chugga_Journey_to_Nana_s_House",
+      "The_Mischiefy_Moles_and_the_Bookcase_of_Chaos"
+    ],
+    "firstAppearanceStoryId": "The_Chugga-Chugga_Journey_to_Nana_s_House"
+  },
+  {
+    "id": "I5jv4xrFGt3nF95tObVm",
+    "name": "Seker's Castle",
+    "description": "The home and laboratory of the wizard Seker where the story begins and ends.",
+    "storyIds": [
+      "The_Wizard_Seker_and_the_Magical_Can_Opener_of_Cat_World"
+    ],
+    "firstAppearanceStoryId": "The_Wizard_Seker_and_the_Magical_Can_Opener_of_Cat_World"
+  },
+  {
+    "id": "I6AUVJ9kUVlstO28jVyc",
+    "name": "Pomegranate Seed Beach",
+    "description": "A beach where the 'sand' consists of pomegranate seeds.",
+    "storyIds": [
+      "The_Rainbow_Fruit_World_and_the_Great_Lemon_Fish_Debate"
+    ],
+    "firstAppearanceStoryId": "The_Rainbow_Fruit_World_and_the_Great_Lemon_Fish_Debate"
+  },
+  {
+    "id": "IAKZ5OWjNmAWg01plDh7",
+    "name": "The Kelp Forest",
+    "description": "The backyard garden where the murgirls grow kelp for otters.",
+    "storyIds": [
+      "The_Mystery_of_the_Missing_Kelp_Forest"
+    ],
+    "firstAppearanceStoryId": "The_Mystery_of_the_Missing_Kelp_Forest"
+  },
+  {
+    "id": "IB5m40KDXkA5nW0Palnv",
+    "name": "Victor's Playhouse",
+    "description": "A location with a backyard where Victor cares for his beautiful pink flowers.",
+    "storyIds": [
+      "The_Polka-Dotted_Car_and_the_Shadow_Lab"
+    ],
+    "firstAppearanceStoryId": "The_Polka-Dotted_Car_and_the_Shadow_Lab"
+  },
+  {
+    "id": "IKf2J0MN3FqZkqURCIy4",
+    "name": "Mistress Mouse's House",
+    "description": "Mistress Mouse’s home base is a vibrant sanctuary where high-octane preparation meets playful domesticity. While it serves as the bustling staging ground for her iconic pink tow truck, it is also a private retreat where she tinkers with her toys and enjoys a quiet dinner. This pre-race haven seamlessly blends meticulous engine fine-tuning with the comforts of home, fueling her spirit long before the roar of competition begins.",
+    "storyIds": [
+      "The_Lego_Adventures_of_Mistress_Mouse_and_Other_Mouse",
+      "Mistress_Mouse_and_the_Great_Penguin_Car_Race",
+      "Mistress_Mouse_and_the_Pink_Tow_Truck_Rescue"
+    ],
+    "firstAppearanceStoryId": "The_Lego_Adventures_of_Mistress_Mouse_and_Other_Mouse"
+  },
+  {
+    "id": "ISTzAAWWjyr5avu1cd0u",
+    "name": "The art store",
+    "description": "A shop on Popcorn Street that was mysteriously out of paint.",
+    "storyIds": [
+      "Hattie_the_Artist_Mouse"
+    ],
+    "firstAppearanceStoryId": "Hattie_the_Artist_Mouse"
+  },
+  {
+    "id": "IV4nndIHtugrjV15r3v4",
+    "name": "Under the Bookshelf",
+    "description": "The dark, dank, and dusty goal where the moles perform their main mischief.",
+    "storyIds": [
+      "The_Mischief_Moles_and_the_Dusty_Bookshelf"
+    ],
+    "firstAppearanceStoryId": "The_Mischief_Moles_and_the_Dusty_Bookshelf"
+  },
+  {
+    "id": "IiFG3I6niWauVQML3uVa",
+    "name": "Astro-Mar-Orange Astro Restaurant",
+    "description": "The original destination of the space mission, located near Silver Street school.",
+    "storyIds": [
+      "Mission_to_the_Astro-Orange_Restaurant"
+    ],
+    "firstAppearanceStoryId": "Mission_to_the_Astro-Orange_Restaurant"
+  },
+  {
+    "id": "J6U5bHYu9KIpfFxpxLef",
+    "name": "Wildflower Field",
+    "description": "A vast meadow filled with purple, pink, blue, and yellow flowers where bees collect nectar.",
+    "storyIds": [
+      "Hattie_s_Rain_Boots_and_the_Honey_Bee_s_Hat"
+    ],
+    "firstAppearanceStoryId": "Hattie_s_Rain_Boots_and_the_Honey_Bee_s_Hat"
+  },
+  {
+    "id": "JLhYa8ILjQpHfEpau2Db",
+    "name": "Balloon Farm",
+    "description": "A specialized farm across from the castle where balloon-shaped fruits and vegetables are grown.",
+    "storyIds": [
+      "The_Sneaky_Popper_of_Balloon_World"
+    ],
+    "firstAppearanceStoryId": "The_Sneaky_Popper_of_Balloon_World"
+  },
+  {
+    "id": "JN0u7eicpMMV2SVAnOQ2",
+    "name": "The Purple Crystal",
+    "description": "The first section of the climb, featuring stairs cut into the side.",
+    "storyIds": [
+      "Izzy_the_Kiddo_and_the_Crystal_Mountain_Rescue"
+    ],
+    "firstAppearanceStoryId": "Izzy_the_Kiddo_and_the_Crystal_Mountain_Rescue"
+  },
+  {
+    "id": "JTHV2fMSnWRzjo9J7Gil",
+    "name": "Silver's Planet",
+    "description": "A far-off destination in the galaxy where kittens reside.",
+    "storyIds": [
+      "Mission_to_Silver_s_Planet"
+    ],
+    "firstAppearanceStoryId": "Mission_to_Silver_s_Planet"
+  },
+  {
+    "id": "JTKuaABzgUv719oFDh4J",
+    "name": "The Grocery Store",
+    "description": "A magical store stocked with mushrooms in every color of the rainbow, including indigo, teal, and interracial skin tones.",
+    "storyIds": [
+      "Hattie_the_Mouse_and_the_Rainbow_Mushroom_Mystery"
+    ],
+    "firstAppearanceStoryId": "Hattie_the_Mouse_and_the_Rainbow_Mushroom_Mystery"
+  },
+  {
+    "id": "JVZ8X3Jmn4A2svgSAo0c",
+    "name": "Mistress's House",
+    "description": "A cozy residence where Mistress Mouse and her mother, Mischief, share celebratory feasts of golden corn, featuring a light-drenched sunroom where the mouse friends gather to scour for hidden clues.",
+    "storyIds": [
+      "A_Hat_for_Mistress_Mouse",
+      "Hattie_the_Mouse_and_the_Rainbow_Mushroom_Mystery"
+    ],
+    "firstAppearanceStoryId": "A_Hat_for_Mistress_Mouse"
+  },
+  {
+    "id": "JWiSZ4Ll0C5avbY0fDBQ",
+    "name": "Zoot's House",
+    "description": "The place where Zoot keeps his various colored trampolines.",
+    "storyIds": [
+      "The_Floofer_s_Trampoline_and_the_Butterfly_Valentine"
+    ],
+    "firstAppearanceStoryId": "The_Floofer_s_Trampoline_and_the_Butterfly_Valentine"
+  },
+  {
+    "id": "Jcz7CE4FgMAohPvMEcFv",
+    "name": "Kitty's Office",
+    "description": "A room in Kitty's house used for questioning suspects and finding solutions.",
+    "storyIds": [
+      "The_Sneaky_Popper_of_Balloon_World"
+    ],
+    "firstAppearanceStoryId": "The_Sneaky_Popper_of_Balloon_World"
+  },
+  {
+    "id": "Jn2bw7UVj6qhIJClv7vS",
+    "name": "Odic Aquarium",
+    "description": "A planetary destination filled with exotic fish.",
+    "storyIds": [
+      "The_Moles_Intergalactic_Snack_Run"
+    ],
+    "firstAppearanceStoryId": "The_Moles_Intergalactic_Snack_Run"
+  },
+  {
+    "id": "JvhY5nwwt5fK2u8te5rB",
+    "name": "The Front Porch",
+    "description": "A shady spot where the characters relax, drink hibiscus tea, and play with magic Legos.",
+    "storyIds": [
+      "Minnie_Mouse_and_the_Long-Legged_Lego_Duck"
+    ],
+    "firstAppearanceStoryId": "Minnie_Mouse_and_the_Long-Legged_Lego_Duck"
+  },
+  {
+    "id": "KC2miIMs3bh5RLagGmHc",
+    "name": "Hattie's Workshop of Hats",
+    "description": "The destination where the friends gather to play their elaborate games.",
+    "storyIds": [
+      "The_Foxy_Way_and_the_Twirling_Ghost"
+    ],
+    "firstAppearanceStoryId": "The_Foxy_Way_and_the_Twirling_Ghost"
+  },
+  {
+    "id": "KN1lHuTznQEiom4DIv0n",
+    "name": "Sunlit Zone",
+    "description": "The bright, sparkling blue upper layer of the ocean lit by the sun.",
+    "storyIds": [
+      "Voyage_to_the_Kingdom_of_the_Sea_Mice"
+    ],
+    "firstAppearanceStoryId": "Voyage_to_the_Kingdom_of_the_Sea_Mice"
+  },
+  {
+    "id": "KWjW9K39yDkb8kDqopKb",
+    "name": "Ernie's House",
+    "description": "The primary setting where spring cleaning is desperately needed.",
+    "storyIds": [
+      "The_Big_Muck_Problem_One_Pile_at_a_Time"
+    ],
+    "firstAppearanceStoryId": "The_Big_Muck_Problem_One_Pile_at_a_Time"
+  },
+  {
+    "id": "KbfqyDcqHLpsBKolMosH",
+    "name": "Blueberry Ocean",
+    "description": "A body of water in Rainbow Fruit World made entirely of blueberries and juice.",
+    "storyIds": [
+      "The_Rainbow_Fruit_World_and_the_Great_Lemon_Fish_Debate"
+    ],
+    "firstAppearanceStoryId": "The_Rainbow_Fruit_World_and_the_Great_Lemon_Fish_Debate"
+  },
+  {
+    "id": "KfdxMRBCR2bof8Eqmp34",
+    "name": "The Deep Dark Ocean",
+    "description": "The vast area of water where the explorers begin their journey.",
+    "storyIds": [
+      "Disco_and_Thisco_s_Deep-Sea_Submarine_Adventure"
+    ],
+    "firstAppearanceStoryId": "Disco_and_Thisco_s_Deep-Sea_Submarine_Adventure"
+  },
+  {
+    "id": "Kfvo8J1aHxg827wptFWE",
+    "name": "Lego Aquarium",
+    "description": "A large aquarium built out of blocks that characters can swim in.",
+    "storyIds": [
+      "Hattie_and_the_Lego_Aquarium_Adventure"
+    ],
+    "firstAppearanceStoryId": "Hattie_and_the_Lego_Aquarium_Adventure"
+  },
+  {
+    "id": "Klxvo3VIlvccLCRJtX1p",
+    "name": "The Race Track",
+    "description": "A challenging course through a desert, jungle, and over a steep mountain.",
+    "storyIds": [
+      "The_Many_Adventures_of_Mistress_Mouse"
+    ],
+    "firstAppearanceStoryId": "The_Many_Adventures_of_Mistress_Mouse"
+  },
+  {
+    "id": "Kq4PbDl7VajFSaWN7ZSj",
+    "name": "The Clock Tower",
+    "description": "A central landmark near Kitty's house used as a navigation point.",
+    "storyIds": [
+      "The_Case_of_the_Carrot-Loving_Gophers"
+    ],
+    "firstAppearanceStoryId": "The_Case_of_the_Carrot-Loving_Gophers"
+  },
+  {
+    "id": "Ks9xQ6s2X2mxzFidw64a",
+    "name": "The Thunder Cloud",
+    "description": "A stormy area within the cloud land, home to Graw and the Floofers.",
+    "storyIds": [
+      "Haddy_the_Mouse_and_the_Quest_for_the_Talking_Hat"
+    ],
+    "firstAppearanceStoryId": "Haddy_the_Mouse_and_the_Quest_for_the_Talking_Hat"
+  },
+  {
+    "id": "KvSecEXEELR8szqqbFWT",
+    "name": "Underground Library",
+    "description": "A hidden library located between the roots of an old tree stump, filled with books.",
+    "storyIds": [
+      "The_Underground_Library_and_the_Big_Bubble_Bonanza"
+    ],
+    "firstAppearanceStoryId": "The_Underground_Library_and_the_Big_Bubble_Bonanza"
+  },
+  {
+    "id": "KwtbFaEFSrWroAgAw4JG",
+    "name": "The Garden Next Door",
+    "description": "Where the hungry woodchuck heads to find more food.",
+    "storyIds": [
+      "Hattie_s_Block-Built_Nature_Walk_Adventure"
+    ],
+    "firstAppearanceStoryId": "Hattie_s_Block-Built_Nature_Walk_Adventure"
+  },
+  {
+    "id": "L4EosJDsioV0hgxZolr5",
+    "name": "Pakarito's Apartment",
+    "description": "The neighboring home where the friends gather to share a large bowl of assorted nuts.",
+    "storyIds": [
+      "Magic_Mole_s_New_Apartment_and_the_Great_Nut_Feast"
+    ],
+    "firstAppearanceStoryId": "Magic_Mole_s_New_Apartment_and_the_Great_Nut_Feast"
+  },
+  {
+    "id": "LDC6WfXzj0oTCVZDxGoz",
+    "name": "The Sunlit Rock",
+    "description": "Mossy’s perfect new home situated right by River Lake.",
+    "storyIds": [
+      "Mossy_s_New_Home_at_River_Lake"
+    ],
+    "firstAppearanceStoryId": "Mossy_s_New_Home_at_River_Lake"
+  },
+  {
+    "id": "LNuoK9LVnCMSXC2KWWP0",
+    "name": "Tropical Island",
+    "description": "A beautiful destination with a tall mountain rising out of its center where the friends eventually land.",
+    "storyIds": [
+      "The_Rocket_Boat_to_Mouseland"
+    ],
+    "firstAppearanceStoryId": "The_Rocket_Boat_to_Mouseland"
+  },
+  {
+    "id": "LPEARDlhKhsQohkTZ0DJ",
+    "name": "The Swamp",
+    "description": "A wet, mucky part of the forest filled with ferns, moss, and trees growing out of the water.",
+    "storyIds": [
+      "Monch_the_Lizard_and_the_Minty_Meditation"
+    ],
+    "firstAppearanceStoryId": "Monch_the_Lizard_and_the_Minty_Meditation"
+  },
+  {
+    "id": "LQ45jw07BIHB2ApiabJ6",
+    "name": "Snake Store",
+    "description": "A curious shop that sells special lollipops called 'bups'.",
+    "storyIds": [
+      "The_Mystery_of_the_Snake_Store_Bups"
+    ],
+    "firstAppearanceStoryId": "The_Mystery_of_the_Snake_Store_Bups"
+  },
+  {
+    "id": "LaoocSNChBOXe2fk3LfB",
+    "name": "Mommy",
+    "description": "The human house that provides the environment for Surprise Mouse's smaller home.",
+    "storyIds": [
+      "The_Tail_of_Two_Mice_Surprise_and_Hoodie"
+    ],
+    "firstAppearanceStoryId": "The_Tail_of_Two_Mice_Surprise_and_Hoodie"
+  },
+  {
+    "id": "Lha85pO4Xs2CJANXTZac",
+    "name": "Under the Bookcase",
+    "description": "A vast, dusty landscape filled with forgotten toys and perfect spots for mischief.",
+    "storyIds": [
+      "Disco_and_Thisco_The_Great_Bookcase_Mischief"
+    ],
+    "firstAppearanceStoryId": "Disco_and_Thisco_The_Great_Bookcase_Mischief"
+  },
+  {
+    "id": "LiF3TY7UJYsfJClU8Ot4",
+    "name": "The Deep Dark",
+    "description": "The cold and lightless part of the ocean where deep-sea creatures reside.",
+    "storyIds": [
+      "Voyage_to_the_Kingdom_of_the_Sea_Mice"
+    ],
+    "firstAppearanceStoryId": "Voyage_to_the_Kingdom_of_the_Sea_Mice"
+  },
+  {
+    "id": "LssDgqwQzizDxYn6lvmR",
+    "name": "Animal Hospital",
+    "description": "The clinic in town where the mouse is taken for emergency care.",
+    "storyIds": [
+      "Dr_Izzy_and_the_Forest_Rescue"
+    ],
+    "firstAppearanceStoryId": "Dr_Izzy_and_the_Forest_Rescue"
+  },
+  {
+    "id": "Lx7idHTF32ll1JgZVjv4",
+    "name": "Litter box",
+    "description": "The one place the cats curiously refuse to puke in.",
+    "storyIds": [
+      "The_Puking_Cats_Anthem"
+    ],
+    "firstAppearanceStoryId": "The_Puking_Cats_Anthem"
+  },
+  {
+    "id": "M43q9qxCEeYRW6v4zBKi",
+    "name": "Driveway",
+    "description": "The area outside Mistress Mouse's house where the pink truck sits when parked.",
+    "storyIds": [
+      "The_Lego_Adventures_of_Mistress_Mouse_and_Other_Mouse"
+    ],
+    "firstAppearanceStoryId": "The_Lego_Adventures_of_Mistress_Mouse_and_Other_Mouse"
+  },
+  {
+    "id": "M81ZlTgzUWcp9JMAvKcH",
+    "name": "The Plane of Ice",
+    "description": "A frozen world of snow and ice contained within one of Seeker's enchanted potions.",
+    "storyIds": [
+      "The_Mischief_Moles_and_the_Plane_of_Fire"
+    ],
+    "firstAppearanceStoryId": "The_Mischief_Moles_and_the_Plane_of_Fire"
+  },
+  {
+    "id": "M9ABIkB1NsryA3BOAILW",
+    "name": "Blueberry Patch",
+    "description": "The field where the friends pick berries to fill their baskets.",
+    "storyIds": [
+      "Mickey_Minnie_and_Mole_s_Galactic_Bake-Off"
+    ],
+    "firstAppearanceStoryId": "Mickey_Minnie_and_Mole_s_Galactic_Bake-Off"
+  },
+  {
+    "id": "MBJ7NjOyF0tWj9HeGOe7",
+    "name": "Pepperoni Street",
+    "description": "The street where the special magical rainbow tape can be found.",
+    "storyIds": [
+      "Hattie_s_Magical_Rainbow_Tape_Quest"
+    ],
+    "firstAppearanceStoryId": "Hattie_s_Magical_Rainbow_Tape_Quest"
+  },
+  {
+    "id": "MOfI4nrZNydCBIlCiGqf",
+    "name": "Slime World Castle",
+    "description": "A large, ball-shaped castle made of orange and blue slime.",
+    "storyIds": [
+      "A_Sticky_Adventure_to_the_Castle_of_Slime"
+    ],
+    "firstAppearanceStoryId": "A_Sticky_Adventure_to_the_Castle_of_Slime"
+  },
+  {
+    "id": "Mk1ywRYwUdI2JtpMX1MQ",
+    "name": "Deep Water",
+    "description": "A high-pressure zone far beneath the surface where explorers roam.",
+    "storyIds": [
+      "The_Chronicles_of_Carland_and_the_Sea_Mice"
+    ],
+    "firstAppearanceStoryId": "The_Chronicles_of_Carland_and_the_Sea_Mice"
+  },
+  {
+    "id": "MmyZp3FOrtXrw1ldqnoC",
+    "name": "Kingdom of the Sea Mice",
+    "description": "A mysterious realm and the ultimate destination, hidden within the crushing silence of the absolute ocean floor.",
+    "storyIds": [
+      "Voyage_to_the_Kingdom_of_the_Sea_Mice",
+      "Disco_and_Thisco_s_Deep-Sea_Submarine_Adventure"
+    ],
+    "firstAppearanceStoryId": "Voyage_to_the_Kingdom_of_the_Sea_Mice"
+  },
+  {
+    "id": "Mr7oTAGYu5jWxUQhCMnS",
+    "name": "Tree",
+    "description": "The place where Jane and Alexander are found stranded on a branch.",
+    "storyIds": [
+      "Stars_and_Stories_The_Great_Cat_Rescue"
+    ],
+    "firstAppearanceStoryId": "Stars_and_Stories_The_Great_Cat_Rescue"
+  },
+  {
+    "id": "MuxkaMQtybWIYDA5HdFn",
+    "name": "Downstairs",
+    "description": "Ova’s birthday gala transformed the discarded bin of rusty toys into a sprawling patchwork of global wonders. Corroded tin trains served as the iron-clad mountains of a miniature Eurasia, while the oxidized gears of a forgotten wind-up soldier formed the jagged, red-dust canyons of a metallic Australia. Beneath the festive bunting, the weathered plastic and peeling paint of these childhood relics became the vibrant, rugged continents of a mouse’s vast and storied world.",
+    "storyIds": [
+      "The_Mischiefy_Moles_and_the_Bookcase_of_Chaos",
+      "Ova_s_Birthday_and_the_Quiet_Mole_Exploration"
+    ],
+    "firstAppearanceStoryId": "The_Mischiefy_Moles_and_the_Bookcase_of_Chaos"
+  },
+  {
+    "id": "MvP3sKKUtG10yKNPBIIM",
+    "name": "Dimatar's Tower",
+    "description": "The dragonet's home where Isabella visits.",
+    "storyIds": [
+      "Dimatar_s_Big_Day_at_Ginger_Catasorry"
+    ],
+    "firstAppearanceStoryId": "Dimatar_s_Big_Day_at_Ginger_Catasorry"
+  },
+  {
+    "id": "NFBrEDFOWPsNYbvtP46P",
+    "name": "Mouse Street",
+    "description": "A long, storied thoroughfare guiding explorers into the heart of Mouseland, this bustling street serves as both the cherished home of Hattie the Mouse and the vital hub for the community’s doctor’s office.",
+    "storyIds": [
+      "Hattie_Mouse_and_the_Mouse_Street_Doctors",
+      "Hattie_the_Mouse_and_the_Poet_Worm",
+      "The_Rocket_Boat_to_Mouseland"
+    ],
+    "firstAppearanceStoryId": "Hattie_Mouse_and_the_Mouse_Street_Doctors"
+  },
+  {
+    "id": "NOrQHO5fOTlNpUSaxbZc",
+    "name": "The Carving Workshop",
+    "description": "A specialized room where dwarf artisans teach the craft of creating art from stone.",
+    "storyIds": [
+      "Seeker_s_Stone-Carving_Expedition"
+    ],
+    "firstAppearanceStoryId": "Seeker_s_Stone-Carving_Expedition"
+  },
+  {
+    "id": "NPxMGEwdHaxNmPays7fk",
+    "name": "The Sea Cave",
+    "description": "The resting place of the bear family who ate the kelp.",
+    "storyIds": [
+      "The_Mystery_of_the_Missing_Kelp_Forest"
+    ],
+    "firstAppearanceStoryId": "The_Mystery_of_the_Missing_Kelp_Forest"
+  },
+  {
+    "id": "NQ2Su4bRG5CUGNGGxVfD",
+    "name": "JP Library",
+    "description": "The local library where Izzy finds the exciting book about Pout-Pout Fish.",
+    "storyIds": [
+      "Izzy_the_Kiddo_and_the_Quest_for_the_Deep_Sea_Pearl"
+    ],
+    "firstAppearanceStoryId": "Izzy_the_Kiddo_and_the_Quest_for_the_Deep_Sea_Pearl"
+  },
+  {
+    "id": "NZLUMMCrsUXFgj51vrHs",
+    "name": "Yard",
+    "description": "The outdoor area where Mistress Mouse plays the morning after her big dinner.",
+    "storyIds": [
+      "The_Lego_Adventures_of_Mistress_Mouse_and_Other_Mouse"
+    ],
+    "firstAppearanceStoryId": "The_Lego_Adventures_of_Mistress_Mouse_and_Other_Mouse"
+  },
+  {
+    "id": "NaqbqWY1vg6E7oLwOMbq",
+    "name": "Wooden Dock",
+    "description": "A floating platform on the pond where the characters jump into the water.",
+    "storyIds": [
+      "Frasgle_and_the_Sticky_Situation"
+    ],
+    "firstAppearanceStoryId": "Frasgle_and_the_Sticky_Situation"
+  },
+  {
+    "id": "Nc1i5Shp7UuNg35H0sDP",
+    "name": "Seeker's House",
+    "description": "Perched at the edge of a mountain, this warm stone sanctuary—Seeker’s original residence and whimsical home shared with Uncle Crisco—has evolved from a secret vault into the purring, chaotic heart of a massive feline gala. Within its well-lit halls where Muppets gather for snacks and scientific discussions, lies a special hidden closet where Seeker brews an enchanted collection of potions that shimmer in every imaginable color.",
+    "storyIds": [
+      "Haddy_the_Mouse_and_the_Quest_for_the_Talking_Hat",
+      "The_Bouncing_Floofers_of_the_Golden_Cloud",
+      "The_Red_Planet_Potion",
+      "Science_and_Hand_Mountains_with_Seeker_and_Uncle_Grisco",
+      "The_Potion_to_Izzy_s_Attic",
+      "Late_Night_Tea_with_Mrs_Piggy_and_the_Muppets",
+      "The_Great_Kibble_Cat-astrophe",
+      "The_Squeaky_Adventures_in_Balloon_World",
+      "Shark_Friends_and_the_Deep_Deep_Dark"
+    ],
+    "firstAppearanceStoryId": "Haddy_the_Mouse_and_the_Quest_for_the_Talking_Hat"
+  },
+  {
+    "id": "NvCGU8spj18sEXfpDDKQ",
+    "name": "Construction Site",
+    "description": "Just down the block, a skeletal labyrinth of towering cranes and idling bulldozers serves as a high-octane arena where mice compete in blurring, high-speed races. This mechanical sanctuary is the domain of Whopper the digger, where the air hums with the scent of grease and the frantic adrenaline of the tiny circuit.",
+    "storyIds": [
+      "Mistress_Mouse_and_the_Construction_Site_Race",
+      "Hattie_s_Rainy_Day_Birthday_Adventure"
+    ],
+    "firstAppearanceStoryId": "Mistress_Mouse_and_the_Construction_Site_Race"
+  },
+  {
+    "id": "OBh1e95LxvUNb5oU2zy2",
+    "name": "Bottom of the Floor",
+    "description": "The deepest part of the ocean, home to the Sea Cat.",
+    "storyIds": [
+      "The_Chronicles_of_Carland_and_the_Sea_Mice"
+    ],
+    "firstAppearanceStoryId": "The_Chronicles_of_Carland_and_the_Sea_Mice"
+  },
+  {
+    "id": "OJrx2yXbtx4BZmi6dqKF",
+    "name": "Pine Tree",
+    "description": "Tucked into the aromatic thickets behind the Mouse Castle, this landmark is the celebrated site where the lost rainbow ball was finally recovered and the very spot where Frasgle’s deep slumber resulted in a coat hopelessly matted with amber-sticky sap.",
+    "storyIds": [
+      "Frasgle_and_the_Sticky_Situation",
+      "Finn_the_Cat_s_Arctic_Rainbow_Quest"
+    ],
+    "firstAppearanceStoryId": "Frasgle_and_the_Sticky_Situation"
+  },
+  {
+    "id": "OMvWtP8d7oe4Su9d2cws",
+    "name": "The Cozy Tunnel",
+    "description": "The subterranean home where Disco and Thisco return to sleep after their adventures.",
+    "storyIds": [
+      "Disco_and_Thisco_The_Great_Bookcase_Mischief"
+    ],
+    "firstAppearanceStoryId": "Disco_and_Thisco_The_Great_Bookcase_Mischief"
+  },
+  {
+    "id": "OV6gGqnwEQqheYKMlesY",
+    "name": "The Big Mountain",
+    "description": "A tall, rocky peak that is the ultimate destination of the hike.",
+    "storyIds": [
+      "The_Great_Expedition_of_the_Sas-ma-ras-ma-fla-mas_Frog"
+    ],
+    "firstAppearanceStoryId": "The_Great_Expedition_of_the_Sas-ma-ras-ma-fla-mas_Frog"
+  },
+  {
+    "id": "OXvewY34yogaXxeAQ86h",
+    "name": "Outer Space",
+    "description": "The vast, dark expanse beyond Earth’s atmosphere, a silent cradle for shooting stars where Mickey and Minnie journey to witness the celestial glow while the crew scours the void for lost rocks and wandering stars.",
+    "storyIds": [
+      "Mickey_and_Minnie_s_Interstellar_Forest_Adventure",
+      "Mission_to_the_Rainbow_Planet_Vupiter_Wupiter_Snupiter",
+      "Seeker_s_Guide_to_Volcanoes_Space_and_Sunlight"
+    ],
+    "firstAppearanceStoryId": "Mickey_and_Minnie_s_Interstellar_Forest_Adventure"
+  },
+  {
+    "id": "Ov721t53uZuCHmBJ4T8p",
+    "name": "Pink",
+    "description": "The vibrant rocket ship equipped with a music player and space suits.",
+    "storyIds": [
+      "Mickey_and_Minnie_s_Interstellar_Forest_Adventure"
+    ],
+    "firstAppearanceStoryId": "Mickey_and_Minnie_s_Interstellar_Forest_Adventure"
+  },
+  {
+    "id": "P2ni9qlJOBmbaLYI4n5j",
+    "name": "Rainbow Fruit World",
+    "description": "A magical dimension where every element of nature is composed of different fruits.",
+    "storyIds": [
+      "The_Rainbow_Fruit_World_and_the_Great_Lemon_Fish_Debate"
+    ],
+    "firstAppearanceStoryId": "The_Rainbow_Fruit_World_and_the_Great_Lemon_Fish_Debate"
+  },
+  {
+    "id": "P3YXSBM8NMjXV3R3kgOh",
+    "name": "Classroom",
+    "description": "The place where the students work on planet maps and beadwork.",
+    "storyIds": [
+      "Dimitar_s_Flight_to_Cadasori"
+    ],
+    "firstAppearanceStoryId": "Dimitar_s_Flight_to_Cadasori"
+  },
+  {
+    "id": "P4iiJ6z1MFPI9AJz0wRz",
+    "name": "yellow",
+    "description": "The vibrant rocket ship equipped with a music player and space suits.",
+    "storyIds": [
+      "Mickey_and_Minnie_s_Interstellar_Forest_Adventure"
+    ],
+    "firstAppearanceStoryId": "Mickey_and_Minnie_s_Interstellar_Forest_Adventure"
+  },
+  {
+    "id": "PFGV4NVbnPOs2aUTDXyM",
+    "name": "Mickey's House",
+    "description": "Where the friends bake their muffins and bread.",
+    "storyIds": [
+      "Mickey_Minnie_and_Mole_s_Galactic_Bake-Off"
+    ],
+    "firstAppearanceStoryId": "Mickey_Minnie_and_Mole_s_Galactic_Bake-Off"
+  },
+  {
+    "id": "PHcMzct0pT5QH2m3VUtG",
+    "name": "Daddy's House",
+    "description": "The human house that provides the environment for Surprise Mouse's smaller home.",
+    "storyIds": [
+      "The_Tail_of_Two_Mice_Surprise_and_Hoodie"
+    ],
+    "firstAppearanceStoryId": "The_Tail_of_Two_Mice_Surprise_and_Hoodie"
+  },
+  {
+    "id": "PJIaMxbi9FPt73z9f2On",
+    "name": "The Hospital",
+    "description": "The clinical hub for surgeries and examinations, now transformed into a hushed, antiseptic sanctuary where Mama and her newborn recover amidst the sterile hum of life-sustaining machinery.",
+    "storyIds": [
+      "Hattie_s_Block-Built_Nature_Walk_Adventure",
+      "Doctor_Izzy_s_Busy_Hospital_Day"
+    ],
+    "firstAppearanceStoryId": "Hattie_s_Block-Built_Nature_Walk_Adventure"
+  },
+  {
+    "id": "PKZ9dNybiCSZvlH9lvC0",
+    "name": "Isabella's Bedroom",
+    "description": "The landing spot is a hushed, shadow-drenched room where a blue starry rug lies buried beneath a landscape of forgotten toys. In this quiet staging ground, the search party assembles, steeling themselves before plunging into the dark frontier under the bed.",
+    "storyIds": [
+      "Under_the_Bed_and_Over_the_Sky",
+      "The_Potion_to_the_Little_Hotel_House"
+    ],
+    "firstAppearanceStoryId": "Under_the_Bed_and_Over_the_Sky"
+  },
+  {
+    "id": "POylmRvS65Ku4y3j8lJd",
+    "name": "Asia",
+    "description": "A continent included in the ship's global tracking data.",
+    "storyIds": [
+      "Cosmic_Controls_at_the_Captain_s_Desk"
+    ],
+    "firstAppearanceStoryId": "Cosmic_Controls_at_the_Captain_s_Desk"
+  },
+  {
+    "id": "PQRniG7WmHM688eYNZn6",
+    "name": "Pineberry Avenue",
+    "description": "A street where the Eat and Greet Bakery is located.",
+    "storyIds": [
+      "The_Sardine_Bakery_and_the_Rainbow_Disco_Birthday"
+    ],
+    "firstAppearanceStoryId": "The_Sardine_Bakery_and_the_Rainbow_Disco_Birthday"
+  },
+  {
+    "id": "PdHH1GhUHjqGRvaQRqkP",
+    "name": "The Path",
+    "description": "A trail outside Hattie's house where Victor was found covered in mud.",
+    "storyIds": [
+      "Victor_s_Muddy_Mishap"
+    ],
+    "firstAppearanceStoryId": "Victor_s_Muddy_Mishap"
+  },
+  {
+    "id": "PenFw9qQIEevT5AAVMPC",
+    "name": "Underground Stream",
+    "description": "A hidden source of water found deep within the mountain.",
+    "storyIds": [
+      "Hattie_and_the_Mystery_of_the_Muddy_Mountain"
+    ],
+    "firstAppearanceStoryId": "Hattie_and_the_Mystery_of_the_Muddy_Mountain"
+  },
+  {
+    "id": "PfZZl7tXrZZMM8uFJD0s",
+    "name": "Victor's House",
+    "description": "Perched atop a mountain peak dusted in shimmering purple glitter, the mouse’s rosy pink house sits nestled within the long shadow of the neighboring Wizard’s castle.",
+    "storyIds": [
+      "The_Magic_Forest_Photo_Tour",
+      "Peacock_s_Castle_and_the_Neighborhood_Photo_Project"
+    ],
+    "firstAppearanceStoryId": "The_Magic_Forest_Photo_Tour"
+  },
+  {
+    "id": "Pk9irkHXNtJqucuvq5Vw",
+    "name": "The Library",
+    "description": "A location on the Planet of the Mookers where ancient fossil books are kept.",
+    "storyIds": [
+      "Wobbly_Whisker_s_Sticky_Adventure_on_Planet_Mooker"
+    ],
+    "firstAppearanceStoryId": "Wobbly_Whisker_s_Sticky_Adventure_on_Planet_Mooker"
+  },
+  {
+    "id": "PvvAGQyUFDTklclBATcF",
+    "name": "Robot bed",
+    "description": "A surprisingly comfortable bed constructed entirely out of bricks.",
+    "storyIds": [
+      "Zilliam_s_Brick_Bed_and_the_Story_of_Nothing"
+    ],
+    "firstAppearanceStoryId": "Zilliam_s_Brick_Bed_and_the_Story_of_Nothing"
+  },
+  {
+    "id": "Q2FeM45rUlMLfsKDYTVV",
+    "name": "Smother Street",
+    "description": "One of the streets Hattie traverses on her way to the shops.",
+    "storyIds": [
+      "Hattie_the_Artist_Mouse"
+    ],
+    "firstAppearanceStoryId": "Hattie_the_Artist_Mouse"
+  },
+  {
+    "id": "QGtGYQ0pQWgFPqSMpIcv",
+    "name": "Space Boat",
+    "description": "A high-tech vessel equipped with specialized sound machines for galactic travel.",
+    "storyIds": [
+      "Captain_Izzy_s_Space_Boat_Launch"
+    ],
+    "firstAppearanceStoryId": "Captain_Izzy_s_Space_Boat_Launch"
+  },
+  {
+    "id": "QIeIhhCu4fPAbv9ZWvu4",
+    "name": "The Doctor's Office",
+    "description": "A medical setting where patients receive examinations and unique prescriptions.",
+    "storyIds": [
+      "Dr_Izzy_s_Musical_Cure"
+    ],
+    "firstAppearanceStoryId": "Dr_Izzy_s_Musical_Cure"
+  },
+  {
+    "id": "QWGeiTjzvOgIuK3HNV4i",
+    "name": "Mischief Mouse's Store",
+    "description": "Nestled along the thoroughfare, this traveler’s waypoint offers a peculiar bounty: pungent wheels of cheese and jars of dried ants sit alongside a neighboring cache of practical gear. Here, a wanderer can stock their pack with provisions before stepping next door to weather the elements with sturdy rain jackets, umbrellas, and polished galoshes.",
+    "storyIds": [
+      "Hattie_the_Mouse_and_the_Baby_Chipmunk_s_Snack",
+      "The_Putt-Putt_Road_Trip_Adventure"
+    ],
+    "firstAppearanceStoryId": "Hattie_the_Mouse_and_the_Baby_Chipmunk_s_Snack"
+  },
+  {
+    "id": "QngbzSoZXZIE0ssRD2Bj",
+    "name": "Christmas Tree Mountain",
+    "description": "A mountain featuring a bunny ornament that marks the secret entrance to the gopher world.",
+    "storyIds": [
+      "Kitty_s_Crew_and_the_Underground_Adventure"
+    ],
+    "firstAppearanceStoryId": "Kitty_s_Crew_and_the_Underground_Adventure"
+  },
+  {
+    "id": "QocChC93fstKPrnmY36E",
+    "name": "The Moles' House",
+    "description": "The starting point of the moles' expedition.",
+    "storyIds": [
+      "Izzy_the_Kiddo_and_the_Crystal_Mountain_Rescue"
+    ],
+    "firstAppearanceStoryId": "Izzy_the_Kiddo_and_the_Crystal_Mountain_Rescue"
+  },
+  {
+    "id": "QwlMusl2BVU5vkKfO0qn",
+    "name": "The Muddy Tunnel",
+    "description": "A dark underground passage where the ground is squishy and difficult to navigate.",
+    "storyIds": [
+      "Hattie_and_the_Mystery_of_the_Muddy_Mountain"
+    ],
+    "firstAppearanceStoryId": "Hattie_and_the_Mystery_of_the_Muddy_Mountain"
+  },
+  {
+    "id": "R1nnceUozBut7xTnHQMQ",
+    "name": "Green Planet",
+    "description": "A distant world covered in lush forests orbiting a star.",
+    "storyIds": [
+      "Mickey_and_Minnie_s_Interstellar_Forest_Adventure"
+    ],
+    "firstAppearanceStoryId": "Mickey_and_Minnie_s_Interstellar_Forest_Adventure"
+  },
+  {
+    "id": "R3jbKXwqc6Esi1F03lGT",
+    "name": "Peacock's Nest",
+    "description": "A cozy home located inside a garden bush where Peacock and Fishy-a go to rest.",
+    "storyIds": [
+      "Slime-Ka-Bye_The_Beard-Dweller_s_Deep_Sea_Adventure"
+    ],
+    "firstAppearanceStoryId": "Slime-Ka-Bye_The_Beard-Dweller_s_Deep_Sea_Adventure"
+  },
+  {
+    "id": "RUlmjNcSVQjuLwJrOTdO",
+    "name": "Workshop",
+    "description": "Tucked at the edge of her sprawling backyard, Hattie’s home and creative sanctuary are nestled within the weathered heart of a hollow tree stump. This cozy, sun-dappled workspace blends domestic warmth with artistic industry, creating an evocative haven where the mouse brings her visions to life amidst the scent of aged bark and wild clover.",
+    "storyIds": [
+      "Hattie_s_Rain_Boots_and_the_Honey_Bee_s_Hat",
+      "Hattie_the_Mouse_and_the_Backyard_Cleanup"
+    ],
+    "firstAppearanceStoryId": "Hattie_s_Rain_Boots_and_the_Honey_Bee_s_Hat"
+  },
+  {
+    "id": "Rb6wTvPo62QPEOTNUrrw",
+    "name": "Hattie's workshop",
+    "description": "The sunlit cradle of Hattie’s grand adventure, this workshop remains a sanctuary of craftsmanship and logic where she shapes her signature hats and untangles complex puzzles—now serving as a warm, vital refuge for the islanders after their home was lost to the frost.",
+    "storyIds": [
+      "Hattie_s_Workshop_Puzzles_and_Purple_Hats",
+      "Hattie_s_Magical_Rainbow_Tape_Quest",
+      "The_Salty_Solution_for_a_Frozen_Island"
+    ],
+    "firstAppearanceStoryId": "Hattie_s_Workshop_Puzzles_and_Purple_Hats"
+  },
+  {
+    "id": "Row6pGaGXn7x0ZmolbBU",
+    "name": "The Bookcase",
+    "description": "A tall structure the moles climb, leading to a knocked-over lamp.",
+    "storyIds": [
+      "The_Mischiefy_Moles_and_the_Bookcase_of_Chaos"
+    ],
+    "firstAppearanceStoryId": "The_Mischiefy_Moles_and_the_Bookcase_of_Chaos"
+  },
+  {
+    "id": "RuAVkYNBl2juvt69Ii7i",
+    "name": "The Pool",
+    "description": "A place where Izzy swims, slides, and performs somersaults.",
+    "storyIds": [
+      "The_Anglerfish_and_the_Hairy_Drawing"
+    ],
+    "firstAppearanceStoryId": "The_Anglerfish_and_the_Hairy_Drawing"
+  },
+  {
+    "id": "RzRBmsOLl9gR7khLPEbf",
+    "name": "The Deep Deep Dark",
+    "description": "A mysterious part of the ocean where most creatures are fast asleep.",
+    "storyIds": [
+      "Izzy_the_Kiddo_and_the_Quest_for_the_Deep_Sea_Pearl"
+    ],
+    "firstAppearanceStoryId": "Izzy_the_Kiddo_and_the_Quest_for_the_Deep_Sea_Pearl"
+  },
+  {
+    "id": "S1BlkwsTpm9S9gVREvdl",
+    "name": "Hattie's Hollow Tree House",
+    "description": "A cozy home and workshop tucked inside a tree trunk where friends gather for tea.",
+    "storyIds": [
+      "Victor_s_Muddy_Mishap"
+    ],
+    "firstAppearanceStoryId": "Victor_s_Muddy_Mishap"
+  },
+  {
+    "id": "S6X3xxIicz7aZHAt75OV",
+    "name": "Cornell Street",
+    "description": "Bisected by a stark yellow line, this celestial artery cuts through a dense forest to chart a path toward the Mookers' planet. A cosmic thoroughfare where the infinite is stitched into the earthly, it anchors local commerce—typified by a towering tree of honey—alongside the residence of Uncle X, the house of the surreal bedroom feast, and Hattie’s home. It remains the vital threshold where the mundane pulse of the woods meets the stars, marking the point where Hattie begins her journey to find medical help.",
+    "storyIds": [
+      "Hattie_s_Indigo_Mushroom_Adventure",
+      "Hattie_Mouse_and_the_Mouse_Street_Doctors",
+      "The_LED_Robot_and_the_Honey_Tree_of_Cornell_Street",
+      "Hattie_s_Rainy_Day_Birthday_Adventure",
+      "The_Moles_Intergalactic_Snack_Run",
+      "Hattie_s_Flight_to_the_Songo_Feast"
+    ],
+    "firstAppearanceStoryId": "Hattie_s_Indigo_Mushroom_Adventure"
+  },
+  {
+    "id": "SMgPrh0CwjNgjILgqi6k",
+    "name": "Dollhouse",
+    "description": "An elaborate miniature manor tucked into a quiet corner of the world, serving as a grounded hearth for the unfolding tale. Within its intricate walls lie a sun-drenched atelier for weaving delicate bracelets, a velvet-lined alcove designed for deep napping, and a polished walnut hall for dining, all rendered with a tactile realism that makes the tiny dwelling feel profoundly lived-in.",
+    "storyIds": [
+      "Ova_s_Birthday_and_the_Quiet_Mole_Exploration",
+      "Seeker_s_Tour_of_the_Rooftop_Garden_and_Dollhouse"
+    ],
+    "firstAppearanceStoryId": "Ova_s_Birthday_and_the_Quiet_Mole_Exploration"
+  },
+  {
+    "id": "SPKshfhlaENaHZJbQzuI",
+    "name": "The Robot Family House",
+    "description": "A vibrant, multi-colored metal house decorated with leaves and gnomes.",
+    "storyIds": [
+      "The_LED_Robot_and_the_Honey_Tree_of_Cornell_Street"
+    ],
+    "firstAppearanceStoryId": "The_LED_Robot_and_the_Honey_Tree_of_Cornell_Street"
+  },
+  {
+    "id": "So3xLRZtttLIGxJOqnPR",
+    "name": "Lily's House",
+    "description": "The gathering place where Mistress Mouse and her friends build a miniature Lego town.",
+    "storyIds": [
+      "The_Many_Adventures_of_Mistress_Mouse"
+    ],
+    "firstAppearanceStoryId": "The_Many_Adventures_of_Mistress_Mouse"
+  },
+  {
+    "id": "SqMkupoPxJfKK76oo7ez",
+    "name": "Uncle Bill's House",
+    "description": "The place where Seeker visits Uncle Bill for breakfast before their journey.",
+    "storyIds": [
+      "The_Sneaky_Popper_of_Balloon_World"
+    ],
+    "firstAppearanceStoryId": "The_Sneaky_Popper_of_Balloon_World"
+  },
+  {
+    "id": "SrNEW3JghRDCq2qh8ZHY",
+    "name": "Pepper Street",
+    "description": "A street on Hattie's route through town.",
+    "storyIds": [
+      "Hattie_the_Artist_Mouse"
+    ],
+    "firstAppearanceStoryId": "Hattie_the_Artist_Mouse"
+  },
+  {
+    "id": "T3m9jDDPHDzuK6jYOhHb",
+    "name": "Nana's Bedroom",
+    "description": "Another room where Hattie and Nana find blocks for their adventure.",
+    "storyIds": [
+      "Hattie_s_Block-Built_Nature_Walk_Adventure"
+    ],
+    "firstAppearanceStoryId": "Hattie_s_Block-Built_Nature_Walk_Adventure"
+  },
+  {
+    "id": "TDiBPk6TtfMRp35qXS6c",
+    "name": "Mucky Mud Tunnel",
+    "description": "A deep, underground passage that leads to a dead end.",
+    "storyIds": [
+      "The_Mischief_Moles_and_the_Kingdom_of_the_Ants"
+    ],
+    "firstAppearanceStoryId": "The_Mischief_Moles_and_the_Kingdom_of_the_Ants"
+  },
+  {
+    "id": "TJEORfGjjed770abLp70",
+    "name": "The Museum",
+    "description": "The rightful home of the golden tiger treasure where Kitty returned the statue.",
+    "storyIds": [
+      "Kitty_the_Cat_Superhero_and_the_Gopher_Tunnel_Visit"
+    ],
+    "firstAppearanceStoryId": "Kitty_the_Cat_Superhero_and_the_Gopher_Tunnel_Visit"
+  },
+  {
+    "id": "TJYc3QXFmztISVUAwdFD",
+    "name": "Bookstore",
+    "description": "A local shop situated on the same road as the workshop and grocery store.",
+    "storyIds": [
+      "Hattie_s_Giant_Robot_and_the_Rainbow_Gnome_Hat"
+    ],
+    "firstAppearanceStoryId": "Hattie_s_Giant_Robot_and_the_Rainbow_Gnome_Hat"
+  },
+  {
+    "id": "TQUjEUekHm3a6gBzY3fw",
+    "name": "Castle on the perfectly circular island",
+    "description": "The home of Dimitar where the adventure begins.",
+    "storyIds": [
+      "The_Quest_for_the_Moon_Mother"
+    ],
+    "firstAppearanceStoryId": "The_Quest_for_the_Moon_Mother"
+  },
+  {
+    "id": "TcOsUpvSYBoPOqSrtk9i",
+    "name": "Play Tent",
+    "description": "The imaginative setting filled with 'space beauty' where the story unfolds.",
+    "storyIds": [
+      "Stars_and_Stories_The_Great_Cat_Rescue"
+    ],
+    "firstAppearanceStoryId": "Stars_and_Stories_The_Great_Cat_Rescue"
+  },
+  {
+    "id": "TuTOBqmkaKxrM9FD947H",
+    "name": "The Street",
+    "description": "The sun-dappled road where Minnie Mouse rumbles in on her bright yellow digger, pausing by the thickets to gather a harvest of pretend berries for a whimsical morning breakfast.",
+    "storyIds": [
+      "Oscar_Mouse_and_the_Musical_Wolf_Cub",
+      "The_Big_Muck_Problem_One_Pile_at_a_Time"
+    ],
+    "firstAppearanceStoryId": "Oscar_Mouse_and_the_Musical_Wolf_Cub"
+  },
+  {
+    "id": "TvWT0Hb5fxVMy2owzZ3d",
+    "name": "Mole Hole",
+    "description": "A newly constructed tunnel home featuring windows, stairs, and many cozy chairs.",
+    "storyIds": [
+      "The_Best_Mole_Hole_Ever"
+    ],
+    "firstAppearanceStoryId": "The_Best_Mole_Hole_Ever"
+  },
+  {
+    "id": "TxEyB2nQGFUOojS2aBU9",
+    "name": "Rug",
+    "description": "The setting in Hattie's book where the Mystery Cozy Witch gets comfortable.",
+    "storyIds": [
+      "Hattie_the_Mouse_s_One-Step-at-a-Time_Bedtime"
+    ],
+    "firstAppearanceStoryId": "Hattie_the_Mouse_s_One-Step-at-a-Time_Bedtime"
+  },
+  {
+    "id": "U3KQUN6F0rn9MlWsWsl8",
+    "name": "Deep-Deep Dark",
+    "description": "A mysterious and scary location deep under the ocean at the bottom of a trench.",
+    "storyIds": [
+      "Expedition_to_the_Deep-Deep_Dark"
+    ],
+    "firstAppearanceStoryId": "Expedition_to_the_Deep-Deep_Dark"
+  },
+  {
+    "id": "UI8yIFjnjEd4aHPG2sDH",
+    "name": "Town",
+    "description": "The urban area where Hattie takes her daily strolls.",
+    "storyIds": [
+      "The_Mystery_of_the_Snake_Store_Bups"
+    ],
+    "firstAppearanceStoryId": "The_Mystery_of_the_Snake_Store_Bups"
+  },
+  {
+    "id": "ULHfGRXlMWRtztnECHTm",
+    "name": "Peibo Pouchin Lamp",
+    "description": "An incredibly tall lamp that can be climbed with a ladder to see far away.",
+    "storyIds": [
+      "The_Legend_of_the_Ice_Gem"
+    ],
+    "firstAppearanceStoryId": "The_Legend_of_the_Ice_Gem"
+  },
+  {
+    "id": "UM2pdFyoja3n6316QTTa",
+    "name": "Bunson",
+    "description": "The starting point of the story where Kitty and her crew visit.",
+    "storyIds": [
+      "The_Gopher_s_Squerret_Quest_in_Australia"
+    ],
+    "firstAppearanceStoryId": "The_Gopher_s_Squerret_Quest_in_Australia"
+  },
+  {
+    "id": "UWgpwbcXehOaW2DOPsN0",
+    "name": "Captain's Desk",
+    "description": "The central command station where navigation and games are managed.",
+    "storyIds": [
+      "Cosmic_Controls_at_the_Captain_s_Desk"
+    ],
+    "firstAppearanceStoryId": "Cosmic_Controls_at_the_Captain_s_Desk"
+  },
+  {
+    "id": "Usj9CxRZ8kwGlGPdGCqQ",
+    "name": "The New Tunnel",
+    "description": "A construction project started by Disco and Thisco.",
+    "storyIds": [
+      "Mossy_s_New_Home_at_River_Lake"
+    ],
+    "firstAppearanceStoryId": "Mossy_s_New_Home_at_River_Lake"
+  },
+  {
+    "id": "V2QIGBTDHZdszquv69Ni",
+    "name": "Uncle Grisco's House",
+    "description": "Uncle Grisco’s subterranean home is a sprawling burrow and sophisticated laboratory where local moles frequently congregate. Within these earthen walls, cozy domesticity meets the hum of progress, as tangled roots frame glowing vials and intricate machinery dedicated to clandestine experiments and scientific discovery.",
+    "storyIds": [
+      "Rainbow_Disco_Science_with_Uncle_Grisco",
+      "The_Potion_to_the_Little_Hotel_House",
+      "The_Polka-Dotted_Car_and_the_Shadow_Lab"
+    ],
+    "firstAppearanceStoryId": "Rainbow_Disco_Science_with_Uncle_Grisco"
+  },
+  {
+    "id": "VGto2wsgkJBsQ78o8xlB",
+    "name": "The Ocean",
+    "description": "The vast underwater home of Willa and Pout-Pout.",
+    "storyIds": [
+      "Expedition_to_the_Deep-Deep_Dark"
+    ],
+    "firstAppearanceStoryId": "Expedition_to_the_Deep-Deep_Dark"
+  },
+  {
+    "id": "VTN2teEut1Cwt7DdBH9f",
+    "name": "Saturn",
+    "description": "A cosmic destination known for its iconic rings.",
+    "storyIds": [
+      "Cosmic_Controls_at_the_Captain_s_Desk"
+    ],
+    "firstAppearanceStoryId": "Cosmic_Controls_at_the_Captain_s_Desk"
+  },
+  {
+    "id": "VXArQQkW5XynuKI5LAXg",
+    "name": "Underwater Coral Reef Gemstone World",
+    "description": "A vibrant submerged realm that Seeker and Dematar visit by using a diamond-shaped potion.",
+    "storyIds": [
+      "The_Potion_of_the_Gemstone_Reef"
+    ],
+    "firstAppearanceStoryId": "The_Potion_of_the_Gemstone_Reef"
+  },
+  {
+    "id": "Vmr6Seci6fMU9CFhn74G",
+    "name": "The Sky",
+    "description": "The expansive setting where the characters shoot across the stars.",
+    "storyIds": [
+      "Hattie_and_the_Celestial_Shooting_Star"
+    ],
+    "firstAppearanceStoryId": "Hattie_and_the_Celestial_Shooting_Star"
+  },
+  {
+    "id": "Vs3SUFeCIpo41rty1kss",
+    "name": "Haddy's Hollow Tree",
+    "description": "A workshop in the forest where the world's best hat maker creates colorful Play-Doh hats.",
+    "storyIds": [
+      "The_Wizard_s_Play-Doh_Hat_Quest"
+    ],
+    "firstAppearanceStoryId": "The_Wizard_s_Play-Doh_Hat_Quest"
+  },
+  {
+    "id": "VwcpkIqPPBcb0PImfJiZ",
+    "name": "Montessori School",
+    "description": "A leafy sanctuary of whispered learning where teachers like Miss Lamb decipher the secrets of the flora, this site also serves as the hallowed terminus where the enigmatic pink blocks are returned and reunited.",
+    "storyIds": [
+      "The_Mischief_Moles_and_the_Dusty_Bookshelf",
+      "Mama_Mole_s_Sidewalk_Safari"
+    ],
+    "firstAppearanceStoryId": "The_Mischief_Moles_and_the_Dusty_Bookshelf"
+  },
+  {
+    "id": "W4pzchGl5Zv9ZNa6E1dy",
+    "name": "Hatty's House",
+    "description": "The home where Finn originally requested a hat to stay warm.",
+    "storyIds": [
+      "Finn_the_Cat_s_Arctic_Rainbow_Quest"
+    ],
+    "firstAppearanceStoryId": "Finn_the_Cat_s_Arctic_Rainbow_Quest"
+  },
+  {
+    "id": "WMG1r3zxLSXqMtFsNEIb",
+    "name": "Mexicota",
+    "description": "A warm, sunny vacation destination with museums filled with books and blocks.",
+    "storyIds": [
+      "The_Many_Adventures_of_Mistress_Mouse"
+    ],
+    "firstAppearanceStoryId": "The_Many_Adventures_of_Mistress_Mouse"
+  },
+  {
+    "id": "WMhmnaHHfPs7S5GkfCe2",
+    "name": "The Bedroom",
+    "description": "The final destination where the buffet and family bowl are located.",
+    "storyIds": [
+      "Hattie_s_Flight_to_the_Songo_Feast"
+    ],
+    "firstAppearanceStoryId": "Hattie_s_Flight_to_the_Songo_Feast"
+  },
+  {
+    "id": "WOn4kjnGqe5jX7yz5Hmt",
+    "name": "and green spaceship",
+    "description": "The vibrant rocket ship equipped with a music player and space suits.",
+    "storyIds": [
+      "Mickey_and_Minnie_s_Interstellar_Forest_Adventure"
+    ],
+    "firstAppearanceStoryId": "Mickey_and_Minnie_s_Interstellar_Forest_Adventure"
+  },
+  {
+    "id": "WUnYVPPX5BJPEGxtSeKI",
+    "name": "Book World",
+    "description": "A magical dimension where everything, from the inhabitants to the clouds, is made of paper and bindings.",
+    "storyIds": [
+      "The_Sparkling_Dust_of_Book_World"
+    ],
+    "firstAppearanceStoryId": "The_Sparkling_Dust_of_Book_World"
+  },
+  {
+    "id": "Wb5ZJwiUiVZkdCYWhhjc",
+    "name": "Minnie's house",
+    "description": "The place where the group returns multiple times to gather snacks and sing songs.",
+    "storyIds": [
+      "The_Great_Expedition_of_the_Sas-ma-ras-ma-fla-mas_Frog"
+    ],
+    "firstAppearanceStoryId": "The_Great_Expedition_of_the_Sas-ma-ras-ma-fla-mas_Frog"
+  },
+  {
+    "id": "WbgbbvL4X4yTZNc5kRjs",
+    "name": "The Big Rock",
+    "description": "A large stone used as a final guidepost to find the entrance to the gopher habitat.",
+    "storyIds": [
+      "The_Case_of_the_Carrot-Loving_Gophers"
+    ],
+    "firstAppearanceStoryId": "The_Case_of_the_Carrot-Loving_Gophers"
+  },
+  {
+    "id": "WfoC3KOLOa9furoFhHUt",
+    "name": "The Plane of Fire",
+    "description": "A scorching, sparkly realm filled with volcanoes, campfires, and bright floating lights.",
+    "storyIds": [
+      "The_Mischief_Moles_and_the_Plane_of_Fire"
+    ],
+    "firstAppearanceStoryId": "The_Mischief_Moles_and_the_Plane_of_Fire"
+  },
+  {
+    "id": "WgMFqUoAxIfZitQL1lyt",
+    "name": "Floofer Cloud",
+    "description": "A distant and storied realm, this ancestral cradle serves as the Floofers' original sanctuary—a soft, fluffy, and sparkly world of profound comfort. Draped in the downy materials from which their gentle lineage first emerged, it remains a shimmering environment where they live and play.",
+    "storyIds": [
+      "The_Bouncing_Floofers_of_the_Golden_Cloud",
+      "The_Floofer_s_Trampoline_and_the_Butterfly_Valentine",
+      "The_Dragonettes_and_the_Rainbow_Forest_Quest",
+      "A_Sticky_Adventure_to_the_Castle_of_Slime",
+      "The_Mookers_the_Floofers_and_the_Solar_Mookball"
+    ],
+    "firstAppearanceStoryId": "The_Bouncing_Floofers_of_the_Golden_Cloud"
+  },
+  {
+    "id": "WkIVExwiutVU3JFQ7cdU",
+    "name": "Cafe",
+    "description": "A small shop located near the mousey grocery store.",
+    "storyIds": [
+      "Hattie_s_Giant_Robot_and_the_Rainbow_Gnome_Hat"
+    ],
+    "firstAppearanceStoryId": "Hattie_s_Giant_Robot_and_the_Rainbow_Gnome_Hat"
+  },
+  {
+    "id": "WmdLhmh2AXjLmFVdMXWZ",
+    "name": "Goober's Bedroom Tunnel",
+    "description": "The specific tunnel where the gopher goes to sleep at night.",
+    "storyIds": [
+      "Kitty_the_Cat_Superhero_and_the_Gopher_Tunnel_Visit"
+    ],
+    "firstAppearanceStoryId": "Kitty_the_Cat_Superhero_and_the_Gopher_Tunnel_Visit"
+  },
+  {
+    "id": "WyyJMGHoO7G6nC2RB4Jj",
+    "name": "Slime School",
+    "description": "The classroom where students learn to mix ingredients and create slime sculptures.",
+    "storyIds": [
+      "The_Magic_of_Slime_School"
+    ],
+    "firstAppearanceStoryId": "The_Magic_of_Slime_School"
+  },
+  {
+    "id": "XBlkeZ958hx2miGIQLqI",
+    "name": "Ocean Castle",
+    "description": "A grand underwater structure built by the seafaring mice.",
+    "storyIds": [
+      "The_Chronicles_of_Carland_and_the_Sea_Mice"
+    ],
+    "firstAppearanceStoryId": "The_Chronicles_of_Carland_and_the_Sea_Mice"
+  },
+  {
+    "id": "XMEqz4Nk3l4MK4p7wy5b",
+    "name": "Space Rocket",
+    "description": "A shiny metal vessel buried under the garden.",
+    "storyIds": [
+      "The_Moles_Intergalactic_Snack_Run"
+    ],
+    "firstAppearanceStoryId": "The_Moles_Intergalactic_Snack_Run"
+  },
+  {
+    "id": "XNprSNPgfG7gUvyEP9Wl",
+    "name": "The Plane of Water",
+    "description": "A magical world contained within one of Seeker's enchanted potions.",
+    "storyIds": [
+      "The_Mischief_Moles_and_the_Plane_of_Fire"
+    ],
+    "firstAppearanceStoryId": "The_Mischief_Moles_and_the_Plane_of_Fire"
+  },
+  {
+    "id": "XT0n56U1IvjbXLewRjkS",
+    "name": "Planet Earth",
+    "description": "The home planet where the garden and the moles' house are located.",
+    "storyIds": [
+      "The_Moles_Intergalactic_Snack_Run"
+    ],
+    "firstAppearanceStoryId": "The_Moles_Intergalactic_Snack_Run"
+  },
+  {
+    "id": "XbNtyvwBodwW6ErfjhUZ",
+    "name": "Auntie Mulberry's Cottage",
+    "description": "A small home in the forest with a round door where magical baking takes place.",
+    "storyIds": [
+      "Auntie_Mulberry_s_Magical_Mole_Pie"
+    ],
+    "firstAppearanceStoryId": "Auntie_Mulberry_s_Magical_Mole_Pie"
+  },
+  {
+    "id": "XbSGChZPc0wzEyIaBjc3",
+    "name": "Ginger School",
+    "description": "A school where students learn about planets and sing story songs.",
+    "storyIds": [
+      "Dimitar_and_the_Castle_of_Ice_Fangsicle"
+    ],
+    "firstAppearanceStoryId": "Dimitar_and_the_Castle_of_Ice_Fangsicle"
+  },
+  {
+    "id": "XdZjE91Wv2LN9SmnonrT",
+    "name": "Mama Ship",
+    "description": "A secondary spacecraft that encounters the main crew in deep space.",
+    "storyIds": [
+      "Mission_to_the_Taco_Space_Station"
+    ],
+    "firstAppearanceStoryId": "Mission_to_the_Taco_Space_Station"
+  },
+  {
+    "id": "Y29XpGB7tY5N7NZxS53v",
+    "name": "The Field of Wildflowers",
+    "description": "A wide expanse where the magical long-legged duck runs at incredible speeds.",
+    "storyIds": [
+      "Minnie_Mouse_and_the_Long-Legged_Lego_Duck"
+    ],
+    "firstAppearanceStoryId": "Minnie_Mouse_and_the_Long-Legged_Lego_Duck"
+  },
+  {
+    "id": "Y6aNoCo5d1v0i60Imd8D",
+    "name": "The Big Mouse House",
+    "description": "A large home where many mice live together and build Lego structures in the living room.",
+    "storyIds": [
+      "Pakruder_Worm_s_New_Sound"
+    ],
+    "firstAppearanceStoryId": "Pakruder_Worm_s_New_Sound"
+  },
+  {
+    "id": "YEiMJNNoYd7yaKUdgLw5",
+    "name": "Kermit's Old House",
+    "description": "The legendary residence that the Muppets band together to reclaim.",
+    "storyIds": [
+      "Late_Night_Tea_with_Mrs_Piggy_and_the_Muppets"
+    ],
+    "firstAppearanceStoryId": "Late_Night_Tea_with_Mrs_Piggy_and_the_Muppets"
+  },
+  {
+    "id": "YY2N4lU0f5Hz7WtlIdB9",
+    "name": "The Plane of Mud",
+    "description": "A sticky world where moles dig for bugs in the dirt.",
+    "storyIds": [
+      "The_Mischief_Moles_and_the_Plane_of_Fire"
+    ],
+    "firstAppearanceStoryId": "The_Mischief_Moles_and_the_Plane_of_Fire"
+  },
+  {
+    "id": "Ygrpd91DywkoiHY4SsOp",
+    "name": "The Crystal Bridge",
+    "description": "A wibbly-wobbly bridge spanning a deep crack in the mountain.",
+    "storyIds": [
+      "Izzy_the_Kiddo_and_the_Crystal_Mountain_Rescue"
+    ],
+    "firstAppearanceStoryId": "Izzy_the_Kiddo_and_the_Crystal_Mountain_Rescue"
+  },
+  {
+    "id": "Yo45RE9QuCsJsCENFaSQ",
+    "name": "The Rainbow Fish Tank",
+    "description": "A massive, shimmering habitat complete with a kelp forest and clams.",
+    "storyIds": [
+      "The_Moles_Great_Aquarium_Adventure"
+    ],
+    "firstAppearanceStoryId": "The_Moles_Great_Aquarium_Adventure"
+  },
+  {
+    "id": "YpEBzV6a7ZbXm1qeP7uR",
+    "name": "The Treehouse",
+    "description": "A high-up play place accessed by swinging from a neighboring tree branch.",
+    "storyIds": [
+      "A_Shell_Hat_and_Jingle_Bells"
+    ],
+    "firstAppearanceStoryId": "A_Shell_Hat_and_Jingle_Bells"
+  },
+  {
+    "id": "Z7UEfsXPAkEAWXi7YMQR",
+    "name": "The Sprinkle Store",
+    "description": "A specialty shop where mice purchase glittering pink and brown toppings for their baked goods.",
+    "storyIds": [
+      "Pistis_and_Potty_Mouse_s_Sprinkle_Adventure"
+    ],
+    "firstAppearanceStoryId": "Pistis_and_Potty_Mouse_s_Sprinkle_Adventure"
+  },
+  {
+    "id": "Z8edZZXLGBNWJsHZC2sV",
+    "name": "Hundred Acre Wood",
+    "description": "A forest filled with mushrooms and familiar friends.",
+    "storyIds": [
+      "Blast_Off_to_the_Hundred_Acre_Wood"
+    ],
+    "firstAppearanceStoryId": "Blast_Off_to_the_Hundred_Acre_Wood"
+  },
+  {
+    "id": "ZDGdQ9N7lFlFhinikQlX",
+    "name": "Kingdom of the Blind Mice",
+    "description": "A dark, cozy underground kingdom filled with tunnels and a large chamber.",
+    "storyIds": [
+      "Seeker_s_Deep_Earth_Adventure"
+    ],
+    "firstAppearanceStoryId": "Seeker_s_Deep_Earth_Adventure"
+  },
+  {
+    "id": "ZGjuuzSUbJXbcHKvUVXS",
+    "name": "Minnie's Store",
+    "description": "An eclectic shop that sells a mix of fresh produce, flowers, and various paints.",
+    "storyIds": [
+      "Hattie_the_Artist_Mouse"
+    ],
+    "firstAppearanceStoryId": "Hattie_the_Artist_Mouse"
+  },
+  {
+    "id": "ZYXVI8AxcgRSmRxK5cFo",
+    "name": "Vindristjarna",
+    "description": "Seeker's skyship, mentioned as an alternative way to travel.",
+    "storyIds": [
+      "The_Giant_Rescue_on_Volcano_Island"
+    ],
+    "firstAppearanceStoryId": "The_Giant_Rescue_on_Volcano_Island"
+  },
+  {
+    "id": "Zubg7zAEoTyCwhdCirPB",
+    "name": "Bluey's House",
+    "description": "The festive location where the birthday feast and party are held.",
+    "storyIds": [
+      "Daisy_s_Tiny_Dog_Birthday_Adventure"
+    ],
+    "firstAppearanceStoryId": "Daisy_s_Tiny_Dog_Birthday_Adventure"
+  },
+  {
+    "id": "aSXbAKSFr6V4UVjLjjEM",
+    "name": "Yuck World",
+    "description": "A messy destination accessible via a specific potion.",
+    "storyIds": [
+      "The_Floof-Berry_Mission_and_the_Great_Snowstorm"
+    ],
+    "firstAppearanceStoryId": "The_Floof-Berry_Mission_and_the_Great_Snowstorm"
+  },
+  {
+    "id": "aj7Ovv8e8P9WFxkX0igC",
+    "name": "The Petting Area",
+    "description": "A shallow, open-top pool in the basement where visitors can interact with starfish and sharks.",
+    "storyIds": [
+      "The_Moles_Great_Aquarium_Adventure"
+    ],
+    "firstAppearanceStoryId": "The_Moles_Great_Aquarium_Adventure"
+  },
+  {
+    "id": "ajCWLrly0hKqqGqGgFBR",
+    "name": "Guest Room",
+    "description": "A room inside the Balloon Castle where Balloonie has a sleepover in a balloon bed.",
+    "storyIds": [
+      "The_Squeaky_Adventures_in_Balloon_World"
+    ],
+    "firstAppearanceStoryId": "The_Squeaky_Adventures_in_Balloon_World"
+  },
+  {
+    "id": "ax4D5fPyoZLy6TZsxzso",
+    "name": "Mole Mountain",
+    "description": "A tall climbing peak at the playground that features a long slide.",
+    "storyIds": [
+      "The_Busy_Day_of_Disco_and_Disco_Moles"
+    ],
+    "firstAppearanceStoryId": "The_Busy_Day_of_Disco_and_Disco_Moles"
+  },
+  {
+    "id": "bE7n7bCIZjoW22GGOqx3",
+    "name": "Caribbean Amphibians' House",
+    "description": "A specific destination mentioned as a possible place to visit.",
+    "storyIds": [
+      "Disco_and_Thisco_s_Deep-Sea_Submarine_Adventure"
+    ],
+    "firstAppearanceStoryId": "Disco_and_Thisco_s_Deep-Sea_Submarine_Adventure"
+  },
+  {
+    "id": "bG7PvLTN46zHA6xFno2N",
+    "name": "The Workshop",
+    "description": "Hattie the Mouse's workplace, equipped with a wide variety of colored scissors, glue, and a baking oven.",
+    "storyIds": [
+      "A_Hat_for_Mistress_Mouse"
+    ],
+    "firstAppearanceStoryId": "A_Hat_for_Mistress_Mouse"
+  },
+  {
+    "id": "bKc2UA4Y08iS4KDDDCof",
+    "name": "Monica",
+    "description": "The initial name given to the destination, clarified as Nana's house.",
+    "storyIds": [
+      "The_Chugga-Chugga_Journey_to_Nana_s_House"
+    ],
+    "firstAppearanceStoryId": "The_Chugga-Chugga_Journey_to_Nana_s_House"
+  },
+  {
+    "id": "bfH1pvSz9VjkTdXbcUcq",
+    "name": "Oscar Mouse's House",
+    "description": "A tiny dwelling in the middle of a forest on the green planet.",
+    "storyIds": [
+      "Mickey_and_Minnie_s_Interstellar_Forest_Adventure"
+    ],
+    "firstAppearanceStoryId": "Mickey_and_Minnie_s_Interstellar_Forest_Adventure"
+  },
+  {
+    "id": "bh9HLGcGgkUF3FbdJ9VM",
+    "name": "Dragonet Town",
+    "description": "A warm town located in the jungle where Dimitar and other dragonets live.",
+    "storyIds": [
+      "Dimitar_and_the_Castle_of_Ice_Fangsicle"
+    ],
+    "firstAppearanceStoryId": "Dimitar_and_the_Castle_of_Ice_Fangsicle"
+  },
+  {
+    "id": "bjdeKifFSrdMGOQWNhSW",
+    "name": "The Plateau",
+    "description": "A flat section of the mountain where the group stops for a snack.",
+    "storyIds": [
+      "Izzy_the_Kiddo_and_the_Crystal_Mountain_Rescue"
+    ],
+    "firstAppearanceStoryId": "Izzy_the_Kiddo_and_the_Crystal_Mountain_Rescue"
+  },
+  {
+    "id": "bk9shLzTDhOtlqZDZijz",
+    "name": "The Sunroom",
+    "description": "A specific bright room in Mistress Mouse's house.",
+    "storyIds": [
+      "Hattie_the_Mouse_and_the_Rainbow_Mushroom_Mystery"
+    ],
+    "firstAppearanceStoryId": "Hattie_the_Mouse_and_the_Rainbow_Mushroom_Mystery"
+  },
+  {
+    "id": "btdqR1k0U3IE0UsngVtk",
+    "name": "Mountain",
+    "description": "The high, windy location where Icicle resides.",
+    "storyIds": [
+      "The_Ice_Dragon_s_Sparkly_Castle_and_the_Great_Ice_Festival"
+    ],
+    "firstAppearanceStoryId": "The_Ice_Dragon_s_Sparkly_Castle_and_the_Great_Ice_Festival"
+  },
+  {
+    "id": "bzDmDvB38ouPcf8lBlSv",
+    "name": "Sophie's Kitchen",
+    "description": "The location where elaborate bear-shaped cakes and goldfish-themed cupcakes are baked.",
+    "storyIds": [
+      "A_Valentine_for_Gravity_Goldfish"
+    ],
+    "firstAppearanceStoryId": "A_Valentine_for_Gravity_Goldfish"
+  },
+  {
+    "id": "cAkf0cBjzkxeos9YIy4f",
+    "name": "The Trench",
+    "description": "A silt-choked abyss carved into the seabed, where the lost pearl lies buried beneath thick layers of primordial mud. This yawning chasm marks the gateway to the Deep-Deep Dark, a lightless void where the ocean floor gives way to the crushing pressure of the unknown.",
+    "storyIds": [
+      "Expedition_to_the_Deep-Deep_Dark",
+      "Izzy_the_Kiddo_and_the_Quest_for_the_Deep_Sea_Pearl"
+    ],
+    "firstAppearanceStoryId": "Expedition_to_the_Deep-Deep_Dark"
+  },
+  {
+    "id": "cK3lBzw8FiJD98QA9CWH",
+    "name": "Seeker's house",
+    "description": "A home containing a specialized closet for various uniquely shaped magical potions.",
+    "storyIds": [
+      "The_Potion_of_the_Gemstone_Reef"
+    ],
+    "firstAppearanceStoryId": "The_Potion_of_the_Gemstone_Reef"
+  },
+  {
+    "id": "cRdOHkP2rGQf4Y7TjjVd",
+    "name": "Carland",
+    "description": "A legendary land or entity that is steadily approaching.",
+    "storyIds": [
+      "The_Chronicles_of_Carland_and_the_Sea_Mice"
+    ],
+    "firstAppearanceStoryId": "The_Chronicles_of_Carland_and_the_Sea_Mice"
+  },
+  {
+    "id": "cYZn6rIkkC8gZ8pyp4KM",
+    "name": "Crabby's House",
+    "description": "The residence of the murgirls' knowledgeable neighbor.",
+    "storyIds": [
+      "The_Mystery_of_the_Missing_Kelp_Forest"
+    ],
+    "firstAppearanceStoryId": "The_Mystery_of_the_Missing_Kelp_Forest"
+  },
+  {
+    "id": "cZcfRPm0JFwRTTUUrVw6",
+    "name": "The Stormy Seas",
+    "description": "An imaginary location where the elephant with a flower lives.",
+    "storyIds": [
+      "Hattie_s_Block-Built_Nature_Walk_Adventure"
+    ],
+    "firstAppearanceStoryId": "Hattie_s_Block-Built_Nature_Walk_Adventure"
+  },
+  {
+    "id": "co5cikMMr73bHci6NIzx",
+    "name": "Papa Mole's Attic",
+    "description": "Where the ancient book about Dimitar was stored.",
+    "storyIds": [
+      "Dimitar_and_the_Blueberry_Dragon_Pop"
+    ],
+    "firstAppearanceStoryId": "Dimitar_and_the_Blueberry_Dragon_Pop"
+  },
+  {
+    "id": "cr27yy1iYXlqj1CFtJEs",
+    "name": "Bed",
+    "description": "A cozy furniture item where the cats have unfortunately decided to puke.",
+    "storyIds": [
+      "The_Puking_Cats_Anthem"
+    ],
+    "firstAppearanceStoryId": "The_Puking_Cats_Anthem"
+  },
+  {
+    "id": "ctBTApGhDVh0zAOrdSPn",
+    "name": "The Tall Mountain",
+    "description": "A high peak on the island that Jiggy and Riggy seek to conquer.",
+    "storyIds": [
+      "Tiggy_Riggy_and_the_Rainbow_Fish"
+    ],
+    "firstAppearanceStoryId": "Tiggy_Riggy_and_the_Rainbow_Fish"
+  },
+  {
+    "id": "d69Bz0R6ul8tZlS06kOk",
+    "name": "Balloon Castle",
+    "description": "The King’s palatial residence is a massive, buoyant marvel of balloon-based architecture that dominates the skyline of Balloon World. Within its sprawling, iridescent frame lie a multitude of chambers, from opulent guest suites to a secluded attic tucked high beneath its towering, inflated domes.",
+    "storyIds": [
+      "The_Squeaky_Adventures_in_Balloon_World",
+      "The_Sneaky_Popper_of_Balloon_World"
+    ],
+    "firstAppearanceStoryId": "The_Squeaky_Adventures_in_Balloon_World"
+  },
+  {
+    "id": "d8PBDslzfetqHLwJlMy4",
+    "name": "The Mudroom",
+    "description": "A room in the gopher's house where the golden tiger statue was kept.",
+    "storyIds": [
+      "Kitty_the_Cat_Superhero_and_the_Gopher_Tunnel_Visit"
+    ],
+    "firstAppearanceStoryId": "Kitty_the_Cat_Superhero_and_the_Gopher_Tunnel_Visit"
+  },
+  {
+    "id": "d9BcjudaG9TtF4NqwFUB",
+    "name": "Mickey",
+    "description": "The place where the group returns multiple times to gather snacks and sing songs.",
+    "storyIds": [
+      "The_Great_Expedition_of_the_Sas-ma-ras-ma-fla-mas_Frog"
+    ],
+    "firstAppearanceStoryId": "The_Great_Expedition_of_the_Sas-ma-ras-ma-fla-mas_Frog"
+  },
+  {
+    "id": "dEnEbcoSX0ZQx35aAoUw",
+    "name": "Europe",
+    "description": "A continent monitored from the spaceship's command deck.",
+    "storyIds": [
+      "Cosmic_Controls_at_the_Captain_s_Desk"
+    ],
+    "firstAppearanceStoryId": "Cosmic_Controls_at_the_Captain_s_Desk"
+  },
+  {
+    "id": "dFwCOLdySYLjDG2hMSVD",
+    "name": "The Roof",
+    "description": "The top of the glowing basket where the characters gather to lie on their backs and watch the stars.",
+    "storyIds": [
+      "The_Star-Lit_Basket_Adventure"
+    ],
+    "firstAppearanceStoryId": "The_Star-Lit_Basket_Adventure"
+  },
+  {
+    "id": "dTqOz5Jgyroe0SCqiH03",
+    "name": "Mole playground",
+    "description": "An outdoor area filled with tunnels, obstacle courses, and bugs.",
+    "storyIds": [
+      "The_Busy_Day_of_Disco_and_Disco_Moles"
+    ],
+    "firstAppearanceStoryId": "The_Busy_Day_of_Disco_and_Disco_Moles"
+  },
+  {
+    "id": "ddiQ1RCk8efH7WyadSqh",
+    "name": "Dining room",
+    "description": "A room Silver passes through while searching for more affection.",
+    "storyIds": [
+      "The_Silver_Kitten_s_Snuggle_Emergency"
+    ],
+    "firstAppearanceStoryId": "The_Silver_Kitten_s_Snuggle_Emergency"
+  },
+  {
+    "id": "dfB8wsEx3yvGLc2Gsmi5",
+    "name": "Balloon School",
+    "description": "An educational center where students learn to create balloon animals and intricate sculptures.",
+    "storyIds": [
+      "The_Bouncy_Adventures_in_Balloon_World"
+    ],
+    "firstAppearanceStoryId": "The_Bouncy_Adventures_in_Balloon_World"
+  },
+  {
+    "id": "djnc4goRjkpA0jRcbm57",
+    "name": "Poplar Street",
+    "description": "The cross-street of Cornell where the mushroom-only store is located.",
+    "storyIds": [
+      "Hattie_s_Indigo_Mushroom_Adventure"
+    ],
+    "firstAppearanceStoryId": "Hattie_s_Indigo_Mushroom_Adventure"
+  },
+  {
+    "id": "dnmwAyVtjzaw7I1pMbV7",
+    "name": "Mud Puddle",
+    "description": "A treacherous, messy spot where several mice get their cars stuck in a jumble.",
+    "storyIds": [
+      "Mistress_Mouse_and_the_Construction_Site_Race"
+    ],
+    "firstAppearanceStoryId": "Mistress_Mouse_and_the_Construction_Site_Race"
+  },
+  {
+    "id": "dsfkAyvNwTfrWnCOwR5d",
+    "name": "Dingo-O",
+    "description": "The place or artist that creates songs about Rainbow Disco Unicorns.",
+    "storyIds": [
+      "Rainbow_Disco_Science_with_Uncle_Grisco"
+    ],
+    "firstAppearanceStoryId": "Rainbow_Disco_Science_with_Uncle_Grisco"
+  },
+  {
+    "id": "du4UBiMO8dxuixlBfEbe",
+    "name": "Lego Bin",
+    "description": "A place where Izzy finds imaginative food items like flower treats and bananas.",
+    "storyIds": [
+      "Daisy_s_Tiny_Dog_Birthday_Adventure"
+    ],
+    "firstAppearanceStoryId": "Daisy_s_Tiny_Dog_Birthday_Adventure"
+  },
+  {
+    "id": "e0JEvwUbeI4YPj93oTx9",
+    "name": "Deep Blue Sea",
+    "description": "A vast ocean where forest fires rise and strange creatures roam.",
+    "storyIds": [
+      "The_Workout_Wombats_and_the_Deep_Blue_Sea"
+    ],
+    "firstAppearanceStoryId": "The_Workout_Wombats_and_the_Deep_Blue_Sea"
+  },
+  {
+    "id": "e3DATtEjlEQ5FoN78Wou",
+    "name": "Pirate Ship",
+    "description": "The vessel used by Dimitar and Icicle to cross the ocean.",
+    "storyIds": [],
+    "firstAppearanceStoryId": null
+  },
+  {
+    "id": "e80KmOkqDej0BzdFLefg",
+    "name": "Hilltop Home",
+    "description": "A location passed during the journey to the feast.",
+    "storyIds": [
+      "Hattie_s_Flight_to_the_Songo_Feast"
+    ],
+    "firstAppearanceStoryId": "Hattie_s_Flight_to_the_Songo_Feast"
+  },
+  {
+    "id": "eHBxtdkPuvMSwBti5n2i",
+    "name": "Melly's Mom's Office",
+    "description": "The workplace where Melly's mother is busy working.",
+    "storyIds": [
+      "Hattie_s_Masterpiece_The_Elephant_Who_Could_Chirp"
+    ],
+    "firstAppearanceStoryId": "Hattie_s_Masterpiece_The_Elephant_Who_Could_Chirp"
+  },
+  {
+    "id": "eHwBtjVofAnbwrTEbdQ6",
+    "name": "Izzy's Bedroom",
+    "description": "The place where the ceiling is transformed into a starry sky by a magic light.",
+    "storyIds": [
+      "Izzy_the_Kiddo_and_the_Quest_for_the_Deep_Sea_Pearl"
+    ],
+    "firstAppearanceStoryId": "Izzy_the_Kiddo_and_the_Quest_for_the_Deep_Sea_Pearl"
+  },
+  {
+    "id": "eXUAMBpWTfWu284GpkF0",
+    "name": "Living room",
+    "description": "A soft-lit alcove imbued with the memory of Jane and Silver’s first snuggle, its floor now a vibrant landscape of interlocking bricks as they construct their ambitious Lego aquarium project.",
+    "storyIds": [
+      "Hattie_and_the_Lego_Aquarium_Adventure",
+      "The_Silver_Kitten_s_Snuggle_Emergency"
+    ],
+    "firstAppearanceStoryId": "Hattie_and_the_Lego_Aquarium_Adventure"
+  },
+  {
+    "id": "ec4OIja2whwbG0MB0Sba",
+    "name": "The Diner",
+    "description": "A bustling communal hub on Sesame Street where Kitty and her cat troop converge with neighborhood friends for a sprawling breakfast feast, filling the morning air with the warmth of shared stories and a spirit of togetherness.",
+    "storyIds": [
+      "Expedition_to_the_Deep-Deep_Dark",
+      "Kitty_the_Cat_Superhero_and_the_Gopher_Tunnel_Visit"
+    ],
+    "firstAppearanceStoryId": "Expedition_to_the_Deep-Deep_Dark"
+  },
+  {
+    "id": "ej76az5gq4esi6mw1JgD",
+    "name": "Treetops",
+    "description": "The setting for a traditional lullaby where the stars are bright and the moon is light.",
+    "storyIds": [
+      "The_Sleepy-Time_Science_Experiment"
+    ],
+    "firstAppearanceStoryId": "The_Sleepy-Time_Science_Experiment"
+  },
+  {
+    "id": "eqJaf5JRqWnRjW5Zeeik",
+    "name": "Popcornioni Street",
+    "description": "The location of Mischief's tape store.",
+    "storyIds": [
+      "Hattie_s_Magical_Rainbow_Tape_Quest"
+    ],
+    "firstAppearanceStoryId": "Hattie_s_Magical_Rainbow_Tape_Quest"
+  },
+  {
+    "id": "euRBttuxnMrffvvAihAS",
+    "name": "Sesame Street",
+    "description": "A welcoming neighborhood of weathered brownstones where the hum of the corner laundromat follows neighbors on their evening walk home. This friendly urban sanctuary serves as the lively backdrop for the lives of Bert and Ernie, blending the cozy domesticity of their shared apartment with the vibrant, rhythmic pulse of a close-knit community.",
+    "storyIds": [
+      "Expedition_to_the_Deep-Deep_Dark",
+      "The_Sleepy-Time_Science_Experiment"
+    ],
+    "firstAppearanceStoryId": "Expedition_to_the_Deep-Deep_Dark"
+  },
+  {
+    "id": "evf3pKF9BEzwdDFfofc2",
+    "name": "The Forest Burrow",
+    "description": "The warm and cozy home where the moles start and end their journey.",
+    "storyIds": [
+      "The_Legend_of_the_Ice_Gem"
+    ],
+    "firstAppearanceStoryId": "The_Legend_of_the_Ice_Gem"
+  },
+  {
+    "id": "ey7S7eBY6lux3DscZM2B",
+    "name": "Royal Castle",
+    "description": "A stone building with tall turrets located on a purple rock near Jupiter.",
+    "storyIds": [
+      "Mickey_Minnie_and_Mole_s_Galactic_Bake-Off"
+    ],
+    "firstAppearanceStoryId": "Mickey_Minnie_and_Mole_s_Galactic_Bake-Off"
+  },
+  {
+    "id": "f5I7qoVX2j1MxjlYZM3u",
+    "name": "Raccoon's House",
+    "description": "The site of a festive birthday party where friends gather to celebrate with cake and presents.",
+    "storyIds": [
+      "Spooky_Pooky_s_Handmade_Gifts"
+    ],
+    "firstAppearanceStoryId": "Spooky_Pooky_s_Handmade_Gifts"
+  },
+  {
+    "id": "fKT7ogkLSPLuvACUQmlo",
+    "name": "Beehive",
+    "description": "A ball-shaped nest nestled inside a bush of pink flowers.",
+    "storyIds": [
+      "Hattie_s_Rain_Boots_and_the_Honey_Bee_s_Hat"
+    ],
+    "firstAppearanceStoryId": "Hattie_s_Rain_Boots_and_the_Honey_Bee_s_Hat"
+  },
+  {
+    "id": "fOK4UUDJFwRlmIRKYsux",
+    "name": "Magic Mole's Apartment",
+    "description": "A stylish new home equipped with a piano, a toilet, a decorative flower, and a stool made of a half-apple.",
+    "storyIds": [
+      "Magic_Mole_s_New_Apartment_and_the_Great_Nut_Feast"
+    ],
+    "firstAppearanceStoryId": "Magic_Mole_s_New_Apartment_and_the_Great_Nut_Feast"
+  },
+  {
+    "id": "fP4NekUbXFauQFRl2qtm",
+    "name": "Under the Chair",
+    "description": "A shadowed subterranean vault where the moles secure the spoils of their morning forage, illuminating piles of jagged, rust-eaten toys with the singular, sweeping beam of a flashlight.",
+    "storyIds": [
+      "The_Mischiefy_Moles_and_the_Bookcase_of_Chaos",
+      "The_Mischief_Moles_and_the_Dusty_Bookshelf"
+    ],
+    "firstAppearanceStoryId": "The_Mischiefy_Moles_and_the_Bookcase_of_Chaos"
+  },
+  {
+    "id": "fRxuKTtmxQAzzZ0g6Vzr",
+    "name": "Playball store",
+    "description": "A sprawling toy store where children are encouraged to play with anything they find.",
+    "storyIds": [
+      "The_Busy_Day_of_Disco_and_Disco_Moles"
+    ],
+    "firstAppearanceStoryId": "The_Busy_Day_of_Disco_and_Disco_Moles"
+  },
+  {
+    "id": "fWsiZpHHdJyBwA7C6LUb",
+    "name": "The Wizard's Castle",
+    "description": "Crowned upon a hill, the gray stone castle is distinguished by its tall turrets and a soaring tower, the lofty home where Peacock the Wizard resides behind a beautiful wooden door.",
+    "storyIds": [
+      "Tigger_s_Quest_for_the_Wizard_s_Magic_Wand",
+      "The_Foxy_Way_and_the_Twirling_Ghost",
+      "The_Magic_Forest_Photo_Tour"
+    ],
+    "firstAppearanceStoryId": "Tigger_s_Quest_for_the_Wizard_s_Magic_Wand"
+  },
+  {
+    "id": "fXEbRTmvbAlQiR3oz5OV",
+    "name": "Kelp Farm",
+    "description": "A newly planted agricultural site designed to provide unlimited food for sea creatures.",
+    "storyIds": [
+      "The_Great_Kelp_Caper_of_the_Pink_Continent"
+    ],
+    "firstAppearanceStoryId": "The_Great_Kelp_Caper_of_the_Pink_Continent"
+  },
+  {
+    "id": "fwwmDHVfUCXdHBXB79z6",
+    "name": "Balloon World",
+    "description": "A magical realm of taut latex and rhythmic squeaks, this buoyant landscape is the whimsical birthplace of the kitten Jinjar. From its cushioning ground and rolling hills to its intricate architecture and inflated delicacies, every wonder is crafted entirely from balloons. Held in a state of delicate, colorful tension, the land is home to gossamer-light denizens who drift through a world of pure, air-filled whimsy.",
+    "storyIds": [
+      "The_Squeaky_Adventures_in_Balloon_World",
+      "The_Sneaky_Popper_of_Balloon_World",
+      "A_Sticky_Adventure_to_the_Castle_of_Slime",
+      "The_Bouncy_Adventures_in_Balloon_World"
+    ],
+    "firstAppearanceStoryId": "The_Squeaky_Adventures_in_Balloon_World"
+  },
+  {
+    "id": "g3X9SEJg5vylCzvIJir5",
+    "name": "Hilltop Stays Possession",
+    "description": "A mountain featured on the moles' map.",
+    "storyIds": [
+      "The_Legend_of_the_Ice_Gem"
+    ],
+    "firstAppearanceStoryId": "The_Legend_of_the_Ice_Gem"
+  },
+  {
+    "id": "gTkXNERK2YFwqu4glWkt",
+    "name": "Hattie's Hollow Tree",
+    "description": "Hattie's home in the forest where she sleeps in a cozy bed.",
+    "storyIds": [
+      "Hattie_s_Indigo_Mushroom_Adventure"
+    ],
+    "firstAppearanceStoryId": "Hattie_s_Indigo_Mushroom_Adventure"
+  },
+  {
+    "id": "gaJsCUOcTbHlwAG6ljgR",
+    "name": "The Mountain Tunnels",
+    "description": "The subterranean home and school where Young Seeker and his family live high in the mountains.",
+    "storyIds": [
+      "The_Magic_of_Mooska-Kadooska"
+    ],
+    "firstAppearanceStoryId": "The_Magic_of_Mooska-Kadooska"
+  },
+  {
+    "id": "gjobSLv4NuHswU3jrjCC",
+    "name": "Earth",
+    "description": "The ancestral cradle of humanity and the definitive anchor for the galactic mission, this rocky world pulses with a hidden molten core. As the home planet where the journey begins and ends, it serves as the foundational site for the Floofers’ true home and new school, bridging an ancient legacy with the education of a new generation.",
+    "storyIds": [
+      "Mickey_and_Minnie_s_Interstellar_Forest_Adventure",
+      "Mission_to_the_Taco_Space_Station",
+      "Mission_to_the_Rainbow_Planet_Vupiter_Wupiter_Snupiter",
+      "Captain_Izzy_s_Galactic_School_Bus_Mission",
+      "The_Galactic_Search_for_Chicky",
+      "Mission_to_Silver_s_Planet",
+      "The_Solar_Expedition_of_Stars_and_Snories",
+      "Seeker_s_Guide_to_Volcanoes_Space_and_Sunlight",
+      "The_Mookers_the_Floofers_and_the_Solar_Mookball"
+    ],
+    "firstAppearanceStoryId": "Mickey_and_Minnie_s_Interstellar_Forest_Adventure"
+  },
+  {
+    "id": "gkXPmxJOgx4m39up94xJ",
+    "name": "Montessori Preschool",
+    "description": "The school Isabella attends where she has an early pickup day.",
+    "storyIds": [
+      "Seeker_s_Tour_of_the_Rooftop_Garden_and_Dollhouse"
+    ],
+    "firstAppearanceStoryId": "Seeker_s_Tour_of_the_Rooftop_Garden_and_Dollhouse"
+  },
+  {
+    "id": "gvuDRTkfyrFBygrjlnjK",
+    "name": "red",
+    "description": "The vibrant rocket ship equipped with a music player and space suits.",
+    "storyIds": [
+      "Mickey_and_Minnie_s_Interstellar_Forest_Adventure"
+    ],
+    "firstAppearanceStoryId": "Mickey_and_Minnie_s_Interstellar_Forest_Adventure"
+  },
+  {
+    "id": "h2TOROSTAmv3J73gPA1e",
+    "name": "Hattie's Tree House",
+    "description": "The cozy destination where the friends land and eventually take a nap.",
+    "storyIds": [
+      "Hattie_and_the_Celestial_Shooting_Star"
+    ],
+    "firstAppearanceStoryId": "Hattie_and_the_Celestial_Shooting_Star"
+  },
+  {
+    "id": "h5Dg56qTn0zMXQhpHP5W",
+    "name": "Mistress Mouse's repair shop",
+    "description": "The location where Mistress Mouse keeps her tools, including various screws.",
+    "storyIds": [
+      "Hattie_s_Workshop_Puzzles_and_Purple_Hats"
+    ],
+    "firstAppearanceStoryId": "Hattie_s_Workshop_Puzzles_and_Purple_Hats"
+  },
+  {
+    "id": "h6a2PJtlsgMOW0LYU6LY",
+    "name": "Ice Castle",
+    "description": "Perched high in the snowy peaks, Icecycle’s lonely fortress is a majestic bastion of solitude constructed from massive blocks of ice. Its jagged, frozen surfaces are meticulously buffed with specialized polishing kits, transforming the mountaintop stronghold into a brilliant, diamond-like spectacle.",
+    "storyIds": [
+      "Dimitar_and_the_Castle_of_Ice_Fangsicle",
+      "The_Ice_Dragon_s_Sparkly_Castle_and_the_Great_Ice_Festival",
+      "The_Ice_Dragon_s_New_Hat"
+    ],
+    "firstAppearanceStoryId": "Dimitar_and_the_Castle_of_Ice_Fangsicle"
+  },
+  {
+    "id": "hBfKbm3nMiFQPKuGLtel",
+    "name": "The Workplace",
+    "description": "A building made of Legos where mouse toys use computers to learn programming with the Scratch cat.",
+    "storyIds": [
+      "Pistis_and_Potty_Mouse_s_Sprinkle_Adventure"
+    ],
+    "firstAppearanceStoryId": "Pistis_and_Potty_Mouse_s_Sprinkle_Adventure"
+  },
+  {
+    "id": "hCHliiUqPcvjOG1qCb9Y",
+    "name": "Ginger's Cage",
+    "description": "A spot in Izzy's room where Seeker considered resting on a cheese mouse pillow.",
+    "storyIds": [
+      "The_Potion_to_Izzy_s_Attic"
+    ],
+    "firstAppearanceStoryId": "The_Potion_to_Izzy_s_Attic"
+  },
+  {
+    "id": "hD4lt1mXn2FVJSUAZl4l",
+    "name": "The Field",
+    "description": "Behind Hattie’s house lies a sprawling, sun-drenched clearing whose pastoral beauty is now marred by a treacherous stretch of churned earth. Once a pristine open space, this grasping mire has become a heavy, rain-soaked trap, holding the pig family’s car prisoner in its deep, slick ruts.",
+    "storyIds": [
+      "Mistress_Mouse_and_the_Pink_Tow_Truck_Rescue",
+      "Hattie_s_Shell_Necklace_Adventure"
+    ],
+    "firstAppearanceStoryId": "Mistress_Mouse_and_the_Pink_Tow_Truck_Rescue"
+  },
+  {
+    "id": "hFBZbhW2t6RDzHF1la0Z",
+    "name": "Circular Island",
+    "description": "A perfectly circular landmass rising from the waters of the distant reaches, this remote sanctuary serves as both the private residence of Dimitar and the hallowed grounds of the school.",
+    "storyIds": [
+      "The_Giant_Rescue_on_Volcano_Island",
+      "The_Ice_Dragon_s_New_Hat",
+      "Dimatar_s_Big_Day_at_Ginger_Catasorry",
+      "The_Flying_Friends_of_Strawberry_Island"
+    ],
+    "firstAppearanceStoryId": "The_Giant_Rescue_on_Volcano_Island"
+  },
+  {
+    "id": "hHUrPME1GL2vZ9NtVwQm",
+    "name": "The Basement",
+    "description": "This sun-drenched storage nook, home to Isabella’s weathered treehouse dollhouse and a collection of cherished older toys, remains notable as the place where Popplemoll once searched for his elusive cat, Gemstone. However, beneath the radiant dust motes, the space has become a secret sanctuary for mischief rats, who hide among the nostalgic relics to hoard and feast on scavenged trash.",
+    "storyIds": [
+      "The_Star-Lit_Basket_Adventure",
+      "Seeker_s_Tour_of_the_Rooftop_Garden_and_Dollhouse",
+      "The_Quest_for_the_Moon_Mother"
+    ],
+    "firstAppearanceStoryId": "The_Star-Lit_Basket_Adventure"
+  },
+  {
+    "id": "hPNDBoZjMyyQa2hczqvr",
+    "name": "The Park",
+    "description": "A local recreation area with a swing set and a playground.",
+    "storyIds": [
+      "The_Mystery_of_the_Snake_Store_Bups"
+    ],
+    "firstAppearanceStoryId": "The_Mystery_of_the_Snake_Store_Bups"
+  },
+  {
+    "id": "hYTc5STP4PESVPHBPwyY",
+    "name": "Cave Entrance",
+    "description": "The starting point of the search for the missing gems.",
+    "storyIds": [
+      "The_Mischief_Moles_and_the_Kingdom_of_the_Ants"
+    ],
+    "firstAppearanceStoryId": "The_Mischief_Moles_and_the_Kingdom_of_the_Ants"
+  },
+  {
+    "id": "he5YcZdEgayNycRlZ4u8",
+    "name": "Grocery Store",
+    "description": "A distant neighborhood shop stocked with soda, crisp celery, and jewel-toned pomegranates, forever etched in the trio’s memory for the bananas they gathered and the messy remains of squished raspberries. It remains a whimsical local sanctuary where, amidst the nostalgia, even the resident mice can be found purchasing small bowls of hearty vegetable soup.",
+    "storyIds": [
+      "The_Chronicles_of_Pinecone_Mouse_and_the_Pink_Tow_Truck",
+      "Daisy_s_Tiny_Dog_Birthday_Adventure",
+      "Hattie_s_Rain_Boots_and_the_Honey_Bee_s_Hat",
+      "Mickey_Minnie_and_Mole_s_Galactic_Bake-Off"
+    ],
+    "firstAppearanceStoryId": "The_Chronicles_of_Pinecone_Mouse_and_the_Pink_Tow_Truck"
+  },
+  {
+    "id": "heEkYfIl8yxAiHFXI9o6",
+    "name": "Hattie's Bedroom",
+    "description": "Where Hattie performs her bedtime routine and eventually falls asleep.",
+    "storyIds": [
+      "Hattie_the_Mouse_and_the_Starry_Hats"
+    ],
+    "firstAppearanceStoryId": "Hattie_the_Mouse_and_the_Starry_Hats"
+  },
+  {
+    "id": "hkJAuAa9mY1OqQl0XmZz",
+    "name": "Hoo-Hoo's Backyard",
+    "description": "The place where the owl takes his outdoor shower.",
+    "storyIds": [
+      "Peacock_s_Castle_and_the_Neighborhood_Photo_Project"
+    ],
+    "firstAppearanceStoryId": "Peacock_s_Castle_and_the_Neighborhood_Photo_Project"
+  },
+  {
+    "id": "hnJPKb1AKIOpkwPVJ6zF",
+    "name": "Red Mouse's Toy Store",
+    "description": "An elaborately decorated small building constructed from wooden blocks.",
+    "storyIds": [
+      "The_Putt-Putt_Road_Trip_Adventure"
+    ],
+    "firstAppearanceStoryId": "The_Putt-Putt_Road_Trip_Adventure"
+  },
+  {
+    "id": "hq1PX9T7kBeNWA3IqPjn",
+    "name": "Mama Fox's Burrow",
+    "description": "An underground home up a hill where Mama Fox sleeps and stores star stickers.",
+    "storyIds": [
+      "Hattie_the_Mouse_and_the_Starry_Hats"
+    ],
+    "firstAppearanceStoryId": "Hattie_the_Mouse_and_the_Starry_Hats"
+  },
+  {
+    "id": "hrgEyoCpiLQ1bvIt0Ako",
+    "name": "Recovery Room",
+    "description": "The area where patients rest and recover following their surgeries.",
+    "storyIds": [
+      "Doctor_Izzy_s_Busy_Hospital_Day"
+    ],
+    "firstAppearanceStoryId": "Doctor_Izzy_s_Busy_Hospital_Day"
+  },
+  {
+    "id": "hrhRsbdHlsL4CC2PGv8T",
+    "name": "Sunroom",
+    "description": "Nested in the depths of Izzy’s lower floor, a room crowded with a labyrinth of storage bins serves as the sanctuary for the rainbow snake, its iridescent scales casting a prismatic glow across the mundane clutter.",
+    "storyIds": [
+      "The_Silver_Kitten_s_Snuggle_Emergency",
+      "The_Potion_to_the_Little_Hotel_House"
+    ],
+    "firstAppearanceStoryId": "The_Silver_Kitten_s_Snuggle_Emergency"
+  },
+  {
+    "id": "i0Jomg87Pa4N9ZyIy8PY",
+    "name": "The Plane of Grass",
+    "description": "A beautiful world with enormous fields of sweet-smelling grass.",
+    "storyIds": [
+      "The_Mischief_Moles_and_the_Plane_of_Fire"
+    ],
+    "firstAppearanceStoryId": "The_Mischief_Moles_and_the_Plane_of_Fire"
+  },
+  {
+    "id": "i64HvFMH7QPh1dyMKWlj",
+    "name": "Rainbow Planet Vupiter Wupiter Snupiter",
+    "description": "A vibrant planet covered in swirling colors of red, orange, yellow, green, and purple.",
+    "storyIds": [
+      "Mission_to_the_Rainbow_Planet_Vupiter_Wupiter_Snupiter"
+    ],
+    "firstAppearanceStoryId": "Mission_to_the_Rainbow_Planet_Vupiter_Wupiter_Snupiter"
+  },
+  {
+    "id": "iAqlCa4PLP7IBqkovvz7",
+    "name": "Seeker's Potion Workshop",
+    "description": "The home base where Seeker brews magical concoctions and serves warm tea.",
+    "storyIds": [
+      "Winterworld_Rescue_and_the_Magic_Shining_Hat"
+    ],
+    "firstAppearanceStoryId": "Winterworld_Rescue_and_the_Magic_Shining_Hat"
+  },
+  {
+    "id": "iFKhKNvzLMobE0dGxI16",
+    "name": "Popcorn Street",
+    "description": "The street where Hattie finds the art store and eventually Minnie's multi-purpose shop.",
+    "storyIds": [
+      "Hattie_the_Artist_Mouse"
+    ],
+    "firstAppearanceStoryId": "Hattie_the_Artist_Mouse"
+  },
+  {
+    "id": "iR0QBVNDlJ6P3E6m3pwZ",
+    "name": "The Great Library",
+    "description": "The central hub of knowledge in the kingdom, featuring elaborate stone-carved decorations on its ceilings.",
+    "storyIds": [
+      "Seeker_s_Stone-Carving_Expedition"
+    ],
+    "firstAppearanceStoryId": "Seeker_s_Stone-Carving_Expedition"
+  },
+  {
+    "id": "iZoRbN5AJ6vT0KrwQoGg",
+    "name": "Ma",
+    "description": "Where the pig family hosts Mistress Mouse for a dinner of naan bread.",
+    "storyIds": [
+      "Mistress_Mouse_and_the_Pink_Tow_Truck_Rescue"
+    ],
+    "firstAppearanceStoryId": "Mistress_Mouse_and_the_Pink_Tow_Truck_Rescue"
+  },
+  {
+    "id": "ieY9S7mVW1MP0CN9UOhV",
+    "name": "The Gopher Tunnels",
+    "description": "A vast, deep underground network where the gophers live and play.",
+    "storyIds": [
+      "Kitty_s_Crew_and_the_Underground_Adventure"
+    ],
+    "firstAppearanceStoryId": "Kitty_s_Crew_and_the_Underground_Adventure"
+  },
+  {
+    "id": "ippcaQ6rtlP5QquqsAYy",
+    "name": "The Deep Dark Forest",
+    "description": "A quiet, cool part of the woods where sunlight barely reaches the ground.",
+    "storyIds": [
+      "Hattie_s_Shell_Necklace_Adventure"
+    ],
+    "firstAppearanceStoryId": "Hattie_s_Shell_Necklace_Adventure"
+  },
+  {
+    "id": "j1qocW1n4oaN9wFfE54h",
+    "name": "Ocean",
+    "description": "The vast body of water the adventurers sail across.",
+    "storyIds": [],
+    "firstAppearanceStoryId": null
+  },
+  {
+    "id": "j90TV5KsAgzaHd9NlbRi",
+    "name": "The Castle",
+    "description": "A beautiful and grand fortress that was recently protected from peril.",
+    "storyIds": [
+      "The_Savior_of_the_Castle"
+    ],
+    "firstAppearanceStoryId": "The_Savior_of_the_Castle"
+  },
+  {
+    "id": "jAZH176v9h8UltbxgYxE",
+    "name": "Hoodie's Nest",
+    "description": "A soft sleeping spot constructed from twigs, leaves, and feathers gathered from the outdoors.",
+    "storyIds": [
+      "The_Tail_of_Two_Mice_Surprise_and_Hoodie"
+    ],
+    "firstAppearanceStoryId": "The_Tail_of_Two_Mice_Surprise_and_Hoodie"
+  },
+  {
+    "id": "jHKVkNZyHR4zl7NdUlA9",
+    "name": "The Gopher Tunnel",
+    "description": "A sprawling labyrinth of cool, earthen tunnels serves as the shadowed sanctuary for a hospitable gopher family. This subterranean network acts as a clandestine meeting ground, where Kitty and Uncle Grisco navigate the dark to consult with their burrowing allies.",
+    "storyIds": [
+      "Kitty_the_Cat_Superhero_and_the_Gopher_Tunnel_Visit",
+      "The_Case_of_the_Carrot-Loving_Gophers"
+    ],
+    "firstAppearanceStoryId": "Kitty_the_Cat_Superhero_and_the_Gopher_Tunnel_Visit"
+  },
+  {
+    "id": "jHlgne4z5OFP1MaFzn1O",
+    "name": "Piglet's House",
+    "description": "The place where Piglet keeps a packet of balloons of many different colors.",
+    "storyIds": [
+      "Stars_and_Stories_Piglet_s_Birthday_Surprise"
+    ],
+    "firstAppearanceStoryId": "Stars_and_Stories_Piglet_s_Birthday_Surprise"
+  },
+  {
+    "id": "jUyca91HaAau08EUzrLq",
+    "name": "Pilpa Pouchin",
+    "description": "A short mountain located on the ice plains.",
+    "storyIds": [
+      "The_Legend_of_the_Ice_Gem"
+    ],
+    "firstAppearanceStoryId": "The_Legend_of_the_Ice_Gem"
+  },
+  {
+    "id": "jl3HDQdITLIOTHRjYehy",
+    "name": "Square Island",
+    "description": "A mysterious island where every single object and feature is shaped like a square.",
+    "storyIds": [
+      "The_Dragonettes_and_the_Rainbow_Forest_Quest"
+    ],
+    "firstAppearanceStoryId": "The_Dragonettes_and_the_Rainbow_Forest_Quest"
+  },
+  {
+    "id": "k92jWtjN8SLWeCr4A2ZV",
+    "name": "Peacock the Wizard's Castle",
+    "description": "Perched atop a verdant hill, this grand castle serves as a magical sanctuary and the storied venue for the realm’s most spectacular shows. Beyond its formidable gate, the warmth of the kitchen and the echoing splendor of the feast hall provide a staging ground for imaginative quests, while a winding spiral staircase beckons the brave upward toward the spotlight of the wonders that await.",
+    "storyIds": [
+      "Hattie_and_the_Wizard_s_Clover_Show",
+      "The_Imaginary_Road_Trip_to_Nana_s_House",
+      "Peacock_s_Castle_and_the_Neighborhood_Photo_Project"
+    ],
+    "firstAppearanceStoryId": "Hattie_and_the_Wizard_s_Clover_Show"
+  },
+  {
+    "id": "kHMppG4WDdK8WkNlS6xO",
+    "name": "Nana Mole's House",
+    "description": "A home located at the edge of a large field of wildflowers.",
+    "storyIds": [
+      "Minnie_Mouse_and_the_Long-Legged_Lego_Duck"
+    ],
+    "firstAppearanceStoryId": "Minnie_Mouse_and_the_Long-Legged_Lego_Duck"
+  },
+  {
+    "id": "kag09ivJGHOvjx1fqMXW",
+    "name": "Snerpatio",
+    "description": "A mountain with a giant spiral slide made of ice.",
+    "storyIds": [
+      "The_Legend_of_the_Ice_Gem"
+    ],
+    "firstAppearanceStoryId": "The_Legend_of_the_Ice_Gem"
+  },
+  {
+    "id": "ki1m9k623zed6pw1xb6J",
+    "name": "Coral Reefs",
+    "description": "A colorful underwater area filled with diverse sea life like octopuses and jellyfish.",
+    "storyIds": [
+      "Disco_and_Thisco_s_Deep-Sea_Submarine_Adventure"
+    ],
+    "firstAppearanceStoryId": "Disco_and_Thisco_s_Deep-Sea_Submarine_Adventure"
+  },
+  {
+    "id": "kscWgnA512Q73qr4FNGH",
+    "name": "Planet of the Mookers",
+    "description": "An enigmatic alien world defined by its fuzzy yet curiously slimy surface, this planet serves as the ancestral cradle of the Mookers and the site of Chicky’s destined path. Strewn with the colossal remains of giant fossils, the realm was recently scouted by Seeker and Buddy and documented in the Seeker’s potion closet; it remains accessible only to those who imbibe a specific purple alchemical elixir.",
+    "storyIds": [
+      "Haddy_the_Mouse_and_the_Quest_for_the_Talking_Hat",
+      "The_Galactic_Search_for_Chicky",
+      "The_Floof-Berry_Mission_and_the_Great_Snowstorm",
+      "A_Sticky_Adventure_to_the_Castle_of_Slime",
+      "The_Mookers_the_Floofers_and_the_Solar_Mookball",
+      "Wobbly_Whisker_s_Sticky_Adventure_on_Planet_Mooker"
+    ],
+    "firstAppearanceStoryId": "Haddy_the_Mouse_and_the_Quest_for_the_Talking_Hat"
+  },
+  {
+    "id": "l2ECmsZ0komwSZLNrN4J",
+    "name": "The Deep Sea",
+    "description": "A dark place inhabited by anglerfish where Izzy dives in her striped suit.",
+    "storyIds": [
+      "The_Anglerfish_and_the_Hairy_Drawing"
+    ],
+    "firstAppearanceStoryId": "The_Anglerfish_and_the_Hairy_Drawing"
+  },
+  {
+    "id": "l7YnsUqxKh22lEqP1gtL",
+    "name": "Uncle X's Hollow Tree",
+    "description": "A treehouse on Cornell Street that is notably larger than Hattie's.",
+    "storyIds": [
+      "Hattie_s_Indigo_Mushroom_Adventure"
+    ],
+    "firstAppearanceStoryId": "Hattie_s_Indigo_Mushroom_Adventure"
+  },
+  {
+    "id": "l8MJNl5Xxx6gOoCcJTik",
+    "name": "The House",
+    "description": "The cozy home belonging to Disco and Disco where they receive their visitors.",
+    "storyIds": [
+      "A_Midnight_Snack_for_a_Sleepy_Kitten"
+    ],
+    "firstAppearanceStoryId": "A_Midnight_Snack_for_a_Sleepy_Kitten"
+  },
+  {
+    "id": "lE2IBR2earRLf8LP4K8H",
+    "name": "Under Izzy's Bed",
+    "description": "A big, dark, and scary territory beneath the mattress filled with dust and snack crumbs.",
+    "storyIds": [
+      "Under_the_Bed_and_Over_the_Sky"
+    ],
+    "firstAppearanceStoryId": "Under_the_Bed_and_Over_the_Sky"
+  },
+  {
+    "id": "lFasKNWChe8Vj1OSzMqR",
+    "name": "Mudroom",
+    "description": "The area in Hattie's workshop where she stores her colorful rain gear.",
+    "storyIds": [
+      "Hattie_s_Rain_Boots_and_the_Honey_Bee_s_Hat"
+    ],
+    "firstAppearanceStoryId": "Hattie_s_Rain_Boots_and_the_Honey_Bee_s_Hat"
+  },
+  {
+    "id": "lJtOEFdnwCOCLzaEp3Xs",
+    "name": "The Sparkly Tunnel",
+    "description": "A narrow shortcut through the mountain lined with glowing, colorful crystals.",
+    "storyIds": [
+      "Izzy_the_Kiddo_and_the_Crystal_Mountain_Rescue"
+    ],
+    "firstAppearanceStoryId": "Izzy_the_Kiddo_and_the_Crystal_Mountain_Rescue"
+  },
+  {
+    "id": "lMDgzko8ihLgChJtFO4v",
+    "name": "The Underground",
+    "description": "The former subterranean residence of Magic Mole Stuffie and Pakarito, located behind a door in a rusty old room.",
+    "storyIds": [
+      "Magic_Mole_s_New_Apartment_and_the_Great_Nut_Feast"
+    ],
+    "firstAppearanceStoryId": "Magic_Mole_s_New_Apartment_and_the_Great_Nut_Feast"
+  },
+  {
+    "id": "lUryMWgu0P3VMA3ndgTa",
+    "name": "The Big Rug",
+    "description": "A treacherous area filled with obstacles like blocks and stools.",
+    "storyIds": [
+      "The_Mischief_Moles_and_the_Dusty_Bookshelf"
+    ],
+    "firstAppearanceStoryId": "The_Mischief_Moles_and_the_Dusty_Bookshelf"
+  },
+  {
+    "id": "leslJxXfuZiDjrLq3Tjz",
+    "name": "Icicle's ice palace",
+    "description": "A sparkling palace located on the tallest peak of a snow-covered mountain range.",
+    "storyIds": [
+      "The_Salty_Solution_for_a_Frozen_Island"
+    ],
+    "firstAppearanceStoryId": "The_Salty_Solution_for_a_Frozen_Island"
+  },
+  {
+    "id": "lnQNNwg07gV54K40XJI7",
+    "name": "The Store",
+    "description": "A versatile apothecary and provisioner where Seeker procures heavy-lidded sleep potions and Hattie guides Victor toward his exhaustive list of non-hat essentials. The eclectic inventory doubles as a grocery for all sizes, where local mice browse for carrots alongside a larder of gluten-free broccoli prized for its refreshing silence. Tucked among these oddities are the Band-Aids that once stirred a flicker of temporary concern in Izzy.",
+    "storyIds": [
+      "The_Adventures_of_Surprise_Mouse_and_Friends",
+      "Hattie_the_Mouse_and_the_Massive_Shopping_List",
+      "Hattie_s_Masterpiece_The_Elephant_Who_Could_Chirp",
+      "The_Tale_of_the_Talking_Gluten-Free_Broccoli",
+      "The_Polka-Dot_Potion_and_the_Magic_Spell"
+    ],
+    "firstAppearanceStoryId": "The_Adventures_of_Surprise_Mouse_and_Friends"
+  },
+  {
+    "id": "ltpc3tIfTiu8U9ErrhYa",
+    "name": "The Purse Store",
+    "description": "A shop located on Cornell Street where the characters buy a birthday present.",
+    "storyIds": [
+      "Hattie_s_Rainy_Day_Birthday_Adventure"
+    ],
+    "firstAppearanceStoryId": "Hattie_s_Rainy_Day_Birthday_Adventure"
+  },
+  {
+    "id": "ltq36fzhoBhYWFxeR15h",
+    "name": "The Drawbridge",
+    "description": "A structure that must be crossed on foot after arriving near Cornell Street.",
+    "storyIds": [
+      "Hattie_s_Flight_to_the_Songo_Feast"
+    ],
+    "firstAppearanceStoryId": "Hattie_s_Flight_to_the_Songo_Feast"
+  },
+  {
+    "id": "m1q98XL858zlM3GE0SeT",
+    "name": "Old Stone Wall",
+    "description": "A mossy, ancient wall where Oscar Mouse lives.",
+    "storyIds": [
+      "Oscar_Mouse_and_the_Musical_Wolf_Cub"
+    ],
+    "firstAppearanceStoryId": "Oscar_Mouse_and_the_Musical_Wolf_Cub"
+  },
+  {
+    "id": "m56TDvHfD53RyXRArRse",
+    "name": "Pa Pig's House",
+    "description": "Where the pig family hosts Mistress Mouse for a dinner of naan bread.",
+    "storyIds": [
+      "Mistress_Mouse_and_the_Pink_Tow_Truck_Rescue"
+    ],
+    "firstAppearanceStoryId": "Mistress_Mouse_and_the_Pink_Tow_Truck_Rescue"
+  },
+  {
+    "id": "mIEzZIVxPrYtzgrcGyU5",
+    "name": "Rocket House",
+    "description": "A specialized rescue shelter built specifically for baby angler fishes.",
+    "storyIds": [
+      "Captain_Izzy_s_Galactic_School_Bus_Mission"
+    ],
+    "firstAppearanceStoryId": "Captain_Izzy_s_Galactic_School_Bus_Mission"
+  },
+  {
+    "id": "mK74uJxzfMZGtO3UpOXD",
+    "name": "The Exercise Spot",
+    "description": "The dedicated area where Izzy performs her 'special things' and workout routines.",
+    "storyIds": [
+      "Stretching_Before_the_Story"
+    ],
+    "firstAppearanceStoryId": "Stretching_Before_the_Story"
+  },
+  {
+    "id": "mWJQkGgsr34Q5dBeE8we",
+    "name": "Backyard",
+    "description": "Behind Hattie’s workshop and Uncle Griscko’s house, an eclectic sprawl of junk litters a landscape once home to a lush kelp forest, long since devoured by a mysterious shadow. A towering spaceship now looms over the site’s inaugural breach—a raw, jagged excavation where the earth was first struck and the bitten pool noodle was originally unearthed.",
+    "storyIds": [
+      "Hattie_the_Mouse_and_the_Backyard_Cleanup",
+      "The_Mystery_of_the_Pool_Noodle_Nibbler",
+      "Seeker_s_Deep_Earth_Adventure",
+      "The_Solar_Expedition_of_Stars_and_Snories",
+      "The_Great_Kelp_Caper_of_the_Pink_Continent"
+    ],
+    "firstAppearanceStoryId": "Hattie_the_Mouse_and_the_Backyard_Cleanup"
+  },
+  {
+    "id": "mZoMYxSv2wQCPyH5AgnZ",
+    "name": "Diamond World",
+    "description": "A fantastical destination mentioned as one of the potion possibilities.",
+    "storyIds": [
+      "The_Potion_to_the_Little_Hotel_House"
+    ],
+    "firstAppearanceStoryId": "The_Potion_to_the_Little_Hotel_House"
+  },
+  {
+    "id": "mgzk2ZofGHDM4ehvCBW5",
+    "name": "Pooh Bear's House",
+    "description": "The cozy residence of Winnie the Pooh, a sun-drenched haven where friends gather for indulgent feasts of savory cheese and golden honey, and where Pooh and Piglet sit in patient silence, waiting for the gentle arrival of a new idea.",
+    "storyIds": [
+      "Stars_and_Stories_Piglet_s_Birthday_Surprise",
+      "Hattie_s_Magic_Mouse_Summoning"
+    ],
+    "firstAppearanceStoryId": "Stars_and_Stories_Piglet_s_Birthday_Surprise"
+  },
+  {
+    "id": "mpnHIuELPXkxZ2cV1JaO",
+    "name": "Zoo",
+    "description": "A park where the moles visit and admire various baby animals.",
+    "storyIds": [
+      "The_Busy_Day_of_Disco_and_Disco_Moles"
+    ],
+    "firstAppearanceStoryId": "The_Busy_Day_of_Disco_and_Disco_Moles"
+  },
+  {
+    "id": "n2dd7w6CGCCgp4BnMggK",
+    "name": "Rainbow Frasgle World",
+    "description": "A colorful world inhabited by Frasgles of every imaginable hue.",
+    "storyIds": [
+      "Orange_Frasgle_and_the_Blackberry_Seed"
+    ],
+    "firstAppearanceStoryId": "Orange_Frasgle_and_the_Blackberry_Seed"
+  },
+  {
+    "id": "nBMCQaExWFBQsZyOBA9m",
+    "name": "The Family Home",
+    "description": "The setting where the naming discussion takes place.",
+    "storyIds": [
+      "The_Name_Game_with_Mrs_Rabbit"
+    ],
+    "firstAppearanceStoryId": "The_Name_Game_with_Mrs_Rabbit"
+  },
+  {
+    "id": "nhQ00OlOIlC0xzFGYtip",
+    "name": "Sparkling Silver Desert",
+    "description": "A destination reachable via Seeker's silvery potion.",
+    "storyIds": [
+      "Haddy_the_Mouse_and_the_Quest_for_the_Talking_Hat"
+    ],
+    "firstAppearanceStoryId": "Haddy_the_Mouse_and_the_Quest_for_the_Talking_Hat"
+  },
+  {
+    "id": "nmLJtT1jk89AQJdKwWWJ",
+    "name": "Fabric House",
+    "description": "Surprise Mouse's cozy, soft home located inside a larger residence.",
+    "storyIds": [
+      "The_Tail_of_Two_Mice_Surprise_and_Hoodie"
+    ],
+    "firstAppearanceStoryId": "The_Tail_of_Two_Mice_Surprise_and_Hoodie"
+  },
+  {
+    "id": "o1GcTATSlPDSZuDLeMV6",
+    "name": "The Arctic",
+    "description": "A vast, snowy, and freezing region where the lost ball is hidden.",
+    "storyIds": [
+      "Finn_the_Cat_s_Arctic_Rainbow_Quest"
+    ],
+    "firstAppearanceStoryId": "Finn_the_Cat_s_Arctic_Rainbow_Quest"
+  },
+  {
+    "id": "o1wmOwYNXkVhD8kW2Cjr",
+    "name": "The Wizard's Office",
+    "description": "Located at the top of a winding staircase in a castle tower.",
+    "storyIds": [
+      "Tigger_s_Quest_for_the_Wizard_s_Magic_Wand"
+    ],
+    "firstAppearanceStoryId": "Tigger_s_Quest_for_the_Wizard_s_Magic_Wand"
+  },
+  {
+    "id": "o4i3KpX5OC9HVbJtPoIJ",
+    "name": "Rainbow Beach",
+    "description": "A sparkling beach with pink, purple, silver, and gold sand and shells.",
+    "storyIds": [],
+    "firstAppearanceStoryId": null
+  },
+  {
+    "id": "oMyWLy0dbKzsySK4gJZA",
+    "name": "Bert's Party",
+    "description": "A festive celebration featuring music, cupcakes, and sleeping bags.",
+    "storyIds": [
+      "The_Mystery_of_the_Pool_Noodle_Nibbler"
+    ],
+    "firstAppearanceStoryId": "The_Mystery_of_the_Pool_Noodle_Nibbler"
+  },
+  {
+    "id": "oZJTvFPdF8ZJ4j0JBlQX",
+    "name": "Yestalam",
+    "description": "A unique music shop filled with instruments and vegetables where the lost wolf cub is found.",
+    "storyIds": [
+      "Oscar_Mouse_and_the_Musical_Wolf_Cub"
+    ],
+    "firstAppearanceStoryId": "Oscar_Mouse_and_the_Musical_Wolf_Cub"
+  },
+  {
+    "id": "omKPJNnzq9DMErfC4evH",
+    "name": "The Hills",
+    "description": "A section of the racecourse involving steep climbs and descents.",
+    "storyIds": [
+      "Mistress_Mouse_and_the_Great_Penguin_Car_Race"
+    ],
+    "firstAppearanceStoryId": "Mistress_Mouse_and_the_Great_Penguin_Car_Race"
+  },
+  {
+    "id": "owNWOVbD6KdBmSgYOrPO",
+    "name": "The Living Room",
+    "description": "A cozy and safe environment where a father and daughter share playful moments.",
+    "storyIds": [],
+    "firstAppearanceStoryId": null
+  },
+  {
+    "id": "p2lyBbbxFRbFR3V9rSmZ",
+    "name": "Circus",
+    "description": "A colorful destination mentioned in a song.",
+    "storyIds": [
+      "Mickey_s_Adventure_and_the_Deep_Sea_Shark"
+    ],
+    "firstAppearanceStoryId": "Mickey_s_Adventure_and_the_Deep_Sea_Shark"
+  },
+  {
+    "id": "pGO9D6Ci3kXLBRyqnYbN",
+    "name": "Kitchen Table",
+    "description": "The spot where the visiting birds unexpectedly fall asleep after their breakfast.",
+    "storyIds": [
+      "The_Best_Mole_Hole_Ever"
+    ],
+    "firstAppearanceStoryId": "The_Best_Mole_Hole_Ever"
+  },
+  {
+    "id": "pIQBN3H006jtWnxg3DoI",
+    "name": "Cake Store",
+    "description": "A shop a long drive away that sells cakes and sprinkles.",
+    "storyIds": [
+      "The_Chronicles_of_Pinecone_Mouse_and_the_Pink_Tow_Truck"
+    ],
+    "firstAppearanceStoryId": "The_Chronicles_of_Pinecone_Mouse_and_the_Pink_Tow_Truck"
+  },
+  {
+    "id": "pOxWBmKiNk2HF83fYjfH",
+    "name": "The Underground Tunnel",
+    "description": "The traditional, cozy, and dirt-covered home where moles usually reside.",
+    "storyIds": [
+      "The_Star-Lit_Basket_Adventure"
+    ],
+    "firstAppearanceStoryId": "The_Star-Lit_Basket_Adventure"
+  },
+  {
+    "id": "pUgoqricVYLMNGIYMSch",
+    "name": "The Mountain Kingdom",
+    "description": "An underground realm deep beneath the mountains consisting of tunnels, chambers, houses, and restaurants.",
+    "storyIds": [
+      "Seeker_s_Stone-Carving_Expedition"
+    ],
+    "firstAppearanceStoryId": "Seeker_s_Stone-Carving_Expedition"
+  },
+  {
+    "id": "pYGw3sxEDcNH4ahXWs21",
+    "name": "Amusement Park",
+    "description": "The site of various rides, including a merry-go-round that gets jammed by a nut bar.",
+    "storyIds": [
+      "The_Many_Adventures_of_Mistress_Mouse"
+    ],
+    "firstAppearanceStoryId": "The_Many_Adventures_of_Mistress_Mouse"
+  },
+  {
+    "id": "pdWko2r1IHYR2vXy9ocU",
+    "name": "Hattie the Mouse's House",
+    "description": "The starting point of the adventure where everyone has breakfast.",
+    "storyIds": [
+      "Hattie_s_Shell_Necklace_Adventure"
+    ],
+    "firstAppearanceStoryId": "Hattie_s_Shell_Necklace_Adventure"
+  },
+  {
+    "id": "pgoGnbA36gTbn00Dnxrq",
+    "name": "North America",
+    "description": "One of the earthly continents monitored during the planetary surround.",
+    "storyIds": [
+      "Cosmic_Controls_at_the_Captain_s_Desk"
+    ],
+    "firstAppearanceStoryId": "Cosmic_Controls_at_the_Captain_s_Desk"
+  },
+  {
+    "id": "psy2ulyAxxakCW35wbA7",
+    "name": "Nana Mouse's House",
+    "description": "A house filled with many toys, reached after a long car ride.",
+    "storyIds": [
+      "The_Adventures_of_Surprise_Mouse_and_Friends"
+    ],
+    "firstAppearanceStoryId": "The_Adventures_of_Surprise_Mouse_and_Friends"
+  },
+  {
+    "id": "puY9K77v5FM7kwjFFDQA",
+    "name": "Seeker's Castle",
+    "description": "Behind an unassuming facade and a solitary doorbell lies Seeker’s home, a sprawling magical fortress that serves as a vital sanctuary for weary legends. The interior expands into a labyrinthine refuge where an expansive library of mystical books towers beside a potion closet that acts as the true gateway to adventure. This fortress is a hub for calls to action and well-earned rest, where Wobbly Whiskers waits to greet the Seeker and Buddy the Mouse—though the warmth of their homecoming is inevitably punctuated by his latest sticky mess upon the rug.",
+    "storyIds": [
+      "A_Sticky_Adventure_to_the_Castle_of_Slime",
+      "Slime-Ka-Bye_The_Beard-Dweller_s_Deep_Sea_Adventure",
+      "Shark_Friends_and_the_Deep_Deep_Dark",
+      "Dr_Izzy_and_the_Forest_Rescue",
+      "Wobbly_Whisker_s_Sticky_Adventure_on_Planet_Mooker",
+      "The_Rainbow_Fruit_World_and_the_Great_Lemon_Fish_Debate",
+      "The_Sparkling_Dust_of_Book_World"
+    ],
+    "firstAppearanceStoryId": "A_Sticky_Adventure_to_the_Castle_of_Slime"
+  },
+  {
+    "id": "q4Mwgpjwq4n5mh7mI28N",
+    "name": "Mousey playground",
+    "description": "The destination where all the fishes and friends go to play.",
+    "storyIds": [
+      "Hattie_and_the_Lego_Aquarium_Adventure"
+    ],
+    "firstAppearanceStoryId": "Hattie_and_the_Lego_Aquarium_Adventure"
+  },
+  {
+    "id": "qKJRJP2x0tKrjyTLL0tx",
+    "name": "Planet of the Tiny Fuzzballs",
+    "description": "A distant world inhabited by small, talkative fuzzy creatures.",
+    "storyIds": [
+      "Captain_Izzy_s_Galactic_School_Bus_Mission"
+    ],
+    "firstAppearanceStoryId": "Captain_Izzy_s_Galactic_School_Bus_Mission"
+  },
+  {
+    "id": "qVbIF0Ctnq57QRY3aCme",
+    "name": "Mole House",
+    "description": "Uncle Grisco’s subterranean sanctum, a sprawling burrow of packed earth and reinforced timber, has been reimagined as a vibrant communal hub. Beneath its low, amber-lit ceilings, the scent of damp clay mingles with the ozone of a whirring robot that serves as both a metallic playmate and a rhythmic guide. Here, amidst the clatter of clockwork and repurposed scrap, the group gathers to master intricate new dances, their shadows flickering against the cavern walls in a spirited fusion of technology and grace.",
+    "storyIds": [
+      "Zigzag_the_Dancing_Robot_and_the_Cornebyborn_Dance",
+      "Science_and_Hand_Mountains_with_Seeker_and_Uncle_Grisco"
+    ],
+    "firstAppearanceStoryId": "Zigzag_the_Dancing_Robot_and_the_Cornebyborn_Dance"
+  },
+  {
+    "id": "qbvFORjlACPsPLTamI9u",
+    "name": "Sidewalk",
+    "description": "A bright yellow path created in space using special markers for the crew to walk on.",
+    "storyIds": [
+      "Captain_Izzy_s_Galactic_School_Bus_Mission"
+    ],
+    "firstAppearanceStoryId": "Captain_Izzy_s_Galactic_School_Bus_Mission"
+  },
+  {
+    "id": "qpRlVlAdte8IC0HkV5U0",
+    "name": "Winnie the Pooh's House",
+    "description": "The home where Pooh keeps his useful tall ladder.",
+    "storyIds": [
+      "The_LED_Robot_and_the_Honey_Tree_of_Cornell_Street"
+    ],
+    "firstAppearanceStoryId": "The_LED_Robot_and_the_Honey_Tree_of_Cornell_Street"
+  },
+  {
+    "id": "qtw2VyXJRgmIqr2jsKmm",
+    "name": "Kitty's House",
+    "description": "Perched in the rhythmic shadow of the nearby clock tower, Kitty the Superhero’s residence serves as both a domestic haven and the tactical launchpad for her family. It was within these walls, amidst the warmth of a final shared lunch, that the heroes gathered to begin their latest adventure.",
+    "storyIds": [
+      "Kitty_s_Crew_and_the_Underground_Adventure",
+      "The_Case_of_the_Carrot-Loving_Gophers"
+    ],
+    "firstAppearanceStoryId": "Kitty_s_Crew_and_the_Underground_Adventure"
+  },
+  {
+    "id": "r1rKJqdDOmZXz2mO28UI",
+    "name": "The Feast Hall",
+    "description": "A large room with a big table and chairs for community celebrations.",
+    "storyIds": [
+      "Peacock_s_Castle_and_the_Neighborhood_Photo_Project"
+    ],
+    "firstAppearanceStoryId": "Peacock_s_Castle_and_the_Neighborhood_Photo_Project"
+  },
+  {
+    "id": "rCyJhFRB71nVgsDbLKu5",
+    "name": "Diner",
+    "description": "A lunch spot where Mistress Mouse enjoys bacon, fruit, and potatoes with ketchup.",
+    "storyIds": [
+      "The_Many_Adventures_of_Mistress_Mouse"
+    ],
+    "firstAppearanceStoryId": "The_Many_Adventures_of_Mistress_Mouse"
+  },
+  {
+    "id": "rG1MPzZWkENvZ6gXs5nE",
+    "name": "Taco Place",
+    "description": "A restaurant known for its unique tacos filled with chocolate chips and fried vegetables.",
+    "storyIds": [
+      "The_Imaginary_Road_Trip_to_Nana_s_House"
+    ],
+    "firstAppearanceStoryId": "The_Imaginary_Road_Trip_to_Nana_s_House"
+  },
+  {
+    "id": "rkJdTkC4KIfBM1z8VDnJ",
+    "name": "Africa",
+    "description": "A terrestrial coordinate identified by the ship’s computer, revealed as the distant, freshwater cradle of the iridescent cichlids shimmering within the aquarium’s first tank.",
+    "storyIds": [
+      "The_Moles_Great_Aquarium_Adventure",
+      "Cosmic_Controls_at_the_Captain_s_Desk"
+    ],
+    "firstAppearanceStoryId": "The_Moles_Great_Aquarium_Adventure"
+  },
+  {
+    "id": "rluAub33JxufrObaE2zf",
+    "name": "The Trenches",
+    "description": "Deep underwater valleys the submarine must navigate through.",
+    "storyIds": [
+      "Disco_and_Thisco_s_Deep-Sea_Submarine_Adventure"
+    ],
+    "firstAppearanceStoryId": "Disco_and_Thisco_s_Deep-Sea_Submarine_Adventure"
+  },
+  {
+    "id": "rsJ9RSALsARLTWkrvsNN",
+    "name": "Hattie's House",
+    "description": "Nestled in a sun-drenched tree across from the town park, Hattie’s arboreal sanctuary on Mouse Street doubles as a vibrant Cornell Street workshop for designing hats and a peaceful retreat for resting after long days of painting. This cozy home, cluttered with the tools of her trade, is a place of shared morning breakfasts with Mischief and savory meals cooked alongside her Nana. Whether lulled by the rhythmic drumming of rainfall or the quiet exhaustion of her artistry, Hattie finds her solace here, drifting into restorative naps amidst the creative clutter.",
+    "storyIds": [
+      "Hattie_the_Artist_Mouse",
+      "The_Mystery_of_the_Snake_Store_Bups",
+      "Hattie_the_Mouse_and_the_Rainy_Day_Stove_Rescue",
+      "Hattie_the_Mouse_and_the_Poet_Worm",
+      "Hattie_s_Rainy_Day_Birthday_Adventure",
+      "Mischief_Mouse_and_the_Tiny_Lego_Hat"
+    ],
+    "firstAppearanceStoryId": "Hattie_the_Artist_Mouse"
+  },
+  {
+    "id": "t84cE3muwbX8OTp8N2e8",
+    "name": "Crystal Mountain",
+    "description": "The caretaker’s secluded dwelling serves as a hallowed sanctuary where magical birds descend to harvest the luminous crystals essential for their flight.",
+    "storyIds": [
+      "The_Best_Mole_Hole_Ever",
+      "The_Bouncing_Floofers_of_the_Golden_Cloud"
+    ],
+    "firstAppearanceStoryId": "The_Best_Mole_Hole_Ever"
+  },
+  {
+    "id": "tVbgiuvsDGdY2zr8NWhQ",
+    "name": "The deep sea",
+    "description": "The vast underwater world Jessica explores in her submarine.",
+    "storyIds": [
+      "Mickey_s_Adventure_and_the_Deep_Sea_Shark"
+    ],
+    "firstAppearanceStoryId": "Mickey_s_Adventure_and_the_Deep_Sea_Shark"
+  },
+  {
+    "id": "tjviKT17eLz6apSBf3HF",
+    "name": "Poplar",
+    "description": "The location of Mischief's tape store.",
+    "storyIds": [
+      "Hattie_s_Magical_Rainbow_Tape_Quest"
+    ],
+    "firstAppearanceStoryId": "Hattie_s_Magical_Rainbow_Tape_Quest"
+  },
+  {
+    "id": "tu3lu5Gv68xLSpybbyPU",
+    "name": "The Burrow",
+    "description": "A safe and cozy underground sanctuary for the Mischief Moles, tucked away within the protective cracks of a weathered stone wall.",
+    "storyIds": [
+      "Oscar_Mouse_and_the_Musical_Wolf_Cub",
+      "The_Mischief_Moles_and_the_Plane_of_Fire"
+    ],
+    "firstAppearanceStoryId": "Oscar_Mouse_and_the_Musical_Wolf_Cub"
+  },
+  {
+    "id": "u3I11dF58DSQGOr1tfjF",
+    "name": "Deep Dark Forest",
+    "description": "A shadowy wood filled with burrows and mysterious creatures like foxes and mice.",
+    "storyIds": [
+      "The_Wizard_s_Play-Doh_Hat_Quest"
+    ],
+    "firstAppearanceStoryId": "The_Wizard_s_Play-Doh_Hat_Quest"
+  },
+  {
+    "id": "u7UAcUb6RLlHqnBJJzUH",
+    "name": "Hattie's Bed",
+    "description": "Where the sick mouse Hattie rests while resolving her dispute.",
+    "storyIds": [
+      "The_Rainbow_Fruit_World_and_the_Great_Lemon_Fish_Debate"
+    ],
+    "firstAppearanceStoryId": "The_Rainbow_Fruit_World_and_the_Great_Lemon_Fish_Debate"
+  },
+  {
+    "id": "u9gAzEVgbGLngi3dl3a5",
+    "name": "Isabella's Lunchbox",
+    "description": "A pretend location where Alexander manages his Tamagotchi store.",
+    "storyIds": [
+      "The_Solar_Expedition_of_Stars_and_Snories"
+    ],
+    "firstAppearanceStoryId": "The_Solar_Expedition_of_Stars_and_Snories"
+  },
+  {
+    "id": "uACLgbMRrjAr8Uco8HK6",
+    "name": "Hattie's Home",
+    "description": "The final destination where Hattie and Nana return after their nature walk.",
+    "storyIds": [
+      "Hattie_s_Block-Built_Nature_Walk_Adventure"
+    ],
+    "firstAppearanceStoryId": "Hattie_s_Block-Built_Nature_Walk_Adventure"
+  },
+  {
+    "id": "uB0FHoYfNewYdxNujnkS",
+    "name": "The Raised Bed Garden",
+    "description": "A lush garden filled with carrots, snap peas, and radishes, maintained by humans but visited by gophers.",
+    "storyIds": [
+      "The_Case_of_the_Carrot-Loving_Gophers"
+    ],
+    "firstAppearanceStoryId": "The_Case_of_the_Carrot-Loving_Gophers"
+  },
+  {
+    "id": "uC1jVFTCdHcHCtKtthkg",
+    "name": "The Sun",
+    "description": "A massive, fiery star at the solar system's heart, a realm of incinerating heat that serves as the final, scorching sanctuary where the lost mookball is eventually found.",
+    "storyIds": [
+      "The_Solar_Expedition_of_Stars_and_Snories",
+      "The_Mookers_the_Floofers_and_the_Solar_Mookball"
+    ],
+    "firstAppearanceStoryId": "The_Solar_Expedition_of_Stars_and_Snories"
+  },
+  {
+    "id": "uHODwtQ4flce8igUiyQg",
+    "name": "The Forest",
+    "description": "Cloaking the surface of the green planet in a vast mantle of dense greenery, this whispering woodland serves as the lush setting of the 'Forest Friends' chronicle. It is a realm where creatures play eternal hide-and-seek between Hattie’s cozy clinic and the ancestral cradle of Finn’s companions. Along magical trails where Hattie and the Pakruder Worm harvest hat-making ingredients, winding paths veil secret gopher tunnels and hidden mole cottages, forming the essential route toward the wizard's castle. While its sun-drenched threshold remains a sanctuary for the Rainbow Giraffe and Mama Bird, the deeper, darker thickets harbor a somber mystery; it was within these sprawling, uncharted depths—the same eerie expanse where the sick creature was first spotted and Mossy was discovered—that Mole recently vanished into the shadows.",
+    "storyIds": [
+      "Mickey_and_Minnie_s_Interstellar_Forest_Adventure",
+      "Hattie_and_the_Wizard_s_Clover_Show",
+      "The_Foxy_Way_and_the_Twirling_Ghost",
+      "Hattie_the_Mouse_and_the_Rainbow_Mushroom_Mystery",
+      "Hattie_Mouse_and_the_Mouse_Street_Doctors",
+      "Pakruder_Worm_s_New_Sound",
+      "Hattie_and_the_Mystery_of_the_Muddy_Mountain",
+      "Hattie_s_Magic_Mouse_Summoning",
+      "The_Underground_Library_and_the_Big_Bubble_Bonanza",
+      "Frasgle_and_the_Sticky_Situation",
+      "Finn_the_Cat_s_Arctic_Rainbow_Quest",
+      "The_Putt-Putt_Road_Trip_Adventure",
+      "Hattie_s_Giant_Robot_and_the_Rainbow_Gnome_Hat",
+      "The_Workout_Wombats_and_the_Deep_Blue_Sea",
+      "The_Glowing_Expedition_for_Mole",
+      "Peacock_s_Castle_and_the_Neighborhood_Photo_Project",
+      "Mossy_s_New_Home_at_River_Lake",
+      "Auntie_Mulberry_s_Magical_Mole_Pie",
+      "Stars_and_Stories_The_Great_Cat_Rescue",
+      "Under_the_Bed_and_Over_the_Sky",
+      "Kitty_s_Crew_and_the_Underground_Adventure",
+      "Dr_Izzy_and_the_Forest_Rescue"
+    ],
+    "firstAppearanceStoryId": "Mickey_and_Minnie_s_Interstellar_Forest_Adventure"
+  },
+  {
+    "id": "uZcAuFW7qjab9JTccgP3",
+    "name": "Mickey's house",
+    "description": "The place Mickey left behind to go on an adventure.",
+    "storyIds": [
+      "Mickey_s_Adventure_and_the_Deep_Sea_Shark"
+    ],
+    "firstAppearanceStoryId": "Mickey_s_Adventure_and_the_Deep_Sea_Shark"
+  },
+  {
+    "id": "uanq1sjKTVvaORgJqc8Q",
+    "name": "Bottom of the ocean",
+    "description": "The general underwater setting where the murgirls live.",
+    "storyIds": [
+      "The_Mystery_of_the_Missing_Kelp_Forest"
+    ],
+    "firstAppearanceStoryId": "The_Mystery_of_the_Missing_Kelp_Forest"
+  },
+  {
+    "id": "ujzqMyMpdCXSedRil4rR",
+    "name": "Cat World",
+    "description": "A tactile, fur-filled dimension reachable only through specialized magic potions, this plush realm serves as a hidden destination for those who master the art of alchemical teleportation.",
+    "storyIds": [
+      "The_Wizard_Seker_and_the_Magical_Can_Opener_of_Cat_World",
+      "The_Thirty_Cats_of_Kibble_World"
+    ],
+    "firstAppearanceStoryId": "The_Wizard_Seker_and_the_Magical_Can_Opener_of_Cat_World"
+  },
+  {
+    "id": "umyjDgDqwewk2ynr9u6l",
+    "name": "Silver Street school",
+    "description": "A landmark located near the mission's destination restaurant.",
+    "storyIds": [
+      "Mission_to_the_Astro-Orange_Restaurant"
+    ],
+    "firstAppearanceStoryId": "Mission_to_the_Astro-Orange_Restaurant"
+  },
+  {
+    "id": "v0ugIXbvZagoRl1OfOPG",
+    "name": "Taco Space Station",
+    "description": "A floating station that serves customized tacos in various shapes to hungry travelers.",
+    "storyIds": [
+      "Mission_to_the_Taco_Space_Station"
+    ],
+    "firstAppearanceStoryId": "Mission_to_the_Taco_Space_Station"
+  },
+  {
+    "id": "vG4syORo15Qtt5wWdhuL",
+    "name": "Apple-Banana Forest",
+    "description": "A woods where the trees are giant bananas and apples.",
+    "storyIds": [
+      "The_Rainbow_Fruit_World_and_the_Great_Lemon_Fish_Debate"
+    ],
+    "firstAppearanceStoryId": "The_Rainbow_Fruit_World_and_the_Great_Lemon_Fish_Debate"
+  },
+  {
+    "id": "vK9PdcwyfCCmONBNVyFR",
+    "name": "The Hollow Tree",
+    "description": "The location of Hattie's cozy workshop where she crafts and bakes her hats.",
+    "storyIds": [
+      "Hattie_the_Mouse_and_the_Massive_Shopping_List"
+    ],
+    "firstAppearanceStoryId": "Hattie_the_Mouse_and_the_Massive_Shopping_List"
+  },
+  {
+    "id": "vPeWyS9uP4ujORov7xwl",
+    "name": "House in the Forest",
+    "description": "The home where Orange Frasgle and other creatures live.",
+    "storyIds": [
+      "Orange_Frasgle_and_the_Blackberry_Seed"
+    ],
+    "firstAppearanceStoryId": "Orange_Frasgle_and_the_Blackberry_Seed"
+  },
+  {
+    "id": "vUV6Lk5V1a0EKIgbzevN",
+    "name": "Parking lot",
+    "description": "The area where Dimitar and his mother land after their flight.",
+    "storyIds": [
+      "Dimitar_s_Flight_to_Cadasori"
+    ],
+    "firstAppearanceStoryId": "Dimitar_s_Flight_to_Cadasori"
+  },
+  {
+    "id": "vYvrSvOHiC2uTl6Kbfo3",
+    "name": "Izzy's Bed",
+    "description": "The cozy spot where Izzy rests and builds toys while recovering from her cold.",
+    "storyIds": [
+      "Haddy_the_Mouse_and_the_Lego_Airplane"
+    ],
+    "firstAppearanceStoryId": "Haddy_the_Mouse_and_the_Lego_Airplane"
+  },
+  {
+    "id": "vufhjwL8VpLGduu3ptPs",
+    "name": "Haddy's Workshop",
+    "description": "The home base for Haddy the mouse.",
+    "storyIds": [
+      "Haddy_the_Mouse_and_the_Quest_for_the_Talking_Hat"
+    ],
+    "firstAppearanceStoryId": "Haddy_the_Mouse_and_the_Quest_for_the_Talking_Hat"
+  },
+  {
+    "id": "w0sMLak5OXW8gj3yFxQW",
+    "name": "Home",
+    "description": "A sanctuary of restorative rest where weary creators retire after the day’s long labors of drawing, this haven is destined to become the permanent hearth for all friends once the blight of Frasgle has been purged and the land is clean again.",
+    "storyIds": [
+      "The_Anglerfish_and_the_Hairy_Drawing",
+      "Frasgle_and_the_Sticky_Situation",
+      "The_Glowing_Expedition_for_Mole"
+    ],
+    "firstAppearanceStoryId": "The_Anglerfish_and_the_Hairy_Drawing"
+  },
+  {
+    "id": "wGOHdlXCBKtgbhNuvrH4",
+    "name": "Jupiter",
+    "description": "A massive, swirling sphere of deep purple gas looms in the void, dominated by the cyclonic fury of a Great Red Spot. Its churning amethyst atmosphere hides a crushing gravitational pull that asserts total dominance over the surrounding reaches of space.",
+    "storyIds": [
+      "Mickey_Minnie_and_Mole_s_Galactic_Bake-Off",
+      "Cosmic_Controls_at_the_Captain_s_Desk"
+    ],
+    "firstAppearanceStoryId": "Mickey_Minnie_and_Mole_s_Galactic_Bake-Off"
+  },
+  {
+    "id": "wQO0p9aNgb77n1jVJMqZ",
+    "name": "Izzy's dark bedroom",
+    "description": "The setting through which the moles travel during their late-night exploration.",
+    "storyIds": [
+      "Ova_s_Birthday_and_the_Quiet_Mole_Exploration"
+    ],
+    "firstAppearanceStoryId": "Ova_s_Birthday_and_the_Quiet_Mole_Exploration"
+  },
+  {
+    "id": "whTJAiUZxL4gZvnrbrxc",
+    "name": "The Pond",
+    "description": "A secluded pond nestled at the field’s edge, its still waters beckon as a perfect swimming hole for weary adventurers, while the silty shallows yield a curious bounty of smooth, sun-bleached shells.",
+    "storyIds": [
+      "Hattie_s_Shell_Necklace_Adventure",
+      "Hattie_and_the_Celestial_Shooting_Star"
+    ],
+    "firstAppearanceStoryId": "Hattie_s_Shell_Necklace_Adventure"
+  },
+  {
+    "id": "wjpSpfG6LQOkqbmzV9ns",
+    "name": "Lions Stool",
+    "description": "A landmark in the Magic Forest mentioned in multiple maps.",
+    "storyIds": [
+      "The_Magic_Forest_Photo_Tour"
+    ],
+    "firstAppearanceStoryId": "The_Magic_Forest_Photo_Tour"
+  },
+  {
+    "id": "wsQOJCTd3mfEOS1vL3RN",
+    "name": "Isabella's room",
+    "description": "The final destination where Silver finds the best snuggle and falls asleep.",
+    "storyIds": [
+      "The_Silver_Kitten_s_Snuggle_Emergency"
+    ],
+    "firstAppearanceStoryId": "The_Silver_Kitten_s_Snuggle_Emergency"
+  },
+  {
+    "id": "wvapMPrdUM0aFiHwAy9j",
+    "name": "Volcano World",
+    "description": "A dangerous world that Seeker has visited before.",
+    "storyIds": [
+      "A_Sticky_Adventure_to_the_Castle_of_Slime"
+    ],
+    "firstAppearanceStoryId": "A_Sticky_Adventure_to_the_Castle_of_Slime"
+  },
+  {
+    "id": "wwX5vP9BNidBdjcRpnq7",
+    "name": "Mistress Mouse",
+    "description": "A local shop next door that sells all kinds of useful items, including rain jackets, umbrellas, and galoshes.",
+    "storyIds": [
+      "Hattie_the_Mouse_and_the_Baby_Chipmunk_s_Snack"
+    ],
+    "firstAppearanceStoryId": "Hattie_the_Mouse_and_the_Baby_Chipmunk_s_Snack"
+  },
+  {
+    "id": "wxjLdBVaFEcfwGkmIrFB",
+    "name": "Space Ship",
+    "description": "A vessel equipped with space shelves, a control panel, and specialized telescopes.",
+    "storyIds": [
+      "Captain_Izzy_s_Galactic_School_Bus_Mission"
+    ],
+    "firstAppearanceStoryId": "Captain_Izzy_s_Galactic_School_Bus_Mission"
+  },
+  {
+    "id": "x5fwPtXGNcfyOUgsbwTF",
+    "name": "The Kitchen",
+    "description": "The castle’s grand culinary hall, where Minnie and Mickey orchestrate legendary feasts, is a whimsical blend of stone-walled majesty and cozy clutter. Gleaming utensils and vibrant vegetables spill across the counters, all centered around a peculiar, animated refrigerator that hums with a personality as lively as the banquets prepared within.",
+    "storyIds": [
+      "The_Tale_of_the_Talking_Gluten-Free_Broccoli",
+      "Peacock_s_Castle_and_the_Neighborhood_Photo_Project"
+    ],
+    "firstAppearanceStoryId": "The_Tale_of_the_Talking_Gluten-Free_Broccoli"
+  },
+  {
+    "id": "xHnkSCS2FVvOCr3Wka5H",
+    "name": "Underwater Coffee Shop",
+    "description": "A convenient stopping point for the explorers to get treats during their voyage.",
+    "storyIds": [
+      "Disco_and_Thisco_s_Deep-Sea_Submarine_Adventure"
+    ],
+    "firstAppearanceStoryId": "Disco_and_Thisco_s_Deep-Sea_Submarine_Adventure"
+  },
+  {
+    "id": "xS7A4I8ZGXFYxXKoBVBd",
+    "name": "Croquet Road",
+    "description": "The street where Flutter the mouse lives.",
+    "storyIds": [
+      "The_Sardine_Bakery_and_the_Rainbow_Disco_Birthday"
+    ],
+    "firstAppearanceStoryId": "The_Sardine_Bakery_and_the_Rainbow_Disco_Birthday"
+  },
+  {
+    "id": "xUxydxiIuy1Gi65JybfV",
+    "name": "Forest Clearing",
+    "description": "The specific location where the tiny brown mouse was lying in the grass.",
+    "storyIds": [
+      "Dr_Izzy_and_the_Forest_Rescue"
+    ],
+    "firstAppearanceStoryId": "Dr_Izzy_and_the_Forest_Rescue"
+  },
+  {
+    "id": "xXSU8qVuKBiiRsw3y9if",
+    "name": "Family house",
+    "description": "A shared home where Mickey, Minnie, and Mole all live together.",
+    "storyIds": [
+      "Gonk-a-Bona_and_the_Soup-Seeking_Mole"
+    ],
+    "firstAppearanceStoryId": "Gonk-a-Bona_and_the_Soup-Seeking_Mole"
+  },
+  {
+    "id": "xfSOfPWyOJJHvZ7JEuFj",
+    "name": "The Knee House",
+    "description": "A fictional location situated on a knee, belonging to Avery.",
+    "storyIds": [
+      "Hattie_the_Mouse_s_Hat_Workshop"
+    ],
+    "firstAppearanceStoryId": "Hattie_the_Mouse_s_Hat_Workshop"
+  },
+  {
+    "id": "xhjEenYOsWvtF3w7d04y",
+    "name": "The Snack Area",
+    "description": "A designated spot where Hattie takes the baby chipmunk to enjoy a feast of apples and yogurt.",
+    "storyIds": [
+      "Hattie_the_Mouse_and_the_Baby_Chipmunk_s_Snack"
+    ],
+    "firstAppearanceStoryId": "Hattie_the_Mouse_and_the_Baby_Chipmunk_s_Snack"
+  },
+  {
+    "id": "xiQ1xfWiF86W9MLxnSnV",
+    "name": "Vroom-Vroom's House",
+    "description": "The home of the fast-flying bird.",
+    "storyIds": [
+      "Peacock_s_Castle_and_the_Neighborhood_Photo_Project"
+    ],
+    "firstAppearanceStoryId": "Peacock_s_Castle_and_the_Neighborhood_Photo_Project"
+  },
+  {
+    "id": "xrZdBKENG6eX0mba54N2",
+    "name": "Izzy's Attic",
+    "description": "Accessible only to those who swallow a shimmering potion and recite the ancient rhyme, this hidden workshop is a sanctuary of infinite creation. Within, sprawling Lego landscapes and intricate kits merge with a vibrant chaos of art supplies and heavy wooden work desks. Weathered suitcases, brimming with mystery, rest among the colorful bricks, marking a space where every tool and trinket is a portal to a new imagination.",
+    "storyIds": [
+      "The_Potion_to_Izzy_s_Attic",
+      "The_Floof-Berry_Mission_and_the_Great_Snowstorm"
+    ],
+    "firstAppearanceStoryId": "The_Potion_to_Izzy_s_Attic"
+  },
+  {
+    "id": "y2lJW6X3gjSs7T6Vcg7A",
+    "name": "The Neighbor's Yard",
+    "description": "The location where a surprise present is found on a stairstep.",
+    "storyIds": [
+      "Mistress_Mouse_and_the_Pink_Tow_Truck_Rescue"
+    ],
+    "firstAppearanceStoryId": "Mistress_Mouse_and_the_Pink_Tow_Truck_Rescue"
+  },
+  {
+    "id": "yF7dm7lZKwWxKYrcbLug",
+    "name": "Goober's Bedroom",
+    "description": "A special small tunnel where Goober rests and hangs out with friends.",
+    "storyIds": [
+      "Kitty_s_Crew_and_the_Underground_Adventure"
+    ],
+    "firstAppearanceStoryId": "Kitty_s_Crew_and_the_Underground_Adventure"
+  },
+  {
+    "id": "yH2wzxoW49vGOjK97uI6",
+    "name": "The Construction Site",
+    "description": "A treacherous, winding gauntlet of the racecourse where the path is currently being reclaimed from rubble. Towering cranes and heavy bulldozers loom over the track, flanking a narrow route choked with orange cones and jagged slabs of displaced sidewalk.",
+    "storyIds": [
+      "Mistress_Mouse_and_the_Great_Penguin_Car_Race",
+      "Under_the_Bed_and_Over_the_Sky"
+    ],
+    "firstAppearanceStoryId": "Mistress_Mouse_and_the_Great_Penguin_Car_Race"
+  },
+  {
+    "id": "yPeETeYcUPHi2ml7i6rt",
+    "name": "Perfectly Square Island",
+    "description": "The home of Farmer Wobble where square carrots are grown.",
+    "storyIds": [
+      "The_Gopher_s_Squerret_Quest_in_Australia"
+    ],
+    "firstAppearanceStoryId": "The_Gopher_s_Squerret_Quest_in_Australia"
+  },
+  {
+    "id": "yazVpkNG84jLQrsKhL5N",
+    "name": "Christopher Robin's House",
+    "description": "Nestled in a gentle clearing within the Hundred Acre Wood, this cozy house serves as a primary landing site for wind-tossed travelers. It is a place of simple wonders where Piglet often retreats, seeking a steady hand to help inflate his colorful balloons before they drift above the treetops.",
+    "storyIds": [
+      "Stars_and_Stories_Piglet_s_Birthday_Surprise",
+      "Blast_Off_to_the_Hundred_Acre_Wood"
+    ],
+    "firstAppearanceStoryId": "Stars_and_Stories_Piglet_s_Birthday_Surprise"
+  },
+  {
+    "id": "ycsvd1TCLCLJbhilp0fV",
+    "name": "Mouseland",
+    "description": "The ancestral homeland of Mickey, Minnie, and the Princess, this storied kingdom serves as both the royal residence and the vital port where the group ventures to reclaim their boat.",
+    "storyIds": [
+      "The_Rocket_Boat_to_Mouseland",
+      "The_Great_Expedition_of_the_Sas-ma-ras-ma-fla-mas_Frog"
+    ],
+    "firstAppearanceStoryId": "The_Rocket_Boat_to_Mouseland"
+  },
+  {
+    "id": "ymNBW1P9AfswALZ1BALF",
+    "name": "Big kiddo bed",
+    "description": "The moles' final destination, featuring a warm and exceptionally soft blanket.",
+    "storyIds": [
+      "Ova_s_Birthday_and_the_Quiet_Mole_Exploration"
+    ],
+    "firstAppearanceStoryId": "Ova_s_Birthday_and_the_Quiet_Mole_Exploration"
+  },
+  {
+    "id": "yyXm5zWFqcKBo72PYLBe",
+    "name": "Kelp Forest",
+    "description": "A thick, slimy forest of tall grass-like kelp under the water.",
+    "storyIds": [
+      "Expedition_to_the_Deep-Deep_Dark"
+    ],
+    "firstAppearanceStoryId": "Expedition_to_the_Deep-Deep_Dark"
+  },
+  {
+    "id": "z0m4JjtwKJmuxcXCjV29",
+    "name": "Outside",
+    "description": "The natural area where Hoodie collects materials for his construction and play.",
+    "storyIds": [
+      "The_Tail_of_Two_Mice_Surprise_and_Hoodie"
+    ],
+    "firstAppearanceStoryId": "The_Tail_of_Two_Mice_Surprise_and_Hoodie"
+  },
+  {
+    "id": "z6XNF1aTOIk5A3tNyc9Z",
+    "name": "Mole Tunnel",
+    "description": "A warm, secure underground passage Disco plans to build, featuring 100 locks to keep out the snow.",
+    "storyIds": [
+      "The_Floof-Berry_Mission_and_the_Great_Snowstorm"
+    ],
+    "firstAppearanceStoryId": "The_Floof-Berry_Mission_and_the_Great_Snowstorm"
+  },
+  {
+    "id": "zG6Sy0YmqV6YAqOnwHLF",
+    "name": "Hattie's Workshop",
+    "description": "Tucked within the cozy hollow of a weathered tree, Hattie Mouse’s dwelling serves as a busy, imaginative atelier and social hub where the air hums with the rhythmic snip of scissors. Here, amidst a cheerful clutter of measuring tapes, wet pigments, and scavenged shells, she crafts her signature starry hats from an eclectic mix of fur and feathers. The workshop is bathed in the earthy radiance of her fungal store—a brilliant collection of red, orange, and yellow mushrooms—illuminating the haunting indigo witch painting where Hattie first encountered the squeaking worm. It is in this storied corner, beneath the witch's gaze, that she recently unearthed a mysterious message hidden alongside a cache of sparkly green clover stickers.",
+    "storyIds": [
+      "Hattie_and_the_Wizard_s_Clover_Show",
+      "Hattie_the_Mouse_and_the_Baby_Chipmunk_s_Snack",
+      "Hattie_the_Mouse_s_Hat_Workshop",
+      "Hattie_the_Mouse_and_the_Rainbow_Mushroom_Mystery",
+      "Hattie_and_the_Tower_of_Traffic_Cones",
+      "Hattie_the_Mouse_and_the_Starry_Hats",
+      "Hattie_s_Indigo_Mushroom_Adventure",
+      "Hattie_the_Artist_Mouse",
+      "Hattie_Mouse_and_the_Mouse_Street_Doctors",
+      "Pakruder_Worm_s_New_Sound",
+      "Hattie_the_Mouse_s_Custom_Hat_Shop",
+      "A_Shell_Hat_and_Jingle_Bells",
+      "Hattie_s_Giant_Robot_and_the_Rainbow_Gnome_Hat",
+      "The_Ice_Dragon_s_New_Hat"
+    ],
+    "firstAppearanceStoryId": "Hattie_and_the_Wizard_s_Clover_Show"
+  },
+  {
+    "id": "zHtUX6oZ9bxiZK6JUcD7",
+    "name": "Seeker's Home",
+    "description": "The cozy residence where Seeker and his mother share dinner and bedtime stories.",
+    "storyIds": [
+      "The_Bouncy_Adventures_in_Balloon_World"
+    ],
+    "firstAppearanceStoryId": "The_Bouncy_Adventures_in_Balloon_World"
+  },
+  {
+    "id": "zLLZqqKDfp1O77cMVhcM",
+    "name": "June-June's Tree",
+    "description": "A tall tree where the monkey hides during the photoshoot.",
+    "storyIds": [
+      "Peacock_s_Castle_and_the_Neighborhood_Photo_Project"
+    ],
+    "firstAppearanceStoryId": "Peacock_s_Castle_and_the_Neighborhood_Photo_Project"
+  },
+  {
+    "id": "zg50Z5vEvtjFHF8oSfUs",
+    "name": "Mooker Library",
+    "description": "A library on the planet of the Mookers where ancient giant Mooker fossils are researched and where Mama Kitten is found.",
+    "storyIds": [],
+    "firstAppearanceStoryId": null
+  },
+  {
+    "id": "zkyqA6DrDiv3eAhj13ca",
+    "name": "Plain of Ice",
+    "description": "A vast, frozen landscape where the moles live and explore.",
+    "storyIds": [
+      "The_Legend_of_the_Ice_Gem"
+    ],
+    "firstAppearanceStoryId": "The_Legend_of_the_Ice_Gem"
+  }
+]

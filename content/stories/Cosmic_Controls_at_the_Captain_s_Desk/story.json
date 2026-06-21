@@ -1,0 +1,470 @@
+{
+  "id": "Cosmic_Controls_at_the_Captain_s_Desk",
+  "title": "Cosmic Controls at the Captain's Desk",
+  "date": "2026-02-07T00:00:00.000Z",
+  "summary": "An interstellar expedition takes flight as a crew navigates the vast wonders of the cosmos, from the red sands of Mars to the swirling storms of Jupiter's Great Red Spot. From the command station at the Captain's Desk, the mission monitors critical temperature levels near Venus and charts a course through the rings of Saturn and across the continents of Earth. Between cosmic maneuvers, the crew manages life on board, preparing specialized snacks and refreshing drinks for their animal companions as they explore the reach of the solar system.",
+  "audioFilename": "Vibe coding space sounds with Izzy.m4a",
+  "highlightQuote": {
+    "text": "Mars! It should say we're going to Mars.",
+    "timestamp": 126
+  },
+  "transcript": [
+    {
+      "speaker": "Dad",
+      "timestamp": 0,
+      "text": "What is that sound?"
+    },
+    {
+      "text": "Predators, predators, predators, predators... space rocks, space rocks, space aliens, planets...",
+      "speaker": "Izzy",
+      "timestamp": 2
+    },
+    {
+      "text": "Daddy!",
+      "timestamp": 27,
+      "speaker": "Izzy"
+    },
+    {
+      "timestamp": 30,
+      "speaker": "Izzy",
+      "text": "Space games, space games, space games, space games, space games, space games, space games, space games, space games."
+    },
+    {
+      "speaker": "Dad",
+      "timestamp": 45,
+      "text": "I want to make it make more different sounds. Oh, and let's..."
+    },
+    {
+      "speaker": "Izzy",
+      "timestamp": 54,
+      "text": "Space games, space games, space games, space games, space games, space games, warning... oh, warning..."
+    },
+    {
+      "timestamp": 65,
+      "speaker": "Dad",
+      "text": "And then the arrow keys... oh, I like that sound. Those are up and down. What do left and right do? It's kind of quiet, huh? Oh, try holding it down. It's kind of quiet, huh? All right, let's make some changes here. Okay, I want every key on the keyboard to make a different sound, so no repeats, and the arrow key sounds should be louder. Anything else we should change, Izzy?"
+    },
+    {
+      "timestamp": 109,
+      "speaker": "Izzy",
+      "text": "Um, um, I want like, like some buttons to know where we're going. Like this button to know where we're going."
+    },
+    {
+      "timestamp": 120,
+      "speaker": "Dad",
+      "text": "Oh, the space key. Um, what should that say? Should it say something out loud?"
+    },
+    {
+      "text": "Mars! It should say we're going to Mars.",
+      "timestamp": 126,
+      "speaker": "Izzy"
+    },
+    {
+      "timestamp": 131,
+      "speaker": "Dad",
+      "text": "Okay, so yeah, use text-to-speech to say..."
+    },
+    {
+      "timestamp": 134,
+      "speaker": "Izzy",
+      "text": "It's coming. Mars. This is our planet surround."
+    },
+    {
+      "speaker": "Dad",
+      "timestamp": 139,
+      "text": "Okay, and it should say a few other things about where we're going in space for our spaceship."
+    },
+    {
+      "text": "Mars, Mars... other planets? What other planets should it talk about? Venus and Jupiter. Actually, no, no, no, it shouldn't say Mars or any of the planets. We've got this planet circle... Mars, Mars. Saturn, Saturn. Jupiter, Jupiter. Mukers, Mukers, Mukers, Mukers, Mukers, Mukers, Mukers, Mukers. Mukers. North America, Asia, Africa, North, South America, Europe, and Canada.",
+      "timestamp": 144,
+      "speaker": "Izzy"
+    },
+    {
+      "text": "How did it make all these colors? Did we paint this?",
+      "speaker": "Izzy",
+      "timestamp": 205
+    },
+    {
+      "text": "No, it just came like that. Okay, it's ready to test again. Give it a try. I think it's going to do this. That's called the space key.",
+      "speaker": "Dad",
+      "timestamp": 210
+    },
+    {
+      "text": "It's saying everything at once! Wow!",
+      "timestamp": 232,
+      "speaker": "Izzy"
+    },
+    {
+      "timestamp": 235,
+      "speaker": "Dad",
+      "text": "Wow. Wait, try pressing it just once and see what happens. The space key, I mean."
+    },
+    {
+      "speaker": "Dad",
+      "timestamp": 250,
+      "text": "Whoa, that's exciting. Well, try some other keys. Only the letters and numbers will work still."
+    },
+    {
+      "timestamp": 262,
+      "speaker": "Dad",
+      "text": "Whoa! That's an awesome one. What do you think that sound means?"
+    },
+    {
+      "text": "I want to hear all the different sounds!",
+      "timestamp": 278,
+      "speaker": "Izzy"
+    },
+    {
+      "text": "Too many things. Oh, it's because you were holding... I think you accidentally pressed the space key. That's what happened.",
+      "speaker": "Dad",
+      "timestamp": 305
+    },
+    {
+      "timestamp": 343,
+      "speaker": "Izzy",
+      "text": "Dad, the number keys are repeating. That's a problem."
+    },
+    {
+      "timestamp": 348,
+      "speaker": "Dad",
+      "text": "Okay, let's ask it to fix that. You tell it."
+    },
+    {
+      "text": "Fix the number keys, please!",
+      "speaker": "Izzy",
+      "timestamp": 351
+    },
+    {
+      "text": "What's wrong with them?",
+      "timestamp": 353,
+      "speaker": "Dad"
+    },
+    {
+      "text": "They're making the same sound.",
+      "speaker": "Izzy",
+      "timestamp": 355
+    },
+    {
+      "timestamp": 358,
+      "speaker": "Dad",
+      "text": "And what do you want them to do?"
+    },
+    {
+      "text": "I want them to make different sounds.",
+      "timestamp": 359,
+      "speaker": "Izzy"
+    },
+    {
+      "text": "Okay, we'll see if that works. We gotta give it a minute.",
+      "timestamp": 361,
+      "speaker": "Dad"
+    },
+    {
+      "text": "Dad, would you get that jar over there? Oops, oh boy. Would you get the jar over there? Dad, would you get the jar over there?",
+      "speaker": "Izzy",
+      "timestamp": 382
+    },
+    {
+      "speaker": "Dad",
+      "timestamp": 393,
+      "text": "This one? This one?"
+    },
+    {
+      "text": "Yeah, that jar. Thank you. Thank you for that jar.",
+      "timestamp": 394,
+      "speaker": "Izzy"
+    },
+    {
+      "text": "Dad, it just made...",
+      "speaker": "Izzy",
+      "timestamp": 411
+    },
+    {
+      "timestamp": 413,
+      "speaker": "Dad",
+      "text": "Oh, the little person fell down. Here they are."
+    },
+    {
+      "text": "Daddy?",
+      "timestamp": 416,
+      "speaker": "Izzy"
+    },
+    {
+      "text": "Yeah?",
+      "timestamp": 418,
+      "speaker": "Dad"
+    },
+    {
+      "speaker": "Izzy",
+      "timestamp": 419,
+      "text": "I'm just so... I'm just..."
+    },
+    {
+      "text": "You okay?",
+      "speaker": "Dad",
+      "timestamp": 423
+    },
+    {
+      "timestamp": 425,
+      "speaker": "Izzy",
+      "text": "Itchy."
+    },
+    {
+      "text": "Oh. Okay, let's test the number keys and see if they're different.",
+      "speaker": "Dad",
+      "timestamp": 427
+    },
+    {
+      "timestamp": 439,
+      "speaker": "Izzy",
+      "text": "They are different!"
+    },
+    {
+      "text": "Cool, it worked. I love those little sounds. They're so nice. Can I try?",
+      "timestamp": 442,
+      "speaker": "Dad"
+    },
+    {
+      "timestamp": 455,
+      "speaker": "Izzy",
+      "text": "Yes."
+    },
+    {
+      "speaker": "Dad",
+      "timestamp": 479,
+      "text": "Do you have to use the potty?"
+    },
+    {
+      "text": "No, itchy.",
+      "timestamp": 482,
+      "speaker": "Izzy"
+    },
+    {
+      "speaker": "Dad",
+      "timestamp": 484,
+      "text": "Oh, you're just itchy. Okay. Oh, thanks for putting the little person away."
+    },
+    {
+      "text": "Why isn't it saying a sound?",
+      "timestamp": 494,
+      "speaker": "Izzy"
+    },
+    {
+      "timestamp": 496,
+      "speaker": "Dad",
+      "text": "It just takes a few seconds before it plays the sounds."
+    },
+    {
+      "speaker": "Dad",
+      "timestamp": 506,
+      "text": "Whoa. Works best if you only press it once at a time."
+    },
+    {
+      "text": "Uh oh, it stopped working. Okay, that's okay. So it's not going to speak anymore. Here, I have an idea for how to fix that part, but um, you have to stop pressing keys while I do that, please. Let's switch to using the native on-device text-to-speech using the web API for that instead of the Gemini API.",
+      "speaker": "Dad",
+      "timestamp": 535
+    },
+    {
+      "timestamp": 590,
+      "speaker": "Izzy",
+      "text": "Don't you move that key away from me!"
+    },
+    {
+      "speaker": "Dad",
+      "timestamp": 629,
+      "text": "It talks funny, huh?"
+    },
+    {
+      "speaker": "Izzy",
+      "timestamp": 631,
+      "text": "T. Voyage initiated. Next destination: the rings of Saturn."
+    },
+    {
+      "timestamp": 639,
+      "speaker": "Dad",
+      "text": "Oh no, why did it do that? It's got an accent like someone from another country."
+    },
+    {
+      "text": "Dad, want to help me here at the captain's desk?",
+      "speaker": "Izzy",
+      "timestamp": 676
+    },
+    {
+      "text": "Yeah, what do you want help with?",
+      "speaker": "Dad",
+      "timestamp": 681
+    },
+    {
+      "speaker": "Izzy",
+      "timestamp": 683,
+      "text": "You can play games for me."
+    },
+    {
+      "timestamp": 688,
+      "speaker": "Dad",
+      "text": "Oh, like what?"
+    },
+    {
+      "timestamp": 690,
+      "speaker": "Izzy",
+      "text": "Like things, like all the things that are on the captain's desk that are games. But not the planet circle."
+    },
+    {
+      "timestamp": 701,
+      "speaker": "Dad",
+      "text": "No?"
+    },
+    {
+      "timestamp": 702,
+      "speaker": "Izzy",
+      "text": "This is the planet circle. No, I'm supposed to press the keys."
+    },
+    {
+      "speaker": "Dad",
+      "timestamp": 707,
+      "text": "Oh, you press the keys, okay."
+    },
+    {
+      "speaker": "Izzy",
+      "timestamp": 709,
+      "text": "But I can do the planet circle?"
+    },
+    {
+      "text": "No, you can't do the planet circle.",
+      "speaker": "Izzy",
+      "timestamp": 711
+    },
+    {
+      "timestamp": 714,
+      "speaker": "Dad",
+      "text": "Oh, what can I do?"
+    },
+    {
+      "speaker": "Izzy",
+      "timestamp": 716,
+      "text": "You can do the games."
+    },
+    {
+      "speaker": "Dad",
+      "timestamp": 719,
+      "text": "Can I roll a die?"
+    },
+    {
+      "text": "You can roll a die.",
+      "speaker": "Izzy",
+      "timestamp": 721
+    },
+    {
+      "timestamp": 722,
+      "speaker": "Dad",
+      "text": "Okay, let's see. Oh, what number did I get?"
+    },
+    {
+      "text": "It's just the number of which planet.",
+      "speaker": "Izzy",
+      "timestamp": 724
+    },
+    {
+      "text": "Oh, that's a number seven. Can you press the seven for us, please? The seven key.",
+      "speaker": "Dad",
+      "timestamp": 728
+    },
+    {
+      "text": "There. Dad's making a drink for animal. Dad's making a drink for fox.",
+      "timestamp": 735,
+      "speaker": "Izzy"
+    },
+    {
+      "text": "Oh, okay.",
+      "timestamp": 746,
+      "speaker": "Dad"
+    },
+    {
+      "speaker": "Izzy",
+      "timestamp": 751,
+      "text": "Gonna prepare up fox's drink... yummy, yummy drink. Some munchy crunchy, bean a bunchy, munchy, bean a bunchy, munchy."
+    }
+  ],
+  "characters": [
+    {
+      "id": "RUJX59dp7PsDiXSijCCK",
+      "name": "Animal",
+      "description": "A vibrant creature of rhythm dwelling within the ship’s hull, this Muppet drummer is defined by a wild shock of bright red hair and the swirling folds of his favored blue cloaks. As he keeps time for the voyage, the crew treats him as a cherished fixture, regularly presenting him with a special, potent elixir crafted specifically to sate his eccentric palate."
+    },
+    {
+      "id": "SVcUTaAgt6vdQ9zf6otw",
+      "name": "Fox",
+      "description": "Behind a ceremonial mask and a playful sticker, this solitary navigator charts both the stars and the thicket, serving as a forest inhabitant who provides directions in exchange for a breakfast of flowers and juice. A steadfast ritualist and fire-extinguisher, they toll the iconic bell for the nibbler while finding more solace in space tacos than the decadent elixirs brewed in their honor. Whether navigating the heavy void or the woodland path, they remain a wise neighbor of cosmic perspective, pointedly advising seekers that the path to clarity begins with a simple bath. Bound to the chime that draws the visitor, they are a figure of quiet contrast—a guide who understands that the weight of destiny is best balanced by the essential purities of the everyday."
+    },
+    {
+      "id": "Dr8slqEmxjIfzSZgUV3k",
+      "name": "Little Person",
+      "description": "A small figure on the command deck who occasionally falls down."
+    }
+  ],
+  "places": [
+    {
+      "id": "5qnsBCNfKB43rXBo72IE",
+      "name": "Mars",
+      "description": "Serving as the home of Julian and the primary destination for the Floofers’ quest for the mookball, this primordial red world hosts the Red Bolt landing site. Defined by the rhythmic thunder of giant volcanoes and the jagged edges of ancient impact craters, the ash-shrouded landscape rests under a hazy pink sky in a haunting silence—a world devoid of other human life where only the fire and dust endure."
+    },
+    {
+      "id": "46BCsu1EyPbx9ASzaia6",
+      "name": "Venus",
+      "description": "A distant, parched world where ship sensors track a critical and relentless rise in temperature across the empty expanse; here, amidst the lifeless, searing dust, the crew follows a haunting trail of footprints."
+    },
+    {
+      "id": "wGOHdlXCBKtgbhNuvrH4",
+      "name": "Jupiter",
+      "description": "A massive, swirling sphere of deep purple gas looms in the void, dominated by the cyclonic fury of a Great Red Spot. Its churning amethyst atmosphere hides a crushing gravitational pull that asserts total dominance over the surrounding reaches of space."
+    },
+    {
+      "id": "VTN2teEut1Cwt7DdBH9f",
+      "name": "Saturn",
+      "description": "A cosmic destination known for its iconic rings."
+    },
+    {
+      "id": "UWgpwbcXehOaW2DOPsN0",
+      "name": "Captain's Desk",
+      "description": "The central command station where navigation and games are managed."
+    },
+    {
+      "id": "77eczkqObq6AQeMtEM6C",
+      "name": "Planet Circle",
+      "description": "A restricted area or navigation tool within the command center."
+    },
+    {
+      "id": "pgoGnbA36gTbn00Dnxrq",
+      "name": "North America",
+      "description": "One of the earthly continents monitored during the planetary surround."
+    },
+    {
+      "id": "POylmRvS65Ku4y3j8lJd",
+      "name": "Asia",
+      "description": "A continent included in the ship's global tracking data."
+    },
+    {
+      "id": "rkJdTkC4KIfBM1z8VDnJ",
+      "name": "Africa",
+      "description": "A terrestrial coordinate identified by the ship’s computer, revealed as the distant, freshwater cradle of the iridescent cichlids shimmering within the aquarium’s first tank."
+    },
+    {
+      "id": "2CJWhfepw8nxJREMXIbY",
+      "name": "South America",
+      "description": "A destination on Earth listed during the voyage's planning."
+    },
+    {
+      "id": "dEnEbcoSX0ZQx35aAoUw",
+      "name": "Europe",
+      "description": "A continent monitored from the spaceship's command deck."
+    },
+    {
+      "id": "6n6ZC3nvXdGshVs4cbwU",
+      "name": "Canada",
+      "description": "A specific northern terrestrial location mentioned during the flight."
+    }
+  ],
+  "wordCount": 849,
+  "izzyWordCount": 377,
+  "dadWordCount": 472
+}

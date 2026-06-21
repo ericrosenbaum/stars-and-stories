@@ -1,0 +1,85 @@
+{
+  "id": "The_Puking_Cats_Anthem",
+  "title": "The Puking Cats Anthem",
+  "date": "2025-09-12T00:00:00.000Z",
+  "summary": "Cats are wreaking havoc by puking in every corner of the home, specifically choosing to target the bed while inexplicably avoiding their litter boxes. One particularly finicky feline spends an entire day vomiting throughout the house, leading to confusion and a call for others to join in the feline-themed song.",
+  "audioFilename": "Cat puke song 2.m4a",
+  "highlightQuote": {
+    "text": "I'm confused because they don't puke in their litter box.",
+    "timestamp": 10
+  },
+  "transcript": [
+    {
+      "speaker": "Dad",
+      "text": "How does the song go?",
+      "timestamp": 0
+    },
+    {
+      "speaker": "Izzy",
+      "text": "It goes cats are puking everywhere.",
+      "timestamp": 1
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Cats are puking in the bed.",
+      "timestamp": 7
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I'm confused because they don't puke in their litter box.",
+      "timestamp": 10
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I don't know which little cats don't puke in their litter box.",
+      "timestamp": 15
+    },
+    {
+      "speaker": "Izzy",
+      "text": "All the finicky pukes for a long time he puked, he puked all day in the house.",
+      "timestamp": 22
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Now you try it cat.",
+      "timestamp": 30
+    },
+    {
+      "speaker": "Dad",
+      "text": "Meow.",
+      "timestamp": 32
+    }
+  ],
+  "characters": [
+    {
+      "id": "jsIMKlYWil1gbLWfrdPV",
+      "name": "Cats",
+      "description": "Felines that are unexpectedly puking in various locations."
+    },
+    {
+      "id": "6YJzj3mzyGbkdz9M5jAn",
+      "name": "Finicky",
+      "description": "A specific cat who spent an entire day puking throughout the house."
+    }
+  ],
+  "places": [
+    {
+      "id": "cr27yy1iYXlqj1CFtJEs",
+      "name": "Bed",
+      "description": "A cozy furniture item where the cats have unfortunately decided to puke."
+    },
+    {
+      "id": "Lx7idHTF32ll1JgZVjv4",
+      "name": "Litter box",
+      "description": "The one place the cats curiously refuse to puke in."
+    },
+    {
+      "id": "B1jm77PisliQuGcqWtkl",
+      "name": "House",
+      "description": "A home thick with the sour scent of bile and the rhythmic, wet retching of a cat sickened since dawn, this is the unlikely threshold where Izzy first received the brilliant, transformative glow of her special new light."
+    }
+  ],
+  "wordCount": 62,
+  "izzyWordCount": 56,
+  "dadWordCount": 6
+}

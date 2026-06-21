@@ -1,0 +1,190 @@
+{
+  "id": "Hattie_Mouse_and_the_Mouse_Street_Doctors",
+  "title": "Hattie Mouse and the Mouse Street Doctors",
+  "date": "2025-04-09T00:00:00.000Z",
+  "summary": "Hattie the mouse is busy crafting a hat in her workshop when she accidentally injures her paw with scissors. Needing medical attention, she travels down Cornell Street and Mouse Street to visit Dr. Lily Mousey. Assisted by Nurse JJ Mouse and Tia Mouse at the front desk, the doctor cleans and bandages Hattie's wound. Reassured that she will be okay, Hattie returns home to finish building a funnel for her magnificent marble run. After a satisfying dinner of rice, she sings herself a lullaby and drifts off to sleep, ending her long and productive day.",
+  "audioFilename": "Cornell St 37.m4a",
+  "highlightQuote": {
+    "text": "Rice is nice like mice.",
+    "timestamp": 640
+  },
+  "transcript": [
+    {
+      "speaker": "Dad",
+      "text": "Oh, well it's the springtime and so it stays light out a little bit later.",
+      "timestamp": 10
+    },
+    {
+      "speaker": "Izzy",
+      "text": "That's no stars, Dad. No stories, no stars for story.",
+      "timestamp": 43
+    },
+    {
+      "speaker": "Dad",
+      "text": "Let's tell a Stars and Stories story together.",
+      "timestamp": 63
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Always about Hattie.",
+      "timestamp": 67
+    },
+    {
+      "speaker": "Dad",
+      "text": "Always about Hattie.",
+      "timestamp": 73
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I want Hattie goes to the doctor's.",
+      "timestamp": 83
+    },
+    {
+      "speaker": "Dad",
+      "text": "Hattie goes to the doctor. And why's she going to go to the doctor?",
+      "timestamp": 87
+    },
+    {
+      "speaker": "Izzy",
+      "text": "'Cause she has a owwie.",
+      "timestamp": 91
+    },
+    {
+      "speaker": "Dad",
+      "text": "Once upon a time, Hattie the mouse was working on her workshop making a hat and she was using her scissors very carefully but still she accidentally poked her paw.",
+      "timestamp": 93
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And Hattie no shots at the doctor's.",
+      "timestamp": 132
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Hattie thought to herself there's no shots at the doctor's office. They'll just take care of me in other ways.",
+      "timestamp": 136
+    },
+    {
+      "speaker": "Izzy",
+      "text": "She can go on Cornell Street. No she can go on Mouse Street if she wants to.",
+      "timestamp": 142
+    },
+    {
+      "speaker": "Izzy",
+      "text": "She was Lily Mousey.",
+      "timestamp": 184
+    },
+    {
+      "speaker": "Dad",
+      "text": "The doctor happened to also be Lily Mousey.",
+      "timestamp": 187
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And the nurse is JJ Mouse.",
+      "timestamp": 191
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And the lady mouse is, is, is Tia Mouse.",
+      "timestamp": 202
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Doctor, what happened to your paw?",
+      "timestamp": 221
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I was cutting but then I, I accidentally cut my paw.",
+      "timestamp": 231
+    },
+    {
+      "speaker": "Izzy",
+      "text": "This toe and this toe is cut too.",
+      "timestamp": 315
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Maybe sometime Nia would cut my toes.",
+      "timestamp": 332
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Um, she went back home. She, she kept working with the scissors.",
+      "timestamp": 357
+    },
+    {
+      "speaker": "Izzy",
+      "text": "She was making a funnel.",
+      "timestamp": 372
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Some rice.",
+      "timestamp": 635
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Rice is nice like mice.",
+      "timestamp": 640
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Rice, I sang to her. My little Hattie... Round up Hattie... You are Hattie... You and story. Goodnight Hattie.",
+      "timestamp": 654
+    },
+    {
+      "speaker": "Izzy",
+      "text": "One more story?",
+      "timestamp": 705
+    }
+  ],
+  "characters": [
+    {
+      "id": "TshuLJMOWWEnDDVz4OHL",
+      "name": "Hattie",
+      "description": "A clever mouse milliner and engineer of whimsy, she is a resourceful spirit who crafts exquisite hats and soulful portraits within her hollow tree stump workshop. Though a formidable presence famously counted among the thirty legendary cats, she is currently confined to her bed by illness, her usual treks through saturated woodlands for rare tape and lollipops temporarily halted. Even in her malaise, her sharp mind lingers on a recent, stinging disagreement with Dimitar over a fish, a rare shadow cast upon a heart otherwise known for its boundless generosity and creative light."
+    },
+    {
+      "id": "eBGkFR5YUPna5jb4eAUm",
+      "name": "Lily Mousey",
+      "description": "A kind mouse doctor who helps heal injuries in the mouse community."
+    },
+    {
+      "id": "SRbmZQWASAxeomXZ1Y5A",
+      "name": "JJ Mouse",
+      "description": "A helpful mouse nurse who assists Dr. Lily at the local clinic."
+    },
+    {
+      "id": "gHqa2e1l22eNCVypKzdS",
+      "name": "Tia Mouse",
+      "description": "A friendly mouse who manages the front desk at the doctor's office on Mouse Street."
+    }
+  ],
+  "places": [
+    {
+      "id": "zG6Sy0YmqV6YAqOnwHLF",
+      "name": "Hattie's Workshop",
+      "description": "Tucked within the cozy hollow of a weathered tree, Hattie Mouse’s dwelling serves as a busy, imaginative atelier and social hub where the air hums with the rhythmic snip of scissors. Here, amidst a cheerful clutter of measuring tapes, wet pigments, and scavenged shells, she crafts her signature starry hats from an eclectic mix of fur and feathers. The workshop is bathed in the earthy radiance of her fungal store—a brilliant collection of red, orange, and yellow mushrooms—illuminating the haunting indigo witch painting where Hattie first encountered the squeaking worm. It is in this storied corner, beneath the witch's gaze, that she recently unearthed a mysterious message hidden alongside a cache of sparkly green clover stickers."
+    },
+    {
+      "id": "S6X3xxIicz7aZHAt75OV",
+      "name": "Cornell Street",
+      "description": "Bisected by a stark yellow line, this celestial artery cuts through a dense forest to chart a path toward the Mookers' planet. A cosmic thoroughfare where the infinite is stitched into the earthly, it anchors local commerce—typified by a towering tree of honey—alongside the residence of Uncle X, the house of the surreal bedroom feast, and Hattie’s home. It remains the vital threshold where the mundane pulse of the woods meets the stars, marking the point where Hattie begins her journey to find medical help."
+    },
+    {
+      "id": "NFBrEDFOWPsNYbvtP46P",
+      "name": "Mouse Street",
+      "description": "A long, storied thoroughfare guiding explorers into the heart of Mouseland, this bustling street serves as both the cherished home of Hattie the Mouse and the vital hub for the community’s doctor’s office."
+    },
+    {
+      "id": "uHODwtQ4flce8igUiyQg",
+      "name": "The Forest",
+      "description": "Cloaking the surface of the green planet in a vast mantle of dense greenery, this whispering woodland serves as the lush setting of the 'Forest Friends' chronicle. It is a realm where creatures play eternal hide-and-seek between Hattie’s cozy clinic and the ancestral cradle of Finn’s companions. Along magical trails where Hattie and the Pakruder Worm harvest hat-making ingredients, winding paths veil secret gopher tunnels and hidden mole cottages, forming the essential route toward the wizard's castle. While its sun-drenched threshold remains a sanctuary for the Rainbow Giraffe and Mama Bird, the deeper, darker thickets harbor a somber mystery; it was within these sprawling, uncharted depths—the same eerie expanse where the sick creature was first spotted and Mossy was discovered—that Mole recently vanished into the shadows."
+    }
+  ],
+  "wordCount": 245,
+  "izzyWordCount": 146,
+  "dadWordCount": 99
+}

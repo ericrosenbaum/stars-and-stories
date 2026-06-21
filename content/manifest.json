@@ -1,0 +1,932 @@
+{
+  "A_Hat_for_Mistress_Mouse": {
+    "audioHash": "846b15cc42b6604621208c08b1713f5c3645a5c8c174704dac6ae70552e95825",
+    "sourceFilename": "Stars and stories - A Hat for Mistress Mouse.m4a",
+    "date": "2025-03-25T00:00:00.000Z"
+  },
+  "A_Midnight_Snack_for_a_Sleepy_Kitten": {
+    "audioHash": "caa2c6b53ed351d009ef9b9d79da83c2b7b32a127b0e4047c1dc59985c1ce62f",
+    "sourceFilename": "Cornell St 80.m4a",
+    "date": "2025-10-26T00:00:00.000Z"
+  },
+  "A_Shell_Hat_and_Jingle_Bells": {
+    "audioHash": "8994f4c6287c169a4dcb9ad4713cd821643a9ee08e4cce86e6faedf0cea4a0a4",
+    "sourceFilename": "Fletcher Rd 10.m4a",
+    "date": "2025-08-07T00:00:00.000Z"
+  },
+  "A_Sticky_Adventure_to_the_Castle_of_Slime": {
+    "audioHash": "0cc4c01c61cbf4396f6a1f311959c74c7f1bdbb695e7e96395f257c2c63ea7c8",
+    "sourceFilename": "Cornell St 108.m4a",
+    "date": "2026-03-11T00:00:00.000Z"
+  },
+  "A_Valentine_for_Gravity_Goldfish": {
+    "audioHash": "1206aed1ecd2a7117b8ad04bdfea5091475f751c0cf0f246f391edec4a6bb97d",
+    "sourceFilename": "A Gift for Gravity Goldfish.m4a",
+    "date": "2026-02-11T00:00:00.000Z"
+  },
+  "Auntie_Mulberry_s_Magical_Mole_Pie": {
+    "audioHash": "120ae4134f917537e30ab6c451a279a5b8c56eb249bfd979e7be27ad91f49e9e",
+    "sourceFilename": "Cornell St 70.m4a",
+    "date": "2025-09-30T00:00:00.000Z"
+  },
+  "Blast_Off_to_the_Hundred_Acre_Wood": {
+    "audioHash": "b3292fe19be083d96128af7bdffc6f46617e75b1995c1d191f84b81525e5fbc0",
+    "sourceFilename": "Space Mission in the office.m4a",
+    "date": "2025-08-14T00:00:00.000Z"
+  },
+  "Captain_Izzy_s_Galactic_School_Bus_Mission": {
+    "audioHash": "fff80e300aea48e4799842941ab267e61ebb9a3a41432b186769e89b2a6510c0",
+    "sourceFilename": "Cornell St 60.m4a",
+    "date": "2025-09-04T00:00:00.000Z"
+  },
+  "Captain_Izzy_s_Martian_Mission": {
+    "audioHash": "5f4d0012d72fde73e4419158708271ed9343cbc479d180526da51a539a09f2fb",
+    "sourceFilename": "Cornell St 57.m4a",
+    "date": "2025-09-01T00:00:00.000Z"
+  },
+  "Captain_Izzy_s_Space_Boat_Launch": {
+    "audioHash": "3d7f4301fe6aafd492f013beaa525ae1481804f24d0a89c64c6ff5266732181f",
+    "sourceFilename": "Cornell St 56.m4a",
+    "date": "2025-09-01T00:00:00.000Z"
+  },
+  "Cosmic_Controls_at_the_Captain_s_Desk": {
+    "audioHash": "b64dd9cf78b462c0e9d0344fcfac645f82db9675f32f64c6f224a899b955f382",
+    "sourceFilename": "Vibe coding space sounds with Izzy.m4a",
+    "date": "2026-02-07T00:00:00.000Z"
+  },
+  "Daisy_s_Tiny_Dog_Birthday_Adventure": {
+    "audioHash": "ca901bdbd40f784796705c3f5e2dc757250f09af89d67b2d7fa8400588dd0ca2",
+    "sourceFilename": "* Stars and stories - Daisy Dog’s Birthday.m4a",
+    "date": "2025-03-18T00:00:00.000Z"
+  },
+  "Dimatar_s_Big_Day_at_Ginger_Catasorry": {
+    "audioHash": "a03bbfe659d944caf86d0c67a70ec93d1b84b13294b0dc807373746e39efb952",
+    "sourceFilename": "Cornell St 105.m4a",
+    "date": "2026-02-26T00:00:00.000Z"
+  },
+  "Dimitar_and_the_Blueberry_Dragon_Pop": {
+    "audioHash": "2f93af7e7a62b3a340fb938d038378f2f27bb894d5568001c5e80c05311b3d1c",
+    "sourceFilename": "Cornell St 76.m4a",
+    "date": "2025-10-21T00:00:00.000Z"
+  },
+  "Dimitar_and_the_Castle_of_Ice_Fangsicle": {
+    "audioHash": "ec2ce79061d9321371e551ccffa821e7854b191d5e982bd4e5331d469e52140c",
+    "sourceFilename": "Dimitar goes to Ginger school, and a white dragon story.m4a",
+    "date": "2026-01-21T00:00:00.000Z"
+  },
+  "Dimitar_s_Flight_to_Cadasori": {
+    "audioHash": "b193ee4596ae61db63abc74babb13e89c3c171b5fd32e459f24942035b14e0e5",
+    "sourceFilename": "Cornell St 106.m4a",
+    "date": "2026-03-01T00:00:00.000Z"
+  },
+  "Dimitar_the_Dragon_and_the_Sleepy_Moles": {
+    "audioHash": "86b1eaa0bdb24d9f1140b4b4b7fa5d2230a4d3cbc466b93946a8a827beae8df1",
+    "sourceFilename": "Cornell St 77.m4a",
+    "date": "2025-10-21T00:00:00.000Z"
+  },
+  "Disco_and_Thisco_The_Great_Bookcase_Mischief": {
+    "audioHash": "d940a01616f015e2e0cc28c769f79af69f059936907374d69f315d2857342637",
+    "sourceFilename": "Cornell St 67.m4a",
+    "date": "2025-09-23T00:00:00.000Z"
+  },
+  "Disco_and_Thisco_s_Deep-Sea_Submarine_Adventure": {
+    "audioHash": "15f2158078f20645f5d2ae90eab7bb1d378d8ff816f0da67b2315305cffd313e",
+    "sourceFilename": "Stars & Stories: Mole Submarine.m4a",
+    "date": "2025-09-21T00:00:00.000Z"
+  },
+  "Doctor_Izzy_s_Busy_Hospital_Day": {
+    "audioHash": "24efaf381fc272a097f49e0b651dad9e22b1d6dad4ca6f555c81e2bfe3bffecf",
+    "sourceFilename": "Dr Izzy’s hospital rounds.m4a",
+    "date": "2026-02-22T00:00:00.000Z"
+  },
+  "Dr_Izzy_and_the_Forest_Rescue": {
+    "audioHash": "3445c8b10d6c57328bd04890b65402c9bf25da27f3ab6637444f055bc34a31df",
+    "sourceFilename": "Cornell St 121.m4a",
+    "date": "2026-04-29T00:08:38.000Z"
+  },
+  "Dr_Izzy_s_Musical_Cure": {
+    "audioHash": "901c89d9f924567422311c0c0b1e2d3624c965c7d560da320ed2978c6ec8c8dd",
+    "sourceFilename": "Cornell St 102.m4a",
+    "date": "2026-02-22T00:00:00.000Z"
+  },
+  "Expedition_to_the_Deep-Deep_Dark": {
+    "audioHash": "8afcb60aafe7485465741c67472125498c4dc66e9875f5769d8f694ce9d1e2e3",
+    "sourceFilename": "* Stars and stories - pout pout sesame adventure.m4a",
+    "date": "2025-03-03T00:00:00.000Z"
+  },
+  "Finn_the_Cat_s_Arctic_Rainbow_Quest": {
+    "audioHash": "be4348cdaff073ae689f299a55ba6e58c95e25d215602a90f713647fd6885fb4",
+    "sourceFilename": "Fletcher Rd 7.m4a",
+    "date": "2025-08-04T00:00:00.000Z"
+  },
+  "Frasgle_and_the_Sticky_Situation": {
+    "audioHash": "101cee05b0eb28a70cbf280c7344dfcf5d2d582f9dded253a8c9bfa0d8f3f009",
+    "sourceFilename": "Fletcher Rd 4.m4a",
+    "date": "2025-07-31T00:00:00.000Z"
+  },
+  "Gonk-a-Bona_and_the_Soup-Seeking_Mole": {
+    "audioHash": "e6b11429a3b142eeb00dc8a3ff911e662c0aad56987e3a571ed3999ecb2d4723",
+    "sourceFilename": "Cornell St 65.m4a",
+    "date": "2025-09-06T00:00:00.000Z"
+  },
+  "Haddy_the_Mouse_and_the_Lego_Airplane": {
+    "audioHash": "b9277789a1f8199e8ea1b85db60353c4152baa39bf794143f62bf7580e92d2fc",
+    "sourceFilename": "Cornell St 39.m4a",
+    "date": "2025-04-13T00:00:00.000Z"
+  },
+  "Haddy_the_Mouse_and_the_Quest_for_the_Talking_Hat": {
+    "audioHash": "bdc463459d68e22472d1635f3ea195736415dc0dae3d2c39426e2db58058e4f4",
+    "sourceFilename": "Cornell St 75.m4a",
+    "date": "2025-10-19T00:00:00.000Z"
+  },
+  "Haddy_the_Mouse_and_the_Sparkly_Bissolam": {
+    "audioHash": "8b2889489805e983e6c6ef998ef3309d99d6db7c5a591d34297a4b24928f3190",
+    "sourceFilename": "Cornell St 27.m4a",
+    "date": "2025-03-15T00:00:00.000Z"
+  },
+  "Hattie_Mouse_and_the_Big_Sister_Surprise": {
+    "audioHash": "3061449f31c70ddc2e0a4b7d750d9ba64625604eee47e91954b67504389cd602",
+    "sourceFilename": "Cornell St 43.m4a",
+    "date": "2025-04-16T00:00:00.000Z"
+  },
+  "Hattie_Mouse_and_the_Mouse_Street_Doctors": {
+    "audioHash": "e7f753f835f772404e1ab7742219f9ce4f6b16775ff295dd1249609b6eeaf3f7",
+    "sourceFilename": "Cornell St 37.m4a",
+    "date": "2025-04-09T00:00:00.000Z"
+  },
+  "Hattie_and_the_Celestial_Shooting_Star": {
+    "audioHash": "dd745109bbcb203d0e0c47565181efea7b2ac341ff5458493896523a4f106bfa",
+    "sourceFilename": "Cornell St 54.m4a",
+    "date": "2025-08-25T00:00:00.000Z"
+  },
+  "Hattie_and_the_Lego_Aquarium_Adventure": {
+    "audioHash": "40a558ff485076f9ba7722ec87fa11e07655fdc681b4f825d209cca18d733496",
+    "sourceFilename": "Stars and stories - Hattie’s Aquarium.m4a",
+    "date": "2025-04-12T00:00:00.000Z"
+  },
+  "Hattie_and_the_Mystery_of_the_Muddy_Mountain": {
+    "audioHash": "554971aa75560d8ef295c6af9c54fb09860035f173a6c44cebf2e341327d46c8",
+    "sourceFilename": "Cornell St 51.m4a",
+    "date": "2025-07-12T00:00:00.000Z"
+  },
+  "Hattie_and_the_Tower_of_Traffic_Cones": {
+    "audioHash": "527f1b7b8699a2d86f88acfa0c7986ec798691d32a210aab2ca0d2ea4e8269da",
+    "sourceFilename": "Stars and stories - Hattie and the Cones.m4a",
+    "date": "2025-03-30T00:00:00.000Z"
+  },
+  "Hattie_and_the_Wizard_s_Clover_Show": {
+    "audioHash": "b18054a2b84dd93734f3289f52281b2fdd8e196ad45b85cf94ba73ef091c1f6e",
+    "sourceFilename": "Cornell St 28.m4a",
+    "date": "2025-03-16T00:00:00.000Z"
+  },
+  "Hattie_s_Block-Built_Nature_Walk_Adventure": {
+    "audioHash": "105c5c4837bfc71edfeb9984cc1ff2b8c7278521385c20758f24454f25606bad",
+    "sourceFilename": "Cornell St 41.m4a",
+    "date": "2025-04-17T00:00:00.000Z"
+  },
+  "Hattie_s_Flight_to_the_Songo_Feast": {
+    "audioHash": "d3e301b1cffc89ce1c8b97541ff796159ce284e40b10ccd26551134128e3a422",
+    "sourceFilename": "Cornell St 73.m4a",
+    "date": "2025-10-19T00:00:00.000Z"
+  },
+  "Hattie_s_Giant_Robot_and_the_Rainbow_Gnome_Hat": {
+    "audioHash": "59fabe5bcf772a6761818b02850fff1ba7e31a422ff0c813a63e90926d8585e3",
+    "sourceFilename": "Cornell St 53.m4a",
+    "date": "2025-08-11T00:00:00.000Z"
+  },
+  "Hattie_s_Grand_Playhouse_Construction": {
+    "audioHash": "88cc24588b1b58d24669dca1f2f481208867559d6cc0c9627e6289852426a861",
+    "sourceFilename": "Cornell St 50.m4a",
+    "date": "2025-07-05T00:00:00.000Z"
+  },
+  "Hattie_s_Indigo_Mushroom_Adventure": {
+    "audioHash": "d453c700d9a413a7d06a599c43952a844d218848654a7631f8aa059403ac44cd",
+    "sourceFilename": "Cornell St 32.m4a",
+    "date": "2025-04-03T00:00:00.000Z"
+  },
+  "Hattie_s_Magic_Mouse_Summoning": {
+    "audioHash": "ae1b88c5cefbd8716269e940d47e3e43ecf633625c0b763fe94a7bf582aa7410",
+    "sourceFilename": "Cornell St 52.m4a",
+    "date": "2025-07-19T00:00:00.000Z"
+  },
+  "Hattie_s_Magical_Rainbow_Tape_Quest": {
+    "audioHash": "a603e11421966f578694f380062eea2ef6fc0a70bcd3c26c7d2ae9605f04933c",
+    "sourceFilename": "Stars and Stories - Hattie & the Magical Rainbow Tape.m4a",
+    "date": "2025-04-08T00:00:00.000Z"
+  },
+  "Hattie_s_Masterpiece_The_Elephant_Who_Could_Chirp": {
+    "audioHash": "d6943d3e7b4355f97449698530dc8d0a2eb65cbce92fcfe3625a4f994906f067",
+    "sourceFilename": "Stars and Stories - Hattie’s Book.m4a",
+    "date": "2025-04-01T00:00:00.000Z"
+  },
+  "Hattie_s_Rain_Boots_and_the_Honey_Bee_s_Hat": {
+    "audioHash": "b884574c28a26ef2b0665bbd373f8c8f942bb3bd8e38ccb5f0caedc2a9fddf34",
+    "sourceFilename": "Stars and stories - Hattie’s Honey.m4a",
+    "date": "2025-03-31T00:00:00.000Z"
+  },
+  "Hattie_s_Rainy_Day_Birthday_Adventure": {
+    "audioHash": "39e449f8a6513b1fab3da0f6a47490ab87dd54a410925a91ab6151410ee8a048",
+    "sourceFilename": "Cornell St 48.m4a",
+    "date": "2025-05-28T00:00:00.000Z"
+  },
+  "Hattie_s_Shell_Necklace_Adventure": {
+    "audioHash": "94075159cb589047ae28aa32ec1d44fac7cf1e55147bedac298b4a05d849bfbf",
+    "sourceFilename": "Cornell St 33.m4a",
+    "date": "2025-04-04T00:00:00.000Z"
+  },
+  "Hattie_s_Workshop_Puzzles_and_Purple_Hats": {
+    "audioHash": "9ebef4c56d53bb514e3dc545cc0bb15b10155e4e4b27d0125e250d8c776fb529",
+    "sourceFilename": "Stars and stories - Hattie mouse makes a hat for Mr. Slinger.m4a",
+    "date": "2025-03-13T00:00:00.000Z"
+  },
+  "Hattie_the_Artist_Mouse": {
+    "audioHash": "45aa228860476f3e91098f5fbe684e10775ef1cce0ccf36ec0a2cf6b9a71cdfe",
+    "sourceFilename": "Cornell St 35.m4a",
+    "date": "2025-04-06T00:00:00.000Z"
+  },
+  "Hattie_the_Mouse_and_the_Baby_Chipmunk_s_Snack": {
+    "audioHash": "3b58ff575bc71d299700a0d344837f1ff0c284ad8e8d1d68a5b7277d5edc940c",
+    "sourceFilename": "Cornell St 30.m4a",
+    "date": "2025-03-22T00:00:00.000Z"
+  },
+  "Hattie_the_Mouse_and_the_Backyard_Cleanup": {
+    "audioHash": "df54f821d3228cb69f48aeda00dd0e9fa22e3c6637a8dbf215de1599ca36d593",
+    "sourceFilename": "Cornell St 44.m4a",
+    "date": "2025-04-19T00:00:00.000Z"
+  },
+  "Hattie_the_Mouse_and_the_Massive_Shopping_List": {
+    "audioHash": "903e4af03bdc2ec1c9ca3d6d2d6239e52bac946ba30bb8016d558fb8e3e54c33",
+    "sourceFilename": "Stars and stories - exercises and hats.m4a",
+    "date": "2025-03-19T00:00:00.000Z"
+  },
+  "Hattie_the_Mouse_and_the_Poet_Worm": {
+    "audioHash": "709cc0a16aa61b0f84100b6c512f8c86b7cec686fb14baa9601e357955addca5",
+    "sourceFilename": "Cornell St 46.m4a",
+    "date": "2025-05-02T00:00:00.000Z"
+  },
+  "Hattie_the_Mouse_and_the_Rainbow_Mushroom_Mystery": {
+    "audioHash": "9e8376fdd7f9540caf0157e4af4f5b93aa1d6b813d8cd35a4e076000a19e1074",
+    "sourceFilename": "Stars and stories - Mushroom Mystery.m4a",
+    "date": "2025-03-26T00:00:00.000Z"
+  },
+  "Hattie_the_Mouse_and_the_Rainy_Day_Stove_Rescue": {
+    "audioHash": "d604bebc03d1ce99231df423d8bac5dfb694c98c145c857d49b105afe2caf89e",
+    "sourceFilename": "* Stars and Stories - Hattie’s Nana Fixes the Stove 2.m4a",
+    "date": "2025-04-13T00:00:00.000Z"
+  },
+  "Hattie_the_Mouse_and_the_Starry_Hats": {
+    "audioHash": "67bb5edc9b11db4b2148444d265e04a8a92a7676f972c1894bebc501d8fc702c",
+    "sourceFilename": "Stars and Stories - Hats for Baby Creatures.m4a",
+    "date": "2025-04-02T00:00:00.000Z"
+  },
+  "Hattie_the_Mouse_s_Custom_Hat_Shop": {
+    "audioHash": "ee7efd6173b0ad6e9f45099fb894d2033f6f2754d0ed155a6c3ff1ec806adb25",
+    "sourceFilename": "Cornell St 47.m4a",
+    "date": "2025-05-06T00:00:00.000Z"
+  },
+  "Hattie_the_Mouse_s_Hat_Workshop": {
+    "audioHash": "1622d82de5ac6b4bb3cded39e1f226f3f83b3ebbe40dd8428f8fa7070a9c96b0",
+    "sourceFilename": "Cornell St 31.m4a",
+    "date": "2025-03-23T00:00:00.000Z"
+  },
+  "Hattie_the_Mouse_s_One-Step-at-a-Time_Bedtime": {
+    "audioHash": "553e3d50a4df84c7e0d32003dd0e906532b9311a12775a7c3a21c13ba0acacbf",
+    "sourceFilename": "Cornell St 42.m4a",
+    "date": "2025-04-18T00:00:00.000Z"
+  },
+  "Izzy_the_Kiddo_and_the_Crystal_Mountain_Rescue": {
+    "audioHash": "e2df94669184d7301dd16d078a738ca8c4c17c899fee8ac9500c0d0a0193b063",
+    "sourceFilename": "Stars & Stories: Crystal Mountain Rescue.m4a",
+    "date": "2025-10-12T00:00:00.000Z"
+  },
+  "Izzy_the_Kiddo_and_the_Quest_for_the_Deep_Sea_Pearl": {
+    "audioHash": "5930b440ab71d292eb5fbe26ee94779ae13ceb7035d143b778c4e86694c159c5",
+    "sourceFilename": "Stars and stories - meta story (pout pout sesame recap).m4a",
+    "date": "2025-03-08T00:00:00.000Z"
+  },
+  "Kitty_s_Crew_and_the_Underground_Adventure": {
+    "audioHash": "13c2dcde903f1bc7273ed6f76205057678726883b63299ef0e87457acf7032af",
+    "sourceFilename": "Cornell St 96.m4a",
+    "date": "2025-12-18T00:00:00.000Z"
+  },
+  "Kitty_the_Cat_Superhero_and_the_Gopher_Tunnel_Visit": {
+    "audioHash": "b1a07d38310278ed293c13c5c540e56b38336f4b24edc02ae5fd7cbf29635d5d",
+    "sourceFilename": "Cornell St 95.m4a",
+    "date": "2025-12-18T00:00:00.000Z"
+  },
+  "Late_Night_Tea_with_Mrs_Piggy_and_the_Muppets": {
+    "audioHash": "6662534e7ff294c0df70ebcba358cee30317a70d85584e6314829bfda8087186",
+    "sourceFilename": "Seeker & Miss Piggy.m4a",
+    "date": "2026-01-09T00:00:00.000Z"
+  },
+  "Magic_Mole_s_New_Apartment_and_the_Great_Nut_Feast": {
+    "audioHash": "85465f89fb28da96d40c94697971ba35781a121ca0fa72c6381555872e24f929",
+    "sourceFilename": "Cornell St 82.m4a",
+    "date": "2025-11-10T00:00:00.000Z"
+  },
+  "Mama_Mole_s_Sidewalk_Safari": {
+    "audioHash": "9b766b03a53c77b85847b842e2493666a307a85bb385fe597c3b97095ce91f8d",
+    "sourceFilename": "Cornell St 85.m4a",
+    "date": "2025-11-02T00:00:00.000Z"
+  },
+  "Mickey_Minnie_and_Mole_s_Galactic_Bake-Off": {
+    "audioHash": "77af78afcf3b7d096f23fe9b82d24a48e32952c57c7f4f44b671f7a93d5776c6",
+    "sourceFilename": "Fletcher Rd 3.m4a",
+    "date": "2025-07-29T00:00:00.000Z"
+  },
+  "Mickey_and_Minnie_s_Interstellar_Forest_Adventure": {
+    "audioHash": "55d98a1516b95706fa6c95564266aedaa268de311adfc5ea923fd3008c5aeb92",
+    "sourceFilename": "* Stars and stories - Mickey & Minnie in space.m4a",
+    "date": "2025-03-07T00:00:00.000Z"
+  },
+  "Mickey_s_Adventure_and_the_Deep_Sea_Shark": {
+    "audioHash": "b357c0dae5c3ccb94330b51776fefbf0225217aedbf8c01d599a219280848d28",
+    "sourceFilename": "Izzy’s bedtime stories and song.m4a",
+    "date": "2025-09-20T00:00:00.000Z"
+  },
+  "Minnie_Mouse_and_the_Long-Legged_Lego_Duck": {
+    "audioHash": "0fbb09dbc4067337d95467c0d742196356a30407b5fb43da731a04dfb8d04e43",
+    "sourceFilename": "Fletcher Rd 9.m4a",
+    "date": "2025-08-06T00:00:00.000Z"
+  },
+  "Mischief_Mouse_and_the_Tiny_Lego_Hat": {
+    "audioHash": "e277a31cbcba36e3eb6b9bbd587676156d7db3dfddf858e4672c4a79e204b042",
+    "sourceFilename": "Cornell St 49.m4a",
+    "date": "2025-07-04T00:00:00.000Z"
+  },
+  "Mission_to_Silver_s_Planet": {
+    "audioHash": "7aa91d7de8a34a1debcb11afe33c758b5de46966c91800b64cbbe11bd5e59a7f",
+    "sourceFilename": "Cornell St 79.m4a",
+    "date": "2025-10-26T00:00:00.000Z"
+  },
+  "Mission_to_the_Astro-Orange_Restaurant": {
+    "audioHash": "e31d2279b619b677b1f6f3b85502ef446d35f08cfdf7a52953e0a9dfebceb2de",
+    "sourceFilename": "Cornell St 55.m4a",
+    "date": "2025-08-29T00:00:00.000Z"
+  },
+  "Mission_to_the_Rainbow_Planet_Vupiter_Wupiter_Snupiter": {
+    "audioHash": "d4346c1fcd031903ff834a1550b280f9b8020a7a48a4ee0b85ef60fb604bca91",
+    "sourceFilename": "Cornell St 59.m4a",
+    "date": "2025-09-03T00:00:00.000Z"
+  },
+  "Mission_to_the_Taco_Space_Station": {
+    "audioHash": "feb831d162dea89f930f104521e4ce47405199256e1d15704310a65d69fa5352",
+    "sourceFilename": "Space mission to get tacos.m4a",
+    "date": "2025-08-17T00:00:00.000Z"
+  },
+  "Mistress_Mouse_and_the_Construction_Site_Race": {
+    "audioHash": "7439353f2fdb4725afcc140793c83670d036879e164596530630b5cfffcc8e71",
+    "sourceFilename": "Cornell St 26.m4a",
+    "date": "2025-02-24T00:00:00.000Z"
+  },
+  "Mistress_Mouse_and_the_Great_Penguin_Car_Race": {
+    "audioHash": "af6689089aa1ca30832eb724a0cb07862a98a45d46271409c580ceaa25a48593",
+    "sourceFilename": "* Mistress Mouse and the big race.m4a",
+    "date": "2025-02-20T00:00:00.000Z"
+  },
+  "Mistress_Mouse_and_the_Pink_Tow_Truck_Rescue": {
+    "audioHash": "0bdd8be6ae1a5aa2f253b0b65dbcac23db30b568a4d1ee0715481db23e80174a",
+    "sourceFilename": "Cornell St 25.m4a",
+    "date": "2025-02-21T00:00:00.000Z"
+  },
+  "Monch_the_Lizard_and_the_Minty_Meditation": {
+    "audioHash": "04bafba5c9498a4f95b1fda223b8148b91cc0fd596674c0cc6c5a8162cea718f",
+    "sourceFilename": "Stars & Stories: Lizardfolk Meditation Lesson.m4a",
+    "date": "2025-10-14T00:00:00.000Z"
+  },
+  "Mossy_s_New_Home_at_River_Lake": {
+    "audioHash": "292e5d1f20a19ffbcae8909e1b682024c4c75559c6b5c073b85607be8e640f88",
+    "sourceFilename": "Stars & Stories: Moss Friend.m4a",
+    "date": "2025-09-27T00:00:00.000Z"
+  },
+  "Orange_Frasgle_and_the_Blackberry_Seed": {
+    "audioHash": "1c76d58ce18817c09cfa8243c50f3afa38bdbcabeb7969472a5948fae53dc936",
+    "sourceFilename": "Cornell St 110.m4a",
+    "date": "2026-03-15T00:00:00.000Z"
+  },
+  "Oscar_Mouse_and_the_Musical_Wolf_Cub": {
+    "audioHash": "6cde94de30ecc3122ba9d901ce24a80c290c825bc00a4c62357a699e6b61810f",
+    "sourceFilename": "Stars and stories - wolf cub rescue.m4a",
+    "date": "2025-03-10T00:00:00.000Z"
+  },
+  "Ova_s_Birthday_and_the_Quiet_Mole_Exploration": {
+    "audioHash": "d814601e5512f465916d6a7b6e9d68c42acd9a6b51ff79a2be9ec017a0cd9d1a",
+    "sourceFilename": "Cornell St 86.m4a",
+    "date": "2025-11-04T00:00:00.000Z"
+  },
+  "Pakruder_Worm_s_New_Sound": {
+    "audioHash": "e61f9b657907b544ef25a539ee397a26e13f8ac6140293775137a457137b7bb7",
+    "sourceFilename": "Cornell St 38.m4a",
+    "date": "2025-04-10T00:00:00.000Z"
+  },
+  "Papa_Mole_s_Lunar_Expedition": {
+    "audioHash": "9a5ed53180dbfbbc15de21f602a39cf182ab0e98a93413159fe7d97043bc3c37",
+    "sourceFilename": "Stars & Stories: Moles on the Moon.m4a",
+    "date": "2025-10-29T00:00:00.000Z"
+  },
+  "Peacock_s_Castle_and_the_Neighborhood_Photo_Project": {
+    "audioHash": "c60a4897a9f5ab5d49a819b4c94878102f6e82bb56d745c48ce323a892eba010",
+    "sourceFilename": "Cornell St 61.m4a",
+    "date": "2025-09-05T00:00:00.000Z"
+  },
+  "Pistis_and_Potty_Mouse_s_Sprinkle_Adventure": {
+    "audioHash": "8f1f31a46f91460a356044aa9db489ae324c13e44f002a81571edd422c3aa353",
+    "sourceFilename": "Stars and stories - scratch, cookies.m4a",
+    "date": "2024-12-27T00:00:00.000Z"
+  },
+  "Rainbow_Disco_Science_with_Uncle_Grisco": {
+    "audioHash": "42820ffaef77497f64b22f26886bc6e3c6c78fde2bb44a7679c371fa20bfa6d9",
+    "sourceFilename": "Cornell St 87.m4a",
+    "date": "2025-11-05T00:00:00.000Z"
+  },
+  "Rainbow_Mergirl_and_the_Kelp_Forest_Thief": {
+    "audioHash": "7a615ff5f8d22404d75d701ab27287d349284d7dbed0279920265a0f9b3f1595",
+    "sourceFilename": "Cornell St 124.m4a",
+    "date": "2026-05-20T00:26:58.000Z"
+  },
+  "Science_and_Hand_Mountains_with_Seeker_and_Uncle_Grisco": {
+    "audioHash": "e055d5ecb9a5d55aaf3b92560814e1c67929bff9e6ca50dd3fb0f8b508e845ea",
+    "sourceFilename": "Cornell St 89.m4a",
+    "date": "2025-11-19T00:00:00.000Z"
+  },
+  "Science_in_the_Bakery": {
+    "audioHash": "46f06f0878fc3d075c2ddc0cef9f8f4c19172ee7e2f51e7ea3e2e19277304bac",
+    "sourceFilename": "Bunsen and Sophie do colors and recipes.m4a",
+    "date": "2026-01-17T00:00:00.000Z"
+  },
+  "Seeker_s_Deep_Earth_Adventure": {
+    "audioHash": "e101de8db22854ac740a8c3f89cc11ad7507e6f1136e395746b53673e258a801",
+    "sourceFilename": "Cornell St 83.m4a",
+    "date": "2025-11-12T00:00:00.000Z"
+  },
+  "Seeker_s_Guide_to_Volcanoes_Space_and_Sunlight": {
+    "audioHash": "a5bbfd5d3c6420d34c6c87e05fe7a46b1a537acce5205e9fbccaf83a16df9e45",
+    "sourceFilename": "Cornell St 91.m4a",
+    "date": "2025-11-26T00:00:00.000Z"
+  },
+  "Seeker_s_Stone-Carving_Expedition": {
+    "audioHash": "06fc2a4cca5a3d284c5286c072897d91ea42cd9482862dad299d18f9d825adca",
+    "sourceFilename": "Young Seeker Learns Stone Carving.m4a",
+    "date": "2025-11-25T00:00:00.000Z"
+  },
+  "Seeker_s_Tour_of_the_Rooftop_Garden_and_Dollhouse": {
+    "audioHash": "de68443ae6b105a2efee680e4467c2b18d83cb83b375c5282001a98465026884",
+    "sourceFilename": "Seeker tours the roof garden and dollhouses.m4a",
+    "date": "2025-12-04T00:00:00.000Z"
+  },
+  "Shark_Friends_and_the_Deep_Deep_Dark": {
+    "audioHash": "4beca203b225329a3ec5c3e64fa4e0f5f6b953fd9dc4d482b248f6c7a5b9575a",
+    "sourceFilename": "Cornell St 120.m4a",
+    "date": "2026-04-27T00:11:55.000Z"
+  },
+  "Slime-Ka-Bye_The_Beard-Dweller_s_Deep_Sea_Adventure": {
+    "audioHash": "90e0c263de34993a77dc4b2f67eddf04c129770223359f42eca7de5bcfa89854",
+    "sourceFilename": "Cornell St 116.m4a",
+    "date": "2026-04-10T01:32:20.000Z"
+  },
+  "Spooky_Pooky_s_Handmade_Gifts": {
+    "audioHash": "3a667011533b42a699c55b1719d07ab3c64ee78e9945b2a06d432993af0ff340",
+    "sourceFilename": "Fletcher Rd.m4a",
+    "date": "2024-12-30T00:00:00.000Z"
+  },
+  "Stars_and_Stories_Piglet_s_Birthday_Surprise": {
+    "audioHash": "414d00da1dd206950f6153f1db2987b907fe3a6143c7162a5416d2c13867744a",
+    "sourceFilename": "Stars and stories - Piglet’s balloon.m4a",
+    "date": "2025-03-09T00:00:00.000Z"
+  },
+  "Stars_and_Stories_The_Great_Cat_Rescue": {
+    "audioHash": "e7f605a657ae53a2f8a24b2b4c400ee7f10840c131e9c27fb6ec030f4b0aa5b7",
+    "sourceFilename": "Cornell St 71.m4a",
+    "date": "2025-10-02T00:00:00.000Z"
+  },
+  "Stretching_Before_the_Story": {
+    "audioHash": "d6a2fc112fbf484329f28f3fef120784b39d851f4f522cd75af43756882b653a",
+    "sourceFilename": "Cornell St 40.m4a",
+    "date": "2025-04-13T00:00:00.000Z"
+  },
+  "The_Adventures_of_Surprise_Mouse_and_Friends": {
+    "audioHash": "f15ff58a4c2e2d34d97caab193474bc3a5cc6370150201ff126f6d9cbac7d496",
+    "sourceFilename": "Stories about mice.m4a",
+    "date": "2025-01-09T00:00:00.000Z"
+  },
+  "The_Anglerfish_and_the_Hairy_Drawing": {
+    "audioHash": "68f845c84d59c636164db576d01a9f5aac64a2c8f2067193a7e104ae332c615a",
+    "sourceFilename": "Cornell St 34.m4a",
+    "date": "2025-04-05T00:00:00.000Z"
+  },
+  "The_Best_Mole_Hole_Ever": {
+    "audioHash": "c6089b4ca47e7a3ebb50f72622c4eded4060c7548df47900d8e5d5a079bb61d6",
+    "sourceFilename": "Stars & Stories: Moles on Crystal Mountain.m4a",
+    "date": "2025-10-07T00:00:00.000Z"
+  },
+  "The_Big_Muck_Problem_One_Pile_at_a_Time": {
+    "audioHash": "117545b671aca0d164cc66f80f1ebdf197aeaa7e58b54bbc6e4a1e4d595e20d4",
+    "sourceFilename": "Stars and stories - Spring Cleaning.m4a",
+    "date": "2025-03-20T00:00:00.000Z"
+  },
+  "The_Bouncing_Floofers_of_the_Golden_Cloud": {
+    "audioHash": "e761c929e015fbe95ddba826747ba2c1d1381fe0a9ff823603646d2c8eef1c93",
+    "sourceFilename": "Stars & Stories: Seeker and the Floofers.m4a",
+    "date": "2025-11-07T00:00:00.000Z"
+  },
+  "The_Bouncy_Adventures_in_Balloon_World": {
+    "audioHash": "0e89bfe87cd75ec37d494f876e277604352dcc5d736312744da4da97e74bdcd4",
+    "sourceFilename": "Cornell St 111.m4a",
+    "date": "2026-03-25T00:00:00.000Z"
+  },
+  "The_Busy_Day_of_Disco_and_Disco_Moles": {
+    "audioHash": "7577963374664ea8212d5b25ef34b0b4d466a507d823c84b1883db2320ea7fe1",
+    "sourceFilename": "Cornell St 68.m4a",
+    "date": "2025-09-25T00:00:00.000Z"
+  },
+  "The_Case_of_the_Carrot-Loving_Gophers": {
+    "audioHash": "5f8fce6a76bd16d5eba373f51ade39498299e2b8d70340ee725410d1cd89f65f",
+    "sourceFilename": "Cornell St 97.m4a",
+    "date": "2026-01-12T00:00:00.000Z"
+  },
+  "The_Chronicles_of_Carland_and_the_Sea_Mice": {
+    "audioHash": "b73d38d4b9b2396a41090848234250d46d430abb166d141ae6509e2b0ec8bcec",
+    "sourceFilename": "Cornell St 64.m4a",
+    "date": "2025-09-06T00:00:00.000Z"
+  },
+  "The_Chronicles_of_Pinecone_Mouse_and_the_Pink_Tow_Truck": {
+    "audioHash": "d1f53baa2887ce1e3a0309bbc2985f2dd0303fa3271cacc6e74eb70f11a645d0",
+    "sourceFilename": "Stars and stories - pinecone mouse.m4a",
+    "date": "2024-12-24T00:00:00.000Z"
+  },
+  "The_Chugga-Chugga_Journey_to_Nana_s_House": {
+    "audioHash": "0cfb8c8462bbe7a253459e7d870b488b800461b173e42487a0e853fca0afed4c",
+    "sourceFilename": "Making up a story together about a train.m4a",
+    "date": "2024-09-20T00:00:00.000Z"
+  },
+  "The_Cinnamon_Potion_and_the_Ant-Sized_Tree": {
+    "audioHash": "6c997f18ecfd83df5b8750e3121a4636922b3ed6b38912ba597d86acc1528479",
+    "sourceFilename": "Cornell St 125.m4a",
+    "date": "2026-05-23T00:33:12.000Z"
+  },
+  "The_Dragonettes_and_the_Rainbow_Forest_Quest": {
+    "audioHash": "6c3e20b03cf2feff00163614cad7cd0dcbb504afc5a508da6331c4c539220322",
+    "sourceFilename": "Cornell St 104.m4a",
+    "date": "2026-02-25T00:00:00.000Z"
+  },
+  "The_Floof-Berry_Mission_and_the_Great_Snowstorm": {
+    "audioHash": "7258bd10385bc669b637148379a2a7320165df0c20cc53ad8f2b248b94211a6d",
+    "sourceFilename": "Cornell St 101.m4a",
+    "date": "2026-02-21T00:00:00.000Z"
+  },
+  "The_Floofer_s_Trampoline_and_the_Butterfly_Valentine": {
+    "audioHash": "fa466173e893ef7f1b8dd5affed1f997ce6f9e1c646790c88bca9ca795f05d55",
+    "sourceFilename": "Cornell St 100.m4a",
+    "date": "2026-02-13T00:00:00.000Z"
+  },
+  "The_Flying_Friends_of_Strawberry_Island": {
+    "audioHash": "5566209f6643099cebbe9fb25c0e618502547639ced8a570f08fd5520cc5394d",
+    "sourceFilename": "Dimitar at Catessori day 2.m4a",
+    "date": "2026-02-27T00:00:00.000Z"
+  },
+  "The_Foxy_Way_and_the_Twirling_Ghost": {
+    "audioHash": "b503f49dd731841f68a5172265eb8dd5a7af90e907530c73c075fdf178b04f55",
+    "sourceFilename": "Cornell St 29.m4a",
+    "date": "2025-03-17T00:00:00.000Z"
+  },
+  "The_Galactic_Search_for_Chicky": {
+    "audioHash": "deff0ca708bc2ccc5beddb3914a8ab78f5df2d50d3b847438082f955799bb72f",
+    "sourceFilename": "Cornell St 74.m4a",
+    "date": "2025-10-19T00:00:00.000Z"
+  },
+  "The_Giant_Rescue_on_Volcano_Island": {
+    "audioHash": "bff156b30650f31a282a677ac64ce8e2c2f11cd09d420ec6e8d36b358453997f",
+    "sourceFilename": "Seeker and Izzy Save Dimitaur’s Castle 2.m4a",
+    "date": "2025-12-07T00:00:00.000Z"
+  },
+  "The_Glowing_Expedition_for_Mole": {
+    "audioHash": "2f0aa02724d5d6f3872b24a04e44a2d82816ca110142e77019a2745b8d073407",
+    "sourceFilename": "Cornell St 58.m4a",
+    "date": "2025-09-03T00:00:00.000Z"
+  },
+  "The_Gopher_s_Squerret_Quest_in_Australia": {
+    "audioHash": "306b6dc1d53dc0345ad6005b93f540e2eecb2614d76bbce8db41dce98f109b0b",
+    "sourceFilename": "Cornell St 107.m4a",
+    "date": "2026-03-03T00:00:00.000Z"
+  },
+  "The_Great_Expedition_of_the_Sas-ma-ras-ma-fla-mas_Frog": {
+    "audioHash": "f3dd72a5b4b30ed731dcd6cd966a9df0c9fcf5de6744ee579eff8baa8b485b27",
+    "sourceFilename": "Fletcher Rd 6.m4a",
+    "date": "2025-08-03T00:00:00.000Z"
+  },
+  "The_Great_Kelp_Caper_of_the_Pink_Continent": {
+    "audioHash": "71f114fab3b6ad171eecf17030ac33476e2db331a3ad9ce2a8f13eaea753af20",
+    "sourceFilename": "Cornell St 118.m4a",
+    "date": "2026-04-21T01:03:06.000Z"
+  },
+  "The_Great_Kibble_Cat-astrophe": {
+    "audioHash": "f4272bf501a1b93f017ae97a7777c1e39c5fc6976a9d404dd32c72ead309d526",
+    "sourceFilename": "Seeker and too many cats.m4a",
+    "date": "2026-02-09T00:00:00.000Z"
+  },
+  "The_Ice_Dragon_s_New_Hat": {
+    "audioHash": "e601f2b4b8def6989cfa2a8e1c6a85e5fb78b5c5b90bcad6d9e85bccc4f91911",
+    "sourceFilename": "Cornell St 99.m4a",
+    "date": "2026-01-28T00:00:00.000Z"
+  },
+  "The_Ice_Dragon_s_Sparkly_Castle_and_the_Great_Ice_Festival": {
+    "audioHash": "8282eaeb27c8f5e68a0bafe70bc470eedbe06bf235ac3bdf066cef1c0231ff84",
+    "sourceFilename": "Dimitar and Icicle polish the ice castle.m4a",
+    "date": "2026-01-23T00:00:00.000Z"
+  },
+  "The_Imaginary_Road_Trip_to_Nana_s_House": {
+    "audioHash": "9373585578ab09951464a30f916b3526cd26eb625cac1ea1340679d57b30becf",
+    "sourceFilename": "Stars and stories - Trip to Nana’s house.m4a",
+    "date": "2025-03-21T00:00:00.000Z"
+  },
+  "The_LED_Robot_and_the_Honey_Tree_of_Cornell_Street": {
+    "audioHash": "ca9715a78d31fdf45c873e62ea459783850b4a573ecf22c0f52880a631a9824a",
+    "sourceFilename": "* Stars and Stories - Pooh and Baby Robot.m4a",
+    "date": "2025-04-20T00:00:00.000Z"
+  },
+  "The_Legend_of_the_Ice_Gem": {
+    "audioHash": "45880938d195bf5adc9b483a3adf8067c52d204a25a4be6a3e5e947fb186e93a",
+    "sourceFilename": "Stars & Stories: Moles on the Plane of Ice.m4a",
+    "date": "2025-10-09T00:00:00.000Z"
+  },
+  "The_Lego_Adventures_of_Mistress_Mouse_and_Other_Mouse": {
+    "audioHash": "15058310d1a3f2550d71b5a82265b7c8a471950c6228450455b065982c57dcea",
+    "sourceFilename": "Cornell St 24.m4a",
+    "date": "2025-01-03T00:00:00.000Z"
+  },
+  "The_Magic_Forest_Photo_Tour": {
+    "audioHash": "b60961f4df098075cc256931b5ac5d7701caf805f42e653804351ae444bc6b99",
+    "sourceFilename": "Stars & Stories: Izzy takes pictures.m4a",
+    "date": "2025-08-26T00:00:00.000Z"
+  },
+  "The_Magic_of_Mooska-Kadooska": {
+    "audioHash": "7eee680b3a5e9180d96edf1fa5aba4b725e2c086517392df2fd10a924af523a0",
+    "sourceFilename": "Cornell St 92.m4a",
+    "date": "2025-11-27T00:00:00.000Z"
+  },
+  "The_Magic_of_Slime_School": {
+    "audioHash": "2581964ddb15a2ad9af4f5924da1bbf802203bc47c5ce33219f073082915bd21",
+    "sourceFilename": "Cornell St 112.m4a",
+    "date": "2026-03-26T00:00:00.000Z"
+  },
+  "The_Many_Adventures_of_Mistress_Mouse": {
+    "audioHash": "cacc9c0435e7ba7778c473489ff599a01bbaaac6f48a60da7c78606dfa43be9b",
+    "sourceFilename": "Mistress mouse stories.m4a",
+    "date": "2025-02-17T00:00:00.000Z"
+  },
+  "The_Mischief_Moles_and_the_Dusty_Bookshelf": {
+    "audioHash": "86b47c155dd7afae23f7cbcc72ebd2a08864739c9a5d3fd0b6258cd863af91bc",
+    "sourceFilename": "Stars & Stories: Disco & Thisco.m4a",
+    "date": "2025-09-19T00:00:00.000Z"
+  },
+  "The_Mischief_Moles_and_the_Kingdom_of_the_Ants": {
+    "audioHash": "33bb8d851d9f27242d33c9cefed5b9d38c1b631d7be8e3649377ba2b628d8ccf",
+    "sourceFilename": "Stars & Stories: mischief moles find the gem.m4a",
+    "date": "2025-10-04T00:00:00.000Z"
+  },
+  "The_Mischief_Moles_and_the_Plane_of_Fire": {
+    "audioHash": "49980c26538caa9fdf708edf51d3cc4f2631c1272ddfcd8b8ec58736b50501de",
+    "sourceFilename": "Stars & Stories: Moles on the Plane of Fire.m4a",
+    "date": "2025-10-07T00:00:00.000Z"
+  },
+  "The_Mischiefy_Moles_and_the_Bookcase_of_Chaos": {
+    "audioHash": "d3be6ab1a3a8b1bc26d0d2993f6070b560221640494f04f25d5eacb2989fdd97",
+    "sourceFilename": "Stars & Stories: Mischievous Moles.m4a",
+    "date": "2025-09-14T00:00:00.000Z"
+  },
+  "The_Moles_Great_Aquarium_Adventure": {
+    "audioHash": "9b075d50ab6b511c8cded43a7973d3cc8c29aa24259b902c7c0d7d4bf4b83f93",
+    "sourceFilename": "Stars & Stories: Mole Aquarium.m4a",
+    "date": "2025-10-17T00:00:00.000Z"
+  },
+  "The_Moles_Intergalactic_Snack_Run": {
+    "audioHash": "78259214efd981ab287640e9a5ea5a639ddde6191279d8227a9e2949dc10e706",
+    "sourceFilename": "Cornell St 69.m4a",
+    "date": "2025-09-26T00:00:00.000Z"
+  },
+  "The_Mookers_the_Floofers_and_the_Solar_Mookball": {
+    "audioHash": "ba89536f558006fd9886c3ea181a651d4fa1125febd0142ffa0bd9b664dec554",
+    "sourceFilename": "Cornell St 113.m4a",
+    "date": "2026-03-28T00:00:00.000Z"
+  },
+  "The_Mystery_of_the_Missing_Kelp_Forest": {
+    "audioHash": "1770d733f2ff73b7a999a360e7d631809d01e452dbbeb1bc55996008c8c3c982",
+    "sourceFilename": "Cornell St 117.m4a",
+    "date": "2026-04-18T00:28:24.000Z"
+  },
+  "The_Mystery_of_the_Pool_Noodle_Nibbler": {
+    "audioHash": "91fbeb6d4e583bc13db9165793b31c8f6fe02084f443bb42f8d5fb1c54ae6902",
+    "sourceFilename": "Stars & stories: The Pool Noodle Nibbler.m4a",
+    "date": "2025-09-10T00:00:00.000Z"
+  },
+  "The_Mystery_of_the_Snake_Store_Bups": {
+    "audioHash": "053b2823c183401d8c316a3c53481639278a37a0a45b01f16f9ca139e30fc75a",
+    "sourceFilename": "Cornell St 36.m4a",
+    "date": "2025-04-07T00:00:00.000Z"
+  },
+  "The_Name_Game_with_Mrs_Rabbit": {
+    "audioHash": "48ac0a3736e074a1a860071354629347939d59cfd06c2ed6adf6004cfb011df8",
+    "sourceFilename": "Baby sister’s name.m4a",
+    "date": "2024-10-18T00:00:00.000Z"
+  },
+  "The_Polka-Dot_Potion_and_the_Magic_Spell": {
+    "audioHash": "4f96bc7149e2d1d1f2458e880f57fa292e8c34f3749fed9b7e5acacc5a3ad3ca",
+    "sourceFilename": "Seeker and the sleep potions.m4a",
+    "date": "2025-11-18T00:00:00.000Z"
+  },
+  "The_Polka-Dotted_Car_and_the_Shadow_Lab": {
+    "audioHash": "5f4cdbc31eaaf29e989285b976553ecdf8f93d2983972a01a3623e3463eb94ca",
+    "sourceFilename": "Cornell St 93.m4a",
+    "date": "2025-12-08T00:00:00.000Z"
+  },
+  "The_Potion_of_the_Gemstone_Reef": {
+    "audioHash": "efede4e45974273ba986e77abcdece120e9392d00decabf991a808d31b4c3432",
+    "sourceFilename": "Cornell St 114.m4a",
+    "date": "2026-04-01T00:00:00.000Z"
+  },
+  "The_Potion_to_Izzy_s_Attic": {
+    "audioHash": "0cb11302251ebb3d09ac9ea0d8064bc2489aa3f7ad537ad694dd1d30a9a18a49",
+    "sourceFilename": "Seeker visits Izzy’s Attic.m4a",
+    "date": "2025-12-01T00:00:00.000Z"
+  },
+  "The_Potion_to_the_Little_Hotel_House": {
+    "audioHash": "085a731f980ced618fc310413e0f9eda0f08b85aba62526eb6a7d13c78634245",
+    "sourceFilename": "Seeker & Grisco Visit Izzy’s House.m4a",
+    "date": "2025-11-28T00:00:00.000Z"
+  },
+  "The_Puking_Cats_Anthem": {
+    "audioHash": "4ab396850f461c212bc905eafb5440ef252c0fbf9c9eccf833d8ea0d89a56507",
+    "sourceFilename": "Cat puke song 2.m4a",
+    "date": "2025-09-12T00:00:00.000Z"
+  },
+  "The_Putt-Putt_Road_Trip_Adventure": {
+    "audioHash": "922c27b63e6d0535aac94990c53c77a037cfcb699ab6a2ce8ebea69e5c27b3d2",
+    "sourceFilename": "Fletcher Rd 11.m4a",
+    "date": "2025-08-09T00:00:00.000Z"
+  },
+  "The_Quest_for_Floofer_Kaploofer": {
+    "audioHash": "ea0dc943e7e563d6bfdf8c0e4f671df158e2635f0b857bec4083c8b96a530a89",
+    "sourceFilename": "Dimitar and Icicle rescue a floofer from rainbow forest.m4a",
+    "date": "2026-02-07T00:00:00.000Z"
+  },
+  "The_Quest_for_the_Moon_Mother": {
+    "audioHash": "78c3ae964ffe4e694abaaac4c61c8bfc124f34db8b91ccb68cdfc3fcd4e60ffe",
+    "sourceFilename": "Cornell St 119.m4a",
+    "date": "2026-04-25T00:06:49.000Z"
+  },
+  "The_Quest_to_Close_the_Limbo_Rift": {
+    "audioHash": "2a5d0d29e6bf2899abfb84eeb4b6e972111b395e242403fbb9137c04699d64dd",
+    "sourceFilename": "Cornell St 78.m4a",
+    "date": "2025-10-23T00:00:00.000Z"
+  },
+  "The_Rainbow_Fruit_World_and_the_Great_Lemon_Fish_Debate": {
+    "audioHash": "77086155a9f48431013b88e39a68d6f2b57db2c667a87ff2e094c6eacc932e87",
+    "sourceFilename": "Cornell St 130.m4a",
+    "date": "2026-06-15T00:17:34.000Z"
+  },
+  "The_Red_Planet_Potion": {
+    "audioHash": "7734e330bfa7dd211357f453f6fd11b389d769e1db3d6d9045f80f591072b891",
+    "sourceFilename": "Cornell St 88.m4a",
+    "date": "2025-11-16T00:00:00.000Z"
+  },
+  "The_Rocket_Boat_to_Mouseland": {
+    "audioHash": "702d36969207d38ae6b338483cf0403871a2563393ac748d3fe6858df25be8a4",
+    "sourceFilename": "Fletcher Rd 5.m4a",
+    "date": "2025-08-01T00:00:00.000Z"
+  },
+  "The_Salty_Solution_for_a_Frozen_Island": {
+    "audioHash": "3bf1f967eb2a30be00bee7c0291ce31ac3918ab31b968b3beae6945128c281ae",
+    "sourceFilename": "Cornell St 132.m4a",
+    "date": "2026-06-19T23:59:06.000Z"
+  },
+  "The_Sardine_Bakery_and_the_Rainbow_Disco_Birthday": {
+    "audioHash": "ad917659dbd28c3bf04f28d3b1858069eb3e9185d1baa20593c50e603a295d54",
+    "sourceFilename": "Dimitar visits Sophie’s bakery.m4a",
+    "date": "2026-01-04T00:00:00.000Z"
+  },
+  "The_Savior_of_the_Castle": {
+    "audioHash": "4f236da9664c2ae86b1e7ee84939d60607e039a384ed1f40246f81e4853df30c",
+    "sourceFilename": "Cornell St 94.m4a",
+    "date": "2025-12-14T00:00:00.000Z"
+  },
+  "The_Silver_Kitten_s_Snuggle_Emergency": {
+    "audioHash": "aee2c5734ac901e04bc4a68cd1bd30cf05340531c94c531fde215b3f18f6f20d",
+    "sourceFilename": "Fletcher Rd 8.m4a",
+    "date": "2025-08-05T00:00:00.000Z"
+  },
+  "The_Sleepy-Time_Science_Experiment": {
+    "audioHash": "693a36925b256a022c64dbddb6a37206983b9f0a3f446fbc4dc61cc3cdea94d0",
+    "sourceFilename": "Cornell St 103.m4a",
+    "date": "2026-02-23T00:00:00.000Z"
+  },
+  "The_Sneaky_Popper_of_Balloon_World": {
+    "audioHash": "0ccb9e31fe04224ddfa4cb10ca385bbd241671e176014b770d082d602cccb3df",
+    "sourceFilename": "The Case of the Sneaky Popper.m4a",
+    "date": "2026-03-08T00:00:00.000Z"
+  },
+  "The_Solar_Expedition_of_Stars_and_Snories": {
+    "audioHash": "00d307d8713ef2d7c0faf9896748efdc0c8028c56b75076c73d9512b2df19dc3",
+    "sourceFilename": "Cornell St 90.m4a",
+    "date": "2025-11-22T00:00:00.000Z"
+  },
+  "The_Sparkling_Dust_of_Book_World": {
+    "audioHash": "b1a2209ba463b09fdd7c4eb6008eda5af5d147af8f61eebb9a2d24369de90c94",
+    "sourceFilename": "Cornell St 131.m4a",
+    "date": "2026-06-18T00:17:02.000Z"
+  },
+  "The_Squeaky_Adventures_in_Balloon_World": {
+    "audioHash": "3b57f671c8eede031898ad3bdd0fad5317e69a629ac35ee8dc563c74a3183ccc",
+    "sourceFilename": "Balloon World.m4a",
+    "date": "2026-03-06T00:00:00.000Z"
+  },
+  "The_Squeaky_Quest_for_the_Balloon_Palace": {
+    "audioHash": "175dd8fc76b01947aab378b583c5d81c079a9e0587fd66e1d436c663e3aa24aa",
+    "sourceFilename": "Cornell St 129.m4a",
+    "date": "2026-06-09T00:06:21.000Z"
+  },
+  "The_Star-Lit_Basket_Adventure": {
+    "audioHash": "9809f96d17cd8c2799c616379efc54d2a13b21557b5c899803a88d382f66bc10",
+    "sourceFilename": "Cornell St 72.m4a",
+    "date": "2025-10-11T00:00:00.000Z"
+  },
+  "The_Tail_of_Two_Mice_Surprise_and_Hoodie": {
+    "audioHash": "36f72c2ef005d17db9cf1ea96c6c8f8522a9095e8414fa6c2c32c983a6cd1c1d",
+    "sourceFilename": "Stars and stories.m4a",
+    "date": "2024-12-25T00:00:00.000Z"
+  },
+  "The_Tale_of_the_Talking_Gluten-Free_Broccoli": {
+    "audioHash": "e5921dc6535be64a581e567d01d467b84506d269ce47587187889b79d87902fd",
+    "sourceFilename": "Stars and Stories - GF Talking Broccoli.m4a",
+    "date": "2025-04-15T00:00:00.000Z"
+  },
+  "The_Thirty_Cats_of_Kibble_World": {
+    "audioHash": "edaac6555254c829da63a4f811c29e50e9b2e6782232bbf39c11de13e8df06ab",
+    "sourceFilename": "Cornell St 123.m4a",
+    "date": "2026-05-11T00:51:11.000Z"
+  },
+  "The_Underground_Library_and_the_Big_Bubble_Bonanza": {
+    "audioHash": "46983b3e9b73ae855497f8a888391e5baeb6de1fa6271e3d99f074d26f5517ac",
+    "sourceFilename": "Fletcher Rd 2.m4a",
+    "date": "2025-07-27T00:00:00.000Z"
+  },
+  "The_Wizard_Seker_and_the_Magical_Can_Opener_of_Cat_World": {
+    "audioHash": "ecb3d6b6ebdf4a5bd07adf2cb7a454dffd335fe6ec7b9e125838d42d1b013d3f",
+    "sourceFilename": "Cornell St 115.m4a",
+    "date": "2026-04-07T00:58:19.000Z"
+  },
+  "The_Wizard_s_Play-Doh_Hat_Quest": {
+    "audioHash": "6c7f1e4840d6b4418fb81c42e7ea38e5ba74af07f5faad1a1b73ea9af894fc9c",
+    "sourceFilename": "Stars and stories - Quest for the wizard’s new hat 2.m4a",
+    "date": "2025-03-12T00:00:00.000Z"
+  },
+  "The_Workout_Wombats_and_the_Deep_Blue_Sea": {
+    "audioHash": "b9dbf2079a2282cd20d3316fac6fa1da2eabb8d82722fd6aac641e08e197cb5b",
+    "sourceFilename": "Singing about podcasts.m4a",
+    "date": "2025-08-23T00:00:00.000Z"
+  },
+  "Tigger_s_Quest_for_the_Wizard_s_Magic_Wand": {
+    "audioHash": "1be43d975a1306ad717d57ae928d3bf06b2388738d38f79023ef9138f92925c1",
+    "sourceFilename": "Stars and stories - journey to the wizard’s castle 2.m4a",
+    "date": "2025-03-11T00:00:00.000Z"
+  },
+  "Tiggy_Riggy_and_the_Rainbow_Fish": {
+    "audioHash": "2404c115557c9fc49927901348f845666e9ac9071f58703cdf54bc74847e1727",
+    "sourceFilename": "Stars and stories 2.m4a",
+    "date": "2024-12-25T00:00:00.000Z"
+  },
+  "Under_the_Bed_and_Over_the_Sky": {
+    "audioHash": "86afbf4576d9e865922ff35012711f6b5a6c434117f811371e0b677a8e2b1c85",
+    "sourceFilename": "Cornell St 81.m4a",
+    "date": "2025-10-28T00:00:00.000Z"
+  },
+  "Victor_s_Muddy_Mishap": {
+    "audioHash": "d8069cd7f99da9dd1055706ca49936f520db39439a1c737c2668eeb7cf13071e",
+    "sourceFilename": "* Stars and stories - Victor’s bath (Baby Beluga).m4a",
+    "date": "2025-03-14T00:00:00.000Z"
+  },
+  "Voyage_to_the_Kingdom_of_the_Sea_Mice": {
+    "audioHash": "92e1228050ad4bc16c42b89db3bdbdbc2ad9d6a81cf8ce12a83499e0cf071450",
+    "sourceFilename": "Cornell St 66.m4a",
+    "date": "2025-09-07T00:00:00.000Z"
+  },
+  "Winterworld_Rescue_and_the_Magic_Shining_Hat": {
+    "audioHash": "e5fe3abd6c4fc32b50205fcfbb16bb1c4e09deeaa4399871aa2da202726f8967",
+    "sourceFilename": "Cornell St 98.m4a",
+    "date": "2026-01-25T00:00:00.000Z"
+  },
+  "Wobbly_Whisker_s_Sticky_Adventure_on_Planet_Mooker": {
+    "audioHash": "c794b77245c4b67f88a0d0fc3aef822435d64b220a3a487c723017cc4b2919f2",
+    "sourceFilename": "Cornell St 122.m4a",
+    "date": "2026-05-02T00:23:16.000Z"
+  },
+  "Zigzag_the_Dancing_Robot_and_the_Cornebyborn_Dance": {
+    "audioHash": "b5f9597d31e307026657dad790058335cff36af857d4c14ff9c56eb90fb96ad3",
+    "sourceFilename": "Stars & Stories: Papa Mole’s Robot.m4a",
+    "date": "2025-10-31T00:00:00.000Z"
+  },
+  "Zilliam_s_Brick_Bed_and_the_Story_of_Nothing": {
+    "audioHash": "524a61af26feb2b8065bc8dd57379ed29d3b1031632ce75405da6593b35761d6",
+    "sourceFilename": "Cornell St 45.m4a",
+    "date": "2025-04-21T00:00:00.000Z"
+  }
+}

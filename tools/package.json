@@ -1,0 +1,25 @@
+{
+  "name": "stars-and-stories-tools",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Local CLI tools for the Stars & Stories archive: migrate the export, build the static site bundle, and add new stories from voice memos.",
+  "scripts": {
+    "import": "tsx import-export.ts",
+    "build": "tsx build-site.ts",
+    "add": "tsx add-story.ts",
+    "world-dna": "tsx gen-world-dna.ts",
+    "verify-models": "tsx verify-models.ts"
+  },
+  "dependencies": {
+    "@google/genai": "^1.29.0",
+    "dotenv": "^17.2.3",
+    "music-metadata": "^11.0.0",
+    "sharp": "^0.34.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "tsx": "^4.21.0",
+    "typescript": "~5.8.2"
+  }
+}

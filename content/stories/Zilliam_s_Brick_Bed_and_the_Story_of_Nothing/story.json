@@ -1,0 +1,130 @@
+{
+  "id": "Zilliam_s_Brick_Bed_and_the_Story_of_Nothing",
+  "title": "Zilliam's Brick Bed and the Story of Nothing",
+  "date": "2025-04-21T00:00:00.000Z",
+  "summary": "Zilliam the Robot finds himself tipping over until Uncle Bill helps him balance by adding Lego bricks to his arm. Despite his exhaustion, Zilliam insists he isn't tired, even as he lets out giant robot yawns. Finally settling onto his brick bed, he listens to Uncle Bill's shortest story ever—a tale about absolutely nothing—before drifting off to sleep.",
+  "audioFilename": "Cornell St 45.m4a",
+  "highlightQuote": {
+    "text": "It was all about nothing.",
+    "timestamp": 162.4
+  },
+  "transcript": [
+    {
+      "speaker": "Dad",
+      "text": "Sleepy a little bit?",
+      "timestamp": 0
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah.",
+      "timestamp": 1.2
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yeah. Okay, so we'll do a very short stars and story. Um, this stars and stories story's gonna be about... once upon a time, Zilliam the Robot stood up and suddenly felt a little bit out of balance and started to tip right over. What happened next?",
+      "timestamp": 2.5
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Uncle Bill said, \"Robot, I think you need some more Legos.\"",
+      "timestamp": 32.8
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Zilliam said, \"Whoa, I am tipping over. Could you please add more Legos?\" And what did Uncle Bill say?",
+      "timestamp": 43.1
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"Well, I have more Legos for you.\"",
+      "timestamp": 52.6
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Thank you. Can you add them right here?\" And Zilliam pointed, um, to his left arm. And what did Uncle Bill do?",
+      "timestamp": 57.2
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"See, I already added all bricks to your arm.\"",
+      "timestamp": 69.5
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Thank you,\" said Zilliam. \"Now I am balanced and I can stand up. But I am very tired. What should I do?\" And what did Uncle Bill say then?",
+      "timestamp": 74
+    },
+    {
+      "speaker": "Dad",
+      "text": "Silver, go out please. Silver cat.",
+      "timestamp": 88.2
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Dad, why do the kitties always come into our bedroom?",
+      "timestamp": 91.8
+    },
+    {
+      "speaker": "Dad",
+      "text": "They like to be with us because we love them and they love us. And then Uncle Bill said, \"Well, maybe it's time for everyone to take a nap, including robots.\" And Zilliam said, \"But I'm not tired. (Yawns)\" And Uncle Bill said, \"Oh, I noticed that you made a robot yawn.\" And Zilliam said, \"No, I didn't yawn. (Yawns)\" And Uncle Bill said, \"Are you sure? It sounds like you're yawning a little bit. I think you're kind of tired.\" And Zilliam said, \"Maybe I will try lying down.\" And so Zilliam lay down on his robot bed. What was his robot bed made out of?",
+      "timestamp": 99.4
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Bricks.",
+      "timestamp": 149.2
+    },
+    {
+      "speaker": "Dad",
+      "text": "His robot bed made of bricks, which was so comfy. And he said, \"Will you read me a story, Uncle Bill?\" And did Uncle Bill tell Zilliam a story?",
+      "timestamp": 150.1
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Uh-huh.",
+      "timestamp": 160.2
+    },
+    {
+      "speaker": "Dad",
+      "text": "What was it about?",
+      "timestamp": 161.1
+    },
+    {
+      "speaker": "Izzy",
+      "text": "It was all about nothing.",
+      "timestamp": 162.4
+    },
+    {
+      "speaker": "Dad",
+      "text": "All about nothing. Uncle Bill said, \"Once upon a time, there was nothing, and everyone went to sleep. The end.\" And Zilliam said, \"That was a silly story. Goodnight.\" And Uncle Bill said, \"Goodnight, Zilliam the Robot. I love you.\" And Zilliam said, \"I love you too.\" And that was the end of our story, because then everyone went (Snoring sounds). All right.",
+      "timestamp": 166.5
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Goodnight.",
+      "timestamp": 202
+    }
+  ],
+  "characters": [
+    {
+      "id": "91psLHIvTVpJgQBLfVP9",
+      "name": "Zilliam the Robot",
+      "description": "A robot who initially struggles with balance until he receives Lego upgrades."
+    },
+    {
+      "id": "L6XHddmLDQQTT1PVAllN",
+      "name": "Uncle Bill",
+      "description": "A diligent crew member and master Lego architect, this former visitor to Balloon World crafts perfectly symmetrical stairways and shapes iridescent purple slime into glistening rocket ships. Renowned for a sharp eye that once pierced Pluto’s crystalline shadows, they recently turned their gaze toward the forest’s depths, acting as a compassionate friend to discover and tend to a sick creature hidden in the brush. Whether providing blocks for builders, weaving bedtime stories, or offering woodland mercy, they remain a helpful soul. Yet, between these moments of structural precision and quiet rescue, they harbor a penchant for deep rest, often found napping peacefully inside the colorful confines of a toy container, tucked away amidst the playthings they share."
+    }
+  ],
+  "places": [
+    {
+      "id": "PvvAGQyUFDTklclBATcF",
+      "name": "Robot bed",
+      "description": "A surprisingly comfortable bed constructed entirely out of bricks."
+    }
+  ],
+  "wordCount": 377,
+  "izzyWordCount": 46,
+  "dadWordCount": 331
+}

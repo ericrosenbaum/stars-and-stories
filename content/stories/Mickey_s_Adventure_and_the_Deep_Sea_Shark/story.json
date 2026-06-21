@@ -1,0 +1,140 @@
+{
+  "id": "Mickey_s_Adventure_and_the_Deep_Sea_Shark",
+  "title": "Mickey's Adventure and the Deep Sea Shark",
+  "date": "2025-09-20T00:00:00.000Z",
+  "summary": "After a mouse named Mickey leaves his home for a grand adventure, a mermaid named Jessica takes to the deep sea in a submarine. Exploring the vast underwater world, she eventually comes face-to-face with a shark. The rest of her long and mysterious journey is left to the wonders of imagination.",
+  "audioFilename": "Izzy’s bedtime stories and song.m4a",
+  "highlightQuote": {
+    "text": "You'll find out in our imagination another time because it's a long story.",
+    "timestamp": 154
+  },
+  "transcript": [
+    {
+      "speaker": "Izzy",
+      "text": "Right there... Once upon a time there was a mouse named Mickey. He was away from her house. She had a big adventure so she didn't have to worry. The end.",
+      "timestamp": 6
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, I like that story. Do you have another one? I'm not sleeping yet.",
+      "timestamp": 21
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah, cause this one is about a... I'll just sing you a lullaby. Izzy cat, chicka, Minnie so high. I like to go to circus sometime and then I miss her. I miss her. She's my favorite. She's not Mickey Mouse house to me yet.",
+      "timestamp": 28
+    },
+    {
+      "speaker": "Dad",
+      "text": "Wow, that was a beautiful lullaby. Okay, could I just have one more story, do you think?",
+      "timestamp": 108
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I don't think so, but there could be a story about a mermaid. Once upon a time there was a mermaid named Jessica. She was in a submarine exploring the deep. She found a shark. The end.",
+      "timestamp": 123
+    },
+    {
+      "speaker": "Dad",
+      "text": "I love that story. Can we do the next part? What happened after she found the shark?",
+      "timestamp": 143
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I don't know.",
+      "timestamp": 148
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh. Was the shark friendly or mean?",
+      "timestamp": 151
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I don't know. Oh, okay, that's just the ending. You'll find out in our imagination another time because it's a long story.",
+      "timestamp": 154
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, it is?",
+      "timestamp": 204
+    },
+    {
+      "speaker": "Izzy",
+      "text": "So I'll just do part of it. The Minnie... um, that's it. Are you fast asleep?",
+      "timestamp": 206
+    },
+    {
+      "speaker": "Dad",
+      "text": "Zzzzz. I'm sleeping.",
+      "timestamp": 212
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Okay. Do you want a blanket?",
+      "timestamp": 215
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yes, please.",
+      "timestamp": 217
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Here. There... that's on you. Who else would like a blanket? Mickey, would you like a blanket?",
+      "timestamp": 219
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yes, please.",
+      "timestamp": 233
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Go on this mat. Put that blanket on you.",
+      "timestamp": 235
+    }
+  ],
+  "characters": [
+    {
+      "id": "s9Nza2nEZkWrD7Y9bJoe",
+      "name": "Mickey",
+      "description": "One of Mistress Mouse’s storied stuffy mice, this famous plush adventurer is a visionary benefactor who manifests fragrant blooms from magic Legos and pilots his Mousecar through lightless depths. Whether arming moles for Kitty’s investigations or securing solutions for Frasgle, he remains fiercely loyal to Minnie, Mole, Izzy, and Hattie. Accompanied by a cheerful infant and shadowed by a friend’s disappearance, his haste to reach the spires of Peacock’s castle has left him without essential provisions, miring him in a sudden, hungry peril."
+    },
+    {
+      "id": "CbpnyZP9UUNSQRM3eWra",
+      "name": "Jessica",
+      "description": "A mermaid explorer who travels in a submarine."
+    },
+    {
+      "id": "OsqKvoSHN3i3eWvoyWNR",
+      "name": "Shark",
+      "description": "A mysterious creature encountered by Jessica in the deep sea."
+    }
+  ],
+  "places": [
+    {
+      "id": "uZcAuFW7qjab9JTccgP3",
+      "name": "Mickey's house",
+      "description": "The place Mickey left behind to go on an adventure."
+    },
+    {
+      "id": "tVbgiuvsDGdY2zr8NWhQ",
+      "name": "The deep sea",
+      "description": "The vast underwater world Jessica explores in her submarine."
+    },
+    {
+      "id": "1SstBBUu7RBtPAv9tf5A",
+      "name": "Submarine",
+      "description": "A vessel used by the mermaid Jessica to investigate the ocean depths."
+    },
+    {
+      "id": "p2lyBbbxFRbFR3V9rSmZ",
+      "name": "Circus",
+      "description": "A colorful destination mentioned in a song."
+    }
+  ],
+  "wordCount": 251,
+  "izzyWordCount": 186,
+  "dadWordCount": 65
+}

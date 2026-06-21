@@ -1,0 +1,140 @@
+{
+  "id": "A_Midnight_Snack_for_a_Sleepy_Kitten",
+  "title": "A Midnight Snack for a Sleepy Kitten",
+  "date": "2025-10-26T00:00:00.000Z",
+  "summary": "When a mysterious visitor named Popomal arrives at the home of two friends named Disco, he brings along a tiny, hungry kitten. The hospitable hosts welcome the kitten inside, offering warm affection and a satisfying meal of treats and kibble. After the kitten's belly is full, it grows tired and receives gentle pats before curling up and falling fast asleep to a soothing lullaby.",
+  "audioFilename": "Cornell St 80.m4a",
+  "highlightQuote": {
+    "text": "Meow, meow, I'm a little hungry. Do you have anything for a kitty?",
+    "timestamp": 76.4
+  },
+  "transcript": [
+    {
+      "speaker": "Dad",
+      "text": "Once upon a time...",
+      "timestamp": 13
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Ding dong! Ding dong! Ding dong!",
+      "timestamp": 15
+    },
+    {
+      "speaker": "Dad",
+      "text": "Disco and Disco were in their house and the doorbell rang. They looked out the door and they didn't see anyone.",
+      "timestamp": 17.2
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And Popomal came in.",
+      "timestamp": 22.5
+    },
+    {
+      "speaker": "Dad",
+      "text": "Popomal came in and he said...",
+      "timestamp": 24.2
+    },
+    {
+      "speaker": "Dad",
+      "text": "Wait, we're trying to do a very short stars and stories and then it's time for Mama.",
+      "timestamp": 26.5
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Popomal said, \"There is a kitten here who would like to come over and get some pets. Could this kitten come in your house, Disco and Disco?\"",
+      "timestamp": 45.3
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah, Disco and Disco will come inside our house.",
+      "timestamp": 56.2
+    },
+    {
+      "speaker": "Dad",
+      "text": "Meow, meow. Yes, please! And the kitten came inside. And then what did Disco and Disco do?",
+      "timestamp": 58.7
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Gave the kitten pets.",
+      "timestamp": 66.2
+    },
+    {
+      "speaker": "Dad",
+      "text": "And the kitten said, \"Purr, purr, purr, purr, purr. Thank you for the pets.\" And then what did they do?",
+      "timestamp": 68.4
+    },
+    {
+      "speaker": "Izzy",
+      "text": "What did they do? The kitten said, \"Meow, meow, I'm a little hungry. Do you have anything for a kitty?\"",
+      "timestamp": 76.4
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yes, some treats and kibble!",
+      "timestamp": 86.3
+    },
+    {
+      "speaker": "Dad",
+      "text": "Om nom nom crunch crunch crunch crunch crunch. What food?",
+      "timestamp": 89.5
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Oh, it's my favorite! Thank you, said the kitten.",
+      "timestamp": 93.8
+    },
+    {
+      "speaker": "Dad",
+      "text": "And then the kitten said, \"Yawn. Could I have some gentle pets, please? I'm feeling a little sleepy.\"",
+      "timestamp": 98.5
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Here's a cat pet.",
+      "timestamp": 107.4
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, thank you. And the little kitten curled up... twinkle twinkle little star, how I wonder what you are. Up above the world so high, like a diamond in the sky. Twinkle twinkle little star, how I wonder what you are.",
+      "timestamp": 109
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Izzy said \"zzz\" because she had fallen asleep. And that's the end of stars and stories.",
+      "timestamp": 151.2
+    },
+    {
+      "speaker": "Dad",
+      "text": "And now it's time for Mama to help you get ready for bed.",
+      "timestamp": 161.5
+    }
+  ],
+  "characters": [
+    {
+      "id": "OMXN9OXXJnv1k4hoxk7P",
+      "name": "Disco",
+      "description": "An energetic Mischief Mole and superhero-clad detective, Disco is one of two identical twins who embark on grand adventures through the deep. Alongside her sister Thisco, this architect of the subterranean maps hidden realms—from frozen frontiers to the dusty canyons beneath the furniture—by piloting her signature submarine or racing toy cars through the bedroom's wild heights. Guided by \"Cornebyborn\" dances and Papa Mole’s lore, she finds solace within her glowing basket house, a dream sanctuary and fortress of a hundred locks. Whether navigating grimy domestic landscapes or open waters, Disco balances mechanical ingenuity with a persistent, soft-hearted wonder for the night sky."
+    },
+    {
+      "id": "dxeCZoXiD8Go8FmS3t81",
+      "name": "Popomal",
+      "description": "A visitor who arrives at the door to introduce a hungry kitten to the house."
+    },
+    {
+      "id": "k8QRttDO5Wc7X2Ci9prW",
+      "name": "The Kitten",
+      "description": "A tiny, ravenous resident of Balloon World, this playful kitten is infamously known as the \"Sneaky Popper.\" Between bouts of accidental sabotage, the hungry feline visits the house, trading their mischievous reputation for a warm bowl of food and a soft touch of affection."
+    }
+  ],
+  "places": [
+    {
+      "id": "l8MJNl5Xxx6gOoCcJTik",
+      "name": "The House",
+      "description": "The cozy home belonging to Disco and Disco where they receive their visitors."
+    }
+  ],
+  "wordCount": 273,
+  "izzyWordCount": 61,
+  "dadWordCount": 212
+}

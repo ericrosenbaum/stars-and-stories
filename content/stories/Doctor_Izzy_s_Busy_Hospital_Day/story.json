@@ -1,0 +1,325 @@
+{
+  "id": "Doctor_Izzy_s_Busy_Hospital_Day",
+  "title": "Doctor Izzy's Busy Hospital Day",
+  "date": "2026-02-22T00:00:00.000Z",
+  "summary": "Doctor Izzy manages a hectic day at her hospital, treating a diverse array of patients with everything from long toenails to sprained wings. With a steady hand and a collection of specialized tools, she performs rapid tonsillectomies, interprets X-rays, and administers vitamins to those in need. After a long day of documenting infections and performing miraculous recoveries, she successfully discharges every patient, ensuring everyone returns home healthy and healed.",
+  "audioFilename": "Dr Izzy’s hospital rounds.m4a",
+  "highlightQuote": {
+    "text": "Puke. So that one puked. And tonsils out. Tail infection. Sprained ankle. Skateboard ouchie. Sprained ankle. Tonsils out. Puke. Poop. Ate a not crunchy nut. Ate a rock. That's my message.",
+    "timestamp": 231
+  },
+  "transcript": [
+    {
+      "text": "Oh, you tripped on your foot. I kept tripping on my own knee on the way to the hospital. You did? Okay. Well, lay down and Doctor Izzy will examine you. Okay, what tools do you need for the exam, Doctor Izzy?",
+      "speaker": "Dad",
+      "timestamp": 0
+    },
+    {
+      "speaker": "Izzy",
+      "timestamp": 24,
+      "text": "Need to look at her ear, the stethoscope, medicine."
+    },
+    {
+      "text": "Okay, patient is ready. Oh, what do you see there?",
+      "timestamp": 36,
+      "speaker": "Dad"
+    },
+    {
+      "timestamp": 48,
+      "speaker": "Izzy",
+      "text": "Definitely... definitely kept tripping on the knee."
+    },
+    {
+      "text": "Kept tripping on the knee, yeah. Well, what do you see is going on with that knee there?",
+      "speaker": "Dad",
+      "timestamp": 55
+    },
+    {
+      "text": "I don't know. Trying to get his toenails clipped.",
+      "timestamp": 102,
+      "speaker": "Izzy"
+    },
+    {
+      "speaker": "Dad",
+      "timestamp": 115,
+      "text": "Oh, that's an important thing to do."
+    },
+    {
+      "text": "I can see why you were tripping on your own knee because that was because your toenail was too long.",
+      "speaker": "Izzy",
+      "timestamp": 118
+    },
+    {
+      "text": "Oh my goodness, I thought it was because of my knee. Hey, I think you solved my problem. Thank you. Thank you, Doctor Izzy. Okay, who's next in our triage?",
+      "timestamp": 125,
+      "speaker": "Dad"
+    },
+    {
+      "text": "Mine... um, my fur, my fur. My fur is too long.",
+      "speaker": "Izzy",
+      "timestamp": 138
+    },
+    {
+      "text": "Your fur is too long. Oh dear. And what problems does that cause you to have? Does it go in front of your eyes so you can't see? And is it kind of itchy? Oh, well, I think we can help you with that. Doctor Izzy, what do you recommend?",
+      "timestamp": 145,
+      "speaker": "Dad"
+    },
+    {
+      "text": "Ear-scope.",
+      "timestamp": 159,
+      "speaker": "Izzy"
+    },
+    {
+      "speaker": "Dad",
+      "timestamp": 160,
+      "text": "Ah, okay. You want me to use it? All right, I'll have a look in your ear. Oh, your ear looks okay. It's just covered with hair. What's next?"
+    },
+    {
+      "text": "Cutting the fur. There, your fur was too long. I snipped it for you. It isn't over your eyes.",
+      "timestamp": 216,
+      "speaker": "Izzy"
+    },
+    {
+      "timestamp": 225,
+      "speaker": "Dad",
+      "text": "Thank you! Wow, I can see everything."
+    },
+    {
+      "text": "Tonsils out.",
+      "speaker": "Izzy",
+      "timestamp": 231
+    },
+    {
+      "timestamp": 233,
+      "speaker": "Dad",
+      "text": "Oh, this is a major operation, Doctor Izzy. Now first we should tell the patient what's going to happen because she looks a little nervous."
+    },
+    {
+      "text": "First there's going to be some music to put you to sleep the whole time and then we're going to have to look at your tonsils. So say ah.",
+      "timestamp": 244,
+      "speaker": "Izzy"
+    },
+    {
+      "text": "Ah. Okay, let's get the music going.",
+      "speaker": "Dad",
+      "timestamp": 253
+    },
+    {
+      "text": "All right, that's enough music. Now how do we prepare the patient for the operation?",
+      "speaker": "Dad",
+      "timestamp": 317
+    },
+    {
+      "text": "She's already prepared. Now we should just... they're out! They're out!",
+      "timestamp": 326,
+      "speaker": "Izzy"
+    },
+    {
+      "timestamp": 332,
+      "speaker": "Dad",
+      "text": "Oh, the tonsils are out! That was a fast surgery, Doctor Izzy. Oh, and then we move the patient to recovery. How's she doing?"
+    },
+    {
+      "text": "Good. I sprained my wings.",
+      "timestamp": 341,
+      "speaker": "Izzy"
+    },
+    {
+      "text": "Oh, you sprained your wings. Ah, I'm sorry to hear that. It must be very painful. Now please go into the exam room and Doctor Izzy will be in shortly to examine you. Oh, come on in, Doctor Izzy.",
+      "timestamp": 343,
+      "speaker": "Dad"
+    },
+    {
+      "timestamp": 403,
+      "speaker": "Izzy",
+      "text": "Thank you, nurse. Oh, forgot to bring the speaker. Oh, no cats in the hospital. Okay."
+    },
+    {
+      "speaker": "Dad",
+      "timestamp": 495,
+      "text": "And the patient says, um, excuse me, I'm waiting for my sprained wing to be treated by a doctor. Are you available?"
+    },
+    {
+      "timestamp": 505,
+      "speaker": "Izzy",
+      "text": "Yeah, just this song to make you fall asleep."
+    },
+    {
+      "timestamp": 509,
+      "speaker": "Dad",
+      "text": "Oh, I see. I don't think that's going to make me fall asleep because... zzz... oh, Doctor Izzy, I think the patient is asleep. Well, do we need to X-ray that wing or just examine it?"
+    },
+    {
+      "timestamp": 551,
+      "speaker": "Izzy",
+      "text": "Took one X-ray."
+    },
+    {
+      "timestamp": 598,
+      "speaker": "Dad",
+      "text": "Okay. Here's the X-ray, Doctor Izzy. What do you see? How's it look?"
+    },
+    {
+      "text": "It looks like a sprained wing to me.",
+      "timestamp": 606,
+      "speaker": "Izzy"
+    },
+    {
+      "text": "A sprained wing, I see. And what do you recommend for a treatment for that sprained wing? Just some pain medicine or maybe a bandage or a sling?",
+      "speaker": "Dad",
+      "timestamp": 609
+    },
+    {
+      "text": "Just the medicine. It was just a few more X-rays. I sprained my tail. I sprained my tail right there.",
+      "timestamp": 621,
+      "speaker": "Izzy"
+    },
+    {
+      "speaker": "Dad",
+      "timestamp": 640,
+      "text": "Now I notice you've got a big flower bow on your tail."
+    },
+    {
+      "text": "No, no, no, that's my tail warmer.",
+      "speaker": "Izzy",
+      "timestamp": 644
+    },
+    {
+      "text": "Oh, your tail warmer. Do you think that might have caused your sprain?",
+      "speaker": "Dad",
+      "timestamp": 647
+    },
+    {
+      "timestamp": 651,
+      "speaker": "Izzy",
+      "text": "No. I slipped on the ice when I was ice skating a few months ago."
+    },
+    {
+      "timestamp": 659,
+      "speaker": "Dad",
+      "text": "Oh, you slipped on the ice when you were ice skating. I see. Well, come on in the exam room and Doctor Izzy will examine you."
+    },
+    {
+      "timestamp": 708,
+      "speaker": "Izzy",
+      "text": "I'll have to sleep like that, on my side. Doesn't look good to me. I'll get some... here's a screw, we need some vitamins. Here's your vitamin."
+    },
+    {
+      "text": "Okay, thank you, but my tail still hurts a lot. Do you think that tail might need a cast or a bandage or maybe even a surgery?",
+      "timestamp": 747,
+      "speaker": "Dad"
+    },
+    {
+      "speaker": "Izzy",
+      "timestamp": 803,
+      "text": "I think I'll get a bandage from somewhere. I wrote down a few surgeries, now I'm going to write down the next surgeries. I've written down all the infections that we had."
+    },
+    {
+      "text": "Oh, could you read your medical note to me, please, Doctor Izzy?",
+      "speaker": "Dad",
+      "timestamp": 931
+    },
+    {
+      "timestamp": 1028,
+      "speaker": "Izzy",
+      "text": "Puke. So that one puked. And tonsils out. Tail infection. Sprained ankle. Skateboard ouchie. Sprained ankle. Tonsils out. Puke. Poop. Ate a not crunchy nut. Ate a rock. That's my message."
+    },
+    {
+      "timestamp": 1131,
+      "speaker": "Dad",
+      "text": "Wow, you had a busy day seeing patients, Doctor Izzy, but I think you healed everyone."
+    },
+    {
+      "speaker": "Izzy",
+      "timestamp": 1139,
+      "text": "I didn't heal everybody. Only one patient's left. Zoe Rodda. Oh, I sprained my tail."
+    },
+    {
+      "text": "Zoe Rodda, okay. Well, come on into the exam room. You sprained your tail too? Okay, well, lie down on your side so that Doctor Izzy can examine your tail.",
+      "timestamp": 1153,
+      "speaker": "Dad"
+    },
+    {
+      "speaker": "Izzy",
+      "timestamp": 1209,
+      "text": "Fixed already! I just used my doctor tools."
+    },
+    {
+      "speaker": "Dad",
+      "timestamp": 1211,
+      "text": "Oh, thanks! What was wrong with it? How did you fix it so fast? Wow, Doctor Izzy, you're a very skillful healer."
+    },
+    {
+      "text": "Now they're all discharged. Dad, can I bring these ones home and you can bring the rest?",
+      "timestamp": 1228,
+      "speaker": "Izzy"
+    },
+    {
+      "text": "Yep, we can discharge everyone because they're all better. Okay, we'll bring everybody home from the hospital.",
+      "speaker": "Dad",
+      "timestamp": 1232
+    }
+  ],
+  "characters": [
+    {
+      "id": "BCa0JL5vmn81wPkxdyuS",
+      "name": "Dr. Izzy",
+      "description": "The dedicated physician at the animal hospital who treats Buddy, wielding a specialized blue earoscope with practiced precision to diagnose her patients."
+    },
+    {
+      "id": "0d2IFKxiH8Da8XzWrBn3",
+      "name": "Dad",
+      "description": "Kitty’s father remains a pillar of steady eccentricity, an unflappable co-pilot and accommodating listener who balances technical logistics with a patient support for his daughter’s restless need for activity. He manages mission equipment with the same meticulous intensity he once brought to scanning the midnight undergrowth for missing cats, his stoicism famously underscored by the irony of a nagging knee complaint—diagnosed as overgrown toenails—that never wavers his resolve."
+    },
+    {
+      "id": "3Zqa40ODmFRWbPfRGtMR",
+      "name": "Furry Patient",
+      "description": "An animal with excessively long fur that obstructed its vision and caused itchiness."
+    },
+    {
+      "id": "umTOqVeIvHiS3AbE6WbS",
+      "name": "Tonsil Patient",
+      "description": "A nervous patient who underwent a major tonsillectomy while listening to soothing music."
+    },
+    {
+      "id": "D3m8glSDy7ZjiIckbUDx",
+      "name": "Bird",
+      "description": "High within the foliage, the creature’s rhythmic chirping signals a steady recovery from a sprained wing that once required clinical X-rays and a precise regimen of specialized pain medicine."
+    },
+    {
+      "id": "HIiZAHhOC6VGjdPIsGx4",
+      "name": "Mouse",
+      "description": "An ice-skating enthusiast who sprained its tail and wears a tail warmer."
+    },
+    {
+      "id": "sXYHsAkGNmeMBxVGNKGE",
+      "name": "Zoe Rodda",
+      "description": "The final patient of the day who received treatment for a sprained tail."
+    }
+  ],
+  "places": [
+    {
+      "id": "PJIaMxbi9FPt73z9f2On",
+      "name": "The Hospital",
+      "description": "The clinical hub for surgeries and examinations, now transformed into a hushed, antiseptic sanctuary where Mama and her newborn recover amidst the sterile hum of life-sustaining machinery."
+    },
+    {
+      "id": "5vNrwsinWN23QbS4hjBJ",
+      "name": "Exam Room",
+      "description": "A specialized room within the hospital used for diagnostics and consultations."
+    },
+    {
+      "id": "hrgEyoCpiLQ1bvIt0Ako",
+      "name": "Recovery Room",
+      "description": "The area where patients rest and recover following their surgeries."
+    },
+    {
+      "id": "GkcEAOYT8SJn3gLHAYql",
+      "name": "Ice Skating Rink",
+      "description": "The location where the mouse suffered a tail injury during a slip."
+    }
+  ],
+  "wordCount": 908,
+  "izzyWordCount": 331,
+  "dadWordCount": 577
+}

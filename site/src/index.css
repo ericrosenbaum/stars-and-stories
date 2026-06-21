@@ -1,0 +1,75 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --color-brand: var(--brand);
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+}
+
+@layer base {
+  :root {
+    --brand: #5A5A40;
+    --background: #FDFCFB;
+    --surface: #FFFFFF;
+    --foreground: #1a1a1a;
+    --muted: #5A5A40;
+    --border: #E5E5E0;
+  }
+
+  .dark {
+    --brand: #A68B5B;
+    --background: #121210;
+    --surface: #1C1C1A;
+    --foreground: #F5F5F0;
+    --muted: #D0D0B0;
+    --border: #2D322B;
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    @apply transition-colors duration-300 min-h-screen;
+  }
+
+  /* Starry background for dark mode */
+  .dark .starry-bg {
+    background-image:
+      radial-gradient(1px 1px at 20px 30px, #FFFAE0, rgba(0,0,0,0)),
+      radial-gradient(1px 1px at 40px 70px, #FFFAE0, rgba(0,0,0,0)),
+      radial-gradient(1px 1px at 50px 160px, #FFFAE0, rgba(0,0,0,0)),
+      radial-gradient(2px 2px at 90px 40px, #FFFAE0, rgba(0,0,0,0)),
+      radial-gradient(2px 2px at 130px 80px, #FFFAE0, rgba(0,0,0,0)),
+      radial-gradient(1px 1px at 160px 120px, #FFFAE0, rgba(0,0,0,0));
+    background-repeat: repeat;
+    background-size: 200px 200px;
+    opacity: 0.3;
+    pointer-events: none;
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+  }
+}
+
+.markdown-body {
+  @apply text-foreground leading-relaxed;
+}
+
+.markdown-body p {
+  @apply mb-4;
+}
+
+.markdown-body h1, .markdown-body h2, .markdown-body h3 {
+  @apply font-serif font-bold mb-4 mt-6;
+}
+
+.markdown-body ul, .markdown-body ol {
+  @apply mb-4 ml-6 list-disc;
+}
+
+.markdown-body li {
+  @apply mb-2;
+}

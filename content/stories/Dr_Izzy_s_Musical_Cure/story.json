@@ -1,0 +1,100 @@
+{
+  "id": "Dr_Izzy_s_Musical_Cure",
+  "title": "Dr. Izzy's Musical Cure",
+  "date": "2026-02-22T00:00:00.000Z",
+  "summary": "When a patient arrives with a painful earache, Dr. Izzy performs a thorough examination using her medical tools. After confirming the severity of the soreness, she skips traditional medicine and prescribes a specialized treatment of music to aid the recovery.",
+  "audioFilename": "Cornell St 102.m4a",
+  "highlightQuote": {
+    "text": "Music.",
+    "timestamp": 64
+  },
+  "transcript": [
+    {
+      "text": "Oh, I have a sore ear.",
+      "speaker": "Izzy",
+      "timestamp": 0
+    },
+    {
+      "text": "You have a sore ear? Okay. Well, Dr. Izzy will take a look.",
+      "speaker": "Dad",
+      "timestamp": 4
+    },
+    {
+      "timestamp": 12,
+      "speaker": "Izzy",
+      "text": "Can you..."
+    },
+    {
+      "text": "And here's your earoscope.",
+      "timestamp": 14,
+      "speaker": "Dad"
+    },
+    {
+      "timestamp": 17,
+      "speaker": "Izzy",
+      "text": "No, the blue one's the earoscope."
+    },
+    {
+      "text": "Here you go.",
+      "timestamp": 21,
+      "speaker": "Dad"
+    },
+    {
+      "speaker": "Dad",
+      "timestamp": 26,
+      "text": "What did you see, Dr. Izzy?"
+    },
+    {
+      "timestamp": 28,
+      "speaker": "Izzy",
+      "text": "I saw that it really was like a bit... definitely needed to come... definitely. Can you remember that one thing?"
+    },
+    {
+      "text": "Oh, the ears.",
+      "speaker": "Dad",
+      "timestamp": 54
+    },
+    {
+      "text": "Yeah, the ears were really sore.",
+      "timestamp": 57,
+      "speaker": "Izzy"
+    },
+    {
+      "text": "Oh yeah, sore ear. What treatment do you recommend?",
+      "timestamp": 60,
+      "speaker": "Dad"
+    },
+    {
+      "text": "Music.",
+      "timestamp": 64,
+      "speaker": "Izzy"
+    },
+    {
+      "speaker": "Dad",
+      "timestamp": 66,
+      "text": "Music! Okay."
+    }
+  ],
+  "characters": [
+    {
+      "id": "BCa0JL5vmn81wPkxdyuS",
+      "name": "Dr. Izzy",
+      "description": "The dedicated physician at the animal hospital who treats Buddy, wielding a specialized blue earoscope with practiced precision to diagnose her patients."
+    },
+    {
+      "id": "NUvW33wltGb5kbk0q15o",
+      "name": "The Patient",
+      "description": "An individual suffering from a severe and persistent earache."
+    }
+  ],
+  "places": [
+    {
+      "id": "QIeIhhCu4fPAbv9ZWvu4",
+      "name": "The Doctor's Office",
+      "description": "A medical setting where patients receive examinations and unique prescriptions."
+    }
+  ],
+  "wordCount": 81,
+  "izzyWordCount": 41,
+  "dadWordCount": 40
+}
