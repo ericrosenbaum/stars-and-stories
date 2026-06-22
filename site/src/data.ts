@@ -51,6 +51,8 @@ export interface CanonicalEntity {
   description: string;
   storyIds: string[];
   firstAppearanceStoryId: string | null;
+  /** Path (relative to the site root) of an optimized reference portrait, if any. */
+  image?: string;
 }
 
 const BASE = import.meta.env.BASE_URL; // always ends with '/'

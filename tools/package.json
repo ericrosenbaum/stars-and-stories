@@ -6,8 +6,10 @@
   "description": "Local CLI tools for the Stars & Stories archive: migrate the export, build the static site bundle, and add new stories from voice memos.",
   "scripts": {
     "import": "tsx import-export.ts",
+    "import-images": "tsx import-character-images.ts",
     "build": "tsx build-site.ts",
     "add": "tsx add-story.ts",
+    "regen-image": "tsx regen-image.ts",
     "world-dna": "tsx gen-world-dna.ts",
     "verify-models": "tsx verify-models.ts"
   },

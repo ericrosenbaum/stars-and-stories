@@ -15,14 +15,18 @@ import {
   SITE_DATA_DIR,
   SITE_DATA_STORIES_DIR,
   SITE_MEDIA_DIR,
+  SITE_MEDIA_CHARACTERS_DIR,
+  findCharacterImage,
   ensureDir,
 } from './lib/paths.ts';
 import { optimizeAudio, optimizeImage } from './lib/media.ts';
-import type { StoryRecord } from './lib/types.ts';
+import type { StoryRecord, CanonicalEntity } from './lib/types.ts';
 
 const AUDIO_BITRATE = process.env.AUDIO_BITRATE || '40k';
 const WEBP_QUALITY = Number(process.env.WEBP_QUALITY || '72');
 const WEBP_WIDTH = Number(process.env.WEBP_WIDTH || '1280');
+const CHAR_IMG_QUALITY = Number(process.env.CHAR_IMG_QUALITY || '80');
+const CHAR_IMG_WIDTH = Number(process.env.CHAR_IMG_WIDTH || '512');
 
 function loadStories(): StoryRecord[] {
   if (!fs.existsSync(CONTENT_STORIES_DIR)) {
@@ -98,7 +102,24 @@ export async function buildSite({ force = false } = {}): Promise<void> {
   }
   fs.writeFileSync(path.join(SITE_DATA_DIR, 'stories-index.json'), JSON.stringify(index));
 
-  fs.copyFileSync(CONTENT_CHARACTERS, path.join(SITE_DATA_DIR, 'characters.json'));
+  // Characters: optimize any reference image into media/characters/<id>.webp and
+  // annotate the served record with its `image` path so the site can render it.
+  ensureDir(SITE_MEDIA_CHARACTERS_DIR);
+  const characters: (CanonicalEntity & { image?: string })[] = JSON.parse(
+    fs.readFileSync(CONTENT_CHARACTERS, 'utf8'),
+  );
+  let encodedCharImg = 0;
+  for (const c of characters) {
+    const src = findCharacterImage(c.id);
+    if (!src) continue;
+    const out = path.join(SITE_MEDIA_CHARACTERS_DIR, `${c.id}.webp`);
+    if (force || !fs.existsSync(out)) {
+      await optimizeImage(src, out, CHAR_IMG_WIDTH, CHAR_IMG_QUALITY);
+      encodedCharImg++;
+    }
+    c.image = `media/characters/${c.id}.webp`;
+  }
+  fs.writeFileSync(path.join(SITE_DATA_DIR, 'characters.json'), JSON.stringify(characters));
   fs.copyFileSync(CONTENT_PLACES, path.join(SITE_DATA_DIR, 'places.json'));
 
   const worldDna = fs.existsSync(CONTENT_WORLD_DNA) ? fs.readFileSync(CONTENT_WORLD_DNA, 'utf8') : '';
@@ -127,7 +148,7 @@ export async function buildSite({ force = false } = {}): Promise<void> {
   });
 
   console.log(`Wrote stories-index.json (${index.length} stories) + per-story JSON + entities.`);
-  console.log(`Audio encoded: ${encodedAudio}, images encoded: ${encodedImg} (existing skipped).`);
+  console.log(`Audio encoded: ${encodedAudio}, images encoded: ${encodedImg}, character images encoded: ${encodedCharImg} (existing skipped).`);
   console.log(`Media: ${mb(dirSize(SITE_MEDIA_DIR))} | Data: ${mb(dirSize(SITE_DATA_DIR))}`);
 }
 

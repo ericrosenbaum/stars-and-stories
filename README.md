@@ -65,6 +65,39 @@ illustration, merges any new characters/places into the archive, writes a new
 
 Re-running the same audio file is detected (by hash) and rejected, so it's safe.
 
+### Character reference images
+
+Some characters have a reference portrait (from the world-inventory export,
+`StarsAndStories_World_Inventory_*/characters/<Name>/image.*`). Import them once:
+
+```bash
+cd tools
+npm run import-images   # matches each by name -> content/characters/<id>/reference.*
+npm run build           # optimizes them -> site/public/media/characters/*.webp
+```
+
+This shows the portrait on the character's card in the site's **Characters** view,
+and — more importantly — feeds the image as a reference whenever a header image is
+generated for a story that character appears in (so they stay visually consistent).
+When the prompt mentions such a character it tags them `(as in the image reference)`.
+
+Originals (`content/characters/**/reference.*`) are kept out of git like the other
+source media; the optimized webp under `site/public/media/characters` is committed.
+
+### Regenerating a single story's header image
+
+```bash
+cd tools
+npm run regen-image -- <story-slug>
+# options: --prompt "your own prompt text"   --no-webp
+```
+
+It prints the prompt it uses and the list of character reference images fed to the
+model, then overwrites `content/stories/<slug>/source.png` and the served
+`header.webp`. Pass `--prompt` to dictate the scene yourself; otherwise the prompt
+is generated from the story (the `<story-slug>` is the folder name under
+`content/stories/`, i.e. the `#/story/<slug>` part of the site URL).
+
 ### Refreshing the "World DNA" essay
 
 The deep-analysis essay isn't part of the data export. Generate or refresh it:

@@ -291,8 +291,16 @@ export async function generateImagePrompt(
     inlineData: { data: img.data, mimeType: img.mimeType },
   }));
   const entityDescriptions = entityImages
-    .map((e) => `${e.type.toUpperCase()}: ${e.name}${e.description ? ` - ${e.description}` : ''}`)
+    .map((e) => `- ${e.name}${e.description ? `: ${e.description}` : ''}`)
     .join('\n');
+
+  const referenceBlock = entityImages.length
+    ? `Reference Images:
+            The attached images are visual references for these characters (in the same order):
+            ${entityDescriptions}
+
+            CRITICAL REFERENCE RULE: For any of the characters listed above that you mention in your prompt, you MUST append the exact phrase "(as in the image reference)" immediately after the character's name (for example: "Seeker (as in the image reference) stands beside a glowing lantern"). This keeps them visually consistent with the attached reference images. Do NOT use this phrase for any character that is not in the list above.`
+    : '';
 
   const response = await ai.models.generateContent({
     model: textModel(),
@@ -314,12 +322,11 @@ export async function generateImagePrompt(
 
             Story Summary: ${summary}
 
-            Character & Location Descriptions:
-            ${entityDescriptions}
+            ${referenceBlock}
 
             Transcript Snippet (for context): ${JSON.stringify(transcript.slice(0, 20))}
 
-            The prompt should describe this single scene in visual terms, focusing on the arrangement of characters, objects, and setting. Incorporate visual elements from reference images to maintain character/place consistency.
+            The prompt should describe this single scene in visual terms, focusing on the arrangement of characters, objects, and setting. Incorporate visual elements from the reference images to maintain character consistency.
 
             CRITICAL SAFETY RULE: Never use copyrighted names or specific trademarked characters in the prompt.
             Specifically, if "Mickey Mouse" or "Minnie Mouse" are mentioned in the story, replace them with descriptive terms like "a cheerful cartoon mouse" or "a friendly animated mouse".

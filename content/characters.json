@@ -190,7 +190,8 @@
     "name": "Wobbly Whisker",
     "description": "A small kitten who gets lost on the Planet of the Mookers and becomes very sticky.",
     "storyIds": [
-      "Wobbly_Whisker_s_Sticky_Adventure_on_Planet_Mooker"
+      "Wobbly_Whisker_s_Sticky_Adventure_on_Planet_Mooker",
+      "The_Magic_Star_Potion_and_the_Journey_to_Star_World"
     ],
     "firstAppearanceStoryId": "Wobbly_Whisker_s_Sticky_Adventure_on_Planet_Mooker"
   },
@@ -330,7 +331,8 @@
       "The_Magic_of_Slime_School",
       "Shark_Friends_and_the_Deep_Deep_Dark",
       "The_Sparkling_Dust_of_Book_World",
-      "The_Salty_Solution_for_a_Frozen_Island"
+      "The_Salty_Solution_for_a_Frozen_Island",
+      "The_Magic_Star_Potion_and_the_Journey_to_Star_World"
     ],
     "firstAppearanceStoryId": "Frasgle_and_the_Sticky_Situation"
   },
@@ -422,7 +424,8 @@
     "description": "Residing within the loftiest tower of a hilltop castle, this majestic bird wizard is draped in a vibrant mantle of pink and yellow feathers that shimmer with arcane grace.",
     "storyIds": [
       "Tigger_s_Quest_for_the_Wizard_s_Magic_Wand",
-      "Peacock_s_Castle_and_the_Neighborhood_Photo_Project"
+      "Peacock_s_Castle_and_the_Neighborhood_Photo_Project",
+      "The_Magic_Star_Potion_and_the_Journey_to_Star_World"
     ],
     "firstAppearanceStoryId": "Tigger_s_Quest_for_the_Wizard_s_Magic_Wand"
   },
@@ -1339,7 +1342,8 @@
     "description": "An obsessive chronometeorologist who views sleep as a luxury the world cannot afford, they spend their days and sunless nights tethered to a brass-bound \"time wind tracker.\" With eyes bloodshot from perpetual vigilance, they monitor the shifting currents of temporal drafts, sacrificing rest to calibrate their instruments and fortify their laboratory against the encroaching gale of an impending storm.",
     "storyIds": [
       "The_Floof-Berry_Mission_and_the_Great_Snowstorm",
-      "The_Sleepy-Time_Science_Experiment"
+      "The_Sleepy-Time_Science_Experiment",
+      "The_Magic_Star_Potion_and_the_Journey_to_Star_World"
     ],
     "firstAppearanceStoryId": "The_Floof-Berry_Mission_and_the_Great_Snowstorm"
   },
@@ -2189,7 +2193,8 @@
       "The_Galactic_Search_for_Chicky",
       "The_Sneaky_Popper_of_Balloon_World",
       "The_Magic_of_Slime_School",
-      "Dr_Izzy_and_the_Forest_Rescue"
+      "Dr_Izzy_and_the_Forest_Rescue",
+      "The_Magic_Star_Potion_and_the_Journey_to_Star_World"
     ],
     "firstAppearanceStoryId": "Haddy_the_Mouse_and_the_Lego_Airplane"
   },
@@ -2249,7 +2254,8 @@
       "Shark_Friends_and_the_Deep_Deep_Dark",
       "The_Rainbow_Fruit_World_and_the_Great_Lemon_Fish_Debate",
       "The_Sparkling_Dust_of_Book_World",
-      "The_Salty_Solution_for_a_Frozen_Island"
+      "The_Salty_Solution_for_a_Frozen_Island",
+      "The_Magic_Star_Potion_and_the_Journey_to_Star_World"
     ],
     "firstAppearanceStoryId": "Dimitar_and_the_Blueberry_Dragon_Pop"
   },
@@ -2599,7 +2605,8 @@
       "Ova_s_Birthday_and_the_Quiet_Mole_Exploration",
       "Rainbow_Disco_Science_with_Uncle_Grisco",
       "Seeker_s_Deep_Earth_Adventure",
-      "The_Floof-Berry_Mission_and_the_Great_Snowstorm"
+      "The_Floof-Berry_Mission_and_the_Great_Snowstorm",
+      "The_Magic_Star_Potion_and_the_Journey_to_Star_World"
     ],
     "firstAppearanceStoryId": "The_Mischiefy_Moles_and_the_Bookcase_of_Chaos"
   },
@@ -3009,7 +3016,8 @@
       "The_Thirty_Cats_of_Kibble_World",
       "The_Rainbow_Fruit_World_and_the_Great_Lemon_Fish_Debate",
       "The_Sparkling_Dust_of_Book_World",
-      "The_Salty_Solution_for_a_Frozen_Island"
+      "The_Salty_Solution_for_a_Frozen_Island",
+      "The_Magic_Star_Potion_and_the_Journey_to_Star_World"
     ],
     "firstAppearanceStoryId": "The_Mischief_Moles_and_the_Plane_of_Fire"
   },
@@ -5145,7 +5153,8 @@
       "The_Ice_Dragon_s_Sparkly_Castle_and_the_Great_Ice_Festival",
       "The_Ice_Dragon_s_New_Hat",
       "The_Quest_for_the_Moon_Mother",
-      "The_Salty_Solution_for_a_Frozen_Island"
+      "The_Salty_Solution_for_a_Frozen_Island",
+      "The_Magic_Star_Potion_and_the_Journey_to_Star_World"
     ],
     "firstAppearanceStoryId": "Dimitar_and_the_Castle_of_Ice_Fangsicle"
   },
@@ -5424,7 +5433,8 @@
       "Mossy_s_New_Home_at_River_Lake",
       "Auntie_Mulberry_s_Magical_Mole_Pie",
       "The_Mischief_Moles_and_the_Plane_of_Fire",
-      "The_Moles_Great_Aquarium_Adventure"
+      "The_Moles_Great_Aquarium_Adventure",
+      "The_Magic_Star_Potion_and_the_Journey_to_Star_World"
     ],
     "firstAppearanceStoryId": "Disco_and_Thisco_s_Deep-Sea_Submarine_Adventure"
   },
@@ -6704,5 +6714,41 @@
       "Tigger_s_Quest_for_the_Wizard_s_Magic_Wand"
     ],
     "firstAppearanceStoryId": "Tigger_s_Quest_for_the_Wizard_s_Magic_Wand"
+  },
+  {
+    "id": "9aeda0579c6343b89c03",
+    "name": "Beeker",
+    "description": "Bunsen's assistant who communicates using squeaky 'meep' sounds.",
+    "storyIds": [
+      "The_Magic_Star_Potion_and_the_Journey_to_Star_World"
+    ],
+    "firstAppearanceStoryId": "The_Magic_Star_Potion_and_the_Journey_to_Star_World"
+  },
+  {
+    "id": "43a26bd766af42b386a7",
+    "name": "Gagak",
+    "description": "A winged bird creature who wishes to stick stars on his wings.",
+    "storyIds": [
+      "The_Magic_Star_Potion_and_the_Journey_to_Star_World"
+    ],
+    "firstAppearanceStoryId": "The_Magic_Star_Potion_and_the_Journey_to_Star_World"
+  },
+  {
+    "id": "9d426f029a694da5a17a",
+    "name": "Wobbly Whisker's mom",
+    "description": "Wobbly Whisker's loving mother who reunites with him in Star World.",
+    "storyIds": [
+      "The_Magic_Star_Potion_and_the_Journey_to_Star_World"
+    ],
+    "firstAppearanceStoryId": "The_Magic_Star_Potion_and_the_Journey_to_Star_World"
+  },
+  {
+    "id": "db93b18689054729997e",
+    "name": "Ancient Star",
+    "description": "A giant, wise ball of light that is billions of years old.",
+    "storyIds": [
+      "The_Magic_Star_Potion_and_the_Journey_to_Star_World"
+    ],
+    "firstAppearanceStoryId": "The_Magic_Star_Potion_and_the_Journey_to_Star_World"
   }
 ]

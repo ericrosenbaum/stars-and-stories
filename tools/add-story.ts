@@ -28,6 +28,7 @@ import { computeWordCounts } from './lib/wordcount.ts';
 import { recoverQuoteTimestamp } from './lib/quote.ts';
 import { uniqueSlug } from './lib/slug.ts';
 import { recomputeEntityLinks } from './lib/entities.ts';
+import { loadCharacterRefImages } from './lib/refimages.ts';
 import { transcribeAndAnalyze, generateStoryHeaderImage, mergeEntityDescription } from './lib/gemini.ts';
 import { buildSite } from './build-site.ts';
 import type { StoryRecord, EmbeddedEntity, CanonicalEntity, ManifestEntry, HighlightQuote } from './lib/types.ts';
@@ -176,7 +177,11 @@ fs.copyFileSync(audioPath, path.join(destDir, 'source.m4a'));
 if (!flags.has('--no-image')) {
   try {
     console.log('Generating header image with Gemini...');
-    const dataUrl = await generateStoryHeaderImage(analysis.summary, analysis.transcript, []);
+    const refImages = loadCharacterRefImages(charMerge.embedded);
+    if (refImages.length) {
+      console.log(`  using ${refImages.length} character reference image(s): ${refImages.map((r) => r.name).join(', ')}`);
+    }
+    const dataUrl = await generateStoryHeaderImage(analysis.summary, analysis.transcript, refImages);
     if (dataUrl) {
       const b64 = dataUrl.split(',')[1];
       fs.writeFileSync(path.join(destDir, 'source.png'), Buffer.from(b64, 'base64'));

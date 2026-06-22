@@ -564,7 +564,8 @@
     "storyIds": [
       "The_Giant_Rescue_on_Volcano_Island",
       "The_Sardine_Bakery_and_the_Rainbow_Disco_Birthday",
-      "The_Sparkling_Dust_of_Book_World"
+      "The_Sparkling_Dust_of_Book_World",
+      "The_Magic_Star_Potion_and_the_Journey_to_Star_World"
     ],
     "firstAppearanceStoryId": "The_Giant_Rescue_on_Volcano_Island"
   },
@@ -859,7 +860,8 @@
     "description": "At the final stop of the long train journey stands a meticulously crafted dollhouse, a quiet sanctuary where tiny, sharpened pencils await the scholarly paws of resident mice.",
     "storyIds": [
       "The_Chugga-Chugga_Journey_to_Nana_s_House",
-      "The_Salty_Solution_for_a_Frozen_Island"
+      "The_Salty_Solution_for_a_Frozen_Island",
+      "The_Magic_Star_Potion_and_the_Journey_to_Star_World"
     ],
     "firstAppearanceStoryId": "The_Chugga-Chugga_Journey_to_Nana_s_House"
   },
@@ -4211,7 +4213,8 @@
       "Dr_Izzy_and_the_Forest_Rescue",
       "Wobbly_Whisker_s_Sticky_Adventure_on_Planet_Mooker",
       "The_Rainbow_Fruit_World_and_the_Great_Lemon_Fish_Debate",
-      "The_Sparkling_Dust_of_Book_World"
+      "The_Sparkling_Dust_of_Book_World",
+      "The_Magic_Star_Potion_and_the_Journey_to_Star_World"
     ],
     "firstAppearanceStoryId": "A_Sticky_Adventure_to_the_Castle_of_Slime"
   },
@@ -4870,5 +4873,14 @@
       "The_Legend_of_the_Ice_Gem"
     ],
     "firstAppearanceStoryId": "The_Legend_of_the_Ice_Gem"
+  },
+  {
+    "id": "2858a34e2943493d9abd",
+    "name": "Star World",
+    "description": "A breathtaking cosmic dimension set in the dark expanse of space, surrounded by beautiful stars.",
+    "storyIds": [
+      "The_Magic_Star_Potion_and_the_Journey_to_Star_World"
+    ],
+    "firstAppearanceStoryId": "The_Magic_Star_Potion_and_the_Journey_to_Star_World"
   }
 ]

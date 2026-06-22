@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { Users, MapPin, Search, Sparkles, BookOpen } from 'lucide-react';
 import { motion } from 'motion/react';
-import { CanonicalEntity } from '../data';
+import { CanonicalEntity, assetUrl } from '../data';
 
 export default function WorldInventory({
   type,
@@ -135,24 +135,33 @@ function EntityCard({
         isHighlighted ? 'border-brand ring-2 ring-brand ring-opacity-20 scale-[1.02]' : 'border-border'
       }`}
     >
-      <h3 className="text-xl font-serif font-bold text-foreground flex items-center gap-2 mb-3">
-        {entity.name}
-        {entity.storyIds && entity.storyIds.length > 0 && (
-          <span className="text-[10px] bg-brand/10 text-brand px-2 py-0.5 rounded-full font-sans font-bold">
-            {entity.storyIds.length} {entity.storyIds.length === 1 ? 'story' : 'stories'}
-          </span>
+      <div className="flex gap-4">
+        {entity.image && (
+          <div className="w-24 h-24 md:w-28 md:h-28 rounded-xl overflow-hidden border border-border bg-background shrink-0">
+            <img src={assetUrl(entity.image)} alt={entity.name} loading="lazy" className="w-full h-full object-cover" />
+          </div>
         )}
-      </h3>
+        <div className="flex-1 min-w-0">
+          <h3 className="text-xl font-serif font-bold text-foreground flex items-center gap-2 mb-3">
+            {entity.name}
+            {entity.storyIds && entity.storyIds.length > 0 && (
+              <span className="text-[10px] bg-brand/10 text-brand px-2 py-0.5 rounded-full font-sans font-bold">
+                {entity.storyIds.length} {entity.storyIds.length === 1 ? 'story' : 'stories'}
+              </span>
+            )}
+          </h3>
 
-      <div className="relative">
-        <p ref={descriptionRef} className={`text-muted text-sm leading-relaxed italic mb-2 ${!isExpanded ? 'line-clamp-3' : ''}`}>
-          {entity.description || 'No description yet.'}
-        </p>
-        {(isTruncated || isExpanded) && (
-          <button onClick={() => setIsExpanded(!isExpanded)} className="text-[10px] font-bold uppercase tracking-widest text-brand hover:text-foreground transition-colors">
-            {isExpanded ? 'Show Less' : 'Read More'}
-          </button>
-        )}
+          <div className="relative">
+            <p ref={descriptionRef} className={`text-muted text-sm leading-relaxed italic mb-2 ${!isExpanded ? 'line-clamp-3' : ''}`}>
+              {entity.description || 'No description yet.'}
+            </p>
+            {(isTruncated || isExpanded) && (
+              <button onClick={() => setIsExpanded(!isExpanded)} className="text-[10px] font-bold uppercase tracking-widest text-brand hover:text-foreground transition-colors">
+                {isExpanded ? 'Show Less' : 'Read More'}
+              </button>
+            )}
+          </div>
+        </div>
       </div>
 
       {entity.storyIds && entity.storyIds.length > 0 && (
