@@ -1,6 +1,13 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
+/* Drive the `dark:` variant from the .dark class (toggled on <html> by the
+   in-app theme switch) instead of Tailwind v4's default prefers-color-scheme.
+   Without this, dark-mode utilities like `dark:prose-invert` only fire when the
+   OS is dark, so the World DNA headings/bold render near-black on the dark
+   surface (invisible) whenever the app is toggled to dark on a light-mode OS. */
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme {
   --color-brand: var(--brand);
   --color-background: var(--background);
