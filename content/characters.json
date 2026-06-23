@@ -332,7 +332,8 @@
       "Shark_Friends_and_the_Deep_Deep_Dark",
       "The_Sparkling_Dust_of_Book_World",
       "The_Salty_Solution_for_a_Frozen_Island",
-      "The_Magic_Star_Potion_and_the_Journey_to_Star_World"
+      "The_Magic_Star_Potion_and_the_Journey_to_Star_World",
+      "An_Accidental_Trip_to_Nana_s_House"
     ],
     "firstAppearanceStoryId": "Frasgle_and_the_Sticky_Situation"
   },
@@ -1696,7 +1697,8 @@
       "The_Imaginary_Road_Trip_to_Nana_s_House",
       "The_Tale_of_the_Talking_Gluten-Free_Broccoli",
       "The_Great_Kibble_Cat-astrophe",
-      "Dimitar_s_Flight_to_Cadasori"
+      "Dimitar_s_Flight_to_Cadasori",
+      "An_Accidental_Trip_to_Nana_s_House"
     ],
     "firstAppearanceStoryId": "The_Chugga-Chugga_Journey_to_Nana_s_House"
   },
@@ -2230,7 +2232,8 @@
     "name": "Gorp",
     "description": "A cat traveler who journeys to Cat World and discovers his role in the story.",
     "storyIds": [
-      "The_Wizard_Seker_and_the_Magical_Can_Opener_of_Cat_World"
+      "The_Wizard_Seker_and_the_Magical_Can_Opener_of_Cat_World",
+      "An_Accidental_Trip_to_Nana_s_House"
     ],
     "firstAppearanceStoryId": "The_Wizard_Seker_and_the_Magical_Can_Opener_of_Cat_World"
   },
@@ -3017,7 +3020,8 @@
       "The_Rainbow_Fruit_World_and_the_Great_Lemon_Fish_Debate",
       "The_Sparkling_Dust_of_Book_World",
       "The_Salty_Solution_for_a_Frozen_Island",
-      "The_Magic_Star_Potion_and_the_Journey_to_Star_World"
+      "The_Magic_Star_Potion_and_the_Journey_to_Star_World",
+      "An_Accidental_Trip_to_Nana_s_House"
     ],
     "firstAppearanceStoryId": "The_Mischief_Moles_and_the_Plane_of_Fire"
   },
@@ -5071,7 +5075,8 @@
     "name": "Silver Cat",
     "description": "A cat who receives a medium-sized, sparkly silver cardboard hat from Hattie.",
     "storyIds": [
-      "Hattie_the_Mouse_s_Custom_Hat_Shop"
+      "Hattie_the_Mouse_s_Custom_Hat_Shop",
+      "An_Accidental_Trip_to_Nana_s_House"
     ],
     "firstAppearanceStoryId": "Hattie_the_Mouse_s_Custom_Hat_Shop"
   },
@@ -5194,7 +5199,8 @@
       "Mission_to_the_Astro-Orange_Restaurant",
       "The_Mystery_of_the_Pool_Noodle_Nibbler",
       "The_Potion_to_the_Little_Hotel_House",
-      "The_Salty_Solution_for_a_Frozen_Island"
+      "The_Salty_Solution_for_a_Frozen_Island",
+      "An_Accidental_Trip_to_Nana_s_House"
     ],
     "firstAppearanceStoryId": "The_Chugga-Chugga_Journey_to_Nana_s_House"
   },
@@ -5631,7 +5637,8 @@
     "name": "Finn Cat",
     "description": "A character featured in a coloring picture with Worry-Worry Whale.",
     "storyIds": [
-      "Expedition_to_the_Deep-Deep_Dark"
+      "Expedition_to_the_Deep-Deep_Dark",
+      "An_Accidental_Trip_to_Nana_s_House"
     ],
     "firstAppearanceStoryId": "Expedition_to_the_Deep-Deep_Dark"
   },
@@ -6750,5 +6757,68 @@
       "The_Magic_Star_Potion_and_the_Journey_to_Star_World"
     ],
     "firstAppearanceStoryId": "The_Magic_Star_Potion_and_the_Journey_to_Star_World"
+  },
+  {
+    "id": "0ced9cfef75a474a9fa1",
+    "name": "Nana's Bear",
+    "description": "A large woodland bear that eats nuts and berries near Nana's house.",
+    "storyIds": [
+      "An_Accidental_Trip_to_Nana_s_House"
+    ],
+    "firstAppearanceStoryId": "An_Accidental_Trip_to_Nana_s_House"
+  },
+  {
+    "id": "8d41b4aa8dd14f9eada4",
+    "name": "Silona",
+    "description": "A baby bunny living in a cozy block house at Nana's.",
+    "storyIds": [
+      "An_Accidental_Trip_to_Nana_s_House"
+    ],
+    "firstAppearanceStoryId": "An_Accidental_Trip_to_Nana_s_House"
+  },
+  {
+    "id": "ea7d392599904a02bdac",
+    "name": "Syleaf",
+    "description": "Another baby bunny living in the block house who enjoys hopping around at bedtime.",
+    "storyIds": [
+      "An_Accidental_Trip_to_Nana_s_House"
+    ],
+    "firstAppearanceStoryId": "An_Accidental_Trip_to_Nana_s_House"
+  },
+  {
+    "id": "f9b5cf2de8ea498bb1fa",
+    "name": "Sanana",
+    "description": "Seeker's pet goldfish who lives back at the castle and loves to be talked to.",
+    "storyIds": [
+      "An_Accidental_Trip_to_Nana_s_House"
+    ],
+    "firstAppearanceStoryId": "An_Accidental_Trip_to_Nana_s_House"
+  },
+  {
+    "id": "a07bd03b205d465eb552",
+    "name": "Ripper Rick",
+    "description": "A family member downstairs at Nana's house whose presence makes the lower floor quite noisy.",
+    "storyIds": [
+      "An_Accidental_Trip_to_Nana_s_House"
+    ],
+    "firstAppearanceStoryId": "An_Accidental_Trip_to_Nana_s_House"
+  },
+  {
+    "id": "4684912eefa2406b8efc",
+    "name": "Smoky",
+    "description": "A resident or pet hanging out in the noisy downstairs of Nana's house.",
+    "storyIds": [
+      "An_Accidental_Trip_to_Nana_s_House"
+    ],
+    "firstAppearanceStoryId": "An_Accidental_Trip_to_Nana_s_House"
+  },
+  {
+    "id": "0016d153e23240c283a7",
+    "name": "Tommy",
+    "description": "Another person or pet located in the noisy downstairs area of Nana's house.",
+    "storyIds": [
+      "An_Accidental_Trip_to_Nana_s_House"
+    ],
+    "firstAppearanceStoryId": "An_Accidental_Trip_to_Nana_s_House"
   }
 ]

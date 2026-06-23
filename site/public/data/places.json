@@ -861,7 +861,8 @@
     "storyIds": [
       "The_Chugga-Chugga_Journey_to_Nana_s_House",
       "The_Salty_Solution_for_a_Frozen_Island",
-      "The_Magic_Star_Potion_and_the_Journey_to_Star_World"
+      "The_Magic_Star_Potion_and_the_Journey_to_Star_World",
+      "An_Accidental_Trip_to_Nana_s_House"
     ],
     "firstAppearanceStoryId": "The_Chugga-Chugga_Journey_to_Nana_s_House"
   },
@@ -4214,7 +4215,8 @@
       "Wobbly_Whisker_s_Sticky_Adventure_on_Planet_Mooker",
       "The_Rainbow_Fruit_World_and_the_Great_Lemon_Fish_Debate",
       "The_Sparkling_Dust_of_Book_World",
-      "The_Magic_Star_Potion_and_the_Journey_to_Star_World"
+      "The_Magic_Star_Potion_and_the_Journey_to_Star_World",
+      "An_Accidental_Trip_to_Nana_s_House"
     ],
     "firstAppearanceStoryId": "A_Sticky_Adventure_to_the_Castle_of_Slime"
   },
@@ -4882,5 +4884,32 @@
       "The_Magic_Star_Potion_and_the_Journey_to_Star_World"
     ],
     "firstAppearanceStoryId": "The_Magic_Star_Potion_and_the_Journey_to_Star_World"
+  },
+  {
+    "id": "e2909747572a4865ac4f",
+    "name": "Isabella's Backyard",
+    "description": "The intended destination of Seeker's travel potion, containing soft red flowers, grass, and a play area.",
+    "storyIds": [
+      "An_Accidental_Trip_to_Nana_s_House"
+    ],
+    "firstAppearanceStoryId": "An_Accidental_Trip_to_Nana_s_House"
+  },
+  {
+    "id": "c2fc9682483d4902b203",
+    "name": "The Blue Dollhouse",
+    "description": "A large three-story dollhouse at Nana's house where Seeker is invited to spend the night in a cozy bedroom with a brown cloak.",
+    "storyIds": [
+      "An_Accidental_Trip_to_Nana_s_House"
+    ],
+    "firstAppearanceStoryId": "An_Accidental_Trip_to_Nana_s_House"
+  },
+  {
+    "id": "69cea1561ea44416bc6d",
+    "name": "The Bunny House",
+    "description": "A small block structure at Nana's house where a family of bunnies, including babies Silona and Syleaf, sleep.",
+    "storyIds": [
+      "An_Accidental_Trip_to_Nana_s_House"
+    ],
+    "firstAppearanceStoryId": "An_Accidental_Trip_to_Nana_s_House"
   }
 ]
