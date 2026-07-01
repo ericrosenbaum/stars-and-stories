@@ -36,7 +36,9 @@ const flags = new Set(args.filter((a) => a.startsWith('--')));
 const promptIdx = args.indexOf('--prompt');
 const customPrompt = promptIdx >= 0 ? args[promptIdx + 1] : null;
 // Exclude flags and the --prompt value so the slug is found regardless of order.
-const positional = args.filter((a, i) => !a.startsWith('--') && i !== promptIdx + 1);
+// (guard: when --prompt is absent, promptIdx is -1 and must not match index 0)
+const promptValIdx = promptIdx >= 0 ? promptIdx + 1 : -1;
+const positional = args.filter((a, i) => !a.startsWith('--') && i !== promptValIdx);
 const slug = positional[0];
 
 function usage(): never {
