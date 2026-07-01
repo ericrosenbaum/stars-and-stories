@@ -533,7 +533,8 @@
     "name": "Strawberry Island",
     "description": "The home of Zudy Dragon, known for having strawberries for every meal.",
     "storyIds": [
-      "The_Flying_Friends_of_Strawberry_Island"
+      "The_Flying_Friends_of_Strawberry_Island",
+      "The_Security_Cats_and_the_Rainbow_Party"
     ],
     "firstAppearanceStoryId": "The_Flying_Friends_of_Strawberry_Island"
   },
@@ -1182,7 +1183,8 @@
     "name": "Playground",
     "description": "An outdoor area where students might make snow-canos.",
     "storyIds": [
-      "Dimitar_s_Flight_to_Cadasori"
+      "Dimitar_s_Flight_to_Cadasori",
+      "The_Security_Cats_and_the_Rainbow_Party"
     ],
     "firstAppearanceStoryId": "Dimitar_s_Flight_to_Cadasori"
   },
@@ -3043,7 +3045,8 @@
     "name": "Mountain",
     "description": "The high, windy location where Icicle resides.",
     "storyIds": [
-      "The_Ice_Dragon_s_Sparkly_Castle_and_the_Great_Ice_Festival"
+      "The_Ice_Dragon_s_Sparkly_Castle_and_the_Great_Ice_Festival",
+      "Wobbly_Whisker_and_the_Mountaintop_Fish_House-2"
     ],
     "firstAppearanceStoryId": "The_Ice_Dragon_s_Sparkly_Castle_and_the_Great_Ice_Festival"
   },
@@ -3277,7 +3280,8 @@
     "name": "Izzy's Bedroom",
     "description": "The place where the ceiling is transformed into a starry sky by a magic light.",
     "storyIds": [
-      "Izzy_the_Kiddo_and_the_Quest_for_the_Deep_Sea_Pearl"
+      "Izzy_the_Kiddo_and_the_Quest_for_the_Deep_Sea_Pearl",
+      "The_Security_Cats_and_the_Rainbow_Party"
     ],
     "firstAppearanceStoryId": "Izzy_the_Kiddo_and_the_Quest_for_the_Deep_Sea_Pearl"
   },
@@ -3593,7 +3597,8 @@
       "The_Chronicles_of_Pinecone_Mouse_and_the_Pink_Tow_Truck",
       "Daisy_s_Tiny_Dog_Birthday_Adventure",
       "Hattie_s_Rain_Boots_and_the_Honey_Bee_s_Hat",
-      "Mickey_Minnie_and_Mole_s_Galactic_Bake-Off"
+      "Mickey_Minnie_and_Mole_s_Galactic_Bake-Off",
+      "Wobbly_Whisker_and_the_Mountaintop_Fish_House-2"
     ],
     "firstAppearanceStoryId": "The_Chronicles_of_Pinecone_Mouse_and_the_Pink_Tow_Truck"
   },
@@ -4911,5 +4916,41 @@
       "An_Accidental_Trip_to_Nana_s_House"
     ],
     "firstAppearanceStoryId": "An_Accidental_Trip_to_Nana_s_House"
+  },
+  {
+    "id": "f43bd69511a742d6af7d",
+    "name": "Rust Nibble",
+    "description": "The home of the bunny family, located across the lake.",
+    "storyIds": [
+      "Wobbly_Whisker_and_the_Mountaintop_Fish_House-2"
+    ],
+    "firstAppearanceStoryId": "Wobbly_Whisker_and_the_Mountaintop_Fish_House-2"
+  },
+  {
+    "id": "03b259e5d61649af9904",
+    "name": "Flower Castle",
+    "description": "The beautiful home base where the security cats live.",
+    "storyIds": [
+      "Wobbly_Whisker_and_the_Mountaintop_Fish_House-2"
+    ],
+    "firstAppearanceStoryId": "Wobbly_Whisker_and_the_Mountaintop_Fish_House-2"
+  },
+  {
+    "id": "d7794e13fd06430ca91f",
+    "name": "Ginger's House",
+    "description": "A fantastical house built completely out of fish.",
+    "storyIds": [
+      "Wobbly_Whisker_and_the_Mountaintop_Fish_House-2"
+    ],
+    "firstAppearanceStoryId": "Wobbly_Whisker_and_the_Mountaintop_Fish_House-2"
+  },
+  {
+    "id": "f5950114aa2144598654",
+    "name": "Castlerock",
+    "description": "The meeting place where Seeker first encountered the dragon Senexa.",
+    "storyIds": [
+      "The_Security_Cats_and_the_Rainbow_Party"
+    ],
+    "firstAppearanceStoryId": "The_Security_Cats_and_the_Rainbow_Party"
   }
 ]
