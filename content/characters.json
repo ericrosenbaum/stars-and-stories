@@ -334,7 +334,8 @@
       "The_Sparkling_Dust_of_Book_World",
       "The_Salty_Solution_for_a_Frozen_Island",
       "The_Magic_Star_Potion_and_the_Journey_to_Star_World",
-      "An_Accidental_Trip_to_Nana_s_House"
+      "An_Accidental_Trip_to_Nana_s_House",
+      "Seeker_and_the_Security_Cats_The_Potion_Caper"
     ],
     "firstAppearanceStoryId": "Frasgle_and_the_Sticky_Situation"
   },
@@ -2069,7 +2070,8 @@
     "name": "Wobbly Whiskers",
     "description": "A small white kitten, slick with the sticky, iridescent residue of the potion bottle she tumbled from, who joins the adventure in a desperate search for her lost mother.",
     "storyIds": [
-      "The_Quest_for_the_Moon_Mother"
+      "The_Quest_for_the_Moon_Mother",
+      "Seeker_and_the_Security_Cats_The_Potion_Caper"
     ],
     "firstAppearanceStoryId": "The_Quest_for_the_Moon_Mother"
   },
@@ -2264,7 +2266,8 @@
       "The_Sparkling_Dust_of_Book_World",
       "The_Salty_Solution_for_a_Frozen_Island",
       "The_Magic_Star_Potion_and_the_Journey_to_Star_World",
-      "The_Security_Cats_and_the_Rainbow_Party"
+      "The_Security_Cats_and_the_Rainbow_Party",
+      "Seeker_and_the_Security_Cats_The_Potion_Caper"
     ],
     "firstAppearanceStoryId": "Dimitar_and_the_Blueberry_Dragon_Pop"
   },
@@ -2366,7 +2369,8 @@
       "Seeker_s_Stone-Carving_Expedition",
       "The_Potion_to_the_Little_Hotel_House",
       "The_Great_Kibble_Cat-astrophe",
-      "The_Wizard_Seker_and_the_Magical_Can_Opener_of_Cat_World"
+      "The_Wizard_Seker_and_the_Magical_Can_Opener_of_Cat_World",
+      "Seeker_and_the_Security_Cats_The_Potion_Caper"
     ],
     "firstAppearanceStoryId": "The_Silver_Kitten_s_Snuggle_Emergency"
   },
@@ -3030,7 +3034,8 @@
       "The_Salty_Solution_for_a_Frozen_Island",
       "The_Magic_Star_Potion_and_the_Journey_to_Star_World",
       "An_Accidental_Trip_to_Nana_s_House",
-      "The_Security_Cats_and_the_Rainbow_Party"
+      "The_Security_Cats_and_the_Rainbow_Party",
+      "Seeker_and_the_Security_Cats_The_Potion_Caper"
     ],
     "firstAppearanceStoryId": "The_Mischief_Moles_and_the_Plane_of_Fire"
   },
@@ -3128,7 +3133,8 @@
       "Mischief_Mouse_and_the_Tiny_Lego_Hat",
       "Dr_Izzy_and_the_Forest_Rescue",
       "The_Thirty_Cats_of_Kibble_World",
-      "The_Rainbow_Fruit_World_and_the_Great_Lemon_Fish_Debate"
+      "The_Rainbow_Fruit_World_and_the_Great_Lemon_Fish_Debate",
+      "Seeker_and_the_Security_Cats_The_Potion_Caper"
     ],
     "firstAppearanceStoryId": "Hattie_the_Mouse_and_the_Baby_Chipmunk_s_Snack"
   },
@@ -6890,5 +6896,23 @@
       "The_Security_Cats_and_the_Rainbow_Party"
     ],
     "firstAppearanceStoryId": "The_Security_Cats_and_the_Rainbow_Party"
+  },
+  {
+    "id": "a3e45292fb484bca84b1",
+    "name": "Sarana",
+    "description": "The other Security Cat who assists in gathering clues and investigating the crime scene.",
+    "storyIds": [
+      "Seeker_and_the_Security_Cats_The_Potion_Caper"
+    ],
+    "firstAppearanceStoryId": "Seeker_and_the_Security_Cats_The_Potion_Caper"
+  },
+  {
+    "id": "69bf3e94f0b94b9b8cb3",
+    "name": "Farmer Wobbly",
+    "description": "A woodchuck who lives on a square island and generously gifts Seeker carrots from his bountiful harvest.",
+    "storyIds": [
+      "Seeker_and_the_Security_Cats_The_Potion_Caper"
+    ],
+    "firstAppearanceStoryId": "Seeker_and_the_Security_Cats_The_Potion_Caper"
   }
 ]

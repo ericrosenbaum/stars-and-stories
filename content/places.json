@@ -13,7 +13,8 @@
     "name": "Isabella's House",
     "description": "A home on Cornell Street with a basement containing bins of storybooks.",
     "storyIds": [
-      "The_Sparkling_Dust_of_Book_World"
+      "The_Sparkling_Dust_of_Book_World",
+      "Seeker_and_the_Security_Cats_The_Potion_Caper"
     ],
     "firstAppearanceStoryId": "The_Sparkling_Dust_of_Book_World"
   },
@@ -3556,7 +3557,8 @@
       "The_Giant_Rescue_on_Volcano_Island",
       "The_Ice_Dragon_s_New_Hat",
       "Dimatar_s_Big_Day_at_Ginger_Catasorry",
-      "The_Flying_Friends_of_Strawberry_Island"
+      "The_Flying_Friends_of_Strawberry_Island",
+      "Seeker_and_the_Security_Cats_The_Potion_Caper"
     ],
     "firstAppearanceStoryId": "The_Giant_Rescue_on_Volcano_Island"
   },
@@ -3787,7 +3789,8 @@
     "name": "Square Island",
     "description": "A mysterious island where every single object and feature is shaped like a square.",
     "storyIds": [
-      "The_Dragonettes_and_the_Rainbow_Forest_Quest"
+      "The_Dragonettes_and_the_Rainbow_Forest_Quest",
+      "Seeker_and_the_Security_Cats_The_Potion_Caper"
     ],
     "firstAppearanceStoryId": "The_Dragonettes_and_the_Rainbow_Forest_Quest"
   },
@@ -4221,7 +4224,8 @@
       "The_Rainbow_Fruit_World_and_the_Great_Lemon_Fish_Debate",
       "The_Sparkling_Dust_of_Book_World",
       "The_Magic_Star_Potion_and_the_Journey_to_Star_World",
-      "An_Accidental_Trip_to_Nana_s_House"
+      "An_Accidental_Trip_to_Nana_s_House",
+      "Seeker_and_the_Security_Cats_The_Potion_Caper"
     ],
     "firstAppearanceStoryId": "A_Sticky_Adventure_to_the_Castle_of_Slime"
   },
@@ -4347,7 +4351,8 @@
     "description": "The caretaker’s secluded dwelling serves as a hallowed sanctuary where magical birds descend to harvest the luminous crystals essential for their flight.",
     "storyIds": [
       "The_Best_Mole_Hole_Ever",
-      "The_Bouncing_Floofers_of_the_Golden_Cloud"
+      "The_Bouncing_Floofers_of_the_Golden_Cloud",
+      "Seeker_and_the_Security_Cats_The_Potion_Caper"
     ],
     "firstAppearanceStoryId": "The_Best_Mole_Hole_Ever"
   },
@@ -4843,7 +4848,8 @@
       "Hattie_the_Mouse_s_Custom_Hat_Shop",
       "A_Shell_Hat_and_Jingle_Bells",
       "Hattie_s_Giant_Robot_and_the_Rainbow_Gnome_Hat",
-      "The_Ice_Dragon_s_New_Hat"
+      "The_Ice_Dragon_s_New_Hat",
+      "Seeker_and_the_Security_Cats_The_Potion_Caper"
     ],
     "firstAppearanceStoryId": "Hattie_and_the_Wizard_s_Clover_Show"
   },
@@ -4952,5 +4958,32 @@
       "The_Security_Cats_and_the_Rainbow_Party"
     ],
     "firstAppearanceStoryId": "The_Security_Cats_and_the_Rainbow_Party"
+  },
+  {
+    "id": "bae4cc8867204dd7b701",
+    "name": "Tissue Land",
+    "description": "A mythical, whimsical land made entirely of soft tissues.",
+    "storyIds": [
+      "Seeker_and_the_Security_Cats_The_Potion_Caper"
+    ],
+    "firstAppearanceStoryId": "Seeker_and_the_Security_Cats_The_Potion_Caper"
+  },
+  {
+    "id": "03c6dd7bbaae447ab7b0",
+    "name": "Boston",
+    "description": "The large city region where Isabella lives.",
+    "storyIds": [
+      "Seeker_and_the_Security_Cats_The_Potion_Caper"
+    ],
+    "firstAppearanceStoryId": "Seeker_and_the_Security_Cats_The_Potion_Caper"
+  },
+  {
+    "id": "c1324e49b4204a78b602",
+    "name": "Roslindale",
+    "description": "The specific neighborhood in Boston where Isabella's home is located.",
+    "storyIds": [
+      "Seeker_and_the_Security_Cats_The_Potion_Caper"
+    ],
+    "firstAppearanceStoryId": "Seeker_and_the_Security_Cats_The_Potion_Caper"
   }
 ]
