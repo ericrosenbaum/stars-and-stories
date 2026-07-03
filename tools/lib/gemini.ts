@@ -299,7 +299,7 @@ export async function generateImagePrompt(
             The attached images are visual references for these characters (in the same order):
             ${entityDescriptions}
 
-            CRITICAL REFERENCE RULE: For any of the characters listed above that you mention in your prompt, you MUST append the exact phrase "(as in the image reference)" immediately after the character's name (for example: "Seeker (as in the image reference) stands beside a glowing lantern"). This keeps them visually consistent with the attached reference images. Do NOT use this phrase for any character that is not in the list above.`
+            CRITICAL REFERENCE RULE: For EVERY one of the characters listed above that appears in your chosen scene, you MUST (a) include them in the prompt and (b) append the exact phrase "(as in the image reference)" immediately after the character's name (for example: "Seeker (as in the image reference) stands beside a glowing lantern"). Apply this to each referenced character individually — do not skip any. Keep each such character's own description very brief (a few words at most) and rely on their reference image for their exact appearance rather than inventing conflicting details. Do NOT use this phrase for any character that is not in the list above.`
     : '';
 
   const response = await ai.models.generateContent({
@@ -313,12 +313,12 @@ export async function generateImagePrompt(
 
             The goal is to create a beautiful header image that captures the atmosphere of a specific moment.
 
-            Style Requirement: "A stylish black and white pen and ink illustration on a white background. Use elegant, clean line work. Avoid overly busy or dense textures, but ensure the scene feels complete."
+            Style Requirement: "A stylish black and white pen and ink illustration on a white background. Use elegant, clean line work. Render a complete scene, but keep the background relatively simple and uncluttered so the characters remain the clear focus. Avoid overly busy or dense textures."
 
             Directives:
             1. CHOOSE ONE SCENE: Pick a single specific moment or interaction that captures the mood of the story.
-            2. COMPLETE COMPOSITION: Illustrate a whole scene including the subjects and their immediate surroundings, rather than just isolated floating elements.
-            3. CLARITY: Focus on a strong, central composition. Use simplicity to ensure the subjects stand out, but don't shy away from depicting the environment of the chosen scene.
+            2. COMPLETE COMPOSITION: Illustrate a whole scene including the subjects and their immediate surroundings, rather than just isolated floating elements — but establish the setting with a few well-chosen details rather than densely rendering everything.
+            3. CLARITY: Focus on a strong, central composition. Keep the main characters prominent and the background a little lighter and simpler so they stand out, while still conveying a clear sense of place.
 
             Story Summary: ${summary}
 
@@ -326,7 +326,7 @@ export async function generateImagePrompt(
 
             Transcript Snippet (for context): ${JSON.stringify(transcript.slice(0, 20))}
 
-            The prompt should describe this single scene in visual terms, focusing on the arrangement of characters, objects, and setting. Incorporate visual elements from the reference images to maintain character consistency.
+            The prompt should describe this single scene in visual terms — the characters, the key objects and action, and a lightly-detailed setting that establishes the place without becoming busy. Incorporate visual elements from the reference images to maintain character consistency.
 
             CRITICAL SAFETY RULE: Never use copyrighted names or specific trademarked characters in the prompt.
             Specifically, if "Mickey Mouse" or "Minnie Mouse" are mentioned in the story, replace them with descriptive terms like "a cheerful cartoon mouse" or "a friendly animated mouse".
@@ -353,6 +353,16 @@ export async function generateImageFromPrompt(
   const imageParts = entityImages.map((img) => ({
     inlineData: { data: img.data, mimeType: img.mimeType },
   }));
+  // Bind each attached reference image to its character by name and position, so
+  // the model applies the right reference to the right character instead of
+  // guessing (which previously left some characters off-model).
+  const referenceMapping = entityImages.length
+    ? `The ${entityImages.length} attached reference image(s) show these characters, in this exact order:
+${entityImages.map((e, i) => `${i + 1}. ${e.name}`).join('\n')}
+Render EACH of these characters to closely match their OWN reference image (face, body shape, colors, clothing/markings). When the scene text tags a character with "(as in the image reference)", match that specific numbered reference above. Do not blend or swap appearances between characters, and do not leave any tagged character off-model.
+
+`
+    : '';
   try {
     const response = await ai.models.generateContent({
       model: imageModel(),
@@ -360,9 +370,9 @@ export async function generateImageFromPrompt(
         parts: [
           ...imageParts,
           {
-            text: `${prompt}
-            Style: Whimsical, artistic, family-friendly, black and white pen and ink illustration.
-            Avoid: Any violence, adult themes, complex human faces, or specific copyrighted characters (like Mickey or Minnie Mouse). Focus on scenery, animals, or symbolic objects.`,
+            text: `${referenceMapping}${prompt}
+            Style: Whimsical, family-friendly, black and white pen and ink line illustration. Render a complete scene, but keep the background relatively simple and uncluttered so the characters stand out.
+            Avoid: Any violence, adult themes, complex/realistic human faces, overly busy or densely cluttered backgrounds, or specific copyrighted characters (like Mickey or Minnie Mouse).`,
           },
         ],
       },
