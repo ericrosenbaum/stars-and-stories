@@ -335,7 +335,8 @@
       "The_Salty_Solution_for_a_Frozen_Island",
       "The_Magic_Star_Potion_and_the_Journey_to_Star_World",
       "An_Accidental_Trip_to_Nana_s_House",
-      "Seeker_and_the_Security_Cats_The_Potion_Caper"
+      "Seeker_and_the_Security_Cats_The_Potion_Caper",
+      "Prehistoric_Potion_Adventures"
     ],
     "firstAppearanceStoryId": "Frasgle_and_the_Sticky_Situation"
   },
@@ -829,7 +830,8 @@
       "The_Great_Kibble_Cat-astrophe",
       "The_Flying_Friends_of_Strawberry_Island",
       "Dimitar_s_Flight_to_Cadasori",
-      "Wobbly_Whisker_and_the_Mountaintop_Fish_House-2"
+      "Wobbly_Whisker_and_the_Mountaintop_Fish_House-2",
+      "Prehistoric_Potion_Adventures"
     ],
     "firstAppearanceStoryId": "Hattie_the_Mouse_s_Custom_Hat_Shop"
   },
@@ -3035,7 +3037,8 @@
       "The_Magic_Star_Potion_and_the_Journey_to_Star_World",
       "An_Accidental_Trip_to_Nana_s_House",
       "The_Security_Cats_and_the_Rainbow_Party",
-      "Seeker_and_the_Security_Cats_The_Potion_Caper"
+      "Seeker_and_the_Security_Cats_The_Potion_Caper",
+      "Prehistoric_Potion_Adventures"
     ],
     "firstAppearanceStoryId": "The_Mischief_Moles_and_the_Plane_of_Fire"
   },
@@ -5093,7 +5096,8 @@
     "description": "A cat who receives a medium-sized, sparkly silver cardboard hat from Hattie.",
     "storyIds": [
       "Hattie_the_Mouse_s_Custom_Hat_Shop",
-      "An_Accidental_Trip_to_Nana_s_House"
+      "An_Accidental_Trip_to_Nana_s_House",
+      "Prehistoric_Potion_Adventures"
     ],
     "firstAppearanceStoryId": "Hattie_the_Mouse_s_Custom_Hat_Shop"
   },
@@ -6914,5 +6918,59 @@
       "Seeker_and_the_Security_Cats_The_Potion_Caper"
     ],
     "firstAppearanceStoryId": "Seeker_and_the_Security_Cats_The_Potion_Caper"
+  },
+  {
+    "id": "95f26b70643c49ab8c53",
+    "name": "Red Frasgle",
+    "description": "One of the many colorful, furry Frasgle creatures who join the expedition to the prehistoric world.",
+    "storyIds": [
+      "Prehistoric_Potion_Adventures"
+    ],
+    "firstAppearanceStoryId": "Prehistoric_Potion_Adventures"
+  },
+  {
+    "id": "fceb42cf8fee498a98e0",
+    "name": "T-Rex",
+    "description": "A fierce meat-eating dinosaur in the prehistoric world who is easily startled by the loud noises of the Frasgles.",
+    "storyIds": [
+      "Prehistoric_Potion_Adventures"
+    ],
+    "firstAppearanceStoryId": "Prehistoric_Potion_Adventures"
+  },
+  {
+    "id": "9a26ce831afa49579b2a",
+    "name": "Giant sloth",
+    "description": "A slow-moving prehistoric creature who lives in a burrow and enjoys drinking tea.",
+    "storyIds": [
+      "Prehistoric_Potion_Adventures"
+    ],
+    "firstAppearanceStoryId": "Prehistoric_Potion_Adventures"
+  },
+  {
+    "id": "e99b4a27bd5b41cc8077",
+    "name": "Woolly mammoth",
+    "description": "A giant prehistoric elephant-like creature that is easily frightened by smilodons.",
+    "storyIds": [
+      "Prehistoric_Potion_Adventures"
+    ],
+    "firstAppearanceStoryId": "Prehistoric_Potion_Adventures"
+  },
+  {
+    "id": "496d9431d7f5401aab90",
+    "name": "Smilodon",
+    "description": "A fierce, giant saber-toothed cat who terrifies mammoths but ultimately loves being belly-rubbed like a normal cat.",
+    "storyIds": [
+      "Prehistoric_Potion_Adventures"
+    ],
+    "firstAppearanceStoryId": "Prehistoric_Potion_Adventures"
+  },
+  {
+    "id": "761801d67c4b4746a592",
+    "name": "Shrew-like",
+    "description": "A tiny shrew-like prehistoric creature who hitches a ride back in Jane's pocket and moves into Isabella's dollhouse.",
+    "storyIds": [
+      "Prehistoric_Potion_Adventures"
+    ],
+    "firstAppearanceStoryId": "Prehistoric_Potion_Adventures"
   }
 ]

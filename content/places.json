@@ -14,7 +14,8 @@
     "description": "A home on Cornell Street with a basement containing bins of storybooks.",
     "storyIds": [
       "The_Sparkling_Dust_of_Book_World",
-      "Seeker_and_the_Security_Cats_The_Potion_Caper"
+      "Seeker_and_the_Security_Cats_The_Potion_Caper",
+      "Prehistoric_Potion_Adventures"
     ],
     "firstAppearanceStoryId": "The_Sparkling_Dust_of_Book_World"
   },
@@ -4225,7 +4226,8 @@
       "The_Sparkling_Dust_of_Book_World",
       "The_Magic_Star_Potion_and_the_Journey_to_Star_World",
       "An_Accidental_Trip_to_Nana_s_House",
-      "Seeker_and_the_Security_Cats_The_Potion_Caper"
+      "Seeker_and_the_Security_Cats_The_Potion_Caper",
+      "Prehistoric_Potion_Adventures"
     ],
     "firstAppearanceStoryId": "A_Sticky_Adventure_to_the_Castle_of_Slime"
   },
@@ -4985,5 +4987,32 @@
       "Seeker_and_the_Security_Cats_The_Potion_Caper"
     ],
     "firstAppearanceStoryId": "Seeker_and_the_Security_Cats_The_Potion_Caper"
+  },
+  {
+    "id": "b8e449ef6ece4f9bbcdc",
+    "name": "Prehistoric world",
+    "description": "An ancient world filled with dinosaurs, giant sloths, woolly mammoths, and smilodons.",
+    "storyIds": [
+      "Prehistoric_Potion_Adventures"
+    ],
+    "firstAppearanceStoryId": "Prehistoric_Potion_Adventures"
+  },
+  {
+    "id": "3d4a757426d547ac8a51",
+    "name": "Sloth's burrow",
+    "description": "A hole in the ground where the giant sloth resides and invites guests in for tea.",
+    "storyIds": [
+      "Prehistoric_Potion_Adventures"
+    ],
+    "firstAppearanceStoryId": "Prehistoric_Potion_Adventures"
+  },
+  {
+    "id": "6d11f29930d34bb4b851",
+    "name": "Isabella's dollhouse",
+    "description": "A perfect cozy nesting spot that Isabella offers as a new home for the tiny shrew-like creature.",
+    "storyIds": [
+      "Prehistoric_Potion_Adventures"
+    ],
+    "firstAppearanceStoryId": "Prehistoric_Potion_Adventures"
   }
 ]
