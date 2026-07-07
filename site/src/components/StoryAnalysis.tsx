@@ -277,7 +277,7 @@ export default function StoryAnalysis({
         </div>
         <header className="flex items-center gap-3 mb-8">
           <Sparkles className="w-7 h-7 text-brand" />
-          <h2 className="text-2xl font-serif font-bold text-foreground">Deep Analysis: The World DNA</h2>
+          <h2 className="text-2xl font-serif font-bold text-foreground">Seven Questions for a Growing Universe</h2>
         </header>
         {worldDna ? (
           <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="prose prose-brand dark:prose-invert max-w-none">
