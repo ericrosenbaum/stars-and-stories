@@ -59,9 +59,12 @@ npm run add -- "/path/to/My New Story.m4a"
 # options: --date 2026-06-20  --no-image  --world-dna  --merge-descriptions
 ```
 
-This transcribes + analyzes the memo, generates a black-and-white header
-illustration, merges any new characters/places into the archive, writes a new
-`content/stories/<slug>/`, and rebuilds `site/public`. Reload the site to see it.
+This transcribes + analyzes the memo, merges any new characters/places into the
+archive, writes a new `content/stories/<slug>/`, generates **three candidate**
+black-and-white header illustrations, and rebuilds `site/public`. The story is
+published without a header image until you review the candidates and pick one
+(see the next section) — open the printed `gallery.html` and run
+`npm run regen-image -- <slug> --select <1|2|3>`.
 
 Re-running the same audio file is detected (by hash) and rejected, so it's safe.
 
@@ -84,19 +87,57 @@ When the prompt mentions such a character it tags them `(as in the image referen
 Originals (`content/characters/**/reference.*`) are kept out of git like the other
 source media; the optimized webp under `site/public/media/characters` is committed.
 
-### Regenerating a single story's header image
+### Choosing / regenerating a story's header image
+
+Header images go through a candidate-review flow — the existing header is never
+replaced until you approve a new one:
 
 ```bash
 cd tools
-npm run regen-image -- <story-slug>
-# options: --prompt "your own prompt text"   --no-webp
+npm run regen-image -- <story-slug>              # generate 3 candidates (different scenes)
+open ../content/stories/<story-slug>/candidates/gallery.html   # review them side by side
+npm run regen-image -- <story-slug> --select 2   # promote candidate 2 to the header
 ```
 
-It prints the prompt it uses and the list of character reference images fed to the
-model, then overwrites `content/stories/<slug>/source.png` and the served
-`header.webp`. Pass `--prompt` to dictate the scene yourself; otherwise the prompt
-is generated from the story (the `<story-slug>` is the folder name under
+Not happy with the batch? Either of:
+
+```bash
+npm run regen-image -- <story-slug> --suggest "more snow, show the fish house"  # new batch with feedback
+npm run regen-image -- <story-slug> --discard                                   # keep the current image
+```
+
+Pass `--prompt "..."` to dictate the exact scene yourself (still produces 3
+treatments of it). Each run prints the prompts and the character reference
+images fed to the model. Only `--select` writes `content/stories/<slug>/source.png`
+and re-encodes the served `header.webp`; the candidates live in the gitignored
+`content/stories/<slug>/candidates/` (the `<story-slug>` is the folder name under
 `content/stories/`, i.e. the `#/story/<slug>` part of the site URL).
+
+### Generating a storyboard
+
+A storyboard is an ordered sequence of illustrated scenes (with captions and a
+verbatim quote per scene) that tells the whole story, shown on its own page at
+`#/story/<slug>/storyboard`:
+
+```bash
+cd tools
+npm run storyboard -- <story-slug>               # plan scenes + generate every frame
+# options: --scenes 8   --plan-only   --no-webp   --no-build
+```
+
+Gemini plans the scenes from the full transcript (usually 6–12, favoring the
+funny/unusual moments), then generates the frames sequentially — each frame gets
+the character reference images plus up to two preceding frames as continuity
+references. Redo a single frame with:
+
+```bash
+npm run storyboard -- <story-slug> --scene 4                     # regenerate frame 4
+npm run storyboard -- <story-slug> --scene 4 --prompt "..."      # ...with your own prompt
+```
+
+The plan lives in `content/stories/<slug>/storyboard/storyboard.json`
+(committed); frames are `scene-NN.png` next to it (gitignored) with served webps
+under `site/public/media/<slug>/storyboard/` (committed).
 
 ### Refreshing the "World DNA" essay
 

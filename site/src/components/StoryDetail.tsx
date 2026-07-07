@@ -1,16 +1,18 @@
 import { useState, useEffect, useRef } from 'react';
-import { ArrowLeft, Play, Pause, Sparkles, Users, MapPin, MessageSquare, History, Wand2, Calendar } from 'lucide-react';
+import { ArrowLeft, Play, Pause, Sparkles, Users, MapPin, MessageSquare, History, Wand2, Calendar, Images } from 'lucide-react';
 import { motion } from 'motion/react';
 import { getStory, assetUrl, StoryFull } from '../data';
 
 export default function StoryDetail({
   slug,
   onBack,
+  onOpenStoryboard,
   onNavigateToCharacters,
   onNavigateToPlaces,
 }: {
   slug: string;
   onBack: () => void;
+  onOpenStoryboard: () => void;
   onNavigateToCharacters: (id?: string) => void;
   onNavigateToPlaces: (id?: string) => void;
 }) {
@@ -126,6 +128,19 @@ export default function StoryDetail({
             className="w-full aspect-video rounded-3xl overflow-hidden mb-12 shadow-lg border border-border relative"
           >
             <img src={assetUrl(story.headerImage)} alt={story.title} className="w-full h-full object-cover" />
+          </motion.div>
+        )}
+
+        {/* Storyboard link */}
+        {story.hasStoryboard && (
+          <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="mb-12 flex justify-center">
+            <button
+              onClick={onOpenStoryboard}
+              className="bg-surface border border-border px-6 py-3 rounded-full text-sm font-medium text-foreground/90 shadow-sm hover:bg-brand hover:text-white dark:hover:text-background transition-all active:scale-95 flex items-center gap-2"
+            >
+              <Images className="w-4 h-4" />
+              View Storyboard
+            </button>
           </motion.div>
         )}
 

@@ -24,7 +24,9 @@ export interface StoryIndexItem {
   title: string;
   date: string;
   summary: string;
-  headerImage: string;
+  /** Absent while a story's header image is still awaiting candidate selection. */
+  headerImage?: string;
+  hasStoryboard?: boolean;
   wordCount: number;
   izzyWordCount: number;
   dadWordCount: number;
@@ -38,11 +40,27 @@ export interface StoryFull {
   date: string;
   summary: string;
   audio: string;
-  headerImage: string;
+  /** Absent while a story's header image is still awaiting candidate selection. */
+  headerImage?: string;
+  hasStoryboard?: boolean;
   highlightQuote: HighlightQuote | null;
   transcript: TranscriptItem[];
   characters: EmbeddedEntity[];
   places: EmbeddedEntity[];
+}
+
+export interface StoryboardScene {
+  index: number;
+  image: string; // media/<slug>/storyboard/scene-NN.webp
+  caption: string;
+  quote: { speaker: string; text: string; timestamp: number | null };
+}
+
+export interface Storyboard {
+  id: string;
+  title: string;
+  date: string;
+  scenes: StoryboardScene[];
 }
 
 export interface CanonicalEntity {
@@ -70,6 +88,7 @@ async function getJson<T>(url: string): Promise<T> {
 
 export const getStoriesIndex = () => getJson<StoryIndexItem[]>(dataUrl('stories-index.json'));
 export const getStory = (slug: string) => getJson<StoryFull>(dataUrl(`stories/${encodeURIComponent(slug)}.json`));
+export const getStoryboard = (slug: string) => getJson<Storyboard>(dataUrl(`storyboards/${encodeURIComponent(slug)}.json`));
 export const getCharacters = () => getJson<CanonicalEntity[]>(dataUrl('characters.json'));
 export const getPlaces = () => getJson<CanonicalEntity[]>(dataUrl('places.json'));
 

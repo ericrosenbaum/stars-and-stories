@@ -1,12 +1,23 @@
 /**
- * Regenerate the header image for a single story:
+ * Manage the header image for a single story via candidate batches:
  *   npx tsx regen-image.ts <story-slug> [options]
  *
- * Options:
- *   --prompt "..."   use this exact prompt instead of generating one with Gemini
- *   --no-webp        only write content/stories/<slug>/source.png (skip the served webp)
+ * Modes (mutually exclusive):
+ *   (default)        generate 3 candidate images (different scenes/treatments)
+ *                    into content/stories/<slug>/candidates/ + a gallery.html
+ *                    for review. The existing header is NOT touched.
+ *   --prompt "..."   generate the candidates from this exact prompt instead of
+ *                    asking Gemini for scene ideas
+ *   --suggest "..."  generate a new candidate batch incorporating this feedback
+ *   --select N       promote candidate N to source.png + header.webp and
+ *                    delete the batch (the only mode that replaces the header)
+ *   --discard        keep the existing header; delete the candidate batch
  *
- * Prints the prompt it uses and the list of character reference images fed to
+ * Other options:
+ *   --no-webp        with --select: only write source.png (skip the served webp)
+ *   --no-build       with --select: skip refreshing site/public/data afterwards
+ *
+ * Prints the prompts it uses and the list of character reference images fed to
  * the image model. Reference images are loaded from content/characters/<id>/
  * for every character embedded in the story (see `npm run import-images`).
  *
@@ -16,39 +27,54 @@
 import 'dotenv/config';
 import fs from 'node:fs';
 import path from 'node:path';
+import { CONTENT_STORIES_DIR } from './lib/paths.ts';
 import {
-  ROOT,
-  CONTENT_STORIES_DIR,
-  SITE_MEDIA_DIR,
-  ensureDir,
-} from './lib/paths.ts';
-import { optimizeImage } from './lib/media.ts';
-import { loadCharacterRefImages } from './lib/refimages.ts';
-import { generateImagePrompt, generateImageFromPrompt } from './lib/gemini.ts';
+  generateHeaderCandidates,
+  selectHeaderCandidate,
+  discardHeaderCandidates,
+} from './lib/candidates.ts';
+import { buildSite } from './build-site.ts';
 import type { StoryRecord } from './lib/types.ts';
-
-const WEBP_QUALITY = Number(process.env.WEBP_QUALITY || '72');
-const WEBP_WIDTH = Number(process.env.WEBP_WIDTH || '1280');
 
 // ---- args ----
 const args = process.argv.slice(2);
 const flags = new Set(args.filter((a) => a.startsWith('--')));
-const promptIdx = args.indexOf('--prompt');
-const customPrompt = promptIdx >= 0 ? args[promptIdx + 1] : null;
-// Exclude flags and the --prompt value so the slug is found regardless of order.
-// (guard: when --prompt is absent, promptIdx is -1 and must not match index 0)
-const promptValIdx = promptIdx >= 0 ? promptIdx + 1 : -1;
-const positional = args.filter((a, i) => !a.startsWith('--') && i !== promptValIdx);
+// Valued flags: record each value's index so positionals (the slug) are found
+// regardless of argument order.
+const valueIdxs = new Set<number>();
+function flagValue(name: string): string | null {
+  const idx = args.indexOf(name);
+  if (idx < 0) return null;
+  valueIdxs.add(idx + 1);
+  return args[idx + 1] ?? null;
+}
+const customPrompt = flagValue('--prompt');
+const suggestion = flagValue('--suggest');
+const selectRaw = flagValue('--select');
+const positional = args.filter((a, i) => !a.startsWith('--') && !valueIdxs.has(i));
 const slug = positional[0];
 
 function usage(): never {
-  console.error('Usage: npx tsx regen-image.ts <story-slug> [--prompt "..."] [--no-webp]');
+  console.error(
+    'Usage: npx tsx regen-image.ts <story-slug> [--prompt "..." | --suggest "..." | --select N | --discard] [--no-webp]',
+  );
   process.exit(1);
 }
 
 if (!slug || slug.startsWith('--')) usage();
-if (promptIdx >= 0 && !customPrompt) {
-  console.error('--prompt requires a value (wrap it in quotes).');
+for (const [flag, value] of [
+  ['--prompt', customPrompt],
+  ['--suggest', suggestion],
+  ['--select', selectRaw],
+] as const) {
+  if (flags.has(flag) && (!value || value.startsWith('--'))) {
+    console.error(`${flag} requires a value${flag === '--select' ? '' : ' (wrap it in quotes)'}.`);
+    process.exit(1);
+  }
+}
+const modes = ['--prompt', '--suggest', '--select', '--discard'].filter((f) => flags.has(f));
+if (modes.length > 1) {
+  console.error(`Choose only one of --prompt / --suggest / --select / --discard (got ${modes.join(' + ')}).`);
   process.exit(1);
 }
 
@@ -66,44 +92,35 @@ if (!fs.existsSync(storyJsonPath)) {
 const story: StoryRecord = JSON.parse(fs.readFileSync(storyJsonPath, 'utf8'));
 console.log(`Story: "${story.title}" (${slug})`);
 
-// ---- reference images ----
-const refImages = loadCharacterRefImages(story.characters);
-console.log(`\nReference images (${refImages.length}):`);
-if (refImages.length) {
-  for (const r of refImages) console.log(`  - ${r.name}  (${path.relative(ROOT, r.path)})`);
+if (selectRaw !== null) {
+  const n = Number(selectRaw);
+  if (!Number.isInteger(n) || n < 1) {
+    console.error(`--select expects a candidate number, got "${selectRaw}".`);
+    process.exit(1);
+  }
+  try {
+    await selectHeaderCandidate(slug, n, { webp: !flags.has('--no-webp') });
+  } catch (e: any) {
+    console.error(e?.message || e);
+    process.exit(1);
+  }
+  if (!flags.has('--no-build')) {
+    // headerImage is only emitted into the data bundle when a header exists,
+    // so a story selecting its FIRST header needs the data refreshed too.
+    console.log('Refreshing site data...');
+    await buildSite();
+  }
+} else if (flags.has('--discard')) {
+  if (discardHeaderCandidates(slug)) {
+    console.log('Discarded the candidate batch. The existing header is unchanged.');
+  } else {
+    console.log('No candidate batch to discard.');
+  }
 } else {
-  console.log('  (none — no characters in this story have a reference image)');
-}
-
-// ---- prompt ----
-let prompt = customPrompt;
-if (!prompt) {
-  console.log('\nGenerating prompt with Gemini...');
-  prompt = await generateImagePrompt(story.summary, story.transcript, refImages);
-}
-console.log(`\nPrompt:\n${prompt}\n`);
-
-// ---- generate ----
-console.log('Generating image with Gemini...');
-const dataUrl = await generateImageFromPrompt(prompt, refImages);
-if (!dataUrl) {
-  console.error('Image model returned nothing. Try again, or pass an explicit --prompt.');
-  process.exit(1);
-}
-
-const b64 = dataUrl.split(',')[1];
-const sourcePng = path.join(storyDir, 'source.png');
-fs.writeFileSync(sourcePng, Buffer.from(b64, 'base64'));
-console.log(`Saved ${path.relative(ROOT, sourcePng)}`);
-
-if (!flags.has('--no-webp')) {
-  // Rebuild just this story's served image (a full `npm run build` skips media
-  // that already exists, so we re-encode the one header here directly).
-  const outDir = path.join(SITE_MEDIA_DIR, slug);
-  ensureDir(outDir);
-  const headerWebp = path.join(outDir, 'header.webp');
-  await optimizeImage(sourcePng, headerWebp, WEBP_WIDTH, WEBP_QUALITY);
-  console.log(`Rebuilt ${path.relative(ROOT, headerWebp)}. Reload the site to see it.`);
+  await generateHeaderCandidates(slug, story, {
+    exactPrompt: customPrompt ?? undefined,
+    feedback: suggestion ?? undefined,
+  });
 }
 
 console.log('Done.');

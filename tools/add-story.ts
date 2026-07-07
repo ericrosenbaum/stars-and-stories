@@ -4,13 +4,17 @@
  *
  * Options:
  *   --date YYYY-MM-DD     override the story date
- *   --no-image           skip header-image generation
+ *   --no-image           skip header-image candidate generation
  *   --no-build           don't rebuild the site bundle afterwards
  *   --world-dna          also regenerate the World DNA essay
  *   --merge-descriptions use Gemini to merge descriptions of existing entities
  *
- * Pipeline: dedupe -> transcribe+analyze (Gemini) -> header image (Gemini) ->
- * merge characters/places -> write content/stories/<slug>/ -> rebuild site.
+ * Pipeline: dedupe -> transcribe+analyze (Gemini) -> merge characters/places ->
+ * write content/stories/<slug>/ -> header-image candidates (Gemini) -> rebuild site.
+ *
+ * The story is published WITHOUT a header image at first: three candidate
+ * images are generated for review, and the header is finalized afterwards with
+ * `npm run regen-image -- <slug> --select <n>`.
  */
 import 'dotenv/config';
 import fs from 'node:fs';
@@ -28,17 +32,19 @@ import { computeWordCounts } from './lib/wordcount.ts';
 import { recoverQuoteTimestamp } from './lib/quote.ts';
 import { uniqueSlug } from './lib/slug.ts';
 import { recomputeEntityLinks } from './lib/entities.ts';
-import { loadCharacterRefImages } from './lib/refimages.ts';
-import { transcribeAndAnalyze, generateStoryHeaderImage, mergeEntityDescription } from './lib/gemini.ts';
+import { generateHeaderCandidates } from './lib/candidates.ts';
+import { transcribeAndAnalyze, mergeEntityDescription } from './lib/gemini.ts';
 import { buildSite } from './build-site.ts';
 import type { StoryRecord, EmbeddedEntity, CanonicalEntity, ManifestEntry, HighlightQuote } from './lib/types.ts';
 
 // ---- args ----
 const args = process.argv.slice(2);
 const flags = new Set(args.filter((a) => a.startsWith('--')));
-const positional = args.filter((a) => !a.startsWith('--'));
 const dateFlagIdx = args.indexOf('--date');
 const dateOverride = dateFlagIdx >= 0 ? args[dateFlagIdx + 1] : null;
+// Exclude the --date value so the audio path is found regardless of order.
+const dateValIdx = dateFlagIdx >= 0 ? dateFlagIdx + 1 : -1;
+const positional = args.filter((a, i) => !a.startsWith('--') && i !== dateValIdx);
 const audioPath = positional[0];
 
 if (!audioPath) {
@@ -173,27 +179,6 @@ const record: StoryRecord = {
 // copy source audio
 fs.copyFileSync(audioPath, path.join(destDir, 'source.m4a'));
 
-// header image
-if (!flags.has('--no-image')) {
-  try {
-    console.log('Generating header image with Gemini...');
-    const refImages = loadCharacterRefImages(charMerge.embedded);
-    if (refImages.length) {
-      console.log(`  using ${refImages.length} character reference image(s): ${refImages.map((r) => r.name).join(', ')}`);
-    }
-    const dataUrl = await generateStoryHeaderImage(analysis.summary, analysis.transcript, refImages);
-    if (dataUrl) {
-      const b64 = dataUrl.split(',')[1];
-      fs.writeFileSync(path.join(destDir, 'source.png'), Buffer.from(b64, 'base64'));
-      console.log('  header image saved.');
-    } else {
-      console.warn('  image model returned nothing; story will have no header image.');
-    }
-  } catch (e: any) {
-    console.warn(`  header image generation failed (${e?.message || e}); continuing without one.`);
-  }
-}
-
 // write story.json
 fs.writeFileSync(path.join(destDir, 'story.json'), JSON.stringify(record, null, 2));
 
@@ -214,6 +199,21 @@ fs.writeFileSync(CONTENT_MANIFEST, JSON.stringify(manifest, null, 2));
 
 console.log(`\nAdded "${analysis.title}" as ${slug}.`);
 
+// header-image candidates (the story is already fully persisted, so a failure
+// here — or an interrupted run — just leaves the story header-less until a
+// candidate is selected with `npm run regen-image -- <slug> --select <n>`)
+let galleryPath: string | null = null;
+if (!flags.has('--no-image')) {
+  try {
+    console.log('\nGenerating header-image candidates with Gemini...');
+    const set = await generateHeaderCandidates(slug, record);
+    galleryPath = set.galleryPath;
+  } catch (e: any) {
+    console.warn(`  candidate generation failed (${e?.message || e}); continuing without a header.`);
+    console.warn(`  You can retry later with: npm run regen-image -- ${slug}`);
+  }
+}
+
 if (!flags.has('--no-build')) {
   console.log('Rebuilding site bundle...');
   await buildSite();
@@ -224,4 +224,9 @@ if (flags.has('--world-dna')) {
   await import('./gen-world-dna.ts');
 }
 
+if (galleryPath) {
+  console.log(`\nHeader image pending review — the story is published without one until you pick a candidate.`);
+  console.log(`  open "${galleryPath}"`);
+  console.log(`  npm run regen-image -- ${slug} --select <1|2|3>`);
+}
 console.log('Done.');

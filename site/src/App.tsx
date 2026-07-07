@@ -4,16 +4,18 @@ import { motion, AnimatePresence } from 'motion/react';
 
 import StoryList from './components/StoryList';
 import StoryDetail from './components/StoryDetail';
+import StoryboardView from './components/StoryboardView';
 import WorldInventory from './components/WorldInventory';
 import StoryAnalysis from './components/StoryAnalysis';
 import { getStoriesIndex, getCharacters, getPlaces, getWorldDna, StoryIndexItem, CanonicalEntity } from './data';
 
-type View = 'dashboard' | 'analysis' | 'characters' | 'places' | 'story';
+type View = 'dashboard' | 'analysis' | 'characters' | 'places' | 'story' | 'storyboard';
 
 function parseHash(): { view: View; slug: string | null } {
   const h = location.hash.replace(/^#\/?/, '');
   if (!h) return { view: 'dashboard', slug: null };
-  const [seg, slug] = h.split('/');
+  const [seg, slug, sub] = h.split('/');
+  if (seg === 'story' && slug && sub === 'storyboard') return { view: 'storyboard', slug: decodeURIComponent(slug) };
   if (seg === 'story' && slug) return { view: 'story', slug: decodeURIComponent(slug) };
   if (seg === 'analysis') return { view: 'analysis', slug: null };
   if (seg === 'characters') return { view: 'characters', slug: null };
@@ -94,6 +96,7 @@ export default function App() {
   }, [stories]);
 
   const goStory = (id: string) => setHash(`#/story/${encodeURIComponent(id)}`);
+  const goStoryboard = (id: string) => setHash(`#/story/${encodeURIComponent(id)}/storyboard`);
   const goHome = () => setHash('#/');
   const goView = (v: View) => setHash(v === 'dashboard' ? '#/' : `#/${v}`);
 
@@ -162,9 +165,16 @@ export default function App() {
           <StoryDetail
             slug={selectedStoryId}
             onBack={goHome}
+            onOpenStoryboard={() => goStoryboard(selectedStoryId)}
             onNavigateToCharacters={(id) => { setHighlightId(id || null); goView('characters'); }}
             onNavigateToPlaces={(id) => { setHighlightId(id || null); goView('places'); }}
           />
+        ) : (
+          <StoryList stories={stories} onSelectStory={goStory} />
+        );
+      case 'storyboard':
+        return selectedStoryId ? (
+          <StoryboardView slug={selectedStoryId} onBack={() => goStory(selectedStoryId)} />
         ) : (
           <StoryList stories={stories} onSelectStory={goStory} />
         );
@@ -234,7 +244,7 @@ export default function App() {
             </button>
 
             <nav className="flex-1 p-4 space-y-2 overflow-y-auto">
-              <NavItem active={view === 'dashboard' || view === 'story'} onClick={() => { goHome(); setIsMenuOpen(false); }} icon={<Home className="w-5 h-5" />} label="Stories" />
+              <NavItem active={view === 'dashboard' || view === 'story' || view === 'storyboard'} onClick={() => { goHome(); setIsMenuOpen(false); }} icon={<Home className="w-5 h-5" />} label="Stories" />
               <NavItem active={view === 'analysis'} onClick={() => { goView('analysis'); setIsMenuOpen(false); }} icon={<Activity className="w-5 h-5" />} label="Analysis" />
               <NavItem active={view === 'characters'} onClick={() => { setHighlightId(null); goView('characters'); setIsMenuOpen(false); }} icon={<Users className="w-5 h-5" />} label="Characters" />
               <NavItem active={view === 'places'} onClick={() => { setHighlightId(null); goView('places'); setIsMenuOpen(false); }} icon={<MapPin className="w-5 h-5" />} label="Places" />

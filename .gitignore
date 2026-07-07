@@ -18,6 +18,10 @@ tools/.env
 # Keep the original data export as your offline backup of these.
 content/stories/**/source.m4a
 content/stories/**/source.png
+# Header-image candidate batches awaiting review, and storyboard source frames
+# (the storyboard.json plan next to them IS committed, like story.json).
+content/stories/**/candidates/
+content/stories/**/storyboard/*.png
 # Same for character reference images: originals stay local, the optimized
 # site/public/media/characters/*.webp derived from them IS committed.
 content/characters/**/reference.*

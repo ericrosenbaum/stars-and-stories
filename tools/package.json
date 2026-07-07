@@ -10,6 +10,7 @@
     "build": "tsx build-site.ts",
     "add": "tsx add-story.ts",
     "regen-image": "tsx regen-image.ts",
+    "storyboard": "tsx storyboard.ts",
     "world-dna": "tsx gen-world-dna.ts",
     "verify-models": "tsx verify-models.ts"
   },

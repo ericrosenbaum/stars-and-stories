@@ -281,26 +281,42 @@ export interface RefImage {
   description?: string;
 }
 
+// ---------------------------------------------------------------------------
+// Shared building blocks for every image-prompt generator (single header
+// prompt, header candidates, storyboard scenes) so the style and the
+// reference-binding rules never drift apart between them.
+// ---------------------------------------------------------------------------
+
+const STYLE_REQUIREMENT = `Style Requirement: "A stylish black and white pen and ink illustration on a white background. Use elegant, clean line work. Render a complete scene, but keep the background relatively simple and uncluttered so the characters remain the clear focus. Avoid overly busy or dense textures."`;
+
+const COPYRIGHT_RULE = `CRITICAL SAFETY RULE: Never use copyrighted names or specific trademarked characters in the prompt.
+            Specifically, if "Mickey Mouse" or "Minnie Mouse" are mentioned in the story, replace them with descriptive terms like "a cheerful cartoon mouse" or "a friendly animated mouse".`;
+
+const PROMPT_GUIDANCE = `The prompt should describe the scene in visual terms — the characters, the key objects and action, and a lightly-detailed setting that establishes the place without becoming busy. Incorporate visual elements from the reference images to maintain character consistency.`;
+
+function buildReferenceBlock(entityImages: RefImage[]): string {
+  if (!entityImages.length) return '';
+  const entityDescriptions = entityImages
+    .map((e) => `- ${e.name}${e.description ? `: ${e.description}` : ''}`)
+    .join('\n');
+  return `Reference Images:
+            The attached images are visual references for these characters (in the same order):
+            ${entityDescriptions}
+
+            CRITICAL REFERENCE RULE: For EVERY one of the characters listed above that appears in a scene, you MUST (a) include them in the prompt and (b) append the exact phrase "(as in the image reference)" immediately after the character's name (for example: "Seeker (as in the image reference) stands beside a glowing lantern"). Apply this to each referenced character individually — do not skip any. Keep each such character's own description very brief (a few words at most) and rely on their reference image for their exact appearance rather than inventing conflicting details. Do NOT use this phrase for any character that is not in the list above.`;
+}
+
+const toImageParts = (images: RefImage[]) =>
+  images.map((img) => ({ inlineData: { data: img.data, mimeType: img.mimeType } }));
+
 export async function generateImagePrompt(
   summary: string,
   transcript: TranscriptItem[] = [],
   entityImages: RefImage[] = [],
 ): Promise<string> {
   const ai = getAI();
-  const imageParts = entityImages.map((img) => ({
-    inlineData: { data: img.data, mimeType: img.mimeType },
-  }));
-  const entityDescriptions = entityImages
-    .map((e) => `- ${e.name}${e.description ? `: ${e.description}` : ''}`)
-    .join('\n');
-
-  const referenceBlock = entityImages.length
-    ? `Reference Images:
-            The attached images are visual references for these characters (in the same order):
-            ${entityDescriptions}
-
-            CRITICAL REFERENCE RULE: For EVERY one of the characters listed above that appears in your chosen scene, you MUST (a) include them in the prompt and (b) append the exact phrase "(as in the image reference)" immediately after the character's name (for example: "Seeker (as in the image reference) stands beside a glowing lantern"). Apply this to each referenced character individually — do not skip any. Keep each such character's own description very brief (a few words at most) and rely on their reference image for their exact appearance rather than inventing conflicting details. Do NOT use this phrase for any character that is not in the list above.`
-    : '';
+  const imageParts = toImageParts(entityImages);
+  const referenceBlock = buildReferenceBlock(entityImages);
 
   const response = await ai.models.generateContent({
     model: textModel(),
@@ -313,7 +329,7 @@ export async function generateImagePrompt(
 
             The goal is to create a beautiful header image that captures the atmosphere of a specific moment.
 
-            Style Requirement: "A stylish black and white pen and ink illustration on a white background. Use elegant, clean line work. Render a complete scene, but keep the background relatively simple and uncluttered so the characters remain the clear focus. Avoid overly busy or dense textures."
+            ${STYLE_REQUIREMENT}
 
             Directives:
             1. CHOOSE ONE SCENE: Pick a single specific moment or interaction that captures the mood of the story.
@@ -326,10 +342,9 @@ export async function generateImagePrompt(
 
             Transcript Snippet (for context): ${JSON.stringify(transcript.slice(0, 20))}
 
-            The prompt should describe this single scene in visual terms — the characters, the key objects and action, and a lightly-detailed setting that establishes the place without becoming busy. Incorporate visual elements from the reference images to maintain character consistency.
+            ${PROMPT_GUIDANCE}
 
-            CRITICAL SAFETY RULE: Never use copyrighted names or specific trademarked characters in the prompt.
-            Specifically, if "Mickey Mouse" or "Minnie Mouse" are mentioned in the story, replace them with descriptive terms like "a cheerful cartoon mouse" or "a friendly animated mouse".
+            ${COPYRIGHT_RULE}
 
             Return ONLY the generated prompt text.`,
           },
@@ -343,23 +358,209 @@ export async function generateImagePrompt(
   );
 }
 
+/**
+ * Generate several DISTINCT header-prompt candidates in one art-director call.
+ * Each candidate depicts a different scene from the story, or a clearly
+ * different composition of the story's most striking moment. `opts.feedback`
+ * carries the user's notes from reviewing a previous candidate batch.
+ */
+export async function generateImagePromptCandidates(
+  summary: string,
+  transcript: TranscriptItem[] = [],
+  entityImages: RefImage[] = [],
+  opts: { count?: number; feedback?: string } = {},
+): Promise<string[]> {
+  const count = opts.count ?? 3;
+  const ai = getAI();
+  const imageParts = toImageParts(entityImages);
+  const referenceBlock = buildReferenceBlock(entityImages);
+  const feedbackBlock = opts.feedback
+    ? `USER FEEDBACK: The user reviewed a previous batch of candidate images and gave this feedback — it OVERRIDES the directives above wherever they conflict: "${opts.feedback}"`
+    : '';
+
+  const response = await ai.models.generateContent({
+    model: textModel(),
+    contents: [
+      {
+        parts: [
+          ...imageParts,
+          {
+            text: `You are an art director specializing in clean, evocative illustrations. Based on the following story summary, transcript, and reference images, propose exactly ${count} DISTINCT candidate scenes to illustrate as the story's header image.
+
+            Each candidate must be either a DIFFERENT specific moment from the story, or a clearly different composition/treatment of the story's most striking moment. Each prompt must be fully self-contained (do not refer to the other candidates).
+
+            The goal is a beautiful header image that captures the atmosphere of a specific moment.
+
+            ${STYLE_REQUIREMENT}
+
+            Directives (apply to EACH candidate):
+            1. ONE SCENE PER CANDIDATE: A single specific moment or interaction that captures the mood of the story.
+            2. COMPLETE COMPOSITION: Illustrate a whole scene including the subjects and their immediate surroundings, rather than just isolated floating elements — but establish the setting with a few well-chosen details rather than densely rendering everything.
+            3. CLARITY: Focus on a strong, central composition. Keep the main characters prominent and the background a little lighter and simpler so they stand out, while still conveying a clear sense of place.
+
+            Story Summary: ${summary}
+
+            ${referenceBlock}
+
+            Transcript Snippet (for context): ${JSON.stringify(transcript.slice(0, 20))}
+
+            ${PROMPT_GUIDANCE}
+
+            ${COPYRIGHT_RULE}
+
+            ${feedbackBlock}
+
+            Return JSON: { "prompts": ["...", ...] } with exactly ${count} prompts.`,
+          },
+        ],
+      },
+    ],
+    config: {
+      responseMimeType: 'application/json',
+      responseSchema: {
+        type: Type.OBJECT,
+        properties: { prompts: { type: Type.ARRAY, items: { type: Type.STRING } } },
+        required: ['prompts'],
+      },
+    },
+  });
+
+  const text = response.text;
+  if (!text) throw new Error('No response from Gemini when generating prompt candidates.');
+  const prompts = (JSON.parse(text)?.prompts ?? []).filter(
+    (p: unknown): p is string => typeof p === 'string' && p.trim().length > 0,
+  );
+  if (!prompts.length) throw new Error('Gemini returned no usable prompt candidates.');
+  if (prompts.length < count) {
+    console.warn(`  (asked for ${count} prompt candidates, got ${prompts.length})`);
+  }
+  return prompts.slice(0, count);
+}
+
+/** One scene of a storyboard plan, as returned by the planner. */
+export interface StoryboardScenePlan {
+  caption: string; // one-sentence summary of the action in this scene
+  quoteSpeaker: string; // "Izzy" | "Dad"
+  quoteText: string; // verbatim line from the transcript
+  imagePrompt: string; // header-style pen-and-ink prompt with reference tags
+}
+
+/**
+ * Plan an ordered storyboard for a whole story: a sequence of scenes that
+ * together tell the entire story, favoring its interesting, funny, or unusual
+ * moments. Receives the FULL transcript (unlike the header prompt).
+ */
+export async function generateStoryboardPlan(
+  summary: string,
+  transcript: TranscriptItem[],
+  entityImages: RefImage[] = [],
+  sceneCount?: number,
+): Promise<StoryboardScenePlan[]> {
+  const ai = getAI();
+  const imageParts = toImageParts(entityImages);
+  const referenceBlock = buildReferenceBlock(entityImages);
+  const countDirective = sceneCount
+    ? `Use exactly ${sceneCount} scenes.`
+    : `Choose the number of scenes yourself — usually 6 to 12 — enough to tell the whole story without padding.`;
+
+  const response = await ai.models.generateContent({
+    model: textModel(),
+    contents: [
+      {
+        parts: [
+          ...imageParts,
+          {
+            text: `You are an art director creating a storyboard for a story told aloud by a father ("Dad") and his young daughter ("Izzy"). Break the story into an ordered sequence of scenes that together tell the WHOLE story coherently from beginning to end. ${countDirective} Make sure to include the story's most interesting, funny, or unusual moments.
+
+            For EACH scene provide:
+            1. "caption": ONE sentence, present tense, summarizing the action of that scene.
+            2. "quoteSpeaker" and "quoteText": a short, direct quote from the transcript for that moment — copied VERBATIM, character for character, from a single transcript line. Prefer funny, surprising, or characterful lines, especially Izzy's. Do not paraphrase, merge lines, or invent dialogue.
+            3. "imagePrompt": a prompt to illustrate the scene, following the style and reference rules below. Each prompt must be fully self-contained.
+
+            ${STYLE_REQUIREMENT}
+
+            Composition directives for each imagePrompt: illustrate a whole scene including the subjects and their immediate surroundings; establish the setting with a few well-chosen details; keep the main characters prominent and the background lighter and simpler so they stand out.
+
+            Story Summary: ${summary}
+
+            ${referenceBlock}
+
+            Full Transcript: ${JSON.stringify(transcript)}
+
+            ${PROMPT_GUIDANCE}
+
+            ${COPYRIGHT_RULE}`,
+          },
+        ],
+      },
+    ],
+    config: {
+      responseMimeType: 'application/json',
+      responseSchema: {
+        type: Type.OBJECT,
+        properties: {
+          scenes: {
+            type: Type.ARRAY,
+            items: {
+              type: Type.OBJECT,
+              properties: {
+                caption: { type: Type.STRING },
+                quoteSpeaker: { type: Type.STRING },
+                quoteText: { type: Type.STRING },
+                imagePrompt: { type: Type.STRING },
+              },
+              required: ['caption', 'quoteSpeaker', 'quoteText', 'imagePrompt'],
+            },
+          },
+        },
+        required: ['scenes'],
+      },
+    },
+  });
+
+  const text = response.text;
+  if (!text) throw new Error('No response from Gemini when planning the storyboard.');
+  const scenes: StoryboardScenePlan[] = JSON.parse(text)?.scenes ?? [];
+  if (!scenes.length) throw new Error('Gemini returned an empty storyboard plan.');
+  return scenes.slice(0, 16);
+}
+
+/**
+ * A previously generated storyboard frame attached as a continuity reference
+ * for later frames (so recurring elements stay consistent across the sequence).
+ */
+export interface FrameRef {
+  data: string;
+  mimeType: string;
+  label: string;
+}
+
 /** Returns a data URL (data:image/png;base64,...) or null. */
 export async function generateImageFromPrompt(
   prompt: string,
   entityImages: RefImage[] = [],
   retries = 1,
+  frameRefs: FrameRef[] = [],
 ): Promise<string | null> {
   const ai = getAI();
-  const imageParts = entityImages.map((img) => ({
-    inlineData: { data: img.data, mimeType: img.mimeType },
+  const imageParts = toImageParts(entityImages);
+  const frameParts = frameRefs.map((f) => ({
+    inlineData: { data: f.data, mimeType: f.mimeType },
   }));
   // Bind each attached reference image to its character by name and position, so
   // the model applies the right reference to the right character instead of
   // guessing (which previously left some characters off-model).
   const referenceMapping = entityImages.length
-    ? `The ${entityImages.length} attached reference image(s) show these characters, in this exact order:
+    ? `The first ${entityImages.length} attached reference image(s) show these characters, in this exact order:
 ${entityImages.map((e, i) => `${i + 1}. ${e.name}`).join('\n')}
 Render EACH of these characters to closely match their OWN reference image (face, body shape, colors, clothing/markings). When the scene text tags a character with "(as in the image reference)", match that specific numbered reference above. Do not blend or swap appearances between characters, and do not leave any tagged character off-model.
+
+`
+    : '';
+  const frameMapping = frameRefs.length
+    ? `The next ${frameRefs.length} attached image(s) are PREVIOUS STORYBOARD FRAMES from this same story, in order:
+${frameRefs.map((f, i) => `${i + 1}. ${f.label}`).join('\n')}
+They are for CONTINUITY ONLY: keep recurring characters, props, art style, and settings consistent with how they appear in those frames — but draw the NEW scene described below, not a copy of those frames.
 
 `
     : '';
@@ -369,8 +570,9 @@ Render EACH of these characters to closely match their OWN reference image (face
       contents: {
         parts: [
           ...imageParts,
+          ...frameParts,
           {
-            text: `${referenceMapping}${prompt}
+            text: `${referenceMapping}${frameMapping}${prompt}
             Style: Whimsical, family-friendly, black and white pen and ink line illustration. Render a complete scene, but keep the background relatively simple and uncluttered so the characters stand out.
             Avoid: Any violence, adult themes, complex/realistic human faces, overly busy or densely cluttered backgrounds, or specific copyrighted characters (like Mickey or Minnie Mouse).`,
           },
@@ -389,7 +591,7 @@ Render EACH of these characters to closely match their OWN reference image (face
     const message = err?.error?.message || err?.message;
     if ((code === 503 || code === 504 || message?.includes('Deadline expired')) && retries > 0) {
       await new Promise((r) => setTimeout(r, 2000));
-      return generateImageFromPrompt(prompt, entityImages, retries - 1);
+      return generateImageFromPrompt(prompt, entityImages, retries - 1, frameRefs);
     }
     throw err;
   }

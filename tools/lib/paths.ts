@@ -19,6 +19,7 @@ export const SITE_DIR = path.join(ROOT, 'site');
 export const SITE_PUBLIC_DIR = path.join(SITE_DIR, 'public');
 export const SITE_DATA_DIR = path.join(SITE_PUBLIC_DIR, 'data');
 export const SITE_DATA_STORIES_DIR = path.join(SITE_DATA_DIR, 'stories');
+export const SITE_DATA_STORYBOARDS_DIR = path.join(SITE_DATA_DIR, 'storyboards');
 export const SITE_MEDIA_DIR = path.join(SITE_PUBLIC_DIR, 'media');
 export const SITE_MEDIA_CHARACTERS_DIR = path.join(SITE_MEDIA_DIR, 'characters');
 
