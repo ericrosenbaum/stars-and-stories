@@ -336,7 +336,8 @@
       "The_Magic_Star_Potion_and_the_Journey_to_Star_World",
       "An_Accidental_Trip_to_Nana_s_House",
       "Seeker_and_the_Security_Cats_The_Potion_Caper",
-      "Prehistoric_Potion_Adventures"
+      "Prehistoric_Potion_Adventures",
+      "The_Cozy_Potions_of_Sleepy_World"
     ],
     "firstAppearanceStoryId": "Frasgle_and_the_Sticky_Situation"
   },
@@ -3038,7 +3039,8 @@
       "An_Accidental_Trip_to_Nana_s_House",
       "The_Security_Cats_and_the_Rainbow_Party",
       "Seeker_and_the_Security_Cats_The_Potion_Caper",
-      "Prehistoric_Potion_Adventures"
+      "Prehistoric_Potion_Adventures",
+      "The_Cozy_Potions_of_Sleepy_World"
     ],
     "firstAppearanceStoryId": "The_Mischief_Moles_and_the_Plane_of_Fire"
   },
@@ -5661,7 +5663,8 @@
     "description": "A character featured in a coloring picture with Worry-Worry Whale.",
     "storyIds": [
       "Expedition_to_the_Deep-Deep_Dark",
-      "An_Accidental_Trip_to_Nana_s_House"
+      "An_Accidental_Trip_to_Nana_s_House",
+      "The_Cozy_Potions_of_Sleepy_World"
     ],
     "firstAppearanceStoryId": "Expedition_to_the_Deep-Deep_Dark"
   },
@@ -6178,7 +6181,8 @@
       "Orange_Frasgle_and_the_Blackberry_Seed",
       "The_Sparkling_Dust_of_Book_World",
       "The_Salty_Solution_for_a_Frozen_Island",
-      "The_Security_Cats_and_the_Rainbow_Party"
+      "The_Security_Cats_and_the_Rainbow_Party",
+      "The_Cozy_Potions_of_Sleepy_World"
     ],
     "firstAppearanceStoryId": "Hattie_s_Workshop_Puzzles_and_Purple_Hats"
   },
@@ -6972,5 +6976,50 @@
       "Prehistoric_Potion_Adventures"
     ],
     "firstAppearanceStoryId": "Prehistoric_Potion_Adventures"
+  },
+  {
+    "id": "6cb44683839d46ea9891",
+    "name": "Saluska",
+    "description": "A fluffy, big blue sleep dragon with droopy eyes who welcomes visitors to Sleepy World.",
+    "storyIds": [
+      "The_Cozy_Potions_of_Sleepy_World"
+    ],
+    "firstAppearanceStoryId": "The_Cozy_Potions_of_Sleepy_World"
+  },
+  {
+    "id": "5f5a6607c402471ba369",
+    "name": "Ancient Hattie the Mouse",
+    "description": "Hattie's prehistoric grandmother mouse who lived in burrow tunnels and dodged dinosaurs.",
+    "storyIds": [
+      "The_Cozy_Potions_of_Sleepy_World"
+    ],
+    "firstAppearanceStoryId": "The_Cozy_Potions_of_Sleepy_World"
+  },
+  {
+    "id": "4973514404114d8da171",
+    "name": "Muska",
+    "description": "Isabella's ancient ocean ancestor.",
+    "storyIds": [
+      "The_Cozy_Potions_of_Sleepy_World"
+    ],
+    "firstAppearanceStoryId": "The_Cozy_Potions_of_Sleepy_World"
+  },
+  {
+    "id": "c7291757deb64d179bb1",
+    "name": "Johnny",
+    "description": "Isabella's ancient ancestor who was a green mergirl living in the ocean.",
+    "storyIds": [
+      "The_Cozy_Potions_of_Sleepy_World"
+    ],
+    "firstAppearanceStoryId": "The_Cozy_Potions_of_Sleepy_World"
+  },
+  {
+    "id": "1ca08fd245b44876b0d0",
+    "name": "Violet Mergirl",
+    "description": "An ancient violet-colored mergirl cousin of Isabella's who also hunted for food in the deep seas.",
+    "storyIds": [
+      "The_Cozy_Potions_of_Sleepy_World"
+    ],
+    "firstAppearanceStoryId": "The_Cozy_Potions_of_Sleepy_World"
   }
 ]

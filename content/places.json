@@ -2601,7 +2601,8 @@
     "name": "The Ocean",
     "description": "The vast underwater home of Willa and Pout-Pout.",
     "storyIds": [
-      "Expedition_to_the_Deep-Deep_Dark"
+      "Expedition_to_the_Deep-Deep_Dark",
+      "The_Cozy_Potions_of_Sleepy_World"
     ],
     "firstAppearanceStoryId": "Expedition_to_the_Deep-Deep_Dark"
   },
@@ -5014,5 +5015,23 @@
       "Prehistoric_Potion_Adventures"
     ],
     "firstAppearanceStoryId": "Prehistoric_Potion_Adventures"
+  },
+  {
+    "id": "0d3b3f3e2fd842a2b61e",
+    "name": "Fly World",
+    "description": "A insect-filled world where Finn Cat goes to hunt and catch flies.",
+    "storyIds": [
+      "The_Cozy_Potions_of_Sleepy_World"
+    ],
+    "firstAppearanceStoryId": "The_Cozy_Potions_of_Sleepy_World"
+  },
+  {
+    "id": "cd59c6be9cc843e5a682",
+    "name": "Sleepy World",
+    "description": "The coziest world in the universe, characterized by calm starry skies, mountains of soft blankets, pillows, and a sleep dragon named Saluska.",
+    "storyIds": [
+      "The_Cozy_Potions_of_Sleepy_World"
+    ],
+    "firstAppearanceStoryId": "The_Cozy_Potions_of_Sleepy_World"
   }
 ]

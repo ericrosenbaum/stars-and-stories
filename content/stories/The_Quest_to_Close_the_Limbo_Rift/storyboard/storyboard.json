@@ -1,0 +1,49 @@
+{
+  "createdAt": "2026-07-03T23:58:53.273Z",
+  "scenes": [
+    {
+      "index": 1,
+      "caption": "Izzy suggests that the brave adventurers will need superhero costumes and helmets to face the scary realm of Limbo.",
+      "quote": {
+        "speaker": "Izzy",
+        "text": "They just get, they just need superhero costumes.",
+        "timestamp": 31
+      },
+      "prompt": "A stylish black and white pen and ink illustration on a white background. Use elegant, clean line work. A young girl stands proudly in a simple bedroom, holding up a small superhero costume and a toy helmet. The background is clean and minimal, emphasizing her heroic pose.",
+      "file": "scene-01.png"
+    },
+    {
+      "index": 2,
+      "caption": "Izzy recommends bringing potions, magic spells, and flashlights to help guide the adventurers along the way.",
+      "quote": {
+        "speaker": "Izzy",
+        "text": "How about potions and magic spells and some flashlights to guide them the way there?",
+        "timestamp": 51
+      },
+      "prompt": "A stylish black and white pen and ink illustration on a white background. Use elegant, clean line work. Seeker (as in the image reference) is a small, bearded dwarf explorer who holds up a bubbling magic potion bottle in one hand and a bright flashlight in the other, preparing for the dark. The background is a simple stone wall with light shading.",
+      "file": "scene-02.png"
+    },
+    {
+      "index": 3,
+      "caption": "Izzy insists that the mission should wait until morning when someone can guide them.",
+      "quote": {
+        "speaker": "Izzy",
+        "text": "Okay. But maybe they should do it in the morning because they might need somebody to guide them. So we should do it in the morning.",
+        "timestamp": 1.12
+      },
+      "prompt": "A stylish black and white pen and ink illustration on a white background. Use elegant, clean line work. Seeker (as in the image reference), the bearded dwarf, and Silver (as in the image reference), a long-haired fluffy cat, stand together at sunrise, ready to head out. The background is a simple landscape with light outlines of distant hills.",
+      "file": "scene-03.png"
+    },
+    {
+      "index": 4,
+      "caption": "Izzy confidently declares that she can be brave, and Silver the cat will join her on the journey.",
+      "quote": {
+        "speaker": "Izzy",
+        "text": "Okay, but I can do it. I can be brave.",
+        "timestamp": 1.26
+      },
+      "prompt": "A stylish black and white pen and ink illustration on a white background. Use elegant, clean line work. A young girl stands with a brave, determined expression, her hand resting gently on Silver (as in the image reference), a fluffy black and white cat sitting proudly beside her. The background is clean, simple, and uncluttered.",
+      "file": "scene-04.png"
+    }
+  ]
+}
