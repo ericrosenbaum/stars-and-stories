@@ -3077,7 +3077,8 @@
     "name": "Seeker's house",
     "description": "A home containing a specialized closet for various uniquely shaped magical potions.",
     "storyIds": [
-      "The_Potion_of_the_Gemstone_Reef"
+      "The_Potion_of_the_Gemstone_Reef",
+      "The_Tale_of_the_Discolored_Mergirl_and_the_Magic_Bubble_Bath"
     ],
     "firstAppearanceStoryId": "The_Potion_of_the_Gemstone_Reef"
   },
@@ -5033,5 +5034,14 @@
       "The_Cozy_Potions_of_Sleepy_World"
     ],
     "firstAppearanceStoryId": "The_Cozy_Potions_of_Sleepy_World"
+  },
+  {
+    "id": "0365cb623bf541d5bb17",
+    "name": "Green Mergirl's Event",
+    "description": "The special gathering place where Green Mergirl performs her celebrated tail walk.",
+    "storyIds": [
+      "The_Tale_of_the_Discolored_Mergirl_and_the_Magic_Bubble_Bath"
+    ],
+    "firstAppearanceStoryId": "The_Tale_of_the_Discolored_Mergirl_and_the_Magic_Bubble_Bath"
   }
 ]

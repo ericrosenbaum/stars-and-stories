@@ -3040,7 +3040,8 @@
       "The_Security_Cats_and_the_Rainbow_Party",
       "Seeker_and_the_Security_Cats_The_Potion_Caper",
       "Prehistoric_Potion_Adventures",
-      "The_Cozy_Potions_of_Sleepy_World"
+      "The_Cozy_Potions_of_Sleepy_World",
+      "The_Tale_of_the_Discolored_Mergirl_and_the_Magic_Bubble_Bath"
     ],
     "firstAppearanceStoryId": "The_Mischief_Moles_and_the_Plane_of_Fire"
   },
@@ -3989,7 +3990,8 @@
     "name": "Blue Mergirl",
     "description": "One of the Mergirls living in a cave on the sea floor.",
     "storyIds": [
-      "Shark_Friends_and_the_Deep_Deep_Dark"
+      "Shark_Friends_and_the_Deep_Deep_Dark",
+      "The_Tale_of_the_Discolored_Mergirl_and_the_Magic_Bubble_Bath"
     ],
     "firstAppearanceStoryId": "Shark_Friends_and_the_Deep_Deep_Dark"
   },
@@ -7021,5 +7023,41 @@
       "The_Cozy_Potions_of_Sleepy_World"
     ],
     "firstAppearanceStoryId": "The_Cozy_Potions_of_Sleepy_World"
+  },
+  {
+    "id": "5cf23c2bb97646018be3",
+    "name": "Murmy",
+    "description": "A mergirl mother who visits Seeker to obtain healing spells for her sick friends.",
+    "storyIds": [
+      "The_Tale_of_the_Discolored_Mergirl_and_the_Magic_Bubble_Bath"
+    ],
+    "firstAppearanceStoryId": "The_Tale_of_the_Discolored_Mergirl_and_the_Magic_Bubble_Bath"
+  },
+  {
+    "id": "e4c8a6d855214beeaff2",
+    "name": "Princess Sneaky",
+    "description": "Also known as Sneaky the mouse, a royal princess who is a close friend of the mergirls.",
+    "storyIds": [
+      "The_Tale_of_the_Discolored_Mergirl_and_the_Magic_Bubble_Bath"
+    ],
+    "firstAppearanceStoryId": "The_Tale_of_the_Discolored_Mergirl_and_the_Magic_Bubble_Bath"
+  },
+  {
+    "id": "d0956b0c6d564cc0baf8",
+    "name": "Green Mergirl",
+    "description": "A mergirl whose beautiful tail gets discolored after a run-in with an electric eel and some safety ointment, and who later gets covered in black and white paint.",
+    "storyIds": [
+      "The_Tale_of_the_Discolored_Mergirl_and_the_Magic_Bubble_Bath"
+    ],
+    "firstAppearanceStoryId": "The_Tale_of_the_Discolored_Mergirl_and_the_Magic_Bubble_Bath"
+  },
+  {
+    "id": "faf6280f3cf547da95b4",
+    "name": "Purple Mergirl",
+    "description": "A well-meaning friend of Green Mergirl who tried to treat her tail with safety ointment.",
+    "storyIds": [
+      "The_Tale_of_the_Discolored_Mergirl_and_the_Magic_Bubble_Bath"
+    ],
+    "firstAppearanceStoryId": "The_Tale_of_the_Discolored_Mergirl_and_the_Magic_Bubble_Bath"
   }
 ]
