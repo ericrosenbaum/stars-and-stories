@@ -19,7 +19,8 @@ function loadNames(file: string, max: number): string[] {
       )
       .slice(0, max)
       .map((e) => e.name);
-  } catch {
+  } catch (e: any) {
+    console.warn(`  (could not read ${file} for the name lexicon — transcribing without spelling hints: ${e?.message || e})`);
     return [];
   }
 }

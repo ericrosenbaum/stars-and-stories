@@ -5,7 +5,6 @@
  * every column highlights + follows the line at the current time, so an
  * engine with drifting timestamps visibly tracks the wrong line.
  */
-import { computeWordCounts } from './wordcount.ts';
 import type { EngineId, EngineResult } from './asr.ts';
 
 export interface FailedEngine {
@@ -24,25 +23,12 @@ export function compareHtml(
   durationSec: number | null,
   results: EngineResult[],
   failures: FailedEngine[],
+  audioFile = 'audio.m4a',
 ): string {
   const esc = (s: string) =>
     s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
-  const data = {
-    results: results.map((r) => ({
-      engine: r.engine,
-      model: r.model,
-      transcript: r.transcript,
-      rawSpeakerMap: r.rawSpeakerMap ?? null,
-      speakerMapMethod: r.speakerMapMethod ?? null,
-      elapsedMs: r.elapsedMs,
-      estimatedCostUsd: r.estimatedCostUsd,
-      costNote: r.costNote,
-      counts: computeWordCounts(r.transcript),
-    })),
-    failures,
-  };
   // <-escape so transcript text can never terminate the script block.
-  const dataJson = JSON.stringify(data).replace(/</g, '\\u003c');
+  const dataJson = JSON.stringify({ results, failures }).replace(/</g, '\\u003c');
 
   return `<!doctype html>
 <html lang="en">
@@ -83,7 +69,7 @@ export function compareHtml(
     <h1>Bake-off — ${esc(label)}</h1>
     <div class="meta">${durationSec ? fmtTime(durationSec) + ' · ' : ''}click any line to play from there</div>
   </div>
-  <audio id="player" controls src="audio.m4a" preload="metadata"></audio>
+  <audio id="player" controls src="${esc(audioFile)}" preload="metadata"></audio>
   <label>speed <select id="rate"><option>0.75</option><option selected>1</option><option>1.25</option><option>1.5</option></select></label>
   <label><input type="checkbox" id="follow" checked /> follow playback</label>
 </header>
@@ -100,6 +86,7 @@ grid.style.setProperty('--cols', Math.max(cols, 1));
 const esc = (s) => String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 const fmt = (t) => Math.floor(t/60) + ':' + String(Math.floor(t%60)).padStart(2,'0');
 
+const columns = []; // [{lines: [{el, ts}], cur: index|-1}] built once for the highlighter
 for (const r of DATA.results) {
   const col = document.createElement('div'); col.className = 'col'; col.dataset.engine = r.engine;
   const cost = r.estimatedCostUsd == null ? 'n/a' : '$' + r.estimatedCostUsd.toFixed(3);
@@ -115,16 +102,18 @@ for (const r of DATA.results) {
     '<p class="stat" title="' + esc(r.costNote) + '">cost basis: ' + esc(r.costNote) + '</p>' +
     mapInfo + '</div>';
   const lines = document.createElement('div'); lines.className = 'lines';
+  const entry = { lines: [], cur: -1 };
   r.transcript.forEach((item) => {
     const div = document.createElement('div');
     div.className = 'line ' + (String(item.speaker).toLowerCase().includes('izzy') ? 'izzy' : 'dad');
-    div.dataset.ts = item.timestamp;
     div.innerHTML = '<span class="ts">' + fmt(item.timestamp || 0) + '</span><b>' + esc(item.speaker) + '</b><span>' + esc(item.text) + '</span>';
     div.addEventListener('click', () => { player.currentTime = Number(item.timestamp) || 0; player.play().catch(() => {}); });
     lines.appendChild(div);
+    entry.lines.push({ el: div, ts: Number(item.timestamp) });
   });
   col.appendChild(lines);
   grid.appendChild(col);
+  columns.push(entry);
 }
 for (const f of DATA.failures) {
   const col = document.createElement('div'); col.className = 'col failed';
@@ -135,15 +124,24 @@ for (const f of DATA.failures) {
 
 // Highlight (and optionally scroll to) the current line in EVERY column while
 // playing — a column whose highlight visibly lags or leads the audio has bad
-// timestamps. That comparison is the point.
+// timestamps. That comparison is the point. Scans the precomputed timestamp
+// arrays (tolerating NaN and out-of-order values) and only touches the DOM
+// when a column's current line actually changes.
 player.addEventListener('timeupdate', () => {
-  const t = player.currentTime;
-  for (const col of grid.querySelectorAll('.col:not(.failed)')) {
-    const lines = [...col.querySelectorAll('.line')];
-    let current = null;
-    for (const l of lines) { if (Number(l.dataset.ts) <= t + 0.001) current = l; else break; }
-    for (const l of lines) l.classList.toggle('now', l === current);
-    if (current && followBox.checked && !player.paused) current.scrollIntoView({ block: 'center', behavior: 'smooth' });
+  const t = player.currentTime + 0.001;
+  for (const col of columns) {
+    let best = -1, bestTs = -Infinity;
+    for (let i = 0; i < col.lines.length; i++) {
+      const ts = col.lines[i].ts;
+      if (!Number.isNaN(ts) && ts <= t && ts >= bestTs) { best = i; bestTs = ts; }
+    }
+    if (best === col.cur) continue;
+    if (col.cur >= 0) col.lines[col.cur].el.classList.remove('now');
+    if (best >= 0) {
+      col.lines[best].el.classList.add('now');
+      if (followBox.checked && !player.paused) col.lines[best].el.scrollIntoView({ block: 'center', behavior: 'smooth' });
+    }
+    col.cur = best;
   }
 });
 </script>

@@ -2,13 +2,14 @@ import fs from 'node:fs';
 import { GoogleGenAI, Type } from '@google/genai';
 import type { TranscriptItem, HighlightQuote } from './types.ts';
 import type { NameLexicon } from './lexicon.ts';
+import { recoverQuoteTimestamp } from './quote.ts';
 
 // Model ids are inherited from the original AI Studio pipeline. If they are no
 // longer valid, override via GEMINI_TEXT_MODEL / GEMINI_IMAGE_MODEL in .env.
 const textModel = () => process.env.GEMINI_TEXT_MODEL || 'gemini-3.5-flash';
 const imageModel = () => process.env.GEMINI_IMAGE_MODEL || 'gemini-3.1-flash-image-preview';
 // The audio pass can run on a different (stronger) model than the text calls.
-const transcribeModel = () =>
+export const transcribeModel = () =>
   process.env.GEMINI_TRANSCRIBE_MODEL || process.env.GEMINI_TEXT_MODEL || 'gemini-3.5-flash';
 
 export function getAI(): GoogleGenAI {
@@ -17,9 +18,31 @@ export function getAI(): GoogleGenAI {
   return new GoogleGenAI({ apiKey });
 }
 
-// Inline audio must stay within the API's 20 MB request cap; leave headroom
-// for base64 inflation and the prompt. Bigger files go through the Files API.
-const INLINE_AUDIO_LIMIT = 15 * 1024 * 1024;
+/** Retry `fn` on transient Gemini errors (5xx / deadline), like the old
+ * transcribe-and-analyze call did — both passes need this so a blip in the
+ * cheap analysis call can't throw away a completed (paid) transcription. */
+async function withRetry<T>(label: string, fn: () => Promise<T>, retries = 2): Promise<T> {
+  while (true) {
+    try {
+      return await fn();
+    } catch (err: any) {
+      const code = err?.error?.code || err?.code;
+      const message = err?.error?.message || err?.message;
+      if ((code === 500 || code === 503 || code === 504 || message?.includes('Deadline expired')) && retries > 0) {
+        console.log(`${label} returned ${code || 'timeout'}. Retrying... (${retries} left)`);
+        retries -= 1;
+        await new Promise((r) => setTimeout(r, 3000));
+        continue;
+      }
+      throw err;
+    }
+  }
+}
+
+// Inline audio must stay within the API's 20 MB request cap AFTER base64
+// inflation (4/3x): 14 MiB of audio -> ~19.6 MB encoded, leaving room for the
+// prompt. Bigger files go through the Files API.
+const INLINE_AUDIO_LIMIT = 14 * 1024 * 1024;
 
 async function audioPart(
   ai: GoogleGenAI,
@@ -82,11 +105,11 @@ export async function transcribeAudio(
 ): Promise<TranscriptItem[]> {
   const ai = getAI();
   const model = opts.model || transcribeModel();
-  let retries = opts.retries ?? 2;
   const { part, cleanup } = await audioPart(ai, audioPath, mimeType);
   try {
-    while (true) {
-      try {
+    return await withRetry(
+      'Transcription',
+      async () => {
         const response = await ai.models.generateContent({
           model,
           contents: [
@@ -140,18 +163,9 @@ export async function transcribeAudio(
         const transcript = (JSON.parse(text) as { transcript: TranscriptItem[] }).transcript;
         if (!transcript?.length) throw new Error('Gemini returned an empty transcript.');
         return transcript;
-      } catch (err: any) {
-        const code = err?.error?.code || err?.code;
-        const message = err?.error?.message || err?.message;
-        if ((code === 500 || code === 503 || code === 504 || message?.includes('Deadline expired')) && retries > 0) {
-          console.log(`Transcription returned ${code || 'timeout'}. Retrying... (${retries} left)`);
-          retries -= 1;
-          await new Promise((r) => setTimeout(r, 3000));
-          continue;
-        }
-        throw err;
-      }
-    }
+      },
+      opts.retries ?? 2,
+    );
   } finally {
     await cleanup();
   }
@@ -175,6 +189,7 @@ export async function analyzeTranscript(
   opts: { model?: string } = {},
 ): Promise<TranscriptAnalysis> {
   const ai = getAI();
+  return withRetry('Analysis', async () => {
   const response = await ai.models.generateContent({
     model: opts.model || textModel(),
     contents: [
@@ -248,6 +263,7 @@ export async function analyzeTranscript(
   const text = response.text;
   if (!text) throw new Error('No response from Gemini');
   return JSON.parse(text) as TranscriptAnalysis;
+  });
 }
 
 /** Transcribe (pass 1) then analyze (pass 2). Same result shape as before. */
@@ -259,6 +275,13 @@ export async function transcribeAndAnalyze(
   const transcript = await transcribeAudio(audioPath, mimeType, { lexicon: opts.lexicon });
   console.log(`  transcript: ${transcript.length} lines. Analyzing...`);
   const analysis = await analyzeTranscript(transcript);
+  // The analysis model only copies timestamps from transcript text — anchor
+  // the quote to the actual transcript line when one matches, since the
+  // schema forces a numeric timestamp even when the model guesses.
+  if (analysis.highlightQuote?.text) {
+    const recovered = recoverQuoteTimestamp(analysis.highlightQuote.text, transcript);
+    if (recovered != null) analysis.highlightQuote.timestamp = recovered;
+  }
   return { ...analysis, transcript };
 }
 

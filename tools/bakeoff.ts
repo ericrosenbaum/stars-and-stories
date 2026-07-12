@@ -17,9 +17,15 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { execFile } from 'node:child_process';
 import { CONTENT_STORIES_DIR, CONTENT_BAKEOFF_DIR, ROOT, ensureDir } from './lib/paths.ts';
-import { ALL_ENGINES, engineAvailable, runEngine, type EngineId, type EngineResult } from './lib/asr.ts';
+import {
+  ALL_ENGINES,
+  audioDurationSec,
+  engineAvailable,
+  runEngine,
+  type EngineId,
+  type EngineResult,
+} from './lib/asr.ts';
 import { loadNameLexicon } from './lib/lexicon.ts';
-import { computeWordCounts } from './lib/wordcount.ts';
 import { compareHtml, fmtTime, type FailedEngine } from './lib/compare-html.ts';
 
 // ---- args ----
@@ -70,16 +76,6 @@ function resolveAudio(input: string): { audioPath: string; label: string } {
   throw new Error('unreachable');
 }
 
-async function audioDuration(audioPath: string): Promise<number | null> {
-  try {
-    const mm = await import('music-metadata');
-    const meta = await mm.parseFile(audioPath);
-    return meta.format.duration ?? null;
-  } catch {
-    return null;
-  }
-}
-
 // ---- main ----
 const stamp = new Date().toISOString().replace(/[-:]/g, '').replace('T', '-').slice(0, 15);
 const lexicon = loadNameLexicon();
@@ -88,10 +84,16 @@ for (const input of inputs) {
   const { audioPath, label } = resolveAudio(input);
   // --name only applies cleanly to a single input; multiple inputs keep their own labels
   const runName = `${inputs.length === 1 && nameArg ? nameArg : label}-${stamp}`;
-  const runDir = path.join(CONTENT_BAKEOFF_DIR, runName);
+  let runDir = path.join(CONTENT_BAKEOFF_DIR, runName);
+  for (let n = 2; fs.existsSync(runDir); n++) {
+    // same basename twice in one invocation (e.g. two source.m4a paths)
+    runDir = path.join(CONTENT_BAKEOFF_DIR, `${runName}-${n}`);
+  }
   ensureDir(runDir);
-  fs.copyFileSync(audioPath, path.join(runDir, 'audio.m4a'));
-  const durationSec = await audioDuration(audioPath);
+  // keep the real extension so the browser can play non-m4a inputs
+  const audioFile = `audio${path.extname(audioPath).toLowerCase() || '.m4a'}`;
+  fs.copyFileSync(audioPath, path.join(runDir, audioFile));
+  const durationSec = await audioDurationSec(audioPath);
 
   console.log(`\n=== ${label} ${durationSec ? `(${fmtTime(durationSec)})` : ''} ===`);
   const results: EngineResult[] = [];
@@ -122,23 +124,20 @@ for (const input of inputs) {
   }
 
   const htmlPath = path.join(runDir, 'compare.html');
-  fs.writeFileSync(htmlPath, compareHtml(label, durationSec, results, failures));
+  fs.writeFileSync(htmlPath, compareHtml(label, durationSec, results, failures, audioFile));
 
   // summary table
   console.log('');
   const rows = [
     ['engine', 'lines', 'Izzy words', 'Dad words', 'time', 'est. cost'],
-    ...results.map((r) => {
-      const c = computeWordCounts(r.transcript);
-      return [
-        r.engine,
-        String(r.transcript.length),
-        String(c.izzyWordCount),
-        String(c.dadWordCount),
-        `${(r.elapsedMs / 1000).toFixed(1)}s`,
-        r.estimatedCostUsd == null ? 'n/a' : `$${r.estimatedCostUsd.toFixed(3)}`,
-      ];
-    }),
+    ...results.map((r) => [
+      r.engine,
+      String(r.transcript.length),
+      String(r.counts.izzyWordCount),
+      String(r.counts.dadWordCount),
+      `${(r.elapsedMs / 1000).toFixed(1)}s`,
+      r.estimatedCostUsd == null ? 'n/a' : `$${r.estimatedCostUsd.toFixed(3)}`,
+    ]),
   ];
   const widths = rows[0].map((_, i) => Math.max(...rows.map((r) => r[i].length)));
   for (const row of rows) console.log('  ' + row.map((cell, i) => cell.padEnd(widths[i] + 2)).join(''));

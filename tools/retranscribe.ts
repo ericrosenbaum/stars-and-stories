@@ -18,7 +18,7 @@ import 'dotenv/config';
 import fs from 'node:fs';
 import path from 'node:path';
 import { CONTENT_STORIES_DIR, CONTENT_BAKEOFF_DIR, ROOT } from './lib/paths.ts';
-import { ALL_ENGINES, runEngine, type EngineId } from './lib/asr.ts';
+import { ALL_ENGINES, audioDurationSec, runEngine, type EngineId } from './lib/asr.ts';
 import { loadNameLexicon } from './lib/lexicon.ts';
 import { computeWordCounts } from './lib/wordcount.ts';
 import { recoverQuoteTimestamp } from './lib/quote.ts';
@@ -29,6 +29,10 @@ import type { StoryRecord, HighlightQuote } from './lib/types.ts';
 // ---- args ----
 const args = process.argv.slice(2);
 const engineIdx = args.indexOf('--engine');
+if (engineIdx >= 0 && (!args[engineIdx + 1] || args[engineIdx + 1].startsWith('--'))) {
+  console.error(`Missing value for --engine. Engines: ${ALL_ENGINES.join(', ')}`);
+  process.exit(1);
+}
 const engine = (engineIdx >= 0 ? args[engineIdx + 1] : 'gemini-flash') as EngineId;
 const engineValIdx = engineIdx >= 0 ? engineIdx + 1 : -1;
 const positional = args.filter((a, i) => !a.startsWith('--') && i !== engineValIdx);
@@ -75,13 +79,7 @@ const oldCounts = {
 console.log(`Re-transcribing "${record.title}" (${slug}) with ${engine}...`);
 console.log(`Tip: story.json is tracked by git — review with: git diff ${path.relative(ROOT, storyJsonPath)}`);
 
-let durationSec: number | null = null;
-try {
-  const mm = await import('music-metadata');
-  durationSec = (await mm.parseFile(audioPath)).format.duration ?? null;
-} catch {
-  /* best-effort, only used for the cost note */
-}
+const durationSec = await audioDurationSec(audioPath);
 
 const result = await runEngine(engine, audioPath, {
   lexicon: loadNameLexicon(),
@@ -93,32 +91,37 @@ if (result.rawSpeakerMap) {
   const mapStr = Object.entries(result.rawSpeakerMap).map(([k, v]) => `${k} → ${v}`).join(', ');
   console.log(`Speaker mapping (${result.speakerMapMethod}): ${mapStr}`);
 }
+const oddSpeakers = [...new Set(result.transcript.map((t) => t.speaker))].filter(
+  (s) => s !== 'Dad' && s !== 'Izzy',
+);
+if (oddSpeakers.length) {
+  console.warn(
+    `\nWARNING: the transcript contains unexpected speaker label(s): ${oddSpeakers.join(', ')}.\n` +
+      `Their words are excluded from the Izzy/Dad word counts — review the git diff carefully before committing.`,
+  );
+}
 
 record.transcript = result.transcript;
 Object.assign(record, computeWordCounts(result.transcript));
 
-// The quote must point at the new transcript's timeline.
+// Whether kept or freshly picked, the quote must point at the NEW
+// transcript's timeline, so its timestamp is always re-located here.
+let quote: HighlightQuote | null = record.highlightQuote;
 if (args.includes('--quote')) {
   console.log('Picking a fresh highlight quote...');
   const fresh = await extractHighlightQuote(result.transcript);
-  if (fresh?.text) {
-    record.highlightQuote = {
-      text: fresh.text,
-      timestamp:
-        typeof fresh.timestamp === 'number'
-          ? fresh.timestamp
-          : recoverQuoteTimestamp(fresh.text, result.transcript),
-    };
-  } else {
-    console.warn('  (quote extraction returned nothing — keeping the old quote)');
-  }
+  if (fresh?.text) quote = fresh;
+  else console.warn('  (quote extraction returned nothing — keeping the old quote)');
 }
-if (record.highlightQuote?.text && !args.includes('--quote')) {
-  const ts = recoverQuoteTimestamp(record.highlightQuote.text, result.transcript);
-  if (ts == null) {
-    console.warn('  (the existing highlight quote no longer matches a transcript line — its timestamp is now unset)');
+if (quote?.text) {
+  const recovered = recoverQuoteTimestamp(quote.text, result.transcript);
+  // a freshly extracted quote carries a usable model timestamp as fallback
+  const fallback = quote !== record.highlightQuote && typeof quote.timestamp === 'number' ? quote.timestamp : null;
+  const timestamp = recovered ?? fallback;
+  if (timestamp == null) {
+    console.warn('  (the highlight quote no longer matches a transcript line — its timestamp is now unset)');
   }
-  record.highlightQuote = { text: record.highlightQuote.text, timestamp: ts } as HighlightQuote;
+  record.highlightQuote = { text: quote.text, timestamp };
 }
 
 fs.writeFileSync(storyJsonPath, JSON.stringify(record, null, 2));

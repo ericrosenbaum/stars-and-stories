@@ -7,8 +7,8 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { Type } from '@google/genai';
-import { getAI, transcribeAudio } from './gemini.ts';
-import { countWords } from './wordcount.ts';
+import { getAI, transcribeAudio, transcribeModel } from './gemini.ts';
+import { countWords, computeWordCounts } from './wordcount.ts';
 import type { NameLexicon } from './lexicon.ts';
 import type { TranscriptItem } from './types.ts';
 
@@ -19,6 +19,7 @@ export interface EngineResult {
   engine: EngineId;
   model: string; // resolved model id
   transcript: TranscriptItem[]; // speakers already mapped to Dad/Izzy
+  counts: ReturnType<typeof computeWordCounts>; // total/Izzy/Dad word counts
   rawSpeakerMap?: Record<string, string>; // e.g. { speaker_0: 'Dad' } (acoustic engines only)
   speakerMapMethod?: 'gemini' | 'word-share'; // how the raw labels were mapped
   elapsedMs: number;
@@ -26,10 +27,35 @@ export interface EngineResult {
   costNote: string; // the formula used, so estimates are auditable
 }
 
+/** MIME type for an audio file, by extension (bakeoff accepts any audio path). */
+export function mimeTypeFor(audioPath: string): string {
+  const map: Record<string, string> = {
+    '.m4a': 'audio/mp4',
+    '.mp4': 'audio/mp4',
+    '.mp3': 'audio/mpeg',
+    '.wav': 'audio/wav',
+    '.ogg': 'audio/ogg',
+    '.flac': 'audio/flac',
+    '.aac': 'audio/aac',
+    '.webm': 'audio/webm',
+  };
+  return map[path.extname(audioPath).toLowerCase()] || 'audio/mp4';
+}
+
+/** Audio duration in seconds via music-metadata, or null when unreadable. */
+export async function audioDurationSec(audioPath: string): Promise<number | null> {
+  try {
+    const mm = await import('music-metadata');
+    return (await mm.parseFile(audioPath)).format.duration ?? null;
+  } catch {
+    return null;
+  }
+}
+
 export function engineModel(engine: EngineId): string {
   switch (engine) {
     case 'gemini-flash':
-      return process.env.GEMINI_TRANSCRIBE_MODEL || process.env.GEMINI_TEXT_MODEL || 'gemini-3.5-flash';
+      return transcribeModel();
     case 'gemini-pro':
       return process.env.GEMINI_PRO_MODEL || 'gemini-3.5-pro';
     case 'scribe-v2':
@@ -142,7 +168,7 @@ function foldScribeWords(words: any[]): RawSegment[] {
 
 async function runScribe(audioPath: string, model: string, rawDumpDir?: string): Promise<RawSegment[]> {
   const form = new FormData();
-  form.append('file', new Blob([fs.readFileSync(audioPath)], { type: 'audio/mp4' }), path.basename(audioPath));
+  form.append('file', new Blob([fs.readFileSync(audioPath)], { type: mimeTypeFor(audioPath) }), path.basename(audioPath));
   form.append('model_id', model);
   form.append('diarize', 'true');
   const res = await fetch('https://api.elevenlabs.io/v1/speech-to-text', {
@@ -172,7 +198,7 @@ async function runOpenAI(audioPath: string, model: string, rawDumpDir?: string):
     );
   }
   const form = new FormData();
-  form.append('file', new Blob([fs.readFileSync(audioPath)], { type: 'audio/mp4' }), path.basename(audioPath));
+  form.append('file', new Blob([fs.readFileSync(audioPath)], { type: mimeTypeFor(audioPath) }), path.basename(audioPath));
   form.append('model', model);
   form.append('response_format', 'diarized_json');
   const res = await fetch('https://api.openai.com/v1/audio/transcriptions', {
@@ -317,7 +343,7 @@ export async function runEngine(
   let speakerMapMethod: 'gemini' | 'word-share' | undefined;
 
   if (engine === 'gemini-flash' || engine === 'gemini-pro') {
-    transcript = await transcribeAudio(audioPath, 'audio/mp4', { model, lexicon: opts.lexicon });
+    transcript = await transcribeAudio(audioPath, mimeTypeFor(audioPath), { model, lexicon: opts.lexicon });
   } else {
     const segments =
       engine === 'scribe-v2'
@@ -334,12 +360,13 @@ export async function runEngine(
   }
 
   const elapsedMs = Date.now() - start;
-  const words = transcript.reduce((n, t) => n + countWords(t.text), 0);
-  const cost = estimateCost(engine, opts.durationSec ?? null, words);
+  const counts = computeWordCounts(transcript);
+  const cost = estimateCost(engine, opts.durationSec ?? null, counts.wordCount);
   return {
     engine,
     model,
     transcript,
+    counts,
     rawSpeakerMap,
     speakerMapMethod,
     elapsedMs,
