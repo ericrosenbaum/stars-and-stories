@@ -68,6 +68,59 @@ published without a header image until you review the candidates and pick one
 
 Re-running the same audio file is detected (by hash) and rejected, so it's safe.
 
+Transcription runs in two focused Gemini passes: an audio pass that only
+transcribes and labels the two speakers (primed with the most recurring
+character/place names from the archive so familiar names are spelled
+consistently), then a text pass that produces the title, entities, summary and
+highlight quote. Set `GEMINI_TRANSCRIBE_MODEL` in `tools/.env` to run the audio
+pass on a stronger model (e.g. a Pro tier) while analysis stays on the cheap one.
+Files over ~15 MB are uploaded via the Gemini Files API automatically.
+
+### Comparing transcription engines (bake-off)
+
+To judge which engine hears Izzy best, run the same recording through several
+engines and review them side by side:
+
+```bash
+cd tools
+npm run bakeoff -- <slug-or-audio-path> [more inputs...]
+# options: --engines gemini-flash,gemini-pro,scribe-v2,openai-diarize   --name label
+```
+
+Engines are skipped (with a note) when their API key is missing from
+`tools/.env`: Gemini needs `GEMINI_API_KEY`, ElevenLabs Scribe
+(`ELEVENLABS_API_KEY`, ~$0.22/audio-hour, acoustic diarization included) and
+OpenAI (`OPENAI_API_KEY`, ~$0.36/audio-hour, native diarization). Gemini costs
+fractions of a cent per story. `npm run verify-models` checks whichever keys
+are configured.
+
+Each run writes `content/bakeoff/<name>-<stamp>/` (gitignored) with per-engine
+JSON and a `compare.html`: one column per engine, Izzy's lines highlighted,
+click any line to play from there, and during playback every column highlights
+the line at the current time — an engine with drifting timestamps visibly
+tracks the wrong line. The acoustic engines' anonymous `speaker_0/1` labels are
+mapped to Dad/Izzy by a small Gemini call (word-share fallback); the header of
+each column shows the mapping so a flipped one is easy to spot.
+
+Judging tip: listen to Izzy's hardest lines at 0.75× speed and compare what
+each engine heard. Requires the story's local `source.m4a` (or any audio path).
+
+### Re-transcribing an existing story
+
+```bash
+cd tools
+npm run retranscribe -- <slug>
+# options: --engine gemini-pro|scribe-v2|openai-diarize   --quote   --no-build
+```
+
+Replaces ONLY the transcript (and the per-speaker word counts) of an existing
+story using the improved pipeline or another engine. The slug, title, date,
+summary, characters, places and header image are preserved. The highlight
+quote's text is kept and its timestamp re-located against the new transcript;
+pass `--quote` to pick a fresh quote instead. Requires the story's local
+`source.m4a`. Review with `git diff content/stories/<slug>/story.json` and
+revert with `git checkout` if the new transcript isn't better.
+
 ### Character reference images
 
 Some characters have a reference portrait (from the world-inventory export,

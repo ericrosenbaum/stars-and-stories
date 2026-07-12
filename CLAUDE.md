@@ -29,6 +29,24 @@ Never overwrite `content/stories/<slug>/source.png` or the served `header.webp`
 by any other means, and never select a candidate without the user's explicit
 choice. A story with no header yet is a normal state (it publishes without one).
 
+## Transcription
+
+New stories are transcribed in two Gemini passes (audio → transcript, then
+transcript → analysis); the transcription prompt is primed with recurring
+character/place names via `tools/lib/lexicon.ts`.
+
+Engine comparison is user-driven, like header candidates:
+`cd tools && npm run bakeoff -- <slug-or-audio>` runs the recording through
+the configured engines and writes `content/bakeoff/<run>/compare.html` — open
+it and let the user judge (Izzy's lines are what matters). NEVER declare a
+winning engine for the user. Engines missing API keys are skipped, that's
+normal.
+
+`npm run retranscribe -- <slug> [--engine X] [--quote]` replaces only the
+transcript + word counts of an existing story (title/date/summary/entities/
+header image preserved). Both tools need the story's local `source.m4a`, which
+exists only on the recording Mac — they fail with a clear message elsewhere.
+
 ## Storyboards
 
 `cd tools && npm run storyboard -- <slug>` plans 6–12 scenes from the full

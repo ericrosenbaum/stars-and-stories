@@ -25,6 +25,8 @@ content/stories/**/storyboard/*.png
 # Same for character reference images: originals stay local, the optimized
 # site/public/media/characters/*.webp derived from them IS committed.
 content/characters/**/reference.*
+# Transcription-engine comparison runs (npm run bakeoff) — scratch output.
+content/bakeoff/
 
 # Reference-only originals (the AI Studio app + the raw data exports).
 # These are not part of the new project; keep them locally as a backup.

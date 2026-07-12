@@ -36,6 +36,34 @@ async function checkImage(model: string) {
   }
 }
 
+async function checkElevenLabs() {
+  try {
+    const res = await fetch('https://api.elevenlabs.io/v1/user', {
+      headers: { 'xi-api-key': process.env.ELEVENLABS_API_KEY! },
+    });
+    console.log(res.ok ? '✓ ElevenLabs API key works' : `✗ ElevenLabs API key FAILED (HTTP ${res.status})`);
+  } catch (e: any) {
+    console.log(`✗ ElevenLabs check FAILED: ${e?.message || e}`);
+  }
+}
+
+async function checkOpenAI(model: string) {
+  try {
+    const res = await fetch(`https://api.openai.com/v1/models/${model}`, {
+      headers: { Authorization: `Bearer ${process.env.OPENAI_API_KEY}` },
+    });
+    console.log(
+      res.ok ? `✓ OpenAI model "${model}" works` : `✗ OpenAI key or model "${model}" FAILED (HTTP ${res.status})`,
+    );
+  } catch (e: any) {
+    console.log(`✗ OpenAI check FAILED: ${e?.message || e}`);
+  }
+}
+
 await checkText(textModel);
 await checkImage(imageModel);
-console.log('\nIf a model failed, set GEMINI_TEXT_MODEL / GEMINI_IMAGE_MODEL in tools/.env to a current model id.');
+const transcribeModel = process.env.GEMINI_TRANSCRIBE_MODEL;
+if (transcribeModel && transcribeModel !== textModel) await checkText(transcribeModel);
+if (process.env.ELEVENLABS_API_KEY) await checkElevenLabs();
+if (process.env.OPENAI_API_KEY) await checkOpenAI(process.env.OPENAI_STT_MODEL || 'gpt-4o-transcribe-diarize');
+console.log('\nIf a model failed, set GEMINI_TEXT_MODEL / GEMINI_IMAGE_MODEL / GEMINI_TRANSCRIBE_MODEL in tools/.env to a current model id.');

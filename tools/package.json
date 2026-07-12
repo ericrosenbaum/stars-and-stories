@@ -9,6 +9,8 @@
     "import-images": "tsx import-character-images.ts",
     "build": "tsx build-site.ts",
     "add": "tsx add-story.ts",
+    "bakeoff": "tsx bakeoff.ts",
+    "retranscribe": "tsx retranscribe.ts",
     "regen-image": "tsx regen-image.ts",
     "storyboard": "tsx storyboard.ts",
     "world-dna": "tsx gen-world-dna.ts",

@@ -34,6 +34,7 @@ import { uniqueSlug } from './lib/slug.ts';
 import { recomputeEntityLinks } from './lib/entities.ts';
 import { generateHeaderCandidates } from './lib/candidates.ts';
 import { transcribeAndAnalyze, mergeEntityDescription } from './lib/gemini.ts';
+import { loadNameLexicon } from './lib/lexicon.ts';
 import { buildSite } from './build-site.ts';
 import type { StoryRecord, EmbeddedEntity, CanonicalEntity, ManifestEntry, HighlightQuote } from './lib/types.ts';
 
@@ -137,8 +138,7 @@ const date = await deriveDate();
 console.log(`Date: ${date.split('T')[0]}`);
 
 console.log('Transcribing + analyzing with Gemini (this can take a minute)...');
-const audioBuf = fs.readFileSync(audioPath);
-const analysis = await transcribeAndAnalyze(audioBuf.toString('base64'), 'audio/mp4');
+const analysis = await transcribeAndAnalyze(audioPath, 'audio/mp4', { lexicon: loadNameLexicon() });
 console.log(`Title: "${analysis.title}"  (${analysis.transcript.length} lines, ${analysis.characters.length} characters, ${analysis.places.length} places)`);
 
 const existingSlugs = new Set(fs.existsSync(CONTENT_STORIES_DIR) ? fs.readdirSync(CONTENT_STORIES_DIR) : []);
