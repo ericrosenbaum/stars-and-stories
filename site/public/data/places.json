@@ -4231,7 +4231,8 @@
       "The_Magic_Star_Potion_and_the_Journey_to_Star_World",
       "An_Accidental_Trip_to_Nana_s_House",
       "Seeker_and_the_Security_Cats_The_Potion_Caper",
-      "Prehistoric_Potion_Adventures"
+      "Prehistoric_Potion_Adventures",
+      "Seeker_s_Midnight_Adventure_and_the_Dancing_Pterodactyl"
     ],
     "firstAppearanceStoryId": "A_Sticky_Adventure_to_the_Castle_of_Slime"
   },
@@ -5082,5 +5083,23 @@
       "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission"
     ],
     "firstAppearanceStoryId": "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission"
+  },
+  {
+    "id": "60b2c4bdeec14742abcf",
+    "name": "Red Dot World",
+    "description": "A vibrant purple-colored berry world filled with raspberries, strawberries, red grapes, and floofberries.",
+    "storyIds": [
+      "Seeker_s_Midnight_Adventure_and_the_Dancing_Pterodactyl"
+    ],
+    "firstAppearanceStoryId": "Seeker_s_Midnight_Adventure_and_the_Dancing_Pterodactyl"
+  },
+  {
+    "id": "1731719d18a84924b09d",
+    "name": "New York City",
+    "description": "A city mentioned by Clover where the noisy forest animals have gone to consult a wolf about finding food.",
+    "storyIds": [
+      "Seeker_s_Midnight_Adventure_and_the_Dancing_Pterodactyl"
+    ],
+    "firstAppearanceStoryId": "Seeker_s_Midnight_Adventure_and_the_Dancing_Pterodactyl"
   }
 ]

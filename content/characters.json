@@ -1354,7 +1354,8 @@
       "The_Floof-Berry_Mission_and_the_Great_Snowstorm",
       "The_Sleepy-Time_Science_Experiment",
       "The_Magic_Star_Potion_and_the_Journey_to_Star_World",
-      "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission"
+      "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission",
+      "Seeker_s_Midnight_Adventure_and_the_Dancing_Pterodactyl"
     ],
     "firstAppearanceStoryId": "The_Floof-Berry_Mission_and_the_Great_Snowstorm"
   },
@@ -3047,7 +3048,8 @@
       "Prehistoric_Potion_Adventures",
       "The_Cozy_Potions_of_Sleepy_World",
       "The_Tale_of_the_Discolored_Mergirl_and_the_Magic_Bubble_Bath",
-      "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission"
+      "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission",
+      "Seeker_s_Midnight_Adventure_and_the_Dancing_Pterodactyl"
     ],
     "firstAppearanceStoryId": "The_Mischief_Moles_and_the_Plane_of_Fire"
   },
@@ -3741,7 +3743,8 @@
     "name": "Lottie",
     "description": "A member of the crew who takes over as the driver and spies mysterious things out the window.",
     "storyIds": [
-      "Voyage_to_the_Kingdom_of_the_Sea_Mice"
+      "Voyage_to_the_Kingdom_of_the_Sea_Mice",
+      "Seeker_s_Midnight_Adventure_and_the_Dancing_Pterodactyl"
     ],
     "firstAppearanceStoryId": "Voyage_to_the_Kingdom_of_the_Sea_Mice"
   },
@@ -4575,7 +4578,8 @@
       "Science_in_the_Bakery",
       "The_Sleepy-Time_Science_Experiment",
       "The_Gopher_s_Squerret_Quest_in_Australia",
-      "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission"
+      "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission",
+      "Seeker_s_Midnight_Adventure_and_the_Dancing_Pterodactyl"
     ],
     "firstAppearanceStoryId": "Late_Night_Tea_with_Mrs_Piggy_and_the_Muppets"
   },
@@ -7103,5 +7107,23 @@
       "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission"
     ],
     "firstAppearanceStoryId": "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission"
+  },
+  {
+    "id": "b9398bcccfcb4c958a5a",
+    "name": "Clover",
+    "description": "A stray bunny rabbit found in the woods who gets adopted by Seeker.",
+    "storyIds": [
+      "Seeker_s_Midnight_Adventure_and_the_Dancing_Pterodactyl"
+    ],
+    "firstAppearanceStoryId": "Seeker_s_Midnight_Adventure_and_the_Dancing_Pterodactyl"
+  },
+  {
+    "id": "ea5fd2514bb44992bb4e",
+    "name": "The Pterodactyl",
+    "description": "A giant flying reptile living in Red Dot World who loves to eat meat and wants to learn how to dance.",
+    "storyIds": [
+      "Seeker_s_Midnight_Adventure_and_the_Dancing_Pterodactyl"
+    ],
+    "firstAppearanceStoryId": "Seeker_s_Midnight_Adventure_and_the_Dancing_Pterodactyl"
   }
 ]
