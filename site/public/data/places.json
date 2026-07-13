@@ -1186,7 +1186,8 @@
     "description": "An outdoor area where students might make snow-canos.",
     "storyIds": [
       "Dimitar_s_Flight_to_Cadasori",
-      "The_Security_Cats_and_the_Rainbow_Party"
+      "The_Security_Cats_and_the_Rainbow_Party",
+      "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission"
     ],
     "firstAppearanceStoryId": "Dimitar_s_Flight_to_Cadasori"
   },
@@ -3520,7 +3521,8 @@
     "storyIds": [
       "Dimitar_and_the_Castle_of_Ice_Fangsicle",
       "The_Ice_Dragon_s_Sparkly_Castle_and_the_Great_Ice_Festival",
-      "The_Ice_Dragon_s_New_Hat"
+      "The_Ice_Dragon_s_New_Hat",
+      "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission"
     ],
     "firstAppearanceStoryId": "Dimitar_and_the_Castle_of_Ice_Fangsicle"
   },
@@ -4941,7 +4943,8 @@
     "name": "Flower Castle",
     "description": "The beautiful home base where the security cats live.",
     "storyIds": [
-      "Wobbly_Whisker_and_the_Mountaintop_Fish_House-2"
+      "Wobbly_Whisker_and_the_Mountaintop_Fish_House-2",
+      "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission"
     ],
     "firstAppearanceStoryId": "Wobbly_Whisker_and_the_Mountaintop_Fish_House-2"
   },
@@ -5043,5 +5046,41 @@
       "The_Tale_of_the_Discolored_Mergirl_and_the_Magic_Bubble_Bath"
     ],
     "firstAppearanceStoryId": "The_Tale_of_the_Discolored_Mergirl_and_the_Magic_Bubble_Bath"
+  },
+  {
+    "id": "007ecf5f5f064d2a85a4",
+    "name": "Greenland",
+    "description": "A cold, snowy destination far across the ocean.",
+    "storyIds": [
+      "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission"
+    ],
+    "firstAppearanceStoryId": "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission"
+  },
+  {
+    "id": "2b2f7470d260413b8040",
+    "name": "North Mountain",
+    "description": "A cold, snowy range where Elsa Pony and Elsa reside.",
+    "storyIds": [
+      "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission"
+    ],
+    "firstAppearanceStoryId": "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission"
+  },
+  {
+    "id": "40b068ed03d54072b9c0",
+    "name": "Elsa's Palace",
+    "description": "The grand home of Elsa located on the North Mountain.",
+    "storyIds": [
+      "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission"
+    ],
+    "firstAppearanceStoryId": "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission"
+  },
+  {
+    "id": "9008cfbe396447f4acb8",
+    "name": "Farmer Wabble's Island",
+    "description": "An island in Italy where a volcano erupts and must be frozen by Elsa Pony.",
+    "storyIds": [
+      "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission"
+    ],
+    "firstAppearanceStoryId": "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission"
   }
 ]

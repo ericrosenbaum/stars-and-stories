@@ -337,7 +337,8 @@
       "An_Accidental_Trip_to_Nana_s_House",
       "Seeker_and_the_Security_Cats_The_Potion_Caper",
       "Prehistoric_Potion_Adventures",
-      "The_Cozy_Potions_of_Sleepy_World"
+      "The_Cozy_Potions_of_Sleepy_World",
+      "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission"
     ],
     "firstAppearanceStoryId": "Frasgle_and_the_Sticky_Situation"
   },
@@ -1313,7 +1314,8 @@
     "storyIds": [
       "Stars_and_Stories_The_Great_Cat_Rescue",
       "The_Galactic_Search_for_Chicky",
-      "The_Security_Cats_and_the_Rainbow_Party"
+      "The_Security_Cats_and_the_Rainbow_Party",
+      "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission"
     ],
     "firstAppearanceStoryId": "Stars_and_Stories_The_Great_Cat_Rescue"
   },
@@ -1351,7 +1353,8 @@
     "storyIds": [
       "The_Floof-Berry_Mission_and_the_Great_Snowstorm",
       "The_Sleepy-Time_Science_Experiment",
-      "The_Magic_Star_Potion_and_the_Journey_to_Star_World"
+      "The_Magic_Star_Potion_and_the_Journey_to_Star_World",
+      "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission"
     ],
     "firstAppearanceStoryId": "The_Floof-Berry_Mission_and_the_Great_Snowstorm"
   },
@@ -2074,7 +2077,8 @@
     "description": "A small white kitten, slick with the sticky, iridescent residue of the potion bottle she tumbled from, who joins the adventure in a desperate search for her lost mother.",
     "storyIds": [
       "The_Quest_for_the_Moon_Mother",
-      "Seeker_and_the_Security_Cats_The_Potion_Caper"
+      "Seeker_and_the_Security_Cats_The_Potion_Caper",
+      "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission"
     ],
     "firstAppearanceStoryId": "The_Quest_for_the_Moon_Mother"
   },
@@ -2911,7 +2915,8 @@
     "name": "Elsa Pony",
     "description": "A pony with ice powers who loves freezing things.",
     "storyIds": [
-      "The_Salty_Solution_for_a_Frozen_Island"
+      "The_Salty_Solution_for_a_Frozen_Island",
+      "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission"
     ],
     "firstAppearanceStoryId": "The_Salty_Solution_for_a_Frozen_Island"
   },
@@ -3041,7 +3046,8 @@
       "Seeker_and_the_Security_Cats_The_Potion_Caper",
       "Prehistoric_Potion_Adventures",
       "The_Cozy_Potions_of_Sleepy_World",
-      "The_Tale_of_the_Discolored_Mergirl_and_the_Magic_Bubble_Bath"
+      "The_Tale_of_the_Discolored_Mergirl_and_the_Magic_Bubble_Bath",
+      "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission"
     ],
     "firstAppearanceStoryId": "The_Mischief_Moles_and_the_Plane_of_Fire"
   },
@@ -4568,7 +4574,8 @@
       "Late_Night_Tea_with_Mrs_Piggy_and_the_Muppets",
       "Science_in_the_Bakery",
       "The_Sleepy-Time_Science_Experiment",
-      "The_Gopher_s_Squerret_Quest_in_Australia"
+      "The_Gopher_s_Squerret_Quest_in_Australia",
+      "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission"
     ],
     "firstAppearanceStoryId": "Late_Night_Tea_with_Mrs_Piggy_and_the_Muppets"
   },
@@ -5185,7 +5192,8 @@
       "The_Quest_for_the_Moon_Mother",
       "The_Salty_Solution_for_a_Frozen_Island",
       "The_Magic_Star_Potion_and_the_Journey_to_Star_World",
-      "The_Security_Cats_and_the_Rainbow_Party"
+      "The_Security_Cats_and_the_Rainbow_Party",
+      "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission"
     ],
     "firstAppearanceStoryId": "Dimitar_and_the_Castle_of_Ice_Fangsicle"
   },
@@ -7059,5 +7067,41 @@
       "The_Tale_of_the_Discolored_Mergirl_and_the_Magic_Bubble_Bath"
     ],
     "firstAppearanceStoryId": "The_Tale_of_the_Discolored_Mergirl_and_the_Magic_Bubble_Bath"
+  },
+  {
+    "id": "f931a6bcd2d6422ab2f4",
+    "name": "Farmer Wabble",
+    "description": "A woodchuck farmer who doesn't go to school, sells squirets, and lives on an island in Italy with an active volcano.",
+    "storyIds": [
+      "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission"
+    ],
+    "firstAppearanceStoryId": "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission"
+  },
+  {
+    "id": "30b9f1486f5e4e2dab01",
+    "name": "Sirana",
+    "description": "A security cat who joins Wobbly Whiskers and Seeker to go to Icicle's cold castle.",
+    "storyIds": [
+      "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission"
+    ],
+    "firstAppearanceStoryId": "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission"
+  },
+  {
+    "id": "68a894e7632846bfa1b5",
+    "name": "Princess Mango",
+    "description": "A royal character who appears during the investigation of Chicky's jar mission.",
+    "storyIds": [
+      "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission"
+    ],
+    "firstAppearanceStoryId": "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission"
+  },
+  {
+    "id": "059af1cf958b49d89485",
+    "name": "Elsa",
+    "description": "A magical queen who lives in a palace on the North Mountain and gets married to Elsa Pony.",
+    "storyIds": [
+      "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission"
+    ],
+    "firstAppearanceStoryId": "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission"
   }
 ]
