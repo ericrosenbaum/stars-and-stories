@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<title>Stars &amp; Stories — Studio</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ctext y='13' font-size='13'%3E%E2%AD%90%3C/text%3E%3C/svg%3E" />
+<style>
+  :root {
+    --bg: #faf8f4; --card: #fff; --ink: #222; --muted: #777;
+    --gold: #b8860b; --gold-bg: #fdf6e3; --line: #ddd;
+    --blue: #4a6fa5; --red: #a54a4a;
+  }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, system-ui, sans-serif; margin: 0; background: var(--bg); color: var(--ink); }
+  main { max-width: 720px; margin: 0 auto; padding: 1rem 1rem 4rem; }
+  h1 { font-size: 1.3rem; margin: 1rem 0 .25rem; }
+  h1 .star { color: var(--gold); }
+  h2 { font-size: 1.1rem; margin: 1.5rem 0 .5rem; }
+  .sub { color: var(--muted); font-size: .85rem; margin: 0 0 1rem; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 1rem; margin: .75rem 0; }
+  .card.current { border: 2px solid var(--gold); background: var(--gold-bg); }
+  .card img { width: 100%; aspect-ratio: 16/9; object-fit: cover; border-radius: 8px; border: 1px solid #eee; background: #eee; display: block; }
+  figcaption { font-weight: 700; margin-bottom: .6rem; }
+  button, .btn { display: inline-block; width: 100%; min-height: 44px; padding: .6rem 1rem; margin-top: .6rem;
+    font-size: 1rem; font-weight: 600; border-radius: 10px; border: 1px solid var(--line);
+    background: #fff; color: var(--ink); cursor: pointer; text-align: center; text-decoration: none; }
+  button.primary { background: var(--gold); border-color: var(--gold); color: #fff; }
+  button.confirm { background: var(--red); border-color: var(--red); color: #fff; }
+  button.quiet { border: none; background: none; color: var(--muted); font-weight: 400; }
+  button:disabled { opacity: .5; cursor: default; }
+  input[type="date"], textarea, input[type="text"] { width: 100%; min-height: 44px; padding: .55rem .7rem; font-size: 1rem;
+    border: 1px solid var(--line); border-radius: 10px; background: #fff; font-family: inherit; margin-top: .4rem; }
+  textarea { min-height: 70px; resize: vertical; }
+  label { font-size: .85rem; color: var(--muted); display: block; margin-top: .8rem; }
+  .drop { border: 2px dashed var(--line); border-radius: 12px; padding: 1.4rem 1rem; text-align: center; color: var(--muted); }
+  .drop.over { border-color: var(--gold); background: var(--gold-bg); }
+  .bar { height: 10px; border-radius: 5px; background: #eee; overflow: hidden; margin-top: .8rem; }
+  .bar > div { height: 100%; background: var(--gold); width: 0; transition: width .2s; }
+  .stages { list-style: none; padding: 0; margin: .5rem 0; }
+  .stages li { padding: .45rem 0 .45rem 1.9rem; position: relative; color: var(--muted); }
+  .stages li::before { content: '○'; position: absolute; left: .3rem; }
+  .stages li.active { color: var(--ink); font-weight: 600; }
+  .stages li.active::before { content: '◐'; color: var(--gold); }
+  .stages li.done { color: var(--ink); }
+  .stages li.done::before { content: '●'; color: var(--gold); }
+  .log { font-family: ui-monospace, monospace; font-size: .78rem; color: #555; background: #f4f1ea;
+    border-radius: 8px; padding: .7rem; white-space: pre-wrap; word-break: break-word; max-height: 12rem; overflow-y: auto; }
+  .error { background: #fdf0f0; border: 1px solid #e5c5c5; color: #7a2f2f; border-radius: 10px; padding: .8rem; margin: .75rem 0; white-space: pre-wrap; word-break: break-word; }
+  .notice { background: var(--gold-bg); border: 1px solid #e8d9a8; border-radius: 10px; padding: .8rem; margin: .75rem 0; font-size: .9rem; }
+  .pending-item { display: flex; justify-content: space-between; align-items: center; gap: .6rem; }
+  .pending-item .t { font-weight: 600; }
+  .pending-item .d { color: var(--muted); font-size: .8rem; }
+  details { margin-top: .6rem; font-size: .85rem; color: #555; } summary { cursor: pointer; min-height: 32px; }
+  ul.files { font-family: ui-monospace, monospace; font-size: .78rem; color: #555; padding-left: 1.2rem; margin: .4rem 0; }
+  .spin { display: inline-block; width: 1em; height: 1em; border: 2px solid var(--gold); border-top-color: transparent;
+    border-radius: 50%; animation: spin .8s linear infinite; vertical-align: -2px; margin-right: .4rem; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .row { display: flex; gap: .6rem; } .row > * { flex: 1; }
+</style>
+</head>
+<body>
+<main id="app"></main>
+<script>
+'use strict';
+
+// ---- plumbing -------------------------------------------------------------
+
+const qsToken = new URLSearchParams(location.search).get('token');
+if (qsToken) sessionStorage.setItem('studioToken', qsToken);
+const TOKEN = sessionStorage.getItem('studioToken') || '';
+const tokenQ = TOKEN ? `token=${encodeURIComponent(TOKEN)}` : '';
+
+function apiUrl(path) {
+  return tokenQ ? path + (path.includes('?') ? '&' : '?') + tokenQ : path;
+}
+
+async function api(path, opts = {}) {
+  const headers = Object.assign({ 'Content-Type': 'application/json' }, opts.headers || {});
+  if (TOKEN) headers['X-Studio-Token'] = TOKEN;
+  const res = await fetch(path, Object.assign({}, opts, { headers }));
+  const body = await res.json().catch(() => ({}));
+  if (!res.ok) {
+    const err = new Error(body.error || `${res.status} ${res.statusText}`);
+    err.code = body.code;
+    err.slug = body.slug;
+    throw err;
+  }
+  return body;
+}
+
+const esc = (s) => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+
+// ---- state ----------------------------------------------------------------
+
+const S = {
+  state: null,          // last /api/state payload
+  screen: 'home',
+  reviewSlug: null,
+  handledJob: null,     // job id whose completion we've already reacted to
+  uploadPct: null,      // non-null while an upload request is in flight
+  homeError: null,
+  publishPreview: null,
+  publishResult: null,
+  confirmKey: null,     // two-step confirm: which button is armed
+};
+
+async function fetchState() {
+  try {
+    S.state = await api('/api/state');
+  } catch (e) {
+    S.state = null;
+    render();
+    return;
+  }
+  deriveScreen();
+  render();
+}
+
+function deriveScreen() {
+  const job = S.state && S.state.job;
+  if (job && job.status === 'running') {
+    S.screen = (job.kind === 'publish' || job.kind === 'push') ? 'publishing' : 'processing';
+    return;
+  }
+  if (job && job.id !== S.handledJob) {
+    S.handledJob = job.id;
+    S.confirmKey = null;
+    if (job.status === 'error') {
+      S.screen = 'error';
+    } else if (job.kind === 'add' || job.kind === 'regen') {
+      S.reviewSlug = job.slug || (job.result && job.result.slug) || null;
+      S.screen = 'review';
+    } else if (job.kind === 'select') {
+      openPublish();
+    } else if (job.kind === 'publish' || job.kind === 'push') {
+      S.publishResult = job.result;
+      S.screen = 'done';
+    }
+    return;
+  }
+  // Stale transient screens (e.g. the server restarted mid-job).
+  if ((S.screen === 'processing' || S.screen === 'publishing') && (!job || job.id === S.handledJob)) {
+    S.screen = 'home';
+  }
+  if (S.screen === 'review' && S.reviewSlug && !pendingFor(S.reviewSlug)) {
+    // batch disappeared (selected/discarded elsewhere) — nothing to review
+    if (!(S.state.job && S.state.job.slug === S.reviewSlug)) S.screen = 'home';
+  }
+}
+
+const pendingFor = (slug) => (S.state && S.state.pending || []).find((p) => p.slug === slug);
+
+// ---- actions ---------------------------------------------------------------
+
+function upload(file) {
+  const dateEl = document.getElementById('date-override');
+  const params = new URLSearchParams({ filename: file.name || 'upload.m4a' });
+  if (dateEl && dateEl.value) params.set('date', dateEl.value);
+  if (file.lastModified) params.set('lastModified', String(file.lastModified));
+
+  S.homeError = null;
+  S.uploadPct = 0;
+  render();
+
+  const xhr = new XMLHttpRequest();
+  xhr.open('POST', apiUrl('/api/upload?' + params));
+  if (TOKEN) xhr.setRequestHeader('X-Studio-Token', TOKEN);
+  xhr.upload.onprogress = (e) => {
+    if (e.lengthComputable) { S.uploadPct = Math.round((e.loaded / e.total) * 100); render(); }
+  };
+  xhr.onload = () => {
+    S.uploadPct = null;
+    if (xhr.status === 202) { fetchState(); return; }
+    let body = {};
+    try { body = JSON.parse(xhr.responseText); } catch {}
+    S.homeError = body.code === 'duplicate'
+      ? `Already in the archive as “${body.slug}”.`
+      : (body.error || `Upload failed (${xhr.status})`);
+    render();
+  };
+  xhr.onerror = () => { S.uploadPct = null; S.homeError = 'Upload failed — is the studio still running?'; render(); };
+  xhr.send(file);
+}
+
+// Two-step confirmation: first tap arms the button, second tap fires.
+function confirmable(key, fn) {
+  if (S.confirmKey === key) { S.confirmKey = null; fn(); }
+  else { S.confirmKey = key; render(); setTimeout(() => { if (S.confirmKey === key) { S.confirmKey = null; render(); } }, 4000); }
+}
+
+async function act(fn) {
+  try { await fn(); } catch (e) { alert(e.message); }
+  fetchState();
+}
+
+function selectCandidate(slug, n) {
+  confirmable(`select-${slug}-${n}`, () => act(() => api('/api/select', { method: 'POST', body: JSON.stringify({ slug, n }) })));
+}
+function skipHeader(slug) {
+  confirmable(`skip-${slug}`, () => act(async () => { await api('/api/skip', { method: 'POST', body: JSON.stringify({ slug }) }); openPublish(); }));
+}
+function regen(slug) {
+  const feedback = (document.getElementById('feedback') || {}).value || '';
+  act(() => api('/api/regen', { method: 'POST', body: JSON.stringify({ slug, feedback }) }));
+}
+function retryCandidates(slug) {
+  act(() => api('/api/regen', { method: 'POST', body: JSON.stringify({ slug }) }));
+}
+async function openPublish() {
+  S.screen = 'publish';
+  S.publishPreview = null;
+  render();
+  try { S.publishPreview = await api('/api/publish/preview'); } catch (e) { S.publishPreview = { error: e.message }; }
+  render();
+}
+function publish() {
+  const message = (document.getElementById('commit-msg') || {}).value || '';
+  confirmable('publish', () => act(() => api('/api/publish', { method: 'POST', body: JSON.stringify({ message }) })));
+}
+function retryPush() {
+  act(() => api('/api/publish/push', { method: 'POST', body: '{}' }));
+}
+function goHome() { S.screen = 'home'; S.homeError = null; S.confirmKey = null; render(); }
+function goReview(slug) { S.reviewSlug = slug; S.screen = 'review'; S.confirmKey = null; render(); }
+
+// ---- rendering -------------------------------------------------------------
+
+const app = document.getElementById('app');
+
+function header(sub) {
+  return `<h1><span class="star">★</span> Stars &amp; Stories — Studio</h1><p class="sub">${esc(sub)}</p>`;
+}
+
+function confirmBtn(key, idleLabel, armedLabel, onclick, cls = 'primary') {
+  const armed = S.confirmKey === key;
+  return `<button class="${armed ? 'confirm' : cls}" onclick="${onclick}">${esc(armed ? armedLabel : idleLabel)}</button>`;
+}
+
+function renderHome() {
+  const pending = (S.state && S.state.pending) || [];
+  const repo = (S.state && S.state.repo) || {};
+  let html = header('Add a story from a voice memo.');
+
+  if (!S.state) html += `<div class="error">Can’t reach the studio server. Is <code>npm run studio</code> still running?</div>`;
+  if (S.homeError) html += `<div class="error">${esc(S.homeError)}</div>`;
+
+  if (S.uploadPct !== null) {
+    html += `<div class="card"><b>Uploading… ${S.uploadPct}%</b><div class="bar"><div style="width:${S.uploadPct}%"></div></div></div>`;
+  } else {
+    html += `<div class="card">
+      <div class="drop" id="drop">
+        <p><b>Upload a voice memo</b></p>
+        <p>From your phone: tap below, then pick the recording from the Files app or Voice Memos share sheet.</p>
+        <input type="file" id="file" accept="audio/*,.m4a" style="display:none" />
+        <button class="primary" onclick="document.getElementById('file').click()">Choose audio file</button>
+      </div>
+      <label>Story date (optional — otherwise taken from the recording)</label>
+      <input type="date" id="date-override" />
+    </div>`;
+  }
+
+  if (pending.length) {
+    html += `<h2>Awaiting header review</h2>`;
+    for (const p of pending) {
+      html += `<div class="card pending-item" onclick="goReview('${esc(p.slug)}')" style="cursor:pointer">
+        <div><div class="t">${esc(p.title)}</div><div class="d">${p.items.length} candidate${p.items.length === 1 ? '' : 's'} · ${esc((p.createdAt || '').slice(0, 10))}</div></div>
+        <div>›</div>
+      </div>`;
+    }
+  }
+
+  if (repo.dirty) {
+    html += `<h2>Publish</h2>
+      <div class="card"><p class="sub" style="margin:0 0 .2rem">There are unpublished changes on branch <b>${esc(repo.branch)}</b>.</p>
+      <button onclick="openPublish()">Review &amp; publish…</button></div>`;
+  }
+  app.innerHTML = html;
+
+  const fileEl = document.getElementById('file');
+  if (fileEl) fileEl.onchange = () => { if (fileEl.files[0]) upload(fileEl.files[0]); };
+  const drop = document.getElementById('drop');
+  if (drop) {
+    drop.ondragover = (e) => { e.preventDefault(); drop.classList.add('over'); };
+    drop.ondragleave = () => drop.classList.remove('over');
+    drop.ondrop = (e) => { e.preventDefault(); drop.classList.remove('over'); if (e.dataTransfer.files[0]) upload(e.dataTransfer.files[0]); };
+  }
+}
+
+const ADD_STAGES = [
+  ['transcribe', 'Transcribing with Gemini'],
+  ['entities', 'Extracting characters & places'],
+  ['write', 'Saving the story'],
+  ['candidates', 'Generating 3 header candidates'],
+];
+
+function renderProcessing(job) {
+  let html = header(job.kind === 'add' ? 'Processing your voice memo…' : 'Working…');
+  html += `<div class="card">`;
+  if (job.kind === 'add') {
+    const order = ADD_STAGES.map(([k]) => k);
+    const idx = order.indexOf(job.stage);
+    html += `<ul class="stages">` + ADD_STAGES.map(([k, label], i) => {
+      const cls = i < idx || job.stage === 'done' ? 'done' : i === idx ? 'active' : '';
+      return `<li class="${cls}">${esc(label)}</li>`;
+    }).join('') + `</ul>`;
+  } else {
+    html += `<p><span class="spin"></span><b>${esc(job.kind === 'regen' ? 'Generating a new candidate batch…' : 'Applying your selection…')}</b></p>`;
+  }
+  if (job.log.length) html += `<div class="log">${esc(job.log.slice(-8).map((l) => l.msg).join('\n'))}</div>`;
+  html += `<p class="sub" style="margin-top:.8rem">You can lock your phone — this picks up where it left off.</p></div>`;
+  app.innerHTML = html;
+}
+
+function renderReview() {
+  const p = pendingFor(S.reviewSlug);
+  const job = S.state && S.state.job;
+  let html = header('Pick a header image.');
+
+  if (!p) {
+    // Story exists but no batch — e.g. candidate generation failed during add.
+    const title = (job && job.result && job.result.title) || S.reviewSlug;
+    html += `<div class="card"><b>${esc(title)}</b>`;
+    if (job && job.result && job.result.candidatesError) {
+      html += `<div class="error">Candidate generation failed: ${esc(job.result.candidatesError)}</div>`;
+    } else {
+      html += `<p class="sub">No candidate batch for this story.</p>`;
+    }
+    html += `<button class="primary" onclick="retryCandidates('${esc(S.reviewSlug)}')">Generate candidates</button>
+      <button onclick="openPublish()">Publish without a header</button>
+      <button class="quiet" onclick="goHome()">Back</button></div>`;
+    app.innerHTML = html;
+    return;
+  }
+
+  const bust = encodeURIComponent(p.createdAt || '');
+  html += `<div class="card"><b>${esc(p.title)}</b><p class="sub" style="margin:.3rem 0 0">${esc(p.summary)}</p></div>`;
+  if (p.feedback) html += `<div class="notice">This batch was generated with your feedback: “${esc(p.feedback)}”</div>`;
+
+  if (p.hasCurrentHeader) {
+    html += `<figure class="card current"><figcaption>Current header</figcaption>
+      <img src="${apiUrl(`/api/media/${encodeURIComponent(p.slug)}/current`)}${tokenQ ? '&' : '?'}t=${bust}" alt="Current header" />
+      <p class="sub" style="margin:.6rem 0 0">Keeping it? Use “Keep current image” below.</p></figure>`;
+  }
+
+  for (const it of p.items) {
+    html += `<figure class="card"><figcaption>Candidate ${it.n}</figcaption>
+      <img src="${apiUrl(`/api/media/${encodeURIComponent(p.slug)}/candidate/${encodeURIComponent(it.file)}`)}${tokenQ ? '&' : '?'}t=${bust}" alt="Candidate ${it.n}" loading="lazy" />
+      <details><summary>Prompt</summary><p>${esc(it.prompt)}</p></details>
+      ${confirmBtn(`select-${p.slug}-${it.n}`, 'Use this one', `Tap again to use candidate ${it.n}`, `selectCandidate('${esc(p.slug)}', ${it.n})`)}
+    </figure>`;
+  }
+
+  html += `<div class="card"><b>Not quite right?</b>
+    <label>What should be different?</label>
+    <textarea id="feedback" placeholder="e.g. show the treehouse at night, make the turtle bigger…"></textarea>
+    <button onclick="regen('${esc(p.slug)}')">Generate a new batch</button>
+    ${confirmBtn(`skip-${p.slug}`, p.hasCurrentHeader ? 'Keep current image' : 'Skip header for now', p.hasCurrentHeader ? 'Tap again to keep the current image' : 'Tap again — story publishes without an image', `skipHeader('${esc(p.slug)}')`, '')}
+    <button class="quiet" onclick="goHome()">Back</button>
+  </div>`;
+  app.innerHTML = html;
+}
+
+function renderPublish() {
+  const repo = (S.state && S.state.repo) || {};
+  const pv = S.publishPreview;
+  let html = header('Publish to the site.');
+  if (repo.branch && repo.branch !== 'main') {
+    html += `<div class="notice">Heads up: you’re on branch <b>${esc(repo.branch)}</b>, not <b>main</b>. Pushing won’t deploy the site until it’s on main.</div>`;
+  }
+  html += `<div class="card">`;
+  if (!pv) {
+    html += `<p><span class="spin"></span>Checking what changed…</p>`;
+  } else if (pv.error) {
+    html += `<div class="error">${esc(pv.error)}</div>`;
+  } else if (!pv.files.length && !(repo.dirty)) {
+    html += `<p class="sub">Nothing to publish — everything is already committed.</p>`;
+  } else {
+    html += `<details><summary>${pv.files.length} changed path${pv.files.length === 1 ? '' : 's'} (site bundle is rebuilt on publish)</summary>
+      <ul class="files">${pv.files.map((f) => `<li>${esc(f.status)} ${esc(f.path)}</li>`).join('')}</ul></details>
+      <label>Commit message</label>
+      <input type="text" id="commit-msg" value="${esc(pv.suggestedMessage || 'Update stories')}" />
+      ${confirmBtn('publish', 'Commit & push', 'Tap again to publish', 'publish()')}`;
+  }
+  html += `<button class="quiet" onclick="goHome()">Back</button></div>`;
+  app.innerHTML = html;
+}
+
+function renderPublishing(job) {
+  let html = header('Publishing…');
+  const steps = [['build', 'Rebuilding site bundle'], ['commit', 'Committing'], ['push', 'Pushing to GitHub']];
+  const idx = steps.findIndex(([k]) => k === job.stage);
+  html += `<div class="card"><ul class="stages">` + steps.map(([k, label], i) => {
+    const cls = i < idx || job.stage === 'done' ? 'done' : i === idx ? 'active' : '';
+    return `<li class="${cls}">${esc(label)}</li>`;
+  }).join('') + `</ul>`;
+  if (job.log.length) html += `<div class="log">${esc(job.log.slice(-10).map((l) => l.msg).join('\n'))}</div>`;
+  html += `</div>`;
+  app.innerHTML = html;
+}
+
+function renderDone() {
+  const repo = (S.state && S.state.repo) || {};
+  const sha = S.publishResult && S.publishResult.sha ? S.publishResult.sha.slice(0, 7) : '';
+  let html = header('Published!');
+  html += `<div class="card"><p><b>✓ Pushed${sha ? ` (${esc(sha)})` : ''}.</b></p>
+    <p class="sub">GitHub Pages redeploys in a minute or two.</p>
+    ${repo.pagesUrl ? `<a class="btn" href="${esc(repo.pagesUrl)}" target="_blank" rel="noopener">View the site</a>` : ''}
+    <button class="primary" onclick="goHome()">Add another story</button></div>`;
+  app.innerHTML = html;
+}
+
+function renderError() {
+  const job = S.state && S.state.job;
+  let html = header('Something went wrong.');
+  html += `<div class="error">${esc(job && job.error || 'Unknown error')}</div><div class="card">`;
+  if (job && (job.kind === 'publish' || job.kind === 'push')) {
+    html += `<button class="primary" onclick="retryPush()">Retry push</button>`;
+  }
+  if (job && (job.kind === 'regen' || job.kind === 'select') && job.slug) {
+    html += `<button class="primary" onclick="goReview('${esc(job.slug)}')">Back to review</button>`;
+  }
+  html += `<button class="quiet" onclick="goHome()">Back to start</button></div>`;
+  app.innerHTML = html;
+}
+
+function render() {
+  const job = S.state && S.state.job;
+  switch (S.screen) {
+    case 'processing': return renderProcessing(job);
+    case 'publishing': return renderPublishing(job);
+    case 'review': return renderReview();
+    case 'publish': return renderPublish();
+    case 'done': return renderDone();
+    case 'error': return renderError();
+    default: return renderHome();
+  }
+}
+
+// ---- wiring ----------------------------------------------------------------
+
+let es;
+function connectSSE() {
+  es = new EventSource(apiUrl('/api/events'));
+  es.addEventListener('state', fetchState);
+  es.onopen = fetchState; // reconnects (phone was locked, server restarted) resync
+  es.onerror = () => {}; // EventSource retries on its own
+}
+document.addEventListener('visibilitychange', () => { if (!document.hidden) fetchState(); });
+setInterval(() => { const j = S.state && S.state.job; if (j && j.status === 'running') fetchState(); }, 5000);
+
+connectSSE();
+fetchState();
+</script>
+</body>
+</html>

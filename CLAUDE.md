@@ -29,6 +29,17 @@ Never overwrite `content/stories/<slug>/source.png` or the served `header.webp`
 by any other means, and never select a candidate without the user's explicit
 choice. A story with no header yet is a normal state (it publishes without one).
 
+## The studio (web GUI)
+
+`cd tools && npm run studio` serves a local web app (LAN-reachable, QR code
+printed) covering the whole add-story flow: upload a voice memo, review header
+candidates in the browser, select/regen/skip, then publish (buildSite + git
+commit + push). It reuses the same pipeline (`tools/lib/add-pipeline.ts`) and
+the same on-disk candidate batches as the CLIs, so studio and CLI runs are
+interchangeable mid-flow, and the candidate-selection rules above apply
+unchanged (selection happens only via an explicit user tap + confirm).
+`FAKE_GEMINI=1` stubs all Gemini calls for testing without API spend.
+
 ## Storyboards
 
 `cd tools && npm run storyboard -- <slug>` plans 6–12 scenes from the full

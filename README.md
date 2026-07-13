@@ -51,7 +51,35 @@ npm run verify-models               # confirm the Gemini model ids still work
 If `verify-models` reports a model is invalid, set `GEMINI_TEXT_MODEL` and/or
 `GEMINI_IMAGE_MODEL` in `tools/.env` to a current Gemini model id.
 
-Then, whenever you record a story in iOS Voice Memos, drop the `.m4a` file in and:
+### The studio (easiest way to add a story)
+
+```bash
+cd tools
+npm run studio
+```
+
+This starts a local web app and prints its URL plus a QR code. Open it on the
+Mac — or scan the QR code **from your phone on the same wifi** and upload the
+voice memo straight from the Voice Memos share sheet / Files app, no transfer
+step needed. The studio walks the whole flow: upload → transcribe & analyze →
+review the three header candidates side by side → pick one (or request a new
+batch with feedback, or skip the header) → **Publish**, which rebuilds
+`site/public/{data,media}`, commits, and pushes (deploying via GitHub Pages).
+
+Everything the studio does uses the same pipeline and on-disk state as the
+CLIs below, so the two are interchangeable mid-flow — e.g. a batch generated
+by `npm run add` shows up in the studio's "Awaiting header review" list.
+
+Notes:
+- One job runs at a time; a second upload while busy is rejected.
+- Anyone on your wifi can reach the studio while it runs. Set `STUDIO_TOKEN`
+  in `tools/.env` to require a token (it's embedded in the printed/QR URL).
+- `FAKE_GEMINI=1 npm run studio` stubs the Gemini calls (canned transcript,
+  solid-color candidate images) for trying the flow without API spend.
+
+### Adding a story from the command line
+
+Alternatively, drop the `.m4a` file on the Mac and:
 
 ```bash
 cd tools

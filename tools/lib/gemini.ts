@@ -1,6 +1,47 @@
 import { GoogleGenAI, Type } from '@google/genai';
 import type { TranscriptItem, HighlightQuote } from './types.ts';
 
+// FAKE_GEMINI=1 stubs the three functions the add-story/studio flow calls, so
+// the whole pipeline (upload, entity merge, candidates lifecycle, build, git)
+// can be exercised end-to-end without API spend. Everything else stays real.
+const FAKE = !!process.env.FAKE_GEMINI && process.env.FAKE_GEMINI !== '0';
+const fakeDelay = (ms: number) => new Promise((r) => setTimeout(r, ms));
+
+function fakeAnalysis(): StoryAnalysis {
+  const stamp = new Date().toISOString().slice(11, 19).replace(/:/g, '-'); // unique slug per run
+  return {
+    title: `Fake Story ${stamp}`,
+    transcript: [
+      { speaker: 'Dad', text: 'Once upon a time there was a fake story.', timestamp: 0.5 },
+      { speaker: 'Izzy', text: 'And it was generated without any API calls!', timestamp: 4.2 },
+      { speaker: 'Dad', text: 'Seeker appeared, exactly as always.', timestamp: 8.9 },
+      { speaker: 'Izzy', text: 'Then the Testing Turtle showed up for the first time.', timestamp: 13.1 },
+      { speaker: 'Dad', text: 'The end.', timestamp: 17.7 },
+    ],
+    characters: [
+      { name: 'Seeker', description: 'A recurring seeker of things.' }, // exercises the existing-entity merge
+      { name: 'Testing Turtle', description: 'A brand-new turtle who only exists in fake mode.' },
+    ],
+    places: [{ name: 'The Fake Forest', description: 'A forest of stubs and mocks.' }],
+    summary: 'A tiny fake story used to exercise the pipeline without calling Gemini.',
+    highlightQuote: { text: 'And it was generated without any API calls!', timestamp: 4.2 },
+  };
+}
+
+const FAKE_IMAGE_COLORS = ['#b8860b', '#4a6fa5', '#6b8e23'];
+let fakeImageCounter = 0;
+async function fakeImageDataUrl(): Promise<string> {
+  const { default: sharp } = await import('sharp');
+  const color = FAKE_IMAGE_COLORS[fakeImageCounter++ % FAKE_IMAGE_COLORS.length];
+  const n = fakeImageCounter;
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720">
+    <rect width="1280" height="720" fill="${color}"/>
+    <text x="640" y="380" font-size="120" fill="white" text-anchor="middle" font-family="sans-serif">FAKE ${n}</text>
+  </svg>`;
+  const png = await sharp(Buffer.from(svg)).png().toBuffer();
+  return `data:image/png;base64,${png.toString('base64')}`;
+}
+
 // Model ids are inherited from the original AI Studio pipeline. If they are no
 // longer valid, override via GEMINI_TEXT_MODEL / GEMINI_IMAGE_MODEL in .env.
 const textModel = () => process.env.GEMINI_TEXT_MODEL || 'gemini-3.5-flash';
@@ -26,6 +67,10 @@ export async function transcribeAndAnalyze(
   mimeType: string,
   retries = 2,
 ): Promise<StoryAnalysis> {
+  if (FAKE) {
+    await fakeDelay(2000);
+    return fakeAnalysis();
+  }
   const ai = getAI();
   try {
     const response = await ai.models.generateContent({
@@ -371,6 +416,10 @@ export async function generateImagePromptCandidates(
   opts: { count?: number; feedback?: string } = {},
 ): Promise<string[]> {
   const count = opts.count ?? 3;
+  if (FAKE) {
+    await fakeDelay(500);
+    return Array.from({ length: count }, (_, i) => `Fake prompt ${i + 1}${opts.feedback ? ` (feedback: ${opts.feedback})` : ''}`);
+  }
   const ai = getAI();
   const imageParts = toImageParts(entityImages);
   const referenceBlock = buildReferenceBlock(entityImages);
@@ -542,6 +591,10 @@ export async function generateImageFromPrompt(
   retries = 1,
   frameRefs: FrameRef[] = [],
 ): Promise<string | null> {
+  if (FAKE) {
+    await fakeDelay(1000);
+    return fakeImageDataUrl();
+  }
   const ai = getAI();
   const imageParts = toImageParts(entityImages);
   const frameParts = frameRefs.map((f) => ({
