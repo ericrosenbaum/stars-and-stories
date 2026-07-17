@@ -56,7 +56,7 @@ Then, whenever you record a story in iOS Voice Memos, drop the `.m4a` file in an
 ```bash
 cd tools
 npm run add -- "/path/to/My New Story.m4a"
-# options: --date 2026-06-20  --no-image  --world-dna  --merge-descriptions
+# options: --date 2026-06-20  --engine scribe-v2  --no-image  --world-dna  --merge-descriptions
 ```
 
 This transcribes + analyzes the memo, merges any new characters/places into the
@@ -68,13 +68,16 @@ published without a header image until you review the candidates and pick one
 
 Re-running the same audio file is detected (by hash) and rejected, so it's safe.
 
-Transcription runs in two focused Gemini passes: an audio pass that only
-transcribes and labels the two speakers (primed with the most recurring
-character/place names from the archive so familiar names are spelled
-consistently), then a text pass that produces the title, entities, summary and
-highlight quote. Set `GEMINI_TRANSCRIBE_MODEL` in `tools/.env` to run the audio
-pass on a stronger model (e.g. a Pro tier) while analysis stays on the cheap one.
-Files over ~15 MB are uploaded via the Gemini Files API automatically.
+Transcription runs in two focused passes: an audio pass that only transcribes
+and labels the two speakers (default engine: ElevenLabs `scribe-v2`, primed with
+the most recurring character/place names from the archive so familiar names are
+spelled consistently), then a Gemini text pass that produces the title, entities,
+summary and highlight quote. Pick the audio engine per-run with `--engine <id>`
+(`scribe-v2` | `gemini-flash` | `gemini-pro` | `openai-diarize`) or globally via
+`TRANSCRIBE_ENGINE` in `tools/.env`. When the audio pass runs on Gemini, set
+`GEMINI_TRANSCRIBE_MODEL` to use a stronger model (e.g. a Pro tier) while analysis
+stays on the cheap one, and files over ~15 MB upload via the Gemini Files API
+automatically.
 
 ### Comparing transcription engines (bake-off)
 
@@ -110,11 +113,11 @@ each engine heard. Requires the story's local `source.m4a` (or any audio path).
 ```bash
 cd tools
 npm run retranscribe -- <slug>
-# options: --engine gemini-pro|scribe-v2|openai-diarize   --quote   --no-build
+# options: --engine scribe-v2|gemini-flash|gemini-pro|openai-diarize (default scribe-v2)   --quote   --no-build
 ```
 
 Replaces ONLY the transcript (and the per-speaker word counts) of an existing
-story using the improved pipeline or another engine. The slug, title, date,
+story using the default engine or another one. The slug, title, date,
 summary, characters, places and header image are preserved. The highlight
 quote's text is kept and its timestamp re-located against the new transcript;
 pass `--quote` to pick a fresh quote instead. Requires the story's local

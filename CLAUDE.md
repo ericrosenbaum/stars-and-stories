@@ -31,9 +31,12 @@ choice. A story with no header yet is a normal state (it publishes without one).
 
 ## Transcription
 
-New stories are transcribed in two Gemini passes (audio → transcript, then
-transcript → analysis); the transcription prompt is primed with recurring
-character/place names via `tools/lib/lexicon.ts`.
+New stories are transcribed in two passes: an audio → transcript pass (default
+engine: ElevenLabs `scribe-v2`) followed by a Gemini transcript → analysis pass
+(title/entities/summary/quote). The transcription prompt is primed with recurring
+character/place names via `tools/lib/lexicon.ts`. Override the engine per-run with
+`npm run add -- <audio> --engine <id>`, or globally via `TRANSCRIBE_ENGINE` in
+`tools/.env`; `defaultEngine()` in `tools/lib/asr.ts` is the single source of truth.
 
 Engine comparison is user-driven, like header candidates:
 `cd tools && npm run bakeoff -- <slug-or-audio>` runs the recording through

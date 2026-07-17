@@ -4,7 +4,7 @@
  *   npx tsx retranscribe.ts <slug> [options]
  *
  * Options:
- *   --engine <id>   gemini-flash (default) | gemini-pro | scribe-v2 | openai-diarize
+ *   --engine <id>   scribe-v2 (default) | gemini-flash | gemini-pro | openai-diarize
  *   --quote         pick a fresh highlight quote from the new transcript
  *                   (default: keep the quote text, re-locate its timestamp)
  *   --no-build      don't rebuild the site bundle afterwards
@@ -18,7 +18,7 @@ import 'dotenv/config';
 import fs from 'node:fs';
 import path from 'node:path';
 import { CONTENT_STORIES_DIR, CONTENT_BAKEOFF_DIR, ROOT } from './lib/paths.ts';
-import { ALL_ENGINES, audioDurationSec, runEngine, type EngineId } from './lib/asr.ts';
+import { ALL_ENGINES, audioDurationSec, defaultEngine, runEngine, type EngineId } from './lib/asr.ts';
 import { loadNameLexicon } from './lib/lexicon.ts';
 import { computeWordCounts } from './lib/wordcount.ts';
 import { recoverQuoteTimestamp } from './lib/quote.ts';
@@ -33,7 +33,7 @@ if (engineIdx >= 0 && (!args[engineIdx + 1] || args[engineIdx + 1].startsWith('-
   console.error(`Missing value for --engine. Engines: ${ALL_ENGINES.join(', ')}`);
   process.exit(1);
 }
-const engine = (engineIdx >= 0 ? args[engineIdx + 1] : 'gemini-flash') as EngineId;
+const engine = (engineIdx >= 0 ? args[engineIdx + 1] : defaultEngine()) as EngineId;
 const engineValIdx = engineIdx >= 0 ? engineIdx + 1 : -1;
 const positional = args.filter((a, i) => !a.startsWith('--') && i !== engineValIdx);
 const slug = positional[0];

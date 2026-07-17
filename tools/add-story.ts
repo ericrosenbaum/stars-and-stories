@@ -4,13 +4,16 @@
  *
  * Options:
  *   --date YYYY-MM-DD     override the story date
+ *   --engine <id>        transcription engine (default: scribe-v2; also
+ *                        gemini-flash | gemini-pro | openai-diarize)
  *   --no-image           skip header-image candidate generation
  *   --no-build           don't rebuild the site bundle afterwards
  *   --world-dna          also regenerate the World DNA essay
  *   --merge-descriptions use Gemini to merge descriptions of existing entities
  *
- * Pipeline: dedupe -> transcribe+analyze (Gemini) -> merge characters/places ->
- * write content/stories/<slug>/ -> header-image candidates (Gemini) -> rebuild site.
+ * Pipeline: dedupe -> transcribe (default: ElevenLabs scribe-v2) -> analyze
+ * (Gemini: title/entities/summary/quote) -> merge characters/places -> write
+ * content/stories/<slug>/ -> header-image candidates (Gemini) -> rebuild site.
  *
  * The story is published WITHOUT a header image at first: three candidate
  * images are generated for review, and the header is finalized afterwards with
@@ -25,6 +28,7 @@ import {
   CONTENT_CHARACTERS,
   CONTENT_PLACES,
   CONTENT_MANIFEST,
+  CONTENT_BAKEOFF_DIR,
   ensureDir,
 } from './lib/paths.ts';
 import { sha256File } from './lib/media.ts';
@@ -33,7 +37,8 @@ import { recoverQuoteTimestamp } from './lib/quote.ts';
 import { uniqueSlug } from './lib/slug.ts';
 import { recomputeEntityLinks } from './lib/entities.ts';
 import { generateHeaderCandidates } from './lib/candidates.ts';
-import { transcribeAndAnalyze, mergeEntityDescription } from './lib/gemini.ts';
+import { analyzeTranscript, mergeEntityDescription } from './lib/gemini.ts';
+import { ALL_ENGINES, audioDurationSec, defaultEngine, runEngine, type EngineId } from './lib/asr.ts';
 import { loadNameLexicon } from './lib/lexicon.ts';
 import { buildSite } from './build-site.ts';
 import type { StoryRecord, EmbeddedEntity, CanonicalEntity, ManifestEntry, HighlightQuote } from './lib/types.ts';
@@ -43,17 +48,24 @@ const args = process.argv.slice(2);
 const flags = new Set(args.filter((a) => a.startsWith('--')));
 const dateFlagIdx = args.indexOf('--date');
 const dateOverride = dateFlagIdx >= 0 ? args[dateFlagIdx + 1] : null;
-// Exclude the --date value so the audio path is found regardless of order.
+const engineFlagIdx = args.indexOf('--engine');
+const engine = (engineFlagIdx >= 0 ? args[engineFlagIdx + 1] : defaultEngine()) as EngineId;
+// Exclude the --date/--engine values so the audio path is found regardless of order.
 const dateValIdx = dateFlagIdx >= 0 ? dateFlagIdx + 1 : -1;
-const positional = args.filter((a, i) => !a.startsWith('--') && i !== dateValIdx);
+const engineValIdx = engineFlagIdx >= 0 ? engineFlagIdx + 1 : -1;
+const positional = args.filter((a, i) => !a.startsWith('--') && i !== dateValIdx && i !== engineValIdx);
 const audioPath = positional[0];
 
 if (!audioPath) {
-  console.error('Usage: npx tsx add-story.ts <path-to.m4a> [--date YYYY-MM-DD] [--no-image] [--no-build] [--world-dna] [--merge-descriptions]');
+  console.error('Usage: npx tsx add-story.ts <path-to.m4a> [--date YYYY-MM-DD] [--engine <id>] [--no-image] [--no-build] [--world-dna] [--merge-descriptions]');
   process.exit(1);
 }
 if (!fs.existsSync(audioPath)) {
   console.error(`File not found: ${audioPath}`);
+  process.exit(1);
+}
+if (!ALL_ENGINES.includes(engine)) {
+  console.error(`Unknown engine "${engine}". Engines: ${ALL_ENGINES.join(', ')}`);
   process.exit(1);
 }
 
@@ -137,9 +149,37 @@ async function mergeEntities(
 const date = await deriveDate();
 console.log(`Date: ${date.split('T')[0]}`);
 
-console.log('Transcribing + analyzing with Gemini (this can take a minute)...');
-const analysis = await transcribeAndAnalyze(audioPath, 'audio/mp4', { lexicon: loadNameLexicon() });
-console.log(`Title: "${analysis.title}"  (${analysis.transcript.length} lines, ${analysis.characters.length} characters, ${analysis.places.length} places)`);
+console.log(`Transcribing with ${engine} (this can take a minute)...`);
+const durationSec = await audioDurationSec(audioPath);
+const result = await runEngine(engine, audioPath, {
+  lexicon: loadNameLexicon(),
+  durationSec,
+  // gitignored scratch area, so a raw-response dump on an odd shape can't get committed
+  rawDumpDir: path.join(CONTENT_BAKEOFF_DIR, `add-${sourceFilename.replace(/\.[^.]+$/, '')}`),
+});
+const transcript = result.transcript;
+if (result.rawSpeakerMap) {
+  const mapStr = Object.entries(result.rawSpeakerMap).map(([k, v]) => `${k} → ${v}`).join(', ');
+  console.log(`Speaker mapping (${result.speakerMapMethod}): ${mapStr}`);
+}
+const oddSpeakers = [...new Set(transcript.map((t) => t.speaker))].filter((s) => s !== 'Dad' && s !== 'Izzy');
+if (oddSpeakers.length) {
+  console.warn(
+    `WARNING: transcript contains unexpected speaker label(s): ${oddSpeakers.join(', ')}.\n` +
+      `Their words are excluded from the Izzy/Dad word counts — review story.json before publishing.`,
+  );
+}
+
+console.log(`  transcript: ${transcript.length} lines. Analyzing with Gemini...`);
+const analysis = await analyzeTranscript(transcript);
+// The analysis model only copies timestamps from transcript text — anchor the
+// highlight quote to the actual transcript line when one matches, since the
+// schema forces a numeric timestamp even when the model guesses.
+if (analysis.highlightQuote?.text) {
+  const recovered = recoverQuoteTimestamp(analysis.highlightQuote.text, transcript);
+  if (recovered != null) analysis.highlightQuote.timestamp = recovered;
+}
+console.log(`Title: "${analysis.title}"  (${transcript.length} lines, ${analysis.characters.length} characters, ${analysis.places.length} places)`);
 
 const existingSlugs = new Set(fs.existsSync(CONTENT_STORIES_DIR) ? fs.readdirSync(CONTENT_STORIES_DIR) : []);
 const slug = uniqueSlug(analysis.title, (s) => existingSlugs.has(s) || !!manifest[s]);
@@ -150,19 +190,12 @@ ensureDir(destDir);
 const charMerge = await mergeEntities(analysis.characters, CONTENT_CHARACTERS);
 const placeMerge = await mergeEntities(analysis.places, CONTENT_PLACES);
 
-// highlight quote (already an object from Gemini; ensure timestamp)
-let highlightQuote: HighlightQuote | null = null;
-if (analysis.highlightQuote?.text) {
-  highlightQuote = {
-    text: analysis.highlightQuote.text,
-    timestamp:
-      typeof analysis.highlightQuote.timestamp === 'number'
-        ? analysis.highlightQuote.timestamp
-        : recoverQuoteTimestamp(analysis.highlightQuote.text, analysis.transcript),
-  };
-}
+// highlight quote (already an object from Gemini, timestamp anchored above)
+const highlightQuote: HighlightQuote | null = analysis.highlightQuote?.text
+  ? { text: analysis.highlightQuote.text, timestamp: analysis.highlightQuote.timestamp }
+  : null;
 
-const counts = computeWordCounts(analysis.transcript);
+const counts = computeWordCounts(transcript);
 const record: StoryRecord = {
   id: slug,
   title: analysis.title,
@@ -170,7 +203,7 @@ const record: StoryRecord = {
   summary: analysis.summary || '',
   audioFilename: sourceFilename,
   highlightQuote,
-  transcript: analysis.transcript,
+  transcript,
   characters: charMerge.embedded,
   places: placeMerge.embedded,
   ...counts,

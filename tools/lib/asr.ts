@@ -15,6 +15,16 @@ import type { TranscriptItem } from './types.ts';
 export type EngineId = 'gemini-flash' | 'gemini-pro' | 'scribe-v2' | 'openai-diarize';
 export const ALL_ENGINES: EngineId[] = ['gemini-flash', 'gemini-pro', 'scribe-v2', 'openai-diarize'];
 
+/**
+ * Engine used by the primary pipeline (`npm run add`) and the default for
+ * `npm run retranscribe`. Override per-run with `--engine`, or globally with
+ * `TRANSCRIBE_ENGINE` in tools/.env (falls back to the default if unrecognized).
+ */
+export function defaultEngine(): EngineId {
+  const env = process.env.TRANSCRIBE_ENGINE;
+  return env && (ALL_ENGINES as string[]).includes(env) ? (env as EngineId) : 'scribe-v2';
+}
+
 export interface EngineResult {
   engine: EngineId;
   model: string; // resolved model id
@@ -57,7 +67,7 @@ export function engineModel(engine: EngineId): string {
     case 'gemini-flash':
       return transcribeModel();
     case 'gemini-pro':
-      return process.env.GEMINI_PRO_MODEL || 'gemini-3.5-pro';
+      return process.env.GEMINI_PRO_MODEL || 'gemini-3.1-pro-preview';
     case 'scribe-v2':
       return process.env.ELEVENLABS_STT_MODEL || 'scribe_v2';
     case 'openai-diarize':
@@ -201,6 +211,9 @@ async function runOpenAI(audioPath: string, model: string, rawDumpDir?: string):
   form.append('file', new Blob([fs.readFileSync(audioPath)], { type: mimeTypeFor(audioPath) }), path.basename(audioPath));
   form.append('model', model);
   form.append('response_format', 'diarized_json');
+  // The diarization models reject the request without an explicit chunking
+  // strategy; "auto" lets the server pick VAD boundaries.
+  form.append('chunking_strategy', 'auto');
   const res = await fetch('https://api.openai.com/v1/audio/transcriptions', {
     method: 'POST',
     headers: { Authorization: `Bearer ${process.env.OPENAI_API_KEY}` },
