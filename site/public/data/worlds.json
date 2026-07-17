@@ -1,0 +1,2266 @@
+{
+  "meta": {
+    "title": "The Stars & Stories Cosmos",
+    "subtitle": "A map of the worlds Izzy and Dad reached by potion, 2024–2026",
+    "storyCount": 196,
+    "span": "September 2024 – July 2026",
+    "law": "Potions are something you drink and then you say a rhyme and then they teleport you somewhere. That’s how they work.",
+    "note": "Every voyage, however far, folds back into pajamas and blankets — a going-home potion always returns them to bed."
+  },
+  "worlds": [
+    {
+      "id": "izzy-bedroom",
+      "name": "Izzy’s Bedroom",
+      "category": "home-base",
+      "role": "home",
+      "ring": 0,
+      "storyCount": 11,
+      "earliestDate": "2025-04-05T00:00:00.000Z",
+      "curatedDescription": "Izzy's bedroom is the real-world hearth of the whole cosmos, told in the dark under a star projector that scatters suns and polka dots across the ceiling. Inside the stories it becomes a magical destination in its own right: a house that feels like a little hotel of many rooms, whose floor is a soft blue rug covered with white stars, where travelers land after drinking a potion. Just above is Izzy's attic, a workshop of Legos, drawing pads, suitcases, and heavy work desks where the friends build robots and draw pictures of magical creatures and skyships.",
+      "potion": {
+        "name": "the Izzy's house potion",
+        "rhyme": "Hulooska, Kulooska, Kaloom. Mooska, Gadooska, Kaloom.",
+        "mechanic": "Seeker and Uncle Crisco drink the potion back at the castle and say the rhyme, arriving with a whoosh and a floof on the starry blue rug in Izzy's room."
+      },
+      "arrivalFrom": "Seeker's Castle / Potion Closet — travelers drink a potion to arrive here, though it is itself the real frame where every voyage begins and ends",
+      "characters": [
+        "Izzy",
+        "Seeker",
+        "Uncle Crisco",
+        "Ginger"
+      ],
+      "quotes": [
+        {
+          "speaker": "Izzy",
+          "text": "Yes, she can, because she has a mouth.",
+          "slug": "The_Potion_to_Izzy_s_Attic",
+          "timestamp": 159
+        },
+        {
+          "speaker": "Dad",
+          "text": "And floof! Suddenly, Seeker and Uncle Crisco were once again standing on a soft blue rug with white stars in the middle of Izzy's room.",
+          "slug": "The_Potion_to_Izzy_s_Attic",
+          "timestamp": 201.5
+        }
+      ],
+      "stories": [
+        {
+          "slug": "The_Anglerfish_and_the_Hairy_Drawing",
+          "title": "The Anglerfish and the Hairy Drawing",
+          "date": "2025-04-05T00:00:00.000Z"
+        },
+        {
+          "slug": "Frasgle_and_the_Sticky_Situation",
+          "title": "Frasgle and the Sticky Situation",
+          "date": "2025-07-31T00:00:00.000Z"
+        },
+        {
+          "slug": "The_Glowing_Expedition_for_Mole",
+          "title": "The Glowing Expedition for Mole",
+          "date": "2025-09-03T00:00:00.000Z"
+        },
+        {
+          "slug": "The_Potion_to_the_Little_Hotel_House",
+          "title": "The Potion to the Little Hotel House",
+          "date": "2025-11-28T00:00:00.000Z"
+        },
+        {
+          "slug": "The_Potion_to_Izzy_s_Attic",
+          "title": "The Potion to Izzy's Attic",
+          "date": "2025-12-01T00:00:00.000Z"
+        },
+        {
+          "slug": "The_Ice_Dragon_s_Sparkly_Castle_and_the_Great_Ice_Festival",
+          "title": "The Ice Dragon's Sparkly Castle and the Great Ice Festival",
+          "date": "2026-01-23T00:00:00.000Z"
+        },
+        {
+          "slug": "The_Floof-Berry_Mission_and_the_Great_Snowstorm",
+          "title": "The Floof-Berry Mission and the Great Snowstorm",
+          "date": "2026-02-21T00:00:00.000Z"
+        },
+        {
+          "slug": "A_Sticky_Adventure_to_the_Castle_of_Slime",
+          "title": "A Sticky Adventure to the Castle of Slime",
+          "date": "2026-03-11T00:00:00.000Z"
+        },
+        {
+          "slug": "The_Sparkling_Dust_of_Book_World",
+          "title": "The Sparkling Dust of Book World",
+          "date": "2026-06-18T00:17:02.000Z"
+        },
+        {
+          "slug": "Seeker_and_the_Security_Cats_The_Potion_Caper",
+          "title": "Seeker and the Security Cats: The Potion Caper",
+          "date": "2026-07-02T01:13:56.000Z"
+        },
+        {
+          "slug": "Prehistoric_Potion_Adventures",
+          "title": "Prehistoric Potion Adventures",
+          "date": "2026-07-03T12:27:51.000Z"
+        }
+      ],
+      "placeIds": [
+        "w0sMLak5OXW8gj3yFxQW",
+        "5qo1oH4jLPGhz96P2hYk",
+        "0Af7QEQG3awVVhKohrLP"
+      ],
+      "signatureStory": "The_Potion_to_Izzy_s_Attic",
+      "image": "media/The_Potion_to_Izzy_s_Attic/header.webp",
+      "prominence": 0.642
+    },
+    {
+      "id": "seekers-castle",
+      "name": "Seeker’s Castle & the Potion Closet",
+      "category": "home-base",
+      "role": "hub",
+      "ring": 1,
+      "storyCount": 22,
+      "earliestDate": "2025-10-19T00:00:00.000Z",
+      "curatedDescription": "Behind an unassuming facade with a single doorbell lies Seeker's sprawling stone fortress, home to a towering library of mystical books and, hidden behind a secret door, the potion closet that is the true gateway to adventure. Its dusty shelves hold finished potions that shimmer in every color, kept separate from the ingredients and the potion tunnel. A sky ship floats parked at the top of a tower, from which you can see the whole countryside — Hattie's workshop, the ocean, and Dimitar's circular island. It is the hub where friends ring the doorbell with a problem, and where every voyage folds back home to a warm and cozy living room.",
+      "potion": {
+        "name": "going-home potion",
+        "rhyme": null,
+        "mechanic": "The hidden potion closet is the launch point — drink a potion and say a rhyme to travel out; every adventure ends by taking a 'going-home potion' back to the castle."
+      },
+      "arrivalFrom": "the launch hub itself — every potion voyage begins in the closet and every going-home potion returns here",
+      "characters": [
+        "Seeker",
+        "Wobbly Whiskers",
+        "Uncle Crisco",
+        "Dimitar"
+      ],
+      "quotes": [
+        {
+          "speaker": "Izzy",
+          "text": "But she can take flies without asking.",
+          "slug": "Seeker_and_the_Security_Cats_The_Potion_Caper",
+          "timestamp": 997
+        },
+        {
+          "speaker": "Dad",
+          "text": "I looked in my potion closet, and they were all gone! Someone has stolen all of my potions!",
+          "slug": "Seeker_and_the_Security_Cats_The_Potion_Caper",
+          "timestamp": 70
+        },
+        {
+          "speaker": "Dad",
+          "text": "it's time to take our going-home potion. And they all went home from Star World, back to the warm and cozy living room in Seeker's castle.",
+          "slug": "The_Magic_Star_Potion_and_the_Journey_to_Star_World",
+          "timestamp": 1623
+        }
+      ],
+      "stories": [
+        {
+          "slug": "A_Sticky_Adventure_to_the_Castle_of_Slime",
+          "title": "A Sticky Adventure to the Castle of Slime",
+          "date": "2026-03-11T00:00:00.000Z"
+        },
+        {
+          "slug": "Slime-Ka-Bye_The_Beard-Dweller_s_Deep_Sea_Adventure",
+          "title": "Slime-Ka-Bye: The Beard-Dweller's Deep Sea Adventure",
+          "date": "2026-04-10T01:32:20.000Z"
+        },
+        {
+          "slug": "Shark_Friends_and_the_Deep_Deep_Dark",
+          "title": "Shark Friends and the Deep Deep Dark",
+          "date": "2026-04-27T00:11:55.000Z"
+        },
+        {
+          "slug": "Dr_Izzy_and_the_Forest_Rescue",
+          "title": "Dr. Izzy and the Forest Rescue",
+          "date": "2026-04-29T00:08:38.000Z"
+        },
+        {
+          "slug": "Wobbly_Whisker_s_Sticky_Adventure_on_Planet_Mooker",
+          "title": "Wobbly Whisker's Sticky Adventure on Planet Mooker",
+          "date": "2026-05-02T00:23:16.000Z"
+        },
+        {
+          "slug": "The_Rainbow_Fruit_World_and_the_Great_Lemon_Fish_Debate",
+          "title": "The Rainbow Fruit World and the Great Lemon Fish Debate",
+          "date": "2026-06-15T00:17:34.000Z"
+        },
+        {
+          "slug": "The_Sparkling_Dust_of_Book_World",
+          "title": "The Sparkling Dust of Book World",
+          "date": "2026-06-18T00:17:02.000Z"
+        },
+        {
+          "slug": "The_Magic_Star_Potion_and_the_Journey_to_Star_World",
+          "title": "The Magic Star Potion and the Journey to Star World",
+          "date": "2026-06-22T00:48:05.000Z"
+        },
+        {
+          "slug": "An_Accidental_Trip_to_Nana_s_House",
+          "title": "An Accidental Trip to Nana's House",
+          "date": "2026-06-23T00:26:52.000Z"
+        },
+        {
+          "slug": "Seeker_and_the_Security_Cats_The_Potion_Caper",
+          "title": "Seeker and the Security Cats: The Potion Caper",
+          "date": "2026-07-02T01:13:56.000Z"
+        },
+        {
+          "slug": "Prehistoric_Potion_Adventures",
+          "title": "Prehistoric Potion Adventures",
+          "date": "2026-07-03T12:27:51.000Z"
+        },
+        {
+          "slug": "Seeker_s_Midnight_Adventure_and_the_Dancing_Pterodactyl",
+          "title": "Seeker's Midnight Adventure and the Dancing Pterodactyl",
+          "date": "2026-07-13T01:29:03.000Z"
+        },
+        {
+          "slug": "Haddy_the_Mouse_and_the_Quest_for_the_Talking_Hat",
+          "title": "Haddy the Mouse and the Quest for the Talking Hat",
+          "date": "2025-10-19T00:00:00.000Z"
+        },
+        {
+          "slug": "The_Bouncing_Floofers_of_the_Golden_Cloud",
+          "title": "The Bouncing Floofers of the Golden Cloud",
+          "date": "2025-11-07T00:00:00.000Z"
+        },
+        {
+          "slug": "The_Red_Planet_Potion",
+          "title": "The Red Planet Potion",
+          "date": "2025-11-16T00:00:00.000Z"
+        },
+        {
+          "slug": "Science_and_Hand_Mountains_with_Seeker_and_Uncle_Grisco",
+          "title": "Science and Hand Mountains with Seeker and Uncle Grisco",
+          "date": "2025-11-19T00:00:00.000Z"
+        },
+        {
+          "slug": "The_Potion_to_Izzy_s_Attic",
+          "title": "The Potion to Izzy's Attic",
+          "date": "2025-12-01T00:00:00.000Z"
+        },
+        {
+          "slug": "Late_Night_Tea_with_Mrs_Piggy_and_the_Muppets",
+          "title": "Late Night Tea with Mrs. Piggy and the Muppets",
+          "date": "2026-01-09T00:00:00.000Z"
+        },
+        {
+          "slug": "The_Great_Kibble_Cat-astrophe",
+          "title": "The Great Kibble Cat-astrophe",
+          "date": "2026-02-09T00:00:00.000Z"
+        },
+        {
+          "slug": "The_Squeaky_Adventures_in_Balloon_World",
+          "title": "The Squeaky Adventures in Balloon World",
+          "date": "2026-03-06T00:00:00.000Z"
+        },
+        {
+          "slug": "The_Potion_of_the_Gemstone_Reef",
+          "title": "The Potion of the Gemstone Reef",
+          "date": "2026-04-01T00:00:00.000Z"
+        },
+        {
+          "slug": "The_Tale_of_the_Discolored_Mergirl_and_the_Magic_Bubble_Bath",
+          "title": "The Tale of the Discolored Mergirl and the Magic Bubble Bath",
+          "date": "2026-07-08T13:16:37.397Z"
+        }
+      ],
+      "placeIds": [
+        "puY9K77v5FM7kwjFFDQA",
+        "Nc1i5Shp7UuNg35H0sDP",
+        "cK3lBzw8FiJD98QA9CWH",
+        "0dIDzRGh5pekeo9rrQiH"
+      ],
+      "signatureStory": "Seeker_and_the_Security_Cats_The_Potion_Caper",
+      "image": "media/Seeker_and_the_Security_Cats_The_Potion_Caper/header.webp",
+      "prominence": 0.929
+    },
+    {
+      "id": "hatties-workshop",
+      "name": "Hattie’s Workshop",
+      "category": "home-base",
+      "role": "world",
+      "ring": 1,
+      "storyCount": 23,
+      "earliestDate": "2025-03-13T00:00:00.000Z",
+      "curatedDescription": "Hattie the Mouse's workshop sits inside the cozy hollow of a weathered tree on Cornell Street, an atelier humming with the snip of scissors and cluttered with measuring tapes, wet paints, feathers, cardboard, and a glowing store of red, orange, and yellow mushrooms, all beneath a haunting indigo witch painting. Here Hattie makes hats of every kind — teeny tiny or enormous, out of Legos, blocks, paper, cardboard, fur, or feathers — for a steady stream of visiting friends. She measures each customer, paints and stamps their hat with elephants, stars, moons, and suns, and sends them home delighted.",
+      "potion": {
+        "name": null,
+        "rhyme": null,
+        "mechanic": "A home-base workshop reached on foot through the forest and down Cornell Street — no potion needed; friends simply drop by to order a hat."
+      },
+      "arrivalFrom": "the forest and Cornell Street — a home-base workshop friends reach on foot, no potion required",
+      "characters": [
+        "Hattie the Mouse",
+        "Victor the Mouse",
+        "Mischief Mouse"
+      ],
+      "quotes": [
+        {
+          "speaker": "Izzy",
+          "text": "It has elephants on it, and you can take that blue hat home with you.",
+          "slug": "Hattie_the_Mouse_s_Hat_Workshop",
+          "timestamp": 603
+        },
+        {
+          "speaker": "Izzy",
+          "text": "Try the blue one. It's big!",
+          "slug": "Hattie_the_Mouse_s_Hat_Workshop",
+          "timestamp": 556
+        }
+      ],
+      "stories": [
+        {
+          "slug": "Hattie_and_the_Wizard_s_Clover_Show",
+          "title": "Hattie and the Wizard's Clover Show",
+          "date": "2025-03-16T00:00:00.000Z"
+        },
+        {
+          "slug": "Hattie_the_Mouse_and_the_Baby_Chipmunk_s_Snack",
+          "title": "Hattie the Mouse and the Baby Chipmunk's Snack",
+          "date": "2025-03-22T00:00:00.000Z"
+        },
+        {
+          "slug": "Hattie_the_Mouse_s_Hat_Workshop",
+          "title": "Hattie the Mouse's Hat Workshop",
+          "date": "2025-03-23T00:00:00.000Z"
+        },
+        {
+          "slug": "Hattie_the_Mouse_and_the_Rainbow_Mushroom_Mystery",
+          "title": "Hattie the Mouse and the Rainbow Mushroom Mystery",
+          "date": "2025-03-26T00:00:00.000Z"
+        },
+        {
+          "slug": "Hattie_and_the_Tower_of_Traffic_Cones",
+          "title": "Hattie and the Tower of Traffic Cones",
+          "date": "2025-03-30T00:00:00.000Z"
+        },
+        {
+          "slug": "Hattie_the_Mouse_and_the_Starry_Hats",
+          "title": "Hattie the Mouse and the Starry Hats",
+          "date": "2025-04-02T00:00:00.000Z"
+        },
+        {
+          "slug": "Hattie_s_Indigo_Mushroom_Adventure",
+          "title": "Hattie's Indigo Mushroom Adventure",
+          "date": "2025-04-03T00:00:00.000Z"
+        },
+        {
+          "slug": "Hattie_the_Artist_Mouse",
+          "title": "Hattie the Artist Mouse",
+          "date": "2025-04-06T00:00:00.000Z"
+        },
+        {
+          "slug": "Hattie_Mouse_and_the_Mouse_Street_Doctors",
+          "title": "Hattie Mouse and the Mouse Street Doctors",
+          "date": "2025-04-09T00:00:00.000Z"
+        },
+        {
+          "slug": "Pakruder_Worm_s_New_Sound",
+          "title": "Pakruder Worm's New Sound",
+          "date": "2025-04-10T00:00:00.000Z"
+        },
+        {
+          "slug": "Hattie_the_Mouse_s_Custom_Hat_Shop",
+          "title": "Hattie the Mouse's Custom Hat Shop",
+          "date": "2025-05-06T00:00:00.000Z"
+        },
+        {
+          "slug": "A_Shell_Hat_and_Jingle_Bells",
+          "title": "A Shell Hat and Jingle Bells",
+          "date": "2025-08-07T00:00:00.000Z"
+        },
+        {
+          "slug": "Hattie_s_Giant_Robot_and_the_Rainbow_Gnome_Hat",
+          "title": "Hattie's Giant Robot and the Rainbow Gnome Hat",
+          "date": "2025-08-11T00:00:00.000Z"
+        },
+        {
+          "slug": "The_Ice_Dragon_s_New_Hat",
+          "title": "The Ice Dragon's New Hat",
+          "date": "2026-01-28T00:00:00.000Z"
+        },
+        {
+          "slug": "Seeker_and_the_Security_Cats_The_Potion_Caper",
+          "title": "Seeker and the Security Cats: The Potion Caper",
+          "date": "2026-07-02T01:13:56.000Z"
+        },
+        {
+          "slug": "Hattie_s_Workshop_Puzzles_and_Purple_Hats",
+          "title": "Hattie's Workshop: Puzzles and Purple Hats",
+          "date": "2025-03-13T00:00:00.000Z"
+        },
+        {
+          "slug": "Hattie_s_Magical_Rainbow_Tape_Quest",
+          "title": "Hattie's Magical Rainbow Tape Quest",
+          "date": "2025-04-08T00:00:00.000Z"
+        },
+        {
+          "slug": "The_Salty_Solution_for_a_Frozen_Island",
+          "title": "The Salty Solution for a Frozen Island",
+          "date": "2026-06-19T23:59:06.000Z"
+        },
+        {
+          "slug": "The_Mystery_of_the_Snake_Store_Bups",
+          "title": "The Mystery of the Snake Store Bups",
+          "date": "2025-04-07T00:00:00.000Z"
+        },
+        {
+          "slug": "Hattie_the_Mouse_and_the_Rainy_Day_Stove_Rescue",
+          "title": "Hattie the Mouse and the Rainy Day Stove Rescue",
+          "date": "2025-04-13T00:00:00.000Z"
+        },
+        {
+          "slug": "Hattie_the_Mouse_and_the_Poet_Worm",
+          "title": "Hattie the Mouse and the Poet Worm",
+          "date": "2025-05-02T00:00:00.000Z"
+        },
+        {
+          "slug": "Hattie_s_Rainy_Day_Birthday_Adventure",
+          "title": "Hattie's Rainy Day Birthday Adventure",
+          "date": "2025-05-28T00:00:00.000Z"
+        },
+        {
+          "slug": "Mischief_Mouse_and_the_Tiny_Lego_Hat",
+          "title": "Mischief Mouse and the Tiny Lego Hat",
+          "date": "2025-07-04T00:00:00.000Z"
+        }
+      ],
+      "placeIds": [
+        "zG6Sy0YmqV6YAqOnwHLF",
+        "Rb6wTvPo62QPEOTNUrrw",
+        "rsJ9RSALsARLTWkrvsNN"
+      ],
+      "signatureStory": "Hattie_the_Mouse_s_Hat_Workshop",
+      "image": "media/Hattie_the_Mouse_s_Hat_Workshop/header.webp",
+      "prominence": 0.86
+    },
+    {
+      "id": "cornell-street",
+      "name": "Cornell Street & New York City",
+      "category": "home-base",
+      "role": "world",
+      "ring": 1,
+      "storyCount": 15,
+      "earliestDate": "2025-03-07T00:00:00.000Z",
+      "curatedDescription": "Cornell Street is the ordinary neighborhood road that doubles as a cosmic thoroughfare — bisected by a stark yellow line, cutting through the dense forest and stitching the earthly to the stars. It anchors local life, with Hattie's tree home, the residence of Uncle X, and a towering honey tree tended by just the right sort of bees, while also charting the flight path to the Mookers' planet. From a backyard garden, rocket ships blast off and fly down Cornell Street and on past Kitridge and Marigold Streets until they reach the planet, which turns out to sit just a few streets from home.",
+      "potion": {
+        "name": null,
+        "rhyme": null,
+        "mechanic": "The neighborhood threshold where the earthly meets the cosmic — walked on foot for honey and errands, or used as the launch route flown up into space."
+      },
+      "arrivalFrom": "the frame — the everyday neighborhood road, and the launch route flown up to the Mookers' planet",
+      "characters": [
+        "Winnie the Pooh",
+        "Baby Robot",
+        "Captain Izzy",
+        "the Mookers"
+      ],
+      "quotes": [
+        {
+          "speaker": "Izzy",
+          "text": "It's at a beehive and it's the right sort of bees and it's on Cornell Street.",
+          "slug": "The_LED_Robot_and_the_Honey_Tree_of_Cornell_Street",
+          "timestamp": 253
+        },
+        {
+          "speaker": "Izzy",
+          "text": "Zingos are little worms and ants, moles!",
+          "slug": "The_Moles_Intergalactic_Snack_Run",
+          "timestamp": 318
+        }
+      ],
+      "stories": [
+        {
+          "slug": "Hattie_s_Indigo_Mushroom_Adventure",
+          "title": "Hattie's Indigo Mushroom Adventure",
+          "date": "2025-04-03T00:00:00.000Z"
+        },
+        {
+          "slug": "Hattie_Mouse_and_the_Mouse_Street_Doctors",
+          "title": "Hattie Mouse and the Mouse Street Doctors",
+          "date": "2025-04-09T00:00:00.000Z"
+        },
+        {
+          "slug": "The_LED_Robot_and_the_Honey_Tree_of_Cornell_Street",
+          "title": "The LED Robot and the Honey Tree of Cornell Street",
+          "date": "2025-04-20T00:00:00.000Z"
+        },
+        {
+          "slug": "Hattie_s_Rainy_Day_Birthday_Adventure",
+          "title": "Hattie's Rainy Day Birthday Adventure",
+          "date": "2025-05-28T00:00:00.000Z"
+        },
+        {
+          "slug": "The_Moles_Intergalactic_Snack_Run",
+          "title": "The Moles' Intergalactic Snack Run",
+          "date": "2025-09-26T00:00:00.000Z"
+        },
+        {
+          "slug": "Hattie_s_Flight_to_the_Songo_Feast",
+          "title": "Hattie's Flight to the Songo Feast",
+          "date": "2025-10-19T00:00:00.000Z"
+        },
+        {
+          "slug": "Mickey_and_Minnie_s_Interstellar_Forest_Adventure",
+          "title": "Mickey and Minnie's Interstellar Forest Adventure",
+          "date": "2025-03-07T00:00:00.000Z"
+        },
+        {
+          "slug": "Mission_to_the_Taco_Space_Station",
+          "title": "Mission to the Taco Space Station",
+          "date": "2025-08-17T00:00:00.000Z"
+        },
+        {
+          "slug": "Mission_to_the_Rainbow_Planet_Vupiter_Wupiter_Snupiter",
+          "title": "Mission to the Rainbow Planet Vupiter Wupiter Snupiter",
+          "date": "2025-09-03T00:00:00.000Z"
+        },
+        {
+          "slug": "Captain_Izzy_s_Galactic_School_Bus_Mission",
+          "title": "Captain Izzy's Galactic School Bus Mission",
+          "date": "2025-09-04T00:00:00.000Z"
+        },
+        {
+          "slug": "The_Galactic_Search_for_Chicky",
+          "title": "The Galactic Search for Chicky",
+          "date": "2025-10-19T00:00:00.000Z"
+        },
+        {
+          "slug": "Mission_to_Silver_s_Planet",
+          "title": "Mission to Silver's Planet",
+          "date": "2025-10-26T00:00:00.000Z"
+        },
+        {
+          "slug": "The_Solar_Expedition_of_Stars_and_Snories",
+          "title": "The Solar Expedition of Stars and Snories",
+          "date": "2025-11-22T00:00:00.000Z"
+        },
+        {
+          "slug": "Seeker_s_Guide_to_Volcanoes_Space_and_Sunlight",
+          "title": "Seeker's Guide to Volcanoes, Space, and Sunlight",
+          "date": "2025-11-26T00:00:00.000Z"
+        },
+        {
+          "slug": "The_Mookers_the_Floofers_and_the_Solar_Mookball",
+          "title": "The Mookers, the Floofers, and the Solar Mookball",
+          "date": "2026-03-28T00:00:00.000Z"
+        }
+      ],
+      "placeIds": [
+        "S6X3xxIicz7aZHAt75OV",
+        "gjobSLv4NuHswU3jrjCC"
+      ],
+      "signatureStory": "The_LED_Robot_and_the_Honey_Tree_of_Cornell_Street",
+      "image": "media/The_LED_Robot_and_the_Honey_Tree_of_Cornell_Street/header.webp",
+      "prominence": 0.673
+    },
+    {
+      "id": "the-forest",
+      "name": "The Forest",
+      "category": "earthly",
+      "role": "world",
+      "ring": 2,
+      "storyCount": 22,
+      "earliestDate": "2025-03-07T00:00:00.000Z",
+      "curatedDescription": "The Forest is the whispering woodland that cloaks the green planet, laced with winding paths, secret gopher tunnels, and hidden mole cottages, and forming the essential route from Hattie's workshop toward the wizard's castle. Its sun-drenched edges are a sanctuary of foraging and play, but its deeper, darker thickets hold trouble: it is where a sick little mouse was found lying in a clearing, and where Mole once wandered too far after worms and got lost in the dark. Rescues here run on lanterns and flashlights, following a glow to a friend and then holding hands to walk safely home before bed.",
+      "potion": {
+        "name": null,
+        "rhyme": null,
+        "mechanic": "An earthly woodland crossed on foot along the forest paths from home — no potion, just lanterns and flashlights to follow a glow in the dark."
+      },
+      "arrivalFrom": "home / the frame — reached on foot along the forest paths, and every rescue ends holding hands, walking home to bed",
+      "characters": [
+        "Mole",
+        "Mickey",
+        "Minnie",
+        "Jane",
+        "Buddy"
+      ],
+      "quotes": [
+        {
+          "speaker": "Izzy",
+          "text": "That's Mole! I hear it! It's coming from that direction. It's Mole!",
+          "slug": "The_Glowing_Expedition_for_Mole",
+          "timestamp": 540
+        },
+        {
+          "speaker": "Izzy",
+          "text": "It looked like a tiny mouse. It looked like a dead mouse. It looked like a dead mouse but I don't, but I don't know what it is, said Tot.",
+          "slug": "Dr_Izzy_and_the_Forest_Rescue",
+          "timestamp": 122
+        }
+      ],
+      "stories": [
+        {
+          "slug": "Mickey_and_Minnie_s_Interstellar_Forest_Adventure",
+          "title": "Mickey and Minnie's Interstellar Forest Adventure",
+          "date": "2025-03-07T00:00:00.000Z"
+        },
+        {
+          "slug": "Hattie_and_the_Wizard_s_Clover_Show",
+          "title": "Hattie and the Wizard's Clover Show",
+          "date": "2025-03-16T00:00:00.000Z"
+        },
+        {
+          "slug": "The_Foxy_Way_and_the_Twirling_Ghost",
+          "title": "The Foxy Way and the Twirling Ghost",
+          "date": "2025-03-17T00:00:00.000Z"
+        },
+        {
+          "slug": "Hattie_the_Mouse_and_the_Rainbow_Mushroom_Mystery",
+          "title": "Hattie the Mouse and the Rainbow Mushroom Mystery",
+          "date": "2025-03-26T00:00:00.000Z"
+        },
+        {
+          "slug": "Hattie_Mouse_and_the_Mouse_Street_Doctors",
+          "title": "Hattie Mouse and the Mouse Street Doctors",
+          "date": "2025-04-09T00:00:00.000Z"
+        },
+        {
+          "slug": "Pakruder_Worm_s_New_Sound",
+          "title": "Pakruder Worm's New Sound",
+          "date": "2025-04-10T00:00:00.000Z"
+        },
+        {
+          "slug": "Hattie_and_the_Mystery_of_the_Muddy_Mountain",
+          "title": "Hattie and the Mystery of the Muddy Mountain",
+          "date": "2025-07-12T00:00:00.000Z"
+        },
+        {
+          "slug": "Hattie_s_Magic_Mouse_Summoning",
+          "title": "Hattie's Magic Mouse Summoning",
+          "date": "2025-07-19T00:00:00.000Z"
+        },
+        {
+          "slug": "The_Underground_Library_and_the_Big_Bubble_Bonanza",
+          "title": "The Underground Library and the Big Bubble Bonanza",
+          "date": "2025-07-27T00:00:00.000Z"
+        },
+        {
+          "slug": "Frasgle_and_the_Sticky_Situation",
+          "title": "Frasgle and the Sticky Situation",
+          "date": "2025-07-31T00:00:00.000Z"
+        },
+        {
+          "slug": "Finn_the_Cat_s_Arctic_Rainbow_Quest",
+          "title": "Finn the Cat's Arctic Rainbow Quest",
+          "date": "2025-08-04T00:00:00.000Z"
+        },
+        {
+          "slug": "The_Putt-Putt_Road_Trip_Adventure",
+          "title": "The Putt-Putt Road Trip Adventure",
+          "date": "2025-08-09T00:00:00.000Z"
+        },
+        {
+          "slug": "Hattie_s_Giant_Robot_and_the_Rainbow_Gnome_Hat",
+          "title": "Hattie's Giant Robot and the Rainbow Gnome Hat",
+          "date": "2025-08-11T00:00:00.000Z"
+        },
+        {
+          "slug": "The_Workout_Wombats_and_the_Deep_Blue_Sea",
+          "title": "The Workout Wombats and the Deep Blue Sea",
+          "date": "2025-08-23T00:00:00.000Z"
+        },
+        {
+          "slug": "The_Glowing_Expedition_for_Mole",
+          "title": "The Glowing Expedition for Mole",
+          "date": "2025-09-03T00:00:00.000Z"
+        },
+        {
+          "slug": "Peacock_s_Castle_and_the_Neighborhood_Photo_Project",
+          "title": "Peacock’s Castle and the Neighborhood Photo Project",
+          "date": "2025-09-05T00:00:00.000Z"
+        },
+        {
+          "slug": "Mossy_s_New_Home_at_River_Lake",
+          "title": "Mossy's New Home at River Lake",
+          "date": "2025-09-27T00:00:00.000Z"
+        },
+        {
+          "slug": "Auntie_Mulberry_s_Magical_Mole_Pie",
+          "title": "Auntie Mulberry's Magical Mole Pie",
+          "date": "2025-09-30T00:00:00.000Z"
+        },
+        {
+          "slug": "Stars_and_Stories_The_Great_Cat_Rescue",
+          "title": "Stars and Stories: The Great Cat Rescue",
+          "date": "2025-10-02T00:00:00.000Z"
+        },
+        {
+          "slug": "Under_the_Bed_and_Over_the_Sky",
+          "title": "Under the Bed and Over the Sky",
+          "date": "2025-10-28T00:00:00.000Z"
+        },
+        {
+          "slug": "Kitty_s_Crew_and_the_Underground_Adventure",
+          "title": "Kitty's Crew and the Underground Adventure",
+          "date": "2025-12-18T00:00:00.000Z"
+        },
+        {
+          "slug": "Dr_Izzy_and_the_Forest_Rescue",
+          "title": "Dr. Izzy and the Forest Rescue",
+          "date": "2026-04-29T00:08:38.000Z"
+        }
+      ],
+      "placeIds": [
+        "uHODwtQ4flce8igUiyQg"
+      ],
+      "signatureStory": "The_Glowing_Expedition_for_Mole",
+      "image": "media/The_Glowing_Expedition_for_Mole/header.webp",
+      "prominence": 0.883
+    },
+    {
+      "id": "circular-island",
+      "name": "Dimitar’s Circular Island",
+      "category": "earthly",
+      "role": "world",
+      "ring": 2,
+      "storyCount": 7,
+      "earliestDate": "2025-12-07T00:00:00.000Z",
+      "curatedDescription": "A perfectly circular island rising from distant waters, home to the purple dragonet Dimitar and villages of little dragonets, with a mountain at its center that is secretly a volcano. It hosts Ginger Catasorry, a school for cats and dragonets where students do planet maps, drawing, singing, snack time, and bead counting. When the volcano threatened to erupt, the ice dragon Icicle froze the entire island to stop it, and Seeker's friends melted the frost away with massive amounts of salt and warm water.",
+      "potion": {
+        "name": null,
+        "rhyme": null,
+        "mechanic": "The circular island is a real, earthly place reached by flying there (on Seeker's magic ladder or sky ship), not by a teleporting potion."
+      },
+      "arrivalFrom": "Seeker's Castle / Potion Closet",
+      "characters": [
+        "Dimitar",
+        "Isabella",
+        "Seeker",
+        "Icicle",
+        "Ginger",
+        "Hattie the Mouse"
+      ],
+      "quotes": [
+        {
+          "speaker": "Izzy",
+          "text": "But Icicle froze his whole island, so now we have to live at Hattie's workshop.",
+          "slug": "The_Salty_Solution_for_a_Frozen_Island",
+          "timestamp": 41
+        },
+        {
+          "speaker": "Dad",
+          "text": "I've never heard of any of these places, says Dimatar. I just live on the Perfectly Circular Island.",
+          "slug": "Dimatar_s_Big_Day_at_Ginger_Catasorry",
+          "timestamp": 335
+        },
+        {
+          "speaker": "Izzy",
+          "text": "Nah, I brought you a fish flavored cupcake with fishy flavored sprinkles on top.",
+          "slug": "Dimatar_s_Big_Day_at_Ginger_Catasorry",
+          "timestamp": 117
+        }
+      ],
+      "stories": [
+        {
+          "slug": "The_Giant_Rescue_on_Volcano_Island",
+          "title": "The Giant Rescue on Volcano Island",
+          "date": "2025-12-07T00:00:00.000Z"
+        },
+        {
+          "slug": "The_Ice_Dragon_s_New_Hat",
+          "title": "The Ice Dragon's New Hat",
+          "date": "2026-01-28T00:00:00.000Z"
+        },
+        {
+          "slug": "Dimatar_s_Big_Day_at_Ginger_Catasorry",
+          "title": "Dimatar's Big Day at Ginger Catasorry",
+          "date": "2026-02-26T00:00:00.000Z"
+        },
+        {
+          "slug": "The_Flying_Friends_of_Strawberry_Island",
+          "title": "The Flying Friends of Strawberry Island",
+          "date": "2026-02-27T00:00:00.000Z"
+        },
+        {
+          "slug": "Seeker_and_the_Security_Cats_The_Potion_Caper",
+          "title": "Seeker and the Security Cats: The Potion Caper",
+          "date": "2026-07-02T01:13:56.000Z"
+        },
+        {
+          "slug": "The_Salty_Solution_for_a_Frozen_Island",
+          "title": "The Salty Solution for a Frozen Island",
+          "date": "2026-06-19T23:59:06.000Z"
+        },
+        {
+          "slug": "The_Quest_for_the_Moon_Mother",
+          "title": "The Quest for the Moon Mother",
+          "date": "2026-04-25T00:06:49.000Z"
+        }
+      ],
+      "placeIds": [
+        "hFBZbhW2t6RDzHF1la0Z",
+        "BBFvR60zDmlIL2Y0HBbn",
+        "TQUjEUekHm3a6gBzY3fw"
+      ],
+      "signatureStory": "The_Salty_Solution_for_a_Frozen_Island",
+      "image": "media/The_Salty_Solution_for_a_Frozen_Island/header.webp",
+      "prominence": 0.507
+    },
+    {
+      "id": "prehistoric-world",
+      "name": "Prehistoric World",
+      "category": "earthly",
+      "role": "world",
+      "ring": 2,
+      "storyCount": 1,
+      "earliestDate": "2026-07-03T12:27:51.000Z",
+      "curatedDescription": "An ancient world reached by drinking Isabella's prehistoric-animals potion, which smells like ancient prehistoric creatures and mastodon fur. It is home to a meat-loving T-Rex, a slow, tea-drinking giant sloth who lives in a burrow, a woolly mammoth, and a fierce smilodon that turns out to just want belly rubs. Seeker, Jane, and a rainbow of Frasgles explore it, scaring off the scariest creatures with their loudest shouts before taking a going-home potion.",
+      "potion": {
+        "name": "Prehistoric animals potion",
+        "rhyme": "Slime, slime, slime... slime-kabime, slime-kabime, seem-kabine, slime.",
+        "mechanic": "Everyone takes turns sipping Isabella's prehistoric-animals potion and then says the rhyme all together to appear in prehistoric world, with a going-home potion to return."
+      },
+      "arrivalFrom": "Seeker's Castle / Potion Closet",
+      "characters": [
+        "Seeker",
+        "Jane",
+        "Isabella",
+        "Frasgles",
+        "T-Rex",
+        "Giant sloth",
+        "Woolly mammoth",
+        "Smilodon"
+      ],
+      "quotes": [
+        {
+          "speaker": "Izzy",
+          "text": "Welcome to my sloth burrow. You see that hole in the ground over there? That's where I live. Would you like to come in for a cup of tea?",
+          "slug": "Prehistoric_Potion_Adventures",
+          "timestamp": 831
+        },
+        {
+          "speaker": "Izzy",
+          "text": "But Seeker, um but T-Rex, we are not meat.",
+          "slug": "Prehistoric_Potion_Adventures",
+          "timestamp": 646
+        },
+        {
+          "speaker": "Izzy",
+          "text": "Silver Cat can't make potions.",
+          "slug": "Prehistoric_Potion_Adventures",
+          "timestamp": 244
+        }
+      ],
+      "stories": [
+        {
+          "slug": "Prehistoric_Potion_Adventures",
+          "title": "Prehistoric Potion Adventures",
+          "date": "2026-07-03T12:27:51.000Z"
+        }
+      ],
+      "placeIds": [
+        "b8e449ef6ece4f9bbcdc"
+      ],
+      "signatureStory": "Prehistoric_Potion_Adventures",
+      "image": "media/Prehistoric_Potion_Adventures/header.webp",
+      "prominence": 0.374
+    },
+    {
+      "id": "coral-reef-gemstone",
+      "name": "Underwater Coral Reef Gemstone World",
+      "category": "earthly",
+      "role": "world",
+      "ring": 2,
+      "storyCount": 4,
+      "earliestDate": "2025-09-21T00:00:00.000Z",
+      "curatedDescription": "A vibrant submerged realm of coral and sparkling gemstones, reached by drinking a light-blue, fishy-smelling potion with little glittering sparkles from a diamond-shaped bottle. Seeker and Dematar appear beneath the surface, but Dematar's sudden coral allergy forces a sneezing retreat up onto the rocks and sand. Back on the surface, two little tropical fish, one red and one blue, turn up tangled in Seeker's beard and are adopted as pets.",
+      "potion": {
+        "name": "Diamond-shaped potion",
+        "rhyme": "Sparkle, sparkle, sparkle, sparkle, sparkle, sparkle.",
+        "mechanic": "A sip of the sparkly, fishy-smelling diamond-shaped potion followed by the spoken rhyme teleports the drinker into the underwater gemstone reef in a sparkle and a splash."
+      },
+      "arrivalFrom": "Seeker's Castle / Potion Closet",
+      "characters": [
+        "Seeker",
+        "Dimitar",
+        "Muska Scaphor",
+        "Sinaphia"
+      ],
+      "quotes": [
+        {
+          "speaker": "Izzy",
+          "text": "Don't drink the sparkles, be careful!",
+          "slug": "The_Potion_of_the_Gemstone_Reef",
+          "timestamp": 256
+        },
+        {
+          "speaker": "Izzy",
+          "text": "Let's name them Muska Scaphor, that's the red one's name, and Sinaphia for short for the blue one.",
+          "slug": "The_Potion_of_the_Gemstone_Reef",
+          "timestamp": 814
+        },
+        {
+          "speaker": "Izzy",
+          "text": "I think I'm allergic to the coral.",
+          "slug": "The_Potion_of_the_Gemstone_Reef",
+          "timestamp": 427
+        }
+      ],
+      "stories": [
+        {
+          "slug": "The_Potion_of_the_Gemstone_Reef",
+          "title": "The Potion of the Gemstone Reef",
+          "date": "2026-04-01T00:00:00.000Z"
+        },
+        {
+          "slug": "Shark_Friends_and_the_Deep_Deep_Dark",
+          "title": "Shark Friends and the Deep Deep Dark",
+          "date": "2026-04-27T00:11:55.000Z"
+        },
+        {
+          "slug": "Slime-Ka-Bye_The_Beard-Dweller_s_Deep_Sea_Adventure",
+          "title": "Slime-Ka-Bye: The Beard-Dweller's Deep Sea Adventure",
+          "date": "2026-04-10T01:32:20.000Z"
+        },
+        {
+          "slug": "Disco_and_Thisco_s_Deep-Sea_Submarine_Adventure",
+          "title": "Disco and Thisco's Deep-Sea Submarine Adventure",
+          "date": "2025-09-21T00:00:00.000Z"
+        }
+      ],
+      "placeIds": [
+        "VXArQQkW5XynuKI5LAXg",
+        "7V7qh74rM0B8JY537vfu",
+        "HN50nCJ2GtAUGOO57hut",
+        "ki1m9k623zed6pw1xb6J"
+      ],
+      "signatureStory": "The_Potion_of_the_Gemstone_Reef",
+      "image": "media/The_Potion_of_the_Gemstone_Reef/header.webp",
+      "prominence": 0.42
+    },
+    {
+      "id": "elemental-planes",
+      "name": "The Elemental Planes",
+      "category": "elemental-plane",
+      "role": "world",
+      "ring": 3,
+      "storyCount": 1,
+      "earliestDate": "2025-10-07T00:00:00.000Z",
+      "curatedDescription": "A set of five elemental realms that Seeker maps using colored magic potions, each drink taking travelers to a different plane. The Plane of Fire is a scorching land of volcanoes, campfires, and bright hot lights floating through the air; the Plane of Ice is full of ice and snow; the Plane of Water is a world of water; the Plane of Grass has enormous fields of sweet-smelling grass that stretch as far as you can see; and the Plane of Mud is a sticky world where moles dig for bugs. In the signature story the Mischief Moles choose the fire potion and brave an erupting volcano, sheltering in a tunnel until a flame bird appears to guide them to the summit.",
+      "potion": {
+        "name": "Fire potion",
+        "rhyme": "Higher and higher to the plane of fire.",
+        "mechanic": "Each of Seeker's swirling elemental potions carries the drinker to a different plane after a sip and a spoken chant, with a sip of clean pure water to return home."
+      },
+      "arrivalFrom": "Seeker's Castle / Potion Closet",
+      "characters": [
+        "Papa Mole",
+        "Disco",
+        "Thisco",
+        "Baby Mole",
+        "Seeker",
+        "Flame Bird"
+      ],
+      "quotes": [
+        {
+          "speaker": "Izzy",
+          "text": "Volcano! Volcanoes! There was a volcano right in front of them.",
+          "slug": "The_Mischief_Moles_and_the_Plane_of_Fire",
+          "timestamp": 510.42
+        },
+        {
+          "speaker": "Izzy",
+          "text": "There's an air conditioning at home. I can bring it here. And I hurried back to my house and came back with a large air conditioner.",
+          "slug": "The_Mischief_Moles_and_the_Plane_of_Fire",
+          "timestamp": 561.42
+        },
+        {
+          "speaker": "Izzy",
+          "text": "Your feet get sticky as you dig for bugs.",
+          "slug": "The_Mischief_Moles_and_the_Plane_of_Fire",
+          "timestamp": 830.41
+        }
+      ],
+      "stories": [
+        {
+          "slug": "The_Mischief_Moles_and_the_Plane_of_Fire",
+          "title": "The Mischief Moles and the Plane of Fire",
+          "date": "2025-10-07T00:00:00.000Z"
+        }
+      ],
+      "placeIds": [
+        "WfoC3KOLOa9furoFhHUt",
+        "M81ZlTgzUWcp9JMAvKcH",
+        "XNprSNPgfG7gUvyEP9Wl",
+        "YY2N4lU0f5Hz7WtlIdB9",
+        "i0Jomg87Pa4N9ZyIy8PY"
+      ],
+      "signatureStory": "The_Mischief_Moles_and_the_Plane_of_Fire",
+      "image": "media/The_Mischief_Moles_and_the_Plane_of_Fire/header.webp",
+      "prominence": 0.474
+    },
+    {
+      "id": "volcano-world",
+      "name": "Volcano World",
+      "category": "elemental-plane",
+      "role": "world",
+      "ring": 3,
+      "storyCount": 1,
+      "earliestDate": "2026-03-11T00:00:00.000Z",
+      "curatedDescription": "Volcano World is a dangerous realm that Seeker has visited before, its magic bottled as a vial of molten heat that glows upon the shelves of his potion closet. In 'A Sticky Adventure to the Castle of Slime,' Seeker and Wizard Bobizard spot the Volcano World potion while rummaging for an unfamiliar brew, but pass it over because it is one they have already taken.",
+      "potion": {
+        "name": "Volcano World potion",
+        "rhyme": null,
+        "mechanic": "Drink the Volcano World potion from Seeker's potion closet, a brew holding the molten heat of that dangerous world, which Seeker has taken before."
+      },
+      "arrivalFrom": "Seeker's Castle / Potion Closet",
+      "characters": [
+        "Seeker"
+      ],
+      "quotes": [
+        {
+          "speaker": "Dad",
+          "text": "There's a Volcano World potion.",
+          "slug": "A_Sticky_Adventure_to_the_Castle_of_Slime",
+          "timestamp": 114
+        },
+        {
+          "speaker": "Izzy",
+          "text": "Volcano.",
+          "slug": "A_Sticky_Adventure_to_the_Castle_of_Slime",
+          "timestamp": 123
+        }
+      ],
+      "stories": [
+        {
+          "slug": "A_Sticky_Adventure_to_the_Castle_of_Slime",
+          "title": "A Sticky Adventure to the Castle of Slime",
+          "date": "2026-03-11T00:00:00.000Z"
+        }
+      ],
+      "placeIds": [
+        "wvapMPrdUM0aFiHwAy9j"
+      ],
+      "signatureStory": "A_Sticky_Adventure_to_the_Castle_of_Slime",
+      "image": "media/A_Sticky_Adventure_to_the_Castle_of_Slime/header.webp",
+      "prominence": 0.203
+    },
+    {
+      "id": "star-world",
+      "name": "Star World",
+      "category": "alien-planet",
+      "role": "world",
+      "ring": 4,
+      "storyCount": 1,
+      "earliestDate": "2026-06-22T00:48:05.000Z",
+      "curatedDescription": "A breathtaking cosmic dimension set in the dark expanse of space, where travelers float in darkness surrounded on every side by the night sky full of tiny twinkling lights. It is home to the cat-like Mookers, and in Star World you can zoom across the cosmos very fast, star to star. At its heart glows a wise, ancient star, billions of years old, who watches planets come and go in a blink.",
+      "potion": {
+        "name": "Star potion",
+        "rhyme": "Subime, subime, subime, subime, subime, subime, subime.",
+        "mechanic": "Everyone takes a sip of the glittery star potion (ground-up cardboard stars, glitter, grinded-up gems, and feathers) and chants the rhyme, and with a whoosh and a twinkle they arrive."
+      },
+      "arrivalFrom": "Seeker's Castle / Potion Closet",
+      "characters": [
+        "Seeker",
+        "Isabella",
+        "Bunsen",
+        "Beeker",
+        "Wobbly Whisker",
+        "Mookers",
+        "Ancient Star"
+      ],
+      "quotes": [
+        {
+          "speaker": "Izzy",
+          "text": "The bleah is just me puking in my litter box... in my little... in my litter box, that I just brought with me.",
+          "slug": "The_Magic_Star_Potion_and_the_Journey_to_Star_World",
+          "timestamp": 1124
+        },
+        {
+          "speaker": "Dad",
+          "text": "Yes, I see planets come and go in a blink. We stars are on a long journey.",
+          "slug": "The_Magic_Star_Potion_and_the_Journey_to_Star_World",
+          "timestamp": 1544
+        }
+      ],
+      "stories": [
+        {
+          "slug": "The_Magic_Star_Potion_and_the_Journey_to_Star_World",
+          "title": "The Magic Star Potion and the Journey to Star World",
+          "date": "2026-06-22T00:48:05.000Z"
+        }
+      ],
+      "placeIds": [
+        "2858a34e2943493d9abd"
+      ],
+      "signatureStory": "The_Magic_Star_Potion_and_the_Journey_to_Star_World",
+      "image": "media/The_Magic_Star_Potion_and_the_Journey_to_Star_World/header.webp",
+      "prominence": 0.332
+    },
+    {
+      "id": "the-moon",
+      "name": "The Moon",
+      "category": "alien-planet",
+      "role": "world",
+      "ring": 4,
+      "storyCount": 6,
+      "earliestDate": "2025-03-20T00:00:00.000Z",
+      "curatedDescription": "Visible from Earth as a pockmarked sphere of gray, white, and black, the Moon is a low-gravity world where visitors bounce as they walk. A big round gray-and-white-and-black circle in the sky, it is a waypoint for sun-bound crews and a playground of ancient space rocks and leaping Floofers. Its silver dust is where the long-lost mother cat is finally found.",
+      "potion": {
+        "name": null,
+        "rhyme": null,
+        "mechanic": "Reached not by potion but by a homemade cardboard rocket ship that blasts off from Mars and dodges asteroids before landing on the Moon."
+      },
+      "arrivalFrom": "Seeker's Castle / Potion Closet",
+      "characters": [
+        "Seeker",
+        "Dimitar",
+        "Wobbly Whiskers",
+        "Wobbly Whiskers' Mother",
+        "Astronauts",
+        "Floofers"
+      ],
+      "quotes": [
+        {
+          "speaker": "Izzy",
+          "text": "And there is no gravity. So people bounce when they walk around on the moon.",
+          "slug": "Seeker_s_Guide_to_Volcanoes_Space_and_Sunlight",
+          "timestamp": 407
+        },
+        {
+          "speaker": "Izzy",
+          "text": "Um, they hopped everywhere looking for Mom until they spot a small black cat far away on the moon.",
+          "slug": "The_Quest_for_the_Moon_Mother",
+          "timestamp": 483
+        }
+      ],
+      "stories": [
+        {
+          "slug": "The_Big_Muck_Problem_One_Pile_at_a_Time",
+          "title": "The Big Muck Problem: One Pile at a Time",
+          "date": "2025-03-20T00:00:00.000Z"
+        },
+        {
+          "slug": "The_Red_Planet_Potion",
+          "title": "The Red Planet Potion",
+          "date": "2025-11-16T00:00:00.000Z"
+        },
+        {
+          "slug": "The_Solar_Expedition_of_Stars_and_Snories",
+          "title": "The Solar Expedition of Stars and Snories",
+          "date": "2025-11-22T00:00:00.000Z"
+        },
+        {
+          "slug": "The_Mookers_the_Floofers_and_the_Solar_Mookball",
+          "title": "The Mookers, the Floofers, and the Solar Mookball",
+          "date": "2026-03-28T00:00:00.000Z"
+        },
+        {
+          "slug": "The_Quest_for_the_Moon_Mother",
+          "title": "The Quest for the Moon Mother",
+          "date": "2026-04-25T00:06:49.000Z"
+        },
+        {
+          "slug": "Seeker_s_Guide_to_Volcanoes_Space_and_Sunlight",
+          "title": "Seeker's Guide to Volcanoes, Space, and Sunlight",
+          "date": "2025-11-26T00:00:00.000Z"
+        }
+      ],
+      "placeIds": [
+        "AtdCxxk87yFUtLkKQFYd",
+        "2DG1CYBYfSUwyXApkCdS"
+      ],
+      "signatureStory": "The_Quest_for_the_Moon_Mother",
+      "image": "media/The_Quest_for_the_Moon_Mother/header.webp",
+      "prominence": 0.38
+    },
+    {
+      "id": "mars",
+      "name": "Mars",
+      "category": "alien-planet",
+      "role": "world",
+      "ring": 4,
+      "storyCount": 7,
+      "earliestDate": "2025-09-01T00:00:00.000Z",
+      "curatedDescription": "A primordial red world of red rocks and dust underfoot, resting beneath a strange reddish-pink sky dotted with little wispy clouds. Being smaller than Earth, it has less gravity, so everyone feels lighter and can jump higher, and dust storms sweep across its ancient dormant volcanoes and impact craters. There is no air to breathe on Mars, so travelers carry a magic bubble of comfortable air with them; it is the home of Julian.",
+      "potion": {
+        "name": "Mars potion",
+        "rhyme": "Fiska Kapiska Kaboo!",
+        "mechanic": "Each traveler takes a sip of the swirling, spiraling red-orange-yellow-and-black potion, chants the magic spell three times, and a big zoom-pow sets them down on Mars inside a magic bubble of breathable air."
+      },
+      "arrivalFrom": "Seeker's Castle / Potion Closet",
+      "characters": [
+        "Seeker",
+        "Uncle Grisco",
+        "Papa Mole",
+        "The Three Blind Mice",
+        "Captain Izzy",
+        "Julian",
+        "Dimitar"
+      ],
+      "quotes": [
+        {
+          "speaker": "Izzy",
+          "text": "I want the planet potion because I have planets on my dress, including one that's red.",
+          "slug": "The_Quest_for_the_Moon_Mother",
+          "timestamp": 336
+        },
+        {
+          "speaker": "Izzy",
+          "text": "I noticed that the planet that we're on is Mars, is red like yellow and orangey too. Has a volcano-ish reddish Mars.",
+          "slug": "The_Red_Planet_Potion",
+          "timestamp": 532
+        }
+      ],
+      "stories": [
+        {
+          "slug": "Captain_Izzy_s_Martian_Mission",
+          "title": "Captain Izzy's Martian Mission",
+          "date": "2025-09-01T00:00:00.000Z"
+        },
+        {
+          "slug": "The_Galactic_Search_for_Chicky",
+          "title": "The Galactic Search for Chicky",
+          "date": "2025-10-19T00:00:00.000Z"
+        },
+        {
+          "slug": "The_Red_Planet_Potion",
+          "title": "The Red Planet Potion",
+          "date": "2025-11-16T00:00:00.000Z"
+        },
+        {
+          "slug": "Seeker_s_Guide_to_Volcanoes_Space_and_Sunlight",
+          "title": "Seeker's Guide to Volcanoes, Space, and Sunlight",
+          "date": "2025-11-26T00:00:00.000Z"
+        },
+        {
+          "slug": "Cosmic_Controls_at_the_Captain_s_Desk",
+          "title": "Cosmic Controls at the Captain's Desk",
+          "date": "2026-02-07T00:00:00.000Z"
+        },
+        {
+          "slug": "The_Mookers_the_Floofers_and_the_Solar_Mookball",
+          "title": "The Mookers, the Floofers, and the Solar Mookball",
+          "date": "2026-03-28T00:00:00.000Z"
+        },
+        {
+          "slug": "The_Quest_for_the_Moon_Mother",
+          "title": "The Quest for the Moon Mother",
+          "date": "2026-04-25T00:06:49.000Z"
+        }
+      ],
+      "placeIds": [
+        "5qnsBCNfKB43rXBo72IE",
+        "DyoCUNo2A5I0YJyDZmKI",
+        "494xKqv7FQjkZhp7aEoS"
+      ],
+      "signatureStory": "The_Red_Planet_Potion",
+      "image": "media/The_Red_Planet_Potion/header.webp",
+      "prominence": 0.501
+    },
+    {
+      "id": "planet-mookers",
+      "name": "Planet of the Mookers",
+      "category": "alien-planet",
+      "role": "world",
+      "ring": 4,
+      "storyCount": 6,
+      "earliestDate": "2025-10-19T00:00:00.000Z",
+      "curatedDescription": "An enigmatic alien world with a fuzzy yet curiously slimy surface, the ancestral cradle of the blue, friendly Mookers, moose-like creatures who talk in a rhythmic chorus of \"mooks.\" Everything there is so slimy that visitors end up covered in sticky goo. The realm is strewn with the colossal remains of giant fossils and holds a library where ancient fossil books are kept, and it can be reached only by drinking a specific purple potion.",
+      "potion": {
+        "name": "purple potion",
+        "rhyme": "Planet of the Mookers, we're the Blue-kers.",
+        "mechanic": "Take a sip of the purple potion and say the rhyme, and you sploop right down onto the slimy Mooker surface."
+      },
+      "arrivalFrom": "Seeker's Castle / Potion Closet",
+      "characters": [
+        "The Mookers",
+        "Seeker",
+        "Buddy the Mouse",
+        "Wobbly Whisker",
+        "Mama Kitten",
+        "Librarian Mooker",
+        "Floofers"
+      ],
+      "quotes": [
+        {
+          "speaker": "Izzy",
+          "text": "I'm Wobbly Whisker and I can't find my mommy again.",
+          "slug": "Wobbly_Whisker_s_Sticky_Adventure_on_Planet_Mooker",
+          "timestamp": 142
+        },
+        {
+          "speaker": "Izzy",
+          "text": "But I'm so slimy.",
+          "slug": "Wobbly_Whisker_s_Sticky_Adventure_on_Planet_Mooker",
+          "timestamp": 151
+        },
+        {
+          "speaker": "Izzy",
+          "text": "They're moose. And they mook! Mook mook mook mook mook. I'll be the Floofers, you'll be the Mookers.",
+          "slug": "The_Mookers_the_Floofers_and_the_Solar_Mookball",
+          "timestamp": 46
+        }
+      ],
+      "stories": [
+        {
+          "slug": "Haddy_the_Mouse_and_the_Quest_for_the_Talking_Hat",
+          "title": "Haddy the Mouse and the Quest for the Talking Hat",
+          "date": "2025-10-19T00:00:00.000Z"
+        },
+        {
+          "slug": "The_Galactic_Search_for_Chicky",
+          "title": "The Galactic Search for Chicky",
+          "date": "2025-10-19T00:00:00.000Z"
+        },
+        {
+          "slug": "The_Floof-Berry_Mission_and_the_Great_Snowstorm",
+          "title": "The Floof-Berry Mission and the Great Snowstorm",
+          "date": "2026-02-21T00:00:00.000Z"
+        },
+        {
+          "slug": "A_Sticky_Adventure_to_the_Castle_of_Slime",
+          "title": "A Sticky Adventure to the Castle of Slime",
+          "date": "2026-03-11T00:00:00.000Z"
+        },
+        {
+          "slug": "The_Mookers_the_Floofers_and_the_Solar_Mookball",
+          "title": "The Mookers, the Floofers, and the Solar Mookball",
+          "date": "2026-03-28T00:00:00.000Z"
+        },
+        {
+          "slug": "Wobbly_Whisker_s_Sticky_Adventure_on_Planet_Mooker",
+          "title": "Wobbly Whisker's Sticky Adventure on Planet Mooker",
+          "date": "2026-05-02T00:23:16.000Z"
+        }
+      ],
+      "placeIds": [
+        "kscWgnA512Q73qr4FNGH"
+      ],
+      "signatureStory": "Wobbly_Whisker_s_Sticky_Adventure_on_Planet_Mooker",
+      "image": "media/Wobbly_Whisker_s_Sticky_Adventure_on_Planet_Mooker/header.webp",
+      "prominence": 0.466
+    },
+    {
+      "id": "rainbow-planet",
+      "name": "Rainbow Planet Vupiter Wupiter Snupiter",
+      "category": "alien-planet",
+      "role": "world",
+      "ring": 4,
+      "storyCount": 1,
+      "earliestDate": "2025-09-03T00:00:00.000Z",
+      "curatedDescription": "A vibrant planet covered in swirling colors of red, orange, yellow, green, and purple, first spotted from a spaceship as a tiny glowing speck covered with swirling colors. It is the home of a family of space rocks, and travelers navigate through its swirling colorful clouds to deliver the baby space rock Moueks safely back to its family.",
+      "potion": {
+        "name": null,
+        "rhyme": null,
+        "mechanic": "Reached not by potion but by a rocket ship that blasts off from Earth and fires its engines across deep space, with a magical rope trailing behind to guide the crew home again."
+      },
+      "arrivalFrom": "Seeker's Castle / Potion Closet",
+      "characters": [
+        "Captain Izzy",
+        "Mickey",
+        "Minnie",
+        "Mole",
+        "Moueks",
+        "Dada Space Rock",
+        "Mama Space Rock"
+      ],
+      "quotes": [
+        {
+          "speaker": "Izzy",
+          "text": "They lived on the Rainbow Planet Vupiter Wupiter Snupiter.",
+          "slug": "Mission_to_the_Rainbow_Planet_Vupiter_Wupiter_Snupiter",
+          "timestamp": 486
+        },
+        {
+          "speaker": "Izzy",
+          "text": "This rope will help us find our way back to Earth.",
+          "slug": "Mission_to_the_Rainbow_Planet_Vupiter_Wupiter_Snupiter",
+          "timestamp": 529
+        },
+        {
+          "speaker": "Dad",
+          "text": "As the Rainbow Planet Vupiter Wupiter Snupiter gets closer, we can see red and orange and yellow and green and purple swirls all over.",
+          "slug": "Mission_to_the_Rainbow_Planet_Vupiter_Wupiter_Snupiter",
+          "timestamp": 548
+        }
+      ],
+      "stories": [
+        {
+          "slug": "Mission_to_the_Rainbow_Planet_Vupiter_Wupiter_Snupiter",
+          "title": "Mission to the Rainbow Planet Vupiter Wupiter Snupiter",
+          "date": "2025-09-03T00:00:00.000Z"
+        }
+      ],
+      "placeIds": [
+        "i64HvFMH7QPh1dyMKWlj"
+      ],
+      "signatureStory": "Mission_to_the_Rainbow_Planet_Vupiter_Wupiter_Snupiter",
+      "image": "media/Mission_to_the_Rainbow_Planet_Vupiter_Wupiter_Snupiter/header.webp",
+      "prominence": 0.282
+    },
+    {
+      "id": "balloon-world",
+      "name": "Balloon World",
+      "category": "whimsical-world",
+      "role": "world",
+      "ring": 5,
+      "storyCount": 4,
+      "earliestDate": "2026-03-06T00:00:00.000Z",
+      "curatedDescription": "Balloon World is a whimsical realm where everything is made of balloons, from the springy, rubbery, bouncy ground and rolling hills to its towering architecture and inflated delicacies. Its denizens include squeaking balloon dogs like Squeaky, who works at the Balloon Twisting School, and it is ruled by a giant rainbow-balloon King who wears an orange ring of balloons as a crown. Wonders include the majestic Balloon Castle and a balloon farm growing balloon strawberries and other balloon fruits and vegetables. It is the birthplace of the kitten Jinjar, infamously known as the 'Sneaky Popper.'",
+      "potion": {
+        "name": "Balloon World potion",
+        "rhyme": "Balloon Baboon, Balloon Baboon, Balloon Baboon.",
+        "mechanic": "Take a sip of the rubbery, silvery, all-colored potion and say the rhyme three times, and with a pop Seeker's house vanishes and you reappear in Balloon World."
+      },
+      "arrivalFrom": "Seeker's Castle / Potion Closet",
+      "characters": [
+        "Seeker",
+        "Isabella",
+        "Uncle Bill",
+        "Balloonie",
+        "Squeaky the Doggo",
+        "King of Balloon World",
+        "Jinjar"
+      ],
+      "quotes": [
+        {
+          "speaker": "Izzy",
+          "text": "Balloon World, where everything's made of balloons.",
+          "slug": "The_Squeaky_Adventures_in_Balloon_World",
+          "timestamp": 3
+        },
+        {
+          "speaker": "Izzy",
+          "text": "Hi Balloon Dog! We brought an alone balloon.",
+          "slug": "The_Squeaky_Adventures_in_Balloon_World",
+          "timestamp": 244
+        },
+        {
+          "speaker": "Izzy",
+          "text": "We drink the potion and do the special rhyme called balloon baboon.",
+          "slug": "The_Sneaky_Popper_of_Balloon_World",
+          "timestamp": 120
+        }
+      ],
+      "stories": [
+        {
+          "slug": "The_Squeaky_Adventures_in_Balloon_World",
+          "title": "The Squeaky Adventures in Balloon World",
+          "date": "2026-03-06T00:00:00.000Z"
+        },
+        {
+          "slug": "The_Sneaky_Popper_of_Balloon_World",
+          "title": "The Sneaky Popper of Balloon World",
+          "date": "2026-03-08T00:00:00.000Z"
+        },
+        {
+          "slug": "A_Sticky_Adventure_to_the_Castle_of_Slime",
+          "title": "A Sticky Adventure to the Castle of Slime",
+          "date": "2026-03-11T00:00:00.000Z"
+        },
+        {
+          "slug": "The_Bouncy_Adventures_in_Balloon_World",
+          "title": "The Bouncy Adventures in Balloon World",
+          "date": "2026-03-25T00:00:00.000Z"
+        }
+      ],
+      "placeIds": [
+        "fwwmDHVfUCXdHBXB79z6"
+      ],
+      "signatureStory": "The_Squeaky_Adventures_in_Balloon_World",
+      "image": "media/The_Squeaky_Adventures_in_Balloon_World/header.webp",
+      "prominence": 0.487
+    },
+    {
+      "id": "slime-world",
+      "name": "Slime World",
+      "category": "whimsical-world",
+      "role": "world",
+      "ring": 5,
+      "storyCount": 2,
+      "earliestDate": "2026-03-11T00:00:00.000Z",
+      "curatedDescription": "Slime World is a vibrant, magical realm where the landscape is sculpted from iridescent orange and blue slime, a viscous dimension that is wonderfully bouncy yet incredibly sticky, so lifting a foot goes 'shloop' and every fall rebounds softly. At its center stands a big, ball-shaped castle made of orange and blue slime, filled with fuzzy ball creatures called Snooper-ka-floopers (the Floofers' next cousins) and ruled by the Queen of Slime World. It is home to the blue-and-green alien Sneeter and hosts a Slime School, where students mix baking soda, glue and food coloring into gooey creations before bouncing through the sticky hills.",
+      "potion": {
+        "name": null,
+        "rhyme": "Slime bo-bime, slime bo-bime, slime bo-bime!",
+        "mechanic": "Sip the slimy orange-and-blue potion Isabella made (slime mixed with water, blue coloring, and frozen in an ice cube) and recite the rhyme to be transported to Slime World."
+      },
+      "arrivalFrom": "Seeker's Castle / Potion Closet",
+      "characters": [
+        "Seeker",
+        "Wizard Bobizard",
+        "Isabella",
+        "Sneeter",
+        "Snooper-ka-floopers",
+        "The Queen of Slime World",
+        "Slime Teacher",
+        "Sophie"
+      ],
+      "quotes": [
+        {
+          "speaker": "Izzy",
+          "text": "It's so bouncy!",
+          "slug": "A_Sticky_Adventure_to_the_Castle_of_Slime",
+          "timestamp": 281
+        },
+        {
+          "speaker": "Izzy",
+          "text": "A Snooper-ka-flooper. Boing boing! And then they went boing-ing up the stairs and in the bathroom and everywhere there was a Snooper-ka-flooper.",
+          "slug": "A_Sticky_Adventure_to_the_Castle_of_Slime",
+          "timestamp": 548
+        },
+        {
+          "speaker": "Izzy",
+          "text": "Yeah, but what about an apron to keep my other apron dry?",
+          "slug": "The_Magic_of_Slime_School",
+          "timestamp": 181
+        }
+      ],
+      "stories": [
+        {
+          "slug": "A_Sticky_Adventure_to_the_Castle_of_Slime",
+          "title": "A Sticky Adventure to the Castle of Slime",
+          "date": "2026-03-11T00:00:00.000Z"
+        },
+        {
+          "slug": "The_Magic_of_Slime_School",
+          "title": "The Magic of Slime School",
+          "date": "2026-03-26T00:00:00.000Z"
+        }
+      ],
+      "placeIds": [
+        "D3C3ETMB5K4X2E1GQpU0",
+        "MOfI4nrZNydCBIlCiGqf"
+      ],
+      "signatureStory": "A_Sticky_Adventure_to_the_Castle_of_Slime",
+      "image": "media/A_Sticky_Adventure_to_the_Castle_of_Slime/header.webp",
+      "prominence": 0.481
+    },
+    {
+      "id": "cat-world",
+      "name": "Cat World",
+      "category": "whimsical-world",
+      "role": "world",
+      "ring": 5,
+      "storyCount": 2,
+      "earliestDate": "2026-04-07T00:58:19.000Z",
+      "curatedDescription": "A tactile, fur-filled dimension reachable only through specialized teleportation potions, a plush realm for those who master alchemical teleportation. It is home to cats who speak in meows, purrs, and the occasional 'hate,' including a kitten named Silver who cannot open her own cans of food. To help, the wizard Seker leaves behind a magical can opener that makes a 'snergle' sound, so the cats of Cat World can learn to feed themselves.",
+      "potion": {
+        "name": null,
+        "rhyme": "Cat-ka-pat, cat-ka-pat.",
+        "mechanic": "You drink the oval, tube-shaped teleportation potion and say the rhyme three times to appear in Cat World."
+      },
+      "arrivalFrom": "Seeker's Castle / Potion Closet",
+      "characters": [
+        "Seker",
+        "Dimitar",
+        "Silver",
+        "Gorp",
+        "Pixie",
+        "Finn"
+      ],
+      "quotes": [
+        {
+          "speaker": "Izzy",
+          "text": "A potion is something you drink and once you say a rhyme three times, then you'll appear in... a world.",
+          "slug": "The_Wizard_Seker_and_the_Magical_Can_Opener_of_Cat_World",
+          "timestamp": 117
+        },
+        {
+          "speaker": "Izzy",
+          "text": "Meow meow marbel... That means I got my claw stuck.",
+          "slug": "The_Wizard_Seker_and_the_Magical_Can_Opener_of_Cat_World",
+          "timestamp": 516
+        }
+      ],
+      "stories": [
+        {
+          "slug": "The_Wizard_Seker_and_the_Magical_Can_Opener_of_Cat_World",
+          "title": "The Wizard Seker and the Magical Can Opener of Cat World",
+          "date": "2026-04-07T00:58:19.000Z"
+        },
+        {
+          "slug": "The_Thirty_Cats_of_Kibble_World",
+          "title": "The Thirty Cats of Kibble World",
+          "date": "2026-05-11T00:51:11.000Z"
+        }
+      ],
+      "placeIds": [
+        "ujzqMyMpdCXSedRil4rR"
+      ],
+      "signatureStory": "The_Wizard_Seker_and_the_Magical_Can_Opener_of_Cat_World",
+      "image": "media/The_Wizard_Seker_and_the_Magical_Can_Opener_of_Cat_World/header.webp",
+      "prominence": 0.364
+    },
+    {
+      "id": "kibble-world",
+      "name": "Kibble World",
+      "category": "whimsical-world",
+      "role": "world",
+      "ring": 5,
+      "storyCount": 1,
+      "earliestDate": "2026-05-11T00:51:11.000Z",
+      "curatedDescription": "A magical land where everything—houses, trees, clouds, and even the bowls—is made of edible, kibble-colored kibble. When thirty hungry cats arrive, the local Silvercat welcomes them to feast, and they run in all directions sniffing, nibbling, and munching until their bellies are full, then curl up for a long, peaceful nap in the crunchy landscape.",
+      "potion": {
+        "name": "Kibble World potion",
+        "rhyme": "Meow come meow come meow.",
+        "mechanic": "Seeker blends kibble, wet food, cat fur, and cat feeders into a potion; everyone takes a sip and says the rhyme to appear in Kibble World."
+      },
+      "arrivalFrom": "Seeker's Castle / Potion Closet",
+      "characters": [
+        "Seeker",
+        "Hazel",
+        "Silvercat",
+        "Scratchcat",
+        "Gingercat"
+      ],
+      "quotes": [
+        {
+          "speaker": "Izzy",
+          "text": "Kibble kibble, too much, there has to be too much kibble in the potion.",
+          "slug": "The_Thirty_Cats_of_Kibble_World",
+          "timestamp": 200
+        },
+        {
+          "speaker": "Izzy",
+          "text": "Big pile of kibble. There was lots of everything. Everything was made of kibble.",
+          "slug": "The_Thirty_Cats_of_Kibble_World",
+          "timestamp": 397
+        },
+        {
+          "speaker": "Izzy",
+          "text": "But Cavelber had a velvet belly.",
+          "slug": "The_Thirty_Cats_of_Kibble_World",
+          "timestamp": 381
+        }
+      ],
+      "stories": [
+        {
+          "slug": "The_Thirty_Cats_of_Kibble_World",
+          "title": "The Thirty Cats of Kibble World",
+          "date": "2026-05-11T00:51:11.000Z"
+        }
+      ],
+      "placeIds": [
+        "4jfhiU8xIT1jW0ulR4BN"
+      ],
+      "signatureStory": "The_Thirty_Cats_of_Kibble_World",
+      "image": "media/The_Thirty_Cats_of_Kibble_World/header.webp",
+      "prominence": 0.313
+    },
+    {
+      "id": "book-world",
+      "name": "Book World",
+      "category": "whimsical-world",
+      "role": "world",
+      "ring": 5,
+      "storyCount": 1,
+      "earliestDate": "2026-06-18T00:17:02.000Z",
+      "curatedDescription": "A world where everything is made of paper, pages, covers, and bindings—stacks, piles, and towers of gigantic and tiny books, with clouds of fluffy little books drifting through the sky. Its inhabitants are sentient 'book people' that waddle on tiny feet, such as a Penguin Book that reads itself aloud to answer questions and a sturdy Greenland Book that clomps about in big icy boots.",
+      "potion": {
+        "name": null,
+        "rhyme": "Sub-Ime, Sub-Ime, Sub-Ime, Sub-Ime, Sub-Ime, Sub-Ime, Sub-Ime.",
+        "mechanic": "Seeker grinds an old, moldy book into sparkly book dust and adds it to a potion of maple syrup, feathers, and water; everyone sips and chants the rhyme (twice through) to reach Book World."
+      },
+      "arrivalFrom": "Seeker's Castle / Potion Closet",
+      "characters": [
+        "Seeker",
+        "Dimitar",
+        "Hattie the Mouse",
+        "Isabella",
+        "Penguin Book",
+        "Greenland Book"
+      ],
+      "quotes": [
+        {
+          "speaker": "Izzy",
+          "text": "And were there book people?",
+          "slug": "The_Sparkling_Dust_of_Book_World",
+          "timestamp": 649
+        },
+        {
+          "speaker": "Izzy",
+          "text": "are you a penguin made out of books?",
+          "slug": "The_Sparkling_Dust_of_Book_World",
+          "timestamp": 685
+        }
+      ],
+      "stories": [
+        {
+          "slug": "The_Sparkling_Dust_of_Book_World",
+          "title": "The Sparkling Dust of Book World",
+          "date": "2026-06-18T00:17:02.000Z"
+        }
+      ],
+      "placeIds": [
+        "WUnYVPPX5BJPEGxtSeKI"
+      ],
+      "signatureStory": "The_Sparkling_Dust_of_Book_World",
+      "image": "media/The_Sparkling_Dust_of_Book_World/header.webp",
+      "prominence": 0.276
+    },
+    {
+      "id": "rainbow-fruit-world",
+      "name": "Rainbow Fruit World",
+      "category": "whimsical-world",
+      "role": "world",
+      "ring": 5,
+      "storyCount": 1,
+      "earliestDate": "2026-06-15T00:17:34.000Z",
+      "curatedDescription": "A world where every element of nature is made of a different fruit. A Grape Cat welcomes visitors to a land of forests whose trees are giant apples and bananas, a blueberry ocean with a pomegranate-seed beach, and waters where Pear Sharks and Lemon Fish swim. Fruit juice is a splashy hazard for anyone wearing clothes—though residents made of fruit don't mind at all.",
+      "potion": {
+        "name": null,
+        "rhyme": "Ding-dong cadong-dong, ding-dong cadong-dong, ding-dong cadong-dong.",
+        "mechanic": "You uncork one of Seeker's teeny-tiny rainbow-colored potion bottles (it smells of pear and lemon), take a sip, and Dimitar says the rhyme, zwooping everyone into Rainbow Fruit World."
+      },
+      "arrivalFrom": "Seeker's Castle / Potion Closet",
+      "characters": [
+        "Seeker",
+        "Dimitar",
+        "Grape Cat",
+        "Pear Sharks",
+        "Lemon Fish"
+      ],
+      "quotes": [
+        {
+          "speaker": "Izzy",
+          "text": "No, no, no! Oh, we could change the ocean to be a blueberry ocean with a pomegranate seed beach.",
+          "slug": "The_Rainbow_Fruit_World_and_the_Great_Lemon_Fish_Debate",
+          "timestamp": 842
+        },
+        {
+          "speaker": "Izzy",
+          "text": "Oh! Also with pear sharks.",
+          "slug": "The_Rainbow_Fruit_World_and_the_Great_Lemon_Fish_Debate",
+          "timestamp": 800
+        },
+        {
+          "speaker": "Izzy",
+          "text": "And Dimitar, you... you covered everyone with blueberries!",
+          "slug": "The_Rainbow_Fruit_World_and_the_Great_Lemon_Fish_Debate",
+          "timestamp": 918
+        }
+      ],
+      "stories": [
+        {
+          "slug": "The_Rainbow_Fruit_World_and_the_Great_Lemon_Fish_Debate",
+          "title": "The Rainbow Fruit World and the Great Lemon Fish Debate",
+          "date": "2026-06-15T00:17:34.000Z"
+        }
+      ],
+      "placeIds": [
+        "P2ni9qlJOBmbaLYI4n5j"
+      ],
+      "signatureStory": "The_Rainbow_Fruit_World_and_the_Great_Lemon_Fish_Debate",
+      "image": "media/The_Rainbow_Fruit_World_and_the_Great_Lemon_Fish_Debate/header.webp",
+      "prominence": 0.32
+    },
+    {
+      "id": "diamond-world",
+      "name": "Diamond World",
+      "category": "whimsical-world",
+      "role": "world",
+      "ring": 5,
+      "storyCount": 1,
+      "earliestDate": "2025-11-28T00:00:00.000Z",
+      "curatedDescription": "Diamond World is one of the fantastical destinations bottled in Uncle Grisco's potion closet. When Seeker discovers that Uncle Grisco keeps his own collection of potions, Diamond World is named among the possibilities alongside the Rainbow Forest, Barbie's Garden, and Izzy's house. On this night the travelers choose the Izzy's-house draught instead, so Diamond World stays a glittering, unvisited promise on the shelf.",
+      "potion": {
+        "name": null,
+        "rhyme": null,
+        "mechanic": "One arrives by drinking the Diamond World potion from Uncle Grisco's magical potion closet."
+      },
+      "arrivalFrom": "Seeker's Castle / Potion Closet",
+      "characters": [
+        "Seeker",
+        "Uncle Grisco"
+      ],
+      "quotes": [
+        {
+          "speaker": "Izzy",
+          "text": "Well and Uncle Grisco said, there's a tickle-too-soup-to-cloud and the purple soup potions and there was one that would take us to the Diamond World, one that would take us to the Rainbow Forest, one that would take us to Barbie's Garden, and there would be one that would take us to Izzy's house.",
+          "slug": "The_Potion_to_the_Little_Hotel_House",
+          "timestamp": 125.1
+        }
+      ],
+      "stories": [
+        {
+          "slug": "The_Potion_to_the_Little_Hotel_House",
+          "title": "The Potion to the Little Hotel House",
+          "date": "2025-11-28T00:00:00.000Z"
+        }
+      ],
+      "placeIds": [
+        "mZoMYxSv2wQCPyH5AgnZ"
+      ],
+      "signatureStory": "The_Potion_to_the_Little_Hotel_House",
+      "image": "media/The_Potion_to_the_Little_Hotel_House/header.webp",
+      "prominence": 0.342
+    },
+    {
+      "id": "sleepy-world",
+      "name": "Sleepy World",
+      "category": "whimsical-world",
+      "role": "world",
+      "ring": 5,
+      "storyCount": 1,
+      "earliestDate": "2026-07-06T20:41:59.202Z",
+      "curatedDescription": "Sleepy World is the coziest world in the universe: a dim, calm realm beneath a beautiful starry sky, where mountains and piles of soft blankets and pillows lie everywhere and cozy beds wait in every shape, size, and color. It is watched over by Saluska, a huge, fluffy, blue sleep dragon with big, droopy eyes whose warm body and deep voice make every visitor feel sleepy. Saluska makes a perfectly custom, cozy bed appear for each traveler, so they can curl up, imagine the worlds of their ancestors, and drift off to sleep.",
+      "potion": {
+        "name": "Sleepy World potion",
+        "rhyme": "Kamoose-kajuice-kaboose, kamoose...",
+        "mechanic": "One arrives by drinking a dark blue, swirly indigo potion speckled with glowing stars and saying the rhyme."
+      },
+      "arrivalFrom": "Seeker's Castle / Potion Closet",
+      "characters": [
+        "Saluska",
+        "Seeker",
+        "Hattie the Mouse"
+      ],
+      "quotes": [
+        {
+          "speaker": "Izzy",
+          "text": "I want a pink bed with pink sheets with mice on them, and a pink blanket with purple stars, and, um, a cozy blue pillow.",
+          "slug": "The_Cozy_Potions_of_Sleepy_World",
+          "timestamp": 1527
+        },
+        {
+          "speaker": "Dad",
+          "text": "And so, Seeker and Hattie appeared in the coziest world in the universe. It was Sleepy World.",
+          "slug": "The_Cozy_Potions_of_Sleepy_World",
+          "timestamp": 1017
+        }
+      ],
+      "stories": [
+        {
+          "slug": "The_Cozy_Potions_of_Sleepy_World",
+          "title": "The Cozy Potions of Sleepy World",
+          "date": "2026-07-06T20:41:59.202Z"
+        }
+      ],
+      "placeIds": [
+        "cd59c6be9cc843e5a682"
+      ],
+      "signatureStory": "The_Cozy_Potions_of_Sleepy_World",
+      "image": "media/The_Cozy_Potions_of_Sleepy_World/header.webp",
+      "prominence": 0.405
+    },
+    {
+      "id": "winterworld",
+      "name": "Winterworld",
+      "category": "whimsical-world",
+      "role": "world",
+      "ring": 5,
+      "storyCount": 1,
+      "earliestDate": "2026-01-25T00:00:00.000Z",
+      "curatedDescription": "Winterworld is a freezing landscape of deep snow and drifting snowflakes, dotted with hidden, experimental ice towers. It is perilous enough to swallow a traveler whole: Seeker finds the mouse Winston buried beneath the snow after a snow-angel mishap. Bundled in a jacket, snow pants, boots, mittens, and his magic shining hat, Seeker digs Winston free and recovers the tiny ice towers he had been searching for, leftovers of his experiment to build one gigantic tower.",
+      "potion": {
+        "name": "Winterworld potion",
+        "rhyme": null,
+        "mechanic": "One arrives by drinking the sparkling white snow potion while wearing all their winter gear."
+      },
+      "arrivalFrom": "Seeker's Castle / Potion Closet",
+      "characters": [
+        "Seeker",
+        "Winston",
+        "Superhero Izzy"
+      ],
+      "quotes": [
+        {
+          "speaker": "Izzy",
+          "text": "\"Uh, I just fell down when I was making a snow angel.\"",
+          "slug": "Winterworld_Rescue_and_the_Magic_Shining_Hat",
+          "timestamp": 442
+        },
+        {
+          "speaker": "Izzy",
+          "text": "\"And I found some ice cubes and I found some ice towers.\"",
+          "slug": "Winterworld_Rescue_and_the_Magic_Shining_Hat",
+          "timestamp": 403
+        }
+      ],
+      "stories": [
+        {
+          "slug": "Winterworld_Rescue_and_the_Magic_Shining_Hat",
+          "title": "Winterworld Rescue and the Magic Shining Hat",
+          "date": "2026-01-25T00:00:00.000Z"
+        }
+      ],
+      "placeIds": [
+        "CiHqFx43gzR5bit1nC8v"
+      ],
+      "signatureStory": "Winterworld_Rescue_and_the_Magic_Shining_Hat",
+      "image": "media/Winterworld_Rescue_and_the_Magic_Shining_Hat/header.webp",
+      "prominence": 0.281
+    },
+    {
+      "id": "red-dot-world",
+      "name": "Red Dot World",
+      "category": "whimsical-world",
+      "role": "world",
+      "ring": 5,
+      "storyCount": 1,
+      "earliestDate": "2026-07-13T01:29:03.000Z",
+      "curatedDescription": "Red Dot World is a raspberry-strawberry extravaganza where, in every direction as far as you can see, the ground is a soft, fluffy purple material dotted all over with little spots of red: raspberries, strawberries, currants, red grapes, cranberries, red floofberries, and red apples, anything red. Its one resident is a giant, friendly flying pterodactyl who has all the berries he could ever want but longs for meat and dreams of learning to dance. When Lottie the ballet-dancing bunny shares a picnic basket of meat and teaches him her moves, the lonely reptile of the berry world finds a friend.",
+      "potion": {
+        "name": "Red Dot World",
+        "rhyme": "Comoose, caboose, comoose, caboose.",
+        "mechanic": "One arrives by drinking a purple, swirly potion covered in red dots, its cork labeled 'Red Dot World', and reciting the rhyme."
+      },
+      "arrivalFrom": "Seeker's Castle / Potion Closet",
+      "characters": [
+        "Seeker",
+        "Lottie",
+        "The Pterodactyl"
+      ],
+      "quotes": [
+        {
+          "speaker": "Izzy",
+          "text": "It's made of raspberries and strawberries.",
+          "slug": "Seeker_s_Midnight_Adventure_and_the_Dancing_Pterodactyl",
+          "timestamp": 1447.12
+        },
+        {
+          "speaker": "Izzy",
+          "text": "I'm fine walking because Lottie can dance anywhere.",
+          "slug": "Seeker_s_Midnight_Adventure_and_the_Dancing_Pterodactyl",
+          "timestamp": 1828.12
+        }
+      ],
+      "stories": [
+        {
+          "slug": "Seeker_s_Midnight_Adventure_and_the_Dancing_Pterodactyl",
+          "title": "Seeker's Midnight Adventure and the Dancing Pterodactyl",
+          "date": "2026-07-13T01:29:03.000Z"
+        }
+      ],
+      "placeIds": [
+        "60b2c4bdeec14742abcf"
+      ],
+      "signatureStory": "Seeker_s_Midnight_Adventure_and_the_Dancing_Pterodactyl",
+      "image": "media/Seeker_s_Midnight_Adventure_and_the_Dancing_Pterodactyl/header.webp",
+      "prominence": 0.384
+    },
+    {
+      "id": "floofer-cloud",
+      "name": "Floofer Cloud",
+      "category": "whimsical-world",
+      "role": "world",
+      "ring": 5,
+      "storyCount": 5,
+      "earliestDate": "2025-11-07T00:00:00.000Z",
+      "curatedDescription": "The Floofers' ancestral home, a distant realm of very soft, fluffy ground wrapped in a golden sparkly mist. Its inhabitants are tiny living pom-poms that bounce sky-high, shooting straight up and floating back down. They are so bursting with energy that they cannot stop jumping long enough to fall asleep, even when utterly exhausted.",
+      "potion": {
+        "name": "The golden sparkles potion",
+        "rhyme": "One so manya know, one so manya know, one so manya know.",
+        "mechanic": "Each traveler takes a sip of the sparkly golden teleportation potion and says the rhyme three times, vanishing in a poof and reappearing in the land of the Floofers."
+      },
+      "arrivalFrom": "Seeker's Castle / Potion Closet",
+      "characters": [
+        "The Floofers",
+        "Ziggety Ziggety Zack",
+        "Frazgle",
+        "Seeker",
+        "Hattie the Mouse",
+        "Crystal Mountain Caretaker"
+      ],
+      "quotes": [
+        {
+          "speaker": "Izzy",
+          "text": "Maybe the Fluffer cloud? No, the Floofer cloud.",
+          "slug": "The_Bouncing_Floofers_of_the_Golden_Cloud",
+          "timestamp": 92.4
+        },
+        {
+          "speaker": "Izzy",
+          "text": "Very good. And they can jump so high. Seeker, those are what Floofers are. They're very small.",
+          "slug": "The_Bouncing_Floofers_of_the_Golden_Cloud",
+          "timestamp": 281.5
+        }
+      ],
+      "stories": [
+        {
+          "slug": "The_Bouncing_Floofers_of_the_Golden_Cloud",
+          "title": "The Bouncing Floofers of the Golden Cloud",
+          "date": "2025-11-07T00:00:00.000Z"
+        },
+        {
+          "slug": "The_Floofer_s_Trampoline_and_the_Butterfly_Valentine",
+          "title": "The Floofer's Trampoline and the Butterfly Valentine",
+          "date": "2026-02-13T00:00:00.000Z"
+        },
+        {
+          "slug": "The_Dragonettes_and_the_Rainbow_Forest_Quest",
+          "title": "The Dragonettes and the Rainbow Forest Quest",
+          "date": "2026-02-25T00:00:00.000Z"
+        },
+        {
+          "slug": "A_Sticky_Adventure_to_the_Castle_of_Slime",
+          "title": "A Sticky Adventure to the Castle of Slime",
+          "date": "2026-03-11T00:00:00.000Z"
+        },
+        {
+          "slug": "The_Mookers_the_Floofers_and_the_Solar_Mookball",
+          "title": "The Mookers, the Floofers, and the Solar Mookball",
+          "date": "2026-03-28T00:00:00.000Z"
+        }
+      ],
+      "placeIds": [
+        "WgMFqUoAxIfZitQL1lyt"
+      ],
+      "signatureStory": "The_Bouncing_Floofers_of_the_Golden_Cloud",
+      "image": "media/The_Bouncing_Floofers_of_the_Golden_Cloud/header.webp",
+      "prominence": 0.384
+    },
+    {
+      "id": "rainbow-forest",
+      "name": "Rainbow Forest",
+      "category": "earthly",
+      "role": "world",
+      "ring": 2,
+      "storyCount": 3,
+      "earliestDate": "2025-11-28T00:00:00.000Z",
+      "curatedDescription": "A kaleidoscopic forest first charted by Seeker and reachable only through the alchemy of Uncle Grisco's potions, partitioned into radiant domains of red, orange, and gold. Beneath its shifting, vibrant canopies, travelers navigate the distinct chromatic sections in search of magical creatures lost within its shimmering depths - such as a wide-eyed, bouncy Floofer strayed from the Floofer Cloud.",
+      "potion": {
+        "name": null,
+        "rhyme": null,
+        "mechanic": "Reached by one of Uncle Grisco's teleportation potions; across these tellings it is only named among his brews ('one that would take us to the Rainbow Forest'), never actually drunk on-screen."
+      },
+      "arrivalFrom": "Seeker's Castle / Potion Closet",
+      "characters": [
+        "The Dragonettes",
+        "The Floofers",
+        "Uncle Grisco",
+        "Seeker",
+        "Rosie",
+        "Farmer Wobble"
+      ],
+      "quotes": [
+        {
+          "speaker": "Izzy",
+          "text": "What about the Rainbow Forest? I remember that story.",
+          "slug": "The_Dragonettes_and_the_Rainbow_Forest_Quest",
+          "timestamp": 204
+        },
+        {
+          "speaker": "Izzy",
+          "text": "Search for a lost Floofer.",
+          "slug": "The_Dragonettes_and_the_Rainbow_Forest_Quest",
+          "timestamp": 211
+        },
+        {
+          "speaker": "Izzy",
+          "text": "A Floofer is a ball which loves to blink so high. It has eyes in it and, um, and sometimes it can't fall asleep.",
+          "slug": "The_Dragonettes_and_the_Rainbow_Forest_Quest",
+          "timestamp": 218
+        }
+      ],
+      "stories": [
+        {
+          "slug": "The_Potion_to_the_Little_Hotel_House",
+          "title": "The Potion to the Little Hotel House",
+          "date": "2025-11-28T00:00:00.000Z"
+        },
+        {
+          "slug": "The_Dragonettes_and_the_Rainbow_Forest_Quest",
+          "title": "The Dragonettes and the Rainbow Forest Quest",
+          "date": "2026-02-25T00:00:00.000Z"
+        },
+        {
+          "slug": "A_Sticky_Adventure_to_the_Castle_of_Slime",
+          "title": "A Sticky Adventure to the Castle of Slime",
+          "date": "2026-03-11T00:00:00.000Z"
+        }
+      ],
+      "placeIds": [
+        "8OHqyIDmkJCgVGFfxYg5"
+      ],
+      "signatureStory": "The_Dragonettes_and_the_Rainbow_Forest_Quest",
+      "image": "media/The_Dragonettes_and_the_Rainbow_Forest_Quest/header.webp",
+      "prominence": 0.333
+    },
+    {
+      "id": "sea-mice-kingdom",
+      "name": "Kingdom of the Sea Mice",
+      "category": "earthly",
+      "role": "world",
+      "ring": 2,
+      "storyCount": 2,
+      "earliestDate": "2025-09-07T00:00:00.000Z",
+      "curatedDescription": "A mysterious kingdom of tiny sea mice hidden on the absolute ocean floor, deep in the crushing silence of the deep dark. To reach it, a submersible dives down out of the bright, sparkling sunlit zone into ever colder, darker water, gliding past sleepy deep-sea creatures like a grumpy anglerfish, all the way to the bottom of the sea where the Sea Mice live.",
+      "potion": {
+        "name": null,
+        "rhyme": null,
+        "mechanic": "No potion - a crewed submersible dives from the sunlit zone down through the cold, dark abyss to the Sea Mice's kingdom on the ocean floor."
+      },
+      "arrivalFrom": "Seeker's Castle / Potion Closet",
+      "characters": [
+        "Captain Izzy",
+        "Sea Mice",
+        "Anglerfish",
+        "Mickey",
+        "Minnie",
+        "Lottie",
+        "Silvercat"
+      ],
+      "quotes": [
+        {
+          "speaker": "Izzy",
+          "text": "We're just going, I don't know, maybe we're going to, we're going to the bottom of the sea to see where the Kingdom of the Sea Mice live.",
+          "slug": "Voyage_to_the_Kingdom_of_the_Sea_Mice",
+          "timestamp": 17
+        },
+        {
+          "speaker": "Izzy",
+          "text": "I see, I see a big anglerfishy!",
+          "slug": "Voyage_to_the_Kingdom_of_the_Sea_Mice",
+          "timestamp": 63
+        }
+      ],
+      "stories": [
+        {
+          "slug": "Voyage_to_the_Kingdom_of_the_Sea_Mice",
+          "title": "Voyage to the Kingdom of the Sea Mice",
+          "date": "2025-09-07T00:00:00.000Z"
+        },
+        {
+          "slug": "Disco_and_Thisco_s_Deep-Sea_Submarine_Adventure",
+          "title": "Disco and Thisco's Deep-Sea Submarine Adventure",
+          "date": "2025-09-21T00:00:00.000Z"
+        }
+      ],
+      "placeIds": [
+        "MmyZp3FOrtXrw1ldqnoC"
+      ],
+      "signatureStory": "Voyage_to_the_Kingdom_of_the_Sea_Mice",
+      "image": "media/Voyage_to_the_Kingdom_of_the_Sea_Mice/header.webp",
+      "prominence": 0.281
+    },
+    {
+      "id": "ant-kingdom",
+      "name": "Kingdom of the Ants",
+      "category": "earthly",
+      "role": "world",
+      "ring": 2,
+      "storyCount": 1,
+      "earliestDate": "2025-10-04T00:00:00.000Z",
+      "curatedDescription": "The Kingdom of the Ants is a massive, bustling city hidden deep underground, stumbled upon by the Mischief Moles as they dug a tunnel past a cave and through deep, mucky mud. Millions of ants scurry this way and that along the floor, the walls, and the ceiling, building little buildings, tending their eggs, growing new babies, and storing food, while their friends the worms wiggle through the dirt. Below the kingdom lies an even deeper chamber where a big wooden box of sparkling gemstones was buried.",
+      "potion": {
+        "name": null,
+        "rhyme": null,
+        "mechanic": "Reached not by potion but by digging a tunnel straight down from a cave, back-tracking around a dead end of mucky mud, until a mole's claw punches through the dirt into the open underground chamber."
+      },
+      "arrivalFrom": "Seeker's Castle / Potion Closet",
+      "characters": [
+        "Disco",
+        "Visco",
+        "Mickey",
+        "Minnie"
+      ],
+      "quotes": [
+        {
+          "speaker": "Izzy",
+          "text": "Ants and worms.",
+          "slug": "The_Mischief_Moles_and_the_Kingdom_of_the_Ants",
+          "timestamp": 213
+        },
+        {
+          "speaker": "Izzy",
+          "text": "And there was, and there was worms wiggling about.",
+          "slug": "The_Mischief_Moles_and_the_Kingdom_of_the_Ants",
+          "timestamp": 254
+        }
+      ],
+      "stories": [
+        {
+          "slug": "The_Mischief_Moles_and_the_Kingdom_of_the_Ants",
+          "title": "The Mischief Moles and the Kingdom of the Ants",
+          "date": "2025-10-04T00:00:00.000Z"
+        }
+      ],
+      "placeIds": [
+        "2ZiNqPoArJrHs9ay68aE"
+      ],
+      "signatureStory": "The_Mischief_Moles_and_the_Kingdom_of_the_Ants",
+      "image": "media/The_Mischief_Moles_and_the_Kingdom_of_the_Ants/header.webp",
+      "prominence": 0.277
+    },
+    {
+      "id": "silvers-planet",
+      "name": "Silver’s Planet",
+      "category": "alien-planet",
+      "role": "world",
+      "ring": 4,
+      "storyCount": 1,
+      "earliestDate": "2025-10-26T00:00:00.000Z",
+      "curatedDescription": "Silver's Planet is a far-off world in the galaxy where kittens reside, home to a kitten named Silver. Captain Izzy pilots a rocket ship there for a playdate, flying around big space rocks and doing research on space rocks along the way before a careful 'down to landoff' landing. Silver greets her visitors with purrs and treats, and the mission ends with a countdown and a blast off all the way back to Earth.",
+      "potion": {
+        "name": null,
+        "rhyme": null,
+        "mechanic": "Reached by rocket ship on a long flight through space, dodging giant space rocks, before a slow 'down to landoff' descent onto the planet's surface."
+      },
+      "arrivalFrom": "Seeker's Castle / Potion Closet",
+      "characters": [
+        "Captain Izzy",
+        "Silver"
+      ],
+      "quotes": [
+        {
+          "speaker": "Izzy",
+          "text": "Down to landoff! Down to landoff! Down to landoff, everybody!",
+          "slug": "Mission_to_Silver_s_Planet",
+          "timestamp": 131.2
+        },
+        {
+          "speaker": "Izzy",
+          "text": "No. It said, 'Silver, what's wrong?' And Silver said 'Meow, meow, I want to play!'",
+          "slug": "Mission_to_Silver_s_Planet",
+          "timestamp": 64
+        }
+      ],
+      "stories": [
+        {
+          "slug": "Mission_to_Silver_s_Planet",
+          "title": "Mission to Silver's Planet",
+          "date": "2025-10-26T00:00:00.000Z"
+        }
+      ],
+      "placeIds": [
+        "JTHV2fMSnWRzjo9J7Gil"
+      ],
+      "signatureStory": "Mission_to_Silver_s_Planet",
+      "image": "media/Mission_to_Silver_s_Planet/header.webp",
+      "prominence": 0.269
+    },
+    {
+      "id": "yuck-world",
+      "name": "Yuck World",
+      "category": "whimsical-world",
+      "role": "world",
+      "ring": 5,
+      "storyCount": 1,
+      "earliestDate": "2026-02-21T00:00:00.000Z",
+      "curatedDescription": "Yuck World is a messy destination that appears in this tale only as a bottled potion resting on the shelf of Seeker's potion closet, named the 'Muck and Yuck World potion.' It sits among other brews Seeker rummages past, like a Planet of the Mookers potion and a Floofer Cloud potion, and is reached by drinking that one specific potion. On this adventure, though, Seeker and Disco chose the Izzy's Attic potion instead, leaving Yuck World corked for another day.",
+      "potion": {
+        "name": "Muck and Yuck World potion",
+        "rhyme": null,
+        "mechanic": "Reached by drinking the 'Muck and Yuck World potion' kept on the shelf of Seeker's potion closet (unused in this story, where the travelers pick the Izzy's Attic potion instead)."
+      },
+      "arrivalFrom": "Seeker's Castle / Potion Closet",
+      "characters": [
+        "Seeker"
+      ],
+      "quotes": [
+        {
+          "speaker": "Dad",
+          "text": "oh, the Muck and Yuck World potion.",
+          "slug": "The_Floof-Berry_Mission_and_the_Great_Snowstorm",
+          "timestamp": 118
+        }
+      ],
+      "stories": [
+        {
+          "slug": "The_Floof-Berry_Mission_and_the_Great_Snowstorm",
+          "title": "The Floof-Berry Mission and the Great Snowstorm",
+          "date": "2026-02-21T00:00:00.000Z"
+        }
+      ],
+      "placeIds": [
+        "aSXbAKSFr6V4UVjLjjEM"
+      ],
+      "signatureStory": "The_Floof-Berry_Mission_and_the_Great_Snowstorm",
+      "image": "media/The_Floof-Berry_Mission_and_the_Great_Snowstorm/header.webp",
+      "prominence": 0.245
+    }
+  ]
+}

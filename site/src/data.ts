@@ -73,6 +73,54 @@ export interface CanonicalEntity {
   image?: string;
 }
 
+export interface WorldQuote {
+  speaker: string;
+  text: string;
+  slug: string;
+  timestamp: number | null;
+}
+export interface WorldPotion {
+  name: string | null;
+  rhyme: string | null;
+  mechanic: string | null;
+}
+export interface WorldStoryRef {
+  slug: string;
+  title: string;
+  date: string;
+}
+export interface World {
+  id: string;
+  name: string;
+  category: string;
+  role: 'home' | 'hub' | 'world';
+  ring: number;
+  storyCount: number;
+  earliestDate: string | null;
+  prominence: number;
+  curatedDescription: string;
+  potion: WorldPotion;
+  arrivalFrom: string;
+  characters: string[];
+  quotes: WorldQuote[];
+  stories: WorldStoryRef[];
+  placeIds: string[];
+  signatureStory: string | null;
+  /** Path relative to the site root, e.g. media/<slug>/header.webp. */
+  image: string | null;
+}
+export interface WorldsDoc {
+  meta: {
+    title?: string;
+    subtitle?: string;
+    storyCount?: number;
+    span?: string;
+    law?: string;
+    note?: string;
+  };
+  worlds: World[];
+}
+
 const BASE = import.meta.env.BASE_URL; // always ends with '/'
 
 /** URL for a file inside /public/data. */
@@ -91,6 +139,7 @@ export const getStory = (slug: string) => getJson<StoryFull>(dataUrl(`stories/${
 export const getStoryboard = (slug: string) => getJson<Storyboard>(dataUrl(`storyboards/${encodeURIComponent(slug)}.json`));
 export const getCharacters = () => getJson<CanonicalEntity[]>(dataUrl('characters.json'));
 export const getPlaces = () => getJson<CanonicalEntity[]>(dataUrl('places.json'));
+export const getWorlds = () => getJson<WorldsDoc>(dataUrl('worlds.json'));
 
 export async function getWorldDna(): Promise<string> {
   const res = await fetch(dataUrl('world-dna.md'));

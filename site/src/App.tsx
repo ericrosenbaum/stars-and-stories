@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import { BookOpen, Users, MapPin, ChevronRight, Sparkles, Home, Menu, Activity, X, Moon, Sun } from 'lucide-react';
+import { BookOpen, Users, MapPin, ChevronRight, Sparkles, Home, Menu, Activity, X, Moon, Sun, Orbit } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 
 import StoryList from './components/StoryList';
@@ -7,9 +7,10 @@ import StoryDetail from './components/StoryDetail';
 import StoryboardView from './components/StoryboardView';
 import WorldInventory from './components/WorldInventory';
 import StoryAnalysis from './components/StoryAnalysis';
+import CosmologyView from './components/CosmologyView';
 import { getStoriesIndex, getCharacters, getPlaces, getWorldDna, StoryIndexItem, CanonicalEntity } from './data';
 
-type View = 'dashboard' | 'analysis' | 'characters' | 'places' | 'story' | 'storyboard';
+type View = 'dashboard' | 'analysis' | 'characters' | 'places' | 'cosmology' | 'story' | 'storyboard';
 
 function parseHash(): { view: View; slug: string | null } {
   const h = location.hash.replace(/^#\/?/, '');
@@ -20,6 +21,7 @@ function parseHash(): { view: View; slug: string | null } {
   if (seg === 'analysis') return { view: 'analysis', slug: null };
   if (seg === 'characters') return { view: 'characters', slug: null };
   if (seg === 'places') return { view: 'places', slug: null };
+  if (seg === 'cosmology') return { view: 'cosmology', slug: null };
   return { view: 'dashboard', slug: null };
 }
 
@@ -160,6 +162,8 @@ export default function App() {
             onClearHighlight={() => setHighlightId(null)}
           />
         );
+      case 'cosmology':
+        return <CosmologyView />;
       case 'story':
         return selectedStoryId ? (
           <StoryDetail
@@ -248,6 +252,7 @@ export default function App() {
               <NavItem active={view === 'analysis'} onClick={() => { goView('analysis'); setIsMenuOpen(false); }} icon={<Activity className="w-5 h-5" />} label="Analysis" />
               <NavItem active={view === 'characters'} onClick={() => { setHighlightId(null); goView('characters'); setIsMenuOpen(false); }} icon={<Users className="w-5 h-5" />} label="Characters" />
               <NavItem active={view === 'places'} onClick={() => { setHighlightId(null); goView('places'); setIsMenuOpen(false); }} icon={<MapPin className="w-5 h-5" />} label="Places" />
+              <NavItem active={view === 'cosmology'} onClick={() => { goView('cosmology'); setIsMenuOpen(false); }} icon={<Orbit className="w-5 h-5" />} label="Cosmology" />
             </nav>
 
             <div className="p-4 border-t border-border space-y-4">

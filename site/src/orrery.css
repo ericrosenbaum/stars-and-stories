@@ -1,0 +1,157 @@
+/* ============ The Stars & Stories Cosmos — an orrery of a paracosm ============
+   Shared, framework-agnostic styles. Everything is scoped under .cosmos so it
+   can live inside the site app without leaking. The artifact inlines this file
+   verbatim. Committed single visual world: a dark celestial atlas. */
+
+.cosmos {
+  --void:   #090b16;
+  --void-2: #05060d;
+  --panel:  #141a30;
+  --panel-2:#0d1122;
+  --line:   #2a3352;
+  --parchment: #f3ecdd;
+  --parchment-dim: #cfc6b4;
+  --muted:  #949bb6;
+  --gold:   #ebb661;
+  --gold-soft: #f6d9a4;
+  --c-home:      #ebb661;
+  --c-earthly:   #93bd8c;
+  --c-elemental: #dd8a58;
+  --c-alien:     #82abd8;
+  --c-whimsical: #cd8cc6;
+  --serif: "Iowan Old Style", "Palatino Linotype", "Palatino", "Book Antiqua", Georgia, serif;
+  --sans: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+  /* Fills its container: the viewport (artifact, child of body) or the site's
+     positioned <main>. Absolute-inset avoids height:100% chain fragility. */
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  background: radial-gradient(120% 90% at 50% 42%, #171e39 0%, var(--void) 46%, var(--void-2) 100%);
+  color: var(--parchment);
+  font-family: var(--serif);
+  -webkit-font-smoothing: antialiased;
+  user-select: none;
+}
+.cosmos * { box-sizing: border-box; }
+
+.cosmos .stars { position: absolute; inset: 0; width: 100%; height: 100%; display: block; z-index: 0; }
+
+.cosmos .stage { position: absolute; inset: 0; z-index: 1; display: grid; place-items: center; }
+.cosmos .orrery {
+  width: min(96vw, 84vh, 1000px);
+  height: min(96vw, 84vh, 1000px);
+  overflow: hidden;             /* clip zoomed-in content to the map area */
+  touch-action: none;          /* we handle wheel/drag zoom ourselves */
+  cursor: grab;
+}
+.cosmos .orrery.grabbing { cursor: grabbing; }
+
+/* masthead */
+.cosmos .masthead {
+  position: absolute; z-index: 3; top: 0; left: 0; right: 0;
+  padding: 16px 26px 26px; text-align: center; pointer-events: none;
+  background: linear-gradient(180deg, rgba(5,6,13,0.82) 0%, rgba(5,6,13,0.4) 55%, rgba(5,6,13,0) 100%);
+}
+.cosmos .masthead .eyebrow { font-family: var(--sans); font-size: 11px; letter-spacing: 0.32em; text-transform: uppercase; color: var(--gold); opacity: 0.85; margin: 0 0 6px; }
+.cosmos .masthead h1 { font-size: clamp(20px, 4.6vw, 44px); font-weight: 600; margin: 0; line-height: 1.04; letter-spacing: 0.01em; text-wrap: balance; text-shadow: 0 0 26px rgba(235,182,97,0.28); }
+.cosmos .masthead p { margin: 8px auto 0; max-width: 54ch; color: var(--parchment-dim); font-size: clamp(12px, 1.5vw, 15px); font-style: italic; text-wrap: balance; }
+
+/* legend */
+.cosmos .legend { position: absolute; z-index: 3; left: 20px; bottom: 20px; background: rgba(13,17,34,0.62); backdrop-filter: blur(7px); border: 1px solid var(--line); border-radius: 14px; padding: 13px 15px; font-family: var(--sans); max-width: 46vw; }
+.cosmos .legend h2 { font-family: var(--sans); font-size: 10px; letter-spacing: 0.24em; text-transform: uppercase; color: var(--muted); margin: 0 0 9px; font-weight: 600; }
+.cosmos .legend ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
+.cosmos .legend li { display: flex; align-items: center; gap: 9px; font-size: 12px; color: var(--parchment-dim); cursor: pointer; border-radius: 8px; padding: 2px 4px; transition: background 0.15s, color 0.15s; }
+.cosmos .legend li:hover { background: rgba(255,255,255,0.05); color: var(--parchment); }
+.cosmos .legend li.dim { opacity: 0.34; }
+.cosmos .legend .dot { width: 11px; height: 11px; border-radius: 50%; flex: none; box-shadow: 0 0 8px currentColor; }
+.cosmos .legend .n { margin-left: auto; font-variant-numeric: tabular-nums; color: var(--muted); font-size: 11px; padding-left: 12px; }
+
+.cosmos .hint { position: absolute; z-index: 3; right: 20px; bottom: 22px; font-family: var(--sans); font-size: 11px; letter-spacing: 0.04em; color: var(--muted); background: rgba(13,17,34,0.55); border: 1px solid var(--line); border-radius: 999px; padding: 7px 14px; pointer-events: none; transition: opacity 0.4s; max-width: 40vw; text-align: right; }
+.cosmos .credit { position: absolute; z-index: 3; left: 50%; transform: translateX(-50%); bottom: 8px; font-family: var(--sans); font-size: 10px; color: var(--muted); opacity: 0.6; letter-spacing: 0.04em; text-align: center; width: 100%; pointer-events: none; }
+
+/* SVG orrery elements */
+.cosmos .orbit { fill: none; stroke-width: 1; opacity: 0.5; }
+.cosmos .route { stroke-width: 1; stroke-dasharray: 2 6; opacity: 0.16; fill: none; transition: opacity 0.25s, stroke-width 0.25s; }
+.cosmos .route.lit { opacity: 0.7; stroke-width: 1.6; }
+
+.cosmos .planet { cursor: pointer; }
+.cosmos .planet .halo { opacity: 0; transition: opacity 0.28s; }
+.cosmos .planet .rim { fill: none; stroke-width: 1.4; opacity: 0.62; transition: opacity 0.25s, stroke-width 0.25s; }
+.cosmos .planet .disc-bg { opacity: 0.92; }
+.cosmos .planet .label { font-family: var(--sans); fill: var(--parchment-dim); font-weight: 500; letter-spacing: 0.02em; paint-order: stroke; stroke: rgba(5,6,13,0.9); stroke-width: 3px; stroke-linejoin: round; transition: fill 0.2s; }
+.cosmos .planet:hover .halo, .cosmos .planet.sel .halo { opacity: 1; }
+.cosmos .planet:hover .rim, .cosmos .planet.sel .rim { opacity: 1; stroke-width: 2.4; }
+.cosmos .planet:hover .label, .cosmos .planet.sel .label { fill: var(--parchment); }
+.cosmos .planet:focus-visible { outline: none; }
+.cosmos .planet:focus-visible .rim { opacity: 1; stroke-width: 2.6; stroke-dasharray: 3 3; }
+.cosmos .orrery.filtered .planet.off { opacity: 0.14; pointer-events: none; }
+.cosmos .orrery.filtered .route.off { opacity: 0.04; }
+
+.cosmos .badge-count { font-family: var(--sans); font-weight: 700; font-size: 11px; fill: var(--void-2); text-anchor: middle; dominant-baseline: central; }
+
+.cosmos .home-glow { animation: cosmos-pulse 6s ease-in-out infinite; transform-origin: center; transform-box: fill-box; }
+@keyframes cosmos-pulse { 0%,100% { opacity: 0.55; } 50% { opacity: 0.9; } }
+
+/* codex panel */
+.cosmos .scrim { position: absolute; inset: 0; z-index: 4; background: rgba(4,5,11,0.55); backdrop-filter: blur(2px); opacity: 0; transition: opacity 0.3s; }
+.cosmos .scrim.show { opacity: 1; }
+.cosmos .codex { position: absolute; z-index: 5; top: 0; right: 0; height: 100%; width: min(440px, 92vw); background: linear-gradient(180deg, var(--panel) 0%, var(--panel-2) 100%); border-left: 1px solid var(--line); box-shadow: -30px 0 60px rgba(0,0,0,0.5); transform: translateX(102%); transition: transform 0.42s cubic-bezier(0.22,0.61,0.36,1); overflow-y: auto; overflow-x: hidden; display: flex; flex-direction: column; }
+.cosmos .codex.show { transform: translateX(0); }
+.cosmos .cx-hero { position: relative; aspect-ratio: 16/10; width: 100%; background: #000; flex: none; overflow: hidden; }
+.cosmos .cx-hero img { width: 100%; height: 100%; object-fit: cover; display: block; filter: contrast(1.02) brightness(1.03); }
+.cosmos .cx-hero .noimg { width:100%; height:100%; display:grid; place-items:center; color: var(--muted); font-family: var(--sans); font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; background: radial-gradient(circle at 50% 40%, #1a2140, #0b0f1f); }
+.cosmos .cx-hero::after { content:""; position:absolute; inset:0; background: linear-gradient(180deg, rgba(20,26,48,0) 55%, var(--panel) 100%); }
+.cosmos .cx-close { position: absolute; top: 12px; right: 12px; z-index: 2; width: 38px; height: 38px; border-radius: 50%; border: 1px solid rgba(255,255,255,0.2); background: rgba(5,6,13,0.55); color: var(--parchment); font-size: 20px; line-height: 1; cursor: pointer; display: grid; place-items: center; transition: background 0.15s, transform 0.15s; backdrop-filter: blur(4px); }
+.cosmos .cx-close:hover { background: rgba(5,6,13,0.85); }
+.cosmos .cx-close:active { transform: scale(0.92); }
+.cosmos .cx-body { padding: 20px 24px 40px; display: flex; flex-direction: column; gap: 18px; }
+.cosmos .cx-cat { font-family: var(--sans); font-size: 10.5px; letter-spacing: 0.22em; text-transform: uppercase; font-weight: 600; display: inline-flex; align-items: center; gap: 7px; }
+.cosmos .cx-cat .dot { width: 9px; height: 9px; border-radius: 50%; box-shadow: 0 0 7px currentColor; }
+.cosmos .codex h2 { font-family: var(--serif); font-size: 30px; font-weight: 600; margin: -6px 0 0; line-height: 1.05; text-wrap: balance; }
+.cosmos .cx-meta { font-family: var(--sans); font-size: 12px; color: var(--muted); margin-top: 2px; display: flex; gap: 14px; flex-wrap: wrap; }
+.cosmos .cx-meta b { color: var(--gold); font-weight: 700; }
+.cosmos .cx-desc { font-size: 16px; line-height: 1.62; color: var(--parchment); margin: 0; }
+.cosmos .cx-section-label { font-family: var(--sans); font-size: 10px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--muted); font-weight: 600; margin: 4px 0 -8px; }
+.cosmos .spell { border: 1px solid rgba(235,182,97,0.4); border-radius: 14px; padding: 15px 17px; background: radial-gradient(120% 120% at 0% 0%, rgba(235,182,97,0.12), rgba(235,182,97,0.02)); display: flex; flex-direction: column; gap: 7px; }
+.cosmos .spell .lead { font-family: var(--sans); font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold); }
+.cosmos .spell .rhyme { font-family: var(--serif); font-style: italic; font-size: 21px; line-height: 1.3; color: var(--gold-soft); text-shadow: 0 0 20px rgba(235,182,97,0.25); text-wrap: balance; }
+.cosmos .spell .mech { font-size: 13.5px; color: var(--parchment-dim); line-height: 1.5; margin: 0; }
+.cosmos .spell .pname { font-family: var(--sans); font-size: 11.5px; color: var(--muted); }
+.cosmos .chips { display: flex; flex-wrap: wrap; gap: 7px; }
+.cosmos .chip { font-family: var(--sans); font-size: 12px; color: var(--parchment-dim); background: rgba(255,255,255,0.05); border: 1px solid var(--line); border-radius: 999px; padding: 4px 11px; }
+.cosmos .stories { display: flex; flex-direction: column; gap: 8px; margin: 0; padding: 0; list-style: none; }
+.cosmos .stories li { display: flex; justify-content: space-between; gap: 12px; align-items: baseline; border-bottom: 1px dashed var(--line); padding-bottom: 7px; }
+.cosmos .stories .st-title { font-size: 14.5px; color: var(--parchment); line-height: 1.3; }
+.cosmos .stories .st-date { font-family: var(--sans); font-size: 11px; color: var(--muted); white-space: nowrap; font-variant-numeric: tabular-nums; }
+.cosmos .pullquote { border-left: 2px solid var(--gold); padding: 2px 0 2px 15px; margin: 0; }
+.cosmos .pullquote .q { font-family: var(--serif); font-style: italic; font-size: 17px; line-height: 1.42; color: var(--parchment); }
+.cosmos .pullquote .attr { font-family: var(--sans); font-size: 11px; color: var(--muted); margin-top: 5px; display: block; }
+.cosmos .pullquote .attr b { color: var(--gold); font-weight: 700; font-style: normal; }
+.cosmos .qwrap { display: flex; flex-direction: column; gap: 15px; }
+
+/* intro overlay */
+.cosmos .intro { position: absolute; z-index: 8; inset: 0; display: grid; place-items: center; padding: 24px; background: radial-gradient(120% 100% at 50% 40%, rgba(9,11,22,0.72), rgba(5,6,13,0.92)); backdrop-filter: blur(3px); transition: opacity 0.5s; }
+.cosmos .intro.hide { opacity: 0; pointer-events: none; }
+.cosmos .intro .card { max-width: 540px; text-align: center; background: rgba(20,26,48,0.7); border: 1px solid var(--line); border-radius: 20px; padding: 34px 34px 30px; box-shadow: 0 30px 80px rgba(0,0,0,0.5); }
+.cosmos .intro .eyebrow { font-family: var(--sans); font-size: 11px; letter-spacing: 0.3em; text-transform: uppercase; color: var(--gold); margin: 0 0 12px; }
+.cosmos .intro h1 { font-family: var(--serif); font-size: clamp(26px, 5vw, 38px); font-weight: 600; margin: 0 0 16px; line-height: 1.05; text-wrap: balance; text-shadow: 0 0 30px rgba(235,182,97,0.25); }
+.cosmos .intro .law { font-family: var(--serif); font-style: italic; font-size: 17px; line-height: 1.5; color: var(--gold-soft); margin: 0 auto 14px; max-width: 42ch; text-wrap: balance; }
+.cosmos .intro p { color: var(--parchment-dim); font-size: 14.5px; line-height: 1.6; margin: 0 auto 22px; max-width: 46ch; }
+.cosmos .intro button { font-family: var(--sans); font-size: 13px; font-weight: 600; letter-spacing: 0.06em; color: var(--void-2); background: var(--gold); border: none; border-radius: 999px; padding: 12px 28px; cursor: pointer; transition: transform 0.15s, box-shadow 0.2s; box-shadow: 0 0 24px rgba(235,182,97,0.35); }
+.cosmos .intro button:hover { transform: translateY(-1px); box-shadow: 0 4px 30px rgba(235,182,97,0.5); }
+.cosmos .intro button:active { transform: scale(0.97); }
+
+@media (max-width: 720px) {
+  .cosmos .masthead { padding: 14px 16px 24px; }
+  .cosmos .legend { left: 12px; bottom: 12px; padding: 10px 12px; max-width: 60vw; }
+  .cosmos .legend .n { display: none; }
+  .cosmos .hint { display: none; }
+  .cosmos .codex { width: 100vw; border-left: none; }
+  .cosmos .credit { display: none; }
+  .cosmos .planet.small-lbl .label { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .cosmos .home-glow { animation: none !important; }
+  .cosmos .scrim, .cosmos .codex, .cosmos .intro { transition: none !important; }
+}

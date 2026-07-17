@@ -12,6 +12,7 @@ export const CONTENT_CHARACTERS = path.join(CONTENT_DIR, 'characters.json');
 export const CONTENT_PLACES = path.join(CONTENT_DIR, 'places.json');
 export const CONTENT_MANIFEST = path.join(CONTENT_DIR, 'manifest.json');
 export const CONTENT_WORLD_DNA = path.join(CONTENT_DIR, 'world-dna.md');
+export const CONTENT_WORLDS = path.join(CONTENT_DIR, 'worlds.json');
 // Per-character reference images live at content/characters/<id>/reference.<ext>.
 export const CONTENT_CHARACTER_IMAGES_DIR = path.join(CONTENT_DIR, 'characters');
 // Transcription-engine comparison runs (gitignored scratch output).

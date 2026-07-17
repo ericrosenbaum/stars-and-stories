@@ -12,6 +12,7 @@ import {
   CONTENT_CHARACTERS,
   CONTENT_PLACES,
   CONTENT_WORLD_DNA,
+  CONTENT_WORLDS,
   SITE_DATA_DIR,
   SITE_DATA_STORIES_DIR,
   SITE_DATA_STORYBOARDS_DIR,
@@ -176,6 +177,10 @@ export async function buildSite({ force = false } = {}): Promise<void> {
   }
   fs.writeFileSync(path.join(SITE_DATA_DIR, 'characters.json'), JSON.stringify(characters));
   fs.copyFileSync(CONTENT_PLACES, path.join(SITE_DATA_DIR, 'places.json'));
+  // Curated cosmology dataset (optional — omit-if-absent, like a story's header image).
+  if (fs.existsSync(CONTENT_WORLDS)) {
+    fs.copyFileSync(CONTENT_WORLDS, path.join(SITE_DATA_DIR, 'worlds.json'));
+  }
 
   const worldDna = fs.existsSync(CONTENT_WORLD_DNA) ? fs.readFileSync(CONTENT_WORLD_DNA, 'utf8') : '';
   fs.writeFileSync(path.join(SITE_DATA_DIR, 'world-dna.md'), worldDna);
