@@ -14,6 +14,8 @@ export const CONTENT_MANIFEST = path.join(CONTENT_DIR, 'manifest.json');
 export const CONTENT_WORLD_DNA = path.join(CONTENT_DIR, 'world-dna.md');
 // Per-character reference images live at content/characters/<id>/reference.<ext>.
 export const CONTENT_CHARACTER_IMAGES_DIR = path.join(CONTENT_DIR, 'characters');
+// Transcription-engine comparison runs (gitignored scratch output).
+export const CONTENT_BAKEOFF_DIR = path.join(CONTENT_DIR, 'bakeoff');
 
 export const SITE_DIR = path.join(ROOT, 'site');
 export const SITE_PUBLIC_DIR = path.join(SITE_DIR, 'public');

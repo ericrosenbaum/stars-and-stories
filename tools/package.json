@@ -10,6 +10,8 @@
     "build": "tsx build-site.ts",
     "add": "tsx add-story.ts",
     "studio": "tsx studio.ts",
+    "bakeoff": "tsx bakeoff.ts",
+    "retranscribe": "tsx retranscribe.ts",
     "regen-image": "tsx regen-image.ts",
     "storyboard": "tsx storyboard.ts",
     "world-dna": "tsx gen-world-dna.ts",

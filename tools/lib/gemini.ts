@@ -1,5 +1,8 @@
+import fs from 'node:fs';
 import { GoogleGenAI, Type } from '@google/genai';
 import type { TranscriptItem, HighlightQuote } from './types.ts';
+import type { NameLexicon } from './lexicon.ts';
+import { recoverQuoteTimestamp } from './quote.ts';
 
 // FAKE_GEMINI=1 stubs the three functions the add-story/studio flow calls, so
 // the whole pipeline (upload, entity merge, candidates lifecycle, build, git)
@@ -46,48 +49,208 @@ async function fakeImageDataUrl(): Promise<string> {
 // longer valid, override via GEMINI_TEXT_MODEL / GEMINI_IMAGE_MODEL in .env.
 const textModel = () => process.env.GEMINI_TEXT_MODEL || 'gemini-3.5-flash';
 const imageModel = () => process.env.GEMINI_IMAGE_MODEL || 'gemini-3.1-flash-image-preview';
+// The audio pass can run on a different (stronger) model than the text calls.
+export const transcribeModel = () =>
+  process.env.GEMINI_TRANSCRIBE_MODEL || process.env.GEMINI_TEXT_MODEL || 'gemini-3.5-flash';
 
-function getAI(): GoogleGenAI {
+export function getAI(): GoogleGenAI {
   const apiKey = process.env.GEMINI_API_KEY || process.env.API_KEY || '';
   if (!apiKey) throw new Error('GEMINI_API_KEY is not set (add it to tools/.env).');
   return new GoogleGenAI({ apiKey });
 }
 
-export interface StoryAnalysis {
+/** Retry `fn` on transient Gemini errors (5xx / deadline), like the old
+ * transcribe-and-analyze call did — both passes need this so a blip in the
+ * cheap analysis call can't throw away a completed (paid) transcription. */
+async function withRetry<T>(label: string, fn: () => Promise<T>, retries = 2): Promise<T> {
+  while (true) {
+    try {
+      return await fn();
+    } catch (err: any) {
+      const code = err?.error?.code || err?.code;
+      const message = err?.error?.message || err?.message;
+      if ((code === 500 || code === 503 || code === 504 || message?.includes('Deadline expired')) && retries > 0) {
+        console.log(`${label} returned ${code || 'timeout'}. Retrying... (${retries} left)`);
+        retries -= 1;
+        await new Promise((r) => setTimeout(r, 3000));
+        continue;
+      }
+      throw err;
+    }
+  }
+}
+
+// Inline audio must stay within the API's 20 MB request cap AFTER base64
+// inflation (4/3x): 14 MiB of audio -> ~19.6 MB encoded, leaving room for the
+// prompt. Bigger files go through the Files API.
+const INLINE_AUDIO_LIMIT = 14 * 1024 * 1024;
+
+async function audioPart(
+  ai: GoogleGenAI,
+  audioPath: string,
+  mimeType: string,
+): Promise<{ part: object; cleanup: () => Promise<void> }> {
+  const size = fs.statSync(audioPath).size;
+  if (size <= INLINE_AUDIO_LIMIT) {
+    return {
+      part: { inlineData: { data: fs.readFileSync(audioPath).toString('base64'), mimeType } },
+      cleanup: async () => {},
+    };
+  }
+  console.log(`  (audio is ${(size / 1024 / 1024).toFixed(1)} MB — uploading via the Files API)`);
+  let file = await ai.files.upload({ file: audioPath, config: { mimeType } });
+  const deadline = Date.now() + 120_000;
+  while (file.state === 'PROCESSING') {
+    if (Date.now() > deadline) throw new Error('Files API upload timed out while processing.');
+    await new Promise((r) => setTimeout(r, 2000));
+    file = await ai.files.get({ name: file.name! });
+  }
+  if (file.state === 'FAILED') throw new Error('Files API upload failed to process the audio.');
+  return {
+    part: { fileData: { fileUri: file.uri!, mimeType } },
+    cleanup: async () => {
+      try {
+        await ai.files.delete({ name: file.name! });
+      } catch {
+        /* best-effort; uploads expire on their own */
+      }
+    },
+  };
+}
+
+function lexiconBlock(lexicon?: NameLexicon): string {
+  if (!lexicon || (!lexicon.characters.length && !lexicon.places.length)) return '';
+  return `NAME LEXICON: These character and place names recur across their stories. If you hear a name that sounds like one of these, use this exact spelling:
+              Characters: ${lexicon.characters.join(', ')}
+              Places: ${lexicon.places.join(', ')}
+              Only use a lexicon name when it genuinely matches what was said — new names are common and should be transcribed as heard.
+
+              `;
+}
+
+export interface TranscribeOptions {
+  model?: string; // overrides GEMINI_TRANSCRIBE_MODEL
+  lexicon?: NameLexicon;
+  retries?: number;
+}
+
+/**
+ * Pass 1: audio -> diarized transcript. Deliberately does nothing else — a
+ * focused prompt labels speakers and places timestamps better than the old
+ * transcribe-and-analyze-everything single call.
+ */
+export async function transcribeAudio(
+  audioPath: string,
+  mimeType = 'audio/mp4',
+  opts: TranscribeOptions = {},
+): Promise<TranscriptItem[]> {
+  const ai = getAI();
+  const model = opts.model || transcribeModel();
+  const { part, cleanup } = await audioPart(ai, audioPath, mimeType);
+  try {
+    return await withRetry(
+      'Transcription',
+      async () => {
+        const response = await ai.models.generateContent({
+          model,
+          contents: [
+            {
+              parts: [
+                part,
+                {
+                  text: `Transcribe this audio recording of a storytelling session between a father and his young daughter. Your ONLY job is a verbatim transcript with accurate speaker labels and timestamps. Do not summarize or analyze.
+
+              SPEAKERS — there are exactly two voices:
+              - "Dad" — the adult male voice (the father).
+              - "Izzy" — the young child's voice (his daughter Isabella).
+              Label every line with exactly "Dad" or "Izzy". Identify the speaker primarily by the ACOUSTIC quality of the voice (adult male vs. young child), not by what is being said — either speaker may narrate, ask questions, or voice characters. When one speaker imitates the other or performs a character voice, still label the line by whose voice is physically speaking.
+
+              CHILD SPEECH: Izzy is a young child. She may mispronounce words, speak quickly or quietly, trail off, or invent words. Listen carefully and transcribe her intended words in standard spelling. When she clearly invents a nonsense word or name, transcribe it phonetically and consistently. Never drop her short interjections — her lines matter as much as Dad's.
+
+              ${lexiconBlock(opts.lexicon)}SEGMENTATION AND TIMESTAMPS:
+              - Start a new transcript line on every speaker change; also break long monologues at natural sentence boundaries (roughly every 1-3 sentences).
+              - "timestamp" is the time in SECONDS from the start of the audio at which the line begins, as a floating point number (e.g. 12.34). Timestamps must be non-decreasing and as precise as possible.
+
+              Return JSON: { "transcript": [{ "speaker": "Dad" | "Izzy", "text": string, "timestamp": number }] }`,
+                },
+              ],
+            },
+          ],
+          config: {
+            responseMimeType: 'application/json',
+            responseSchema: {
+              type: Type.OBJECT,
+              properties: {
+                transcript: {
+                  type: Type.ARRAY,
+                  items: {
+                    type: Type.OBJECT,
+                    properties: {
+                      speaker: { type: Type.STRING },
+                      text: { type: Type.STRING },
+                      timestamp: { type: Type.NUMBER },
+                    },
+                    required: ['speaker', 'text', 'timestamp'],
+                  },
+                },
+              },
+              required: ['transcript'],
+            },
+          },
+        });
+
+        const text = response.text;
+        if (!text) throw new Error('No response from Gemini');
+        const transcript = (JSON.parse(text) as { transcript: TranscriptItem[] }).transcript;
+        if (!transcript?.length) throw new Error('Gemini returned an empty transcript.');
+        return transcript;
+      },
+      opts.retries ?? 2,
+    );
+  } finally {
+    await cleanup();
+  }
+}
+
+export interface TranscriptAnalysis {
   title: string;
-  transcript: TranscriptItem[];
   characters: { name: string; description: string }[];
   places: { name: string; description: string }[];
   summary: string;
   highlightQuote?: { text: string; timestamp: number };
 }
 
-export async function transcribeAndAnalyze(
-  audioBase64: string,
-  mimeType: string,
-  retries = 2,
-): Promise<StoryAnalysis> {
-  if (FAKE) {
-    await fakeDelay(2000);
-    return fakeAnalysis();
-  }
+export interface StoryAnalysis extends TranscriptAnalysis {
+  transcript: TranscriptItem[];
+}
+
+/**
+ * FAKE_GEMINI dev mode: canned transcript + analysis so the studio/add pipeline
+ * runs end-to-end without any transcription/analysis API spend. Returns null
+ * when FAKE mode is off. Image generation is stubbed separately in the
+ * candidate/image functions below.
+ */
+export function maybeFakeAnalysis(): StoryAnalysis | null {
+  return FAKE ? fakeAnalysis() : null;
+}
+
+/** Pass 2: transcript text -> title, entities, summary, highlight quote. */
+export async function analyzeTranscript(
+  transcript: TranscriptItem[],
+  opts: { model?: string } = {},
+): Promise<TranscriptAnalysis> {
   const ai = getAI();
-  try {
-    const response = await ai.models.generateContent({
-      model: textModel(),
-      contents: [
-        {
-          parts: [
-            { inlineData: { data: audioBase64, mimeType: mimeType || 'audio/mp4' } },
-            {
-              text: `Transcribe this storytelling session between a parent and a child.
-              The speakers are always "Dad" (the father) and "Izzy" (his daughter Isabella).
-              Please use these exact labels for the speakers.
+  return withRetry('Analysis', async () => {
+  const response = await ai.models.generateContent({
+    model: opts.model || textModel(),
+    contents: [
+      {
+        parts: [
+          {
+            text: `Here is the transcript of a storytelling session between "Dad" (the father) and "Izzy" (his young daughter Isabella):
 
-              To improve transcription accuracy, please be aware of these recurring character names and ensure they are spelled correctly:
-              Seeker, Dimitar, Mergirls, Hattie the Mouse, Disco and Thisco, Frasgle, Icicle
+              ${JSON.stringify(transcript)}
 
-              Also:
               1. Generate a creative and catchy title for this story session.
               2. Extract all unique characters and places mentioned in the story.
                  IMPORTANT: Each entry MUST be a single individual character or place.
@@ -100,81 +263,82 @@ export async function transcribeAndAnalyze(
                  The summary should read like a blurb for a book or a movie.
               4. Find a short, memorable quote from "Izzy" that is especially funny, clever, unusual, or interesting.
                  It should be a specific moment that captures her personality or a key moment in the story.
+                 Copy the quote's "timestamp" from the transcript line the quote comes from.
 
               Return the result in JSON format with the following structure:
               {
                 "title": "string",
-                "transcript": [{"speaker": "string", "text": "string", "timestamp": number}],
                 "characters": [{"name": "string", "description": "string"}],
                 "places": [{"name": "string", "description": "string"}],
                 "summary": "string (max 1000 chars)",
                 "highlightQuote": {"text": "string (max 500 chars)", "timestamp": number}
-              }
-
-              CRITICAL: The timestamp MUST be the exact start time in seconds for each line, as a floating point number (e.g., 12.34). Be as precise as possible.`,
-            },
-          ],
-        },
-      ],
-      config: {
-        responseMimeType: 'application/json',
-        responseSchema: {
-          type: Type.OBJECT,
-          properties: {
-            title: { type: Type.STRING },
-            transcript: {
-              type: Type.ARRAY,
-              items: {
-                type: Type.OBJECT,
-                properties: {
-                  speaker: { type: Type.STRING },
-                  text: { type: Type.STRING },
-                  timestamp: { type: Type.NUMBER },
-                },
-                required: ['speaker', 'text', 'timestamp'],
-              },
-            },
-            characters: {
-              type: Type.ARRAY,
-              items: {
-                type: Type.OBJECT,
-                properties: { name: { type: Type.STRING }, description: { type: Type.STRING } },
-                required: ['name', 'description'],
-              },
-            },
-            places: {
-              type: Type.ARRAY,
-              items: {
-                type: Type.OBJECT,
-                properties: { name: { type: Type.STRING }, description: { type: Type.STRING } },
-                required: ['name', 'description'],
-              },
-            },
-            summary: { type: Type.STRING },
-            highlightQuote: {
+              }`,
+          },
+        ],
+      },
+    ],
+    config: {
+      responseMimeType: 'application/json',
+      responseSchema: {
+        type: Type.OBJECT,
+        properties: {
+          title: { type: Type.STRING },
+          characters: {
+            type: Type.ARRAY,
+            items: {
               type: Type.OBJECT,
-              properties: { text: { type: Type.STRING }, timestamp: { type: Type.NUMBER } },
-              required: ['text', 'timestamp'],
+              properties: { name: { type: Type.STRING }, description: { type: Type.STRING } },
+              required: ['name', 'description'],
             },
           },
-          required: ['title', 'transcript', 'characters', 'places', 'summary', 'highlightQuote'],
+          places: {
+            type: Type.ARRAY,
+            items: {
+              type: Type.OBJECT,
+              properties: { name: { type: Type.STRING }, description: { type: Type.STRING } },
+              required: ['name', 'description'],
+            },
+          },
+          summary: { type: Type.STRING },
+          highlightQuote: {
+            type: Type.OBJECT,
+            properties: { text: { type: Type.STRING }, timestamp: { type: Type.NUMBER } },
+            required: ['text', 'timestamp'],
+          },
         },
+        required: ['title', 'characters', 'places', 'summary', 'highlightQuote'],
       },
-    });
+    },
+  });
 
-    const text = response.text;
-    if (!text) throw new Error('No response from Gemini');
-    return JSON.parse(text) as StoryAnalysis;
-  } catch (err: any) {
-    const code = err?.error?.code || err?.code;
-    const message = err?.error?.message || err?.message;
-    if ((code === 500 || code === 503 || code === 504 || message?.includes('Deadline expired')) && retries > 0) {
-      console.log(`Transcription returned ${code || 'timeout'}. Retrying... (${retries} left)`);
-      await new Promise((r) => setTimeout(r, 3000));
-      return transcribeAndAnalyze(audioBase64, mimeType, retries - 1);
-    }
-    throw err;
+  const text = response.text;
+  if (!text) throw new Error('No response from Gemini');
+  return JSON.parse(text) as TranscriptAnalysis;
+  });
+}
+
+/** Transcribe (pass 1) then analyze (pass 2). Same result shape as before. */
+export async function transcribeAndAnalyze(
+  audioPath: string,
+  mimeType = 'audio/mp4',
+  opts: { lexicon?: NameLexicon } = {},
+): Promise<StoryAnalysis> {
+  const fake = maybeFakeAnalysis();
+  if (fake) {
+    await fakeDelay(2000);
+    return fake;
   }
+  const transcript = await transcribeAudio(audioPath, mimeType, { lexicon: opts.lexicon });
+  console.log(`  transcript: ${transcript.length} lines. Analyzing...`);
+  const analysis = await analyzeTranscript(transcript);
+  // The analysis model only copies timestamps from transcript text — anchor
+  // the quote to the actual transcript line when one matches, since the
+  // schema forces a numeric timestamp even when the model guesses.
+  if (analysis.highlightQuote?.text) {
+    const recovered = recoverQuoteTimestamp(analysis.highlightQuote.text, transcript);
+    if (recovered != null) analysis.highlightQuote.timestamp = recovered;
+  }
+  return { ...analysis, transcript };
 }
 
 export async function extractHighlightQuote(

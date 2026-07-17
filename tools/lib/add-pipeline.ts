@@ -2,7 +2,8 @@
  * The add-story pipeline as an importable function, shared by the CLI
  * (add-story.ts) and the studio server (studio.ts):
  *
- *   dedupe -> date -> transcribe+analyze (Gemini) -> merge characters/places ->
+ *   dedupe -> date -> transcribe (default: ElevenLabs scribe-v2) -> analyze
+ *   (Gemini: title/entities/summary/quote) -> merge characters/places ->
  *   write content/stories/<slug>/ -> header-image candidates -> rebuild site.
  *
  * The story is fully persisted BEFORE candidate generation, so a failure or
@@ -17,6 +18,7 @@ import {
   CONTENT_CHARACTERS,
   CONTENT_PLACES,
   CONTENT_MANIFEST,
+  CONTENT_BAKEOFF_DIR,
   ensureDir,
 } from './paths.ts';
 import { sha256File } from './media.ts';
@@ -25,9 +27,11 @@ import { recoverQuoteTimestamp } from './quote.ts';
 import { uniqueSlug } from './slug.ts';
 import { recomputeEntityLinks } from './entities.ts';
 import { generateHeaderCandidates, type CandidateSet } from './candidates.ts';
-import { transcribeAndAnalyze, mergeEntityDescription } from './gemini.ts';
+import { analyzeTranscript, maybeFakeAnalysis, mergeEntityDescription, type TranscriptAnalysis } from './gemini.ts';
+import { audioDurationSec, defaultEngine, runEngine, type EngineId } from './asr.ts';
+import { loadNameLexicon } from './lexicon.ts';
 import { buildSite } from '../build-site.ts';
-import type { StoryRecord, EmbeddedEntity, CanonicalEntity, ManifestEntry, HighlightQuote } from './types.ts';
+import type { StoryRecord, TranscriptItem, EmbeddedEntity, CanonicalEntity, ManifestEntry, HighlightQuote } from './types.ts';
 
 export type Stage = 'date' | 'transcribe' | 'entities' | 'write' | 'candidates' | 'build' | 'done';
 export type ProgressFn = (stage: Stage, message: string) => void;
@@ -46,6 +50,8 @@ export class DuplicateAudioError extends Error {
 export interface AddStoryOptions {
   /** Override the story date (YYYY-MM-DD). */
   date?: string;
+  /** Transcription engine for the audio pass (default: defaultEngine()). */
+  engine?: EngineId;
   /** Generate header-image candidates (default true). */
   generateImage?: boolean;
   /** Rebuild the site bundle afterwards (default true). */
@@ -172,12 +178,50 @@ export async function addStory(audioPath: string, opts: AddStoryOptions = {}): P
   const date = await deriveDate(audioPath, sourceFilename, opts.date, opts.fallbackMtime);
   progress('date', `Date: ${date.split('T')[0]}`);
 
-  progress('transcribe', 'Transcribing + analyzing with Gemini (this can take a minute)...');
-  const audioBuf = fs.readFileSync(audioPath);
-  const analysis = await transcribeAndAnalyze(audioBuf.toString('base64'), 'audio/mp4');
+  // Audio pass -> transcript (default engine: scribe-v2), then Gemini analysis.
+  let transcript: TranscriptItem[];
+  let analysis: TranscriptAnalysis;
+  const fake = maybeFakeAnalysis();
+  if (fake) {
+    progress('transcribe', 'FAKE mode: using a canned transcript + analysis (no API calls)...');
+    await new Promise((r) => setTimeout(r, 1000));
+    transcript = fake.transcript;
+    analysis = fake;
+  } else {
+    const engine = opts.engine ?? defaultEngine();
+    progress('transcribe', `Transcribing with ${engine} (this can take a minute)...`);
+    const durationSec = await audioDurationSec(audioPath);
+    const result = await runEngine(engine, audioPath, {
+      lexicon: loadNameLexicon(),
+      durationSec,
+      // gitignored scratch area, so a raw-response dump on an odd shape can't get committed
+      rawDumpDir: path.join(CONTENT_BAKEOFF_DIR, `add-${sourceFilename.replace(/\.[^.]+$/, '')}`),
+    });
+    transcript = result.transcript;
+    if (result.rawSpeakerMap) {
+      const mapStr = Object.entries(result.rawSpeakerMap).map(([k, v]) => `${k} → ${v}`).join(', ');
+      progress('transcribe', `Speaker mapping (${result.speakerMapMethod}): ${mapStr}`);
+    }
+    const oddSpeakers = [...new Set(transcript.map((t) => t.speaker))].filter((s) => s !== 'Dad' && s !== 'Izzy');
+    if (oddSpeakers.length) {
+      console.warn(
+        `WARNING: transcript contains unexpected speaker label(s): ${oddSpeakers.join(', ')}.\n` +
+          `Their words are excluded from the Izzy/Dad word counts — review story.json before publishing.`,
+      );
+    }
+    progress('transcribe', `Transcript: ${transcript.length} lines. Analyzing with Gemini...`);
+    analysis = await analyzeTranscript(transcript);
+    // The analysis model only copies timestamps from transcript text — anchor the
+    // quote to the actual transcript line when one matches, since the schema
+    // forces a numeric timestamp even when the model guesses.
+    if (analysis.highlightQuote?.text) {
+      const recovered = recoverQuoteTimestamp(analysis.highlightQuote.text, transcript);
+      if (recovered != null) analysis.highlightQuote.timestamp = recovered;
+    }
+  }
   progress(
     'entities',
-    `Title: "${analysis.title}"  (${analysis.transcript.length} lines, ${analysis.characters.length} characters, ${analysis.places.length} places)`,
+    `Title: "${analysis.title}"  (${transcript.length} lines, ${analysis.characters.length} characters, ${analysis.places.length} places)`,
   );
 
   const existingSlugs = new Set(fs.existsSync(CONTENT_STORIES_DIR) ? fs.readdirSync(CONTENT_STORIES_DIR) : []);
@@ -189,19 +233,12 @@ export async function addStory(audioPath: string, opts: AddStoryOptions = {}): P
   const charMerge = await mergeEntities(analysis.characters, CONTENT_CHARACTERS, !!opts.mergeDescriptions);
   const placeMerge = await mergeEntities(analysis.places, CONTENT_PLACES, !!opts.mergeDescriptions);
 
-  // highlight quote (already an object from Gemini; ensure timestamp)
-  let highlightQuote: HighlightQuote | null = null;
-  if (analysis.highlightQuote?.text) {
-    highlightQuote = {
-      text: analysis.highlightQuote.text,
-      timestamp:
-        typeof analysis.highlightQuote.timestamp === 'number'
-          ? analysis.highlightQuote.timestamp
-          : recoverQuoteTimestamp(analysis.highlightQuote.text, analysis.transcript),
-    };
-  }
+  // highlight quote (already an object from Gemini, timestamp anchored above)
+  const highlightQuote: HighlightQuote | null = analysis.highlightQuote?.text
+    ? { text: analysis.highlightQuote.text, timestamp: analysis.highlightQuote.timestamp ?? null }
+    : null;
 
-  const counts = computeWordCounts(analysis.transcript);
+  const counts = computeWordCounts(transcript);
   const record: StoryRecord = {
     id: slug,
     title: analysis.title,
@@ -209,7 +246,7 @@ export async function addStory(audioPath: string, opts: AddStoryOptions = {}): P
     summary: analysis.summary || '',
     audioFilename: sourceFilename,
     highlightQuote,
-    transcript: analysis.transcript,
+    transcript,
     characters: charMerge.embedded,
     places: placeMerge.embedded,
     ...counts,
