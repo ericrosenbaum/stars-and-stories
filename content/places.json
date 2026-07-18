@@ -75,7 +75,8 @@
     "storyIds": [
       "A_Sticky_Adventure_to_the_Castle_of_Slime",
       "Slime-Ka-Bye_The_Beard-Dweller_s_Deep_Sea_Adventure",
-      "Shark_Friends_and_the_Deep_Deep_Dark"
+      "Shark_Friends_and_the_Deep_Deep_Dark",
+      "The_Adventures_of_Pumpkin_and_the_Potion_Closet"
     ],
     "firstAppearanceStoryId": "A_Sticky_Adventure_to_the_Castle_of_Slime"
   },
@@ -2734,7 +2735,8 @@
       "The_Floofer_s_Trampoline_and_the_Butterfly_Valentine",
       "The_Dragonettes_and_the_Rainbow_Forest_Quest",
       "A_Sticky_Adventure_to_the_Castle_of_Slime",
-      "The_Mookers_the_Floofers_and_the_Solar_Mookball"
+      "The_Mookers_the_Floofers_and_the_Solar_Mookball",
+      "The_Adventures_of_Pumpkin_and_the_Potion_Closet"
     ],
     "firstAppearanceStoryId": "The_Bouncing_Floofers_of_the_Golden_Cloud"
   },
@@ -4232,7 +4234,8 @@
       "An_Accidental_Trip_to_Nana_s_House",
       "Seeker_and_the_Security_Cats_The_Potion_Caper",
       "Prehistoric_Potion_Adventures",
-      "Seeker_s_Midnight_Adventure_and_the_Dancing_Pterodactyl"
+      "Seeker_s_Midnight_Adventure_and_the_Dancing_Pterodactyl",
+      "The_Adventures_of_Pumpkin_and_the_Potion_Closet"
     ],
     "firstAppearanceStoryId": "A_Sticky_Adventure_to_the_Castle_of_Slime"
   },
@@ -5101,5 +5104,14 @@
       "Seeker_s_Midnight_Adventure_and_the_Dancing_Pterodactyl"
     ],
     "firstAppearanceStoryId": "Seeker_s_Midnight_Adventure_and_the_Dancing_Pterodactyl"
+  },
+  {
+    "id": "6538ed0c42634153ac3c",
+    "name": "Mooker Cloud",
+    "description": "A high-altitude cloud where Pumpkin and Hazel jumped to search for Kitty.",
+    "storyIds": [
+      "The_Adventures_of_Pumpkin_and_the_Potion_Closet"
+    ],
+    "firstAppearanceStoryId": "The_Adventures_of_Pumpkin_and_the_Potion_Closet"
   }
 ]
