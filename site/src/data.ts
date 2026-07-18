@@ -121,6 +121,46 @@ export interface WorldsDoc {
   worlds: World[];
 }
 
+export interface ForestLocation {
+  id: string;
+  name: string;
+  zone: 'canopy' | 'surface' | 'water' | 'landmark' | 'underground';
+  x: number;
+  y: number;
+  size: 'major' | 'minor';
+  /** false = a marker on linear water (river/stream): no pond blob is drawn. */
+  body?: boolean;
+  placeIds: string[];
+  curatedDescription: string;
+  quotes: WorldQuote[];
+  characters: string[];
+  stories: WorldStoryRef[];
+  /** Codex hero image (a story header), path relative to the site root. */
+  image: string | null;
+  /** Small portrait painted into the marker face (a character portrait). */
+  vignette: string | null;
+  /** Generated location illustration — injected by build-site when
+   *  content/forest-art/<id>.png exists; wins over image and vignette. */
+  art?: string;
+}
+export interface ForestPath {
+  id: string;
+  kind: 'road' | 'trail' | 'river' | 'stream' | 'tunnel';
+  d: string;
+  label?: string;
+  labelOffset?: string;
+}
+export interface ForestDoc {
+  meta: {
+    title?: string;
+    subtitle?: string;
+    note?: string;
+    canvas: { width: number; height: number; groundY: number };
+  };
+  locations: ForestLocation[];
+  paths: ForestPath[];
+}
+
 const BASE = import.meta.env.BASE_URL; // always ends with '/'
 
 /** URL for a file inside /public/data. */
@@ -140,6 +180,7 @@ export const getStoryboard = (slug: string) => getJson<Storyboard>(dataUrl(`stor
 export const getCharacters = () => getJson<CanonicalEntity[]>(dataUrl('characters.json'));
 export const getPlaces = () => getJson<CanonicalEntity[]>(dataUrl('places.json'));
 export const getWorlds = () => getJson<WorldsDoc>(dataUrl('worlds.json'));
+export const getForest = () => getJson<ForestDoc>(dataUrl('forest.json'));
 
 export async function getWorldDna(): Promise<string> {
   const res = await fetch(dataUrl('world-dna.md'));

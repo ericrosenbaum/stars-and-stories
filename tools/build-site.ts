@@ -13,6 +13,9 @@ import {
   CONTENT_PLACES,
   CONTENT_WORLD_DNA,
   CONTENT_WORLDS,
+  CONTENT_FOREST,
+  CONTENT_FOREST_ART_DIR,
+  SITE_MEDIA_FOREST_DIR,
   SITE_DATA_DIR,
   SITE_DATA_STORIES_DIR,
   SITE_DATA_STORYBOARDS_DIR,
@@ -181,6 +184,25 @@ export async function buildSite({ force = false } = {}): Promise<void> {
   if (fs.existsSync(CONTENT_WORLDS)) {
     fs.copyFileSync(CONTENT_WORLDS, path.join(SITE_DATA_DIR, 'worlds.json'));
   }
+  // Curated forest-map dataset (optional). Unlike worlds.json this is not a
+  // straight copy: locations gain an `art` path when a generated illustration
+  // exists at content/forest-art/<location-id>.png.
+  let encodedForestArt = 0;
+  if (fs.existsSync(CONTENT_FOREST)) {
+    const forest = JSON.parse(fs.readFileSync(CONTENT_FOREST, 'utf8'));
+    for (const loc of forest.locations ?? []) {
+      const src = path.join(CONTENT_FOREST_ART_DIR, `${loc.id}.png`);
+      if (!fs.existsSync(src)) continue;
+      const out = path.join(SITE_MEDIA_FOREST_DIR, `${loc.id}.webp`);
+      if (force || !fs.existsSync(out)) {
+        ensureDir(SITE_MEDIA_FOREST_DIR);
+        await optimizeImage(src, out, WEBP_WIDTH, WEBP_QUALITY);
+        encodedForestArt++;
+      }
+      loc.art = `media/forest/${loc.id}.webp`;
+    }
+    fs.writeFileSync(path.join(SITE_DATA_DIR, 'forest.json'), JSON.stringify(forest));
+  }
 
   const worldDna = fs.existsSync(CONTENT_WORLD_DNA) ? fs.readFileSync(CONTENT_WORLD_DNA, 'utf8') : '';
   fs.writeFileSync(path.join(SITE_DATA_DIR, 'world-dna.md'), worldDna);
@@ -221,7 +243,7 @@ export async function buildSite({ force = false } = {}): Promise<void> {
   });
 
   console.log(`Wrote stories-index.json (${index.length} stories) + per-story JSON + entities.`);
-  console.log(`Audio encoded: ${encodedAudio}, images encoded: ${encodedImg}, character images encoded: ${encodedCharImg} (existing skipped).`);
+  console.log(`Audio encoded: ${encodedAudio}, images encoded: ${encodedImg}, character images encoded: ${encodedCharImg}, forest art encoded: ${encodedForestArt} (existing skipped).`);
   console.log(`Media: ${mb(dirSize(SITE_MEDIA_DIR))} | Data: ${mb(dirSize(SITE_DATA_DIR))}`);
 }
 

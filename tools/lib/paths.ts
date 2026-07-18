@@ -13,6 +13,9 @@ export const CONTENT_PLACES = path.join(CONTENT_DIR, 'places.json');
 export const CONTENT_MANIFEST = path.join(CONTENT_DIR, 'manifest.json');
 export const CONTENT_WORLD_DNA = path.join(CONTENT_DIR, 'world-dna.md');
 export const CONTENT_WORLDS = path.join(CONTENT_DIR, 'worlds.json');
+export const CONTENT_FOREST = path.join(CONTENT_DIR, 'forest.json');
+// Generated forest-map location art lands here as <location-id>.png.
+export const CONTENT_FOREST_ART_DIR = path.join(CONTENT_DIR, 'forest-art');
 // Per-character reference images live at content/characters/<id>/reference.<ext>.
 export const CONTENT_CHARACTER_IMAGES_DIR = path.join(CONTENT_DIR, 'characters');
 // Transcription-engine comparison runs (gitignored scratch output).
@@ -25,6 +28,7 @@ export const SITE_DATA_STORIES_DIR = path.join(SITE_DATA_DIR, 'stories');
 export const SITE_DATA_STORYBOARDS_DIR = path.join(SITE_DATA_DIR, 'storyboards');
 export const SITE_MEDIA_DIR = path.join(SITE_PUBLIC_DIR, 'media');
 export const SITE_MEDIA_CHARACTERS_DIR = path.join(SITE_MEDIA_DIR, 'characters');
+export const SITE_MEDIA_FOREST_DIR = path.join(SITE_MEDIA_DIR, 'forest');
 
 /** Locate the data export directory (StarsAndStories_GitHub_Export_*). */
 export function findExportDir(): string {
