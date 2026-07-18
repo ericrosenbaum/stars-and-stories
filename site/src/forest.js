@@ -323,7 +323,27 @@ export function mountForest(root, data, resolveImage) {
     g.appendChild(el("path", { d: "M " + (x - 12 * s) + "," + (y - 2 * s) + " q " + 8 * s + "," + 6 * s + " " + 20 * s + "," + 4 * s, fill: "none", stroke: "#8f8878", "stroke-width": 1.4, opacity: 0.7 }));
     return g;
   }
+  // Icicle's sparkly palace: pale-ice towers with pointed spires and a cold glow.
+  function icePalace(x, y, s) {
+    var g = el("g");
+    g.appendChild(el("circle", { cx: x, cy: y - 6 * s, r: 54 * s, fill: "url(#fHalo-water)", opacity: 0.7 }));
+    var ice = "#e2f1fb", edge = "#93c2df", deep = "#c3e2f4", door = "#7fa8c4";
+    [-1, 1].forEach(function (side) {
+      var tx = x + side * 23 * s;
+      g.appendChild(el("rect", { x: tx - 8 * s, y: y - 22 * s, width: 16 * s, height: 46 * s, rx: 2, fill: ice, stroke: edge, "stroke-width": 1.6 }));
+      g.appendChild(el("path", { d: "M " + (tx - 8 * s) + "," + (y - 22 * s) + " L " + tx + "," + (y - 48 * s) + " L " + (tx + 8 * s) + "," + (y - 22 * s) + " Z", fill: deep, stroke: edge, "stroke-width": 1.4 }));
+    });
+    g.appendChild(el("rect", { x: x - 12 * s, y: y - 10 * s, width: 24 * s, height: 34 * s, rx: 2, fill: ice, stroke: edge, "stroke-width": 1.6 }));
+    g.appendChild(el("path", { d: "M " + (x - 12 * s) + "," + (y - 10 * s) + " L " + x + "," + (y - 40 * s) + " L " + (x + 12 * s) + "," + (y - 10 * s) + " Z", fill: deep, stroke: edge, "stroke-width": 1.4 }));
+    g.appendChild(el("path", { d: "M " + (x - 5 * s) + "," + (y + 24 * s) + " v " + (-11 * s) + " a " + 5 * s + " " + 5 * s + " 0 0 1 " + 10 * s + " 0 v " + 11 * s + " Z", fill: door }));
+    [[-32, -30], [30, -36], [37, 6], [-36, 8]].forEach(function (p) {
+      var sx = x + p[0] * s, sy = y + p[1] * s, a = 3.6 * s, b = 1.1 * s;
+      g.appendChild(el("path", { d: "M " + sx + "," + (sy - a) + " L " + (sx + b) + "," + (sy - b) + " L " + (sx + a) + "," + sy + " L " + (sx + b) + "," + (sy + b) + " L " + sx + "," + (sy + a) + " L " + (sx - b) + "," + (sy + b) + " L " + (sx - a) + "," + sy + " L " + (sx - b) + "," + (sy - b) + " Z", fill: "#ffffff" }));
+    });
+    return g;
+  }
   var DECOR = {
+    "icicles-ice-palace": function (l) { return icePalace(l.x, l.y - 6, 0.92); },
     "peacocks-castle": function (l) { return castle(l.x, l.y - 6, 1.05, false); },
     "seekers-castle": function (l) { return castle(l.x, l.y - 6, 0.9, true); },
     "the-mountain": function (l) { return mountainDecor(l.x, l.y - 4, 1.1, true); },

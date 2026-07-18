@@ -11,6 +11,62 @@
   },
   "locations": [
     {
+      "id": "icicles-ice-palace",
+      "name": "Icicle's Ice Palace",
+      "zone": "landmark",
+      "x": 92,
+      "y": 120,
+      "size": "minor",
+      "placeIds": [
+        "leslJxXfuZiDjrLq3Tjz"
+      ],
+      "curatedDescription": "Far up past the clouds, on the pointiest peak of a snow-covered mountain range, stands the shimmering ice castle of Icicle — the titanic, ancient white dragon. Ring the doorbell (ding-dong!) and he'll welcome you in for frozen treats — popsicles, ice cream, and ice cubes stirred in a cup until they're just right. He keeps it very neat, clean, and sparkly-polished, and mostly lives up there all alone at the very top of the world.",
+      "quotes": [
+        {
+          "speaker": "Izzy",
+          "text": "I'm going to go visit Icicle and Demitar. So I put on my snowpants, jacket and hat and rang Icicle's doorbell, then I flew there with my cape. Ding dong, Icicle.",
+          "slug": "The_Ice_Dragon_s_Sparkly_Castle_and_the_Great_Ice_Festival",
+          "timestamp": 70
+        },
+        {
+          "speaker": "Dad",
+          "text": "Well, said Icicle, I like my frozen ice castle to be very neat and clean and sparkly polished.",
+          "slug": "The_Ice_Dragon_s_Sparkly_Castle_and_the_Great_Ice_Festival",
+          "timestamp": 119
+        },
+        {
+          "speaker": "Dad",
+          "text": "I'm used to just living here all alone at the top of the mountain in my ice castle, said Icicle.",
+          "slug": "The_Ice_Dragon_s_Sparkly_Castle_and_the_Great_Ice_Festival",
+          "timestamp": 395
+        },
+        {
+          "speaker": "Dad",
+          "text": "They flew far, far up into the sky until they could see in the far distance, past a whole bunch of clouds, the pointy tops of a range of snow-covered mountains.",
+          "slug": "The_Salty_Solution_for_a_Frozen_Island",
+          "timestamp": 382
+        }
+      ],
+      "characters": [
+        "Icicle",
+        "Dimitar"
+      ],
+      "stories": [
+        {
+          "slug": "The_Ice_Dragon_s_Sparkly_Castle_and_the_Great_Ice_Festival",
+          "title": "The Ice Dragon's Sparkly Castle and the Great Ice Festival",
+          "date": "2026-01-23T00:00:00.000Z"
+        },
+        {
+          "slug": "The_Salty_Solution_for_a_Frozen_Island",
+          "title": "The Salty Solution for a Frozen Island",
+          "date": "2026-06-19T23:59:06.000Z"
+        }
+      ],
+      "image": "media/The_Ice_Dragon_s_Sparkly_Castle_and_the_Great_Ice_Festival/header.webp",
+      "vignette": null
+    },
+    {
       "id": "christmas-tree-mountain",
       "name": "Christmas Tree Mountain",
       "zone": "landmark",
