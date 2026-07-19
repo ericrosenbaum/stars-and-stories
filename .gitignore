@@ -27,6 +27,8 @@ content/stories/**/storyboard/*.png
 content/characters/**/reference.*
 # Transcription-engine comparison runs (npm run bakeoff) — scratch output.
 content/bakeoff/
+# Forest-map screenshot runs (npm run forest-shots) — scratch output.
+tools/out/
 
 # Reference-only originals (the AI Studio app + the raw data exports).
 # These are not part of the new project; keep them locally as a backup.

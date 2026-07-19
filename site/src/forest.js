@@ -616,6 +616,11 @@ export function mountForest(root, data, resolveImage) {
     cam.y = Math.max(baseView.y - M, Math.min(cam.y, baseView.y + baseView.h - cam.h + M));
   }
   applyCam();
+  // Deterministic camera setter for the screenshot tooling (not a public API).
+  svg.__setCam = function (x, y, w) {
+    cam = { x: x, y: y, w: w, h: w * (baseView.h / baseView.w) };
+    applyCam();
+  };
   function onWheel(e) {
     e.preventDefault();
     var rect = svg.getBoundingClientRect();

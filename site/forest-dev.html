@@ -1,0 +1,32 @@
+<!doctype html>
+<!-- Dev-only harness for the forest map engine, used by tools/forest-shots.ts.
+     Served by `npm run dev` at /forest-dev.html; NOT part of the production
+     build (vite only bundles index.html). Mounts the engine directly, without
+     the React app shell, so screenshots are deterministic and fast.
+     Query params: ?style=<theme name> is forwarded to mountForest. -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Forest — dev harness</title>
+    <style>
+      html, body { margin: 0; height: 100%; }
+      #host { position: fixed; inset: 0; }
+    </style>
+  </head>
+  <body>
+    <div id="host"></div>
+    <script type="module">
+      import { mountForest } from '/src/forest.js';
+      import '/src/forest.css';
+
+      const params = new URLSearchParams(location.search);
+      const style = params.get('style') || undefined;
+      const doc = await (await fetch('/data/forest.json')).json();
+      // Same resolution as ForestView.tsx's assetUrl (dev base is '/').
+      const resolveImage = (loc, field) => (loc[field] ? '/' + loc[field] : null);
+      mountForest(document.getElementById('host'), doc, resolveImage, { style });
+      window.__forestReady = true;
+    </script>
+  </body>
+</html>

@@ -13,6 +13,7 @@
     "bakeoff": "tsx bakeoff.ts",
     "retranscribe": "tsx retranscribe.ts",
     "regen-image": "tsx regen-image.ts",
+    "forest-shots": "tsx forest-shots.ts",
     "storyboard": "tsx storyboard.ts",
     "world-dna": "tsx gen-world-dna.ts",
     "verify-models": "tsx verify-models.ts"
@@ -27,6 +28,7 @@
   "devDependencies": {
     "@types/node": "^22.14.0",
     "@types/qrcode-terminal": "^0.12.2",
+    "playwright": "^1.61.1",
     "tsx": "^4.21.0",
     "typescript": "~5.8.2"
   }
