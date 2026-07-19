@@ -7,7 +7,7 @@
    Sibling of orrery.js (the cosmology engine): same camera, codex, and legend
    patterns, but a daylight parchment world with a soil cutaway underneath. */
 
-export function mountForest(root, data, resolveImage) {
+export function mountForest(root, data, resolveImage, opts) {
   var SVGNS = "http://www.w3.org/2000/svg";
   var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   resolveImage = resolveImage || function () { return null; };
@@ -22,6 +22,84 @@ export function mountForest(root, data, resolveImage) {
   var ZONE_ORDER = ["canopy", "surface", "water", "landmark", "underground"];
   // Which legend zone dims/undims each linear feature kind when filtering.
   var KIND_ZONE = { road: "surface", trail: "surface", river: "water", stream: "water", tunnel: "underground" };
+
+  /* ---------- style themes (Gate-1 comps) ----------
+     Each theme is a hex->hex remap of the engine's drawing palette plus a few
+     texture flags, applied once after the scene is built. The matching chrome
+     (legend, codex, masthead) is styled via .forest-map[data-style=...] in
+     forest.css. This is a comparison mechanism: once a direction is chosen,
+     the winning palette gets inlined and the losers deleted.
+       wobbleScale  — feDisplacementMap scale for the hand-inked stroke wobble
+       grainOpacity — opacity of the paper-tooth noise overlay
+       strokeScale  — global multiplier on stroke widths (poster = heavy) */
+  var THEMES = {
+    // Refined current identity: warmer paper, scenery receding into soft
+    // sage so the deepened markers and inked paths come forward.
+    parchment: {
+      wobbleScale: 6, grainOpacity: 0.8, strokeScale: 1,
+      colors: {
+        "#f3ecd6": "#f1e7c8", "#f9edcf": "#f9ecc9", "#f7efdb": "#f5ecd2",
+        "#dfe3bd": "#dde0b8", "#d3dcae": "#d2d9a9", "#cbd6a4": "#c9d29e", "#cfd8a8": "#cdd5a2",
+        "#e9edcb": "#e9ebc2", "#e3e9c0": "#e2e6b8",
+        "#6f9a55": "#8aa671", "#5f8a48": "#799661", "#3f5c38": "#55704d", "#354e30": "#4a6343",
+        "#48713f": "#5f7f52", "#3c5f35": "#52704a", "#8a6543": "#8f6f52", "#6d4f35": "#77593e",
+        "#4f7a43": "#3e6b39", "#6c9147": "#6f8f3a", "#4f89ab": "#40799c",
+        "#a8783f": "#a06f33", "#8a5f3c": "#7d5434",
+        "#8fbdd6": "#9cc2d6", "#a9d0e3": "#b5d5e4",
+        "#dcc697": "#d9c08a", "#c9b083": "#bfa270", "#b89a63": "#a98a52",
+        "#a97c50": "#a3764b", "#4a3220": "#43301e"
+      }
+    },
+    // Flat vintage poster (Root / WPA): saturated flat fills, bold uniform
+    // outlines, zero paper texture or stroke wobble.
+    poster: {
+      wobbleScale: 0, grainOpacity: 0, strokeScale: 1.7,
+      colors: {
+        "#f3ecd6": "#f2dfb3", "#f9edcf": "#f7e3ae", "#f7efdb": "#f5e0ac", "#f8f1dd": "#f6e6bd",
+        "#dfe3bd": "#b5cc8a", "#d3dcae": "#a3c17b", "#cbd6a4": "#96b96f", "#cfd8a8": "#9cbd74",
+        "#e9edcb": "#d7e3a4", "#e3e9c0": "#cfdd98",
+        "#6f9a55": "#4e8a4a", "#5f8a48": "#3d7440", "#3f5c38": "#2c5531", "#354e30": "#244a2a",
+        "#48713f": "#35663c", "#3c5f35": "#1f4526", "#8a6543": "#7c5335", "#6d4f35": "#5f3f26",
+        "#4f7a43": "#2f6b39", "#6c9147": "#7fa03a", "#4f89ab": "#2c6d92",
+        "#a8783f": "#c07f2c", "#8a5f3c": "#8c5127",
+        "#8fbdd6": "#63b0d4", "#a9d0e3": "#7fc0dd", "#e6f2f7": "#d8f0f8",
+        "#dcc697": "#e3bd7e", "#c9b083": "#b98d51", "#b89a63": "#9c7239",
+        "#a97c50": "#a86f3f", "#4a3220": "#4f3018",
+        "#c49a6c": "#c89a5f", "#573a24": "#4a2f16", "#d4ad7f": "#d2a468",
+        "#fdf6e3": "#f8ecc9", "#fdf8ea": "#f9efd2",
+        "#b8b2a4": "#b5a98e", "#8f8878": "#84764f", "#a55b4b": "#b04b38",
+        "#5d7a3e": "#456f35", "#c9bd93": "#c3ab72"
+      }
+    },
+    // Soft watercolor washes: pale cool cream, low-saturation scenery,
+    // feather-light strokes, heavier paper tooth, extra wobble.
+    watercolor: {
+      wobbleScale: 9, grainOpacity: 1, strokeScale: 0.75,
+      colors: {
+        "#f3ecd6": "#f7f1e1", "#f9edcf": "#fbeed6", "#f7efdb": "#f8f0e0", "#f8f1dd": "#faf4e6",
+        "#dfe3bd": "#e3e7cd", "#d3dcae": "#dadfc0", "#cbd6a4": "#d0d9b4", "#cfd8a8": "#d3dcb8",
+        "#e9edcb": "#ecefd4", "#e3e9c0": "#e7ebca",
+        "#6f9a55": "#9ab180", "#5f8a48": "#8aa370", "#3f5c38": "#6a815f", "#354e30": "#5e7554",
+        "#48713f": "#7a9468", "#3c5f35": "#6d8760", "#8a6543": "#a08668", "#6d4f35": "#8d7156",
+        "#4f7a43": "#6d8f5e", "#6c9147": "#8ba368", "#4f89ab": "#7fa5ba",
+        "#a8783f": "#b3905e", "#8a5f3c": "#9a7a58",
+        "#8fbdd6": "#b3d0dd", "#a9d0e3": "#c5dde6",
+        "#dcc697": "#e5d6b2", "#c9b083": "#d6c299", "#b89a63": "#c4ad83",
+        "#a97c50": "#b39270", "#4a3220": "#6b543c",
+        "#c49a6c": "#cfb08a", "#573a24": "#7a5f42", "#d4ad7f": "#dcc2a0",
+        "#b8b2a4": "#c5bfae", "#5d7a3e": "#7e935f"
+      }
+    }
+  };
+  var styleName = (opts && opts.style && THEMES[opts.style]) ? opts.style : "parchment";
+  var theme = THEMES[styleName];
+  var themeColors = theme.colors || {};
+  root.dataset.style = styleName;
+  // Zone colors feed halos, marker fills, legend dots, and codex accents —
+  // remap them up front so HTML chrome and SVG agree.
+  ZONE_ORDER.forEach(function (z) {
+    ZONE[z].raw = themeColors[ZONE[z].raw] || ZONE[z].raw;
+  });
 
   var meta = data.meta || {};
   var canvas = meta.canvas || { width: 1000, height: 1400, groundY: 1000 };
@@ -124,15 +202,17 @@ export function mountForest(root, data, resolveImage) {
   paper.appendChild(el("feColorMatrix", { in: "n", type: "matrix", values: "0 0 0 0 0.45 0 0 0 0 0.36 0 0 0 0 0.22 0 0 0 0.06 0" }));
   defs.appendChild(paper);
   // A gentle wobble for roads and waterways, so strokes read hand-inked.
+  // The theme sets the strength; 0 disables it entirely (flat-poster look).
   var wob = el("filter", { id: "fWobble", x: "-8%", y: "-8%", width: "116%", height: "116%" });
   wob.appendChild(el("feTurbulence", { type: "fractalNoise", baseFrequency: "0.012", numOctaves: "2", result: "w", seed: "11" }));
-  wob.appendChild(el("feDisplacementMap", { in: "SourceGraphic", in2: "w", scale: "6" }));
+  wob.appendChild(el("feDisplacementMap", { in: "SourceGraphic", in2: "w", scale: String(theme.wobbleScale) }));
   defs.appendChild(wob);
+  var wobbleAttr = theme.wobbleScale > 0 ? { filter: "url(#fWobble)" } : {};
 
   // ---------- layers ----------
-  var layerGround = el("g"), layerWater = el("g", { filter: "url(#fWobble)" }),
-      layerRoads = el("g", { filter: "url(#fWobble)" }), layerTrees = el("g"),
-      layerDecor = el("g"), layerSoil = el("g"), layerTunnels = el("g", { filter: "url(#fWobble)" }),
+  var layerGround = el("g"), layerWater = el("g", wobbleAttr),
+      layerRoads = el("g", wobbleAttr), layerTrees = el("g"),
+      layerDecor = el("g"), layerSoil = el("g"), layerTunnels = el("g", wobbleAttr),
       layerMarkers = el("g"), layerLabels = el("g");
   [layerGround, layerWater, layerRoads, layerTrees, layerDecor, layerSoil, layerTunnels, layerMarkers, layerLabels]
     .forEach(function (g) { svg.appendChild(g); });
@@ -166,8 +246,10 @@ export function mountForest(root, data, resolveImage) {
    ["meadow-4", 560, 730, 150, 95, "#e3e9c0"]].forEach(function (m) {
     layerGround.appendChild(el("path", { d: blobPath(m[1], m[2], m[3], m[4], m[0], 0.2), fill: m[5], opacity: 0.85 }));
   });
-  // Paper grain across everything painted so far.
-  layerGround.appendChild(el("rect", { x: -80, y: -80, width: CW + 160, height: CH + 160, filter: "url(#fPaper)", opacity: 0.8, "pointer-events": "none" }));
+  // Paper grain across everything painted so far (theme sets how much tooth).
+  if (theme.grainOpacity > 0) {
+    layerGround.appendChild(el("rect", { x: -80, y: -80, width: CW + 160, height: CH + 160, filter: "url(#fPaper)", opacity: theme.grainOpacity, "pointer-events": "none" }));
+  }
 
   // ---------- water bodies (one blob per water-zone location) ----------
   locations.forEach(function (loc) {
@@ -523,6 +605,28 @@ export function mountForest(root, data, resolveImage) {
     t.appendChild(tp);
     layerLabels.appendChild(t);
   });
+
+  // ---------- apply the theme to the finished scene ----------
+  // One remap pass over every drawn element: palette swap + stroke weighting.
+  // (Zone colors were remapped up front; their new values are not map keys,
+  // so re-visiting them here is a no-op.)
+  (function applyTheme() {
+    var ATTRS = ["fill", "stroke", "stop-color"];
+    Array.prototype.forEach.call(svg.querySelectorAll("*"), function (n) {
+      for (var i = 0; i < ATTRS.length; i++) {
+        var v = n.getAttribute(ATTRS[i]);
+        if (v && themeColors[v]) n.setAttribute(ATTRS[i], themeColors[v]);
+      }
+    });
+    if (theme.strokeScale && theme.strokeScale !== 1) {
+      // Weight the outline strokes only — structural strokes (roads, rivers,
+      // tunnels, the ground line) keep their drawn width.
+      Array.prototype.forEach.call(svg.querySelectorAll("[stroke-width]"), function (n) {
+        var w = parseFloat(n.getAttribute("stroke-width"));
+        if (w > 0 && w < 5) n.setAttribute("stroke-width", (w * theme.strokeScale).toFixed(2));
+      });
+    }
+  })();
 
   // ---------- legend + filter ----------
   var counts = {};
