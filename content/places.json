@@ -4235,7 +4235,8 @@
       "Seeker_and_the_Security_Cats_The_Potion_Caper",
       "Prehistoric_Potion_Adventures",
       "Seeker_s_Midnight_Adventure_and_the_Dancing_Pterodactyl",
-      "The_Adventures_of_Pumpkin_and_the_Potion_Closet"
+      "The_Adventures_of_Pumpkin_and_the_Potion_Closet",
+      "Tot_s_Great_Cheese_Beach_Adventure"
     ],
     "firstAppearanceStoryId": "A_Sticky_Adventure_to_the_Castle_of_Slime"
   },
@@ -4503,7 +4504,8 @@
     "description": "A tactile, fur-filled dimension reachable only through specialized magic potions, this plush realm serves as a hidden destination for those who master the art of alchemical teleportation.",
     "storyIds": [
       "The_Wizard_Seker_and_the_Magical_Can_Opener_of_Cat_World",
-      "The_Thirty_Cats_of_Kibble_World"
+      "The_Thirty_Cats_of_Kibble_World",
+      "Tot_s_Great_Cheese_Beach_Adventure"
     ],
     "firstAppearanceStoryId": "The_Wizard_Seker_and_the_Magical_Can_Opener_of_Cat_World"
   },
@@ -5113,5 +5115,32 @@
       "The_Adventures_of_Pumpkin_and_the_Potion_Closet"
     ],
     "firstAppearanceStoryId": "The_Adventures_of_Pumpkin_and_the_Potion_Closet"
+  },
+  {
+    "id": "b3d395156c01483d83c2",
+    "name": "Mouse Swimming Pool",
+    "description": "A swimming facility located in Roslindale near Seeker's castle where mice can take swimming classes.",
+    "storyIds": [
+      "Tot_s_Great_Cheese_Beach_Adventure"
+    ],
+    "firstAppearanceStoryId": "Tot_s_Great_Cheese_Beach_Adventure"
+  },
+  {
+    "id": "1426ef1ee0274cc4acd4",
+    "name": "Cheese World",
+    "description": "A magical dimension where everything is made of cheese, from Parmesan roads to cheddar mountains.",
+    "storyIds": [
+      "Tot_s_Great_Cheese_Beach_Adventure"
+    ],
+    "firstAppearanceStoryId": "Tot_s_Great_Cheese_Beach_Adventure"
+  },
+  {
+    "id": "a09c5438cf104ad986c1",
+    "name": "Cheese Beach",
+    "description": "A beautiful vacation spot in Cheese World featuring grated Parmesan sand and an ocean of stinky, soft cheeses like brie and Camembert.",
+    "storyIds": [
+      "Tot_s_Great_Cheese_Beach_Adventure"
+    ],
+    "firstAppearanceStoryId": "Tot_s_Great_Cheese_Beach_Adventure"
   }
 ]

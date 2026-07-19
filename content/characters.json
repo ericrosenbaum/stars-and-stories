@@ -338,7 +338,8 @@
       "Seeker_and_the_Security_Cats_The_Potion_Caper",
       "Prehistoric_Potion_Adventures",
       "The_Cozy_Potions_of_Sleepy_World",
-      "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission"
+      "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission",
+      "Tot_s_Great_Cheese_Beach_Adventure"
     ],
     "firstAppearanceStoryId": "Frasgle_and_the_Sticky_Situation"
   },
@@ -1772,7 +1773,8 @@
     "name": "Tot",
     "description": "A mouse friend who accompanies Uncle Bill and Seeker.",
     "storyIds": [
-      "Dr_Izzy_and_the_Forest_Rescue"
+      "Dr_Izzy_and_the_Forest_Rescue",
+      "Tot_s_Great_Cheese_Beach_Adventure"
     ],
     "firstAppearanceStoryId": "Dr_Izzy_and_the_Forest_Rescue"
   },
@@ -2275,7 +2277,8 @@
       "The_Salty_Solution_for_a_Frozen_Island",
       "The_Magic_Star_Potion_and_the_Journey_to_Star_World",
       "The_Security_Cats_and_the_Rainbow_Party",
-      "Seeker_and_the_Security_Cats_The_Potion_Caper"
+      "Seeker_and_the_Security_Cats_The_Potion_Caper",
+      "Tot_s_Great_Cheese_Beach_Adventure"
     ],
     "firstAppearanceStoryId": "Dimitar_and_the_Blueberry_Dragon_Pop"
   },
@@ -2917,7 +2920,8 @@
     "description": "A pony with ice powers who loves freezing things.",
     "storyIds": [
       "The_Salty_Solution_for_a_Frozen_Island",
-      "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission"
+      "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission",
+      "Tot_s_Great_Cheese_Beach_Adventure"
     ],
     "firstAppearanceStoryId": "The_Salty_Solution_for_a_Frozen_Island"
   },
@@ -3050,7 +3054,8 @@
       "The_Tale_of_the_Discolored_Mergirl_and_the_Magic_Bubble_Bath",
       "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission",
       "Seeker_s_Midnight_Adventure_and_the_Dancing_Pterodactyl",
-      "The_Adventures_of_Pumpkin_and_the_Potion_Closet"
+      "The_Adventures_of_Pumpkin_and_the_Potion_Closet",
+      "Tot_s_Great_Cheese_Beach_Adventure"
     ],
     "firstAppearanceStoryId": "The_Mischief_Moles_and_the_Plane_of_Fire"
   },
@@ -3149,7 +3154,8 @@
       "Dr_Izzy_and_the_Forest_Rescue",
       "The_Thirty_Cats_of_Kibble_World",
       "The_Rainbow_Fruit_World_and_the_Great_Lemon_Fish_Debate",
-      "Seeker_and_the_Security_Cats_The_Potion_Caper"
+      "Seeker_and_the_Security_Cats_The_Potion_Caper",
+      "Tot_s_Great_Cheese_Beach_Adventure"
     ],
     "firstAppearanceStoryId": "Hattie_the_Mouse_and_the_Baby_Chipmunk_s_Snack"
   },
@@ -5184,7 +5190,8 @@
       "Dr_Izzy_and_the_Forest_Rescue",
       "The_Sparkling_Dust_of_Book_World",
       "The_Salty_Solution_for_a_Frozen_Island",
-      "The_Adventures_of_Pumpkin_and_the_Potion_Closet"
+      "The_Adventures_of_Pumpkin_and_the_Potion_Closet",
+      "Tot_s_Great_Cheese_Beach_Adventure"
     ],
     "firstAppearanceStoryId": "Kitty_the_Cat_Superhero_and_the_Gopher_Tunnel_Visit"
   },
@@ -7148,5 +7155,14 @@
       "The_Adventures_of_Pumpkin_and_the_Potion_Closet"
     ],
     "firstAppearanceStoryId": "The_Adventures_of_Pumpkin_and_the_Potion_Closet"
+  },
+  {
+    "id": "1f0351b3dd1f4f7fb886",
+    "name": "The Cheese Shark",
+    "description": "A gooey, sticky shark made of American cheese that swims in the soft cheese ocean.",
+    "storyIds": [
+      "Tot_s_Great_Cheese_Beach_Adventure"
+    ],
+    "firstAppearanceStoryId": "Tot_s_Great_Cheese_Beach_Adventure"
   }
 ]
