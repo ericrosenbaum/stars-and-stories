@@ -15,6 +15,7 @@ import {
   CONTENT_WORLDS,
   CONTENT_FOREST,
   CONTENT_FOREST_ART_DIR,
+  FOREST_LANDSCAPE_PNG,
   SITE_MEDIA_FOREST_DIR,
   SITE_DATA_DIR,
   SITE_DATA_STORIES_DIR,
@@ -24,12 +25,18 @@ import {
   findCharacterImage,
   ensureDir,
 } from './lib/paths.ts';
+import sharp from 'sharp';
 import { optimizeAudio, optimizeImage } from './lib/media.ts';
 import type { StoryRecord, CanonicalEntity } from './lib/types.ts';
 
 const AUDIO_BITRATE = process.env.AUDIO_BITRATE || '40k';
 const WEBP_QUALITY = Number(process.env.WEBP_QUALITY || '72');
 const WEBP_WIDTH = Number(process.env.WEBP_WIDTH || '1280');
+// The forest-map landscape is encoded larger than a story header (it's zoomed
+// into). Must match forest-map.ts's FOREST_WEBP_* so a --select encode and a
+// build encode are interchangeable.
+const FOREST_WEBP_WIDTH = Number(process.env.FOREST_WEBP_WIDTH || '2048');
+const FOREST_WEBP_QUALITY = Number(process.env.FOREST_WEBP_QUALITY || '78');
 const CHAR_IMG_QUALITY = Number(process.env.CHAR_IMG_QUALITY || '80');
 const CHAR_IMG_WIDTH = Number(process.env.CHAR_IMG_WIDTH || '512');
 
@@ -200,6 +207,19 @@ export async function buildSite({ force = false } = {}): Promise<void> {
         encodedForestArt++;
       }
       loc.art = `media/forest/${loc.id}.webp`;
+    }
+    // The Tolkien-style landscape backdrop (optional — the viewer falls back to
+    // the legacy procedural renderer when meta.landscape is absent). Encode the
+    // served webp and stamp its pixel dimensions so the SVG overlay can map to it.
+    if (fs.existsSync(FOREST_LANDSCAPE_PNG)) {
+      const landscapeWebp = path.join(SITE_MEDIA_FOREST_DIR, 'landscape.webp');
+      if (force || !fs.existsSync(landscapeWebp)) {
+        ensureDir(SITE_MEDIA_FOREST_DIR);
+        await optimizeImage(FOREST_LANDSCAPE_PNG, landscapeWebp, FOREST_WEBP_WIDTH, FOREST_WEBP_QUALITY);
+      }
+      const dim = await sharp(landscapeWebp).metadata();
+      forest.meta = forest.meta ?? {};
+      forest.meta.landscape = { image: 'media/forest/landscape.webp', width: dim.width, height: dim.height };
     }
     fs.writeFileSync(path.join(SITE_DATA_DIR, 'forest.json'), JSON.stringify(forest));
   }

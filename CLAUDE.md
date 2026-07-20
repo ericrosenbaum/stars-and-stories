@@ -73,6 +73,38 @@ images + up to 2 preceding frames as continuity references). Per-scene redo:
 specific frames, regenerate those scenes rather than re-running the whole
 storyboard (a full re-run replaces the entire plan and all frames).
 
+## The forest map (image-based landscape)
+
+The `#/forest` map is a painted Tolkien-style landscape (a raster) with clickable
+SVG markers overlaid. `content/forest.json` stays the canonical dataset; the map
+is built in three user-driven steps:
+
+1. **Sketch** — `cd tools && npm run forest-sketch` writes
+   `content/forest-map/sketch.svg`, a schematic of every region/path/place from
+   forest.json, annotated (red notes) to guide the image model. The sketch is
+   HAND-OWNED after first generation: forest-sketch refuses to overwrite it
+   without `--force`. The user hand-edits it (move the `loc--<id>` circles,
+   reshape `path--<id>` curves, retune the notes). Then
+   `npm run forest-sketch -- --sync` reads the edited geometry back into
+   forest.json — the sketch is the source of truth for positions.
+2. **Landscape** — like header images, candidate review is user-driven and a
+   candidate is NEVER selected without the user's explicit choice:
+   `npm run forest-landscape` generates 3 candidates conditioned on the sketch
+   (`--size 1K|2K|4K`, default 2K), writes
+   `content/forest-map/candidates/gallery.html`. Then: `--select N` (writes
+   `content/forest-map/landscape.png` + the served webp), `--suggest "..."` (new
+   batch with feedback), or `--discard`. Landscape only — no buildings/text (the
+   prompt forbids them); if the model draws them, regenerate. `FAKE_GEMINI=1`
+   stubs generation.
+3. **Build/serve** — `npm run build` optimizes `landscape.png` to
+   `site/public/media/forest/landscape.webp` and stamps `meta.landscape` into the
+   emitted forest.json. When no landscape is selected yet, `meta.landscape` is
+   absent and the viewer falls back to the legacy procedural renderer
+   (`site/src/forest-legacy.js`); the image engine is `site/src/forest.js`.
+
+`sketch.svg` is committed; `landscape.png` and `candidates/` are gitignored (the
+derived `landscape.webp` is committed).
+
 ## Publishing
 
 `npm run build` (in `tools/`) regenerates `site/public/{data,media}` — commit

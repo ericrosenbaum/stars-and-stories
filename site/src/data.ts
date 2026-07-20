@@ -156,6 +156,10 @@ export interface ForestDoc {
     subtitle?: string;
     note?: string;
     canvas: { width: number; height: number; groundY: number };
+    /** The Tolkien-style landscape backdrop, stamped by build-site when
+     *  content/forest-map/landscape.png exists. Absent = no landscape yet
+     *  (the viewer falls back to the legacy procedural renderer). */
+    landscape?: { image: string; width: number; height: number };
   };
   locations: ForestLocation[];
   paths: ForestPath[];

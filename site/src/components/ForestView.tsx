@@ -1,9 +1,13 @@
 import { useEffect, useRef, useState } from 'react';
 import { TreePine } from 'lucide-react';
 import { getForest, assetUrl, ForestDoc, ForestLocation } from '../data';
-// Framework-agnostic forest-map engine (sibling of the cosmology orrery).
+// Framework-agnostic forest-map engines (both plain .js, no types).
+// New: a painted Tolkien-style landscape with clickable SVG markers overlaid.
+// Legacy: the procedural SVG renderer, used until a landscape is selected.
 // @ts-expect-error - plain .js module (no types)
 import { mountForest } from '../forest.js';
+// @ts-expect-error - plain .js module (no types)
+import { mountForestLegacy } from '../forest-legacy.js';
 import '../forest.css';
 
 export default function ForestView() {
@@ -21,12 +25,11 @@ export default function ForestView() {
 
   useEffect(() => {
     if (!doc || !ref.current) return;
-    const cleanup = mountForest(
-      ref.current,
-      doc,
-      (loc: ForestLocation, field: 'art' | 'image' | 'vignette') =>
-        loc[field] ? assetUrl(loc[field] as string) : null,
-    );
+    const resolve = (loc: ForestLocation, field: 'art' | 'image' | 'vignette') =>
+      loc[field] ? assetUrl(loc[field] as string) : null;
+    const cleanup = doc.meta.landscape
+      ? mountForest(ref.current, doc, resolve, assetUrl(doc.meta.landscape.image))
+      : mountForestLegacy(ref.current, doc, resolve);
     return cleanup as () => void;
   }, [doc]);
 

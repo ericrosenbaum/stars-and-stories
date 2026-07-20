@@ -16,6 +16,11 @@ export const CONTENT_WORLDS = path.join(CONTENT_DIR, 'worlds.json');
 export const CONTENT_FOREST = path.join(CONTENT_DIR, 'forest.json');
 // Generated forest-map location art lands here as <location-id>.png.
 export const CONTENT_FOREST_ART_DIR = path.join(CONTENT_DIR, 'forest-art');
+// The image-based forest map: a hand-owned layout sketch (committed) and the
+// selected Tolkien-style landscape original (gitignored, like a story source.png).
+export const CONTENT_FOREST_MAP_DIR = path.join(CONTENT_DIR, 'forest-map');
+export const FOREST_SKETCH_SVG = path.join(CONTENT_FOREST_MAP_DIR, 'sketch.svg');
+export const FOREST_LANDSCAPE_PNG = path.join(CONTENT_FOREST_MAP_DIR, 'landscape.png');
 // Per-character reference images live at content/characters/<id>/reference.<ext>.
 export const CONTENT_CHARACTER_IMAGES_DIR = path.join(CONTENT_DIR, 'characters');
 // Transcription-engine comparison runs (gitignored scratch output).

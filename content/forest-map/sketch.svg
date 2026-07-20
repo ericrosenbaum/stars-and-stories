@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Forest-map layout sketch. HAND-OWNED after first generation.
+
+  This is the schematic that guides the landscape image model. Edit it freely:
+    * move a place: change cx/cy on its circle (id starts with "loc"), and for
+      tidiness the x/y of the text beside it
+    * reroute a path: edit the d="..." on its path (id starts with "path")
+    * retune guidance: edit the red text in the "notes" group; these tell the
+      model what terrain belongs where and are NEVER drawn
+  Then run the sync command (npm run forest-sketch, sync flag) to write the new
+  positions back into content/forest.json.
+
+  Keep edits as plain attribute edits. AVOID wrapping elements in groups with
+  transforms: sync tolerates a transform="translate(x,y)" on a loc circle
+  itself, but not a transform inherited from a parent group.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1400" width="1000" height="1400" font-family="Helvetica, Arial, sans-serif">
+
+  <!-- ===== frame: broad terrain regions ===== -->
+  <g id="frame">
+    <rect x="0" y="0" width="1000" height="1400" fill="#ffffff"/>
+    <!-- mountain band -->
+    <rect x="0" y="0" width="1000" height="260" fill="#dce4ee"/>
+    <!-- underground band (below the ground line) -->
+    <rect x="0" y="1000" width="1000" height="400" fill="#e9dcc4"/>
+    <!-- GROUND LINE -->
+    <line x1="0" y1="1000" x2="1000" y2="1000" stroke="#5d7a3e" stroke-width="5"/>
+  </g>
+
+  <!-- ===== water bodies (ponds / lake / swamp) ===== -->
+  <g id="water">
+    <ellipse cx="825" cy="875" rx="54" ry="36" fill="#cfe3ef" stroke="#4f89ab" stroke-width="2" opacity="0.85"/>
+    <ellipse cx="620" cy="790" rx="78" ry="50" fill="#cfe3ef" stroke="#4f89ab" stroke-width="2" opacity="0.85"/>
+    <ellipse cx="720" cy="560" rx="54" ry="36" fill="#cfe3ef" stroke="#4f89ab" stroke-width="2" opacity="0.85"/>
+  </g>
+
+  <!-- ===== paths: roads, trails, waterways, tunnels ===== -->
+  <g id="paths" fill="none" stroke-linecap="round">
+    <path id="path--cornell-street" d="M 120,150 C 210,240 262,330 245,412 C 228,498 270,560 330,588 C 398,618 420,700 430,780 C 442,862 492,932 540,986" stroke="#b89a63" stroke-width="7"/>
+    <text x="120" y="144" fill="#6b5c42" font-size="12">Cornell Street</text>
+    <path id="path--trail-seeker" d="M 300,565 C 240,600 180,640 142,688" stroke="#b89a63" stroke-width="4" stroke-dasharray="10 8"/>
+    <text x="300" y="559" fill="#6b5c42" font-size="12">trail</text>
+    <path id="path--trail-peacock" d="M 560,600 C 640,520 700,430 780,330 C 820,275 845,235 862,200" stroke="#b89a63" stroke-width="4" stroke-dasharray="10 8"/>
+    <text x="560" y="594" fill="#6b5c42" font-size="12">trail</text>
+    <path id="path--the-river" d="M 930,60 C 880,200 902,380 852,520 C 802,660 832,780 858,900 C 868,935 868,962 862,986" stroke="#4f89ab" stroke-width="8"/>
+    <text x="930" y="54" fill="#6b5c42" font-size="12">The River</text>
+    <path id="path--the-stream" d="M 726,566 C 760,575 800,585 850,560" stroke="#6fa6c4" stroke-width="5"/>
+    <text x="726" y="560" fill="#6b5c42" font-size="12">The Stream</text>
+    <path id="path--stream-to-pond" d="M 712,585 C 680,650 650,720 632,776" stroke="#6fa6c4" stroke-width="5"/>
+    <text x="712" y="579" fill="#6b5c42" font-size="12">stream</text>
+    <path id="path--shaft-moles-yard" d="M 350,972 C 352,1010 353,1050 355,1082" stroke="#573a24" stroke-width="14"/>
+    <text x="350" y="966" fill="#6b5c42" font-size="12">tunnel</text>
+    <path id="path--tunnel-papa-burrow" d="M 355,1085 C 290,1100 210,1120 152,1148" stroke="#573a24" stroke-width="14"/>
+    <text x="355" y="1079" fill="#6b5c42" font-size="12">tunnel</text>
+    <path id="path--tunnel-burrow-disco" d="M 152,1152 C 185,1190 215,1218 248,1248" stroke="#573a24" stroke-width="14"/>
+    <text x="152" y="1146" fill="#6b5c42" font-size="12">tunnel</text>
+    <path id="path--tunnel-disco-library" d="M 252,1252 C 340,1230 430,1210 516,1188" stroke="#573a24" stroke-width="14"/>
+    <text x="252" y="1246" fill="#6b5c42" font-size="12">tunnel</text>
+    <path id="path--shaft-library" d="M 520,996 C 522,1060 518,1120 520,1182" stroke="#573a24" stroke-width="14"/>
+    <text x="520" y="990" fill="#6b5c42" font-size="12">tunnel</text>
+    <path id="path--mole-train-line" d="M 355,1085 C 420,1130 460,1160 520,1185 C 590,1215 630,1140 680,1120 C 760,1090 850,1180 903,1242" stroke="#573a24" stroke-width="14"/>
+    <text x="355" y="1079" fill="#6b5c42" font-size="12">the mole train line</text>
+    <path id="path--shaft-big-rock" d="M 705,958 C 707,1090 703,1220 705,1306" stroke="#573a24" stroke-width="14"/>
+    <text x="705" y="952" fill="#6b5c42" font-size="12">tunnel</text>
+    <path id="path--tunnel-gopher-kingdom" d="M 700,1312 C 550,1362 350,1372 168,1330" stroke="#573a24" stroke-width="14"/>
+    <text x="700" y="1306" fill="#6b5c42" font-size="12">tunnel</text>
+    <path id="path--shaft-deep" d="M 858,988 C 857,1015 859,1050 860,1078" stroke="#573a24" stroke-width="14"/>
+    <text x="858" y="982" fill="#6b5c42" font-size="12">tunnel</text>
+    <path id="path--tunnel-deep-grisco" d="M 856,1084 C 800,1104 740,1112 684,1120" stroke="#573a24" stroke-width="14"/>
+    <text x="856" y="1078" fill="#6b5c42" font-size="12">tunnel</text>
+  </g>
+
+  <!-- ===== markers: one circle per place (positions synced to forest.json) ===== -->
+  <g id="markers">
+    <circle id="loc--icicles-ice-palace" cx="92" cy="120" r="9" fill="#a8783f" stroke="#ffffff" stroke-width="2"/>
+    <text x="92" y="106" fill="#2a2418" font-size="12" text-anchor="middle">Icicle's Ice Palace</text>
+    <circle id="loc--christmas-tree-mountain" cx="150" cy="190" r="9" fill="#a8783f" stroke="#ffffff" stroke-width="2"/>
+    <text x="150" y="176" fill="#2a2418" font-size="12" text-anchor="middle">Christmas Tree Mountain</text>
+    <circle id="loc--the-mountain" cx="490" cy="175" r="9" fill="#a8783f" stroke="#ffffff" stroke-width="2"/>
+    <text x="490" y="161" fill="#2a2418" font-size="12" text-anchor="middle">The Muddy Mountain</text>
+    <circle id="loc--the-canyon" cx="665" cy="210" r="9" fill="#a8783f" stroke="#ffffff" stroke-width="2"/>
+    <text x="665" y="196" fill="#2a2418" font-size="12" text-anchor="middle">The Canyon</text>
+    <circle id="loc--peacocks-castle" cx="865" cy="195" r="14" fill="#a8783f" stroke="#ffffff" stroke-width="2"/>
+    <text x="865" y="176" fill="#2a2418" font-size="12" text-anchor="middle">Peacock the Wizard's Castle</text>
+    <circle id="loc--mama-foxes-burrow" cx="118" cy="358" r="9" fill="#6c9147" stroke="#ffffff" stroke-width="2"/>
+    <text x="118" y="344" fill="#2a2418" font-size="12" text-anchor="middle">Mama Fox's Burrow</text>
+    <circle id="loc--cornell-street" cx="245" cy="412" r="14" fill="#6c9147" stroke="#ffffff" stroke-width="2"/>
+    <text x="245" y="393" fill="#2a2418" font-size="12" text-anchor="middle">Cornell Street</text>
+    <circle id="loc--honey-tree" cx="262" cy="296" r="9" fill="#4f7a43" stroke="#ffffff" stroke-width="2"/>
+    <text x="262" y="282" fill="#2a2418" font-size="12" text-anchor="middle">The Honey Tree</text>
+    <circle id="loc--lions-stool" cx="185" cy="470" r="9" fill="#a8783f" stroke="#ffffff" stroke-width="2"/>
+    <text x="185" y="456" fill="#2a2418" font-size="12" text-anchor="middle">The Lions Stool</text>
+    <circle id="loc--hatties-workshop" cx="330" cy="620" r="14" fill="#6c9147" stroke="#ffffff" stroke-width="2"/>
+    <text x="330" y="601" fill="#2a2418" font-size="12" text-anchor="middle">Hattie's Hollow-Tree Workshop</text>
+    <circle id="loc--the-field" cx="430" cy="520" r="9" fill="#6c9147" stroke="#ffffff" stroke-width="2"/>
+    <text x="430" y="506" fill="#2a2418" font-size="12" text-anchor="middle">The Field</text>
+    <circle id="loc--beehive" cx="390" cy="425" r="9" fill="#4f7a43" stroke="#ffffff" stroke-width="2"/>
+    <text x="390" y="411" fill="#2a2418" font-size="12" text-anchor="middle">The Beehive</text>
+    <circle id="loc--pine-tree" cx="560" cy="300" r="9" fill="#4f7a43" stroke="#ffffff" stroke-width="2"/>
+    <text x="560" y="286" fill="#2a2418" font-size="12" text-anchor="middle">The Pine Tree</text>
+    <circle id="loc--hoodies-nest" cx="645" cy="430" r="9" fill="#4f7a43" stroke="#ffffff" stroke-width="2"/>
+    <text x="645" y="416" fill="#2a2418" font-size="12" text-anchor="middle">Hoodie's Nest</text>
+    <circle id="loc--deep-dark-forest" cx="760" cy="340" r="14" fill="#6c9147" stroke="#ffffff" stroke-width="2"/>
+    <text x="760" y="321" fill="#2a2418" font-size="12" text-anchor="middle">The Deep Dark Forest</text>
+    <circle id="loc--the-clearing" cx="565" cy="680" r="9" fill="#6c9147" stroke="#ffffff" stroke-width="2"/>
+    <text x="565" y="666" fill="#2a2418" font-size="12" text-anchor="middle">The Robot Clearing</text>
+    <circle id="loc--forest-clearing" cx="555" cy="880" r="9" fill="#6c9147" stroke="#ffffff" stroke-width="2"/>
+    <text x="555" y="866" fill="#2a2418" font-size="12" text-anchor="middle">The Rescue Clearing</text>
+    <circle id="loc--the-garden" cx="300" cy="765" r="9" fill="#6c9147" stroke="#ffffff" stroke-width="2"/>
+    <text x="300" y="751" fill="#2a2418" font-size="12" text-anchor="middle">The Garden</text>
+    <circle id="loc--moles-front-yard" cx="350" cy="970" r="9" fill="#6c9147" stroke="#ffffff" stroke-width="2"/>
+    <text x="350" y="956" fill="#2a2418" font-size="12" text-anchor="middle">Mole's Front Yard</text>
+    <circle id="loc--auntie-mulberrys-cottage" cx="195" cy="880" r="9" fill="#6c9147" stroke="#ffffff" stroke-width="2"/>
+    <text x="195" y="866" fill="#2a2418" font-size="12" text-anchor="middle">Auntie Mulberry's Cottage</text>
+    <circle id="loc--oscar-mouses-house" cx="415" cy="915" r="9" fill="#6c9147" stroke="#ffffff" stroke-width="2"/>
+    <text x="415" y="901" fill="#2a2418" font-size="12" text-anchor="middle">Oscar Mouse's House</text>
+    <circle id="loc--seekers-castle" cx="110" cy="700" r="14" fill="#a8783f" stroke="#ffffff" stroke-width="2"/>
+    <text x="110" y="681" fill="#2a2418" font-size="12" text-anchor="middle">Seeker's Castle</text>
+    <circle id="loc--the-swamp" cx="825" cy="875" r="9" fill="#4f89ab" stroke="#ffffff" stroke-width="2"/>
+    <text x="825" y="861" fill="#2a2418" font-size="12" text-anchor="middle">The Swamp</text>
+    <circle id="loc--the-pond" cx="620" cy="790" r="14" fill="#4f89ab" stroke="#ffffff" stroke-width="2"/>
+    <text x="620" y="771" fill="#2a2418" font-size="12" text-anchor="middle">The Pond</text>
+    <circle id="loc--river-lake" cx="720" cy="560" r="9" fill="#4f89ab" stroke="#ffffff" stroke-width="2"/>
+    <text x="720" y="546" fill="#2a2418" font-size="12" text-anchor="middle">River Lake</text>
+    <circle id="loc--the-stream" cx="806" cy="618" r="9" fill="#4f89ab" stroke="#ffffff" stroke-width="2"/>
+    <text x="806" y="604" fill="#2a2418" font-size="12" text-anchor="middle">The Stream</text>
+    <circle id="loc--the-river" cx="880" cy="480" r="9" fill="#4f89ab" stroke="#ffffff" stroke-width="2"/>
+    <text x="880" y="466" fill="#2a2418" font-size="12" text-anchor="middle">The River</text>
+    <circle id="loc--the-big-rock" cx="705" cy="950" r="9" fill="#a8783f" stroke="#ffffff" stroke-width="2"/>
+    <text x="705" y="936" fill="#2a2418" font-size="12" text-anchor="middle">The Big Rock</text>
+    <circle id="loc--papa-moles-tunnel" cx="355" cy="1085" r="9" fill="#8a5f3c" stroke="#ffffff" stroke-width="2"/>
+    <text x="355" y="1071" fill="#2a2418" font-size="12" text-anchor="middle">Papa Mole's New Tunnel</text>
+    <circle id="loc--mole-burrow" cx="150" cy="1150" r="14" fill="#8a5f3c" stroke="#ffffff" stroke-width="2"/>
+    <text x="150" y="1131" fill="#2a2418" font-size="12" text-anchor="middle">The Mole Burrow</text>
+    <circle id="loc--discos-basket-house" cx="250" cy="1250" r="9" fill="#8a5f3c" stroke="#ffffff" stroke-width="2"/>
+    <text x="250" y="1236" fill="#2a2418" font-size="12" text-anchor="middle">Disco's Glowing Basket House</text>
+    <circle id="loc--underground-library" cx="520" cy="1185" r="14" fill="#8a5f3c" stroke="#ffffff" stroke-width="2"/>
+    <text x="520" y="1166" fill="#2a2418" font-size="12" text-anchor="middle">The Underground Library</text>
+    <circle id="loc--uncle-griscos-burrow" cx="680" cy="1120" r="9" fill="#8a5f3c" stroke="#ffffff" stroke-width="2"/>
+    <text x="680" y="1106" fill="#2a2418" font-size="12" text-anchor="middle">Uncle Grisco's Burrow-Laboratory</text>
+    <circle id="loc--nanas-burrow" cx="905" cy="1245" r="9" fill="#8a5f3c" stroke="#ffffff" stroke-width="2"/>
+    <text x="905" y="1231" fill="#2a2418" font-size="12" text-anchor="middle">Nana Mole's House</text>
+    <circle id="loc--underground-tunnel" cx="860" cy="1080" r="9" fill="#8a5f3c" stroke="#ffffff" stroke-width="2"/>
+    <text x="860" y="1066" fill="#2a2418" font-size="12" text-anchor="middle">The Deep Shaft</text>
+    <circle id="loc--gopher-tunnels" cx="705" cy="1310" r="14" fill="#8a5f3c" stroke="#ffffff" stroke-width="2"/>
+    <text x="705" y="1291" fill="#2a2418" font-size="12" text-anchor="middle">The Gopher Tunnels</text>
+    <circle id="loc--kingdom-of-blind-mice" cx="165" cy="1330" r="9" fill="#8a5f3c" stroke="#ffffff" stroke-width="2"/>
+    <text x="165" y="1316" fill="#2a2418" font-size="12" text-anchor="middle">The Kingdom of the Blind Mice</text>
+  </g>
+
+  <!-- ===== notes: instructions for the image model — followed, never drawn ===== -->
+  <g id="notes" fill="#c0392b" font-size="15" font-style="italic">
+    <text x="500" y="60" text-anchor="middle">snow-capped mountain range — jagged peaks up here, foothills below</text>
+    <text x="500" y="560" text-anchor="middle">rolling deciduous forest fills the woodland floor</text>
+    <text x="760" y="340" text-anchor="middle">dense dark forest thicket</text>
+    <text x="560" y="270" text-anchor="middle">pine / evergreen grove</text>
+    <text x="500" y="988" text-anchor="middle">GROUND LINE — below is a side-on underground soil cross-section</text>
+    <text x="500" y="1200" text-anchor="middle">winding tunnels linking empty burrow chambers · soil strata · tree roots reaching down</text>
+  </g>
+</svg>

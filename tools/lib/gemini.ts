@@ -33,13 +33,14 @@ function fakeAnalysis(): StoryAnalysis {
 
 const FAKE_IMAGE_COLORS = ['#b8860b', '#4a6fa5', '#6b8e23'];
 let fakeImageCounter = 0;
-async function fakeImageDataUrl(): Promise<string> {
+async function fakeImageDataUrl(dims?: { w: number; h: number }): Promise<string> {
   const { default: sharp } = await import('sharp');
   const color = FAKE_IMAGE_COLORS[fakeImageCounter++ % FAKE_IMAGE_COLORS.length];
   const n = fakeImageCounter;
-  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720">
-    <rect width="1280" height="720" fill="${color}"/>
-    <text x="640" y="380" font-size="120" fill="white" text-anchor="middle" font-family="sans-serif">FAKE ${n}</text>
+  const w = dims?.w ?? 1280, h = dims?.h ?? 720;
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}">
+    <rect width="${w}" height="${h}" fill="${color}"/>
+    <text x="${w / 2}" y="${h / 2}" font-size="${Math.round(Math.min(w, h) / 6)}" fill="white" text-anchor="middle" font-family="sans-serif">FAKE ${n}</text>
   </svg>`;
   const png = await sharp(Buffer.from(svg)).png().toBuffer();
   return `data:image/png;base64,${png.toString('base64')}`;
@@ -748,18 +749,46 @@ export interface FrameRef {
   label: string;
 }
 
+/** Optional knobs for `generateImageFromPrompt`. Defaults preserve the original
+ *  behavior (16:9 @ 1K, house pen-and-ink style trailer, no conditioning image),
+ *  so existing callers are unaffected. */
+export interface ImageGenOptions {
+  /** Gemini aspect ratio, e.g. '16:9' (default) | '3:4' | '1:1'. */
+  aspectRatio?: string;
+  /** Largest-dimension size hint: '1K' (default) | '2K' | '4K'. */
+  imageSize?: string;
+  /** Emit the prompt verbatim, skipping the house Style/Avoid trailer. */
+  plainPrompt?: boolean;
+  /** A single conditioning image (e.g. a layout sketch) attached first, with an
+   *  instruction prepended to the prompt describing how to use it. */
+  conditionImage?: { data: string; mimeType: string; instruction: string };
+}
+
+/** Fake-mode dimensions derived from aspect ratio + size (largest dimension). */
+function fakeDims(opts: ImageGenOptions): { w: number; h: number } {
+  const [aw, ah] = (opts.aspectRatio || '16:9').split(':').map(Number);
+  const longest = ({ '1K': 1024, '2K': 2048, '4K': 4096 } as Record<string, number>)[opts.imageSize || '1K'] || 1024;
+  return aw >= ah
+    ? { w: longest, h: Math.round((longest * ah) / aw) }
+    : { w: Math.round((longest * aw) / ah), h: longest };
+}
+
 /** Returns a data URL (data:image/png;base64,...) or null. */
 export async function generateImageFromPrompt(
   prompt: string,
   entityImages: RefImage[] = [],
   retries = 1,
   frameRefs: FrameRef[] = [],
+  opts: ImageGenOptions = {},
 ): Promise<string | null> {
   if (FAKE) {
     await fakeDelay(1000);
-    return fakeImageDataUrl();
+    return fakeImageDataUrl(opts.aspectRatio || opts.imageSize ? fakeDims(opts) : undefined);
   }
   const ai = getAI();
+  const condParts = opts.conditionImage
+    ? [{ inlineData: { data: opts.conditionImage.data, mimeType: opts.conditionImage.mimeType } }]
+    : [];
   const imageParts = toImageParts(entityImages);
   const frameParts = frameRefs.map((f) => ({
     inlineData: { data: f.data, mimeType: f.mimeType },
@@ -781,21 +810,21 @@ They are for CONTINUITY ONLY: keep recurring characters, props, art style, and s
 
 `
     : '';
+  const condInstruction = opts.conditionImage ? `${opts.conditionImage.instruction}\n\n` : '';
+  const text = opts.plainPrompt
+    ? `${condInstruction}${prompt}`
+    : `${condInstruction}${referenceMapping}${frameMapping}${prompt}
+            Style: Whimsical, family-friendly, black and white pen and ink line illustration. Render a complete scene, but keep the background relatively simple and uncluttered so the characters stand out.
+            Avoid: Any violence, adult themes, complex/realistic human faces, overly busy or densely cluttered backgrounds, or specific copyrighted characters (like Mickey or Minnie Mouse).`;
   try {
     const response = await ai.models.generateContent({
       model: imageModel(),
       contents: {
-        parts: [
-          ...imageParts,
-          ...frameParts,
-          {
-            text: `${referenceMapping}${frameMapping}${prompt}
-            Style: Whimsical, family-friendly, black and white pen and ink line illustration. Render a complete scene, but keep the background relatively simple and uncluttered so the characters stand out.
-            Avoid: Any violence, adult themes, complex/realistic human faces, overly busy or densely cluttered backgrounds, or specific copyrighted characters (like Mickey or Minnie Mouse).`,
-          },
-        ],
+        parts: [...condParts, ...imageParts, ...frameParts, { text }],
       },
-      config: { imageConfig: { aspectRatio: '16:9', imageSize: '1K' } },
+      config: {
+        imageConfig: { aspectRatio: opts.aspectRatio ?? '16:9', imageSize: opts.imageSize ?? '1K' },
+      },
     });
 
     const parts = response.candidates?.[0]?.content?.parts || [];
@@ -808,7 +837,7 @@ They are for CONTINUITY ONLY: keep recurring characters, props, art style, and s
     const message = err?.error?.message || err?.message;
     if ((code === 503 || code === 504 || message?.includes('Deadline expired')) && retries > 0) {
       await new Promise((r) => setTimeout(r, 2000));
-      return generateImageFromPrompt(prompt, entityImages, retries - 1, frameRefs);
+      return generateImageFromPrompt(prompt, entityImages, retries - 1, frameRefs, opts);
     }
     throw err;
   }

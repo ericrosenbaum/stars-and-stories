@@ -27,6 +27,11 @@ content/stories/**/storyboard/*.png
 content/characters/**/reference.*
 # Transcription-engine comparison runs (npm run bakeoff) — scratch output.
 content/bakeoff/
+# Forest-map landscape: the sketch.svg IS committed (curated content), but the
+# selected landscape original and candidate batches stay local, like a story's
+# source.png (the derived site/public/media/forest/landscape.webp is committed).
+content/forest-map/landscape.png
+content/forest-map/candidates/
 
 # Reference-only originals (the AI Studio app + the raw data exports).
 # These are not part of the new project; keep them locally as a backup.
