@@ -4236,7 +4236,8 @@
       "Prehistoric_Potion_Adventures",
       "Seeker_s_Midnight_Adventure_and_the_Dancing_Pterodactyl",
       "The_Adventures_of_Pumpkin_and_the_Potion_Closet",
-      "Tot_s_Great_Cheese_Beach_Adventure"
+      "Tot_s_Great_Cheese_Beach_Adventure",
+      "The_Stinky_Cheese_Volcano_and_the_Floating_Balloon_Sky"
     ],
     "firstAppearanceStoryId": "A_Sticky_Adventure_to_the_Castle_of_Slime"
   },
@@ -5142,5 +5143,23 @@
       "Tot_s_Great_Cheese_Beach_Adventure"
     ],
     "firstAppearanceStoryId": "Tot_s_Great_Cheese_Beach_Adventure"
+  },
+  {
+    "id": "90795fedfc6842d39968",
+    "name": "The Balloon Sky",
+    "description": "A wondrous dimension filled with giant floating balloons and bright, stinky yellow cheese clouds.",
+    "storyIds": [
+      "The_Stinky_Cheese_Volcano_and_the_Floating_Balloon_Sky"
+    ],
+    "firstAppearanceStoryId": "The_Stinky_Cheese_Volcano_and_the_Floating_Balloon_Sky"
+  },
+  {
+    "id": "e84ac0880c5c470081af",
+    "name": "Nana's Porch",
+    "description": "The outdoor location where a past, slightly leaky, science experiment took place.",
+    "storyIds": [
+      "The_Stinky_Cheese_Volcano_and_the_Floating_Balloon_Sky"
+    ],
+    "firstAppearanceStoryId": "The_Stinky_Cheese_Volcano_and_the_Floating_Balloon_Sky"
   }
 ]

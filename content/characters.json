@@ -339,7 +339,8 @@
       "Prehistoric_Potion_Adventures",
       "The_Cozy_Potions_of_Sleepy_World",
       "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission",
-      "Tot_s_Great_Cheese_Beach_Adventure"
+      "Tot_s_Great_Cheese_Beach_Adventure",
+      "The_Stinky_Cheese_Volcano_and_the_Floating_Balloon_Sky"
     ],
     "firstAppearanceStoryId": "Frasgle_and_the_Sticky_Situation"
   },
@@ -1774,7 +1775,8 @@
     "description": "A mouse friend who accompanies Uncle Bill and Seeker.",
     "storyIds": [
       "Dr_Izzy_and_the_Forest_Rescue",
-      "Tot_s_Great_Cheese_Beach_Adventure"
+      "Tot_s_Great_Cheese_Beach_Adventure",
+      "The_Stinky_Cheese_Volcano_and_the_Floating_Balloon_Sky"
     ],
     "firstAppearanceStoryId": "Dr_Izzy_and_the_Forest_Rescue"
   },
@@ -2081,7 +2083,8 @@
     "storyIds": [
       "The_Quest_for_the_Moon_Mother",
       "Seeker_and_the_Security_Cats_The_Potion_Caper",
-      "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission"
+      "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission",
+      "The_Stinky_Cheese_Volcano_and_the_Floating_Balloon_Sky"
     ],
     "firstAppearanceStoryId": "The_Quest_for_the_Moon_Mother"
   },
@@ -2278,7 +2281,8 @@
       "The_Magic_Star_Potion_and_the_Journey_to_Star_World",
       "The_Security_Cats_and_the_Rainbow_Party",
       "Seeker_and_the_Security_Cats_The_Potion_Caper",
-      "Tot_s_Great_Cheese_Beach_Adventure"
+      "Tot_s_Great_Cheese_Beach_Adventure",
+      "The_Stinky_Cheese_Volcano_and_the_Floating_Balloon_Sky"
     ],
     "firstAppearanceStoryId": "Dimitar_and_the_Blueberry_Dragon_Pop"
   },
@@ -3055,7 +3059,8 @@
       "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission",
       "Seeker_s_Midnight_Adventure_and_the_Dancing_Pterodactyl",
       "The_Adventures_of_Pumpkin_and_the_Potion_Closet",
-      "Tot_s_Great_Cheese_Beach_Adventure"
+      "Tot_s_Great_Cheese_Beach_Adventure",
+      "The_Stinky_Cheese_Volcano_and_the_Floating_Balloon_Sky"
     ],
     "firstAppearanceStoryId": "The_Mischief_Moles_and_the_Plane_of_Fire"
   },
@@ -7164,5 +7169,23 @@
       "Tot_s_Great_Cheese_Beach_Adventure"
     ],
     "firstAppearanceStoryId": "Tot_s_Great_Cheese_Beach_Adventure"
+  },
+  {
+    "id": "baf8ab8f6d8748f8acda",
+    "name": "Jar Jar",
+    "description": "A red dragon who likes wizards and nice girls but dislikes boys.",
+    "storyIds": [
+      "The_Stinky_Cheese_Volcano_and_the_Floating_Balloon_Sky"
+    ],
+    "firstAppearanceStoryId": "The_Stinky_Cheese_Volcano_and_the_Floating_Balloon_Sky"
+  },
+  {
+    "id": "21be27c8863b41469a34",
+    "name": "Sarona",
+    "description": "A clumsy but helpful security cat who uses a net to catch a cheese cloud.",
+    "storyIds": [
+      "The_Stinky_Cheese_Volcano_and_the_Floating_Balloon_Sky"
+    ],
+    "firstAppearanceStoryId": "The_Stinky_Cheese_Volcano_and_the_Floating_Balloon_Sky"
   }
 ]
