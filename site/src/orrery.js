@@ -306,7 +306,10 @@ export function mountOrrery(root, data, resolveImage) {
     if (w.stories && w.stories.length) {
       h += '<span class="cx-section-label">' + (w.stories.length === 1 ? "The story" : "The stories") + '</span><ul class="stories">';
       w.stories.slice().sort(function (a, b) { return String(a.date).localeCompare(String(b.date)); }).forEach(function (s) {
-        h += '<li><span class="st-title">' + esc(s.title) + '</span><span class="st-date">' + esc(fmtDate(s.date)) + '</span></li>';
+        var row = '<span class="st-title">' + esc(s.title) + '</span><span class="st-date">' + esc(fmtDate(s.date)) + '</span>';
+        h += '<li>' + (s.slug
+          ? '<a class="st-link" href="#/story/' + encodeURIComponent(s.slug) + '">' + row + '</a>'
+          : '<span class="st-link">' + row + '</span>') + '</li>';
       });
       h += '</ul>';
     }
