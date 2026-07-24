@@ -340,7 +340,8 @@
       "The_Cozy_Potions_of_Sleepy_World",
       "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission",
       "Tot_s_Great_Cheese_Beach_Adventure",
-      "The_Stinky_Cheese_Volcano_and_the_Floating_Balloon_Sky"
+      "The_Stinky_Cheese_Volcano_and_the_Floating_Balloon_Sky",
+      "The_Stinky_Cheese_Volcano_and_the_Komodo_Dragon_Quest"
     ],
     "firstAppearanceStoryId": "Frasgle_and_the_Sticky_Situation"
   },
@@ -1357,7 +1358,8 @@
       "The_Sleepy-Time_Science_Experiment",
       "The_Magic_Star_Potion_and_the_Journey_to_Star_World",
       "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission",
-      "Seeker_s_Midnight_Adventure_and_the_Dancing_Pterodactyl"
+      "Seeker_s_Midnight_Adventure_and_the_Dancing_Pterodactyl",
+      "The_Stinky_Cheese_Volcano_and_the_Komodo_Dragon_Quest"
     ],
     "firstAppearanceStoryId": "The_Floof-Berry_Mission_and_the_Great_Snowstorm"
   },
@@ -1776,7 +1778,8 @@
     "storyIds": [
       "Dr_Izzy_and_the_Forest_Rescue",
       "Tot_s_Great_Cheese_Beach_Adventure",
-      "The_Stinky_Cheese_Volcano_and_the_Floating_Balloon_Sky"
+      "The_Stinky_Cheese_Volcano_and_the_Floating_Balloon_Sky",
+      "The_Stinky_Cheese_Volcano_and_the_Komodo_Dragon_Quest"
     ],
     "firstAppearanceStoryId": "Dr_Izzy_and_the_Forest_Rescue"
   },
@@ -4592,7 +4595,8 @@
       "The_Sleepy-Time_Science_Experiment",
       "The_Gopher_s_Squerret_Quest_in_Australia",
       "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission",
-      "Seeker_s_Midnight_Adventure_and_the_Dancing_Pterodactyl"
+      "Seeker_s_Midnight_Adventure_and_the_Dancing_Pterodactyl",
+      "The_Stinky_Cheese_Volcano_and_the_Komodo_Dragon_Quest"
     ],
     "firstAppearanceStoryId": "Late_Night_Tea_with_Mrs_Piggy_and_the_Muppets"
   },
@@ -7187,5 +7191,14 @@
       "The_Stinky_Cheese_Volcano_and_the_Floating_Balloon_Sky"
     ],
     "firstAppearanceStoryId": "The_Stinky_Cheese_Volcano_and_the_Floating_Balloon_Sky"
+  },
+  {
+    "id": "d2e20ba0d75b45a28c26",
+    "name": "Daddy",
+    "description": "A helpful character who explains the immense size of Komodo dragons using 'Isabellas' as a unit of measurement.",
+    "storyIds": [
+      "The_Stinky_Cheese_Volcano_and_the_Komodo_Dragon_Quest"
+    ],
+    "firstAppearanceStoryId": "The_Stinky_Cheese_Volcano_and_the_Komodo_Dragon_Quest"
   }
 ]

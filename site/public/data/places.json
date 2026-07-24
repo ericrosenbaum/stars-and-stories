@@ -5161,5 +5161,41 @@
       "The_Stinky_Cheese_Volcano_and_the_Floating_Balloon_Sky"
     ],
     "firstAppearanceStoryId": "The_Stinky_Cheese_Volcano_and_the_Floating_Balloon_Sky"
+  },
+  {
+    "id": "14357f027d0c4531afdb",
+    "name": "Bunsen's Laboratory",
+    "description": "A scientific workshop filled with chemicals, bathtubs, and the hub of many wacky experiments.",
+    "storyIds": [
+      "The_Stinky_Cheese_Volcano_and_the_Komodo_Dragon_Quest"
+    ],
+    "firstAppearanceStoryId": "The_Stinky_Cheese_Volcano_and_the_Komodo_Dragon_Quest"
+  },
+  {
+    "id": "2c9046e47c1243f6985b",
+    "name": "71 Beach Street",
+    "description": "Tot the Mouse's cozy home, located right around the corner from Isabella's house.",
+    "storyIds": [
+      "The_Stinky_Cheese_Volcano_and_the_Komodo_Dragon_Quest"
+    ],
+    "firstAppearanceStoryId": "The_Stinky_Cheese_Volcano_and_the_Komodo_Dragon_Quest"
+  },
+  {
+    "id": "28759dac70324b159698",
+    "name": "The Zoo",
+    "description": "The home of two grumpy, beef-loving Komodo dragons who refuse to get along.",
+    "storyIds": [
+      "The_Stinky_Cheese_Volcano_and_the_Komodo_Dragon_Quest"
+    ],
+    "firstAppearanceStoryId": "The_Stinky_Cheese_Volcano_and_the_Komodo_Dragon_Quest"
+  },
+  {
+    "id": "c9efe7e11b50448e9417",
+    "name": "Indonesia",
+    "description": "A far-off country on the other side of the globe where wild Komodo dragons reside.",
+    "storyIds": [
+      "The_Stinky_Cheese_Volcano_and_the_Komodo_Dragon_Quest"
+    ],
+    "firstAppearanceStoryId": "The_Stinky_Cheese_Volcano_and_the_Komodo_Dragon_Quest"
   }
 ]
