@@ -2557,7 +2557,8 @@
     "description": "A farmer with a comically absurd name who meticulously tends to his harvest of squerrets upon the geometric shores of Perfectly Square Island.",
     "storyIds": [
       "The_Dragonettes_and_the_Rainbow_Forest_Quest",
-      "The_Gopher_s_Squerret_Quest_in_Australia"
+      "The_Gopher_s_Squerret_Quest_in_Australia",
+      "Mischief_Mouse_and_the_Quest_for_Square-Rots"
     ],
     "firstAppearanceStoryId": "The_Dragonettes_and_the_Rainbow_Forest_Quest"
   },
@@ -3063,7 +3064,8 @@
       "Seeker_s_Midnight_Adventure_and_the_Dancing_Pterodactyl",
       "The_Adventures_of_Pumpkin_and_the_Potion_Closet",
       "Tot_s_Great_Cheese_Beach_Adventure",
-      "The_Stinky_Cheese_Volcano_and_the_Floating_Balloon_Sky"
+      "The_Stinky_Cheese_Volcano_and_the_Floating_Balloon_Sky",
+      "Mischief_Mouse_and_the_Quest_for_Square-Rots"
     ],
     "firstAppearanceStoryId": "The_Mischief_Moles_and_the_Plane_of_Fire"
   },
@@ -5678,7 +5680,8 @@
       "The_Putt-Putt_Road_Trip_Adventure",
       "The_Magic_Forest_Photo_Tour",
       "The_Mischiefy_Moles_and_the_Bookcase_of_Chaos",
-      "The_Polka-Dotted_Car_and_the_Shadow_Lab"
+      "The_Polka-Dotted_Car_and_the_Shadow_Lab",
+      "Mischief_Mouse_and_the_Quest_for_Square-Rots"
     ],
     "firstAppearanceStoryId": "The_Chronicles_of_Pinecone_Mouse_and_the_Pink_Tow_Truck"
   },
@@ -7200,5 +7203,23 @@
       "The_Stinky_Cheese_Volcano_and_the_Komodo_Dragon_Quest"
     ],
     "firstAppearanceStoryId": "The_Stinky_Cheese_Volcano_and_the_Komodo_Dragon_Quest"
+  },
+  {
+    "id": "4e4e945662fe4ddc9433",
+    "name": "Frozen Mango",
+    "description": "A superhero friend of Mischief Mouse who has zebra-like powers and wears a zebra cape.",
+    "storyIds": [
+      "Mischief_Mouse_and_the_Quest_for_Square-Rots"
+    ],
+    "firstAppearanceStoryId": "Mischief_Mouse_and_the_Quest_for_Square-Rots"
+  },
+  {
+    "id": "3c16edd8652542d187c2",
+    "name": "Abba",
+    "description": "A dancing queen who joins the flying crew on their quest.",
+    "storyIds": [
+      "Mischief_Mouse_and_the_Quest_for_Square-Rots"
+    ],
+    "firstAppearanceStoryId": "Mischief_Mouse_and_the_Quest_for_Square-Rots"
   }
 ]

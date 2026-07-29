@@ -4783,7 +4783,8 @@
     "name": "Perfectly Square Island",
     "description": "The home of Farmer Wobble where square carrots are grown.",
     "storyIds": [
-      "The_Gopher_s_Squerret_Quest_in_Australia"
+      "The_Gopher_s_Squerret_Quest_in_Australia",
+      "Mischief_Mouse_and_the_Quest_for_Square-Rots"
     ],
     "firstAppearanceStoryId": "The_Gopher_s_Squerret_Quest_in_Australia"
   },
@@ -5197,5 +5198,23 @@
       "The_Stinky_Cheese_Volcano_and_the_Komodo_Dragon_Quest"
     ],
     "firstAppearanceStoryId": "The_Stinky_Cheese_Volcano_and_the_Komodo_Dragon_Quest"
+  },
+  {
+    "id": "1bb22c5d68ce41a3b67c",
+    "name": "Bird Poop Island",
+    "description": "A spiky mountain island where birds live and produce valuable guano fertilizer.",
+    "storyIds": [
+      "Mischief_Mouse_and_the_Quest_for_Square-Rots"
+    ],
+    "firstAppearanceStoryId": "Mischief_Mouse_and_the_Quest_for_Square-Rots"
+  },
+  {
+    "id": "1884c5e081cc455d9162",
+    "name": "Canada Ocean",
+    "description": "A distant, chilly sea that serves as the native home of the massive, solitary great black-backle seagulls.",
+    "storyIds": [
+      "Mischief_Mouse_and_the_Quest_for_Square-Rots"
+    ],
+    "firstAppearanceStoryId": "Mischief_Mouse_and_the_Quest_for_Square-Rots"
   }
 ]
