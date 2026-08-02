@@ -341,7 +341,8 @@
       "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission",
       "Tot_s_Great_Cheese_Beach_Adventure",
       "The_Stinky_Cheese_Volcano_and_the_Floating_Balloon_Sky",
-      "The_Stinky_Cheese_Volcano_and_the_Komodo_Dragon_Quest"
+      "The_Stinky_Cheese_Volcano_and_the_Komodo_Dragon_Quest",
+      "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness"
     ],
     "firstAppearanceStoryId": "Frasgle_and_the_Sticky_Situation"
   },
@@ -2087,7 +2088,8 @@
       "The_Quest_for_the_Moon_Mother",
       "Seeker_and_the_Security_Cats_The_Potion_Caper",
       "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission",
-      "The_Stinky_Cheese_Volcano_and_the_Floating_Balloon_Sky"
+      "The_Stinky_Cheese_Volcano_and_the_Floating_Balloon_Sky",
+      "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness"
     ],
     "firstAppearanceStoryId": "The_Quest_for_the_Moon_Mother"
   },
@@ -2256,7 +2258,8 @@
     "description": "A cat traveler who journeys to Cat World and discovers his role in the story.",
     "storyIds": [
       "The_Wizard_Seker_and_the_Magical_Can_Opener_of_Cat_World",
-      "An_Accidental_Trip_to_Nana_s_House"
+      "An_Accidental_Trip_to_Nana_s_House",
+      "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness"
     ],
     "firstAppearanceStoryId": "The_Wizard_Seker_and_the_Magical_Can_Opener_of_Cat_World"
   },
@@ -2285,7 +2288,8 @@
       "The_Security_Cats_and_the_Rainbow_Party",
       "Seeker_and_the_Security_Cats_The_Potion_Caper",
       "Tot_s_Great_Cheese_Beach_Adventure",
-      "The_Stinky_Cheese_Volcano_and_the_Floating_Balloon_Sky"
+      "The_Stinky_Cheese_Volcano_and_the_Floating_Balloon_Sky",
+      "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness"
     ],
     "firstAppearanceStoryId": "Dimitar_and_the_Blueberry_Dragon_Pop"
   },
@@ -2558,7 +2562,8 @@
     "storyIds": [
       "The_Dragonettes_and_the_Rainbow_Forest_Quest",
       "The_Gopher_s_Squerret_Quest_in_Australia",
-      "Mischief_Mouse_and_the_Quest_for_Square-Rots"
+      "Mischief_Mouse_and_the_Quest_for_Square-Rots",
+      "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness"
     ],
     "firstAppearanceStoryId": "The_Dragonettes_and_the_Rainbow_Forest_Quest"
   },
@@ -2640,7 +2645,8 @@
       "Seeker_s_Deep_Earth_Adventure",
       "The_Floof-Berry_Mission_and_the_Great_Snowstorm",
       "The_Magic_Star_Potion_and_the_Journey_to_Star_World",
-      "The_Security_Cats_and_the_Rainbow_Party"
+      "The_Security_Cats_and_the_Rainbow_Party",
+      "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness"
     ],
     "firstAppearanceStoryId": "The_Mischiefy_Moles_and_the_Bookcase_of_Chaos"
   },
@@ -3065,7 +3071,8 @@
       "The_Adventures_of_Pumpkin_and_the_Potion_Closet",
       "Tot_s_Great_Cheese_Beach_Adventure",
       "The_Stinky_Cheese_Volcano_and_the_Floating_Balloon_Sky",
-      "Mischief_Mouse_and_the_Quest_for_Square-Rots"
+      "Mischief_Mouse_and_the_Quest_for_Square-Rots",
+      "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness"
     ],
     "firstAppearanceStoryId": "The_Mischief_Moles_and_the_Plane_of_Fire"
   },
@@ -3433,7 +3440,8 @@
     "storyIds": [
       "The_Moles_Intergalactic_Snack_Run",
       "The_Mookers_the_Floofers_and_the_Solar_Mookball",
-      "The_Security_Cats_and_the_Rainbow_Party"
+      "The_Security_Cats_and_the_Rainbow_Party",
+      "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness"
     ],
     "firstAppearanceStoryId": "The_Moles_Intergalactic_Snack_Run"
   },
@@ -4556,7 +4564,8 @@
       "Dimatar_s_Big_Day_at_Ginger_Catasorry",
       "The_Flying_Friends_of_Strawberry_Island",
       "Dimitar_s_Flight_to_Cadasori",
-      "Wobbly_Whisker_and_the_Mountaintop_Fish_House-2"
+      "Wobbly_Whisker_and_the_Mountaintop_Fish_House-2",
+      "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness"
     ],
     "firstAppearanceStoryId": "The_Chugga-Chugga_Journey_to_Nana_s_House"
   },
@@ -6509,7 +6518,8 @@
       "The_Dragonettes_and_the_Rainbow_Forest_Quest",
       "A_Sticky_Adventure_to_the_Castle_of_Slime",
       "The_Mookers_the_Floofers_and_the_Solar_Mookball",
-      "The_Security_Cats_and_the_Rainbow_Party"
+      "The_Security_Cats_and_the_Rainbow_Party",
+      "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness"
     ],
     "firstAppearanceStoryId": "The_Bouncing_Floofers_of_the_Golden_Cloud"
   },
@@ -7221,5 +7231,41 @@
       "Mischief_Mouse_and_the_Quest_for_Square-Rots"
     ],
     "firstAppearanceStoryId": "Mischief_Mouse_and_the_Quest_for_Square-Rots"
+  },
+  {
+    "id": "3b3c649310ed492fa6c4",
+    "name": "Miss Thereso",
+    "description": "Isabella's favorite camp teacher who joins the adventure and helps dig with a large shovel.",
+    "storyIds": [
+      "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness"
+    ],
+    "firstAppearanceStoryId": "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness"
+  },
+  {
+    "id": "a8bd3bb030e347c98601",
+    "name": "Zara",
+    "description": "A dragonet who was trapped alongside Ginger in the underground hole.",
+    "storyIds": [
+      "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness"
+    ],
+    "firstAppearanceStoryId": "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness"
+  },
+  {
+    "id": "a1aa6fce4d73484e8bbd",
+    "name": "Queen Mermaid",
+    "description": "A superhero grown-up mergirl who loves adventure, explores the Mariana Trench, and believes that thwacking is a kind way to get attention.",
+    "storyIds": [
+      "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness"
+    ],
+    "firstAppearanceStoryId": "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness"
+  },
+  {
+    "id": "a9bd0af4dc9944d3a61d",
+    "name": "The Security Cats",
+    "description": "A group of detective felines who always have a plan.",
+    "storyIds": [
+      "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness"
+    ],
+    "firstAppearanceStoryId": "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness"
   }
 ]

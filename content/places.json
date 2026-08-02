@@ -3565,7 +3565,8 @@
       "The_Ice_Dragon_s_New_Hat",
       "Dimatar_s_Big_Day_at_Ginger_Catasorry",
       "The_Flying_Friends_of_Strawberry_Island",
-      "Seeker_and_the_Security_Cats_The_Potion_Caper"
+      "Seeker_and_the_Security_Cats_The_Potion_Caper",
+      "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness"
     ],
     "firstAppearanceStoryId": "The_Giant_Rescue_on_Volcano_Island"
   },
@@ -4237,7 +4238,8 @@
       "Seeker_s_Midnight_Adventure_and_the_Dancing_Pterodactyl",
       "The_Adventures_of_Pumpkin_and_the_Potion_Closet",
       "Tot_s_Great_Cheese_Beach_Adventure",
-      "The_Stinky_Cheese_Volcano_and_the_Floating_Balloon_Sky"
+      "The_Stinky_Cheese_Volcano_and_the_Floating_Balloon_Sky",
+      "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness"
     ],
     "firstAppearanceStoryId": "A_Sticky_Adventure_to_the_Castle_of_Slime"
   },
@@ -5216,5 +5218,14 @@
       "Mischief_Mouse_and_the_Quest_for_Square-Rots"
     ],
     "firstAppearanceStoryId": "Mischief_Mouse_and_the_Quest_for_Square-Rots"
+  },
+  {
+    "id": "f524edd48b604f9b8e26",
+    "name": "The Mariana Trench",
+    "description": "A deep underwater trench that only superhero grown-up mergirls can safely explore.",
+    "storyIds": [
+      "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness"
+    ],
+    "firstAppearanceStoryId": "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness"
   }
 ]
