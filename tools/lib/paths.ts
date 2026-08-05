@@ -12,6 +12,9 @@ export const CONTENT_CHARACTERS = path.join(CONTENT_DIR, 'characters.json');
 export const CONTENT_PLACES = path.join(CONTENT_DIR, 'places.json');
 export const CONTENT_MANIFEST = path.join(CONTENT_DIR, 'manifest.json');
 export const CONTENT_WORLD_DNA = path.join(CONTENT_DIR, 'world-dna.md');
+// A hand-authored standalone page, copied to site/public and served next to the
+// SPA (it is its own document, not a view). See content/dragonet-dossier.md.
+export const CONTENT_DRAGONET_DOSSIER = path.join(CONTENT_DIR, 'dragonet-dossier.html');
 export const CONTENT_WORLDS = path.join(CONTENT_DIR, 'worlds.json');
 export const CONTENT_FOREST = path.join(CONTENT_DIR, 'forest.json');
 // Generated forest-map location art lands here as <location-id>.png.

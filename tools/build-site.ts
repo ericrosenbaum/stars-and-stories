@@ -12,11 +12,13 @@ import {
   CONTENT_CHARACTERS,
   CONTENT_PLACES,
   CONTENT_WORLD_DNA,
+  CONTENT_DRAGONET_DOSSIER,
   CONTENT_WORLDS,
   CONTENT_FOREST,
   CONTENT_FOREST_ART_DIR,
   FOREST_LANDSCAPE_PNG,
   SITE_MEDIA_FOREST_DIR,
+  SITE_PUBLIC_DIR,
   SITE_DATA_DIR,
   SITE_DATA_STORIES_DIR,
   SITE_DATA_STORYBOARDS_DIR,
@@ -226,6 +228,12 @@ export async function buildSite({ force = false } = {}): Promise<void> {
 
   const worldDna = fs.existsSync(CONTENT_WORLD_DNA) ? fs.readFileSync(CONTENT_WORLD_DNA, 'utf8') : '';
   fs.writeFileSync(path.join(SITE_DATA_DIR, 'world-dna.md'), worldDna);
+
+  // Standalone pages live beside index.html rather than in data/, because the
+  // browser loads them directly instead of the SPA fetching them.
+  if (fs.existsSync(CONTENT_DRAGONET_DOSSIER)) {
+    fs.copyFileSync(CONTENT_DRAGONET_DOSSIER, path.join(SITE_PUBLIC_DIR, 'dragonet-dossier.html'));
+  }
 
   let encodedAudio = 0;
   let encodedImg = 0;

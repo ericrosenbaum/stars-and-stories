@@ -21,6 +21,18 @@ site/      the Vite + React app that becomes the website
 `site/public/media` are **derived** from it by `tools/build-site.ts` and are
 committed so GitHub Pages can serve them directly.
 
+### Standalone pages
+
+`content/dragonet-dossier.html` is a hand-authored page (worldbuilding notes on
+the dragonets, drawn from the transcripts) that `npm run build` copies to
+`site/public/dragonet-dossier.html`. It is its own document rather than a view in
+the SPA — the sidebar links out to it, and it carries its own styles, its own
+light/dark tokens (it follows the archive's theme via `localStorage`), and print
+rules, so ⌘P produces a paginated US-Letter edition. Edit the file in `content/`
+and re-run the build; never edit the copy under `site/public`.
+`content/dragonet-dossier.md` holds the same material as plain markdown for
+grepping and editing.
+
 ## Viewing / developing the site
 
 ```bash

@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import { BookOpen, Users, MapPin, ChevronRight, Sparkles, Home, Menu, Activity, X, Moon, Sun, Orbit, TreePine } from 'lucide-react';
+import { BookOpen, Users, MapPin, ChevronRight, Sparkles, Home, Menu, Activity, X, Moon, Sun, Orbit, TreePine, ScrollText } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 
 import StoryList from './components/StoryList';
@@ -258,6 +258,7 @@ export default function App() {
               <NavItem active={view === 'places'} onClick={() => { setHighlightId(null); goView('places'); setIsMenuOpen(false); }} icon={<MapPin className="w-5 h-5" />} label="Places" />
               <NavItem active={view === 'cosmology'} onClick={() => { goView('cosmology'); setIsMenuOpen(false); }} icon={<Orbit className="w-5 h-5" />} label="Cosmology" />
               <NavItem active={view === 'forest'} onClick={() => { goView('forest'); setIsMenuOpen(false); }} icon={<TreePine className="w-5 h-5" />} label="The Forest" />
+              <NavLink href={`${import.meta.env.BASE_URL}dragonet-dossier.html`} icon={<ScrollText className="w-5 h-5" />} label="Dragonets" />
             </nav>
 
             <div className="p-4 border-t border-border space-y-4">
@@ -290,6 +291,20 @@ export default function App() {
         </AnimatePresence>
       </main>
     </div>
+  );
+}
+
+/** A nav row that leaves the SPA for a standalone page served beside it. */
+function NavLink({ href, icon, label }: { href: string; icon: React.ReactNode; label: string }) {
+  return (
+    <a
+      href={href}
+      className="w-full flex items-center gap-3 p-4 rounded-xl transition-all duration-200 touch-manipulation text-left text-muted hover:bg-background active:bg-background"
+    >
+      <div className="text-brand">{icon}</div>
+      <span className="font-medium flex-1">{label}</span>
+      <ChevronRight className="w-4 h-4 opacity-40" />
+    </a>
   );
 }
 
