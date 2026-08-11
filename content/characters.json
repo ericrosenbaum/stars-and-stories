@@ -530,7 +530,8 @@
       "Kitty_the_Cat_Superhero_and_the_Gopher_Tunnel_Visit",
       "The_Great_Kibble_Cat-astrophe",
       "Dimatar_s_Big_Day_at_Ginger_Catasorry",
-      "The_Gopher_s_Squerret_Quest_in_Australia"
+      "The_Gopher_s_Squerret_Quest_in_Australia",
+      "Bunsen_s_First_Day_at_Catasory"
     ],
     "firstAppearanceStoryId": "Kitty_s_Crew_and_the_Underground_Adventure"
   },
@@ -1360,7 +1361,8 @@
       "The_Magic_Star_Potion_and_the_Journey_to_Star_World",
       "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission",
       "Seeker_s_Midnight_Adventure_and_the_Dancing_Pterodactyl",
-      "The_Stinky_Cheese_Volcano_and_the_Komodo_Dragon_Quest"
+      "The_Stinky_Cheese_Volcano_and_the_Komodo_Dragon_Quest",
+      "Bunsen_s_First_Day_at_Catasory"
     ],
     "firstAppearanceStoryId": "The_Floof-Berry_Mission_and_the_Great_Snowstorm"
   },
@@ -2259,7 +2261,8 @@
     "storyIds": [
       "The_Wizard_Seker_and_the_Magical_Can_Opener_of_Cat_World",
       "An_Accidental_Trip_to_Nana_s_House",
-      "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness"
+      "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness",
+      "Bunsen_s_First_Day_at_Catasory"
     ],
     "firstAppearanceStoryId": "The_Wizard_Seker_and_the_Magical_Can_Opener_of_Cat_World"
   },
@@ -2289,7 +2292,8 @@
       "Seeker_and_the_Security_Cats_The_Potion_Caper",
       "Tot_s_Great_Cheese_Beach_Adventure",
       "The_Stinky_Cheese_Volcano_and_the_Floating_Balloon_Sky",
-      "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness"
+      "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness",
+      "Bunsen_s_First_Day_at_Catasory"
     ],
     "firstAppearanceStoryId": "Dimitar_and_the_Blueberry_Dragon_Pop"
   },
@@ -3275,7 +3279,8 @@
       "Kitty_the_Cat_Superhero_and_the_Gopher_Tunnel_Visit",
       "The_Great_Kibble_Cat-astrophe",
       "Dimatar_s_Big_Day_at_Ginger_Catasorry",
-      "The_Gopher_s_Squerret_Quest_in_Australia"
+      "The_Gopher_s_Squerret_Quest_in_Australia",
+      "Bunsen_s_First_Day_at_Catasory"
     ],
     "firstAppearanceStoryId": "Kitty_s_Crew_and_the_Underground_Adventure"
   },
@@ -3441,7 +3446,8 @@
       "The_Moles_Intergalactic_Snack_Run",
       "The_Mookers_the_Floofers_and_the_Solar_Mookball",
       "The_Security_Cats_and_the_Rainbow_Party",
-      "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness"
+      "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness",
+      "Bunsen_s_First_Day_at_Catasory"
     ],
     "firstAppearanceStoryId": "The_Moles_Intergalactic_Snack_Run"
   },
@@ -4565,7 +4571,8 @@
       "The_Flying_Friends_of_Strawberry_Island",
       "Dimitar_s_Flight_to_Cadasori",
       "Wobbly_Whisker_and_the_Mountaintop_Fish_House-2",
-      "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness"
+      "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness",
+      "Bunsen_s_First_Day_at_Catasory"
     ],
     "firstAppearanceStoryId": "The_Chugga-Chugga_Journey_to_Nana_s_House"
   },
@@ -4607,7 +4614,8 @@
       "The_Gopher_s_Squerret_Quest_in_Australia",
       "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission",
       "Seeker_s_Midnight_Adventure_and_the_Dancing_Pterodactyl",
-      "The_Stinky_Cheese_Volcano_and_the_Komodo_Dragon_Quest"
+      "The_Stinky_Cheese_Volcano_and_the_Komodo_Dragon_Quest",
+      "Bunsen_s_First_Day_at_Catasory"
     ],
     "firstAppearanceStoryId": "Late_Night_Tea_with_Mrs_Piggy_and_the_Muppets"
   },
@@ -6519,7 +6527,8 @@
       "A_Sticky_Adventure_to_the_Castle_of_Slime",
       "The_Mookers_the_Floofers_and_the_Solar_Mookball",
       "The_Security_Cats_and_the_Rainbow_Party",
-      "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness"
+      "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness",
+      "Bunsen_s_First_Day_at_Catasory"
     ],
     "firstAppearanceStoryId": "The_Bouncing_Floofers_of_the_Golden_Cloud"
   },
@@ -7267,5 +7276,23 @@
       "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness"
     ],
     "firstAppearanceStoryId": "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness"
+  },
+  {
+    "id": "a806c0e846444caf93e3",
+    "name": "Helua",
+    "description": "Bunsen's caring dragon mother, a green and red dragon who possesses mold chip, grass, and lava powers.",
+    "storyIds": [
+      "Bunsen_s_First_Day_at_Catasory"
+    ],
+    "firstAppearanceStoryId": "Bunsen_s_First_Day_at_Catasory"
+  },
+  {
+    "id": "6981d3a09dbe484fac77",
+    "name": "Amoosu",
+    "description": "A fire dragon who is part of the school community.",
+    "storyIds": [
+      "Bunsen_s_First_Day_at_Catasory"
+    ],
+    "firstAppearanceStoryId": "Bunsen_s_First_Day_at_Catasory"
   }
 ]

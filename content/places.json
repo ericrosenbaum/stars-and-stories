@@ -5227,5 +5227,14 @@
       "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness"
     ],
     "firstAppearanceStoryId": "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness"
+  },
+  {
+    "id": "690aa0906acd4973858c",
+    "name": "Catasory",
+    "description": "A bustling, friendly school where scientists, dragonettes, cats, and other unique creatures learn together.",
+    "storyIds": [
+      "Bunsen_s_First_Day_at_Catasory"
+    ],
+    "firstAppearanceStoryId": "Bunsen_s_First_Day_at_Catasory"
   }
 ]
