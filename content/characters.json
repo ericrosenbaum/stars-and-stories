@@ -342,7 +342,8 @@
       "Tot_s_Great_Cheese_Beach_Adventure",
       "The_Stinky_Cheese_Volcano_and_the_Floating_Balloon_Sky",
       "The_Stinky_Cheese_Volcano_and_the_Komodo_Dragon_Quest",
-      "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness"
+      "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness",
+      "The_Grand_Singing_Competition_of_Circular_Island"
     ],
     "firstAppearanceStoryId": "Frasgle_and_the_Sticky_Situation"
   },
@@ -1782,7 +1783,8 @@
       "Dr_Izzy_and_the_Forest_Rescue",
       "Tot_s_Great_Cheese_Beach_Adventure",
       "The_Stinky_Cheese_Volcano_and_the_Floating_Balloon_Sky",
-      "The_Stinky_Cheese_Volcano_and_the_Komodo_Dragon_Quest"
+      "The_Stinky_Cheese_Volcano_and_the_Komodo_Dragon_Quest",
+      "The_Grand_Singing_Competition_of_Circular_Island"
     ],
     "firstAppearanceStoryId": "Dr_Izzy_and_the_Forest_Rescue"
   },
@@ -2293,7 +2295,8 @@
       "Tot_s_Great_Cheese_Beach_Adventure",
       "The_Stinky_Cheese_Volcano_and_the_Floating_Balloon_Sky",
       "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness",
-      "Bunsen_s_First_Day_at_Catasory"
+      "Bunsen_s_First_Day_at_Catasory",
+      "The_Grand_Singing_Competition_of_Circular_Island"
     ],
     "firstAppearanceStoryId": "Dimitar_and_the_Blueberry_Dragon_Pop"
   },
@@ -7294,5 +7297,32 @@
       "Bunsen_s_First_Day_at_Catasory"
     ],
     "firstAppearanceStoryId": "Bunsen_s_First_Day_at_Catasory"
+  },
+  {
+    "id": "c9bc5197c3824bd081ee",
+    "name": "The Mayor Dragonet",
+    "description": "The leader of the island and host of the grand singing competition who judges the performances.",
+    "storyIds": [
+      "The_Grand_Singing_Competition_of_Circular_Island"
+    ],
+    "firstAppearanceStoryId": "The_Grand_Singing_Competition_of_Circular_Island"
+  },
+  {
+    "id": "b3f3feb59d3a4b5fb635",
+    "name": "Ariel",
+    "description": "A mermaid friend of Isabella who plans to compete in the next singing contest using magical legs.",
+    "storyIds": [
+      "The_Grand_Singing_Competition_of_Circular_Island"
+    ],
+    "firstAppearanceStoryId": "The_Grand_Singing_Competition_of_Circular_Island"
+  },
+  {
+    "id": "f2cdf124a35744c8b6de",
+    "name": "The Shy Dragonet",
+    "description": "A young dragonet who kicks off the singing competition by humming her song.",
+    "storyIds": [
+      "The_Grand_Singing_Competition_of_Circular_Island"
+    ],
+    "firstAppearanceStoryId": "The_Grand_Singing_Competition_of_Circular_Island"
   }
 ]

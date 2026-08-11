@@ -3566,7 +3566,8 @@
       "Dimatar_s_Big_Day_at_Ginger_Catasorry",
       "The_Flying_Friends_of_Strawberry_Island",
       "Seeker_and_the_Security_Cats_The_Potion_Caper",
-      "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness"
+      "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness",
+      "The_Grand_Singing_Competition_of_Circular_Island"
     ],
     "firstAppearanceStoryId": "The_Giant_Rescue_on_Volcano_Island"
   },
@@ -5236,5 +5237,14 @@
       "Bunsen_s_First_Day_at_Catasory"
     ],
     "firstAppearanceStoryId": "Bunsen_s_First_Day_at_Catasory"
+  },
+  {
+    "id": "c4cc4495733144988c68",
+    "name": "The Mountain Castle",
+    "description": "A beautiful castle located on the side of the mountain where the dragonets host their grand rituals and competitions.",
+    "storyIds": [
+      "The_Grand_Singing_Competition_of_Circular_Island"
+    ],
+    "firstAppearanceStoryId": "The_Grand_Singing_Competition_of_Circular_Island"
   }
 ]
