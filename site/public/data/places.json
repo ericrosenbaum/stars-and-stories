@@ -5246,5 +5246,14 @@
       "The_Grand_Singing_Competition_of_Circular_Island"
     ],
     "firstAppearanceStoryId": "The_Grand_Singing_Competition_of_Circular_Island"
+  },
+  {
+    "id": "4811a60c753940779284",
+    "name": "Sand World",
+    "description": "A magical realm where colorful sand treasures originate and mysterious creatures dwell.",
+    "storyIds": [
+      "The_Mysterious_Sand_Bottle_and_the_No-Crying_Game"
+    ],
+    "firstAppearanceStoryId": "The_Mysterious_Sand_Bottle_and_the_No-Crying_Game"
   }
 ]
