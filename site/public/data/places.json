@@ -3567,7 +3567,8 @@
       "The_Flying_Friends_of_Strawberry_Island",
       "Seeker_and_the_Security_Cats_The_Potion_Caper",
       "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness",
-      "The_Grand_Singing_Competition_of_Circular_Island"
+      "The_Grand_Singing_Competition_of_Circular_Island",
+      "The_Case_of_the_Kidnapped_Dwarf_and_the_Magic_Ladder"
     ],
     "firstAppearanceStoryId": "The_Giant_Rescue_on_Volcano_Island"
   },
@@ -4240,7 +4241,8 @@
       "The_Adventures_of_Pumpkin_and_the_Potion_Closet",
       "Tot_s_Great_Cheese_Beach_Adventure",
       "The_Stinky_Cheese_Volcano_and_the_Floating_Balloon_Sky",
-      "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness"
+      "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness",
+      "The_Case_of_the_Kidnapped_Dwarf_and_the_Magic_Ladder"
     ],
     "firstAppearanceStoryId": "A_Sticky_Adventure_to_the_Castle_of_Slime"
   },
@@ -4955,7 +4957,8 @@
     "description": "The beautiful home base where the security cats live.",
     "storyIds": [
       "Wobbly_Whisker_and_the_Mountaintop_Fish_House-2",
-      "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission"
+      "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission",
+      "The_Case_of_the_Kidnapped_Dwarf_and_the_Magic_Ladder"
     ],
     "firstAppearanceStoryId": "Wobbly_Whisker_and_the_Mountaintop_Fish_House-2"
   },

@@ -343,7 +343,8 @@
       "The_Stinky_Cheese_Volcano_and_the_Floating_Balloon_Sky",
       "The_Stinky_Cheese_Volcano_and_the_Komodo_Dragon_Quest",
       "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness",
-      "The_Grand_Singing_Competition_of_Circular_Island"
+      "The_Grand_Singing_Competition_of_Circular_Island",
+      "The_Case_of_the_Kidnapped_Dwarf_and_the_Magic_Ladder"
     ],
     "firstAppearanceStoryId": "Frasgle_and_the_Sticky_Situation"
   },
@@ -2093,7 +2094,8 @@
       "Seeker_and_the_Security_Cats_The_Potion_Caper",
       "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission",
       "The_Stinky_Cheese_Volcano_and_the_Floating_Balloon_Sky",
-      "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness"
+      "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness",
+      "The_Case_of_the_Kidnapped_Dwarf_and_the_Magic_Ladder"
     ],
     "firstAppearanceStoryId": "The_Quest_for_the_Moon_Mother"
   },
@@ -3081,7 +3083,8 @@
       "The_Stinky_Cheese_Volcano_and_the_Floating_Balloon_Sky",
       "Mischief_Mouse_and_the_Quest_for_Square-Rots",
       "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness",
-      "The_Mysterious_Sand_Bottle_and_the_No-Crying_Game"
+      "The_Mysterious_Sand_Bottle_and_the_No-Crying_Game",
+      "The_Case_of_the_Kidnapped_Dwarf_and_the_Magic_Ladder"
     ],
     "firstAppearanceStoryId": "The_Mischief_Moles_and_the_Plane_of_Fire"
   },
@@ -5703,7 +5706,8 @@
       "The_Magic_Forest_Photo_Tour",
       "The_Mischiefy_Moles_and_the_Bookcase_of_Chaos",
       "The_Polka-Dotted_Car_and_the_Shadow_Lab",
-      "Mischief_Mouse_and_the_Quest_for_Square-Rots"
+      "Mischief_Mouse_and_the_Quest_for_Square-Rots",
+      "The_Case_of_the_Kidnapped_Dwarf_and_the_Magic_Ladder"
     ],
     "firstAppearanceStoryId": "The_Chronicles_of_Pinecone_Mouse_and_the_Pink_Tow_Truck"
   },
@@ -6123,7 +6127,8 @@
     "name": "Demitar",
     "description": "A winged friend of Icicle who flies down the mountain to catch fish for the group.",
     "storyIds": [
-      "The_Ice_Dragon_s_Sparkly_Castle_and_the_Great_Ice_Festival"
+      "The_Ice_Dragon_s_Sparkly_Castle_and_the_Great_Ice_Festival",
+      "The_Case_of_the_Kidnapped_Dwarf_and_the_Magic_Ladder"
     ],
     "firstAppearanceStoryId": "The_Ice_Dragon_s_Sparkly_Castle_and_the_Great_Ice_Festival"
   },
@@ -6242,7 +6247,8 @@
       "The_Sparkling_Dust_of_Book_World",
       "The_Salty_Solution_for_a_Frozen_Island",
       "The_Security_Cats_and_the_Rainbow_Party",
-      "The_Cozy_Potions_of_Sleepy_World"
+      "The_Cozy_Potions_of_Sleepy_World",
+      "The_Case_of_the_Kidnapped_Dwarf_and_the_Magic_Ladder"
     ],
     "firstAppearanceStoryId": "Hattie_s_Workshop_Puzzles_and_Purple_Hats"
   },
@@ -7326,5 +7332,41 @@
       "The_Grand_Singing_Competition_of_Circular_Island"
     ],
     "firstAppearanceStoryId": "The_Grand_Singing_Competition_of_Circular_Island"
+  },
+  {
+    "id": "b5346fdd5a90429e85ab",
+    "name": "Serana",
+    "description": "A member of the Security Cats who uses a magnifying glass to inspect clues.",
+    "storyIds": [
+      "The_Case_of_the_Kidnapped_Dwarf_and_the_Magic_Ladder"
+    ],
+    "firstAppearanceStoryId": "The_Case_of_the_Kidnapped_Dwarf_and_the_Magic_Ladder"
+  },
+  {
+    "id": "d811cb56d90d489ea94e",
+    "name": "Zola",
+    "description": "A green-and-orange scaled dragonet from Circular Island who behaves suspiciously on the phone.",
+    "storyIds": [
+      "The_Case_of_the_Kidnapped_Dwarf_and_the_Magic_Ladder"
+    ],
+    "firstAppearanceStoryId": "The_Case_of_the_Kidnapped_Dwarf_and_the_Magic_Ladder"
+  },
+  {
+    "id": "4e4a695957e34752a095",
+    "name": "King Dragonet",
+    "description": "The leader of the dragonets on Circular Island.",
+    "storyIds": [
+      "The_Case_of_the_Kidnapped_Dwarf_and_the_Magic_Ladder"
+    ],
+    "firstAppearanceStoryId": "The_Case_of_the_Kidnapped_Dwarf_and_the_Magic_Ladder"
+  },
+  {
+    "id": "1bbd725183294990aae2",
+    "name": "The Magic Ladder",
+    "description": "A sentient, flying wooden ladder that communicates in Ladderish.",
+    "storyIds": [
+      "The_Case_of_the_Kidnapped_Dwarf_and_the_Magic_Ladder"
+    ],
+    "firstAppearanceStoryId": "The_Case_of_the_Kidnapped_Dwarf_and_the_Magic_Ladder"
   }
 ]
