@@ -345,6 +345,7 @@
       "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness",
       "The_Grand_Singing_Competition_of_Circular_Island",
       "The_Case_of_the_Kidnapped_Dwarf_and_the_Magic_Ladder",
+      "The_Secret_of_the_Galapagos_Blub_Creatures",
       "Walkie-Talkies_for_the_Yellow_Jackets"
     ],
     "firstAppearanceStoryId": "Frasgle_and_the_Sticky_Situation"
@@ -1365,7 +1366,8 @@
       "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission",
       "Seeker_s_Midnight_Adventure_and_the_Dancing_Pterodactyl",
       "The_Stinky_Cheese_Volcano_and_the_Komodo_Dragon_Quest",
-      "Bunsen_s_First_Day_at_Catasory"
+      "Bunsen_s_First_Day_at_Catasory",
+      "The_Secret_of_the_Galapagos_Blub_Creatures"
     ],
     "firstAppearanceStoryId": "The_Floof-Berry_Mission_and_the_Great_Snowstorm"
   },
@@ -3086,6 +3088,7 @@
       "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness",
       "The_Mysterious_Sand_Bottle_and_the_No-Crying_Game",
       "The_Case_of_the_Kidnapped_Dwarf_and_the_Magic_Ladder",
+      "The_Secret_of_the_Galapagos_Blub_Creatures",
       "Walkie-Talkies_for_the_Yellow_Jackets"
     ],
     "firstAppearanceStoryId": "The_Mischief_Moles_and_the_Plane_of_Fire"
@@ -3459,7 +3462,8 @@
       "The_Mookers_the_Floofers_and_the_Solar_Mookball",
       "The_Security_Cats_and_the_Rainbow_Party",
       "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness",
-      "Bunsen_s_First_Day_at_Catasory"
+      "Bunsen_s_First_Day_at_Catasory",
+      "The_Secret_of_the_Galapagos_Blub_Creatures"
     ],
     "firstAppearanceStoryId": "The_Moles_Intergalactic_Snack_Run"
   },
@@ -4628,7 +4632,8 @@
       "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission",
       "Seeker_s_Midnight_Adventure_and_the_Dancing_Pterodactyl",
       "The_Stinky_Cheese_Volcano_and_the_Komodo_Dragon_Quest",
-      "Bunsen_s_First_Day_at_Catasory"
+      "Bunsen_s_First_Day_at_Catasory",
+      "The_Secret_of_the_Galapagos_Blub_Creatures"
     ],
     "firstAppearanceStoryId": "Late_Night_Tea_with_Mrs_Piggy_and_the_Muppets"
   },
@@ -6544,7 +6549,8 @@
       "The_Mookers_the_Floofers_and_the_Solar_Mookball",
       "The_Security_Cats_and_the_Rainbow_Party",
       "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness",
-      "Bunsen_s_First_Day_at_Catasory"
+      "Bunsen_s_First_Day_at_Catasory",
+      "The_Secret_of_the_Galapagos_Blub_Creatures"
     ],
     "firstAppearanceStoryId": "The_Bouncing_Floofers_of_the_Golden_Cloud"
   },
@@ -7382,5 +7388,23 @@
       "Walkie-Talkies_for_the_Yellow_Jackets"
     ],
     "firstAppearanceStoryId": "Walkie-Talkies_for_the_Yellow_Jackets"
+  },
+  {
+    "id": "e538ba2ecd484d0eb65c",
+    "name": "Blubbert",
+    "description": "A shy, hungry blub creature who resides in a beautifully self-decorated cardboard box.",
+    "storyIds": [
+      "The_Secret_of_the_Galapagos_Blub_Creatures"
+    ],
+    "firstAppearanceStoryId": "The_Secret_of_the_Galapagos_Blub_Creatures"
+  },
+  {
+    "id": "b3683d857f564da3bbae",
+    "name": "Little Fish",
+    "description": "A timid aquatic creature living near the Galapagos who is terrified of being eaten by larger beasts.",
+    "storyIds": [
+      "The_Secret_of_the_Galapagos_Blub_Creatures"
+    ],
+    "firstAppearanceStoryId": "The_Secret_of_the_Galapagos_Blub_Creatures"
   }
 ]

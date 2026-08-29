@@ -5278,5 +5278,41 @@
       "Walkie-Talkies_for_the_Yellow_Jackets"
     ],
     "firstAppearanceStoryId": "Walkie-Talkies_for_the_Yellow_Jackets"
+  },
+  {
+    "id": "5064803aaee9400ca003",
+    "name": "Galapagos Islands",
+    "description": "A chain of volcanic islands in the Pacific Ocean, filled with diverse ecosystems and covered in cardboard boxes.",
+    "storyIds": [
+      "The_Secret_of_the_Galapagos_Blub_Creatures"
+    ],
+    "firstAppearanceStoryId": "The_Secret_of_the_Galapagos_Blub_Creatures"
+  },
+  {
+    "id": "f095d63e2f33454b822b",
+    "name": "The Floofer Cloud",
+    "description": "A soft, fluffy, and gently-glowing sky landscape where the Floofers live.",
+    "storyIds": [
+      "The_Secret_of_the_Galapagos_Blub_Creatures"
+    ],
+    "firstAppearanceStoryId": "The_Secret_of_the_Galapagos_Blub_Creatures"
+  },
+  {
+    "id": "c4264c9b494b47d8bd7a",
+    "name": "The Planet of the Mookers",
+    "description": "The home planet of the Mookers where they play competitive games of mookball.",
+    "storyIds": [
+      "The_Secret_of_the_Galapagos_Blub_Creatures"
+    ],
+    "firstAppearanceStoryId": "The_Secret_of_the_Galapagos_Blub_Creatures"
+  },
+  {
+    "id": "e5d88d3abea249d0868e",
+    "name": "The Pacific Ocean",
+    "description": "The vast body of water surrounding the islands where Beaker falls in and is rescued.",
+    "storyIds": [
+      "The_Secret_of_the_Galapagos_Blub_Creatures"
+    ],
+    "firstAppearanceStoryId": "The_Secret_of_the_Galapagos_Blub_Creatures"
   }
 ]
