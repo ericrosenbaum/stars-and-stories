@@ -344,7 +344,8 @@
       "The_Stinky_Cheese_Volcano_and_the_Komodo_Dragon_Quest",
       "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness",
       "The_Grand_Singing_Competition_of_Circular_Island",
-      "The_Case_of_the_Kidnapped_Dwarf_and_the_Magic_Ladder"
+      "The_Case_of_the_Kidnapped_Dwarf_and_the_Magic_Ladder",
+      "Walkie-Talkies_for_the_Yellow_Jackets"
     ],
     "firstAppearanceStoryId": "Frasgle_and_the_Sticky_Situation"
   },
@@ -3084,7 +3085,8 @@
       "Mischief_Mouse_and_the_Quest_for_Square-Rots",
       "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness",
       "The_Mysterious_Sand_Bottle_and_the_No-Crying_Game",
-      "The_Case_of_the_Kidnapped_Dwarf_and_the_Magic_Ladder"
+      "The_Case_of_the_Kidnapped_Dwarf_and_the_Magic_Ladder",
+      "Walkie-Talkies_for_the_Yellow_Jackets"
     ],
     "firstAppearanceStoryId": "The_Mischief_Moles_and_the_Plane_of_Fire"
   },
@@ -3288,7 +3290,8 @@
       "The_Great_Kibble_Cat-astrophe",
       "Dimatar_s_Big_Day_at_Ginger_Catasorry",
       "The_Gopher_s_Squerret_Quest_in_Australia",
-      "Bunsen_s_First_Day_at_Catasory"
+      "Bunsen_s_First_Day_at_Catasory",
+      "Walkie-Talkies_for_the_Yellow_Jackets"
     ],
     "firstAppearanceStoryId": "Kitty_s_Crew_and_the_Underground_Adventure"
   },
@@ -3423,7 +3426,8 @@
     "name": "The Cat Crew",
     "description": "Kitty the Superhero's group of feline companions who assist in her adventures.",
     "storyIds": [
-      "The_Case_of_the_Carrot-Loving_Gophers"
+      "The_Case_of_the_Carrot-Loving_Gophers",
+      "Walkie-Talkies_for_the_Yellow_Jackets"
     ],
     "firstAppearanceStoryId": "The_Case_of_the_Carrot-Loving_Gophers"
   },
@@ -4560,7 +4564,8 @@
       "The_Great_Kibble_Cat-astrophe",
       "Dimatar_s_Big_Day_at_Ginger_Catasorry",
       "The_Gopher_s_Squerret_Quest_in_Australia",
-      "The_Adventures_of_Pumpkin_and_the_Potion_Closet"
+      "The_Adventures_of_Pumpkin_and_the_Potion_Closet",
+      "Walkie-Talkies_for_the_Yellow_Jackets"
     ],
     "firstAppearanceStoryId": "Kitty_s_Crew_and_the_Underground_Adventure"
   },
@@ -7368,5 +7373,14 @@
       "The_Case_of_the_Kidnapped_Dwarf_and_the_Magic_Ladder"
     ],
     "firstAppearanceStoryId": "The_Case_of_the_Kidnapped_Dwarf_and_the_Magic_Ladder"
+  },
+  {
+    "id": "cd86f80541404a37a4ea",
+    "name": "The Yellow Jacket King",
+    "description": "The leader of the garden's yellow jackets who lives in the forest and agrees to communicate via walkie-talkie.",
+    "storyIds": [
+      "Walkie-Talkies_for_the_Yellow_Jackets"
+    ],
+    "firstAppearanceStoryId": "Walkie-Talkies_for_the_Yellow_Jackets"
   }
 ]

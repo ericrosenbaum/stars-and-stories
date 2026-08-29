@@ -661,7 +661,8 @@
     "storyIds": [
       "The_Big_Muck_Problem_One_Pile_at_a_Time",
       "Hattie_s_Block-Built_Nature_Walk_Adventure",
-      "The_Mystery_of_the_Pool_Noodle_Nibbler"
+      "The_Mystery_of_the_Pool_Noodle_Nibbler",
+      "Walkie-Talkies_for_the_Yellow_Jackets"
     ],
     "firstAppearanceStoryId": "The_Big_Muck_Problem_One_Pile_at_a_Time"
   },
@@ -2239,7 +2240,8 @@
     "name": "The Library",
     "description": "A location on the Planet of the Mookers where ancient fossil books are kept.",
     "storyIds": [
-      "Wobbly_Whisker_s_Sticky_Adventure_on_Planet_Mooker"
+      "Wobbly_Whisker_s_Sticky_Adventure_on_Planet_Mooker",
+      "Walkie-Talkies_for_the_Yellow_Jackets"
     ],
     "firstAppearanceStoryId": "Wobbly_Whisker_s_Sticky_Adventure_on_Planet_Mooker"
   },
@@ -5258,5 +5260,23 @@
       "The_Mysterious_Sand_Bottle_and_the_No-Crying_Game"
     ],
     "firstAppearanceStoryId": "The_Mysterious_Sand_Bottle_and_the_No-Crying_Game"
+  },
+  {
+    "id": "bb43d004dea0474d8571",
+    "name": "Turkey World",
+    "description": "A land previously visited and helped by Isabella and her friends.",
+    "storyIds": [
+      "Walkie-Talkies_for_the_Yellow_Jackets"
+    ],
+    "firstAppearanceStoryId": "Walkie-Talkies_for_the_Yellow_Jackets"
+  },
+  {
+    "id": "b9063c5cae5b4439a066",
+    "name": "The Clear Turkey Forest",
+    "description": "The home of the Yellow Jacket King.",
+    "storyIds": [
+      "Walkie-Talkies_for_the_Yellow_Jackets"
+    ],
+    "firstAppearanceStoryId": "Walkie-Talkies_for_the_Yellow_Jackets"
   }
 ]
