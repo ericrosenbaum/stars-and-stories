@@ -33,6 +33,13 @@ and re-run the build; never edit the copy under `site/public`.
 `content/dragonet-dossier.md` holds the same material as plain markdown for
 grepping and editing.
 
+`content/linguistics-report.html` is a second such page — a survey of the languages
+spoken across the archive (the zoosemiotic languages, the mechanical ones, and the
+incantation register), formatted as an academic paper. It follows the same
+conventions: `npm run build` copies it to `site/public/linguistics-report.html`, the
+sidebar links out to it, and `content/linguistics-report.md` is its plain-markdown
+twin. Edit the files in `content/` and re-run the build.
+
 ## Viewing / developing the site
 
 ```bash

@@ -15,6 +15,9 @@ export const CONTENT_WORLD_DNA = path.join(CONTENT_DIR, 'world-dna.md');
 // A hand-authored standalone page, copied to site/public and served next to the
 // SPA (it is its own document, not a view). See content/dragonet-dossier.md.
 export const CONTENT_DRAGONET_DOSSIER = path.join(CONTENT_DIR, 'dragonet-dossier.html');
+// Likewise: the survey of the languages spoken in the archive. See
+// content/linguistics-report.md.
+export const CONTENT_LINGUISTICS_REPORT = path.join(CONTENT_DIR, 'linguistics-report.html');
 export const CONTENT_WORLDS = path.join(CONTENT_DIR, 'worlds.json');
 export const CONTENT_FOREST = path.join(CONTENT_DIR, 'forest.json');
 // Generated forest-map location art lands here as <location-id>.png.

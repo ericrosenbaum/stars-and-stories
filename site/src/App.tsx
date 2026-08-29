@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import { BookOpen, Users, MapPin, ChevronRight, Sparkles, Home, Menu, Activity, X, Moon, Sun, Orbit, TreePine, ScrollText } from 'lucide-react';
+import { BookOpen, Users, MapPin, ChevronRight, Sparkles, Home, Menu, Activity, X, Moon, Sun, Orbit, TreePine, ScrollText, Languages } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 
 import StoryList from './components/StoryList';
@@ -259,6 +259,7 @@ export default function App() {
               <NavItem active={view === 'cosmology'} onClick={() => { goView('cosmology'); setIsMenuOpen(false); }} icon={<Orbit className="w-5 h-5" />} label="Cosmology" />
               <NavItem active={view === 'forest'} onClick={() => { goView('forest'); setIsMenuOpen(false); }} icon={<TreePine className="w-5 h-5" />} label="The Forest" />
               <NavLink href={`${import.meta.env.BASE_URL}dragonet-dossier.html`} icon={<ScrollText className="w-5 h-5" />} label="Dragonets" />
+              <NavLink href={`${import.meta.env.BASE_URL}linguistics-report.html`} icon={<Languages className="w-5 h-5" />} label="Languages" />
             </nav>
 
             <div className="p-4 border-t border-border space-y-4">

@@ -1,0 +1,1064 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="A descriptive survey of the seventeen languages attested in the Stars &amp; Stories transcript archive — phonology, syntax, semantics, and the open questions.">
+<link rel="icon" href="./favicon.svg">
+<title>The Languages of the Stars &amp; Stories Universe</title>
+
+<style>
+  /* ============================================================
+     Palette: the star projector on a dark ceiling — deep indigo
+     night, brass-gold starlight, and a parchment ground for the
+     paper itself. Flags borrow a clay red so that inference and
+     speculation are visible at a glance while skimming.
+     ============================================================ */
+  :root {
+    --ground:      #F4F1EA;
+    --surface:     #FBF9F5;
+    --surface-sunk:#E9E4D9;
+    --ink:         #1E1F2B;
+    --ink-soft:    #474A5E;
+    --ink-faint:   #6C7086;
+    --rule:        #C9C4B6;
+    --rule-soft:   #DDD8CA;
+    --accent:      #33417E;   /* night indigo        */
+    --accent-deep: #202A5C;
+    --accent-wash: #E1E4F1;
+    --gold:        #8A6516;   /* starlight brass     */
+    --gold-wash:   #F2E8CE;
+    --clay:        #8C3A26;   /* inference / caution */
+    --clay-wash:   #F6E2DB;
+
+    --font-display: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", "URW Palladio L", Georgia, serif;
+    --font-body:    Charter, "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+    --font-mono:    ui-monospace, "SF Mono", SFMono-Regular, Menlo, "Cascadia Mono", Consolas, monospace;
+
+    --measure: 36rem;
+    --step--2: 0.75rem;
+    --step--1: 0.8125rem;
+    --step-0:  1.0625rem;
+    --step-1:  1.1875rem;
+    --step-2:  1.4375rem;
+    --step-3:  1.875rem;
+    --step-4:  2.5rem;
+    --step-5:  3.5rem;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground:      #141520;
+      --surface:     #1C1E2C;
+      --surface-sunk:#0F1018;
+      --ink:         #E9E7E0;
+      --ink-soft:    #B3B2C0;
+      --ink-faint:   #8A8899;
+      --rule:        #343650;
+      --rule-soft:   #272939;
+      --accent:      #9AA8E4;
+      --accent-deep: #BAC4EF;
+      --accent-wash: #232741;
+      --gold:        #D9B45C;
+      --gold-wash:   #2E2717;
+      --clay:        #E0917A;
+      --clay-wash:   #33211C;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ground:      #141520;
+    --surface:     #1C1E2C;
+    --surface-sunk:#0F1018;
+    --ink:         #E9E7E0;
+    --ink-soft:    #B3B2C0;
+    --ink-faint:   #8A8899;
+    --rule:        #343650;
+    --rule-soft:   #272939;
+    --accent:      #9AA8E4;
+    --accent-deep: #BAC4EF;
+    --accent-wash: #232741;
+    --gold:        #D9B45C;
+    --gold-wash:   #2E2717;
+    --clay:        #E0917A;
+    --clay-wash:   #33211C;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--ground);
+    color: var(--ink);
+    font-family: var(--font-body);
+    font-size: var(--step-0);
+    line-height: 1.62;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* ---------- shell ---------- */
+  .wrap { max-width: 62rem; margin: 0 auto; padding: 0 1.5rem 6rem; }
+  .col  { max-width: var(--measure); }
+
+  .backlink {
+    display: inline-flex; gap: 0.5rem; align-items: center;
+    margin-top: 2rem;
+    font-family: var(--font-mono); font-size: var(--step--1);
+    color: var(--ink-faint); text-decoration: none;
+  }
+  .backlink:hover { color: var(--accent); }
+
+  /* Section rows: numbered gutter on wide screens, stacked below. */
+  .row {
+    display: grid; grid-template-columns: 1fr;
+    gap: 0.5rem 2.5rem;
+    padding-block: 2.5rem;
+    border-top: 1px solid var(--rule-soft);
+  }
+  @media (min-width: 62rem) { .row { grid-template-columns: 9rem minmax(0, 1fr); } }
+  .row > .eyebrow { grid-column: 1; }
+  .row > .body    { grid-column: 1; min-width: 0; max-width: 40rem; }
+  @media (min-width: 62rem) { .row > .body { grid-column: 2; } }
+  .body > * + * { margin-top: 1.05rem; }
+  .body > h3 + *, .body > h4 + * { margin-top: 0.55rem; }
+
+  .eyebrow {
+    font-family: var(--font-mono); font-size: var(--step--2);
+    letter-spacing: 0.14em; text-transform: uppercase;
+    color: var(--ink-faint); line-height: 1.5; padding-top: 0.5rem;
+  }
+  .eyebrow b { display: block; color: var(--accent); font-weight: 600; letter-spacing: 0.1em; }
+
+  /* ---------- masthead ---------- */
+  header.mast { padding: 4.5rem 0 2.25rem; display: grid; gap: 1.15rem; }
+  .kicker {
+    font-family: var(--font-mono); font-size: var(--step--2);
+    letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold);
+  }
+  h1 {
+    font-family: var(--font-display);
+    font-size: clamp(var(--step-4), 7.5vw, var(--step-5));
+    font-weight: 400; line-height: 1.04; letter-spacing: -0.02em;
+    margin: 0; text-wrap: balance; max-width: 22ch;
+  }
+  h1 em { font-style: italic; color: var(--accent); }
+  .standfirst {
+    font-size: var(--step-1); line-height: 1.5;
+    color: var(--ink-soft); max-width: 40rem; margin: 0;
+  }
+  .byline {
+    font-family: var(--font-mono); font-size: var(--step--1);
+    color: var(--ink-faint);
+    display: flex; flex-wrap: wrap; gap: 0.35rem 1.5rem;
+    padding-top: 0.6rem; border-top: 1px solid var(--rule);
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* ---------- abstract ---------- */
+  .abstract {
+    background: var(--surface); border: 1px solid var(--rule-soft);
+    border-left: 3px solid var(--accent);
+    padding: 1.5rem 1.6rem; margin: 0 0 0.5rem;
+    max-width: 44rem;
+  }
+  .abstract h2 {
+    font-family: var(--font-mono); font-size: var(--step--2);
+    letter-spacing: 0.16em; text-transform: uppercase;
+    color: var(--accent); margin: 0 0 0.65rem; font-weight: 600;
+  }
+  .abstract p { margin: 0 0 0.8rem; }
+  .abstract p:last-child { margin-bottom: 0; }
+
+  /* ---------- headings ---------- */
+  h2 {
+    font-family: var(--font-display); font-size: var(--step-3);
+    font-weight: 400; line-height: 1.14; letter-spacing: -0.01em;
+    margin: 0 0 0.4rem; text-wrap: balance;
+  }
+  h2 .num {
+    display: block; font-family: var(--font-mono); font-size: var(--step--2);
+    letter-spacing: 0.16em; color: var(--gold); text-transform: uppercase;
+    margin-bottom: 0.4rem;
+  }
+  h3 {
+    font-family: var(--font-display); font-size: var(--step-2);
+    font-weight: 400; line-height: 1.2; margin: 2rem 0 0;
+  }
+  h3 .num { font-family: var(--font-mono); font-size: 0.75em; color: var(--accent); margin-right: 0.55em; }
+  h4 {
+    font-family: var(--font-body); font-size: var(--step-0);
+    font-weight: 700; margin: 1.5rem 0 0;
+  }
+
+  p { margin: 0; }
+  a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+
+  /* ---------- quotes ---------- */
+  blockquote {
+    margin: 0; padding: 0.15rem 0 0.15rem 1.15rem;
+    border-left: 2px solid var(--rule);
+    color: var(--ink-soft); font-size: var(--step--1); line-height: 1.6;
+  }
+  blockquote b, blockquote strong { color: var(--ink); }
+  blockquote .cite {
+    display: block; margin-top: 0.5rem;
+    font-family: var(--font-mono); font-size: var(--step--2);
+    color: var(--ink-faint); font-style: normal;
+  }
+  blockquote .sp { font-variant: small-caps; letter-spacing: 0.03em; color: var(--accent); font-weight: 600; }
+
+  /* ---------- numbered linguistic examples ---------- */
+  .ex {
+    display: grid; grid-template-columns: 2.6rem minmax(0,1fr);
+    gap: 0.2rem 0.5rem; align-items: baseline;
+    background: var(--surface); border: 1px solid var(--rule-soft);
+    padding: 0.9rem 1rem; margin-top: 1.05rem;
+  }
+  .ex .n {
+    font-family: var(--font-mono); font-size: var(--step--1);
+    color: var(--gold); font-variant-numeric: tabular-nums;
+  }
+  .ex .f { font-family: var(--font-mono); font-size: var(--step--1); color: var(--ink); }
+  .ex .g { grid-column: 2; font-size: var(--step--1); color: var(--ink-soft); }
+  .ex .g::before { content: "‘"; }
+  .ex .g::after  { content: "’"; }
+  .ex .src {
+    grid-column: 2; font-family: var(--font-mono); font-size: var(--step--2);
+    color: var(--ink-faint); margin-top: 0.2rem;
+  }
+
+  /* ---------- flags ---------- */
+  .flag {
+    display: inline-block; font-family: var(--font-mono);
+    font-size: 0.62rem; letter-spacing: 0.1em; text-transform: uppercase;
+    padding: 0.12em 0.45em; border-radius: 2px;
+    background: var(--clay-wash); color: var(--clay);
+    vertical-align: 0.12em; white-space: nowrap; font-weight: 600;
+  }
+  .flag.ev { background: var(--accent-wash); color: var(--accent-deep); }
+
+  /* ---------- tables ---------- */
+  .tablewrap { overflow-x: auto; margin-top: 1.2rem; -webkit-overflow-scrolling: touch; }
+  table { border-collapse: collapse; width: 100%; font-size: var(--step--1); min-width: 32rem; }
+  caption {
+    caption-side: top; text-align: left;
+    font-family: var(--font-mono); font-size: var(--step--2);
+    letter-spacing: 0.1em; text-transform: uppercase;
+    color: var(--ink-faint); padding-bottom: 0.55rem;
+  }
+  th, td { text-align: left; padding: 0.42rem 0.85rem 0.42rem 0; vertical-align: top; border-bottom: 1px solid var(--rule-soft); }
+  thead th {
+    font-family: var(--font-mono); font-size: var(--step--2);
+    letter-spacing: 0.06em; text-transform: uppercase;
+    color: var(--ink-faint); font-weight: 600; border-bottom: 1px solid var(--rule);
+  }
+  tbody tr:last-child td { border-bottom: 0; }
+  td .f { font-family: var(--font-mono); }
+  td.num, th.num { font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+  /* ---------- lists ---------- */
+  ul, ol { margin: 0; padding-left: 1.2rem; }
+  li + li { margin-top: 0.4rem; }
+  ol.oq { padding-left: 0; list-style: none; counter-reset: oq; }
+  ol.oq > li {
+    counter-increment: oq; position: relative;
+    padding-left: 2.6rem; margin-top: 1.1rem;
+  }
+  ol.oq > li::before {
+    content: "Q" counter(oq); position: absolute; left: 0; top: 0.1rem;
+    font-family: var(--font-mono); font-size: var(--step--1);
+    color: var(--gold); font-variant-numeric: tabular-nums;
+  }
+  ol.oq b { color: var(--ink); }
+
+  /* ---------- pull ---------- */
+  .pull {
+    font-family: var(--font-display); font-size: var(--step-2);
+    line-height: 1.32; color: var(--accent-deep);
+    border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+    padding: 1.1rem 0; margin-top: 1.4rem; text-wrap: balance;
+  }
+
+  .lede { font-size: var(--step-1); color: var(--ink-soft); line-height: 1.52; }
+
+  /* ---------- colophon ---------- */
+  .colophon {
+    margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--rule);
+    font-family: var(--font-mono); font-size: var(--step--2);
+    color: var(--ink-faint); line-height: 1.7; max-width: 44rem;
+  }
+  .colophon b { color: var(--ink-soft); font-weight: 600; }
+
+  /* ---------- print ---------- */
+  @media print {
+    :root { --ground: #fff; --surface: #fff; --ink: #000; --ink-soft: #333; --ink-faint: #555; }
+    body { font-size: 10.5pt; }
+    .backlink { display: none; }
+    .wrap { max-width: none; padding: 0; }
+    .row { grid-template-columns: 8rem minmax(0,1fr); break-inside: auto; }
+    h1 { font-size: 26pt; }
+    h2, h3, h4 { break-after: avoid; }
+    li, tr, .ex, .abstract, .colophon { break-inside: avoid; }
+    thead { display: table-header-group; }
+    table { font-size: 8.5pt; }
+    a { color: #000; text-decoration: none; }
+  }
+</style>
+<script>
+  // Follow whatever theme the archive is set to, then fall back to the OS.
+  try {
+    var t = localStorage.getItem('theme');
+    if (t === 'dark' || t === 'light') document.documentElement.dataset.theme = t;
+  } catch (e) {}
+</script>
+
+</head>
+<body>
+<div class="wrap">
+
+  <a class="backlink" href="./index.html#/"><span aria-hidden="true">←</span><span>Back to the archive</span></a>
+
+  <header class="mast">
+    <div class="kicker">Stars &amp; Stories · transcript archive · descriptive survey</div>
+    <h1>The Languages of the <em>Stars &amp; Stories</em> Universe</h1>
+    <p class="standfirst">Seventeen communicative codes are attested across 208 improvised
+      bedtime stories: animals who speak in one reduplicated syllable, a ladder with a
+      language of its own, and a ritual register whose grammar is a law of physics. This is
+      what the transcripts establish, what can be inferred from them, and what they refuse
+      to settle.</p>
+    <div class="byline">
+      <span>Compiled 2026-08-29</span>
+      <span>Corpus: 208 stories, 2024-09-20 → 2026-08-29</span>
+      <span>16,948 turns · 258,901 words</span>
+      <span>17 codes · 26 incantations</span>
+    </div>
+  </header>
+
+  <div class="row">
+    <div class="eyebrow"><b>Abstract</b></div>
+    <div class="body">
+      <div class="abstract">
+        <h2>Abstract</h2>
+        <p>The Stars &amp; Stories cosmos supports at least seventeen distinct
+          communicative codes, of which English is only the matrix. This paper sorts them
+          into three classes: the <b>zoosemiotic languages</b> (§3), spoken by animals and
+          small creatures and built from a single reduplicated syllable; the <b>mechanical
+          and alien languages</b> (§4), spoken by ladders, robots, rocks and one
+          unclassifiable being called Dit Darnet; and the <b>incantation register</b> (§5),
+          which is nobody's native language but a ritual code whose correct use is a law of
+          physics.</p>
+        <p>We show that the zoosemiotic languages are holophrastic and radically
+          context-resolved; that utterance length does <i>not</i> map monotonically onto
+          propositional content; and that the incantation register has a genuinely
+          compositional syntax which a character states outright and then demonstrates with
+          a minimal pair. We close with the archive's central unresolved question — whether
+          the sign is arbitrary — on which the corpus contains explicit and irreconcilable
+          testimony from the same speaker.</p>
+      </div>
+      <p style="margin-top:1.2rem"><span class="flag ev">Evidence</span> Every form quoted
+        below is verbatim from a transcript. Claims that go beyond the transcripts are
+        marked <span class="flag">Inference</span> or <span class="flag">Speculation</span>.
+        §9 lists what the archive does not say.</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="eyebrow"><b>§1</b>method</div>
+    <div class="body">
+      <h2><span class="num">Section one</span>Method, and a caution about the record</h2>
+      <p class="lede">The corpus is oral. Every text in the archive is a transcription of a
+        recording made in the dark, and no speaker in it has ever seen these words written
+        down.</p>
+      <p>This has one consequence the reader should keep in front of them throughout:
+        <b>there is no orthographic standard, and apparent spelling variation is evidence
+        about the transcription, not about the language.</b></p>
+      <p>The archive spells one dragonet's name <i>Dimitar, Dimatar, Dimetar, Demitar,
+        Dematar</i> and <i>Dibbletarr</i>; the cat school is <i>Catasory, Catasorry, Ginger
+        Catasorry</i> and <i>Cadasori</i>; <i>Frasgle</i> is also <i>Frazgle</i>;
+        <i>Beaker</i> is also <i>Beeker</i>; <i>Grisco</i> is also <i>Griscko</i> and
+        <i>Grisko</i>; <i>Hattie</i> was <i>Haddy</i> for the archive's first eight months.
+        None of this is dialect variation. It is a transcriber — sometimes a human,
+        sometimes a speech-recognition engine — guessing at a sound.</p>
+      <p>Where this paper gives a phonological argument it therefore rests on <b>rhyme,
+        syllable count and reduplication</b>, which survive transcription, and not on
+        segmental detail, which does not.</p>
+      <p>A second caution. The archive's two speakers are a father and a daughter aged 2;1
+        to 3;10, and much of what is presented below as canon was invented seconds before
+        it was uttered. The languages are nonetheless internally consistent to a degree
+        that repays description, and the inconsistencies (§9) are as interesting as the
+        regularities.</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="eyebrow"><b>§2</b>the ecology</div>
+    <div class="body">
+      <h2><span class="num">Section two</span>The linguistic ecology</h2>
+      <p>Seventeen codes are attested. The archive names a language in two competing ways:
+        as a <b>bare stem</b> (“I speak duck”, “I speak cat”, “I do not speak buzz”, “he can
+        only meep”) or as a <b>stem plus the classifier <i>language</i></b> (“meep
+        language”, “cat language”, “ladder language”, “in elephant language”). Exactly one
+        language in the entire corpus receives a derived, English-style glottonym — see
+        <i>Ladderish</i>, §4.1.</p>
+
+      <div class="tablewrap">
+      <table>
+        <caption>Table 1 · Attested codes, with first securely dated occurrence</caption>
+        <thead>
+          <tr><th>Code</th><th>Speakers</th><th>Attested form</th><th class="num">First</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>English</td><td>Everyone; matrix language</td><td>—</td><td class="num">throughout</td></tr>
+          <tr><td>meep</td><td>Beaker</td><td class="f">Meep · Me, me, me, meep</td><td class="num">2026-01-17</td></tr>
+          <tr><td>blub</td><td>The blub creatures</td><td class="f">Blub, blub, blub</td><td class="num">2026-08-29</td></tr>
+          <tr><td>beep</td><td>“trucks and babies”</td><td>unattested</td><td class="num">2026-08-29</td></tr>
+          <tr><td>cat / meow</td><td>Mr. Offises, Ginger, Finn, Silver</td><td class="f">Meow · purr · mew</td><td class="num">2025-08-04</td></tr>
+          <tr><td>mook</td><td>The Mookers</td><td class="f">Mook, mook, mook</td><td class="num">2026-03-28</td></tr>
+          <tr><td>squeak</td><td>Mice; Tot, the Christmas mice</td><td class="f">Squeak, squeak</td><td class="num">2025-08-04</td></tr>
+          <tr><td>Frasglish <span class="flag">Inf</span></td><td>Frasgle and the Frasgles</td><td class="f">[Roar] · Zararar roar!</td><td class="num">2025-07-31</td></tr>
+          <tr><td>buzz</td><td>Yellow jackets</td><td class="f">Bzz</td><td class="num">2026-08-29</td></tr>
+          <tr><td>bark</td><td>Queso Dog</td><td class="f">Bark bark bark</td><td class="num">2025-09-04</td></tr>
+          <tr><td>duck</td><td>Sana the duck</td><td>unattested</td><td class="num">2026-06-09</td></tr>
+          <tr><td>elephant</td><td>Elephants</td><td class="f">[trumpeting]</td><td class="num">2025-10-04</td></tr>
+          <tr><td>baby dragon</td><td>Newly hatched dragons</td><td class="f">[dragon voice]</td><td class="num">2025-10-21</td></tr>
+          <tr><td>Ladderish</td><td>The magic flying ladder</td><td class="f">ar, zar, zar</td><td class="num">2025-12-07</td></tr>
+          <tr><td>robot</td><td>Zigzag</td><td class="f">bleep-bloop, flibbertigibbet</td><td class="num">2025-10-31</td></tr>
+          <tr><td>space rock</td><td>Sentient space rocks</td><td class="f">Waaaaaa!</td><td class="num">2025-09-01</td></tr>
+          <tr><td>space fuzzball</td><td>The tiny fuzzballs</td><td>(nonsense)</td><td class="num">2025-09-04</td></tr>
+          <tr><td>nyerber-nyerber</td><td>Dit Darnet</td><td class="f">Nyerber nyerber nyerber</td><td class="num">2025-08-14</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <p>Two of these are recorded only as reports. <i>Duck</i> is attested solely by
+        Seeker's claim to speak it (“Oh, actually, uh, I speak duck”) followed immediately
+        by a translation, with no duck utterance ever quoted. <i>Beep</i> is attested only
+        by a joke: Izzy mishears <i>meep</i> as <i>beep</i>, and Dad — improvising a rescue —
+        rules that beep is a real language “which appears to be spoken only by trucks and
+        babies”. Whether beep exists, or is a scribal ghost born of a bilabial confusion,
+        is appropriately the first of §9's open questions.</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="eyebrow"><b>§3</b>zoosemiotic<br>languages</div>
+    <div class="body">
+      <h2><span class="num">Section three</span>The zoosemiotic languages</h2>
+
+      <h3><span class="num">3.1</span>Phonology is determined by the body</h3>
+      <p>The archive states the governing principle outright, in a scene where the mouse Tot
+        asks Izzy what language her invented words belong to.</p>
+      <blockquote>
+        <span class="sp">Tot:</span> “What kind of language is that, Isabella?”<br>
+        <span class="sp">Izzy:</span> “Not any kind. It's just made-up words.”<br>
+        <span class="sp">Dad (as Tot):</span> “Oh, I like made-up words, like
+        squeakety-squeak and squork. […] most of my made-up words are just squeaks
+        <b>'cause I'm a mouse</b>.”
+        <span class="cite">The Stinky Cheese Volcano and the Floating Balloon Sky · 2026-07-21</span>
+      </blockquote>
+      <p>This is the corpus's theory of articulatory phonetics in one line. A speaker's
+        inventory of possible new words is bounded by the body that makes them: a mouse's
+        coinages are squeaks not because mice lack imagination but because mice are mice.
+        It explains the otherwise striking fact that every zoosemiotic language in Table 1
+        is built from <b>one syllable, reduplicated</b> — <i>meep, blub, mook, meow, squeak,
+        bzz, bark</i> — while the mechanical languages (§4) are not.</p>
+      <p>Note also that Izzy immediately corrects Dad's coinage: he offers
+        <i>squeakety-squeak</i>, she returns <i>Squackety-squeak</i>. That is the archive's
+        editorial pattern in miniature; see §7.2.</p>
+
+      <h3><span class="num">3.2</span>Length does not encode content</h3>
+      <p>The obvious hypothesis — that a longer utterance carries more meaning — is stated by
+        no one and refuted by the data.</p>
+
+      <div class="tablewrap">
+      <table>
+        <caption>Table 2 · Utterance length against the gloss supplied in the text</caption>
+        <thead><tr><th>Utterance</th><th class="num">Syllables</th><th>Gloss given in the text</th><th class="num">Words</th></tr></thead>
+        <tbody>
+          <tr><td class="f">“Meep!”</td><td class="num">1</td><td>“he loves chocolate and cherry and icing and frosting cakes with cherries on top”</td><td class="num">13</td></tr>
+          <tr><td class="f">“Meep!”</td><td class="num">1</td><td>“thank you”</td><td class="num">2</td></tr>
+          <tr><td class="f">“Squeak, squeak!”</td><td class="num">2</td><td>“Hello, who's there?”</td><td class="num">3</td></tr>
+          <tr><td class="f">“Meow” ×7</td><td class="num">7</td><td>“Excuse me, I wonder if you could help us. We're looking for a lost ball.”</td><td class="num">15</td></tr>
+          <tr><td class="f">“Meow” ×47</td><td class="num">47</td><td>“she's lost in what work she wants”</td><td class="num">7</td></tr>
+          <tr><td class="f">“Meep” ×13</td><td class="num">13</td><td>a speech about adopting a whole family of bunnies</td><td class="num">60</td></tr>
+          <tr><td class="f">[Roar]</td><td class="num">1</td><td>“yes”</td><td class="num">1</td></tr>
+          <tr><td class="f">[Loud long roar/shriek]</td><td class="num">1</td><td>“No thank you, I don't like dust baths.”</td><td class="num">8</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <p>One <i>meep</i> can carry thirteen words; forty-seven <i>meows</i> carry seven. The
+        correlation is not merely weak, it is inverted at the extremes.
+        <span class="flag">Inference</span> The reduplication is therefore best analysed as
+        <b>prosodic and affective rather than segmental</b> — it encodes insistence,
+        agitation or duration of feeling, not lexical material. Ginger's twenty-nine-meow
+        turn is not a long sentence; it is a cat who cannot decide what to do today, at
+        length.</p>
+      <p>Beaker's distress form supports this. Under stress the shape changes rather than
+        merely lengthening: after falling into the Pacific he produces <i>“Me, me, me, me,
+        me, me, meep”</i> and <i>“Me, me, me, me, meep, me, me, me, me, meep”</i> — a run of
+        reduced open syllables closed by a full <i>meep</i> coda. His character record
+        independently describes “a frantic cadence of staccato ‘meeps’ and ‘me-me’ sounds”.
+        <span class="flag">Inference</span> Meep has at least two registers, neutral and
+        agitated, distinguished by syllable reduction and codas rather than by segments.</p>
+
+      <h3><span class="num">3.3</span>Holophrasis and pragmatic resolution</h3>
+      <p>The same form recurs with wildly different glosses. Frasgle's unmarked [Roar] is
+        translated, within a single story, as “yes”, “okay”, “okay, I'll try that”, “that's
+        an interesting idea”, and “you're right”.</p>
+      <p><span class="flag">Inference</span> These languages are <b>holophrastic</b> — one
+        form, one whole speech act — and the specific proposition is supplied almost
+        entirely by context and by the interpreter's judgement. They carry illocutionary
+        force (assent, complaint, greeting, distress) reliably; propositional content is
+        reconstructed, not transmitted.</p>
+      <p>This is why translation is <i>hedged</i> wherever the interpreter is a novice.</p>
+      <blockquote>
+        Minnie: “Wait a minute. <b>I think</b> I'm starting to understand Frasgle. <b>I
+        think</b> that one meant ‘Yeah, okay, I'd like to have a bath too.’” And Mickey
+        said, “<b>I think</b> that means you're right.”
+        <span class="cite">Frasgle and the Sticky Situation · 2025-07-31</span>
+      </blockquote>
+      <p>Three hedges in two sentences. By contrast Bunsen, Beaker's interpreter of long
+        standing, never hedges — he simply reports. <span class="flag">Inference</span>
+        Hedging in this corpus tracks the interpreter's authority, not the language's
+        difficulty.</p>
+
+      <h3><span class="num">3.4</span>Frasglish has phonemic contrasts, and they are enforced</h3>
+      <p>The strongest single piece of evidence that these are <i>languages</i> and not
+        merely noises is a correction.</p>
+      <blockquote>
+        Mole said, “Oh my, I've never met a creature like you. Now, I wonder if I could try
+        to speak your language.” And so you know what Mole said? [Small roar/grunt].
+        <b>Which wasn't quite right. And so Frasgle corrected Mole.</b> He said, [Roar].
+        <span class="cite">Frasgle and the Sticky Situation · 2025-07-31</span>
+      </blockquote>
+      <p>A learner produces an approximation; a native speaker judges it ill-formed and
+        supplies the correct token. That is a phonemic contrast being policed. Whatever
+        separates [Small roar/grunt] from [Roar] is <b>contrastive in Frasglish</b>, and the
+        transcription cannot tell us what it is.</p>
+
+      <h3><span class="num">3.5</span>Borrowing, observed live</h3>
+      <p>The same story contains what appears to be the only documented case of
+        <b>lexical borrowing in progress</b> anywhere in the archive.</p>
+      <blockquote>
+        <span class="sp">Izzy:</span> “Frasgle, I have a noise for you: Zararar, Zararar!”<br>
+        <span class="sp">Dad:</span> And then Frasgle did something new. […] And you know
+        what he said this time? <b>Zararar roar!</b> Zararar roar! And then Mole turned to
+        Isabella and said, “Isabella, you got Frasgle to say something different! But what
+        does that mean?”<br>
+        <span class="sp">Izzy:</span> “It means… I love you!”<br>
+        <span class="sp">Dad:</span> “Zararar roar!” said the Mole, and Frasgle said it
+        back: “Zararar roar!” And now everyone said I love you to each other.
+        <span class="cite">Frasgle and the Sticky Situation · 2025-07-31</span>
+      </blockquote>
+      <p>Every stage of a loan is here in nine lines: introduction by an outsider; adoption
+        by the recipient; <b>compounding with native material</b> (<i>Zararar</i> +
+        <i>roar</i>, the borrowed stem taking a Frasglish head); semantic assignment by the
+        donor; and community-wide uptake, as Mole and then “everyone” adopt it. The new item
+        does not replace anything — Frasglish had no attested way to say <i>I love you</i>
+        before this — so it fills a genuine lexical gap.</p>
+      <p><span class="flag">Speculation</span> <i>Zararar</i> is phonologically unlike
+        anything else Izzy coins. Its closest relative in the entire corpus is <i>ar, zar,
+        zar</i>, the sole attested Ladderish (§4.1), recorded eight months later. Two
+        unrelated non-human codes sharing a rare <i>zar</i>-shape is either coincidence, a
+        substrate this survey cannot reach, or evidence that Izzy holds a stable
+        phonaesthetic category for “alien speech”. The archive does not decide.</p>
+
+      <h3><span class="num">3.6</span>Relay interpretation, and receptive competence</h3>
+      <p>The most recent story in the archive, recorded on its final day, contains its most
+        sophisticated linguistic architecture.</p>
+      <blockquote>
+        “We have made an incredible discovery, which is that I am able to <b>translate blub
+        language into meep language</b>. And then Bunsen translates meep language into
+        English.”
+        <span class="cite">The Secret of the Galapagos Blub Creatures · 2026-08-29</span>
+      </blockquote>
+      <p>This is a <b>relay chain</b> — blub → meep → English — with no direct blub–English
+        channel anywhere. It has real consequences in the story: when Blubbert finally
+        speaks, Bunsen notes “It's a process here to translate” before delivering the gloss,
+        and the latency is played for exactly what it is.</p>
+      <p>The same story draws, precisely, the distinction between <b>receptive</b> and
+        <b>productive</b> bilingualism.</p>
+      <blockquote>
+        “Beaker has learned how to speak the language of, or at least <b>understand</b> it.
+        <b>He can't speak blub just yet.</b>” […] “He can only meep, not blub.”
+        <span class="cite">The Secret of the Galapagos Blub Creatures · 2026-08-29</span>
+      </blockquote>
+      <p>Beaker comprehends blub and produces only meep. This is the ordinary condition of
+        the heritage bilingual, and the archive gets it right, including the hopeful
+        <i>yet</i>.</p>
+
+      <h3><span class="num">3.7</span>Literacy: meep has no script</h3>
+      <blockquote>
+        <span class="sp">Dad:</span> “But Beaker only knows meep language.”<br>
+        <span class="sp">Izzy:</span> “No, no. Bunsen helped Beaker write it. <b>Beaker just
+        told him the words in meep.</b> […] and then Bunsen wrote them.”
+        <span class="cite">The Secret of the Galapagos Blub Creatures · 2026-08-29</span>
+      </blockquote>
+      <p><span class="flag">Inference</span> None of the zoosemiotic languages has a native
+        writing system. Every written message in the archive is in English, and every
+        non-English speaker who wishes to write must go through a bilingual scribe. This is
+        a well-attested real-world sociolinguistic pattern, and it arrived here without
+        anyone planning it.</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="eyebrow"><b>§4</b>mechanical &amp;<br>alien</div>
+    <div class="body">
+      <h2><span class="num">Section four</span>The mechanical and alien languages</h2>
+
+      <h3><span class="num">4.1</span>Ladderish, and the problem it creates</h3>
+      <p>The magic flying ladder speaks. Its language is named twice, in two different ways,
+        in consecutive turns.</p>
+      <blockquote>
+        <span class="sp">Izzy:</span> “It talks the <b>ar, zar, zar</b> language.”<br>
+        <span class="sp">Dad:</span> “Also known as <b>Ladderish</b>.”
+        <span class="cite">The Case of the Kidnapped Dwarf and the Magic Ladder · 2026-08-16</span>
+      </blockquote>
+      <p><i>Ladderish</i> is the only glottonym in the corpus formed with the English
+        language-name suffix <i>-ish</i>. Every other language is named by its own noise
+        (<i>meep, blub, mook</i>) or by its speakers (<i>cat language, elephant language</i>).
+        Ladderish is the one code the characters have bothered to name <b>the way we name
+        languages</b>.</p>
+      <p>It also creates the deepest theoretical problem in the archive. Eight months
+        earlier, the same ladder cast a spell.</p>
+      <blockquote>
+        And so they all said the rhyme together, <b>except the ladder, who said the rhyme in
+        ladder language</b>, and then pring, poof, they appeared flying through the sky.
+        <span class="cite">The Giant Rescue on Volcano Island · 2025-12-07</span>
+      </blockquote>
+      <p class="pull">The spell worked in translation.</p>
+      <p>This is not a small detail. §5 shows that incantations are governed by a strict
+        formal requirement — they must rhyme — and yet here a caster produces the spell in a
+        language whose only attested material is <i>ar, zar, zar</i>, and the party
+        teleports normally. Either Ladderish rhymes in ways we cannot see, or magical
+        efficacy is <b>semantic rather than phonetic</b>: what matters is that the caster
+        meant the spell, not that particular sounds left a particular mouth. The archive is
+        silent, and §9 returns to it.</p>
+
+      <h3><span class="num">4.2</span>Nyerber-nyerber</h3>
+      <p>Dit Darnet appears in exactly one story and is gone. His language is disyllabic and
+        reduplicating like the zoosemiotic codes, but he is no animal — he is an engineer who
+        repairs a marble run — and Dad flags him as a foreigner rather than a beast.</p>
+      <blockquote>
+        “Dit Darnet says, nyerber nyerber nyerber. Oh, <b>Dit Darnet doesn't speak our
+        language.</b> He speaks nyerber-nyerber.”
+        <span class="cite">Blast Off to the Hundred Acre Wood · 2025-08-14</span>
+      </blockquote>
+      <p>Two things are notable. First, <i>“our language”</i> — the only place in the corpus
+        where the English speakers frame themselves as a speech community with an outside.
+        Second, the scene contains the archive's only explicit offer of language
+        instruction.</p>
+      <blockquote>
+        <span class="sp">Dad:</span> “Nyerber nyerber nyerber. He said thank you. <b>I speak
+        nyerber-nyerber. Do you want to try?</b>”<br>
+        <span class="sp">Izzy:</span> “No.”
+        <span class="cite">Blast Off to the Hundred Acre Wood · 2025-08-14</span>
+      </blockquote>
+      <p>She declines. She then uses it unprompted moments later — <i>“He he nyerber nyerber
+        nyerber? That's the wire plug and that's the battery”</i> — code-switching into
+        nyerber to put the question and glossing herself in English. She refuses the lesson
+        and speaks the language anyway, which is a fair summary of how she acquires
+        everything else in this archive.</p>
+
+      <h3><span class="num">4.3</span>The Mookers, and a root that will not stay a noun</h3>
+      <p>Mooker is the most morphologically productive non-English root in the corpus. From
+        <i>mook</i> the archive derives, without comment, a species noun (<i>the
+        Mookers</i>), a language name (<i>mooker language</i>), an utterance (<i>Mook, mook,
+        mook</i>), place names (<i>the Planet of the Mookers</i>, <i>the mooker cloud</i>), a
+        game (<i>mookball</i>) — and a verb.</p>
+      <blockquote>
+        the Mookers were all tired out from their big day of playing with the Floofers, and
+        so they decided to <b>mook their way right into bed</b> and <b>mook right to
+        sleep</b>.
+        <span class="cite">The Mookers, the Floofers and the Solar Mookball · 2026-03-28</span>
+      </blockquote>
+      <p><i>To mook</i> is a verb of motion in the first instance and something like an
+        aspectual auxiliary in the second — <i>mook right to sleep</i>, on the model of
+        <i>drift right to sleep</i>. <span class="flag">Inference</span> For the Mookers,
+        <i>mook</i> is not a word in their language; it <i>is</i> the language, functioning
+        as an all-purpose root that takes whatever category the sentence needs. Compare
+        <i>smurf</i>.</p>
+      <p>Dad claims partial competence — “<b>I do speak a little bit of mooker language
+        myself.</b> Mook, mook, mook. And that means I hope I can help you out” — glossing
+        three syllables as seven words, consistent with §3.2.</p>
+
+      <h3><span class="num">4.4</span>Robot</h3>
+      <p>Zigzag the robot is commanded to produce language, and what emerges is not a
+        reduplicated animal syllable but a <b>compound of a machine noise and an English
+        word</b>.</p>
+      <div class="ex">
+        <span class="n">(1)</span><span class="f">bleep-bloop, flibbertigibbet</span>
+        <span class="g">a made-up word, on request</span>
+        <span class="src">Zigzag the Dancing Robot and the Cornebyborn Dance · 2025-10-31</span>
+      </div>
+      <p><i>Flibbertigibbet</i> is a real English word, and Zigzag is the only speaker in the
+        archive to use it. <span class="flag">Speculation</span> Robot speech is the
+        corpus's one attested case of a code that is <i>lexically parasitic</i> — taking its
+        material from English rather than from a body — which follows neatly from §3.1: a
+        machine has no species-specific articulatory inventory to draw on, so it borrows.</p>
+
+      <h3><span class="num">4.5</span>The crying rocks</h3>
+      <p>Space rock language is attested once, as <i>“Waaaaaa!”</i>, repeated identically
+        when Dad asks for a repetition. Its character record reads: “Sentient, crying
+        entities found floating in space that speak their own unique language.” Neither Dad
+        nor Izzy can translate it. It is the one language in the corpus that goes
+        <b>entirely unglossed</b>, and the only one whose single attested utterance is
+        indistinguishable from crying.</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="eyebrow"><b>§5</b>the incantation<br>register</div>
+    <div class="body">
+      <h2><span class="num">Section five</span>The incantation register</h2>
+      <p class="lede">The incantation register is nobody's mother tongue. No one is a native
+        speaker of it; it has no community; it is used only to do things. It is nonetheless
+        the most thoroughly described code in the archive, because in this universe its
+        grammar is a law of physics — and physics gets explained to children.</p>
+
+      <h3><span class="num">5.1</span>The rhyme requirement</h3>
+      <p>Izzy states the mechanism directly: “<i>Potions are something you drink and then you
+        say a rhyme and then they teleport you somewhere. That's how they work.</i>” The
+        teacher Ove states the constraint as a rule of the art.</p>
+      <blockquote>
+        “<b>magic spells must rhyme.</b> But each time you cast one, <b>you can make up a new
+        rhyme if you like.</b>”
+        <span class="cite">The Magic of Mooska-Kadooska · 2025-11-27</span>
+      </blockquote>
+      <p>Both halves matter. Rhyme is <b>obligatory</b>; the particular rhyme is <b>free</b>.
+        This is a formal requirement on the shape of an utterance with no requirement on its
+        content — a combination with few parallels outside verse forms, and none at all in
+        ordinary language, where form is constrained by what you mean. Here you may mean
+        anything you like so long as it chimes.</p>
+
+      <h3><span class="num">5.2</span>Three architectures</h3>
+      <p>The 26 incantations recovered from the corpus fall into three structurally distinct
+        types.</p>
+      <p><b>Type A — opaque monoliths.</b> Wholly non-English strings with no internal
+        structure the speakers can name: <i>Ruby Dooby Galoob</i>, <i>Izza Ka Pizza</i>,
+        <i>Comoose</i>, <i>Subime</i>, <i>Za bing, zong, zing</i>,
+        <i>Kamoose-kajuice-kaboose</i>, <i>Zip-sip</i>, <i>Salime, sume, sime, sume,
+        bime</i>, <i>Ding-dong cadong-dong</i>, <i>Aska-baska-noona-maska</i>,
+        <i>Slime-ka-by, slime-ka-by, byme</i>.</p>
+      <p><b>Type B — bipartite: free invocation + English imperative.</b> The school register,
+        taught by Ove, and the only spell type whose semantics are demonstrably
+        compositional (§5.4).</p>
+      <p><b>Type C — transparent English couplets naming the destination.</b></p>
+      <div class="ex">
+        <span class="n">(2)</span><span class="f">Higher and higher to the plane of fire</span>
+        <span class="g">chanted, eyes closed, to reach the Plane of Fire</span>
+        <span class="src">The Mischief Moles and the Plane of Fire · 2025-10-07</span>
+      </div>
+      <div class="ex">
+        <span class="n">(3)</span><span class="f">Planet of the Mookers, we're the Blue-kers</span>
+        <span class="g">said three times, to reach Planet Mooker</span>
+        <span class="src">Wobbly Whisker's Sticky Adventure on Planet Mooker · 2026-05-02</span>
+      </div>
+      <p>Type C spells <i>say where they are going</i>. They satisfy the rhyme requirement in
+        plain English and are the only incantations whose meaning any English speaker could
+        recover unaided. <span class="flag">Inference</span> Type C looks like the register's
+        honest core, with Types A and B as elaborations — but the chronology refuses to
+        cooperate. The unambiguous first attestations run Type A (2025-07-19), Type C
+        (2025-10-07), Type B (2025-11-27); and the two earliest spells of all
+        (<i>Junk and gunk!</i>, 2025-03-11; <i>Mouse jouse</i>, 2025-03-12) are English
+        rhyming pairs that transform an object without naming a destination or supplying an
+        imperative — a shape that never recurs. The register did not evolve from transparency
+        toward opacity or the reverse. All three types coexist to the last recording.</p>
+
+      <h3><span class="num">5.3</span>Morphology: the KA-infix</h3>
+      <p>The single most productive morphological process in the corpus is the insertion of a
+        <b>-ka-</b> element between two reduplicated or rhyming feet. It appears across
+        incantations, creature names, place names and effect words, in the mouths of both
+        speakers, from the first month of the archive to the last.</p>
+      <div class="ex">
+        <span class="n">(4)</span><span class="f">mooska-<b>ka</b>dooska · izza <b>ka</b> pizza · cat-<b>ka</b>-pat · slime-<b>ka</b>-by · slime-<b>ka</b>bime · kamoose-<b>ka</b>juice-<b>ka</b>boose · kibble-<b>ka</b>bibble · bas<b>ka</b>madasca · as<b>ka</b>-baska-noona-maska · fiska <b>ka</b>piska · Snooper-<b>ka</b>-flooper · Floofer <b>Ka</b>ploofer · Gonk-<b>a</b>-Bona · cough-<b>ka</b>-cough · das<b>ka</b> daska</span>
+        <span class="g">the KA-infix, across fifteen unrelated coinages</span>
+      </div>
+      <p>The rule <span class="flag">Inference</span> is: <i>take a foot, repeat it with a
+        -ka- hinge and an altered onset.</i> It is the corpus's default word-formation
+        strategy, and it is doing precisely what Chukovsky described as the toddler's rhyme
+        appetite — except that here it has been promoted to the mechanism by which the
+        universe is operated.</p>
+      <p>A second, narrower pattern is the <b>-ime rhyme family</b>, a phonotactic template
+        recurring across unrelated spells: <i>bime, zime, sime, sume, salime, subime, slime,
+        byme, seem-kabine, slime-kabime</i>. Ten spell-words in one rhyme class, from six
+        different stories, is far above chance. <span class="flag">Speculation</span> Either
+        <i>-ime</i> is the register's unmarked spell-ending — a derivational suffix meaning
+        “this is an incantation” — or it is simply the easiest rhyme in the phonology and
+        everyone reaches for it.</p>
+
+      <h3><span class="num">5.4</span>Semantics, and two minimal pairs</h3>
+      <p>The archive contains two genuine minimal pairs, which between them establish where
+        the meaning of a spell lives.</p>
+
+      <h4>Pair 1 — Type B: meaning lives in the English verb</h4>
+      <div class="ex">
+        <span class="n">(5a)</span><span class="f">Mooska-kadooska, <b>disappear</b>!</span>
+        <span class="g">→ a little <i>floop</i>; his hand was empty</span>
+      </div>
+      <div class="ex">
+        <span class="n">(5b)</span><span class="f">Mooska-kadooska, <b>reappear</b>!</span>
+        <span class="g">→ <i>Sloop!</i> the dice popped back into existence on his hand</span>
+        <span class="src">The Magic of Mooska-Kadooska · 2025-11-27</span>
+      </div>
+      <p>Hold <i>mooska-kadooska</i> constant, swap <i>disappear</i> for <i>reappear</i>, and
+        the effect inverts. The invocation is therefore <b>semantically empty</b> — a licence
+        to cast, satisfying the rhyme requirement and nothing more — and the operative content
+        is carried by an ordinary English imperative. Ove had just told Seeker he may invent
+        a fresh invocation whenever he likes, which is only coherent if the invocation means
+        nothing.</p>
+
+      <h4>Pair 2 — Type A: meaning lives in the form itself</h4>
+      <p>Hattie, walking in the woods and idly “thinking about words”, invents one.</p>
+      <div class="ex">
+        <span class="n">(6a)</span><span class="f">Baskamadasca, jiggidy <b>jaska</b></span>
+        <span class="g">summons Mischief Mouse</span>
+      </div>
+      <div class="ex">
+        <span class="n">(6b)</span><span class="f">Baskamadasca, jiggidy <b>jeeza</b></span>
+        <span class="g">summons Pinecone Mouse</span>
+        <span class="src">Hattie's Magic Mouse Summoning · 2025-07-19</span>
+      </div>
+      <blockquote>
+        And suddenly there was a poof! Because <b>she didn't know it, but that word that she
+        just made up happened to be a magic spell.</b> And it was the kind of spell that
+        summons a creature.
+        <span class="cite">Hattie's Magic Mouse Summoning · 2025-07-19</span>
+      </blockquote>
+      <p><i>Baskamadasca jiggidy</i> is held constant and functions as the operator
+        <span class="f">summon</span>; the final foot alternates <i>jaska</i> ~ <i>jeeza</i>
+        and selects the argument. <span class="flag">Inference</span> Type A spells are not
+        monoliths after all. This one, at least, is <b>operator + argument</b>, with the
+        argument in final position: exactly the Type B architecture, but with both slots
+        filled by non-English material.</p>
+
+      <h3><span class="num">5.5</span>The effect particles</h3>
+      <p>Every successful spell produces a sound, and these form a small closed class
+        distinct from the spell itself: <i>poof, floop, sloop, sploop, bloop, pring, ka-poof,
+        ga-bounce, kibble-kabibble, Bush!, tada</i>. They are not spoken by anyone. They are
+        what the world says back.</p>
+      <p>Two observations. First, they are <b>phonaesthetically contrastive</b>: <i>floop</i>
+        marks disappearance, <i>sloop</i> marks reappearance, and the /fl/ ~ /sl/ alternation
+        does the semantic work in a pair that is otherwise identical. Second, and
+        remarkably, they are subject to correction.</p>
+      <blockquote>
+        <span class="sp">Dad:</span> “…zong, zing. <b>Ka-poof.</b> And Seeker and Isabella—”<br>
+        <span class="sp">Izzy:</span> “No, it was supposed to go <b>ga-bounce</b>.”<br>
+        <span class="sp">Dad:</span> “…ga-bounce, appeared in a soft, gently glowing
+        landscape.”
+        <span class="cite">The Secret of the Galapagos Blub Creatures · 2026-08-29</span>
+      </blockquote>
+      <p>The narrator supplies the wrong arrival noise and is overruled.
+        <span class="flag">Inference</span> The effect particle is neither decorative nor
+        free: a given potion arriving in a given world makes a particular sound, that fact is
+        part of the canon, and Izzy is its keeper.</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="eyebrow"><b>§6</b>onomastics &amp;<br>lexicon</div>
+    <div class="body">
+      <h2><span class="num">Section six</span>Onomastics and the lexicon</h2>
+
+      <h3><span class="num">6.1</span>Cultural keywords</h3>
+      <p>A handful of coinages are not nonsense but <b>untranslatable cultural terms</b> —
+        words naming an institution for which English has no equivalent, introduced by Izzy
+        and accepted into the world's furniture. The clearest is the <i>Bissolam</i>.</p>
+      <blockquote>
+        <span class="sp">Izzy:</span> “The Bissolam. It's the Bissolam. <b>That's a special
+        day when we dance.</b>”<br>
+        <span class="sp">Dad:</span> “Oh, the Bissolam is a special day when we dance. <b>I
+        didn't know that.</b>”<br>
+        <span class="sp">Izzy:</span> “That's the day when we twirl. […] The Bissolam has
+        very nice music.”
+        <span class="cite">Haddy the Mouse and the Sparkly Bissolam · 2025-03-15</span>
+      </blockquote>
+      <p>Over the scene the Bissolam accretes music, twirling, crackers, grey chairs and a
+        baby lounge. It is a festival, defined ostensively by a native informant to an
+        outsider who says, in as many words, <i>I didn't know that</i> — and the direction of
+        that transmission, from the two-year-old to the adult, is the standard direction for
+        every lexical innovation in this archive.</p>
+      <p>Comparable items: the <i>Songo</i> feast (a restaurant reachable only by air), the
+        <i>squerret</i> (a foodstuff, elicited by the canonical frame “A squerret? What's
+        that?”), the <i>Cornebyborn</i> (a dance, taught by demonstration), <i>mookball</i>,
+        and <i>floof-berries</i>.</p>
+
+      <h3><span class="num">6.2</span>Coinage as a gift</h3>
+      <p>One usage deserves separate note. The archive's central spell story opens, before
+        any story has begun, with a word being handed over.</p>
+      <blockquote>
+        <span class="sp">Izzy:</span> “<b>Daska daska daska for you! It's yours!</b>”<br>
+        <span class="sp">Dad:</span> “Oh, a made-up word for me?”
+        <span class="cite">Hattie's Magic Mouse Summoning · 2025-07-19</span>
+      </blockquote>
+      <p><span class="flag">Speculation</span> This is the pragmatic frame that makes the
+        rest of the archive's lexicography work: in this universe words are <i>objects that
+        can be made and handed over</i>, which is why Izzy can introduce <i>Zararar</i> to
+        Frasgle as “a noise for you” (§3.5), and why Seeker's proposal of
+        <i>mooska-kadooska</i> is something a teacher can accept or refuse.</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="eyebrow"><b>§7</b>metalinguistics</div>
+    <div class="body">
+      <h2><span class="num">Section seven</span>What the speakers believe about language</h2>
+
+      <h3><span class="num">7.1</span>The arbitrariness problem</h3>
+      <p>The archive contains explicit, incompatible testimony on whether a coined form has
+        an inherent meaning. Both positions are held by the same speaker, sixteen months
+        apart.</p>
+      <p><b>Against arbitrariness.</b> Hattie invents <i>baskamadasca, jiggidy jaska</i> while
+        merely “thinking about words”, and a creature materialises — because, the narration is
+        emphatic, “<b>she didn't know it, but that word that she just made up happened to be
+        a magic spell.</b>” A form invented with no intention nonetheless <i>already had</i> a
+        meaning. The space of possible strings is pre-populated; coinage is discovery, not
+        creation. This is a straightforward denial of the arbitrariness of the sign, and it
+        is load-bearing: it is why anyone in this cosmos need be careful what they say.</p>
+      <p><b>For arbitrariness.</b> Four months earlier, aged 2;7, Izzy opens a recording with
+        a coinage and is asked what it means.</p>
+      <blockquote>
+        <span class="sp">Izzy:</span> “Stars, stories, <b>brio neo</b>.”<br>
+        <span class="sp">Dad:</span> “Brio neo, what does that mean?”<br>
+        <span class="sp">Izzy:</span> “<b>That means nothing!</b> Brrrrt.”
+        <span class="cite">Hattie the Mouse's Hat Workshop · 2025-03-23</span>
+      </blockquote>
+      <p>And at 3;10, asked what language her invented words belong to: “<b>Not any kind.
+        It's just made-up words.</b>”</p>
+      <p>The two positions cannot be reconciled by ordering — the sceptical position is the
+        earlier one <i>and</i> is restated at the end of the corpus.
+        <span class="flag">Inference</span> The most economical reading is that the universe
+        distinguishes <b>meaningless coinage</b> (<i>brio neo</i>; made-up words, which are
+        just play) from <b>inadvertently well-formed spells</b> (<i>baskamadasca</i>) — and
+        that nothing tells a speaker which they have produced until something appears in
+        front of them.</p>
+      <p class="pull">That is a genuinely frightening theory of language, and it is a
+        three-year-old's.</p>
+
+      <h3><span class="num">7.2</span>Prescriptivism</h3>
+      <p>The archive's authority on correct usage is unambiguous, and it is not the adult.
+        Izzy corrects Dad's coinages (<i>squeakety-squeak</i> → <i>Squackety-squeak</i>), his
+        effect particles (<i>ka-poof</i> → <i>ga-bounce</i>), his casting (a rhyme said twice
+        must be said a third time), and his facts. The archive's developmental notes record
+        the same pattern outside language proper: “<i>No, not blue fur, orange fur</i>”;
+        “<i>No, made by Isabella. Silver Cat can't make potions.</i>”</p>
+      <p><span class="flag">Inference</span> Every language in this cosmos has exactly one
+        competent authority, and descriptive linguistics is not available to her
+        interlocutor.</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="eyebrow"><b>§8</b>sociolinguistics<br>biology · history</div>
+    <div class="body">
+      <h2><span class="num">Section eight</span>Sociolinguistics, biology, and history</h2>
+
+      <h3><span class="num">8.1</span>The interpreter class</h3>
+      <p>Translation in the archive is a <b>named professional role</b>, not an ambient
+        capacity. Queso Dog is “the ship's official translator”. Mole “serves as a bridge
+        between worlds, translating Frasgle's unique tongue”. Bunsen is Beaker's standing
+        interpreter and scribe. Wobbly Whiskers announces competence when needed — “<b>I speak
+        cat.</b> I know what Ginger's saying.” Seeker claims duck.</p>
+      <p>Above all of them sits Izzy, who is the only character able to interpret
+        <i>every</i> language in the corpus, does so without being asked, and is the sole
+        source of nearly every gloss the reader receives.
+        <span class="flag">Inference</span> The archive has one universal polyglot and she is
+        the narrator's daughter. Dad, by contrast, is a serial partial-competent: he speaks
+        “a little bit of mooker”, “enough cat language” (in fact, not enough), fluent
+        nyerber-nyerber, and no meep, no space rock, no blub.</p>
+      <p>Even Izzy's competence has a floor. Confronted with Beaker's thirteen-syllable turn
+        she reports honestly: “<b>I don't know, that long, that long meep meant…</b>”</p>
+
+      <h3><span class="num">8.2</span>Biology</h3>
+      <p><span class="flag">Speculation</span> — but constrained by §3.1. The zoosemiotic
+        languages appear to be <i>products of anatomy rather than of culture</i>. Each
+        species produces the sound its body makes — mice squeak, cats meow, Mookers mook — and
+        its entire linguistic system is built by reduplicating and modulating that one
+        sound. This predicts, correctly, that no zoosemiotic language in the corpus has more
+        than one syllable type; that none has a writing system (§3.7); that all are learnable
+        by outsiders only imperfectly and by ear (§3.4); and that the mechanical languages,
+        whose speakers have no body of the relevant kind, break the pattern (§4.4).</p>
+      <p>It predicts one thing the archive contradicts. Dragons hatch speaking “baby dragon
+        language” — “[Dragon voice] He said, and in baby dragon language that means: ‘I need
+        some snacks right away!’” — and then, two turns later, the same newly hatched dragon
+        speaks fluent English: “I don't know, I was just hatched! You gotta help me!”
+        <span class="flag">Inference</span> Either baby dragon language is a transient
+        neonatal register abandoned within minutes of hatching, or dragons acquire the matrix
+        language instantaneously. Adult dragonets across two dozen stories speak English
+        exclusively, which is consistent with either.</p>
+
+      <h3><span class="num">8.3</span>History</h3>
+      <p>The archive offers almost no diachrony. The one hint is a character record
+        describing the cat Silver as “communicating through an <b>ancient</b>, rhythmic
+        language of resonant purrs”, and the Mookers as using “a <b>rhythmic chorus</b> of
+        ‘mooks’” — the word <i>rhythmic</i> attaching independently to two unrelated codes.
+        <span class="flag">Speculation</span> If the zoosemiotic languages are prosodic
+        rather than segmental (§3.2), <i>rhythmic</i> is not decoration but the correct
+        technical description; and <i>ancient</i> would then mean <i>unchanged</i>, since a
+        language carried by rhythm alone has very little in it that can drift.</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="eyebrow"><b>§9</b>open questions</div>
+    <div class="body">
+      <h2><span class="num">Section nine</span>Open questions</h2>
+      <p>The following are places where the archive says nothing, or says two things.</p>
+      <ol class="oq">
+        <li><b>Does beep exist?</b> Attested only through Izzy's mishearing of <i>meep</i>
+          and Dad's improvised rescue (“spoken only by trucks and babies”). A bilabial
+          confusion promoted to canon, or a real language with two speaker populations and
+          no recorded utterance.</li>
+        <li><b>Does Ladderish rhyme?</b> (§4.1) The ladder cast a spell in its own language
+          and the spell worked. If magical efficacy is phonetic, Ladderish must satisfy the
+          rhyme requirement, and <i>ar, zar, zar</i> is our only sample. If efficacy is
+          semantic, then Ove's law — “magic spells must rhyme” — is a parochial rule of the
+          human school and not a law of nature at all. Nothing in the archive chooses.</li>
+        <li><b>Is the sign arbitrary?</b> (§7.1) Two explicit, contradictory statements from
+          the same speaker. Unresolved and possibly unresolvable.</li>
+        <li><b>What is the relationship between <i>Zararar</i> and <i>ar, zar, zar</i>?</b>
+          (§3.5) Two non-human codes, eight months apart, sharing a rare shape.</li>
+        <li><b>Why <i>-ime</i>?</b> (§5.3) Ten spell-words in one rhyme class across six
+          stories. Suffix, or accident.</li>
+        <li><b>What distinguishes [Roar] from [Small roar/grunt]?</b> (§3.4) A contrast a
+          native speaker enforces and the transcription cannot capture. Permanently lost
+          unless the original audio is re-examined.</li>
+        <li><b>Do the zoosemiotic languages have syntax at all?</b> This survey has argued
+          they are holophrastic (§3.3), but the argument rests entirely on glosses supplied
+          by interpreters. No zoosemiotic utterance in the corpus has ever been segmented by
+          anyone.</li>
+        <li><b>Who taught Dad nyerber-nyerber?</b> He speaks it fluently on first contact and
+          offers to teach it. The archive never explains, and Dit Darnet never returns.</li>
+        <li><b>What did Ginger say?</b> Forty-seven meows, glossed in seven words. §3.2
+          argues the remainder is affect. It may not be.</li>
+      </ol>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="eyebrow"><b>Colophon</b></div>
+    <div class="body">
+      <div class="colophon">
+        <p><b>Corpus.</b> 208 transcripts from <span class="f">content/stories/*/story.json</span>,
+        2024-09-20 → 2026-08-29; 16,948 conversational turns; 258,901 words, of which 82,701
+        (31.9%) are Izzy's.</p>
+        <p><b>Method.</b> Candidate coinages were isolated by Zipf-frequency thresholding
+        (<span class="f">wordfreq</span>, threshold 1.6) over 6,787 word types, yielding 710
+        candidates, which were then read by hand. Glottonyms were recovered by searching the
+        frames <span class="f">speak X</span>, <span class="f">X language</span>,
+        <span class="f">translate</span>, <span class="f">that means</span> and
+        <span class="f">which means</span>, and every hit was read in context. Quotations are
+        verbatim; ellipses mark elision only.</p>
+        <p><b>Companion documents.</b> <span class="f">content/world-dna.md</span> —
+        developmental analysis of the same corpus. <span class="f">content/dragonet-dossier.md</span>
+        — worldbuilding brief on the dragonets. The plain-markdown twin of this paper is
+        <span class="f">content/linguistics-report.md</span>.</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
