@@ -7430,5 +7430,32 @@
       "The_Super_Mouse_Crew_and_the_Wizard_s_Lost_Hat"
     ],
     "firstAppearanceStoryId": "The_Super_Mouse_Crew_and_the_Wizard_s_Lost_Hat"
+  },
+  {
+    "id": "1c70515194c04828917f",
+    "name": "Isabuzza",
+    "description": "A talented and creative young worker bee who invents a new kind of honey and helps her hive find flowers in the dark.",
+    "storyIds": [
+      "Isabuzza_and_the_Secret_Sprinkle_Honey"
+    ],
+    "firstAppearanceStoryId": "Isabuzza_and_the_Secret_Sprinkle_Honey"
+  },
+  {
+    "id": "b73edfbde1024416ba73",
+    "name": "King Bee",
+    "description": "The co-ruler of the beehive who enjoys Isabuzza's unique honey and recruits her for a special mission.",
+    "storyIds": [
+      "Isabuzza_and_the_Secret_Sprinkle_Honey"
+    ],
+    "firstAppearanceStoryId": "Isabuzza_and_the_Secret_Sprinkle_Honey"
+  },
+  {
+    "id": "582e05a408a94ec08e1b",
+    "name": "Queen Bee",
+    "description": "The encouraging co-ruler of the beehive who tests Isabuzza on her official worker bee training.",
+    "storyIds": [
+      "Isabuzza_and_the_Secret_Sprinkle_Honey"
+    ],
+    "firstAppearanceStoryId": "Isabuzza_and_the_Secret_Sprinkle_Honey"
   }
 ]

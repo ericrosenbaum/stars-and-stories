@@ -5317,5 +5317,23 @@
       "The_Secret_of_the_Galapagos_Blub_Creatures"
     ],
     "firstAppearanceStoryId": "The_Secret_of_the_Galapagos_Blub_Creatures"
+  },
+  {
+    "id": "c368309149074156bcef",
+    "name": "The Beehive",
+    "description": "The bustling home of the bee colony where honey is crafted on special mats.",
+    "storyIds": [
+      "Isabuzza_and_the_Secret_Sprinkle_Honey"
+    ],
+    "firstAppearanceStoryId": "Isabuzza_and_the_Secret_Sprinkle_Honey"
+  },
+  {
+    "id": "7292f469953947b383ea",
+    "name": "The Flower Patch",
+    "description": "The dark destination where Isabuzza guides the other bees to harvest nectar.",
+    "storyIds": [
+      "Isabuzza_and_the_Secret_Sprinkle_Honey"
+    ],
+    "firstAppearanceStoryId": "Isabuzza_and_the_Secret_Sprinkle_Honey"
   }
 ]
