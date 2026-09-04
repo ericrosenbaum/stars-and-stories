@@ -192,7 +192,8 @@
     "storyIds": [
       "Wobbly_Whisker_s_Sticky_Adventure_on_Planet_Mooker",
       "The_Magic_Star_Potion_and_the_Journey_to_Star_World",
-      "Wobbly_Whisker_and_the_Mountaintop_Fish_House-2"
+      "Wobbly_Whisker_and_the_Mountaintop_Fish_House-2",
+      "The_Mystery_of_Peacock_s_Hat_and_the_Moopa_Doopa"
     ],
     "firstAppearanceStoryId": "Wobbly_Whisker_s_Sticky_Adventure_on_Planet_Mooker"
   },
@@ -347,7 +348,8 @@
       "The_Case_of_the_Kidnapped_Dwarf_and_the_Magic_Ladder",
       "The_Secret_of_the_Galapagos_Blub_Creatures",
       "Walkie-Talkies_for_the_Yellow_Jackets",
-      "The_Super_Mouse_Crew_and_the_Wizard_s_Lost_Hat"
+      "The_Super_Mouse_Crew_and_the_Wizard_s_Lost_Hat",
+      "The_Mystery_of_Peacock_s_Hat_and_the_Moopa_Doopa"
     ],
     "firstAppearanceStoryId": "Frasgle_and_the_Sticky_Situation"
   },
@@ -572,7 +574,8 @@
       "A_Sticky_Adventure_to_the_Castle_of_Slime",
       "The_Bouncy_Adventures_in_Balloon_World",
       "Slime-Ka-Bye_The_Beard-Dweller_s_Deep_Sea_Adventure",
-      "The_Super_Mouse_Crew_and_the_Wizard_s_Lost_Hat"
+      "The_Super_Mouse_Crew_and_the_Wizard_s_Lost_Hat",
+      "The_Mystery_of_Peacock_s_Hat_and_the_Moopa_Doopa"
     ],
     "firstAppearanceStoryId": "The_Wizard_s_Play-Doh_Hat_Quest"
   },
@@ -1872,7 +1875,8 @@
     "name": "Mouse",
     "description": "An ice-skating enthusiast who sprained its tail and wears a tail warmer.",
     "storyIds": [
-      "Doctor_Izzy_s_Busy_Hospital_Day"
+      "Doctor_Izzy_s_Busy_Hospital_Day",
+      "The_Mystery_of_Peacock_s_Hat_and_the_Moopa_Doopa"
     ],
     "firstAppearanceStoryId": "Doctor_Izzy_s_Busy_Hospital_Day"
   },
@@ -2306,7 +2310,8 @@
       "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness",
       "Bunsen_s_First_Day_at_Catasory",
       "The_Grand_Singing_Competition_of_Circular_Island",
-      "The_Mysterious_Sand_Bottle_and_the_No-Crying_Game"
+      "The_Mysterious_Sand_Bottle_and_the_No-Crying_Game",
+      "The_Mystery_of_Peacock_s_Hat_and_the_Moopa_Doopa"
     ],
     "firstAppearanceStoryId": "Dimitar_and_the_Blueberry_Dragon_Pop"
   },
@@ -3094,7 +3099,8 @@
       "The_Case_of_the_Kidnapped_Dwarf_and_the_Magic_Ladder",
       "The_Secret_of_the_Galapagos_Blub_Creatures",
       "Walkie-Talkies_for_the_Yellow_Jackets",
-      "The_Super_Mouse_Crew_and_the_Wizard_s_Lost_Hat"
+      "The_Super_Mouse_Crew_and_the_Wizard_s_Lost_Hat",
+      "The_Mystery_of_Peacock_s_Hat_and_the_Moopa_Doopa"
     ],
     "firstAppearanceStoryId": "The_Mischief_Moles_and_the_Plane_of_Fire"
   },
@@ -3195,7 +3201,8 @@
       "The_Rainbow_Fruit_World_and_the_Great_Lemon_Fish_Debate",
       "Seeker_and_the_Security_Cats_The_Potion_Caper",
       "Tot_s_Great_Cheese_Beach_Adventure",
-      "The_Super_Mouse_Crew_and_the_Wizard_s_Lost_Hat"
+      "The_Super_Mouse_Crew_and_the_Wizard_s_Lost_Hat",
+      "The_Mystery_of_Peacock_s_Hat_and_the_Moopa_Doopa"
     ],
     "firstAppearanceStoryId": "Hattie_the_Mouse_and_the_Baby_Chipmunk_s_Snack"
   },
@@ -7238,7 +7245,8 @@
     "name": "Sarona",
     "description": "A clumsy but helpful security cat who uses a net to catch a cheese cloud.",
     "storyIds": [
-      "The_Stinky_Cheese_Volcano_and_the_Floating_Balloon_Sky"
+      "The_Stinky_Cheese_Volcano_and_the_Floating_Balloon_Sky",
+      "The_Mystery_of_Peacock_s_Hat_and_the_Moopa_Doopa"
     ],
     "firstAppearanceStoryId": "The_Stinky_Cheese_Volcano_and_the_Floating_Balloon_Sky"
   },
@@ -7457,5 +7465,14 @@
       "Isabuzza_and_the_Secret_Sprinkle_Honey"
     ],
     "firstAppearanceStoryId": "Isabuzza_and_the_Secret_Sprinkle_Honey"
+  },
+  {
+    "id": "433002bda0c0478899cc",
+    "name": "Zeno",
+    "description": "A light purple dragonet who took Peacock's hat to show off to his friends.",
+    "storyIds": [
+      "The_Mystery_of_Peacock_s_Hat_and_the_Moopa_Doopa"
+    ],
+    "firstAppearanceStoryId": "The_Mystery_of_Peacock_s_Hat_and_the_Moopa_Doopa"
   }
 ]
