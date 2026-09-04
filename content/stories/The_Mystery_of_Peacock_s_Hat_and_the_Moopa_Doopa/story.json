@@ -2,7 +2,7 @@
   "id": "The_Mystery_of_Peacock_s_Hat_and_the_Moopa_Doopa",
   "title": "The Mystery of Peacock's Hat and the Moopa Doopa",
   "date": "2026-09-04T02:06:55.000Z",
-  "summary": "When Peacock the Wizard's favorite light blue and purple hat goes missing, the Security Cats—Wobbly Whisker, Sarona, and Seeker—team up with the clever navigator Isabella to crack the case. Following a trail of footprints, fabric scraps, and purple feathers, they board Isabella's incredible submarine vehicle, the Moopa Doopa, and head to Circular Island. There, they discover Zeno, a boastful dragonet who took the hat to impress his friends. After Isabella boldly retrieves the stolen hat, she makes a daring escape through the deep Marian Trench. With the help of Mouse, the hat is repaired and returned to Peacock, while the remorseful Zeno is gifted a brand-new green and blue hat of his own, successfully solving the case for everyone.",
+  "summary": "When Peacock the Wizard's favorite light blue and purple hat goes missing, Seeker and the Security Cats—Wobbly Whiskers and Sarana—team up with the clever navigator Isabella to crack the case. Following a trail of footprints, fabric scraps, and purple feathers, they board Isabella's incredible submarine vehicle, the Moopa Doopa, and head to Circular Island. There, they discover Zeno, a boastful dragonet who took the hat to impress his friends. After Isabella boldly retrieves the stolen hat, she makes a daring escape through the deep Mariana Trench. With the help of Hattie the mouse, the hat is repaired and returned to Peacock, while the remorseful Zeno is gifted a brand-new green and blue hat of his own, successfully solving the case for everyone.",
   "audioFilename": "Cornell St 159.m4a",
   "highlightQuote": {
     "text": "The Moopa Doopa.",
@@ -71,7 +71,7 @@
     },
     {
       "speaker": "Dad",
-      "text": "Well, come on in, security cats. Hello, Wobbly Whisker. Hel- hello, Sarona. Come on in. Um, would... Are you hungry? Would you like a snack or anything?",
+      "text": "Well, come on in, security cats. Hello, Wobbly Whiskers. Hel- hello, Sarana. Come on in. Um, would... Are you hungry? Would you like a snack or anything?",
       "timestamp": 70.38
     },
     {
@@ -271,7 +271,7 @@
     },
     {
       "speaker": "Dad",
-      "text": "Oh. \"This is a complicated trail,\" said Seeker. Now, Wobbly Whisker, Sarona, you're experts in using these clues to solve mysteries, so why don't you have a look at those footprints and, and tell us what you see.",
+      "text": "Oh. \"This is a complicated trail,\" said Seeker. Now, Wobbly Whiskers, Sarana, you're experts in using these clues to solve mysteries, so why don't you have a look at those footprints and, and tell us what you see.",
       "timestamp": 264.08
     },
     {
@@ -306,7 +306,7 @@
     },
     {
       "speaker": "Dad",
-      "text": "And Wobbly Whiskers says, \"This sounds like a case for the security cats.\" And Sarona said, \"Yeah, uh, I thi- I think so. W- Uh, where's this Circular Island? How do we get there?\" And Seeker said-",
+      "text": "And Wobbly Whiskers says, \"This sounds like a case for the security cats.\" And Sarana said, \"Yeah, uh, I thi- I think so. W- Uh, where's this Circular Island? How do we get there?\" And Seeker said-",
       "timestamp": 331.12
     },
     {
@@ -521,7 +521,7 @@
     },
     {
       "speaker": "Izzy",
-      "text": "Well, it can't. Zoom went Isabella. She went under the water, and what did Zeno do? She went down through the Marian Trench and then up when she was at her house. And then what did Zeno say?",
+      "text": "Well, it can't. Zoom went Isabella. She went under the water, and what did Zeno do? She went down through the Mariana Trench and then up when she was at her house. And then what did Zeno say?",
       "timestamp": 610.08
     },
     {
@@ -531,7 +531,7 @@
     },
     {
       "speaker": "Izzy",
-      "text": "And, and, and, and Isabella says, \"Hi, Mouse,\" fix, fix, fix. And Mouse already fixed it up and gave it to Peacock and said, \"Peacock, you stay at my house for all the rest of the day.\" And Peacock took a nap.",
+      "text": "And, and, and, and Isabella says, \"Hi, Hattie,\" fix, fix, fix. And Hattie already fixed it up and gave it to Peacock and said, \"Peacock, you stay at my house for all the rest of the day.\" And Peacock took a nap.",
       "timestamp": 655.3
     },
     {
@@ -561,7 +561,7 @@
     },
     {
       "speaker": "Izzy",
-      "text": "Until he got to the Marian Trench, but then when he felt it was too cold, he swam back up.",
+      "text": "Until he got to the Mariana Trench, but then when he felt it was too cold, he swam back up.",
       "timestamp": 715.06
     },
     {
@@ -617,14 +617,14 @@
       "description": "Once a deep-ocean companion to Seeker, this vibrant bird wizard now serves as the charismatic host of the magical castle’s grand show. From a cozy nest atop a soaring tower, they orchestrate wonder through balloon school arts—transmuting rubber into succulent strawberries—while proudly sporting a magnificent hat gifted by Hattie and Izzy. A playful visionary of dreamer magic and a tireless seeker of rare diamond-shaped potions, they use their stage to beckon heroes into a world of soaring imagination, often dispatching them on whimsical quests to recover enchanted new hats for their growing collection."
     },
     {
-      "id": "2JyDSTRTnxD1JqnvHHKk",
-      "name": "Wobbly Whisker",
-      "description": "A small kitten who gets lost on the Planet of the Mookers and becomes very sticky."
+      "id": "JuCyySSWo7fn6YvKkV9g",
+      "name": "Wobbly Whiskers",
+      "description": "A small white kitten, slick with the sticky, iridescent residue of the potion bottle she tumbled from, who joins the adventure in a desperate search for her lost mother."
     },
     {
-      "id": "21be27c8863b41469a34",
-      "name": "Sarona",
-      "description": "A clumsy but helpful security cat who uses a net to catch a cheese cloud."
+      "id": "a3e45292fb484bca84b1",
+      "name": "Sarana",
+      "description": "The other Security Cat who assists in gathering clues and investigating the crime scene."
     },
     {
       "id": "34xshXaYEDy8V1RTpXR7",
@@ -642,11 +642,6 @@
       "description": "A light purple dragonet who took Peacock's hat to show off to his friends."
     },
     {
-      "id": "HIiZAHhOC6VGjdPIsGx4",
-      "name": "Mouse",
-      "description": "An ice-skating enthusiast who sprained its tail and wears a tail warmer."
-    },
-    {
       "id": "TshuLJMOWWEnDDVz4OHL",
       "name": "Hattie",
       "description": "A clever mouse milliner and engineer of whimsy, she is a resourceful spirit who crafts exquisite hats and soulful portraits within her hollow tree stump workshop. Though a formidable presence famously counted among the thirty legendary cats, she is currently confined to her bed by illness, her usual treks through saturated woodlands for rare tape and lollipops temporarily halted. Even in her malaise, her sharp mind lingers on a recent, stinging disagreement with Dimitar over a fish, a rare shadow cast upon a heart otherwise known for its boundless generosity and creative light."
@@ -659,9 +654,9 @@
       "description": "A perfectly circular landmass rising from the waters of the distant reaches, this remote sanctuary serves as both the private residence of Dimitar and the hallowed grounds of the school."
     },
     {
-      "id": "4bd6e902c8e04c749c6b",
-      "name": "The Marian Trench",
-      "description": "A deep, cold underwater trench used as a shortcut."
+      "id": "HaTNIiPaJJhU04GB6xeJ",
+      "name": "Mariana Trench",
+      "description": "A deep ocean trench mentioned by Seeker as a place where deep-sea creatures live."
     },
     {
       "id": "d548c1792409473a91ca",

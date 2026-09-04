@@ -192,8 +192,7 @@
     "storyIds": [
       "Wobbly_Whisker_s_Sticky_Adventure_on_Planet_Mooker",
       "The_Magic_Star_Potion_and_the_Journey_to_Star_World",
-      "Wobbly_Whisker_and_the_Mountaintop_Fish_House-2",
-      "The_Mystery_of_Peacock_s_Hat_and_the_Moopa_Doopa"
+      "Wobbly_Whisker_and_the_Mountaintop_Fish_House-2"
     ],
     "firstAppearanceStoryId": "Wobbly_Whisker_s_Sticky_Adventure_on_Planet_Mooker"
   },
@@ -1875,8 +1874,7 @@
     "name": "Mouse",
     "description": "An ice-skating enthusiast who sprained its tail and wears a tail warmer.",
     "storyIds": [
-      "Doctor_Izzy_s_Busy_Hospital_Day",
-      "The_Mystery_of_Peacock_s_Hat_and_the_Moopa_Doopa"
+      "Doctor_Izzy_s_Busy_Hospital_Day"
     ],
     "firstAppearanceStoryId": "Doctor_Izzy_s_Busy_Hospital_Day"
   },
@@ -2106,7 +2104,8 @@
       "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission",
       "The_Stinky_Cheese_Volcano_and_the_Floating_Balloon_Sky",
       "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness",
-      "The_Case_of_the_Kidnapped_Dwarf_and_the_Magic_Ladder"
+      "The_Case_of_the_Kidnapped_Dwarf_and_the_Magic_Ladder",
+      "The_Mystery_of_Peacock_s_Hat_and_the_Moopa_Doopa"
     ],
     "firstAppearanceStoryId": "The_Quest_for_the_Moon_Mother"
   },
@@ -7002,7 +7001,8 @@
     "name": "Sarana",
     "description": "The other Security Cat who assists in gathering clues and investigating the crime scene.",
     "storyIds": [
-      "Seeker_and_the_Security_Cats_The_Potion_Caper"
+      "Seeker_and_the_Security_Cats_The_Potion_Caper",
+      "The_Mystery_of_Peacock_s_Hat_and_the_Moopa_Doopa"
     ],
     "firstAppearanceStoryId": "Seeker_and_the_Security_Cats_The_Potion_Caper"
   },
@@ -7245,8 +7245,7 @@
     "name": "Sarona",
     "description": "A clumsy but helpful security cat who uses a net to catch a cheese cloud.",
     "storyIds": [
-      "The_Stinky_Cheese_Volcano_and_the_Floating_Balloon_Sky",
-      "The_Mystery_of_Peacock_s_Hat_and_the_Moopa_Doopa"
+      "The_Stinky_Cheese_Volcano_and_the_Floating_Balloon_Sky"
     ],
     "firstAppearanceStoryId": "The_Stinky_Cheese_Volcano_and_the_Floating_Balloon_Sky"
   },

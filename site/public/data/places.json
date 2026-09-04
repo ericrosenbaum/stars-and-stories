@@ -1489,7 +1489,8 @@
     "name": "Mariana Trench",
     "description": "A deep ocean trench mentioned by Seeker as a place where deep-sea creatures live.",
     "storyIds": [
-      "Science_and_Hand_Mountains_with_Seeker_and_Uncle_Grisco"
+      "Science_and_Hand_Mountains_with_Seeker_and_Uncle_Grisco",
+      "The_Mystery_of_Peacock_s_Hat_and_the_Moopa_Doopa"
     ],
     "firstAppearanceStoryId": "Science_and_Hand_Mountains_with_Seeker_and_Uncle_Grisco"
   },
@@ -5337,15 +5338,6 @@
       "Isabuzza_and_the_Secret_Sprinkle_Honey"
     ],
     "firstAppearanceStoryId": "Isabuzza_and_the_Secret_Sprinkle_Honey"
-  },
-  {
-    "id": "4bd6e902c8e04c749c6b",
-    "name": "The Marian Trench",
-    "description": "A deep, cold underwater trench used as a shortcut.",
-    "storyIds": [
-      "The_Mystery_of_Peacock_s_Hat_and_the_Moopa_Doopa"
-    ],
-    "firstAppearanceStoryId": "The_Mystery_of_Peacock_s_Hat_and_the_Moopa_Doopa"
   },
   {
     "id": "d548c1792409473a91ca",
