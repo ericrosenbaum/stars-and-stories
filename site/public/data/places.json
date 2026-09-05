@@ -4405,7 +4405,8 @@
     "description": "A safe and cozy underground sanctuary for the Mischief Moles, tucked away within the protective cracks of a weathered stone wall.",
     "storyIds": [
       "Oscar_Mouse_and_the_Musical_Wolf_Cub",
-      "The_Mischief_Moles_and_the_Plane_of_Fire"
+      "The_Mischief_Moles_and_the_Plane_of_Fire",
+      "The_Great_Bee_Escape_From_Sprinkle_Honey_to_the_Mariana_Trench"
     ],
     "firstAppearanceStoryId": "Oscar_Mouse_and_the_Musical_Wolf_Cub"
   },
@@ -5236,7 +5237,8 @@
     "name": "The Mariana Trench",
     "description": "A deep underwater trench that only superhero grown-up mergirls can safely explore.",
     "storyIds": [
-      "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness"
+      "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness",
+      "The_Great_Bee_Escape_From_Sprinkle_Honey_to_the_Mariana_Trench"
     ],
     "firstAppearanceStoryId": "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness"
   },
@@ -5347,5 +5349,14 @@
       "The_Mystery_of_Peacock_s_Hat_and_the_Moopa_Doopa"
     ],
     "firstAppearanceStoryId": "The_Mystery_of_Peacock_s_Hat_and_the_Moopa_Doopa"
+  },
+  {
+    "id": "f3dec30562074cf7b8fe",
+    "name": "The Hive",
+    "description": "The royal home and headquarters of the bee kingdom, complete with a throne room.",
+    "storyIds": [
+      "The_Great_Bee_Escape_From_Sprinkle_Honey_to_the_Mariana_Trench"
+    ],
+    "firstAppearanceStoryId": "The_Great_Bee_Escape_From_Sprinkle_Honey_to_the_Mariana_Trench"
   }
 ]

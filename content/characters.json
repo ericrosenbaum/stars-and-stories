@@ -348,7 +348,8 @@
       "The_Secret_of_the_Galapagos_Blub_Creatures",
       "Walkie-Talkies_for_the_Yellow_Jackets",
       "The_Super_Mouse_Crew_and_the_Wizard_s_Lost_Hat",
-      "The_Mystery_of_Peacock_s_Hat_and_the_Moopa_Doopa"
+      "The_Mystery_of_Peacock_s_Hat_and_the_Moopa_Doopa",
+      "The_Great_Bee_Escape_From_Sprinkle_Honey_to_the_Mariana_Trench"
     ],
     "firstAppearanceStoryId": "Frasgle_and_the_Sticky_Situation"
   },
@@ -6641,7 +6642,8 @@
     "name": "Moana",
     "description": "A member of the space exploration team.",
     "storyIds": [
-      "Captain_Izzy_s_Galactic_School_Bus_Mission"
+      "Captain_Izzy_s_Galactic_School_Bus_Mission",
+      "The_Great_Bee_Escape_From_Sprinkle_Honey_to_the_Mariana_Trench"
     ],
     "firstAppearanceStoryId": "Captain_Izzy_s_Galactic_School_Bus_Mission"
   },
@@ -7452,7 +7454,8 @@
     "name": "King Bee",
     "description": "The co-ruler of the beehive who enjoys Isabuzza's unique honey and recruits her for a special mission.",
     "storyIds": [
-      "Isabuzza_and_the_Secret_Sprinkle_Honey"
+      "Isabuzza_and_the_Secret_Sprinkle_Honey",
+      "The_Great_Bee_Escape_From_Sprinkle_Honey_to_the_Mariana_Trench"
     ],
     "firstAppearanceStoryId": "Isabuzza_and_the_Secret_Sprinkle_Honey"
   },
@@ -7461,7 +7464,8 @@
     "name": "Queen Bee",
     "description": "The encouraging co-ruler of the beehive who tests Isabuzza on her official worker bee training.",
     "storyIds": [
-      "Isabuzza_and_the_Secret_Sprinkle_Honey"
+      "Isabuzza_and_the_Secret_Sprinkle_Honey",
+      "The_Great_Bee_Escape_From_Sprinkle_Honey_to_the_Mariana_Trench"
     ],
     "firstAppearanceStoryId": "Isabuzza_and_the_Secret_Sprinkle_Honey"
   },
@@ -7473,5 +7477,23 @@
       "The_Mystery_of_Peacock_s_Hat_and_the_Moopa_Doopa"
     ],
     "firstAppearanceStoryId": "The_Mystery_of_Peacock_s_Hat_and_the_Moopa_Doopa"
+  },
+  {
+    "id": "9f412828cb3340fda2eb",
+    "name": "Worker Bee",
+    "description": "A diligent bee tasked with chasing down Isabella and delivering enticing gifts of sprinkle honey.",
+    "storyIds": [
+      "The_Great_Bee_Escape_From_Sprinkle_Honey_to_the_Mariana_Trench"
+    ],
+    "firstAppearanceStoryId": "The_Great_Bee_Escape_From_Sprinkle_Honey_to_the_Mariana_Trench"
+  },
+  {
+    "id": "124b14c70f2f4e149cb2",
+    "name": "Jaja Juja",
+    "description": "A giant, heroic bee, also known as Barry Friedline, who rescues the King and Queen from Isabella's traps.",
+    "storyIds": [
+      "The_Great_Bee_Escape_From_Sprinkle_Honey_to_the_Mariana_Trench"
+    ],
+    "firstAppearanceStoryId": "The_Great_Bee_Escape_From_Sprinkle_Honey_to_the_Mariana_Trench"
   }
 ]
