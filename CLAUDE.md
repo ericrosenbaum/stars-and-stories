@@ -33,8 +33,11 @@ choice. A story with no header yet is a normal state (it publishes without one).
 
 New stories are transcribed in two passes: an audio → transcript pass (default
 engine: ElevenLabs `scribe-v2`) followed by a Gemini transcript → analysis pass
-(title/entities/summary/quote). The transcription prompt is primed with recurring
-character/place names via `tools/lib/lexicon.ts`. Override the engine per-run with
+(title/entities/summary/quote). Every engine but `openai-diarize` is primed with
+recurring character/place names from `tools/lib/lexicon.ts` — as prompt text on
+Gemini, as keyterms on `scribe-v2`/`assemblyai` (see `keytermsFor()`, which trims
+the lexicon to each API's cap). This is what keeps invented names spelled the same
+across stories, so leave it wired up. Override the engine per-run with
 `npm run add -- <audio> --engine <id>`, or globally via `TRANSCRIBE_ENGINE` in
 `tools/.env`; `defaultEngine()` in `tools/lib/asr.ts` is the single source of truth.
 
@@ -43,7 +46,9 @@ Engine comparison is user-driven, like header candidates:
 the configured engines and writes `content/bakeoff/<run>/compare.html` — open
 it and let the user judge (Izzy's lines are what matters). NEVER declare a
 winning engine for the user. Engines missing API keys are skipped, that's
-normal.
+normal. `tools/transcription-review.md` records which engine produced which
+story and what re-transcribing would cost; changing the default engine or
+bulk-re-transcribing is the user's call, not a conclusion to reach for them.
 
 `npm run retranscribe -- <slug> [--engine X] [--quote]` replaces only the
 transcript + word counts of an existing story (title/date/summary/entities/

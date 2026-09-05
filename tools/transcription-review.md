@@ -50,31 +50,33 @@ pairs** — `Mergirl`/`Murgirl`, `Bobizzard`/`Bobizard`, `Seeker`/`Seker`,
 `Wobble`/`Wobbly`/`Wabble`, `Catasory`/`Catasorry`/`Cadasori`. Every one of
 those inflates the entity registry and breaks the codex cross-links.
 
-`tools/lib/lexicon.ts` exists to fix exactly this — but **the lexicon never
-reaches scribe-v2.** In `runEngine()`, `opts.lexicon` is passed only on the
-`gemini-flash`/`gemini-pro` branches; `runScribe()` sends `file`, `model_id`
-and `diarize` and nothing else. So the current default engine is the one
-engine running with no name priming at all. ElevenLabs supports this via the
-`keyterms` param (up to 1000 terms × 50 chars on Scribe v2, +$0.05/hr), and
-the lexicon caps at 120 characters + 60 places — well inside that budget.
+`tools/lib/lexicon.ts` exists to fix exactly this — but until now **the lexicon
+never reached scribe-v2.** In `runEngine()`, `opts.lexicon` was passed only on
+the `gemini-flash`/`gemini-pro` branches; `runScribe()` sent `file`, `model_id`
+and `diarize` and nothing else, so the default engine was the one engine running
+with no name priming at all.
 
-**This is the cheapest available accuracy win and it doesn't require changing
-engines.** Worth doing before any bulk re-transcription, so the re-run gets
-the benefit.
+Fixed: `runScribe()` now sends the lexicon as repeated `keyterms` form fields
+(ElevenLabs caps these at 100 terms × 50 chars, so `keytermsFor()` trims to fit,
+giving characters first claim on two thirds of the budget). This is the cheapest
+available accuracy win and it required no engine change — and it lands before
+any bulk re-transcription, so a re-run gets the benefit.
 
 ### The one engine worth bake-off-ing against it
 
 The field hasn't moved much since 07-17. There is no Scribe v3, no Deepgram
 Nova-4. Two things did change:
 
-- **AssemblyAI Universal-3.5 Pro** (mid-2026) is the notable one. On the
+- **AssemblyAI Universal-3.5 Pro** (mid-2026) is the notable one, and is now
+  wired up as the `assemblyai` engine so it can be bake-off'd. On the
   diarization benchmark it posts 30.17 cpWER vs Scribe v2's 35.26 and
   Nova-3's 37.92 — and cpWER is precisely this project's metric, since
   "who said what" is what the Izzy/Dad split depends on. $0.21/hr async
   with diarization *and* keyterm prompting (1,500 words) included, i.e.
   slightly cheaper than Scribe v2 + the keyterm add-on. Caveat: those
   numbers are AssemblyAI's own published benchmark; the independent Coval
-  round-up is behind a blocked domain and I couldn't verify it.
+  round-up is behind a blocked domain and I couldn't verify it. It is async
+  (upload → poll), so it is slower per recording than the others.
 - **OpenAI `gpt-transcribe`** (2026-07-28) replaced `gpt-4o-transcribe` as
   the default file-transcription model at $0.0045/min ($0.27/hr). The repo's
   `openai-diarize` engine still points at `gpt-4o-transcribe-diarize`.
@@ -123,14 +125,18 @@ costs are elsewhere:
 
 ## 4. Suggested order
 
-1. Pass the lexicon to `runScribe()` as `keyterms` (+$0.05/hr). Cheap, and it
-   is the actual named-entity fix.
-2. `npm run bakeoff` on 2–3 recordings — ideally one legacy story where you
-   remember what Izzy actually said — against `scribe-v2` (with keyterms) and
-   an AssemblyAI engine, if adding one is worth it. Judge it yourself.
+1. ~~Pass the lexicon to `runScribe()` as `keyterms`.~~ **Done** — along with
+   an `assemblyai` engine for step 2. Both need only a key in `tools/.env`;
+   `npm run verify-models` checks them.
+2. `npm run bakeoff -- <slug> --engines scribe-v2,assemblyai` on 2–3
+   recordings — ideally one legacy story where you remember what Izzy actually
+   said — and judge `compare.html` yourself. Costs a few cents.
 3. Re-transcribe in tiers rather than all at once: the ~50 highest-Izzy-content
    pre-scribe stories first ($3), review those diffs, then decide about the
    remaining 146.
+
+Steps 2 and 3 both need the original `source.m4a` files, so they run on the
+recording Mac.
 
 Prices are from vendor pricing pages via search (their sites are blocked from
 this sandbox) and match the constants already in `tools/lib/asr.ts`; spot-check

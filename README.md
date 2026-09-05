@@ -120,11 +120,19 @@ and labels the two speakers (default engine: ElevenLabs `scribe-v2`, primed with
 the most recurring character/place names from the archive so familiar names are
 spelled consistently), then a Gemini text pass that produces the title, entities,
 summary and highlight quote. Pick the audio engine per-run with `--engine <id>`
-(`scribe-v2` | `gemini-flash` | `gemini-pro` | `openai-diarize`) or globally via
+(`scribe-v2` | `gemini-flash` | `gemini-pro` | `assemblyai` | `openai-diarize`) or globally via
 `TRANSCRIBE_ENGINE` in `tools/.env`. When the audio pass runs on Gemini, set
 `GEMINI_TRANSCRIBE_MODEL` to use a stronger model (e.g. a Pro tier) while analysis
 stays on the cheap one, and files over ~15 MB upload via the Gemini Files API
 automatically.
+
+How the names reach each engine differs: Gemini gets them in the prompt, while
+`scribe-v2` and `assemblyai` take them as keyterms — a bias list the acoustic
+model applies while decoding, which is what keeps `Murgirl`/`Mergirl` and
+`Bobizzard`/`Bobizard` from becoming two characters. ElevenLabs caps that list
+at 100 terms (and may bill $0.05/audio-hour for it), AssemblyAI does not, so
+`lib/asr.ts` trims the lexicon to fit, characters first. `openai-diarize` has
+nowhere to put the names and runs unprimed.
 
 ### Comparing transcription engines (bake-off)
 
@@ -134,15 +142,21 @@ engines and review them side by side:
 ```bash
 cd tools
 npm run bakeoff -- <slug-or-audio-path> [more inputs...]
-# options: --engines gemini-flash,gemini-pro,scribe-v2,openai-diarize   --name label
+# options: --engines gemini-flash,gemini-pro,scribe-v2,assemblyai,openai-diarize   --name label
 ```
 
 Engines are skipped (with a note) when their API key is missing from
 `tools/.env`: Gemini needs `GEMINI_API_KEY`, ElevenLabs Scribe
-(`ELEVENLABS_API_KEY`, ~$0.22/audio-hour, acoustic diarization included) and
-OpenAI (`OPENAI_API_KEY`, ~$0.36/audio-hour, native diarization). Gemini costs
-fractions of a cent per story. `npm run verify-models` checks whichever keys
-are configured.
+(`ELEVENLABS_API_KEY`, ~$0.22/audio-hour plus keyterms, acoustic diarization
+included), AssemblyAI (`ASSEMBLYAI_API_KEY`, ~$0.21/audio-hour with diarization
+and keyterms included) and OpenAI (`OPENAI_API_KEY`, ~$0.36/audio-hour, native
+diarization). Gemini costs fractions of a cent per story. `npm run
+verify-models` checks whichever keys are configured.
+
+AssemblyAI is asynchronous — upload, then poll — so it takes noticeably longer
+per recording than the others, and a bake-off including it is worth starting
+before you make tea. `tools/transcription-review.md` covers why it is in the
+list and what a full re-transcription of the archive would cost.
 
 Each run writes `content/bakeoff/<name>-<stamp>/` (gitignored) with per-engine
 JSON and a `compare.html`: one column per engine, Izzy's lines highlighted,
@@ -160,7 +174,7 @@ each engine heard. Requires the story's local `source.m4a` (or any audio path).
 ```bash
 cd tools
 npm run retranscribe -- <slug>
-# options: --engine scribe-v2|gemini-flash|gemini-pro|openai-diarize (default scribe-v2)   --quote   --no-build
+# options: --engine scribe-v2|gemini-flash|gemini-pro|assemblyai|openai-diarize (default scribe-v2)   --quote   --no-build
 ```
 
 Replaces ONLY the transcript (and the per-speaker word counts) of an existing

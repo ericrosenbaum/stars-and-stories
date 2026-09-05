@@ -5,7 +5,7 @@
  * Options:
  *   --date YYYY-MM-DD     override the story date
  *   --engine <id>        transcription engine (default: scribe-v2; also
- *                        gemini-flash | gemini-pro | openai-diarize)
+ *                        gemini-flash | gemini-pro | assemblyai | openai-diarize)
  *   --no-image           skip header-image candidate generation
  *   --no-build           don't rebuild the site bundle afterwards
  *   --world-dna          also regenerate the World DNA essay

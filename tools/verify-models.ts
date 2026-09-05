@@ -1,5 +1,6 @@
 /** Smoke-test the configured model ids / API keys against the live APIs.
- * Checks whichever keys are present in tools/.env — Gemini, ElevenLabs, OpenAI. */
+ * Checks whichever keys are present in tools/.env — Gemini, ElevenLabs,
+ * AssemblyAI, OpenAI. */
 import 'dotenv/config';
 import { GoogleGenAI } from '@google/genai';
 import { engineModel } from './lib/asr.ts';
@@ -42,6 +43,19 @@ async function checkElevenLabs() {
   }
 }
 
+async function checkAssemblyAI() {
+  try {
+    // No per-model endpoint to probe, so this authenticates the key and lets
+    // the transcript list confirm the account is usable.
+    const res = await fetch('https://api.assemblyai.com/v2/transcript?limit=1', {
+      headers: { Authorization: process.env.ASSEMBLYAI_API_KEY! },
+    });
+    console.log(res.ok ? '✓ AssemblyAI API key works' : `✗ AssemblyAI API key FAILED (HTTP ${res.status})`);
+  } catch (e: any) {
+    console.log(`✗ AssemblyAI check FAILED: ${e?.message || e}`);
+  }
+}
+
 async function checkOpenAI(model: string) {
   try {
     const res = await fetch(`https://api.openai.com/v1/models/${model}`, {
@@ -55,8 +69,10 @@ async function checkOpenAI(model: string) {
   }
 }
 
-if (!apiKey && !process.env.ELEVENLABS_API_KEY && !process.env.OPENAI_API_KEY) {
-  console.error('No API keys set in tools/.env (GEMINI_API_KEY, ELEVENLABS_API_KEY, OPENAI_API_KEY).');
+if (!apiKey && !process.env.ELEVENLABS_API_KEY && !process.env.ASSEMBLYAI_API_KEY && !process.env.OPENAI_API_KEY) {
+  console.error(
+    'No API keys set in tools/.env (GEMINI_API_KEY, ELEVENLABS_API_KEY, ASSEMBLYAI_API_KEY, OPENAI_API_KEY).',
+  );
   process.exit(1);
 }
 
@@ -70,5 +86,6 @@ if (apiKey) {
   console.log('- skipping Gemini checks (GEMINI_API_KEY not set)');
 }
 if (process.env.ELEVENLABS_API_KEY) await checkElevenLabs();
+if (process.env.ASSEMBLYAI_API_KEY) await checkAssemblyAI();
 if (process.env.OPENAI_API_KEY) await checkOpenAI(engineModel('openai-diarize'));
 console.log('\nIf a model failed, set GEMINI_TEXT_MODEL / GEMINI_IMAGE_MODEL / GEMINI_TRANSCRIBE_MODEL in tools/.env to a current model id.');

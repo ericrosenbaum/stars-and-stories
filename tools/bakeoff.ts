@@ -3,8 +3,9 @@
  *   npx tsx bakeoff.ts <slug-or-audio-path> [more inputs...] [options]
  *
  * Options:
- *   --engines a,b,c   subset of: gemini-flash, gemini-pro, scribe-v2, openai-diarize
- *                     (default: all four; engines missing their API key are skipped)
+ *   --engines a,b,c   subset of: gemini-flash, gemini-pro, scribe-v2, assemblyai,
+ *                     openai-diarize
+ *                     (default: all of them; engines missing their API key are skipped)
  *   --name label      name for the run directory (default: slug/file basename)
  *
  * Each input produces content/bakeoff/<name>-<stamp>/ (gitignored) with the
@@ -119,7 +120,7 @@ for (const input of inputs) {
   }
 
   if (!results.length && !failures.length) {
-    console.error('\nNo engines ran — set at least one API key (GEMINI_API_KEY, ELEVENLABS_API_KEY, OPENAI_API_KEY) in tools/.env.');
+    console.error('\nNo engines ran — set at least one API key (GEMINI_API_KEY, ELEVENLABS_API_KEY, ASSEMBLYAI_API_KEY, OPENAI_API_KEY) in tools/.env.');
     process.exit(1);
   }
 

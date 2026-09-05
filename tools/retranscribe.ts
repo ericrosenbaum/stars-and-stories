@@ -4,7 +4,8 @@
  *   npx tsx retranscribe.ts <slug> [options]
  *
  * Options:
- *   --engine <id>   scribe-v2 (default) | gemini-flash | gemini-pro | openai-diarize
+ *   --engine <id>   scribe-v2 (default) | gemini-flash | gemini-pro | assemblyai
+ *                   | openai-diarize
  *   --quote         pick a fresh highlight quote from the new transcript
  *                   (default: keep the quote text, re-locate its timestamp)
  *   --no-build      don't rebuild the site bundle afterwards
