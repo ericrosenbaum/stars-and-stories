@@ -5358,5 +5358,23 @@
       "The_Great_Bee_Escape_From_Sprinkle_Honey_to_the_Mariana_Trench"
     ],
     "firstAppearanceStoryId": "The_Great_Bee_Escape_From_Sprinkle_Honey_to_the_Mariana_Trench"
+  },
+  {
+    "id": "7ac048c4c3574e5ca499",
+    "name": "The Ballroom",
+    "description": "The grand royal hall where the Darkness Party, coronation, and wedding ceremonies take place.",
+    "storyIds": [
+      "The_Grand_Coronation_and_Wedding_at_the_Darkness_Party"
+    ],
+    "firstAppearanceStoryId": "The_Grand_Coronation_and_Wedding_at_the_Darkness_Party"
+  },
+  {
+    "id": "a98c231c939d4752b7cc",
+    "name": "West Hollywood",
+    "description": "A location mentioned in the song 'Pink Pony Club' sung during the dance party.",
+    "storyIds": [
+      "The_Grand_Coronation_and_Wedding_at_the_Darkness_Party"
+    ],
+    "firstAppearanceStoryId": "The_Grand_Coronation_and_Wedding_at_the_Darkness_Party"
   }
 ]

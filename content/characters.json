@@ -727,7 +727,8 @@
     "description": "A creative mouse inhabiting a sturdy fabric fortress, where they transform the brittle gold of autumn leaves into intricate art while navigating a life punctuated by sudden, marvelous surprises.",
     "storyIds": [
       "The_Tail_of_Two_Mice_Surprise_and_Hoodie",
-      "The_Adventures_of_Surprise_Mouse_and_Friends"
+      "The_Adventures_of_Surprise_Mouse_and_Friends",
+      "The_Grand_Coronation_and_Wedding_at_the_Darkness_Party"
     ],
     "firstAppearanceStoryId": "The_Tail_of_Two_Mice_Surprise_and_Hoodie"
   },
@@ -760,7 +761,8 @@
       "The_Great_Kibble_Cat-astrophe",
       "Dimatar_s_Big_Day_at_Ginger_Catasorry",
       "The_Flying_Friends_of_Strawberry_Island",
-      "Dimitar_s_Flight_to_Cadasori"
+      "Dimitar_s_Flight_to_Cadasori",
+      "The_Grand_Coronation_and_Wedding_at_the_Darkness_Party"
     ],
     "firstAppearanceStoryId": "Stars_and_Stories_The_Great_Cat_Rescue"
   },
@@ -1372,7 +1374,8 @@
       "Seeker_s_Midnight_Adventure_and_the_Dancing_Pterodactyl",
       "The_Stinky_Cheese_Volcano_and_the_Komodo_Dragon_Quest",
       "Bunsen_s_First_Day_at_Catasory",
-      "The_Secret_of_the_Galapagos_Blub_Creatures"
+      "The_Secret_of_the_Galapagos_Blub_Creatures",
+      "The_Grand_Coronation_and_Wedding_at_the_Darkness_Party"
     ],
     "firstAppearanceStoryId": "The_Floof-Berry_Mission_and_the_Great_Snowstorm"
   },
@@ -2728,7 +2731,8 @@
       "The_Big_Muck_Problem_One_Pile_at_a_Time",
       "The_Imaginary_Road_Trip_to_Nana_s_House",
       "Hattie_s_Magical_Rainbow_Tape_Quest",
-      "The_Sleepy-Time_Science_Experiment"
+      "The_Sleepy-Time_Science_Experiment",
+      "The_Grand_Coronation_and_Wedding_at_the_Darkness_Party"
     ],
     "firstAppearanceStoryId": "Expedition_to_the_Deep-Deep_Dark"
   },
@@ -3804,7 +3808,8 @@
     "description": "A member of the crew who takes over as the driver and spies mysterious things out the window.",
     "storyIds": [
       "Voyage_to_the_Kingdom_of_the_Sea_Mice",
-      "Seeker_s_Midnight_Adventure_and_the_Dancing_Pterodactyl"
+      "Seeker_s_Midnight_Adventure_and_the_Dancing_Pterodactyl",
+      "The_Grand_Coronation_and_Wedding_at_the_Darkness_Party"
     ],
     "firstAppearanceStoryId": "Voyage_to_the_Kingdom_of_the_Sea_Mice"
   },
@@ -4602,7 +4607,8 @@
       "Dimitar_s_Flight_to_Cadasori",
       "Wobbly_Whisker_and_the_Mountaintop_Fish_House-2",
       "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness",
-      "Bunsen_s_First_Day_at_Catasory"
+      "Bunsen_s_First_Day_at_Catasory",
+      "The_Grand_Coronation_and_Wedding_at_the_Darkness_Party"
     ],
     "firstAppearanceStoryId": "The_Chugga-Chugga_Journey_to_Nana_s_House"
   },
@@ -4646,7 +4652,8 @@
       "Seeker_s_Midnight_Adventure_and_the_Dancing_Pterodactyl",
       "The_Stinky_Cheese_Volcano_and_the_Komodo_Dragon_Quest",
       "Bunsen_s_First_Day_at_Catasory",
-      "The_Secret_of_the_Galapagos_Blub_Creatures"
+      "The_Secret_of_the_Galapagos_Blub_Creatures",
+      "The_Grand_Coronation_and_Wedding_at_the_Darkness_Party"
     ],
     "firstAppearanceStoryId": "Late_Night_Tea_with_Mrs_Piggy_and_the_Muppets"
   },
@@ -5443,7 +5450,8 @@
       "The_Imaginary_Road_Trip_to_Nana_s_House",
       "Hattie_s_Magical_Rainbow_Tape_Quest",
       "The_Mystery_of_the_Pool_Noodle_Nibbler",
-      "The_Sleepy-Time_Science_Experiment"
+      "The_Sleepy-Time_Science_Experiment",
+      "The_Grand_Coronation_and_Wedding_at_the_Darkness_Party"
     ],
     "firstAppearanceStoryId": "Expedition_to_the_Deep-Deep_Dark"
   },
@@ -7175,7 +7183,8 @@
     "name": "Princess Mango",
     "description": "A royal character who appears during the investigation of Chicky's jar mission.",
     "storyIds": [
-      "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission"
+      "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission",
+      "The_Grand_Coronation_and_Wedding_at_the_Darkness_Party"
     ],
     "firstAppearanceStoryId": "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission"
   },
@@ -7193,7 +7202,8 @@
     "name": "Clover",
     "description": "A stray bunny rabbit found in the woods who gets adopted by Seeker.",
     "storyIds": [
-      "Seeker_s_Midnight_Adventure_and_the_Dancing_Pterodactyl"
+      "Seeker_s_Midnight_Adventure_and_the_Dancing_Pterodactyl",
+      "The_Grand_Coronation_and_Wedding_at_the_Darkness_Party"
     ],
     "firstAppearanceStoryId": "Seeker_s_Midnight_Adventure_and_the_Dancing_Pterodactyl"
   },
@@ -7265,7 +7275,8 @@
     "name": "Frozen Mango",
     "description": "A superhero friend of Mischief Mouse who has zebra-like powers and wears a zebra cape.",
     "storyIds": [
-      "Mischief_Mouse_and_the_Quest_for_Square-Rots"
+      "Mischief_Mouse_and_the_Quest_for_Square-Rots",
+      "The_Grand_Coronation_and_Wedding_at_the_Darkness_Party"
     ],
     "firstAppearanceStoryId": "Mischief_Mouse_and_the_Quest_for_Square-Rots"
   },
@@ -7274,7 +7285,8 @@
     "name": "Abba",
     "description": "A dancing queen who joins the flying crew on their quest.",
     "storyIds": [
-      "Mischief_Mouse_and_the_Quest_for_Square-Rots"
+      "Mischief_Mouse_and_the_Quest_for_Square-Rots",
+      "The_Grand_Coronation_and_Wedding_at_the_Darkness_Party"
     ],
     "firstAppearanceStoryId": "Mischief_Mouse_and_the_Quest_for_Square-Rots"
   },
@@ -7495,5 +7507,50 @@
       "The_Great_Bee_Escape_From_Sprinkle_Honey_to_the_Mariana_Trench"
     ],
     "firstAppearanceStoryId": "The_Great_Bee_Escape_From_Sprinkle_Honey_to_the_Mariana_Trench"
+  },
+  {
+    "id": "961bd7ce4d734a73aa9c",
+    "name": "Fozzie Bear",
+    "description": "A guest wearing a purple tape and blue costume with a special necklace.",
+    "storyIds": [
+      "The_Grand_Coronation_and_Wedding_at_the_Darkness_Party"
+    ],
+    "firstAppearanceStoryId": "The_Grand_Coronation_and_Wedding_at_the_Darkness_Party"
+  },
+  {
+    "id": "f2ad2c6d249c4438b5c2",
+    "name": "Theresa",
+    "description": "Also known as Toriso, she is the mother of the mermaid sisters who wears a paper and tape dress with a yellow dot, and later marries Frozen Mango.",
+    "storyIds": [
+      "The_Grand_Coronation_and_Wedding_at_the_Darkness_Party"
+    ],
+    "firstAppearanceStoryId": "The_Grand_Coronation_and_Wedding_at_the_Darkness_Party"
+  },
+  {
+    "id": "65cfb693e7f0499cb287",
+    "name": "Bunbun",
+    "description": "A bouncy jumping bunny wearing a silver costume.",
+    "storyIds": [
+      "The_Grand_Coronation_and_Wedding_at_the_Darkness_Party"
+    ],
+    "firstAppearanceStoryId": "The_Grand_Coronation_and_Wedding_at_the_Darkness_Party"
+  },
+  {
+    "id": "dd287841e259470bac13",
+    "name": "Yellow Mermaid",
+    "description": "A sister to Pink Mermaid and daughter of Theresa who wears a purple and blue costume and loves the color purple.",
+    "storyIds": [
+      "The_Grand_Coronation_and_Wedding_at_the_Darkness_Party"
+    ],
+    "firstAppearanceStoryId": "The_Grand_Coronation_and_Wedding_at_the_Darkness_Party"
+  },
+  {
+    "id": "fe2e964f4a5e41b1abb6",
+    "name": "Pink Mermaid",
+    "description": "A sister to Yellow Mermaid and daughter of Theresa who wears a tail costume, officiates the wedding, and loves necklaces.",
+    "storyIds": [
+      "The_Grand_Coronation_and_Wedding_at_the_Darkness_Party"
+    ],
+    "firstAppearanceStoryId": "The_Grand_Coronation_and_Wedding_at_the_Darkness_Party"
   }
 ]
