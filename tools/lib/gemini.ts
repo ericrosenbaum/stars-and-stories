@@ -3,6 +3,15 @@ import { GoogleGenAI, Type } from '@google/genai';
 import type { TranscriptItem, HighlightQuote } from './types.ts';
 import type { NameLexicon } from './lexicon.ts';
 import { recoverQuoteTimestamp } from './quote.ts';
+import {
+  fmtTime,
+  heuristicPicks,
+  normalizePicks,
+  segmentsForPrompt,
+  type CutConstraints,
+  type CutSegment,
+  type LinePick,
+} from './condense.ts';
 
 // FAKE_GEMINI=1 stubs the three functions the add-story/studio flow calls, so
 // the whole pipeline (upload, entity merge, candidates lifecycle, build, git)
@@ -850,4 +859,113 @@ export async function generateStoryHeaderImage(
 ): Promise<string | null> {
   const prompt = await generateImagePrompt(summary, transcript, entityImages);
   return generateImageFromPrompt(prompt, entityImages);
+}
+
+// ---------------------------------------------------------------------------
+// Condensed cuts (see lib/condense.ts and condense.ts)
+// ---------------------------------------------------------------------------
+
+export interface CondensePlanResult {
+  picks: LinePick[];
+  notes?: string;
+  model: string;
+}
+
+/**
+ * Ask the text model which transcript lines to keep for a 1–5 minute cut of
+ * the episode. The model only proposes; `enforceConstraints` in condense.ts
+ * has the final say on length and Izzy's share. `opts.feedback` carries the
+ * user's notes from reviewing earlier cuts (all of them, oldest first) and
+ * `opts.revise` the automatic "this violates X" nudge between rounds.
+ */
+export async function planCondensedCut(
+  story: { title: string; summary: string },
+  segments: CutSegment[],
+  constraints: CutConstraints,
+  opts: { feedback?: string[]; revise?: { previous: LinePick[]; problems: string[] }; model?: string } = {},
+): Promise<CondensePlanResult> {
+  if (FAKE) {
+    await fakeDelay(300);
+    return { picks: heuristicPicks(segments, constraints), notes: 'FAKE_GEMINI heuristic plan', model: 'fake' };
+  }
+  const ai = getAI();
+  const model = opts.model || textModel();
+  const feedbackBlock = opts.feedback?.length
+    ? `USER FEEDBACK from reviewing earlier cuts of this story (oldest first). It OVERRIDES the general guidance wherever they conflict:
+${opts.feedback.map((f, i) => `  ${i + 1}. "${f}"`).join('\n')}
+
+`
+    : '';
+  const reviseBlock = opts.revise
+    ? `YOUR PREVIOUS SELECTION did not satisfy the hard constraints:
+${opts.revise.problems.map((p) => `  - ${p}`).join('\n')}
+It kept these lines: ${opts.revise.previous.map((p) => `#${p.i}(p${p.priority})`).join(', ')}.
+Revise it: fix every problem above while keeping the story coherent. Dropping Dad's lines is the usual fix for Izzy's share — swap a long Dad narration for the Izzy line that carries the same beat, or keep only the Dad line that sets up her answer.
+
+`
+    : '';
+  const response = await withRetry('Condense planning', () =>
+    ai.models.generateContent({
+      model,
+      contents: [
+        {
+          parts: [
+            {
+              text: `You are editing a recording of a bedtime story improvised by a father ("Dad") and his young daughter ("Izzy", about four) down to a short audio cut. The listener will hear ONLY the lines you keep, in their original order, with a brief pause wherever lines that were not adjacent meet. You cannot cut inside a line — a line is kept whole or not at all.
+
+GOALS, in priority order:
+1. A COMPLETE, COHERENT STORY. The cut must have a beginning (who/where, what they set out to do), the key turns in the middle, and the ending. Every kept line must make sense after the previous kept line: keep the setup a punchline needs, keep the question Izzy is answering when her answer is otherwise baffling. Skip the recording chatter (setting up, lamps, blankets, "are you recording") unless it is genuinely funny.
+2. THE FUNNIEST AND MOST INTERESTING MOMENTS: Izzy's inventions, odd logic, sudden plot twists, character voices, made-up words, emotional outbursts, and the exchanges where the two of them riff on each other.
+3. IZZY CARRIES IT: at least ${Math.round(constraints.izzyMinShare * 100)}% of the cut's duration must be Izzy speaking (duration, not word count — each line's length is given). Favor her substantive lines over one-word reactions, but a short reaction is fine as connective tissue. Keep Dad's lines only when they set up her moment, deliver an essential story beat, or are very funny; prefer a short Dad line to a long one.
+
+HARD CONSTRAINTS:
+- Total duration between ${fmtTime(constraints.minSec)} and ${fmtTime(constraints.maxSec)}, aiming for about ${fmtTime(constraints.targetSec)}. Sum the per-line durations as you go.
+- Izzy's lines must be at least ${Math.round(constraints.izzyMinShare * 100)}% of that total.
+
+Story: "${story.title}". Summary: ${story.summary}
+
+${feedbackBlock}${reviseBlock}TRANSCRIPT — one line per entry as "#index [Speaker @start duration] text":
+${segmentsForPrompt(segments)}
+
+For every line you keep, give:
+- "i": its index number,
+- "priority": 1 = the story does not make sense without it, 2 = a great moment, 3 = nice to have (these are trimmed first if the cut runs long or Izzy's share falls short — so mark Dad's optional lines 3, never 1, unless truly essential),
+- "why": a few words (e.g. "sets up the potion", "funniest line", "ending").
+Also give "notes": one or two sentences on the shape of the cut (what story it tells) and anything you had to leave out.
+
+Return JSON: { "keep": [{ "i": number, "priority": 1|2|3, "why": string }], "notes": string }`,
+            },
+          ],
+        },
+      ],
+      config: {
+        responseMimeType: 'application/json',
+        responseSchema: {
+          type: Type.OBJECT,
+          properties: {
+            keep: {
+              type: Type.ARRAY,
+              items: {
+                type: Type.OBJECT,
+                properties: {
+                  i: { type: Type.INTEGER },
+                  priority: { type: Type.INTEGER },
+                  why: { type: Type.STRING },
+                },
+                required: ['i', 'priority'],
+              },
+            },
+            notes: { type: Type.STRING },
+          },
+          required: ['keep'],
+        },
+      },
+    }),
+  );
+  const text = response.text;
+  if (!text) throw new Error('No response from Gemini when planning the condensed cut.');
+  const parsed = JSON.parse(text) as { keep?: unknown; notes?: string };
+  const picks = normalizePicks(parsed.keep, segments);
+  if (!picks.length) throw new Error('Gemini returned an empty selection for the condensed cut.');
+  return { picks, notes: parsed.notes?.trim() || undefined, model };
 }

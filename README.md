@@ -242,6 +242,49 @@ The plan lives in `content/stories/<slug>/storyboard/storyboard.json`
 (committed); frames are `scene-NN.png` next to it (gitignored) with served webps
 under `site/public/media/<slug>/storyboard/` (committed).
 
+### Condensing a story into a short cut
+
+A condensed cut is a 1–5 minute audio edit of an episode that still tells the
+whole story, keeps the funniest and most interesting moments, and gives Izzy at
+least half of the airtime. It appears on the story page as a "Short Version"
+player, with the kept transcript lines marked:
+
+```bash
+cd tools
+npm run condense -- <story-slug>                      # plan with Gemini, render, write a review page
+# options: --target 3m  --min 1m  --max 5m  --izzy 50  --gap 0.35  --no-build
+open ../content/stories/<story-slug>/condensed/review.html
+```
+
+How it works: every transcript line is a candidate (a line lasts from its
+timestamp to the next line's — there are no word timings, so lines are kept
+whole). Gemini proposes which lines to keep, with a priority per line (1 = the
+story needs it, 2 = a great moment, 3 = nice to have) and is asked to revise
+when its proposal breaks a constraint; the constraints are then enforced in
+code — Dad's optional lines are dropped first (lowest priority, longest first)
+until the cut fits and Izzy has her share, and Izzy lines next to kept ones are
+added if it comes up short. Each cut point is moved into the nearest pause
+(ffmpeg `silencedetect`) so words aren't clipped, the pieces are stitched with a
+short silence at every splice, and the result is encoded as mono AAC. It cuts
+from `source.m4a` when that is on the machine and from the served `audio.m4a`
+otherwise, so it works on any checkout.
+
+The review page plays the cut and the original side by side, shows every
+transcript line with the kept ones highlighted (hover for the planner's reason;
+trimmed lines are marked), and can filter to the kept lines only. Then:
+
+```bash
+npm run condense -- <story-slug> --suggest "keep the potion scene, lose the birthday tangent"   # new plan (feedback accumulates)
+npm run condense -- <story-slug> --render     # re-render after hand-editing "lines" in condensed.json
+npm run condense -- <story-slug> --remove     # drop the cut (plan + served audio)
+```
+
+Files: the plan `content/stories/<slug>/condensed/condensed.json` is committed
+(kept lines, cut ranges, metrics, feedback history); the served
+`site/public/media/<slug>/condensed.m4a` is committed like the other derived
+media; `review.html` is gitignored scratch. `FAKE_GEMINI=1` swaps the planner
+for a simple heuristic so the whole flow runs without API spend.
+
 ### Refreshing the "World DNA" essay
 
 The deep-analysis essay isn't part of the data export. Generate or refresh it:

@@ -1,5 +1,5 @@
 import { useState, ReactNode } from 'react';
-import { Calendar, ChevronRight, Search, BookOpen, ArrowUpDown, SortAsc, SortDesc, AlignLeft, AlignRight, User, Baby } from 'lucide-react';
+import { Calendar, ChevronRight, Search, BookOpen, ArrowUpDown, SortAsc, SortDesc, AlignLeft, AlignRight, User, Baby, Scissors } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import { StoryIndexItem, assetUrl } from '../data';
 
@@ -152,6 +152,15 @@ export default function StoryList({
                       {new Date(story.date).toLocaleDateString(undefined, { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' })}
                     </p>
                   </div>
+                  {story.condensedDuration ? (
+                    <span
+                      className="flex items-center gap-1 text-[10px] font-bold uppercase tracking-widest text-brand bg-background border border-brand/30 rounded-full px-2.5 py-1"
+                      title="This story has a short version"
+                    >
+                      <Scissors className="w-3 h-3" />
+                      {Math.floor(story.condensedDuration / 60)}:{Math.floor(story.condensedDuration % 60).toString().padStart(2, '0')}
+                    </span>
+                  ) : null}
                 </div>
 
                 <h3 className="text-2xl font-serif font-bold text-foreground mb-3 group-hover:text-brand transition-colors">{story.title}</h3>

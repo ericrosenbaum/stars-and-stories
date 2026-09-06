@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
-import { ArrowLeft, Play, Pause, Sparkles, Users, MapPin, MessageSquare, History, Wand2, Calendar, Images } from 'lucide-react';
+import { ArrowLeft, Play, Pause, Sparkles, Users, MapPin, MessageSquare, History, Wand2, Calendar, Images, Scissors } from 'lucide-react';
 import { motion } from 'motion/react';
-import { getStory, assetUrl, StoryFull } from '../data';
+import { getStory, assetUrl, toCondensedTime, StoryFull } from '../data';
 
 export default function StoryDetail({
   slug,
@@ -25,6 +25,12 @@ export default function StoryDetail({
   const [expandedCharacters, setExpandedCharacters] = useState(false);
   const [expandedPlaces, setExpandedPlaces] = useState(false);
   const audioRef = useRef<HTMLAudioElement>(null);
+  // The condensed ("short version") cut has its own player; the two never play at once.
+  const shortRef = useRef<HTMLAudioElement>(null);
+  const [shortPlaying, setShortPlaying] = useState(false);
+  const [shortTime, setShortTime] = useState(0);
+  const [shortDuration, setShortDuration] = useState(0);
+  const [shortOnly, setShortOnly] = useState(false);
   const charactersContainerRef = useRef<HTMLDivElement>(null);
   const placesContainerRef = useRef<HTMLDivElement>(null);
   const [needsCharacterTruncation, setNeedsCharacterTruncation] = useState(false);
@@ -36,6 +42,9 @@ export default function StoryDetail({
     setStory(null);
     setIsPlaying(false);
     setCurrentTime(0);
+    setShortPlaying(false);
+    setShortTime(0);
+    setShortOnly(false);
     getStory(slug)
       .then((s) => {
         setStory(s);
@@ -57,19 +66,58 @@ export default function StoryDetail({
     return () => window.removeEventListener('resize', checkTruncation);
   }, [story]);
 
+  const pauseShort = () => {
+    if (shortRef.current && !shortRef.current.paused) shortRef.current.pause();
+    setShortPlaying(false);
+  };
+  const pauseFull = () => {
+    if (audioRef.current && !audioRef.current.paused) audioRef.current.pause();
+    setIsPlaying(false);
+  };
+
   const togglePlay = () => {
     if (audioRef.current) {
       if (isPlaying) audioRef.current.pause();
-      else audioRef.current.play();
+      else {
+        pauseShort();
+        audioRef.current.play();
+      }
       setIsPlaying(!isPlaying);
     }
   };
 
   const skipTo = (time: number) => {
     if (audioRef.current) {
+      pauseShort();
       audioRef.current.currentTime = time;
       audioRef.current.play();
       setIsPlaying(true);
+    }
+  };
+
+  const toggleShort = () => {
+    if (shortRef.current) {
+      if (shortPlaying) shortRef.current.pause();
+      else {
+        pauseFull();
+        shortRef.current.play();
+      }
+      setShortPlaying(!shortPlaying);
+    }
+  };
+
+  /** Play a transcript line: in the short version when it made the cut and the
+   *  short view is active, otherwise in the full recording. */
+  const skipToLine = (timestamp: number) => {
+    const cut = story?.condensed;
+    const t = cut && shortOnly ? toCondensedTime(cut, timestamp) : null;
+    if (t != null && shortRef.current) {
+      pauseFull();
+      shortRef.current.currentTime = t;
+      shortRef.current.play();
+      setShortPlaying(true);
+    } else {
+      skipTo(timestamp);
     }
   };
 
@@ -100,6 +148,11 @@ export default function StoryDetail({
   if (notFound || !story) return <div className="p-12 text-center font-serif italic text-brand">Story not found.</div>;
 
   const quoteHasTime = story.highlightQuote && story.highlightQuote.timestamp != null;
+  const cut = story.condensed;
+  const keptLines = cut ? new Set(cut.lineIndices) : null;
+  const shownTranscript = story.transcript
+    .map((item, idx) => ({ item, idx }))
+    .filter(({ idx }) => !shortOnly || !keptLines || keptLines.has(idx));
 
   return (
     <div className="h-full flex flex-col bg-background relative z-10">
@@ -249,6 +302,58 @@ export default function StoryDetail({
           </motion.div>
         )}
 
+        {/* Short Version (condensed cut) */}
+        {cut && (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="bg-surface border-2 border-brand/40 rounded-3xl p-6 mb-6 shadow-sm flex flex-col gap-4 transition-colors duration-300"
+          >
+            <div className="flex items-center gap-6">
+              <button
+                onClick={toggleShort}
+                className="w-14 h-14 bg-brand text-white dark:text-background rounded-full flex items-center justify-center shadow-lg hover:scale-105 transition-transform active:scale-95 flex-shrink-0"
+                title={shortPlaying ? 'Pause the short version' : 'Play the short version'}
+              >
+                {shortPlaying ? <Pause className="w-6 h-6" /> : <Play className="w-6 h-6 ml-1" />}
+              </button>
+              <div className="flex-1">
+                <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 mb-2">
+                  <p className="text-xs font-bold text-brand uppercase tracking-widest flex items-center gap-1.5">
+                    <Scissors className="w-3.5 h-3.5" />
+                    The Short Version
+                  </p>
+                  <p className="text-xs text-muted italic">
+                    {formatTime(shortDuration || cut.duration)} · {cut.lineIndices.length} lines · Izzy {Math.round(cut.izzyShare * 100)}% of the airtime
+                  </p>
+                </div>
+                <div className="flex justify-between text-xs font-medium mb-2 text-muted">
+                  <span>{formatTime(shortTime)}</span>
+                  <span>{formatTime(shortDuration || cut.duration)}</span>
+                </div>
+                <input
+                  type="range"
+                  min="0"
+                  max={shortDuration || cut.duration || 0}
+                  value={shortTime}
+                  onChange={(e) => {
+                    if (shortRef.current) shortRef.current.currentTime = Number(e.target.value);
+                  }}
+                  className="w-full accent-brand h-1.5 rounded-full cursor-pointer"
+                />
+              </div>
+              <audio
+                key={cut.audio}
+                ref={shortRef}
+                src={assetUrl(cut.audio)}
+                onTimeUpdate={() => setShortTime(shortRef.current?.currentTime || 0)}
+                onLoadedMetadata={() => setShortDuration(shortRef.current?.duration || 0)}
+                onEnded={() => setShortPlaying(false)}
+              />
+            </div>
+          </motion.div>
+        )}
+
         {/* Audio Player */}
         <div className="bg-brand dark:bg-zinc-900 text-white rounded-3xl p-6 mb-12 shadow-xl flex flex-col gap-4 transition-colors duration-300">
           <div className="flex items-center gap-6">
@@ -311,33 +416,65 @@ export default function StoryDetail({
 
         {/* Transcript */}
         <div className="space-y-8 mb-20">
-          <div className="flex items-center justify-between mb-6">
+          <div className="flex flex-wrap items-center justify-between gap-3 mb-6">
             <h2 className="text-2xl font-serif font-bold text-foreground flex items-center gap-2">
               <MessageSquare className="w-6 h-6 text-brand" />
               Transcript
             </h2>
+            {cut && (
+              <div className="flex items-center rounded-full border border-border bg-surface p-1 text-xs font-bold uppercase tracking-widest">
+                <button
+                  onClick={() => setShortOnly(false)}
+                  className={`px-3 py-1.5 rounded-full transition-colors ${!shortOnly ? 'bg-brand text-white dark:text-background' : 'text-muted hover:text-foreground'}`}
+                >
+                  Full
+                </button>
+                <button
+                  onClick={() => setShortOnly(true)}
+                  className={`px-3 py-1.5 rounded-full transition-colors flex items-center gap-1 ${shortOnly ? 'bg-brand text-white dark:text-background' : 'text-muted hover:text-foreground'}`}
+                  title="Show only the lines in the short version"
+                >
+                  <Scissors className="w-3 h-3" />
+                  Short
+                </button>
+              </div>
+            )}
           </div>
 
           <div className="space-y-6">
-            {story.transcript.map((item, idx) => (
-              <motion.div key={idx} initial={{ opacity: 0, x: -10 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: Math.min(idx, 20) * 0.02 }} className="group flex gap-6">
-                <div className="w-24 flex-shrink-0 pt-1">
-                  <button
-                    onClick={() => skipTo(item.timestamp)}
-                    className="text-xs font-mono text-brand hover:text-foreground flex items-center gap-1 opacity-60 group-hover:opacity-100 transition-opacity"
-                  >
-                    <History className="w-3 h-3" />
-                    {Math.floor(item.timestamp / 60)}:{Math.floor(item.timestamp % 60).toString().padStart(2, '0')}
-                  </button>
-                </div>
-                <div className="flex-1">
-                  <div className="space-y-1">
-                    <p className="text-sm font-bold text-brand uppercase tracking-wider">{item.speaker}</p>
-                    <p className="text-xl text-foreground leading-relaxed font-serif">{item.text}</p>
+            {shownTranscript.map(({ item, idx }, n) => {
+              const kept = !!keptLines?.has(idx);
+              // A dashed rule marks where the short version splices two non-adjacent lines.
+              const splice = shortOnly && n > 0 && shownTranscript[n - 1].idx !== idx - 1;
+              return (
+                <motion.div key={idx} initial={{ opacity: 0, x: -10 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: Math.min(n, 20) * 0.02 }} className="group">
+                  {splice && <div className="border-t border-dashed border-brand/40 mb-6" />}
+                  <div className={`flex gap-6 ${cut && !shortOnly && !kept ? 'opacity-70' : ''}`}>
+                    <div className="w-24 flex-shrink-0 pt-1">
+                      <button
+                        onClick={() => skipToLine(item.timestamp)}
+                        className="text-xs font-mono text-brand hover:text-foreground flex items-center gap-1 opacity-60 group-hover:opacity-100 transition-opacity"
+                      >
+                        <History className="w-3 h-3" />
+                        {Math.floor(item.timestamp / 60)}:{Math.floor(item.timestamp % 60).toString().padStart(2, '0')}
+                      </button>
+                      {kept && !shortOnly && (
+                        <span className="mt-1 flex items-center gap-1 text-[10px] font-bold uppercase tracking-widest text-brand/70" title="In the short version">
+                          <Scissors className="w-3 h-3" />
+                          short
+                        </span>
+                      )}
+                    </div>
+                    <div className="flex-1">
+                      <div className="space-y-1">
+                        <p className="text-sm font-bold text-brand uppercase tracking-wider">{item.speaker}</p>
+                        <p className="text-xl text-foreground leading-relaxed font-serif">{item.text}</p>
+                      </div>
+                    </div>
                   </div>
-                </div>
-              </motion.div>
-            ))}
+                </motion.div>
+              );
+            })}
           </div>
         </div>
       </div>

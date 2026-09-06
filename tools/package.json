@@ -16,6 +16,7 @@
     "forest-sketch": "tsx forest-sketch.ts",
     "forest-landscape": "tsx forest-landscape.ts",
     "storyboard": "tsx storyboard.ts",
+    "condense": "tsx condense.ts",
     "world-dna": "tsx gen-world-dna.ts",
     "verify-models": "tsx verify-models.ts"
   },

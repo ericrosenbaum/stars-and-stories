@@ -27,6 +27,8 @@ export interface StoryIndexItem {
   /** Absent while a story's header image is still awaiting candidate selection. */
   headerImage?: string;
   hasStoryboard?: boolean;
+  /** Length in seconds of the story's condensed cut, when one has been made. */
+  condensedDuration?: number;
   wordCount: number;
   izzyWordCount: number;
   dadWordCount: number;
@@ -43,10 +45,37 @@ export interface StoryFull {
   /** Absent while a story's header image is still awaiting candidate selection. */
   headerImage?: string;
   hasStoryboard?: boolean;
+  /** The 1–5 minute edit of the episode (`npm run condense`), when one has been made. */
+  condensed?: CondensedCut;
   highlightQuote: HighlightQuote | null;
   transcript: TranscriptItem[];
   characters: EmbeddedEntity[];
   places: EmbeddedEntity[];
+}
+
+/** One run of consecutive kept transcript lines in a condensed cut. */
+export interface CondensedRange {
+  from: number; // first transcript index
+  to: number; // last transcript index (inclusive)
+  cutStart: number; // seconds in the original audio
+  cutEnd: number;
+  at: number; // seconds in the condensed audio where this range begins
+}
+
+export interface CondensedCut {
+  audio: string; // media/<slug>/condensed.m4a
+  duration: number; // seconds
+  izzyShare: number; // 0–1, share of the cut's airtime that is Izzy
+  lineIndices: number[]; // transcript indices that made the cut
+  ranges: CondensedRange[];
+}
+
+/** Where an original-audio time lands in the condensed audio, or null if it was cut. */
+export function toCondensedTime(cut: CondensedCut, t: number): number | null {
+  for (const r of cut.ranges) {
+    if (t >= r.cutStart && t <= r.cutEnd) return r.at + (t - r.cutStart);
+  }
+  return null;
 }
 
 export interface StoryboardScene {

@@ -90,6 +90,29 @@ function loadStoryboard(id: string) {
   return scenes.length ? scenes : null;
 }
 
+/**
+ * A story's condensed cut (content/stories/<id>/condensed/condensed.json, made
+ * by `npm run condense`), mapped to what the site needs: the served audio, its
+ * length, Izzy's share, and the kept transcript lines with where each cut range
+ * begins in the short audio (so the transcript can seek the short player).
+ * Returns null when there is no plan or the rendered audio is missing.
+ */
+function loadCondensed(id: string) {
+  const planFile = path.join(CONTENT_STORIES_DIR, id, 'condensed', 'condensed.json');
+  if (!fs.existsSync(planFile)) return null;
+  if (!fs.existsSync(path.join(SITE_MEDIA_DIR, id, 'condensed.m4a'))) return null;
+  const plan = JSON.parse(fs.readFileSync(planFile, 'utf8'));
+  const ranges = (plan.ranges || []).map((r: any) => ({ from: r.from, to: r.to, cutStart: r.cutStart, cutEnd: r.cutEnd, at: r.at }));
+  if (!ranges.length) return null;
+  return {
+    audio: `media/${id}/condensed.m4a`,
+    duration: Number(plan.renderedDuration) || 0,
+    izzyShare: Number(plan.metrics?.izzyShare) || 0,
+    lineIndices: (plan.lines || []).map((l: any) => l.i),
+    ranges,
+  };
+}
+
 async function pmap<T, R>(items: T[], limit: number, fn: (item: T, i: number) => Promise<R>): Promise<R[]> {
   const results: R[] = new Array(items.length);
   let idx = 0;
@@ -135,6 +158,7 @@ export async function buildSite({ force = false } = {}): Promise<void> {
     const headerImage = hasHeader ? `${mediaRel}/header.webp` : undefined;
     const storyboard = loadStoryboard(s.id);
     const hasStoryboard = !!storyboard;
+    const condensed = loadCondensed(s.id);
     if (storyboard) {
       fs.writeFileSync(
         path.join(SITE_DATA_STORYBOARDS_DIR, `${s.id}.json`),
@@ -149,6 +173,7 @@ export async function buildSite({ force = false } = {}): Promise<void> {
       audio: `${mediaRel}/audio.m4a`,
       headerImage,
       hasStoryboard,
+      condensed: condensed ?? undefined,
       highlightQuote: s.highlightQuote,
       transcript: s.transcript,
       characters: s.characters,
@@ -162,6 +187,7 @@ export async function buildSite({ force = false } = {}): Promise<void> {
       summary: s.summary,
       headerImage,
       hasStoryboard,
+      condensedDuration: condensed?.duration,
       wordCount: s.wordCount,
       izzyWordCount: s.izzyWordCount,
       dadWordCount: s.dadWordCount,

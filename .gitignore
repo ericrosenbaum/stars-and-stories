@@ -38,3 +38,6 @@ content/forest-map/candidates/
 stars-and-stories-archive/
 StarsAndStories_GitHub_Export_2026-06-21/
 StarsAndStories_World_Inventory_*/
+# Condensed cuts (npm run condense): the plan condensed.json IS committed, the
+# review page is scratch (the served condensed.m4a under site/public/media is committed).
+content/stories/**/condensed/review.html

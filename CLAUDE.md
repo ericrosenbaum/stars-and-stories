@@ -73,6 +73,21 @@ images + up to 2 preceding frames as continuity references). Per-scene redo:
 specific frames, regenerate those scenes rather than re-running the whole
 storyboard (a full re-run replaces the entire plan and all frames).
 
+## Condensed cuts (short audio edits)
+
+`cd tools && npm run condense -- <slug>` makes a 1–5 minute audio edit of an
+episode (default aim 3 min, Izzy ≥ 50% of the airtime): Gemini picks transcript
+lines, the constraints are enforced in code, cut points snap to pauses, ffmpeg
+stitches the result to `site/public/media/<slug>/condensed.m4a`, and the plan
+lands in `content/stories/<slug>/condensed/condensed.json` (committed). Review
+is user-driven, like header candidates: open
+`content/stories/<slug>/condensed/review.html` and let the user listen. Then
+`--suggest "<their feedback>"` for a new plan, `--render` after they hand-edit
+the `lines` in condensed.json, or `--remove`. NEVER judge the cut for the user
+— whether a story "works" at 3 minutes is their call. The tool cuts from
+`source.m4a` when present and from the served `audio.m4a` otherwise, so it runs
+on any checkout; `FAKE_GEMINI=1` swaps the planner for a heuristic.
+
 ## The forest map (image-based landscape)
 
 The `#/forest` map is a painted Tolkien-style landscape (a raster) with clickable
