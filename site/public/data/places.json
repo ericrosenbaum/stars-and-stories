@@ -4377,7 +4377,8 @@
     "storyIds": [
       "The_Best_Mole_Hole_Ever",
       "The_Bouncing_Floofers_of_the_Golden_Cloud",
-      "Seeker_and_the_Security_Cats_The_Potion_Caper"
+      "Seeker_and_the_Security_Cats_The_Potion_Caper",
+      "Frazgle_s_Gray_Mischief_and_the_Rainbow_Forest_Rescue"
     ],
     "firstAppearanceStoryId": "The_Best_Mole_Hole_Ever"
   },
@@ -5376,5 +5377,14 @@
       "The_Grand_Coronation_and_Wedding_at_the_Darkness_Party"
     ],
     "firstAppearanceStoryId": "The_Grand_Coronation_and_Wedding_at_the_Darkness_Party"
+  },
+  {
+    "id": "1ea1ed42675e4463a9a6",
+    "name": "The Rainbow Forest",
+    "description": "A vibrant, color-zoned woodland that serves as home to many unique creatures.",
+    "storyIds": [
+      "Frazgle_s_Gray_Mischief_and_the_Rainbow_Forest_Rescue"
+    ],
+    "firstAppearanceStoryId": "Frazgle_s_Gray_Mischief_and_the_Rainbow_Forest_Rescue"
   }
 ]

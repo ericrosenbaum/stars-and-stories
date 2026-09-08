@@ -349,7 +349,8 @@
       "Walkie-Talkies_for_the_Yellow_Jackets",
       "The_Super_Mouse_Crew_and_the_Wizard_s_Lost_Hat",
       "The_Mystery_of_Peacock_s_Hat_and_the_Moopa_Doopa",
-      "The_Great_Bee_Escape_From_Sprinkle_Honey_to_the_Mariana_Trench"
+      "The_Great_Bee_Escape_From_Sprinkle_Honey_to_the_Mariana_Trench",
+      "Frazgle_s_Gray_Mischief_and_the_Rainbow_Forest_Rescue"
     ],
     "firstAppearanceStoryId": "Frasgle_and_the_Sticky_Situation"
   },
@@ -1663,7 +1664,8 @@
     "name": "Frazgle",
     "description": "A growly relative of the Floofers who describes them as living pom-poms.",
     "storyIds": [
-      "The_Bouncing_Floofers_of_the_Golden_Cloud"
+      "The_Bouncing_Floofers_of_the_Golden_Cloud",
+      "Frazgle_s_Gray_Mischief_and_the_Rainbow_Forest_Rescue"
     ],
     "firstAppearanceStoryId": "The_Bouncing_Floofers_of_the_Golden_Cloud"
   },
@@ -3104,7 +3106,8 @@
       "The_Secret_of_the_Galapagos_Blub_Creatures",
       "Walkie-Talkies_for_the_Yellow_Jackets",
       "The_Super_Mouse_Crew_and_the_Wizard_s_Lost_Hat",
-      "The_Mystery_of_Peacock_s_Hat_and_the_Moopa_Doopa"
+      "The_Mystery_of_Peacock_s_Hat_and_the_Moopa_Doopa",
+      "Frazgle_s_Gray_Mischief_and_the_Rainbow_Forest_Rescue"
     ],
     "firstAppearanceStoryId": "The_Mischief_Moles_and_the_Plane_of_Fire"
   },
@@ -4478,7 +4481,8 @@
     "name": "Zoe",
     "description": "A character with scientific knowledge about melting ice using salt.",
     "storyIds": [
-      "The_Salty_Solution_for_a_Frozen_Island"
+      "The_Salty_Solution_for_a_Frozen_Island",
+      "Frazgle_s_Gray_Mischief_and_the_Rainbow_Forest_Rescue"
     ],
     "firstAppearanceStoryId": "The_Salty_Solution_for_a_Frozen_Island"
   },
@@ -4671,7 +4675,8 @@
     "name": "Mia Mayhem",
     "description": "A superhero friend of Isabella.",
     "storyIds": [
-      "The_Salty_Solution_for_a_Frozen_Island"
+      "The_Salty_Solution_for_a_Frozen_Island",
+      "Frazgle_s_Gray_Mischief_and_the_Rainbow_Forest_Rescue"
     ],
     "firstAppearanceStoryId": "The_Salty_Solution_for_a_Frozen_Island"
   },
@@ -5257,7 +5262,8 @@
       "The_Sparkling_Dust_of_Book_World",
       "The_Salty_Solution_for_a_Frozen_Island",
       "The_Adventures_of_Pumpkin_and_the_Potion_Closet",
-      "Tot_s_Great_Cheese_Beach_Adventure"
+      "Tot_s_Great_Cheese_Beach_Adventure",
+      "Frazgle_s_Gray_Mischief_and_the_Rainbow_Forest_Rescue"
     ],
     "firstAppearanceStoryId": "Kitty_the_Cat_Superhero_and_the_Gopher_Tunnel_Visit"
   },
@@ -6389,7 +6395,8 @@
     "name": "Sassafras",
     "description": "Zoe's cat.",
     "storyIds": [
-      "The_Salty_Solution_for_a_Frozen_Island"
+      "The_Salty_Solution_for_a_Frozen_Island",
+      "Frazgle_s_Gray_Mischief_and_the_Rainbow_Forest_Rescue"
     ],
     "firstAppearanceStoryId": "The_Salty_Solution_for_a_Frozen_Island"
   },
@@ -7552,5 +7559,23 @@
       "The_Grand_Coronation_and_Wedding_at_the_Darkness_Party"
     ],
     "firstAppearanceStoryId": "The_Grand_Coronation_and_Wedding_at_the_Darkness_Party"
+  },
+  {
+    "id": "0d42134fab1843e8979e",
+    "name": "The Lost Floofer",
+    "description": "A mischievous young creature who gets stuck in a deep hole while searching for strawberries.",
+    "storyIds": [
+      "Frazgle_s_Gray_Mischief_and_the_Rainbow_Forest_Rescue"
+    ],
+    "firstAppearanceStoryId": "Frazgle_s_Gray_Mischief_and_the_Rainbow_Forest_Rescue"
+  },
+  {
+    "id": "1135f9d44763496f9fa8",
+    "name": "The Caretaker of Crystal Mountain",
+    "description": "A wise guardian who offers shelter to the forest creatures and helps Isabella identify the gray monster.",
+    "storyIds": [
+      "Frazgle_s_Gray_Mischief_and_the_Rainbow_Forest_Rescue"
+    ],
+    "firstAppearanceStoryId": "Frazgle_s_Gray_Mischief_and_the_Rainbow_Forest_Rescue"
   }
 ]
