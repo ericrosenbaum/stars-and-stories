@@ -52,7 +52,7 @@
     {
       "speaker": "Izzy",
       "text": "King, you gotta look at the costumes and see if they're dressed first.",
-      "timestamp": 34.3
+      "timestamp": 34.28
     },
     {
       "speaker": "Dad",
@@ -66,7 +66,7 @@
     },
     {
       "speaker": "Dad",
-      "text": "Said the king, \"Everyone has worn a beautiful costume.\"",
+      "text": "Said the king. Everyone has worn a beautiful costume.",
       "timestamp": 43.66
     },
     {
@@ -82,7 +82,7 @@
     {
       "speaker": "Izzy",
       "text": "Does everyone need necklaces?",
-      "timestamp": 65.3
+      "timestamp": 65.15
     },
     {
       "speaker": "Dad",
@@ -107,7 +107,7 @@
     {
       "speaker": "Dad",
       "text": "I see.",
-      "timestamp": 74.29
+      "timestamp": 74.28
     },
     {
       "speaker": "Izzy",
@@ -116,8 +116,8 @@
     },
     {
       "speaker": "Dad",
-      "text": "\"Yes,\" said the king, \"Everyone needs a necklace. You're right.\" Oh, and who are you playing? Are you, um-",
-      "timestamp": 81.62
+      "text": "Yes, said the king, everyone needs a necklace. You're right. Oh, and who are you playing? Are you, um-",
+      "timestamp": 81.68
     },
     {
       "speaker": "Izzy",
@@ -167,11 +167,11 @@
     {
       "speaker": "Dad",
       "text": "Welcome, Fozzie Bear.",
-      "timestamp": 126.52
+      "timestamp": 126.48
     },
     {
       "speaker": "Izzy",
-      "text": "Now, Theresa says, \"I love necklaces.\"  And look at what Theresa got as her necklace. This.",
+      "text": "Now, Theresa says, \"I love necklaces.\" And look at what Theresa got as her necklace. This.",
       "timestamp": 134.2
     },
     {
@@ -201,7 +201,7 @@
     },
     {
       "speaker": "Izzy",
-      "text": "Zero beads. Zero bea- No beads. Zero beads. Zero beads. Look at Theresa.",
+      "text": "Zero beads. Zero be- no beads. Zero beads. Need the beads. Look at Theresa.",
       "timestamp": 163.16
     },
     {
@@ -217,22 +217,22 @@
     {
       "speaker": "Dad",
       "text": "Theresa is wearing, looks like a paper and tape dress with a yellow dot sticker on the front to match her beautiful pasta necklace. Now I see Clover getting a necklace on as well.",
-      "timestamp": 230
+      "timestamp": 230.02
     },
     {
       "speaker": "Izzy",
-      "text": "Clover says, \"Nya, nya, nya, nya, nya, nya, nya, nya, nya, nya, nya, nya, nya, nya, nya, nya, nya, nya, nya, nya.\"",
-      "timestamp": 252.72
+      "text": "Clover says, \"Meow, meow, meow, meow. Meow, meow, meow. Meow, meow, meow. Meow, meow, meow, meow, meow, meow. Meow, meow.\"",
+      "timestamp": 252.74
     },
     {
       "speaker": "Dad",
       "text": "Welcome, Clover, to the party.",
-      "timestamp": 264.46
+      "timestamp": 264.42
     },
     {
       "speaker": "Izzy",
       "text": "And the king doesn't know Bunbun, so she, so he says, \"Who is that bunny you're holding?\"",
-      "timestamp": 274.64
+      "timestamp": 274.66
     },
     {
       "speaker": "Dad",
@@ -256,7 +256,7 @@
     },
     {
       "speaker": "Dad",
-      "text": "... are you wearing a costume? Why, yes you are, I see.",
+      "text": "... are you wearing a costume? Why, yes, you are, I see.",
       "timestamp": 290.34
     },
     {
@@ -267,11 +267,11 @@
     {
       "speaker": "Dad",
       "text": "A beautiful costume for a bunny.",
-      "timestamp": 295.9
+      "timestamp": 295.88
     },
     {
       "speaker": "Izzy",
-      "text": "Who are boinging and jumping and... Look at Bunbun. What's she wearing?",
+      "text": "Ooh, all boingin' and jumpin' and. Look at Bunbun. What's she wearing?",
       "timestamp": 302.48
     },
     {
@@ -282,12 +282,12 @@
     {
       "speaker": "Izzy",
       "text": "And then the king says, \"Who's that little girl you're holding?\"",
-      "timestamp": 359.4
+      "timestamp": 359.36
     },
     {
       "speaker": "Dad",
       "text": "Who's that little girl you're holding?",
-      "timestamp": 363.44
+      "timestamp": 363.46
     },
     {
       "speaker": "Izzy",
@@ -296,7 +296,7 @@
     },
     {
       "speaker": "Dad",
-      "text": "Hello, yellow mermaid. You have a beautiful blue and purple costume, I see.",
+      "text": "Hello, Yellow Mermaid. You have a beautiful blue and purple costume, I see.",
       "timestamp": 370.02
     },
     {
@@ -311,7 +311,7 @@
     },
     {
       "speaker": "Izzy",
-      "text": "Oops. Tripped over, but didn't get hurt. She trip- yellow mermaid tripped, but she didn't get hurt.",
+      "text": "Oops. Tripped over, but didn't get hurt. She trip- Yellow Mermaid tripped, but she didn't get hurt.",
       "timestamp": 381.42
     },
     {
@@ -326,7 +326,7 @@
     },
     {
       "speaker": "Dad",
-      "text": "Welcome, yellow mergirl.",
+      "text": "Welcome, Yellow Mergirl.",
       "timestamp": 406.02
     },
     {
@@ -341,12 +341,12 @@
     },
     {
       "speaker": "Izzy",
-      "text": "Pink mermaid.",
+      "text": "Pink Mermaid.",
       "timestamp": 416.44
     },
     {
       "speaker": "Dad",
-      "text": "Hello, pink mermaid.",
+      "text": "Hello, Pink Mermaid.",
       "timestamp": 417.82
     },
     {
@@ -366,12 +366,12 @@
     },
     {
       "speaker": "Dad",
-      "text": "Oh, lovely, pink mergirl.",
+      "text": "Oh, lovely, Pink Mergirl.",
       "timestamp": 457
     },
     {
       "speaker": "Izzy",
-      "text": "Um, um, me and yellow mermaid are sisters.",
+      "text": "Um, um, me and Yellow Mermaid are sisters.",
       "timestamp": 459.88
     },
     {
@@ -391,8 +391,8 @@
     },
     {
       "speaker": "Izzy",
-      "text": "And then the king says, \"Who's that big girl you're holding?\"",
-      "timestamp": 471.5
+      "text": "And then King says, \"Who's that big girl you're holding?\"",
+      "timestamp": 471.54
     },
     {
       "speaker": "Dad",
@@ -402,7 +402,7 @@
     {
       "speaker": "Izzy",
       "text": "Uh, Princess Mango.",
-      "timestamp": 479.36
+      "timestamp": 479.26
     },
     {
       "speaker": "Dad",
@@ -411,7 +411,7 @@
     },
     {
       "speaker": "Izzy",
-      "text": "Hello. I forgot my necklace. I wasn't expecting necklaces. Are we going to dance in the celebration, King? 'Cause we practiced dancing, which was pretty fine and no one tripped.",
+      "text": "Hello. I forgot my necklace. I wasn't expecting a necklace. Are we going to dance in the celebration, King? 'Cause we practiced dancing, which was pretty fine and no one tripped.",
       "timestamp": 485.38
     },
     {
@@ -437,7 +437,7 @@
     {
       "speaker": "Dad",
       "text": "Oh, no.",
-      "timestamp": 518.58
+      "timestamp": 518.6
     },
     {
       "speaker": "Izzy",
@@ -452,22 +452,22 @@
     {
       "speaker": "Izzy",
       "text": "Hmm. I don't know if that would work.",
-      "timestamp": 526.9
+      "timestamp": 526.92
     },
     {
       "speaker": "Dad",
       "text": "Hmm.",
-      "timestamp": 530.3
+      "timestamp": 530.32
     },
     {
       "speaker": "Izzy",
-      "text": "So...",
+      "text": "So ...",
       "timestamp": 531.02
     },
     {
       "speaker": "Dad",
-      "text": "Well, dancing must be a little dangerous, then. But yes, at any rate, there will be dancing at the party. Oh.",
-      "timestamp": 532.16
+      "text": "Well, dancing must be a little dangerous, then. But yes, at any rate, there will be dancing at the party. Um.",
+      "timestamp": 532.18
     },
     {
       "speaker": "Izzy",
@@ -501,7 +501,7 @@
     },
     {
       "speaker": "Izzy",
-      "text": "Well, okay. I was the one who planned the dark party.",
+      "text": "Well. I was the one who planned the dark party.",
       "timestamp": 621.06
     },
     {
@@ -517,12 +517,12 @@
     {
       "speaker": "Dad",
       "text": "Ah.",
-      "timestamp": 636.58
+      "timestamp": 636.56
     },
     {
       "speaker": "Izzy",
-      "text": "So, which means we need, um, to coronate and, like, to do some coronating, 'cause it's also coronating, and there's also someone getting married, and then-",
-      "timestamp": 639.26
+      "text": "So, which means we need, um, to coronate and, like, to do some coronating, 'cause it's also coronating and there's also someone getting married and then-",
+      "timestamp": 639.24
     },
     {
       "speaker": "Dad",
@@ -537,7 +537,7 @@
     {
       "speaker": "Dad",
       "text": "This is quite the celebration. Now, at a coronation, someone receives a crown. Who is being crowned?",
-      "timestamp": 657.38
+      "timestamp": 657.4
     },
     {
       "speaker": "Izzy",
@@ -546,7 +546,7 @@
     },
     {
       "speaker": "Dad",
-      "text": "Oh. Who is the prince?",
+      "text": "Oh, who is the prince?",
       "timestamp": 672.38
     },
     {
@@ -557,11 +557,11 @@
     {
       "speaker": "Dad",
       "text": "Hello, Silky's mama. Welcome to the party.",
-      "timestamp": 684.26
+      "timestamp": 684.24
     },
     {
       "speaker": "Izzy",
-      "text": "'Cause the prize cannot wear a necklace because he... I don't know where to put it, so he's just going to come right now.",
+      "text": "'Cause the prize cannot wear a necklace because he ... I don't know where to put it, so he's just going to come right now.",
       "timestamp": 691.38
     },
     {
@@ -627,7 +627,7 @@
     {
       "speaker": "Dad",
       "text": "I see.",
-      "timestamp": 764.45
+      "timestamp": 764.43
     },
     {
       "speaker": "Izzy",
@@ -637,7 +637,7 @@
     {
       "speaker": "Dad",
       "text": "Why, yes I do. It is a beautiful necklace-",
-      "timestamp": 788.13
+      "timestamp": 788.11
     },
     {
       "speaker": "Izzy",
@@ -646,13 +646,13 @@
     },
     {
       "speaker": "Dad",
-      "text": "... Frozen Mango.",
+      "text": "... Frozen Mango",
       "timestamp": 790.46
     },
     {
       "speaker": "Izzy",
-      "text": "I'm next to my sister.",
-      "timestamp": 791.43
+      "text": "... I'm next to my sister.",
+      "timestamp": 791.33
     },
     {
       "speaker": "Dad",
@@ -662,17 +662,17 @@
     {
       "speaker": "Izzy",
       "text": "And, and then what does the king say? He says, \"Who is that boy? Who is that big boy you're holding?\"",
-      "timestamp": 795.35
+      "timestamp": 795.33
     },
     {
       "speaker": "Dad",
       "text": "Who is that big boy you're holding?",
-      "timestamp": 803.11
+      "timestamp": 803.13
     },
     {
       "speaker": "Izzy",
       "text": "Ernie.",
-      "timestamp": 805.17
+      "timestamp": 805.21
     },
     {
       "speaker": "Dad",
@@ -681,12 +681,12 @@
     },
     {
       "speaker": "Izzy",
-      "text": "Hello. Do, do, do, do. Grab. Whoops.  Do you like my costume?",
+      "text": "Hello. Do, do, do, do. Grab. Whoops. Do you like my costume?",
       "timestamp": 807.53
     },
     {
       "speaker": "Dad",
-      "text": "Why yes, Ernie, it is a beautiful costume.",
+      "text": "Why, yes, Ernie. It is a beautiful costume.",
       "timestamp": 832.15
     },
     {
@@ -717,7 +717,7 @@
     {
       "speaker": "Dad",
       "text": "Welcome to the party, Bert.",
-      "timestamp": 903.05
+      "timestamp": 917.11
     },
     {
       "speaker": "Izzy",
@@ -746,7 +746,7 @@
     },
     {
       "speaker": "Dad",
-      "text": "A mashup, what do you mean?",
+      "text": "A mashup. What do you mean?",
       "timestamp": 952.17
     },
     {
@@ -761,7 +761,7 @@
     },
     {
       "speaker": "Izzy",
-      "text": "Oh, there's the mashup.",
+      "text": "Oh, just a mashup.",
       "timestamp": 965.81
     },
     {
@@ -777,17 +777,17 @@
     {
       "speaker": "Dad",
       "text": "Oh. Can you tell me more about it?",
-      "timestamp": 972.33
+      "timestamp": 972.31
     },
     {
       "speaker": "Izzy",
-      "text": "Well, Pink Pony Club and Pink Pony Club and, um, dancing. Oh, uh, a, a lot of songs are stuck in my head usually.",
+      "text": "Well, Pink Pony Club and Pink Pony Club and, um, Dancing... Oh, uh, a, a lot of songs are stuck in my head usually.",
       "timestamp": 976.09
     },
     {
       "speaker": "Dad",
       "text": "Oh. Did you know that-",
-      "timestamp": 991.95
+      "timestamp": 991.97
     },
     {
       "speaker": "Izzy",
@@ -797,37 +797,37 @@
     {
       "speaker": "Dad",
       "text": "We can keep playing our s- story, but I'm just interested that you know the word mashup, 'cause usually that means, like, when people combine different songs together. Is that what you mean? The songs are all kind of playing together?",
-      "timestamp": 996.81
+      "timestamp": 996.85
     },
     {
       "speaker": "Izzy",
       "text": "Yeah.",
-      "timestamp": 1007.43
+      "timestamp": 1007.41
     },
     {
       "speaker": "Dad",
       "text": "Wow. Who told you about mashups?",
-      "timestamp": 1008.11
+      "timestamp": 1008.09
     },
     {
       "speaker": "Izzy",
       "text": "Oh, just Mama.",
-      "timestamp": 1011.33
+      "timestamp": 1011.35
     },
     {
       "speaker": "Dad",
-      "text": "Mama did? Oh, that's cool. All right, we can keep going.",
+      "text": "Mama did? Oh, that's cool. All right. We can keep going.",
       "timestamp": 1012.71
     },
     {
       "speaker": "Izzy",
-      "text": "Yeah. Yeah. But then he says, \"I know that guy, he is Beaker. Meep, meep.\"",
-      "timestamp": 1017.17
+      "text": "Yeah. Yeah. But then he says, \"I know that guy. He's Beaker.\" Meep, meep.",
+      "timestamp": 1017.19
     },
     {
       "speaker": "Dad",
-      "text": "I know that guy, he's Beaker.",
-      "timestamp": 1029.65
+      "text": "I know that guy. He's Beaker.",
+      "timestamp": 1029.51
     },
     {
       "speaker": "Izzy",
@@ -857,7 +857,7 @@
     {
       "speaker": "Dad",
       "text": "Why, yes.",
-      "timestamp": 1062.59
+      "timestamp": 1062.61
     },
     {
       "speaker": "Izzy",
@@ -876,18 +876,18 @@
     },
     {
       "speaker": "Dad",
-      "text": "Wow. Hello there.",
-      "timestamp": 1080
+      "text": "Wow. Hello.",
+      "timestamp": 1079.97
     },
     {
       "speaker": "Izzy",
       "text": "Oh.",
-      "timestamp": 1082.23
+      "timestamp": 1082.12
     },
     {
       "speaker": "Dad",
       "text": "Hello.",
-      "timestamp": 1082.24
+      "timestamp": 1082.16
     },
     {
       "speaker": "Izzy",
@@ -902,7 +902,7 @@
     {
       "speaker": "Izzy",
       "text": "She's always playing with me.",
-      "timestamp": 1088.99
+      "timestamp": 1089.03
     },
     {
       "speaker": "Dad",
@@ -912,7 +912,7 @@
     {
       "speaker": "Izzy",
       "text": "Yeah. No, she's, she has been swallowing them.",
-      "timestamp": 1095.65
+      "timestamp": 1095.61
     },
     {
       "speaker": "Dad",
@@ -926,37 +926,37 @@
     },
     {
       "speaker": "Dad",
-      "text": "It's not safe for her to have a necklace if she's gonna swallow it. All right, Ginger. Welcome to the party",
+      "text": "It's not safe for her to have a necklace if she's gonna swallow it. All right, Ginger. Welcome to the party.",
       "timestamp": 1103.49
     },
     {
       "speaker": "Izzy",
-      "text": "Boing. Hi, I'm Lottie",
+      "text": "Boing. Hi, I'm Lottie.",
       "timestamp": 1109.42
     },
     {
       "speaker": "Dad",
-      "text": "Hello, Lottie",
-      "timestamp": 1113.98
+      "text": "Hello, Lottie.",
+      "timestamp": 1114
     },
     {
       "speaker": "Izzy",
-      "text": "Um, I love necklaces",
+      "text": "Um, I love necklaces.",
       "timestamp": 1121.14
     },
     {
       "speaker": "Dad",
-      "text": "I see. And you have a beautiful one",
-      "timestamp": 1124.26
+      "text": "I see. And you have a beautiful one.",
+      "timestamp": 1124.22
     },
     {
       "speaker": "Izzy",
-      "text": "I love things that are pretty. Now, what's the next thing? Turn off the lights",
-      "timestamp": 1133.32
+      "text": "I love things that are pretty. Now, what's the next thing? Turn off the lights.",
+      "timestamp": 1133.26
     },
     {
       "speaker": "Dad",
-      "text": "That's correct",
+      "text": "That's correct.",
       "timestamp": 1143.3
     },
     {
@@ -976,13 +976,13 @@
     },
     {
       "speaker": "Dad",
-      "text": "Oh, yes",
+      "text": "Oh, yes.",
       "timestamp": 1178.02
     },
     {
       "speaker": "Izzy",
-      "text": "He has a wonderful song. It's-",
-      "timestamp": 1179.04
+      "text": "He has a wonderful song.",
+      "timestamp": 1179.06
     },
     {
       "speaker": "Dad",
@@ -991,17 +991,17 @@
     },
     {
       "speaker": "Izzy",
-      "text": "It's called I Fish, I Fish, I Fish for Some Fish",
+      "text": "It's called I Fish, I Fish, I Fish for Some Fish.",
       "timestamp": 1184.72
     },
     {
       "speaker": "Dad",
-      "text": "All right. Do you wanna sing it, or should I?",
+      "text": "All right. Do you wanna sing it or should I?",
       "timestamp": 1189.36
     },
     {
       "speaker": "Izzy",
-      "text": "You should",
+      "text": "You should.",
       "timestamp": 1191.24
     },
     {
@@ -1011,37 +1011,37 @@
     },
     {
       "speaker": "Izzy",
-      "text": "And, and, and King, does everyone dance or only one person? 'Cause I heard that only one person's allowed to dance with another",
+      "text": "And, and, and King, does everyone dance or only one person? 'Cause I heard that only one person's allowed to dance with another.",
       "timestamp": 1200.72
     },
     {
       "speaker": "Dad",
-      "text": "And the king said, \"Yes. Only one person will dance, and they will dance with one other person.\" And who will it be?",
-      "timestamp": 1209.64
+      "text": "And the king said, \"Yes. Only one person will dance, and they will dance with one other person. And who will it be?\"",
+      "timestamp": 1209.58
     },
     {
       "speaker": "Izzy",
-      "text": "So everyone's going to dance with me",
+      "text": "So everyone's going to dance with me.",
       "timestamp": 1218.62
     },
     {
       "speaker": "Dad",
-      "text": "Oh, everyone will dance with Isabella",
+      "text": "Oh, everyone will dance with Isabella.",
       "timestamp": 1221.44
     },
     {
       "speaker": "Izzy",
-      "text": "So the first person's going to dance with Isabella, and then the second one's going to dance with Isabella",
+      "text": "So the first person's going to dance with Isabella, and then the second one's going to dance with Isabella.",
       "timestamp": 1223.92
     },
     {
       "speaker": "Dad",
-      "text": "I see. Yes, of course",
+      "text": "I see. Yes, of course.",
       "timestamp": 1229.63
     },
     {
       "speaker": "Izzy",
-      "text": "And the third one's going to dance with me",
+      "text": "And the third one's going to dance with me.",
       "timestamp": 1230.98
     },
     {
@@ -1051,32 +1051,32 @@
     },
     {
       "speaker": "Izzy",
-      "text": "I choose Bert",
+      "text": "I choose Bert.",
       "timestamp": 1236.2
     },
     {
       "speaker": "Dad",
-      "text": "Bert for the first dance. Go ahead, Alexander. And Alexander says, \"My song is called I, I Fish, I Fish, I Fish for a Fish, and this is how it goes. I fish, I fish, I fish for a fish. I wish, I wish, I just had a dish to put my fish on. That would be nice.",
+      "text": "Bert for the first dance. Go ahead, Alexander. And Alexander says, \"My song is called I, I Fish, I Fish, I Fish for a Fish. And this is how it goes. I fish, I fish, I fish for a fish. I wish, I wish, I just had a dish to put my fish on. That would be nice.",
       "timestamp": 1237.46
     },
     {
       "speaker": "Dad",
-      "text": "Maybe some other things like vegetables and rice. I fish, I fish, I fish for a fish. But then it hops back into the water, and oh no, it got away. I'll have to fish for another fish upon another day.\"",
+      "text": "Maybe some other things like vegetables and rice. I fish, I fish, I fish for a fish. But then it hops back into the water. And oh no, it got away. I'll have to fish for another fish upon another day.\"",
       "timestamp": 1264.06
     },
     {
       "speaker": "Izzy",
-      "text": "Clap, clap, clap, clap",
+      "text": "Clap, clap, clap, clap.",
       "timestamp": 1294.64
     },
     {
       "speaker": "Dad",
       "text": "Clap, clap, clap, clap, clap. Thank you, Alexander, for singing the first song of the evening.",
-      "timestamp": 1296.42
+      "timestamp": 1296.77
     },
     {
       "speaker": "Izzy",
-      "text": "Who's the next one? What's the next song? Is there any other songs, or what comes next?",
+      "text": "Who's the next one? What's the next song? Is there any other songs or what comes next?",
       "timestamp": 1304.24
     },
     {
@@ -1086,23 +1086,23 @@
     },
     {
       "speaker": "Izzy",
-      "text": "No",
+      "text": "No.",
       "timestamp": 1317.5
     },
     {
       "speaker": "Dad",
       "text": "Or-",
-      "timestamp": 1318.22
+      "timestamp": 1318.23
     },
     {
       "speaker": "Izzy",
-      "text": "Elsa Pony's not here",
-      "timestamp": 1318.51
+      "text": "Elsa Pony's not here.",
+      "timestamp": 1318.25
     },
     {
       "speaker": "Dad",
-      "text": "Oh. Will Princess Isabella like to sing a song?",
-      "timestamp": 1319.7
+      "text": "Oh, will Princess Isabella like to sing a song?",
+      "timestamp": 1319.68
     },
     {
       "speaker": "Izzy",
@@ -1111,73 +1111,73 @@
     },
     {
       "speaker": "Dad",
-      "text": "I, I would dance to it if you sang it",
-      "timestamp": 1326.51
+      "text": "I, I would dance to it if you sang it.",
+      "timestamp": 1326.62
     },
     {
       "speaker": "Izzy",
-      "text": "No. Uh, Ernie is singing it. It's called I Wish I Had a Friend, a Friend Who Was Even Beautiful.",
-      "timestamp": 1328.8
+      "text": "No. Uh, Ernie is singing it. It's called I Wish I Had a Friend, a Friend Who Was Even Beautifuler.",
+      "timestamp": 1328.74
     },
     {
       "speaker": "Dad",
-      "text": "And Ernie says, \"Uh, yes, hello, everyone. I will be singing the second song. Uh, but who will you be dancing with, Isabella?\"",
+      "text": "And Ernie says, \"Uh, yes. Hello everyone. I will be singing the second song. Uh, but who will you be dancing with, Isabella?\"",
       "timestamp": 1341.82
     },
     {
       "speaker": "Izzy",
-      "text": "I will be dancing with Bunsen. Actually, no, Beaker",
-      "timestamp": 1352.6
+      "text": "I will be dancing with Bunsen. Actually no, Beaker.",
+      "timestamp": 1352.64
     },
     {
       "speaker": "Dad",
-      "text": "Very good. Uh, my song is called... I'm trying to remember how to do it, the Ernie voice",
+      "text": "Very good. Uh, my song is called... I'm trying to remember how to do it, the Ernie voice.",
       "timestamp": 1360.06
     },
     {
       "speaker": "Izzy",
-      "text": "Oh. I, I Wish I Had a Friend that Was Even Beautiful-er Than Me",
-      "timestamp": 1368.44
+      "text": "Oh. I, I Wish I Had a Friend That Was Even Beautifuler Than Me.",
+      "timestamp": 1368.46
     },
     {
       "speaker": "Dad",
-      "text": "\"I, I Wish I Had a Friend Who Was Even Beautiful-er Than Me,\" says Ernie. And this is how it goes. I wish I had a friend who was even beautiful-er than me. I do though, I do, it's everyone. I wish I had a friend who was even sweeter than me. I do though, it's everyone.",
-      "timestamp": 1373.7
+      "text": "\"I, I wish I had a friend who was even beautifuler than me,\" says Ernie. \"And this is how it goes. I wish I had a friend who was even beautifuler than me. I do though, I do. It's everyone. I wish I had a friend who was even sweeter than me. I do though.",
+      "timestamp": 1373.97
     },
     {
       "speaker": "Dad",
-      "text": "I wish I had a friend who was even kinder than me. I do though, it's everyone. I wish I had a friend who could be just like me. I do, it's me",
-      "timestamp": 1404.88
+      "text": "It's everyone. I wish I had a friend who was even kinder than me. I do though. It's everyone. I wish I had a friend who could be just like me. I do. It's me.\"",
+      "timestamp": 1402.32
     },
     {
       "speaker": "Izzy",
-      "text": "Me, me, me",
-      "timestamp": 1425.69
+      "text": "Me, me, me.",
+      "timestamp": 1426.27
     },
     {
       "speaker": "Dad",
-      "text": "Oh. Thank you, thank you",
-      "timestamp": 1426.96
+      "text": "Oh. Thank you. Thank you.",
+      "timestamp": 1434
     },
     {
       "speaker": "Izzy",
-      "text": "What's the next, what's the next step?  What's the next step?",
-      "timestamp": 1437.3
+      "text": "What's the next, what's the next step? What's the next step?",
+      "timestamp": 1437.32
     },
     {
       "speaker": "Dad",
-      "text": "And the king says, \"Well, now we will dance to a party song such as Pink Pony Club or some other song s- such as This Girl Is On Fire\"",
-      "timestamp": 1445.8
+      "text": "And the king says, \"Well, now we will dance to a party song such as Pink Pony Club or some other song s- such as This Girl Is On Fire.\"",
+      "timestamp": 1445.82
     },
     {
       "speaker": "Izzy",
-      "text": "Well, Pink Pony Club",
+      "text": "Well, Pink Pony Club.",
       "timestamp": 1462.84
     },
     {
       "speaker": "Dad",
-      "text": "Pink Pony Club Uh, would you do us the honor of singing Pink Pony Club, Princess Isabella?",
-      "timestamp": 1464.77
+      "text": "Pink Pony Club. Uh, would you do us the honor of singing Pink Pony Club, Princess Isabella?",
+      "timestamp": 1464.62
     },
     {
       "speaker": "Izzy",
@@ -1206,13 +1206,13 @@
     },
     {
       "speaker": "Dad",
-      "text": "It's Bunbun. And here goes nothing.  Pink Pony Club. I'm gonna keep on dancing at the Pink Pony Club. I'm gonna keep on dancing down in West Hollywood, West Hollywood. Pink Pony Club. I'm gonna keep on dancing at the Pink Pony Club. I'm gonna keep on dancing down in West Hollywood.",
+      "text": "It's Bunbun. And here goes nothing. Pink Pony Club. I'm gonna keep on dancing at the Pink Pony Club. I'm gonna keep on dancing down in West Hollywood. West Hollywood. Pink Pony Club. I'm gonna keep on dancing at the Pink Pony Club. I'm gonna keep on dancing down in West Hollywood.",
       "timestamp": 1492.69
     },
     {
       "speaker": "Dad",
       "text": "Do you remember any more of the words?",
-      "timestamp": 1524.33
+      "timestamp": 1522.83
     },
     {
       "speaker": "Izzy",
@@ -1221,18 +1221,18 @@
     },
     {
       "speaker": "Dad",
-      "text": "The end.   Clap, clap, clap, clap.",
+      "text": "The end. Clap, clap, clap, clap.",
       "timestamp": 1528.15
     },
     {
       "speaker": "Izzy",
-      "text": "Oh. Ah. What's next?",
+      "text": "Oh. What's next?",
       "timestamp": 1535.87
     },
     {
       "speaker": "Dad",
-      "text": "\"And now,\" says the king, \"we've reached the end, end of the introductory dance party portion of our Darkness party. And that brings us to-",
-      "timestamp": 1540.29
+      "text": "\"And now,\" says the king, \"we've reached the end, end of the introductory dance party portion of our Darkness Party, and that brings us to-",
+      "timestamp": 1540.27
     },
     {
       "speaker": "Izzy",
@@ -1246,8 +1246,8 @@
     },
     {
       "speaker": "Izzy",
-      "text": "Um, um.",
-      "timestamp": 1562.23
+      "text": "Um. Um.",
+      "timestamp": 1562.21
     },
     {
       "speaker": "Dad",
@@ -1266,18 +1266,18 @@
     },
     {
       "speaker": "Izzy",
-      "text": "Then where is it? And who is wearing it? Where is it? Huh.  Oh. Uh, who is getting a crown? Who wear a crown? It is this one.",
-      "timestamp": 1577.39
+      "text": "Then where is it? Then who is wearing it? Where is it? Huh. Oh. Uh, who is getting a crown? Oh. Wear a crown. It is this one.",
+      "timestamp": 1578.29
     },
     {
       "speaker": "Dad",
       "text": "Princess Mango.",
-      "timestamp": 1610.37
+      "timestamp": 1610.39
     },
     {
       "speaker": "Izzy",
       "text": "I'm receiving my first crown.",
-      "timestamp": 1611.77
+      "timestamp": 1611.79
     },
     {
       "speaker": "Dad",
@@ -1291,7 +1291,7 @@
     },
     {
       "speaker": "Dad",
-      "text": "Well, you could use one of the flowers from the flower kit. Or...",
+      "text": "Well, you could use one of the flowers from the flower kit, or...",
       "timestamp": 1623.69
     },
     {
@@ -1302,32 +1302,32 @@
     {
       "speaker": "Dad",
       "text": "A sh- perfect.",
-      "timestamp": 1630.97
+      "timestamp": 1630.99
     },
     {
       "speaker": "Izzy",
-      "text": "Whoops.",
-      "timestamp": 1635.28
+      "text": "Oops.",
+      "timestamp": 1635.27
     },
     {
       "speaker": "Dad",
-      "text": "And the king says, \"I hereby proclaim that Princess Mango, on this day, in receiving  her crown, which has fallen off and b- been put back on again quickly by Princess Isabella, Isabella, from Princess Isabella-  ... becomes no longer Princess Mango, but is now Queen Mango.",
-      "timestamp": 1640.17
+      "text": "And the king says, \"I hereby proclaim that Princess Mango, on this day, in receiving her crown,\" which has fallen off and b- been put back on again quickly by Princess Isabella, Isabella, \"from Princess Isabella, becomes no longer Princess Mango, but is now Queen Mango.",
+      "timestamp": 1640.15
     },
     {
       "speaker": "Dad",
       "text": "And now we celebrate-",
-      "timestamp": 1668.89
+      "timestamp": 1668.91
     },
     {
       "speaker": "Izzy",
       "text": "By dancing",
-      "timestamp": 1671.45
+      "timestamp": 1671.44
     },
     {
       "speaker": "Dad",
       "text": "... Her Royal Majesty, Queen Mango.",
-      "timestamp": 1671.46
+      "timestamp": 1671.44
     },
     {
       "speaker": "Izzy",
@@ -1342,22 +1342,22 @@
     {
       "speaker": "Izzy",
       "text": "And who am I going to dance to, dance with?",
-      "timestamp": 1677.15
+      "timestamp": 1677.17
     },
     {
       "speaker": "Dad",
       "text": "You may choose whoever you wish to dance with.",
-      "timestamp": 1681.33
+      "timestamp": 1681.35
     },
     {
       "speaker": "Izzy",
-      "text": "I wish I know you. A day in the night. Wish all the time.  High in the night. And night girls night. Night in the, in the night. High in the, high in the night. High, high, high, high. High in the, high in, uh, the night. High in the diamond skies and the night.",
-      "timestamp": 1694.39
+      "text": "I wish I know you. A day in the night. Wish all the time. High in the lighting. And that girl's night. Night. And light. And light in the night. High, high, high, high. High in the, high, high, high, high. High in the diamond skies and the night. High in the heavens.",
+      "timestamp": 1691.07
     },
     {
       "speaker": "Izzy",
-      "text": "High in the night. High in the night.  That song is called High in the Night.",
-      "timestamp": 1769.43
+      "text": "High in the night. That song is called High in the Night.",
+      "timestamp": 1773.83
     },
     {
       "speaker": "Dad",
@@ -1367,12 +1367,12 @@
     {
       "speaker": "Izzy",
       "text": "Is what?",
-      "timestamp": 1794.79
+      "timestamp": 1794.81
     },
     {
       "speaker": "Dad",
-      "text": "... that we've all been waiting for of tonight's Darkness party.",
-      "timestamp": 1794.8
+      "text": "... that we've all been waiting for of tonight's Darkness Party.",
+      "timestamp": 1794.98
     },
     {
       "speaker": "Izzy",
@@ -1386,7 +1386,7 @@
     },
     {
       "speaker": "Izzy",
-      "text": "Um, um, Clover and, Clover and...  Clover and, Clover and, Clover- And Clover and Frozen Mango. We're getting married.",
+      "text": "Um. Um, Clover and, Clover and, Clover and, Clover and, Clover- And Clover and Frozen Mango. We're getting married.",
       "timestamp": 1811.29
     },
     {
@@ -1401,13 +1401,13 @@
     },
     {
       "speaker": "Dad",
-      "text": "... tonight",
-      "timestamp": 1850.19
+      "text": "Tonight",
+      "timestamp": 1850.21
     },
     {
       "speaker": "Izzy",
       "text": "... actually not, not Clover. She's not getting married.",
-      "timestamp": 1850.49
+      "timestamp": 1850.6
     },
     {
       "speaker": "Dad",
@@ -1416,18 +1416,18 @@
     },
     {
       "speaker": "Izzy",
-      "text": "Actually, Fozzy is 10 years old, so, and this one's 10 years old, so we are, so these guys are both getting... Actually, um, this one's, these both are, are 10 years old and they're getting married right now.",
+      "text": "Actually, Fozzie is 10 years old, so, and this one's 10 years old, so we are, so these guys are both getting... Actually, um, this one's, these both are, uh, 10 years old and they're getting married right now.",
       "timestamp": 1856.44
     },
     {
       "speaker": "Dad",
       "text": "So-",
-      "timestamp": 1877.98
+      "timestamp": 1877.86
     },
     {
       "speaker": "Izzy",
       "text": "Lottie got married to Surprise yesterday.",
-      "timestamp": 1878
+      "timestamp": 1877.9
     },
     {
       "speaker": "Dad",
@@ -1441,7 +1441,7 @@
     },
     {
       "speaker": "Dad",
-      "text": "\"I didn't know that,\" said the king. \"Congratulations.\" Now, this is Frozen Mango and Theresa getting married tonight. Is that correct?",
+      "text": "\"I didn't know that,\" said the king. \"Congratulations. Now, this is Frozen Mango and Torreso getting married tonight. Is that correct?\"",
       "timestamp": 1885.77
     },
     {
@@ -1461,13 +1461,23 @@
     },
     {
       "speaker": "Dad",
-      "text": "Pink Mergirl. And she says, \"Welcome, everyone, to the royal wedding of Theresa and Frozen Mango. And on this joyous day, we begin with the procession. Walk towards me, please, beautiful couple.\"  And now, we gather here today in this beautiful darkness party to celebrate the joining together of the lives of young Theresa and young Frozen Mango, a couple so beautiful as the world has never seen.",
+      "text": "Pink Mergirl. And she says, \"Welcome, everyone, to the royal wedding of Torreso and Frozen Mango. And on this joyous day, we begin with the procession. Walk towards me, please, beautiful couple.\"",
       "timestamp": 1914.86
     },
     {
+      "speaker": "Izzy",
+      "text": "Boop boop boop do, boop boop boop do, boop boop boop do boop boop doop boop boop do.",
+      "timestamp": 1935.74
+    },
+    {
       "speaker": "Dad",
-      "text": "And today I ask them each to give unto the other their vows. Now, you may begin, Theresa.",
-      "timestamp": 1964.82
+      "text": "And now, we gather here today in this beautiful darkness party to celebrate the joining together of the lives of young Torreso and young Frozen Mango, a couple so beautiful as the world has never seen. And today I ask them each to give unto the other their vows.",
+      "timestamp": 1944.7
+    },
+    {
+      "speaker": "Dad",
+      "text": "Now you may begin, Torreso.",
+      "timestamp": 1971.24
     },
     {
       "speaker": "Izzy",
@@ -1476,7 +1486,7 @@
     },
     {
       "speaker": "Dad",
-      "text": "And now, I will do the official marrying. Theresa, do you take Frozen Mango to be your married spouse?",
+      "text": "And now I will do the official marrying. Torreso, do you take Frozen Mango to be your married spouse?",
       "timestamp": 1995.14
     },
     {
@@ -1486,28 +1496,28 @@
     },
     {
       "speaker": "Dad",
-      "text": "And Frozen Mango, do you take Theresa to be your married spouse?",
+      "text": "And Frozen Mango, do you take Torreso to be your married spouse?",
       "timestamp": 2007.2
     },
     {
       "speaker": "Izzy",
       "text": "Yes.",
-      "timestamp": 2011.06
+      "timestamp": 2011.08
     },
     {
       "speaker": "Dad",
-      "text": "Congratulations. I now pronounce you married. You may hug or kiss or high five or whatever you like.",
+      "text": "Congratulations. I now pronounce you married. You may hug or kiss or high-five or whatever you like.",
       "timestamp": 2011.64
     },
     {
       "speaker": "Izzy",
       "text": "We did kisses.",
-      "timestamp": 2019.36
+      "timestamp": 2019.38
     },
     {
       "speaker": "Dad",
       "text": "Congratulations. And everyone cheers and applauds. Hooray.",
-      "timestamp": 2020.74
+      "timestamp": 2020.76
     },
     {
       "speaker": "Izzy",
@@ -1536,17 +1546,17 @@
     },
     {
       "speaker": "Dad",
-      "text": "And now it's just a freewheeling, super fun, wild party all night long. There's singing and dancing and games and snacks and treats. And everybody just hangs out and has a good time in the dark.",
+      "text": "And now it's just a freewheeling, super fun, wild party all night long. There's singing and dancing and games and snacks and treats, and everybody just hangs out and has a good time in the dark.",
       "timestamp": 2038.28
     },
     {
       "speaker": "Izzy",
-      "text": "And what does everyone say? Oh, no. The doopey lantern is-",
+      "text": "And what does everyone say? Oh, no. The doopie lantern is-",
       "timestamp": 2056.34
     },
     {
       "speaker": "Dad",
-      "text": "That's okay  I set it back up again. And everyone has a wonderful time singing and dancing and snacking and making new friends. But before long, it's getting late, since they already had costumes and necklaces and a coronation and a wedding. And so now it's time to say goodbye and go home and go to bed.",
+      "text": "That's okay I set it back up again. And everyone has a wonderful time singing and dancing and snacking and making new friends. But before long, it's getting late, since they already had costumes and necklaces and a coronation and a wedding. And so now it's time to say goodbye and go home and go to bed.",
       "timestamp": 2064.94
     },
     {
@@ -1556,8 +1566,18 @@
     },
     {
       "speaker": "Dad",
-      "text": "Uh, okay. Where are you gonna tuck them in?  All right. I think that's the end of Stars and Stories.",
+      "text": "Uh, okay, where are you gonna tuck them in?",
       "timestamp": 2097.88
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Up, up, up. Up, up, up, up. Up, take them up, up.",
+      "timestamp": 2102.25
+    },
+    {
+      "speaker": "Dad",
+      "text": "All right. I think that's the end of Stars and Stories.",
+      "timestamp": 2106.04
     }
   ],
   "characters": [
@@ -1659,7 +1679,19 @@
       "description": "A location mentioned in the song 'Pink Pony Club' sung during the dance party."
     }
   ],
-  "wordCount": 3123,
-  "izzyWordCount": 1415,
-  "dadWordCount": 1708
+  "wordCount": 3141,
+  "izzyWordCount": 1437,
+  "dadWordCount": 1704,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T15:35:51.280Z",
+    "speakerMap": {
+      "speaker_0": "Izzy",
+      "speaker_1": "Dad"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "high"
+  }
 }
