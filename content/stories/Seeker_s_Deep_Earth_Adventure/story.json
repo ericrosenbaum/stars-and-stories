@@ -6,428 +6,598 @@
   "audioFilename": "Cornell St 83.m4a",
   "highlightQuote": {
     "text": "And do you have your keys?",
-    "timestamp": 211.2
+    "timestamp": 132.7
   },
   "transcript": [
     {
-      "text": "Ready to start? Where do you want to sit for stars and stories?",
       "speaker": "Dad",
-      "timestamp": 7.5
+      "text": "All right. Ready for story? Where do you want to go f- Where do you want to sit for stories today? You ready?",
+      "timestamp": 3.26
     },
     {
       "speaker": "Izzy",
-      "timestamp": 22.3,
-      "text": "I'll stand here for stars and stories."
+      "text": "Ready. I, I want to stand here for stars and stories.",
+      "timestamp": 21.57
     },
     {
-      "timestamp": 30.1,
       "speaker": "Dad",
-      "text": "Okay, I'm going to lay back. Okay, there's the stars."
-    },
-    {
-      "text": "The story about Seeker.",
-      "timestamp": 34.2,
-      "speaker": "Izzy"
-    },
-    {
-      "timestamp": 41.5,
-      "speaker": "Dad",
-      "text": "Now, once upon a time, Seeker had a very important mission to go on, but he needed someone to go with him."
+      "text": "Okay, I'm going to turn out the light. Okay, there's the stars.",
+      "timestamp": 29.36
     },
     {
       "speaker": "Izzy",
-      "timestamp": 50.3,
-      "text": "The big dog!"
+      "text": "The story is about Seeker.",
+      "timestamp": 34.82
     },
     {
       "speaker": "Dad",
-      "timestamp": 52.1,
-      "text": "Oh, who is it? said Seeker."
+      "text": "Now, once upon a time, Seeker had a very important mission to go on, but he needed someone to go with him.",
+      "timestamp": 40.32
     },
     {
-      "timestamp": 53.8,
       "speaker": "Izzy",
-      "text": "Moles. Papa Mole, Sister Disco."
+      "text": "And ding dong.",
+      "timestamp": 49.42
     },
     {
-      "timestamp": 57.5,
       "speaker": "Dad",
-      "text": "And Seeker said, 'Oh, hello Moles, thank goodness you're here. I have a very important mission to go on. It's a mission of exploration. Now, I need to go either one of two places, and you can pick: up above the sky or down below the earth.'"
+      "text": "\"Oh, who is it?\" said Seeker.",
+      "timestamp": 51.5
     },
     {
+      "speaker": "Izzy",
+      "text": "Moles, Papa Mole, Thisco, and Disco.",
+      "timestamp": 53.94
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Seeker said, \"Oh, hello moles. Thank goodness you're here. I have a very important mission to go on. It's a mission of exploration. Now, I need to go either one of two places, and you can pick. Up above the sky or down below the earth.\"",
+      "timestamp": 57.86
+    },
+    {
+      "speaker": "Izzy",
       "text": "Down below the earth.",
-      "timestamp": 123.6,
-      "speaker": "Izzy"
+      "timestamp": 83.48
     },
     {
-      "timestamp": 128.2,
       "speaker": "Dad",
-      "text": "Okay. Of course, as moles, that's what you would pick because you like tunneling, don't you? But on this mission, we're going to tunnel deeper than you've ever tunneled before to find the whole other world down below beneath this one. Are you ready for this important mission, Moles?"
+      "text": "Okay. Of course. As moles, that's what you would pick, because you like tunneling, don't you? But on this mission, we're gonna tunnel deeper than you've ever tunneled before to find the whole other world down below, beneath this one. Are you ready for this important mission, moles?",
+      "timestamp": 85.68
     },
     {
       "speaker": "Izzy",
-      "timestamp": 154.9,
-      "text": "Yeah."
-    },
-    {
-      "timestamp": 157.8,
-      "speaker": "Dad",
-      "text": "Okay. What supplies do you think we'll need to bring?"
-    },
-    {
-      "timestamp": 204.3,
-      "speaker": "Izzy",
-      "text": "Provisions and water bottles."
-    },
-    {
-      "text": "Yes, of course, water bottles. Very good. Anything else?",
-      "timestamp": 206.5,
-      "speaker": "Dad"
-    },
-    {
-      "text": "Keys.",
-      "speaker": "Izzy",
-      "timestamp": 211.2
-    },
-    {
-      "speaker": "Dad",
-      "timestamp": 213.5,
-      "text": "Oh, just in case we find some locked doors. Good idea. What else?"
-    },
-    {
-      "text": "Coats.",
-      "timestamp": 216.7,
-      "speaker": "Izzy"
-    },
-    {
-      "text": "Coats in case it's cold deep under the ground, yes. And I hope you've got headlamps with you.",
-      "speaker": "Dad",
-      "timestamp": 219.1
-    },
-    {
-      "speaker": "Izzy",
-      "timestamp": 226.4,
-      "text": "And what about earthquakes? What do we need if there's earthquakes?"
-    },
-    {
-      "timestamp": 232.4,
-      "speaker": "Dad",
-      "text": "Oh, we'll be safe from earthquakes."
-    },
-    {
-      "speaker": "Izzy",
-      "timestamp": 240.2,
-      "text": "What are earthquakes? But then Uncle Grisco called on them."
-    },
-    {
-      "timestamp": 248.3,
-      "speaker": "Dad",
-      "text": "Oh, Uncle Grisco's calling?"
-    },
-    {
       "text": "Yeah.",
-      "speaker": "Izzy",
-      "timestamp": 250.2
+      "timestamp": 114.48
     },
     {
       "speaker": "Dad",
-      "timestamp": 251.3,
-      "text": "What does he say?"
+      "text": "Okay. What supplies do you think we'll need to bring?",
+      "timestamp": 117.44
     },
     {
-      "timestamp": 253.1,
       "speaker": "Izzy",
-      "text": "He says, 'Did I hear somebody say earthquakes?'"
+      "text": "Provisions.",
+      "timestamp": 121.22
     },
     {
-      "timestamp": 259.3,
       "speaker": "Dad",
-      "text": "Oh, yes, we said Seeker. We were just discussing earthquakes and someone asked what they were. Could you explain, Uncle Grisco?"
+      "text": "Uh, what provisions-",
+      "timestamp": 125.2
     },
     {
-      "timestamp": 307.2,
       "speaker": "Izzy",
-      "text": "Okay. Be over in a flash. And so he drove and drove as fast as he could, and then he rang the doorbell. Ding-dong!"
+      "text": "And water bottles.",
+      "timestamp": 125.47
     },
     {
-      "text": "And Seeker said, 'Oh, come on in, Uncle Grisco.' Now, Uncle Grisco explained what an earthquake is. That's when the whole earth goes shake-shake-shake-shake-shake-shake. And it can be a little scary, but it's over pretty quick. And sometimes things fall down when there's an earthquake. But where we're going, the earth won't shake, because we're going deep underground, Uncle Grisco. And Uncle Grisco said, 'Oh really? Could I come too?' What do you think, Moles? Could your uncle come on the mission also?",
       "speaker": "Dad",
-      "timestamp": 320.1
+      "text": "Yes, of course, water bottles. Very good. Anything else?",
+      "timestamp": 127.4
     },
     {
+      "speaker": "Izzy",
+      "text": "Keys.",
+      "timestamp": 132.7
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, just in case we find some locked doors. Good idea. What else?",
+      "timestamp": 134.44
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Coats.",
+      "timestamp": 144.9
+    },
+    {
+      "speaker": "Dad",
+      "text": "Coats, in case it's cold deep under the ground, yes. And I hope you've got headlamps with you.",
+      "timestamp": 146.02
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And what about earthquakes? What we need if there's earthquakes?",
+      "timestamp": 152.2
+    },
+    {
+      "speaker": "Dad",
+      "text": "Uh, we'll be safe from earthquakes.",
+      "timestamp": 158.2
+    },
+    {
+      "speaker": "Izzy",
+      "text": "What are earthquakes? But then Uncle Grisco called on them.",
+      "timestamp": 161.62
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, Uncle Grisco's calling?",
+      "timestamp": 167.68
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah.",
+      "timestamp": 169.74
+    },
+    {
+      "speaker": "Dad",
+      "text": "What does he say?",
+      "timestamp": 171.94
+    },
+    {
+      "speaker": "Izzy",
+      "text": "He says, \"Did I hear somebody say earthquakes?\"",
+      "timestamp": 172.94
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Yes, we,\" says Seeker. \"We were just discussing earthquakes, and someone asked what they were. Could you explain, Uncle Grisco?\"",
+      "timestamp": 180.1
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Okay. Be over in a flash. So.",
+      "timestamp": 185.72
+    },
+    {
+      "speaker": "Dad",
+      "text": "And so-",
+      "timestamp": 191.44
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Drove and drove as fast as he could, and then he rang the doorbell. Ding dong.",
+      "timestamp": 191.92
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Seeker said, \"Oh, come on in, Uncle Grisco.\" Now, Uncle Grisco explained what an earthquake is. That's when the whole earth goes shake, shake, shake, shake, shake, shake, shake, shake, shake, shake, shake. And it can be a little scary, but it's over pretty quick, and sometimes things fall down when there's an earthquake.",
+      "timestamp": 199.67
+    },
+    {
+      "speaker": "Dad",
+      "text": "But where we're going, the earth won't shake, because we're going deep underground, Uncle Grisco. And Uncle Grisco said, \"Oh, really? Could I come, too?\" What do you think, moles? Could your uncle come on the, on the mission also?",
+      "timestamp": 223.5
+    },
+    {
+      "speaker": "Izzy",
       "text": "Yes.",
-      "timestamp": 358.2,
-      "speaker": "Izzy"
-    },
-    {
-      "text": "Thank you, Seeker.",
-      "speaker": "Dad",
-      "timestamp": 359.8
-    },
-    {
-      "text": "Yeah, but we need provisions. Oxygen tanks.",
-      "timestamp": 402.1,
-      "speaker": "Izzy"
+      "timestamp": 236.24
     },
     {
       "speaker": "Dad",
-      "timestamp": 409.2,
-      "text": "Yeah, we need all those things."
+      "text": "Thank you.",
+      "timestamp": 237.5
     },
     {
       "speaker": "Izzy",
-      "timestamp": 412.5,
-      "text": "Water bottles, coats, and keys and headlamps."
+      "text": "Seeker.",
+      "timestamp": 238.38
     },
     {
       "speaker": "Dad",
-      "timestamp": 419.1,
-      "text": "And so they gathered all of their tools and provisions and other supplies and their coats, and then they were ready."
+      "text": "Um, and-",
+      "timestamp": 240.84
     },
     {
       "speaker": "Izzy",
-      "timestamp": 430.2,
-      "text": "And do you have your keys?"
+      "text": "Yeah, but we need provisions, oxygen tanks.",
+      "timestamp": 241.64
     },
     {
-      "text": "And Seeker said, 'Yes, I have some keys just in case. Now, let's go out into my backyard and dig a hole to begin.' And so out they went and they took turns digging because they were going to have to dig the deepest hole they'd ever dug. And so Disco started and went dig-dig-dig-dig-dig.",
       "speaker": "Dad",
-      "timestamp": 431.5
+      "text": "Yeah, we need all those things.",
+      "timestamp": 248.88
     },
     {
       "speaker": "Izzy",
-      "timestamp": 451.8,
-      "text": "Then Disco."
+      "text": "Water bottles, coats, and keys, and headlamps.",
+      "timestamp": 250.74
     },
     {
       "speaker": "Dad",
-      "timestamp": 453.5,
-      "text": "Then it was Disco's turn and the afternoon was going by. Dig-dig-dig-dig-dig."
-    },
-    {
-      "timestamp": 458.1,
-      "speaker": "Izzy",
-      "text": "Then Papa Mole."
-    },
-    {
-      "timestamp": 459.1,
-      "speaker": "Dad",
-      "text": "Then it was Papa Mole's turn. Dig-dig-dig-dig-dig."
+      "text": "And so they gathered all of their tools and provisions and other supplies, and their coats, and then they were ready.",
+      "timestamp": 260.72
     },
     {
       "speaker": "Izzy",
-      "timestamp": 461.5,
-      "text": "Then Uncle Grisco."
+      "text": "And do you have your keys?",
+      "timestamp": 267.56
     },
     {
-      "text": "Then it was Uncle Grisco's turn to dig-dig-dig-dig-dig.",
       "speaker": "Dad",
-      "timestamp": 463.1
+      "text": "And Seeker said, \"Yes, I have some keys, just in case. Now, let's go out into my backyard and dig a hole to begin.\" And so out they went, and they took turns digging, 'cause they were gonna have to dig the deepest hole they'd ever dug. And so Disco started and went dig, dig, dig, dig, dig, dig, dig, dig, dig, dig, dig.",
+      "timestamp": 269.88
     },
     {
+      "speaker": "Izzy",
+      "text": "Then Thisco.",
+      "timestamp": 291.02
+    },
+    {
+      "speaker": "Dad",
+      "text": "Then it was Th- Thisco's turn in the afternoon-",
+      "timestamp": 292.28
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Then-",
+      "timestamp": 295.23
+    },
+    {
+      "speaker": "Dad",
+      "text": "Was going by, dig, dig, dig, dig, dig, dig, dig, dig, dig-",
+      "timestamp": 295.26
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Papa Mole",
+      "timestamp": 297.56
+    },
+    {
+      "speaker": "Dad",
+      "text": "And then it was Papa Mole's turn, dig, dig, dig, dig, dig, dig, dig, dig.",
+      "timestamp": 298.38
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Then Uncle Grisco.",
+      "timestamp": 300.72
+    },
+    {
+      "speaker": "Dad",
+      "text": "Then it was Uncle Grisco's turn to dig, dig, dig, dig, dig.",
+      "timestamp": 302.16
+    },
+    {
+      "speaker": "Izzy",
       "text": "Then Seeker's.",
-      "speaker": "Izzy",
-      "timestamp": 465.1
-    },
-    {
-      "text": "Then it was Seeker's turn to dig-dig-dig, but he wasn't as good at digging because he's not a mole. But he used a little bit of magic and he moved all the loose dirt that they'd been digging out of the hole out of the way so they'd have more room to dig-dig-dig. And the sun went down and it started to get dark, so they all climbed out of the hole and had a little dinner. Nom-nom-nom. And then they went to sleep. Zzzzz. And then the sun came up, ping!, and they woke up and it was time to dig some more. So they dug all day and the tunnel that they were digging got deeper and deeper and deeper into the ground. And they dug through all the dirt deeper and deeper and deeper until clank-clank-clank they struck some rocks. And Seeker said, 'Now we need to use hammers and drills to break through the rock.' And so clonk-clonk-clonk, drill-drill-drill, scrape-scrape-scrape, break-break-break. And it was hard work, but they dug a tunnel straight down through the rock and they kept digging and digging.",
-      "timestamp": 466.8,
-      "speaker": "Dad"
-    },
-    {
-      "text": "I think that's enough. I think that's enough digging.",
-      "speaker": "Izzy",
-      "timestamp": 610.1
-    },
-    {
-      "text": "Oh, okay, said Papa Mole. What should we do next?",
-      "speaker": "Dad",
-      "timestamp": 614.8
-    },
-    {
-      "timestamp": 618.3,
-      "speaker": "Izzy",
-      "text": "Go down the tunnel. I see some stairs that we can go on with handrails."
-    },
-    {
-      "timestamp": 625.5,
-      "speaker": "Dad",
-      "text": "And Papa Mole said, 'You're right, stairs with handrails. Someone's been here before us. Maybe we can go down and see what's at the bottom of these stairs.' And Disco said, 'I'm a little scared because it's all dark and we're so deep underground.'"
-    },
-    {
-      "timestamp": 636.5,
-      "speaker": "Izzy",
-      "text": "Do you have your headlights on?"
-    },
-    {
-      "text": "Oh, you're right, let's turn on the headlamps. Click-click-click.",
-      "speaker": "Dad",
-      "timestamp": 638.1
-    },
-    {
-      "text": "I'll call out for them. I'll call out for them and tell you where to go.",
-      "speaker": "Izzy",
-      "timestamp": 641.5
-    },
-    {
-      "text": "Oh, thanks. Okay, where should we go?",
-      "timestamp": 647.5,
-      "speaker": "Dad"
-    },
-    {
-      "text": "Go the right first, then the left.",
-      "timestamp": 651.1,
-      "speaker": "Izzy"
-    },
-    {
-      "text": "Okay, and so all the moles went to the right and then the left. And then what did they see?",
-      "speaker": "Dad",
-      "timestamp": 655.2
-    },
-    {
-      "timestamp": 703.1,
-      "speaker": "Izzy",
-      "text": "Oh, who lives down here?"
-    },
-    {
-      "text": "And there was a little sound of squeak-squeak-squeak-squeak. Who are you?",
-      "timestamp": 707.3,
-      "speaker": "Dad"
-    },
-    {
-      "timestamp": 712.5,
-      "speaker": "Izzy",
-      "text": "Oh hello, we don't get a lot of visitors these days. We are the blind mice. We live deep underground in this is our little kingdom, the kingdom of the blind mice. And it's all dark because we're blind. That means we cannot see. We don't need to see because there's no sunlight here deep under the ground."
-    },
-    {
-      "text": "Yeah, just like in the song. Three blind mice, three blind mice, see how they run, see how they run.",
-      "timestamp": 748.1,
-      "speaker": "Izzy"
-    },
-    {
-      "text": "I didn't know that song, said the mouse. My name is... and what was this mouse's name?",
-      "timestamp": 810.1,
-      "speaker": "Dad"
-    },
-    {
-      "text": "Fisca Kalo.",
-      "timestamp": 814.1,
-      "speaker": "Izzy"
-    },
-    {
-      "timestamp": 817.5,
-      "speaker": "Dad",
-      "text": "Fisca Kalo. And Fisca Kalo said, 'Why, that's a wonderful song and it's good to know that in the world high up above that we are famous. But I have a favor to ask you travelers from the world above.'"
-    },
-    {
-      "speaker": "Izzy",
-      "timestamp": 834.1,
-      "text": "What is it?"
-    },
-    {
-      "timestamp": 836.2,
-      "speaker": "Dad",
-      "text": "Well, we have lots of delicious food that we grow down here, mostly mushrooms though because we don't have any sunlight. We'd love some delicious fresh vegetables. Do you have any of those?"
-    },
-    {
-      "speaker": "Izzy",
-      "timestamp": 853.1,
-      "text": "Oh we do. We have some cheese, broccoli, some lettuce, some nuts. Those are what we brought, we'll share half of those for you."
-    },
-    {
-      "text": "Thank you, said the blind mouse. Come with me and I'll introduce you to my family. And the blind mouse led the moles and Seeker through lots of dark little round tunnels all the way to a big chamber that was very cozy and it had little beds and little tables and chairs and little shelves with little toys and knick-knacks.",
-      "speaker": "Dad",
-      "timestamp": 907.5
-    },
-    {
-      "text": "What knick-knacks?",
-      "speaker": "Izzy",
-      "timestamp": 934.3
+      "timestamp": 304.3
     },
     {
       "speaker": "Dad",
-      "timestamp": 935.5,
-      "text": "Knick-knacks are little decorative objects. They're kind of like toys like a little statue or a little cup or a little bowl. Just things that people like to have. And I guess blind mice like to have them too, even though they can't see, they can reach up with their paws and feel them. And the blind mice said, 'Oh, we smell something nice. Who are these new visitors?'"
-    },
-    {
-      "timestamp": 1004.8,
-      "speaker": "Izzy",
-      "text": "These are... first one is Uncle Grisco, Disco and Disco, Papa Mole..."
-    },
-    {
-      "timestamp": 1015.8,
-      "speaker": "Dad",
-      "text": "...and Seeker too. Yeah. And they said thanks for welcoming us into your home. And Seeker said, 'Here, we've brought some delicious food from the world above where the sunlight shines and we can grow delicious vegetables like broccoli and lettuce. And also we have some cheese, I heard you like cheese because you're mice, and some nuts.'"
-    },
-    {
-      "timestamp": 1044.5,
-      "speaker": "Izzy",
-      "text": "Also carrots."
+      "text": "Then it was Seeker's turn to dig, dig, dig, dig, dig. But he wasn't as good at, at digging, 'cause he's not a mole. But he used a little bit of magic, and he moved all the loose dirt that they'd been digging out of the hole out of the way, so they'd have more room to dig, dig, dig, dig, dig.",
+      "timestamp": 305.56
     },
     {
       "speaker": "Dad",
-      "timestamp": 1047.5,
-      "text": "Oh yes. And the mice said, 'Wow, we've never had carrots before.'"
+      "text": "And the sun went down, and it started to get dark. So they all climbed out of the hole and had a little dinner. Om, nom, nom, nom, nom, nom. And then they went to sleep, zzz. And then the sun came up, bing, and they woke up, and it was time to dig some more.",
+      "timestamp": 319.67
+    },
+    {
+      "speaker": "Dad",
+      "text": "So they dug all day, and the t- tunnel that they were digging got deeper and deeper and deeper into the ground. And they dug through all the dirt, deeper and deeper and deeper, until clank, clank, clank, they struck some rocks. And Seeker said, \"Now we need to use hammers and drills to break through the rock.\"",
+      "timestamp": 335.5
+    },
+    {
+      "speaker": "Dad",
+      "text": "And so clunk, clunk, clunk, drill, drill, drill, scrape, scrape, scrape, break, break, break. And it was hard work, but they dug a tunnel straight down through the rock. And they kept-",
+      "timestamp": 356.54
     },
     {
       "speaker": "Izzy",
-      "timestamp": 1054.2,
-      "text": "Mice like them. I hope you might like them too."
+      "text": "I think that's enough",
+      "timestamp": 367.35
     },
     {
-      "timestamp": 1058.5,
       "speaker": "Dad",
-      "text": "Thank you, that's so very nice of you. And so they arranged all the delicious food on the little table and sat around together, the blind mice and the moles and Seeker, and they had a little feast. And then..."
-    },
-    {
-      "timestamp": 1111.8,
-      "speaker": "Izzy",
-      "text": "What's your family's name?"
-    },
-    {
-      "text": "Oh, we're the Blind Mice family.",
-      "speaker": "Dad",
-      "timestamp": 1114.1
+      "text": "They kept digging and digging",
+      "timestamp": 368.98
     },
     {
       "speaker": "Izzy",
-      "timestamp": 1118.8,
-      "text": "Murmur Mouse, Mama Mouse, Papa Mouse, Poda, Zigga, Healo, Papale, Seeka, Vigo, Eea, and the baby sister named Ping."
+      "text": "I think that's enough digging",
+      "timestamp": 370.78
     },
     {
       "speaker": "Dad",
-      "timestamp": 1135.2,
-      "text": "Oh, that's a lot of good mouse names. And so after the feast, Seeker said, 'Well, we've had a long journey and lots of digging to get all the way down here to meet you blind mice, but now it's time for us to go back up to where we live in the world up above.' And so they said goodbye."
-    },
-    {
-      "text": "We'll come to visit you tomorrow.",
-      "timestamp": 1159.2,
-      "speaker": "Izzy"
-    },
-    {
-      "speaker": "Dad",
-      "timestamp": 1202.5,
-      "text": "Yeah. And the moles and Seeker climbed all the way back up through the tunnel..."
+      "text": "\"Oh, okay,\" said Papa Mole. \"What should we do next?\"",
+      "timestamp": 372.96
     },
     {
       "speaker": "Izzy",
-      "timestamp": 1208.5,
-      "text": "Yeah, but before you go up there can you wave? Say bye-bye."
+      "text": "Go down the tunnel. I see some stairs that we can go on with handrails",
+      "timestamp": 377.08
     },
     {
-      "timestamp": 1218.8,
       "speaker": "Dad",
-      "text": "Okay, and they said bye-bye and waved, but the blind mice couldn't see them waving, but they could hear them saying bye-bye. And they went back up the stairs and back up the stone tunnels and back up through the dirt tunnels and finally they climbed back out all the way out into the sunlight in Seeker's backyard. And then their journey was over. And that's the end of stars and stories."
+      "text": "And Papa Mole said, \"You're right, stairs with handrails. Someone's been here before us. Maybe we can go down and see what's at the bottom of these stairs.\" And Disco said, \"I'm a little scared 'cause it's all dark and we're so deep underground\"",
+      "timestamp": 383.44
     },
     {
-      "text": "I feel another earthquake.",
-      "timestamp": 1245.5,
-      "speaker": "Izzy"
+      "speaker": "Izzy",
+      "text": "Do you have your headlights on?",
+      "timestamp": 395.94
     },
     {
-      "text": "Shake-shake-shake-shake-shake. Rumble-rumble-rumble.",
-      "timestamp": 1248.5,
-      "speaker": "Dad"
+      "speaker": "Dad",
+      "text": "\"Oh, you're right. Let's turn on the headlamps.\" Click, click, click. And so they-",
+      "timestamp": 397.93
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I'll call out for them. I'll call out for them and tell you where to go",
+      "timestamp": 401.86
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh, thanks. Okay, where should we go?\"",
+      "timestamp": 407.88
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Go to the right first, then the left",
+      "timestamp": 410.58
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Okay.\" And so all the moles went to the right",
+      "timestamp": 413.74
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Then the left",
+      "timestamp": 416.86
+    },
+    {
+      "speaker": "Dad",
+      "text": "And then the left. And then what did they see?",
+      "timestamp": 418.54
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"Oh, who lives down here?\"",
+      "timestamp": 421.5
+    },
+    {
+      "speaker": "Dad",
+      "text": "And there was a little sound of squeak, squeak, squeak, squeak, squeak",
+      "timestamp": 426.44
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"Who are you?\"",
+      "timestamp": 432.48
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh, hello. We don't get a lot of visitors these days. We are the blind mice. We live deep underground, and this is our little kingdom, the Kingdom of the Blind Mice, and it's all dark because we're blind. That means we cannot see. We don't need to see because there's no sunlight here deep under the ground.\"",
+      "timestamp": 434.21
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah, just like in the song. Three blind mice. Three blind mice. See how they run. See how they run. They all fall down. Three blind mice",
+      "timestamp": 467.3
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh",
+      "timestamp": 487.3
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Three blind mice",
+      "timestamp": 487.54
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"I didn't know that song,\" said the mouse. \"My name is...\" And, oh, what was this mouse's name?",
+      "timestamp": 489.82
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Fiska Calo",
+      "timestamp": 494.78
+    },
+    {
+      "speaker": "Dad",
+      "text": "Fiska Calo. And Fiska Calo said, \"Why, ooh, that's a wonderful song, and it's good to know that in the world high up above that we are famous. But I have a favor to ask you travelers from the world above\"",
+      "timestamp": 496.74
+    },
+    {
+      "speaker": "Izzy",
+      "text": "What is it?",
+      "timestamp": 514.44
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Well, we have lots of delicious food that we grow down here. Uh, mostly mushrooms though because we don't have any sunlight. We'd love some delicious fresh vegetables. Do you have any of those?\"",
+      "timestamp": 515.65
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Oh, we do. We have some cheese, some broccoli, some lettuce, some nuts",
+      "timestamp": 532.54
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh",
+      "timestamp": 542.32
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Those are what we brought. We'll share half of those for you",
+      "timestamp": 542.86
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Thank you,\" said the blind mouse. \"Come with me and I'll introduce you to my family.\" And the blind mouse led the moles and Seeker through lots of dark little round tunnels all the way to a big chamber that was very cozy, and it had little beds and little tables and chairs and little shelves with little toys and knick-knacks",
+      "timestamp": 546.36
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Or knick-knacks",
+      "timestamp": 574.08
+    },
+    {
+      "speaker": "Dad",
+      "text": "Knick-knacks are little decorative objects. They're kind of like toys, like a little statue or a little cup or a little bowl. Just things that people like to have, and I guess blind mice like to have them, too. Even though they can't see, they can reach up with their paws and feel them.",
+      "timestamp": 576.47
+    },
+    {
+      "speaker": "Dad",
+      "text": "And the blind mice said, \"Oh, we smell something nice. Who are these new visitors?\"",
+      "timestamp": 595.98
+    },
+    {
+      "speaker": "Izzy",
+      "text": "These are. First one is Uncle Grisco, Disco, Thisco, Papa Mole",
+      "timestamp": 603.82
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Seeker, too",
+      "timestamp": 616.22
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Seeker",
+      "timestamp": 617.78
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yeah. And they said, \"Thanks for welcoming us into your home.\" And Seeker said, \"Here, we've brought some delicious food from the world above where the sunlight shines and we can grow delicious vegetables like broccoli and lettuce, and also we have some cheese.",
+      "timestamp": 617.81
+    },
+    {
+      "speaker": "Dad",
+      "text": "I heard you like cheese because you're mice, and some nuts\"",
+      "timestamp": 637.5
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Car- Also carrots",
+      "timestamp": 640.3
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, yes. And the mice said, \"Wow, we've never had carrots before\"",
+      "timestamp": 646.94
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I just like them. I hope you might like them, too",
+      "timestamp": 653.96
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Thank you. That's so very nice of you.\" And so they arranged all the delicious food on a little table and sat around together, the blind mice and the moles and Seeker, and they had a little feast. And then after-",
+      "timestamp": 658.22
+    },
+    {
+      "speaker": "Izzy",
+      "text": "What's your family's name?",
+      "timestamp": 671.34
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh, we're the Blind Mice family\"",
+      "timestamp": 673.94
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Farmer Mouse, Mama Mouse, Dad Mouse, Balda, Siga, Hila, Bale, Sika, Bella, Aya, and the baby sister named Fig",
+      "timestamp": 678.06
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, that's a lot of good mouse names. It is",
+      "timestamp": 696.59
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Hello",
+      "timestamp": 700.43
+    },
+    {
+      "speaker": "Dad",
+      "text": "And so after the feast, Seeker said, \"Well, we've had a long journey and lots of digging to get all the way down here to meet you blind mice, but now it's time for us to go back up to where we live in the world up above.\" And so they said goodbye",
+      "timestamp": 700.43
+    },
+    {
+      "speaker": "Izzy",
+      "text": "We'll come to visit you tomorrow",
+      "timestamp": 718.62
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yeah. And the moles and Seeker climbed all the way back up through the tunnels",
+      "timestamp": 722.6
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah, but before you go up there, can you wave-",
+      "timestamp": 728.46
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay. And they-",
+      "timestamp": 734.84
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And say bye-bye",
+      "timestamp": 735.51
+    },
+    {
+      "speaker": "Dad",
+      "text": "They said bye-bye",
+      "timestamp": 737.12
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Bye-bye",
+      "timestamp": 738.72
+    },
+    {
+      "speaker": "Dad",
+      "text": "And they waved, but the blind mice couldn't see them waving, but they could hear them saying bye-bye. And they went back up the stairs and back up the stone tunnels and back up through the dirt tunnels, and finally they climbed back out all the way up into the sunlight in Seeker's backyard, and then their journey was over.",
+      "timestamp": 738.92
+    },
+    {
+      "speaker": "Dad",
+      "text": "And that's the end of Stars and Stories",
+      "timestamp": 763.14
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Oh, I feel a little earthquake",
+      "timestamp": 764.64
+    },
+    {
+      "speaker": "Dad",
+      "text": "Shake, shake, shake, shake, shake, shake, shake, shake. Rumble, rumble, rumble",
+      "timestamp": 769.18
+    },
+    {
+      "speaker": "Izzy",
+      "text": "But Dad, don't turn off the light yet",
+      "timestamp": 779.6
+    },
+    {
+      "speaker": "Dad",
+      "text": "No",
+      "timestamp": 782.06
     }
   ],
   "characters": [
@@ -529,7 +699,19 @@
       "description": "A dark, cozy underground kingdom filled with tunnels and a large chamber."
     }
   ],
-  "wordCount": 1551,
-  "izzyWordCount": 351,
-  "dadWordCount": 1200
+  "wordCount": 1700,
+  "izzyWordCount": 331,
+  "dadWordCount": 1369,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T15:15:04.551Z",
+    "speakerMap": {
+      "speaker_0": "Dad",
+      "speaker_1": "Izzy"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "low"
+  }
 }

@@ -6,353 +6,568 @@
   "audioFilename": "Cornell St 87.m4a",
   "highlightQuote": {
     "text": "Oh, I don't know, but it also has orange and then it has the jump.",
-    "timestamp": 3.32
+    "timestamp": 211.76
   },
   "transcript": [
     {
-      "text": "Can you tell us a story about Uncle Grisco and Ding Dong?",
-      "speaker": "Izzy",
-      "timestamp": 1.21
-    },
-    {
       "speaker": "Dad",
-      "timestamp": 1.3,
-      "text": "Who is it? say Disco, Disco."
-    },
-    {
-      "text": "Hi Papa Mole!",
-      "timestamp": 1.35,
-      "speaker": "Izzy"
-    },
-    {
-      "text": "Hi Papa Mole! We're here to tell a story about Uncle Grisco.",
-      "timestamp": 1.37,
-      "speaker": "Dad"
-    },
-    {
-      "text": "Ding dong!",
-      "speaker": "Izzy",
-      "timestamp": 1.42
-    },
-    {
-      "speaker": "Dad",
-      "timestamp": 1.43,
-      "text": "Who is it? say the moles."
-    },
-    {
-      "timestamp": 1.45,
-      "speaker": "Izzy",
-      "text": "No, no, no, not the moles, no Uncle Grisco!"
-    },
-    {
-      "text": "It's Uncle Grisco who arrives to visit the moles.",
-      "timestamp": 1.5,
-      "speaker": "Dad"
-    },
-    {
-      "text": "No, no, no, no, no, no, no, the mole having the trip to his house.",
-      "timestamp": 1.55,
-      "speaker": "Izzy"
-    },
-    {
-      "timestamp": 2,
-      "speaker": "Dad",
-      "text": "Oh, this time Disco and Disco and Papa Mole are visiting Uncle Grisco's house."
-    },
-    {
-      "text": "And the cool thing about Uncle Grisco's house, since he's a science teacher, is he has lots of cool science stuff.",
-      "speaker": "Dad",
-      "timestamp": 2.06
-    },
-    {
-      "text": "Now, what is an interesting science experiment that Uncle Grisco could do with the moles today? Hmm.",
-      "timestamp": 2.12,
-      "speaker": "Dad"
-    },
-    {
-      "timestamp": 2.25,
-      "speaker": "Izzy",
-      "text": "And the moles arrive at Uncle Grisco's house."
-    },
-    {
-      "text": "And they arrive and they open the door and Uncle Grisco says: \"Welcome moles! I have a house full of science experiments. Are you curious about any science things that you want to learn about?\"",
-      "speaker": "Dad",
-      "timestamp": 2.28
+      "text": "Remember if we've tried using this one before.",
+      "timestamp": 0.08
     },
     {
       "speaker": "Izzy",
-      "timestamp": 2.42,
-      "text": "Huh, I'm curious about Rainbow Disco Unicorns."
-    },
-    {
-      "text": "Rainbow Disco Unicorns? What are those?",
-      "speaker": "Dad",
-      "timestamp": 2.46
-    },
-    {
-      "speaker": "Izzy",
-      "timestamp": 2.5,
-      "text": "Those are just something from Dingo-O."
-    },
-    {
-      "text": "Oh, like from a song, I see.",
-      "timestamp": 2.55,
-      "speaker": "Dad"
-    },
-    {
-      "text": "Yeah, and they're on my go-go.",
-      "timestamp": 2.57,
-      "speaker": "Izzy"
+      "text": "My camera. This is my camera.",
+      "timestamp": 3.92
     },
     {
       "speaker": "Dad",
-      "timestamp": 3.01,
-      "text": "I see, that's very interesting, says Uncle Grisco. Now, Rainbow Disco Unicorns are pretend, but rainbows are real. Do you want to learn about rainbows?"
-    },
-    {
-      "timestamp": 3.12,
-      "speaker": "Izzy",
-      "text": "Oh yeah, Rainbow Disco Unicorns. There's also disco in that word."
-    },
-    {
-      "timestamp": 3.19,
-      "speaker": "Dad",
-      "text": "There's also disco in that word. That's true. Disco is a kind of music that people dance to."
-    },
-    {
-      "timestamp": 3.24,
-      "speaker": "Izzy",
-      "text": "And also there's unicorn."
-    },
-    {
-      "text": "Do you know what a unicorn is?",
-      "timestamp": 3.27,
-      "speaker": "Dad"
-    },
-    {
-      "timestamp": 3.29,
-      "speaker": "Izzy",
-      "text": "Yeah."
-    },
-    {
-      "text": "What is it?",
-      "timestamp": 3.31,
-      "speaker": "Dad"
-    },
-    {
-      "timestamp": 3.32,
-      "speaker": "Izzy",
-      "text": "Oh, I don't know, but it also has orange and then it has the jump."
-    },
-    {
-      "text": "It has the jump? Oh. Well, a unicorn is a magical kind of horse that's pretend, that has a horn on its head, one horn.",
-      "speaker": "Dad",
-      "timestamp": 3.42
-    },
-    {
-      "text": "Yeah, and it also has the rainbows, has disco too. Can't forget those parts.",
-      "timestamp": 3.52,
-      "speaker": "Izzy"
-    },
-    {
-      "speaker": "Dad",
-      "timestamp": 4,
-      "text": "I see. Well, in that song it combines all those ideas. But one of the ideas in how we do science is to take things apart to help us understand them."
-    },
-    {
-      "speaker": "Izzy",
-      "timestamp": 4.12,
-      "text": "It might need a computer to help us."
-    },
-    {
-      "timestamp": 4.15,
-      "speaker": "Dad",
-      "text": "We might? What do you think we would do with the computer?"
-    },
-    {
-      "speaker": "Izzy",
-      "timestamp": 4.19,
-      "text": "Uncle... so we also we might need to do some research about Dingo-O."
-    },
-    {
-      "text": "That's true. Yeah, about Dingo-O music that he does.",
-      "speaker": "Dad",
-      "timestamp": 4.29
-    },
-    {
-      "speaker": "Izzy",
-      "timestamp": 4.35,
-      "text": "Do you have any questions about that that you want to do research about?"
-    },
-    {
-      "speaker": "Dad",
-      "timestamp": 4.39,
-      "text": "Okay, actually I do have... so we just need to listen to it and find out."
-    },
-    {
-      "timestamp": 4.42,
-      "speaker": "Dad",
-      "text": "Oh, listening is a part of science, listening to instructions."
-    },
-    {
-      "speaker": "Izzy",
-      "timestamp": 4.48,
-      "text": "That's true, it is. So we can listen to it in the morning."
-    },
-    {
-      "timestamp": 4.59,
-      "speaker": "Dad",
-      "text": "Good idea. But for now, we could think just about one of those three things. Do you want to think just about rainbows, just about disco, or just about unicorns?"
-    },
-    {
-      "text": "Rainbows.",
-      "speaker": "Izzy",
-      "timestamp": 5.11
-    },
-    {
-      "speaker": "Dad",
-      "timestamp": 5.13,
-      "text": "Rainbows. Now, can you describe a rainbow?"
-    },
-    {
-      "text": "Yeah. Rainbow has red, orange, yellow, green, blue, indigo, violet.",
-      "speaker": "Izzy",
-      "timestamp": 5.17
-    },
-    {
-      "text": "That's correct! And did you know that rainbows can appear in the sky?",
-      "speaker": "Dad",
-      "timestamp": 5.26
-    },
-    {
-      "text": "After a rain.",
-      "speaker": "Izzy",
-      "timestamp": 5.36
-    },
-    {
-      "speaker": "Dad",
-      "timestamp": 5.38,
-      "text": "After a rain, that's right. Have you seen one in the sky after a rain?"
-    },
-    {
-      "text": "No, there was never a rain or a rainbow after a rain at my house.",
-      "speaker": "Izzy",
-      "timestamp": 5.41
-    },
-    {
-      "text": "I think we should keep our eyes open for rainbows after rain, says Uncle Grisco, 'cause I love seeing rainbows. But they don't last for very long, so you really gotta look out for them at just the right time. And do you know what makes a rainbow? asked Uncle Grisco.",
-      "speaker": "Dad",
-      "timestamp": 5.48
-    },
-    {
-      "text": "No.",
-      "speaker": "Izzy",
-      "timestamp": 6.08
-    },
-    {
-      "text": "The rainbow is made by light getting split apart into the different colors. The light from the sun comes through the air and it's all bright white. And normally the sunlight just lights everything up with its white light. But a rainbow happens when there's little droplets of water in the air. And those droplets of water make the light split apart into its different colors. And the red goes one way, the orange goes a different way, the yellow and the green and the blue and the purple, they all come out in different directions, and so they split apart.",
-      "timestamp": 6.09,
-      "speaker": "Dad"
-    },
-    {
-      "text": "Also the pink, also the indigo, and also the violet.",
-      "timestamp": 6.51,
-      "speaker": "Izzy"
-    },
-    {
-      "text": "That's correct. The light gets split apart into its different colors.",
-      "speaker": "Dad",
+      "text": "Yeah. All right, I put my light in there. Now let's try turning out the lamp. Oh. Hmm. It only makes a few stars.",
       "timestamp": 6.56
     },
     {
-      "timestamp": 7.02,
       "speaker": "Izzy",
-      "text": "Yeah, I love rainbows. Also black, also black and brown and white."
+      "text": "Dada?",
+      "timestamp": 19.1
     },
     {
-      "timestamp": 7.1,
       "speaker": "Dad",
-      "text": "Yeah, those are colors too, but we don't see them in rainbows. Do you have any other questions about rainbows?"
+      "text": "Yeah?",
+      "timestamp": 20.04
     },
     {
-      "timestamp": 7.22,
       "speaker": "Izzy",
-      "text": "Oh, in that song there is a little bit of singing and a little bit of humming and something else that we sing, more humming too."
+      "text": "Can you just-",
+      "timestamp": 20.91
     },
     {
-      "text": "Yeah, in Rainbow Disco Unicorn?",
       "speaker": "Dad",
-      "timestamp": 7.34
+      "text": "Yeah",
+      "timestamp": 22.53
     },
     {
-      "text": "Yeah, it's the orange, it's the orange part.",
       "speaker": "Izzy",
-      "timestamp": 7.36
+      "text": "... take off that basket and we can try the other one?",
+      "timestamp": 22.53
     },
     {
-      "timestamp": 7.4,
       "speaker": "Dad",
-      "text": "How does it go?"
+      "text": "Yeah, I'm gonna turn the light back on. This one makes more stars. It just has slightly more holes, and so it makes more stars 'cause there's more holes for the light to go through.",
+      "timestamp": 26.38
     },
     {
-      "text": "Orange up up and down, now that's how it goes.",
-      "timestamp": 7.42,
-      "speaker": "Izzy"
+      "speaker": "Izzy",
+      "text": "Let me take a picture.",
+      "timestamp": 43.22
     },
     {
-      "text": "Well, I can't wait to hear it tomorrow morning, says Uncle Grisco. And now, let's do one science experiment. I wonder if we could make a rainbow. Hmm. There are a couple ways we could make a rainbow. One way is to use a little object called a prism. That is a special clear piece of glass that has a shape that makes the light bend when it goes through it and it splits apart the light into different colors. And so you can make your own little rainbow by shining a light through it onto a table. That's one way to make a rainbow.",
       "speaker": "Dad",
-      "timestamp": 7.47
+      "text": "All right. Oh, I wanted to-",
+      "timestamp": 48.02
     },
     {
+      "speaker": "Izzy",
+      "text": "Oh, the photo came out.",
+      "timestamp": 49.34
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, what'd you take a picture of?",
+      "timestamp": 51.4
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I just took a picture of, of the star light.",
+      "timestamp": 52.64
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, that sounds like a nice photo. All right, I'm gonna set our blue timer for Stars and Stories.",
+      "timestamp": 56.74
+    },
+    {
+      "speaker": "Izzy",
+      "text": "The picture came out.",
+      "timestamp": 66.78
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, good.",
+      "timestamp": 68.46
+    },
+    {
+      "speaker": "Izzy",
+      "text": "It's over. So my, this is my picture printer.",
+      "timestamp": 68.98
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, you're gonna print, print out the picture? Okay, good idea. All right, we're ready for Stars and Stories.",
+      "timestamp": 74.78
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Can you, can you tell a s- a story about U- Uncle Grisco? And ding-dong.",
+      "timestamp": 82.68
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, who is it, say Disco Disco.",
+      "timestamp": 90.12
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Papa Mole.",
+      "timestamp": 92.21
+    },
+    {
+      "speaker": "Dad",
+      "text": "Hi, Papa Mole.",
+      "timestamp": 92.62
+    },
+    {
+      "speaker": "Izzy",
+      "text": "After ding-dong, we're about to tell a story about Uncle Grisco.",
+      "timestamp": 93.09
+    },
+    {
+      "speaker": "Dad",
+      "text": "And so Uncle Grisco arrives-",
+      "timestamp": 97.5
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Ding-dong",
+      "timestamp": 99.26
+    },
+    {
+      "speaker": "Dad",
+      "text": "... to-",
+      "timestamp": 99.84
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Ding-dong.",
+      "timestamp": 100.58
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Who is it?\" say the moles.",
+      "timestamp": 101.83
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No, no, no, not the moles, no, Uncle Grisco.",
+      "timestamp": 104.18
+    },
+    {
+      "speaker": "Dad",
+      "text": "It's Uncle Grisco who arrives to visit the moles.",
+      "timestamp": 109.18
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No. No, no. No, no, no. No, no, no, no. The moles are having a trip to his house.",
+      "timestamp": 112.3
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, this time, Disco and Disco and Papa Mole are visiting Uncle Grisco's house. And the cool thing about Uncle Grisco's house, since he's a science teacher, is he has lots of cool science stuff. Now, what is an interesting science experiment that Uncle Grisco could do with the moles today?",
+      "timestamp": 119.96
+    },
+    {
+      "speaker": "Dad",
+      "text": "Hmm.",
+      "timestamp": 143.32
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And the, the moles arrive at Uncle Grisco's house.",
+      "timestamp": 145.42
+    },
+    {
+      "speaker": "Dad",
+      "text": "And they arrive, and they open the door, and Uncle Grisco says, \"Welcome, moles. I have a house full of science experiments. Are you curious about any science things that you want to learn about?\"",
+      "timestamp": 149.48
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Uh-huh. I'm, I'm curious about rainbow disco unicorns.",
+      "timestamp": 161
+    },
+    {
+      "speaker": "Dad",
+      "text": "Rainbow disco unicorns? What are those?",
+      "timestamp": 167.14
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Those are just something from Danny Gokey.",
+      "timestamp": 171
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, like from a song, I see.",
+      "timestamp": 175.22
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah. And they're on my GoGo.",
+      "timestamp": 177.84
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"I see. That's very interesting,\" says Uncle Grisco. \"Now, rainbow disco unicorns are pretend, but rainbows are real. Do you want to learn about rainbows?\"",
+      "timestamp": 181.01
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Oh, yeah, rainbow disco unicorns. There's also disco in that word.",
+      "timestamp": 191.42
+    },
+    {
+      "speaker": "Dad",
+      "text": "There's also disco in that word, that's true. Disco is a kind of music that people dance to.",
+      "timestamp": 198.92
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And also, there's unicorn.",
+      "timestamp": 203.84
+    },
+    {
+      "speaker": "Dad",
+      "text": "Do you know what a unicorn is?",
+      "timestamp": 207.2
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah.",
+      "timestamp": 209.38
+    },
+    {
+      "speaker": "Dad",
+      "text": "What is it?",
+      "timestamp": 210.56
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Oh, I don't know.",
+      "timestamp": 211.76
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh.",
+      "timestamp": 213.06
+    },
+    {
+      "speaker": "Izzy",
+      "text": "But it also has one u- and then it has to jump.",
+      "timestamp": 213.62
+    },
+    {
+      "speaker": "Dad",
+      "text": "It has to jump? Oh.",
+      "timestamp": 219.3
+    },
+    {
+      "speaker": "Izzy",
+      "text": "It has to jump.",
+      "timestamp": 220.78
+    },
+    {
+      "speaker": "Dad",
+      "text": "Well, a unicorn is, is a magical kind of horse that's pretend, that has a horn on its head, one horn.",
+      "timestamp": 223.64
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah, and it also has the rainbows. It has disco, too. Can't forget those parts.",
+      "timestamp": 231.5
+    },
+    {
+      "speaker": "Dad",
+      "text": "I see. Well, in that song, it combines all those ideas, but one of the ideas in how we do science is to take things apart to help us understand them, and the rainbow disco unicorn idea has three parts.",
+      "timestamp": 239.14
+    },
+    {
+      "speaker": "Izzy",
+      "text": "We might need a computer to help us.",
+      "timestamp": 252.35
+    },
+    {
+      "speaker": "Dad",
+      "text": "We might. What do you think we would do with the computer?",
+      "timestamp": 256.52
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Okay. So we, we also, we might need to do some research about Danny Gokey.",
+      "timestamp": 258.58
+    },
+    {
+      "speaker": "Dad",
+      "text": "That's true.",
+      "timestamp": 266.72
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Or, yeah, about Danny Gokey's music that he does.",
+      "timestamp": 267.98
+    },
+    {
+      "speaker": "Dad",
+      "text": "Do you have any questions about that, that you want to do research about?",
+      "timestamp": 272.2
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Okay. Actually, I do have... So we just need to listen to him to find out.",
+      "timestamp": 275.38
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh.",
+      "timestamp": 281.82
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Listening's a part of science, listening to instructions.",
+      "timestamp": 282.74
+    },
+    {
+      "speaker": "Dad",
+      "text": "It's true, it is.",
+      "timestamp": 289.1
+    },
+    {
+      "speaker": "Izzy",
+      "text": "So, so we can listen to it in the morning.",
+      "timestamp": 293.82
+    },
+    {
+      "speaker": "Dad",
+      "text": "Good idea. But for now, we could think just about one of those three things. Do you want to think just about rainbows, just about disco, or just about unicorns?",
+      "timestamp": 298.22
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Rainbows.",
+      "timestamp": 310.96
+    },
+    {
+      "speaker": "Dad",
+      "text": "Rainbows. Now, can you describe a rainbow?",
+      "timestamp": 312.6
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah. A rainbow has red, orange, yellow, green, blue, indigo, violet.",
+      "timestamp": 316.42
+    },
+    {
+      "speaker": "Dad",
+      "text": "That's correct. And did you know that rainbows can appear in the sky?",
+      "timestamp": 325.98
+    },
+    {
+      "speaker": "Izzy",
+      "text": "After a rain.",
+      "timestamp": 335.58
+    },
+    {
+      "speaker": "Dad",
+      "text": "After a rain, that's right. Have you seen one in the sky after a rain?",
+      "timestamp": 337.22
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No, I, there was never a rain or a rainbow-",
+      "timestamp": 341.38
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh. Well-",
+      "timestamp": 345.6
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... after a rain at my house.",
+      "timestamp": 346.75
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"I think we should keep our eyes open for rainbows after rain,\" says Uncle Grisco, \" 'cause I love seeing rainbows. But they don't last for very long, so you really gotta look out for them at just the right time.\" \"And do you know what makes a rainbow?\"",
+      "timestamp": 351.09
+    },
+    {
+      "speaker": "Dad",
+      "text": "asked Uncle Grisco.",
+      "timestamp": 367.48
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No.",
+      "timestamp": 368.56
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"The rainbow is made by light getting split apart into the different colors. The light from the sun comes through the air, and it's all bright white, and normally the sunlight just lights everything up with its white light. But a rainbow happens when there's little droplets of water in the air, and those droplets of water make the light split apart into its different colors, and the red goes one way, the orange goes a different way, and the yellow, and the green, and the blue, and the purple.",
+      "timestamp": 369.76
+    },
+    {
+      "speaker": "Dad",
+      "text": "They all come out in different directions-",
+      "timestamp": 408.1
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Also the pink-\"",
+      "timestamp": 410.52
+    },
+    {
+      "speaker": "Dad",
+      "text": "... because they split apart.",
+      "timestamp": 412.06
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Also the indigo and also the violet.",
+      "timestamp": 412.23
+    },
+    {
+      "speaker": "Dad",
+      "text": "That's correct. The light gets split apart into its different colors. Yeah. I love rainbows.",
+      "timestamp": 415.16
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Also black.",
+      "timestamp": 423.66
+    },
+    {
+      "speaker": "Dad",
+      "text": "Mm-hmm.",
+      "timestamp": 425.56
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Also black and brown and white.",
+      "timestamp": 426.37
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yeah, those are colors, too, but we don't see them in rainbows. Do you have any other questions about rainbows?",
+      "timestamp": 428.9
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Oh, in that song, there is a little bit of singing, a little bit of humming, and something else that makes it more hummier, too.",
+      "timestamp": 439.02
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yeah. In Rainbow Disco Unicorn?",
+      "timestamp": 452.58
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah. It's the orange, it's the orange part.",
+      "timestamp": 454.72
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, how does it go?",
+      "timestamp": 459.2
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"Orange up, up and down.\" Yeah, that's w- how it goes.",
+      "timestamp": 461.35
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh. \"Well, I can't wait to hear it tomorrow morning,\" says Uncle Grisco. \"And now, let's do one science experiment. I wonder if we could make a rainbow. Hmm.\" There are a couple ways we could make a rainbow.",
+      "timestamp": 465.62
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Oh.",
+      "timestamp": 489.48
+    },
+    {
+      "speaker": "Dad",
+      "text": "Well, one way is to use a little object called a prism. That is a special, um, clear piece of glass that has a shape that makes the light bend when it goes through it, and it splits apart the light into different colors, and so you can make your own little rainbow by shining a light through it onto a table.",
+      "timestamp": 489.5
+    },
+    {
+      "speaker": "Dad",
+      "text": "That's one way to make a rainbow.",
+      "timestamp": 515.24
+    },
+    {
+      "speaker": "Izzy",
       "text": "What's the other ways?",
-      "speaker": "Izzy",
-      "timestamp": 8.39
+      "timestamp": 518.56
     },
     {
       "speaker": "Dad",
-      "timestamp": 8.41,
-      "text": "Well, another way is, sometimes, you know, we see rainbows in the sky after a rain because of the droplets of water in the air. Sometimes if we just spray a hose just right, you can make lots of little droplets right in your own yard. And then the light from the sun makes a tiny rainbow right in your yard. That's another way to make a rainbow. Hmm, I wonder what some other ways are."
+      "text": "Well, another way is sometimes, you know, we see rainbows in the sky after a rain because of the droplets of water in the air. Sometimes if we just spray a hose just right, you can make lots of little droplets right in your own yard, and then the light from the sun makes a tiny rainbow right in your yard.",
+      "timestamp": 520.7
     },
     {
-      "speaker": "Izzy",
-      "timestamp": 9.08,
-      "text": "Drawing a picture of a rainbow."
-    },
-    {
-      "timestamp": 9.11,
       "speaker": "Dad",
-      "text": "We can definitely make a rainbow by drawing a picture, that's true. That's a wonderful way to do it. Yeah."
+      "text": "That's another way to make a rainbow. Hmm, I wonder what some other ways are.",
+      "timestamp": 540.68
     },
     {
       "speaker": "Izzy",
-      "timestamp": 9.21,
-      "text": "So we could paint, paint a rainbow."
+      "text": "Oh, drawing a picture of a rainbow.",
+      "timestamp": 547.54
     },
     {
-      "timestamp": 9.26,
       "speaker": "Dad",
-      "text": "Yeah, we could paint a rainbow or use markers."
+      "text": "We can definitely make a rainbow by drawing a picture. That's true. That's a wonderful way to do it. Yeah.",
+      "timestamp": 551.42
     },
     {
-      "timestamp": 9.29,
       "speaker": "Izzy",
-      "text": "Or we could do a work of rainbows."
+      "text": "So we can paint, paint a rainbow.",
+      "timestamp": 560.84
     },
     {
+      "speaker": "Dad",
+      "text": "Yeah, we could paint a rainbow, or use markers.",
+      "timestamp": 566.18
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Or we can do, or we could do a work of rainbows.",
+      "timestamp": 569.12
+    },
+    {
+      "speaker": "Dad",
       "text": "Oh, what would we do in the work of rainbows?",
-      "timestamp": 9.32,
-      "speaker": "Dad"
+      "timestamp": 573
     },
     {
-      "timestamp": 9.35,
       "speaker": "Izzy",
-      "text": "So we can put little rainbows from one cup to another cup. That's going to be a work of rainbows."
+      "text": "So we, we put little, little rainbows from one cup to another cup. That's gonna be a work of rainbows.",
+      "timestamp": 577.18
     },
     {
-      "timestamp": 9.48,
       "speaker": "Dad",
-      "text": "Oh, pouring the rainbows from one cup to another cup? That sounds really pretty. Wow, I wonder how you'd pour a rainbow. Oh, that's our timer. So that's the end of Stars and Stories. Okay."
+      "text": "Oh, pouring the rainbows from one cup to another cup?",
+      "timestamp": 589.36
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah.",
+      "timestamp": 592.22
+    },
+    {
+      "speaker": "Dad",
+      "text": "That sounds really pretty. Wow, I wonder how you'd pour a rainbow. Oh, that's our timer. So that's the end of Stars and Stories. Okay.",
+      "timestamp": 592.24
     }
   ],
   "characters": [
@@ -389,7 +604,19 @@
       "description": "The place or artist that creates songs about Rainbow Disco Unicorns."
     }
   ],
-  "wordCount": 1103,
-  "izzyWordCount": 302,
-  "dadWordCount": 801
+  "wordCount": 1339,
+  "izzyWordCount": 407,
+  "dadWordCount": 932,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T15:14:21.840Z",
+    "speakerMap": {
+      "speaker_0": "Dad",
+      "speaker_1": "Izzy"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "low"
+  }
 }

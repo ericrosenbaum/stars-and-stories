@@ -6,323 +6,383 @@
   "audioFilename": "Cornell St 89.m4a",
   "highlightQuote": {
     "text": "Keep telling the story and then you'll find out.",
-    "timestamp": 114.4
+    "timestamp": 77.62
   },
   "transcript": [
     {
-      "text": "All right, going to turn on the stars, but not until you tuck in your toys. So please tuck in those short ice creams.",
-      "timestamp": 6.7,
-      "speaker": "Dad"
-    },
-    {
-      "timestamp": 16.8,
       "speaker": "Izzy",
-      "text": "Well, they have to be over here in the orange."
+      "text": "That's tall.",
+      "timestamp": 0.64
     },
     {
+      "speaker": "Dad",
+      "text": "Excuse me. Okay, we've gotta turn on the stars, but not until you tuck in your toys. So please tuck in those short ice creams.",
+      "timestamp": 2.54
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Well, they have to be over here.",
+      "timestamp": 16.44
+    },
+    {
+      "speaker": "Dad",
       "text": "Okay, good. They're all tucked in. All right.",
-      "speaker": "Dad",
-      "timestamp": 19.4
-    },
-    {
-      "timestamp": 26.5,
-      "speaker": "Dad",
-      "text": "And... stars!"
+      "timestamp": 20.38
     },
     {
       "speaker": "Izzy",
-      "timestamp": 29,
-      "text": "Let's tell a story about Seeker and Uncle Grisco. Ding-dong."
+      "text": "Short ice cream.",
+      "timestamp": 23.96
     },
     {
       "speaker": "Dad",
-      "timestamp": 34.2,
-      "text": "Who's there? said Uncle Grisco."
+      "text": "All right. And stars.",
+      "timestamp": 25.04
     },
     {
       "speaker": "Izzy",
-      "timestamp": 37.3,
-      "text": "No, you're supposed to be telling Seeker."
+      "text": "Let's tell a story about Seeker and Uncle Grisco, so ding-dong.",
+      "timestamp": 29.8
     },
     {
-      "text": "Who's there? said Seeker.",
       "speaker": "Dad",
-      "timestamp": 40.8
+      "text": "\"Who's there?\" said Uncle Grisco.",
+      "timestamp": 34.63
     },
     {
+      "speaker": "Izzy",
+      "text": "No, you're supposed to be telling Seeker.",
+      "timestamp": 36.7
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Who's there?\" said Seeker.",
+      "timestamp": 39.48
+    },
+    {
+      "speaker": "Izzy",
       "text": "Uncle Grisco.",
-      "speaker": "Izzy",
-      "timestamp": 42.5
+      "timestamp": 41.7
     },
     {
-      "text": "Oh, Uncle Grisco, what scientific things have you been wondering about lately? said Seeker.",
       "speaker": "Dad",
-      "timestamp": 44.2
+      "text": "\"Oh, Uncle Grisco, what scientific things have you been wondering about lately?\" said Seeker.",
+      "timestamp": 43.62
     },
     {
-      "timestamp": 51.3,
       "speaker": "Izzy",
-      "text": "Humidifiers or lamps or mountains, which one of those would you pick?"
+      "text": "Humidifiers or lamps or mountains, which one of those would you pick?",
+      "timestamp": 50.42
     },
     {
-      "text": "And Seeker said, 'Oh, very interesting. I pick mountains.'",
-      "timestamp": 57.1,
-      "speaker": "Dad"
+      "speaker": "Dad",
+      "text": "And Seeker said, \"Oh, very interesting. I pick mountains.\"",
+      "timestamp": 57.22
     },
     {
+      "speaker": "Izzy",
       "text": "Okay, so then let's do some science about mountains.",
-      "timestamp": 106.2,
-      "speaker": "Izzy"
+      "timestamp": 65.08
     },
     {
-      "timestamp": 110.5,
       "speaker": "Dad",
-      "text": "Do you have a question about mountains? said Seeker."
+      "text": "\"Do you have a question about mountains?\" said Seeker.",
+      "timestamp": 69.06
     },
     {
-      "text": "No, I don't really, but let's do some science. And but before we do our science, Izzy has to tell us... Keep telling the story and then you'll find out.",
       "speaker": "Izzy",
-      "timestamp": 114.4
+      "text": "No, not really, but let's do some science.",
+      "timestamp": 71.82
     },
     {
-      "text": "Oh, thanks, Izzy, said Seeker. And so Seeker and Uncle Grisco sat down to talk about where mountains come from. And Seeker made a magical model of the planet Earth that could change over time so that Uncle Grisco could see where mountains come from. And Seeker said, 'Look at this. On the surface of our planet, there are big moving pieces of rock called the continental plates. And we can pretend our hands are the continental plates. Now watch this. Supposing this was one continental plate with this, my right and my left hand, and then my right was another. Sometimes they move apart from each other. And when they move apart, there's kind of a gap. And that gap is where we get things like a deep ocean trench. Do you know about those, Uncle Grisco?'",
-      "timestamp": 128.1,
-      "speaker": "Dad"
+      "speaker": "Dad",
+      "text": "Oh, okay.",
+      "timestamp": 76.92
     },
     {
+      "speaker": "Izzy",
+      "text": "And but before we do our science, Izzy has to tell us. Keep telling the story, and then you'll find out.",
+      "timestamp": 77.62
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh, thanks, Izzy,\" said Seeker. And so Seeker and Uncle Grisco sat down to talk about where mountains come from. And Seeker made a magical model of the planet Earth that could change over time so that Uncle Grisco could see where mountains come from.",
+      "timestamp": 87.65
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Seeker said, \"Look at this. On the surface of our planet, there are big moving pieces of rock called the continental plates, and we can pretend our hands are the continental plates. Now watch this. Supposing this was one continental plate, this, my right, my left hand, and then my right was another.",
+      "timestamp": 112.7
+    },
+    {
+      "speaker": "Dad",
+      "text": "Sometimes they move apart from each other, and when they move apart, there's kind of a gap, and that gap is where we get things like a deep ocean trench. Do you know about those, Uncle Grisco?\"",
+      "timestamp": 134.68
+    },
+    {
+      "speaker": "Izzy",
       "text": "No.",
-      "speaker": "Izzy",
-      "timestamp": 227.4
+      "timestamp": 147.14
     },
     {
       "speaker": "Dad",
-      "timestamp": 229.2,
-      "text": "A deep ocean trench, like the Mariana Trench, is where the deep ocean sea creatures live. That's what happens when the plates come apart. But what happens do you think when they come together?"
+      "text": "\"A deep ocean trench, like the Mariana Trench, is where the deep ocean sea creatures live. That's what happens when the plates come apart. But what happens, do you think, when they come together?\"",
+      "timestamp": 148.02
     },
     {
+      "speaker": "Izzy",
       "text": "There is no trench.",
-      "timestamp": 242.3,
-      "speaker": "Izzy"
+      "timestamp": 160.9
     },
     {
-      "text": "Well, the gap between them closes, that's right, so there's no trench. But then they keep pushing together. What do you think will happen when they push together? Push... see what my hands are doing? Push...",
       "speaker": "Dad",
-      "timestamp": 246.1
+      "text": "\"Well, the gap between them closes. That's right, so there's no trench. But then they keep pushing together. What do you think will happen when they push together? Push. See what my hands are doing? Push.\"",
+      "timestamp": 163.95
     },
     {
-      "text": "There's a mountain!",
-      "timestamp": 258.2,
-      "speaker": "Izzy"
+      "speaker": "Izzy",
+      "text": "There's a mountain?",
+      "timestamp": 177.08
     },
     {
-      "timestamp": 259.8,
       "speaker": "Dad",
-      "text": "Yes! Some mountains form when the continental plates push together and they push way up in the air."
+      "text": "\"Yes. Some mountains form when the continental plates push together, and they push way up in the air.\"",
+      "timestamp": 178.72
     },
     {
-      "timestamp": 308.5,
       "speaker": "Izzy",
-      "text": "But what about... what about this mountain?"
+      "text": "But what about, what about this mountain?",
+      "timestamp": 187.42
     },
     {
-      "text": "Hey, you made your own mountain, said Seeker. Look at that, Uncle Grisco, you made a hand mountain yourself. Now if you just pretend your hands were the rocks of the earth, then you can see how the rocks get pushed up to make tall mountains.",
-      "timestamp": 312.4,
-      "speaker": "Dad"
+      "speaker": "Dad",
+      "text": "\"Hey, you made your own mountain,\" said Seeker. \"Look at that, Uncle Grisco. You made a hand mountain yourself. Now if you just pretend your hands were the rocks of the earth, then you can see how the rocks get pushed up to make tall mountains.\"",
+      "timestamp": 192.4
     },
     {
-      "timestamp": 327.1,
       "speaker": "Izzy",
-      "text": "Well, I made a little mountain."
+      "text": "Well, I made a little mountain.",
+      "timestamp": 206.74
     },
     {
+      "speaker": "Dad",
       "text": "You did, yes.",
-      "timestamp": 329.8,
-      "speaker": "Dad"
+      "timestamp": 209.14
     },
     {
       "speaker": "Izzy",
-      "timestamp": 332.1,
-      "text": "Or I could make a heart."
-    },
-    {
-      "text": "Oh, you can make a heart with your hands? said Seeker. That's very interesting. I don't know how to do that. Can you show me?",
-      "timestamp": 336.4,
-      "speaker": "Dad"
-    },
-    {
-      "timestamp": 339.5,
-      "speaker": "Izzy",
-      "text": "Like this."
+      "text": "Or I could make a heart.",
+      "timestamp": 210.3
     },
     {
       "speaker": "Dad",
-      "timestamp": 341.6,
-      "text": "Oh, like this. That's beautiful."
+      "text": "\"Oh, you can make a heart with your hands?\" said Seeker. \"That's very interesting. I don't know how to do that. Can you show me?\"",
+      "timestamp": 212.95
     },
     {
       "speaker": "Izzy",
-      "timestamp": 348.4,
-      "text": "I want to show this to my mom."
+      "text": "Like this.",
+      "timestamp": 219.62
     },
     {
-      "timestamp": 350.1,
       "speaker": "Dad",
-      "text": "Yeah, you can show her that at breakfast time tomorrow. And Seeker said, 'Uncle Grisco, do you have any other science questions you'd like to ask tonight?'"
+      "text": "\"Oh, like this. That's beautiful.\"",
+      "timestamp": 220.54
     },
     {
-      "timestamp": 400.6,
       "speaker": "Izzy",
-      "text": "Keep telling the story and then you'll find out."
+      "text": "I want to show this to my mom.",
+      "timestamp": 226.84
     },
     {
-      "text": "Well, maybe we could do one about humidifiers. Do you have a question about humidifiers?",
-      "timestamp": 405.1,
-      "speaker": "Dad"
-    },
-    {
-      "text": "Humidifiers, humidifiers... mm-hmm.",
-      "speaker": "Izzy",
-      "timestamp": 412.4
-    },
-    {
-      "timestamp": 417.3,
       "speaker": "Dad",
-      "text": "What would you like to know about humidifiers?"
+      "text": "Yeah, you can show her that at breakfast time tomorrow. And Seeker said, \"Uncle Grisco, do you have any other science questions you'd like to ask tonight?\"",
+      "timestamp": 228.96
     },
     {
-      "timestamp": 419.4,
       "speaker": "Izzy",
-      "text": "I'm pretending this is a house while we're doing our story."
+      "text": "Keep telling the story, and then you'll find out.",
+      "timestamp": 240.94
     },
     {
-      "text": "Oh yes, Seeker and Uncle Grisco are in there. That's Seeker's house. And it's cozy and warm and well-lit inside that house. And from the outside, it glows. And Seeker and Uncle Grisco are inside discussing interesting scientific topics such as humidifiers and mountains.",
-      "timestamp": 424.2,
-      "speaker": "Dad"
+      "speaker": "Dad",
+      "text": "\"Well, maybe we could do one about humidifiers. Do you have a question about humidifiers?\"",
+      "timestamp": 244.26
     },
     {
-      "timestamp": 449.2,
       "speaker": "Izzy",
-      "text": "Or what about Christmas trees?"
+      "text": "Humidifiers, humidifier.",
+      "timestamp": 250.56
     },
     {
+      "speaker": "Dad",
+      "text": "\"Mm-hmm. What would you like to know about humidifiers?\"",
+      "timestamp": 254.7
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I'm pretending this is a house while we're doing our story.",
+      "timestamp": 259.7
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, yeah, Seeker and Uncle Grisco are there, are in there. That's Seeker's house, and it's cozy and warm and well lit inside that house. And from the outside it glows. And Seeker and Uncle Grisco are inside discussing interesting scientific topics such as humidifiers and mountains.",
+      "timestamp": 263.88
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Well, what about Christmas trees?",
+      "timestamp": 289.8
+    },
+    {
+      "speaker": "Dad",
       "text": "What about Christmas trees?",
-      "timestamp": 452.5,
-      "speaker": "Dad"
+      "timestamp": 292.22
     },
     {
       "speaker": "Izzy",
-      "timestamp": 454.1,
-      "text": "What you know about them?"
+      "text": "What do you want to learn about them?",
+      "timestamp": 294.38
     },
     {
-      "timestamp": 456.2,
       "speaker": "Dad",
-      "text": "Well, said Seeker, Christmas trees are... pine trees. Do you know about pine trees? said Seeker."
+      "text": "\"Well,\" said Seeker, \"Christmas trees are, um, pine trees. Do you know about pine trees?\" said Seeker.",
+      "timestamp": 296.64
     },
     {
+      "speaker": "Izzy",
       "text": "Yeah.",
-      "timestamp": 506.1,
-      "speaker": "Izzy"
+      "timestamp": 304.86
     },
     {
-      "text": "Yeah. They smell nice and they have instead of big flat leaves, they have pointy needles. And they have a nice cone shape. And...",
       "speaker": "Dad",
-      "timestamp": 508.5
+      "text": "Yeah. They smell nice, and they have, instead of big flat leaves, they have pointy needles, and they have a nice cone shape. And-",
+      "timestamp": 306.26
     },
     {
-      "text": "I'm looking in the window of a house. There must be a mouse in the house. Oh, who is it? Who is it? Maybe I'll ding the door. Ding-dong.",
       "speaker": "Izzy",
-      "timestamp": 521.3
+      "text": "I'm looking in the window of a house.",
+      "timestamp": 319.24
     },
     {
-      "text": "Oh, and Seeker said, 'Who's there?'",
       "speaker": "Dad",
-      "timestamp": 536.1
+      "text": "Oh, you're looking inside.",
+      "timestamp": 322.32
     },
     {
+      "speaker": "Izzy",
+      "text": "There must be a mouse in the house.",
+      "timestamp": 323.54
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh.",
+      "timestamp": 328
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Who is it? Who is it? Maybe I should ding the door. Ding-dong.",
+      "timestamp": 329.78
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, and Seeker said, \"Who's there?\"",
+      "timestamp": 335.74
+    },
+    {
+      "speaker": "Izzy",
       "text": "Isabella. I thought a little mouse lived in here.",
-      "timestamp": 539.1,
-      "speaker": "Izzy"
+      "timestamp": 338.14
     },
     {
       "speaker": "Dad",
-      "timestamp": 542.5,
-      "text": "Oh, no, this is my house, said Seeker. And Uncle Grisco is here. Would you like to come in and talk about science with us?"
-    },
-    {
-      "text": "No. No, I'm too big.",
-      "timestamp": 548.3,
-      "speaker": "Izzy"
-    },
-    {
-      "speaker": "Dad",
-      "timestamp": 551.6,
-      "text": "Oh, well you could talk with us from out there. You could just talk and we'll hear you through the window or the door."
+      "text": "\"Oh, no, it's, this is my house,\" said Seeker, \"and Uncle Grisco is here. Would you like to come in and talk about science with us?\"",
+      "timestamp": 341.75
     },
     {
       "speaker": "Izzy",
-      "timestamp": 559.2,
-      "text": "I'm at the door, so Christmas trees we decorate."
+      "text": "No, no, I'm too big.",
+      "timestamp": 347.62
     },
     {
+      "speaker": "Dad",
+      "text": "\"Oh, well, you could talk with us from out there. You could just talk, and we'll hear you through the window or the door.\"",
+      "timestamp": 349.7
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I'm at the door, so Christmas trees, we decorate.",
+      "timestamp": 356.46
+    },
+    {
+      "speaker": "Dad",
       "text": "Yes, we do decorate them at Christmas time, that's true. They can be very beautiful.",
-      "timestamp": 603.4,
-      "speaker": "Dad"
+      "timestamp": 362.08
     },
     {
-      "timestamp": 609.3,
       "speaker": "Izzy",
-      "text": "I'm turning the stars in the direction that you're going."
+      "text": "I'm changing the stars in the direction that you're going.",
+      "timestamp": 369.06
     },
     {
-      "timestamp": 613.4,
       "speaker": "Dad",
-      "text": "Oh, thank you. And do you have any questions about Christmas trees? said Seeker."
+      "text": "Oh, thank you. \"And do you have any questions about Christmas trees?\" said Seeker.",
+      "timestamp": 373.1
     },
     {
       "speaker": "Izzy",
-      "timestamp": 617.2,
-      "text": "Christmas trees light up with lights."
+      "text": "Christmas trees light up with lights.",
+      "timestamp": 377.62
     },
     {
+      "speaker": "Dad",
       "text": "That's true. But what would you like to know about them?",
-      "timestamp": 620.3,
-      "speaker": "Dad"
+      "timestamp": 380.38
     },
     {
-      "text": "That they make kind of little Christmas tree. That's what I have here.",
       "speaker": "Izzy",
-      "timestamp": 624.4
+      "text": "That they make kinds of little Christmas trees. That's what I have to say.",
+      "timestamp": 386.36
     },
     {
-      "timestamp": 639.1,
       "speaker": "Dad",
-      "text": "Alright. Well, I think Seeker and Uncle Grisco are going to finish their conversation about science and they say, 'Well, it's time for bed so everyone should go home.' Seeker's already at his home, but Uncle Grisco says thank you for the interesting discussion and goes home to his mole house."
+      "text": "All right. Well, I think Seeker and Uncle Grisco are gonna finish their conversation about science, and they say, \"Well, it's time for bed, so everyone should go home.\" Seeker's already at his home, but Uncle Grisco says, \"Thank you for the interesting discussion,\" and goes home to his mole house.",
+      "timestamp": 401.94
     },
     {
       "speaker": "Izzy",
-      "timestamp": 702.3,
-      "text": "Dad, is this the end of our story?"
+      "text": "Uh, is this the end of our story?",
+      "timestamp": 421.3
     },
     {
+      "speaker": "Dad",
       "text": "And this is the end of our story.",
-      "timestamp": 705.4,
-      "speaker": "Dad"
+      "timestamp": 423.42
     },
     {
-      "timestamp": 707.1,
       "speaker": "Izzy",
-      "text": "And is this the end of our stars and stories?"
+      "text": "And is this the end of our stars and stories?",
+      "timestamp": 425.64
     },
     {
+      "speaker": "Dad",
       "text": "It is, yes.",
-      "timestamp": 709.1,
-      "speaker": "Dad"
+      "timestamp": 428.26
     },
     {
-      "timestamp": 710.8,
       "speaker": "Izzy",
-      "text": "Then the houses disappear away. But don't turn off the light yet!"
+      "text": "Then the houses disappear away.",
+      "timestamp": 430.48
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yeah. You can turn-",
+      "timestamp": 434.21
+    },
+    {
+      "speaker": "Izzy",
+      "text": "But don't turn off the light yet.",
+      "timestamp": 436.36
     }
   ],
   "characters": [
@@ -359,7 +419,19 @@
       "description": "Uncle Grisco’s subterranean sanctum, a sprawling burrow of packed earth and reinforced timber, has been reimagined as a vibrant communal hub. Beneath its low, amber-lit ceilings, the scent of damp clay mingles with the ozone of a whirring robot that serves as both a metallic playmate and a rhythmic guide. Here, amidst the clatter of clockwork and repurposed scrap, the group gathers to master intricate new dances, their shadows flickering against the cavern walls in a spirited fusion of technology and grace."
     }
   ],
-  "wordCount": 937,
-  "izzyWordCount": 262,
-  "dadWordCount": 675
+  "wordCount": 960,
+  "izzyWordCount": 267,
+  "dadWordCount": 693,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T15:15:41.175Z",
+    "speakerMap": {
+      "speaker_0": "Izzy",
+      "speaker_1": "Dad"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "low"
+  }
 }

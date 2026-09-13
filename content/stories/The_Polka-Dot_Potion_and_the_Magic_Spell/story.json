@@ -6,228 +6,448 @@
   "audioFilename": "Seeker and the sleep potions.m4a",
   "highlightQuote": {
     "text": "No, 'cause I got pee on my hands when I was wiping myself, said Seeker.",
-    "timestamp": 380
+    "timestamp": 396.04
   },
   "transcript": [
     {
-      "text": "Tell the story about Seeker and Uncle Grisko.",
+      "speaker": "Dad",
+      "text": "Okay. All right, there's our stars.",
+      "timestamp": 5.62
+    },
+    {
       "speaker": "Izzy",
-      "timestamp": 15
+      "text": "Let's tell a story about Seeker and Uncle Grisco.",
+      "timestamp": 14.82
     },
     {
       "speaker": "Dad",
-      "timestamp": 18,
-      "text": "Seeker and Uncle Grisko."
+      "text": "Seeker and Uncle Grisco.",
+      "timestamp": 18.64
     },
     {
-      "timestamp": 20,
       "speaker": "Izzy",
-      "text": "So you'll be telling Uncle Grisko, I'll be telling Seeker."
+      "text": "So you'll be telling Uncle Grisco. I'll be telling Seeker.",
+      "timestamp": 20.01
     },
     {
-      "text": "Okay. Do you want to start or should I?",
-      "timestamp": 24,
-      "speaker": "Dad"
-    },
-    {
-      "timestamp": 26,
-      "speaker": "Izzy",
-      "text": "You should."
-    },
-    {
-      "timestamp": 27,
       "speaker": "Dad",
-      "text": "Well, once upon a time... Ding-dong!"
+      "text": "Okay. Do you wanna start or should I?",
+      "timestamp": 24.02
     },
     {
+      "speaker": "Izzy",
+      "text": "You should.",
+      "timestamp": 26.5
+    },
+    {
+      "speaker": "Dad",
+      "text": "Well, once upon a time-",
+      "timestamp": 27.8
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Ding-dong.",
+      "timestamp": 29.12
+    },
+    {
+      "speaker": "Dad",
       "text": "Oh, who's there?",
-      "speaker": "Dad",
-      "timestamp": 30
-    },
-    {
-      "text": "Seeker. The real... I could not... the real... Seeker... Seeker!",
-      "speaker": "Izzy",
-      "timestamp": 31
-    },
-    {
-      "speaker": "Dad",
-      "timestamp": 38,
-      "text": "And Uncle Grisko said, 'Oh, hello Seeker. Welcome to my house. Why did you come over today?'"
-    },
-    {
-      "text": "Hello? Seeker? Tell.",
-      "speaker": "Dad",
-      "timestamp": 50
-    },
-    {
-      "text": "Well, Uncle Grisko asked Seeker a question.",
-      "timestamp": 58,
-      "speaker": "Dad"
-    },
-    {
-      "timestamp": 61,
-      "speaker": "Izzy",
-      "text": "What was that crack?"
-    },
-    {
-      "text": "That was just the air conditioner.",
-      "timestamp": 63,
-      "speaker": "Dad"
+      "timestamp": 30.26
     },
     {
       "speaker": "Izzy",
-      "timestamp": 65,
-      "text": "What did the air conditioner do?"
+      "text": "Seeker. Actually, not Seeker. Or Seeker. Seeker.",
+      "timestamp": 31.68
     },
     {
+      "speaker": "Dad",
+      "text": "And Uncle Grisco said, \"Oh, hello, Seeker. Welcome to my house.\"",
+      "timestamp": 39.44
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Hello, sir.",
+      "timestamp": 42.92
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Why did you come over today?\"",
+      "timestamp": 44.29
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I'm alone. And alone. And alone. Seeker. Toe.",
+      "timestamp": 45.74
+    },
+    {
+      "speaker": "Dad",
+      "text": "Well, Uncle Grisco asked Seeker a question.",
+      "timestamp": 57.56
+    },
+    {
+      "speaker": "Izzy",
+      "text": "What's that big crack?",
+      "timestamp": 60.01
+    },
+    {
+      "speaker": "Dad",
+      "text": "That was just, um, the air conditioner.",
+      "timestamp": 61.06
+    },
+    {
+      "speaker": "Izzy",
+      "text": "What did the air conditioner do?",
+      "timestamp": 64.8
+    },
+    {
+      "speaker": "Dad",
       "text": "It just went click.",
-      "speaker": "Dad",
-      "timestamp": 67
+      "timestamp": 67.28
     },
     {
-      "text": "Why did it do that?",
       "speaker": "Izzy",
-      "timestamp": 69
+      "text": "Oh. Why did it do that?",
+      "timestamp": 69.92
     },
     {
-      "text": "Sometimes things make a sound when they're warming up or cooling down.",
       "speaker": "Dad",
-      "timestamp": 71
+      "text": "Um, sometimes things make a sound when they're warming up or cooling down. Speaking of cooling down, I should turn on the air for you.",
+      "timestamp": 73.54
     },
     {
-      "text": "All right, back to our stars and stories.",
+      "speaker": "Izzy",
+      "text": "I have a broken toenail.",
+      "timestamp": 88.76
+    },
+    {
       "speaker": "Dad",
+      "text": "You do?",
+      "timestamp": 91.3
+    },
+    {
+      "speaker": "Izzy",
+      "text": "It's this toenail. I can barely touch it. And it's broken and this part... Dad, let's turn on the light for this.",
+      "timestamp": 95.82
+    },
+    {
+      "speaker": "Dad",
+      "text": "Uh, for the toenail? Yeah. Okay.",
+      "timestamp": 118.76
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And then we can turn it right back off.",
+      "timestamp": 121.96
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yeah. I don't know if we have a nail clipper up here, though, unfortunately. Yeah, whatever. I can run downstairs. Here, show me what's going on with your toe, please.",
+      "timestamp": 124.88
+    },
+    {
+      "speaker": "Izzy",
+      "text": "This toe.",
+      "timestamp": 136.18
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, yeah. It's, yeah, it's a broken toenail. Okay. Well, I'll go get a nail clipper, I guess. Let me see where I can find it. Okay. Got a nail clipper. Let's see. Can't see it very well.",
+      "timestamp": 139.92
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Over here.",
+      "timestamp": 219.69
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yeah. I can feel it.",
+      "timestamp": 220.88
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Jiggles.",
+      "timestamp": 225.44
+    },
+    {
+      "speaker": "Dad",
+      "text": "There. I think I got it.",
+      "timestamp": 227.26
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Got it. I'll lay down for a second. Now turn it right back off.",
+      "timestamp": 229.07
+    },
+    {
+      "speaker": "Dad",
+      "text": "All right.",
+      "timestamp": 235.68
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Back off.",
+      "timestamp": 237.44
+    },
+    {
+      "speaker": "Dad",
+      "text": "We gotta do-",
+      "timestamp": 239.24
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Now I-",
+      "timestamp": 240.08
+    },
+    {
+      "speaker": "Dad",
+      "text": "... a short-",
+      "timestamp": 240.99
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... back off",
+      "timestamp": 241.49
+    },
+    {
+      "speaker": "Dad",
+      "text": "... Stars and Stories",
+      "timestamp": 242.64
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... turn it back off.",
       "timestamp": 245
     },
     {
-      "text": "Well, Uncle Grisko's at his house, and Seeker came to the door, and what did Seeker say?",
       "speaker": "Dad",
-      "timestamp": 252
-    },
-    {
-      "text": "I have to go on an expedition, but I need a potion. And I already found the... since we used the black potion, the outer space black potion, I found a glowing... Dad, you think of...",
-      "speaker": "Izzy",
-      "timestamp": 259
+      "text": "All right.",
+      "timestamp": 246.54
     },
     {
       "speaker": "Izzy",
-      "timestamp": 288,
-      "text": "And Seeker said, 'I had bought some new potions over the... I had bought some new sleep potions at the store after I went to... to Atsukeeseet where Isabella lives to get a badger for my... for my baby dog,' said Seeker."
+      "text": "No telling Mommy.",
+      "timestamp": 247.98
     },
     {
       "speaker": "Dad",
-      "timestamp": 342,
-      "text": "Oh, that's all very interesting, said Uncle Grisko. And what do you want to do now?"
-    },
-    {
-      "timestamp": 355,
-      "speaker": "Izzy",
-      "text": "And then I went to the store and bought sleep potions and put them in my potion bag when I got home, and then went potty to go pee-pee, then wiped my bum, then went off to your house."
-    },
-    {
-      "text": "I see, said Uncle Grisko. Well...",
-      "timestamp": 370,
-      "speaker": "Dad"
+      "text": "Well, Uncle Grisco's at his house, and Seeker came to the door, and what did Seeker say?",
+      "timestamp": 250.24
     },
     {
       "speaker": "Izzy",
-      "timestamp": 372,
-      "text": "Then washed my hands at your house."
-    },
-    {
-      "text": "Oh yes, you're welcome to use my bathroom and wash your hands in my sink if you'd like, said Uncle Grisko.",
-      "speaker": "Dad",
-      "timestamp": 374
-    },
-    {
-      "text": "No, 'cause I got pee on my hands when I was wiping myself, said Seeker.",
-      "speaker": "Izzy",
-      "timestamp": 380
+      "text": "I have to go on a expedition, but I need a potion. No. And I have already found the... So if we use the black potion, the outer space black potion, I found-",
+      "timestamp": 257.82
     },
     {
       "speaker": "Dad",
-      "timestamp": 386,
-      "text": "Oh, I see. That's too bad. Well, go ahead and wash your hands."
-    },
-    {
-      "text": "I already washed my hands, said Seeker.",
-      "timestamp": 392,
-      "speaker": "Izzy"
-    },
-    {
-      "text": "Oh, good. Well, should we try out those sleep potions?",
-      "timestamp": 395,
-      "speaker": "Dad"
-    },
-    {
-      "text": "Okay. That's good because I was feeling like it's really time to go to sleep pretty soon, but I'm not that sleepy. I could use something to help me feel sleepy. There's lots of things that could help with that, but a sleep potion's worth a try. And what do the sleep potions look like?",
-      "speaker": "Dad",
-      "timestamp": 401
-    },
-    {
-      "text": "The sleep potions are blue.",
-      "speaker": "Izzy",
-      "timestamp": 420
-    },
-    {
-      "timestamp": 427,
-      "speaker": "Dad",
-      "text": "Ah, what a beautiful blue potion, said Uncle Grisko. Can I have a sip of it to try?"
-    },
-    {
-      "timestamp": 434,
-      "speaker": "Izzy",
-      "text": "With yellow polka dots."
-    },
-    {
-      "speaker": "Dad",
-      "timestamp": 437,
-      "text": "With yellow polka dots? Wow. And what does it taste like?"
-    },
-    {
-      "timestamp": 445,
-      "speaker": "Izzy",
-      "text": "Strawberry."
-    },
-    {
-      "text": "Mmm. And Uncle Grisko had a sip of the strawberry-flavored blue and yellow polka-dot sleep potion. And he said, 'Wow, well, I don't feel sleepy yet. I think we're missing something. What else are we supposed to do?'",
-      "timestamp": 448,
-      "speaker": "Dad"
-    },
-    {
-      "text": "And then Seeker remembered about saying the magic spell. What's the magic spell we have to say, Seeker?",
-      "timestamp": 466,
-      "speaker": "Dad"
+      "text": "Uh-huh.",
+      "timestamp": 279.68
     },
     {
       "speaker": "Izzy",
-      "timestamp": 473,
-      "text": "Salaiska, Kabuska, Kadoo!"
+      "text": "I'm going to... Dad, you think of... Like ... And, and Seeker said, \"I had bought some new potions over the... I had bought some new sleep potions. I had bought some new sleep potions-",
+      "timestamp": 280.96
     },
     {
-      "timestamp": 478,
       "speaker": "Dad",
-      "text": "Salaiska, Kabuska, Kadoo. Salaiska, Kabuska, Kadoo. And then all of a sudden, zzzzz... Uncle Grisko fell fast asleep. And did Seeker fall asleep too?"
+      "text": "Yeah, said Uncle Grisco",
+      "timestamp": 311
     },
     {
-      "timestamp": 497,
       "speaker": "Izzy",
-      "text": "Yeah. Zzzzz."
+      "text": "... at the store-",
+      "timestamp": 311.53
     },
     {
-      "timestamp": 501,
       "speaker": "Dad",
-      "text": "Well, we only had time for a short story tonight, so I think that's the end of Stars and Stories."
+      "text": "Uh-huh",
+      "timestamp": 313.24
     },
     {
-      "timestamp": 510,
       "speaker": "Izzy",
-      "text": "Salaiska, Salaiska..."
+      "text": "... after I went to, to Massachusetts where Isabella lives-",
+      "timestamp": 313.9
     },
     {
-      "timestamp": 515,
       "speaker": "Dad",
-      "text": "Are you saying the spell again? That's a good one. I like those spells you make up, Izzy."
+      "text": "Oh",
+      "timestamp": 326.62
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... to get some, to get a spatula for my, for, for my baby-",
+      "timestamp": 326.82
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh",
+      "timestamp": 339.7
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... dog,\" said Seeker.",
+      "timestamp": 341.92
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh, that's all very interesting,\" said Uncle Grisco. \"And, um, what do you wanna do now?\"",
+      "timestamp": 345.81
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And then I went to the store and bought sleep potions and put them in my potion closet when I got home and then went potty to go pee-pee. And wiped my bum. Then went off to your house",
+      "timestamp": 354.46
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh, I see,\" said Uncle Grisco. \"Well...\"",
+      "timestamp": 369.2
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Then washed my hands at your house",
+      "timestamp": 373.1
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh, yes, you're welcome to use my bathroom and wash your hands in my sink if you'd like,\" said Uncle Grisco.",
+      "timestamp": 376.16
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah, 'cause I got pee on my hands when I was wiping myself, said Seeker.",
+      "timestamp": 381.36
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh, I see. That's too bad. Well, go ahead and wash your hands.\"",
+      "timestamp": 387.09
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I already washed my hands-",
+      "timestamp": 393.8
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, good",
+      "timestamp": 395.72
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... said Seeker.",
+      "timestamp": 396.04
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Well, um, should we try out those sleep potions?\"",
+      "timestamp": 397.91
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Mm-hmm.",
+      "timestamp": 401.92
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Okay. That's good, 'cause I was feeling like it's really time to go to sleep pretty soon, but I'm not that sleepy. I could use something to help me feel sleepy. There are lots of things that could help with that, but a sleep potion's worth a try.\" And what did, what do the sleep potions look like?",
+      "timestamp": 402.85
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Sleep potions look like... And the sleep potions are blue.",
+      "timestamp": 420.52
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh, what a beautiful blue potion,\" said Uncle Grisco. \"Can I have a sip of it to try it?\"",
+      "timestamp": 428.46
+    },
+    {
+      "speaker": "Izzy",
+      "text": "With yellow polka dots.",
+      "timestamp": 434.66
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"With yellow polka dots, wow.\" And, and what does it taste like?",
+      "timestamp": 436.35
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Uh, strawberry.",
+      "timestamp": 444.58
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Mm.\" And Uncle Grisco had a sip of the strawberry-flavored blue and yellow polka dot sleep potion, and he said, \"Wow. Well, I don't feel sleepy yet. I think we're missing something. What else are we supposed to do?\" And then Seeker remembered about saying the magic spell.",
+      "timestamp": 447.84
+    },
+    {
+      "speaker": "Dad",
+      "text": "What's the magic spell we have to say, Seeker?",
+      "timestamp": 470
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Saliska kabooska kadoo. Saliska-",
+      "timestamp": 472.48
+    },
+    {
+      "speaker": "Dad",
+      "text": "Saliska kabooska kadoo.",
+      "timestamp": 476.67
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Kadoo. Kabaiska.",
+      "timestamp": 478.25
+    },
+    {
+      "speaker": "Dad",
+      "text": "Saliska kabooska-",
+      "timestamp": 481.02
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Kadoo",
+      "timestamp": 482.22
+    },
+    {
+      "speaker": "Dad",
+      "text": "... kadoo. And then all of a sudden, zzzz. Uncle Grisco fell fast asleep. And did Seeker fall asleep too?",
+      "timestamp": 482.76
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah.",
+      "timestamp": 498.22
+    },
+    {
+      "speaker": "Dad",
+      "text": "Zzzz. Well, we only had time for a short story tonight, so I think that's the end of Star's Stories. Oh, yeah, that's the light, Pumpkin.",
+      "timestamp": 501
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Saliska. Saliska.",
+      "timestamp": 513.8
+    },
+    {
+      "speaker": "Dad",
+      "text": "Are you saying the spell again?",
+      "timestamp": 516.24
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yes, I like to say that.",
+      "timestamp": 518.26
+    },
+    {
+      "speaker": "Dad",
+      "text": "That's a good one. I like those spells that you make up. All right, now it's getting close to bedtime, so let's read a little bit of Ralph",
+      "timestamp": 520.48
     }
   ],
   "characters": [
@@ -269,7 +489,19 @@
       "description": "The hometown of Isabella, visited by Seeker before arriving at Uncle Grisko's house."
     }
   ],
-  "wordCount": 572,
-  "izzyWordCount": 208,
-  "dadWordCount": 364
+  "wordCount": 838,
+  "izzyWordCount": 327,
+  "dadWordCount": 511,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T15:15:28.213Z",
+    "speakerMap": {
+      "speaker_0": "Dad",
+      "speaker_1": "Izzy"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "high"
+  }
 }

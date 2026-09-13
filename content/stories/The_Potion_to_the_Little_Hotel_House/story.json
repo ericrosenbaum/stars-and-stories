@@ -6,188 +6,328 @@
   "audioFilename": "Seeker & Grisco Visit Izzy’s House.m4a",
   "highlightQuote": {
     "text": "Izzy's house is like a little hotel where Ralph lives. Ralph is a mouse in a book.",
-    "timestamp": 232.1
+    "timestamp": 233.3
   },
   "transcript": [
     {
-      "text": "Brows and Prories.",
-      "timestamp": 0,
-      "speaker": "Dad"
+      "speaker": "Izzy",
+      "text": "For prowse and prorries.",
+      "timestamp": 0.08
     },
     {
-      "text": "Brows and Prories.",
-      "timestamp": 2.5,
-      "speaker": "Izzy"
-    },
-    {
-      "timestamp": 7.4,
       "speaker": "Dad",
-      "text": "Do you mean Stars and Stories?"
+      "text": "Prowse and prorries?",
+      "timestamp": 2.22
     },
     {
       "speaker": "Izzy",
-      "timestamp": 10.3,
-      "text": "No, I mean Stars and Stories."
+      "text": "Yeah, prowse and prorries.",
+      "timestamp": 4.84
     },
     {
-      "text": "Oh, Stars and Stories.",
-      "timestamp": 14.6,
-      "speaker": "Dad"
-    },
-    {
-      "text": "On that side they stayed, and on that side they fade, and over there and in the middle they don't fade, and over there and over there and over there they don't fade.",
-      "timestamp": 17.9,
-      "speaker": "Izzy"
-    },
-    {
-      "timestamp": 48.2,
       "speaker": "Dad",
-      "text": "That's a good observation. And I think the reason why is that the light on my phone mostly shines its light up and it is less bright shining to the sides, and so that's why the stars fade because they're less bright on the sides."
+      "text": "Do you mean zows and zories?",
+      "timestamp": 7.56
     },
     {
-      "text": "Ready for Stars and Stories? Did you want to have a blanket?",
-      "speaker": "Dad",
-      "timestamp": 72.1
-    },
-    {
-      "text": "I want a Stars and Stories story about Uncle Grisco and Seeker. You'll be telling those parts, I'll be telling the mama and nana parts because they're moles, they'll join in at the end. So you'll tell the first part.",
       "speaker": "Izzy",
-      "timestamp": 77.5
+      "text": "No, I mean stars and stories.",
+      "timestamp": 9.95
     },
     {
-      "text": "Okay. Well, once upon a time Seeker and Uncle Grisco were at Uncle Grisco's house where Seeker had just found out that Uncle Grisco has his own potion closet. And Seeker asked Uncle Grisco, 'Now could you tell me about what kind of potions you have again?' And what did Uncle Grisco say?",
       "speaker": "Dad",
-      "timestamp": 99.2
+      "text": "Oh.",
+      "timestamp": 13.56
     },
     {
-      "text": "Well and Uncle Grisco said, there's a tickle-too-soup-to-cloud and the purple soup potions and there was one that would take us to the Diamond World, one that would take us to the Rainbow Forest, one that would take us to Barbie's Garden, and there would be one that would take us to Izzy's house.",
       "speaker": "Izzy",
-      "timestamp": 125.1
+      "text": "No, tars-",
+      "timestamp": 14.3
     },
     {
-      "text": "Izzy's house, says Seeker. Who's Izzy?",
       "speaker": "Dad",
-      "timestamp": 164.5
+      "text": "Prorries",
+      "timestamp": 15.92
     },
     {
-      "timestamp": 170.1,
       "speaker": "Izzy",
-      "text": "Izzy's a person."
+      "text": "... tars and Tories. There's a moon and stars, some X's, a sun and star.",
+      "timestamp": 16.71
     },
     {
       "speaker": "Dad",
-      "timestamp": 173.2,
-      "text": "A person? My my, I don't think I've ever met a person. I'm a dwarf and I've met lots of other dwarfs, and I've met moles like you Uncle Grisco and the mole family of course, and a few other kind of creatures like mice and bunnies. What are people like?"
+      "text": "Mm.",
+      "timestamp": 29.85
     },
     {
-      "timestamp": 191.4,
       "speaker": "Izzy",
-      "text": "People have hair, ears, eyes, nose, mouth, body, belly button, nipples, and sometimes a piece like toes, feet, and one of them whose name is Izzy got some skin off when she was climbing on her toes while she was peeing."
+      "text": "And that on that side they fade, and on that side they fade, and o- over there, and in the middle they don't fade.",
+      "timestamp": 29.86
     },
     {
-      "timestamp": 214.2,
       "speaker": "Dad",
-      "text": "I see, said Seeker. That's very interesting."
+      "text": "Yeah.",
+      "timestamp": 43.51
     },
     {
-      "timestamp": 218.4,
       "speaker": "Izzy",
-      "text": "She really likes to hug her cat Silver, and Mama likes to hug Finn."
+      "text": "And over there and over there, and over there they don't fade.",
+      "timestamp": 43.52
     },
     {
-      "timestamp": 229.7,
       "speaker": "Dad",
-      "text": "And what is Izzy's house like, says Seeker?"
+      "text": "That's a good observation, and I think the reason why is that the light on my phone mostly shines its light up, and it is less bright shining to the sides. And so that's why the stars fade, 'cause they're less bright on the sides.",
+      "timestamp": 48.52
     },
     {
+      "speaker": "Izzy",
+      "text": "Yes.",
+      "timestamp": 71.78
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay. Ready for stars and stories? Did you want to have a blanket?",
+      "timestamp": 73.54
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I want stars and stories, stories of Uncle Grisco and Seeker.",
+      "timestamp": 77.24
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay.",
+      "timestamp": 83.71
+    },
+    {
+      "speaker": "Izzy",
+      "text": "You'll be telling those parts. I'll be telling the mama and Nana part, because they're moles. They will join in at the end.",
+      "timestamp": 83.72
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, okay.",
+      "timestamp": 93.94
+    },
+    {
+      "speaker": "Izzy",
+      "text": "How you'll tell the first part.",
+      "timestamp": 95.06
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay. Well, once upon a time, Seeker and Uncle Grisco were at Uncle Grisco's house where Seeker had just found out that Uncle Grisco has his own potion closet. And Seeker asked Uncle Grisco, \"Now, could you tell me about what kind of potions you have again?\"",
+      "timestamp": 99.1
+    },
+    {
+      "speaker": "Dad",
+      "text": "And what did Uncle Grisco say?",
+      "timestamp": 119.81
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I don't know. And Uncle Grisco said, \"There's a Floofer Cloud and the potions and one potion would take us to the Diamond World, one that would take us to the Rainbow Forest, that would take us to Bunny Bee's Garden, and there would be one that would take us to Izzy's house.\"",
+      "timestamp": 123.7
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh, Izzy's house,\" said Seeker. \"Who's Izzy?\"",
+      "timestamp": 163.6
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Izzy's a person.",
+      "timestamp": 168.4
+    },
+    {
+      "speaker": "Dad",
+      "text": "A person? My, my, I don't think I've ever met a person. I'm a dwarf, and I've met lots of other dwarves, and I've met moles like you, Uncle Grisco, and the Mole family of course, and a few other kind of creatures like mice and bunnies. What are people like?",
+      "timestamp": 170.96
+    },
+    {
+      "speaker": "Izzy",
+      "text": "People have hair, ears, eyes, nose, mouth, body, belly button, nipples, and sometimes a penis, legs, toes, feet, and one of them who's named Iza got some skin off when her dad was clipping her toes while she was peeing.",
+      "timestamp": 189.58
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"I see,\" said Seeker. \"That's very interesting. And what is-\"",
+      "timestamp": 213.26
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And she real likes to hug her cat, Silver.",
+      "timestamp": 217.02
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh.",
+      "timestamp": 222.74
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And Mama likes to hug Finn.",
+      "timestamp": 223.46
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh. \"And what is Izzy's house like?\" says Seeker.",
+      "timestamp": 226.7
+    },
+    {
+      "speaker": "Izzy",
       "text": "Izzy's house is like a little hotel where Ralph lives. Ralph is a mouse in a book.",
+      "timestamp": 233.3
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, I see. And what does Izzy's house have in it?",
+      "timestamp": 244.34
+    },
+    {
       "speaker": "Izzy",
-      "timestamp": 232.1
+      "text": "And also, there's toys and books and a humidifier and lotion and things and pictures, and they go on neighbor walks, and they have a new baby named Avery.",
+      "timestamp": 248.42
     },
     {
-      "timestamp": 246.3,
       "speaker": "Dad",
-      "text": "I see. And what does Izzy's house have in it?"
+      "text": "My.",
+      "timestamp": 270.02
     },
     {
-      "text": "And also there's toys and books and a humidifier and lotion and things and pictures and they go on neighbor walks and they have a new baby named Avery and Yo-Yo and her heart.",
-      "timestamp": 249.2,
-      "speaker": "Izzy"
+      "speaker": "Izzy",
+      "text": "And Yoda and some cards.",
+      "timestamp": 270.35
     },
     {
-      "text": "My my, that all sounds very interesting, said Seeker. I would love to go there. Shall we take the Izzy's house potion and go on an adventure to Izzy's house?",
       "speaker": "Dad",
-      "timestamp": 271.6
+      "text": "\"That all sounds very interesting,\" said Seeker. \"I would love to go there. Shall we take the Izzy's House potion and go on an adventure to Izzy's house?\"",
+      "timestamp": 272.97
     },
     {
-      "text": "Yes siree!",
-      "timestamp": 282.8,
-      "speaker": "Izzy"
+      "speaker": "Izzy",
+      "text": "Yes. Yes, I would.",
+      "timestamp": 283.46
     },
     {
-      "text": "And so Seeker and Uncle Grisco both had a sip and then they said the rhyme: Ruby Dooby Galoob, Ruby Dooby Galoob, Ruby Dooby Galoob. And then there was a floop and then poof, they appeared right in the middle of the blue starry rug in Isabella's bedroom. And Seeker—",
-      "timestamp": 286.3,
-      "speaker": "Dad"
+      "speaker": "Dad",
+      "text": "And so Seeker and Uncle Grisco both had a sip, and then they said the rhyme.",
+      "timestamp": 285.48
     },
     {
-      "text": "And Isabella, and can I pretend to show Seeker around?",
-      "timestamp": 312.4,
-      "speaker": "Izzy"
+      "speaker": "Izzy",
+      "text": "Rooby dooby ca-loob. Rooby dooby ca-loob. Rooby dooby ca-loob.",
+      "timestamp": 291.1
     },
     {
+      "speaker": "Dad",
+      "text": "And then there was a and then poof, they appeared right in the middle of the blue starry rug in Isabella's bedroom. And Seeker and Uncle Grisco-",
+      "timestamp": 298.4
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And, and, and can I pretend show, uh, Seeker around?",
+      "timestamp": 314.18
+    },
+    {
+      "speaker": "Dad",
       "text": "Yes, of course.",
-      "timestamp": 318.5,
-      "speaker": "Dad"
+      "timestamp": 320.46
     },
     {
-      "text": "Seeker, this is my bed, this is my basket, this is my lamp, this is my door, this is my closet, and inside there's a dresser.",
       "speaker": "Izzy",
-      "timestamp": 321.4
+      "text": "So this is my dollhouse. This is my basket. That's my lamp. That's my door. That's my closet. And inside there's a dresser.",
+      "timestamp": 329.36
     },
     {
-      "text": "Wow, says Seeker, there's so many things for me to learn about.",
-      "timestamp": 346.5,
-      "speaker": "Dad"
-    },
-    {
-      "timestamp": 350.2,
-      "speaker": "Izzy",
-      "text": "A chair and some books and a Yo-Yo charging and a lamp and lotion and an owl and pictures and a lion stone and a drawing pad, and that's all."
-    },
-    {
-      "timestamp": 371.4,
       "speaker": "Dad",
-      "text": "What a wonderful house you have, Izzy the person."
+      "text": "\"Wow,\" said Seeker. \"There's so many things here for me to learn about.\"",
+      "timestamp": 345.14
     },
     {
-      "text": "And downstairs there's a sunroom with bins, a kitchen with cooking projects, a living room with toys, a dining room with tables and chairs, a book area with a surprise chair and books. Those are all the rooms downstairs. They have a playhouse and a climbing gym and a water table outside. Mostly I have trapeze and swings.",
-      "timestamp": 374.8,
-      "speaker": "Izzy"
+      "speaker": "Izzy",
+      "text": "And then there's a chair and some books and a Yoda charging and a lamp and lotion and an owl and pictures",
+      "timestamp": 349.42
     },
     {
-      "timestamp": 414.2,
       "speaker": "Dad",
-      "text": "And Seeker says, wow, what a wonderful house you've got. And do you have a family who lives here?"
+      "text": "That's amazing",
+      "timestamp": 362.83
     },
     {
-      "text": "Yes, yes. I have a Dad and a kitty and Silver and Finn and Avery and my Mom and Nana and Papa and um, and um, and Julie Anne and um, the last person is my favorite people who are like Fiona and Miss Lynn, Miss Emily, and Miss Maryanne who are at school.",
       "speaker": "Izzy",
-      "timestamp": 422.3
+      "text": "And a lion stool and a drawing pad, and that's all",
+      "timestamp": 363.91
     },
     {
-      "text": "Wonderful, said Seeker. Those are all the people who I have. Thank you for telling me all about your house and your family and all the people. And I think that we should go on an adventure in Izzy's house, said Seeker. But that is all the time we have for tonight's Stars and Story, so we'll have to continue another time.",
-      "timestamp": 471.4,
-      "speaker": "Dad"
+      "speaker": "Dad",
+      "text": "What a wonderful house you have",
+      "timestamp": 369.61
     },
     {
-      "text": "So we can meet up again after nap, after you have breakfast, and I'll show you who's Mom and who's Dad and who's Avery and who's my cats.",
       "speaker": "Izzy",
-      "timestamp": 498.4
+      "text": "Wonderful",
+      "timestamp": 371.25
     },
     {
+      "speaker": "Dad",
+      "text": "Izzy the person",
+      "timestamp": 371.91
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And downstairs there's a sunroom with bins, a kitchen with cooking projects, a living room with toys, a dining room with tables and chairs, a book area with a surprise chair and books. And those are all the rooms downstairs. I have a playhouse and a climbing to the water table outside.",
+      "timestamp": 373.67
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Mostly I have trapeze and swings",
+      "timestamp": 408.89
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Seeker says, \"Wow, what a wonderful house you've got. And do you have a family who lives here?\"",
+      "timestamp": 413.21
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yes, yes. I have a Dada and a Kitty and Silver and Finn and Avery and my mom and Nana and Papa and, um, and, and, and, and Julianne. And, um, the last person is my ... My favorite people who are, like, Fiona and Miss Lan, Miss Emily, and Miss Marion, who are at school",
+      "timestamp": 420.51
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Wonderful,\" said Seeker",
+      "timestamp": 468.39
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Those are all the people who I have",
+      "timestamp": 470.07
+    },
+    {
+      "speaker": "Dad",
+      "text": "Thank you for telling me all about your house and your family and all the people. \"And I think that we should go on an adventure in Izzy's house,\" said Seeker. But that is all the time we have for tonight's Stars and Story, so we'll have-",
+      "timestamp": 474.21
+    },
+    {
+      "speaker": "Izzy",
+      "text": "So-",
+      "timestamp": 494.86
+    },
+    {
+      "speaker": "Dad",
+      "text": "... to continue another time",
+      "timestamp": 494.86
+    },
+    {
+      "speaker": "Izzy",
+      "text": "So we can meet up again after nap, after you have breakfast, and I'll show you who's mom and who's dad and who's Avery and who's my cats",
+      "timestamp": 496.49
+    },
+    {
+      "speaker": "Dad",
       "text": "Good idea. And that's the end of Stars and Stories.",
-      "timestamp": 520.1,
-      "speaker": "Dad"
+      "timestamp": 511.55
     }
   ],
   "characters": [
@@ -314,7 +454,19 @@
       "description": "The landing spot is a hushed, shadow-drenched room where a blue starry rug lies buried beneath a landscape of forgotten toys. In this quiet staging ground, the search party assembles, steeling themselves before plunging into the dark frontier under the bed."
     }
   ],
-  "wordCount": 853,
-  "izzyWordCount": 453,
-  "dadWordCount": 400
+  "wordCount": 900,
+  "izzyWordCount": 501,
+  "dadWordCount": 399,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T15:16:58.105Z",
+    "speakerMap": {
+      "speaker_0": "Izzy",
+      "speaker_1": "Dad"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "high"
+  }
 }

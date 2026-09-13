@@ -6,418 +6,583 @@
   "audioFilename": "Seeker visits Izzy’s Attic.m4a",
   "highlightQuote": {
     "text": "Yes, she can, because she has a mouth.",
-    "timestamp": 125.2
+    "timestamp": 85.5
   },
   "transcript": [
     {
-      "text": "Alright. Let's - can you please put that on the light so that we can make some stars?",
-      "timestamp": 13.1,
-      "speaker": "Dad"
-    },
-    {
-      "timestamp": 22.5,
       "speaker": "Izzy",
-      "text": "I was just wearing it to the light."
-    },
-    {
-      "text": "There we go. Oh, there we go. We've got suns, suns and polka dots.",
-      "timestamp": 31.2,
-      "speaker": "Dad"
-    },
-    {
-      "timestamp": 39.4,
-      "speaker": "Izzy",
-      "text": "So nice."
-    },
-    {
-      "timestamp": 41,
-      "speaker": "Dad",
-      "text": "Ding-dong, Seeker. Oh, who is it? Uncle Crisco. Oh, hi Uncle Crisco, says Seeker."
-    },
-    {
-      "text": "Now, the other night, we took a potion that we found in - in my - potion closet, or was it yours? The potion to go to a very magical place called Izzy's house.",
-      "speaker": "Dad",
-      "timestamp": 52.4
-    },
-    {
-      "speaker": "Izzy",
-      "timestamp": 107.8,
-      "text": "Well, we don't - I don't have any more of those, but I bought a new one today that would take us to Izzy's house again."
-    },
-    {
-      "timestamp": 117.5,
-      "speaker": "Dad",
-      "text": "Let's go, says Uncle Crisco."
-    },
-    {
-      "timestamp": 120.1,
-      "speaker": "Izzy",
-      "text": "Well, well - well Uncle Crisco..."
-    },
-    {
-      "timestamp": 125.2,
-      "speaker": "Dad",
-      "text": "Yes?"
-    },
-    {
-      "timestamp": 126.5,
-      "speaker": "Izzy",
-      "text": "Well, Seeker... said Uncle Crisco, do you have any potion that you would like to show me at your house?"
-    },
-    {
-      "text": "Well, what about a potion to go to Izzy's attic?",
-      "timestamp": 139.2,
-      "speaker": "Dad"
-    },
-    {
-      "speaker": "Izzy",
-      "timestamp": 147.3,
-      "text": "No. But that potion that would take us to Izzy's house, Izzy could tell you about her attic."
+      "text": "Hi. I got a hat.",
+      "timestamp": 2.38
     },
     {
       "speaker": "Dad",
-      "timestamp": 157.1,
-      "text": "Oh, she could?"
+      "text": "Bonk.",
+      "timestamp": 6
     },
     {
+      "speaker": "Izzy",
+      "text": "You're gonna get a-",
+      "timestamp": 6.32
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, okay.",
+      "timestamp": 8.94
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I got a hat.",
+      "timestamp": 9.38
+    },
+    {
+      "speaker": "Dad",
+      "text": "All right. L- Can you please put that on the light so that we can make some stars?",
+      "timestamp": 11.74
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah. It's ... I was just wearing it to the light.",
+      "timestamp": 16.76
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, yeah. Ooh, there we go. And now-",
+      "timestamp": 26.98
+    },
+    {
+      "speaker": "Izzy",
+      "text": "There we go. We've got suns.",
+      "timestamp": 30.38
+    },
+    {
+      "speaker": "Dad",
+      "text": "Suns.",
+      "timestamp": 34.1
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Suns and polka dots.",
+      "timestamp": 34.6
+    },
+    {
+      "speaker": "Dad",
+      "text": "So nice. Now, I'm gonna sit over here with you.",
+      "timestamp": 36.66
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And then ding-dong, Seeker.",
+      "timestamp": 39.98
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, who is it?",
+      "timestamp": 42.94
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Uncle Grisco.",
+      "timestamp": 45.3
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh, hi, Uncle Grisco,\" says Seeker. Now, the other night, we took a potion that we found in, in my, um, potion closet. Or was it yours? The potion to go to a very-",
+      "timestamp": 47.21
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Well, w-",
+      "timestamp": 63.84
+    },
+    {
+      "speaker": "Dad",
+      "text": "... magical place called Izzy's house.",
+      "timestamp": 64.13
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Well, well, we, uh, I don't have any more of those, but I bought a new one today.",
+      "timestamp": 65.78
+    },
+    {
+      "speaker": "Dad",
+      "text": "You did?",
+      "timestamp": 72.18
+    },
+    {
+      "speaker": "Izzy",
+      "text": "That would take us to Izzy's house again.",
+      "timestamp": 72.78
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Let's go,\" says Uncle Grisco.",
+      "timestamp": 78.41
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"Well, well, well, Uncle Grisco...\"",
+      "timestamp": 80.43
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Yes?\"",
+      "timestamp": 85.5
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"Well, Seeker, um,\" said Uncle Grisco, \"do you have any potion that you would like to show me at your house?\"",
+      "timestamp": 86.11
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Well, what about a potion to go to Izzy's attic?\"",
+      "timestamp": 98.19
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"No. But that potion that would take us to Izzy's house, Izzy could tell you about her attic.\"",
+      "timestamp": 105.68
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, she could?",
+      "timestamp": 118.42
+    },
+    {
+      "speaker": "Izzy",
       "text": "Yes, she can, because she has a mouth.",
-      "timestamp": 159,
-      "speaker": "Izzy"
+      "timestamp": 119.86
     },
     {
       "speaker": "Dad",
-      "timestamp": 164.2,
-      "text": "That's true. And what would she tell us about her attic?"
+      "text": "That's true. And what would she tell us about her attic?",
+      "timestamp": 124.08
     },
     {
-      "timestamp": 168.5,
       "speaker": "Izzy",
-      "text": "I don't know."
+      "text": "I don't know.",
+      "timestamp": 127.88
     },
     {
       "speaker": "Dad",
-      "timestamp": 170.1,
-      "text": "Oh. Well, where would you like to go? Said Seeker."
+      "text": "Oh. \"Well, where would you like to go?\" said Seeker.",
+      "timestamp": 129
     },
     {
+      "speaker": "Izzy",
       "text": "To Izzy's house.",
-      "speaker": "Izzy",
-      "timestamp": 177
+      "timestamp": 136.9
     },
     {
       "speaker": "Dad",
-      "timestamp": 179.4,
-      "text": "Okay. Let's drink the Izzy's house potion. Sip, sip, sip."
-    },
-    {
-      "text": "Hulooska, Kulooska, Kaloom. Mooska, Gadooska, Kaloom.",
-      "timestamp": 185.5,
-      "speaker": "Izzy"
-    },
-    {
-      "speaker": "Dad",
-      "timestamp": 192.2,
-      "text": "Hulooska, Kulooska, Kaloom. Mooska, Gadooska, Kaloom. And then there was a 'whoosh!'"
-    },
-    {
-      "text": "And floof! Suddenly, Seeker and Uncle Crisco were once again standing on a soft blue rug with white stars in the middle of Izzy's room.",
-      "timestamp": 201.5,
-      "speaker": "Dad"
-    },
-    {
-      "text": "Hi! Hi! My name is Izzy.",
-      "speaker": "Izzy",
-      "timestamp": 214.4
-    },
-    {
-      "speaker": "Dad",
-      "timestamp": 219.1,
-      "text": "Oh, hi Izzy, said Seeker."
-    },
-    {
-      "text": "Hi. Um, my attic has Legos, a drawing pad, a pen, paper, glue stick, suitcases, a chair, a work desk, lots of interesting things. A shelf, a floor, nails, a window. Those are all the things it has.",
-      "speaker": "Izzy",
-      "timestamp": 222.5
-    },
-    {
-      "text": "And Uncle Crisco said, 'That sounds like a very interesting place, I would like to visit there sometime. Could you take us there?'",
-      "speaker": "Dad",
-      "timestamp": 246.1
-    },
-    {
-      "text": "No, no. Only with a grown-up we can take you there with my dad tomorrow morning, if you would like.",
-      "speaker": "Izzy",
-      "timestamp": 256.5
-    },
-    {
-      "text": "Oh! Why don't we wait until then? And could we sleep here in your room while you're sleeping?",
-      "speaker": "Dad",
-      "timestamp": 265
+      "text": "Okay, let's drink the Izzy's house potion. Sip, sip, sip.",
+      "timestamp": 138.92
     },
     {
       "speaker": "Izzy",
-      "timestamp": 273.2,
-      "text": "Yes. As long as you would be quiet and listen to whatever car you have in my Yodo."
+      "text": "Mooska, cooska, cloome. Mooska.",
+      "timestamp": 144.92
     },
     {
-      "text": "Ah. Well, I don't know what a Yodo is, said Uncle Crisco.",
       "speaker": "Dad",
-      "timestamp": 280.1
+      "text": "Mooska.",
+      "timestamp": 149.09
     },
     {
-      "text": "A Yodo has buttons. Lots of buttons. Like a pause one, one to turn it up and down, and one to push songs, and then there's - and there's also - a plug to charge it.",
       "speaker": "Izzy",
-      "timestamp": 283.5
+      "text": "Cooska.",
+      "timestamp": 149.1
     },
     {
-      "text": "I see, said Seeker. Well, I'm feeling... rather sleepy. Could you find me a place to sleep?",
       "speaker": "Dad",
-      "timestamp": 302.2
+      "text": "Cooska.",
+      "timestamp": 150.3
     },
     {
-      "timestamp": 318.1,
       "speaker": "Izzy",
-      "text": "Yes, I can. Where - where could you sleep? Seeker, you could sleep with me. I'll make a nice nest."
+      "text": "Cloome.",
+      "timestamp": 150.37
     },
     {
+      "speaker": "Dad",
+      "text": "Cloome.",
+      "timestamp": 151.12
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Mooska.",
+      "timestamp": 152.26
+    },
+    {
+      "speaker": "Dad",
+      "text": "Cooska.",
+      "timestamp": 153.16
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Cooska.",
+      "timestamp": 153.79
+    },
+    {
+      "speaker": "Dad",
+      "text": "Cooska.",
+      "timestamp": 154.44
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Cloome.",
+      "timestamp": 154.6
+    },
+    {
+      "speaker": "Dad",
+      "text": "Cloome. And then there was a pff and floof. Suddenly, Seeker and Uncle Grisco were once again standing on a soft blue rug with white stars in the middle of Izzy's room. And was-",
+      "timestamp": 155.31
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Hi. Hi. My name is Izzy.",
+      "timestamp": 174.66
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh, hi, Izzy,\" said Seeker.",
+      "timestamp": 177.63
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Hi. Um, my attic has Legos, a drawing pad, uh, pens, paper, a glue stick, suitcases, a chair, a work desk. Lots of interesting things. A shelf, a floor, nails, a window. Those are all the things it has.",
+      "timestamp": 179.74
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Uncle Grisco said, \"That sounds like a very interesting place. I would like to visit there sometime. Could you take us there?\"",
+      "timestamp": 205.92
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No, no. Only with a grown-up. We can take you there with my dad d- tomorrow morning, if you would like.",
+      "timestamp": 212.46
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh, why don't we wait until then? And we could, could we sleep here in your room while you're sleeping?\"",
+      "timestamp": 222.53
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yes.",
+      "timestamp": 231.02
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh.",
+      "timestamp": 232.14
+    },
+    {
+      "speaker": "Izzy",
+      "text": "As long as you would be quiet and listen to whatever Carter have in my Yodo.",
+      "timestamp": 232.19
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Ah. Well, I don't know what a Yodo is,\" said Uncle Grisco, \"but-\"",
+      "timestamp": 240.77
+    },
+    {
+      "speaker": "Izzy",
+      "text": "A Yodo has buttons, lots of buttons, like pause one, one to turn it up and down, and one to push songs, and one, and there's a, there's a s- a hole for the plug to charge it.",
+      "timestamp": 244.6
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"I see,\" said Seeker. \"Well, I'm feeling rather sleepy. Could, could you find me a place to sleep?\"",
+      "timestamp": 267.85
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yes, I can.",
+      "timestamp": 277.48
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Where, where could I sleep, Izzy?\"",
+      "timestamp": 279.78
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Seeker, you could sleep with me. I'll make a nice nest.",
+      "timestamp": 281.54
+    },
+    {
+      "speaker": "Dad",
       "text": "Oh, thank you.",
-      "timestamp": 331.5,
-      "speaker": "Dad"
+      "timestamp": 288.86
     },
     {
       "speaker": "Izzy",
-      "timestamp": 338.2,
-      "text": "You can sleep - you can sleep on Ginger's cage, if that would be comfy and you could rest your - rest your head on this cheese mouse."
+      "text": "And you could sleep with, you could sleep on Ginger s- you can sleep here on Ginger's cage if that would be comfy w- and you could rest your, rest your head on this cheese mouse.",
+      "timestamp": 293.12
     },
     {
-      "text": "Oh, a cheese mouse pillow? I've never had a pillow like that, said Seeker. Thank you. And Uncle Crisco said, well, that looks very cozy for Seeker, is there another bed for me somewhere?",
-      "timestamp": 350.1,
-      "speaker": "Dad"
+      "speaker": "Dad",
+      "text": "\"Oh, a cheese mouse pillow. I've never had a pillow like that,\" said Seeker. \"Thank you.\" And Uncle Grisco said, \"Well, that looks very cozy for Seeker. Is there another bed for me somewhere?\"",
+      "timestamp": 310.93
     },
     {
+      "speaker": "Izzy",
       "text": "There is another bed. There's a slide bed in the dollhouse.",
-      "timestamp": 365.4,
-      "speaker": "Izzy"
-    },
-    {
-      "timestamp": 371.2,
-      "speaker": "Dad",
-      "text": "A slide bed? I've never slept in a slide bed."
-    },
-    {
-      "text": "This is called a slide bed.",
-      "speaker": "Izzy",
-      "timestamp": 378.5
-    },
-    {
-      "text": "Oh, said Uncle Crisco. Do I slide down it?",
-      "timestamp": 382.2,
-      "speaker": "Dad"
-    },
-    {
-      "speaker": "Izzy",
-      "timestamp": 385.5,
-      "text": "No, you sleep on the top with your feet lying, so you have to - so you have to - or you could sleep on the bush bed with an apple pillow."
+      "timestamp": 323.9
     },
     {
       "speaker": "Dad",
-      "timestamp": 404.2,
-      "text": "A bush bed with an apple pillow? That sounds even nicer. But how am I going to get up on top of that shelf? Can you lift me up and put me there, please?"
+      "text": "\"A slide bed? I've never slept in a slide bed.\"",
+      "timestamp": 328.68
     },
     {
+      "speaker": "Izzy",
+      "text": "This is called a s- there's a sl- this is called a slide bed.",
+      "timestamp": 333.68
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh,\" said Uncle Grisco. \"Do I slide down it?\"",
+      "timestamp": 339.92
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No, you sleep on the top with your feet lying so you have to, so you have to... Or you could sleep on the bush bed with an apple pillow.",
+      "timestamp": 343.24
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"A bush bed with an apple pillow? That sounds even nicer.\" But how am I gonna get up on the top of that shelf? Can you lift me up and put me there, please?",
+      "timestamp": 363.58
+    },
+    {
+      "speaker": "Izzy",
       "text": "Um, or you could sleep in this crib.",
-      "timestamp": 415.1,
-      "speaker": "Izzy"
+      "timestamp": 371.18
     },
     {
+      "speaker": "Dad",
       "text": "That crib looks very cozy, but I think I'm a little too big for it. I'm just a little mole, but I'm bigger than that crib. I'll try the bush bed.",
-      "speaker": "Dad",
-      "timestamp": 417.5
+      "timestamp": 375.58
     },
     {
       "speaker": "Izzy",
-      "timestamp": 428.2,
-      "text": "Well, actually, this is Seeker's crib."
+      "text": "Well, actually, this is Seeker's crib.",
+      "timestamp": 386.86
     },
     {
       "speaker": "Dad",
-      "timestamp": 431.2,
-      "text": "Oh, but I thought Seeker was going to sleep - sleep in Ginger's cage."
+      "text": "Oh, but I thought Seeker was gonna slip in, sleep in Ginger's cage.",
+      "timestamp": 391.36
     },
     {
-      "timestamp": 435.5,
       "speaker": "Izzy",
-      "text": "Well, Seeker can sleep in here. If Seeker wants to sleep in here."
+      "text": "Well, Seeker can sleep in here.",
+      "timestamp": 394.94
     },
     {
       "speaker": "Dad",
-      "timestamp": 441.2,
-      "text": "I think I fit just right in there. Thank you."
+      "text": "Oh.",
+      "timestamp": 397.54
     },
     {
-      "timestamp": 444.5,
       "speaker": "Izzy",
-      "text": "Then sleep - then sleep in there."
+      "text": "Seeker, wanna sleep in here?",
+      "timestamp": 397.78
     },
     {
-      "text": "And so, Seeker crawled into the crib, and Uncle Crisco climbed up onto the bush bed with the strawberry pillow, and they both soon enough were sound asleep.",
       "speaker": "Dad",
-      "timestamp": 446.4
+      "text": "I think I fit just right in there. Thank you.",
+      "timestamp": 400.06
     },
     {
+      "speaker": "Izzy",
+      "text": "Then sleep, Se- then sleep in there.",
+      "timestamp": 402.8
+    },
+    {
+      "speaker": "Dad",
+      "text": "And so Seeker crawled into the crib and Uncle Grisco climbed up onto the bush bed with the strawberry pillow, and they both soon enough were sound asleep. Zzz. And then Izzy went to sleep, too, listening to her yoto. Zzz. And then you know what happened next?",
+      "timestamp": 405.74
+    },
+    {
+      "speaker": "Izzy",
       "text": "What?",
-      "speaker": "Izzy",
-      "timestamp": 470.1
+      "timestamp": 430.8
     },
     {
-      "text": "She woke up!",
       "speaker": "Dad",
-      "timestamp": 471.4
+      "text": "She woke up.",
+      "timestamp": 432.3
     },
     {
-      "text": "And her dad and me and Seeker and Uncle Crisco went to the attic.",
       "speaker": "Izzy",
-      "timestamp": 475.2
+      "text": "But then me and Seeker and Uncle Grisco went to the attic.",
+      "timestamp": 436.8
     },
     {
-      "text": "And they all went up to the attic. And what did they do up there?",
       "speaker": "Dad",
-      "timestamp": 482.2
+      "text": "And they all went up to the attic, and what did they do up there?",
+      "timestamp": 442.46
     },
     {
       "speaker": "Izzy",
-      "timestamp": 486.5,
-      "text": "They played with Legos."
+      "text": "They played with Legos.",
+      "timestamp": 446.06
     },
     {
+      "speaker": "Dad",
       "text": "Oh, and what did they make?",
-      "speaker": "Dad",
-      "timestamp": 490.1
+      "timestamp": 448.42
     },
     {
+      "speaker": "Izzy",
       "text": "Robots.",
+      "timestamp": 451.02
+    },
+    {
+      "speaker": "Dad",
+      "text": "They made robots. What kind of robot did Seeker make?",
+      "timestamp": 452.48
+    },
+    {
       "speaker": "Izzy",
-      "timestamp": 491.4
-    },
-    {
-      "timestamp": 493.2,
-      "speaker": "Dad",
-      "text": "They made robots! What kind of robot did Seeker make?"
-    },
-    {
-      "text": "Necklace robot. And then Uncle Crisco made a slide robot, and you made a baby robot, and you made - and I made a... sun kind of robot.",
-      "timestamp": 497.5,
-      "speaker": "Izzy"
+      "text": "Necklace robot.",
+      "timestamp": 456.82
     },
     {
       "speaker": "Dad",
-      "timestamp": 515.2,
-      "text": "Oh, that sounds like a lot of fun. And did they do any other playing in the attic?"
+      "text": "Oh, a necklace robot. What's that-",
+      "timestamp": 458.72
     },
     {
+      "speaker": "Izzy",
+      "text": "And then Uncle Grisco made a slide robot, and you made a baby robot, and you made... And I made, um, some kind of robot.",
+      "timestamp": 460.15
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, that sounds like a lot of fun. And did they do any other playing in the attic?",
+      "timestamp": 475.98
+    },
+    {
+      "speaker": "Izzy",
       "text": "I don't know.",
-      "speaker": "Izzy",
-      "timestamp": 521.4
-    },
-    {
-      "speaker": "Izzy",
-      "timestamp": 523.1,
-      "text": "But they did do some drawing in the attic."
+      "timestamp": 481.78
     },
     {
       "speaker": "Dad",
-      "timestamp": 526.2,
-      "text": "Oh, what did they draw pictures of?"
-    },
-    {
-      "text": "I don't know.",
-      "speaker": "Izzy",
-      "timestamp": 529.5
-    },
-    {
-      "speaker": "Dad",
-      "timestamp": 531.2,
-      "text": "Well, Seeker likes to draw pictures of his friends, like the Crystal Mountain Caretaker and Gagok the magic paper bird. And he also has a magical flying stone skyship. And so he drew a picture of that for everyone to see."
-    },
-    {
-      "speaker": "Dad",
-      "timestamp": 560.5,
-      "text": "And then he said, 'You know, Uncle Crisco, I think we should be getting back. This has been a long adventure here at Izzy's house.'"
-    },
-    {
-      "text": "And Seeker... um, what does your skyship do?",
-      "speaker": "Izzy",
-      "timestamp": 569.2
-    },
-    {
-      "timestamp": 574.1,
-      "speaker": "Dad",
-      "text": "Well, maybe, new friend Izzy the kiddo, you could come with us sometime and I could show you. But not today."
-    },
-    {
-      "text": "Oh yeah. Yeah, maybe tomorrow morning.",
-      "timestamp": 586.5,
-      "speaker": "Izzy"
-    },
-    {
-      "timestamp": 589.2,
-      "speaker": "Dad",
-      "text": "That's a good idea. We'll do a skyship adventure then."
-    },
-    {
-      "text": "Yeah. I'm sick, so I don't want to show you cough, so I'll stay home for the rest of this day.",
-      "timestamp": 594.5,
-      "speaker": "Izzy"
-    },
-    {
-      "speaker": "Dad",
-      "timestamp": 600.2,
-      "text": "Okay, that's a good idea, said Seeker."
+      "text": "Oh.",
+      "timestamp": 483.39
     },
     {
       "speaker": "Izzy",
-      "timestamp": 603.5,
-      "text": "Because I have very bad hiccups and coughs."
-    },
-    {
-      "timestamp": 607.4,
-      "speaker": "Dad",
-      "text": "I see. Oh, you'd better rest."
-    },
-    {
-      "text": "And stuffy nose.",
-      "speaker": "Izzy",
-      "timestamp": 609.5
+      "text": "But they did do some drawing in the attic.",
+      "timestamp": 484.3
     },
     {
       "speaker": "Dad",
-      "timestamp": 612.2,
-      "text": "Mmhmm. And so, Seeker and Uncle Crisco took the go-home potion, and then... there was a little pop sound and they vanished."
+      "text": "Oh, what did they draw pictures of?",
+      "timestamp": 487.62
     },
     {
       "speaker": "Izzy",
-      "timestamp": 631.4,
-      "text": "You can come back whenever you want."
+      "text": "Don't know.",
+      "timestamp": 489.74
     },
     {
       "speaker": "Dad",
-      "timestamp": 635.2,
-      "text": "Oh, thank you."
+      "text": "Well, Seeker likes to- ... draw pictures of his friends, like the Crystal Mountain Caretaker and Gagok, the magic paper bird. And he also has a, a magical flying stone sky ship, and so he drew a picture of that for everyone to see. And then he said, \"You know, Uncle Grisco, I think we should be getting back.",
+      "timestamp": 491.46
     },
     {
-      "text": "Because Seeker has tons and tons of other going-here potions.",
-      "timestamp": 636.5,
-      "speaker": "Izzy"
-    },
-    {
-      "timestamp": 641.2,
       "speaker": "Dad",
-      "text": "He does have a lot of potions. All right."
+      "text": "This has been a long adventure here at Izzy's house.\"",
+      "timestamp": 522.14
     },
     {
-      "timestamp": 647.5,
       "speaker": "Izzy",
-      "text": "Diddy-doo-dee. Diddy-doo-dee. Diddy-doo-dee."
+      "text": "And, \"Seeker, um, what does your sky ship do?\"",
+      "timestamp": 525
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Well, maybe, new friend Izzy the Kiddo, you could come with us sometime and I could show you.\"",
+      "timestamp": 531.86
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah.",
+      "timestamp": 542.83
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"But not today.\"",
+      "timestamp": 542.83
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Oh, yeah. Yeah, maybe tomorrow morning.",
+      "timestamp": 545.24
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"That's a good idea. We'll do a sky ship adventure then.\"",
+      "timestamp": 550.19
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"Yeah, I'm sick, so I don't want to share your cough. So I'll stay home for the rest of this day.\"",
+      "timestamp": 553.27
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Okay, that's a good idea,\" said Seeker.",
+      "timestamp": 560.09
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"Because I have very bad hiccups and coughs.\"",
+      "timestamp": 562.47
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"I see. Oh, that's... You better rest.\"",
+      "timestamp": 566.46
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"And a stuffy nose.\"",
+      "timestamp": 568.51
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Mm-hmm.\" And so Seeker and Uncle Grisco took the Go In The Home Potion, and then there was a little pop sound and they vanished. And then they were back in Seeker's house and their adventure was finished. And that's the end of Stars and Stories.",
+      "timestamp": 569.91
+    },
+    {
+      "speaker": "Izzy",
+      "text": "You can come back whenever you want.",
+      "timestamp": 591.08
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, thank you.",
+      "timestamp": 594.18
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Because Seeker has tons and tons of other Go In Here Potions.",
+      "timestamp": 595.06
+    },
+    {
+      "speaker": "Dad",
+      "text": "He does have a lot of potions. All right.",
+      "timestamp": 601.78
     }
   ],
   "characters": [
@@ -479,7 +644,19 @@
       "description": "A comfortable sleeping spot on a shelf in Izzy's room featuring a fruit-themed pillow."
     }
   ],
-  "wordCount": 1096,
-  "izzyWordCount": 478,
-  "dadWordCount": 618
+  "wordCount": 1213,
+  "izzyWordCount": 520,
+  "dadWordCount": 693,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T15:17:13.260Z",
+    "speakerMap": {
+      "speaker_0": "Izzy",
+      "speaker_1": "Dad"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "high"
+  }
 }
