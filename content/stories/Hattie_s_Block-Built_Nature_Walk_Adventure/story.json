@@ -6,238 +6,358 @@
   "audioFilename": "Cornell St 41.m4a",
   "highlightQuote": {
     "text": "I saw an elephant with a flower on its head with the big stormy seas.",
-    "timestamp": 232
+    "timestamp": 232.82
   },
   "transcript": [
     {
       "speaker": "Izzy",
-      "text": "A little something to keep my flowers for when I have dirt.",
-      "timestamp": 0
+      "text": "Something to keep my place. Well, in him.",
+      "timestamp": 0.18
     },
     {
       "speaker": "Dad",
       "text": "A little something for what?",
-      "timestamp": 7
+      "timestamp": 6.88
     },
     {
       "speaker": "Izzy",
-      "text": "Other home's dirt.",
-      "timestamp": 10
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Jesus, Jesus...",
-      "timestamp": 12
+      "text": "On him shirt. See, see the star.",
+      "timestamp": 9.2
     },
     {
       "speaker": "Dad",
-      "text": "There's the stars. Now it's time for stars and stories.",
-      "timestamp": 18
+      "text": "There's the stars.",
+      "timestamp": 18.04
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No, thank you.",
+      "timestamp": 19.38
+    },
+    {
+      "speaker": "Dad",
+      "text": "Now it's time for Stars and Stories.",
+      "timestamp": 19.96
     },
     {
       "speaker": "Izzy",
       "text": "Always about Hattie.",
-      "timestamp": 22
+      "timestamp": 22.64
     },
     {
       "speaker": "Dad",
-      "text": "Always about Hattie. Yeah. All right, there's our timer. You want to sit in my lap?",
-      "timestamp": 24
+      "text": "Always about Hattie. Yeah. All right, and there's our timer. You want to sit in my lap?",
+      "timestamp": 24.15
     },
     {
       "speaker": "Izzy",
-      "text": "In your lap.",
-      "timestamp": 31
+      "text": "Yeah. Sit in your lap.",
+      "timestamp": 29.3
     },
     {
       "speaker": "Dad",
-      "text": "Once upon a time, Hattie the mouse was very upset because she had a big problem. What was Hattie's problem today?",
-      "timestamp": 37
+      "text": "Okay. Okay. Now, once upon a time, Hattie the Mouse was very upset because she had a big problem. What was Hattie's problem today?",
+      "timestamp": 31.12
     },
     {
       "speaker": "Izzy",
-      "text": "Nothing. Just nothing.",
-      "timestamp": 45
+      "text": "Nothing.",
+      "timestamp": 45.42
     },
     {
       "speaker": "Dad",
-      "text": "Well what did Hattie want to do today?",
-      "timestamp": 50
+      "text": "She d-",
+      "timestamp": 47.18
     },
     {
       "speaker": "Izzy",
-      "text": "Hattie wanted to go for a nature but it was rain and she had to tell Mama about it but Mama was out with her new baby so she had to talk to Nana about it.",
-      "timestamp": 52
+      "text": "Just nothing.",
+      "timestamp": 47.28
     },
     {
       "speaker": "Dad",
-      "text": "Oh, and Hattie Mouse said, \"Nana, I just want to go on a nature walk. But it's raining so I can't go and I wanted to tell Mama about it but she was at the hospital with her new baby, what should I do?\" And what did Nana say?",
-      "timestamp": 69
-    },
-    {
-      "speaker": "Izzy",
-      "text": "You can just play a little bit with blocks.",
-      "timestamp": 83
-    },
-    {
-      "speaker": "Dad",
-      "text": "And what did Hattie say?",
-      "timestamp": 87
-    },
-    {
-      "speaker": "Izzy",
-      "text": "My blocks, my blocks.",
-      "timestamp": 89
-    },
-    {
-      "speaker": "Dad",
-      "text": "Yes, let's play with blocks. And Nana said, \"Great...\"",
-      "timestamp": 92
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Well, in the hall and in your bedroom, Nana Mouse, you have some blocks.",
-      "timestamp": 95
-    },
-    {
-      "speaker": "Dad",
-      "text": "Yes, and Nana Mouse said let's play with blocks. I wonder what we could build. Maybe we could do a pretend nature walk with our blocks. Hmm, what might we see if we took a nature walk? We could build those things with blocks. Hmm, I'm imagining going on a nature walk and I'm walking along the grass and I see a tiny dandelion. I'll make that with my blocks. Okay, your turn Hattie, what do you see on the nature walk?",
-      "timestamp": 102
-    },
-    {
-      "speaker": "Izzy",
-      "text": "I see a bug which is called a worm.",
-      "timestamp": 133
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, a worm. Oh. Are you going to make your worm out of blocks?",
-      "timestamp": 139
+      "text": "Nothing?",
+      "timestamp": 48.6
     },
     {
       "speaker": "Izzy",
       "text": "Yeah.",
-      "timestamp": 143
+      "timestamp": 49.56
     },
     {
       "speaker": "Dad",
-      "text": "Nana said, \"Okay, now it's my turn.\" And I walk along and I hear a chirp-chirp-chirp-chirp and I look all around, up and down and side to side, but I can't see where that bird sound is coming from. Oh, it's up there in a tree. Oh, flap-flap-flap, it flew away. And I'll build a little birdie out of blocks. And maybe a bird's nest too. Okay your turn Hattie.",
-      "timestamp": 145
+      "text": "Well, what did Hattie want to do today?",
+      "timestamp": 49.96
     },
     {
       "speaker": "Izzy",
-      "text": "I saw a bug and some creepy crawlies and some slugs and bugs and some critters.",
-      "timestamp": 171
+      "text": "Hattie wanted to go for a nature, but it was raining. So sh- tell Mama and, but, oh, so, a, with her new baby. So she had to go talk to Nana about it.",
+      "timestamp": 52.46
     },
     {
       "speaker": "Dad",
-      "text": "Slugs and bugs and creepy crawlies and critters, that's awesome. Those are really good things to see on a nature walk. Um, and Nana said, and then I saw a little gray fuzzy shape running really fast straight up a tree with a big bushy tail. Do you know what it was?",
-      "timestamp": 183
+      "text": "Oh, and Hattie Mouse said, \"Nana, I just want to go on a nature walk, but it's raining so I can't go and I wanted to tell Nan- tell Mama about it, but she was at the hospital with her new baby. What should I do?\" And what did Nana say?",
+      "timestamp": 71.06
     },
     {
       "speaker": "Izzy",
-      "text": "It was a squirrel.",
-      "timestamp": 202
+      "text": "You could just play a little bit with blocks.",
+      "timestamp": 83.3
     },
     {
       "speaker": "Dad",
-      "text": "Yeah, it was a squirrel that I saw and it was looking for some nuts. Okay your turn Hattie, what did you see next on the nature walk?",
-      "timestamp": 204
+      "text": "And what did Hattie say?",
+      "timestamp": 86.76
     },
     {
       "speaker": "Izzy",
-      "text": "No, let's imagine what I saw on the nature walk.",
-      "timestamp": 212
+      "text": "I want to play with blocks. Yes.",
+      "timestamp": 88.38
     },
     {
       "speaker": "Dad",
-      "text": "Yeah, let's imagine.",
-      "timestamp": 217
+      "text": "Yes, let's play with blocks. And Nana said, \"Great.\"",
+      "timestamp": 91.91
     },
     {
       "speaker": "Izzy",
-      "text": "I saw a... I saw a big pink tail on an elephant who saw... who saw me.",
-      "timestamp": 219
+      "text": "Well, in the hall, in your bedroom-",
+      "timestamp": 94.74
+    },
+    {
+      "speaker": "Dad",
+      "text": "Mm-hmm",
+      "timestamp": 98.62
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... Nana Mouse, you have some blocks.",
+      "timestamp": 98.7
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yes. And Nana Mouse said, \"Let's play with blocks. I wonder what we could build. Maybe we could do a pretend nature walk with our blocks. Hmm, what might we see if we took a nature walk? We could build those things with blocks. Hmm. I'm imagining going on a nature walk, and I'm walking along on the grass, and I see a tiny dandelion.",
+      "timestamp": 101.8
+    },
+    {
+      "speaker": "Dad",
+      "text": "I'll make that with my blocks.\" Okay, your turn, Hattie. What do you see on the nature walk?",
+      "timestamp": 125.88
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I see a bug, which is called a worm.",
+      "timestamp": 133.26
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, a worm. Oh. Are you gonna make your worm out of blocks?",
+      "timestamp": 138.9
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah.",
+      "timestamp": 146.42
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yeah. Nana said, \"Okay, now it's my turn. And I walk along, and I hear a chirp, chirp, chirp, chirp, chirp. And I look all around, up and down and side to side-",
+      "timestamp": 147.19
+    },
+    {
+      "speaker": "Izzy",
+      "text": "There",
+      "timestamp": 157.17
+    },
+    {
+      "speaker": "Dad",
+      "text": "... but I can't see where that bird sound's coming from. Oh, it's up there in a tree. Oh, flap, flap, flap. It flew away. And I'll build a little birdie out of blocks, and maybe a bird's nest, too.\" Okay, your turn, Hattie.",
+      "timestamp": 157.17
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I saw a slug with some creepy crawl- with some slugs and bugs and some critters.",
+      "timestamp": 172.1
+    },
+    {
+      "speaker": "Dad",
+      "text": "Slugs and bugs and creepy crawlies and critters. That's awesome. Those are really good things to see on a nature walk. Um, and Nana said, \"And then I saw a little gray, fuzzy shape running really fast straight up a tree with a big bushy tail.\" Do you know what it was?",
+      "timestamp": 181.12
+    },
+    {
+      "speaker": "Izzy",
+      "text": "It was...",
+      "timestamp": 199.52
+    },
+    {
+      "speaker": "Dad",
+      "text": "It, yeah, it was a squirrel that I saw, and it was looking for some nuts. Okay, your turn. What did you see next on the nature walk?",
+      "timestamp": 201.9
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No, what's the matter what I saw on the nature walk.",
+      "timestamp": 212.4
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yeah, what did you see?",
+      "timestamp": 216.24
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I saw a, I saw a pink tail with big wings. One of them was some seas.",
+      "timestamp": 216.88
+    },
+    {
+      "speaker": "Dad",
+      "text": "What'd you say?",
+      "timestamp": 231.12
     },
     {
       "speaker": "Izzy",
       "text": "I saw an elephant with a flower on its head with the big stormy seas.",
-      "timestamp": 232
+      "timestamp": 232.82
     },
     {
       "speaker": "Dad",
-      "text": "Oh, an elephant with a flower on its head and big stormy seas. Oh. Well then I saw... um... a horse with pink and blue stripes and big funny glasses.",
-      "timestamp": 239
+      "text": "Oh, an elephant with a flower on its head and big stormy seas?",
+      "timestamp": 240
     },
     {
       "speaker": "Izzy",
-      "text": "Haha. Yeah.",
-      "timestamp": 262
+      "text": "Mm-hmm.",
+      "timestamp": 245.08
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh. Well then, I saw, um, a horse with pink and blue stripes and big, funny glasses.",
+      "timestamp": 245.29
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And-",
+      "timestamp": 261.92
     },
     {
       "speaker": "Dad",
       "text": "What did you see?",
-      "timestamp": 264
+      "timestamp": 263.46
     },
     {
       "speaker": "Izzy",
-      "text": "I saw a flower and a funny little flower and big spider trying to get the nectar, but it was raining, so an ant came inside and a worm too. That's what I saw.",
-      "timestamp": 266
+      "text": "I saw a flower and a funny flower. We tried to get in the nature-",
+      "timestamp": 265.14
     },
     {
       "speaker": "Dad",
-      "text": "Wow, that's a very interesting thing to see on a nature walk. I saw a big fat woodchuck. And it went waddle-waddle-waddle and it said, \"Excuse me, do you have any vegetables? I want to eat them.\" And we said, \"I'm sorry, no, you already ate all the vegetables in our garden.\" And he said, \"Oh, too bad, I'll go to the garden next door.\" What did you see?",
-      "timestamp": 286
+      "text": "Oh",
+      "timestamp": 272.8
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... but it was raining, so an ant came inside.",
+      "timestamp": 272.81
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, it did?",
+      "timestamp": 278.78
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And a worm, too.",
+      "timestamp": 280.42
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh.",
+      "timestamp": 282.14
+    },
+    {
+      "speaker": "Izzy",
+      "text": "That's what I saw.",
+      "timestamp": 283.96
+    },
+    {
+      "speaker": "Dad",
+      "text": "Wow, that's a very interesting thing to see on a nature walk. I saw a big fat woodchuck. And it went waddle, waddle, waddle, and it said, \"Excuse me, do you have any vegetables? I want to eat them.\" And we said, \"I'm sorry. No, you already ate all the vegetables in our garden.\"",
+      "timestamp": 285.4
+    },
+    {
+      "speaker": "Dad",
+      "text": "And he said, \"Oh, too bad. I'll go to the garden next door.\" What did you see?",
+      "timestamp": 304.32
     },
     {
       "speaker": "Izzy",
       "text": "I don't know.",
-      "timestamp": 311
+      "timestamp": 311.88
     },
     {
       "speaker": "Dad",
-      "text": "Maybe that was the end of the nature walk?",
-      "timestamp": 313
+      "text": "Maybe that was the end of the nature walk.",
+      "timestamp": 314.6
     },
     {
       "speaker": "Izzy",
-      "text": "Maybe you can build with blocks.",
-      "timestamp": 315
+      "text": "Maybe we could build more with blocks.",
+      "timestamp": 318.48
     },
     {
       "speaker": "Dad",
-      "text": "Oh yeah, we were building our nature walk with blocks. And so Nana and Hattie the mouse built a beautiful nature walk with blocks...",
-      "timestamp": 317
+      "text": "Oh yeah, we were building our nature walk with blocks. And so Nana and Hattie the Mouse built a beautiful nature walk with blocks and-",
+      "timestamp": 321.2
     },
     {
       "speaker": "Izzy",
-      "text": "...and some foxes and ants and squirrels and elephants and bunnies and foxes.",
-      "timestamp": 328
+      "text": "Some foxes and squirrels and oh, some bunnies and foxes.",
+      "timestamp": 328.82
     },
     {
       "speaker": "Dad",
-      "text": "Wow, there were so many different kinds of creatures on their nature walk. And then they did a pretend nature walk by walking with their fingers just like Sneaky Mouse, walk-walk-walk-walk-walk, through their blocks. And they saw all the different creatures and all the different plants and all the different creepy crawlies and slugs and bugs and butterflies and worms and insects and all kinds of things. And then they came back home because they were done with their nature walk. And so when they were done, they put away all their blocks and they said, oh Nana said, \"Thank you for such a nice pretend nature walk with blocks.\" And Hattie said, \"Oh thank you Nana, I thought it was a great pretend adventure that we had.\" And that's the end of Stars and Stories.",
-      "timestamp": 334
+      "text": "Wow, there were so many different kinds of creatures on their nature walk. And then they did a pretend nature walk by walking with their fingers, just like Sneaky Mouse, walk, walk, walk, walk, walk, through their blocks. And they saw all the different creatures and all the different plants and all the different creepy crawlies and slugs and bugs and butterflies and worms and insects and all kinds of things.",
+      "timestamp": 334.46
+    },
+    {
+      "speaker": "Dad",
+      "text": "And then they came back home 'cause they were done with their nature walk. And so when they were done, they put away all their blocks and they said, \"Oh,\" Nana said, \"Thank you for such a nice pretend nature walk with blocks.\" And Hattie said, \"Oh, thank you, Nana.",
+      "timestamp": 360.5
+    },
+    {
+      "speaker": "Dad",
+      "text": "I thought it was a great, uh, pretend adventure that we had.\" And that's the end of Stars and Stories.",
+      "timestamp": 375.54
     },
     {
       "speaker": "Izzy",
-      "text": "Dad, put all the flowers back where they lived.",
-      "timestamp": 386
+      "text": "Dad, let's put all the flowers back where they live.",
+      "timestamp": 385.18
     },
     {
       "speaker": "Dad",
-      "text": "Oh yeah, that's a good idea. Putting the flowers back. I like that idea. One of them's in the chair there. Here, I'll turn off the light.",
-      "timestamp": 389
+      "text": "Oh, yeah.",
+      "timestamp": 389.36
     },
     {
       "speaker": "Izzy",
-      "text": "Dad, you put the flowers back where they lived.",
-      "timestamp": 398
+      "text": "The flowers.",
+      "timestamp": 390.44
     },
     {
       "speaker": "Dad",
-      "text": "Yeah, that's always a good idea.",
-      "timestamp": 404
+      "text": "That's a good idea, putting the flowers back. I, I like that idea. One of them's in the chair there. Here, I'll turn on the light.",
+      "timestamp": 390.49
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Dad, you put the flowers back where they live.",
+      "timestamp": 398.06
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yeah, that's a- always a good idea, Hat-",
+      "timestamp": 404.26
     }
   ],
   "characters": [
@@ -344,7 +464,19 @@
       "description": "The final destination where Hattie and Nana return after their nature walk."
     }
   ],
-  "wordCount": 914,
-  "izzyWordCount": 237,
-  "dadWordCount": 677
+  "wordCount": 957,
+  "izzyWordCount": 242,
+  "dadWordCount": 715,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T15:00:18.560Z",
+    "speakerMap": {
+      "speaker_0": "Izzy",
+      "speaker_1": "Dad"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "high"
+  }
 }

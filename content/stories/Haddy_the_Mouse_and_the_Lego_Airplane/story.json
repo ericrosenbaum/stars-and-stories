@@ -6,173 +6,258 @@
   "audioFilename": "Cornell St 39.m4a",
   "highlightQuote": {
     "text": "Hattie, be very quiet. I'm sick and I'm resting, so you better be very, very, very quiet.",
-    "timestamp": 28.5
+    "timestamp": 27.22
   },
   "transcript": [
     {
       "speaker": "Dad",
-      "text": "Once upon a time...",
-      "timestamp": 25
+      "text": "Oh, okay.",
+      "timestamp": 2.22
     },
     {
       "speaker": "Izzy",
-      "text": "Hattie, be very quiet. I'm sick and I'm resting, so you better be very, very, very quiet.",
-      "timestamp": 28.5
+      "text": "Okay. Hey. Oh.",
+      "timestamp": 2.65
     },
     {
       "speaker": "Dad",
-      "text": "Once upon a time, Izzy the kiddo was sick and she was resting, and Hattie the Mouse came to visit her. Hattie the mouse said, 'Oh hello Izzy, I heard you're sick. How are you feeling?'",
-      "timestamp": 38
+      "text": "All right, I'm gonna turn off the lamp. And there's the stars. Okay, let's... And we'll set the blue timer for a short Stars and Stories.",
+      "timestamp": 8.18
     },
     {
       "speaker": "Izzy",
-      "text": "I'm good, but I'm a little sick. So I'm resting in bed and I'm going... Achoo! Achoo! I'm sick.",
-      "timestamp": 52
+      "text": "I'm sick. I'm sick, I'm sick.",
+      "timestamp": 20.63
     },
     {
       "speaker": "Dad",
-      "text": "And Hattie said 'Gesundheit! Here's a tissue.' And Hattie said, 'Is there anything I can bring you? Would you like, um, some soup?'",
-      "timestamp": 103
+      "text": "Oh, once upon a time-",
+      "timestamp": 24.38
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Hattie. Be very quiet. I'm sick and I'm resting, so you better be very, very, very, very quiet.",
+      "timestamp": 27.22
+    },
+    {
+      "speaker": "Dad",
+      "text": "Once upon a time, Izzy the Kiddo was sick, and she was resting, and Hattie the Mouse came to visit her. Hattie the Mouse said, \"Oh, hello, Izzy. I heard you're sick. How are you feeling?\"",
+      "timestamp": 38.82
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I'm good, but I'm a little sick, so I'm resting in bed.",
+      "timestamp": 52.12
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh.",
+      "timestamp": 59.02
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And I'm going, \"Achoo, achoo.\" I'm sick.",
+      "timestamp": 59.38
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Hattie said, \"Gesundheit. Here's a tissue.\" And Hattie said, \"Is there anything I can bring you? Would you like, um, some soup?\"",
+      "timestamp": 64.68
     },
     {
       "speaker": "Izzy",
       "text": "No, I just need to play with some Legos.",
-      "timestamp": 113
+      "timestamp": 74.42
     },
     {
       "speaker": "Dad",
-      "text": "Oh some Legos! I'll bring you some Legos. And so Hattie went to her house and got a big box of Legos and she brought them to Izzy the Kiddo. 'Izzy!'",
-      "timestamp": 118
+      "text": "Oh, some Legos. I'll bring you some Legos. And so Hattie went to her house and got a big box of Legos, and she brought them to Izzy the Kiddo.",
+      "timestamp": 77.2
     },
     {
       "speaker": "Izzy",
-      "text": "And Izzy said, 'I already have some Legos which I can build with.'",
-      "timestamp": 128
+      "text": "Izzy-",
+      "timestamp": 86.32
     },
     {
       "speaker": "Dad",
-      "text": "Oh. And Hattie the Mouse said, 'Can I play Legos with you, Izzy?'",
-      "timestamp": 136
+      "text": "Whoops.",
+      "timestamp": 87.96
     },
     {
       "speaker": "Izzy",
-      "text": "Of course. What should we build together?",
-      "timestamp": 139
+      "text": "And Izzy said, \"I already have some Legos which I can build with.\"",
+      "timestamp": 88.04
     },
     {
       "speaker": "Dad",
-      "text": "What should we build?",
-      "timestamp": 143
+      "text": "Oh. And Hattie the Mouse said, \"Can I play Legos with you, Izzy?\"",
+      "timestamp": 93.92
     },
     {
       "speaker": "Izzy",
-      "text": "Well, first I have to go build with Uncle Bill, Uncle Bill, Uncle, Uncle, Uncle Bill. Uncle... Uncle Bill. Daddy can you help me find Uncle Bill?",
-      "timestamp": 144
+      "text": "Of course.",
+      "timestamp": 98.31
     },
     {
       "speaker": "Dad",
-      "text": "Yeah. Oh, I see him, he's right here.",
-      "timestamp": 200
+      "text": "What should, what should we build together?",
+      "timestamp": 100.56
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Let's first ask Uncle Bill what he's working on today. Uncle Bill, Uncle Bill, Uncle, Uncle, Uncle Bill. Come on. Um...",
+      "timestamp": 103.8
+    },
+    {
+      "speaker": "Dad",
+      "text": "Where is that Uncle Bill?",
+      "timestamp": 120.18
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Uh, can you help me find Uncle Bill?",
+      "timestamp": 122.02
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yes. Oh, I see him. He's right here.",
+      "timestamp": 124.8
     },
     {
       "speaker": "Izzy",
       "text": "Uncle Bill, what do you work on today?",
-      "timestamp": 203
+      "timestamp": 128.14
     },
     {
       "speaker": "Dad",
       "text": "Oh, well, I'm working on building something very special.",
-      "timestamp": 206
+      "timestamp": 130.5
     },
     {
       "speaker": "Izzy",
-      "text": "But I'm going to build with Legos too.",
-      "timestamp": 212
+      "text": "But I'm going to build with Legos, too.",
+      "timestamp": 136.54
     },
     {
       "speaker": "Dad",
-      "text": "Oh you are? I'm going to build some stairs.",
-      "timestamp": 216
+      "text": "Oh, you are? I'm going to build some stairs.",
+      "timestamp": 139.56
     },
     {
       "speaker": "Izzy",
-      "text": "I'm building stairs too.",
-      "timestamp": 221
+      "text": "I'm building stairs, too.",
+      "timestamp": 145.28
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, you are? Oh, that's interesting.",
+      "timestamp": 147.34
     },
     {
       "speaker": "Izzy",
-      "text": "Little brick.",
-      "timestamp": 229
+      "text": "No break. Oh, oh, oh, oh, oh, oh.",
+      "timestamp": 158.9
     },
     {
       "speaker": "Dad",
-      "text": "And so, even though Izzy the Kiddo was feeling sick, she had a good time building with Legos with her friend Hattie the Mouse. And what did they build together? What did they make?",
-      "timestamp": 248
-    },
-    {
-      "speaker": "Dad",
-      "text": "And Uncle Bill says, 'Aha! Here's my thing that I made. What do you think of that?'",
-      "timestamp": 319
+      "text": "And so, even though Izzy the Kiddo was feeling sick, she had a good time building with Legos with her friend Hattie the Mouse. And what did they build together? What did they make? And Uncle Bill says, \"Aha, here's my thing that I made. What do you think of that?\"",
+      "timestamp": 171.54
     },
     {
       "speaker": "Izzy",
       "text": "I like it, Uncle Bill.",
-      "timestamp": 330
+      "timestamp": 210.96
     },
     {
       "speaker": "Dad",
       "text": "Thank you. It's symmetrical. It's got stairs on both sides.",
-      "timestamp": 333
+      "timestamp": 212.68
     },
     {
       "speaker": "Izzy",
       "text": "Uncle Bill, look what I'm making. I made a little airplane for you.",
-      "timestamp": 341
+      "timestamp": 219.88
     },
     {
       "speaker": "Dad",
-      "text": "Wow! What a cool airplane. Thanks for making that, Izzy. And what did Hattie the Mouse build?",
-      "timestamp": 345
+      "text": "Wow, what a cool airplane. Thanks for making that, Izzy. And what did Hattie the Mouse build?",
+      "timestamp": 225.36
     },
     {
       "speaker": "Izzy",
-      "text": "Hattie-ma, look at your airplane, for you and Uncle Bill. Wow what a cool airplane.",
-      "timestamp": 353
+      "text": "Hi, Mouse. Look at your airplane.",
+      "timestamp": 232.2
+    },
+    {
+      "speaker": "Dad",
+      "text": "Wow.",
+      "timestamp": 236.6
+    },
+    {
+      "speaker": "Izzy",
+      "text": "For you and Uncle Bill.",
+      "timestamp": 236.74
+    },
+    {
+      "speaker": "Dad",
+      "text": "Wow, what a cool airplane.",
+      "timestamp": 238.54
+    },
+    {
+      "speaker": "Izzy",
+      "text": "It is.",
+      "timestamp": 241.34
     },
     {
       "speaker": "Dad",
       "text": "Izzy, can you make it fly?",
-      "timestamp": 403
+      "timestamp": 241.97
     },
     {
       "speaker": "Izzy",
-      "text": "Wait, I'll attach the bottom. See how it flies and flies way up high into the sky.",
-      "timestamp": 406
+      "text": "If I touch this button.",
+      "timestamp": 248.42
     },
     {
       "speaker": "Dad",
-      "text": "Wow, it's flying high up in the sky. Oh, and that's our timer. So that's the end of Stars and Stories and Lego School. And Hattie the Mouse said, 'Bye bye, Izzy, I hope you feel better.' And that's the end.",
-      "timestamp": 430
+      "text": "Oh, there you go.",
+      "timestamp": 261.52
+    },
+    {
+      "speaker": "Izzy",
+      "text": "It helped fly the flies way up high into the sky.",
+      "timestamp": 264.24
     },
     {
       "speaker": "Dad",
-      "text": "Okay, let's tuck in our Legos again.",
-      "timestamp": 457
+      "text": "Wow, it's flying high up in the sky. Oh, and that's our timer. So that's the end of Stars and Stories.",
+      "timestamp": 271.62
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Stars and Stories.",
+      "timestamp": 282.75
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Hattie the Mouse said, \"Bye bye, Izzy. I hope you feel better.\" And that's the end. Okay, let's tuck in our Legos again.",
+      "timestamp": 285.72
     },
     {
       "speaker": "Izzy",
       "text": "Why?",
-      "timestamp": 458
+      "timestamp": 298.12
     },
     {
       "speaker": "Dad",
-      "text": "Cause it's time for your nap.",
-      "timestamp": 500
+      "text": "'Cause it's time for your nap.",
+      "timestamp": 299.14
     },
     {
       "speaker": "Izzy",
       "text": "Well, I'll tuck in my airplane.",
-      "timestamp": 501
+      "timestamp": 301.54
     }
   ],
   "characters": [
@@ -204,7 +289,19 @@
       "description": "The home of Hattie the Mouse where she keeps her large collection of Legos."
     }
   ],
-  "wordCount": 446,
-  "izzyWordCount": 171,
-  "dadWordCount": 275
+  "wordCount": 511,
+  "izzyWordCount": 185,
+  "dadWordCount": 326,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T14:59:32.916Z",
+    "speakerMap": {
+      "speaker_0": "Dad",
+      "speaker_1": "Izzy"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "high"
+  }
 }

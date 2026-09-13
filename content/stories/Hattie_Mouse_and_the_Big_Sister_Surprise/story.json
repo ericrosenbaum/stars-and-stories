@@ -6,223 +6,318 @@
   "audioFilename": "Cornell St 43.m4a",
   "highlightQuote": {
     "text": "And then I got the piece of rip off of my toenail.",
-    "timestamp": 642
+    "timestamp": 402.28
   },
   "transcript": [
     {
       "speaker": "Dad",
-      "text": "Once upon a time...",
-      "timestamp": 33
+      "text": "All right. And now, oh, you've got your binoculars. Do you want to come down for Stars and Stories-",
+      "timestamp": 7.8
     },
     {
       "speaker": "Izzy",
-      "text": "Hattie!",
-      "timestamp": 41
+      "text": "No",
+      "timestamp": 17.36
     },
     {
       "speaker": "Dad",
-      "text": "Hattie Mouse, yes. Once upon a time Hattie Mouse got some very big news. You know what the news was?",
-      "timestamp": 43
+      "text": "... or stay up there?",
+      "timestamp": 17.48
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Up there.",
+      "timestamp": 18.58
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay. And we'll set the timer. All right. And I'll come over there with you. Okay. Now it's time for Stars and Stories. Once upon a time-",
+      "timestamp": 19.5
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Hattie.",
+      "timestamp": 41.86
+    },
+    {
+      "speaker": "Dad",
+      "text": "Hattie-",
+      "timestamp": 42.88
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Mous-",
+      "timestamp": 43.46
+    },
+    {
+      "speaker": "Dad",
+      "text": "Hattie Mouse, yes. Once upon a time, Hattie Mouse got some very big news. You know what the news was?",
+      "timestamp": 43.47
     },
     {
       "speaker": "Izzy",
       "text": "Yeah.",
-      "timestamp": 52
+      "timestamp": 51.1
     },
     {
       "speaker": "Dad",
       "text": "Tomorrow, Hattie Mouse's baby sister was gonna come home. How did Hattie Mouse feel about that?",
-      "timestamp": 53
+      "timestamp": 51.73
     },
     {
       "speaker": "Izzy",
       "text": "Happy.",
-      "timestamp": 60
+      "timestamp": 60.96
     },
     {
       "speaker": "Dad",
-      "text": "Happy. Oh good. What did Hattie Mouse do?",
-      "timestamp": 62
+      "text": "Happy? Oh, good. What did Hattie Mouse do?",
+      "timestamp": 61.96
     },
     {
       "speaker": "Izzy",
       "text": "She played.",
-      "timestamp": 64
+      "timestamp": 65.78
     },
     {
       "speaker": "Dad",
       "text": "What did she play with?",
-      "timestamp": 66
+      "timestamp": 67.28
     },
     {
       "speaker": "Izzy",
       "text": "Legos.",
-      "timestamp": 108
+      "timestamp": 70.48
     },
     {
       "speaker": "Dad",
-      "text": "Legos. Did she do anything to get ready to for her sister to come home?",
-      "timestamp": 109
+      "text": "Legos? Did she do anything to get ready to, for her sister to come home?",
+      "timestamp": 71.23
     },
     {
       "speaker": "Izzy",
       "text": "Yes.",
-      "timestamp": 114
-    },
-    {
-      "speaker": "Izzy",
-      "text": "No, come down.",
-      "timestamp": 115
+      "timestamp": 77.44
     },
     {
       "speaker": "Dad",
-      "text": "You want to come down? Okay. Let me help you down.",
-      "timestamp": 154
+      "text": "What'd she do?",
+      "timestamp": 78.24
     },
     {
       "speaker": "Izzy",
-      "text": "I can scoot. No, scoot.",
-      "timestamp": 155
+      "text": "She, she... Now I want to come down.",
+      "timestamp": 81.16
+    },
+    {
+      "speaker": "Dad",
+      "text": "You want to come down? Okay.",
+      "timestamp": 113.78
     },
     {
       "speaker": "Izzy",
-      "text": "Dad.",
-      "timestamp": 211
+      "text": "Ugh.",
+      "timestamp": 116.71
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay, let me help you down.",
+      "timestamp": 117.5
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I can s- scoo.",
+      "timestamp": 118.88
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay, you can scoot all by yourself. There you go.",
+      "timestamp": 120.6
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And Dad?",
+      "timestamp": 131.02
     },
     {
       "speaker": "Dad",
       "text": "Yeah?",
-      "timestamp": 212
+      "timestamp": 132.8
     },
     {
       "speaker": "Izzy",
-      "text": "Now, Dad, I need the special cloth. Dad, I need a special cloth!",
-      "timestamp": 214
+      "text": "You know, Daddy needs a special cloth. Daddy needs a special cloth.",
+      "timestamp": 133.58
     },
     {
       "speaker": "Dad",
       "text": "Oh, this one?",
-      "timestamp": 220
+      "timestamp": 139.54
     },
     {
       "speaker": "Izzy",
-      "text": "Yep.",
-      "timestamp": 222
+      "text": "Yep. Got it.",
+      "timestamp": 140.6
     },
     {
       "speaker": "Dad",
       "text": "So what was Hattie's baby sister's name?",
-      "timestamp": 239
+      "timestamp": 160.36
     },
     {
       "speaker": "Izzy",
-      "text": "Avery!",
-      "timestamp": 241
+      "text": "Avery.",
+      "timestamp": 163.28
     },
     {
       "speaker": "Dad",
-      "text": "Oh, and Hattie was so excited that her baby sister Avery was coming home the next day. So she got everything ready for Avery. She got her bottles ready, and a little bassinet ready for Avery to sleep in, and her little diapers and her wipes and little tiny outfits for baby Avery to wear and new books to read and new toys to play with. She got all kinds of things ready for her baby sister. And then she went to sleep. And in the morning, guess who showed up? It was baby Avery! And so what did Hattie Mouse do?",
-      "timestamp": 243
+      "text": "Oh. And Hattie was so excited that her baby sister Avery was coming home the next day, so she got everything ready for Avery. She got her bottles ready and a little bassinet ready for Avery to sleep in, and her little diapers and her wipes, and little tiny outfits for baby Avery to wear, um, and new books to read and new toys to play with.",
+      "timestamp": 164.7
     },
     {
       "speaker": "Dad",
-      "text": "No no no, tap story.",
-      "timestamp": 344
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, okay. And so then baby Avery came to Hattie the mouse's house. And Hattie the mouse was so happy and she gave Avery a gentle kiss because she was just a little tiny baby after all. And baby Avery went to sleep and she was sleeping so cozily. And her mama was snuggling her and her dada was snuggling her. And Hattie the mouse said, 'What can we do? Can we go out and play?' And they said, 'Well, we have to feed Avery now.' And so daddy gave Avery a little bottle of milk and Avery drank it. And Hattie the mouse watched and learned about how Avery drinks her milk. Drink drink drink drink drink from the bottle. And then after she was done, Avery made a little burp.",
-      "timestamp": 346
-    },
-    {
-      "speaker": "Dad",
-      "text": "And she made a little poop, so they had to change her diaper. So they changed Avery's diaper. And it was just like Izzy's diapers, they just have to get changed sometimes. And then Avery went back to sleep and mama and dada could play with Izzy—I mean with Hattie. The story about Hattie, isn't it?",
-      "timestamp": 447
+      "text": "She got all kinds of things ready for her baby sister, and then she went to sleep, and in the morning, guess who showed up? It was baby Avery. And so what did Hattie the Mouse do?",
+      "timestamp": 196.6
     },
     {
       "speaker": "Izzy",
-      "text": "Tap story.",
-      "timestamp": 515
+      "text": "This might look... I think I'll sit on it right now.",
+      "timestamp": 213.18
     },
     {
       "speaker": "Dad",
-      "text": "Oh, okay. Hmm... I don't know what else should happen in this story.",
-      "timestamp": 518
+      "text": "Oh, you're gonna sit on it, okay.",
+      "timestamp": 216.54
     },
     {
       "speaker": "Izzy",
-      "text": "Now, no, you keep doing story and I'll find out.",
-      "timestamp": 527
+      "text": "Wait. No, no tell story.",
+      "timestamp": 221.52
     },
     {
       "speaker": "Dad",
-      "text": "Oh, okay. Well, Hattie the mouse was so happy to have her whole family together all at home. And so next, they had a meal all together, which was so cozy to have everyone together. And what did Hattie eat for her meal?",
-      "timestamp": 531
+      "text": "Oh, okay. And so then baby Avery came to Hattie the Mouse's house, and Hattie the Mouse was so happy, and she gave Avery a gentle kiss, 'cause she was just a little tiny baby after all. And baby Avery went to sleep, and she was sleeping so cozily, and her mama was snuggling her, and her dada was snuggling her.",
+      "timestamp": 224.88
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Hattie the Mouse said, \"What can we do? Can we go out and play?\" And they said, \"Well, we have to feed Avery now.\" And so Daddy gave Avery a little bottle of milk, and Avery drank it. And Hattie the Mouse watched and learned about how Avery drinks her milk.",
+      "timestamp": 253.98
+    },
+    {
+      "speaker": "Dad",
+      "text": "Drink, drink, drink, drink, drink from the bottle. And then after she was done, Avery made a little burp. Burp. And she made a little poop, so they had to change her diaper. So they changed Avery's diaper, and it was just like Izzy's diapers. They just gotta get changed sometimes.",
+      "timestamp": 277.28
+    },
+    {
+      "speaker": "Dad",
+      "text": "And then Avery went back to sleep, and Mama and Dada could play with Izzy. I mean, with Hattie. It's a story about Hattie, isn't it?",
+      "timestamp": 302.08
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Wait. No, no tell story.",
+      "timestamp": 315.9
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, okay. Hm. I don't know what else should happen in this story. Well-",
+      "timestamp": 318.36
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No, no, you keep telling story and then I'll find out.",
+      "timestamp": 326.6
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, okay. Well, Hattie the Mouse was so happy to have her whole family together all at home. And so next, they had a meal all together, which was so cozy to have everyone together. And what did Hattie eat for her meal?",
+      "timestamp": 329.8
     },
     {
       "speaker": "Izzy",
       "text": "Soup.",
-      "timestamp": 551
+      "timestamp": 348.66
     },
     {
       "speaker": "Dad",
-      "text": "Soup. Hattie ate some soup, but the baby was too young to have soup. She just had milk for her meal. And the mommy and the daddy, they had soup too. And they all talked about their day and about how much they loved each other. And they read a book. What book did they read?",
-      "timestamp": 552
+      "text": "Soup. Hattie ate some soup, but the baby was too young to have soup. She just had milk for her meal. And the mommy and the daddy, they had soup too, and they all talked about their day and about how much they loved each other. And they read a book. What book did they read?",
+      "timestamp": 350.31
     },
     {
       "speaker": "Izzy",
-      "text": "They readed about babies.",
-      "timestamp": 612
+      "text": "They read about babies.",
+      "timestamp": 370.6
     },
     {
       "speaker": "Dad",
       "text": "Oh, they read about babies? What did they learn about babies from their book?",
-      "timestamp": 615
+      "timestamp": 373.6
     },
     {
       "speaker": "Izzy",
       "text": "They crawled.",
-      "timestamp": 618
+      "timestamp": 378.36
     },
     {
       "speaker": "Dad",
-      "text": "Oh. Yeah, sometimes babies crawl. It takes a while before they can learn even to crawl, but then they crawl. And then after they learn how to crawl, you know what they learn how to do next? Walking. Then they can stand up on their own and walk. But it takes a long time to learn how to walk.",
-      "timestamp": 620
+      "text": "Oh. Yeah, sometimes babies crawl. It takes a while before they can learn even to crawl, but then they crawl, and then after they learn how to crawl, you know what they learn how to do next? Walking. Then they can stand up on their own and walk. But it takes a long time to learn how to walk.",
+      "timestamp": 380.48
     },
     {
       "speaker": "Izzy",
-      "text": "And then I got the piece of rip off of my toenail.",
-      "timestamp": 642
+      "text": "And I got the piece of rip off of my toenail.",
+      "timestamp": 402.28
     },
     {
       "speaker": "Dad",
       "text": "Oh, okay. Does it feel better?",
-      "timestamp": 647
+      "timestamp": 407.06
     },
     {
       "speaker": "Izzy",
       "text": "Now is it time?",
-      "timestamp": 706
+      "timestamp": 423.58
     },
     {
       "speaker": "Dad",
-      "text": "Almost. Well, let's just finish the story. And so Hattie and her whole family, they were so happy to be all together. And then after they had their mealtime, it was time for a bath. Now sometimes Hattie the mouse had a regular bath like always, but then they had to add a new way to do bath because sometimes it was time for her baby sister to have a bath. And so then they did a very special bath time with first one person having a bath and then another. And so then after everyone had their bath, they had a very cozy bedtime. What did they do for their bedtime?",
-      "timestamp": 707
+      "text": "Almost. Well, let's just finish the story. And so Hattie and her whole family, they were so happy to be all together, and then after they had their mealtime, it was time for a bath. Now, sometimes Hattie the Mouse had a regular bath like always, but then they had to add a new way to do bath because sometimes it was time for her baby sister to have a bath.",
+      "timestamp": 425.74
+    },
+    {
+      "speaker": "Dad",
+      "text": "And so then they did a very special bath time with first one person having a bath and then another. And so then after everyone had their bath, they had a very cozy bedtime. What did they do for their bedtime?",
+      "timestamp": 455
     },
     {
       "speaker": "Izzy",
       "text": "They both went to sleep.",
-      "timestamp": 758
+      "timestamp": 476.92
     },
     {
       "speaker": "Dad",
-      "text": "Well, they read books and they told stories and they snuggled up with their stuffies and then they got in bed and everyone had a little song and then they went to sleep. And that's the end.",
-      "timestamp": 800
+      "text": "Well, they read books, and they told stories, and they snuggled up with their stuffies, and then they got in bed, and everyone had a little song, and then they went to sleep. And that's the end.",
+      "timestamp": 479.86
     },
     {
       "speaker": "Izzy",
-      "text": "Boing! Boing!",
-      "timestamp": 816
+      "text": "Oh.",
+      "timestamp": 495.8
+    },
+    {
+      "speaker": "Dad",
+      "text": "Now it's time-",
+      "timestamp": 497.64
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Boing.",
+      "timestamp": 499.04
+    },
+    {
+      "speaker": "Dad",
+      "text": "Boing.",
+      "timestamp": 500.69
     }
   ],
   "characters": [
@@ -254,7 +349,19 @@
       "description": "The cozy family home where Hattie and her family live."
     }
   ],
-  "wordCount": 798,
-  "izzyWordCount": 73,
-  "dadWordCount": 725
+  "wordCount": 901,
+  "izzyWordCount": 103,
+  "dadWordCount": 798,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T15:00:05.050Z",
+    "speakerMap": {
+      "speaker_0": "Dad",
+      "speaker_1": "Izzy"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "low"
+  }
 }

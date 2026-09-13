@@ -11,78 +11,98 @@
   "transcript": [
     {
       "speaker": "Dad",
-      "text": "What should we tell a story about this time? Just a quick one.",
-      "timestamp": 5
+      "text": "Um, what should we tell a story about this time? Just a quick one.",
+      "timestamp": 3.66
     },
     {
       "speaker": "Izzy",
-      "text": "Hattie story.",
-      "timestamp": 13
+      "text": "Yeah. It would be a Hattie story.",
+      "timestamp": 10.75
     },
     {
       "speaker": "Dad",
-      "text": "A Hattie story. Okay. Once upon a time, a customer came to Hattie's house with a question about a hat that Hattie had made. Who was the customer? Was it Lion or Octopus or Pooh Bear?",
-      "timestamp": 18
+      "text": "A Hattie story? Okay. Once upon a time, a customer came to Hattie's house with a question about a hat that Hattie had made. Who was the customer? Was it Lion, or Octopus, or Pooh Bear?",
+      "timestamp": 17.33
     },
     {
       "speaker": "Izzy",
-      "text": "I can't remember. Oh! I know, I know, I know, I know! It was Mischief.",
-      "timestamp": 37
+      "text": "Oh, I can't remember. Ah. I know, I know, I know, I know. It was Mischief.",
+      "timestamp": 34.84
     },
     {
       "speaker": "Dad",
-      "text": "Oh, it was Mischief Mouse. And Hattie the mouse had made for Mischief Mouse a beautiful hat made of Legos. But Mischief Mouse came to Hattie and said 'There's a problem with my Lego hat. It got broken and part of it's missing, I'm not even sure what part it was.' And what did Hattie say?",
-      "timestamp": 46
+      "text": "Oh, it was Mischief Mouse.",
+      "timestamp": 46.76
     },
     {
       "speaker": "Izzy",
-      "text": "Yes, yes, yes.",
-      "timestamp": 71
+      "text": "Mischief Mouse.",
+      "timestamp": 49.28
     },
     {
       "speaker": "Dad",
-      "text": "And Mischief said, 'Can you help me please?'",
-      "timestamp": 73
+      "text": "And Hattie the Mouse had made for Mischief Mouse a beautiful hat made of Legos. But Mischief Mouse came to Hattie and said, \"There's a problem with my Lego hat. It got broken, and part of it's missing. I'm not even sure what part it was.\" And what did Hattie say?",
+      "timestamp": 49.3
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Mischief said, \"Can you help me, please?\"",
+      "timestamp": 72.84
     },
     {
       "speaker": "Izzy",
-      "text": "Yes, yes, yes.",
-      "timestamp": 74
+      "text": "Yes, yes, yes. I love that.",
+      "timestamp": 74.84
     },
     {
       "speaker": "Dad",
-      "text": "And Hattie said, 'Yes, yes, yes, I can help you.' And so Mischief and Hattie decided to make a plan to fix the hat. So what was the first step of their plan?",
-      "timestamp": 76
+      "text": "And Hattie said, \"Yes, yes, yes. I can help you.\" And so Mischief and Hattie decided to make a plan to fix the hat. So what was the first step of their plan?",
+      "timestamp": 76.1
     },
     {
       "speaker": "Izzy",
       "text": "Put another Lego on.",
-      "timestamp": 93
+      "timestamp": 89.62
     },
     {
       "speaker": "Dad",
-      "text": "Put another Lego on. Click. And Mischief said 'Oh, hmm, we're almost there. We need a few more Legos.' What's the next step?",
-      "timestamp": 96
+      "text": "Put another Lego on. Click. And Mischief said, \"Oh. Huh, we're almost there. We need a few more Legos.\" What's the next step?",
+      "timestamp": 92.12
     },
     {
       "speaker": "Izzy",
       "text": "Add another Lego.",
-      "timestamp": 106
+      "timestamp": 103.5
     },
     {
       "speaker": "Dad",
-      "text": "And another Lego.",
-      "timestamp": 108
+      "text": "Add another Lego.",
+      "timestamp": 105.08
     },
     {
       "speaker": "Izzy",
-      "text": "And another Lego, and another Lego, and another Lego, and a lot of Legos.",
-      "timestamp": 109
+      "text": "And another Lego, and another Lego, and another Lego. Add a lot of Legos.",
+      "timestamp": 105.63
     },
     {
       "speaker": "Dad",
-      "text": "A lot of Legos. And so Hattie and Mischief put a lot of Legos together and in that way they made a new Lego hat for Mischief. But then Mischief looked at the hat, tried to put it on her head and she noticed that it didn't fit and it fell right off. And she was mad. So what did she do?",
-      "timestamp": 118
+      "text": "A lot of Legos.",
+      "timestamp": 117.22
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Keep telling that story. Um, yeah.",
+      "timestamp": 119.88
+    },
+    {
+      "speaker": "Dad",
+      "text": "And so Hattie and Mischief put a lot of Legos together and in that way, they made a new Lego hat for Mischief. But then Mischief looked at the hat, tried to put it on her head, and she noticed that it didn't fit and it fell right off, and she was mad.",
+      "timestamp": 123.98
+    },
+    {
+      "speaker": "Dad",
+      "text": "So what did she do?",
+      "timestamp": 140.12
     },
     {
       "speaker": "Izzy",
@@ -91,18 +111,18 @@
     },
     {
       "speaker": "Dad",
-      "text": "And so Mischief took a deep breath and counted to four. One, two, three, four. And Hattie said 'What's the matter?' And what did Mischief say then?",
-      "timestamp": 152
+      "text": "And so Mischief took a deep breath and counted to four. One, two, three, four. And Hattie said, \"What's the matter?\" And what did Mischief say then?",
+      "timestamp": 148.42
     },
     {
       "speaker": "Izzy",
       "text": "My hat is too small.",
-      "timestamp": 164
+      "timestamp": 163.16
     },
     {
       "speaker": "Dad",
-      "text": "Oh, it's too small, says Hattie. Well, let's try again. We'll take apart the Lego hat we just built and add a few more parts and make it bigger and then I think it will fit just right. And so they did. Click click click they put all the Legos together.",
-      "timestamp": 168
+      "text": "\"Oh, it's too small?\" says Hattie. \"Well, let's try again. We'll take apart the Lego hat we just built and add a few more parts and make it bigger, and then I think it will fit just right.\" And so they did. Click, click, click, they put all the Legos together.",
+      "timestamp": 167.7
     }
   ],
   "characters": [
@@ -124,7 +144,19 @@
       "description": "Nestled in a sun-drenched tree across from the town park, Hattie’s arboreal sanctuary on Mouse Street doubles as a vibrant Cornell Street workshop for designing hats and a peaceful retreat for resting after long days of painting. This cozy home, cluttered with the tools of her trade, is a place of shared morning breakfasts with Mischief and savory meals cooked alongside her Nana. Whether lulled by the rhythmic drumming of rainfall or the quiet exhaustion of her artistry, Hattie finds her solace here, drifting into restorative naps amidst the creative clutter."
     }
   ],
-  "wordCount": 369,
-  "izzyWordCount": 57,
-  "dadWordCount": 312
+  "wordCount": 384,
+  "izzyWordCount": 71,
+  "dadWordCount": 313,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T15:01:49.592Z",
+    "speakerMap": {
+      "speaker_0": "Dad",
+      "speaker_1": "Izzy"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "high"
+  }
 }

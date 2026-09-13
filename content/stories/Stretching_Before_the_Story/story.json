@@ -6,28 +6,38 @@
   "audioFilename": "Cornell St 40.m4a",
   "highlightQuote": {
     "text": "But this is my exercise, so I don't want to do Stars and Story right now.",
-    "timestamp": 3
+    "timestamp": 1.02
   },
   "transcript": [
     {
       "speaker": "Izzy",
-      "text": "Daddy, but I want to do... but I want to do my special things. But this is my exercise, so I don't want to do Stars and Story right now.",
-      "timestamp": 3
+      "text": "Um, Daddy, but I want to do, but I want to do my special things. Like, but this is my exercise, so I don't want to do Stars and Stories right now.",
+      "timestamp": 1.02
     },
     {
       "speaker": "Dad",
-      "text": "Oh, you want to do some exercise right now? And then we'll do Stars and Story?",
-      "timestamp": 16
+      "text": "Oh, you want to do some exercise right now-",
+      "timestamp": 15.96
     },
     {
       "speaker": "Izzy",
-      "text": "Yep.",
-      "timestamp": 18
+      "text": "Yep",
+      "timestamp": 17.58
     },
     {
       "speaker": "Dad",
-      "text": "Alright, we can wait.",
-      "timestamp": 22
+      "text": "... and then we'll do Stars and Stories?",
+      "timestamp": 17.62
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yep. And Stars and Stories.",
+      "timestamp": 18.88
+    },
+    {
+      "speaker": "Dad",
+      "text": "All right, we can wait.",
+      "timestamp": 21.58
     }
   ],
   "characters": [
@@ -49,7 +59,19 @@
       "description": "The dedicated area where Izzy performs her 'special things' and workout routines."
     }
   ],
-  "wordCount": 51,
-  "izzyWordCount": 31,
-  "dadWordCount": 20
+  "wordCount": 60,
+  "izzyWordCount": 38,
+  "dadWordCount": 22,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T14:59:42.450Z",
+    "speakerMap": {
+      "speaker_0": "Izzy",
+      "speaker_1": "Dad"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "high"
+  }
 }

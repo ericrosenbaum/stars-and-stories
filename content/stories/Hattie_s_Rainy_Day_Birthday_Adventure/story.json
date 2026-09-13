@@ -6,433 +6,478 @@
   "audioFilename": "Cornell St 48.m4a",
   "highlightQuote": {
     "text": "Now there will be no stars. Now there's some stars. Now there's some more. Now there's a lot of stars.",
-    "timestamp": 0
+    "timestamp": 121.5
   },
   "transcript": [
     {
       "speaker": "Izzy",
-      "text": "Now there will be no stars. Now there's some stars. Now there's some more. Now there's a lot of stars.",
-      "timestamp": 0
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Let's tell a Hattie story. Always about Hattie.",
-      "timestamp": 16
+      "text": "light-",
+      "timestamp": 0.21
     },
     {
       "speaker": "Dad",
-      "text": "Oh, what's our story about Hattie going to be about tonight?",
-      "timestamp": 20
+      "text": "Well, okay, okay, okay, okay",
+      "timestamp": 0.56
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... but then there'll be no stars. Now there's some stars. Now there's some more. Now there's a lot of stars. Let's tell what Hattie's always about, Hattie.",
+      "timestamp": 1.17
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, what's our story about Hattie gonna be about tonight?",
+      "timestamp": 20.4
     },
     {
       "speaker": "Izzy",
       "text": "You just keep telling the story and then you'll find out.",
-      "timestamp": 24
+      "timestamp": 24.04
     },
     {
       "speaker": "Dad",
-      "text": "Once upon a time...",
-      "timestamp": 30
+      "text": "Once upon a time-",
+      "timestamp": 30.16
     },
     {
       "speaker": "Izzy",
       "text": "Dad, you just need to tell the story and then you'll find out.",
-      "timestamp": 32
+      "timestamp": 32.38
     },
     {
       "speaker": "Dad",
-      "text": "You're right, I was just about to start telling it. Once upon a time, Hattie the mouse had just finished her delicious dinner. What did she have for dinner?",
-      "timestamp": 36
+      "text": "You're right. I was just about to start telling it. Once upon a time, Hattie the Mouse had just finished her delicious dinner. What did she have for dinner?",
+      "timestamp": 36.86
     },
     {
       "speaker": "Izzy",
       "text": "No, I meant that she was just having breakfast.",
-      "timestamp": 47
+      "timestamp": 48
     },
     {
       "speaker": "Dad",
-      "text": "Oh she just finished her breakfast, and what did she have for breakfast?",
-      "timestamp": 51
+      "text": "Oh, she'd just finished her breakfast, and what did she have for breakfast?",
+      "timestamp": 51.7
     },
     {
       "speaker": "Izzy",
       "text": "Bacon and pancakes.",
-      "timestamp": 55
+      "timestamp": 55.38
     },
     {
       "speaker": "Dad",
-      "text": "Oh, pancakes and bacon, with her friend having breakfast with her. Who was her friend that had breakfast with her?",
-      "timestamp": 59
+      "text": "Oh, p- pancakes and bacon with her friend having breakfast with her. Who was her friend that had breakfast with her?",
+      "timestamp": 57.76
     },
     {
       "speaker": "Izzy",
       "text": "Mischief.",
-      "timestamp": 104
+      "timestamp": 63.78
     },
     {
       "speaker": "Dad",
-      "text": "Oh, Mischief Mouse was over for breakfast and they both had pancakes and bacon and they finished eating and Hattie Mouse said, \"Excuse me, I had a little burp.\" And Mistress Mouse said, \"Hehe, you're excused.\"",
-      "timestamp": 106
+      "text": "Oh, Mischief Mouse was over for breakfast, and they both had pancakes and bacon. And they finished eating and Hattie Mouse said, \"Excuse me.\" I had a little burp.",
+      "timestamp": 64.96
     },
     {
       "speaker": "Izzy",
-      "text": "Not Mistress Mouse, Mischief Mouse.",
-      "timestamp": 119
+      "text": "Oh.",
+      "timestamp": 74.44
     },
     {
       "speaker": "Dad",
-      "text": "Oh, I'm sorry, Mischief Mouse. And Mischief Mouse said, \"I would like to go on an adventure. What would you like to do on our adventure, Hattie?\"",
-      "timestamp": 123
+      "text": "And then Mischief Mouse said, \" You're excused.\" And-",
+      "timestamp": 74.55
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Not Mischief Mouse, Mischief Mouse.",
+      "timestamp": 77.74
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, I'm sorry. Mischief Mouse. And Mischief Mouse said, \"I would like to go on an adventure. What would you like to do on our adventure, Hattie?\"",
+      "timestamp": 80.34
     },
     {
       "speaker": "Izzy",
       "text": "No, it's raining outside.",
-      "timestamp": 129
+      "timestamp": 88.42
     },
     {
       "speaker": "Dad",
-      "text": "Hattie said, \"No, it's raining outside.\" But Mischief said, \"We could still go on an adventure. Did you know?\"",
-      "timestamp": 133
+      "text": "Hattie said, \"No, it's raining outside.\" But Mischief said, \"We could still go on an adventure. Did you know that?\"",
+      "timestamp": 90.89
     },
     {
       "speaker": "Izzy",
-      "text": "If you just get your galoshes and your raincoat and your hoodie...",
-      "timestamp": 138
+      "text": "If you just get your galoshes and your raincoat and your hoodie.",
+      "timestamp": 97.62
     },
     {
       "speaker": "Dad",
-      "text": "And so they both got dressed...",
-      "timestamp": 146
+      "text": "And so they both got dressed-",
+      "timestamp": 105.76
     },
     {
       "speaker": "Izzy",
-      "text": "...and an umbrella.",
-      "timestamp": 148
+      "text": "And a, and an umbrella.",
+      "timestamp": 107.02
     },
     {
       "speaker": "Dad",
-      "text": "They both got dressed in all their rain gear and they got ready to go out and their umbrellas and their jackets and their galoshes. And then they opened the door and then the first thing they saw was...",
-      "timestamp": 150
+      "text": "They both got dressed in all their rain gear and they got ready to go out in their umbrellas and their jackets and their galoshes. And then they opened the door, and then the first thing they saw was-",
+      "timestamp": 110.66
     },
     {
       "speaker": "Izzy",
-      "text": "A big puddle and what did they do?",
-      "timestamp": 159
+      "text": "A-",
+      "timestamp": 121.5
     },
     {
       "speaker": "Dad",
-      "text": "A big puddle! And what did they do?",
-      "timestamp": 162
+      "text": "... a big puddle. And what did they do?",
+      "timestamp": 121.55
     },
     {
       "speaker": "Izzy",
-      "text": "Splash over it!",
-      "timestamp": 163
+      "text": "Splashed over it.",
+      "timestamp": 123.46
     },
     {
       "speaker": "Dad",
-      "text": "They splashed right over it! But then there was some mud, so what did they do?",
-      "timestamp": 165
+      "text": "They splashed right over it. But then there was some mud, so what did they do?",
+      "timestamp": 125.34
     },
     {
       "speaker": "Izzy",
       "text": "They splashed over it.",
-      "timestamp": 172
+      "timestamp": 131.16
     },
     {
       "speaker": "Dad",
-      "text": "They splashed right through the mud. Squish, squish, squish. And it made some yucky mucky mud sounds. Squish splash. And then poking up out of the mud, who did they see?",
-      "timestamp": 173
+      "text": "They splashed right through the mud. Squish, squish, squish. And it made some yucky, mucky mud sounds. Squish, splish. Uh, and then poking up out of the mud, who did they see?",
+      "timestamp": 133.44
     },
     {
       "speaker": "Izzy",
       "text": "Nobody.",
-      "timestamp": 230
+      "timestamp": 150.84
     },
     {
       "speaker": "Dad",
-      "text": "Nobody. Except for one little wriggly wiggly worm and the worm said \"Hello, my name is...\" what's the worm's name?",
-      "timestamp": 232
+      "text": "Nobody except for one little wriggly, wiggly worm, and the worm said, \"Hello. My name is...\" What was the worm's name?",
+      "timestamp": 152.44
     },
     {
       "speaker": "Izzy",
       "text": "Wesley.",
-      "timestamp": 240
+      "timestamp": 160.92
     },
     {
       "speaker": "Dad",
-      "text": "\"My name is Wesley the worm. What are you doing?\" And what did Hattie say?",
-      "timestamp": 242
+      "text": "\"My name is Wesley the Worm. What are you doing?\" And what did Hattie say?",
+      "timestamp": 161.77
     },
     {
       "speaker": "Izzy",
       "text": "Walking.",
-      "timestamp": 251
+      "timestamp": 170.68
     },
     {
       "speaker": "Dad",
-      "text": "\"Walking. Would you like to come with us?\" And Wesley worm said \"Okay, I'm a little slow, but I'll come with you.\" And so Wesley and Hattie and Mischief, they went on a walk and they went down the block through the rain and then they got to... where did they get to?",
-      "timestamp": 252
+      "text": "Walking. \"Would you like to come with us?\" And Wesley Worm said, \"Okay, I'm a little slow, but I'll come with you.\" And so Wesley and Hattie and Mischief, they went on a walk. And they went down the block through the rain, and then they got to... What did, where did they get to?",
+      "timestamp": 171.98
     },
     {
       "speaker": "Izzy",
       "text": "I don't know.",
-      "timestamp": 311
+      "timestamp": 191.68
     },
     {
       "speaker": "Dad",
       "text": "A construction site.",
-      "timestamp": 314
+      "timestamp": 193
     },
     {
       "speaker": "Izzy",
-      "text": "And then they hopped over it.",
-      "timestamp": 316
+      "text": "And they hopped over it.",
+      "timestamp": 195.78
     },
     {
       "speaker": "Dad",
-      "text": "They hopped over it but there was a big digger and the digger said, \"Hello my name is...\" what was the digger's name?",
-      "timestamp": 318
+      "text": "They hopped over it, but there was a big digger. And the digger said, \"Hello. My name is...\" What was the digger's name?",
+      "timestamp": 198.14
     },
     {
       "speaker": "Izzy",
       "text": "Whopper.",
-      "timestamp": 328
+      "timestamp": 205.68
     },
     {
       "speaker": "Dad",
-      "text": "Whopper? My name is Whopper and I am a digger and I like to dig. Watch this! And the digger stretched out its arm and plunged its bucket into the pile of dirt and went scoop and picked up a big pile of dirt and he said, \"What should I do with my scoop of dirt everyone?\"",
-      "timestamp": 330
+      "text": "Whopper?",
+      "timestamp": 207.14
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Mm-hmm.",
+      "timestamp": 208.16
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"My name is Whopper and I am a digger and I like to dig. Watch this.\"",
+      "timestamp": 209.18
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Mm.",
+      "timestamp": 214.32
+    },
+    {
+      "speaker": "Dad",
+      "text": "The digger stretched out its arm and plunged its bucket into the pile of dirt and went scoop and picked up a big pile of dirt. And he said, \"What should I do with my scoop of dirt, everyone?\"",
+      "timestamp": 214.78
     },
     {
       "speaker": "Izzy",
       "text": "Put on the road.",
-      "timestamp": 348
+      "timestamp": 227.12
     },
     {
       "speaker": "Dad",
-      "text": "Put it on the road, okay. And Whopper the digger dumped his dirt right on the road.",
-      "timestamp": 350
+      "text": "Put it on the road, okay. And Whopper the Digger dumped his dirt right on the road.",
+      "timestamp": 229.7
     },
     {
       "speaker": "Izzy",
-      "text": "And then smooth it down.",
-      "timestamp": 355
+      "text": "And then smoothed it down.",
+      "timestamp": 236.01
     },
     {
       "speaker": "Dad",
-      "text": "And then smooth it down. And Whopper the digger smoothed the dirt all over the road to make it nice and smooth for the cars. And what did Hattie and Mischief and Wesley say?",
-      "timestamp": 358
-    },
-    {
-      "speaker": "Dad",
-      "text": "They said, \"Wow, that's a beautiful smooth road, digger.\"",
-      "timestamp": 412
+      "text": "And then smoothed it down. And Whopper the Digger smoothed the dirt all over the road to make it nice and smooth for the cars. And what did Hattie and Mischief and, uh, Wesley say? They said, \"Wow, that's a beautiful, smooth road, Digger.\"",
+      "timestamp": 237.38
     },
     {
       "speaker": "Izzy",
-      "text": "Now you can go walking some more.",
-      "timestamp": 419
+      "text": "Now go, now you can go walking some more.",
+      "timestamp": 259.38
     },
     {
       "speaker": "Dad",
-      "text": "And then they went walking some more and then what did they find next?",
-      "timestamp": 424
+      "text": "And then they went walking some more, and then what did they find next?",
+      "timestamp": 263.28
     },
     {
       "speaker": "Izzy",
       "text": "Nothing else.",
-      "timestamp": 426
+      "timestamp": 266.72
     },
     {
       "speaker": "Dad",
-      "text": "Nothing else. Well they decided to go to a store to shop for something. What were they going to shop for?",
-      "timestamp": 428
+      "text": "Nothing else.",
+      "timestamp": 268.02
+    },
+    {
+      "speaker": "Izzy",
+      "text": "But nothing else.",
+      "timestamp": 269.28
+    },
+    {
+      "speaker": "Dad",
+      "text": "Well, they decided to go to a store f- to shop for something. What were they gonna shop for?",
+      "timestamp": 270.94
     },
     {
       "speaker": "Izzy",
       "text": "A purple purse.",
-      "timestamp": 436
+      "timestamp": 276.48
     },
     {
       "speaker": "Dad",
-      "text": "A purple purse. Who was the purple purse going to be for? Was it going to be a present for someone?",
-      "timestamp": 440
+      "text": "A purple purse. Who was the purple purse gonna be for? Was it gonna be a present for someone?",
+      "timestamp": 279.56
     },
     {
       "speaker": "Izzy",
-      "text": "Yeah it was going to be a present for Mistress.",
-      "timestamp": 444
+      "text": "Yeah, it was going to be a present for Mistress.",
+      "timestamp": 284.86
     },
     {
       "speaker": "Dad",
-      "text": "Ah, a present for Mistress. Is it Mistress's birthday?",
-      "timestamp": 451
+      "text": "Ah, a present for Mistress M- is it Mistress's birthday?",
+      "timestamp": 291.74
     },
     {
       "speaker": "Izzy",
       "text": "Yes.",
-      "timestamp": 455
+      "timestamp": 295.32
     },
     {
       "speaker": "Dad",
-      "text": "Oh my gosh, Mistress Mouse's birthday is coming up and Hattie and Mischief and Wesley the Worm...",
-      "timestamp": 456
+      "text": "Oh my gosh, Mistress Mouse's birthday is coming up, and Hattie and Mischief and Wesley the Worm-",
+      "timestamp": 296.06
     },
     {
       "speaker": "Izzy",
-      "text": "And everyone's going to come and sing Happy Birthday.",
-      "timestamp": 502
+      "text": "And everyone's going to come and sing happy birthday.",
+      "timestamp": 301.04
     },
     {
       "speaker": "Dad",
-      "text": "Yeah, everyone's gonna come sing Happy Birthday to Mistress Mouse. And so what store did they go to to buy the purse?",
-      "timestamp": 507
+      "text": "Yeah. Everyone's gonna come sing happy birthday to Mistress Mouse. And so what store did they go to to buy the purse?",
+      "timestamp": 306.44
     },
     {
       "speaker": "Izzy",
       "text": "The purse store.",
-      "timestamp": 514
+      "timestamp": 313.92
     },
     {
       "speaker": "Dad",
-      "text": "The purse store. And it was on Cornell?",
-      "timestamp": 517
+      "text": "The purse store.",
+      "timestamp": 315.46
     },
     {
       "speaker": "Izzy",
-      "text": "Cornell Street.",
-      "timestamp": 518
+      "text": "And it was on Cornell.",
+      "timestamp": 316.9
     },
     {
       "speaker": "Dad",
-      "text": "Oh it was on Cornell Street which Hattie lives on.",
-      "timestamp": 521
+      "text": "Oh, it was on Cornell Street?",
+      "timestamp": 319.08
     },
     {
       "speaker": "Izzy",
-      "text": "Right.",
-      "timestamp": 523
+      "text": "Which Hattie lives on Cornell Street.",
+      "timestamp": 320.58
     },
     {
       "speaker": "Dad",
-      "text": "Hattie lives on Cornell Street of course. And so they went to the purse store and they picked out a perfect purse. What color was it?",
-      "timestamp": 524
+      "text": "Right. Ha- Hattie lives on Cornell Street, of course. And, um, so they went to the purse store and they picked out a perfect purse. What color was it?",
+      "timestamp": 322.59
     },
     {
       "speaker": "Izzy",
       "text": "Orange.",
-      "timestamp": 532
+      "timestamp": 332.62
     },
     {
       "speaker": "Dad",
       "text": "An orange purse.",
-      "timestamp": 533
+      "timestamp": 333.68
     },
     {
       "speaker": "Izzy",
       "text": "With sparkles on it.",
-      "timestamp": 536
+      "timestamp": 335.66
     },
     {
       "speaker": "Dad",
-      "text": "And they decided we're going to bring that to the birthday party and give it to Mistress Mouse.",
-      "timestamp": 539
+      "text": "And they decided we're gonna bring that to the birthday party and give it to Mistress Mouse.",
+      "timestamp": 337.88
     },
     {
       "speaker": "Izzy",
-      "text": "Yeah, it's now Mistress Mouse's birthday.",
-      "timestamp": 543
+      "text": "Yeah. It's, now it's Mistress Mouse's birthday.",
+      "timestamp": 342.3
     },
     {
       "speaker": "Dad",
       "text": "And the next day it was Mistress Mouse's birthday and everyone came to the party. And what did they do at the party?",
-      "timestamp": 548
+      "timestamp": 347.32
     },
     {
       "speaker": "Izzy",
-      "text": "They sang Happy Birthday and ate some cake.",
-      "timestamp": 555
+      "text": "They sang happy birthday and ate some cake.",
+      "timestamp": 355.14
     },
     {
       "speaker": "Dad",
-      "text": "Some delicious cake. What flavor was the cake?",
-      "timestamp": 600
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Chocolate.",
-      "timestamp": 603
-    },
-    {
-      "speaker": "Dad",
-      "text": "Chocolate cake. And did they have candles?",
-      "timestamp": 605
+      "text": "Some delicious cake. What flavor was the cake? And did they have candles?",
+      "timestamp": 359.8
     },
     {
       "speaker": "Izzy",
       "text": "No.",
-      "timestamp": 609
+      "timestamp": 368.39
     },
     {
       "speaker": "Dad",
       "text": "And how old are you, Mistress Mouse?",
-      "timestamp": 610
+      "timestamp": 369.97
     },
     {
       "speaker": "Izzy",
       "text": "Three.",
-      "timestamp": 613
+      "timestamp": 373.33
     },
     {
       "speaker": "Dad",
-      "text": "Mistress Mouse, you're three years old. You're getting so big. And okay time to do presents. And Hattie the mouse brought out a big shiny wrapped box with a big bow on it and said, \"Here's your present, it's from me and Mischief and Wesley worm.\" And Mistress Mouse unwrapped the box and pulled off the bow and popped the box open and looked inside and she said, \"Wow! I've always wanted an orange sparkle purse. Thank you, it's beautiful.\" And that was the end of Mistress Mouse's birthday party. And what did everyone else do next?",
-      "timestamp": 615
+      "text": "Mistress Mouse, you're three years old. You're getting so big. And, um, okay, time to do presents. And Hattie the Mouse brought out a big, shiny wrapped box with a big bow on it and said, \"Here's your present. It's from me and, um, Mischief and Wesley Worm.\"",
+      "timestamp": 374.63
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Mistress Mouse unwrapped the box and pulled off the bow and popped the box open and looked inside and she said, \"Wow, I've always wanted an orange sparkle purse. Thank you, it's beautiful.\" And that was the end of, um, Mistress Mouse's birthday party.",
+      "timestamp": 397.19
+    },
+    {
+      "speaker": "Dad",
+      "text": "And what did everyone else do next?",
+      "timestamp": 420.01
     },
     {
       "speaker": "Izzy",
       "text": "I think I'm done with the stars.",
-      "timestamp": 703
+      "timestamp": 423.27
     },
     {
       "speaker": "Dad",
-      "text": "Oh and that was the end of stars and stories.",
-      "timestamp": 705
+      "text": "Oh, and that was the end of stars and stories.",
+      "timestamp": 425.83
     },
     {
       "speaker": "Izzy",
-      "text": "I can make snow fingers.",
-      "timestamp": 713
+      "text": "You can make little finger puppets.",
+      "timestamp": 434.09
     },
     {
       "speaker": "Dad",
-      "text": "Oh, oh you're making shadows with your fingers. That's cool. Wow, look at that. I love how you're doing that. Here, can I show you something?",
-      "timestamp": 716
+      "text": "Oh. Oh, you're making sh- shadows with your fingers. That's cool. Wow, look at that. I love how you're doing that. Here, can I show you something?",
+      "timestamp": 436.93
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah.",
+      "timestamp": 451.39
     },
     {
       "speaker": "Dad",
-      "text": "If you make a shape like this, it looks like a mouse. Do you want to try it? Here, I'll hold the light up. Now if you face the wall and make a shape like this. Argh argh argh. Do you want to try?",
-      "timestamp": 731
+      "text": "If you make a shape like this, it looks like a mouse. And you want to try it? Here, I'll hold the light up. Now if you face the wall and make a shape like this. Do you want to try?",
+      "timestamp": 452.03
     },
     {
       "speaker": "Izzy",
       "text": "I can make a face like this.",
-      "timestamp": 744
+      "timestamp": 464.13
     },
     {
       "speaker": "Dad",
       "text": "Wow. Hello, I see you.",
-      "timestamp": 748
+      "timestamp": 467.35
     },
     {
       "speaker": "Izzy",
       "text": "Hello, I see you.",
-      "timestamp": 750
+      "timestamp": 472.89
     },
     {
       "speaker": "Dad",
-      "text": "Wow, that's a nice shadow puppet you're making. Oh, now I have bunny ears. Oh, I'm a bunny. Hop, hop, hop. Oh, you're blocking your shadow. Okay.",
-      "timestamp": 752
+      "text": "Wow, that's a nice shadow puppet you're making. Oh, now I have bunny ears. Oh, I'm a bunny. Hop, hop, hop, hop. Oh, you're blocking your shadow. Okay.",
+      "timestamp": 474.71
     }
   ],
   "characters": [
@@ -484,7 +529,19 @@
       "description": "Bisected by a stark yellow line, this celestial artery cuts through a dense forest to chart a path toward the Mookers' planet. A cosmic thoroughfare where the infinite is stitched into the earthly, it anchors local commerce—typified by a towering tree of honey—alongside the residence of Uncle X, the house of the surreal bedroom feast, and Hattie’s home. It remains the vital threshold where the mundane pulse of the woods meets the stars, marking the point where Hattie begins her journey to find medical help."
     }
   ],
-  "wordCount": 1122,
-  "izzyWordCount": 209,
-  "dadWordCount": 913
+  "wordCount": 1140,
+  "izzyWordCount": 222,
+  "dadWordCount": 918,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T15:01:44.382Z",
+    "speakerMap": {
+      "speaker_0": "Izzy",
+      "speaker_1": "Dad"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "high"
+  }
 }
