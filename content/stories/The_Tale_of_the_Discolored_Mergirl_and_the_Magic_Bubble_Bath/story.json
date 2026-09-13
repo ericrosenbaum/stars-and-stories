@@ -6,828 +6,1098 @@
   "audioFilename": "Cornell St 138.m4a",
   "highlightQuote": {
     "text": "No, what about you read it to me and I'll write the spell, cuz I'm really good at writing. I'm ten years old.",
-    "timestamp": 1010
+    "timestamp": 157.66
   },
   "transcript": [
     {
       "speaker": "Izzy",
-      "text": "Foul.",
-      "timestamp": 0
+      "text": "Song",
+      "timestamp": 0.68
     },
     {
       "speaker": "Dad",
-      "text": "You singing a little song?",
-      "timestamp": 2
+      "text": "You sing a little song?",
+      "timestamp": 1.74
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Good. Thank you.",
+      "timestamp": 4.74
     },
     {
       "speaker": "Dad",
-      "text": "Okay, I'm going to turn out the light. Do you want to sit on my lap?",
-      "timestamp": 11
+      "text": "Okay, I'm gonna turn out the light. Do you wanna sit in my lap?",
+      "timestamp": 10.7
     },
     {
       "speaker": "Izzy",
-      "text": "No, no. I got, I got maybe we can tell a mummy and Seeker story.",
-      "timestamp": 16
+      "text": "No. No, no. I don't like it. Maybe we can tell a mommy and seek your story. A mermy and seek your story.",
+      "timestamp": 15.38
+    },
+    {
+      "speaker": "Dad",
+      "text": "A mermy?",
+      "timestamp": 24.59
     },
     {
       "speaker": "Izzy",
-      "text": "A mummy and Seeker story, but you don't know how to be mummy, so I'm getting mummy.",
-      "timestamp": 22
+      "text": "But you don't know how to be mermy, so I'm gonna be mermy.",
+      "timestamp": 24.6
     },
     {
       "speaker": "Dad",
       "text": "Oh, okay.",
-      "timestamp": 29
+      "timestamp": 29.26
     },
     {
       "speaker": "Izzy",
       "text": "And you are not. No, I'm not sitting in your lap.",
-      "timestamp": 30
+      "timestamp": 29.74
     },
     {
       "speaker": "Dad",
-      "text": "Oh yeah, I'm putting the blanket over me cuz I'm chilly.",
-      "timestamp": 34
+      "text": "Oh, yeah, I'm putting the blanket over me 'cause I am chilly.",
+      "timestamp": 34.38
     },
     {
       "speaker": "Izzy",
-      "text": "Dad, dad.",
-      "timestamp": 38
+      "text": "Ah. Dad, Dad.",
+      "timestamp": 37.92
     },
     {
       "speaker": "Dad",
       "text": "Yeah?",
-      "timestamp": 39
+      "timestamp": 40
     },
     {
       "speaker": "Izzy",
-      "text": "I'm going to sit in your lap.",
-      "timestamp": 40
+      "text": "Oh, I'm gonna sit in your lap.",
+      "timestamp": 40.52
     },
     {
       "speaker": "Dad",
       "text": "Oh, you are? Okay.",
-      "timestamp": 42
+      "timestamp": 42.76
     },
     {
       "speaker": "Izzy",
-      "text": "Dad, can I take off, cuz I got something too.",
-      "timestamp": 47
+      "text": "Dad, give me a ti- you, can you turn please?",
+      "timestamp": 47.02
+    },
+    {
+      "speaker": "Dad",
+      "text": "Mm-hmm.",
+      "timestamp": 50.64
     },
     {
       "speaker": "Izzy",
-      "text": "Would this, would you like this?",
-      "timestamp": 53
+      "text": "Like this. Would you like this?",
+      "timestamp": 53.36
     },
     {
       "speaker": "Dad",
       "text": "Sure.",
-      "timestamp": 55
+      "timestamp": 56.02
     },
     {
       "speaker": "Izzy",
       "text": "Yeah.",
-      "timestamp": 56
+      "timestamp": 58.06
     },
     {
       "speaker": "Dad",
       "text": "Thank you.",
-      "timestamp": 57
+      "timestamp": 58.12
     },
     {
       "speaker": "Izzy",
-      "text": "No, no, no. Have to put over your lap.",
-      "timestamp": 58
+      "text": "No, no, you have to put it over your lap.",
+      "timestamp": 59.9
     },
     {
       "speaker": "Dad",
-      "text": "Like this?",
-      "timestamp": 102
+      "text": "Like this.",
+      "timestamp": 62.14
     },
     {
       "speaker": "Izzy",
       "text": "Yeah.",
-      "timestamp": 103
+      "timestamp": 62.82
     },
     {
       "speaker": "Dad",
       "text": "Thank you.",
-      "timestamp": 104
+      "timestamp": 63.58
     },
     {
       "speaker": "Izzy",
       "text": "And put this in your lap.",
-      "timestamp": 105
+      "timestamp": 64.16
     },
     {
       "speaker": "Dad",
-      "text": "Okay.",
-      "timestamp": 108
-    },
-    {
-      "speaker": "Dad",
-      "text": "All right. Well, once upon a time, Seeker was in his living room reading a book.",
-      "timestamp": 111
-    },
-    {
-      "speaker": "Dad",
-      "text": "Do do do do do. And what was the book he was reading? Was it about fossils or ancient plants or sea creatures or magic spells or...",
-      "timestamp": 117
+      "text": "Okay. All right. Well, once upon a time, Seeker was in his living room reading a book. Do, do-do, do-do. And what was the book he was reading? Was it about fossils or ancient plants or sea creatures or magic spells or potions?",
+      "timestamp": 69.5
     },
     {
       "speaker": "Izzy",
       "text": "Magic spells.",
-      "timestamp": 134
+      "timestamp": 94.5
     },
     {
       "speaker": "Dad",
-      "text": "He was reading a book about magic spells. Magic spells...",
-      "timestamp": 135
+      "text": "He was reading a book about magic spells. Magic spells.",
+      "timestamp": 95.94
     },
     {
       "speaker": "Izzy",
-      "text": "Until the doorbell interrupted. Ding dong!",
-      "timestamp": 141
+      "text": "Until the doorbell interrupted. Ding-dong.",
+      "timestamp": 101.12
     },
     {
       "speaker": "Dad",
-      "text": "And Seeker said, 'Oh!' And he put a bookmark in his book of magic spells so he wouldn't forget where he was. And he said, 'Who is it?'",
-      "timestamp": 147
+      "text": "And Seeker said, \"Oh,\" and he put a bookmark in his book of magic spells so he wouldn't forget where he was, and he said, \"Who is it?\"",
+      "timestamp": 107.72
     },
     {
       "speaker": "Izzy",
-      "text": "It is Murmy. Um, um, I'm here to say that my child is sick. She's staying at home. I want some magic spells for Princess Sneaky.",
-      "timestamp": 154
+      "text": "It is Mermy, um-",
+      "timestamp": 114.88
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh, hi, Mermy. Come on in.\"",
+      "timestamp": 118.62
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Um, and Nana as well. Say that my child is sick. She's staying at home, and I want some magic spells-",
+      "timestamp": 119.58
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh",
+      "timestamp": 130.32
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... for Princess Sneaky.",
+      "timestamp": 130.38
     },
     {
       "speaker": "Dad",
       "text": "Princess Sneaky? Who's that?",
-      "timestamp": 214
+      "timestamp": 134.78
     },
     {
       "speaker": "Izzy",
-      "text": "Sneaky the mouse.",
-      "timestamp": 216
+      "text": "Sneaky the Mouse.",
+      "timestamp": 137.2
     },
     {
       "speaker": "Dad",
       "text": "Oh, I didn't know she was a princess.",
-      "timestamp": 218
+      "timestamp": 138.52
     },
     {
       "speaker": "Izzy",
       "text": "Yep, Sneaky Princess.",
-      "timestamp": 221
+      "timestamp": 141.1
     },
     {
       "speaker": "Dad",
-      "text": "And Murmy, what kind of, so you want to read, you want to learn magic spells for Sneaky the princess.",
-      "timestamp": 223
+      "text": "And, and Mermy, what kind of... So you wanna read, you wanna learn magic spells for Sneaky the Princess? What-",
+      "timestamp": 143.68
     },
     {
       "speaker": "Izzy",
-      "text": "I need something to go on my wings.",
-      "timestamp": 232
+      "text": "I need something to go on my legs.",
+      "timestamp": 152.02
     },
     {
       "speaker": "Dad",
-      "text": "Oh, you want to fold up the blanket over you like that?",
-      "timestamp": 234
-    },
-    {
-      "speaker": "Izzy",
-      "text": "No.",
-      "timestamp": 237
-    },
-    {
-      "speaker": "Dad",
-      "text": "No?",
-      "timestamp": 238
-    },
-    {
-      "speaker": "Izzy",
-      "text": "No, can use the other one, please?",
-      "timestamp": 239
-    },
-    {
-      "speaker": "Dad",
-      "text": "Okay.",
-      "timestamp": 241
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Thank you.",
-      "timestamp": 244
-    },
-    {
-      "speaker": "Dad",
-      "text": "There. What kind of magic does Princess Sneaky need?",
-      "timestamp": 248
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Um, I don't know. Any kind of magic spells.",
-      "timestamp": 254
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, well how about, since you don't know any magic spells yet, Murmy, maybe we could start with some simple magic spells to help out Blue Mergirl. You said she's sick, right? What kind of sickness does she have?",
-      "timestamp": 301
-    },
-    {
-      "speaker": "Izzy",
-      "text": "No, she doesn't need any magic spells. She'll just get better by herself.",
-      "timestamp": 313
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, okay. So no healing magic then. That's all right.",
-      "timestamp": 319
+      "text": "Oh, you wanna fold up the blanket over you like that?",
+      "timestamp": 154.76
     },
     {
       "speaker": "Izzy",
       "text": "No.",
-      "timestamp": 324
+      "timestamp": 157.66
     },
     {
       "speaker": "Dad",
-      "text": "What kind of problems do you think...",
-      "timestamp": 325
+      "text": "No? Yes.",
+      "timestamp": 158.22
     },
     {
       "speaker": "Izzy",
-      "text": "And I can tell you a story of Green Mergirl when she was sick. Her friend Purple Mergirl tried to put some safety ointment on her, but it turned her tail green. So she went to the doctor and an eel flipped in her way, and she got a scab, and she scraped off the green on her tail. And then she got all green. She did it again, and she got even more green. And she said you just need some rest, and she went home for some rest. And the next day, it wasn't better at all. So it was just never going to work. It was the worst day ever for Green Mergirl.",
-      "timestamp": 327
-    },
-    {
-      "speaker": "Dad",
-      "text": "And Seeker says, 'My goodness, that's a story of Green Mergirl. That's a horrible story. I hope she got better eventually.'",
-      "timestamp": 427
-    },
-    {
-      "speaker": "Izzy",
-      "text": "No, she didn't. She didn't get better for days.",
-      "timestamp": 437
-    },
-    {
-      "speaker": "Dad",
-      "text": "For days, oh.",
-      "timestamp": 441
-    },
-    {
-      "speaker": "Izzy",
-      "text": "She only got better, she got better on Christmas Eve.",
-      "timestamp": 444
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh.",
-      "timestamp": 450
-    },
-    {
-      "speaker": "Dad",
-      "text": "And so she felt better on Christmas Day?",
-      "timestamp": 453
-    },
-    {
-      "speaker": "Izzy",
-      "text": "No, she felt, she was healing her tail on Christmas, on Christmas Eve. She was healing her tail and on the last day of Christmas Eve, her tail was better.",
-      "timestamp": 456
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, well I'm glad to hear that, said Seeker.",
-      "timestamp": 521
-    },
-    {
-      "speaker": "Izzy",
-      "text": "So it was better before Christmas. So it got better soon.",
-      "timestamp": 524
-    },
-    {
-      "speaker": "Dad",
-      "text": "Well, maybe we should teach you a magic spell, Murmy, about healing Mergirl tails.",
-      "timestamp": 529
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Okay.",
-      "timestamp": 538
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Cuz it's not even Christmas yet, so I want the healing tails spell.",
-      "timestamp": 540
+      "text": "No. Can I use the other one, please?",
+      "timestamp": 159.31
     },
     {
       "speaker": "Dad",
       "text": "Oh, okay.",
-      "timestamp": 546
+      "timestamp": 161.1
     },
     {
       "speaker": "Izzy",
-      "text": "I need that for Princess Sneaky. Her plan was to heal Green Mergirl, but she couldn't. That's why I came to your house.",
-      "timestamp": 547
+      "text": "Like that. Yep, yep.",
+      "timestamp": 161.67
     },
     {
       "speaker": "Dad",
-      "text": "'Oh, I see,' said Seeker. 'For magic spells. Well, I think we can help. Now, this book is a big, heavy, ancient, dusty book with many, many pages. But we can look in the table of contents to see if there's any tail-healing magic. Let's see... fire spells, ice spells, explosion spells, wind spells... No, that's not the right area. Let's see. Oh, musical spells, noisy spells, smashing things spells, zooming spells... Oh, flying spells! That's a very interesting part of this book. You can see how it's very distracting because there's all kinds of interesting spells... spells that make food appear... Oh, here we go! Healing spells. To make you feel better: spells to heal sickness, spells to help you sleep, spells to remove an unwanted tail... Oh, I guess that's for people that have grown a tail but they're not supposed to have tails. Let's see. Oh, spells for healing fish... Oh, a spell for turning a person into a mergirl, spell for turning a mergirl back into a person...'",
-      "timestamp": 557
+      "text": "Oh, that's good. Okay. There. What kind of magic does Princess Sneaky need?",
+      "timestamp": 167.2
     },
     {
       "speaker": "Izzy",
-      "text": "'Which I don't need,' says Murmy. 'I'm already a mergirl, and I like water.'",
-      "timestamp": 721
+      "text": "Um, I don't know. Any kind of magic spells.",
+      "timestamp": 175.02
     },
     {
       "speaker": "Dad",
-      "text": "Oh, so you like being a mergirl. That's good.",
-      "timestamp": 728
-    },
-    {
-      "speaker": "Izzy",
-      "text": "I like being a mergirl.",
-      "timestamp": 731
-    },
-    {
-      "speaker": "Dad",
-      "text": "Let's keep reading here. Spells to heal furry tails, spells to heal mouse tails and rat tails, spells to heal fish tails... Ah, here we are! Spells for healing afflictions of mergirl tails, such as scabs, discoloration, bruises, sprains...",
-      "timestamp": 733
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Discoloration is what Green Mergirl needs, cuz her green has been mixed with brown and light green.",
-      "timestamp": 759
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh dear, I see.",
-      "timestamp": 809
-    },
-    {
-      "speaker": "Izzy",
-      "text": "And it's got on her tail by the eel electric.",
-      "timestamp": 811
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, the electric eel. And Seeker said, 'Okay, let's look at the, okay, mergirl tail discolorations... that's on page 1,297.' And Seeker flipped through the pages for a long time. 'Ah yes,' said Seeker, 'here it is, page 1,297. Spell for healing mergirl tails who are suffering discoloration. Now, we just start reading here, and that will cast the spell. You just say all the words in the spell.'",
-      "timestamp": 815
-    },
-    {
-      "speaker": "Izzy",
-      "text": "But, I have this bag that carries spells.",
-      "timestamp": 855
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, I see. Well, perhaps we could copy the spell by writing it down on a piece of paper, and rolling it up, and tying it with a rubber band, and then we could put that into your bag. What do you think?",
-      "timestamp": 904
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Yeah. But my bag is like about this big.",
-      "timestamp": 918
-    },
-    {
-      "speaker": "Dad",
-      "text": "Mhm.",
-      "timestamp": 924
-    },
-    {
-      "speaker": "Izzy",
-      "text": "So, it can fit an unrolled there, that's like about as big as an index card.",
-      "timestamp": 925
-    },
-    {
-      "speaker": "Dad",
-      "text": "Well, all right then. I think I have some index cards over in the kitchen. Let me go see. And Seeker went over to get...",
-      "timestamp": 935
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Or maybe as big, or maybe as big as like this big.",
-      "timestamp": 940
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, that's pretty big. Well, we don't need that much room cuz it's a fairly short spell. And, oh, I need to find a pencil or a pen or something. Oh, here we go. And he found a purple pen and a nice piece of paper. And he said, 'Let's see. Where were we? Ah yes, the spell is here. Now, how about, Murmy, you read it off the page to me and I'll copy it down, okay? Go ahead.'",
-      "timestamp": 947
-    },
-    {
-      "speaker": "Izzy",
-      "text": "No, what about you read it to me and I'll write the spell, cuz I'm really good at writing. I'm ten years old.",
-      "timestamp": 1010
-    },
-    {
-      "speaker": "Dad",
-      "text": "I see. And Seeker said, 'Okay, let's see. Here it is. Tail, oh tail, without fail...'",
-      "timestamp": 1021
+      "text": "Oh. Well, how about since you don't know any magic spells yet, Mermy, maybe we could start with some simple magic spells to help out Blue Mergirl. You said she's sick, right?",
+      "timestamp": 180.68
     },
     {
       "speaker": "Izzy",
       "text": "Yeah.",
-      "timestamp": 1035
+      "timestamp": 192.72
     },
     {
       "speaker": "Dad",
-      "text": "'...please turn back, and not white, not black, but what color you were before.' That's it, that's the whole spell.",
-      "timestamp": 1037
+      "text": "What kind of sickness does she have?",
+      "timestamp": 192.73
     },
     {
       "speaker": "Izzy",
-      "text": "I wrote it.",
-      "timestamp": 1052
+      "text": "She doesn't need any magic spells. She'll just get better by herself.",
+      "timestamp": 194.18
     },
     {
       "speaker": "Dad",
-      "text": "Okay, thank you.",
-      "timestamp": 1054
+      "text": "Oh, okay. So no healing magic then. That's all right.",
+      "timestamp": 199.98
     },
     {
       "speaker": "Izzy",
-      "text": "And she said, 'Green Mergirl!'",
-      "timestamp": 1057
+      "text": "No.",
+      "timestamp": 205.06
     },
     {
       "speaker": "Dad",
-      "text": "And they waited, and they waited, and they waited, but no Green Mergirl appeared. 'Where is she?' said Seeker.",
-      "timestamp": 1105
+      "text": "Well, what kind of problems do you think-",
+      "timestamp": 205.08
     },
     {
       "speaker": "Izzy",
-      "text": "'Oh, we need a Green Mergirl spell now. So, we need to try to find that spell again, the one...'",
-      "timestamp": 1111
+      "text": "And I can tell you the story of Green Mergirl when she was sick. Her friend Purple Mergirl tried to put some safety ointment on her, but it turned her tail green. So she went to the doctor, and an eel flipped in her way, and she got a scab, and she scraped off the green on her tail.",
+      "timestamp": 207.06
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And then she got all green, and she did it again, and she got even more green. And she said, \"You just need some rest.\" And, and she went home for some rest, and the next day it wasn't better at all, so it was just never gonna work. So it was the worst day ever for Green Mergirl.",
+      "timestamp": 236.3
     },
     {
       "speaker": "Dad",
-      "text": "'Isn't, isn't it in your bag?' Seeker said.",
-      "timestamp": 1119
+      "text": "And Seeker says-",
+      "timestamp": 267.66
     },
     {
       "speaker": "Izzy",
-      "text": "'No, that's not a spell I wrote. I didn't read a Green Mergirl spell.'",
-      "timestamp": 1122
-    },
-    {
-      "speaker": "Izzy",
-      "text": "'I do have a spellbook that has um, 250 pages.'",
-      "timestamp": 1129
+      "text": "That day",
+      "timestamp": 269.86
     },
     {
       "speaker": "Dad",
-      "text": "'Wow, that's pretty good.'",
-      "timestamp": 1136
+      "text": "... \"My goodness\"",
+      "timestamp": 269.97
     },
     {
       "speaker": "Izzy",
-      "text": "'But, it's only about mergirl magic. And it has uh, tail-healing, hand-healing, arm-healing, head-healing...'",
-      "timestamp": 1138
+      "text": "That was the story of Green Mergirl.",
+      "timestamp": 269.97
+    },
+    {
+      "speaker": "Dad",
+      "text": "That's a horrible story. I hope she got better eventually.",
+      "timestamp": 272.56
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No, she didn't.",
+      "timestamp": 277.48
+    },
+    {
+      "speaker": "Dad",
+      "text": "She didn't?",
+      "timestamp": 278.6
+    },
+    {
+      "speaker": "Izzy",
+      "text": "She did get better for days.",
+      "timestamp": 279.3
+    },
+    {
+      "speaker": "Dad",
+      "text": "For days? Ugh.",
+      "timestamp": 281.3
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Oh, she only got better, she got better on Christmas Eve.",
+      "timestamp": 284.08
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh. And so she felt better on Christmas Day?",
+      "timestamp": 290.56
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No. Sh- she felt, she was healing her tail on Christmas. On, on, on... Not on the Christmas. On Christmas Eve-",
+      "timestamp": 296.36
+    },
+    {
+      "speaker": "Dad",
+      "text": "Mm-hmm",
+      "timestamp": 314.61
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... she was healing her tail, and on the last day of Christmas Eve her tail was better.",
+      "timestamp": 314.61
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh, well, I'm glad to hear that,\" said Seeker.",
+      "timestamp": 321.41
+    },
+    {
+      "speaker": "Izzy",
+      "text": "So it was better before Christmas.",
+      "timestamp": 323.6
+    },
+    {
+      "speaker": "Dad",
+      "text": "Mm-hmm.",
+      "timestamp": 326.32
+    },
+    {
+      "speaker": "Izzy",
+      "text": "So it got better soon.",
+      "timestamp": 326.72
+    },
+    {
+      "speaker": "Dad",
+      "text": "Well, maybe we should teach you a magic spell, Mermy, about healing mermaid tails.",
+      "timestamp": 329.58
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Okay.",
+      "timestamp": 338.44
+    },
+    {
+      "speaker": "Dad",
+      "text": "Hmm.",
+      "timestamp": 340.04
+    },
+    {
+      "speaker": "Izzy",
+      "text": "'Cause it's not even Christmas le- yet, so I want the healing tail spell.",
+      "timestamp": 340.05
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, okay.",
+      "timestamp": 346.18
+    },
+    {
+      "speaker": "Izzy",
+      "text": "'Cause I need that for Princess Sneaky. Her plan was to heal Green Mergirl, but she couldn't. That's why I came to your house.",
+      "timestamp": 346.99
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh, I see,\" said Seeker.",
+      "timestamp": 357.74
+    },
+    {
+      "speaker": "Izzy",
+      "text": "For magic spells.",
+      "timestamp": 358.88
+    },
+    {
+      "speaker": "Dad",
+      "text": "Well, I think we can help. Now, this book- Is a big, heavy, ancient, dusty book with many, many pages. But we can look in the table of contents to see if there's any tail-healing magic. Let's see. Hm, hm, hm. Uh, fire spells, ice spells, explosion spells, wind spells.",
+      "timestamp": 360.5
+    },
+    {
+      "speaker": "Dad",
+      "text": "No, that's not the right area. Let's see. Hm. Oh, uh, musical spells, noisy spells, smashing things spells, zooming spells. Oh, flying spells. That's a very interesting part of this book. You can see how it's very distracting, 'cause there's all kinds of interesting spells.",
+      "timestamp": 387.64
+    },
+    {
+      "speaker": "Dad",
+      "text": "Uh, oh, spells that make food appear. Oh, here we go. Healing spells to make you feel better, spells to heal sickness, spells to help you sleep, s- uh, spells to remove an unwanted tail. Oh, I guess that's for people that have grown a tail but they're not supposed to have tails.",
+      "timestamp": 405.74
+    },
+    {
+      "speaker": "Dad",
+      "text": "Hm. Let's see. Oh, spells for healing fish. So, a spell for turning a person into a mermaid, a spell for turning a mermaid back into a person.",
+      "timestamp": 427.62
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"Which I don't need,\" says Mermy.",
+      "timestamp": 441.19
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, you don't.",
+      "timestamp": 444.14
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"I'm already a mergirl.\"",
+      "timestamp": 444.29
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, that's true.",
+      "timestamp": 446.3
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"And I like water.\"",
+      "timestamp": 446.77
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, so you like being a mergirl. That's good.",
+      "timestamp": 448.92
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I like being a mergirl.",
+      "timestamp": 451.88
+    },
+    {
+      "speaker": "Dad",
+      "text": "Let's keep reading here. Oh, spells to heal furry tails, uh, uh, spells to heal mouse tails and rat tails, spells to heal fish tails. Ah, here we are. Spells for healing afflictions of mermaid tails, such as scabs, discoloration, bruises, sprains-",
+      "timestamp": 453.64
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Discoloration is what Green Mergirl needs, 'cause her green has been mixed with brown and light green.",
+      "timestamp": 478.88
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, dear. I see.",
+      "timestamp": 489.76
+    },
+    {
+      "speaker": "Izzy",
+      "text": "So ... And it got on her tail by the eel electric.",
+      "timestamp": 491.66
     },
     {
       "speaker": "Dad",
       "text": "Oh.",
-      "timestamp": 1200
+      "timestamp": 496.06
     },
     {
       "speaker": "Izzy",
-      "text": "'...body-healing...'",
-      "timestamp": 1201
+      "text": "So ...",
+      "timestamp": 496.48
+    },
+    {
+      "speaker": "Dad",
+      "text": "The, the oh, the electric eel. And Seeker said, \"Okay, let's look at the pa- okay, uh, dis- mermaid tail discolorations, that's on page 1,297.\" And Seeker flipped through the pages for a long time. Flip, flip, flip, flip, flip, flip. Until they got to that page.",
+      "timestamp": 498.44
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Ah, yes,\" said Seeker. \"Here it is. Page 1,297. Spell for healing mermaid tails who are suffering discoloration. Now we just start reading here, and that will cast the spell. You just say all the words in the spell.\"",
+      "timestamp": 514.65
+    },
+    {
+      "speaker": "Izzy",
+      "text": "But I have this bag that carries spells.",
+      "timestamp": 535.12
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, I see. Well, perhaps we could copy the spell by writing it down on a piece of paper and rolling it up and tying it with a rubber band, and then we could put that into your bag. What do you think?",
+      "timestamp": 544.28
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah. But my bag is, like, about this big.",
+      "timestamp": 558.06
+    },
+    {
+      "speaker": "Dad",
+      "text": "Mm-hmm.",
+      "timestamp": 564.06
+    },
+    {
+      "speaker": "Izzy",
+      "text": "So it can fit an unrolled letter that's, like, about as big as an index card.",
+      "timestamp": 565.18
+    },
+    {
+      "speaker": "Dad",
+      "text": "Well, all right then. I think I have some index cards over in the kitchen. Let me go see. And Seeker went over to the kitchen and-",
+      "timestamp": 575.16
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Or maybe as big, or maybe as big as, like, this big.",
+      "timestamp": 580.72
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, that's pretty big. Well, we don't need that much room, 'cause it's a fairly short spell. And, uh ... Oh, I need to find a pencil or a pen or something. Oh, here we go. And he found a purple pen and a nice piece of paper, and he said, \"Let's see. Where were we?",
+      "timestamp": 587.36
+    },
+    {
+      "speaker": "Dad",
+      "text": "Ah, yes. The spell is here. Now, how about, Mermy, you read it off the page to me, and I'll copy it down. Okay? Go ahead.\"",
+      "timestamp": 601.87
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No, what about you read it to me, and I'll write the spell, 'cause I'm really good at writing.",
+      "timestamp": 610.37
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, okay. Good plan.",
+      "timestamp": 618.1
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I'm 10 years old.",
+      "timestamp": 619.91
+    },
+    {
+      "speaker": "Dad",
+      "text": "I see. And Seeker said, \"Okay, let's see. Here it is. Um, tail, oh tail, without fail.\" Have you got that part?",
+      "timestamp": 623.44
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah.",
+      "timestamp": 635.56
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Please turn back, and not white, not black, but what color you were before.\" That's it. That's the whole spell.",
+      "timestamp": 636.86
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I wrote it.",
+      "timestamp": 653.12
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay. Thank you. Well ...",
+      "timestamp": 654.14
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And she said, \"Green Mergirl.\"",
+      "timestamp": 658.22
+    },
+    {
+      "speaker": "Dad",
+      "text": "And they waited, and they waited, and they waited, but no Green Mergirl appeared. \"Where is she?\" said Seeker.",
+      "timestamp": 665.8
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Uh, we need Green Mergirl's spell now. So we need to try to find that spell again. So when-",
+      "timestamp": 671.81
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, is it, isn't it in your bag? Seeker said.",
+      "timestamp": 679.66
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No, that's not a spell I wrote.",
+      "timestamp": 682.42
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh.",
+      "timestamp": 685.91
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I didn't read Green Mergirl's spell.",
+      "timestamp": 685.96
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, is that-",
+      "timestamp": 689.82
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I do have a spell book that has, um, 250 pages in it.",
+      "timestamp": 690.16
+    },
+    {
+      "speaker": "Dad",
+      "text": "Wow, that's pretty good.",
+      "timestamp": 696.64
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And, but it's only about mergirl magic, and it has, uh, tail healing, hand healing, arm healing, head healing.",
+      "timestamp": 697.76
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh.",
+      "timestamp": 720.38
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Body healing.",
+      "timestamp": 722.08
     },
     {
       "speaker": "Dad",
       "text": "I see.",
-      "timestamp": 1203
+      "timestamp": 724.5
     },
     {
       "speaker": "Izzy",
-      "text": "'...flipper-healing.'",
-      "timestamp": 1205
+      "text": "Flipper healing",
+      "timestamp": 726.54
     },
     {
       "speaker": "Dad",
-      "text": "'Yes, yes, of course,' said Seeker.",
-      "timestamp": 1208
+      "text": "Yes, yes, of course, said Seeker.",
+      "timestamp": 728.84
     },
     {
       "speaker": "Izzy",
-      "text": "'Those are all the healings that are in my book.'",
-      "timestamp": 1210
+      "text": "Those are all the healings that are in my book.",
+      "timestamp": 730.72
     },
     {
       "speaker": "Dad",
-      "text": "'Well then, perhaps we can find Green Mergirl in some other way. Could we just call her on the telephone?'",
-      "timestamp": 1214
+      "text": "Mm-hmm. Well then, perhaps we can find Green Mergirl in some other way. Could we just call her on the telephone?",
+      "timestamp": 734.52
     },
     {
       "speaker": "Izzy",
-      "text": "'Mm-mm. We need a Green Mergirl spell.'",
-      "timestamp": 1222
+      "text": "Mm-mm, we need a Green Mergirl spell.",
+      "timestamp": 742.5
     },
     {
       "speaker": "Dad",
-      "text": "'I see. Well, let me look in my book.' Flip flip flip flip flip. 'Oh, let's see. Rainbow Mergirl, Purple Mergirl, Indigo Mergirl... Oh, there it is! Green Mergirl spell.'",
-      "timestamp": 1226
+      "text": "I see. Well, let me look in my book. Flip, flip, flip, flip, flip, flip, flip, flip, flip, flip. Oh, let's see. Rainbow Mergirl, Purple Mergirl-",
+      "timestamp": 746.12
     },
     {
       "speaker": "Izzy",
-      "text": "'What, how does the spell go?'",
-      "timestamp": 1238
+      "text": "We-",
+      "timestamp": 754.1
     },
     {
       "speaker": "Dad",
-      "text": "'I'll just cast it right now. Casting the spell...'",
-      "timestamp": 1240
+      "text": "Indigo Mergirl. Oh, there it is, Green Mergirl Spell.",
+      "timestamp": 754.33
     },
     {
       "speaker": "Izzy",
-      "text": "'No, no.'",
-      "timestamp": 1243
+      "text": "What? How does the spell go?",
+      "timestamp": 759.4
     },
     {
       "speaker": "Dad",
-      "text": "'No?'",
-      "timestamp": 1244
+      "text": "I'll just cast it right now. Casting the spell-",
+      "timestamp": 762.38
     },
     {
       "speaker": "Izzy",
-      "text": "'No, we got to read it first, and I'll write it.'",
-      "timestamp": 1245
+      "text": "No, no.",
+      "timestamp": 764.22
     },
     {
       "speaker": "Dad",
-      "text": "'Oh, you will? Okay.'",
-      "timestamp": 1249
+      "text": "No?",
+      "timestamp": 765.06
     },
     {
       "speaker": "Izzy",
-      "text": "'Read it, then write, then say. Say it first. Say it. Say it to me so I know how to write it.'",
-      "timestamp": 1250
+      "text": "No. We gotta read it first.",
+      "timestamp": 765.44
     },
     {
       "speaker": "Dad",
-      "text": "'Um... Come, oh Mergirl of Green. We know not where you were last seen. But we'd love to see you now, okay? Please come by, that's what we say.'",
-      "timestamp": 1258
+      "text": "Well, yes.",
+      "timestamp": 767.88
     },
     {
       "speaker": "Izzy",
-      "text": "'Today, today.'",
-      "timestamp": 1321
+      "text": "And I'll write it.",
+      "timestamp": 768
     },
     {
       "speaker": "Dad",
-      "text": "'Oh yes, that's the last little bit. Today, today. Cuz if you don't see that, if you don't say that part of the spell, she might come up, come tomorrow or the next day, or who knows when. So you got to say the today, today. That's right.'",
-      "timestamp": 1323
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, yeah, I see you're writing down the spell very good.",
-      "timestamp": 1336
+      "text": "Oh, you will? Okay.",
+      "timestamp": 769.52
     },
     {
       "speaker": "Izzy",
-      "text": "And she brought the bag of spells to Green Mergirl's event. And she can go on tail doing the tail walk, said Green Mergirl when they got to Seeker's house.",
-      "timestamp": 1341
+      "text": "Read it, then write, then say. Say it first. Say it. Say it to me so I know how to write it.",
+      "timestamp": 770.44
     },
     {
       "speaker": "Dad",
-      "text": "Oh, the tail walk. I see, said Seeker. Now, Green Mergirl, do you still need our healing spell, cuz Murmy has it for you.",
-      "timestamp": 1402
+      "text": "Um, come, oh Mergirl of Green. We know not where you were last seen, but we'd love to see you now, okay? Please come by, that's what we say.",
+      "timestamp": 779.48
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Today, today.",
+      "timestamp": 801.68
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, yes, that's the last little bit. Today, today. 'Cause if you don't see that, if you don't say that part of the spell, she might come up, come tomorrow or the next day or who knows when. So you gotta say the today, today. That's right. Oh, oh, I see you're writing down the spell.",
+      "timestamp": 803.3
+    },
+    {
+      "speaker": "Dad",
+      "text": "Very good.",
+      "timestamp": 818.72
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And she brought the bag of spells to Green Mergirl's sea vent, and she can go on tail doing the tail walk-",
+      "timestamp": 821.6
+    },
+    {
+      "speaker": "Dad",
+      "text": "Uh-huh",
+      "timestamp": 837.56
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... said Green Mergirl when they got to Seeker's house.",
+      "timestamp": 838.3
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh, the tail walk, I see,\" said Seeker. \"Now, Green Mergirl, do you still need our healing spell?\"",
+      "timestamp": 842.17
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yes.",
+      "timestamp": 849.19
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"'Cause Mermaid has it for you.\"",
+      "timestamp": 849.19
     },
     {
       "speaker": "Izzy",
       "text": "Here.",
-      "timestamp": 1413
-    },
-    {
-      "speaker": "Izzy",
-      "text": "'Read it. Read it, Green Mergirl.'",
-      "timestamp": 1414
+      "timestamp": 853.6
     },
     {
       "speaker": "Dad",
-      "text": "And Green Mergirl read the healing spell, and then, just as she finished, there was a sparkling light all around her and a beautiful humming sound... mmmmm... and a smile came onto her face, and she said, 'Wow! I feel so much better. Thank you!'",
-      "timestamp": 1419
-    },
-    {
-      "speaker": "Dad",
-      "text": "And they all noticed that the scales on her tail were now...",
-      "timestamp": 1438
+      "text": "Aha.",
+      "timestamp": 854.58
     },
     {
       "speaker": "Izzy",
-      "text": "...green...",
-      "timestamp": 1442
+      "text": "Read it. Read it, Green Mergirl.",
+      "timestamp": 855.3
     },
     {
       "speaker": "Dad",
-      "text": "...a beautiful shiny emerald green. And that's the end of Stars and Stories.",
-      "timestamp": 1443
+      "text": "And Green Mergirl read the healing spell, and then just as she finished, there was a sparkling light all around her and a beautiful humming sound, and a smile came onto her face. And she said, \"Wow, I feel so much better. Thank you.\" And they all noticed that the scales on her tail were now-",
+      "timestamp": 859.28
     },
     {
       "speaker": "Izzy",
-      "text": "No, no, no. There's still more to the story.",
-      "timestamp": 1450
+      "text": "Were green",
+      "timestamp": 883.19
+    },
+    {
+      "speaker": "Dad",
+      "text": "... a beautiful, shiny emerald green. And that's the end of Stars and Stories.",
+      "timestamp": 883.86
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No, no, there's still more to the story.",
+      "timestamp": 889.96
     },
     {
       "speaker": "Dad",
       "text": "Oh, there is?",
-      "timestamp": 1452
+      "timestamp": 892.42
     },
     {
       "speaker": "Izzy",
-      "text": "So much to the story. Remember about the other spell they wrote?",
-      "timestamp": 1453
+      "text": "Still more to the story. Remember about the other spell they wrote?",
+      "timestamp": 893.94
     },
     {
       "speaker": "Dad",
-      "text": "Well...",
-      "timestamp": 1458
+      "text": "Well-",
+      "timestamp": 899.48
     },
     {
       "speaker": "Izzy",
-      "text": "The other spell they wrote.",
-      "timestamp": 1501
-    },
-    {
-      "speaker": "Izzy",
-      "text": "That was the tail-healing spell.",
-      "timestamp": 1503
+      "text": "The other spell they wrote",
+      "timestamp": 899.9
     },
     {
       "speaker": "Dad",
-      "text": "That's the one they just did, the tail-healing spell. It was for Green Mergirl, and it made her tail all nice and green. It was perfect. It healed her discoloration.",
-      "timestamp": 1506
+      "text": "... which spell was that?",
+      "timestamp": 901.4
     },
     {
       "speaker": "Izzy",
-      "text": "But... there was another one.",
-      "timestamp": 1515
+      "text": "That was the tail healing spell.",
+      "timestamp": 903.7
+    },
+    {
+      "speaker": "Dad",
+      "text": "That's the one they just did, the tail healing spell. It was for Green Mergirl, and it made her tail all nice and green. It was perfect. It healed her discoloration.",
+      "timestamp": 906.03
     },
     {
       "speaker": "Izzy",
-      "text": "Oh yeah, it was only the table of contents.",
-      "timestamp": 1523
+      "text": "But there was another one. Oh, yeah. It was only the table of contents.",
+      "timestamp": 915.64
     },
     {
       "speaker": "Dad",
       "text": "Yes.",
-      "timestamp": 1527
+      "timestamp": 928.78
     },
     {
       "speaker": "Izzy",
-      "text": "But there's another problem with Green Mergirl.",
-      "timestamp": 1529
+      "text": "But there's another problem with me says Green Mergirl.",
+      "timestamp": 929.42
     },
     {
       "speaker": "Dad",
       "text": "What's that?",
-      "timestamp": 1533
+      "timestamp": 933.82
     },
     {
       "speaker": "Izzy",
-      "text": "All of her is just black, black, black, black, white, white, white.",
-      "timestamp": 1534
+      "text": "That all of me is just black, black, black, black, white, white, white.",
+      "timestamp": 934.44
     },
     {
       "speaker": "Dad",
-      "text": "Oh. Really? Which part of her?",
-      "timestamp": 1542
+      "text": "Oh, really? Which part of you?",
+      "timestamp": 942
     },
     {
       "speaker": "Izzy",
-      "text": "Um, her body and head.",
-      "timestamp": 1547
+      "text": "Um, my body and head.",
+      "timestamp": 947.26
     },
     {
       "speaker": "Dad",
-      "text": "Oh! Oh, I see. How did that happen? 'Did you just like draw on yourself with some markers?' said Seeker.",
-      "timestamp": 1550
+      "text": "Oh. Oh, I see. How did that happen? Did you just, like, draw on yourself with some markers, said Seeker?",
+      "timestamp": 950.98
     },
     {
       "speaker": "Izzy",
       "text": "No.",
-      "timestamp": 1557
+      "timestamp": 957.17
     },
     {
       "speaker": "Dad",
-      "text": "'Did you roll around in some sticky goop?'",
-      "timestamp": 1558
-    },
-    {
-      "speaker": "Izzy",
-      "text": "No. No, it would get stuck.",
-      "timestamp": 1601
-    },
-    {
-      "speaker": "Dad",
-      "text": "'Did you get some zebra stripes on you? Maybe you did some face painting?'",
-      "timestamp": 1606
+      "text": "Did you roll around in some sticky goop?",
+      "timestamp": 958.12
     },
     {
       "speaker": "Izzy",
       "text": "No.",
-      "timestamp": 1609
+      "timestamp": 962.32
     },
     {
       "speaker": "Dad",
-      "text": "'How did you get all black and white like that?'",
-      "timestamp": 1610
+      "text": "Um-",
+      "timestamp": 964
     },
     {
       "speaker": "Izzy",
-      "text": "'Oh, it just got very painty.'",
-      "timestamp": 1613
+      "text": "Then it would get stuck.",
+      "timestamp": 964.66
     },
     {
       "speaker": "Dad",
-      "text": "'Oh, it's paint! Paint,' said Seeker. 'Green Mergirl, you don't need a magic spell. I know what you need. Come on with me.' And he took Green Mergirl by the hand, and they walked over to Seeker's big, beautiful bathroom, which had a giant bathtub. And he said, 'You just need a bubble bath! Look, I have the best rainbow bubbles around.'",
-      "timestamp": 1620
+      "text": "Did you get some zebra stripes on you?",
+      "timestamp": 966.69
     },
     {
       "speaker": "Izzy",
-      "text": "'But, I have even better soap,' said Isabella.",
-      "timestamp": 1649
+      "text": "No.",
+      "timestamp": 968.7
     },
     {
       "speaker": "Dad",
-      "text": "'You do?' said Seeker. 'What kind of soap is that?'",
-      "timestamp": 1653
+      "text": "Maybe you did some face painting.",
+      "timestamp": 968.76
     },
     {
       "speaker": "Izzy",
-      "text": "It's...",
-      "timestamp": 1655
-    },
-    {
-      "speaker": "Izzy",
-      "text": "It's the very...",
-      "timestamp": 1659
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Isabella said, 'I brought that soap with me. It's the foamy kind.'",
-      "timestamp": 1704
+      "text": "No.",
+      "timestamp": 970.34
     },
     {
       "speaker": "Dad",
-      "text": "'Oh yes, foamy! That's just what we need,' said Seeker.",
-      "timestamp": 1710
+      "text": "How did you get all black and white like that?",
+      "timestamp": 971.12
     },
     {
       "speaker": "Izzy",
-      "text": "It's foamy. Foamy rainbow soap here. Here, do you want to try that foamy rainbow soap?",
-      "timestamp": 1713
+      "text": "I don't know. Ugh, it just got very painty.",
+      "timestamp": 974.53
     },
     {
       "speaker": "Dad",
-      "text": "And Green Mergirl said, 'Sure!' And she jumped in the bathtub, splash! And she flipped about her tail, swish swish. And the bubbles foamed and foamed, and rose up, and made a mountain of rainbow bubbles all around her. And she scrubbed, and scrubbed, and scrubbed, and scrubbed, and scrubbed until she was a clean mergirl...",
-      "timestamp": 1720
+      "text": "Oh, it's paint.",
+      "timestamp": 980.56
     },
     {
       "speaker": "Izzy",
-      "text": "...all shiny emerald green.",
-      "timestamp": 1741
+      "text": "It's paint.",
+      "timestamp": 982.72
     },
     {
       "speaker": "Dad",
-      "text": "That's right. All right, now we're done with...",
-      "timestamp": 1744
+      "text": "\"Green, Green Mergirl,\" said Seeker, \"you don't need a magic spell. I know what you need. Come on with me.\" And he took Green Mergirl by the hand, and they walked over to Seeker's big, beautiful bathroom, which had a giant bathtub. And he said, \"You just need a bubble bath.",
+      "timestamp": 982.73
+    },
+    {
+      "speaker": "Dad",
+      "text": "Look, I have the best rainbow bubbles around.\"",
+      "timestamp": 1005.2
     },
     {
       "speaker": "Izzy",
-      "text": "No, no, there's one more part of the secret.",
-      "timestamp": 1749
+      "text": "\"But I have even better soap,\" said Isabella.",
+      "timestamp": 1009.19
     },
     {
       "speaker": "Dad",
-      "text": "There's one more part? What's that part?",
-      "timestamp": 1752
+      "text": "\"You do?\" said Seeker.",
+      "timestamp": 1013.11
     },
     {
       "speaker": "Izzy",
-      "text": "And then Green Mergirl told Sneaky, 'And that's the end of Stars and Stories.'",
-      "timestamp": 1754
+      "text": "Um-",
+      "timestamp": 1014.26
     },
     {
       "speaker": "Dad",
-      "text": "Oh right, Princess Sneaky of course. Can't forget her.",
-      "timestamp": 1805
+      "text": "\"What kind of soap is that?\"",
+      "timestamp": 1014.27
+    },
+    {
+      "speaker": "Izzy",
+      "text": "It's, it's the very, uh... And Isabella said, \"I brought that soap.\" Let me hand you tail well. It's the foamy kind.",
+      "timestamp": 1020.16
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, yes, foamy s- that's just what we need, said Seeker.",
+      "timestamp": 1031.14
+    },
+    {
+      "speaker": "Izzy",
+      "text": "It's foamy, foamy rainbow soap. Here.",
+      "timestamp": 1034.86
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, thank you.",
+      "timestamp": 1037.32
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Here, you wanna try that foamy rainbow soap?",
+      "timestamp": 1037.7
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Green Mergirl said, \"Sure.\" And she jumped in the bathtub, splash, and she flipped about her tail, swish, swish, and the bubbles foamed and foamed and rose up and made a mountain of rainbow bubbles all around her, and she scrubbed and scrubbed and scrubbed and scrubbed and scrubbed until she was a clean mergirl.",
+      "timestamp": 1040.46
+    },
+    {
+      "speaker": "Dad",
+      "text": "And then-",
+      "timestamp": 1061.12
+    },
+    {
+      "speaker": "Izzy",
+      "text": "All shiny emerald green.",
+      "timestamp": 1061.56
+    },
+    {
+      "speaker": "Dad",
+      "text": "That's right. All right, now we're done with Stars and Stories.",
+      "timestamp": 1063.84
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No, no, there's one more part with Seek.",
+      "timestamp": 1068.34
+    },
+    {
+      "speaker": "Dad",
+      "text": "There's one more part. What's the part?",
+      "timestamp": 1071.96
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And then Green Mergirl told Sneaky. That's the end of Stars and Stories.",
+      "timestamp": 1074.22
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, right, Princess Sneaky, of course. Can't forget her.",
+      "timestamp": 1085.84
     },
     {
       "speaker": "Izzy",
       "text": "There.",
-      "timestamp": 1815
+      "timestamp": 1095.42
     },
     {
       "speaker": "Dad",
-      "text": "There, thank you.",
-      "timestamp": 1816
+      "text": "There. Thank you.",
+      "timestamp": 1096.16
     },
     {
       "speaker": "Izzy",
-      "text": "I'm so boored. So boored.",
-      "timestamp": 1822
+      "text": "That one. I'm a, I'm Silver. I'm Silver.",
+      "timestamp": 1098.94
     }
   ],
   "characters": [
@@ -874,7 +1144,19 @@
       "description": "The special gathering place where Green Mergirl performs her celebrated tail walk."
     }
   ],
-  "wordCount": 2141,
-  "izzyWordCount": 817,
-  "dadWordCount": 1324
+  "wordCount": 2309,
+  "izzyWordCount": 888,
+  "dadWordCount": 1421,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T15:30:39.073Z",
+    "speakerMap": {
+      "speaker_0": "Izzy",
+      "speaker_1": "Dad"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "low"
+  }
 }

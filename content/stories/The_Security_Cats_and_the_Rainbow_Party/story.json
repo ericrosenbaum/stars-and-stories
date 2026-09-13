@@ -6,953 +6,958 @@
   "audioFilename": "Cornell St 134.m4a",
   "highlightQuote": {
     "text": "Because my birthday's only in different seasons that are a long time from when I wish them to be.",
-    "timestamp": 423
+    "timestamp": 435.71
   },
   "transcript": [
     {
       "speaker": "Dad",
-      "text": "I'm getting Stars and Stories set up right now, so...",
-      "timestamp": 0
+      "text": "I'm getting Stars and Stories set up right now, so I'm gonna need... Oh, Security Cats, I'm gonna need this lantern please.",
+      "timestamp": 0.14
     },
     {
       "speaker": "Izzy",
-      "text": "Meow, meow, meow.",
-      "timestamp": 1
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, security cats! I'm going to need this lantern, please.",
-      "timestamp": 2
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Meow, meow, meow, meow.",
-      "timestamp": 4
+      "text": "Meow, meow, meow, meow, meow.",
+      "timestamp": 7.18
     },
     {
       "speaker": "Dad",
       "text": "You have a party to go to, don't you?",
-      "timestamp": 5
+      "timestamp": 8.12
     },
     {
       "speaker": "Izzy",
-      "text": "Meow.",
-      "timestamp": 8
+      "text": "Meow, meow, meow, meow, meow.",
+      "timestamp": 10.92
     },
     {
       "speaker": "Dad",
-      "text": "All right, I'm going to turn off - I'm going to turn off the lamp.",
-      "timestamp": 10
+      "text": "All right, I'm gonna turn off, I'm gonna turn off the lamp.",
+      "timestamp": 11.64
     },
     {
       "speaker": "Izzy",
-      "text": "Meow, meow, meow, meow, meow, meow.",
-      "timestamp": 12
+      "text": "Meow, meow, meow, meow.",
+      "timestamp": 15.22
     },
     {
       "speaker": "Dad",
-      "text": "All right, and I'm going to sit right here.",
-      "timestamp": 15
+      "text": "All right, and I'm gonna sit right here.",
+      "timestamp": 18.45
     },
     {
       "speaker": "Izzy",
-      "text": "Meow, meow.",
-      "timestamp": 18
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Light up, light up, says Chicky.",
-      "timestamp": 20
+      "text": "Meow, meow. Light up, light up, says Chicky.",
+      "timestamp": 20.7
     },
     {
       "speaker": "Dad",
       "text": "Oh, light up, light up?",
-      "timestamp": 23
+      "timestamp": 26.18
     },
     {
       "speaker": "Izzy",
       "text": "Yeah.",
-      "timestamp": 26
+      "timestamp": 27.72
     },
     {
       "speaker": "Dad",
-      "text": "You want to light up Chicky?",
-      "timestamp": 27
+      "text": "You want a light-up Chicky?",
+      "timestamp": 28.18
     },
     {
       "speaker": "Izzy",
-      "text": "No. No.",
-      "timestamp": 28
+      "text": "No.",
+      "timestamp": 29.4
+    },
+    {
+      "speaker": "Dad",
+      "text": "No.",
+      "timestamp": 30.16
     },
     {
       "speaker": "Izzy",
       "text": "You need to put a blanket over your lap.",
-      "timestamp": 30
+      "timestamp": 32.22
     },
     {
       "speaker": "Dad",
-      "text": "Oh, I do? Okay, thank you.",
-      "timestamp": 32
+      "text": "Oh, I do? Okay.",
+      "timestamp": 34.92
     },
     {
       "speaker": "Izzy",
       "text": "Yeah, like this fuzzy one.",
-      "timestamp": 34
+      "timestamp": 36.12
     },
     {
       "speaker": "Dad",
       "text": "Okay, thank you.",
-      "timestamp": 36
+      "timestamp": 38.1
     },
     {
       "speaker": "Izzy",
-      "text": "Yeah, put over lap.",
-      "timestamp": 38
+      "text": "Here, put it over your lap.",
+      "timestamp": 39.6
     },
     {
       "speaker": "Dad",
-      "text": "Okay, got it.",
-      "timestamp": 39
-    },
-    {
-      "speaker": "Dad",
-      "text": "Now then.",
-      "timestamp": 43
+      "text": "Okay, got it. Now then...",
+      "timestamp": 41.26
     },
     {
       "speaker": "Izzy",
-      "text": "Seeker, you're invited to the rainbow party.",
-      "timestamp": 48
+      "text": "Seeker.",
+      "timestamp": 49.41
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yes?",
+      "timestamp": 50.26
+    },
+    {
+      "speaker": "Izzy",
+      "text": "You're invited to the rainbow party.",
+      "timestamp": 50.29
     },
     {
       "speaker": "Dad",
       "text": "The rainbow party? That sounds wonderful. Who's hosting it?",
-      "timestamp": 51
+      "timestamp": 52.68
     },
     {
       "speaker": "Izzy",
-      "text": "The security cats.",
-      "timestamp": 52
+      "text": "The Security Cats.",
+      "timestamp": 56.72
     },
     {
       "speaker": "Dad",
-      "text": "The security cats? I don't think I know them. But I'd love to go to a party. What should I wear?",
-      "timestamp": 55
+      "text": "The Security Cats? I don't think I know them, but I'd love to go to a party. What should I wear?",
+      "timestamp": 59.18
     },
     {
       "speaker": "Izzy",
       "text": "Um, your purple cloak with pockets.",
-      "timestamp": 58
+      "timestamp": 65.88
     },
     {
       "speaker": "Dad",
       "text": "Oh, okay. Change, change, change. Okay, I'm in my purple cloak with pockets. Now where is this party?",
-      "timestamp": 63
+      "timestamp": 69.42
     },
     {
       "speaker": "Izzy",
-      "text": "Uh, it's in Izzy's bedroom.",
-      "timestamp": 67
-    },
-    {
-      "speaker": "Izzy",
-      "text": "There is, um, like...",
-      "timestamp": 69
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Um, there's so many things to play with.",
-      "timestamp": 72
-    },
-    {
-      "speaker": "Izzy",
-      "text": "And you need to invite Uncle Bill, Icicle, Hattie, Dimitar, and...",
-      "timestamp": 75
-    },
-    {
-      "speaker": "Izzy",
-      "text": "...'cause there's going to be fish at this party.",
-      "timestamp": 79
+      "text": "Uh, it's in Izzy's bedroom. There is, um, like... Um, there's so many things to play with, and you need to invite Uncle Bill, Icicle, Hattie, Dimitar, and... 'Cause there's gonna be fish at this party.",
+      "timestamp": 74.74
     },
     {
       "speaker": "Dad",
       "text": "Oh, that sounds like a great party.",
-      "timestamp": 83
+      "timestamp": 101.02
     },
     {
       "speaker": "Izzy",
-      "text": "And there's going to - and invite the Floofers and the Mookers.",
-      "timestamp": 91
+      "text": "And there's going to... And invite the Floofers and the Mookers.",
+      "timestamp": 103.6
     },
     {
       "speaker": "Dad",
-      "text": "Oh, wow, it's going to be a big party. So, Seeker invited...",
-      "timestamp": 98
+      "text": "Wow, it's gonna be a big party. So Seeker invited-",
+      "timestamp": 113.36
     },
     {
       "speaker": "Izzy",
       "text": "And we already invited Chicky.",
-      "timestamp": 101
+      "timestamp": 116.74
     },
     {
       "speaker": "Dad",
-      "text": "Oh, good.",
-      "timestamp": 103
+      "text": "Oh, good. Um-",
+      "timestamp": 119.32
     },
     {
       "speaker": "Izzy",
-      "text": "Chicky got on a mission with the security cats, and Chicky got stuck out of a very bad jar.",
-      "timestamp": 113
+      "text": "Chicky got on a mission with the Security Cats, and Chicky got stuck out of a very bad jar.",
+      "timestamp": 120.62
     },
     {
       "speaker": "Dad",
       "text": "Oh.",
-      "timestamp": 116
+      "timestamp": 132.22
     },
     {
       "speaker": "Izzy",
-      "text": "Who put him in the jar overnight.",
-      "timestamp": 119
+      "text": "And put him in the jar overnight.",
+      "timestamp": 132.96
     },
     {
       "speaker": "Dad",
-      "text": "Who put Chicky in a jar? That's not very nice.",
-      "timestamp": 121
+      "text": "Who put Chicky in a jar?",
+      "timestamp": 136.04
     },
     {
       "speaker": "Izzy",
       "text": "I don't know.",
-      "timestamp": 129
+      "timestamp": 137.98
     },
     {
       "speaker": "Dad",
-      "text": "No? Hmm. Sounds like a mystery. Well, let's invite all those creatures to the party. And then we'll head right over.",
-      "timestamp": 132
+      "text": "That's not very nice.",
+      "timestamp": 137.99
     },
     {
       "speaker": "Izzy",
-      "text": "Um, they can - they can - they can come by themselves.",
-      "timestamp": 135
+      "text": "I don't know.",
+      "timestamp": 139.52
     },
     {
       "speaker": "Dad",
-      "text": "Yeah.",
-      "timestamp": 138
+      "text": "Hmm. Hmm, sounds like a mystery. Well, let's invite all those creatures to the party, and then we'll head right over.",
+      "timestamp": 141.22
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Um, they can, they can, they can come by theirselves.",
+      "timestamp": 147.12
     },
     {
       "speaker": "Dad",
-      "text": "Okay.",
-      "timestamp": 139
+      "text": "Yeah. Okay.",
+      "timestamp": 151.04
     },
     {
       "speaker": "Izzy",
       "text": "And I can just call the first one over.",
-      "timestamp": 142
+      "timestamp": 153.1
     },
     {
       "speaker": "Dad",
-      "text": "Oh.",
-      "timestamp": 147
-    },
-    {
-      "speaker": "Dad",
-      "text": "Who are you calling, said Seeker?",
-      "timestamp": 150
+      "text": "\"Oh, who are you calling?\" said Seeker.",
+      "timestamp": 156.58
     },
     {
       "speaker": "Izzy",
       "text": "Um...",
-      "timestamp": 152
+      "timestamp": 160.34
     },
     {
       "speaker": "Dad",
       "text": "Uncle Bill?",
-      "timestamp": 153
+      "timestamp": 162.8
     },
     {
       "speaker": "Izzy",
       "text": "No.",
-      "timestamp": 156
+      "timestamp": 163.72
     },
     {
       "speaker": "Dad",
       "text": "Icicle?",
-      "timestamp": 158
+      "timestamp": 164.46
     },
     {
       "speaker": "Izzy",
       "text": "No.",
-      "timestamp": 161
+      "timestamp": 165.12
     },
     {
       "speaker": "Dad",
       "text": "Dimitar?",
-      "timestamp": 163
+      "timestamp": 166.46
     },
     {
       "speaker": "Izzy",
-      "text": "No. I mean, Dimitar.",
-      "timestamp": 164
+      "text": "No. I mean Dimitar.",
+      "timestamp": 167.22
     },
     {
       "speaker": "Dad",
       "text": "Oh, okay.",
-      "timestamp": 165
+      "timestamp": 169.76
     },
     {
       "speaker": "Izzy",
-      "text": "Dimitar, there's going - there's going to be a security cat party.",
-      "timestamp": 166
+      "text": "Dimitar, there's going, there's gonna be a Security Cat party.",
+      "timestamp": 170.36
     },
     {
       "speaker": "Dad",
       "text": "Oh, a cat party.",
-      "timestamp": 168
+      "timestamp": 175.9
     },
     {
       "speaker": "Izzy",
-      "text": "And it's going to have - and it's going to have fishies.",
-      "timestamp": 170
+      "text": "And it's gonna have, and it's gonna have fishies.",
+      "timestamp": 176.59
     },
     {
       "speaker": "Dad",
-      "text": "Oh, I'm there! When does it start?",
-      "timestamp": 171
+      "text": "Oh, I'm there. When does it start?",
+      "timestamp": 182.6
     },
     {
       "speaker": "Izzy",
-      "text": "Starts at...",
-      "timestamp": 175
-    },
-    {
-      "speaker": "Izzy",
-      "text": "...1:00.",
-      "timestamp": 176
+      "text": "Starts at 1:00.",
+      "timestamp": 186.52
     },
     {
       "speaker": "Dad",
       "text": "1:00? Okay, I'll be there.",
-      "timestamp": 182
+      "timestamp": 190.31
     },
     {
       "speaker": "Izzy",
       "text": "So it's starting right now.",
-      "timestamp": 185
+      "timestamp": 192.84
     },
     {
       "speaker": "Dad",
-      "text": "Oh, okay, great. Here I come.",
-      "timestamp": 189
-    },
-    {
-      "speaker": "Dad",
-      "text": "And so...",
-      "timestamp": 192
+      "text": "Oh, okay. Great. Here I come. And so-",
+      "timestamp": 194.66
     },
     {
       "speaker": "Izzy",
-      "text": "So you can eat our - so you can start eating the fishies.",
-      "timestamp": 193
+      "text": "So you can ar- So you can start eating the fishies.",
+      "timestamp": 197.98
     },
     {
       "speaker": "Dad",
-      "text": "I'll bring all my friends, too.",
-      "timestamp": 195
+      "text": "I'll bring all my friends too.",
+      "timestamp": 203.24
     },
     {
       "speaker": "Izzy",
-      "text": "Ah, I'm coming over, I'm coming over. I'm coming over, I'm coming over.",
-      "timestamp": 197
-    },
-    {
-      "speaker": "Izzy",
-      "text": "I'm - I'm - I'm the dragon friend that you met at Castlerock. I have red belly and a green back, green... green wings.",
-      "timestamp": 198
+      "text": "Oh. I'm coming over. I'm coming over. I'm coming over. Coming over. I'm, I'm, I'm the dragon friend that you met at Casori. I have a red belly and a green back, gree- green wings-",
+      "timestamp": 205.08
     },
     {
       "speaker": "Dad",
-      "text": "Oh, that's the...",
-      "timestamp": 202
+      "text": "Oh, that's the, um-",
+      "timestamp": 223.74
     },
     {
       "speaker": "Izzy",
-      "text": "And green head.",
-      "timestamp": 205
+      "text": "... and green head.",
+      "timestamp": 224.53
     },
     {
       "speaker": "Dad",
-      "text": "That's the dragon that lives on Strawberry Island, I think.",
-      "timestamp": 223
+      "text": "That's the dragonette who lives on Strawberry Island, I think.",
+      "timestamp": 226.26
     },
     {
       "speaker": "Izzy",
       "text": "Yeah.",
-      "timestamp": 224
+      "timestamp": 229.34
     },
     {
       "speaker": "Dad",
       "text": "Yeah.",
-      "timestamp": 229
+      "timestamp": 229.94
     },
     {
       "speaker": "Izzy",
-      "text": "And his name is Senexa.",
-      "timestamp": 230
+      "text": "And his name is Sinixa.",
+      "timestamp": 230.32
     },
     {
       "speaker": "Dad",
-      "text": "Senexa? Okay, Senexa is coming to the party, too.",
-      "timestamp": 232
+      "text": "Sinixa? Okay, Sinixa's coming to the party too?",
+      "timestamp": 232.2
     },
     {
       "speaker": "Izzy",
-      "text": "Yeah, Senexa. Dimitar, it's your friend, Senexa.",
-      "timestamp": 235
+      "text": "Yeah.",
+      "timestamp": 234.56
     },
     {
       "speaker": "Dad",
-      "text": "Oh, great!",
-      "timestamp": 238
+      "text": "Wow.",
+      "timestamp": 234.98
     },
     {
       "speaker": "Izzy",
-      "text": "She - she likes tuna. So she brought some tuna.",
-      "timestamp": 239
+      "text": "Sinixa. Dimitar, it's your friend Sinixa.",
+      "timestamp": 235.2
     },
     {
       "speaker": "Dad",
-      "text": "Hmm. It's always nice to bring something to snack on at a party, so everyone, you know, can share with everyone.",
-      "timestamp": 243
+      "text": "Oh, great.",
+      "timestamp": 238.38
+    },
+    {
+      "speaker": "Izzy",
+      "text": "She, she likes tuna, so she brought some tuna.",
+      "timestamp": 238.74
     },
     {
       "speaker": "Dad",
-      "text": "And so, all the guests started to arrive at the party.",
-      "timestamp": 249
+      "text": "Hmm. It's always nice to bring something to snack on at a party, so every- you can share with everyone. And so all the guests started to arrive at the party.",
+      "timestamp": 242.68
     },
     {
       "speaker": "Izzy",
-      "text": "And...",
-      "timestamp": 253
-    },
-    {
-      "speaker": "Izzy",
-      "text": "And Hattie met - and Hattie was a little late 'cause she made hats for everyone.",
-      "timestamp": 255
+      "text": "And, and Hattie ma- and Hattie was a little late 'cause she made hats for everyone.",
+      "timestamp": 253.42
     },
     {
       "speaker": "Dad",
-      "text": "Wow! What did the hats look like?",
-      "timestamp": 260
+      "text": "Wow, what did the hats look like?",
+      "timestamp": 260.31
     },
     {
       "speaker": "Izzy",
-      "text": "Hattie, bring - bring your hats. She brought them in a bag.",
-      "timestamp": 262
+      "text": "Hattie, bring, bring your hats. She brought them in a bag.",
+      "timestamp": 262.58
     },
     {
       "speaker": "Dad",
-      "text": "Mh-hmm. And what did she wear?",
-      "timestamp": 268
+      "text": "Mm-hmm. And what, what-",
+      "timestamp": 267.42
     },
     {
       "speaker": "Izzy",
-      "text": "And she wore hers.",
-      "timestamp": 269
+      "text": "And she weared, and she wore hers.",
+      "timestamp": 268.68
     },
     {
       "speaker": "Dad",
       "text": "Wow. And were they rainbow hats for the rainbow party?",
-      "timestamp": 272
+      "timestamp": 272.18
     },
     {
       "speaker": "Izzy",
-      "text": "Yeah. They had rainbow stripes on them.",
-      "timestamp": 276
+      "text": "Yeah.",
+      "timestamp": 275.08
     },
     {
       "speaker": "Dad",
-      "text": "And so, the Mookers showed up, and they went, 'Mook, mook,' and the Floofers showed up boinging, and Icicle, the dragon, came and made frozen drinks for everyone, and Hattie and Dimitar and Uncle Bill were there, and Seeker, and the security cats were so happy that everyone came to celebrate with them. And what kind of music did they have?",
-      "timestamp": 280
+      "text": "Wow. And-",
+      "timestamp": 275.76
     },
     {
       "speaker": "Izzy",
-      "text": "Don't forget Hattie.",
-      "timestamp": 300
+      "text": "They had rainbow stripes on them.",
+      "timestamp": 276.94
+    },
+    {
+      "speaker": "Dad",
+      "text": "And so the Mookers showed up, and they went, \"Mook, mook,\" and the Floofers showed up boinging, and Icicle the Dragon came and made frozen drinks for everyone. And Hattie and Dimitar and Uncle Bill were there, and Seeker. And the Security Cats were so happy that everyone came to celebrate with them.",
+      "timestamp": 280.02
+    },
+    {
+      "speaker": "Dad",
+      "text": "And what kind of music did they have?",
+      "timestamp": 297.3
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Don't forget Hattie's.",
+      "timestamp": 299.94
     },
     {
       "speaker": "Dad",
       "text": "And Hattie the Mouse came and handed out the hats, and everyone wore beautiful rainbow hats.",
-      "timestamp": 301
+      "timestamp": 301.38
     },
     {
       "speaker": "Izzy",
       "text": "And Chicky lighted up.",
-      "timestamp": 304
+      "timestamp": 306.88
     },
     {
       "speaker": "Dad",
-      "text": "And Chicky was so happy that she lighted up red and green and red and green and red and green.",
-      "timestamp": 307
+      "text": "And Chicky was so happy that she lighted up red and green, and red and green, and red and green.",
+      "timestamp": 310
     },
     {
       "speaker": "Izzy",
       "text": "No, it went orange and green.",
-      "timestamp": 309
+      "timestamp": 317.08
     },
     {
       "speaker": "Dad",
-      "text": "Oh, orange and green.",
-      "timestamp": 316
-    },
-    {
-      "speaker": "Dad",
-      "text": "What's to do with it? Shick-shick-shick.",
-      "timestamp": 317
-    },
-    {
-      "speaker": "Dad",
-      "text": "Everyone, do you see Chicky lighting up?",
-      "timestamp": 321
-    },
-    {
-      "speaker": "Dad",
-      "text": "Chicky lighting up! That means it's the time for a dance party, said Icicle.",
-      "timestamp": 326
+      "text": "Oh, orange and green. But let's do it. Shake, shake, shake. Woo.",
+      "timestamp": 319.36
     },
     {
       "speaker": "Izzy",
-      "text": "No, no, that doesn't mean that. Anything means anything. Chicky can only understand his flashing lights.",
-      "timestamp": 328
+      "text": "Everyone, do you see Chicky lighting up?",
+      "timestamp": 326.16
+    },
+    {
+      "speaker": "Dad",
+      "text": "Chicky lighting up. \"That means it's the time for a dance party,\" said Icicle.",
+      "timestamp": 329.1
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No, no, that doesn't mean that.",
+      "timestamp": 336.16
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, well.",
+      "timestamp": 338.46
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Anything means anything. Chicky can only understand is flashing lights.",
+      "timestamp": 338.92
     },
     {
       "speaker": "Dad",
       "text": "Oh. Anything means anything?",
-      "timestamp": 335
+      "timestamp": 345.34
     },
     {
       "speaker": "Izzy",
       "text": "Yeah.",
-      "timestamp": 345
+      "timestamp": 349.54
     },
     {
       "speaker": "Dad",
       "text": "What does that mean?",
-      "timestamp": 348
+      "timestamp": 350.12
     },
     {
       "speaker": "Izzy",
       "text": "Chicky.",
-      "timestamp": 351
+      "timestamp": 351.54
     },
     {
       "speaker": "Dad",
-      "text": "Yes.",
-      "timestamp": 353
+      "text": "Yes?",
+      "timestamp": 353.62
     },
     {
       "speaker": "Izzy",
-      "text": "Um, what does that light up mean? It just means I'm happy.",
-      "timestamp": 354
+      "text": "Um, what does that light up mean?",
+      "timestamp": 354.66
     },
     {
       "speaker": "Dad",
+      "text": "It just means I'm happy.",
+      "timestamp": 357.88
+    },
+    {
+      "speaker": "Izzy",
       "text": "Oh, Icicle, it just means Chicky was happy.",
-      "timestamp": 358
+      "timestamp": 360.5
     },
     {
       "speaker": "Dad",
-      "text": "Oh, I see. Well, does anybody want to dance?",
-      "timestamp": 361
+      "text": "Oh, I see. Well, does anybody wanna dance?",
+      "timestamp": 365.06
     },
     {
       "speaker": "Izzy",
-      "text": "It's - it's going to be my birthday in the summer.",
-      "timestamp": 365
+      "text": "It, it, it's gonna be my birthday in the summer.",
+      "timestamp": 370.33
     },
     {
       "speaker": "Dad",
-      "text": "Oh.",
-      "timestamp": 369
-    },
-    {
-      "speaker": "Dad",
-      "text": "Who - who was that? Was that Isabella saying that?",
-      "timestamp": 374
+      "text": "Oh. Who, who was that? Was that Isabella saying that?",
+      "timestamp": 374.05
     },
     {
       "speaker": "Izzy",
       "text": "Yeah, that was me.",
-      "timestamp": 377
+      "timestamp": 377.25
     },
     {
       "speaker": "Dad",
-      "text": "Wow, how old are you going to be? So Isabella asked.",
-      "timestamp": 378
+      "text": "Wow, how old are you gonna be, said Icicle.",
+      "timestamp": 378.73
     },
     {
       "speaker": "Izzy",
       "text": "Four.",
-      "timestamp": 380
+      "timestamp": 380.63
     },
     {
       "speaker": "Dad",
-      "text": "Four years old! Well...",
-      "timestamp": 382
+      "text": "Four years old. Well-",
+      "timestamp": 381.67
     },
     {
       "speaker": "Izzy",
-      "text": "But not four and a half. Just four.",
-      "timestamp": 384
+      "text": "But not four and a half, just four.",
+      "timestamp": 383.97
     },
     {
       "speaker": "Dad",
-      "text": "Well, I'm 497 years old, but once I was four when I was a tiny little dragon. That's a good age to be. Congratulations on being almost four, said Icicle. What are you going to do to celebrate your birthday?",
-      "timestamp": 388
+      "text": "Well, I'm 497 years old, but once I was four when I was a tiny, little dragon. That's a good age to be. \"Congratulations on being almost four,\" said Icicle. \"What are you gonna do to celebrate your birthday?\"",
+      "timestamp": 388.11
     },
     {
       "speaker": "Izzy",
-      "text": "Um, I'm going to have a party at a playground.",
-      "timestamp": 400
+      "text": "Um, I'm gonna have a party at a playground.",
+      "timestamp": 403.13
     },
     {
       "speaker": "Dad",
-      "text": "Wow! And who's going to come? Is Dimitar invited?",
-      "timestamp": 403
+      "text": "Wow. And who's gonna come? Is Dimitar invited?",
+      "timestamp": 406.81
     },
     {
       "speaker": "Izzy",
       "text": "No. Some of my school friends.",
-      "timestamp": 407
+      "timestamp": 412.47
     },
     {
       "speaker": "Dad",
-      "text": "But all the Floofers are coming too, right?",
-      "timestamp": 409
+      "text": "But all the floofers are coming, too, right?",
+      "timestamp": 415.71
     },
     {
       "speaker": "Izzy",
       "text": "No.",
-      "timestamp": 412
+      "timestamp": 417.69
     },
     {
       "speaker": "Dad",
-      "text": "Oh, that's too bad. I guess it's a real-life party.",
-      "timestamp": 415
+      "text": "Uh-oh, that's too bad. I guess it's a real-life party.",
+      "timestamp": 418.63
     },
     {
       "speaker": "Izzy",
-      "text": "Yeah, it's a real-life party.",
-      "timestamp": 417
+      "text": "Yeah.",
+      "timestamp": 423.45
+    },
+    {
+      "speaker": "Dad",
+      "text": "No, no creatures.",
+      "timestamp": 423.79
+    },
+    {
+      "speaker": "Izzy",
+      "text": "It's a real-life party.",
+      "timestamp": 423.81
     },
     {
       "speaker": "Dad",
       "text": "Wow, those are even more fun than pretend ones.",
-      "timestamp": 419
+      "timestamp": 425.67
     },
     {
       "speaker": "Izzy",
-      "text": "But I do a lot of the - but I do a lot of pretend ones.",
-      "timestamp": 421
+      "text": "But I do a lot of the, but I do a lot of pretend ones.",
+      "timestamp": 430.17
+    },
+    {
+      "speaker": "Dad",
+      "text": "Um-",
+      "timestamp": 434.85
     },
     {
       "speaker": "Izzy",
-      "text": "Because my birthday's only in different seasons that are a long time from when I wish them to be.",
-      "timestamp": 423
+      "text": "'Cause my birthday is only in different seasons that are a long time from when I wished them to be.",
+      "timestamp": 435.71
     },
     {
       "speaker": "Dad",
       "text": "I know what you mean.",
-      "timestamp": 430
+      "timestamp": 445.65
     },
     {
       "speaker": "Izzy",
       "text": "Yeah.",
-      "timestamp": 435
+      "timestamp": 447.27
     },
     {
       "speaker": "Dad",
-      "text": "Those seasons are long, said Icicle.",
-      "timestamp": 445
+      "text": "\"Those seasons are long,\" said Icicle.",
+      "timestamp": 448.02
     },
     {
       "speaker": "Izzy",
       "text": "Like winter, I don't have any birthdays in.",
-      "timestamp": 447
+      "timestamp": 451.25
     },
     {
       "speaker": "Dad",
       "text": "That's true.",
-      "timestamp": 448
+      "timestamp": 455.47
     },
     {
       "speaker": "Izzy",
       "text": "Yeah.",
-      "timestamp": 451
+      "timestamp": 456.49
     },
     {
       "speaker": "Dad",
-      "text": "You know whose birthday's in the winter, though?",
-      "timestamp": 455
+      "text": "You know who's birthday's in the winter, though?",
+      "timestamp": 456.87
     },
     {
       "speaker": "Izzy",
-      "text": "Who? Avery?",
-      "timestamp": 456
+      "text": "Who? Avery.",
+      "timestamp": 458.45
     },
     {
       "speaker": "Dad",
       "text": "Yes, that's right.",
-      "timestamp": 458
+      "timestamp": 459.77
     },
     {
       "speaker": "Izzy",
-      "text": "And Avery can't have a cake.",
-      "timestamp": 460
+      "text": "And Avery can't have cake.",
+      "timestamp": 462.07
     },
     {
       "speaker": "Dad",
       "text": "Why not?",
-      "timestamp": 462
+      "timestamp": 465.63
     },
     {
       "speaker": "Izzy",
-      "text": "She has...",
-      "timestamp": 465
-    },
-    {
-      "speaker": "Izzy",
-      "text": "No, no, I'm talking to Icicle.",
-      "timestamp": 468
+      "text": "She has ca... No, n- no, no, I'm talking to Icicle.",
+      "timestamp": 465.67
     },
     {
       "speaker": "Dad",
       "text": "Oh, why can't Avery have a cake?",
-      "timestamp": 471
+      "timestamp": 471.87
     },
     {
       "speaker": "Izzy",
-      "text": "Because she... 'cause she is my baby sister.",
-      "timestamp": 473
+      "text": "'Cause she, 'cause she is my baby sister.",
+      "timestamp": 474.25
     },
     {
       "speaker": "Dad",
-      "text": "Oh. Well, someday she'll have cake if she wants to.",
-      "timestamp": 475
+      "text": "Oh, well, someday she'll have cake if she wants to.",
+      "timestamp": 484.15
     },
     {
       "speaker": "Izzy",
       "text": "But she gets a candle in her pear.",
-      "timestamp": 481
+      "timestamp": 487.39
     },
     {
       "speaker": "Dad",
-      "text": "Oh, that sounds tasty.",
-      "timestamp": 484
+      "text": "Oh, that sounds yummy.",
+      "timestamp": 492.07
     },
     {
       "speaker": "Izzy",
       "text": "Of course.",
-      "timestamp": 487
+      "timestamp": 493.04
     },
     {
       "speaker": "Dad",
-      "text": "Well, if you ever got a cake, and you wish it was a frozen cake, just give me a call and I'll freeze it for you, just like this: pshhhhh. And then Dimitar said, 'Hey, everybody, time for the dance party!' And you know who showed up? Disco and Thisco, and they were playing their musical instruments because Disco played the bass and Thisco played the violin, and they started playing ant-worm jazz...",
-      "timestamp": 492
-    },
-    {
-      "speaker": "Dad",
-      "text": "And everybody danced.",
-      "timestamp": 493
-    },
-    {
-      "speaker": "Dad",
-      "text": "And Dimitar said, 'This is the best party of all!'",
-      "timestamp": 494
-    },
-    {
-      "speaker": "Dad",
-      "text": "And the security cats were running around...",
-      "timestamp": 503
+      "text": "Well, if you ever got a cake and you wish it was a frozen cake, just give me a call and I'll freeze it for you just like this. And then Dimitar said, \"Hey, everybody, time for the dance party.\" And you know who showed up?",
+      "timestamp": 493.93
     },
     {
       "speaker": "Izzy",
-      "text": "But my party is going to be at a really good playground.",
-      "timestamp": 510
+      "text": "Who?",
+      "timestamp": 511.66
+    },
+    {
+      "speaker": "Dad",
+      "text": "Disco and Thisco, and they were playing their musical instruments, 'cause Disco played the bass and, uh, Thisco played the violin. And they started playing. And worm jazz, doo, doo, doo. And worm jazz, dookie, dookie, dookie. And worm jazz. And everybody danced.",
+      "timestamp": 511.69
+    },
+    {
+      "speaker": "Dad",
+      "text": "And worm jazz, ha. And Dimitar said, \"This is the best party of all.\" And the security cats were running around-",
+      "timestamp": 528.67
+    },
+    {
+      "speaker": "Izzy",
+      "text": "But-",
+      "timestamp": 540.21
+    },
+    {
+      "speaker": "Dad",
+      "text": "... dancing with everyone and nibbling on fish",
+      "timestamp": 540.55
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... my party is going to be at a really good playground.",
+      "timestamp": 542.15
     },
     {
       "speaker": "Dad",
       "text": "Oh.",
-      "timestamp": 528
+      "timestamp": 547.23
     },
     {
       "speaker": "Izzy",
-      "text": "Because you're invited, Icicle.",
-      "timestamp": 532
+      "text": "'Cause you're invited, Icicle.",
+      "timestamp": 547.73
     },
     {
       "speaker": "Dad",
-      "text": "Thanks! Wow! Which playground is it going to be at?",
-      "timestamp": 536
+      "text": "Thanks. Wow. Which playground is it gonna be at?",
+      "timestamp": 550.15
     },
     {
       "speaker": "Izzy",
-      "text": "It's going to be really fun, but I want to keep it a secret.",
-      "timestamp": 541
+      "text": "It's gonna be really fun, but I want to keep it a secret.",
+      "timestamp": 554.03
     },
     {
       "speaker": "Dad",
       "text": "Oh, okay. Well, we'll find out.",
-      "timestamp": 547
+      "timestamp": 559.43
     },
     {
       "speaker": "Izzy",
       "text": "I'll tell you when it's my birthday.",
-      "timestamp": 550
+      "timestamp": 562.65
     },
     {
       "speaker": "Dad",
-      "text": "Okay, sounds good.",
-      "timestamp": 553
-    },
-    {
-      "speaker": "Dad",
-      "text": "And so, everyone...",
-      "timestamp": 568
+      "text": "Okay, sounds good. And so everyone nibbled fish-",
+      "timestamp": 564.89
     },
     {
       "speaker": "Izzy",
-      "text": "And Mergirls on the way there, 'cause it's a very long drive.",
-      "timestamp": 573
+      "text": "Or maybe on the way there 'cause it's a very long drive.",
+      "timestamp": 572.95
     },
     {
       "speaker": "Dad",
-      "text": "Oh, so everyone nibbled fish at the rainbow party and danced and congratulated the security cats on their successful mission of rescuing the scallop shell from the whale who had stolen it, and they nibbled all the snacks up and they danced to all the music until they were tired. And that was the end of the rainbow party, and the security cats said...",
-      "timestamp": 577
+      "text": "Oh, so everyone nibbled fish at the rainbow party and danced and congratulated the security cats on their successful mission of rescuing the scallop shell from the whale who had stolen it, and they nibbled all the snacks up, and they danced to all the music until they retired.",
+      "timestamp": 577.5
     },
     {
       "speaker": "Dad",
-      "text": "Goodnight, everyone! Meow meow!",
-      "timestamp": 598
-    },
-    {
-      "speaker": "Dad",
-      "text": "And that's the end of Stars and Stories.",
-      "timestamp": 604
+      "text": "And that was the end of the rainbow party, and the security cats said, \"Good night, everyone. Meow, meow.\" And that's the end of Stars and Floors.",
+      "timestamp": 596.14
     },
     {
       "speaker": "Izzy",
-      "text": "I got the lantern of light, let's do shadows.",
-      "timestamp": 605
+      "text": "I took the lantern off. Let's do show. Show me your shadows.",
+      "timestamp": 609.67
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, all right. Let's see. Here is...",
+      "timestamp": 615.53
     },
     {
       "speaker": "Izzy",
-      "text": "Show me your shadows.",
-      "timestamp": 608
+      "text": "Oh.",
+      "timestamp": 626.35
     },
     {
       "speaker": "Dad",
-      "text": "All right. Let's see. Here is...",
-      "timestamp": 610
-    },
-    {
-      "speaker": "Dad",
-      "text": "...a shadow bird. Caw, caw, caw. You see its beak? Here, the shadow's up there.",
-      "timestamp": 613
+      "text": "A shadow bird. Caw-caw, caw-caw, caw-caw. You see its beak?",
+      "timestamp": 631.01
     },
     {
       "speaker": "Izzy",
-      "text": "This is how I make a bird.",
-      "timestamp": 615
+      "text": "Oh.",
+      "timestamp": 637.41
     },
     {
       "speaker": "Dad",
-      "text": "Oh, you do the wings, yes, like this. Flap, flap, flap, flap.",
-      "timestamp": 618
+      "text": "Here, the shadow's up there.",
+      "timestamp": 637.42
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Oh.",
+      "timestamp": 639.57
+    },
+    {
+      "speaker": "Dad",
+      "text": "Caw-caw, caw-caw.",
+      "timestamp": 639.65
+    },
+    {
+      "speaker": "Izzy",
+      "text": "But this is how I make a bird.",
+      "timestamp": 640.83
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, you do the wings. Yes, like this. Flap, flap, flap, flap.",
+      "timestamp": 642.93
     },
     {
       "speaker": "Izzy",
       "text": "I do the wings.",
-      "timestamp": 641
+      "timestamp": 647.35
     },
     {
       "speaker": "Dad",
-      "text": "All right.",
-      "timestamp": 643
+      "text": "Mm-hmm. All right.",
+      "timestamp": 648.59
     },
     {
       "speaker": "Izzy",
-      "text": "You want to see my shadow puppy?",
-      "timestamp": 647
+      "text": "You want to see my shadow puppet?",
+      "timestamp": 651.57
+    },
+    {
+      "speaker": "Dad",
+      "text": "Mm-hmm.",
+      "timestamp": 654.49
     },
     {
       "speaker": "Izzy",
       "text": "It takes a while to get this one ready.",
-      "timestamp": 649
+      "timestamp": 657.25
     },
     {
       "speaker": "Dad",
-      "text": "Oh, yeah.",
-      "timestamp": 651
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, llamas, yes.",
-      "timestamp": 653
-    },
-    {
-      "speaker": "Dad",
-      "text": "All right, now it's time to turn the lamp back on and we'll get on...",
-      "timestamp": 656
+      "text": "Oh, yeah. Ah, the llamas. Yes. All right. Now it's time to turn the lamp back on, and we'll get one-",
+      "timestamp": 660.07
     },
     {
       "speaker": "Izzy",
-      "text": "No, we can't do it right now, because I have...",
-      "timestamp": 659
+      "text": "No, we can't do it right now 'cause I have just-",
+      "timestamp": 670.91
+    },
+    {
+      "speaker": "Dad",
+      "text": "What do you-",
+      "timestamp": 678.91
     },
     {
       "speaker": "Izzy",
-      "text": "...three more to show you that are very tricky.",
-      "timestamp": 664
+      "text": "... one more to show you that's, uh, very tricky.",
+      "timestamp": 679.74
     },
     {
       "speaker": "Dad",
-      "text": "Oh, show me, show me.",
-      "timestamp": 667
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, a heart.",
-      "timestamp": 671
-    },
-    {
-      "speaker": "Dad",
-      "text": "A heart.",
-      "timestamp": 679
+      "text": "Oh, show me. Show me. Oh, the heart. Ah. Here, let me-",
+      "timestamp": 683.53
     },
     {
       "speaker": "Izzy",
-      "text": "But I don't really see its shadow.",
-      "timestamp": 683
+      "text": "'Cause I don't really see its shadow.",
+      "timestamp": 693.13
     },
     {
       "speaker": "Dad",
-      "text": "Here, I can do mine and you'll see the shadow on the ceiling of the heart. There it is.",
-      "timestamp": 687
+      "text": "Here, I can do mine, and you'll see the shadow on the ceiling of the heart. There it is.",
+      "timestamp": 696.21
     },
     {
       "speaker": "Izzy",
-      "text": "Yeah, I don't really see it - see the opening.",
-      "timestamp": 688
-    },
-    {
-      "speaker": "Izzy",
-      "text": "And I need more light on what I'm doing.",
-      "timestamp": 692
+      "text": "Yeah, I don't really see it, see the opening.",
+      "timestamp": 700.73
     },
     {
       "speaker": "Dad",
-      "text": "Okay.",
-      "timestamp": 696
+      "text": "Yes.",
+      "timestamp": 705.19
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And I need more light for what I'm doing.",
+      "timestamp": 705.39
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay",
+      "timestamp": 708.11
     }
   ],
   "characters": [
@@ -1054,7 +1059,19 @@
       "description": "An outdoor area where students might make snow-canos."
     }
   ],
-  "wordCount": 1504,
-  "izzyWordCount": 620,
-  "dadWordCount": 884
+  "wordCount": 1537,
+  "izzyWordCount": 627,
+  "dadWordCount": 910,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T15:29:46.757Z",
+    "speakerMap": {
+      "speaker_0": "Dad",
+      "speaker_1": "Izzy"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "high"
+  }
 }

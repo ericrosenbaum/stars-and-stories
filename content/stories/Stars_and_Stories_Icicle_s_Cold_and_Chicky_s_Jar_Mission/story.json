@@ -6,1188 +6,943 @@
   "audioFilename": "Cornell St 139.m4a",
   "highlightQuote": {
     "text": "He didn't... he didn't go to school. He only sells squirets.",
-    "timestamp": 109
+    "timestamp": 1278.61
   },
   "transcript": [
     {
       "speaker": "Dad",
-      "text": "Alright, Izzy, would you please turn off the light?",
-      "timestamp": 7
+      "text": "All right. Would you please turn out the light?",
+      "timestamp": 7.18
     },
     {
       "speaker": "Izzy",
-      "text": "Okay.",
-      "timestamp": 9
+      "text": "Uh, okay.",
+      "timestamp": 9.73
     },
     {
       "speaker": "Dad",
-      "text": "Would you like to sit on my lap?",
-      "timestamp": 11
-    },
-    {
-      "speaker": "Dad",
-      "text": "Or should I sit here?",
-      "timestamp": 13
+      "text": "Would you like to sit in my lap? Or should I sit here?",
+      "timestamp": 11.7
     },
     {
       "speaker": "Izzy",
-      "text": "You can sit...",
-      "timestamp": 18
-    },
-    {
-      "speaker": "Izzy",
-      "text": "I don't want to...",
-      "timestamp": 19
-    },
-    {
-      "speaker": "Izzy",
-      "text": "I want to sit in your lap, as long as you get a blanket for your lap.",
-      "timestamp": 20.5
-    },
-    {
-      "speaker": "Izzy",
-      "text": "There's two on my bed, but not the blue one.",
-      "timestamp": 27
-    },
-    {
-      "speaker": "Izzy",
-      "text": "The one that's underneath the blue one.",
-      "timestamp": 31
+      "text": "You can sit... I don't wanna. Once in your lap, as long as you do not break it, for the lap. There's two on my bed, but not the blue one. The one that's underneath the blue one.",
+      "timestamp": 18.12
     },
     {
       "speaker": "Dad",
       "text": "Okay, I got it.",
-      "timestamp": 34
+      "timestamp": 34.18
     },
     {
       "speaker": "Izzy",
       "text": "Is that the one that was underneath?",
-      "timestamp": 36
+      "timestamp": 36.62
     },
     {
       "speaker": "Dad",
       "text": "It is.",
-      "timestamp": 38
+      "timestamp": 38.88
     },
     {
       "speaker": "Izzy",
-      "text": "On the side that doesn't have animals on it?",
-      "timestamp": 38.5
+      "text": "On the side that doesn't have animals on it.",
+      "timestamp": 39.32
     },
     {
       "speaker": "Dad",
       "text": "Okay. And where shall I sit?",
-      "timestamp": 43
+      "timestamp": 42.96
     },
     {
       "speaker": "Izzy",
       "text": "Um, you shall sit down there.",
-      "timestamp": 45
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Um...",
-      "timestamp": 51
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Yes. Now...",
-      "timestamp": 53
-    },
-    {
-      "speaker": "Dad",
-      "text": "All right.",
-      "timestamp": 57
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Let's keep on the part about playing on the playground and also...",
-      "timestamp": 58
-    },
-    {
-      "speaker": "Izzy",
-      "text": "...playing Ariel the Mermaid.",
-      "timestamp": 67
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh.",
-      "timestamp": 72
-    },
-    {
-      "speaker": "Dad",
-      "text": "Well,",
-      "timestamp": 74
-    },
-    {
-      "speaker": "Dad",
-      "text": "...just then,",
-      "timestamp": 77
-    },
-    {
-      "speaker": "Dad",
-      "text": "Seeker arrived at the playground.",
-      "timestamp": 78
-    },
-    {
-      "speaker": "Dad",
-      "text": "And he looked a bit worried.",
-      "timestamp": 81
-    },
-    {
-      "speaker": "Izzy",
-      "text": "About what?",
-      "timestamp": 84
-    },
-    {
-      "speaker": "Dad",
-      "text": "Well, he was a bit worried about one of his friends who was sick.",
-      "timestamp": 85
-    },
-    {
-      "speaker": "Dad",
-      "text": "Do you know who was sick?",
-      "timestamp": 89
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Icicle.",
-      "timestamp": 91
-    },
-    {
-      "speaker": "Dad",
-      "text": "Icicle the ice dragon.",
-      "timestamp": 92
-    },
-    {
-      "speaker": "Dad",
-      "text": "Was all by himself in his ice castle at the top of his very cold mountain, and he was sick.",
-      "timestamp": 94
-    },
-    {
-      "speaker": "Izzy",
-      "text": "With Farmer Wobble.",
-      "timestamp": 103
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, Farmer Wobble was there?",
-      "timestamp": 105
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Yeah.",
-      "timestamp": 107
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, that's good.",
-      "timestamp": 108
-    },
-    {
-      "speaker": "Izzy",
-      "text": "He didn't... he didn't go to school.",
-      "timestamp": 109
-    },
-    {
-      "speaker": "Izzy",
-      "text": "He only sells squirets.",
-      "timestamp": 111
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, so did he bring some squirets to Icicle?",
-      "timestamp": 114
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Yeah. And...",
-      "timestamp": 117
-    },
-    {
-      "speaker": "Izzy",
-      "text": "...but his friends stayed and watched the squirets.",
-      "timestamp": 121
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, yes. That's right, all the other woodchucks.",
-      "timestamp": 125
-    },
-    {
-      "speaker": "Dad",
-      "text": "And Seeker said, 'I wonder if anyone is willing to help me, because I would like to do something nice for Icicle, to help him feel better. You see, he's very sick and all by himself, except for Farmer Wobble. And I think it would be nice if someone came over to his house to keep him company and maybe even tell him a little story.' Does anybody know any interesting stories that Icicle might like?",
-      "timestamp": 128
-    },
-    {
-      "speaker": "Izzy",
-      "text": "No. No one.",
-      "timestamp": 151
-    },
-    {
-      "speaker": "Dad",
-      "text": "You don't?",
-      "timestamp": 154
-    },
-    {
-      "speaker": "Izzy",
-      "text": "No one.",
-      "timestamp": 155
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Except for the security cats.",
-      "timestamp": 157
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh.",
-      "timestamp": 164
-    },
-    {
-      "speaker": "Izzy",
-      "text": "They're called security cats. That's a hard advice.",
-      "timestamp": 165
-    },
-    {
-      "speaker": "Dad",
-      "text": "And so Seeker went over to the Flower Castle and knocked on the flower door.",
-      "timestamp": 171
-    },
-    {
-      "speaker": "Dad",
-      "text": "And were the security cats in?",
-      "timestamp": 178
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Tell... tell the story, tell the story, Daddy.",
-      "timestamp": 184
-    },
-    {
-      "speaker": "Izzy",
-      "text": "The security cats are right now...",
-      "timestamp": 192
-    },
-    {
-      "speaker": "Dad",
-      "text": "And Wobbly Whiskers answered the flower door and said, 'Meow, meow, what can I do for you?'",
-      "timestamp": 195
-    },
-    {
-      "speaker": "Izzy",
-      "text": "You need to go up the cold mountain and Icicle... Icicle's sick, sick, and you need to go tell him a story.",
-      "timestamp": 201
-    },
-    {
-      "speaker": "Dad",
-      "text": "Meow, meow. This sounds like a job for the security cats. Come on, Sarana, let's go.",
-      "timestamp": 209
-    },
-    {
-      "speaker": "Dad",
-      "text": "And Sarana said, 'I'm just waking up from my nap, and I think we're going to need winter coats and maybe hats and even mittens if we're going to go up to that cold, cold place.'",
-      "timestamp": 217
-    },
-    {
-      "speaker": "Dad",
-      "text": "And Wobbly Whiskers said, 'You're right.' And they put on...",
-      "timestamp": 229
-    },
-    {
-      "speaker": "Izzy",
-      "text": "And Greenland.",
-      "timestamp": 231
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Coz there might be some leopard seals.",
-      "timestamp": 232
-    },
-    {
-      "speaker": "Izzy",
-      "text": "But the Greenland ocean is very far away from there, because it will already be snowing once you know it.",
-      "timestamp": 236
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, oh.",
-      "timestamp": 247
-    },
-    {
-      "speaker": "Dad",
-      "text": "And Wobbly Whiskers said, 'Well, huh, let's get them and go on to Icicle's castle. But how are we going to get there?' And Seeker said, 'Oh, I can fly you in my skyca-- in my skyship.'",
-      "timestamp": 250
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Oh, here. Here, you can get my small... my my two small winter things here.",
-      "timestamp": 262
-    },
-    {
-      "speaker": "Dad",
-      "text": "'Oh, thank you,' said the security cats.",
-      "timestamp": 270
-    },
-    {
-      "speaker": "Izzy",
-      "text": "And she gave... and Isabella gave them mittens, boots...",
-      "timestamp": 273
-    },
-    {
-      "speaker": "Izzy",
-      "text": "...and a jacket.",
-      "timestamp": 282
-    },
-    {
-      "speaker": "Dad",
-      "text": "'Thank you,' said the security cats. And Seeker said, 'Now wait, before we go, is there anything we should else we should bring for Icicle to help him feel better while he's sick?'",
-      "timestamp": 286
-    },
-    {
-      "speaker": "Izzy",
-      "text": "A bouquet of flowers.",
-      "timestamp": 294
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh my goodness, what a nice...",
-      "timestamp": 296
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Because Isabella handed them a bouquet of flowers that was in a um a vase that had a top on it.",
-      "timestamp": 297
-    },
-    {
-      "speaker": "Izzy",
-      "text": "And...",
-      "timestamp": 307
-    },
-    {
-      "speaker": "Izzy",
-      "text": "They flew, flew, flew.",
-      "timestamp": 310
-    },
-    {
-      "speaker": "Dad",
-      "text": "They flew, flew, and flew over the forest, and over the rivers, and over the ocean, all...",
-      "timestamp": 315
-    },
-    {
-      "speaker": "Izzy",
-      "text": "And... and the security cats were in the...",
-      "timestamp": 321
-    },
-    {
-      "speaker": "Izzy",
-      "text": "But there was a snowstorm.",
-      "timestamp": 329
-    },
-    {
-      "speaker": "Dad",
-      "text": "Dun dun dun.",
-      "timestamp": 336
-    },
-    {
-      "speaker": "Izzy",
-      "text": "And they got there before the snowstorm started.",
-      "timestamp": 338
-    },
-    {
-      "speaker": "Dad",
-      "text": "'Oh, thank goodness,' said Seeker, as they landed the skyship right next to Icicle's castle. 'You see those huge clouds coming over the mountains towards us? That's going to be a big snowstorm.'",
-      "timestamp": 343
-    },
-    {
-      "speaker": "Izzy",
-      "text": "And they hurried inside with the bouquet of flowers.",
-      "timestamp": 353
-    },
-    {
-      "speaker": "Dad",
-      "text": "They sure did. And they went in and found Icicle lying on his enormous bed, looking very sad and sick and sniffing.",
-      "timestamp": 357
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Um, but... but they parked it in the garage.",
-      "timestamp": 366
-    },
-    {
-      "speaker": "Dad",
-      "text": "Yes, because Icicle had a very big garage that was just big enough to fit Seeker's skyship, that's correct.",
-      "timestamp": 372
-    },
-    {
-      "speaker": "Izzy",
-      "text": "And and, but...",
-      "timestamp": 377
-    },
-    {
-      "speaker": "Izzy",
-      "text": "...and nothing got ruined, because everything was strong, made out of bricks, by Bunsen and Beaker.",
-      "timestamp": 380
-    },
-    {
-      "speaker": "Dad",
-      "text": "They're good at building things out of bricks, that's right.",
-      "timestamp": 388
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Bunsen and Beaker...",
-      "timestamp": 391
-    },
-    {
-      "speaker": "Izzy",
-      "text": "...um, actually, die-- die-- the snowstorm wasn't starting very soon.",
-      "timestamp": 394
-    },
-    {
-      "speaker": "Izzy",
-      "text": "It was starting before Bunsen and Beaker even got there.",
-      "timestamp": 401
-    },
-    {
-      "speaker": "Izzy",
-      "text": "So Bunsen and Beaker hurried up the mountain into Icicle's castle, and Seeker said, 'Quick! Um, you got to build the outside of...",
-      "timestamp": 406
-    },
-    {
-      "speaker": "Izzy",
-      "text": "...of Icicle's castle quickly out of bricks and slime.'",
-      "timestamp": 422
-    },
-    {
-      "speaker": "Dad",
-      "text": "'Have you brought a bag of that with you?' And Bunsen said, 'Fortunately, I'm always prepared. I have my bricks and slime with me right here.' And Beaker said, 'Meep, meep.'",
-      "timestamp": 429
-    },
-    {
-      "speaker": "Izzy",
-      "text": "And and they built and built and built and built, until the snowstorm was there.",
-      "timestamp": 438
-    },
-    {
-      "speaker": "Dad",
-      "text": "And there was a...",
-      "timestamp": 447
-    },
-    {
-      "speaker": "Izzy",
-      "text": "And and they went inside when it was built out of bricks with the bag.",
-      "timestamp": 449
-    },
-    {
-      "speaker": "Dad",
-      "text": "And there was a great whooshing of wind, and thunder and lightning, and great big flakes of snow began to fall.",
-      "timestamp": 454
-    },
-    {
-      "speaker": "Izzy",
-      "text": "And and Isabella went out in her cape, very warm, um, and she made the garage out of bricks.",
-      "timestamp": 460
-    },
-    {
-      "speaker": "Dad",
-      "text": "Yes. Thank goodness.",
-      "timestamp": 472
-    },
-    {
-      "speaker": "Dad",
-      "text": "And so, they came...",
-      "timestamp": 475
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Um, Daddy, can we pause Stars and Stories a little?",
-      "timestamp": 477
-    },
-    {
-      "speaker": "Dad",
-      "text": "Yes.",
-      "timestamp": 480
-    },
-    {
-      "speaker": "Izzy",
-      "text": "For a little?",
-      "timestamp": 482
-    },
-    {
-      "speaker": "Dad",
-      "text": "Mm-hmm.",
-      "timestamp": 483
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Coz I got to go potty.",
-      "timestamp": 483.5
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, good. We can just leave that away. Actually...",
-      "timestamp": 485
-    },
-    {
-      "speaker": "Izzy",
-      "text": "...I don't... I just don't want your phone light getting dead.",
-      "timestamp": 490
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, that's okay.",
-      "timestamp": 495
-    },
-    {
-      "speaker": "Izzy",
-      "text": "So, maybe just leave it like that.",
-      "timestamp": 499
-    },
-    {
-      "speaker": "Dad",
-      "text": "All right.",
-      "timestamp": 784
-    },
-    {
-      "speaker": "Dad",
-      "text": "Ah, there we go.",
-      "timestamp": 798
-    },
-    {
-      "speaker": "Dad",
-      "text": "Now I'll sit down with you.",
-      "timestamp": 801
-    },
-    {
-      "speaker": "Izzy",
-      "text": "You just need to fix it a little.",
-      "timestamp": 802
+      "timestamp": 45.56
     },
     {
       "speaker": "Dad",
       "text": "Okay.",
-      "timestamp": 804
+      "timestamp": 51.02
     },
     {
       "speaker": "Izzy",
-      "text": "Sit some more like...",
-      "timestamp": 807
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Hey.",
-      "timestamp": 808
-    },
-    {
-      "speaker": "Izzy",
-      "text": "That's right.",
-      "timestamp": 810
+      "text": "Um, yes. Now-",
+      "timestamp": 51.12
     },
     {
       "speaker": "Dad",
-      "text": "There, perfect.",
-      "timestamp": 813
+      "text": "All right",
+      "timestamp": 56.78
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... let's keep telling the part about playing on the playground, and also, um, playing Ariel the Mermaid.",
+      "timestamp": 57.92
     },
     {
       "speaker": "Dad",
-      "text": "And so,",
-      "timestamp": 815
+      "text": "Oh. Well, just then, Seeker arrived at the playground, and he looked a bit worried.",
+      "timestamp": 72.16
     },
     {
       "speaker": "Izzy",
-      "text": "Huh.",
-      "timestamp": 817
+      "text": "About what?",
+      "timestamp": 84.22
     },
     {
       "speaker": "Dad",
-      "text": "...Seeker and security cats went inside the castle.",
-      "timestamp": 817.5
+      "text": "Well, he was a bit worried about one of his friends who was sick. Do you know who was sick?",
+      "timestamp": 85.38
     },
     {
       "speaker": "Izzy",
-      "text": "And they need to tell a chick-- they need to tell a tricky story about when he was trap-- trapped in the jar.",
-      "timestamp": 823
+      "text": "Icicle.",
+      "timestamp": 90.42
     },
     {
       "speaker": "Dad",
-      "text": "And they, they walked in, thinking about what stories they might tell, and there was Icicle, going, 'Oh, I don't feel very good. I wish someone would cheer me up. Look, I hardly have any freezing breath at all.'",
-      "timestamp": 831
+      "text": "Icicle the Ice Dragon was all by himself in his ice castle at the top of his very cold mountain, and he was sick.",
+      "timestamp": 91.64
+    },
+    {
+      "speaker": "Izzy",
+      "text": "With Farmer Wobble.",
+      "timestamp": 103.28
     },
     {
       "speaker": "Dad",
-      "text": "And as he coughed, each sad cough, you know what came out?",
-      "timestamp": 853
+      "text": "Oh, Farmer Wobble was there?",
+      "timestamp": 105.76
     },
     {
       "speaker": "Izzy",
-      "text": "What?",
-      "timestamp": 858
+      "text": "Yeah.",
+      "timestamp": 107.3
     },
     {
       "speaker": "Dad",
-      "text": "Instead of a blast of powerful freezing breath,",
-      "timestamp": 859
+      "text": "Oh, that's good.",
+      "timestamp": 107.72
+    },
+    {
+      "speaker": "Izzy",
+      "text": "He didn't, he didn't go to school. He only sells square roots.",
+      "timestamp": 108.7
     },
     {
       "speaker": "Dad",
-      "text": "...it was just a little snowman.",
-      "timestamp": 863
+      "text": "Oh, so did he bring some square roots to Icicle?",
+      "timestamp": 115.04
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah. And, but his friends stayed and watched the square roots.",
+      "timestamp": 117.52
     },
     {
       "speaker": "Dad",
-      "text": "And there were little snowmen popping out all over the place, and then melting.",
-      "timestamp": 866
+      "text": "Oh, yes, that's right, all the other woodchucks. And Seeker said, \"I wonder if anyone is willing to help me, because I would like to do something nice for Icicle to help him feel better. You see, he's very sick and all by himself except for Farmer Wobble, and I think it would be nice if someone came over to his house to keep him company and maybe even tell him a little story.",
+      "timestamp": 126.02
     },
     {
       "speaker": "Dad",
-      "text": "And Seeker said...",
-      "timestamp": 873
+      "text": "Does anybody know any interesting stories that Icicle might like?\"",
+      "timestamp": 149.1
     },
     {
       "speaker": "Izzy",
-      "text": "And and on El-- and on Icicle's night table,",
-      "timestamp": 874
-    },
-    {
-      "speaker": "Izzy",
-      "text": "...they putted the bouquet of flowers on it.",
-      "timestamp": 878
+      "text": "No, no one.",
+      "timestamp": 152.64
     },
     {
       "speaker": "Dad",
-      "text": "'Oh, thank you for the beautiful flowers. No one's ever brought me flowers before.'",
-      "timestamp": 884
+      "text": "You don't?",
+      "timestamp": 154.9
     },
     {
       "speaker": "Izzy",
-      "text": "Oh, but we kept them nice and safe for you, and we gave them a drink and everything, coz they don't like the coldness.",
-      "timestamp": 890
-    },
-    {
-      "speaker": "Dad",
-      "text": "I see. But I'll take good care of them so they stay fresh for a while. Now, I'm feeling...",
-      "timestamp": 900
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Until they get dead.",
-      "timestamp": 907
-    },
-    {
-      "speaker": "Dad",
-      "text": "Right. That's true, that's what happens to flowers.",
-      "timestamp": 909
-    },
-    {
-      "speaker": "Dad",
-      "text": "But I'm feeling better already a little bit. But I'd love if you would stay a little longer.",
-      "timestamp": 913
-    },
-    {
-      "speaker": "Izzy",
-      "text": "We can tell you a story.",
-      "timestamp": 919
-    },
-    {
-      "speaker": "Dad",
-      "text": "You would do that? Thank you.",
-      "timestamp": 921
-    },
-    {
-      "speaker": "Izzy",
-      "text": "About Chicky's jar mission trapped.",
-      "timestamp": 924
-    },
-    {
-      "speaker": "Dad",
-      "text": "My goodness. I've never heard that story, tell me.",
-      "timestamp": 930
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Security cats, you're the ones that tell the story.",
-      "timestamp": 934
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Right?",
-      "timestamp": 940
-    },
-    {
-      "speaker": "Dad",
-      "text": "And Wobbly Whiskers said, 'Meow, meow, but maybe you can help us out. So, one time we were in our Flower Castle, not really doing much of anything. I mean, I guess I was cleaning my fur maybe.'",
-      "timestamp": 941
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Yeah, and doing the safety check.",
-      "timestamp": 954
-    },
-    {
-      "speaker": "Dad",
-      "text": "And Sarana was taking a nap, I think, and then there was a ding-dong, and it was... Wait, who was it?",
-      "timestamp": 957
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Who was it? It was Isabella.",
-      "timestamp": 963
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, and what did Isabella say?",
-      "timestamp": 965
-    },
-    {
-      "speaker": "Izzy",
-      "text": "She said that Chicky was trapped in a jar.",
-      "timestamp": 967
-    },
-    {
-      "speaker": "Dad",
-      "text": "And we said, 'Oh my goodness, that sounds like a case for the security cats!'",
-      "timestamp": 971
-    },
-    {
-      "speaker": "Izzy",
-      "text": "And Princess Mango came in...",
-      "timestamp": 977
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, she did?",
-      "timestamp": 980
-    },
-    {
-      "speaker": "Izzy",
-      "text": "...and said...",
-      "timestamp": 981
-    },
-    {
-      "speaker": "Izzy",
-      "text": "...that...",
-      "timestamp": 983
-    },
-    {
-      "speaker": "Izzy",
-      "text": "...someone put him in overnight, and it was...",
-      "timestamp": 984
-    },
-    {
-      "speaker": "Izzy",
-      "text": "...Isabella.",
-      "timestamp": 991
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Coz coz it was his sleeping bed but he didn't like it.",
-      "timestamp": 994
-    },
-    {
-      "speaker": "Izzy",
-      "text": "So...",
-      "timestamp": 1003
-    },
-    {
-      "speaker": "Izzy",
-      "text": "...that was the beginning.",
-      "timestamp": 1005
-    },
-    {
-      "speaker": "Izzy",
-      "text": "And there was also a safety check in the... in the story before the ding-dong.",
-      "timestamp": 1010
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, what happens in the safety check?",
-      "timestamp": 1016
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Dad, do you remember how they go?",
-      "timestamp": 1018
-    },
-    {
-      "speaker": "Dad",
-      "text": "Well, I do remember that the security cats had to check all around, and they did, um, 'Safety check, safety check, safety check' looking at all the different toys to check if they were safe.",
-      "timestamp": 1023
-    },
-    {
-      "speaker": "Dad",
-      "text": "But they went all the way around, and everything was safe, and that was their safety check.",
-      "timestamp": 1033
-    },
-    {
-      "speaker": "Izzy",
-      "text": "I hear some scratching.",
-      "timestamp": 1041
-    },
-    {
-      "speaker": "Dad",
-      "text": "That's just the books crinkling because I'm leaning against them.",
-      "timestamp": 1042
-    },
-    {
-      "speaker": "Dad",
-      "text": "Um, Isabella, it got very late. So, we've got to finish our story.",
-      "timestamp": 1049
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Yeah, finish our story.",
-      "timestamp": 1053
-    },
-    {
-      "speaker": "Dad",
-      "text": "And Icicle said, 'Wow, what a strange story! And how's it... how does it end?'",
-      "timestamp": 1056
-    },
-    {
-      "speaker": "Dad",
-      "text": "And Seeker said, 'Well, I think the security cats rescued Chicky from her jar. And then they found the culprit.' Do you know who the culprit is?",
-      "timestamp": 1062
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Who?",
-      "timestamp": 1075
-    },
-    {
-      "speaker": "Dad",
-      "text": "Well, that's the person who did the bad thing, which in this case was putting Chicky in a jar. Um, but who was it? And why did they put Chicky there?",
-      "timestamp": 1076
-    },
-    {
-      "speaker": "Izzy",
-      "text": "So he could nap.",
-      "timestamp": 1086
-    },
-    {
-      "speaker": "Izzy",
-      "text": "It was while he was asleep.",
-      "timestamp": 1089
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Probably. 'And I did it by accident,' said Isabella.",
-      "timestamp": 1091
-    },
-    {
-      "speaker": "Dad",
-      "text": "Ah, right! That's how they solved the mystery.",
-      "timestamp": 1097
-    },
-    {
-      "speaker": "Dad",
-      "text": "They eventually figured out that Isabella had put Chicky in the jar, even though Chicky didn't want to be in the jar, but she wanted to put Chicky in there to be cozy and comfortable, but then Chicky woke up and was very confused because she was trapped in a jar.",
-      "timestamp": 1100
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Oh, but there was a big snowstorm, that's why I putted him in there.",
-      "timestamp": 1116
+      "text": "No one, except for the Security Cats.",
+      "timestamp": 155.72
     },
     {
       "speaker": "Dad",
       "text": "Oh.",
-      "timestamp": 1122
+      "timestamp": 164.24
+    },
+    {
+      "speaker": "Izzy",
+      "text": "So go to the Security Cats. That's a hard advice.",
+      "timestamp": 165.4
     },
     {
       "speaker": "Dad",
-      "text": "'A big snowstorm, funny you should mention,' said Seeker, looking out the window.",
-      "timestamp": 1123
+      "text": "And so Seeker went over to the Flower Castle and knocked on the flower door. And was, were the Security Cats at home?",
+      "timestamp": 170.68
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Tell the story, tell him a story. Tell me the Security Cat.",
+      "timestamp": 185.3
     },
     {
       "speaker": "Dad",
-      "text": "'There's a huge snowstorm that's just starting outside.' And Icicle the dragon said, 'Oh dear, someone's got to close all my windows.'",
-      "timestamp": 1128
+      "text": "Oh.",
+      "timestamp": 193.18
     },
     {
       "speaker": "Izzy",
-      "text": "And Isabella closed every window.",
-      "timestamp": 1139
+      "text": "Meow, meow, meow.",
+      "timestamp": 194
     },
     {
       "speaker": "Dad",
-      "text": "'Thank you! Now we'll be cozy and safe inside my castle. You'd better stay the night here. I have many cozy beds. And then once the storm is over, you can fly right back home. And now I'm very tired since I'm sick,' said Icicle. 'I must go to sleep.'",
-      "timestamp": 1143
+      "text": "And Wobbly Whiskers answered the flower door and said, \"Meow, meow. What can I do for you?\"",
+      "timestamp": 195.17
     },
     {
       "speaker": "Izzy",
-      "text": "Hey, but there's the one who you can meet.",
-      "timestamp": 1166
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Who also has freezing breath that can freeze things for you.",
-      "timestamp": 1169
+      "text": "You need to go up the cold mountain and Icicle, Icicle's sick, sick, and you need to go tell him a story.",
+      "timestamp": 200.22
     },
     {
       "speaker": "Dad",
-      "text": "Oh, who's that?",
-      "timestamp": 1175
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Named Elsa Pony. She lives on the North Mountain, which is really snowy.",
-      "timestamp": 1177
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Where...",
-      "timestamp": 1184
-    },
-    {
-      "speaker": "Izzy",
-      "text": "...where Elsa lives.",
-      "timestamp": 1186
-    },
-    {
-      "speaker": "Izzy",
-      "text": "And she's, um, and Elsa Pony is related to Elsa.",
-      "timestamp": 1189
-    },
-    {
-      "speaker": "Izzy",
-      "text": "And they get married.",
-      "timestamp": 1197
-    },
-    {
-      "speaker": "Izzy",
-      "text": "And...",
-      "timestamp": 1199
-    },
-    {
-      "speaker": "Izzy",
-      "text": "...they are also...",
-      "timestamp": 1201
-    },
-    {
-      "speaker": "Izzy",
-      "text": "...um...",
-      "timestamp": 1204
-    },
-    {
-      "speaker": "Izzy",
-      "text": "...and...",
-      "timestamp": 1208
-    },
-    {
-      "speaker": "Izzy",
-      "text": "...Elsa Pony can freeze things. She has a freezing breath.",
-      "timestamp": 1212
+      "text": "\"Meow, meow. This sounds like a job for the Security Cats. Come on, Sarana, let's go.\" And Sarana said, \"I'm just waking up from my nap, and I think we're gonna need winter coats and maybe hats and even mittens if we're gonna go up to that cold, cold place.\"",
+      "timestamp": 210.4
     },
     {
       "speaker": "Dad",
-      "text": "And Icicle...",
-      "timestamp": 1217
+      "text": "And s- And Wobbly Whiskers said, \"You're right.\" And they put on-",
+      "timestamp": 228.96
     },
     {
       "speaker": "Izzy",
-      "text": "And Elsa Pony and Elsa...",
-      "timestamp": 1217.5
-    },
-    {
-      "speaker": "Izzy",
-      "text": "...both live on the North Mountain.",
-      "timestamp": 1221
-    },
-    {
-      "speaker": "Izzy",
-      "text": "That's where we are right now, on the North Mountain.",
-      "timestamp": 1225
-    },
-    {
-      "speaker": "Izzy",
-      "text": "But Elsa lives in a palace.",
-      "timestamp": 1230
+      "text": "And Greenland, 'cause there might be some leopard seals. But, but the Greenland ocean's very far away from there, 'cause it will already be snowing once you know it.",
+      "timestamp": 231.24
     },
     {
       "speaker": "Dad",
-      "text": "And Icicle said, 'But now, that's all very interesting, but now I must go to sleep.'",
-      "timestamp": 1233
+      "text": "Oh, oh. And Wobbly Whiskers said, \"Well, huh. Uh, let's get a move on to Icicle's Castle. But how are we gonna get there?\" And Seeker said, \"Oh, I can fly you in my sky cap- in my sky ship.\"",
+      "timestamp": 247.94
     },
     {
       "speaker": "Izzy",
-      "text": "Does anything needs to be frozen?",
-      "timestamp": 1241
+      "text": "Oh, here, here, you can get my small, my, my two small winter things here.",
+      "timestamp": 262.12
     },
     {
       "speaker": "Dad",
-      "text": "'No, no. Goodnight, everyone.'",
-      "timestamp": 1245
+      "text": "\"Oh, thank you,\" said the Security Cats.",
+      "timestamp": 271.17
     },
     {
       "speaker": "Izzy",
-      "text": "Well, there is a volcano erupting in Italy...",
-      "timestamp": 1249
-    },
-    {
-      "speaker": "Izzy",
-      "text": "...on Farmer Wobble's island, and it's got erupt right now, and Elsa Pony is going to freeze it as quick as she can.",
-      "timestamp": 1254
+      "text": "And she ga- and Isabella gave them mittens, boots, and a jacket.",
+      "timestamp": 273.6
     },
     {
       "speaker": "Dad",
-      "text": "But that will have to be the story...",
-      "timestamp": 1264
+      "text": "\"Thank you,\" said the Security Cats. And Seeker said, \"Now wait, before we go, is there anything we should, uh, else that we should bring for, for Icicle to help him feel better while he's sick?\"",
+      "timestamp": 286.26
     },
     {
       "speaker": "Izzy",
-      "text": "No, no, that...",
-      "timestamp": 1267
+      "text": "Bouquet of flowers.",
+      "timestamp": 294.44
     },
     {
       "speaker": "Dad",
-      "text": "...for another Stars and Stories.",
-      "timestamp": 1268
+      "text": "Oh, my goodness. Why, that's so good.",
+      "timestamp": 296.32
     },
     {
       "speaker": "Izzy",
-      "text": "...and that was um just the news.",
-      "timestamp": 1268.5
-    },
-    {
-      "speaker": "Izzy",
-      "text": "She is going to do it overnight.",
-      "timestamp": 1272
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Overnight.",
-      "timestamp": 1275
+      "text": "'Cause Isabella handed them a bouquet of flowers that was in a, um, a vase that had a top on it. And they flew, flew, flew.",
+      "timestamp": 297.13
     },
     {
       "speaker": "Dad",
-      "text": "Oh, oh, okay.",
-      "timestamp": 1276
+      "text": "They flew, flew, and flew over the forest and over the rivers-",
+      "timestamp": 315.58
     },
     {
       "speaker": "Izzy",
-      "text": "Overnight.",
-      "timestamp": 1278
+      "text": "And, and-",
+      "timestamp": 320.42
     },
     {
       "speaker": "Dad",
-      "text": "Very good.",
-      "timestamp": 1278.5
+      "text": "... and over the ocean",
+      "timestamp": 320.59
     },
     {
       "speaker": "Izzy",
-      "text": "Coz the volcano is happening overnight.",
-      "timestamp": 1279
+      "text": "... and, and, um-",
+      "timestamp": 321.3
     },
     {
       "speaker": "Dad",
-      "text": "And that, I think, finally is the end of Stars and Stories.",
-      "timestamp": 1284
+      "text": "All the way",
+      "timestamp": 324.48
     },
     {
       "speaker": "Izzy",
-      "text": "Shadow puppets, shadow puppets!",
-      "timestamp": 1290
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Let me find...",
-      "timestamp": 1296
-    },
-    {
-      "speaker": "Izzy",
-      "text": "...try to find a puppet.",
-      "timestamp": 1298
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Might make a good puppet.",
-      "timestamp": 1300
-    },
-    {
-      "speaker": "Izzy",
-      "text": "I have been trying to make a fish.",
-      "timestamp": 1304
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Clownfish.",
-      "timestamp": 1309
+      "text": "... the Security Cats were in the, the... But there was a snowstorm.",
+      "timestamp": 324.99
     },
     {
       "speaker": "Dad",
-      "text": "Ooh.",
-      "timestamp": 1321
+      "text": "Dun, dun, dun.",
+      "timestamp": 337.24
     },
     {
       "speaker": "Izzy",
-      "text": "There's no clownfish showing on the ceiling.",
-      "timestamp": 1322
+      "text": "And they got there before the snowstorm started.",
+      "timestamp": 338.84
     },
     {
       "speaker": "Dad",
-      "text": "Here, let me try.",
-      "timestamp": 1326
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, I see. It's blocking too much light. You have to hold it a little bit over.",
-      "timestamp": 1328
-    },
-    {
-      "speaker": "Dad",
-      "text": "Do you see it now?",
-      "timestamp": 1334
+      "text": "\"Oh, thank goodness,\" said Seeker as they landed the sky ship right next to Icicle's Castle. You see those huge clouds coming over the mountains towards us? That's gonna be a big snowstorm.\"",
+      "timestamp": 343.59
     },
     {
       "speaker": "Izzy",
-      "text": "Yeah!",
-      "timestamp": 1335
+      "text": "And they hurried inside with the bouquet of flowers.",
+      "timestamp": 353.84
+    },
+    {
+      "speaker": "Dad",
+      "text": "They sure did. And they went in and found Icicle lying on his enormous bed, looking very sad and sick and sniffly.",
+      "timestamp": 358.02
     },
     {
       "speaker": "Izzy",
-      "text": "Can you try one? Do you want to try to do a fox?",
-      "timestamp": 1336
+      "text": "Oh, but, but they parked it- In the garage",
+      "timestamp": 366.5
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yes, because Icicle had a very big garage that was just big enough to fit Seeker's Skyship. That's correct.",
+      "timestamp": 372.44
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And, and bunch. And nothing got ruined 'cause everything was strong, made out of bricks by Bunsen and Beaker.",
+      "timestamp": 378.06
+    },
+    {
+      "speaker": "Dad",
+      "text": "They're good at building things out of bricks. That's right.",
+      "timestamp": 388.56
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Bunsen, Beaker. Um, actually, Daddy, Daddy, the snowstorm wasn't starting very soon.",
+      "timestamp": 391.28
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, it wasn't?",
+      "timestamp": 401.36
+    },
+    {
+      "speaker": "Izzy",
+      "text": "It was starting before Bunsen and Beaker even got there.",
+      "timestamp": 401.7
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, okay.",
+      "timestamp": 406.38
+    },
+    {
+      "speaker": "Izzy",
+      "text": "So Bunsen and Beaker hurried up the mountain into Icicle's castle and, and Seeker said, \"Quick, um, you gotta build the outside of, of Icicle's castle quickly out of bricks and slime.\" \"Have you brought a bag of that with you?\"",
+      "timestamp": 406.82
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Bunsen said, \"Fortunately, I'm always prepared. I have my bricks and slime with me right here.\" And Beaker said, \"Me, me.\"",
+      "timestamp": 431.96
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And, and they built and built and built and built until the snowstorm was, uh, there.",
+      "timestamp": 438.14
+    },
+    {
+      "speaker": "Dad",
+      "text": "And there was a whoosh.",
+      "timestamp": 447.42
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And, and they went inside when it was built out of bricks with the bag.",
+      "timestamp": 449.1
+    },
+    {
+      "speaker": "Dad",
+      "text": "And there was a great whooshing of wind and thunder and lightning and great big flakes of snow began to fall.",
+      "timestamp": 454.34
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And, and Isabella went out in her cape, very warm, um, and she made the garage out of bricks.",
+      "timestamp": 460.79
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yes. Thank goodness. And so they came-",
+      "timestamp": 472.6
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Oh, Dad, can we pause Star Wars Stories a little?",
+      "timestamp": 476.98
     },
     {
       "speaker": "Dad",
       "text": "Yes.",
-      "timestamp": 1341
+      "timestamp": 480.34
+    },
+    {
+      "speaker": "Izzy",
+      "text": "For a little?",
+      "timestamp": 482.22
+    },
+    {
+      "speaker": "Dad",
+      "text": "Mm-hmm.",
+      "timestamp": 483.5
+    },
+    {
+      "speaker": "Izzy",
+      "text": "'Cause I gotta go potty.",
+      "timestamp": 483.73
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, good. We can just leave that.",
+      "timestamp": 485.36
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Oh, wait. Actually, I don't, I just don't want your phone, like, getting dead.",
+      "timestamp": 488.84
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, that's okay.",
+      "timestamp": 496.9
+    },
+    {
+      "speaker": "Izzy",
+      "text": "So maybe just leave it like that.",
+      "timestamp": 499.92
+    },
+    {
+      "speaker": "Dad",
+      "text": "All right. Ah, there we go. Now, I'll sit down with you.",
+      "timestamp": 784.43
+    },
+    {
+      "speaker": "Izzy",
+      "text": "You just need to fix it a little.",
+      "timestamp": 802.03
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay.",
+      "timestamp": 804.35
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Fix it a little. Hey. That's right there.",
+      "timestamp": 806.37
+    },
+    {
+      "speaker": "Dad",
+      "text": "There, perfect. And so-",
+      "timestamp": 813.56
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Oh",
+      "timestamp": 817.05
+    },
+    {
+      "speaker": "Dad",
+      "text": "... Seeker and Security Cats went inside the castle.",
+      "timestamp": 818.33
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And they need to tell Chicky, they need to tell the Chicky story about when he was cha- trapped in the jar.",
+      "timestamp": 824.37
+    },
+    {
+      "speaker": "Dad",
+      "text": "And they, they walked in, thinking about what stories they might tell. And there was Icicle going, \"Oh, I don't feel very good. I wish someone would cheer me up. Look, I hardly have any freezing breath at all.\" And as he coughed, each sad cough, you know what came out?",
+      "timestamp": 832.41
+    },
+    {
+      "speaker": "Izzy",
+      "text": "What?",
+      "timestamp": 858.98
+    },
+    {
+      "speaker": "Dad",
+      "text": "Instead of a blast of powerful freezing breath, it was just a little snowman. And there were little snowmen popping out all over the place and then melting. And Seeker said-",
+      "timestamp": 859.61
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And, and on El- and on Icicle's night table, um, they putted the bouquet of flowers on it.",
+      "timestamp": 873.77
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh, thank you for the beautiful flowers. No one's ever brought me flowers before.\"",
+      "timestamp": 884.46
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"Oh, but we kept them nice and safe for you.\"",
+      "timestamp": 891.24
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Thank you.\"",
+      "timestamp": 894.11
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"And gave them a drink and everything.\"",
+      "timestamp": 894.4
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Wow.\"",
+      "timestamp": 898.02
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"They don't like the coldness.\"",
+      "timestamp": 898.5
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"I see. But I'll take good care of them so they stay fresh for a while. Now, I'm feeling-\"",
+      "timestamp": 900.68
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Until they get dead.",
+      "timestamp": 907.09
+    },
+    {
+      "speaker": "Dad",
+      "text": "Right. That's true. That's what happens to flowers. \"But I'm feeling better already, a little bit. But I'd love if you would stay a little longer.\"",
+      "timestamp": 909.45
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"We can tell you a story.\"",
+      "timestamp": 919.17
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"You would do that? Thank you.\"",
+      "timestamp": 921.82
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"About Chicky's jar mission trapped.\"",
+      "timestamp": 924.2
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"My goodness, I've never heard that story. Tell me.\"",
+      "timestamp": 930.24
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Ah. Security Cats, you're the ones that tell the story.",
+      "timestamp": 933.91
+    },
+    {
+      "speaker": "Dad",
+      "text": "And-",
+      "timestamp": 940.43
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Right",
+      "timestamp": 940.95
+    },
+    {
+      "speaker": "Dad",
+      "text": "... and Wobbly Whiskers said, \"Meow, meow. But maybe you can help us out. So, um, one time we were in our flower castle, not really doing much of anything. I mean, I guess I was cleaning my fur, maybe.\"",
+      "timestamp": 941.79
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah.",
+      "timestamp": 955.09
+    },
+    {
+      "speaker": "Dad",
+      "text": "And s-",
+      "timestamp": 955.77
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And doing the safety check",
+      "timestamp": 956.07
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Sarana was taking a nap, I think, and then there was a ding-dong and it was... Wait, who was it?",
+      "timestamp": 957.93
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Who was it? It was Isabella.",
+      "timestamp": 963.95
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, and what did Isabella say?",
+      "timestamp": 965.99
+    },
+    {
+      "speaker": "Izzy",
+      "text": "She said that Chicky was trapped in a jar.",
+      "timestamp": 967.69
+    },
+    {
+      "speaker": "Dad",
+      "text": "And we said, \"Oh, my goodness. That sounds like a case for the Security Cats.\"",
+      "timestamp": 971.95
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And Princess Mango came in-",
+      "timestamp": 977.23
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, she did?",
+      "timestamp": 980.81
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... and said that someone put him in overnight, and it was, um, Isabella.",
+      "timestamp": 981.32
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh.",
+      "timestamp": 997.61
+    },
+    {
+      "speaker": "Izzy",
+      "text": "'Cause, 'cause it was his sleeping bag, but he didn't like it, so that was the beginning. And there was also a safety check in the s- in the story before the ding-dong.",
+      "timestamp": 997.81
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, what happens in the safety check?",
+      "timestamp": 1016.97
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Dad, you remember how they go?",
+      "timestamp": 1020.89
+    },
+    {
+      "speaker": "Dad",
+      "text": "Well, I do remember that the Security Cats had to check all around, and they did, um, safety check, safety check, safety check, looking at all the different toys to check if they were safe. But they went all the way around and everything was safe, and that was their safety check.",
+      "timestamp": 1023.53
+    },
+    {
+      "speaker": "Izzy",
+      "text": "There's some scratching.",
+      "timestamp": 1041.03
+    },
+    {
+      "speaker": "Dad",
+      "text": "It's just the books crinkling 'cause I'm leaning against them. Um, Isabella, it got very late.",
+      "timestamp": 1042.68
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Hey, hey, there's another-",
+      "timestamp": 1052.27
+    },
+    {
+      "speaker": "Dad",
+      "text": "So we have to finish our story.",
+      "timestamp": 1053.28
+    },
+    {
+      "speaker": "Izzy",
+      "text": "You gotta finish your story.",
+      "timestamp": 1054.87
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Icicle said, \"Wow, what a strange story. And how does it, how does it end?\" And Seeker said, \"Well, I think the Security Cats rescued Chicky from her jar, and then they found the culprit.\" Do you know who the culprit is?",
+      "timestamp": 1056.51
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Who?",
+      "timestamp": 1075.09
+    },
+    {
+      "speaker": "Dad",
+      "text": "Well, that's the person who, um, who did the bad thing, which in this case was putting Chicky in a jar. Um, but who was it, and why did they put Chicky there?",
+      "timestamp": 1075.75
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Oh, so he could nap.",
+      "timestamp": 1086.59
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh.",
+      "timestamp": 1089.63
+    },
+    {
+      "speaker": "Izzy",
+      "text": "It was while he was asleep-",
+      "timestamp": 1089.69
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh",
+      "timestamp": 1092.37
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... probably. \"And I did it by accident,\" said Isabella.",
+      "timestamp": 1092.71
+    },
+    {
+      "speaker": "Dad",
+      "text": "Ah, right. That's how they solved the mystery. They eventually figured out that Isabella had put Chicky in the jar even though Chicky didn't want to be in the jar, but she wanted to put Chicky in there to be cozy and comfortable. But then Chicky woke up and was very confused because she was trapped in a jar.",
+      "timestamp": 1097.47
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Of, but there was a big snow storm. That's why I put him in there.",
+      "timestamp": 1116.65
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh, a big snow storm. Funny you should mention,\" said Seeker, looking out the window. \"There's a huge snow storm that's just starting outside.\" And Icicle the dragon said, \"Oh dear, someone's got to close all my windows.\"",
+      "timestamp": 1122.13
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And Isabella closed every window.",
+      "timestamp": 1139.53
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Thank you. Now we'll be cozy and safe inside my castle. You'd better stay the night here. I have many cozy beds. And then once the storm is over, you can fly right back home. And now I'm very tired since I'm sick,\" said Icicle. \"I must go to sleep.\"",
+      "timestamp": 1143.35
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Hey, but there's someone who you can meet-",
+      "timestamp": 1166.09
+    },
+    {
+      "speaker": "Dad",
+      "text": "Who is that?",
+      "timestamp": 1169.85
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... that also has freezing breath that can freeze things for you.",
+      "timestamp": 1170.12
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, who's that?",
+      "timestamp": 1175.81
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Named Elsa Pony. She lives on the North Mountain, which is really snowy. Where, where Elsa lives and she's, um, and Elsa Pony is related to Elsa, and they get married. And they are also, um, and Elsa Pony can freeze things. She has a freezing breath.",
+      "timestamp": 1177.11
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Icicle-",
+      "timestamp": 1216.79
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And Elsa Pony, and Elsa Pony and Elsa both live on the North Mountain. That's where we are right now, on the North Mountain. But Elsa lives in a palace.",
+      "timestamp": 1217.31
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Icicle said, \"But now, that's all very interesting, but now I, I must go to sleep.\"",
+      "timestamp": 1234.61
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Does anything needs to be frozen?",
+      "timestamp": 1241.49
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"No, no. Good night, everyone.\"",
+      "timestamp": 1245.21
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Well, there is a volcano erupting in Italy on Farmer Wobble's island that's gonna erupt right now and Elsa Pony is going to freeze it as quick as she can.",
+      "timestamp": 1249.17
+    },
+    {
+      "speaker": "Dad",
+      "text": "But that will have to be the story-",
+      "timestamp": 1265.41
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No, no",
+      "timestamp": 1268.73
+    },
+    {
+      "speaker": "Dad",
+      "text": "... for another Stars and Stories.",
+      "timestamp": 1269.15
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And that was, um, just the news. Um, sh-",
+      "timestamp": 1270.53
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh",
+      "timestamp": 1274.84
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... she is going to do it overnight.",
+      "timestamp": 1274.84
+    },
+    {
+      "speaker": "Dad",
+      "text": "I-",
+      "timestamp": 1278.61
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Overnight",
+      "timestamp": 1278.67
+    },
+    {
+      "speaker": "Dad",
+      "text": "... oh, oh, okay.",
+      "timestamp": 1279.49
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Overnight.",
+      "timestamp": 1280.45
+    },
+    {
+      "speaker": "Dad",
+      "text": "Very good.",
+      "timestamp": 1281.23
+    },
+    {
+      "speaker": "Izzy",
+      "text": "'Cause the volcano is happening overnight.",
+      "timestamp": 1281.62
+    },
+    {
+      "speaker": "Dad",
+      "text": "And that , I think, finally is the end of Stars and Stories.",
+      "timestamp": 1284.97
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Shadow puppets, shadow puppets. Let me find, if I can find a puppet. Might make a good puppet. Let me get holding it. I have been trying to make a fish, a clown fish. Get away.",
+      "timestamp": 1290.55
+    },
+    {
+      "speaker": "Dad",
+      "text": "Ooh.",
+      "timestamp": 1321.59
+    },
+    {
+      "speaker": "Izzy",
+      "text": "There's no clown fish showing on the ceiling.",
+      "timestamp": 1323.01
+    },
+    {
+      "speaker": "Dad",
+      "text": "Here, let me try. Oh, I see. It's blocking too much light. You have to hold it a little bit over. Do you see it now?",
+      "timestamp": 1326.71
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah.",
+      "timestamp": 1335.81
+    },
+    {
+      "speaker": "Dad",
+      "text": "There.",
+      "timestamp": 1336.95
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Can you try one?",
+      "timestamp": 1337.31
+    },
+    {
+      "speaker": "Dad",
+      "text": "Let's see. Let-",
+      "timestamp": 1339.04
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Do you want to try to do a fox?",
+      "timestamp": 1339.07
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yes.",
+      "timestamp": 1341.45
     },
     {
       "speaker": "Izzy",
       "text": "Try to do a fox.",
-      "timestamp": 1342
+      "timestamp": 1342.77
     },
     {
       "speaker": "Dad",
       "text": "Oh, with my fingers?",
-      "timestamp": 1344
+      "timestamp": 1344.73
     },
     {
       "speaker": "Izzy",
       "text": "A fox.",
-      "timestamp": 1345
+      "timestamp": 1345.87
     },
     {
       "speaker": "Dad",
-      "text": "Oh, let's see. Do it like this? Oh, it's upside down. Do it like this.",
-      "timestamp": 1347
-    },
-    {
-      "speaker": "Dad",
-      "text": "And the fox says...",
-      "timestamp": 1355
-    },
-    {
-      "speaker": "Dad",
-      "text": "Ring ding ding a ding ding ding ding ding ding ding ding",
-      "timestamp": 1357
-    },
-    {
-      "speaker": "Dad",
-      "text": "That's my fox. All right.",
-      "timestamp": 1362
+      "text": "Oh, let's see. Do that like this. Oh, it's upside down. Do it like this. And the fox says ring-ding-ding-ding-ding-ding-ding-ding-ding-ding-ding. That's my fox. All right.",
+      "timestamp": 1348.05
     }
   ],
   "characters": [
@@ -1289,7 +1044,19 @@
       "description": "An island in Italy where a volcano erupts and must be frozen by Elsa Pony."
     }
   ],
-  "wordCount": 2142,
-  "izzyWordCount": 890,
-  "dadWordCount": 1252
+  "wordCount": 2215,
+  "izzyWordCount": 935,
+  "dadWordCount": 1280,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T15:30:51.573Z",
+    "speakerMap": {
+      "speaker_0": "Dad",
+      "speaker_1": "Izzy"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "high"
+  }
 }

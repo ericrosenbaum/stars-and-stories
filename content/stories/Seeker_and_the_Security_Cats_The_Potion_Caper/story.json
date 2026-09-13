@@ -6,923 +6,1078 @@
   "audioFilename": "Cornell St 135.m4a",
   "highlightQuote": {
     "text": "But she can take flies without asking.",
-    "timestamp": 997
+    "timestamp": 997.14
   },
   "transcript": [
     {
       "speaker": "Izzy",
-      "text": "Like someone could go in to Tissue Land?",
-      "timestamp": 0
+      "text": "Someone can go in Tissue Land.",
+      "timestamp": 0.38
     },
     {
       "speaker": "Dad",
       "text": "Tissue Land?",
-      "timestamp": 4
+      "timestamp": 4.39
     },
     {
       "speaker": "Izzy",
-      "text": "Yeah.",
-      "timestamp": 5
-    },
-    {
-      "speaker": "Izzy",
-      "text": "The land made of tissues.",
-      "timestamp": 6
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Tissues, tissues, tissues.",
-      "timestamp": 9
+      "text": "Yep.",
+      "timestamp": 6.74
     },
     {
       "speaker": "Dad",
-      "text": "I never heard of Tissue Land. All right, I'm going to turn off the lamp. Unless you want to?",
-      "timestamp": 12
+      "text": "Who's in-",
+      "timestamp": 6.75
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Tissue Land is made of tissue",
+      "timestamp": 6.76
+    },
+    {
+      "speaker": "Dad",
+      "text": "... Oh, wow.",
+      "timestamp": 8.94
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Tissues, tissues, tissue.",
+      "timestamp": 10.32
+    },
+    {
+      "speaker": "Dad",
+      "text": "I never heard of Tissue Land. All right, I'm gonna turn off the lamp, unless you want to.",
+      "timestamp": 12.18
     },
     {
       "speaker": "Izzy",
       "text": "You want to, Daddy.",
-      "timestamp": 16
+      "timestamp": 16.8
     },
     {
       "speaker": "Dad",
       "text": "Boop. All right, there's the stars.",
-      "timestamp": 18
-    },
-    {
-      "speaker": "Dad",
-      "text": "Security Cats story?",
-      "timestamp": 21
+      "timestamp": 18.68
     },
     {
       "speaker": "Izzy",
-      "text": "One.",
-      "timestamp": 24
+      "text": "Security Cat Story one.",
+      "timestamp": 22.36
     },
     {
       "speaker": "Dad",
       "text": "Okay.",
-      "timestamp": 26
+      "timestamp": 26.08
     },
     {
       "speaker": "Izzy",
-      "text": "Let's start from the Security Cats.",
-      "timestamp": 27
+      "text": "Let's start with the Security Cats.",
+      "timestamp": 27.4
     },
     {
       "speaker": "Dad",
-      "text": "Well...",
-      "timestamp": 30
+      "text": "Well, one-",
+      "timestamp": 30.86
     },
     {
       "speaker": "Izzy",
-      "text": "Ding dong, Security Cats!",
-      "timestamp": 31
+      "text": "Ding dong, Security Cats.",
+      "timestamp": 31.13
     },
     {
       "speaker": "Dad",
-      "text": "\"Meow,\" said Wobbly Whiskers. \"Who is it?\"",
-      "timestamp": 34
+      "text": "Um, \"Meow,\" said Wobbly Whiskers, \"Who is it?\"",
+      "timestamp": 33.9
     },
     {
       "speaker": "Izzy",
       "text": "It's Seeker.",
-      "timestamp": 37
+      "timestamp": 37.36
     },
     {
       "speaker": "Dad",
-      "text": "Oh, hi, Seeker.",
-      "timestamp": 39
+      "text": "\"Oh, hi, Seeker.\"",
+      "timestamp": 38.99
     },
     {
       "speaker": "Izzy",
       "text": "And what did Seeker say? And what was Seeker's problem?",
-      "timestamp": 41
+      "timestamp": 40.02
     },
     {
       "speaker": "Dad",
-      "text": "And Seeker said, \"Oh, Security Cats, I'm glad you're here. 'Cause today I've got a big problem. You see, I use potions a lot for my magic research. You know about my potions?\"",
-      "timestamp": 46
+      "text": "And Seeker said-",
+      "timestamp": 48.26
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Da, da, da",
+      "timestamp": 49.66
+    },
+    {
+      "speaker": "Dad",
+      "text": "... \"Oh, Security Cats, I'm glad you're here, 'cause today I've got a big problem. You see, I use potions a lot for my magic research. You know about my potions?\"",
+      "timestamp": 50.22
     },
     {
       "speaker": "Izzy",
       "text": "Yeah.",
-      "timestamp": 69
+      "timestamp": 67.06
     },
     {
       "speaker": "Dad",
-      "text": "And well, this morning I woke up and I looked in my potion closet, and they were all gone! Someone has stolen all of my potions!\"",
-      "timestamp": 70
+      "text": "\"And, well, this morning I woke up and I looked in my potion closet and they were all gone. Someone has stolen all of my potions.\"",
+      "timestamp": 67.55
     },
     {
       "speaker": "Izzy",
-      "text": "Even your potion ingredients and your potion tile?",
-      "timestamp": 81
+      "text": "Even your potion ingredients in your potion tunnel?",
+      "timestamp": 80.22
     },
     {
       "speaker": "Dad",
-      "text": "Oh, no. The ingredients are stored separately, and the potion tunnel is still there. But, the finished potions that I worked so hard on, they're all gone. What can we do, Security Cats?",
-      "timestamp": 85
+      "text": "Oh, no. The ingredients are stored separately, and the potion tunnel's still there, but the finished potions that I worked so hard on, they're all gone. What can we do, Security Cats?",
+      "timestamp": 84.94
     },
     {
       "speaker": "Izzy",
-      "text": "Even the snake boot one?",
-      "timestamp": 98
+      "text": "Even the Snake Boot one?",
+      "timestamp": 98.76
     },
     {
       "speaker": "Dad",
-      "text": "Even the snake boot potion, that's right.",
-      "timestamp": 101
+      "text": "Even the Snake Boot potion, that's right.",
+      "timestamp": 101.68
     },
     {
       "speaker": "Izzy",
-      "text": "I know just the perfect way to get them back.",
-      "timestamp": 105
+      "text": "Oh, I, I know just the perfect way to g- to get them back.",
+      "timestamp": 104.52
     },
     {
       "speaker": "Dad",
       "text": "\"You do?\" said Seeker.",
-      "timestamp": 110
+      "timestamp": 109.76
     },
     {
       "speaker": "Izzy",
-      "text": "To take the underwater wave.",
-      "timestamp": 111
+      "text": "To take the Underwater Wave.",
+      "timestamp": 111.24
     },
     {
       "speaker": "Dad",
       "text": "What do you mean?",
-      "timestamp": 116
+      "timestamp": 115.18
     },
     {
       "speaker": "Izzy",
-      "text": "There's a potion I have in my pocket and it just takes me to the underwater wave. I slide down a tunnel first, and then I go under into the water wave.",
-      "timestamp": 117
+      "text": "There's a potion I have in my pocket, and it just takes me to the Underwater Wave. I slide down the tunnel first, and then I go under into the wave.",
+      "timestamp": 117.5
     },
     {
       "speaker": "Dad",
       "text": "Wow.",
-      "timestamp": 129
+      "timestamp": 130.08
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Whoa.",
+      "timestamp": 131.8
     },
     {
       "speaker": "Dad",
       "text": "\"Can I come with you?\" said Seeker.",
-      "timestamp": 132
+      "timestamp": 131.81
     },
     {
       "speaker": "Izzy",
-      "text": "Yeah. Yeah.",
-      "timestamp": 134
+      "text": "Yeah, yeah.",
+      "timestamp": 133.22
     },
     {
       "speaker": "Dad",
       "text": "So we're going underwater?",
-      "timestamp": 135
+      "timestamp": 134.56
     },
     {
       "speaker": "Izzy",
       "text": "Yeah.",
-      "timestamp": 136
+      "timestamp": 135.98
     },
     {
       "speaker": "Dad",
-      "text": "And what are we going to do there?",
-      "timestamp": 137
+      "text": "And what are we gonna do there?",
+      "timestamp": 136.34
     },
     {
       "speaker": "Izzy",
-      "text": "We're going to find... we ride the wave up to the shore, and then, and then, we got to find the potions.",
-      "timestamp": 138
+      "text": "We're going to find, um, we ride the wave up to the shore, and then, and then we got to find the potions.",
+      "timestamp": 138.34
     },
     {
       "speaker": "Dad",
-      "text": "Oh.",
-      "timestamp": 153
+      "text": "Oh, okay.",
+      "timestamp": 153.86
     },
     {
       "speaker": "Izzy",
       "text": "And then we collect the potions.",
-      "timestamp": 155
+      "timestamp": 155.44
     },
     {
       "speaker": "Dad",
       "text": "Oh, how do you know they're at the shore?",
-      "timestamp": 158
+      "timestamp": 158.22
     },
     {
       "speaker": "Izzy",
       "text": "I don't know.",
-      "timestamp": 160
+      "timestamp": 160.94
     },
     {
       "speaker": "Dad",
-      "text": "Oh. Well, shouldn't we look for some clues, said Seeker?",
-      "timestamp": 162
+      "text": "Oh. \"Well, should-\"",
+      "timestamp": 161.96
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Where are they are?",
+      "timestamp": 163.75
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"... shouldn't we look for some clues?\" said Seeker.",
+      "timestamp": 164.19
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No.",
+      "timestamp": 166.07
+    },
+    {
+      "speaker": "Dad",
+      "text": "Hmm. Where should we look first, do you think, Security Cats?",
+      "timestamp": 167.64
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Let's, let's let the Wobbly Whisk- let's let the Security Cats look for clues, 'cause they're more better at searching for things.",
+      "timestamp": 170.7
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Wobbly Whiskers said, \"All right, Seeker, where were you when you last saw your potions?\" And Seeker said, \"Well, I mean, normally they're in the, um, uh, potion closet, and so that's where I w- I was when I s- saw them, if you know what I mean.\"",
+      "timestamp": 180.08
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Wobbly Whiskers says, \"Hmm, I see. Okay.\" And she was writing down in a little notepad about all the things she could find out about the mystery. And then she said, \"And when did you last see them?\"",
+      "timestamp": 197.24
     },
     {
       "speaker": "Izzy",
       "text": "Yeah.",
-      "timestamp": 166
+      "timestamp": 207.56
     },
     {
       "speaker": "Dad",
-      "text": "Hmm, where should we look first, do you think, Security Cats?",
-      "timestamp": 168
+      "text": "And Se- Seeker said, \"Um, last night.\" \"Mm-hmm. And did anything unusual happen in your house last night or this morning?\" And Seeker said, \"Well, one kinda weird thing did happen.\" \"And what was that?\" said Wobbly Whiskers. And Seeker said, \"Well, I found a little flower on the floor in the potion closet that wasn't there before.\"",
+      "timestamp": 207.57
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Wobbly Whiskers says, \"What kind of flower?\" And Seeker says, \"I don't know.\" So what did they do?",
+      "timestamp": 235.32
     },
     {
       "speaker": "Izzy",
-      "text": "Let's let the Security Cats look for clues, because they're more better at searching for things.",
-      "timestamp": 170
+      "text": "I don't know, but maybe... But was it, was all of it yellow on the top?",
+      "timestamp": 242.28
     },
     {
       "speaker": "Dad",
-      "text": "And Wobbly Whiskers said, \"All right, Seeker, where were you when you last saw your potions?\" And Seeker said, \"Well, normally they're in the potion closet. And so that's where I was when I saw them, if you know what I mean.\" And Wobbly Whiskers says, \"I see, okay.\" And she was writing down in her little notepad about all the things she could find out about the mystery. And then she said, \"And when did you last see them?\" And Seeker said, \"Last night.\"",
-      "timestamp": 181
-    },
-    {
-      "speaker": "Dad",
-      "text": "And did anything unusual happen in your house last night or this morning? And Seeker said, \"Well, one kind of weird thing did happen.\"",
-      "timestamp": 211
-    },
-    {
-      "speaker": "Dad",
-      "text": "And what was that, said Wobbly Whiskers? And Seeker said, \"Well, I found a little flower on the floor in the potion closet that wasn't there before.\"",
-      "timestamp": 224
-    },
-    {
-      "speaker": "Dad",
-      "text": "And Wobbly Whiskers says, \"What kind of flower?\" And Seeker says, \"I don't know.\"",
-      "timestamp": 235
-    },
-    {
-      "speaker": "Dad",
-      "text": "So what did they do?",
-      "timestamp": 241
-    },
-    {
-      "speaker": "Izzy",
-      "text": "I don't know. But maybe... Was it... Was all of it yellow on the top?",
-      "timestamp": 242
-    },
-    {
-      "speaker": "Dad",
-      "text": "And Seeker says, \"I don't remember. Let's go back to my castle and we can look around.\" And Seeker and Wobbly Whiskers and... the other Security Cat's name is...",
-      "timestamp": 253
+      "text": "And Seeker says, \"I, I don't remember. Let's go back to my, my castle and we can look around.\" And Seeker, and Wobbly Whiskers, and the other Security Cat's name is Sarana?",
+      "timestamp": 253.44
     },
     {
       "speaker": "Izzy",
       "text": "Sarana.",
-      "timestamp": 262
+      "timestamp": 264.72
     },
     {
       "speaker": "Dad",
-      "text": "Sarana?",
-      "timestamp": 264
+      "text": "Seeker, and Wobbly, and Sarana went back to Seeker's palace, to Seeker's Castle, I mean, and they looked. They opened up the door of the potion closet, and indeed, all of the shelves were empty, but on the floor was one tiny little flower.",
+      "timestamp": 265.82
     },
     {
       "speaker": "Izzy",
-      "text": "Sarana.",
-      "timestamp": 265
+      "text": "And what did it have on it?",
+      "timestamp": 280.98
     },
     {
       "speaker": "Dad",
-      "text": "Seeker and Wobbly and Sarana went back to Seeker's palace, to Seeker's castle I mean, and they looked... they opened up the door of the potion closet. And indeed all of the shelves were empty.",
-      "timestamp": 266
+      "text": "It was-",
+      "timestamp": 282.56
     },
     {
-      "speaker": "Dad",
-      "text": "But on the floor was one tiny little flower.",
-      "timestamp": 277
-    },
-    {
-      "speaker": "Dad",
-      "text": "And what did it have on it, which color was it?",
-      "timestamp": 281
+      "speaker": "Izzy",
+      "text": "Which color was it?",
+      "timestamp": 282.62
     },
     {
       "speaker": "Dad",
       "text": "It was all yellow on top.",
-      "timestamp": 283
+      "timestamp": 283.62
     },
     {
       "speaker": "Izzy",
       "text": "So it must be a dandelion.",
-      "timestamp": 286
+      "timestamp": 286.32
     },
     {
       "speaker": "Dad",
       "text": "Oh, a dandelion. But who would accidentally leave a dandelion here, do you think?",
-      "timestamp": 289
+      "timestamp": 289.58
     },
     {
       "speaker": "Izzy",
       "text": "I don't know.",
-      "timestamp": 295
+      "timestamp": 295.26
     },
     {
       "speaker": "Dad",
-      "text": "And Wobbly Whiskers says, \"Okay, we'll collect this as evidence.\" And she put it in a little baggie and wrote a label on it. And Seeker said, \"Oh, I see, you're really doing detective work.\" And Sarana said, \"I think we should look for any fingerprints or footprints or anything else in the dust.\" And Seeker said, \"Yeah, the potion closet does get kind of dusty. It's hard to clean because of all the potions. But now you can see all the dust.\" And Sarana looked around, and did she see any interesting tracks or footprints?",
-      "timestamp": 297
+      "text": "Hmm. And Wobbly Whiskers says, \"Okay, we'll collect this as evidence.\" And she put it in a little baggie and wrote a label on it. And Seeker said, \"Oh, I see. You're really doing detective work.\" And Sarana said, \"I think we should look for any fingerprints, or footprints, or anything else in the dust.\"",
+      "timestamp": 296.34
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Seeker said, \"Yeah, the potion closet does get kinda dusty. It's hard, it's hard to clean 'cause of all the potions, but now you can see all the dust.\" And Sarana looked around, and did she see any interesting tracks, or footprints-",
+      "timestamp": 317.98
     },
     {
       "speaker": "Izzy",
-      "text": "No, not quite yet. But she did see some weird dots. Some weird dots that ended by a small rock near the potion closet.",
-      "timestamp": 330
+      "text": "No, not-",
+      "timestamp": 330.68
+    },
+    {
+      "speaker": "Dad",
+      "text": "... or fingerprints or anything?",
+      "timestamp": 330.87
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Not quite yet. But she did see some weird dots, some weird dots-",
+      "timestamp": 332.06
+    },
+    {
+      "speaker": "Dad",
+      "text": "And s-",
+      "timestamp": 342.04
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... that ended by a small rock near the potion closet.",
+      "timestamp": 342.05
     },
     {
       "speaker": "Dad",
       "text": "Oh, some weird dots.",
-      "timestamp": 347
+      "timestamp": 347.62
     },
     {
       "speaker": "Izzy",
-      "text": "And they were tiny, tiny, that you couldn't even see them, so Wobbly Whiskers used a magnifying glass.",
-      "timestamp": 350
+      "text": "And, and they were tiny, tiny that you couldn't even see them. So-",
+      "timestamp": 349.3
     },
     {
       "speaker": "Dad",
-      "text": "Wow! That's good detective work, said Seeker. What are these tiny dots, do you think?",
-      "timestamp": 359
+      "text": "Oh",
+      "timestamp": 354.39
     },
     {
       "speaker": "Izzy",
-      "text": "I don't know. It's a trail.",
-      "timestamp": 366
+      "text": "... Wobbly Whiskers used a magnifying glass.",
+      "timestamp": 354.39
     },
     {
       "speaker": "Dad",
-      "text": "It's a trail. Here, let me look. And Seeker looked up very close with the magnifying glass, and he looked at one of the dots. And what shape was the dot?",
-      "timestamp": 368
+      "text": "\"Wow, that's good detective work,\" said Seeker. \"What are these tiny dots, do you think?\"",
+      "timestamp": 359.1
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I don't know",
+      "timestamp": 365.84
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"It, it's a trail. Here, let me look.\" And Seeker looked up very close with a magnifying glass, and he looked at one of the dots. And what shape was the dot?",
+      "timestamp": 366.8
     },
     {
       "speaker": "Izzy",
       "text": "A circle.",
-      "timestamp": 376
+      "timestamp": 376.64
     },
     {
       "speaker": "Dad",
-      "text": "And were there any other tiny dots inside it or around it?",
-      "timestamp": 378
+      "text": "Hmm. And were there any other tiny dots inside it or around it?",
+      "timestamp": 378.02
     },
     {
       "speaker": "Izzy",
       "text": "Yes.",
-      "timestamp": 382
+      "timestamp": 383.3
+    },
+    {
+      "speaker": "Dad",
+      "text": "How?",
+      "timestamp": 384.68
     },
     {
       "speaker": "Izzy",
-      "text": "It ended as a small rock.",
-      "timestamp": 385
+      "text": "It, it ended, it ended at a small rock.",
+      "timestamp": 385.62
     },
     {
       "speaker": "Dad",
-      "text": "So there was a trail of tiny dots that ended at a small rock.",
-      "timestamp": 390
-    },
-    {
-      "speaker": "Dad",
-      "text": "Let's look even more closely to see if there's any clues. Are there any tiny hairs or fibers?",
-      "timestamp": 395
+      "text": "So there was a trail of tiny dots that ended at a small rock. Hmm. Let's look even more closely to see if there's any clues. Are there any tiny hairs or fibers?",
+      "timestamp": 390.78
     },
     {
       "speaker": "Izzy",
       "text": "There's tiny hairs on them.",
-      "timestamp": 403
+      "timestamp": 403.26
     },
     {
       "speaker": "Dad",
       "text": "What color hairs?",
-      "timestamp": 405
+      "timestamp": 405.78
     },
     {
       "speaker": "Izzy",
-      "text": "Gray hairs.",
-      "timestamp": 407
+      "text": "Hmm. Gray hairs.",
+      "timestamp": 408.94
+    },
+    {
+      "speaker": "Dad",
+      "text": "Gray hair.",
+      "timestamp": 411.78
     },
     {
       "speaker": "Izzy",
       "text": "And it's someone gray.",
-      "timestamp": 412
+      "timestamp": 412.48
     },
     {
       "speaker": "Dad",
-      "text": "Oh.",
-      "timestamp": 415
+      "text": "Oh, and Wobbly Whiskers-",
+      "timestamp": 415.84
     },
     {
       "speaker": "Izzy",
-      "text": "And it's, and they're furry. Sounds like it had been my cat.",
-      "timestamp": 425
+      "text": "And it's, and they're furry",
+      "timestamp": 418.33
+    },
+    {
+      "speaker": "Dad",
+      "text": "... uh, well-",
+      "timestamp": 421.18
     },
     {
       "speaker": "Izzy",
-      "text": "Oh, and someone flew... And someone flew into Seeker's castle and said, \"Hello, I'm Isabella. That was just me. That was just me.\"",
-      "timestamp": 431
+      "text": "Sounds like it had been my cat. Oh, and someone flew into Is- and someone flew into Seeker's Castle-",
+      "timestamp": 421.32
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh",
+      "timestamp": 430.9
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... and said, \"Hello, I'm Isabella. That was just me. That was just me.\"",
+      "timestamp": 430.96
     },
     {
       "speaker": "Dad",
       "text": "\"It was just you doing what?\" said Seeker.",
-      "timestamp": 436
+      "timestamp": 436.89
     },
     {
       "speaker": "Izzy",
-      "text": "It was just my cat.",
-      "timestamp": 438
+      "text": "\"It was just my cat.\"",
+      "timestamp": 438.71
     },
     {
       "speaker": "Dad",
       "text": "\"Your cat? Your cat was here?\"",
-      "timestamp": 440
+      "timestamp": 440.45
     },
     {
       "speaker": "Izzy",
-      "text": "And my, my Silver. Silver was my, my pet cat.",
-      "timestamp": 442
+      "text": "\"It's my, my Silver. Silver, one of my pet cats.\"",
+      "timestamp": 442.26
     },
     {
       "speaker": "Dad",
-      "text": "What was she doing here?",
-      "timestamp": 446
+      "text": "\"What was she doing here?\"",
+      "timestamp": 446.89
     },
     {
       "speaker": "Izzy",
-      "text": "Oh. She just... I let her look at all the potions and she took all of them back to my house.",
-      "timestamp": 448
+      "text": "\"Oh, she just, I let her look at all the potions and she took all of them back to my house.\"",
+      "timestamp": 448.57
     },
     {
       "speaker": "Dad",
-      "text": "She did! Oh my goodness, how did she carry all those potions?",
-      "timestamp": 458
+      "text": "\"She did? Oh, my goodness. How did she carry all those potions?\"",
+      "timestamp": 458.04
     },
     {
       "speaker": "Izzy",
-      "text": "I put them in a baggie.",
-      "timestamp": 462
+      "text": "\"I put them in a baggie-",
+      "timestamp": 462.95
     },
     {
       "speaker": "Dad",
-      "text": "And what...",
-      "timestamp": 465
+      "text": "And, and why-",
+      "timestamp": 465.46
     },
     {
       "speaker": "Izzy",
-      "text": "To help her carry them.",
-      "timestamp": 467
+      "text": "\"... to help her carry them\"",
+      "timestamp": 465.93
     },
     {
       "speaker": "Dad",
-      "text": "Why did you do that, said Seeker?",
-      "timestamp": 469
+      "text": "\"Why did you do that?\" said Seeker.",
+      "timestamp": 467.29
     },
     {
       "speaker": "Izzy",
-      "text": "Because Silver really wanted to bring every one home.",
-      "timestamp": 474
+      "text": "\"Because Silver really wanted to bring every one home.\"",
+      "timestamp": 469.74
     },
     {
       "speaker": "Dad",
-      "text": "Oh, well...",
-      "timestamp": 475
+      "text": "Oh, well-",
+      "timestamp": 474.66
     },
     {
       "speaker": "Izzy",
-      "text": "To test them.",
-      "timestamp": 477
+      "text": "\"To test them.\"",
+      "timestamp": 475.73
     },
     {
       "speaker": "Dad",
-      "text": "Seeker said that...",
-      "timestamp": 478
+      "text": "Seeker said, \"That-\"",
+      "timestamp": 477.42
     },
     {
       "speaker": "Izzy",
-      "text": "So it was just my cat.",
-      "timestamp": 482
+      "text": "\"Uh, so it was just my cat.\"",
+      "timestamp": 478.07
     },
     {
       "speaker": "Dad",
-      "text": "And Seeker said, \"That makes me kind of sad because I work really hard on these potions and I care about them a lot. And so if someone wants to borrow them, I like them to ask me first, and I can say if it's okay. But Silver took all these potions without asking. So I'm a little bit upset,\" said Seeker.",
-      "timestamp": 485
+      "text": "And Seeker said, \"That makes me kind of sad because I, I work really hard on these potions and I, I care about them a lot. And so if someone wants to borrow them, I like them to, to ask me first, and I can say if it's okay. But Seeker took, I mean, but Silver took all these potions without asking, so I'm a little bit upset,\" said Seeker.",
+      "timestamp": 482.4
     },
     {
       "speaker": "Dad",
-      "text": "What can we do about that?",
-      "timestamp": 501
+      "text": "\"What can we do about that?\"",
+      "timestamp": 503.42
     },
     {
       "speaker": "Izzy",
-      "text": "And then someone other flew in.",
-      "timestamp": 506
+      "text": "And then someone other flew in. It's Dimitar.",
+      "timestamp": 505.72
     },
     {
       "speaker": "Dad",
-      "text": "Who?",
-      "timestamp": 510
+      "text": "\"Ugh. Hi, Dimitar. I'm having kind of a rough day,\" said Seeker.",
+      "timestamp": 512.5
     },
     {
       "speaker": "Izzy",
-      "text": "It's Dimitar.",
-      "timestamp": 511
+      "text": "\"Oh, what's the matter, Seeker?\"",
+      "timestamp": 517.09
     },
     {
       "speaker": "Dad",
-      "text": "Oh, hi, Dimitar. \"I'm having kind of a rough day,\" said Seeker.",
-      "timestamp": 512
+      "text": "\"Well, you know Silver cat? She s- she took all my potions last night without asking, and she put them in a bag and brought them to Isabella's house, and I'm kind of mad about it. What do you think we should do?\"",
+      "timestamp": 519.54
     },
     {
       "speaker": "Izzy",
-      "text": "Oh, what's the matter, Seeker?",
-      "timestamp": 517
+      "text": "\"We thought we could return them when we were done seeing where they took us, but Silver wanted to keep them all for herself.\"",
+      "timestamp": 531.35
     },
     {
       "speaker": "Dad",
-      "text": "Well, you know Silver Cat? She took all my potions last night without asking. And she put them in a bag and brought them to Isabella's house, and I'm kind of mad about it. What do you think we should do?",
-      "timestamp": 519
+      "text": "\"What, Dimitar, you're saying you helped with this?\"",
+      "timestamp": 542.43
     },
     {
       "speaker": "Izzy",
-      "text": "We thought we could return them when we were done seeing where they took us. But Silver wanted to keep them all for herself.",
-      "timestamp": 531
-    },
-    {
-      "speaker": "Dad",
-      "text": "Wait, Dimitar, you're saying you helped with this?",
-      "timestamp": 542
-    },
-    {
-      "speaker": "Izzy",
-      "text": "No, Dimitar didn't help. Isabella carried them for Silver. I carried them for Silver.",
+      "text": "\"No, Dimitar didn't help.\"",
       "timestamp": 545
     },
     {
       "speaker": "Dad",
-      "text": "Oh, that was Isabella talking.",
-      "timestamp": 551
+      "text": "Oh.",
+      "timestamp": 547.16
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"Isabella carried them for Silver.\"",
+      "timestamp": 547.38
     },
     {
       "speaker": "Dad",
-      "text": "And Seeker said, \"Dimitar, can you help me get all my potions back and figure out what to do?\"",
-      "timestamp": 553
+      "text": "Oh.",
+      "timestamp": 549.7
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"I carried them for Silver.\"",
+      "timestamp": 549.83
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, that was Isabella talking. And, and Seeker said, \"Dimitar, can you help me get all my potions back and figure out what to do?\"",
+      "timestamp": 551.24
     },
     {
       "speaker": "Izzy",
       "text": "Yeah.",
-      "timestamp": 559
+      "timestamp": 559.18
     },
     {
       "speaker": "Dad",
-      "text": "What should we do first, Dimitar?",
-      "timestamp": 560
+      "text": "\"What should we do first, Dimitar?\"",
+      "timestamp": 560.12
     },
     {
       "speaker": "Izzy",
-      "text": "I don't know. Isabella's house is on Cornell and Roslindale.",
-      "timestamp": 562
+      "text": "\"I don't know. Isabella's house is on Cornell and Roslyndale.\"",
+      "timestamp": 562.84
     },
     {
       "speaker": "Dad",
-      "text": "Oh. Well, maybe we should go there. But we've only ever gone by taking a potion to get there. But now we don't have any potions, said Seeker, \"I'm so mad! What are we going to do?\"",
-      "timestamp": 567
+      "text": "\"Oh, well, maybe we should go there, but we, we've only ever gone by taking a potion to get there, but now we don't ha- have any potions,\" said Seeker. \"Oh, I'm so mad. What are we-",
+      "timestamp": 568.18
     },
     {
       "speaker": "Izzy",
-      "text": "Seeker, you can take your sky ship.",
-      "timestamp": 581
+      "text": "\"Seeker-",
+      "timestamp": 582.15
     },
     {
       "speaker": "Dad",
-      "text": "Oh yeah, that's true.",
-      "timestamp": 585
+      "text": "\"... what are we gonna do?\"",
+      "timestamp": 582.15
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"... we, you can take your sky ship.\"",
+      "timestamp": 583.01
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, yeah, that's true.",
+      "timestamp": 585.72
     },
     {
       "speaker": "Izzy",
       "text": "You've got your sky ship.",
-      "timestamp": 587
+      "timestamp": 586.98
     },
     {
       "speaker": "Dad",
-      "text": "It's parked right outside. And so, Seeker and Dimitar and Wobbly Whiskers and Sarana all climbed up the tower where the sky ship was parked floating high above. And they climbed into the hatch inside the sky ship, and then they climbed up the stairs on the inside up onto the deck of the sky ship, and they looked out over the railing and they could see the whole countryside all around. Seeker's castle below them, and all the other creatures' houses, Hattie's workshop, and the ocean with the circular island in the distance where Dimitar lives.",
-      "timestamp": 588
+      "text": "It's parked right outside. And so Seeker and Dimitar and Wobbly Whiskers and Sarana all climbed up the tower where the sky ship was parked, floating high above, and they climbed into the hatch inside the sky ship, and then they climbed up the stairs on the inside and up onto the deck of the sky ship, and they looked out over the railing and they could see the whole countryside all around, Seeker's castle below them, and all the other creatures' houses, Hattie's Workshop, and the ocean with the Circular Island in the distance where Dimitar lives.",
+      "timestamp": 588.76
     },
     {
       "speaker": "Dad",
-      "text": "And Seeker said, \"Okay, how do we get to Isabella's house from here?\"",
-      "timestamp": 625
+      "text": "And Seeker said-",
+      "timestamp": 626.34
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And-",
+      "timestamp": 627.3
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"... okay, how do we get to Isabella's house from here?\"",
+      "timestamp": 627.31
     },
     {
       "speaker": "Izzy",
       "text": "And Farmer Wobble, too.",
-      "timestamp": 631
+      "timestamp": 631.02
     },
     {
       "speaker": "Dad",
-      "text": "Oh yeah, the square island is out there, you can see it from here too, that's true, we're high enough.",
-      "timestamp": 633
+      "text": "Oh, yeah, the Square Island is, is out there. You can see it from here, too. That's true. We're high enough up.",
+      "timestamp": 633.58
     },
     {
       "speaker": "Izzy",
-      "text": "And, and...",
-      "timestamp": 638
+      "text": "And, and, and, the wood truck flew up and dropped some carrots in Seeker's lap.",
+      "timestamp": 637.86
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh, thanks, Wobbly. I mean, uh, thanks, um, Farmer Wobble.\" And Farmer Wobble said, \"Oh, uh, no problem. We've got a big crop of carrots this year, m- more than we can even eat. Gl- I hope you like them.\" And Seeker said, \"Well, I'll have a little snack.",
+      "timestamp": 653.53
+    },
+    {
+      "speaker": "Dad",
+      "text": "That'll help me feel better, 'cause I woke up and I didn't have potions, and I didn't even want to eat breakfast 'cause I was so mad, but now I'll have some carrots, om-num-num-num, and I'm starting to feel a little bit better. And, oh, yeah, I remember.",
+      "timestamp": 674.9
+    },
+    {
+      "speaker": "Dad",
+      "text": "To get to Isabella's house, we gotta fly the sky ship over all those mountains that way. We're gonna see the Crystal Mountain on the way, but once we cross over the mountains, shwoo, shwoo,\" and the sky ship flew straight up into the clouds and zoomed over the mountains, and then when they crossed over the mountains, they were in the land of Boston, and it crossed over.",
+      "timestamp": 686.44
+    },
+    {
+      "speaker": "Dad",
+      "text": "And they-",
+      "timestamp": 713.04
     },
     {
       "speaker": "Izzy",
-      "text": "The woodchuck flew up and dropped some carrots in Seeker's lap.",
-      "timestamp": 647
+      "text": "And Isabella lives in... Where do I live?",
+      "timestamp": 713.31
     },
     {
       "speaker": "Dad",
-      "text": "Oh, thanks Wobbly. I mean, thanks, um, Farmer Wobble.",
-      "timestamp": 653
-    },
-    {
-      "speaker": "Dad",
-      "text": "And Farmer Wobble said, \"No problem. We've got a big crop of carrots this year, more than we can even eat. Hope you like them.\"",
-      "timestamp": 660
-    },
-    {
-      "speaker": "Dad",
-      "text": "And Seeker said, \"Well, I'll have a little snack, that'll help me feel better. 'Cause I woke up and I didn't have potions, and I didn't even want to eat breakfast because I was so mad. But now I'll have some carrots, chomp chomp chomp, and I'm starting to feel a little bit better and, oh yeah, I remember, to get to Isabella's house we got to fly the sky ship over all those mountains that way. We're going to see the Crystal Mountain on the way. But once we cross over the mountains, whoosh! And the sky ship flew straight up into the clouds and zoomed over the mountains. And then when they crossed over the mountains, they were in the land of Boston.\"",
-      "timestamp": 671
-    },
-    {
-      "speaker": "Dad",
-      "text": "And crossed over...",
-      "timestamp": 709
+      "text": "Roslyndale, which is part of Boston.",
+      "timestamp": 718.48
     },
     {
       "speaker": "Izzy",
-      "text": "And Isabella lives in...",
-      "timestamp": 712
+      "text": "I live in Roslyndale, remember?",
+      "timestamp": 721.24
     },
     {
       "speaker": "Dad",
-      "text": "Where do you live?",
-      "timestamp": 716
+      "text": "\"Oh, yeah,\" said Seeker, and so he flew the s- the ship- Over the city of Boston-",
+      "timestamp": 723.65
     },
     {
       "speaker": "Izzy",
-      "text": "Roslindale, which is part of Boston.",
-      "timestamp": 717
-    },
-    {
-      "speaker": "Izzy",
-      "text": "I live in Roslindale, remember?",
-      "timestamp": 720
+      "text": "And, and, and Seeker already heard some meowing from inside Isabella's house",
+      "timestamp": 728.36
     },
     {
       "speaker": "Dad",
-      "text": "Oh, yeah, said Seeker. And so he flew the ship over the city of Boston...",
-      "timestamp": 722
+      "text": "Oh.",
+      "timestamp": 734.04
     },
     {
       "speaker": "Izzy",
-      "text": "And, and, and Seeker already heard some meowing from inside Isabella's house. Meow, meow, meow, meow, meow, meow, meow, meow, meow, meow, meow, meow.",
-      "timestamp": 728
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Meow, meow, meow, meow, meow.",
-      "timestamp": 741
+      "text": "Meow, meow, meow, meow-",
+      "timestamp": 735.34
     },
     {
       "speaker": "Dad",
-      "text": "And Seeker said, \"I think we should park the sky ship in the backyard. Should we park it on the patio, or in the grass, or maybe we should just tie it up on the swing set? What do you think?\"",
-      "timestamp": 744
+      "text": "Look-",
+      "timestamp": 736.54
     },
     {
       "speaker": "Izzy",
-      "text": "Um, swing set. Or maybe we could park it in my driveway, 'cause my driveway's available.",
-      "timestamp": 753
+      "text": "... meow, meow, meow",
+      "timestamp": 737.24
     },
     {
       "speaker": "Dad",
-      "text": "Ah, okay. And so...",
-      "timestamp": 761
+      "text": "... there it is down there-",
+      "timestamp": 737.75
     },
     {
       "speaker": "Izzy",
-      "text": "It doesn't have my car in it right now. My mom's out shopping.",
-      "timestamp": 762
+      "text": "Meow",
+      "timestamp": 738.94
     },
     {
       "speaker": "Dad",
-      "text": "Great. So Seeker parked the sky ship on the driveway, and they followed the meows.",
-      "timestamp": 767
+      "text": "... said Seeker",
+      "timestamp": 739
     },
     {
       "speaker": "Izzy",
-      "text": "Meow, meow, meow, meow, meow, meow.",
-      "timestamp": 774
+      "text": "... meow, meow, meow, meow, meow, meow, meow, meow, meow-",
+      "timestamp": 739.32
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Seeker said-",
+      "timestamp": 744.24
     },
     {
       "speaker": "Izzy",
-      "text": "And they saw Silver.",
-      "timestamp": 779
+      "text": "... meow, meow",
+      "timestamp": 745.09
     },
     {
       "speaker": "Dad",
-      "text": "They saw Silver through the sunroom window meowing.",
-      "timestamp": 780
-    },
-    {
-      "speaker": "Dad",
-      "text": "And so...",
-      "timestamp": 784
-    },
-    {
-      "speaker": "Izzy",
-      "text": "And she was trying to get a fly.",
-      "timestamp": 785
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Silver's trying to get a fly, Seeker.",
-      "timestamp": 789
-    },
-    {
-      "speaker": "Dad",
-      "text": "Wow! And so Seeker and Dimitar and Isabella and Sarana and Wobbly Whiskers all went in the front door of Isabella's house and went over to the sunroom, and they saw Silver jumping in the air just as she caught a fly between her paws, and then chomp chomp, eat it.",
-      "timestamp": 794
-    },
-    {
-      "speaker": "Izzy",
-      "text": "And then she caught another.",
-      "timestamp": 813
-    },
-    {
-      "speaker": "Dad",
-      "text": "Wow! And Seeker said, \"Um, excuse me, Silver. I think you have something that belongs to me.\"",
-      "timestamp": 817
-    },
-    {
-      "speaker": "Dad",
-      "text": "And what did Silver say?",
-      "timestamp": 823
-    },
-    {
-      "speaker": "Izzy",
-      "text": "She said, \"Meow.\"",
-      "timestamp": 825
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh. Does anybody here speak cat? And Wobbly Whiskers says, \"Why yes. Silver is saying she doesn't know what you mean. But I think she does. She has that kind of look in her eye of mischief.\"",
-      "timestamp": 828
-    },
-    {
-      "speaker": "Dad",
-      "text": "And Seeker said, \"Do you have my potions?\"",
-      "timestamp": 842
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Definitely.",
-      "timestamp": 845
+      "text": "... \"I think we should park the spaceship in the backyard.\"",
+      "timestamp": 745.21
     },
     {
       "speaker": "Izzy",
       "text": "Meow.",
-      "timestamp": 846
+      "timestamp": 747.41
     },
     {
       "speaker": "Dad",
-      "text": "And Wobbly Whiskers says, \"She's saying no.\"",
-      "timestamp": 848
+      "text": "\"Should we park it on the patio or in the grass or maybe we should just tie it up on the swing set. What do you think?\"",
+      "timestamp": 747.41
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Um, the swing set is... Maybe we could park it in my driveway 'cause my driveway is available.",
+      "timestamp": 753.42
     },
     {
       "speaker": "Dad",
-      "text": "\"Let me talk to her. Meow meow meow meow...\"",
-      "timestamp": 852
+      "text": "Ah, okay. And so S-",
+      "timestamp": 761.72
+    },
+    {
+      "speaker": "Izzy",
+      "text": "It doesn't have my car in it right now.",
+      "timestamp": 762.96
     },
     {
       "speaker": "Dad",
-      "text": "And Seeker said, \"Wow, you just said a lot!\" And then Silver said...",
+      "text": "Oh.",
+      "timestamp": 765.44
+    },
+    {
+      "speaker": "Izzy",
+      "text": "My mom's out shopping.",
+      "timestamp": 765.52
+    },
+    {
+      "speaker": "Dad",
+      "text": "Great. So Seeker parked the spaceship on the driveway and they followed the meows.",
+      "timestamp": 767.5
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Meow, meow, meow, meow, meow, meow. And they saw Silver.",
+      "timestamp": 774.82
+    },
+    {
+      "speaker": "Dad",
+      "text": "They saw Silver through the sunroom window meowing. And so-",
+      "timestamp": 781.1
+    },
+    {
+      "speaker": "Izzy",
+      "text": "She, she was trying to get a fly. Silver's trying to get a fly, Seeker.",
+      "timestamp": 785.24
+    },
+    {
+      "speaker": "Dad",
+      "text": "Wow. And so Seeker and Dimitar and Isabella and Sarana and Wobbly Whiskers all went in the front door of Isabella's house and went over to the sunroom and they saw Silver jumping in the air just as she caught a fly between her paws and then omnomnom that.",
+      "timestamp": 794.5
+    },
+    {
+      "speaker": "Dad",
+      "text": "And then-",
+      "timestamp": 813.16
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And then she caught a mouse.",
+      "timestamp": 813.78
+    },
+    {
+      "speaker": "Dad",
+      "text": "Wow. And Seeker said, \"Um, excuse me, Silver, I think you have something that belongs to me.\" And what did Silver say?",
+      "timestamp": 817.64
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Meow. Meow.",
+      "timestamp": 825.18
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, I, does anybody here speak cat? And Wobbly Whiskers says, \"Why, yes. Silver is saying she doesn't know what you mean,\" but I think she does. She has that kind of look in her eye of mischief. And Seeker said, \"Do you have my potions?\"",
+      "timestamp": 828.36
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Definitely. Meow.",
+      "timestamp": 844.91
+    },
+    {
+      "speaker": "Dad",
+      "text": "And, and Wobbly Whiskers says, \"She's saying no. Let me talk to her.\"",
+      "timestamp": 847.8
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Meow, meow, meow, meow, meow. Meow, meow, meow, meow, meow, meow, meow, meow. Meow, meow, meow, meow, meow, meow, meow, meow, meow, meow, meow, meow.",
+      "timestamp": 853.58
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Seeker said, \"Wow, you just said a lot.\" And then Silver said, \"Meow, meow.\"",
       "timestamp": 860
     },
     {
       "speaker": "Izzy",
-      "text": "Meow, meow.",
-      "timestamp": 862
-    },
-    {
-      "speaker": "Dad",
       "text": "And what did that mean?",
-      "timestamp": 865
+      "timestamp": 866.4
     },
     {
       "speaker": "Dad",
-      "text": "And Wobbly Whiskers says, \"I just explained to her that you were feeling very upset because she had taken the potions without asking, and we know she has them. And so we're hoping that she will give them back.\"",
-      "timestamp": 868
+      "text": "And Wobbly Whiskers says, \"I, I just explained to her that you were feeling very upset because you had taken the potions without asking, and we know she has them, and so we're hoping that she will give them back.\" And Silver said, \"Meow, meow, meow, meow, meow, meow.",
+      "timestamp": 868.64
     },
     {
       "speaker": "Dad",
-      "text": "And Silver said, \"Meow meow meow meow, meow meow meow, meow meow meow.\"",
-      "timestamp": 881
-    },
-    {
-      "speaker": "Dad",
-      "text": "And Wobbly Whiskers said, \"Oh, that's very nice of you, Silver. Because she said where the potions were so that Seeker could find them. And where did Silver put the potions in Isabella's house?\"",
-      "timestamp": 891
+      "text": "Meow, meow, meow. Meow, meow, meow.\" Um, and Wobbly Whiskers said, \"Oh, that's very nice of you, Silver,\" because she said where the potions were so that Silv- Seek- so that Seeker could find them. And where did Silver put the potions in Isabella's house?",
+      "timestamp": 888.67
     },
     {
       "speaker": "Izzy",
       "text": "In Isabella's storage closet in her bedroom.",
-      "timestamp": 906
+      "timestamp": 906.96
     },
     {
       "speaker": "Dad",
-      "text": "And so they all went up to look in Isabella's closet in her bedroom, and there they were, all the potions in a bag.",
-      "timestamp": 913
-    },
-    {
-      "speaker": "Dad",
-      "text": "And Wobbly Whiskers says, \"And Seeker, Silver also says that she's going to make it up to you. She's going to help you feel better by doing something to help you, something very kind.\"",
-      "timestamp": 921
+      "text": "And, and so they all went up to look in Isabella's closet in her bedroom, and there they were, all the potions in a bag. And Wobbly Whiskers says, \"And Seeker, and Silver also says that she's gonna make it up to you. She's gonna help you feel better by doing something to help you.\"",
+      "timestamp": 913.66
     },
     {
       "speaker": "Izzy",
-      "text": "Now that what I can give you, Seeker, one of my potions. Want to see one of my potions? I have a fire potion to take me to the fire... to the Fire Island, or a water potion to take me underwater, or a prehistoric land potion.",
-      "timestamp": 937
+      "text": "Oh, um-",
+      "timestamp": 935.12
     },
     {
       "speaker": "Dad",
-      "text": "Those sound like wonderful potions, thank you. Which one of them do you want?",
-      "timestamp": 962
+      "text": "Something very kind",
+      "timestamp": 935.86
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... know that what I can give you, Seeker? One of my potions. Wanna see one of my potions?",
+      "timestamp": 937.18
     },
     {
       "speaker": "Dad",
-      "text": "I'll take the prehistoric potion.",
-      "timestamp": 968
+      "text": "Mm-hmm.",
+      "timestamp": 944.43
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I have, um, a fire potion to take me to the fire, to the fire island-",
+      "timestamp": 944.88
+    },
+    {
+      "speaker": "Dad",
+      "text": "Wow, said Seeker",
+      "timestamp": 954.18
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... or the, a water potion to take me underwater-",
+      "timestamp": 955.29
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh my goodness",
+      "timestamp": 959.96
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... or a prehistoric land potion.",
+      "timestamp": 960.25
+    },
+    {
+      "speaker": "Dad",
+      "text": "Those sound like wonderful potions. Thank you.",
+      "timestamp": 963.14
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Which one of them do you want?",
+      "timestamp": 965.76
+    },
+    {
+      "speaker": "Dad",
+      "text": "Hmm. I'll take the prehistoric potion.",
+      "timestamp": 967.84
     },
     {
       "speaker": "Izzy",
       "text": "Here's the prehistoric potion.",
-      "timestamp": 974
+      "timestamp": 974.38
     },
     {
       "speaker": "Dad",
-      "text": "Thank you, that helps me feel better.",
-      "timestamp": 976
-    },
-    {
-      "speaker": "Dad",
-      "text": "Okay, Silver, I'm glad we worked things out.",
-      "timestamp": 979
-    },
-    {
-      "speaker": "Dad",
-      "text": "And Silver said, \"Meow meow meow meow meow.\"",
-      "timestamp": 980
-    },
-    {
-      "speaker": "Dad",
-      "text": "And Wobbly Whiskers says, \"Yes, that means she's really sorry, and now she learned her lesson to ask before she takes things from people, even though she's a cat.\"",
-      "timestamp": 983
+      "text": "Thank you. That helps me feel better. Okay, Silver, I'm glad we worked things out. And Silver said, \"Meow, meow, meow, meow, meow, meow.\" And Wobbly Whiskers says, \"Yes, that means she's really sorry, and now she learned her lesson to ask before she takes things from people, even though she's a cat.\"",
+      "timestamp": 976.62
     },
     {
       "speaker": "Izzy",
       "text": "But she can take flies without asking.",
-      "timestamp": 997
+      "timestamp": 997.14
     },
     {
       "speaker": "Dad",
-      "text": "Well, that's a different matter altogether, isn't it, said Seeker. And Seeker brought his potions back to his potion closet and arranged them neatly once again where they belonged on the shelves, including the brand new gift of a potion to the prehistoric world. And that's the end of Stars and Stories.",
-      "timestamp": 1002
+      "text": "\"Well, that's a different matter altogether, isn't it?\" said Seeker.",
+      "timestamp": 1003.12
     },
     {
       "speaker": "Izzy",
-      "text": "Shadow puppets! Can you show me five of your shadows?",
-      "timestamp": 1024
+      "text": "Yeah.",
+      "timestamp": 1006.28
     },
     {
       "speaker": "Dad",
-      "text": "Five, that's a lot. Well, here's the number five. Five fingers on the ceiling.",
-      "timestamp": 1031
+      "text": "And Seeker brought his potions back to his potion closet and arranged them neatly once again where they belonged on the shelves, including the brand-new gift of a potion to the prehistoric world. And that's the end of Stars and Stories.",
+      "timestamp": 1006.72
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Shadow puppets. Sha- Can you show me five of your shadows?",
+      "timestamp": 1024.36
     },
     {
       "speaker": "Dad",
-      "text": "Smaller, bigger, smaller, bigger. Woah. And that's one. And here's a funny shape. It's kind of a square. I can almost make a square. There. And here's a... almost like a... I can make a circle. It's not a very... it's kind of a potato.",
-      "timestamp": 1034
+      "text": "Five? That's a lot. Well, here's the number five. Five fingers on the ceiling. Smaller, bigger, smaller, bigger. Whoa. And that's one. And here's a funny shape. It's kind of a square. I can almost make a square. There. And here's a, almost like a s- Is that...",
+      "timestamp": 1031.56
+    },
+    {
+      "speaker": "Dad",
+      "text": "I can make a circle. Ooh, it's not a very g- It's kind of a potato. And-",
+      "timestamp": 1055.16
     },
     {
       "speaker": "Izzy",
       "text": "Not, not every shape.",
-      "timestamp": 1060
+      "timestamp": 1061.82
     },
     {
       "speaker": "Dad",
-      "text": "Oh, okay. Here's a... a creature with three nasty teeth. Chomp, chomp, chomp. Chomp, chomp, chomp.",
-      "timestamp": 1064
+      "text": "Oh, okay. Here's a, a, a creature with three nasty teeth. Chomp, chomp, chomp. Chomp, chomp, chomp. And here is a person with a funny face. \"Hello, I have a funny-shaped face. What do you think about that?\" And one more. \"I'm a bunny. Here's my, here's my ears.",
+      "timestamp": 1064.62
     },
     {
       "speaker": "Dad",
-      "text": "And here is a person with a funny face. \"Hello, I have a funny-shaped face, what do you think of that?\" And one more.",
-      "timestamp": 1078
-    },
-    {
-      "speaker": "Dad",
-      "text": "I'm a bunny. Here's my, here's my ears. I can wiggle them, wiggle, wiggle, wiggle, wiggle, wiggle. And that's my hand shadows for tonight.",
-      "timestamp": 1095
+      "text": "I can wiggle them. Wiggle, wiggle. Wiggle, wiggle.\" And that's my hand shadows for tonight.",
+      "timestamp": 1098.64
     }
   ],
   "characters": [
@@ -1014,7 +1169,19 @@
       "description": "A home on Cornell Street with a basement containing bins of storybooks."
     }
   ],
-  "wordCount": 2453,
-  "izzyWordCount": 630,
-  "dadWordCount": 1823
+  "wordCount": 2635,
+  "izzyWordCount": 726,
+  "dadWordCount": 1909,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T15:30:01.201Z",
+    "speakerMap": {
+      "speaker_0": "Izzy",
+      "speaker_1": "Dad"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "high"
+  }
 }
