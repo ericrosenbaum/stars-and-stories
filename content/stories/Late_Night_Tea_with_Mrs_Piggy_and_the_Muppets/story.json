@@ -6,233 +6,508 @@
   "audioFilename": "Seeker & Miss Piggy.m4a",
   "highlightQuote": {
     "text": "Actually, I am not a puppet, I'm a Muppet.",
-    "timestamp": 74
+    "timestamp": 73.2
   },
   "transcript": [
     {
       "speaker": "Izzy",
-      "timestamp": 0,
-      "text": "Stories... Muppets stories could be great, but a little bit long."
+      "text": "so stories. Muppet stories could be great, but a little bit long.",
+      "timestamp": 0.07
     },
     {
-      "text": "Mm, yeah, we got to tell a short one tonight.",
       "speaker": "Dad",
-      "timestamp": 7
+      "text": "Hmm, yeah, we gotta tell a, a short one tonight.",
+      "timestamp": 7.26
     },
     {
-      "timestamp": 11,
       "speaker": "Izzy",
-      "text": "Let's do a Muppet story. Muppets, Muppets."
+      "text": "Let's, let's do a Muppet story. Muppets, Muppets.",
+      "timestamp": 10.52
     },
     {
-      "text": "Okay, here come the stars. Stars.",
-      "timestamp": 16,
-      "speaker": "Dad"
+      "speaker": "Dad",
+      "text": "Okay, here come the stars. Ah, stars.",
+      "timestamp": 15.54
     },
     {
+      "speaker": "Izzy",
       "text": "Muppets, um, please help us tell a story about Miss Piggy.",
-      "speaker": "Izzy",
-      "timestamp": 20
-    },
-    {
-      "text": "And Beaker says, 'Me-me-me-me-me-me-me-me!'",
-      "timestamp": 25,
-      "speaker": "Dad"
-    },
-    {
-      "text": "Ding-dong, Miss Piggy. Actually, ding-dong, Seeker.",
-      "timestamp": 29,
-      "speaker": "Izzy"
+      "timestamp": 19.72
     },
     {
       "speaker": "Dad",
-      "timestamp": 34,
-      "text": "And Seeker says, 'Uh, who is it?'"
+      "text": "And Beaker says, \"Me, me, me, me, me, me. Me, me, me. Me, me, me.\"",
+      "timestamp": 25.3
     },
     {
-      "timestamp": 37,
       "speaker": "Izzy",
-      "text": "Um, it's Miss Piggy, a Muppet."
-    },
-    {
-      "text": "Oh, well, welcome. It's very late at night. What brings you to my house, Miss Piggy?",
-      "speaker": "Dad",
-      "timestamp": 41
-    },
-    {
-      "text": "Um, um, I was hoping to test a potion or two. And do you like my hair? I've got colorful elastic to make a pony, and my hair's tail-colored. My hair's tail-colored.",
-      "speaker": "Izzy",
-      "timestamp": 47
+      "text": "Ding dong, Miss Piggy. Actually, ding dong, Seeker.",
+      "timestamp": 29.64
     },
     {
       "speaker": "Dad",
-      "timestamp": 61,
-      "text": "Oh, oh, I see. You'll forgive me, I'm a bit taken aback. I've never met a talking pig, much less one who is actually a soft fuzzy puppet. But you do have beautiful hair."
+      "text": "And Seeker says, \"Uh, who is it?\"",
+      "timestamp": 34.48
     },
     {
+      "speaker": "Izzy",
+      "text": "Um, it's Miss Piggy, a Muppet.",
+      "timestamp": 36.88
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, well, uh, welcome. It's very late at night. What brings you to my house, Miss Piggy?",
+      "timestamp": 40.82
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Um, um, um, I was hoping to test a potion or two. And do you like my hair? I got colored elastic to make a pony. My hair is tail, my hair is tail colored.",
+      "timestamp": 46.62
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, oh, I see. I... You'll forgive me, I'm a bit taken aback. I've never met a talking pig, much less one who is actually a soft, fuzzy puppet, but you do have beautiful hair.",
+      "timestamp": 62.28
+    },
+    {
+      "speaker": "Izzy",
       "text": "Actually, I am not a puppet, I'm a Muppet.",
-      "speaker": "Izzy",
-      "timestamp": 74
+      "timestamp": 73.2
     },
     {
+      "speaker": "Dad",
       "text": "Oh, forgive me. I've never met a Muppet before. What is a Muppet?",
-      "speaker": "Dad",
-      "timestamp": 80
-    },
-    {
-      "text": "A Muppet, it's a little silly creature and they also attend in Muppets and Muppet movies.",
-      "speaker": "Izzy",
-      "timestamp": 84
-    },
-    {
-      "timestamp": 92,
-      "speaker": "Dad",
-      "text": "Muppet movies? I've never seen one of those. That sounds very interesting."
-    },
-    {
-      "timestamp": 96,
-      "speaker": "Izzy",
-      "text": "Well, well, I could show you a very good one, but we'll only watch half of it."
-    },
-    {
-      "text": "Oh, okay. Can we watch it right now, says Seeker.",
-      "speaker": "Dad",
-      "timestamp": 101
-    },
-    {
-      "text": "Yes. Yes, but first I'm going to get you a bit of snack. What do you like to eat, Seeker?",
-      "speaker": "Izzy",
-      "timestamp": 107
-    },
-    {
-      "timestamp": 113,
-      "speaker": "Dad",
-      "text": "Oh, well, I like all kinds of things. Maybe a muffin or something, and some tea."
+      "timestamp": 77.38
     },
     {
       "speaker": "Izzy",
-      "timestamp": 118,
-      "text": "Okay, I'll give you gluten-free with oat milk. Oh, thank you. Here you go, Seeker. It's some Wheat Thins and strawberries and some oat milk, gluten-free tea. Now I'll, now I'll tell it."
+      "text": "A Muppet, it's a little silly creature, and they also attend in Muppets, in Muppet movies.",
+      "timestamp": 81.88
     },
     {
-      "text": "Now, once upon a time, me and my sister... my sister's at home, says Miss Piggy. I'm telling a story about her. In the Muppet movie she is, like, fighting with me, says Miss Piggy, and I'm always fighting with her because she breaks my toys and my mom has to fix them while I'm going to sleep and then it takes her a long time to fix them in the morning and I never get to play with them while she's fixing them and it's so boring that I fight with my sister.",
-      "timestamp": 129,
-      "speaker": "Izzy"
-    },
-    {
-      "text": "Oh dear, says Seeker. Well, how did you make a happy ending for this story with your sister?",
       "speaker": "Dad",
-      "timestamp": 150
+      "text": "Muppet movies? I've never seen one of those. That sounds very interesting.",
+      "timestamp": 91.74
     },
     {
-      "text": "Um, um, um, the happy ending is when I got to play with my toy again that was broken, that my sister broke. That's the happy ending.",
       "speaker": "Izzy",
-      "timestamp": 156
+      "text": "Well, well, I could show you a very good one, which... And we'll only watch half of it.",
+      "timestamp": 95.22
     },
     {
-      "timestamp": 173,
       "speaker": "Dad",
-      "text": "What was the toy?"
+      "text": "Oh, okay.",
+      "timestamp": 101.94
     },
     {
-      "text": "It was my cat toy. It was my light-up LED, one LED popped out today, and my mom has to fix it and sew it.",
       "speaker": "Izzy",
-      "timestamp": 177
+      "text": "It's a very good one.",
+      "timestamp": 102.54
     },
     {
-      "text": "And Izzy has a hard time with that too, says Miss Piggy. She watched the Muppet movie when Carribean had... when... when Kermit had to buy his old house back.",
-      "timestamp": 188,
-      "speaker": "Izzy"
+      "speaker": "Dad",
+      "text": "Can we watch it right now, says Seeker.",
+      "timestamp": 104.44
     },
     {
+      "speaker": "Izzy",
+      "text": "Yes. Yes, but first I'm gonna get you a bit of snack. What do you like to eat, Seeker?",
+      "timestamp": 106
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, well, I like all kinds of things. Maybe a muffin or something, and some tea.",
+      "timestamp": 113.08
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Okay. I'll get you gluten free with oat milk.",
+      "timestamp": 117.68
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, thank you.",
+      "timestamp": 121.02
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Here you go, Seeker. It's some Wheat Thins and strawberries and some oat milk gluten-free tea. Now I'll, now I'll tell it. Now, once upon a time, me and my sister... \"My sister's at home,\" said Miss Piggy. \"I'm telling a story about her. In the Muppet movie she is, like, fine with me,\" says Mrs.",
+      "timestamp": 121.96
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Piggy, \"and I'm always fine with her, because she breaks my toys and my mom has to fix them while I'm going to sleep, and then it takes her a long time to fix them in the morning, and I never get to play with them while she's fixing them, and it's so boring that I fight with my sister.\"",
+      "timestamp": 150.8
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh, dear,\" says Seeker. \"Well, how did you make a happy ending for this story with your sister?\"",
+      "timestamp": 175.66
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Um, um, it's, it's, uh, the happy ending is when I got to play with my toy again that was broken, that my sister broke.",
+      "timestamp": 182.28
+    },
+    {
+      "speaker": "Dad",
+      "text": "Ah.",
+      "timestamp": 195.1
+    },
+    {
+      "speaker": "Izzy",
+      "text": "That's the happy ending.",
+      "timestamp": 196.1
+    },
+    {
+      "speaker": "Dad",
+      "text": "What was the toy?",
+      "timestamp": 197.74
+    },
+    {
+      "speaker": "Izzy",
+      "text": "It was my cat toy. It was my light-up LE- one LED popped out today, and my mom has to fix it and sew it.",
+      "timestamp": 199.5
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh. And-",
+      "timestamp": 209.74
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"And Izzy has a hard time with that, too,\" says Miss Piggy. \"She watched the Muppet movie. When Caribbean has, had, when, when Caribby, when, when Kermit had to buy his old house back.\"",
+      "timestamp": 212.78
+    },
+    {
+      "speaker": "Dad",
       "text": "Oh, he did?",
-      "timestamp": 203,
-      "speaker": "Dad"
+      "timestamp": 228.44
     },
     {
+      "speaker": "Izzy",
       "text": "Oh, Seeker, Seeker, Seeker, your doorbell just rang again.",
-      "timestamp": 207,
-      "speaker": "Izzy"
+      "timestamp": 229.6
     },
     {
       "speaker": "Dad",
-      "timestamp": 213,
-      "text": "Oh. Ding-dong, who is it? says Seeker."
+      "text": "Oh. Ding dong. \"Who is it?\" says Seeker.",
+      "timestamp": 235.18
     },
     {
       "speaker": "Izzy",
-      "timestamp": 216,
-      "text": "It's Miss Piggy's sister."
+      "text": "It's, it's Miss Piggy's sister.",
+      "timestamp": 238.14
     },
     {
-      "text": "Oh, come on in! Miss Piggy is here. How nice to have you both.",
-      "timestamp": 220,
-      "speaker": "Dad"
+      "speaker": "Dad",
+      "text": "Oh, come on in, Miss Piggy is here. How nice to have you both.",
+      "timestamp": 241.66
     },
     {
-      "text": "How great! I'm a Muppet too, says... says Miss Piggy's sister, Curlustava. Curlustava? Yeah, is a pig Muppet and... and it's a Muppet, and, and, and I watched the movie with her, Seeker.",
-      "timestamp": 226,
-      "speaker": "Izzy"
+      "speaker": "Izzy",
+      "text": "\"Oh, great. I'm a Muppet, too,\" said Miss, said Miss Piggy's sister, Kerlustava.",
+      "timestamp": 246.44
     },
     {
+      "speaker": "Dad",
+      "text": "Ker- Kerlustava?",
+      "timestamp": 253.72
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah. Is a pig Muppet, and, and, and it's a Muppet, and, and, and I watched the movie with her, Seeker.",
+      "timestamp": 255.52
+    },
+    {
+      "speaker": "Dad",
       "text": "Oh.",
-      "speaker": "Dad",
-      "timestamp": 243
-    },
-    {
-      "text": "Seeker. Yes. Know what? Your doorbell doesn't sound like your doorbell when it rang for... for Miss Piggy's sister. Oh, it didn't? Yeah, it didn't ring-ring right. Oh, what should it sound like? It should sound like 'ding-dong', like that. Oh, who is it? No, I was just making the sound of your doorbell to tell you how it was like when before you used all of its doorbell battery up.",
-      "speaker": "Izzy",
-      "timestamp": 246
-    },
-    {
-      "timestamp": 267,
-      "speaker": "Dad",
-      "text": "Oh, I see, that's too bad. So... so your mom's got to fix your doorbell. Oh yeah, she's coming over tomorrow to fix the doorbell, that's right, says Seeker. Now, Miss Piggy and Miss Piggy's sister, thank you for coming over, and also Miss Piggy made me a lovely snack, but it's almost time for me to go to sleep, so would you like to tell one more story to help us all settle down before it's time to go to bed?"
+      "timestamp": 266.02
     },
     {
       "speaker": "Izzy",
-      "timestamp": 283,
-      "text": "Well, another Muppet movie is... is when Carribean buys back his old house. Let me sit down to tell it. Once upon a time, says Miss Piggy, my sister heard the doorbell and she opened it herself and it was Kermit and she said, 'Can we get back together again to buy back my old house?' said Kermit. 'Um, I'm going to... but...' and she said, 'I'm not going to join.' and then she joins later, Miss Piggy says, and I joined later and my sister and all the other people come to buy back Carribean's old house... Kermit's old house and then they plan to get back together again and drive in a car at night and a robot drives it and gets all the people back together to make a show. That's the end of... that's the end of the movie. Did you all like it? Did it make you sleepy? says Miss Piggy and Miss Piggy's sister. We're going now."
-    },
-    {
-      "text": "Okay, thank you, says Seeker. It did make me sleepy. Thanks for coming over and thanks for the stories, bye-bye. Zzz.",
-      "timestamp": 338,
-      "speaker": "Dad"
-    },
-    {
-      "speaker": "Izzy",
-      "timestamp": 344,
-      "text": "And then the next day the doorbell rang again. Ding-dong. And Seeker said, 'Who is it?' Guitar. And a friend of yours, um, Kermit... and it's another Muppet named... Dad, do you know any of the Muppets' names? I forgot all of their names now."
+      "text": "Seeker.",
+      "timestamp": 266.72
     },
     {
       "speaker": "Dad",
-      "timestamp": 355,
-      "text": "Oh, well, there's also Animal and Gonzo."
-    },
-    {
-      "timestamp": 359,
-      "speaker": "Izzy",
-      "text": "Animal! And it's a great friend of yours, um, Animal is a drummer, but he won't drum at your house. It's too noisy for you, Seeker. Oh, okay. Is that what happened? It sounded like Mama was going to come in. Um, is we got to finish our stars and stories because it's bedtime almost."
+      "text": "Yes?",
+      "timestamp": 267.62
     },
     {
       "speaker": "Izzy",
-      "timestamp": 382,
-      "text": "But, but well, we can tell... well, we can tell a little more of our story. Okay. And Seeker says, 'Hi Animal, thanks for not drumming in my house because that would be too noisy, you're right.'"
+      "text": "You know what? Your doorbell didn't sound like your doorbell went wrong for, for Miss Piggy's sister.",
+      "timestamp": 268.16
     },
     {
-      "text": "Yeah, and you like my red hair? said Animal. I, it's very red and I, that's my favorite color actually, says Seeker. You like my red cloak? Yeah, I'd mind if you showed me your red cloak because I would actually like a blue cloak, said... said Animal.",
-      "timestamp": 394,
-      "speaker": "Izzy"
+      "speaker": "Dad",
+      "text": "Oh, it didn't?",
+      "timestamp": 279.7
     },
     {
-      "text": "Animal says, 'Blue is my favorite color and I would like a blue cloak.' Well, I don't make cloaks, said Seeker, but maybe another day I could introduce you to my friend Hattie the Mouse. But we'll have to tell that story on another night because now we're done with stars and stories.",
       "speaker": "Izzy",
-      "timestamp": 407
+      "text": "Yeah, it didn't r- ring right.",
+      "timestamp": 280.98
     },
     {
-      "text": "Dad, don't turn on the lamp, I'll turn it off. After taking off the lamp... Wait, Dad, wait, wait, wait, wait, don't turn off your phone yet. Let's do puppets. Shadow puppets? Okay. Yeah.",
-      "timestamp": 426,
-      "speaker": "Izzy"
+      "speaker": "Dad",
+      "text": "Oh, what should it sound like?",
+      "timestamp": 283.66
+    },
+    {
+      "speaker": "Izzy",
+      "text": "It should sound like, \"Ding dong.\"",
+      "timestamp": 285.74
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, who is it?",
+      "timestamp": 288.42
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Like that. N- no, I was just making the sound of your doorbell-",
+      "timestamp": 289.34
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh",
+      "timestamp": 293.96
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... to tell you how it-",
+      "timestamp": 293.97
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, oh",
+      "timestamp": 295.3
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... was like when before you used all of its doorbell battery up.",
+      "timestamp": 295.52
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, I see, that's too bad.",
+      "timestamp": 302.66
+    },
+    {
+      "speaker": "Izzy",
+      "text": "So, y- so your mom's gotta fix your doorbell.",
+      "timestamp": 304.13
+    },
+    {
+      "speaker": "Dad",
+      "text": "The-",
+      "timestamp": 308.84
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Your mom's getting right to work at it.",
+      "timestamp": 308.9
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, yeah, she's coming over tomorrow to fix the doorbell. That's right, said Seeker.",
+      "timestamp": 311.28
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah.",
+      "timestamp": 314.36
+    },
+    {
+      "speaker": "Dad",
+      "text": "Now, Miss, Miss Piggy and Miss Piggy's sister, thank you for coming over, and also-",
+      "timestamp": 315.82
+    },
+    {
+      "speaker": "Izzy",
+      "text": "You're welcome",
+      "timestamp": 321.16
+    },
+    {
+      "speaker": "Dad",
+      "text": "... Miss Piggy made me a lovely snack, but it's almost time for me to go to sleep. So would you like to tell one more story-",
+      "timestamp": 321.17
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Well-",
+      "timestamp": 327.04
+    },
+    {
+      "speaker": "Dad",
+      "text": "... to help us all settle down-",
+      "timestamp": 327.05
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Well-",
+      "timestamp": 329.64
+    },
+    {
+      "speaker": "Dad",
+      "text": "... before it's time to go to bed?",
+      "timestamp": 329.8
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Well, another Muppet movie is C- is when Caribbean buys back his old house. Let me sit down to tell it.",
+      "timestamp": 330.98
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, okay.",
+      "timestamp": 341.4
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Once upon a time, said Miss Piggy, my sister heard the doorbell, and she opened it herself, and it was Kermit. And she said, \"Can we get back together again to buy back my old house?\" said Kermit. Uh- Like, and she said, \"I'm not gonna join.\" And then she joins later, Miss Piggy says, \"And I joined later and my sister and all the other people come to my, that Caribbean's old, Kermit's old house.",
+      "timestamp": 343.7
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And then they plan to get back together again and drive in a car at night, and a robot drives it and gets all the people back together to make a s- show.\"",
+      "timestamp": 384.26
+    },
+    {
+      "speaker": "Dad",
+      "text": "Wow.",
+      "timestamp": 401.84
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"That's the end of, that's the end of the movie. Did you all like it? Did it make you sleepy?\" said Miss Piggy. And says Piggy's sister, \"We're going now.\"",
+      "timestamp": 402.21
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Okay, thank you,\" says Seeker. \"It did make me sleepy. Thanks for coming over, and thanks for the stories. Bye bye. Zzz.\"",
+      "timestamp": 413.67
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And then the next day, the doorbell rang again, ding-dong.",
+      "timestamp": 423
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Seeker said, \"Who is it?\"",
+      "timestamp": 427.4
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Dimitar and a friend of yours, um, Ker- uh, and it's another Muppet, Na- Dad, do you know any of the Muppets' names?",
+      "timestamp": 429.5
+    },
+    {
+      "speaker": "Dad",
+      "text": "Um-",
+      "timestamp": 443.04
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I forgot all of their names again",
+      "timestamp": 443.38
+    },
+    {
+      "speaker": "Dad",
+      "text": "... oh, well, there's also Animal and Gonzo and-",
+      "timestamp": 444.81
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Animal, a- and it's a great friend of yours. Um, um, Animal is a drummer, but he won't drum at your house. It's too noisy for you, Seeker.",
+      "timestamp": 449.43
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, okay. Oh.",
+      "timestamp": 461.24
+    },
+    {
+      "speaker": "Izzy",
+      "text": "What?",
+      "timestamp": 466.66
+    },
+    {
+      "speaker": "Dad",
+      "text": "It sounded like Mama was gonna come in. Um, is we gotta finish our Stars and Stories 'cause it's bedtime almost.",
+      "timestamp": 467.48
+    },
+    {
+      "speaker": "Izzy",
+      "text": "But, but well, well, we can tell, well, we can tell a little more-",
+      "timestamp": 476.4
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay",
+      "timestamp": 482.4
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... of our story.",
+      "timestamp": 482.72
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Seeker says, \"Hi, Animal. Uh, thanks for not drumming in my house 'cause that would be too noisy. You're right.\"",
+      "timestamp": 484.58
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"Yeah. Do you like my red hair?\" said Animal.",
+      "timestamp": 491.04
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"I d- it's very red, and I, that's my favorite color, actually,\" says Seeker. \"You like my red cloak?\"",
+      "timestamp": 493.62
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"Yeah. I mind if you show me your red cloak 'cause I would actually like a blue cloak,\" said, said Animal. Animal says, \"Blue is my favorite color, and I would like a blue clo- cloak.\"",
+      "timestamp": 499.82
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Well, I don't make cloaks,\" said Seeker. \"But maybe another day I could introduce you to my friend, Hattie the Mouse.\" But we'll have to tell that story on another night because now we're done with Stars and Stories.",
+      "timestamp": 516.13
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Dad, don't turn on the lamp. I'll turn it on.",
+      "timestamp": 533.32
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, okay.",
+      "timestamp": 536.32
+    },
+    {
+      "speaker": "Izzy",
+      "text": "After taking off the lamp.",
+      "timestamp": 537.22
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, okay.",
+      "timestamp": 539.52
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Wait, Dad. Wait, wait, wait, wait. Don't turn o- off. Wait, don't turn off your phone light yet. Let's do puppets. Let's do puppets.",
+      "timestamp": 540.12
+    },
+    {
+      "speaker": "Dad",
+      "text": "Shadow puppets? Okay.",
+      "timestamp": 551.46
     }
   ],
   "characters": [
@@ -284,7 +559,19 @@
       "description": "The legendary residence that the Muppets band together to reclaim."
     }
   ],
-  "wordCount": 1181,
-  "izzyWordCount": 896,
-  "dadWordCount": 285
+  "wordCount": 1268,
+  "izzyWordCount": 823,
+  "dadWordCount": 445,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T15:19:06.149Z",
+    "speakerMap": {
+      "speaker_0": "Izzy",
+      "speaker_1": "Dad"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "low"
+  }
 }

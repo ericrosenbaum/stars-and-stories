@@ -6,48 +6,58 @@
   "audioFilename": "Cornell St 94.m4a",
   "highlightQuote": {
     "text": "I got a card for you. It says I love your castle.",
-    "timestamp": 16
+    "timestamp": 15.86
   },
   "transcript": [
     {
-      "text": "And it says, I love you Dimitar. Ding dong Dimitar.",
       "speaker": "Izzy",
-      "timestamp": 0
+      "text": "And it says, \"I love you, Dimitar.\" Ding dong, Dimitar.",
+      "timestamp": 1.98
     },
     {
-      "timestamp": 8.1,
       "speaker": "Dad",
-      "text": "Hello, who is it?"
+      "text": "Hello, who is it?",
+      "timestamp": 7.9
     },
     {
       "speaker": "Izzy",
-      "timestamp": 9.2,
-      "text": "It's Isabella."
+      "text": "It's Isabella.",
+      "timestamp": 9.42
     },
     {
-      "timestamp": 10.4,
       "speaker": "Dad",
-      "text": "Oh, hello again Izzy the kiddo. Hello."
+      "text": "Oh, hello again, Izzy the Kiddo.",
+      "timestamp": 11.02
     },
     {
-      "text": "Well what have you got there?",
-      "speaker": "Dad",
-      "timestamp": 14.1
-    },
-    {
-      "text": "I got a card for you. It says I love your castle.",
       "speaker": "Izzy",
-      "timestamp": 16
+      "text": "Hello.",
+      "timestamp": 12.8
     },
     {
-      "timestamp": 20.3,
       "speaker": "Dad",
-      "text": "Oh thanks! It's a beautiful castle and you helped to save it."
+      "text": "Well, what have you got there?",
+      "timestamp": 14.72
     },
     {
+      "speaker": "Izzy",
+      "text": "I got a card for you. It says, \"I love your castle.\"",
+      "timestamp": 15.86
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, thanks. It's a beautiful castle, and you helped to save it.",
+      "timestamp": 20.78
+    },
+    {
+      "speaker": "Izzy",
       "text": "Yeah.",
-      "timestamp": 24.1,
-      "speaker": "Izzy"
+      "timestamp": 25.38
+    },
+    {
+      "speaker": "Izzy",
+      "text": "All right. Can you... I'm gonna take Avery. She-",
+      "timestamp": 26.7
     }
   ],
   "characters": [
@@ -69,7 +79,20 @@
       "description": "A beautiful and grand fortress that was recently protected from peril."
     }
   ],
-  "wordCount": 54,
-  "izzyWordCount": 25,
-  "dadWordCount": 29
+  "wordCount": 63,
+  "izzyWordCount": 35,
+  "dadWordCount": 28,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T15:18:07.011Z",
+    "speakerMap": {
+      "speaker_0": "Izzy",
+      "speaker_1": "Dad",
+      "speaker_2": "Izzy"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "high"
+  }
 }

@@ -6,253 +6,343 @@
   "audioFilename": "Cornell St 95.m4a",
   "highlightQuote": {
     "text": "I'm a person superhero because I have my cat costume on.",
-    "timestamp": 106.1
+    "timestamp": 61.82
   },
   "transcript": [
     {
       "speaker": "Izzy",
-      "timestamp": 18.2,
-      "text": "Let's tell the mole story that we were working on and we got to the cave part."
+      "text": "Put the phone on top of... But, uh, uh-",
+      "timestamp": 0.14
     },
     {
-      "timestamp": 26.5,
       "speaker": "Dad",
-      "text": "Well, could you... could you tell the story so far? What's happened so far in the story?"
+      "text": "We can, we can put it up here. How's that?",
+      "timestamp": 9.54
     },
     {
-      "text": "Kitty already dropped me to the gopher's mouth with tunnel. That's where we left off.",
       "speaker": "Izzy",
-      "timestamp": 35.1
+      "text": "Good.",
+      "timestamp": 13.08
     },
     {
+      "speaker": "Dad",
+      "text": "Okay, and stars.",
+      "timestamp": 14.7
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Let's tell the mole story that we were working on. And we got to the Kitty part.",
+      "timestamp": 17.96
+    },
+    {
+      "speaker": "Dad",
+      "text": "Well, could you, um, state, could you, um-",
+      "timestamp": 26.4
+    },
+    {
+      "speaker": "Izzy",
+      "text": "What?",
+      "timestamp": 30.96
+    },
+    {
+      "speaker": "Dad",
+      "text": "Could you tell the story so far? What's happened so far in the story?",
+      "timestamp": 31.48
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Uh, Kitty already talked to me, to the gophers about where, about which tunnel. That's where we left off.",
+      "timestamp": 34.62
+    },
+    {
+      "speaker": "Dad",
       "text": "Oh, and what was Kitty looking for?",
-      "speaker": "Dad",
-      "timestamp": 44.2
+      "timestamp": 44.5
     },
     {
-      "timestamp": 46.1,
       "speaker": "Izzy",
-      "text": "The gophers."
+      "text": "The gophers.",
+      "timestamp": 46.94
     },
     {
+      "speaker": "Dad",
       "text": "Oh, and why was she looking for the gophers?",
-      "timestamp": 47.5,
-      "speaker": "Dad"
+      "timestamp": 48.84
     },
     {
       "speaker": "Izzy",
-      "timestamp": 51.2,
-      "text": "Because she wants to meet a gopher."
-    },
-    {
-      "text": "Kitty, do you really want to meet a gopher?",
-      "timestamp": 58.5,
-      "speaker": "Izzy"
-    },
-    {
-      "timestamp": 62.1,
-      "speaker": "Dad",
-      "text": "And Kitty said, 'Well, yes, I've never met a... a gopher actually, and I feel like it's an important part of my job at being a cat superhero, um, to meet gophers because I'm curious about them and I want to learn about them.'"
-    },
-    {
-      "text": "Yeah, yeah, but they're really big and they have sharp teeth and their teeth are really big, Kitty.",
-      "timestamp": 78.4,
-      "speaker": "Izzy"
-    },
-    {
-      "text": "Oh, but do they bite people?",
-      "timestamp": 85.2,
-      "speaker": "Dad"
-    },
-    {
-      "timestamp": 88.1,
-      "speaker": "Izzy",
-      "text": "I don't think so."
+      "text": "Because she wanted to meet a gopher.",
+      "timestamp": 51.26
     },
     {
       "speaker": "Dad",
-      "timestamp": 89.5,
-      "text": "And Uncle Grisco said, 'No, uh, they... they do not bite people. They just... they just like to nibble on vegetables and stuff and dig tunnels. That's what gophers do. They are a lot bigger than us moles, but they're smaller than you because you... you look like you're a person, Kitty, even though you're dressed like a cat. Is that true? Are you a person?'"
-    },
-    {
-      "text": "Yeah, yeah, I'm a person superhero because I have my cat costume on.",
-      "timestamp": 106.1,
-      "speaker": "Izzy"
-    },
-    {
-      "text": "Well, why... why are you dressed like a cat? Why do you have a cat costume?",
-      "speaker": "Dad",
-      "timestamp": 112.2
-    },
-    {
-      "text": "Because... because I want to look like a cat superhero.",
-      "timestamp": 116.3,
-      "speaker": "Izzy"
-    },
-    {
-      "text": "And then all of a sudden they heard a dig-dig-dig-dig-dig-dig-dig and out popped a furry head.",
-      "timestamp": 121.5,
-      "speaker": "Dad"
+      "text": "Oh. Um-",
+      "timestamp": 55.18
     },
     {
       "speaker": "Izzy",
-      "timestamp": 127.2,
-      "text": "Hi... Kitty, that's a gopher."
-    },
-    {
-      "text": "Um, 'Hello everyone, what are you doing in our tunnel?'",
-      "speaker": "Dad",
-      "timestamp": 131.4
-    },
-    {
-      "text": "We're just coming to visit you again.",
-      "timestamp": 135.2,
-      "speaker": "Izzy"
-    },
-    {
-      "text": "Oh, thanks.",
-      "timestamp": 138.1,
-      "speaker": "Dad"
-    },
-    {
-      "timestamp": 139.4,
-      "speaker": "Izzy",
-      "text": "And here's a special superhero person guest who's a special one because she saves people, who's a superhero."
-    },
-    {
-      "text": "'Wow,' said the gopher.",
-      "timestamp": 151.2,
-      "speaker": "Dad"
-    },
-    {
-      "text": "And her name is Kitty, and she's dressed like a cat superhero right now.",
-      "speaker": "Izzy",
-      "timestamp": 153.1
+      "text": "\"Kitty, do you really wanna meet a gopher?\"",
+      "timestamp": 58.13
     },
     {
       "speaker": "Dad",
-      "timestamp": 159.2,
-      "text": "'Wow, I thought for a second you were a cat,' says the gopher, 'but you must be a person because you're really big.'"
+      "text": "And Kitty said, \"Well, yes. I've never met a m- a, a gopher, actually. And I feel like it's an important part of my job, being a cat superhero, um, to meet gophers, 'cause I'm curious about them and I wanna learn about them.\"",
+      "timestamp": 61.82
     },
     {
       "speaker": "Izzy",
-      "timestamp": 166.5,
-      "text": "Yeah, I'm a person cat superhero."
+      "text": "Yeah, yeah, yeah, but they're really big and they have sharp teeth, and their teeth are really big, Kitty.",
+      "timestamp": 74.92
     },
     {
-      "timestamp": 171.1,
       "speaker": "Dad",
-      "text": "And what super things can you do since you're a superhero?"
+      "text": "Oh, but they, do they bite people?",
+      "timestamp": 83.54
     },
     {
-      "text": "I can save people and rescue things and I'm also available to talk to cats and I brought my cat troop, but Pumpkin's hiding in between my legs.",
-      "timestamp": 173.4,
-      "speaker": "Izzy"
+      "speaker": "Izzy",
+      "text": "I don't think so.",
+      "timestamp": 86.24
     },
     {
+      "speaker": "Dad",
+      "text": "And Uncle Grisco said, \"No, uh, they, they do not bite people. They just, they just like to nibble on vegetables and stuff, and dig tunnels. That's what gophers do. They are a lot bigger than us moles, but they're smaller than you, 'cause you're, you look like you're a person, Kitty, even though you're dressed like a cat.\"",
+      "timestamp": 88.1
+    },
+    {
+      "speaker": "Dad",
+      "text": "Is that true? Are you a person?",
+      "timestamp": 102.96
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah. Yeah, I'm a person superhero w- because I have my cat c- costume on.",
+      "timestamp": 104.72
+    },
+    {
+      "speaker": "Dad",
+      "text": "Well, why, why are you dressed like a cat? Why do you have a cat costume?",
+      "timestamp": 111.32
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Because, because I want to look like a cat superhero.",
+      "timestamp": 114.46
+    },
+    {
+      "speaker": "Dad",
+      "text": "And then all of a sudden they heard a dig, dig, dig, dig, dig, dig, dig, dig, dig, and out popped a furry head.",
+      "timestamp": 120.03
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"Oh, uh, Kitty, that's a gopher.\"",
+      "timestamp": 126.84
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Um, hello, everyone. What are you doing in our tunnel?\"",
+      "timestamp": 130.85
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"We're just coming to visit you,\" yeah.",
+      "timestamp": 133.94
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh, thanks.\"",
+      "timestamp": 137.24
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"And h- here's a special superhero person guest who's a special one because she saves people, who's a superhero.\"",
+      "timestamp": 138.9
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Wow,\" said the gopher.",
+      "timestamp": 150.87
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"H- and her name is Kitty, and she's dressed like a cat superhero right now.\"",
+      "timestamp": 152.68
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Wow, I thought for a second you were a cat,\" says the gopher, \"but you must be a person, 'cause you're really big.\"",
+      "timestamp": 159.85
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"Yeah, I'm a p- I'm a person cat superhero.\"",
+      "timestamp": 166.21
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"And what super things can you do since you're a superhero?\"",
+      "timestamp": 170.09
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"I can save people and rescue things, and I'm also available to talk to cats, and I brought my cat crew, but Pumpkin's hiding in between my legs.\"",
+      "timestamp": 172.15
+    },
+    {
+      "speaker": "Dad",
       "text": "Oh, Pumpkin, are you scared?",
+      "timestamp": 185.92
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"Yeah, I'm scared.\"",
+      "timestamp": 187.6
+    },
+    {
       "speaker": "Dad",
-      "timestamp": 186.2
-    },
-    {
-      "text": "Yeah, I'm scared.",
-      "timestamp": 188.4,
-      "speaker": "Izzy"
-    },
-    {
       "text": "What are you scared of, Pumpkin?",
-      "speaker": "Dad",
-      "timestamp": 190.1
+      "timestamp": 189.68
     },
     {
       "speaker": "Izzy",
-      "timestamp": 191.5,
-      "text": "I'm scared of you because you're really big and in the... remember that I saw you once and I hid under Kitty's legs."
+      "text": "\"I'm scared of you, because you're really big and you have... And I remember that I saw you once and I hid under Kitty's legs.\"",
+      "timestamp": 190.83
     },
     {
-      "timestamp": 202.4,
       "speaker": "Dad",
-      "text": "And the gopher said, 'Well, I'm just a gopher. My name's Goober. I'm not even a grown-up gopher, I'm just a kiddo gopher. And I like to play games and nibble on broccoli and dig really deep holes. Do you like to do any of those things?'"
+      "text": "And the gopher said, \"Well, I'm just a gopher. My name's Goober. I'm not even a grown-up gopher, I'm just a kiddo gopher, and I like to play games and nibble on broccoli, and dig really deep holes. Do you like to do any of those things?\"",
+      "timestamp": 202.4
     },
     {
-      "text": "Um... no, I just eat kibble and walk around and get pets.",
-      "timestamp": 217.3,
-      "speaker": "Izzy"
-    },
-    {
-      "timestamp": 222.1,
-      "speaker": "Dad",
-      "text": "Pets? What are those?"
-    },
-    {
-      "text": "Those are pets from head to tail. Izzy will show you.",
       "speaker": "Izzy",
-      "timestamp": 224.2
+      "text": "\"Um, no, I just eat kibble and walk around and get pets.\"",
+      "timestamp": 215.65
     },
     {
-      "text": "Oh.",
-      "timestamp": 229.1,
-      "speaker": "Dad"
+      "speaker": "Dad",
+      "text": "\"Pets? What are those?\"",
+      "timestamp": 222.62
     },
     {
-      "text": "And sometimes when I get pets I purr like this... [purring sound]. This is how I get a pet. This is how Pumpkin gets pets, said Kitty.",
       "speaker": "Izzy",
-      "timestamp": 231.4
+      "text": "\"Those are pets from head to tail, as he will show you.\"",
+      "timestamp": 224.19
     },
     {
       "speaker": "Dad",
-      "timestamp": 242.3,
-      "text": "And Goober the gopher said, 'Wow, I never knew about any of that stuff. But what do you do as a superhero? Who's somebody that you've saved or something you've rescued recently?'"
+      "text": "\"Oh, thank you.\"",
+      "timestamp": 228.45
     },
     {
-      "text": "Uh, I rescued the golden tiger treasure just from your house a minute ago.",
-      "timestamp": 252.5,
-      "speaker": "Izzy"
-    },
-    {
-      "text": "The golden tiger... Oh, you mean our... our little golden tiger statue that we had decorating our... our mudroom.",
-      "speaker": "Dad",
-      "timestamp": 261.2
-    },
-    {
-      "text": "Yeah, yeah. I took it back to the museum with Pumpkin and Figaro, Katsumi, and Pixie, and Pumpkin.",
       "speaker": "Izzy",
-      "timestamp": 272.3
+      "text": "\"And sometimes when I get pets, I purr like this. Purr, purr, purr.\"",
+      "timestamp": 228.73
     },
     {
       "speaker": "Dad",
-      "timestamp": 282.1,
-      "text": "Oh, I see. Well, if it belonged to the museum, I'm glad you rescued it and brought it back there. Well, it's about time for me to go to bed, said Goober the gopher."
+      "text": "\"Wow.\"",
+      "timestamp": 235.52
     },
     {
-      "text": "Oh, well...",
       "speaker": "Izzy",
-      "timestamp": 292.2
+      "text": "\"This is how I get a pet.\"",
+      "timestamp": 235.53
     },
     {
-      "text": "So I'll have to say goodbye.",
-      "timestamp": 294.1,
-      "speaker": "Dad"
+      "speaker": "Dad",
+      "text": "\"I see.\"",
+      "timestamp": 237.51
     },
     {
-      "text": "Okay, but Kitty said 'I'm afraid you could talk to me in the morning because I'll be visiting you in the mornings on only Sundays.'",
       "speaker": "Izzy",
-      "timestamp": 296.2
+      "text": "\"This is how Pumpkin gets pets,\" said Kitty.",
+      "timestamp": 237.51
     },
     {
       "speaker": "Dad",
-      "timestamp": 307.4,
-      "text": "'Oh,' said Goober. 'Okay, I'm looking forward to visiting with you. You're welcome anytime, and you could even come over for breakfast if you want.'"
+      "text": "Oh. And Goober the Gopher said, \"Wow, I never knew about any of that stuff. But what do you do as a superhero? Who's someone that y- that you've saved or something you've rescued recently?\"",
+      "timestamp": 241.06
     },
     {
-      "text": "Yeah, and tomorrow I'm going to the diner for breakfast, and tomorrow I'll tell you all about it with my cat troop.",
-      "timestamp": 315.2,
-      "speaker": "Izzy"
+      "speaker": "Izzy",
+      "text": "\"Uh, I rescued the golden tiger treasure just from your house a minute ago.\"",
+      "timestamp": 252.21
     },
     {
       "speaker": "Dad",
-      "timestamp": 324.3,
-      "text": "That sounds wonderful, said Goober. Time for me to go into my... um, bedroom tunnel. Goodnight everyone. And that's the end of our story."
+      "text": "\"The golden tiger trea- oh, you mean our, our little golden tiger statue that we had decorating our, our mudroom?\"",
+      "timestamp": 262.46
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"Yeah, yeah, yeah. I took it back to the museum with Pumpkin and Figaro and Katsumi and Pixie-\"",
+      "timestamp": 269.96
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh",
+      "timestamp": 280.58
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... \"and Pumpkin.\"",
+      "timestamp": 280.88
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"I see. Well, if it belonged to the museum, I'm glad you rescued it and brought it back there.\"",
+      "timestamp": 282.34
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"Okay.\"",
+      "timestamp": 287.17
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Well, it's about time for me to go to bed,\" said Goober the Gopher.",
+      "timestamp": 287.36
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"Oh, well, then-\"",
+      "timestamp": 292.07
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"So I'll have to say goodbye.\"",
+      "timestamp": 292.51
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"Okay,\" but Kitty said, \"I'm afraid you could talk to me in the morning, because I'll be visiting you in the mornings on only Sundays.\"",
+      "timestamp": 294.25
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh,\" said Goober. \"Okay, I'm looking forward to visiting with you. You're welcome anytime, and you could even come over for breakfast if you want.\"",
+      "timestamp": 307.02
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"Yeah. And tomorrow I'm going to the diner for breakfast, and t- tomorrow I'll tell you all about it with my cat crew.\"",
+      "timestamp": 315.08
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"That sounds wonderful,\" said Goober. \"It's time for me to go into my, um, bedroom tunnel. Good night, everyone.\" And that's the end of our story.",
+      "timestamp": 325.63
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Oh, I wanna do another one.",
+      "timestamp": 339.52
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, but it's almost time for bed, little, little love. You know-",
+      "timestamp": 342.7
     }
   ],
   "characters": [
@@ -324,7 +414,19 @@
       "description": "The specific tunnel where the gopher goes to sleep at night."
     }
   ],
-  "wordCount": 764,
-  "izzyWordCount": 330,
-  "dadWordCount": 434
+  "wordCount": 855,
+  "izzyWordCount": 369,
+  "dadWordCount": 486,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T15:18:36.826Z",
+    "speakerMap": {
+      "speaker_0": "Izzy",
+      "speaker_1": "Dad"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "high"
+  }
 }

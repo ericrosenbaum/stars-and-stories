@@ -6,348 +6,588 @@
   "audioFilename": "Dimitar and Icicle polish the ice castle.m4a",
   "highlightQuote": {
     "text": "Rizzo the rat does not wear a hat.",
-    "timestamp": 545
+    "timestamp": 58.2
   },
   "transcript": [
     {
       "speaker": "Izzy",
-      "timestamp": 0,
-      "text": "Before I go sleep I need to comb Messer."
+      "text": "Be a good girl. I need to comb Messer.",
+      "timestamp": 0.32
     },
     {
-      "text": "Oh, before stars and stories you're going to comb Messer? Or do you want to comb Messer while we tell our story?",
       "speaker": "Dad",
-      "timestamp": 5
+      "text": "Oh, before Stars and Stories you're gonna comb Messer? Or do you wanna comb Messer while we tell our story?",
+      "timestamp": 5.5
     },
     {
-      "text": "Here's the mirror, here's the comb for the mermaids, here's Messer's comb.",
-      "timestamp": 15,
-      "speaker": "Izzy"
+      "speaker": "Izzy",
+      "text": "Here's the mer- Here's the comb for the mergirls. Here's Messer's comb.",
+      "timestamp": 15.32
     },
     {
+      "speaker": "Dad",
       "text": "Okay, once you're done I'll turn out the lights.",
-      "speaker": "Dad",
-      "timestamp": 33
+      "timestamp": 33.72
     },
     {
-      "timestamp": 39,
       "speaker": "Izzy",
-      "text": "Messer, I'm done combing you."
+      "text": "Messer, I'm done combing you.",
+      "timestamp": 38.98
     },
     {
+      "speaker": "Dad",
       "text": "Okay, let's turn out the lights. There's the stars.",
-      "timestamp": 41,
-      "speaker": "Dad"
+      "timestamp": 41.28
     },
     {
-      "text": "Messer. Actually daddy, is Icicle the name of the new dragon? No.",
-      "timestamp": 46,
-      "speaker": "Izzy"
+      "speaker": "Izzy",
+      "text": "Messer. Actually, Daddy.",
+      "timestamp": 46.66
     },
     {
-      "timestamp": 58,
       "speaker": "Dad",
-      "text": "No. Who... what's the name for the dragon?"
+      "text": "What?",
+      "timestamp": 52.42
     },
     {
+      "speaker": "Izzy",
+      "text": "Icer, is Icicle the name of the new dragon? No.",
+      "timestamp": 53.2
+    },
+    {
+      "speaker": "Dad",
+      "text": "No.",
+      "timestamp": 58.2
+    },
+    {
+      "speaker": "Izzy",
+      "text": "What, what's the name for the dragon?",
+      "timestamp": 60.2
+    },
+    {
+      "speaker": "Dad",
       "text": "Icicle.",
-      "timestamp": 61,
-      "speaker": "Izzy"
-    },
-    {
-      "speaker": "Dad",
-      "timestamp": 64,
-      "text": "Icicle. Let's tell a story about Icicle and Dimitar."
+      "timestamp": 62.34
     },
     {
       "speaker": "Izzy",
-      "timestamp": 70,
-      "text": "Icicle and Dimitar. Icicle and Dimitar. I'm visiting. I'm going to go visit Icicle and Dimitar. So... so I put on my snowpants, jacket and hat and rang Icicle's doorbell, then I flew there with my cape. Ding dong, Icicle."
+      "text": "Icicle. Let's tell a story about Icicle and Dimitar.",
+      "timestamp": 63.22
     },
     {
       "speaker": "Dad",
-      "timestamp": 100,
-      "text": "Oh, hello, who is it?"
+      "text": "Okay, yeah.",
+      "timestamp": 69.28
     },
     {
       "speaker": "Izzy",
-      "timestamp": 102,
-      "text": "It's... I think I see Dimitar with you."
+      "text": "Icicle and Dimitar. Icicle and Dimitar. I'm visiting you. I'm visiting. I'm gonna go visit Icicle and Dimitar. So, so I put on my snow pants, jacket, and hat, and rang Icicle's doorbell when I flew there with my cape. Ding-dong, Icicle.",
+      "timestamp": 71.32
     },
     {
-      "timestamp": 104,
       "speaker": "Dad",
-      "text": "Oh yes, Dimitar's visiting me right now. Hello!"
+      "text": "Oh, hello. Who is it?",
+      "timestamp": 98.74
     },
     {
       "speaker": "Izzy",
-      "timestamp": 111,
-      "text": "Hi, I'm Izzy. And... come on in! Um, I'm coming in with Messer. Is that okay? Messer won't make a mess."
-    },
-    {
-      "text": "Well, said Icicle, I like my frozen ice castle to be very neat and clean and sparkly polished. I hope you don't make any messes in my castle, Messer, but you're welcome to visit.",
-      "timestamp": 119,
-      "speaker": "Dad"
-    },
-    {
-      "text": "Oh, and Messer says, 'I brought a polishing kit. I brought a polishing kit that... that I made you for Christmas... as a Christmas present.'",
-      "timestamp": 129,
-      "speaker": "Izzy"
-    },
-    {
-      "text": "A present for me? said the enormous ancient white ice dragon.",
-      "speaker": "Dad",
-      "timestamp": 145
-    },
-    {
-      "text": "Yeah, yeah! And it's a polishing kit to polish your ice castle.",
-      "speaker": "Izzy",
-      "timestamp": 151
+      "text": "It's, I think I see Dimitar with you.",
+      "timestamp": 100.96
     },
     {
       "speaker": "Dad",
-      "timestamp": 161,
-      "text": "Wow, I've never gotten a present. And you know, this side of the ice castle, which faces into the wind and often gets hail and snow and even little bits of pebbles and dirt and grit blown into it, it's getting a little bit yucky and mucky."
-    },
-    {
-      "text": "Oh, I brought some wet wipes too.",
-      "speaker": "Izzy",
-      "timestamp": 180
-    },
-    {
-      "speaker": "Dad",
-      "timestamp": 182,
-      "text": "Well, that sounds very useful. Would you be willing to help me polish the side of my castle?"
-    },
-    {
-      "text": "Yes, and wipe it after we polish it, and dry it because I brought some dry paper towels to dry it after wet wiping it and polishing it.",
-      "timestamp": 186,
-      "speaker": "Izzy"
-    },
-    {
-      "timestamp": 207,
-      "speaker": "Dad",
-      "text": "And Dimitar says, 'Um, well, uh, I'm a little hungry, so you guys, uh, go, uh, enjoy yourselves with all the wiping and polishing and sponging and I'll... I'm going to go get a snack. Bye!' And Dimitar flapped up high into the air and circled around once, whoosh! all the way around the castle, and then zoomed off down the mountain."
+      "text": "Oh, yes. Dimitar's visiting me right now. Hello.",
+      "timestamp": 104.76
     },
     {
       "speaker": "Izzy",
-      "timestamp": 237,
-      "text": "For what?"
+      "text": "Hi, Dimitar. I'm, I'm Izzy.",
+      "timestamp": 107.86
     },
     {
-      "text": "Icicle says, 'Ah, I think he said he was getting a snack. Do you know what Dimitar likes to eat?'",
-      "timestamp": 238,
-      "speaker": "Dad"
+      "speaker": "Dad",
+      "text": "Oh, come on in, Izzy.",
+      "timestamp": 111.34
     },
     {
+      "speaker": "Izzy",
+      "text": "Um, I'm, I'm coming in with Messer. Is that okay? Messer w- Messer won't make a mess.",
+      "timestamp": 112.25
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Well,\" said Icicle, \"I like my frozen ice castle to be very neat and clean and sparkly polished. I hope you don't make any messes in my castle, Messer-",
+      "timestamp": 119.94
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Oh",
+      "timestamp": 130.57
+    },
+    {
+      "speaker": "Dad",
+      "text": "... but you're welcome to visit.\"",
+      "timestamp": 130.58
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And Messer says, \"I brought a polishing kit. I brought a polishing kit that's, that, that, that, that I brought, that I made you for Christmas. As a Christmas present.\"",
+      "timestamp": 131.74
+    },
+    {
+      "speaker": "Dad",
+      "text": "A present?",
+      "timestamp": 147.36
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I ma- A, yeah. And I made you that pol- I made you this polishing kit. Here's your polishing kit, Icicle.",
+      "timestamp": 147.7
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"A present for me?\" said the enormous-",
+      "timestamp": 155.91
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah",
+      "timestamp": 158.27
+    },
+    {
+      "speaker": "Dad",
+      "text": "... ancient, white ice dragon.",
+      "timestamp": 158.28
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah, yeah. It-",
+      "timestamp": 160.12
+    },
+    {
+      "speaker": "Dad",
+      "text": "I-",
+      "timestamp": 162.28
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And it's a polishing kit to polish your ice castle.",
+      "timestamp": 162.3
+    },
+    {
+      "speaker": "Dad",
+      "text": "Wow, I've never gotten a present. And you know, this side of the ice castle, which faces into the wind and often gets hail and snow and even little bits of pebbles and dirt and grit blown into it, it's getting a little bit yucky and mucky.",
+      "timestamp": 168.06
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Oh, and I brought some wet wipes too.",
+      "timestamp": 185.48
+    },
+    {
+      "speaker": "Dad",
+      "text": "Well, that sounds very useful. Would you be willing to help me polish the side of my castle?",
+      "timestamp": 188.52
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yes. And wipe it after we polish it.",
+      "timestamp": 195.26
+    },
+    {
+      "speaker": "Dad",
+      "text": "What a wonderful idea.",
+      "timestamp": 200.16
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And dry it. Because I brought some dry paper towels to dry it after wet wiping it and polishing it.",
+      "timestamp": 200.89
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Dimitar says, \"Um-",
+      "timestamp": 210.2
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And some sponges to get the extra-",
+      "timestamp": 212.52
+    },
+    {
+      "speaker": "Dad",
+      "text": "Um, well, uh-",
+      "timestamp": 217.2
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... polish",
+      "timestamp": 218.21
+    },
+    {
+      "speaker": "Dad",
+      "text": "... I'm a little hungry so you guys, uh, go, uh, enjoy yourselves with all the wiping and polishing and sponging, and I'll, I'm gonna go get a snack. Bye.\" And Dimitar flapped up high into the air and circled around once, whoosh, all the way around the castle, and then zoomed off down the mountain.",
+      "timestamp": 219.06
+    },
+    {
+      "speaker": "Izzy",
+      "text": "For what?",
+      "timestamp": 237.76
+    },
+    {
+      "speaker": "Dad",
+      "text": "Icicle says, \"Uh, I think he said he was getting a, a snack.\" Do you know what Dimitar likes to eat?",
+      "timestamp": 239.8
+    },
+    {
+      "speaker": "Izzy",
       "text": "I do not.",
-      "timestamp": 243,
-      "speaker": "Izzy"
+      "timestamp": 246.34
     },
     {
-      "timestamp": 245,
       "speaker": "Dad",
-      "text": "Oh, well, maybe we'll find out if he brings back some to share. Now, let's start..."
+      "text": "Oh. Well, maybe we'll find out if he brings back some to share. Now, let's start-",
+      "timestamp": 247.68
     },
     {
-      "text": "But my favorite food is pecans. Pecan. Can I share some pecans with you? They were frozen because I bought them at... and Rizzo bought some acorns at the store, he wants to try one. Um, Rizzo came to my house today and he's riding like... and he was riding in his car all the way to... to you. He just drove up the mountain to you.",
-      "timestamp": 254,
-      "speaker": "Izzy"
+      "speaker": "Izzy",
+      "text": "But my favorite food is pecans. Pecan. Can I share some pecans with you?",
+      "timestamp": 254.43
     },
     {
+      "speaker": "Dad",
+      "text": "Oh.",
+      "timestamp": 264.96
+    },
+    {
+      "speaker": "Izzy",
+      "text": "They were frozen 'cause I bought them at, 'cause... And Rizzo bought some, some acorns at the store if you want to try one.",
+      "timestamp": 265.06
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, well.",
+      "timestamp": 276.1
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Um, Rizzo came to my house today, and he's riding, like, and he was riding in his car all the way to, to you.",
+      "timestamp": 276.7
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh.",
+      "timestamp": 288.98
+    },
+    {
+      "speaker": "Izzy",
+      "text": "He just drove up the mountains to you.",
+      "timestamp": 289.22
+    },
+    {
+      "speaker": "Dad",
       "text": "Is he here right now?",
-      "speaker": "Dad",
-      "timestamp": 293
+      "timestamp": 293.54
     },
     {
       "speaker": "Izzy",
-      "timestamp": 295,
-      "text": "Yeah."
+      "text": "Yeah.",
+      "timestamp": 296.76
     },
     {
-      "text": "Oh, where is he? I don't see him.",
-      "timestamp": 296,
-      "speaker": "Dad"
+      "speaker": "Dad",
+      "text": "Oh. Where is he? I don't see a Rizzo.",
+      "timestamp": 297.68
     },
     {
       "speaker": "Izzy",
-      "timestamp": 300,
-      "text": "Rizzo... Rizzo had to go home to go potty. I see. Rizzo's going potty."
-    },
-    {
-      "text": "You know, I do have a bathroom here with a very nice toilet, but it is an ice toilet which is a little bit cold on the bum if you're not used to it, you know.",
-      "timestamp": 312,
-      "speaker": "Dad"
-    },
-    {
-      "text": "Yeah, Rizzo has a medium potty, you have a bigger potty.",
-      "timestamp": 323,
-      "speaker": "Izzy"
+      "text": "Rizzo, Riz- Rizzo had to go home to go potty.",
+      "timestamp": 302.54
     },
     {
       "speaker": "Dad",
-      "timestamp": 332,
-      "text": "Well, mine is, you know, the right size for me, and I'm about the size of a school bus, so it would be about the size of a swimming pool for a little rat, I guess. Let me try one of those frozen pecans."
+      "text": "Oh, I see. Well-",
+      "timestamp": 308.42
     },
     {
-      "text": "Oh yeah, here's the pecan. And Rizzo sent in the mail something for an Ice Festival magazine.",
       "speaker": "Izzy",
-      "timestamp": 350
-    },
-    {
-      "timestamp": 359,
-      "speaker": "Dad",
-      "text": "An Ice Festival magazine?"
-    },
-    {
-      "text": "Yes, it's just to tell you about an Ice Festival. I'll read it to you once it's here in the mail. It's here in the mail now, so I'm going to read it to you. 'Ice Festival starts tomorrow. All your friends will be there, even the Ice Dragons. If you want you can come, but please bring a special icy treat.' That's the magazine.",
-      "timestamp": 363,
-      "speaker": "Izzy"
+      "text": "Rizzo's going potty.",
+      "timestamp": 309.93
     },
     {
       "speaker": "Dad",
-      "timestamp": 395,
-      "text": "Wow, I didn't know there was an Ice Festival. I didn't even know there were other ice dragons. I'm used to just living here all alone at the top of the mountain in my ice castle, said Icicle. I'm so glad to know there's a festival I can go to. And you said it's tomorrow?"
+      "text": "You know, I, I do have a bathroom here with a very nice toilet but, it is an ice toilet, which is a little bit-",
+      "timestamp": 311.6
     },
     {
+      "speaker": "Izzy",
+      "text": "Rizzo needs a potty seat.",
+      "timestamp": 318.5
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh.",
+      "timestamp": 321.79
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Does your toilet have a potty seat?",
+      "timestamp": 321.8
+    },
+    {
+      "speaker": "Dad",
+      "text": "It does, but it, it might be a little cold on the bum if you're not used to it, you know?",
+      "timestamp": 324.18
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah. Rizzo, Rizzo has a, a medium potty, but you have a bigger potty.",
+      "timestamp": 328.42
+    },
+    {
+      "speaker": "Dad",
+      "text": "Well, mine is, is, you know, the right size for me, and I'm about the size of a school bus so, uh, it would be about the size of a swimming pool for a little rat, I guess. Uh, let me try one of those frozen pecans.",
+      "timestamp": 335.58
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Oh, yeah. Here's a pecan. And Rizzo sent in the mail something for an ice festival magazine.",
+      "timestamp": 350.68
+    },
+    {
+      "speaker": "Dad",
+      "text": "An ice festival magazine?",
+      "timestamp": 362.54
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yes. It's just to tell you about a- ... an ice festival. I'll read it to you once it's here in the mail. It's here in the mail now, so I'm gonna read it to you. \"Ice festival starts tomorrow. All your friends will be there, even the ice dragons. If you want, you can come.",
+      "timestamp": 365.3
+    },
+    {
+      "speaker": "Izzy",
+      "text": "But please bring a special icy treat.\" That's the magazine.",
+      "timestamp": 389.68
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Wow, I didn't know there was an ice festival. I didn't even know there were other ice dragons. I'm used to just living here all alone at the top of the mountain in my ice castle,\" said Icicle. \"I'm so glad to know there's a festival I can go to. And you said it's tomorrow?\"",
+      "timestamp": 395.66
+    },
+    {
+      "speaker": "Izzy",
       "text": "Yes, I said it was tomorrow.",
-      "speaker": "Izzy",
-      "timestamp": 414
+      "timestamp": 413.24
     },
     {
+      "speaker": "Dad",
       "text": "Well, let's hurry up and finish polishing our castle before Dimitar gets back.",
-      "timestamp": 417,
-      "speaker": "Dad"
-    },
-    {
-      "text": "Oh yeah, but Dimitar's already back. And I'm finished polishing. Are you?",
-      "speaker": "Izzy",
-      "timestamp": 422
-    },
-    {
-      "timestamp": 428,
-      "speaker": "Dad",
-      "text": "Well, I'm almost done. Let me just give another breath of my frozen magic ice breath to it."
-    },
-    {
-      "text": "Oh, but I'm going to clean that up because you're making such a mess.",
-      "timestamp": 441,
-      "speaker": "Izzy"
-    },
-    {
-      "speaker": "Dad",
-      "timestamp": 446,
-      "text": "Oh, I was just going to wipe it after I breathed on it, because that's one way to freeze it again. Well, thanks. Uh, oh hello there, Dimitar. Oops. I bumped my head."
+      "timestamp": 416.62
     },
     {
       "speaker": "Izzy",
-      "timestamp": 462,
-      "text": "Did it need a kiss?"
+      "text": "Oh, yeah, but Dimitar's already back.",
+      "timestamp": 423.2
     },
     {
+      "speaker": "Dad",
+      "text": "Oh.",
+      "timestamp": 426.56
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And I'm finished polishing. Are you?",
+      "timestamp": 427.06
+    },
+    {
+      "speaker": "Dad",
+      "text": "Well, I'm almost done. Let me just give another breath of my frozen magic ice breath to it.",
+      "timestamp": 429.96
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Oh, look, I'm gonna clean that up 'cause you're making such a mess.",
+      "timestamp": 440.14
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, I was just gonna wipe it after I breathed on it, 'cause that's one way to freeze it again. Well, thanks. Uh, oh, hello there, Dimitar. Oops.",
+      "timestamp": 446.1
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I bonked my head.",
+      "timestamp": 455.98
+    },
+    {
+      "speaker": "Dad",
+      "text": "Does it need a kiss?",
+      "timestamp": 457.37
+    },
+    {
+      "speaker": "Izzy",
       "text": "Yes.",
+      "timestamp": 459.2
+    },
+    {
       "speaker": "Dad",
-      "timestamp": 464
+      "text": "Okay.",
+      "timestamp": 460
     },
     {
-      "text": "Daddy, tomorrow I think we'll go the doctor.",
-      "timestamp": 466,
-      "speaker": "Izzy"
+      "speaker": "Izzy",
+      "text": "Daddy?",
+      "timestamp": 465.62
     },
     {
+      "speaker": "Dad",
+      "text": "Yeah?",
+      "timestamp": 466.5
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Tomorrow I think we'll go to the doctor.",
+      "timestamp": 468.9
+    },
+    {
+      "speaker": "Dad",
       "text": "Oh, why is that?",
-      "timestamp": 473,
-      "speaker": "Dad"
+      "timestamp": 474.12
     },
     {
+      "speaker": "Izzy",
       "text": "Because I gotta tell them that my head is hurting.",
-      "speaker": "Izzy",
-      "timestamp": 474
+      "timestamp": 475.1
     },
     {
-      "timestamp": 477,
       "speaker": "Dad",
-      "text": "Oh, does it still hurt from your... when you bonked it just now?"
+      "text": "Oh, does it still hurt from your, when you bonked it just now?",
+      "timestamp": 479.04
     },
     {
-      "timestamp": 481,
       "speaker": "Izzy",
-      "text": "Yes."
+      "text": "Yes.",
+      "timestamp": 481.96
     },
     {
+      "speaker": "Dad",
       "text": "Oh, I'm sorry to hear that.",
-      "timestamp": 482,
-      "speaker": "Dad"
-    },
-    {
-      "text": "But maybe when I'm done sleeping after breakfast it will be done, and then I will be better soon.",
-      "speaker": "Izzy",
-      "timestamp": 484
-    },
-    {
-      "speaker": "Dad",
-      "timestamp": 492,
-      "text": "I think you'll feel better soon. All right, well let's finish up our story. And so Dimitar returned with what?"
+      "timestamp": 482.6
     },
     {
       "speaker": "Izzy",
-      "timestamp": 503,
-      "text": "A little bucket, and inside the bucket were three tiny fish."
+      "text": "But maybe when I'm done sleeping after breakfast-",
+      "timestamp": 484.92
     },
     {
       "speaker": "Dad",
-      "timestamp": 511,
-      "text": "And Dimitar landed and he said, 'Puff puff puff...'"
+      "text": "I think it-",
+      "timestamp": 490.88
     },
     {
+      "speaker": "Izzy",
+      "text": "... it will be done",
+      "timestamp": 491.11
+    },
+    {
+      "speaker": "Dad",
+      "text": "I think it'll feel better soon",
+      "timestamp": 493.2
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... and it will be all heal.",
+      "timestamp": 494.53
+    },
+    {
+      "speaker": "Dad",
+      "text": "All right. Well, let's finish up our story. And so Dimitar returned with-",
+      "timestamp": 496.28
+    },
+    {
+      "speaker": "Izzy",
+      "text": "With what?",
+      "timestamp": 502.38
+    },
+    {
+      "speaker": "Dad",
+      "text": "... a little bucket and inside the bucket were three tiny fish. And Dimitar landed and he said, \"Oh, puff, puff, puff.\"",
+      "timestamp": 503.13
+    },
+    {
+      "speaker": "Izzy",
       "text": "And what did Icicle say?",
-      "timestamp": 516,
-      "speaker": "Izzy"
+      "timestamp": 515.98
     },
     {
       "speaker": "Dad",
-      "timestamp": 518,
-      "text": "And Icicle said, 'Welcome back, friend! What have you got there?'"
-    },
-    {
-      "text": "Fishies, of course, said Dimitar. Of course, some little fishies.",
-      "timestamp": 522,
-      "speaker": "Izzy"
-    },
-    {
-      "text": "Oh, are they for sharing or were you going to eat them all yourself?",
-      "timestamp": 532,
-      "speaker": "Dad"
+      "text": "And Icicle said, \"Uh, welcome back, friend. What have you got there?\" And he was-",
+      "timestamp": 518.02
     },
     {
       "speaker": "Izzy",
-      "timestamp": 535,
-      "text": "Oh, they're for sharing, and I brought Rizzo in this little basket."
+      "text": "\"Fishies, of course,\" said, said Dimitar. \"Of course, some, some little fishies.\"",
+      "timestamp": 522.17
     },
     {
-      "text": "Oh, Rizzo's here too? Hello Rizzo.",
       "speaker": "Dad",
-      "timestamp": 542
+      "text": "\"Oh. Uh, are they for sharing or were you gonna eat them all yourself?\"",
+      "timestamp": 531.01
     },
     {
-      "text": "Yeah, I sure am Rizzo the rat... that does not wear a hat. Rizzo the rat does not wear a hat.",
-      "timestamp": 545,
-      "speaker": "Izzy"
-    },
-    {
-      "text": "Well, I'm Icicle and I do not ride a bicycle. And so all the friends shared the little fishies that Dimitar had caught, and Icicle blew his ice breath on his portion so he could make a fish-sicle, and he chomped it down with glee. And then they set about preparing for their visit to the Ice Festival. But that is a story for another day. And that's the end of Stars and Stories.",
-      "timestamp": 557,
-      "speaker": "Dad"
-    },
-    {
-      "text": "Yay! Dad, tomorrow can you do my bedtime also?",
       "speaker": "Izzy",
-      "timestamp": 588
+      "text": "\"Oh, they're for sharing and I brought Rizzo in this little basket.\"",
+      "timestamp": 535.36
     },
     {
-      "text": "Maybe, we'll see.",
       "speaker": "Dad",
-      "timestamp": 592
+      "text": "Oh, Rizzo's here too?",
+      "timestamp": 541.66
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yep.",
+      "timestamp": 542.66
+    },
+    {
+      "speaker": "Dad",
+      "text": "Hello, Rizzo.",
+      "timestamp": 542.68
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yep. I sure am Rizzo the Rat.",
+      "timestamp": 543.8
+    },
+    {
+      "speaker": "Dad",
+      "text": "Well, welcome to my ice castle.",
+      "timestamp": 548.56
+    },
+    {
+      "speaker": "Izzy",
+      "text": "That does not wear a hat. Rizzo the Rat does not wear a hat.",
+      "timestamp": 550.06
+    },
+    {
+      "speaker": "Dad",
+      "text": "Well, I'm Icicle and I do not ride a bicycle. And so all the friends shared the little fishies that Dimitar had caught and Icicle blew his ice breath on his portion so he could make a fish-sicle and he chomped it down with glee. And then they set about preparing for their visit to the ice festival.",
+      "timestamp": 557.1
+    },
+    {
+      "speaker": "Dad",
+      "text": "But that is a story for another day. And that's the end of Stars and Stories.",
+      "timestamp": 581.68
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yay. Dad, tomorrow can you do my bedtime also?",
+      "timestamp": 588.36
+    },
+    {
+      "speaker": "Dad",
+      "text": "Maybe, we'll see",
+      "timestamp": 593.46
     }
   ],
   "characters": [
@@ -399,7 +639,19 @@
       "description": "Once the silent harbor of Jinjar’s return and the site of Rizzo and Izzy’s fateful council, this fortified sanctuary now serves as the primary destination reachable via a magical potion. Anchoring the company against the encroaching storm, the hallowed dwelling resembles a quaint hotel of labyrinthine rooms, featuring a celestial starry rug that blankets the ground where heroes once prepared for their departure to the dragon’s castle."
     }
   ],
-  "wordCount": 1158,
-  "izzyWordCount": 503,
-  "dadWordCount": 655
+  "wordCount": 1281,
+  "izzyWordCount": 574,
+  "dadWordCount": 707,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T15:20:08.154Z",
+    "speakerMap": {
+      "speaker_0": "Izzy",
+      "speaker_1": "Dad"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "high"
+  }
 }
