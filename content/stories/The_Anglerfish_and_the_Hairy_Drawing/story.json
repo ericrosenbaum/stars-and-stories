@@ -6,448 +6,583 @@
   "audioFilename": "Cornell St 34.m4a",
   "highlightQuote": {
     "text": "No, it's not a lantern fish, I think it's an anglerfish. No, maybe... no, it's not a purple one, it's a blue one. No, no, it's a junk fish, I think.",
-    "timestamp": 567.55
+    "timestamp": 530.61
   },
   "transcript": [
     {
       "speaker": "Izzy",
-      "text": "And Dad, can you please get out my drawing pen so I can draw something?",
-      "timestamp": 13.48
+      "text": "I want right in here. Because it's pretty comfy here. And Dad, could you please get out my drawing pen so I can draw something?",
+      "timestamp": 1.58
     },
     {
       "speaker": "Dad",
-      "text": "Oh, I thought we were going to do stars and stories first.",
-      "timestamp": 18.25
+      "text": "Oh, I thought we were gonna do Stars and Stories next.",
+      "timestamp": 18.22
     },
     {
       "speaker": "Izzy",
-      "text": "No, first I'm going to draw a little portrait. First I want to draw...",
-      "timestamp": 20.55
+      "text": "No, first I'm going to draw a little portrait. What do you wanna draw?",
+      "timestamp": 20.72
     },
     {
       "speaker": "Dad",
-      "text": "Okay, let me just set the timer.",
-      "timestamp": 26.52
+      "text": "Oh, okay. Let me just set the timer.",
+      "timestamp": 26.78
     },
     {
       "speaker": "Izzy",
-      "text": "Dad, could you please get out my pen?",
-      "timestamp": 32.25
+      "text": "Dad, could you-",
+      "timestamp": 32.09
     },
     {
       "speaker": "Dad",
-      "text": "Yeah, it's tricky, isn't it? There you go. Who are you going to make a portrait of?",
-      "timestamp": 35.48
+      "text": "What, who-",
+      "timestamp": 33.92
     },
     {
       "speaker": "Izzy",
-      "text": "Me. In me, watching me... head... hair...",
-      "timestamp": 43.12
+      "text": "... get that away please?",
+      "timestamp": 34.29
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yeah, it's tricky, isn't it?",
+      "timestamp": 37.02
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Let me.",
+      "timestamp": 39.24
+    },
+    {
+      "speaker": "Dad",
+      "text": "Here you go. Who are you gonna make a portrait of?",
+      "timestamp": 40.06
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Me, me and me watching Nana. Here's a head. Line. And hands.",
+      "timestamp": 42.24
     },
     {
       "speaker": "Dad",
       "text": "Wow.",
-      "timestamp": 59.55
+      "timestamp": 58.25
     },
     {
       "speaker": "Izzy",
-      "text": "There's my toes...",
-      "timestamp": 60.28
-    },
-    {
-      "speaker": "Izzy",
-      "text": "One piece of hair.",
-      "timestamp": 75.55
+      "text": "And her toes. And one piece of hair.",
+      "timestamp": 63.64
     },
     {
       "speaker": "Dad",
       "text": "One piece of hair, I see. I like that.",
-      "timestamp": 78.22
+      "timestamp": 76.14
     },
     {
       "speaker": "Izzy",
-      "text": "It's long. Even longer than my hair that I have now. See? That's me!",
-      "timestamp": 79.58
+      "text": "It's long. Even longer than my hair that I have now. See?",
+      "timestamp": 78.26
+    },
+    {
+      "speaker": "Dad",
+      "text": "Mm-hmm.",
+      "timestamp": 86.64
+    },
+    {
+      "speaker": "Izzy",
+      "text": "That's me.",
+      "timestamp": 87.14
     },
     {
       "speaker": "Dad",
       "text": "That's you with your long hair. I love it.",
-      "timestamp": 87.22
+      "timestamp": 88.38
     },
     {
       "speaker": "Izzy",
       "text": "See, that's me sliding at the pool.",
-      "timestamp": 92.55
+      "timestamp": 91.22
     },
     {
       "speaker": "Dad",
-      "text": "Oh! It's a portrait of Izzy. I love it.",
-      "timestamp": 101.08
+      "text": "Oh.",
+      "timestamp": 94.84
     },
     {
       "speaker": "Izzy",
-      "text": "Swimming in the pool, doing a somersault.",
-      "timestamp": 104.22
-    },
-    {
-      "speaker": "Izzy",
-      "text": "That's me!",
-      "timestamp": 116.55
+      "text": "See what else we can do.",
+      "timestamp": 99.4
     },
     {
       "speaker": "Dad",
-      "text": "I see you.",
-      "timestamp": 118.22
+      "text": "It's a portrait of Izzy. I love it.",
+      "timestamp": 101.14
     },
     {
       "speaker": "Izzy",
-      "text": "I'm gliding and doing a somersault.",
-      "timestamp": 119.58
-    },
-    {
-      "speaker": "Dad",
-      "text": "I love that.",
-      "timestamp": 124.22
-    },
-    {
-      "speaker": "Izzy",
-      "text": "There!",
-      "timestamp": 125.55
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Now I'm going even deeper in the dark to where the anglerfish live.",
-      "timestamp": 133.22
-    },
-    {
-      "speaker": "Dad",
-      "text": "Wow. That's so deep.",
-      "timestamp": 139.22
-    },
-    {
-      "speaker": "Izzy",
-      "text": "I've got my diving suit on with stripes... stripe, stripe, stripe.",
-      "timestamp": 142.55
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, I see the stripes. I like how you're drawing stripes on your diving suit.",
-      "timestamp": 149.22
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Then I just have... hair.",
-      "timestamp": 157.22
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, there's a little bit of hair, yes.",
-      "timestamp": 161.55
-    },
-    {
-      "speaker": "Izzy",
-      "text": "There. There! That's me.",
-      "timestamp": 173.55
-    },
-    {
-      "speaker": "Dad",
-      "text": "There's Izzy, yes. Are you ready for stars and stories?",
-      "timestamp": 179.22
-    },
-    {
-      "speaker": "Dad",
-      "text": "Okay, I'll turn off the big light. And now it's stars and stories time. You ready?",
-      "timestamp": 186.25
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Please about Hattie.",
-      "timestamp": 199.55
-    },
-    {
-      "speaker": "Dad",
-      "text": "Always about Hattie.",
-      "timestamp": 201.25
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Now I'll try another drawing.",
-      "timestamp": 212.55
-    },
-    {
-      "speaker": "Izzy",
-      "text": "First I draw a cage. This is my cage. Dad, do you see my cage?",
-      "timestamp": 220.22
-    },
-    {
-      "speaker": "Dad",
-      "text": "Well, it's hard to see because it's dark, but I do see that you're drawing, yes.",
-      "timestamp": 229.25
-    },
-    {
-      "speaker": "Izzy",
-      "text": "I do some more hair on some more...",
-      "timestamp": 238.55
-    },
-    {
-      "speaker": "Dad",
-      "text": "Do you want more light? For drawing? Okay.",
-      "timestamp": 241.52
-    },
-    {
-      "speaker": "Izzy",
-      "text": "This is not a hairy drawing.",
-      "timestamp": 251.55
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Um, I'm going to make it a hairy drawing. Hairy drawing. It's a little hairy. Then I draw a really big hairy drawing.",
-      "timestamp": 269.55
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Big hairy drawing!",
-      "timestamp": 282.55
-    },
-    {
-      "speaker": "Dad",
-      "text": "Wow, it's a big hairy drawing.",
-      "timestamp": 285.55
-    },
-    {
-      "speaker": "Izzy",
-      "text": "That's a big hairy drawing. But it's not very big. A main drawing. That's a small one.",
-      "timestamp": 288.55
-    },
-    {
-      "speaker": "Izzy",
-      "text": "I made a big one!",
-      "timestamp": 308.55
-    },
-    {
-      "speaker": "Dad",
-      "text": "A very big one. Oh, yeah.",
-      "timestamp": 311.55
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Oh, I remember what else to draw... circle... oval... draw a head...",
-      "timestamp": 316.55
-    },
-    {
-      "speaker": "Dad",
-      "text": "What did you draw?",
-      "timestamp": 348.55
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Wait, see, I draw... I drew Avery.",
-      "timestamp": 352.55
-    },
-    {
-      "speaker": "Dad",
-      "text": "You drew Avery? Show me.",
-      "timestamp": 356.55
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Here's Avery. See? She's wearing her different clothes of Avery. See? Big clothes.",
-      "timestamp": 361.55
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Now let me erase this drawing. This drawing isn't so good. Let me draw a different one.",
-      "timestamp": 379.55
-    },
-    {
-      "speaker": "Izzy",
-      "text": "First I start with... hair... one hand... and another hand.",
-      "timestamp": 390.55
+      "text": "Swimming in the pool doing a somersault.",
+      "timestamp": 103.78
     },
     {
       "speaker": "Dad",
       "text": "Wow.",
-      "timestamp": 409.55
+      "timestamp": 106.94
     },
     {
       "speaker": "Izzy",
-      "text": "This doesn't look like Avery.",
-      "timestamp": 421.55
+      "text": "Dad, see me?",
+      "timestamp": 118.17
     },
     {
       "speaker": "Dad",
-      "text": "I like drawing with you, but we're going to run out of time for stars and stories. Do you want to draw one more drawing and then do one short story?",
-      "timestamp": 429.55
+      "text": "Mm-hmm, I see you.",
+      "timestamp": 119.37
     },
     {
       "speaker": "Izzy",
-      "text": "A big circle... and add this. What am I drawing now?",
-      "timestamp": 443.55
+      "text": "I'm gliding. I'm doing a somersault.",
+      "timestamp": 121.06
     },
     {
       "speaker": "Dad",
-      "text": "Oh, that could be a person. Are those legs?",
-      "timestamp": 459.55
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, maybe it's a jellyfish.",
-      "timestamp": 464.55
+      "text": "I love that.",
+      "timestamp": 123.88
     },
     {
       "speaker": "Izzy",
-      "text": "Yeah, it could be if you want it to. But see, I'm drawing spines. Maybe it could be an anglerfish.",
-      "timestamp": 469.55
+      "text": "There. Now I'm going even deeper in the d- to the dark sea where the anglerfish live.",
+      "timestamp": 127.28
     },
     {
       "speaker": "Dad",
-      "text": "Maybe it could be an anglerfish. I love that idea. So it just needs a little lantern on the front.",
-      "timestamp": 477.55
+      "text": "Wow. That's so deep.",
+      "timestamp": 139.3
     },
     {
       "speaker": "Izzy",
-      "text": "I'm going to put it on the back. Oh, here's the... light... little bit of hair... and just one tiny... sorry.",
-      "timestamp": 486.55
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Can you even tell the story when the light is off?",
-      "timestamp": 510.55
+      "text": "And I've got my diving suit on with stripes. Stripes, stripes, stripes. Stripes.",
+      "timestamp": 143.2
     },
     {
       "speaker": "Dad",
-      "text": "Yeah. Okay, let's put away the drawing table.",
-      "timestamp": 513.55
+      "text": "Oh, I see the stripes. I like how you're drawing stripes on your diving suit.",
+      "timestamp": 149.52
     },
     {
       "speaker": "Izzy",
-      "text": "No, not putting away the drawing table, busy!",
-      "timestamp": 519.55
+      "text": "Then we just need hair.",
+      "timestamp": 157.02
     },
     {
       "speaker": "Dad",
-      "text": "Do you want to just tell the story right now like this?",
-      "timestamp": 524.55
+      "text": "Oh, there's a little bit of hair, yes.",
+      "timestamp": 162.4
+    },
+    {
+      "speaker": "Izzy",
+      "text": "There. There. That's me.",
+      "timestamp": 173.86
+    },
+    {
+      "speaker": "Dad",
+      "text": "There's Izzy, yes.",
+      "timestamp": 180.6
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Dad, turn off the-",
+      "timestamp": 181.92
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, you're ready for Stars and Stories?",
+      "timestamp": 183.52
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Ready.",
+      "timestamp": 185.54
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay, I'll turn off the big light. And now it's Stars and Stories time. You ready?",
+      "timestamp": 186.72
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Always about Hattie.",
+      "timestamp": 200.42
+    },
+    {
+      "speaker": "Dad",
+      "text": "Always about Hattie.",
+      "timestamp": 201.98
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Now we gotta another drawing. First I draw a cage. That's my cage. Dad, do you see my cage?",
+      "timestamp": 212.5
+    },
+    {
+      "speaker": "Dad",
+      "text": "Well, it's hard to see 'cause it's dark, but I do see that you're drawing it, yes.",
+      "timestamp": 227.92
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I do better turn on some light.",
+      "timestamp": 237.78
+    },
+    {
+      "speaker": "Dad",
+      "text": "Do you want more light?",
+      "timestamp": 241.7
     },
     {
       "speaker": "Izzy",
       "text": "Yes.",
-      "timestamp": 527.55
+      "timestamp": 243.16
     },
     {
       "speaker": "Dad",
-      "text": "Should I turn out the light or no?",
-      "timestamp": 528.55
+      "text": "For drawing? Okay. There.",
+      "timestamp": 243.6
     },
     {
       "speaker": "Izzy",
-      "text": "No, because I need light to see what I draw.",
-      "timestamp": 530.55
+      "text": "This is not a hairy drawing. Um, I'm gonna make it a hairy drawing. Hairy drawing. A little hairy. And then I draw a really big, hairy drawing. Big hairy drawing.",
+      "timestamp": 258.7
     },
     {
       "speaker": "Dad",
-      "text": "Okay, well we're going to do a quick story then. Once upon a time, Hattie the mouse and Izzy the kiddo were drawing together, and they were both drawing pictures of all kinds of things. But all of a sudden, Izzy was drawing something special. It was a beautiful, complicated drawing with lots of different parts. And Hattie the mouse said, 'What's that?' And Izzy said, 'It's a lantern fish.'",
-      "timestamp": 534.55
-    },
-    {
-      "speaker": "Dad",
-      "text": "And Hattie said, 'What's a lantern fish?'",
-      "timestamp": 566.55
+      "text": "Wow, it's a big hairy drawing.",
+      "timestamp": 285.86
     },
     {
       "speaker": "Izzy",
-      "text": "No, it's not a lantern fish, I think it's an anglerfish. No, maybe... no, it's not a purple one, it's a blue one. No, no, it's a junk fish, I think.",
-      "timestamp": 567.55
+      "text": "That's a big hairy drawing, but it's not very big. Swimming tram drawing. That's what's wrong. This is a very big one.",
+      "timestamp": 288.7
     },
     {
       "speaker": "Dad",
-      "text": "Oh. And Hattie said, 'Wow, those all sound like very interesting fish. You could draw all of them if you want to.'",
-      "timestamp": 578.55
+      "text": "A very big one. Oh, yeah.",
+      "timestamp": 310.32
     },
     {
       "speaker": "Izzy",
-      "text": "I'll draw a swimming in the... over the stars. There. There! There we go. That's my whole little thing.",
-      "timestamp": 587.55
+      "text": "Oh, I remember what you said. Draw a circle. Draw a wall. Draw an ... Draw a head. Draw ...",
+      "timestamp": 313.98
     },
     {
       "speaker": "Dad",
-      "text": "And then Christopher Robin came over to visit.",
-      "timestamp": 601.55
+      "text": "What did you draw?",
+      "timestamp": 347.94
     },
     {
       "speaker": "Izzy",
-      "text": "Christopher Robin, look what I drew!",
-      "timestamp": 605.55
+      "text": "Look, see? I drew, I drew Avery.",
+      "timestamp": 353.28
+    },
+    {
+      "speaker": "Dad",
+      "text": "You drew Avery? Show me.",
+      "timestamp": 356.94
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Look, there's Avery.",
+      "timestamp": 361.22
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh.",
+      "timestamp": 363.52
+    },
+    {
+      "speaker": "Izzy",
+      "text": "See, she's quite dr- different from our Avery",
+      "timestamp": 366.85
+    },
+    {
+      "speaker": "Dad",
+      "text": "Mm-hmm",
+      "timestamp": 371.61
+    },
+    {
+      "speaker": "Izzy",
+      "text": "See? Because look. I might have a bit, but let me erase this drawing. This drawing is not so good. Let me draw a different one. First I start with ... This is what it looks like. One hand and another hand.",
+      "timestamp": 371.65
+    },
+    {
+      "speaker": "Dad",
+      "text": "Wow.",
+      "timestamp": 409.89
+    },
+    {
+      "speaker": "Izzy",
+      "text": "This doesn't look like our Avery.",
+      "timestamp": 413.41
+    },
+    {
+      "speaker": "Dad",
+      "text": "I like drawing with you, Iz, but we're gonna run out of time for Stars and Stories. Do you wanna draw one more drawing and then do one short story?",
+      "timestamp": 430.81
+    },
+    {
+      "speaker": "Izzy",
+      "text": "A big circle.",
+      "timestamp": 448.02
+    },
+    {
+      "speaker": "Dad",
+      "text": "Mm-hmm.",
+      "timestamp": 450.23
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Like, add this. What am I drawing now?",
+      "timestamp": 452.11
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, that could be a person. Are those legs? Or maybe it's a jellyfish.",
+      "timestamp": 460.19
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah. It could be if you want it to. But see, I'm drawing spines. Maybe it could be a anglerfish.",
+      "timestamp": 468.29
+    },
+    {
+      "speaker": "Dad",
+      "text": "Maybe it could be an anglerfish. I love that idea. So it just needs a little lantern on the front.",
+      "timestamp": 478.43
+    },
+    {
+      "speaker": "Izzy",
+      "text": "The angler's ab- on the back.",
+      "timestamp": 487.55
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, okay.",
+      "timestamp": 489.83
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And there's a little light.",
+      "timestamp": 490.47
+    },
+    {
+      "speaker": "Dad",
+      "text": "Mm-hmm, there's its little light.",
+      "timestamp": 492.81
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Disappear. And just one time. Sorry. Can you even tell a st- a story with one of the lights off?",
+      "timestamp": 497.91
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yeah. Okay, let's put away the drawing table.",
+      "timestamp": 513.97
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No, not putting away the drawing table. Let's see.",
+      "timestamp": 518.21
+    },
+    {
+      "speaker": "Dad",
+      "text": "Do you wanna just tell the story right now like this?",
+      "timestamp": 524.17
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah.",
+      "timestamp": 527.07
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay. Should I turn out the light or no?",
+      "timestamp": 527.75
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No-",
+      "timestamp": 530.61
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yes",
+      "timestamp": 531.18
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... because I need light to see-",
+      "timestamp": 531.18
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh",
+      "timestamp": 533.19
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... how to draw it.",
+      "timestamp": 533.37
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay. Well, we're gonna do a quick story. Once upon a time, Hattie the Mouse and Izzy the Kiddo were drawing together, and they were both drawing pictures of all kinds of things. But all of a sudden, Izzy was drawing something special. It was a beautiful, complicated drawing with lots of different parts, and Hattie the Mouse said, \"What's that?\"",
+      "timestamp": 534.27
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Izzy said, \"It's a lantern fish.\" And Hattie said, \"What's a lantern fish?\"",
+      "timestamp": 559.93
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No, it's not a lantern fish. I think it's a anglerfish. No, maybe... No, it's not the purple one and a blue one. No. No, it's a junk fish, I think.",
+      "timestamp": 566.83
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh. And Hattie said, \"Wow, those all sound like very interesting fish. You could draw all of them if you want to.\"",
+      "timestamp": 578.49
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And draw s- Win- Minnie, the balloon. Upper Tigger. There.",
+      "timestamp": 587.91
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh.",
+      "timestamp": 594.85
+    },
+    {
+      "speaker": "Izzy",
+      "text": "There I... There we go. That's my whole little thing.",
+      "timestamp": 594.87
+    },
+    {
+      "speaker": "Dad",
+      "text": "And then Christopher Robin came over to visit and-",
+      "timestamp": 601.65
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Christopher Robin, look what I drew.",
+      "timestamp": 605.27
     },
     {
       "speaker": "Dad",
       "text": "Oh, it's such a beautiful drawing. What is it?",
-      "timestamp": 607.55
+      "timestamp": 608.31
     },
     {
       "speaker": "Izzy",
-      "text": "This is a portrait of myself going for a walk. Oh, and it looks like an anglerfish but it's not, it's me on the swing going for a walk. Looks like it's me and my mom, but it's just me going for a walk.",
-      "timestamp": 611.55
+      "text": "This is before I draw myself going for a walk.",
+      "timestamp": 611.09
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh.",
+      "timestamp": 617.27
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And it looked like a anglerfish, but it's not, it's because of the sleep, going for a walk and a-",
+      "timestamp": 617.89
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, I see",
+      "timestamp": 624.81
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... looks like it's me and my mom, but it's just me going for a walk.",
+      "timestamp": 625.11
     },
     {
       "speaker": "Dad",
       "text": "Oh, it's you, Izzy, going for a walk. I see. That's a very interesting picture. Thanks for sharing it with me.",
-      "timestamp": 629.55
+      "timestamp": 630.35
     },
     {
       "speaker": "Izzy",
-      "text": "And then Christopher Robin... oh...",
-      "timestamp": 641.55
+      "text": "Mm-hmm.",
+      "timestamp": 640.55
     },
     {
       "speaker": "Dad",
-      "text": "And then Christopher Robin said, 'Oh, and Hattie the mouse, what have you drawn?' And what did Hattie say?",
-      "timestamp": 643.55
+      "text": "And then Christopher Robin said, \"Oh, and, and Hattie the Mouse, what have you drawn?\" And what did Hattie say?",
+      "timestamp": 643.25
     },
     {
       "speaker": "Izzy",
-      "text": "I was drawing with my friend Mischief and my friend Silly-Silly Pooh-bear and Piglet.",
-      "timestamp": 648.55
+      "text": "I'm drawing with my friend Mischief and my friend Silly, Silly Pooh Bear and Piglet.",
+      "timestamp": 649.29
     },
     {
       "speaker": "Dad",
-      "text": "Oh, you've all been drawing together. That sounds very nice.",
-      "timestamp": 659.55
+      "text": "Oh. You've all been drawing together? That sounds very nice.",
+      "timestamp": 659.15
     },
     {
       "speaker": "Izzy",
-      "text": "Actually, I need to draw more things. Can you keep telling the story while I try to get out this pen? Dad, can you please get out this pen for me? So I can draw more things.",
-      "timestamp": 664.55
+      "text": "Actually, I need to draw more things.",
+      "timestamp": 664.31
     },
     {
       "speaker": "Dad",
-      "text": "Yes, and it's almost time for the story to be over, so let's... let's find a way to end it. And so Christopher Robin said, 'Wow, Izzy and Hattie, those are beautiful drawings. I'd like to show you my drawing someday. Maybe we can all draw together. But now it's time for me to go home as it's time for me to take a nap. Bye-bye!'",
-      "timestamp": 675.55
-    },
-    {
-      "speaker": "Dad",
-      "text": "And Hattie the mouse said, 'It's time for my nap too. Goodbye everyone.' And Izzy said...",
-      "timestamp": 703.55
+      "text": "Okay.",
+      "timestamp": 667.77
     },
     {
       "speaker": "Izzy",
-      "text": "Hmm, I have to go home too, because it's time for me to go to sleep too.",
-      "timestamp": 707.55
+      "text": "Can you keep telling the story while I try to get Alan's pen? Dad, can you please get Alan's pen for me?",
+      "timestamp": 667.78
     },
     {
       "speaker": "Dad",
-      "text": "And everyone said goodbye and they took their drawings with them and they all went home. And that was the end of the story.",
-      "timestamp": 713.55
+      "text": "Yes.",
+      "timestamp": 673.59
     },
     {
       "speaker": "Izzy",
-      "text": "There. There!",
-      "timestamp": 723.55
+      "text": "So I can draw more things.",
+      "timestamp": 674.24
     },
     {
       "speaker": "Dad",
-      "text": "And now it's time to turn off the stars...",
-      "timestamp": 725.55
+      "text": "And it's almost time for the story to be over, so let's, let's find a way to end it. And so Christopher Robin said, \"Wow, Izzy and Hattie, those are beautiful drawings. I'd like to show you my drawings someday. Maybe we can all draw together. But now it's time for me to go home, because it's time for me to take a nap.",
+      "timestamp": 675.59
+    },
+    {
+      "speaker": "Dad",
+      "text": "Bye bye.\" And Hattie the Mouse said, \"It's time for my nap, too. Goodbye, everyone.\" And Izzy said, \"I have to go home, too, 'cause it's time for me to go to sleep, too.\" And everyone said goodbye, and they took their drawings with them, and they all went home.",
+      "timestamp": 701.89
+    },
+    {
+      "speaker": "Dad",
+      "text": "And that was the end of the story.",
+      "timestamp": 719.65
+    },
+    {
+      "speaker": "Izzy",
+      "text": "There.",
+      "timestamp": 723.75
+    },
+    {
+      "speaker": "Dad",
+      "text": "There. And now it's time to turn off the stars",
+      "timestamp": 724.51
     }
   ],
   "characters": [
@@ -509,7 +644,19 @@
       "description": "A sanctuary of restorative rest where weary creators retire after the day’s long labors of drawing, this haven is destined to become the permanent hearth for all friends once the blight of Frasgle has been purged and the land is clean again."
     }
   ],
-  "wordCount": 1073,
-  "izzyWordCount": 527,
-  "dadWordCount": 546
+  "wordCount": 1152,
+  "izzyWordCount": 565,
+  "dadWordCount": 587,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T14:58:09.317Z",
+    "speakerMap": {
+      "speaker_0": "Izzy",
+      "speaker_1": "Dad"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "high"
+  }
 }

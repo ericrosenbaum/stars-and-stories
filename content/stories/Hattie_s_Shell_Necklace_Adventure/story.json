@@ -6,378 +6,648 @@
   "audioFilename": "Cornell St 33.m4a",
   "highlightQuote": {
     "text": "Poop is yucky.",
-    "timestamp": 8.48
+    "timestamp": 528.3
   },
   "transcript": [
     {
       "speaker": "Dad",
-      "text": "All right. Now I'm going to turn on the lights and we're all ready for Stars and Story.",
-      "timestamp": 0
+      "text": "All right. Now I'm gonna turn out the lights, and we're all ready for Stars and Stories.",
+      "timestamp": 4.34
     },
     {
       "speaker": "Izzy",
-      "text": "Stars. Stars. The moon. Stars. Just stars. But there's no stories!",
-      "timestamp": 18
+      "text": "Stars. Stars. No moon. Stars. Just stars. But there's no stories.",
+      "timestamp": 18.3
     },
     {
       "speaker": "Dad",
-      "text": "Well we better tell a story, huh?",
-      "timestamp": 31
+      "text": "Well, we better tell a story, huh?",
+      "timestamp": 31.24
     },
     {
       "speaker": "Izzy",
       "text": "Always about Hattie.",
-      "timestamp": 33
+      "timestamp": 33.14
     },
     {
       "speaker": "Dad",
-      "text": "Always about Hattie. And no knocks.",
-      "timestamp": 35
+      "text": "Always about Hattie.",
+      "timestamp": 35.3
     },
     {
       "speaker": "Izzy",
+      "text": "And no knocks.",
+      "timestamp": 36.74
+    },
+    {
+      "speaker": "Dad",
       "text": "Oh, no one knocked on the door. What kind of story should we tell tonight then?",
-      "timestamp": 37
+      "timestamp": 38.9
     },
     {
       "speaker": "Izzy",
-      "text": "At three is morning time, so everyone woke up.",
-      "timestamp": 44
+      "text": "Actually, it's morning time, so everyone woke up.",
+      "timestamp": 45.34
     },
     {
       "speaker": "Dad",
       "text": "Oh, who woke up?",
-      "timestamp": 50
+      "timestamp": 49.64
     },
     {
       "speaker": "Izzy",
-      "text": "Hattie, Mrs. Strawberry, Victor, Victor Too, Yahoo, Habattaly!",
-      "timestamp": 52
+      "text": "Hattie, Mistress Lily too, Victor, Victor, Victor too.",
+      "timestamp": 52.26
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh.",
+      "timestamp": 61.76
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yay, yay, yay, yay. Abba Daddy.",
+      "timestamp": 62.8
     },
     {
       "speaker": "Dad",
       "text": "And what did they all do together this morning?",
-      "timestamp": 1.07
+      "timestamp": 68.12
     },
     {
       "speaker": "Izzy",
-      "text": "They played. They played.",
-      "timestamp": 1.13
+      "text": "They, they played.",
+      "timestamp": 71.98
     },
     {
       "speaker": "Dad",
-      "text": "They played? Oh I forgot to set the timer. Where's the timer? 35... let's see.",
-      "timestamp": 1.18
+      "text": "They played. Oh, I forgot to set the timer. Where's the timer?",
+      "timestamp": 78.38
     },
     {
       "speaker": "Izzy",
-      "text": "Dad, where did you left that timer?",
-      "timestamp": 1.43
+      "text": "Daddy, the time.",
+      "timestamp": 85.1
     },
     {
       "speaker": "Dad",
-      "text": "That's a good question, Izzy. Oh, it was under the lion's stool. All right, I'll set the timer. Okay, now we're all ready to go.",
-      "timestamp": 1.46
+      "text": "Where did that timer go? Ay-ay-ay. Let's see. Hmm.",
+      "timestamp": 88.56
     },
     {
       "speaker": "Izzy",
-      "text": "Go go go!",
-      "timestamp": 1.58
+      "text": "It went in there. Dad, where did you last see that, uh, timer?",
+      "timestamp": 95.94
+    },
+    {
+      "speaker": "Dad",
+      "text": "That's a good question, Izzy. Oh, it was under the lion stool. All right, I'll set the timer. Okay, now we're all ready to go.",
+      "timestamp": 106.34
+    },
+    {
+      "speaker": "Izzy",
+      "text": "So Floofer won.",
+      "timestamp": 119.44
     },
     {
       "speaker": "Dad",
       "text": "So everyone woke up in the morning at Hattie the Mouse's house. And what did they all do?",
-      "timestamp": 2
+      "timestamp": 121.9
     },
     {
       "speaker": "Izzy",
-      "text": "They played, they played, they played. They played and played. They played and played and played so much.",
-      "timestamp": 2.11
+      "text": "They play. They pa- they pa- they p- play. They played and played.",
+      "timestamp": 128.94
+    },
+    {
+      "speaker": "Dad",
+      "text": "They played and played.",
+      "timestamp": 140.84
+    },
+    {
+      "speaker": "Izzy",
+      "text": "They played and played and played so much.",
+      "timestamp": 142.13
     },
     {
       "speaker": "Dad",
       "text": "Wow. What kinds of things were they playing?",
-      "timestamp": 2.27
+      "timestamp": 146.34
     },
     {
       "speaker": "Izzy",
-      "text": "Dad sit up because these ones want to go on your legs.",
-      "timestamp": 2.42
+      "text": "And these bunny would like... Dad, sit up because these friends want to go on your leg.",
+      "timestamp": 161.2
     },
     {
       "speaker": "Dad",
-      "text": "Oh, okay. Hello Nana's Bunny. Hello ER. And who's this? Oh, hello Oscar. And Pooky would like to sit... Oh hi Pooky. You can sit in my lap too.",
-      "timestamp": 2.49
+      "text": "Oh, okay. Hello, Nana's bunny. Hello, Eeyore. And who's this? Oh, hello, Oscar.",
+      "timestamp": 169.42
     },
     {
       "speaker": "Izzy",
-      "text": "Dad can you please tell the story for me? I don't have any stories about Hattie.",
-      "timestamp": 3.19
+      "text": "And Pooky would like to sit in your lap.",
+      "timestamp": 181.24
     },
     {
       "speaker": "Dad",
-      "text": "Well, everyone had breakfast at Hattie the Mouse's house. And then they decided to go out for a walk. And since it was such a beautiful day out, they set out for their walk out the back door of Hattie the Mouse's house and right out into the field. And they walked through the field and at the edge of the field, there was a beautiful little pond. And they walked to the edge of the pond and there they saw something very interesting. What did they see?",
-      "timestamp": 3.25
+      "text": "Oh, hi, Pooky. You can sit on my lap, too.",
+      "timestamp": 184.92
     },
     {
       "speaker": "Izzy",
-      "text": "Some shells!",
-      "timestamp": 3.57
+      "text": "Dad, could you please tell the story for me? I don't have any stories about Hattie.",
+      "timestamp": 197.28
     },
     {
       "speaker": "Dad",
-      "text": "Some shells? Oh, what kind of shells?",
-      "timestamp": 4
+      "text": "Well, everyone had break- uh, everyone had breakfast at Hattie the Mouse's house. Uh, and then they decided to go out for a walk. And since it was such a beautiful day out, they set out for their walk out the back door of Hattie the Mouse's house and right out into the field.",
+      "timestamp": 204.72
     },
     {
       "speaker": "Dad",
-      "text": "Well, they found some shells and they decided to collect them. And they thought, hmm, maybe we could do a crafts activity with the shells and make something beautiful. So what did they decide to make?",
-      "timestamp": 4.22
+      "text": "And they walked through the field, and at the edge of the field, there was a beautiful little pond. And they walked to the edge of the pond, and there they saw something very interesting. What did they see?",
+      "timestamp": 224.24
     },
     {
       "speaker": "Izzy",
-      "text": "I use these pillows how they walk.",
-      "timestamp": 4.52
+      "text": "A c- Some shells.",
+      "timestamp": 236.11
     },
     {
       "speaker": "Dad",
-      "text": "Oh you're walking with the pillows.",
-      "timestamp": 4.55
+      "text": "Some shells. Oh, what kind of shells? Well, they found some shells, and they decided to collect them. And they thought, \"Hmm, maybe we could do a crafts activity with the shells and make something beautiful.\" So what did they decided to, what did they decide to make?",
+      "timestamp": 239.74
     },
     {
       "speaker": "Izzy",
-      "text": "I also used to gallop and jump and march and prance. Wow, I also go upside down and jump my feet upside down. And I also use them for when we walk and I also use them to do my freeze dances.",
-      "timestamp": 5.14
+      "text": "Ne.",
+      "timestamp": 275.38
+    },
+    {
+      "speaker": "Dad",
+      "text": "Did they make something out of the shells?",
+      "timestamp": 285.37
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I use these pillows how we walk.",
+      "timestamp": 290.88
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, you're walking with the pillows?",
+      "timestamp": 294.84
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I also use these to gallop and jump and march and prance.",
+      "timestamp": 311.16
+    },
+    {
+      "speaker": "Dad",
+      "text": "Wow.",
+      "timestamp": 317.16
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Even I also go upside down and jump my feet upside down. And I also use them to spin really fast. And I also use them to do my freeze dances.",
+      "timestamp": 317.5
     },
     {
       "speaker": "Dad",
       "text": "Your freeze dances? Wow, that sounds like fun.",
-      "timestamp": 5.35
+      "timestamp": 331.68
     },
     {
       "speaker": "Izzy",
-      "text": "Yeah, and I'm going to show you them in the morning when I wake up. But I'm going to do one tonight.",
-      "timestamp": 5.37
+      "text": "Yeah. And I'm going to show you them in the morning when I wake up. But I'm going to sh- one tonight.",
+      "timestamp": 335
     },
     {
       "speaker": "Dad",
       "text": "Oh, okay. Show me, show me.",
-      "timestamp": 5.41
+      "timestamp": 341.28
     },
     {
       "speaker": "Izzy",
-      "text": "These are one of my freeze dances. Oh, you're jumping with your feet. Haha! Exactly! And one is hop spin twirler. Hop spin twirler. Hop spin twirler. That's hop spin twirler. Jump back! Jump back! Jump back! Oops!",
-      "timestamp": 5.44
+      "text": "These are, these are one my freeze dance.",
+      "timestamp": 346.98
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, you're jumping with your feet.",
+      "timestamp": 350.66
+    },
+    {
+      "speaker": "Izzy",
+      "text": "They're hot spin-",
+      "timestamp": 359.02
+    },
+    {
+      "speaker": "Dad",
+      "text": "I like, I like that freeze dance",
+      "timestamp": 359.37
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... ne. And one is a hot spin faster, hot spin faster, hot spin faster The hop and twirler. Spin twirler",
+      "timestamp": 360.82
+    },
+    {
+      "speaker": "Dad",
+      "text": "Hop, spin, twirler?",
+      "timestamp": 374.83
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Stop, kick. And stop, big kick. Stop, big kick. Stop, big kick. Oh.",
+      "timestamp": 379.03
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oops.",
+      "timestamp": 389.65
     },
     {
       "speaker": "Izzy",
       "text": "No stars anymore.",
-      "timestamp": 6.32
+      "timestamp": 390.99
     },
     {
       "speaker": "Dad",
-      "text": "Oops, the lantern booped over. I'll fix it. There. Now let's lie down for Stars and Stories.",
-      "timestamp": 6.34
+      "text": "Oops, the lantern booped over. I'll fix it. There.",
+      "timestamp": 393.75
     },
     {
       "speaker": "Izzy",
-      "text": "Oh, we can lie down for Stars and Stories.",
-      "timestamp": 6.46
+      "text": "There. Let's lay down for stars and stories.",
+      "timestamp": 399.71
     },
     {
       "speaker": "Dad",
-      "text": "And so they decided to make a beautiful necklace out of all the shells. Each shell had a little hole in it already. And they went and found a nice piece of string and they strung the shells along the string. One, two, three, four, five beautiful shells.",
-      "timestamp": 6.51
+      "text": "Oh, we could lay down for stars and stories. And so they decided to make a beautiful necklace out of all the shells. Each shell had a little hole in it already, and they went and found a nice piece of string, and they strung the sh- shells along the string.",
+      "timestamp": 404.31
+    },
+    {
+      "speaker": "Dad",
+      "text": "One, two, three, four, five beautiful shells.",
+      "timestamp": 427.81
     },
     {
       "speaker": "Izzy",
-      "text": "And there were one, two, three, four, ten!",
-      "timestamp": 7.12
+      "text": "And there was one, two, three, four, 10.",
+      "timestamp": 432.03
     },
     {
       "speaker": "Dad",
-      "text": "So there were ten shells.",
-      "timestamp": 7.18
+      "text": "Oh, there were 10 shells?",
+      "timestamp": 437.43
     },
     {
       "speaker": "Izzy",
-      "text": "And there was a zero that had a zero hole in it.",
-      "timestamp": 7.2
+      "text": "Yeah.",
+      "timestamp": 439.31
     },
     {
       "speaker": "Dad",
-      "text": "A zero hole?",
-      "timestamp": 7.25
+      "text": "And they were-",
+      "timestamp": 439.79
+    },
+    {
+      "speaker": "Izzy",
+      "text": "With z- a zero, that had a zero hole on top.",
+      "timestamp": 440.11
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, a zero hole?",
+      "timestamp": 445.59
     },
     {
       "speaker": "Izzy",
       "text": "Yep.",
-      "timestamp": 7.28
+      "timestamp": 448.67
     },
     {
       "speaker": "Dad",
-      "text": "And then what did they do?",
-      "timestamp": 7.35
+      "text": "Oh. Hmm. And then what did they do?",
+      "timestamp": 451.15
     },
     {
       "speaker": "Izzy",
-      "text": "They snugged and wore the necklace. And everybody wanted to wear the necklace.",
-      "timestamp": 7.38
+      "text": "They spun and wear the necklace, and everybody wanted to wear the necklace.",
+      "timestamp": 456.95
     },
     {
       "speaker": "Dad",
       "text": "Everybody wanted to wear the necklace. So who got to wear it in the end?",
-      "timestamp": 7.45
+      "timestamp": 464.81
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Oh, Lily.",
+      "timestamp": 471.73
+    },
+    {
+      "speaker": "Dad",
+      "text": "It was Lily?",
+      "timestamp": 474.95
     },
     {
       "speaker": "Izzy",
       "text": "Lily.",
-      "timestamp": 7.51
+      "timestamp": 476.73
     },
     {
       "speaker": "Dad",
-      "text": "Oh no, oh... ball! That's okay.",
-      "timestamp": 7.56
+      "text": "Uh-oh. Bonk. That's okay.",
+      "timestamp": 477.73
     },
     {
       "speaker": "Izzy",
-      "text": "The tall house! Yeah, the tall house came down too. Dad, can you fix it for me?",
-      "timestamp": 8.04
+      "text": "Oh, the ta- house.",
+      "timestamp": 482.05
     },
     {
       "speaker": "Dad",
-      "text": "Yeah, I can fix it, don't worry. That was a very tall house. Are you done pooping do you think?",
-      "timestamp": 8.1
+      "text": "Yeah, the tall house came down, too.",
+      "timestamp": 484.43
     },
     {
       "speaker": "Izzy",
-      "text": "I am. I am gone too! Diaper, diaper, sniper.",
-      "timestamp": 8.25
+      "text": "Dad, can you fix it for me?",
+      "timestamp": 487.01
     },
     {
       "speaker": "Dad",
-      "text": "Diaper, diaper, sniper? Yes, we're going to change you pretty soon.",
-      "timestamp": 8.35
+      "text": "Yeah, I can fix it. Don't worry. That was a very tall house. Are you done pooping, do you think?",
+      "timestamp": 489.97
     },
     {
       "speaker": "Izzy",
-      "text": "But I want to change my diaper right now.",
-      "timestamp": 8.41
+      "text": "I am.",
+      "timestamp": 505.15
     },
     {
       "speaker": "Dad",
-      "text": "Oh you do want to change it now? Okay, we can do that.",
-      "timestamp": 8.43
+      "text": "You are.",
+      "timestamp": 506.41
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I'm going to put on a diaper, glaper, sniper.",
+      "timestamp": 507.04
+    },
+    {
+      "speaker": "Dad",
+      "text": "Diaper, glaper, sniper. Yes, we're gonna change you pretty soon.",
+      "timestamp": 515.25
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Well, I want change my diaper right now.",
+      "timestamp": 520.89
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, you do want to change it now? Okay, we can do that.",
+      "timestamp": 526.03
     },
     {
       "speaker": "Izzy",
       "text": "Poop is yucky.",
-      "timestamp": 8.48
+      "timestamp": 528.3
     },
     {
       "speaker": "Dad",
-      "text": "That's certainly true. I agree. It's yucky.",
-      "timestamp": 8.5
+      "text": "That's certainly true, I agree. And here's a change.",
+      "timestamp": 529.81
     },
     {
       "speaker": "Izzy",
-      "text": "I want to go on the peanut back lane.",
-      "timestamp": 8.56
+      "text": "I'd rather go on the peanut backwards.",
+      "timestamp": 534.81
     },
     {
       "speaker": "Dad",
-      "text": "You're on the peanut back lane. Like that? I don't think we can do it like that, no.",
-      "timestamp": 9
+      "text": "You're on the peanut backwards.",
+      "timestamp": 538.11
     },
     {
       "speaker": "Izzy",
-      "text": "And can you do it... can you do it like this? And or can you do it like this? No. How can we do it like this?",
-      "timestamp": 9.08
+      "text": "Can we do it like that?",
+      "timestamp": 541.45
     },
     {
       "speaker": "Dad",
-      "text": "Let's see. Can we do it like this? Yes, we can do it just like that. Like this? Well, if you cross your legs it'll be harder to change you actually. Can I do a new way to change? I think we should do the usual way to change. Like this. Okay, there we go.",
-      "timestamp": 9.16
+      "text": "I don't think we can do it like that, no.",
+      "timestamp": 543.83
     },
     {
       "speaker": "Izzy",
-      "text": "I don't want to be in my poopy.",
-      "timestamp": 9.39
+      "text": "And can we do it, or can we do it like this? And or can we do it like this?",
+      "timestamp": 546.41
     },
     {
       "speaker": "Dad",
-      "text": "No you don't want to be in your poopy diaper. Who wants to be in a poopy diaper?",
-      "timestamp": 9.42
+      "text": "No.",
+      "timestamp": 553.13
     },
     {
       "speaker": "Izzy",
-      "text": "No one. Oscar likes to do yucky and junky stuff.",
-      "timestamp": 9.47
+      "text": "Or can we do it like this?",
+      "timestamp": 553.95
     },
     {
       "speaker": "Dad",
-      "text": "He does? I didn't know that. Why does he like that?",
-      "timestamp": 9.54
+      "text": "Let's see.",
+      "timestamp": 556.31
     },
     {
       "speaker": "Izzy",
-      "text": "He eats it! Like that. ABCDEFGHIJK...",
-      "timestamp": 10.01
+      "text": "Can we do it like this?",
+      "timestamp": 558.47
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yes, we can do it just like that.",
+      "timestamp": 560.35
     },
     {
       "speaker": "Izzy",
-      "text": "Dad can you please keep telling the story while you're changing my diaper?",
-      "timestamp": 10.25
+      "text": "Like this?",
+      "timestamp": 562.39
     },
     {
       "speaker": "Dad",
-      "text": "Oh, yeah, that's a challenge. I think I could. So, after they made a beautiful necklace out of shells sitting at the edge of the pond, they decided to keep going on their walk. And so they continued past the pond into the forest. And as they got further and further into the forest, they realized they were in a part of the forest called the deep dark forest. It wasn't scary, it was just really quiet in there. And there were so many trees and so many leaves that the sunlight couldn't really reach to the ground. And so it was a little darker than the other parts of the forest inside there. And it was actually kind of nice and it was cool.",
-      "timestamp": 10.3
+      "text": "Well, if you cross your legs it'll be harder to change you, actually.",
+      "timestamp": 563.69
     },
     {
       "speaker": "Izzy",
-      "text": "And Dad, they don't need to change my shirt because it didn't get dirty.",
-      "timestamp": 11.2
+      "text": "Can I do a new way to change?",
+      "timestamp": 566.95
     },
     {
       "speaker": "Dad",
-      "text": "You want to sleep in that shirt you think? Yep. Okay. Let me just check and make sure I got you totally clean. I think so. Okay, good enough. You look very clean.",
-      "timestamp": 11.24
+      "text": "I think we should do the usual way to change.",
+      "timestamp": 569.97
     },
     {
       "speaker": "Izzy",
-      "text": "Dad, can you please keep doing the forest part?",
-      "timestamp": 11.35
+      "text": "Like this?",
+      "timestamp": 573.47
     },
     {
       "speaker": "Dad",
-      "text": "Oh yeah. In the deep dark forest, they saw lots of beautiful things that lived only there in that special dark part of the forest.",
-      "timestamp": 11.38
+      "text": "Okay, there we go.",
+      "timestamp": 576.65
     },
     {
       "speaker": "Izzy",
-      "text": "And then they went to the canyon!",
-      "timestamp": 11.47
+      "text": "Like, I don't want be in my poopy.",
+      "timestamp": 578.23
     },
     {
       "speaker": "Dad",
-      "text": "The what?",
-      "timestamp": 11.51
+      "text": "No, you don't want to be in your poopy diaper. Who wants to be in a poopy diaper?",
+      "timestamp": 581.39
     },
     {
       "speaker": "Izzy",
-      "text": "The canyon!",
-      "timestamp": 11.52
+      "text": "No one.",
+      "timestamp": 585.25
     },
     {
       "speaker": "Dad",
-      "text": "Oh the canyon. They stayed there... They went to the canyon. The canyon is a place between two steep cliffs of rock. And inside the canyon, there was a little stream running. And it made a trickling sound... trickle-trickle-trickle-trickle. And there were little trees and bushes growing all along the sides. And birds flying in and out.",
-      "timestamp": 11.54
+      "text": "No one.",
+      "timestamp": 586.71
+    },
+    {
+      "speaker": "Izzy",
+      "text": "But Oscar likes to eat yucky and junky stuff.",
+      "timestamp": 588.37
     },
     {
       "speaker": "Dad",
-      "text": "All right. Now it's time to turn off the stars.",
-      "timestamp": 12.28
+      "text": "He does?",
+      "timestamp": 594.09
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah.",
+      "timestamp": 595.26
+    },
+    {
+      "speaker": "Dad",
+      "text": "I didn't know that. Why does he like that?",
+      "timestamp": 595.27
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Because he eats it. All om, nom, nom, nom, nom, nom, nom. Like that.",
+      "timestamp": 598.27
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, just like that. Yes.",
+      "timestamp": 608.57
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Um, um, um, um, um, um, um, um, um, um, um, um, um, um, um, um, um, um. A, B, C, E, F, G, H, I, J, K. Wait. Dad, can you keep telling story while you're changing my diaper?",
+      "timestamp": 610.71
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, yeah. That's a good challenge. I think I could. So after they made a beautiful necklace out of shells, sitting at the edge of the pond, they decided to keep going on their walk. And so they continued past the pond, into the forest, and as they got further and further into the forest, they realized they were in a part of the forest called the Deep Dark Forest.",
+      "timestamp": 629.09
+    },
+    {
+      "speaker": "Dad",
+      "text": "It wasn't scary, it was just really quiet in there, and there were so many trees with so many leaves, that the sunlight couldn't really reach to the ground. And so it was a little darker than the other parts of the forest inside there. And it was actually kind of nice.",
+      "timestamp": 656.67
+    },
+    {
+      "speaker": "Dad",
+      "text": "It was cool and quiet.",
+      "timestamp": 677.59
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And Dad, I don't need to change my shirt, because it didn't get dirty.",
+      "timestamp": 679.28
+    },
+    {
+      "speaker": "Dad",
+      "text": "You, you wanna sleep in that shirt, you think?",
+      "timestamp": 683.39
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yep.",
+      "timestamp": 685.27
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay. Let me just check around, make sure I got you totally clean. I think so. Okay, good enough. You look very clean.",
+      "timestamp": 686.17
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Dad, can you keep doing forest part?",
+      "timestamp": 694.35
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh yeah, in the deep dark forest, they saw lots of beautiful things that live only there in that special dark part of the forest.",
+      "timestamp": 698.41
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And then they went to the canyon.",
+      "timestamp": 706.57
+    },
+    {
+      "speaker": "Dad",
+      "text": "The, the what?",
+      "timestamp": 709.81
+    },
+    {
+      "speaker": "Izzy",
+      "text": "The canyon. The canyon.",
+      "timestamp": 710.89
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, the canyon.",
+      "timestamp": 714.07
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah.",
+      "timestamp": 715.97
+    },
+    {
+      "speaker": "Dad",
+      "text": "The ca-",
+      "timestamp": 716.65
+    },
+    {
+      "speaker": "Izzy",
+      "text": "They went there.",
+      "timestamp": 716.81
+    },
+    {
+      "speaker": "Dad",
+      "text": "They went to the canyon. A canyon is a place between two steep cliffs of rock, and inside the canyon there was a little stream running, and it made a trickling sound. Trickle, trickle, trickle, trickle, trickle. And there are little trees and bushes growing all along the sides, and birds flying in and out.",
+      "timestamp": 717.89
+    },
+    {
+      "speaker": "Dad",
+      "text": "All right, now it's time to turn off the stars-",
+      "timestamp": 749.29
     }
   ],
   "characters": [
@@ -464,7 +734,19 @@
       "description": "A rocky area between two steep cliffs with a trickling stream."
     }
   ],
-  "wordCount": 1203,
-  "izzyWordCount": 408,
-  "dadWordCount": 795
+  "wordCount": 1355,
+  "izzyWordCount": 496,
+  "dadWordCount": 859,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T14:57:57.872Z",
+    "speakerMap": {
+      "speaker_0": "Dad",
+      "speaker_1": "Izzy"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "low"
+  }
 }

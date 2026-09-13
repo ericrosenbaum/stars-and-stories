@@ -6,138 +6,553 @@
   "audioFilename": "Cornell St 37.m4a",
   "highlightQuote": {
     "text": "Rice is nice like mice.",
-    "timestamp": 640
+    "timestamp": 639.75
   },
   "transcript": [
     {
+      "speaker": "Izzy",
+      "text": "And it's just that the sky's blue. Why is it not dark?",
+      "timestamp": 2.36
+    },
+    {
       "speaker": "Dad",
-      "text": "Oh, well it's the springtime and so it stays light out a little bit later.",
-      "timestamp": 10
+      "text": "Oh, well, it's the springtime and so it stays light out a little bit later. The s- the sun stays up for longer and longer, and the days will get longer and longer as spring turns into summer. And then they get shorter again as the fall becomes winter.",
+      "timestamp": 9.96
+    },
+    {
+      "speaker": "Dad",
+      "text": "That's part of the seasons changing. It gets warmer in the spring and the summer, and also the days get longer.",
+      "timestamp": 35.56
     },
     {
       "speaker": "Izzy",
-      "text": "That's no stars, Dad. No stories, no stars for story.",
-      "timestamp": 43
+      "text": "Daddy, no stars? Dad-",
+      "timestamp": 43.56
     },
     {
       "speaker": "Dad",
-      "text": "Let's tell a Stars and Stories story together.",
-      "timestamp": 63
+      "text": "Yeah",
+      "timestamp": 46.78
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... will you sit in your lap for story?",
+      "timestamp": 47.46
+    },
+    {
+      "speaker": "Dad",
+      "text": "I would love that. I'm just gonna shut, shut the window.",
+      "timestamp": 49.58
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Can I sit in your lap?",
+      "timestamp": 55.64
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay.",
+      "timestamp": 57.72
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Can I sit in your lap?",
+      "timestamp": 58.2
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yeah, that sounds really nice.",
+      "timestamp": 60.06
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Then tell a story now story.",
+      "timestamp": 60.86
+    },
+    {
+      "speaker": "Dad",
+      "text": "All right. Let's tell a stars and story story together.",
+      "timestamp": 63.85
     },
     {
       "speaker": "Izzy",
       "text": "Always about Hattie.",
-      "timestamp": 67
+      "timestamp": 67.38
     },
     {
       "speaker": "Dad",
       "text": "Always about Hattie.",
-      "timestamp": 73
+      "timestamp": 69.04
     },
     {
       "speaker": "Izzy",
-      "text": "I want Hattie goes to the doctor's.",
-      "timestamp": 83
+      "text": "Hattie.",
+      "timestamp": 71.3
     },
     {
       "speaker": "Dad",
-      "text": "Hattie goes to the doctor. And why's she going to go to the doctor?",
-      "timestamp": 87
+      "text": "Um, huh, what do you think? Hattie makes a spaceship. Hattie goes to the hospital.",
+      "timestamp": 72.56
     },
     {
       "speaker": "Izzy",
-      "text": "'Cause she has a owwie.",
-      "timestamp": 91
+      "text": "I w- I want Hattie goes to the doctor's.",
+      "timestamp": 82.02
     },
     {
       "speaker": "Dad",
-      "text": "Once upon a time, Hattie the mouse was working on her workshop making a hat and she was using her scissors very carefully but still she accidentally poked her paw.",
-      "timestamp": 93
+      "text": "Hattie goes to the doctor. And why is she gonna go to the doctor?",
+      "timestamp": 85
     },
     {
       "speaker": "Izzy",
-      "text": "And Hattie no shots at the doctor's.",
-      "timestamp": 132
+      "text": "'Cause she has a owie.",
+      "timestamp": 88.68
     },
     {
       "speaker": "Dad",
-      "text": "And Hattie thought to herself there's no shots at the doctor's office. They'll just take care of me in other ways.",
-      "timestamp": 136
+      "text": "Oh. Once upon a time, Hattie the Mouse was working on her workshop, making a hat, and she was using her scissors very carefully, but still, she accidentally poked her paw. She's a mouse, so she has paws instead of, um, hands, but she accidentally poked her paw with the scissors and said, \"Ow.\"",
+      "timestamp": 92.1
     },
     {
       "speaker": "Izzy",
-      "text": "She can go on Cornell Street. No she can go on Mouse Street if she wants to.",
+      "text": "\" Ow. Hattie go to the doctor's.\"",
+      "timestamp": 117.37
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Hattie thought to herself, \"I better go to the doctor's so they can help me feel better.\"",
+      "timestamp": 119.81
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And Hattie, no shot, shots at your doctor's.",
+      "timestamp": 126.62
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Hattie thought to herself, \"There's no shots at the doctor's. They'll just, um, take care of me in other ways.\" And how did she, she decide to go to the doctor's office?",
+      "timestamp": 131.22
+    },
+    {
+      "speaker": "Izzy",
+      "text": "She can go on Cornell Street.",
       "timestamp": 142
     },
     {
+      "speaker": "Dad",
+      "text": "She, um, put-",
+      "timestamp": 146
+    },
+    {
       "speaker": "Izzy",
-      "text": "She was Lily Mousey.",
-      "timestamp": 184
+      "text": "No, she can go on Mouse Street if she wants to.",
+      "timestamp": 148.86
     },
     {
       "speaker": "Dad",
-      "text": "The doctor happened to also be Lily Mousey.",
-      "timestamp": 187
+      "text": "Oh, on Mouse Street? Well, first, she washed her hand and put a little bandage on it to protect it, and then she went out of her house and walked along Cornell Street, where she lived, and then she turned on Mouse Street, and then where did she go?",
+      "timestamp": 152.56
     },
     {
       "speaker": "Izzy",
-      "text": "And the nurse is JJ Mouse.",
-      "timestamp": 191
+      "text": "Then she was at the doctor's, in the doctor's office. \"Come in.\"",
+      "timestamp": 170.32
+    },
+    {
+      "speaker": "Dad",
+      "text": "And then the doctor said, \"Come in.\" And who was the doctor? What kind of creature was the doctor?",
+      "timestamp": 177.82
     },
     {
       "speaker": "Izzy",
-      "text": "And the lady mouse is, is, is Tia Mouse.",
-      "timestamp": 202
+      "text": "She was Lily Mousie.",
+      "timestamp": 183.16
+    },
+    {
+      "speaker": "Dad",
+      "text": "The doctor happened to also be Lily Mouse.",
+      "timestamp": 185.76
     },
     {
       "speaker": "Izzy",
-      "text": "Doctor, what happened to your paw?",
-      "timestamp": 221
+      "text": "Yeah, and the nurse is JJ Mouse.",
+      "timestamp": 188.36
+    },
+    {
+      "speaker": "Dad",
+      "text": "And the nurse is JJ Mouse. And Hattie was so happy to see JJ Mouse and Lily Mouse, she felt almost-",
+      "timestamp": 194.74
     },
     {
       "speaker": "Izzy",
-      "text": "I was cutting but then I, I accidentally cut my paw.",
-      "timestamp": 231
+      "text": "And the lady mouse is l- is, is Tia Mouse.",
+      "timestamp": 202.12
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, and, and the lady mouse is Tia Mouse. Wow, there's a lot of s- people that work at the doctor's office. And Hattie the Mouse, um, showed them her paw, and what did she say?",
+      "timestamp": 209.26
     },
     {
       "speaker": "Izzy",
-      "text": "This toe and this toe is cut too.",
-      "timestamp": 315
+      "text": "Doctor, \"What happened to your paw?\"",
+      "timestamp": 221.6
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yeah. Dr. Lily says, \"What happened to your paw?\" And what does Hattie the Mouse say?",
+      "timestamp": 225.8
     },
     {
       "speaker": "Izzy",
-      "text": "Maybe sometime Nia would cut my toes.",
-      "timestamp": 332
+      "text": "\"I was cutting, but then I c- I accidentally cut my paw.\"",
+      "timestamp": 231.08
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh, well, accidents happen. We do have to be very careful with scissors, but sometimes we get a little cut, and that's okay. We'll just bandage you right up.\" And so Lily the Mouse, who is the doctor, um, got her first aid kit and she got out something to clean Hattie's paw with.",
+      "timestamp": 239.28
+    },
+    {
+      "speaker": "Dad",
+      "text": "She cleaned it to make sure it wouldn't get infected, and then she got a nice fresh, clean Band-Aid, and she covered up the boo-boo with a Band-Aid. And she said, \"Okay, Hattie, you're all taken care of. I hope you feel better. You can go home now.\"",
+      "timestamp": 260.26
     },
     {
       "speaker": "Izzy",
-      "text": "Um, she went back home. She, she kept working with the scissors.",
-      "timestamp": 357
+      "text": "And then Ha- and then in the springtime, it will get be healed.",
+      "timestamp": 282.44
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yeah. Lily Mouse said, \"It'll feel better soon. It won't take very long. Just another day or two, and then you can take off the Band-Aid and your paw will be all better. But in the meantime, be careful when you use your paw. You might not be able to do everything you normally do while it's healing.\"",
+      "timestamp": 290.9
     },
     {
       "speaker": "Izzy",
-      "text": "She was making a funnel.",
-      "timestamp": 372
+      "text": "Then if this toe and this toe need to cut too.",
+      "timestamp": 315.04
+    },
+    {
+      "speaker": "Dad",
+      "text": "Are your toes okay?",
+      "timestamp": 329.46
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No, because they need cut someday. Maybe someday Nana would cut my toes.",
+      "timestamp": 330.92
+    },
+    {
+      "speaker": "Dad",
+      "text": "I could cut your toenails for you.",
+      "timestamp": 337.26
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah. As soon, after my nap, you can cut my toenails.",
+      "timestamp": 340.26
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay, yeah, we could do that. So what did Hattie do next after she, um, got the Band-Aid put on at the doctor's office?",
+      "timestamp": 345.8
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Um, she went back home.",
+      "timestamp": 355.76
+    },
+    {
+      "speaker": "Dad",
+      "text": "She went back home, and then what did she do?",
+      "timestamp": 357.82
+    },
+    {
+      "speaker": "Izzy",
+      "text": "She, she kept working with the scissors.",
+      "timestamp": 359.64
+    },
+    {
+      "speaker": "Dad",
+      "text": "She ca- And what was she making with the scissors?",
+      "timestamp": 364.24
+    },
+    {
+      "speaker": "Izzy",
+      "text": "She was making- A funnel",
+      "timestamp": 367.84
+    },
+    {
+      "speaker": "Dad",
+      "text": "A funnel? Oh, how is she making a funnel?",
+      "timestamp": 373.87
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Mm. Um, Dad.",
+      "timestamp": 381.61
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yeah?",
+      "timestamp": 386.73
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Daddy, we need to go to the potty.",
+      "timestamp": 394.87
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, we can go right now. Let's go.",
+      "timestamp": 397.29
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And Dad, when the lights turn off, you can still do the story.",
+      "timestamp": 400.49
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yeah.",
+      "timestamp": 405.73
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah. When I'm on the potty, you can still tell the story.",
+      "timestamp": 406.37
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yeah. I just have to do the diaper trash, okay? You need to wipe a little bit here. Here's your diaper.",
+      "timestamp": 415.33
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Daddy, can you do the rest?",
+      "timestamp": 463.87
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, did you empty that yourself?",
+      "timestamp": 466.35
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No. And I almost put the wipes in there all by myself.",
+      "timestamp": 467.97
+    },
+    {
+      "speaker": "Dad",
+      "text": "Wow, thank you. Good job.",
+      "timestamp": 471.91
+    },
+    {
+      "speaker": "Izzy",
+      "text": "So then you can do the toilet all by yourself.",
+      "timestamp": 473.41
+    },
+    {
+      "speaker": "Dad",
+      "text": "And you didn't spill it. There's nothing you need to do.",
+      "timestamp": 478.67
+    },
+    {
+      "speaker": "Izzy",
+      "text": "That's what you need to do.",
+      "timestamp": 484.89
+    },
+    {
+      "speaker": "Dad",
+      "text": "All right.",
+      "timestamp": 488.43
+    },
+    {
+      "speaker": "Izzy",
+      "text": "That's what you need to do, do, do.",
+      "timestamp": 489.99
+    },
+    {
+      "speaker": "Dad",
+      "text": "Do, do, do-do, do, do-do, do-do, do.",
+      "timestamp": 493.61
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Do, do, do, do, do. Dad, can you keep telling the story now?",
+      "timestamp": 500.26
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yeah, we could go back to st- doing Stars and Stories, but I think we only have-",
+      "timestamp": 503.01
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Um-",
+      "timestamp": 509.07
+    },
+    {
+      "speaker": "Dad",
+      "text": "... a little bit of time left for Stars and Stories. Whoa.",
+      "timestamp": 509.08
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Mm.",
+      "timestamp": 518.47
+    },
+    {
+      "speaker": "Dad",
+      "text": "Mm. That's so cozy.",
+      "timestamp": 520.75
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I want to sit up. Dad, while you tell a story, I'm going to rest in the chair.",
+      "timestamp": 523.13
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, you're gonna rest in the chair? Okay.",
+      "timestamp": 529.23
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Daddy, but first, Dad, I'm getting my protection, which... Okay. Daddy, and pull my, my blanket off so I won't be a cocoon in.",
+      "timestamp": 530.73
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, good idea.",
+      "timestamp": 547.69
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Daddy, where's my blanket? Here's my blanket.",
+      "timestamp": 551.11
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, you want me to put it on you?",
+      "timestamp": 556.37
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah, put it on me.",
+      "timestamp": 558.25
+    },
+    {
+      "speaker": "Dad",
+      "text": "There you go.",
+      "timestamp": 562.49
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Daddy, no, first I need to just adjust myself. Daddy, first I need adjust myself. Dad, there, you c- Dad, now you can do it.",
+      "timestamp": 562.99
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, okay. There you go.",
+      "timestamp": 580.29
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Dad, keep telling the story.",
+      "timestamp": 590.01
+    },
+    {
+      "speaker": "Dad",
+      "text": "Well-",
+      "timestamp": 592.37
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And I fall fast asleep.",
+      "timestamp": 592.63
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yeah. So, okay, let's just give ourselves another two minutes.",
+      "timestamp": 594.11
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Hopefully I'll wake up.",
+      "timestamp": 602.01
+    },
+    {
+      "speaker": "Dad",
+      "text": "Well, Hattie finished using the scissors to make her funnel. The funnel was part of a marble run that she was making. And she finished making the funnel, and she had had a very big day, and so she decided since she was a little tired, she would stop working for the day.",
+      "timestamp": 606.07
+    },
+    {
+      "speaker": "Dad",
+      "text": "And she went back to her little house in another part of the forest, and she had a little dinner. What did she have for dinner?",
+      "timestamp": 625.89
     },
     {
       "speaker": "Izzy",
       "text": "Some rice.",
-      "timestamp": 635
+      "timestamp": 634.35
+    },
+    {
+      "speaker": "Dad",
+      "text": "Some rice. And what else?",
+      "timestamp": 635.57
     },
     {
       "speaker": "Izzy",
       "text": "Rice is nice like mice.",
-      "timestamp": 640
+      "timestamp": 639.75
+    },
+    {
+      "speaker": "Dad",
+      "text": "Rice is nicla- nice like mice. That's true. And-",
+      "timestamp": 642.47
     },
     {
       "speaker": "Izzy",
-      "text": "Rice, I sang to her. My little Hattie... Round up Hattie... You are Hattie... You and story. Goodnight Hattie.",
-      "timestamp": 654
+      "text": "Rice is nice like mice",
+      "timestamp": 645.49
+    },
+    {
+      "speaker": "Dad",
+      "text": "... she finished her dinner, and then she sang a little song to herself. What did she sing?",
+      "timestamp": 648.83
     },
     {
       "speaker": "Izzy",
-      "text": "One more story?",
-      "timestamp": 705
+      "text": "I, I sang to her, << Little Hattie, grown up Hattie, you are Hattie, now it's true >>. Good night, Hattie.",
+      "timestamp": 654.65
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, and then we all wished Hattie the Mouse a good night with a little song, and she got cozy in her bed, and she curled up underneath a blanket, and she got all of her stuffies, and she put her head down on the pillow, and she yawned. And she closed her eyes, and she went to sleep.",
+      "timestamp": 677.35
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Good night.",
+      "timestamp": 701.97
+    },
+    {
+      "speaker": "Dad",
+      "text": "And that's, that's the end of the story.",
+      "timestamp": 702.89
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And Hattie went to sleep.",
+      "timestamp": 706.61
+    },
+    {
+      "speaker": "Dad",
+      "text": "All right. Well, let's turn our lamp back on. And turn off the stars.",
+      "timestamp": 709.83
     }
   ],
   "characters": [
@@ -184,7 +599,19 @@
       "description": "Cloaking the surface of the green planet in a vast mantle of dense greenery, this whispering woodland serves as the lush setting of the 'Forest Friends' chronicle. It is a realm where creatures play eternal hide-and-seek between Hattie’s cozy clinic and the ancestral cradle of Finn’s companions. Along magical trails where Hattie and the Pakruder Worm harvest hat-making ingredients, winding paths veil secret gopher tunnels and hidden mole cottages, forming the essential route toward the wizard's castle. While its sun-drenched threshold remains a sanctuary for the Rainbow Giraffe and Mama Bird, the deeper, darker thickets harbor a somber mystery; it was within these sprawling, uncharted depths—the same eerie expanse where the sick creature was first spotted and Mossy was discovered—that Mole recently vanished into the shadows."
     }
   ],
-  "wordCount": 245,
-  "izzyWordCount": 146,
-  "dadWordCount": 99
+  "wordCount": 1372,
+  "izzyWordCount": 435,
+  "dadWordCount": 937,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T14:58:59.072Z",
+    "speakerMap": {
+      "speaker_0": "Izzy",
+      "speaker_1": "Dad"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "low"
+  }
 }
