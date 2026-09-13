@@ -6,83 +6,73 @@
   "audioFilename": "Cornell St 56.m4a",
   "highlightQuote": {
     "text": "Well, we are... but we have to use it inside our space boat.",
-    "timestamp": 52.4
+    "timestamp": 52.18
   },
   "transcript": [
     {
       "speaker": "Dad",
-      "text": "Okay, let's prepare for takeoff for our space mission. Let me put on my spacesuit.",
-      "timestamp": 0
-    },
-    {
-      "speaker": "Dad",
-      "text": "Are you ready, Captain Izzy?",
-      "timestamp": 8.9
+      "text": "Okay, let's prepare for takeoff for our space mission. Let me put on my spacesuit. Are you ready, Captain Izzy?",
+      "timestamp": 1.24
     },
     {
       "speaker": "Izzy",
-      "text": "Dad...",
-      "timestamp": 11.5
+      "text": "Dad?",
+      "timestamp": 11.68
     },
     {
       "speaker": "Dad",
       "text": "Yeah?",
-      "timestamp": 12.3
+      "timestamp": 12.48
     },
     {
       "speaker": "Izzy",
       "text": "Um, how do I get in?",
-      "timestamp": 13.2
+      "timestamp": 12.8
     },
     {
       "speaker": "Dad",
-      "text": "Oh, where do you... where do you want to sit? Right here?",
-      "timestamp": 14.6
+      "text": "Oh, where do you, where do you wanna sit? Right here? Here, I'll back up my captain's chair. Here, let me get the sound machine over here.",
+      "timestamp": 14.94
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Dad, there.",
+      "timestamp": 26.74
     },
     {
       "speaker": "Dad",
-      "text": "Here, I'll back up my captain's chair. Here, let me get the sound machine over here.",
-      "timestamp": 19.5
+      "text": "There, huh?",
+      "timestamp": 28.02
     },
     {
       "speaker": "Izzy",
-      "text": "Dad there... dad.",
-      "timestamp": 26.4
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Remember...",
-      "timestamp": 31.2
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Um, remember to the other sound machine... the other sound machine.",
-      "timestamp": 34.5
+      "text": "Dad. Um, remember, um, remember to test the other sound machine. The other sound machine.",
+      "timestamp": 28.4
     },
     {
       "speaker": "Dad",
       "text": "This one?",
-      "timestamp": 44.7
+      "timestamp": 45.48
     },
     {
       "speaker": "Izzy",
-      "text": "No, no, no. The other one on your phone.",
-      "timestamp": 46.1
+      "text": "No. No, no. The other one on your phone.",
+      "timestamp": 46.18
     },
     {
       "speaker": "Dad",
-      "text": "Oh, we're not going to use that one right now.",
-      "timestamp": 51.3
+      "text": "Oh, we're not gonna use that one right now.",
+      "timestamp": 50.64
     },
     {
       "speaker": "Izzy",
-      "text": "Well, we are... but we have to use it inside our space boat.",
-      "timestamp": 52.4
+      "text": "Well, we are, but we have to use it inside our space pods.",
+      "timestamp": 52.18
     },
     {
       "speaker": "Dad",
-      "text": "Oh, okay. Let me... let me find it.",
-      "timestamp": 57.5
+      "text": "Oh, okay. Let me, let me find it. Hmm. Let's see. We've got...",
+      "timestamp": 58.72
     }
   ],
   "characters": [
@@ -104,7 +94,19 @@
       "description": "A high-tech vessel equipped with specialized sound machines for galactic travel."
     }
   ],
-  "wordCount": 113,
-  "izzyWordCount": 44,
-  "dadWordCount": 69
+  "wordCount": 120,
+  "izzyWordCount": 46,
+  "dadWordCount": 74,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T15:06:19.911Z",
+    "speakerMap": {
+      "speaker_0": "Dad",
+      "speaker_1": "Izzy"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "high"
+  }
 }

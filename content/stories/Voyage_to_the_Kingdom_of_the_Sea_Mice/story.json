@@ -6,268 +6,318 @@
   "audioFilename": "Cornell St 66.m4a",
   "highlightQuote": {
     "text": "I see, I see a big anglerfishy!",
-    "timestamp": 63
+    "timestamp": 72.22
   },
   "transcript": [
     {
       "speaker": "Izzy",
-      "text": "two, because this, this submarine, submersible is big enough for everyone.",
-      "timestamp": 0
+      "text": "too, because this, this submarine, submersible, is big enough for everyone.",
+      "timestamp": 0.14
     },
     {
       "speaker": "Dad",
-      "text": "Oh, okay. said Mickey and Minnie and more will come aboard too.",
-      "timestamp": 7
-    },
-    {
-      "speaker": "Dad",
-      "text": "Where are we going?",
-      "timestamp": 14
+      "text": "\"Oh, okay,\" said Mickey and Minnie and Mole will come aboard, too. \"Where are we going?\"",
+      "timestamp": 7.77
     },
     {
       "speaker": "Izzy",
-      "text": "We're just going, I don't know, maybe we're going to, we're going to the bottom of the sea to see where the Kingdom of the Sea Mice live.",
-      "timestamp": 17
+      "text": "We're just going... I don't know. Maybe we're going to, we're going to the bottom of the sea, to the, the bottom of the sea where the Kingdom of the Sea Mice live.",
+      "timestamp": 16.98
     },
     {
       "speaker": "Dad",
-      "text": "The Kingdom of the Sea Mice! That sounds amazing. I wonder what they are doing, how they- what they do down there on the bottom of the ocean.",
-      "timestamp": 29
+      "text": "The Kingdom of the Sea Mice? That sounds amazing. I wonder what they're do, how they, what they do down there on the bottom of the ocean.",
+      "timestamp": 29.34
     },
     {
       "speaker": "Izzy",
-      "text": "Dive! Dive!",
-      "timestamp": 37
+      "text": "Dive, dive, dive.",
+      "timestamp": 39.42
     },
     {
       "speaker": "Dad",
-      "text": "Dive, dive, dive! We're going down into the deep, deep dark.",
-      "timestamp": 39
+      "text": "Dive, dive, dive.",
+      "timestamp": 40.65
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Dive.",
+      "timestamp": 41.13
     },
     {
       "speaker": "Dad",
-      "text": "And so, Captain Izzy steered the submersible down under the water, through...",
-      "timestamp": 42
+      "text": "We're going down into the deep, deep dark. And so, Captain Izzy steered the submersible down under the water, through the sunlit zone of blue, bright, sparkling water lit by the sun, and down deeper and deeper, and the water got a little darker and a little colder.",
+      "timestamp": 41.14
     },
     {
       "speaker": "Dad",
-      "text": "...the sunlit zone of blue bright sparkling water lit by the sun and down deeper and deeper and the water got a little darker and a little colder. And did we see some fish swimming by?",
-      "timestamp": 51
+      "text": "And did we see some fish swimming by?",
+      "timestamp": 67.62
     },
     {
       "speaker": "Izzy",
       "text": "Yes.",
-      "timestamp": 60
+      "timestamp": 70.42
     },
     {
       "speaker": "Dad",
       "text": "What do you see, Captain Izzy?",
-      "timestamp": 61
+      "timestamp": 71
     },
     {
       "speaker": "Izzy",
-      "text": "I see, I see a big anglerfishy!",
-      "timestamp": 63
+      "text": "I see, I see a big angler fishy.",
+      "timestamp": 72.22
     },
     {
       "speaker": "Dad",
       "text": "Oh my gosh, what was that sound?",
-      "timestamp": 66
+      "timestamp": 76.34
     },
     {
       "speaker": "Izzy",
-      "text": "It was anglerfish. That was- I saw an anglerfish.",
-      "timestamp": 69
+      "text": "It was anglerfish.",
+      "timestamp": 77.82
     },
     {
       "speaker": "Dad",
-      "text": "Oh! Hello, Anglerfish.",
-      "timestamp": 74
+      "text": "Oh.",
+      "timestamp": 79.34
+    },
+    {
+      "speaker": "Izzy",
+      "text": "It was an... I, I, I saw an anglerfish.",
+      "timestamp": 79.38
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh. Hello, Anglerfish.",
+      "timestamp": 84.18
     },
     {
       "speaker": "Izzy",
       "text": "Hello, everyone.",
-      "timestamp": 76
+      "timestamp": 86.17
     },
     {
       "speaker": "Dad",
-      "text": "Would you like to come with us on our underwater mission to the Kingdom of the Sea Mice?",
-      "timestamp": 80
+      "text": "Would, would you like to come with us on our underwater mission to the Kingdom of the Sea Mice?",
+      "timestamp": 89.34
     },
     {
       "speaker": "Izzy",
       "text": "No.",
-      "timestamp": 87
+      "timestamp": 96.34
     },
     {
       "speaker": "Dad",
       "text": "No?",
-      "timestamp": 91
+      "timestamp": 97.18
     },
     {
       "speaker": "Izzy",
       "text": "No.",
-      "timestamp": 93
+      "timestamp": 97.23
     },
     {
       "speaker": "Dad",
-      "text": "Oh, what are you up to, Anglerfish?",
-      "timestamp": 94
+      "text": "Oh. Well, what are you up to, Anglerfish?",
+      "timestamp": 97.74
     },
     {
       "speaker": "Izzy",
       "text": "I'm up to sleeping.",
-      "timestamp": 96
+      "timestamp": 100.58
     },
     {
       "speaker": "Dad",
       "text": "Oh, okay. We won't bother you too much then.",
-      "timestamp": 98
+      "timestamp": 103.06
     },
     {
       "speaker": "Izzy",
-      "text": "Well, what were you making some noise inside of your submarine? I don't want you to make any noise in your submarine.",
-      "timestamp": 105
+      "text": "Well, what, uh, were you making some noises inside of your submarine. I don't want you to make any noise in your submarine.",
+      "timestamp": 106.28
     },
     {
       "speaker": "Dad",
-      "text": "Oh, okay. Well, we'll just, we'll just keep driving our submarine down further into the deep and we'll leave you alone, Anglerfish.",
-      "timestamp": 114
+      "text": "Oh, okay. Well, we'll just, we'll just keep driving our submarine down further into the deep, and we'll leave you alone, Anglerfish. And so the submarine kept diving deeper and deeper and deeper. And then we looked out the porthole and Mickey saw something.",
+      "timestamp": 115.86
     },
     {
       "speaker": "Dad",
-      "text": "And so the submarine kept diving deeper and deeper and deeper.",
-      "timestamp": 122
-    },
-    {
-      "speaker": "Dad",
-      "text": "And then we looked out the porthole and Mickey saw something... Oh my gosh, what's that?",
-      "timestamp": 127
+      "text": "\"Oh my gosh, what's that?\"",
+      "timestamp": 134.68
     },
     {
       "speaker": "Izzy",
-      "text": "Mickey... um, I already looked out my window and then but now Lottie is the driver.",
-      "timestamp": 131
+      "text": "Mickey. Um, um, I already looked out my window, and then, uh, now Lottie is the driver.",
+      "timestamp": 136.42
     },
     {
       "speaker": "Dad",
       "text": "Oh, Lottie is steering the ship. Okay.",
-      "timestamp": 137
+      "timestamp": 146.4
     },
     {
       "speaker": "Izzy",
-      "text": "Now Lottie's- and she looked out her window.",
-      "timestamp": 141
+      "text": "Now Lottie's... And she looked out her window.",
+      "timestamp": 148.14
     },
     {
       "speaker": "Dad",
       "text": "Oh, what do you see out there, Lottie?",
-      "timestamp": 145
+      "timestamp": 153.28
     },
     {
       "speaker": "Izzy",
-      "text": "I see... I spy something... that Captain... I spy some... some something out my window. ... Now I see some... oh, do you see that sea stuff? Now do you see that sea stuff out there?",
-      "timestamp": 147
+      "text": "I see, I spy something, uh, Captain. I spy some, something from my window.",
+      "timestamp": 157.32
     },
     {
       "speaker": "Dad",
-      "text": "I do, says Daddy. There's lots of different things under the ocean to look at. What do you notice, Lottie?",
-      "timestamp": 179
+      "text": "Hmm.",
+      "timestamp": 178.32
     },
     {
       "speaker": "Izzy",
-      "text": "I don't know. Oh! I'll hop into the Captain's chair! Hop, hop, hop!",
-      "timestamp": 184
+      "text": "See anything? Now I see some... Oh, do you see that sea stuff? No, do you see that sea stuff out there?",
+      "timestamp": 182.08
     },
     {
       "speaker": "Dad",
-      "text": "Okay Lottie, you can hop right up.",
-      "timestamp": 198
+      "text": "\"I do,\" says Daddy. \"There's lots of different things under the ocean to look at. What do you notice, Lottie?\"",
+      "timestamp": 197.4
     },
     {
       "speaker": "Izzy",
-      "text": "Mmm... Jackie?",
-      "timestamp": 201
+      "text": "I don't know.",
+      "timestamp": 207.22
     },
     {
       "speaker": "Dad",
-      "text": "Mhm.",
-      "timestamp": 206
+      "text": "Oh.",
+      "timestamp": 210.12
     },
     {
       "speaker": "Izzy",
-      "text": "Um, can we make some dividing things in our submarine to use?",
-      "timestamp": 207
+      "text": "I'll hop, hop, hop, hop, hop, hop into the captain's chair. Hop.",
+      "timestamp": 211.88
     },
     {
       "speaker": "Dad",
-      "text": "Some dividing things? What do those do?",
-      "timestamp": 212
+      "text": "Okay, Lottie, you can hop right up.",
+      "timestamp": 216.56
     },
     {
       "speaker": "Izzy",
-      "text": "I don't know. Can you make them and then we can find out? Remember that?",
-      "timestamp": 216
+      "text": "Um, um, um, Daddy?",
+      "timestamp": 229.72
+    },
+    {
+      "speaker": "Dad",
+      "text": "Mm-hmm.",
+      "timestamp": 236.02
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Can we, can we make some dividing things in our submarine to use?",
+      "timestamp": 237.46
+    },
+    {
+      "speaker": "Dad",
+      "text": "Some dividing things?",
+      "timestamp": 246.1
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Mm-hmm.",
+      "timestamp": 247.44
+    },
+    {
+      "speaker": "Dad",
+      "text": "What do those do?",
+      "timestamp": 247.88
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I don't know.",
+      "timestamp": 249.2
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh.",
+      "timestamp": 250.16
+    },
+    {
+      "speaker": "Izzy",
+      "text": "We have to make them and then we can find out.",
+      "timestamp": 250.52
     },
     {
       "speaker": "Dad",
       "text": "Oh, okay. Good idea.",
-      "timestamp": 222
+      "timestamp": 253.54
     },
     {
       "speaker": "Izzy",
-      "text": "I show my camera where the space to go.",
-      "timestamp": 237
+      "text": "Remember that.",
+      "timestamp": 254.96
+    },
+    {
+      "speaker": "Dad",
+      "text": "Hmm.",
+      "timestamp": 263.96
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Usually the light camera shows us where to go.",
+      "timestamp": 265.27
     },
     {
       "speaker": "Dad",
       "text": "Yeah, it does.",
-      "timestamp": 243
+      "timestamp": 272.6
     },
     {
       "speaker": "Izzy",
-      "text": "But right now it's not on.",
-      "timestamp": 245
+      "text": "But right now it's not on, so I'm-",
+      "timestamp": 274.26
     },
     {
       "speaker": "Dad",
-      "text": "Oh. Silvercat, you came on the submarine with us.",
-      "timestamp": 248
-    },
-    {
-      "speaker": "Dad",
-      "text": "Welcome to the deep ocean exploration mission that we're on.",
-      "timestamp": 252
+      "text": "Oh. Silver Cat, you came on the submarine with us. Welcome to the deep ocean exploration mission that we're on.",
+      "timestamp": 277.02
     },
     {
       "speaker": "Izzy",
-      "text": "Hey, that's not Silver, that's Finn.",
-      "timestamp": 257
+      "text": "Hey, that's not Silver. That's Finn.",
+      "timestamp": 295
     },
     {
       "speaker": "Dad",
       "text": "Yeah, that's Finncat.",
-      "timestamp": 262
+      "timestamp": 298.26
     },
     {
       "speaker": "Izzy",
-      "text": "He is...",
-      "timestamp": 264
+      "text": "He just...",
+      "timestamp": 301.18
     },
     {
       "speaker": "Dad",
-      "text": "...lying down.",
-      "timestamp": 266
+      "text": "He's lying down.",
+      "timestamp": 303.9
     },
     {
       "speaker": "Izzy",
       "text": "So he's flopped.",
-      "timestamp": 268
+      "timestamp": 306.1
     },
     {
       "speaker": "Dad",
-      "text": "He sure is.",
-      "timestamp": 270
+      "text": "He sure is",
+      "timestamp": 308.01
     }
   ],
   "characters": [
@@ -339,7 +389,19 @@
       "description": "The cold and lightless part of the ocean where deep-sea creatures reside."
     }
   ],
-  "wordCount": 503,
-  "izzyWordCount": 216,
-  "dadWordCount": 287
+  "wordCount": 533,
+  "izzyWordCount": 238,
+  "dadWordCount": 295,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T15:07:41.139Z",
+    "speakerMap": {
+      "speaker_0": "Izzy",
+      "speaker_1": "Dad"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "high"
+  }
 }

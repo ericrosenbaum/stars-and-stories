@@ -6,48 +6,28 @@
   "audioFilename": "Cat puke song 2.m4a",
   "highlightQuote": {
     "text": "I'm confused because they don't puke in their litter box.",
-    "timestamp": 10
+    "timestamp": 1.78
   },
   "transcript": [
     {
       "speaker": "Dad",
       "text": "How does the song go?",
-      "timestamp": 0
+      "timestamp": 0.5
     },
     {
       "speaker": "Izzy",
-      "text": "It goes cats are puking everywhere.",
-      "timestamp": 1
+      "text": "It goes, cats are puking everywhere. Cats are puking all the day, but I'm not confused because they don't puke in their litter box. I don't know which little cats don't puke in their litter box. All the finick pukes were a long time. He puked all, he puked all day in the house.",
+      "timestamp": 1.78
     },
     {
       "speaker": "Izzy",
-      "text": "Cats are puking in the bed.",
-      "timestamp": 7
-    },
-    {
-      "speaker": "Izzy",
-      "text": "I'm confused because they don't puke in their litter box.",
-      "timestamp": 10
-    },
-    {
-      "speaker": "Izzy",
-      "text": "I don't know which little cats don't puke in their litter box.",
-      "timestamp": 15
-    },
-    {
-      "speaker": "Izzy",
-      "text": "All the finicky pukes for a long time he puked, he puked all day in the house.",
-      "timestamp": 22
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Now you try it cat.",
-      "timestamp": 30
+      "text": "Now you try it, Cat.",
+      "timestamp": 30.62
     },
     {
       "speaker": "Dad",
-      "text": "Meow.",
-      "timestamp": 32
+      "text": "Meow",
+      "timestamp": 32.98
     }
   ],
   "characters": [
@@ -79,7 +59,19 @@
       "description": "A home thick with the sour scent of bile and the rhythmic, wet retching of a cat sickened since dawn, this is the unlikely threshold where Izzy first received the brilliant, transformative glow of her special new light."
     }
   ],
-  "wordCount": 62,
-  "izzyWordCount": 56,
-  "dadWordCount": 6
+  "wordCount": 65,
+  "izzyWordCount": 59,
+  "dadWordCount": 6,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T15:07:56.801Z",
+    "speakerMap": {
+      "speaker_0": "Dad",
+      "speaker_1": "Izzy"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "high"
+  }
 }

@@ -6,133 +6,213 @@
   "audioFilename": "Singing about podcasts.m4a",
   "highlightQuote": {
     "text": "Deep blue sea! Deep blue sea! Scorpion, monster, and the... Deep blue sea!",
-    "timestamp": 131.7
+    "timestamp": 13.54
   },
   "transcript": [
     {
       "speaker": "Izzy",
-      "text": "Wait, we put in some deep blue sea.",
-      "timestamp": 0
+      "text": "And we put in some Deep Blue Sea.",
+      "timestamp": 0.08
     },
     {
       "speaker": "Dad",
-      "text": "Okay. All right. Here's the stars. Stars are ready. I'm going to turn out the light and then we're going to go in our spot.",
-      "timestamp": 6.5
+      "text": "Okay. All right. Here's the stars. The stars are ready. I'm gonna turn out the light and then we're gonna go-",
+      "timestamp": 6.22
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Deep Blue-",
+      "timestamp": 13.54
+    },
+    {
+      "speaker": "Dad",
+      "text": "... in our spot.",
+      "timestamp": 14.35
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Okay.",
+      "timestamp": 16.78
     },
     {
       "speaker": "Dad",
       "text": "Okay. Come on, come on over.",
-      "timestamp": 16.2
+      "timestamp": 18.09
     },
     {
       "speaker": "Izzy",
       "text": "I'm coming.",
-      "timestamp": 19.4
+      "timestamp": 20.43
     },
     {
       "speaker": "Dad",
       "text": "Thank you.",
-      "timestamp": 21.3
+      "timestamp": 21.7
     },
     {
       "speaker": "Izzy",
       "text": "Now I have to put on funny clothes.",
-      "timestamp": 22.8
+      "timestamp": 22.7
     },
     {
       "speaker": "Dad",
       "text": "Oh, that's a pillowcase, but okay.",
-      "timestamp": 25.1
+      "timestamp": 25.92
     },
     {
       "speaker": "Izzy",
-      "text": "We'll have to put on funny clothing.",
-      "timestamp": 29.5
+      "text": "You have to put on funny clothing.",
+      "timestamp": 30.66
     },
     {
       "speaker": "Dad",
       "text": "I do?",
-      "timestamp": 33.1
+      "timestamp": 33.38
     },
     {
       "speaker": "Izzy",
       "text": "Yeah.",
-      "timestamp": 34.2
+      "timestamp": 34.06
     },
     {
       "speaker": "Dad",
-      "text": "For our pretend work out Wombats?",
-      "timestamp": 35.5
+      "text": "For our pretend Work It Out Wombats?",
+      "timestamp": 34.76
     },
     {
       "speaker": "Izzy",
-      "text": "Yeah. We all pretend to be someone.",
-      "timestamp": 36.8
+      "text": "Yeah.",
+      "timestamp": 36.38
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay.",
+      "timestamp": 36.96
+    },
+    {
+      "speaker": "Izzy",
+      "text": "We all pretend to be someone.",
+      "timestamp": 39.44
     },
     {
       "speaker": "Dad",
       "text": "Do you see the blue timer anywhere?",
-      "timestamp": 42.4
+      "timestamp": 43.82
     },
     {
       "speaker": "Izzy",
-      "text": "I don't know. It must be downstairs.",
-      "timestamp": 45.8
+      "text": "I don't know.",
+      "timestamp": 46.08
+    },
+    {
+      "speaker": "Dad",
+      "text": "It must be downstairs.",
+      "timestamp": 47.34
     },
     {
       "speaker": "Izzy",
-      "text": "Dad.",
-      "timestamp": 49.3
+      "text": "You can fit... Dad.",
+      "timestamp": 47.88
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yeah?",
+      "timestamp": 51.4
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Um, Dad.",
+      "timestamp": 52.42
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yeah?",
+      "timestamp": 64.55
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Um, Deep Blue Sea is up and Dada, um-",
+      "timestamp": 64.56
     },
     {
       "speaker": "Dad",
       "text": "Yeah.",
-      "timestamp": 51.2
+      "timestamp": 69.34
     },
     {
       "speaker": "Izzy",
-      "text": "Dad.",
-      "timestamp": 52.6
-    },
-    {
-      "speaker": "Dad",
-      "text": "Yeah.",
-      "timestamp": 54.1
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Dad, may you please set a timer on your phone?",
-      "timestamp": 118.2
+      "text": "Dad, um, um, maybe you could set a timer on your phone.",
+      "timestamp": 76.84
     },
     {
       "speaker": "Dad",
       "text": "Oh, that's okay. We don't need a timer. We can just tell a short Stars and Stories story and then we'll be done.",
-      "timestamp": 123.5
+      "timestamp": 81.96
     },
     {
       "speaker": "Izzy",
-      "text": "No, it's deep blue sea, a forest fire rising up. Deep blue sea, a forest fire rising up. Deep blue sea, a forest fire rising up. Deep blue sea. Deep blue sea! Deep blue sea! Deep blue sea! Deep blue sea! Deep blue sea! Scorpion, monster, and the... Deep blue sea! Deep blue sea! Deep blue sea! Deep blue sea! Deep blue sea!",
-      "timestamp": 131.7
+      "text": "Work It Out Wombats, want to know it's Deep Blue Sea. I fought to fight original. Deep Blue Sea. I fought to fight original. Deep Blue Sea. I fought to fight original. Deep Blue Sea. Deep Blue Sea. Hey, Deep Blue Sea. Deep Blue Sea. Deep Blue Sea.",
+      "timestamp": 87.74
     },
     {
       "speaker": "Dad",
-      "text": "Wow. Okay, so I'm going to turn out the light so we can do Stars and Stories. But for Stars and Stories we sit or lie down. So will you come and sit with me please?",
-      "timestamp": 209.1
+      "text": "Okay.",
+      "timestamp": 109.31
     },
     {
       "speaker": "Izzy",
-      "text": "But I want to dance!",
-      "timestamp": 218.4
+      "text": "Deep Blue Sea. Scorpion Moth. Sharone. Deep Blue Sea. Deep Blue Sea. Deep Blue Sea. Deep Blue Sea.",
+      "timestamp": 109.58
     },
     {
       "speaker": "Dad",
-      "text": "Oh, okay. We'll keep the light on then so we don't trip on anything because there's a lot on the floor right now.",
-      "timestamp": 220.6
+      "text": "Wow.",
+      "timestamp": 125.24
     },
     {
       "speaker": "Izzy",
-      "text": "Maybe if we just took in those, then we can have them. If we took in our toys now, then we would have more...",
-      "timestamp": 225.8
+      "text": "Deep Blue Sea.",
+      "timestamp": 125.51
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay. So I'm gonna turn out the light so we can do Stars and Stories, but for Stars and Stories we sit or lie down.",
+      "timestamp": 127.64
+    },
+    {
+      "speaker": "Izzy",
+      "text": "But-",
+      "timestamp": 134.21
+    },
+    {
+      "speaker": "Dad",
+      "text": "So will you come and sit with me, please?",
+      "timestamp": 134.26
+    },
+    {
+      "speaker": "Izzy",
+      "text": "But I wanna dance.",
+      "timestamp": 136
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, okay. We'll keep the light on then, so we don't trip on anything, 'cause there's a lot on the floor right now.",
+      "timestamp": 138.02
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Maybe if we just took in those, then we can have... Then if we took in our toys now-",
+      "timestamp": 147.9
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yeah",
+      "timestamp": 155.86
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... then we would have more",
+      "timestamp": 156.76
     }
   ],
   "characters": [
@@ -164,7 +244,19 @@
       "description": "Cloaking the surface of the green planet in a vast mantle of dense greenery, this whispering woodland serves as the lush setting of the 'Forest Friends' chronicle. It is a realm where creatures play eternal hide-and-seek between Hattie’s cozy clinic and the ancestral cradle of Finn’s companions. Along magical trails where Hattie and the Pakruder Worm harvest hat-making ingredients, winding paths veil secret gopher tunnels and hidden mole cottages, forming the essential route toward the wizard's castle. While its sun-drenched threshold remains a sanctuary for the Rainbow Giraffe and Mama Bird, the deeper, darker thickets harbor a somber mystery; it was within these sprawling, uncharted depths—the same eerie expanse where the sick creature was first spotted and Mossy was discovered—that Mole recently vanished into the shadows."
     }
   ],
-  "wordCount": 282,
-  "izzyWordCount": 144,
-  "dadWordCount": 138
+  "wordCount": 311,
+  "izzyWordCount": 165,
+  "dadWordCount": 146,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T15:05:42.645Z",
+    "speakerMap": {
+      "speaker_0": "Izzy",
+      "speaker_1": "Dad"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "high"
+  }
 }

@@ -6,273 +6,488 @@
   "audioFilename": "Cornell St 58.m4a",
   "highlightQuote": {
     "text": "I fell apart a little! Oh, that's okay. Izzy can fix me. Ah, I fell apart more. I was such a tall robot, and Izzy built me for care.",
-    "timestamp": 427
+    "timestamp": 44.96
   },
   "transcript": [
     {
       "speaker": "Izzy",
-      "text": "Dad, me and my mommy told a story too, but you can continue on this one that we're telling. Let's continue.",
-      "timestamp": 26
+      "text": "There's lots of stuff. What do you need from my shelf, Mickey and Minnie and Mole? Need anything from my shelf?",
+      "timestamp": 5.92
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"I don't think so,\" says Mickey.",
+      "timestamp": 13.59
+    },
+    {
+      "speaker": "Izzy",
+      "text": "You having trouble with anything?",
+      "timestamp": 16.1
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Well, it's funny you should mention trouble,\" says Mickey.",
+      "timestamp": 19.78
+    },
+    {
+      "speaker": "Izzy",
+      "text": "You have a b- Dad, um, me and my mommy told a story, too, and but you can tell, continue on this one that we're telling. Let's continue.",
+      "timestamp": 25.46
     },
     {
       "speaker": "Dad",
       "text": "Oh, okay. What was the story that you told with Mama?",
-      "timestamp": 42
+      "timestamp": 40.24
     },
     {
       "speaker": "Izzy",
-      "text": "I don't know, I can't remember the words. But I think I did the ending of it.",
-      "timestamp": 44
+      "text": "I don't know.",
+      "timestamp": 43.92
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, that's okay.",
+      "timestamp": 44.96
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I can't remember the words.",
+      "timestamp": 45.7
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh.",
+      "timestamp": 47.96
+    },
+    {
+      "speaker": "Izzy",
+      "text": "But I think I did the ending of it.",
+      "timestamp": 48
     },
     {
       "speaker": "Dad",
       "text": "You did?",
-      "timestamp": 51
+      "timestamp": 50.7
     },
     {
       "speaker": "Izzy",
-      "text": "It was... they fixed it.",
-      "timestamp": 52
+      "text": "It was they fixed it.",
+      "timestamp": 51.25
     },
     {
       "speaker": "Dad",
       "text": "Oh, that's a good ending when something gets fixed. Well, on this particular day, Mickey was having some trouble.",
-      "timestamp": 54
+      "timestamp": 54.82
     },
     {
       "speaker": "Izzy",
-      "text": "Mickey, um, do you need anything from my shelf? Seems like you're in trouble.",
-      "timestamp": 107
+      "text": "Mickey, um, do you need anything from my shelf?",
+      "timestamp": 66.56
     },
     {
       "speaker": "Dad",
-      "text": "Well, I'm not in trouble myself, but there's somebody I can't find.",
-      "timestamp": 113
+      "text": "And Mickey says-",
+      "timestamp": 71.3
+    },
+    {
+      "speaker": "Izzy",
+      "text": "It seems like you're in trouble.",
+      "timestamp": 71.89
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Well, I'm not in trouble myself, but there's somebody I can't find.\"",
+      "timestamp": 73.93
     },
     {
       "speaker": "Izzy",
       "text": "Oh, who is it?",
-      "timestamp": 119
+      "timestamp": 79.7
     },
     {
       "speaker": "Dad",
-      "text": "Uh, it's our friend Mole. We don't know where Mole went.",
-      "timestamp": 121
+      "text": "\"Uh, it's our friend Mole. We don't know where Mole went.\"",
+      "timestamp": 81.93
     },
     {
       "speaker": "Izzy",
       "text": "Well, where's Minnie?",
-      "timestamp": 125
+      "timestamp": 85.64
     },
     {
       "speaker": "Dad",
-      "text": "I'm right here, said Minnie.",
-      "timestamp": 127
+      "text": "\"I'm right here,\" said Minnie.",
+      "timestamp": 87.5
     },
     {
       "speaker": "Izzy",
       "text": "Okay, but where's Mole?",
-      "timestamp": 129
+      "timestamp": 89.66
     },
     {
       "speaker": "Dad",
-      "text": "We don't know.",
-      "timestamp": 132
+      "text": "\"We don't know.\"",
+      "timestamp": 92.01
     },
     {
       "speaker": "Izzy",
-      "text": "Well, well, I, um, maybe if you follow... there's the little glow of something.",
-      "timestamp": 133
+      "text": "Well, well, I... Hmm. Maybe if you follow... Huh, there's the little glow of something.",
+      "timestamp": 93.28
     },
     {
       "speaker": "Dad",
-      "text": "The little glow of something! Well, you know, now that you mention the glow, said Mickey, he did have his flashlight with him. But did he say where he was going? I don't remember.",
-      "timestamp": 145
-    },
-    {
-      "speaker": "Dad",
-      "text": "I'm not sure.",
-      "timestamp": 156
+      "text": "The little glow of something. \"Well, you know, now that you mention the glow,\" says, says Mickey, \"He, he did have his flashlight with him. But did he say where he was going? I don't remember.\" And Minnie said, \"I'm not sure.\"",
+      "timestamp": 104.48
     },
     {
       "speaker": "Izzy",
       "text": "Maybe you could follow this tiny glow that's under this basket.",
-      "timestamp": 158
+      "timestamp": 119.26
     },
     {
       "speaker": "Dad",
-      "text": "Oh, yeah, I see a glowing light. It's not under a basket, though. It's out there in the forest.",
-      "timestamp": 205
+      "text": "\"Oh, yeah. I see a glowing light. It's not under a basket, though. It's out there, um, in the forest.\"",
+      "timestamp": 124.36
     },
     {
       "speaker": "Izzy",
-      "text": "Well, I see that light. Maybe that light can show you the way to Mole.",
-      "timestamp": 215
+      "text": "Well, I see that light. Maybe that light could show you the way-",
+      "timestamp": 134.42
     },
     {
       "speaker": "Dad",
-      "text": "Okay. And Minnie said, yeah, let's bring a nice big lantern with us.",
-      "timestamp": 222
+      "text": "Well, yeah",
+      "timestamp": 138.86
     },
     {
       "speaker": "Izzy",
-      "text": "That lamp could maybe see... and it could shine all the way to where Mole is. Where's Mole?",
-      "timestamp": 227
+      "text": "... to Mole.",
+      "timestamp": 139.73
     },
     {
       "speaker": "Dad",
-      "text": "And then we could go find him. Which way is he?",
-      "timestamp": 237
+      "text": "And Minnie said, \"Yeah, let's bring a, bring a nice big lantern with us.\"",
+      "timestamp": 139.76
     },
     {
       "speaker": "Izzy",
-      "text": "Well, we just need to go... I have another flashlight. I have a little flashlight on my shelf or right here somewhere on my shelf.",
-      "timestamp": 241
+      "text": "That lamp could maybe-",
+      "timestamp": 144.06
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yeah",
+      "timestamp": 146.54
     },
     {
       "speaker": "Izzy",
-      "text": "I have this pink flashlight. Click click on. Now the light is shining. It's shining to where Mole is. Shine, shine, shine, shine.",
-      "timestamp": 300
+      "text": "... be there and it could shine all the way to where Mole is.",
+      "timestamp": 146.83
     },
     {
       "speaker": "Dad",
-      "text": "Let's go out with our tiny flashlight and our big lantern and we'll find Mole and make sure he's okay, okay everybody? Stay together because we don't want anybody else to get lost.",
-      "timestamp": 316
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Yeah, I'm staying together. And Jane. But Jane wants to run ahead.",
-      "timestamp": 326
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh Jane, don't run away. It's getting dark out, you don't want to get lost.",
-      "timestamp": 339
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, Jane. Who did you find behind that tree?",
-      "timestamp": 345
-    },
-    {
-      "speaker": "Dad",
-      "text": "It's me, I'm a secret robot. You can't find me.",
-      "timestamp": 351
-    },
-    {
-      "speaker": "Dad",
-      "text": "But we found you!",
-      "timestamp": 356
+      "text": "Yeah.",
+      "timestamp": 151.68
     },
     {
       "speaker": "Izzy",
       "text": "Where's Mole?",
-      "timestamp": 358
+      "timestamp": 151.86
     },
     {
       "speaker": "Dad",
-      "text": "We haven't found Mole yet. And the secret robot says, 'Maybe I can help you find Mole.'",
-      "timestamp": 401
+      "text": "And then we could go find him.",
+      "timestamp": 152.96
     },
     {
       "speaker": "Izzy",
-      "text": "Stay together, robot.",
-      "timestamp": 407
+      "text": "Which way is he?",
+      "timestamp": 155.26
+    },
+    {
+      "speaker": "Dad",
+      "text": "Well, we just need to go.",
+      "timestamp": 156.92
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Like, I have another flashlight. I have a little flashlight on my shelf. Hmm. Or right here or somewhere on the shelf. Hmm. Oh, I have this pink flashlight.",
+      "timestamp": 160.06
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, that's a nice flashlight.",
+      "timestamp": 183.58
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Click.",
+      "timestamp": 185.76
+    },
+    {
+      "speaker": "Dad",
+      "text": "Click.",
+      "timestamp": 186.64
+    },
+    {
+      "speaker": "Izzy",
+      "text": "On. Now the light is shining.",
+      "timestamp": 187.02
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay.",
+      "timestamp": 189.12
+    },
+    {
+      "speaker": "Izzy",
+      "text": "It's shining to where Mole is. Shining, just shining.",
+      "timestamp": 189.84
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay.",
+      "timestamp": 195.37
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Shine.",
+      "timestamp": 195.37
+    },
+    {
+      "speaker": "Dad",
+      "text": "Let's go out with our tiny flashlight and our big lantern and we'll find Mole and make sure he's okay. Okay, everybody?",
+      "timestamp": 195.4
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Okay.",
+      "timestamp": 203.22
+    },
+    {
+      "speaker": "Dad",
+      "text": "Stay together s- 'cause we don't want anybody else to get lost.",
+      "timestamp": 203.26
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah. I'm staying together.",
+      "timestamp": 207.06
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay, yeah.",
+      "timestamp": 209.36
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And Jane, but Jane wants to run away.",
+      "timestamp": 210.72
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, Jane, don't run away.",
+      "timestamp": 215.48
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Zoom, zoom, zoom, zoom, zoom, zoom, zoom, zoom.",
+      "timestamp": 216.7
+    },
+    {
+      "speaker": "Dad",
+      "text": "It's, it's getting dark out. You don't wanna get lost.",
+      "timestamp": 218.13
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Mew, mew, mew.",
+      "timestamp": 221.36
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, Jane.",
+      "timestamp": 223.82
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Mew, mew, mew.",
+      "timestamp": 224.96
+    },
+    {
+      "speaker": "Dad",
+      "text": "Who, who did you find behind that tree? It's me. I'm a secret robot. You can't find me.",
+      "timestamp": 226.3
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Found you.",
+      "timestamp": 234.22
+    },
+    {
+      "speaker": "Dad",
+      "text": "But we found you.",
+      "timestamp": 234.92
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Where's Mole?",
+      "timestamp": 237.36
+    },
+    {
+      "speaker": "Dad",
+      "text": "Well, we, we haven't found Mole yet. And the secret robot says, \"Maybe I can help you find Mole.\"",
+      "timestamp": 239.3
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Stay together. Stay together, robot.",
+      "timestamp": 246.8
     },
     {
       "speaker": "Dad",
       "text": "Okay, I'll stay with you. Let's go search.",
-      "timestamp": 410
+      "timestamp": 250.56
     },
     {
       "speaker": "Izzy",
-      "text": "And your little sister's there too and she's searching, but she got lost!",
-      "timestamp": 413
+      "text": "And my, and your little sister lived here too, and she's searching, but she got lost.",
+      "timestamp": 254.02
     },
     {
       "speaker": "Dad",
-      "text": "Oh, I will call to my little sister with special robot communication. Sister robot, where are you?",
-      "timestamp": 419
+      "text": "Oh, I will call to my little sister with special robot communication. Sister Robot, where are you? Here I am. Here I am. Oh, I hear Sister Robot.",
+      "timestamp": 260.58
     },
     {
       "speaker": "Izzy",
-      "text": "Here I am, here I am! Oh, hello robot! I'm coming! I fell apart a little! Oh, that's okay. Izzy can fix me. Ah, I fell apart more. I was such a tall robot, and Izzy built me for care. And Izzy didn't want me to get lost, but I got lost and I fell apart and now I'm coming to you.",
-      "timestamp": 427
+      "text": "Yeah. Hello. It's me. Oh.",
+      "timestamp": 271.98
     },
     {
       "speaker": "Dad",
-      "text": "Oh, you're all better, sister robot.",
-      "timestamp": 505
+      "text": "Come on out, Sister Robot.",
+      "timestamp": 277.42
     },
     {
       "speaker": "Izzy",
-      "text": "There!",
-      "timestamp": 508
+      "text": "I'm out. Oh, I fell apart a little.",
+      "timestamp": 279.16
     },
     {
       "speaker": "Dad",
-      "text": "Okay, now all the robots are together with us and we're on our expedition. And robots, do you have any way you can help us find Mole?",
-      "timestamp": 509
+      "text": "Oh, that's okay, Sister Robot.",
+      "timestamp": 282.8
     },
     {
       "speaker": "Izzy",
-      "text": "Yes, I do. I have very good robot hearing.",
-      "timestamp": 520
+      "text": "I can fi- Izzy can fix me. Ah, I fell apart more. I was such a tall robot and Izzy built me for care, and I didn't, and Izzy didn't want me to get lost, but I got lost, and I fell apart, and now I'm coming to you.",
+      "timestamp": 284.28
     },
     {
       "speaker": "Dad",
-      "text": "Oh, well, you know, because Mole sometimes hums to himself when he's walking around, and so maybe you could hear it because I can't hear anything right now. Wait, let's listen.",
-      "timestamp": 524
-    },
-    {
-      "speaker": "Dad",
-      "text": "What's that humming sound?",
-      "timestamp": 539
+      "text": "Oh, you're all better, Sister Robot.",
+      "timestamp": 304.82
     },
     {
       "speaker": "Izzy",
-      "text": "That's Mole! I hear it! It's coming from that direction. It's Mole!",
-      "timestamp": 540
+      "text": "There.",
+      "timestamp": 310.52
     },
     {
       "speaker": "Dad",
-      "text": "Let's go over there and find him. Bring your flashlights and stay together everyone.",
-      "timestamp": 547
+      "text": "Okay, now all the robots are together with us, and we're on our expedition. And robots, do you have any way you can help us find Mole? Yes, I do. I have very good robot hearing. Oh, well, you know, 'cause Mole sometimes hums to himself when he's walking around, and, and so maybe you could hear it, because I can't hear anything right now.",
+      "timestamp": 311.52
+    },
+    {
+      "speaker": "Dad",
+      "text": "Wait, let's listen. What's that humming sound? And Sister Robot-",
+      "timestamp": 332.72
     },
     {
       "speaker": "Izzy",
-      "text": "Where's the flashlight? There it is. Shine, shine, shine.",
-      "timestamp": 552
+      "text": "That's Mole",
+      "timestamp": 340.52
     },
     {
       "speaker": "Dad",
-      "text": "Oh look, behind that tree, it's right where that humming sound is coming from. And there's a little light, and it's a little furry creature. Mole, is that you?",
-      "timestamp": 555
-    },
-    {
-      "speaker": "Dad",
-      "text": "Yes, it's me. Hi everyone.",
-      "timestamp": 605
+      "text": "... \"I, I hear it,\" says Sister Robot. \"It's coming from that direction.\"",
+      "timestamp": 341.18
     },
     {
       "speaker": "Izzy",
-      "text": "Where, how, where did you been?",
-      "timestamp": 608
+      "text": "It's Mole.",
+      "timestamp": 345.54
     },
     {
       "speaker": "Dad",
-      "text": "Well, I was just going out for a little snack and I found some delicious worms and then I found another one and another one and I just kept going but I got a little lost. So I'm really glad that you came and found me everyone. Can we go back home now?",
-      "timestamp": 612
+      "text": "Let- let's go over there and find him. Bring your flashlights and stay together, everyone.",
+      "timestamp": 347.3
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Well, give me the flashlight.",
+      "timestamp": 351.12
     },
     {
       "speaker": "Dad",
-      "text": "And so everyone held hands and walked back home as it was getting dark with their flashlights and they all went home and went to bed. And that's the end.",
-      "timestamp": 630
+      "text": "There it is.",
+      "timestamp": 352.52
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Shine, shine.",
+      "timestamp": 353.04
+    },
+    {
+      "speaker": "Dad",
+      "text": "Shine, shine, shine. Oh, look. Behind that tree, it's right where that humming sound is coming from, and there's a little light, and it's a little furry creature. Mole, is that you? Yes, it's me. Hi, everyone.",
+      "timestamp": 354.03
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Where w- w- how, where did you been?",
+      "timestamp": 368.4
+    },
+    {
+      "speaker": "Dad",
+      "text": "Well, I was just going out for a little snack, and I found some delicious worms, and then I found another one and another one, and I just kept going. But I got a little lost, so I'm really glad that you came and found me, everyone. Can we go back home now?",
+      "timestamp": 372.12
+    },
+    {
+      "speaker": "Dad",
+      "text": "And so everyone held hands and walked back home as it was getting dark with their flashlights, and they all went home and went to bed. And that's the end.",
+      "timestamp": 389.76
     },
     {
       "speaker": "Izzy",
       "text": "Can we do some shadow puppets?",
-      "timestamp": 644
+      "timestamp": 404.98
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yeah.",
+      "timestamp": 407.52
+    },
+    {
+      "speaker": "Izzy",
+      "text": "As I, um, turn off my flashlight.",
+      "timestamp": 410.02
+    },
+    {
+      "speaker": "Dad",
+      "text": "Ooh, ah, shadow puppets. Oh, you gotta get your hands closer to the light over here. There you go. Oh, that looks great. Look at that.",
+      "timestamp": 416.32
+    },
+    {
+      "speaker": "Izzy",
+      "text": "A shark.",
+      "timestamp": 429.34
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, a shadow shark. Rawr. Okay. All right, n-",
+      "timestamp": 430.72
     }
   ],
   "characters": [
@@ -329,7 +544,19 @@
       "description": "A sanctuary of restorative rest where weary creators retire after the day’s long labors of drawing, this haven is destined to become the permanent hearth for all friends once the blight of Frasgle has been purged and the land is clean again."
     }
   ],
-  "wordCount": 764,
-  "izzyWordCount": 309,
-  "dadWordCount": 455
+  "wordCount": 957,
+  "izzyWordCount": 363,
+  "dadWordCount": 594,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T15:06:45.606Z",
+    "speakerMap": {
+      "speaker_0": "Izzy",
+      "speaker_1": "Dad"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "low"
+  }
 }
