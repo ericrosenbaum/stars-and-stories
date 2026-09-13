@@ -10,349 +10,839 @@
   },
   "transcript": [
     {
+      "speaker": "Izzy",
+      "text": "Oh, good. Okay, you got your flashlight on.",
+      "timestamp": 0.24
+    },
+    {
       "speaker": "Dad",
-      "text": "Oh good. Okay, you got your flashlight on.",
-      "timestamp": 0
+      "text": "On.",
+      "timestamp": 4.68
     },
     {
       "speaker": "Izzy",
+      "text": "And I'll turn this one on. And we have our little bit of stars in our basket. Oh, yeah, I was wondering the doorways themselves a little bit. I think I'll try it like that this time. It's a little better. It might fall down. Okay. And now it's time for Stars and-",
+      "timestamp": 7.16
+    },
+    {
+      "speaker": "Dad",
+      "text": "Um, will you tell a story about-",
+      "timestamp": 44.78
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... Stories",
+      "timestamp": 46.92
+    },
+    {
+      "speaker": "Dad",
+      "text": "... Mickey, Minnie, Mischief, Mole?",
+      "timestamp": 46.95
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Wow. You know, all of those, um-",
+      "timestamp": 54.04
+    },
+    {
+      "speaker": "Dad",
       "text": "Actually, we could just do Minnie, Mickey, and Mole.",
-      "timestamp": 0.57
-    },
-    {
-      "speaker": "Dad",
-      "text": "No mischief this time? You know, all of their names start with the same letter. Do you know what letter they start with? What letter is it? Like M-M-Mickey, M-M-Minnie, M-M-Mole. What letter is that? M-m-m...",
-      "timestamp": 1.05
+      "timestamp": 57.34
     },
     {
       "speaker": "Izzy",
-      "text": "M!",
-      "timestamp": 1.21
+      "text": "No mischief this time? You know, all of their names start with the same letter. You know what letter they start with?",
+      "timestamp": 64.56
     },
     {
       "speaker": "Dad",
-      "text": "It's M! Well, Mickey and Minnie and Mole were picking blueberries one day. And each of them had their own basket. Mickey had a basket of blueberries and Minnie had a basket and Mole had a basket. And pretty soon Mickey and Minnie had mostly filled up their baskets. But Mole's was empty. And also everyone noticed that Mole had a lot of blue and purple juice smeared all over his face. What happened?",
-      "timestamp": 1.23
+      "text": "Yeah.",
+      "timestamp": 68.64
     },
     {
       "speaker": "Izzy",
-      "text": "He ate!",
-      "timestamp": 2.02
+      "text": "What letter is it?",
+      "timestamp": 69.8
     },
     {
       "speaker": "Dad",
-      "text": "He ate the blueberries! And Mickey and Minnie said, \"Hey Mole, you done picking blueberries yet?\" And what did Mole say?",
-      "timestamp": 2.06
+      "text": "Tuh, tuh, tuh.",
+      "timestamp": 72.44
     },
     {
       "speaker": "Izzy",
-      "text": "I ate the blueberries! I ate the blueberries!",
-      "timestamp": 2.17
+      "text": "Well think of it. It's like Mickey, Minnie, Mole. What letter is that mmm?",
+      "timestamp": 74.28
     },
     {
       "speaker": "Dad",
-      "text": "Oh, you ate all of yours? said Mickey. Well, I was picking mine to save some for later. And Minnie said, \"Yeah, me too. I think maybe we could bake something with blueberries in it.\"",
-      "timestamp": 2.25
+      "text": "Mmm.",
+      "timestamp": 81.91
     },
     {
       "speaker": "Izzy",
-      "text": "Blueberry muffins!",
-      "timestamp": 2.38
+      "text": "It's M. Well, Mickey and Minnie and Mole were, um, picking blueberries one day, and each of them had their own basket. Mickey had a basket of blueberries and Minnie had a basket, and Mole had a basket. And pretty soon, Mickey and Minnie, um, had mostly filled up their baskets, but Mole's was empty.",
+      "timestamp": 83.01
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And also, everyone noticed that Mole had a lot of, like, blue and purple juice smeared all over his face. What happened?",
+      "timestamp": 117.96
     },
     {
       "speaker": "Dad",
-      "text": "And Mickey said, \"Oh yeah, blueberry muffins, that could be delicious. But Mole, how are you gonna make yours if you don't have any? Unless we share.\"",
-      "timestamp": 2.41
+      "text": "He ate.",
+      "timestamp": 127.6
     },
     {
       "speaker": "Izzy",
+      "text": "He ate the blueberries, and Mickey and Minnie said, \"Hey, Mole, are you done picking blueberries yet?\" And what did Mole say?",
+      "timestamp": 130.8
+    },
+    {
+      "speaker": "Dad",
+      "text": "I ate the blueberries. I ate the blueberries.",
+      "timestamp": 140.24
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"Oh, you ate all of yours?\" said Mickey. \"Well, I was picking mine to, um, save them for later.\" And Minnie said, \"Yeah, me too. I think maybe we could bake something with blueberries in it.\"",
+      "timestamp": 146.59
+    },
+    {
+      "speaker": "Dad",
+      "text": "Blueberry muffins.",
+      "timestamp": 158.66
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And Mickey said, \"Oh, yeah, blueberry muffins. That could be delicious. But Mole, how are you gonna make yours if you don't have any?\" What should we do?",
+      "timestamp": 162.62
+    },
+    {
+      "speaker": "Dad",
       "text": "Maybe if Mole makes banana muffins, then Mickey and Minnie could make blueberry muffins.",
-      "timestamp": 2.53
-    },
-    {
-      "speaker": "Dad",
-      "text": "Huh, what a good solution, said Minnie Mouse. \"But where are we gonna get bananas?\" And Mole said, \"Oh, I know.\" What did Mole say?",
-      "timestamp": 3.03
+      "timestamp": 174.66
     },
     {
       "speaker": "Izzy",
-      "text": "The grocery store!",
-      "timestamp": 3.14
+      "text": "\"Oh, what a good solution,\" said Minnie Mouse, \"but where are we gonna get bananas?\" And Mole said, \"Oh, I know.\" What did Mole say?",
+      "timestamp": 184.43
     },
     {
       "speaker": "Dad",
-      "text": "Okay, let's go to the grocery store, said Mole. And Mickey and Minnie said, \"Okay, we can go there. But none of us knows how to drive a car, so we can't get there. Who could we ask for help to get us to the grocery store?\" Who's a friend of theirs that has a car that could drive them?",
-      "timestamp": 3.17
+      "text": "The grocery store.",
+      "timestamp": 193.84
     },
     {
       "speaker": "Izzy",
-      "text": "I know. Dad, could I have Jane and... Oh, I know. It's Jickity Jickity the Giraffe.",
-      "timestamp": 3.42
+      "text": "\"Okay, let's go to the grocery store,\" said Mole. And, um, Mickey and Minnie said, \"Oh, okay, we could go there, but, um, none of us knows how to drive a car, so we can't get there. Who could we ask for help to get us to the grocery store?\" Hmm. Who's a friend of theirs that has a car that could, could drive them?",
+      "timestamp": 196.91
     },
     {
       "speaker": "Dad",
-      "text": "Wait, is it Jickity Jickity the Giraffe or Jickity Jickity Jickity the Giraffe?",
-      "timestamp": 4.03
+      "text": "I know.",
+      "timestamp": 222.6
     },
     {
       "speaker": "Izzy",
-      "text": "Jickity Jickity Giraffe. And he has a car, a race car, and it races you all the way to the store.",
-      "timestamp": 4.08
+      "text": "Who?",
+      "timestamp": 224.89
     },
     {
       "speaker": "Dad",
-      "text": "And Mickey and Minnie and Mole were so excited to hop in Jickity Jickity Giraffe's race car and they all zoomed to the store so fast. Zoom! And then, errrt! That squealing sound is when we pressed on the brakes and the tires squeak against the ground because the car is stopping and they went errrt! And they stopped in the parking lot of the grocery store. And Jickity Jickity Giraffe said, \"Here we are. We made it in record time, so fast because we went in my race car.\" And Mickey and Minnie and Mole said, \"Oh thanks!\" and they hopped out and they ran into the grocery store. What'd they do in there?",
-      "timestamp": 4.21
+      "text": "Dad, can I have Jane and... I know.",
+      "timestamp": 226.68
     },
     {
       "speaker": "Izzy",
+      "text": "Yeah?",
+      "timestamp": 234.06
+    },
+    {
+      "speaker": "Dad",
+      "text": "It's Chickety-Chickety-Chickety the el- Chickety-Chickety the Giraffe.",
+      "timestamp": 235.66
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Wait, is it Chickety-Chickety the Giraffe or Chickety Chickety the Giraffe?",
+      "timestamp": 249.14
+    },
+    {
+      "speaker": "Dad",
+      "text": "Chickety-Chickety Giraffe.",
+      "timestamp": 253.82
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Chickety-Chickety Giraffe. And-",
+      "timestamp": 256.21
+    },
+    {
+      "speaker": "Dad",
+      "text": "And he has a car.",
+      "timestamp": 258.21
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Oh.",
+      "timestamp": 260.46
+    },
+    {
+      "speaker": "Dad",
+      "text": "It's a race car, and it races you all the way to the store. Zoom, zoom, zoom, zoom, zoom, zoom.",
+      "timestamp": 260.66
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And Mickey and Minnie and Mole were so excited to hop in Chickety-Chickety Giraffe's race car, and they all zoomed to the store so fast. Zoom. And then that squealing sound is when you press on the brakes and the wa- and the tires squeak against the ground 'cause the, the car is stopping.",
+      "timestamp": 267.54
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And so they went , and they stopped in the parking lot of the grocery store. And Chickety-Chickety Giraffe said, \"Here we are. We made it in record time, so fast, 'cause we went in my race car.\" And Mickey and Minnie and Mole said, \"Oh, thanks.\" And they hopped out and they ran into the grocery store, and what'd they do there?",
+      "timestamp": 283.71
+    },
+    {
+      "speaker": "Dad",
       "text": "Bought bananas.",
-      "timestamp": 5.02
-    },
-    {
-      "speaker": "Dad",
-      "text": "They bought some bananas, but then whoops! Mickey Mouse tripped over something and fell right on the floor. What did he trip on?",
-      "timestamp": 5.05
+      "timestamp": 300.84
     },
     {
       "speaker": "Izzy",
+      "text": "They bought some bananas, but then, whoops, Mickey Mouse tripped over something and fell right on the floor. What did he trip on?",
+      "timestamp": 303.82
+    },
+    {
+      "speaker": "Dad",
       "text": "Keep telling the story and then you'll find out.",
-      "timestamp": 5.12
-    },
-    {
-      "speaker": "Dad",
-      "text": "Well, they had dropped a banana while they were shopping for bananas and Mickey tripped on the squishy slippery banana and then splat! He fell right into the display full of... what did he fall into?",
-      "timestamp": 5.18
+      "timestamp": 312.58
     },
     {
       "speaker": "Izzy",
-      "text": "Keep telling the story and then you'll find out.",
-      "timestamp": 5.32
+      "text": "Well, they had dropped a banana while they were shopping for bananas, and Mickey tripped on the squishy, slippery banana, and then, splat, he fell right into the display full of... What did he fall into?",
+      "timestamp": 318.08
     },
     {
       "speaker": "Dad",
-      "text": "A giant basket of raspberries! Splurt! And so all the raspberries went squish all onto Mickey Mouse's fur. And he said, \"Oh no, now I'm all red.\" And Mole said, \"That's okay, I'm all purple from eating the blueberries.\"",
-      "timestamp": 5.39
+      "text": "Uh-uh. Keep telling the story and then you'll find out.",
+      "timestamp": 331.52
     },
     {
       "speaker": "Izzy",
-      "text": "Mickey, you could take a bath!",
-      "timestamp": 5.56
+      "text": "A giant basket of raspberries. Splurt. And so all the raspberries went squish all onto Mickey Mouse's fur, and he said, \"Oh, no, now I'm all red.\" And Mole said, \"That's okay. I'm all purple from eating the blueberries.\" And Minnie Mouse said-",
+      "timestamp": 337.34
     },
     {
       "speaker": "Dad",
-      "text": "said Minnie Mouse. \"You could take a bath when we get home.\" Okay. And then Mole says, \"I hope Jickity Jickity's waiting out there to drive us home with his race car.\" But then they looked outside and they saw someone very tall sitting in his car in the parking lot. It was Jickity Jickity Giraffe. So they went to the cashier and they bought the bananas for Mole's banana bread. They also bought the raspberries because they felt bad that they had squished them. And then they hopped back in the race car and zoomed right back to whose house did they go to?",
-      "timestamp": 6.02
+      "text": "Um, Mickey, you could take a bath",
+      "timestamp": 356.55
     },
     {
       "speaker": "Izzy",
+      "text": "... said Minnie Mouse, \"You could take a bath when we get home.\" \"Okay.\" And then Mole says, \"I hope Chickity Chicken is waiting out there to drive us home with his race car.\" But then they looked outside and they saw someone very tall sitting in his car in the parking lot.",
+      "timestamp": 362.38
+    },
+    {
+      "speaker": "Izzy",
+      "text": "It was Chickity Chicken, giraffe. So they went to the cashier and they bought the bananas for Mole's banana bread. They also bought the raspberries because they felt bad that they had squished them, and then they hopped back in the race car and zoom, right back to ...",
+      "timestamp": 376.9
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Whose house did they go to?",
+      "timestamp": 393.06
+    },
+    {
+      "speaker": "Dad",
       "text": "Mickey's house.",
-      "timestamp": 6.35
-    },
-    {
-      "speaker": "Dad",
-      "text": "To Mickey's. And then Mickey said, \"Excuse me, Minnie Mouse, could you um open up that recipe book and get our blueberry muffin recipe out?\" And Mickey said, \"Okay,\" and he read the recipe. Now Isabella, what was step one of the recipe?",
-      "timestamp": 6.37
+      "timestamp": 395.48
     },
     {
       "speaker": "Izzy",
-      "text": "Mix all of the ingredients and then mix it tight. And then you bake it. And then you have to... and then... and then you have to put the blueberries in it so it tastes yummy.",
-      "timestamp": 7.4
+      "text": "They went-",
+      "timestamp": 398.14
     },
     {
       "speaker": "Dad",
-      "text": "Hmm, that's a simple recipe. And so they mixed everything up and they put it in the oven to bake and then bake bake bake bake bake. Ding! It was done and they took it out and then they put the blueberries on? And then oh, it was still too hot to eat. They couldn't eat them so they had to blow on them. And then they got nice and cool and then they took a nibble. Yum! They were delicious. But Mole said, \"Okay, now it's my turn. Here, I found a cookbook with a nice banana bread recipe. Will you read me the recipe? What's step one of that one?\"",
-      "timestamp": 8.05
+      "text": "Mickey's",
+      "timestamp": 399.36
     },
     {
       "speaker": "Izzy",
-      "text": "Mix the ingredients, then mix it tight. Then add the flavors. Then you have to put the bananas in it and then you have to bake it in the oven and then you have to eat it all up.",
-      "timestamp": 8.4
+      "text": "... and then Mickey said, \"Excuse me, Minnie Mouse. Could you-\"",
+      "timestamp": 399.37
     },
     {
       "speaker": "Dad",
-      "text": "Yum! And so they baked their banana bread and they ate it all up. Well, Mickey said to Minnie and Mole, \"Hey, now that we've had our delicious blueberry muffins and banana bread, do you want to go take a trip on our little spaceship?\" And what did Mole say?",
-      "timestamp": 9
+      "text": "Dad, look at this.",
+      "timestamp": 403.94
     },
     {
       "speaker": "Izzy",
-      "text": "Yes, let's go!",
-      "timestamp": 10.42
+      "text": "Oh, you got to be careful pointing a flashlight right into your eye. Does that look funny? What did you see when you did that? It looks really bright, doesn't it? But that could hurt your eye, so you have to be careful about that.",
+      "timestamp": 405.6
     },
     {
       "speaker": "Dad",
-      "text": "Mole said, \"Yes, yes, yes! I would love to go to space.\" And Mickey said, \"Do you think you'd like to visit um the moon, or um Jupiter? Or we could go to the sun, or an asteroid. What do you think you'd like to go visit?\"",
-      "timestamp": 10.48
+      "text": "Or this.",
+      "timestamp": 416.02
     },
     {
       "speaker": "Izzy",
-      "text": "Or... or a royal castle. I pick the royal castle of Mischief Mouse the King.",
-      "timestamp": 11.05
+      "text": "Oh, that's cool. You point it away from your face, and then you can point it at things and light them up. Wow.",
+      "timestamp": 417.08
     },
     {
       "speaker": "Dad",
-      "text": "The Royal Castle of Mischief Mouse the King? But is it in outer space somewhere?",
-      "timestamp": 11.18
+      "text": "Ooh.",
+      "timestamp": 424.96
     },
     {
       "speaker": "Izzy",
-      "text": "Yes, it's in outer space, very close to Jupiter. You have to fly fly fly in your rocket until you get to Jupiter the planet. It's right there, you'll see a royal castle.",
-      "timestamp": 11.23
+      "text": "Ooh, flashlights are so fun. And then ... Ooh, careful, don't point it in my eyes please. I don't like it when it points in my eyes.",
+      "timestamp": 426.56
     },
     {
       "speaker": "Dad",
-      "text": "And Minnie said, \"You know, I think at Mischief Mouse's royal castle um we should bring a present with us to deliver when we get there. What do you think that they need living in that royal castle all the way at Jupiter?\"",
-      "timestamp": 11.46
+      "text": "How about if I point it down onto your knee?",
+      "timestamp": 434.38
     },
     {
       "speaker": "Izzy",
-      "text": "Look, my hand is orange. Look.",
-      "timestamp": 12.02
+      "text": "Oh, my knee likes it. Yes, thank you. And Minnie Mouse said, \"Um, excuse me, Mickey Mouse. Could you, um, open up that recipe book and get our blueberry muffin recipe out?\" And Mickey said, \"Okay,\" and he read the recipe. Now, Isabella, what was step one of the recipe?",
+      "timestamp": 438.44
     },
     {
       "speaker": "Dad",
+      "text": "Uh, add all the ingredients and then mix it tight.",
+      "timestamp": 456.56
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Oh, mix it-",
+      "timestamp": 466.56
+    },
+    {
+      "speaker": "Dad",
+      "text": "And then you bake it, and then you have to di- and then, and then you have to put the blueberries in it so it tastes yummy.",
+      "timestamp": 467.14
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Oh. Huh, that's a simple recipe. And so they mixed everything up, and they put it in the oven to bake, and then bake, bake, bake, bake, bake, ding. It was done, and they took it out, and, and then they put the blueberries on?",
+      "timestamp": 484.7
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yeah.",
+      "timestamp": 496.24
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And then they put the blueberries on, and then, oh, it was still too hot to eat, so they couldn't eat them, so they had to blow on them. And then they got nice and cool, and then they took a nibble, and they were delicious. But Mole said, \"Okay, now it's my turn.",
+      "timestamp": 496.68
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Here, I found a cookbook with a nice banana bread recipe. Will you read me the recipe?\" What's step one of that one?",
+      "timestamp": 512.42
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay. Mix the ingredients, then mix it tight.",
+      "timestamp": 517.38
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah.",
+      "timestamp": 526.32
+    },
+    {
+      "speaker": "Dad",
+      "text": "Then add the flavors, and then you have to put the bananas in it, and then you have to bake it in the oven, and then you have to eat it all up.",
+      "timestamp": 526.38
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yum. And so they baked their banana bread, and they ate it all up. And was that the end of the story? Oh, you put the flashlight under your dress. That's cool. Your dress is glowing now. Wow.",
+      "timestamp": 539.3
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, that's easy to see.",
+      "timestamp": 558.32
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Oh, yeah, it's really bright. It's easy to see. Do you want to try making hand shadows a little bit with the flashlight? Just hold the flashlight and then put your hand in front of it and then look. If you look up at the ceiling, my hand's really big.",
+      "timestamp": 564.42
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Look at that. Whoa. Yeah, just like that. You're doing it.",
+      "timestamp": 580.22
+    },
+    {
+      "speaker": "Dad",
+      "text": "Keep telling the story.",
+      "timestamp": 589.86
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Oops.",
+      "timestamp": 592.04
+    },
+    {
+      "speaker": "Dad",
+      "text": "Dad, could you keep telling the story?",
+      "timestamp": 593.18
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Oh. Well, we got to the end of the part about making blueberry muffins and banana bread. So-",
+      "timestamp": 596.4
+    },
+    {
+      "speaker": "Dad",
+      "text": "Maybe you could tell another story.",
+      "timestamp": 603.42
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Hm, okay. Well, we could do one more short one. Let's see. What's this one gonna be about? Well, Mickey and Minnie said to Mole ... Or, well ... What did they do? Mickey said to Minnie and Mole, \"Hey, now that we had our delicious blueberry muffins and banana bread, do you want to go take a trip on our s- little spaceship?\"",
+      "timestamp": 607.84
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And what did Mole say?",
+      "timestamp": 640.59
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yes.",
+      "timestamp": 643.06
+    },
+    {
+      "speaker": "Izzy",
+      "text": "He likes that-",
+      "timestamp": 644.1
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yes, yes, yes.",
+      "timestamp": 644.6
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Mole said, \"Yes, yes, yes. I would love to go to space.\"",
+      "timestamp": 647.82
+    },
+    {
+      "speaker": "Dad",
+      "text": "Love to go to space.",
+      "timestamp": 651.2
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And Mickey said, \"Do you think you'd like to visit, um, the moon or, um, Jupiter? Or we could go to the sun or an asteroid.\" Where do you think he'd like to go to?",
+      "timestamp": 651.84
+    },
+    {
+      "speaker": "Dad",
+      "text": "Or, or a royal castle. I pick the royal castle-",
+      "timestamp": 666.48
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Oh",
+      "timestamp": 673.5
+    },
+    {
+      "speaker": "Dad",
+      "text": "... of Fingen Mischief Mouse the King.",
+      "timestamp": 673.78
+    },
+    {
+      "speaker": "Izzy",
+      "text": "The royal castle of Mischief Mouse the King? But is it in outer space somewhere?",
+      "timestamp": 678.96
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yes, it's in outer space. It's very close to Jupiter.",
+      "timestamp": 683.06
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Oh.",
+      "timestamp": 691.16
+    },
+    {
+      "speaker": "Dad",
+      "text": "It's very close to Jupiter, so you have to fly, fly, fly, fly, fly, fly in your rocket until you get to Jupiter the planet. It's right there. You'll see a royal castle.",
+      "timestamp": 692.08
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Oh. And, and Minnie said, \"You know, I think Mischief Mouse's royal castle, um, uh, we should bring a, a present with us to deliver when we get there.\" What do you think that they need living in that royal castle all the way at Jupiter?",
+      "timestamp": 705.9
+    },
+    {
+      "speaker": "Dad",
+      "text": "Then my hand is orange. Look.",
+      "timestamp": 724.26
+    },
+    {
+      "speaker": "Izzy",
       "text": "Oh, that's cool. Do you think that they would like to have a flashlight? Maybe Mischief Mouse doesn't have a flashlight and would like one as a present. Should we bring one in our spaceship?",
-      "timestamp": 12.08
+      "timestamp": 727.32
     },
     {
-      "speaker": "Izzy",
+      "speaker": "Dad",
       "text": "Yes, we should.",
-      "timestamp": 12.17
-    },
-    {
-      "speaker": "Dad",
-      "text": "And so Mickey said, \"Oh, here's one!\" And he got the flashlight and he brought it on the spaceship. And Mickey and Minnie and Mole climbed on the spaceship and then they did their countdown. What number did the countdown start at?",
-      "timestamp": 12.19
+      "timestamp": 737.58
     },
     {
       "speaker": "Izzy",
+      "text": "And so Mickey said, \"Oh, here's one.\" And he got the flashlight, and he brought it on the spaceship. And Mickey, and Mi- and, and Mole climbed on the spaceship, and then they did their countdown. What number did the countdown start at?",
+      "timestamp": 740.62
+    },
+    {
+      "speaker": "Dad",
+      "text": "One.",
+      "timestamp": 758.04
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Oh, it should start at a bigger number than one, like three or five or 10.",
+      "timestamp": 759.4
+    },
+    {
+      "speaker": "Dad",
       "text": "Three.",
-      "timestamp": 12.44
-    },
-    {
-      "speaker": "Dad",
-      "text": "Okay, we'll start the countdown at three, said Mickey. \"Let's all count together.\"",
-      "timestamp": 12.45
-    },
-    {
-      "speaker": "Dad",
-      "text": "Three...",
-      "timestamp": 12.49
+      "timestamp": 763.66
     },
     {
       "speaker": "Izzy",
-      "text": "Two...",
-      "timestamp": 12.51
+      "text": "\"Okay, we'll start the countdown at three,\" said Mickey. \"Let's all count together. Three...\"",
+      "timestamp": 765.1
     },
     {
       "speaker": "Dad",
-      "text": "One...",
-      "timestamp": 12.52
+      "text": "Two.",
+      "timestamp": 770.92
     },
     {
       "speaker": "Izzy",
-      "text": "Blast off!",
-      "timestamp": 12.54
+      "text": "\"... two...\"",
+      "timestamp": 771.45
     },
     {
       "speaker": "Dad",
-      "text": "And then, whoosh! Their little spaceship flew up into the sky and it went higher and higher and higher. They were up above the clouds and they could look down at Planet Earth. And then they arrived in the orbit of the giant planet Jupiter, which was a big swirling purple planet.",
-      "timestamp": 12.56
+      "text": "One.",
+      "timestamp": 772.7
     },
     {
       "speaker": "Izzy",
-      "text": "Do you see the big royal castle?",
-      "timestamp": 14.02
+      "text": "One. Blast off.",
+      "timestamp": 773.19
     },
     {
       "speaker": "Dad",
-      "text": "And Mickey Mouse went to the cockpit of the spaceship where there was a big window. We gotta find the castle. And as they got closer they saw that it was a big rock, but it had eyes and a mouth.",
-      "timestamp": 14.08
+      "text": "Blast off.",
+      "timestamp": 776.18
     },
     {
       "speaker": "Izzy",
-      "text": "No, mischief is not a rock.",
-      "timestamp": 14.5
+      "text": "And then their little spaceship flew up into the sky, and it went higher and higher and higher. And it flew through some little puffy clouds up into the blue sky, and then it flew some, into some really big white clouds, and everything went white for a minute.",
+      "timestamp": 776.2
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And then they were up above the clouds, and they could, they could look down at Planet Earth where they had just come from. And it was all beautiful and covered with green forests and blue oceans. And as they got further and further away, the Earth got smaller and smaller.",
+      "timestamp": 793.13
+    },
+    {
+      "speaker": "Izzy",
+      "text": "It turned from being the ground into a big ball. And then as they got further and further away, it looked like it was getting smaller, and smaller, and smaller, and smaller. And then they flew for a very long time, and it was a little boring, but they played games, and read books, and sang songs, and had a nap, and had a snack.",
+      "timestamp": 808.58
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And then, ding, they were there. They had arrived in orbit-",
+      "timestamp": 827.08
     },
     {
       "speaker": "Dad",
-      "text": "Well no, 'cause it wasn't Mischief, it was someone else. It was the floating space rock. And they said, \"Oh, hello space rock.\" And what did the rock say?",
-      "timestamp": 14.53
+      "text": "Ding. No",
+      "timestamp": 832.45
     },
     {
       "speaker": "Izzy",
-      "text": "I'm big!",
-      "timestamp": 15.03
+      "text": "... ding. Um, in the orbit of the giant planet Jupiter, which was a big swirling-",
+      "timestamp": 832.84
     },
     {
       "speaker": "Dad",
-      "text": "You're big? Oh yeah, you are big. Could you help us find the way to Mischief's Royal Castle?",
-      "timestamp": 15.09
+      "text": "Yeah",
+      "timestamp": 841.28
     },
     {
       "speaker": "Izzy",
+      "text": "... purple planet.",
+      "timestamp": 841.3
+    },
+    {
+      "speaker": "Dad",
+      "text": "You, do you see the big royal castle?",
+      "timestamp": 842.53
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And Mickey Mouse went to the cockpit of the spaceship where there was a big window where they could look out around them and controls so he could steer the ship and it would . \"Okay, we gotta find the castle. Let's steer this way and that way. What do we see?",
+      "timestamp": 847.76
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Oh, what's that? Let's, let's fly a little closer.\" And there was something spinning, floating in space, and it was bright and shiny, but it was just a big rock. And they said, \"No, that's not it. Maybe that's it over there.\" And they saw something blinking and flashing, floating over Jupiter.",
+      "timestamp": 862.2
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And as they got closer, they saw that it was a big rock, but it had eyes and a mouth.",
+      "timestamp": 880.37
+    },
+    {
+      "speaker": "Dad",
+      "text": "No, Mischief is not a rock.",
+      "timestamp": 889.64
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Well, no, 'cause it wasn't Mischief. It was someone else. It was the floating space rock. And they said, \"Oh, hello, Space Rock.\" And what did the rock say?",
+      "timestamp": 892.53
+    },
+    {
+      "speaker": "Dad",
+      "text": "I'm big.",
+      "timestamp": 903.6
+    },
+    {
+      "speaker": "Izzy",
+      "text": "You're, you're big? Oh, yeah, you are big. You're much bigger than our spaceship, Space Rock. Um, could you help us find the way to Mischief's royal castle? And what did the space rock say?",
+      "timestamp": 909.3
+    },
+    {
+      "speaker": "Dad",
       "text": "No.",
-      "timestamp": 15.22
-    },
-    {
-      "speaker": "Dad",
-      "text": "You can't help us? Oh, that's too bad. And so finally, Mickey and Minnie and Mole flew their spaceship over to a very round purple rock that on top of it sticking out was a beautiful stone building with tall turrets.",
-      "timestamp": 15.24
+      "timestamp": 923.62
     },
     {
       "speaker": "Izzy",
-      "text": "Dad, are we doing short or long enough?",
-      "timestamp": 16.45
+      "text": "You can't help us? Oh. Um, that's too bad. Well, I hope you have a nice rest of your day, Space Rock. And so they flew on.",
+      "timestamp": 925.32
     },
     {
       "speaker": "Dad",
-      "text": "This is gonna be long now because it's nighttime. And through that window, you know who they could see?",
-      "timestamp": 16.49
+      "text": "That's when Jane said, \"Get me out.\"",
+      "timestamp": 937.76
     },
     {
       "speaker": "Izzy",
+      "text": "And suddenly Mickey and Minnie and Mole turned around-",
+      "timestamp": 942.5
+    },
+    {
+      "speaker": "Dad",
+      "text": "No, Kitty",
+      "timestamp": 944.52
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... because they heard someone say, \"Get me out\"-",
+      "timestamp": 944.94
+    },
+    {
+      "speaker": "Dad",
+      "text": "No, Kitty",
+      "timestamp": 948.08
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... inside their spaceship.",
+      "timestamp": 948.48
+    },
+    {
+      "speaker": "Dad",
+      "text": "No. It was-",
+      "timestamp": 949.9
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And it was Jane",
+      "timestamp": 950.63
+    },
+    {
+      "speaker": "Dad",
+      "text": "... no. No. Jane's here, not in the spaceship.",
+      "timestamp": 952.18
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Oh, oh, Jane's... Why is Jane underneath your legs?",
+      "timestamp": 956.34
+    },
+    {
+      "speaker": "Dad",
+      "text": "No, no.",
+      "timestamp": 958.94
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Oh, Jane said, \"Get me out. Meow, meow, meow. I'm trapped. Help.\"",
+      "timestamp": 959.82
+    },
+    {
+      "speaker": "Dad",
+      "text": "Have you, little kitty. Little kitten, do you want some pets instead?",
+      "timestamp": 968.76
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"Meow, meow, meow, purr, purr, purr. Those are nice gentle pets,\" said Jane the kitten. And so finally, Mickey and Minnie and Mole flew their spaceship over to a very round purple rock that on top of it sticking out was a beautiful stone building with tall turrets-",
+      "timestamp": 978.38
+    },
+    {
+      "speaker": "Dad",
+      "text": "Dad, are we doing short nap or long nap?",
+      "timestamp": 1005.4
+    },
+    {
+      "speaker": "Izzy",
+      "text": "This is gonna be long nap 'cause it's nighttime.",
+      "timestamp": 1009.42
+    },
+    {
+      "speaker": "Dad",
+      "text": "Mm-hmm.",
+      "timestamp": 1012.36
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And there was a big wooden door on the front and a little window high up in the castle. And through that window, you know who they could see?",
+      "timestamp": 1013.38
+    },
+    {
+      "speaker": "Dad",
       "text": "It was Mischief Mouse.",
-      "timestamp": 17.01
-    },
-    {
-      "speaker": "Dad",
-      "text": "It was Mischief Mouse! And they walked up to the door and they pressed the doorbell. What song did it play?",
-      "timestamp": 17.03
+      "timestamp": 1022.68
     },
     {
       "speaker": "Izzy",
-      "text": "Ba-na-na-na-ba-na-na-na-na!",
-      "timestamp": 17.22
-    },
-    {
-      "speaker": "Dad",
-      "text": "So they pressed the button and it went \"Ba-na-na-na-ba-na-na-na-na!\" And Mischief Mouse said, \"Wow! What a surprise! It's my friends Mickey and Minnie, and what's your name?\" And what did the Mole say?",
-      "timestamp": 17.3
+      "text": "It was Mischief Mouse. And so they landed their spaceship right in front of the castle, and they got out of the spaceship, Mickey, and Minnie, and Mole. And they walked up to the door, and they pressed the doorbell. And you know, Mischief Mouse's royal castle had a really special doorbell 'cause it played a song.",
+      "timestamp": 1024.36
     },
     {
       "speaker": "Izzy",
-      "text": "Histopande Graphis Tulit Hamdem.",
-      "timestamp": 17.57
+      "text": "What song did it play?",
+      "timestamp": 1041.96
     },
     {
       "speaker": "Dad",
-      "text": "And Mole said, \"My name's Histopande Graphis Tulit Hamdem.\" And Mischief Mouse said, \"Oh, that's a very long name. Can I call you something for short, Mole?\"",
-      "timestamp": 18.04
+      "text": "Na, na, na, ba, na, na. Ba, na, na, na.",
+      "timestamp": 1043.44
     },
     {
       "speaker": "Izzy",
-      "text": "Actually, Pistastantins.",
-      "timestamp": 18.15
+      "text": "Oh. So they pressed the button and it went, \"Ba, na, na, na, na, na, na.\" And then right away they heard clomp, clomp, clomp, clomp, clomp, clomp, clomp, which was Mischief Mouse's feet clomping down the stairs and opening the door, whoop. And Mischief Mouse said- ...",
+      "timestamp": 1048.9
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"Wow, what a surprise. It's my friends Mickey and Minnie. And what's your name?\" And what did the mole say?",
+      "timestamp": 1063.01
     },
     {
       "speaker": "Dad",
-      "text": "Pistastantins? Mole said, \"You can call me Pistastantins for short.\" And they gave him the special flashlight and everyone decided to go back home. The end.",
-      "timestamp": 18.2
+      "text": "Mischief Mouse.",
+      "timestamp": 1070.62
     },
     {
       "speaker": "Izzy",
+      "text": "No, that's you. You're Mischief Mouse. What's Mole's name?",
+      "timestamp": 1073.64
+    },
+    {
+      "speaker": "Dad",
+      "text": "Histopade Grumbest Tulo Hasden.",
+      "timestamp": 1077.42
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And Mole said, \"My name's Histopade Grafas Tulo Hamden.\" And Mischief Mouse said, \"Oh, that's a very long, um, name. Can I call you something for short, Mole?\"",
+      "timestamp": 1084.48
+    },
+    {
+      "speaker": "Dad",
+      "text": "Actually, Pishtostantins.",
+      "timestamp": 1094.8
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Pishtostantins?",
+      "timestamp": 1100.16
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yeah, that's a short name.",
+      "timestamp": 1101.92
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Oh. Mole said, \"You can call me Pishtostantins for short.\" And Mickey Mouse said, \"We've brought you a gift, Mischief Mouse.\" Oh, and Mischief Mouse said, \"Wow, I'm excited for my gift. What did you bring me?\" And Mickey pulled out from behind her back the special flashlight that they had brought all the way from Earth.",
+      "timestamp": 1103.66
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And Mischief Mouse said, \"Wow, thank you. I love flashlights, and it's, sometimes it's very dark here in outer space.\" And Mischief Mouse turned the flashlight on and made the whole castle glow with the bright light from the flashlight. And then everyone decided to go back home, and so they flew their spaceship all the way back to the Earth.",
+      "timestamp": 1124.98
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And then they landed, and got in their beds, and went to sleep. The end.",
+      "timestamp": 1147.44
+    },
+    {
+      "speaker": "Dad",
+      "text": "Dad?",
+      "timestamp": 1153
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah?",
+      "timestamp": 1153.82
+    },
+    {
+      "speaker": "Dad",
       "text": "Now let's do a book.",
-      "timestamp": 19.16
+      "timestamp": 1154.3
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Oh, okay. Do you wanna do diaper before book or after book?",
+      "timestamp": 1157.68
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yeah, diaper after book.",
+      "timestamp": 1163.28
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Okie doke.",
+      "timestamp": 1166.02
     }
   ],
   "characters": [
@@ -414,7 +904,19 @@
       "description": "A stone building with tall turrets located on a purple rock near Jupiter."
     }
   ],
-  "wordCount": 1609,
-  "izzyWordCount": 283,
-  "dadWordCount": 1326
+  "wordCount": 2700,
+  "izzyWordCount": 2263,
+  "dadWordCount": 437,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T15:03:05.190Z",
+    "speakerMap": {
+      "speaker_0": "Izzy",
+      "speaker_1": "Dad"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "low"
+  }
 }

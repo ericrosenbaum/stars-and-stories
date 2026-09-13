@@ -6,1208 +6,1733 @@
   "audioFilename": "Space Mission in the office.m4a",
   "highlightQuote": {
     "text": "I saw that the emotions are ocean.",
-    "timestamp": 2241.4
+    "timestamp": 602.92
   },
   "transcript": [
     {
       "speaker": "Dad",
-      "text": "Okay, let's get in our seats to get ready for our space mission.",
-      "timestamp": 0
+      "text": "Okay, let's-",
+      "timestamp": 1.54
     },
     {
       "speaker": "Izzy",
-      "text": "And the bright button is on.",
-      "timestamp": 8.12
+      "text": "Let's get this",
+      "timestamp": 3.72
     },
     {
       "speaker": "Dad",
-      "text": "Oh yeah, got a red button. Okay, let's test out all the parts of our spaceship and make sure it's working.",
-      "timestamp": 12
+      "text": "... let's get in our seats to get ready for our space mission.",
+      "timestamp": 4.19
     },
     {
       "speaker": "Izzy",
-      "text": "But there's but there are but these stuff but this stuff is already on, so you can test this. Can you press this?",
-      "timestamp": 22.34
+      "text": "Hello. And the red button is on.",
+      "timestamp": 6.72
     },
     {
       "speaker": "Dad",
-      "text": "Oh, when you pressed that, it made a sound, that was interesting. Here, try the button and make sure that works.",
-      "timestamp": 34.2
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh yeah. Whoa. Okay. Are you ready for blast off?",
-      "timestamp": 43.1
+      "text": "Oh, yep, got a red button. Okay, let's test out all the parts of our spaceship and make sure it's working.",
+      "timestamp": 12.22
     },
     {
       "speaker": "Izzy",
-      "text": "No, I think Pookey should do some tricks.",
-      "timestamp": 54.2
+      "text": "But, but, but there's, but there are, but these stuff, but this stuff is already on, so you can test this. When you press this ...",
+      "timestamp": 22.88
     },
     {
       "speaker": "Dad",
-      "text": "Oh, Pookey should do some tricks. Is Pookey coming on this space mission?",
-      "timestamp": 57.01
+      "text": "Oh, when you pressed that, it made a sound. That was interesting. Here, try the button and make sure that works. Oh, yeah. Whoa. Okay. Are you ready for blast off?",
+      "timestamp": 37.4
     },
     {
       "speaker": "Izzy",
-      "text": "Yeah, Pookey. You can sit right here.",
-      "timestamp": 59.5
+      "text": "No. I think Pooky should do some tricks.",
+      "timestamp": 54
     },
     {
       "speaker": "Dad",
-      "text": "Okay, strap into your seat Pookey, we're going on a space mission. Oh, is Crabby Robot going to come with us? What happened to Crabby Robot?",
-      "timestamp": 108.1
+      "text": "Oh, Pooky should do some tricks. Is Pooky coming on the space mission?",
+      "timestamp": 58.04
     },
     {
       "speaker": "Izzy",
-      "text": "Where? Let's see. I think he still wants to be there.",
-      "timestamp": 119.5
+      "text": "Yeah. Pooky, you can sit right here.",
+      "timestamp": 61.32
     },
     {
       "speaker": "Dad",
-      "text": "Oh, okay. By the window.",
-      "timestamp": 125.1
+      "text": "Okay, strap into your seat, Pooky. We're going on a space mission. Oh, is Crabby Robot gonna come with us? What happened to Crabby Robot?",
+      "timestamp": 68.34
     },
     {
       "speaker": "Izzy",
-      "text": "Buckle, Jane. You have to fly. Buckle. I'm just going to get buckle. Buckle, Bill. Even you have to get buckled. Uncle Bill, do you like being in a rocket ship or not?",
-      "timestamp": 132.8
+      "text": "Where is he?",
+      "timestamp": 82.76
     },
     {
       "speaker": "Dad",
-      "text": "And Uncle Bill says yes, I do like being in a rocket ship, as long as we can go on a space mission. Oh, thanks for buckling me in. Oh, and here is Fox. Here I am, reporting for space mission duty! I will be the navigator. That means Fox helps us decide where to go. Oh, got good buckle Fox, you're going to be safe buckled in.",
-      "timestamp": 151.34
+      "text": "Hmm. Oh.",
+      "timestamp": 84.92
     },
     {
       "speaker": "Izzy",
-      "text": "And Jane is going to have a good great buckle.",
-      "timestamp": 230.1
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Hey Fox, what do you want to do?",
-      "timestamp": 317.5
+      "text": "I think-",
+      "timestamp": 86.29
     },
     {
       "speaker": "Dad",
-      "text": "I'm waiting for the mission, whenever you strap in, we can do our countdown to blast off!",
-      "timestamp": 319.2
+      "text": "Oh, over by the window.",
+      "timestamp": 86.3
     },
     {
       "speaker": "Izzy",
-      "text": "Here, here. Buckled in already. And Fox, you have to do this. You have to use these tools.",
-      "timestamp": 325.4
+      "text": "Yeah, he still wants to be there.",
+      "timestamp": 88.96
     },
     {
       "speaker": "Dad",
-      "text": "Oh, thanks for trimming my fur.",
-      "timestamp": 342.1
+      "text": "Oh, okay.",
+      "timestamp": 91.32
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Can you buckle this? Buckle Jane. Hold on. Fox could get buckled. Uncle Bill, even you have to get buckled. Uncle Bill, do you like being in a rocket ship or not?",
+      "timestamp": 93.54
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Uncle Bill says, \"Yes, I do like being in a rocket ship, as long as we can go on a space mission.\"",
+      "timestamp": 112.34
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah.",
+      "timestamp": 117.94
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, thanks for buckle- buckling me in.",
+      "timestamp": 119.32
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Uncle, okay. Jane, why ...",
+      "timestamp": 122.46
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, and here's Fox.",
+      "timestamp": 131
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Fox.",
+      "timestamp": 133.89
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Here I am, reporting for space mission duty. I will be the navigator.\" That means Fox helps us decide where to go. Oh, got a good buckle, Fox. You're gonna be safe buckled in.",
+      "timestamp": 133.89
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And Jane-",
+      "timestamp": 153.7
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"I'm ready.\"",
+      "timestamp": 154.15
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And Jane is gonna have a good great buckle. This one. Hey, Fox, what do you want to do?",
+      "timestamp": 154.72
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"I'm ready for the mission whenever you strap in and we can do our countdown to blast off.\"",
+      "timestamp": 198.84
+    },
+    {
+      "speaker": "Izzy",
+      "text": "We're, we're buckled in and ready. And Fox, you want to do this, have to use these tools.",
+      "timestamp": 204.08
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh. Oh, thanks for trimming my fur.",
+      "timestamp": 222.88
     },
     {
       "speaker": "Izzy",
       "text": "Fox, do you don't like these scissors?",
-      "timestamp": 347
+      "timestamp": 227.32
     },
     {
       "speaker": "Dad",
-      "text": "Oh, I don't like those scissors? No, I like them.",
-      "timestamp": 350.2
+      "text": "Oh, I don't like those scissors?",
+      "timestamp": 230.52
     },
     {
       "speaker": "Izzy",
-      "text": "You like it? Look at your eye new color. That eye is brown, that eye is yellow.",
-      "timestamp": 359.1
+      "text": "No, I was just asking you.",
+      "timestamp": 232.72
     },
     {
       "speaker": "Dad",
-      "text": "Oh, my eyes are new colors now, thank you.",
-      "timestamp": 406.4
+      "text": "Oh, I, no, I, I like them.",
+      "timestamp": 235.1
     },
     {
       "speaker": "Izzy",
-      "text": "You have to wear a special something. You have to do this.",
-      "timestamp": 413.2
+      "text": "Do you like to get your eye new colors?",
+      "timestamp": 238.42
     },
     {
       "speaker": "Dad",
-      "text": "Oh, what's that? A necklace? Oh, thank you. It got tangled up with our control panel here. There we go.",
-      "timestamp": 419
+      "text": "Oh.",
+      "timestamp": 242.51
     },
     {
       "speaker": "Izzy",
-      "text": "Jane wants to wear one! Jane is a big kid, so she uses blue, and Pookey is a small kid, so she uses yellow. We have to get special space gloves on, in case I find any space rocks floating past us.",
-      "timestamp": 521.5
+      "text": "That eye is brown. That eye is yellow.",
+      "timestamp": 242.8
     },
     {
       "speaker": "Dad",
-      "text": "Oh, good idea. Could you make some space rocks to float? Okay. Well, let's, how about we do our blast off first, and then we can see if we can find any space rocks. Oh, here's a space cat. Hi Finn Space Cat.",
-      "timestamp": 558.1
+      "text": "Oh, my eyes are new colors now. Thank you.",
+      "timestamp": 246.84
     },
     {
       "speaker": "Izzy",
-      "text": "Dad, could you put on this glove? These are like grown-up size gloves, so but we can put them on you.",
-      "timestamp": 621.4
-    },
-    {
-      "speaker": "Dad",
-      "text": "Ha ha!",
-      "timestamp": 631.5
-    },
-    {
-      "speaker": "Izzy",
-      "text": "And Dad, if you touch a space rock, you have to put on one of those.",
-      "timestamp": 633.2
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, should I put on one so we can each have one? Okay. Okay, I've got my space rock glove and you've got your space rock glove.",
-      "timestamp": 638.1
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Can you make can you make a special space box to put in your glove? Bananas into our special space rock bag.",
-      "timestamp": 646.2
-    },
-    {
-      "speaker": "Dad",
-      "text": "Okay, I got one.",
-      "timestamp": 656.3
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Space rocks.",
-      "timestamp": 658.1
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, it's a bag just for space rocks.",
-      "timestamp": 700.4
-    },
-    {
-      "speaker": "Izzy",
-      "text": "No, actually you just put the space rocks like in here.",
-      "timestamp": 703.1
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, a big box for space rocks. Okay.",
-      "timestamp": 715.4
-    },
-    {
-      "speaker": "Izzy",
-      "text": "And spirals! Spirals and space rocks.",
-      "timestamp": 723.2
-    },
-    {
-      "speaker": "Dad",
-      "text": "Okay, we got one spiral and look, here's one little space rock. Oh, make sure to get it with your glove.",
-      "timestamp": 729.1
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Hehe!",
-      "timestamp": 738
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, what was that funny sound? I heard a little hehe. Was someone ticklish there?",
-      "timestamp": 739.4
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, what's going on with our sounds? What does that sound mean? Is that an alarm on our spaceship?",
-      "timestamp": 802.1
-    },
-    {
-      "speaker": "Izzy",
-      "text": "That that was from that was alarm.",
-      "timestamp": 808.2
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, what does the alarm mean? Usually an alarm means there's some kind of problem on the ship, like something is broken, or maybe we're getting a message from someone.",
-      "timestamp": 813.5
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Oh, well, there's a problem. Uncle Bill and Fox are calling to see what's needing. Hey um, hi Fox, we got a message and it says something's broken. Our space engine is broken!",
-      "timestamp": 822.4
-    },
-    {
-      "speaker": "Dad",
-      "text": "Our space engine is broken! says Fox. What are we going to do?",
-      "timestamp": 843.2
-    },
-    {
-      "speaker": "Izzy",
-      "text": "We have to replace the batteries. I'll find the right ones. Right one. Right one. Right one. These are all the kinds of right ones.",
-      "timestamp": 853.4
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, okay. Isabella, on this mission, you can be the chief engineer, so you'll replace the batteries on the engine. Now, the engine is where is the engine?",
-      "timestamp": 912.4
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Well, we can use well here. Here's the engine. We just put them right under here.",
-      "timestamp": 923.1
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh yeah, plug the batteries in right under there. Click click click.",
-      "timestamp": 932.4
-    },
-    {
-      "speaker": "Izzy",
-      "text": "I can use these pieces of cardboard to be well connectors.",
-      "timestamp": 936.4
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, connectors?",
-      "timestamp": 946.2
-    },
-    {
-      "speaker": "Izzy",
-      "text": "So nothing gets broken. So no one gets hurt.",
-      "timestamp": 947.1
-    },
-    {
-      "speaker": "Dad",
-      "text": "Good idea. Yeah, that's very important. Fox says, okay, chief engineer Isabella, are the engines all fixed? Are we ready to test them?",
-      "timestamp": 951.2
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Yes.",
-      "timestamp": 1002.5
-    },
-    {
-      "speaker": "Dad",
-      "text": "Okay, I'll press the button to test them and we'll see what happens. Um, I'll count down from three. Let's count together. Three, two, one.",
-      "timestamp": 1004.2
-    },
-    {
-      "speaker": "Dad",
-      "text": "Hey, that sounds good! The engines are working. Hooray!",
-      "timestamp": 1015.4
-    },
-    {
-      "speaker": "Izzy",
-      "text": "But when we see a space rock, Dad can make a space rock and make it crash, crash.",
-      "timestamp": 1020.1
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, are we going to crash into a space rock?",
-      "timestamp": 1028.1
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Yeah.",
-      "timestamp": 1030.4
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh no! Good thing we just finished fixing our engine because we're about to crash into a space rock! What are we going to do? Oh look, we found a floating space rock! Floating right in front of the ship. But it's getting closer and closer! Oh no, we're going to crash into it! What can we do? Should we steer the ship away from it?",
-      "timestamp": 1031.1
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, oh! We shot our little space laser to bounce the rock away. Boing! We're safe.",
-      "timestamp": 1101.5
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Oh, but that was a message! We're getting another message! That was a message call to see if because something was broken. Our Morza was broken! This this is called a Morza.",
-      "timestamp": 1109.1
-    },
-    {
-      "speaker": "Dad",
-      "text": "A Morza? What's the Morza, chief engineer Isabella?",
-      "timestamp": 1127.1
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Music. Let me show you if I get up on this bench. Reach up to this thing. This says yeah, the Morza switch wasn't working.",
-      "timestamp": 1130.4
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, the Morza switch on the on the piano, I see.",
-      "timestamp": 1145.4
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Yeah.",
-      "timestamp": 1148.1
-    },
-    {
-      "speaker": "Dad",
-      "text": "Did you fix it?",
-      "timestamp": 1150.1
-    },
-    {
-      "speaker": "Izzy",
-      "text": "No, it's not fixed. It was a message to send to Uncle Bill and the fixers of Pookey and Uncle Bill! Hey Uncle Bill, the Jozzer's broken!",
-      "timestamp": 1151.2
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh my gosh! says Uncle Bill. What are we going to do about that?",
-      "timestamp": 1208.5
-    },
-    {
-      "speaker": "Izzy",
-      "text": "The Jozzer is the switch on the piano.",
-      "timestamp": 1212.4
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, okay. Let's go investigate the Jozzer.",
-      "timestamp": 1217.1
-    },
-    {
-      "speaker": "Izzy",
-      "text": "See, nothing works on nothing works!",
-      "timestamp": 1221.3
-    },
-    {
-      "speaker": "Dad",
-      "text": "Here, Uncle Bill says what if we press this one? Can you try that, chief engineer Isabella, please? This one. Oh, and then if you let go, oh, the red light came on. I think it might be oops, I think it might be working now. Give it a second. Okay, try it again.",
-      "timestamp": 1225.4
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Did you hear that Uncle Bill? That was it! But we're going to get an over message.",
-      "timestamp": 1248.1
-    },
-    {
-      "speaker": "Dad",
-      "text": "An over message?",
-      "timestamp": 1257.2
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Yeah. That that this is the that low light tube is the overidge. And an overidge is this black thing.",
-      "timestamp": 1259.4
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, is that part of our spaceship?",
-      "timestamp": 1316.3
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Yes, it was.",
-      "timestamp": 1318.5
-    },
-    {
-      "speaker": "Dad",
-      "text": "And what does it do?",
-      "timestamp": 1320.4
-    },
-    {
-      "speaker": "Izzy",
-      "text": "It just helps combinations that fixes.",
-      "timestamp": 1321.4
-    },
-    {
-      "speaker": "Dad",
-      "text": "Combinations of what?",
-      "timestamp": 1327.3
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Pictures and Legos.",
-      "timestamp": 1330.4
-    },
-    {
-      "speaker": "Dad",
-      "text": "Pictures and Legos, that's very interesting.",
-      "timestamp": 1332.1
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh my gosh, what was that?",
-      "timestamp": 1338.2
-    },
-    {
-      "speaker": "Izzy",
-      "text": "It was another message! It was Finn's alarm clock is broken! It's the fixer of Pookeys!",
-      "timestamp": 1339.5
-    },
-    {
-      "speaker": "Dad",
-      "text": "Okay, Pookey, can you fix Finn's alarm clock for us, please?",
-      "timestamp": 1352.4
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Pookey Pookey Pookey! On you have to fix Finn's alarm clock!",
-      "timestamp": 1357.2
-    },
-    {
-      "speaker": "Dad",
-      "text": "And Pookey says okay, where is it?",
-      "timestamp": 1402.1
-    },
-    {
-      "speaker": "Izzy",
-      "text": "It's this. Oh, the little button doesn't it doesn't work.",
-      "timestamp": 1404.1
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, let me let me try that little button. Oh, the lights went on. Oh, what's that sound?",
-      "timestamp": 1411.3
-    },
-    {
-      "speaker": "Izzy",
-      "text": "It was when you press the button it made a dra dra sound. You have to fix that.",
-      "timestamp": 1420.4
-    },
-    {
-      "speaker": "Dad",
-      "text": "The dra dra sound? That's not what we want. Here let me try it. Is that the right sound?",
-      "timestamp": 1427.3
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Yeah! Right sound.",
-      "timestamp": 1434.5
-    },
-    {
-      "speaker": "Dad",
-      "text": "Okay, it's all fixed, Finncat. What would Finncat say? Meow! You're welcome, Finn.",
-      "timestamp": 1436.4
-    },
-    {
-      "speaker": "Izzy",
-      "text": "We're going to be space rocks crashing into us!",
-      "timestamp": 1444.1
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh no, space rocks crashing into us again! What do we do?",
-      "timestamp": 1449.2
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Fox is doing a regional house.",
-      "timestamp": 1502.5
-    },
-    {
-      "speaker": "Dad",
-      "text": "Here, let me get you a little foil to make a space rock. There you go, and I'll get some too. Okay. Oh, that's a big space rock coming right for us. Oh, please don't hit the air conditioner.",
-      "timestamp": 1508.1
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Oh, sorry.",
-      "timestamp": 1523.5
-    },
-    {
-      "speaker": "Dad",
-      "text": "That's okay. Oh, the space rock bumped right into us! Bonk! Oh my gosh! Bonk! Bank! Bonk! Bonk! Blonk! Skronk! Oh, that was a big one! Clonk! Oh my gosh, our spaceship is getting all kinds of little dents. How are we going to fix them?",
-      "timestamp": 1525.4
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Space mission to of Adena Sendestin.",
-      "timestamp": 1548.1
-    },
-    {
-      "speaker": "Dad",
-      "text": "A what?",
-      "timestamp": 1553.1
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Space mission to of the Destin for Fox and me yeah.",
-      "timestamp": 1554.2
-    },
-    {
-      "speaker": "Dad",
-      "text": "I don't know what you're talking about, chief engineer Isabella.",
-      "timestamp": 1602.4
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Well, I was talking about Fox's friend.",
-      "timestamp": 1604.1
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, who's Fox's friend?",
-      "timestamp": 1607.1
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Muffy. This is Muffy. Muffy, can you fix the all of the little dents in our in the wall the wall of ship see look at all these tiny little dents.",
-      "timestamp": 1608.2
-    },
-    {
-      "speaker": "Dad",
-      "text": "And Muffy says, oh my goodness! Look at all those dents. Do you have any tools I can use?",
-      "timestamp": 1625.3
-    },
-    {
-      "speaker": "Izzy",
-      "text": "A marker sentin. The board that you can computon on to help the little holes go down.",
-      "timestamp": 1635.4
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, okay, I'll try it. Let's see. Oh, I fixed one, says Muffy.",
-      "timestamp": 1651.1
-    },
-    {
-      "speaker": "Izzy",
-      "text": "And I can and I just beep it with a coin or something like this.",
-      "timestamp": 1659.1
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, a coin. Okay, I'll try that. Beep. Oh thanks, that's helpful.",
-      "timestamp": 1707.1
-    },
-    {
-      "speaker": "Dad",
-      "text": "Okay, I got a few more dents to fix here. Tap tap tap, fix fix fix. Bonk bonk bonk, fix fix fix, tap tap tap, fix fix fix. Fix fix fix. All done, says Muffy. Wow, that was fast, Muffy, good work.",
-      "timestamp": 1714.2
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Oh, what's that sound? Another another message!",
-      "timestamp": 1727.4
-    },
-    {
-      "speaker": "Dad",
-      "text": "Another message, who's it from?",
-      "timestamp": 1730.5
-    },
-    {
-      "speaker": "Izzy",
-      "text": "It was from Finncat and his tin foil posser was broken, it he made a marble run one time and it broken.",
-      "timestamp": 1732.1
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, his tin foil posser is broken? From his marble run? Finncat, we better help you out.",
-      "timestamp": 1743.1
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Because rocking the rocking are all in a jumble because his marble run and then these are all in motion right now.",
-      "timestamp": 1749.5
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh my goodness, who can help fix that?",
-      "timestamp": 1803.1
-    },
-    {
-      "speaker": "Izzy",
-      "text": "His friend Dit Darnet. This is Dit Darnet. Dit Darnet um you have to fix Finncat's marble run and the pesten wire ended up in a twist.",
-      "timestamp": 1807.5
-    },
-    {
-      "speaker": "Dad",
-      "text": "And Dit Darnet says, nyerber nyerber nyerber. Oh, Dit Darnet doesn't speak our language. He speaks nyerber-nyerber. Well, Dit Darnet um nyerber nyerber nyerber.",
-      "timestamp": 1827.4
-    },
-    {
-      "speaker": "Dad",
-      "text": "Nyerber nyerber nyerber. Nyerber nyerber nyerber. Um, nyerber nyerber.",
-      "timestamp": 1840.1
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Nyerber!",
-      "timestamp": 1844.2
-    },
-    {
-      "speaker": "Dad",
-      "text": "He said okay.",
-      "timestamp": 1845.2
-    },
-    {
-      "speaker": "Izzy",
-      "text": "This is here, here's the plug and the bassen.",
-      "timestamp": 1846.5
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, um Dit Darnet has a question for you, chief engineer Isabella. Nyerber nyerber?",
-      "timestamp": 1850.4
-    },
-    {
-      "speaker": "Izzy",
-      "text": "He he nyerber nyerber nyerber? That's the wire plug and that's the battery.",
-      "timestamp": 1858.2
-    },
-    {
-      "speaker": "Dad",
-      "text": "Nyerber nyerber nyerber. He said thank you. I speak nyerber-nyerber. Do you want to try?",
-      "timestamp": 1904.1
-    },
-    {
-      "speaker": "Izzy",
-      "text": "No.",
-      "timestamp": 1910.4
-    },
-    {
-      "speaker": "Dad",
-      "text": "No? Okay. Nyerber nyerber nyerber. Oh, he fixed it already! Good job, nyerber-nyerber. I mean, what was his name again? Anyway. Nyerber nyerber nyerber.",
-      "timestamp": 1911.5
+      "text": "There you go. You have to wear a special ... You have to wear this.",
+      "timestamp": 248.89
     },
     {
       "speaker": "Dad",
       "text": "Oh, what's that?",
-      "timestamp": 1924.1
+      "timestamp": 260.6
     },
     {
       "speaker": "Izzy",
-      "text": "It was another message from Jane! It was a message from Jane! Her her car seat is broken.",
-      "timestamp": 1925.3
+      "text": "A necklace.",
+      "timestamp": 262.46
     },
     {
       "speaker": "Dad",
-      "text": "Jane, your car seat's broken? We better fix that for you.",
-      "timestamp": 1933.2
+      "text": "Oh, a necklace. Oh, thank you. Oh, it got tangled up with our control panel here. There we go.",
+      "timestamp": 263.04
     },
     {
       "speaker": "Izzy",
-      "text": "This car seat has dent and Mr. Offises is going to come here right now. Here's Mr. Offises.",
-      "timestamp": 1936.4
+      "text": "Jane has to wear one. Jane is a big kid, so she has to ... And Pooky is a small kid, so she has to have one. Have to get special space clothes on in case I find any space rocks floating past us.",
+      "timestamp": 274.48
     },
     {
       "speaker": "Dad",
-      "text": "Mr. Offises?",
-      "timestamp": 1949.1
+      "text": "Oh, good idea.",
+      "timestamp": 358.06
     },
     {
       "speaker": "Izzy",
-      "text": "Mr. Office Mr. Office, you have to fix Jane's car seat.",
-      "timestamp": 1950.4
+      "text": "Uh, could you make some space rocks? Okay.",
+      "timestamp": 358.82
     },
     {
       "speaker": "Dad",
-      "text": "Meow meow! Oh you speak meow language? I didn't know that one, okay. Meow meow, meow meow meow. Fix fix fix fix fix. Meow meow meow, purr purr purr. Oh, sounds like it's all done already. Wow. Good job fixing it, Mr. Office.",
-      "timestamp": 1954.2
+      "text": "Okay. Well, let's ... How about we do our blast off first, and then we can see if we can find any space rocks. Oh, here's a space cat. Hi, Finn Space Cat.",
+      "timestamp": 363.38
     },
     {
       "speaker": "Izzy",
-      "text": "The Jockin is broken!",
-      "timestamp": 2013.4
+      "text": "Dad, could you put on this glove?",
+      "timestamp": 379.66
     },
     {
       "speaker": "Dad",
-      "text": "The Jockin? What's that?",
-      "timestamp": 2016.1
+      "text": "Oh. These are like grown-up sized gloves, so ... But we can put them on you.",
+      "timestamp": 382.26
     },
     {
       "speaker": "Izzy",
-      "text": "This is called a Jock Fishies Jockston is broken.",
-      "timestamp": 2018.3
+      "text": "And Dad, if you touch a space rock, you have to put on one of those.",
+      "timestamp": 393.52
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, should I put on one so-",
+      "timestamp": 399.22
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah",
+      "timestamp": 400.35
+    },
+    {
+      "speaker": "Dad",
+      "text": "... we can each have one? Okay.",
+      "timestamp": 400.35
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah.",
+      "timestamp": 402.21
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay. I've got my space rock glove and you've got your space rock glove.",
+      "timestamp": 402.56
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Can you make, can you make special space rock to put in your glove-",
+      "timestamp": 405.32
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay. Here's one",
+      "timestamp": 411.1
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... and then into our special space rocks bag?",
+      "timestamp": 412.28
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay, I got one.",
+      "timestamp": 415.92
+    },
+    {
+      "speaker": "Izzy",
+      "text": "It says, \"Space rocks.\"",
+      "timestamp": 417.28
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, it's a bag just for space rocks.",
+      "timestamp": 422.72
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No. Actually, you just put the space rocks like in here.",
+      "timestamp": 425.2
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh.",
+      "timestamp": 433.98
+    },
+    {
+      "speaker": "Izzy",
+      "text": "It's a bag.",
+      "timestamp": 435.08
+    },
+    {
+      "speaker": "Dad",
+      "text": "Big box for space rocks, okay.",
+      "timestamp": 435.19
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And spirals. Spirals and space rocks.",
+      "timestamp": 444.02
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay, we got one spiral and look, here's one little space rock. Oh, make sure to get it with your glove. Oh, what was that funny sound? I, I heard a little",
+      "timestamp": 449.64
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Well-",
+      "timestamp": 465.62
+    },
+    {
+      "speaker": "Dad",
+      "text": "Was someone in there?",
+      "timestamp": 465.65
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Well, I might have to touch this one.",
+      "timestamp": 468.22
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, what's going on with our sounds? What does that sound mean? Is that an alarm on our spaceship?",
+      "timestamp": 480.5
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Shh. That, that was from ... It was alarm.",
+      "timestamp": 487.04
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, what do the, the alarm mean? Usually an alarm means there's some kind of problem on the ship, like something is broken, or maybe we're getting a message from someone.",
+      "timestamp": 492.74
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Oh. Well, there's a problem. Uncle Bill and Fox are calling to see what's needing. Hey, um, hi, Fox. We got a message and it says something is broken. Our space engine is broken.",
+      "timestamp": 502.48
+    },
+    {
+      "speaker": "Dad",
+      "text": "Our space engine is broken, says Fox. What are we gonna do?",
+      "timestamp": 528.8
+    },
+    {
+      "speaker": "Izzy",
+      "text": "We have to replace the batteries. I'll find the right ones.",
+      "timestamp": 533.44
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, good idea.",
+      "timestamp": 539.5
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Right one, right one, right one. These are all the kinds of right ones.",
+      "timestamp": 541.38
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh.",
+      "timestamp": 551.5
+    },
+    {
+      "speaker": "Izzy",
+      "text": "These are right ones.",
+      "timestamp": 552.06
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay. Isabella, on this mission, you can be the chief engineer, so you'll replace the batteries on the engine. Now, the engine is ... Where's the engine?",
+      "timestamp": 553.82
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Well, well, we could use ... Well, here. Here's the engine. We just put them right under here.",
+      "timestamp": 563.32
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh yeah, plug the batteries in right under there. Click, click, click.",
+      "timestamp": 572.18
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I can use these pieces of cardboard to be, well, connectors-",
+      "timestamp": 576.12
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, connectors",
+      "timestamp": 586.48
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... so nothing gets broken.",
+      "timestamp": 587.01
+    },
+    {
+      "speaker": "Dad",
+      "text": "Good idea.",
+      "timestamp": 589.26
+    },
+    {
+      "speaker": "Izzy",
+      "text": "There.",
+      "timestamp": 590.86
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Fox says-",
+      "timestamp": 592.12
+    },
+    {
+      "speaker": "Izzy",
+      "text": "So no one gets hurt.",
+      "timestamp": 592.63
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yeah, that's very important. Fox says, \"Okay, Chief Engineer Isabella, are the engines all fixed? Are we ready to test them?\"",
+      "timestamp": 594.28
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yes.",
+      "timestamp": 602.36
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay, I'll press the button to test them and we'll see what happens. Um, I'll count down from three. Let's count together. Three, two, one. Hey, that sounds good. The engines are working. Hooray.",
+      "timestamp": 602.92
+    },
+    {
+      "speaker": "Izzy",
+      "text": "But when we see a space rock ... Dad, can you make space rock?",
+      "timestamp": 620.67
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh.",
+      "timestamp": 625.74
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Can you make it crash? Crash.",
+      "timestamp": 625.93
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, a, are we gonna crash into a space rock?",
+      "timestamp": 628.66
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah.",
+      "timestamp": 630.88
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, no. Good thing we just finished fixing our engine, 'cause we're about to crash into a space rock. What are we gonna do? Oh, look. We found a floating space rock floating right in front of the ship, but it's getting closer and closer. Oh no, we're gonna crash into it.",
+      "timestamp": 631.42
+    },
+    {
+      "speaker": "Dad",
+      "text": "What can we do?",
+      "timestamp": 653.18
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Ugh.",
+      "timestamp": 655.28
+    },
+    {
+      "speaker": "Dad",
+      "text": "Should we steer the ship away from it? Oh, oh, we shot our little space laser to bounce the rock away. Boing. We're safe.",
+      "timestamp": 658.02
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Oh, but that was a message.",
+      "timestamp": 669.18
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, we, we're getting another message.",
+      "timestamp": 672.04
+    },
+    {
+      "speaker": "Izzy",
+      "text": "That was a message called to see, uh, because something was broken. Our morseza was broken. This, this, this is called a morseza.",
+      "timestamp": 674.04
+    },
+    {
+      "speaker": "Dad",
+      "text": "A morseza? What's the morseza, Chief Engineer Isabella?",
+      "timestamp": 686.3
+    },
+    {
+      "speaker": "Izzy",
+      "text": "It's ... Let me show you. If I get up on this bench, reach up to this thing. This is ... Yeah, the morseza switch wasn't working.",
+      "timestamp": 691
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, the morseza switch on the, on the piano. I see.",
+      "timestamp": 704.9
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah.",
+      "timestamp": 709.02
+    },
+    {
+      "speaker": "Dad",
+      "text": "Did you fix it?",
+      "timestamp": 709.78
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No.",
+      "timestamp": 711.42
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh.",
+      "timestamp": 712.46
+    },
+    {
+      "speaker": "Izzy",
+      "text": "It's not fixed. It was a message that sent to Uncle Bill and the fixers of Pooky and Uncle Bill-",
+      "timestamp": 712.68
+    },
+    {
+      "speaker": "Dad",
+      "text": "Gosh, says Uncle Bill, what are we gonna do about that?",
+      "timestamp": 728.36
+    },
+    {
+      "speaker": "Izzy",
+      "text": "The jawser is the switch on the piano.",
+      "timestamp": 732.86
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, okay. Let's go investigate the jawser.",
+      "timestamp": 736.9
+    },
+    {
+      "speaker": "Izzy",
+      "text": "See? Nothing works. Nothing works.",
+      "timestamp": 741.86
+    },
+    {
+      "speaker": "Dad",
+      "text": "Here, Uncle Bill says, \"What if we press this one?\" Can you try that, Chief Engineer Isabella, please? This one. Oh, and then if you let go ... Oh, the red light came on. I think it might be ... Oops. I think it might be working now. Give it a second.",
+      "timestamp": 745.66
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay, try it again.",
+      "timestamp": 763.86
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Did you hear that, Uncle Bill? That was it. But we're g- we're gonna get an over message.",
+      "timestamp": 768.94
+    },
+    {
+      "speaker": "Dad",
+      "text": "An over message?",
+      "timestamp": 777.67
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah. That, that ... This is the ... That little black tube is the overage.",
+      "timestamp": 779.16
+    },
+    {
+      "speaker": "Dad",
+      "text": "What is that?",
+      "timestamp": 789.34
+    },
+    {
+      "speaker": "Izzy",
+      "text": "An overage is this black thing.",
+      "timestamp": 789.36
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, is that part of our spaceship?",
+      "timestamp": 796.22
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yes, it is.",
+      "timestamp": 798.14
+    },
+    {
+      "speaker": "Dad",
+      "text": "And what does it do?",
+      "timestamp": 800.46
+    },
+    {
+      "speaker": "Izzy",
+      "text": "It just helps combinations that fixes.",
+      "timestamp": 801.74
+    },
+    {
+      "speaker": "Dad",
+      "text": "Combinations of what?",
+      "timestamp": 807.76
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Pictures and Legos.",
+      "timestamp": 810.52
+    },
+    {
+      "speaker": "Dad",
+      "text": "Pictures and Legos. That's very interesting. Oh my gosh, what was that?",
+      "timestamp": 812.54
+    },
+    {
+      "speaker": "Izzy",
+      "text": "It's, was another message. It was Finny the alarm clock is broken.",
+      "timestamp": 819.02
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, no.",
+      "timestamp": 826.96
+    },
+    {
+      "speaker": "Izzy",
+      "text": "It, it's a fixer of Pooky's.",
+      "timestamp": 827.74
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay, Pooky, can you fix Finny's alarm clock for us, please?",
+      "timestamp": 832.44
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Pooky, Pooky. Pooky, um, you have to fix Finny the alarm clock.",
+      "timestamp": 836.04
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Pooky says, \"Okay, where is it?\"",
+      "timestamp": 842.48
+    },
+    {
+      "speaker": "Izzy",
+      "text": "It's this.",
+      "timestamp": 844.54
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, well-",
+      "timestamp": 845.6
+    },
+    {
+      "speaker": "Izzy",
+      "text": "The little button doesn't ch-",
+      "timestamp": 846.84
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh",
+      "timestamp": 849.32
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... this doesn't work.",
+      "timestamp": 849.8
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, let me, let me try that little button. Oh, the lights went on.",
+      "timestamp": 851.36
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Drin, drin, drin, drin.",
+      "timestamp": 856.04
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, what's that sound?",
+      "timestamp": 859.5
+    },
+    {
+      "speaker": "Izzy",
+      "text": "It was, when you pressed the button it made a drin drin sound. You have to fix that.",
+      "timestamp": 860.88
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, the drin drin sound. That's not what we want. Here, let me try it. Is that the right sound?",
+      "timestamp": 867.36
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah. Great sound.",
+      "timestamp": 875.8
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay. It's all fixed, Finncat. And what does Finncat say?",
+      "timestamp": 876.8
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Meow.",
+      "timestamp": 880.16
+    },
+    {
+      "speaker": "Dad",
+      "text": "You're welcome, Finn.",
+      "timestamp": 882.52
+    },
+    {
+      "speaker": "Izzy",
+      "text": "We're gonna, there's gonna be space rocks crashing into us.",
+      "timestamp": 884.56
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh no, space rocks crashing into us again. What do we do? Oh, you want a hand with that?",
+      "timestamp": 889.36
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Cool. It's the thing. Original help.",
+      "timestamp": 901.96
+    },
+    {
+      "speaker": "Dad",
+      "text": "Here, let me get you a little foil. We'll make a space rock. There you go. And I'll get some, too. Okay.",
+      "timestamp": 908.56
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah.",
+      "timestamp": 917.66
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, that's a big space rock coming right for us. Oh, please don't hit the air conditioner.",
+      "timestamp": 919.36
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Oh, sorry.",
+      "timestamp": 923.56
+    },
+    {
+      "speaker": "Dad",
+      "text": "That's okay. Oh, the space rock bumped right into us. Bonk. Oh my gosh. Bonk.",
+      "timestamp": 924.78
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah.",
+      "timestamp": 935.78
+    },
+    {
+      "speaker": "Dad",
+      "text": "Bank. Bonk. Bonk. Blonk. Skronk. Oh, that was a big one. Clonk. Oh my gosh, our space is, spaceship is getting all kinds of little dents. How are we gonna fix them?",
+      "timestamp": 936.46
+    },
+    {
+      "speaker": "Izzy",
+      "text": "The space mission's all of, of Jenna Sendaston.",
+      "timestamp": 948.46
+    },
+    {
+      "speaker": "Dad",
+      "text": "A what?",
+      "timestamp": 954.32
+    },
+    {
+      "speaker": "Izzy",
+      "text": "The space mission's all of the Daston, Sir Fox and Miata.",
+      "timestamp": 955.6
+    },
+    {
+      "speaker": "Dad",
+      "text": "I don't know what you're talking about, Chief Engineer Isabella.",
+      "timestamp": 961.42
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Well, I was talking about Fox's friend.",
+      "timestamp": 964.82
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, who's Fox's friend?",
+      "timestamp": 968.26
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Muffy.",
+      "timestamp": 969.88
+    },
+    {
+      "speaker": "Dad",
+      "text": "Muffy? Oh, oh.",
+      "timestamp": 971.33
+    },
+    {
+      "speaker": "Izzy",
+      "text": "This is Muffy. Muffy, can you fix the, all of the little dents in our, in our, the wa- the wall of the ship? See, look at all these tiny little dents.",
+      "timestamp": 971.6
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Muffy says, \"Oh my goodness.\"",
+      "timestamp": 985.38
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Dent, dent, dent, dent. Dent.",
+      "timestamp": 987.99
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Look at all those dents. Do you have any tools I can use?\"",
+      "timestamp": 988
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Dent, dent, dent, dent, dent, dent.",
+      "timestamp": 990.92
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Can you find me a tool please?\" says Muffy.",
+      "timestamp": 994.76
+    },
+    {
+      "speaker": "Izzy",
+      "text": "A marker sent in. The board that you can computing on to help-",
+      "timestamp": 1003.46
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, I can-",
+      "timestamp": 1011.8
+    },
+    {
+      "speaker": "Izzy",
+      "text": "The little holes go down.",
+      "timestamp": 1012.08
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, okay. I'll try it. Let's see.",
+      "timestamp": 1014.38
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Few more.",
+      "timestamp": 1017.41
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, \"I fixed one,\" says Muffy.",
+      "timestamp": 1017.7
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And the, I get, and I just beep it with a coin or something like this.",
+      "timestamp": 1019.86
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, a coin. Okay, I'll try that. Beep. Oh, thanks. That's helpful. Okay, I got a few more dents to fix here. Tap, tap, tap. Fix, fix, fix. Bonk, bonk, bonk. Fix, fix, fix. Tap, tap, tap. Fix, fix, fix. Fix, fix, fix. \"All done,\" says Muffy. Wow, that was fast, Muffy.",
+      "timestamp": 1026.64
+    },
+    {
+      "speaker": "Dad",
+      "text": "Good work. Oh, what's that sound?",
+      "timestamp": 1044.38
+    },
+    {
+      "speaker": "Izzy",
+      "text": "There's another message.",
+      "timestamp": 1048.2
+    },
+    {
+      "speaker": "Dad",
+      "text": "Another message. Who's it from?",
+      "timestamp": 1050.62
+    },
+    {
+      "speaker": "Izzy",
+      "text": "It was from Finncat and his tinfoil posser was broken. It, he made a marble run one time and it's broken.",
+      "timestamp": 1052.38
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, his tinfoil posser is broken from his marble run? Finncat, we better help you out.",
+      "timestamp": 1063.38
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Well, yeah, 'cause his walk-ins, uh, are all in a jumble from his marble run and then these are all in motion right now.",
+      "timestamp": 1069.86
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, my goodness. Who can help fix that?",
+      "timestamp": 1082.52
+    },
+    {
+      "speaker": "Izzy",
+      "text": "This friend, the Darnit.",
+      "timestamp": 1086.46
+    },
+    {
+      "speaker": "Dad",
+      "text": "The D-",
+      "timestamp": 1089.9
+    },
+    {
+      "speaker": "Izzy",
+      "text": "This, this is Dit Darnit.",
+      "timestamp": 1090.62
+    },
+    {
+      "speaker": "Dad",
+      "text": "Dit Darnit? Oh.",
+      "timestamp": 1092.52
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Dit Darnit, um- You have to fix Finncat's marble run and the piston, check the wire and end it up and put the stuff",
+      "timestamp": 1094.04
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Did Darn It says, \"Nirbnirbirnir, nirbnirbirnir, nirbnirbirnir.\" Oh, Did Darn It doesn't speak our language. He speaks nirbnir. Well, well, Did Darn It, um, nirbnir, nirbnir. \"Nirbnirbirnir, nirbnirbirnir, nirbnirbirnir.\" Um, uh, nirbnir. \"Nirbnir.\"",
+      "timestamp": 1107.09
+    },
+    {
+      "speaker": "Izzy",
+      "text": "This is-",
+      "timestamp": 1124.96
+    },
+    {
+      "speaker": "Dad",
+      "text": "He said, \"Okay\"",
+      "timestamp": 1125.84
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... the wire. Here's the plug and the basin.",
+      "timestamp": 1126.88
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, um, Did Darn It has a question for you, Chief Engineer Isabella.",
+      "timestamp": 1130.06
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Nirbnir? He-",
+      "timestamp": 1133.8
+    },
+    {
+      "speaker": "Dad",
+      "text": "Nirbnirbirnir. Nirbnir",
+      "timestamp": 1138.6
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... That's the wire plug and that's the battery.",
+      "timestamp": 1140.48
+    },
+    {
+      "speaker": "Dad",
+      "text": "Nirbnirbirnir. He said, \"Thank you.\" I speak nirbnir. Do you want to try?",
+      "timestamp": 1144.18
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No.",
+      "timestamp": 1150.54
+    },
+    {
+      "speaker": "Dad",
+      "text": "No? Okay. Nirbnirbirnir, nirbnirbirnir. Oh, he's ... Oh, he fixed it already. Good job, Nirbnir. Nirbnir. I mean, what was her name again? Anyway. Nirbnirbirnir. Oh, what's that?",
+      "timestamp": 1151.52
+    },
+    {
+      "speaker": "Izzy",
+      "text": "It was another message from Jane. It was a message from Jane. Her car seat is, her car seat's broken.",
+      "timestamp": 1165.16
+    },
+    {
+      "speaker": "Dad",
+      "text": "Jane, your car seat's broken. We better fix that for you.",
+      "timestamp": 1173.64
+    },
+    {
+      "speaker": "Izzy",
+      "text": "This car seat has dents and Mr. Office's is gonna come here right now. Here's Mr. Office's.",
+      "timestamp": 1176.82
+    },
+    {
+      "speaker": "Dad",
+      "text": "Mr. Offices?",
+      "timestamp": 1186.62
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Mr. Off- Mr. Office, you have to fix Jane's car seat.",
+      "timestamp": 1189.32
+    },
+    {
+      "speaker": "Dad",
+      "text": "Meow, meow. Oh, you speak meow language. I didn't know that. Okay. Meow, meow. Meow, meow, meow, meow, meow. Fix, fix, fix, fix, fix. Meow, meow, meow, purr, purr, purr. Oh, sounds like it's all done already. Wow. Good job fixing it, Mr. Office.",
+      "timestamp": 1194.8
+    },
+    {
+      "speaker": "Izzy",
+      "text": "The jockin is broken.",
+      "timestamp": 1212.82
+    },
+    {
+      "speaker": "Dad",
+      "text": "The jockin? What's that?",
+      "timestamp": 1216.4
+    },
+    {
+      "speaker": "Izzy",
+      "text": "This is called a jock-",
+      "timestamp": 1218.64
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yeah?",
+      "timestamp": 1221.32
+    },
+    {
+      "speaker": "Izzy",
+      "text": "This is, this is jockin is broken.",
+      "timestamp": 1221.52
     },
     {
       "speaker": "Dad",
       "text": "Oh, who can fix it for us?",
-      "timestamp": 2025.1
+      "timestamp": 1226.4
     },
     {
       "speaker": "Izzy",
-      "text": "Mr. Hornet Turtle.",
-      "timestamp": 2028.1
+      "text": "Mr. Harnet Turtle.",
+      "timestamp": 1228.36
     },
     {
       "speaker": "Dad",
-      "text": "Mr. Hornet Turtle? Oh, hi Mr. Hornet Turtle. Go ahead, you can fix it.",
-      "timestamp": 2031.5
+      "text": "Mr. Harnet Turtle? Oh, hi, Mr. Harnet Turtle. Go ahead, you can fix it.",
+      "timestamp": 1230.98
     },
     {
       "speaker": "Izzy",
-      "text": "Fix it. Fix the robot. Fix fix Same the Fishies fix Same the Fishies robot.",
-      "timestamp": 2036.5
+      "text": "Fix it. Fix the robot. Fix, fix Sam's, fix Sam's the fishy's robot.",
+      "timestamp": 1236.12
     },
     {
       "speaker": "Dad",
-      "text": "Okay, Same the Fishy, I'll fix your robot. Let's see, what seems to be the problem with it?",
-      "timestamp": 2047.2
+      "text": "Okay, Sam's the fishy, I'll fix your robot. Let's see. What seems to be the problem with it?",
+      "timestamp": 1245.9
     },
     {
       "speaker": "Izzy",
-      "text": "There's no batteries.",
-      "timestamp": 2050.4
+      "text": "There's no battery.",
+      "timestamp": 1250.92
     },
     {
       "speaker": "Dad",
-      "text": "Oh, there's no batteries. And I think unfortunately we're out of batteries so we can't put batteries in this one. But we can see if the propeller spins when we spin it, let's test it. Yep, it works! And then it has four wheels, let's try rolling it. Yep, that works too. I think your robot is okay.",
-      "timestamp": 2052.4
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Okay. The keyboard is on and... it was a message from Danet the Koala.",
-      "timestamp": 2113.1
+      "text": "Oh, there's no batteries and I think unfortunately we're out of batteries, so we can't put batteries in this one, but we can see if the propeller spins when we spin it. Let's test it. Yep, it works, and then it has four wheels. Let's try rolling it. Yep, that works, too.",
+      "timestamp": 1252.98
     },
     {
       "speaker": "Dad",
-      "text": "Oh, from Danet the Koala. What does Danet the Koala say?",
-      "timestamp": 2131.2
+      "text": "So I think your robot is okay.",
+      "timestamp": 1270.16
     },
     {
       "speaker": "Izzy",
-      "text": "He says he says that this this his computer is broken. It's all jumbled up in emotions. And Mr. Flossy is going to fix.",
-      "timestamp": 2134.4
+      "text": "Okay. If there's ... The keyboard is on and ... It was a message from Danette the Koala.",
+      "timestamp": 1272.46
     },
     {
       "speaker": "Dad",
-      "text": "Okay Mr. Flossy, let's let's help Koala fix the computer which is all jumbled up with emotions. My goodness, how are we going to fix it?",
-      "timestamp": 2146.1
+      "text": "Oh, from the Danette the Koala. What does Danette the Koala say?",
+      "timestamp": 1290.26
     },
     {
       "speaker": "Izzy",
-      "text": "And the button is not personed up.",
-      "timestamp": 2153.5
+      "text": "It says, he says that his, his, his computer is broken. It's all jumbled up in emotions.",
+      "timestamp": 1293.56
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh.",
+      "timestamp": 1303.15
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And Mr. Flossy is gonna fix it.",
+      "timestamp": 1303.17
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay, Mr. Flossy, let's, let's help koala fix the computer, which is all jumbled up with emotions. My goodness, how are we gonna fix it?",
+      "timestamp": 1306.6
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And the button is op- pressing the ...",
+      "timestamp": 1313.88
     },
     {
       "speaker": "Dad",
       "text": "Bless you.",
-      "timestamp": 2159.2
+      "timestamp": 1321.08
     },
     {
       "speaker": "Izzy",
       "text": "No battery.",
-      "timestamp": 2202.1
+      "timestamp": 1322.52
     },
     {
       "speaker": "Dad",
-      "text": "Oh, no battery. Oh, no I think actually the battery's inside there. Yep, the battery's okay.",
-      "timestamp": 2204.3
+      "text": "Oh, no battery. Oh, no, I think actually the battery's inside there. Yep, the battery's okay.",
+      "timestamp": 1324.64
     },
     {
       "speaker": "Izzy",
-      "text": "Yeah, but the engine is not personing right. So we have to fix it this.",
-      "timestamp": 2211.5
+      "text": "Yeah, but the engine is not rolling right, so we have to fix it with this.",
+      "timestamp": 1330.08
     },
     {
       "speaker": "Dad",
-      "text": "Oh, yeah, there you go. Fix fix fix. That looks good. Now its emotions are still all jumbled up. What do we do? Can we untangle them?",
-      "timestamp": 2217.4
+      "text": "Oh, yeah, there you go. Fix, fix, fix. That looks good. Now, its emotions are still all jumbled up. What, what do we do? Can we untangle them?",
+      "timestamp": 1337.32
     },
     {
       "speaker": "Izzy",
-      "text": "No, they're not that's not a thing we can do.",
-      "timestamp": 2227.5
+      "text": "No, they're not ... That's not a thing we can do.",
+      "timestamp": 1347.54
     },
     {
       "speaker": "Dad",
-      "text": "Oh, what can we do? Oh yeah, look through the lens so you can get a really close look. What do you see?",
-      "timestamp": 2232.1
+      "text": "Oh, what can we do? Oh, yeah, look through the lens so you can get a really close look. What do you see?",
+      "timestamp": 1352
     },
     {
       "speaker": "Izzy",
-      "text": "I saw that the emotions are ocean.",
-      "timestamp": 2241.4
+      "text": "I saw that there's some mess in our ocean.",
+      "timestamp": 1360.66
     },
     {
       "speaker": "Dad",
-      "text": "The what? The emotions?",
-      "timestamp": 2244.2
+      "text": "The what?",
+      "timestamp": 1364.3
     },
     {
       "speaker": "Izzy",
-      "text": "The emotions.",
-      "timestamp": 2246.5
-    },
-    {
-      "speaker": "Izzy",
-      "text": "This 918 sirc sirc.",
-      "timestamp": 2257.4
+      "text": "The emotions. That's not ... Okay. 918 turns, turns.",
+      "timestamp": 1365.52
     },
     {
       "speaker": "Dad",
-      "text": "Oh, that's a replacement circuit board. Yeah, if you stick that on, we'll see if that fixes it. And then we can test the computer. Okay, stick it on. Okay, now, let's see. If I press the button, we'll check if it goes beep boop. Let me press. Beep beep beep beep beep, boop boop boop boop boop. I think it's working! You want to test it a little bit?",
-      "timestamp": 2306.4
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Beep beep beep beep beep. There's two computers now.",
-      "timestamp": 2328.2
+      "text": "Oh, that's a replacement circuit board. Yeah, if you stick that on, we'll see if that fixes it, and then we can test the computer. Okay, stick it on. Okay. Now, let's see. If I press the button, we'll check if it goes, \"Beep, boop.\" Let me press. Beep, beep, beep, beep, beep, boop, boop, boop, boop, boop.",
+      "timestamp": 1386.86
     },
     {
       "speaker": "Dad",
-      "text": "Oh, okay. Does that one make sounds too?",
-      "timestamp": 2334.3
+      "text": "I think it's working. You want to test it a little bit?",
+      "timestamp": 1406.34
     },
     {
       "speaker": "Izzy",
-      "text": "I think there's a little button in this computer.",
-      "timestamp": 2342.1
+      "text": "Yeah. Beep, beep, beep, beep, beep.",
+      "timestamp": 1409.52
     },
     {
       "speaker": "Dad",
-      "text": "Oh, that's the little button, the round thing. You can try pressing it. But you have to make the noise yourself.",
-      "timestamp": 2348.4
+      "text": "Oh, that sounds good.",
+      "timestamp": 1411.36
     },
     {
       "speaker": "Izzy",
-      "text": "Oh! I think we got a message. Another message!",
-      "timestamp": 2357.2
+      "text": "There's two computers now.",
+      "timestamp": 1412.3
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, okay. Does that one make sounds, too?",
+      "timestamp": 1414.48
     },
     {
       "speaker": "Izzy",
-      "text": "That was a message from Pookey, her follows was broken.",
-      "timestamp": 2408.2
+      "text": "Yeah. I think there's a little button in this computer.",
+      "timestamp": 1420.34
+    },
+    {
+      "speaker": "Dad",
+      "text": "Hmm. Oh, that's the little button, the round thing. You can try pressing it, but you have to make the noise yourself.",
+      "timestamp": 1426.54
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Oh, I think we got a message.",
+      "timestamp": 1435.42
+    },
+    {
+      "speaker": "Dad",
+      "text": "Another message?",
+      "timestamp": 1438.74
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I think we got a message. That was a message from Pooky. Her phalanx comb was broken.",
+      "timestamp": 1439.78
     },
     {
       "speaker": "Dad",
       "text": "Oh my gosh.",
-      "timestamp": 2415.4
+      "timestamp": 1454.82
     },
     {
       "speaker": "Izzy",
-      "text": "I think Fox is going to be the fixer now. Fox, can you fix Pookey's comb?",
-      "timestamp": 2419.2
+      "text": "I think Fox is gonna be a fixer now",
+      "timestamp": 1460.51
     },
     {
       "speaker": "Dad",
-      "text": "Okay, says Fox, I can fix Pookey's comb, no problem. Let's see, what seems to be the problem with this comb? I'll taste it. Yum yum yum yum yum, tastes good. Can you comb me a little bit with it? Comb, comb, comb. Oh yeah, that's working. Hmm, it's just a little dirty. Let me clean it off. Okay, all fixed. Oh, you have a magic wand?",
-      "timestamp": 2430.4
+      "text": "Okay, Fox, you be the fixer.",
+      "timestamp": 1463.79
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Fox, can you fix... Darn. Can you fix Pooky's comb?",
+      "timestamp": 1465.21
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Okay,\" says Fox, \"I can fix Pooky's comb, no problem. Let's see. What seems to be the problem with this comb? I'll taste it. It tastes good. Can you comb me a little bit with it? Comb, comb, comb. Oh, yeah, that's working. Hm, it's just a little dirty.",
+      "timestamp": 1470.11
+    },
+    {
+      "speaker": "Dad",
+      "text": "Let me clean it off. Okay, all fixed. Oh, you have a magic wand.\"",
+      "timestamp": 1489.63
     },
     {
       "speaker": "Izzy",
       "text": "This is a fly swatter stick.",
-      "timestamp": 2457.2
+      "timestamp": 1497.43
     },
     {
       "speaker": "Dad",
       "text": "A fly swatter stick, I see. Do we have any flies on our spaceship?",
-      "timestamp": 2501.1
+      "timestamp": 1500.55
     },
     {
       "speaker": "Izzy",
-      "text": "Swat swat! A fly! I swat swatted!",
-      "timestamp": 2504.2
-    },
-    {
-      "speaker": "Izzy",
-      "text": "It was a message... no, it was not. It was Jim Jim a beaver. It's a beaver is making the dents in the air conditioner. Dent dent dent dent dent. Dent dent dent dent dent.",
-      "timestamp": 2508.4
+      "text": "Sort of. A fly. I swat it. It was a message. No, it was not. It was... A beaver. It's a beaver. It's making some dents in the air conditioner. Dun, dun, dun, dun, dun, dun, dun, dun, dun. Dun, dun, dun, dun. Fox-",
+      "timestamp": 1503.33
     },
     {
       "speaker": "Dad",
-      "text": "Oh my gosh.",
-      "timestamp": 2535.4
+      "text": "Oh, my gosh",
+      "timestamp": 1535.53
     },
     {
       "speaker": "Izzy",
-      "text": "Fox, um Fox, um beaver made lots of holes in our air conditioner.",
-      "timestamp": 2539.2
+      "text": "... Fox, um, Fox, um, beaver made lots of holes in our air conditioner.",
+      "timestamp": 1538.11
     },
     {
       "speaker": "Dad",
-      "text": "Oh no, says Fox, what can we do?",
-      "timestamp": 2549.4
+      "text": "\"Oh, no,\" says Fox. \"What can we do?\"",
+      "timestamp": 1548.39
     },
     {
       "speaker": "Izzy",
-      "text": "I could be the Japanesel. And sit up up be the Japanesel sit up here.",
-      "timestamp": 2551.4
+      "text": "I could be the Japanese.",
+      "timestamp": 1550.89
     },
     {
       "speaker": "Dad",
-      "text": "Oh, you're getting up in the captain's chair, okay.",
-      "timestamp": 2559.2
+      "text": "The what?",
+      "timestamp": 1553.49
     },
     {
       "speaker": "Izzy",
-      "text": "Ahoy there!",
-      "timestamp": 2604.1
+      "text": "Be the Japanese. Sit up.",
+      "timestamp": 1555.97
     },
     {
       "speaker": "Dad",
-      "text": "Ahoy there, Captain Isabella!",
-      "timestamp": 2606.3
+      "text": "Oh, you're getting up in the captain's chair. Okay.",
+      "timestamp": 1559.27
     },
     {
       "speaker": "Izzy",
-      "text": "No, actually yes, Captain Isabella. Arrr!",
-      "timestamp": 2610.2
+      "text": "Ahoy there. No, actually-",
+      "timestamp": 1564.23
+    },
+    {
+      "speaker": "Dad",
+      "text": "Ahoy there, Captain Isabella.",
+      "timestamp": 1568.23
     },
     {
       "speaker": "Izzy",
-      "text": "Arrr! I got dice for you. Arrr! Arrr! Arrr! What's this?",
-      "timestamp": 2619.4
+      "text": "No, actually, yes, Captain Isabella. I got dice for you. Arr, arr, arr. What's this? Arr.",
+      "timestamp": 1570.41
     },
     {
       "speaker": "Dad",
       "text": "Oh, that's a little lens. You could look right through it and see how things look. Whoa. Or it could be a gem.",
-      "timestamp": 2629.4
+      "timestamp": 1589.49
     },
     {
       "speaker": "Izzy",
-      "text": "Arrr! I got a dice.",
-      "timestamp": 2640.2
+      "text": "Arr, I got a dice.",
+      "timestamp": 1600.01
     },
     {
       "speaker": "Dad",
-      "text": "Will you roll it, please?",
-      "timestamp": 2642.1
+      "text": "Will you roll it, please? What number did you get?",
+      "timestamp": 1602.25
     },
     {
       "speaker": "Izzy",
-      "text": "One. Arrr!",
-      "timestamp": 2644.4
+      "text": "One. Arr.",
+      "timestamp": 1605.75
     },
     {
       "speaker": "Dad",
-      "text": "Arrr! What else are you going to do, Captain Isabella?",
-      "timestamp": 2647.4
+      "text": "Arr. What, what else are you gonna do, Captain Isabella?",
+      "timestamp": 1610.34
     },
     {
       "speaker": "Izzy",
-      "text": "I have the cardbox to show us where we are. Arrr! Arrr! I show you where we are. Arrr! Arrr! Where we are. All right, in the same batch top. Arrr!",
-      "timestamp": 2656.2
+      "text": "I have a card box to show us where we are.",
+      "timestamp": 1615.22
+    },
+    {
+      "speaker": "Dad",
+      "text": "Arr.",
+      "timestamp": 1621.11
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Arr. I show you where I are, uh, we are. Arr. Arr. There we are. We're in the same bad objector. Arr.",
+      "timestamp": 1623.07
     },
     {
       "speaker": "Dad",
       "text": "What do you see on the card?",
-      "timestamp": 2724.3
+      "timestamp": 1644.49
     },
     {
       "speaker": "Izzy",
-      "text": "Arrr, a Jecta.",
-      "timestamp": 2726.4
+      "text": "Objector.",
+      "timestamp": 1646.43
     },
     {
       "speaker": "Dad",
-      "text": "A Jecta? What's that?",
-      "timestamp": 2729.1
+      "text": "Objector? What's that?",
+      "timestamp": 1648.59
     },
     {
       "speaker": "Izzy",
-      "text": "Arrr, Jecta and Machamesten. Arrr, a Chest and Macens. That's a pirate word. Arrr!",
-      "timestamp": 2730.4
+      "text": "Objector and michemeltons. Arr, a chest of masons. That's a pirate word. Arr.",
+      "timestamp": 1650.93
     },
     {
       "speaker": "Dad",
-      "text": "Arrr! A pirate word? What does it mean?",
-      "timestamp": 2745.3
+      "text": "A pirate word? What does it mean?",
+      "timestamp": 1665.83
     },
     {
       "speaker": "Izzy",
-      "text": "A Serjacken and Machajelas Desten. Arrr, we're in the Hundred Acre Wood.",
-      "timestamp": 2749.5
+      "text": "Mr. Jack and McGilliston. Arr, we're in the Hundred Acre Wood.",
+      "timestamp": 1669.21
     },
     {
       "speaker": "Dad",
       "text": "We are? Wow. Who lives there?",
-      "timestamp": 2756.2
+      "timestamp": 1677.01
     },
     {
       "speaker": "Izzy",
-      "text": "Roo and Kanga and Tigger and Pooh. Arrr!",
-      "timestamp": 2800.1
+      "text": "Arr, Pooh and Tigger and Tigger and Pooh.",
+      "timestamp": 1680.37
     },
     {
       "speaker": "Dad",
-      "text": "Arrr! Should we visit them?",
-      "timestamp": 2806.4
+      "text": "Oh.",
+      "timestamp": 1685.33
     },
     {
       "speaker": "Izzy",
-      "text": "Yes! Arrr! So now we have a space pirate ship and we're visiting the Hundred Acre Wood. Yeah. Arrr! Meow we are at the Hundred Acre Wood. Arrr!",
-      "timestamp": 2809.1
+      "text": "Arr.",
+      "timestamp": 1685.68
+    },
+    {
+      "speaker": "Dad",
+      "text": "Arr. Should we visit them?",
+      "timestamp": 1687.45
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yes. Arr.",
+      "timestamp": 1690.49
+    },
+    {
+      "speaker": "Dad",
+      "text": "So now we have a space pirate ship and we're visiting the Hundred Acre Wood?",
+      "timestamp": 1694.75
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah. Arr. And we are at the Hundred Acre Wood. Arr.",
+      "timestamp": 1699.11
     },
     {
       "speaker": "Dad",
       "text": "What's on that card?",
-      "timestamp": 2831.3
+      "timestamp": 1711.95
     },
     {
       "speaker": "Izzy",
-      "text": "Mushrooms!",
-      "timestamp": 2833.4
+      "text": "Mushrooms.",
+      "timestamp": 1713.59
     },
     {
       "speaker": "Dad",
-      "text": "Mushrooms? Oh yeah, there's lots of mushrooms in the Hundred Acre Wood.",
-      "timestamp": 2835.4
+      "text": "Mushrooms. Oh, yeah, there's lots of mushrooms in the Hundred Acre Wood.",
+      "timestamp": 1715.57
     },
     {
       "speaker": "Izzy",
-      "text": "Wooo! Atchin all and testawise buttonso potential atch test Arrr! Test the sound effect-ey.",
-      "timestamp": 2839.2
+      "text": "Oh. Oh. Action Owen tester wise. Potential. Potential s test arr, test the sound effects machine.",
+      "timestamp": 1718.79
     },
     {
       "speaker": "Dad",
-      "text": "Oh, test the sound effect machine? Okay, here I go. Arrr! Okay, it's working.",
-      "timestamp": 2857.3
+      "text": "Oh, test the sound effe- the sound effects machine? Okay, here I go.",
+      "timestamp": 1737.25
     },
     {
       "speaker": "Izzy",
-      "text": "I think there's a problem, Arrr! Arrr!",
-      "timestamp": 2905.1
+      "text": "Arr.",
+      "timestamp": 1740.31
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay, it's working.",
+      "timestamp": 1741.83
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Hmm. I think there's a problem. Arr, arr.",
+      "timestamp": 1743.91
     },
     {
       "speaker": "Dad",
       "text": "What's the problem, Captain Izzy?",
-      "timestamp": 2908.4
+      "timestamp": 1748.03
     },
     {
       "speaker": "Izzy",
-      "text": "Our dents got fixed up and squeaked by Oscar Mouse. Arrr Arrr! Arsten Mustow! Hey Dad, our dents got mixed up by Arsten us Oscar Mouse and squeaked.",
-      "timestamp": 2910.1
+      "text": "Our dents got fixed up and squeaked by Oscar Mouse. Arr, our dents must... Hey, Dad, our dents got mixed up by Arsten, uh, Os- Oscar Mouse and squeaked.",
+      "timestamp": 1750.69
     },
     {
       "speaker": "Dad",
-      "text": "They got squeaked? What does that mean?",
-      "timestamp": 2926.4
+      "text": "Oh, they got squeaked? What does that mean?",
+      "timestamp": 1766.33
     },
     {
       "speaker": "Izzy",
-      "text": "Yeah, and Oscar did that to our ship. See, that white paint was the squeak oil.",
-      "timestamp": 2928.1
+      "text": "Yeah. And Os- Oscar did that to our ship.",
+      "timestamp": 1767.83
     },
     {
       "speaker": "Dad",
-      "text": "The squeak oil? Oh.",
-      "timestamp": 2936.4
+      "text": "Oh, Oscar.",
+      "timestamp": 1772.13
     },
     {
       "speaker": "Izzy",
-      "text": "Yes, so now you have to fix that. Arsten Madarshen Elisowajarshen.",
-      "timestamp": 2938.1
+      "text": "See, that white paint was the squeak oil.",
+      "timestamp": 1772.85
     },
     {
       "speaker": "Dad",
-      "text": "What's Arsten Madarshen mean?",
-      "timestamp": 2945.4
+      "text": "The squeak oil, oh.",
+      "timestamp": 1776.45
     },
     {
       "speaker": "Izzy",
-      "text": "It means Hundred Acre Wood is coming up Destrish-er-Mars.",
-      "timestamp": 2948.1
+      "text": "Yeah, so now you have to fix that. Arsin Madarshin is a Lisa Wajash.",
+      "timestamp": 1778.19
     },
     {
       "speaker": "Dad",
-      "text": "Oh, okay. We're almost at the Hundred Acre Wood, so we'll fix up the squeak oil. Fix fix fix fix fix. Oh, I think I need to wipe it up with a space rag. Okay, it's all clean.",
-      "timestamp": 2955.1
+      "text": "What's Arsin Madarshin mean?",
+      "timestamp": 1785.73
     },
     {
       "speaker": "Izzy",
-      "text": "Argenosting, oh using a Basilest card. Argenosty Hundred Acre Wood, Argenosto. Archenesto Argenoste map. Go the chest, look for the pitchellens. Argenkitten Argenrivers and Argenis.",
-      "timestamp": 3006.1
+      "text": "It means Hundred Acre Wood is coming up next. Derish on Mars.",
+      "timestamp": 1788.27
     },
     {
       "speaker": "Dad",
-      "text": "Mama would like to get ready to go in a few minutes, so I think it's time for us to land our space pirate ship in the Hundred Acre Wood. Are you ready?",
-      "timestamp": 3048.2
+      "text": "Oh, okay. We're almost at the Hundred Acre Woods. We'll fix up the squeak oil. Fix, fix, fix, fix, fix. Oh, I think I need to wipe it up with a space rag. Okay, it's all clean.",
+      "timestamp": 1795.05
     },
     {
       "speaker": "Izzy",
-      "text": "Argen Miss in Chargen Dost.",
-      "timestamp": 3101.5
+      "text": "Arginesting. Oh, using a basil last card. Arster. Arruntasty Hundred Acre Wood. Arginus- Oceans go. Orange is the map. Go with chest. Look for the challenge. Orange and kitchen. Orange and rivers and oceans.",
+      "timestamp": 1806.01
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay.",
+      "timestamp": 1846.16
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And chests and-",
+      "timestamp": 1846.43
+    },
+    {
+      "speaker": "Dad",
+      "text": "Mama would like to get ready to go in a few minutes, so I think it's time for us to land our space pirate ship in the 100 Acre Wood. Are you-",
+      "timestamp": 1848.24
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Ours and this and charging us.",
+      "timestamp": 1860.05
     },
     {
       "speaker": "Dad",
       "text": "Are you ready, Captain Isabella?",
-      "timestamp": 3104.1
+      "timestamp": 1864.38
     },
     {
       "speaker": "Izzy",
-      "text": "No, we're just a little bit more ways. We just have a little bit more ways.",
-      "timestamp": 3106.1
+      "text": "No, we're just, we're just a little bit more ways. We just have a little bit more ways.",
+      "timestamp": 1866.21
     },
     {
       "speaker": "Dad",
       "text": "Okay, let's keep going.",
-      "timestamp": 3112.5
+      "timestamp": 1870.84
     },
     {
       "speaker": "Izzy",
       "text": "Dad, could you set the blue timer?",
-      "timestamp": 3115.1
+      "timestamp": 1874.94
     },
     {
       "speaker": "Dad",
       "text": "Sure.",
-      "timestamp": 3118.2
+      "timestamp": 1878.14
     },
     {
       "speaker": "Izzy",
       "text": "I want two more minutes.",
-      "timestamp": 3120.4
+      "timestamp": 1880.34
     },
     {
       "speaker": "Dad",
       "text": "Okay, two minutes on the timer.",
-      "timestamp": 3122.1
+      "timestamp": 1882.22
     },
     {
       "speaker": "Izzy",
-      "text": "Arsen Gotto Christopher Atous. Just partway to go to Christopher Robin's house.",
-      "timestamp": 3156.2
+      "text": "Oceans and... All right. Oceans go to Christopher Robin's house. Just partway to go to Christopher Robin's house.",
+      "timestamp": 1887.48
     },
     {
       "speaker": "Dad",
-      "text": "Oh, partway there. I see it in the distance. Our spaceship is coming in for a landing! Navigator Fox says it's right up ahead! We're almost there!",
-      "timestamp": 3206.1
+      "text": "Oh, partway there. I see it in the distance. Our spaceship is coming in for a landing. Navigator Fox says-",
+      "timestamp": 1925.64
     },
     {
       "speaker": "Izzy",
-      "text": "We just out Barrel Street go-west. Arzen use the yellow card, Arsteness Arzentacel Forness.",
-      "timestamp": 3218.4
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Pootcha kitten in that.",
-      "timestamp": 3242.1
+      "text": "And check",
+      "timestamp": 1934.66
     },
     {
       "speaker": "Dad",
-      "text": "Oh, what do you see on that one? ",
-      "timestamp": 3244.1
+      "text": "... \"It's right up ahead. We're almost there.\"",
+      "timestamp": 1935.04
     },
     {
       "speaker": "Izzy",
-      "text": "A pufferfish. I got a giant I got a diamond.",
-      "timestamp": 3250.2
+      "text": "To just on Barrel Street called Best. Ours and use the yellow car. Ours and this. Ours and tap. So forest this. Put that chest-",
+      "timestamp": 1938.04
     },
     {
       "speaker": "Dad",
-      "text": "Oh, beautiful diamond. Okay, we're coming in for our landing in a big clearing in Hundred Acre Wood, just outside Christopher Robin's house. Here we come, everybody strap in! Click click! Strap in Captain Izzy, strap in Navigator Fox, strap in Pookey, strap in Jane! Spaceship is coming down! We're almost there! It's getting closer! Oh, the blue timer's blinking and... Boop! We landed with a gentle little boop, right on the grassy open area in front of Christopher Robin's house. And let's jump out of our spaceship and say, Hello! We made it! Okay, now it's time to take off our spacesuits.",
-      "timestamp": 3256.4
+      "text": "I'll get it",
+      "timestamp": 1962.52
     },
     {
       "speaker": "Izzy",
-      "text": "Hey Fox, look, I found you diamond!",
-      "timestamp": 3349.1
+      "text": "... to hook and that.",
+      "timestamp": 1962.97
     },
     {
       "speaker": "Dad",
-      "text": "And Fox says thank you, that's a beautiful diamond.",
-      "timestamp": 3352.2
+      "text": "Oh, what do you see on that one?",
+      "timestamp": 1964.18
     },
     {
       "speaker": "Izzy",
-      "text": "Fox, where are you? Giddy!",
-      "timestamp": 3355.2
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Fox, this is you.",
-      "timestamp": 3401.4
+      "text": "A pufferfish.",
+      "timestamp": 1969.92
     },
     {
       "speaker": "Dad",
-      "text": "All right, I'm going to take off my spacesuit and my necklace, my space necklace. And now it's time to go downstairs.",
-      "timestamp": 3404.2
+      "text": "A pufferfish. I, I think that's what it is.",
+      "timestamp": 1970.98
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I got a gi- I got a diamond.",
+      "timestamp": 1971.96
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, a beautiful diamond. Okay, we're coming in for a landing in a big clearing in 100 Acre Woods just outside Christopher Robin's house. Here we come. Everybody strap in. Click, click. Strap in, Captain Izzy. Strap in, Navigator Fox. Strap in, Pooky.",
+      "timestamp": 1976.64
+    },
+    {
+      "speaker": "Dad",
+      "text": "Strap in, Jane. The spaceship is coming down. We're almost there. It's getting closer. Oh, the blue timer's blinking and boop, we've landed with a gentle little boop right on the grassy open area in front of Christopher Robin's house. And let's jump out of our spaceship and say, \"Hello, we made it.\"",
+      "timestamp": 1996.28
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay, now it's time to take off our space suits.",
+      "timestamp": 2025.86
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Hey, Fox, look, I found you a diamond.",
+      "timestamp": 2029.66
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, and Fox says, \"Thank you. That's a beautiful diamond.\"",
+      "timestamp": 2032.6
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Fox, where are you? Give it.",
+      "timestamp": 2035.38
+    },
+    {
+      "speaker": "Dad",
+      "text": "Where is... Actually, where... Oh, Fox is over there.",
+      "timestamp": 2038.18
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Fox, this is yours.",
+      "timestamp": 2040.82
+    },
+    {
+      "speaker": "Dad",
+      "text": "All right, I'm gonna take off my space suit and my necklace, my space necklace. And now it's... Oh, you got Jane. Okay, now it's time to go downstairs.",
+      "timestamp": 2044.82
     }
   ],
   "characters": [
@@ -1329,7 +1854,19 @@
       "description": "Nestled in a gentle clearing within the Hundred Acre Wood, this cozy house serves as a primary landing site for wind-tossed travelers. It is a place of simple wonders where Piglet often retreats, seeking a steady hand to help inflate his colorful balloons before they drift above the treetops."
     }
   ],
-  "wordCount": 3415,
-  "izzyWordCount": 1431,
-  "dadWordCount": 1984
+  "wordCount": 3700,
+  "izzyWordCount": 1568,
+  "dadWordCount": 2132,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T15:05:22.107Z",
+    "speakerMap": {
+      "speaker_0": "Dad",
+      "speaker_1": "Izzy"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "low"
+  }
 }

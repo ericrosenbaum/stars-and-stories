@@ -6,228 +6,293 @@
   "audioFilename": "Cornell St 51.m4a",
   "highlightQuote": {
     "text": "Keep telling the story and then you'll find out.",
-    "timestamp": 166.4
+    "timestamp": 166.76
   },
   "transcript": [
     {
       "speaker": "Dad",
-      "text": "Now, I'm not sure what kind of a story we should tell. What do you think?",
-      "timestamp": 14
+      "text": "To do stars. I'll turn out the lamp. Now, I'm not sure what kind of a story we should tell. What do you think?",
+      "timestamp": 2.42
     },
     {
       "speaker": "Izzy",
       "text": "We should tell one about Hattie the Mouse.",
-      "timestamp": 17.5
+      "timestamp": 17.94
     },
     {
       "speaker": "Dad",
       "text": "Okay. Do you have any requests for what kind of adventure Hattie goes on?",
-      "timestamp": 24.2
+      "timestamp": 23.96
     },
     {
       "speaker": "Izzy",
-      "text": "No. We just keep telling the story and then...",
-      "timestamp": 29.3
+      "text": "No, you ... Yeah, you just keep telling the story, Daddy.",
+      "timestamp": 29.38
     },
     {
       "speaker": "Dad",
-      "text": "Okay. Well, once upon a time, Hattie the Mouse was walking through the forest looking for ingredients for hats, because she needed lots of material to make hats out of. But suddenly, while she was digging through a patch of beautiful little ferns to try to find just the right fern, because a fern could be nice on a hat, she heard a funny squeaky snuffling sound. What do you think that sound was?",
-      "timestamp": 37.5
+      "text": "Okay. Well, once upon a time, Hattie the Mouse was walking through the forest looking for ingredients for hats, 'cause she needed lots of material to make hats out of. But suddenly, while she was, um, digging through a patch of beautiful little ferns to try to find just the right fern, 'cause a fern could be nice on a hat, she heard a funny squeaky snuffling sound.",
+      "timestamp": 36.3
+    },
+    {
+      "speaker": "Dad",
+      "text": "What do you think that sound was?",
+      "timestamp": 73.1
     },
     {
       "speaker": "Izzy",
       "text": "It was Mischief Mouse.",
-      "timestamp": 75.2
+      "timestamp": 74.2
     },
     {
       "speaker": "Dad",
-      "text": "Mischief Mouse was going, 'Help me, help, I'm trapped!'",
-      "timestamp": 78.4
-    },
-    {
-      "speaker": "Dad",
-      "text": "And Hattie the Mouse said, 'Oh no, it sounds like Mischief Mouse is in trouble. I better help her.' And what did Mischief Mouse say?",
-      "timestamp": 85.1
+      "text": "Mischief Mouse was going, \"Ah, eh, ah, help me. Help. I'm trapped.\" And Hattie the Mouse said, \"Oh, no, it sounds like Mischief Mouse is in trouble. I better help her.\" And what did Mischief Mouse say?",
+      "timestamp": 77.04
     },
     {
       "speaker": "Izzy",
-      "text": "Help me!",
-      "timestamp": 93.2
+      "text": "Help me.",
+      "timestamp": 92.1
     },
     {
       "speaker": "Dad",
-      "text": "And Hattie said, 'What's the matter, Mischief? I don't even see you. Where are you?'",
-      "timestamp": 94.5
+      "text": "And Hattie said, \"What's, what's the matter, Hat- uh, Mischief? I don't even see you. Where are you?\"",
+      "timestamp": 93.7
     },
     {
       "speaker": "Izzy",
-      "text": "Mischief!",
-      "timestamp": 102.1
+      "text": "Mischief.",
+      "timestamp": 104.58
     },
     {
       "speaker": "Dad",
-      "text": "Mischief, where are you? And what did Mischief Mouse say?",
-      "timestamp": 103.4
+      "text": "\"Mischief, where are you?\" And what did Mischief Mouse say?",
+      "timestamp": 105.88
     },
     {
       "speaker": "Izzy",
-      "text": "I'm right in here!",
-      "timestamp": 110.5
+      "text": "I'm right in here.",
+      "timestamp": 111.14
     },
     {
       "speaker": "Dad",
       "text": "You're right in there? Where?",
-      "timestamp": 111.8
+      "timestamp": 113.3
     },
     {
       "speaker": "Izzy",
       "text": "Inside.",
-      "timestamp": 116.2
+      "timestamp": 115.76
     },
     {
       "speaker": "Dad",
-      "text": "Inside...",
-      "timestamp": 117.3
+      "text": "Inside?",
+      "timestamp": 117.64
     },
     {
       "speaker": "Izzy",
       "text": "Inside this mountain.",
-      "timestamp": 118.4
+      "timestamp": 118.66
     },
     {
       "speaker": "Dad",
       "text": "You're inside the mountain?",
-      "timestamp": 120.2
+      "timestamp": 122.28
     },
     {
       "speaker": "Izzy",
       "text": "And there's a little door.",
-      "timestamp": 121.3
+      "timestamp": 123.84
     },
     {
       "speaker": "Dad",
-      "text": "And there's a little door. Oh.",
-      "timestamp": 123.4
+      "text": "And there's a little door? Oh.",
+      "timestamp": 126.34
     },
     {
       "speaker": "Izzy",
       "text": "Yeah, so I'm trapped in the mountain.",
-      "timestamp": 125.1
+      "timestamp": 128.32
     },
     {
       "speaker": "Dad",
-      "text": "You're trapped inside the mountain, said Hattie. Well, let me help you out. And so Hattie walked back and forth around the mountain looking for the door. And finally...",
-      "timestamp": 127.5
+      "text": "\"You're trapped inside the mountain,\" said Hattie. \"Well, let me help you out.\" And so Hattie walked back and forth around the mountain looking for the door. And finally-",
+      "timestamp": 131.59
     },
     {
       "speaker": "Izzy",
-      "text": "No, the door is right in the back of the mountain.",
-      "timestamp": 145.3
+      "text": "No, the door's right in the back-",
+      "timestamp": 145
     },
     {
       "speaker": "Dad",
-      "text": "Oh, Hattie said, thanks for letting me know it's right in the back. And so she walked around to the back of the mountain and she saw the door. It was a little round door and it was made of wood and it had a little handle. But it also had a sign on it. What did the sign say?",
-      "timestamp": 149.2
+      "text": "Oh",
+      "timestamp": 148.4
     },
     {
       "speaker": "Izzy",
-      "text": "Keep telling the story and then you'll find out.",
-      "timestamp": 166.4
+      "text": "... of the house.",
+      "timestamp": 148.73
     },
     {
       "speaker": "Dad",
-      "text": "The sign on the door said keep telling the story and then you'll find out? Hattie said, 'Huh, that's funny. It's almost like I'm inside of a story.' Well, I better find out what happens. So Hattie pulled on the handle, but it wouldn't open. And she pulled harder. 'Oh no,' she said, 'I can't open the door and Mischief is trapped inside. What can I do?'",
-      "timestamp": 171.2
-    },
-    {
-      "speaker": "Izzy",
-      "text": "But there's a big hole on the front, and there's a little hole on the front of the mountain.",
-      "timestamp": 197.5
+      "text": "Hattie said, \"Thanks for letting me know. It's right in the back.\" And so she walked around to the back of the mountain and she saw the door. It was a little round door, and it was made of wood, and it had a little handle. But it also had a sign on it.",
+      "timestamp": 149.44
     },
     {
       "speaker": "Dad",
-      "text": "And Hattie said, 'Aha! Thanks for telling me, Mischief Mouse. I don't have to get in through the door which seems to be locked anyway. I can go around the front of the mountain and go into the hole.' And so Hattie went around to the front and climbed in the hole. And as she climbed into the hole, she felt something squishy under her feet. What was it?",
-      "timestamp": 207.3
+      "text": "What did the sign say?",
+      "timestamp": 163.6
     },
     {
       "speaker": "Izzy",
       "text": "Keep telling the story and then you'll find out.",
-      "timestamp": 236.2
+      "timestamp": 166.76
     },
     {
       "speaker": "Dad",
-      "text": "It was just some mud. And so she went squish squish squish through the mud as she went through the tunnel. And then she turned a corner and she saw a strange green glowing light. What was it that was glowing inside the tunnel?",
-      "timestamp": 242.4
+      "text": "The sign on the door said, \"Keep telling the story and then you'll find out\"? Hattie said, \"Huh, that's funny. It's almost like I'm inside of a story. Well, I better find out what happens.\" So Hattie pulled on the handle, ugh, but it wouldn't open. And she pulled harder, ugh.",
+      "timestamp": 171.54
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh, no,\" she said, \"I can't open the door.\"",
+      "timestamp": 188.94
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Oh, well there-",
+      "timestamp": 191.78
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Mischief was trapped inside. What could she do?",
+      "timestamp": 192.61
+    },
+    {
+      "speaker": "Izzy",
+      "text": "But there, but there is a free, but there's a little, but there's a big hole on the front, and there's a little hole on the front of the mountain.",
+      "timestamp": 194.58
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Hattie said, \"Aha. Thanks for telling me, Mischief Mouse. I don't have to get in through the door, which is, seems to be locked anyway. I can go around the front of the mountain and go into the hole.\" And so Hattie went around to the front and climbed in the hole.",
+      "timestamp": 208.12
+    },
+    {
+      "speaker": "Dad",
+      "text": "And as she climbed into the hole, she felt something squishy under her feet. What was it?",
+      "timestamp": 227.22
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Keep telling the story and then you'll find out.",
+      "timestamp": 235.9
+    },
+    {
+      "speaker": "Dad",
+      "text": "It was just some mud. And so she went squish, squish, squish through the mud as she went through the tunnel. And then she turned a corner and she saw a strange green glowing light. What was it that was glowing inside the tunnel?",
+      "timestamp": 241.44
     },
     {
       "speaker": "Izzy",
       "text": "It was Mischief.",
-      "timestamp": 258.1
+      "timestamp": 258.78
     },
     {
       "speaker": "Dad",
       "text": "Mischief Mouse was glowing? Why is Mischief Mouse glowing?",
-      "timestamp": 259.3
+      "timestamp": 261.14
     },
     {
       "speaker": "Izzy",
       "text": "Because she had a flashlight.",
-      "timestamp": 263.2
+      "timestamp": 265.52
     },
     {
       "speaker": "Dad",
-      "text": "Oh! And Hattie says, 'Wow, I thought I was about to see some interesting glowing underground thing, like maybe some glow worms or glowing mushrooms or strange glowing underground fireflies. But no, it was just you with your flashlight, Mischief Mouse.' And what did Mischief Mouse say?",
-      "timestamp": 265.5
+      "text": "Oh. And Hattie says, \"Wow, I thought I was about to see some interesting glowing underground thing, like maybe some glow worms or glowing mushrooms or strange glowing underground fireflies, but no, it was just you with your flashlight, Mischief Mouse.\"",
+      "timestamp": 268.54
+    },
+    {
+      "speaker": "Dad",
+      "text": "And what did Mischief Mouse say?",
+      "timestamp": 285.56
     },
     {
       "speaker": "Izzy",
-      "text": "Help, I'm stuck in the mud!",
-      "timestamp": 286.4
+      "text": "I am stuck and trapped.",
+      "timestamp": 288.24
     },
     {
       "speaker": "Dad",
-      "text": "Oh, you're stuck inside. 'But I'm here to rescue you,' said Hattie. And Hattie looked down at Mischief Mouse's feet and they were stuck. How were they stuck? Were they tied up or were they chained up or were they in some mud? How did Mischief Mouse get stuck?",
-      "timestamp": 291.2
+      "text": "Oh, you're stuck inside. \"But I'm here to rescue you,\" said Hattie. And, and Hattie looked down at Mischief Mouse's feet, and they were stuck. How were they stuck? Were they tied up or were they chained up or were they in some mud? How did Mischief Mouse get stuck?",
+      "timestamp": 291.74
     },
     {
       "speaker": "Izzy",
       "text": "She got stuck in mud, mud, mud.",
-      "timestamp": 317.3
+      "timestamp": 317.04
     },
     {
       "speaker": "Dad",
-      "text": "Oh, so Hattie the Mouse said, 'Oh, it looks like you're stuck in some mud. But I have a little bucket here, and I hear a trickle of water coming from nearby. I think it's an underground stream.' She ran off and filled up her bucket and then came back and splashed the mud with her water to wash off Mischief's feet. And then she was free! Her feet popped out of the mud. And Hattie said, 'What were you doing in here that you ended up getting stuck, Mischief Mouse? What were you looking for?'",
-      "timestamp": 321.4
+      "text": "Oh. So Hattie the Mouse said, \"Oh, it looks like you're stuck in some mud. But I have a little bucket here, and I hear a trickle of water for, coming from nearby. I think it's an underground stream. I'll just run over and fill up my bucket, bork, and then I can wash your feet off so you won't be stuck in the mud.\"",
+      "timestamp": 322.24
+    },
+    {
+      "speaker": "Dad",
+      "text": "And she ran off and filled up her bucket and then came back and splashed the mud with her water to wash off Mischief's feet. And then she was free. Her feet popped out of the mud. And Hattie said, \"What were you doing in here that you ended up getting stuck, Mischief Mouse?",
+      "timestamp": 344.14
+    },
+    {
+      "speaker": "Dad",
+      "text": "What were you looking for?\" What did Mischief say?",
+      "timestamp": 363.76
     },
     {
       "speaker": "Izzy",
       "text": "I was looking for something to eat.",
-      "timestamp": 369.2
+      "timestamp": 369.98
     },
     {
       "speaker": "Dad",
-      "text": "Oh! And Hattie says, 'Well, I don't see much to eat in here.' I guess there's some interesting tiny little mushrooms around. Let's pick a few. And so they picked a few underground mushrooms, and then Mischief said, 'Let's get out of here.' And Hattie said, 'Yeah! Should we try to go out the door?' And Mischief said, 'Okay, let's try it.' And so they went down the dark tunnel, and they found the other side of the door and they pushed it right open because they could unlock it from the inside. And then the bright glow of sunlight hit their eyes, and they popped right out. Mischief and Hattie came out through the door and they were out of the tunnel and free once again. And what did they do next?",
-      "timestamp": 372.5
+      "text": "Oh. And Hattie says, \"Well, I don't see much to eat, uh, in here. There's a nice little stream and some sticky yucky mud, but not a lot else. I guess there's some interesting tiny little mushrooms around. They're not even the glowing kind, but they might be delicious to eat.",
+      "timestamp": 373.66
+    },
+    {
+      "speaker": "Dad",
+      "text": "Let's pick a few.\" And so they picked a few underground mushrooms, and then Mischief said, \"Let's get out of here.\" And Hattie said, \"Yeah. Should we try to go out the door?\" And Mischief said, \"Okay, let's try it.\" And so they went down the dark tunnel, but fortunately Mischief had her flashlight, so she could lead the way with the glow of the flashlight.",
+      "timestamp": 390.76
+    },
+    {
+      "speaker": "Dad",
+      "text": "And they found the other side of the door, and they pushed it right open, 'cause they could unlock it from the inside. And then the bright glow of sunlight s- hit their eyes, 'cause it was all dark inside the mountain, but it was a bright sunny day outside, and they popped right out.",
+      "timestamp": 413.54
+    },
+    {
+      "speaker": "Dad",
+      "text": "Mischief and Hattie came out through the door and they were out of the tunnel and free once again. And what did they do next?",
+      "timestamp": 429.28
     },
     {
       "speaker": "Izzy",
-      "text": "I think this is the end of the story.",
-      "timestamp": 439.4
+      "text": "Dad, I think this is the end of the story.",
+      "timestamp": 441.14
     },
     {
       "speaker": "Dad",
-      "text": "Oh, I think you're right, it is the end of the story. They were very tired from their adventure, and so they both went to their homes and got in their cozy beds and fell asleep.",
-      "timestamp": 443.2
+      "text": "Oh, I think you're right. It is the end of the story. They were very tired from their adventure, and so they both went to their homes and got in their cozy beds and fell asleep.",
+      "timestamp": 444.36
     },
     {
       "speaker": "Izzy",
       "text": "Dad, Daddy, is it okay if you turn on the lamp?",
-      "timestamp": 456.5
+      "timestamp": 456.6
     },
     {
       "speaker": "Dad",
       "text": "Yeah, I'll turn on the lamp now.",
-      "timestamp": 461.3
+      "timestamp": 462.74
     }
   ],
   "characters": [
@@ -264,7 +329,19 @@
       "description": "A hidden source of water found deep within the mountain."
     }
   ],
-  "wordCount": 965,
-  "izzyWordCount": 140,
-  "dadWordCount": 825
+  "wordCount": 1096,
+  "izzyWordCount": 156,
+  "dadWordCount": 940,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T15:02:20.554Z",
+    "speakerMap": {
+      "speaker_0": "Dad",
+      "speaker_1": "Izzy"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "high"
+  }
 }
