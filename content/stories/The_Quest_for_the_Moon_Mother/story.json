@@ -6,403 +6,698 @@
   "audioFilename": "Cornell St 119.m4a",
   "highlightQuote": {
     "text": "I want the planet potion because I have planets on my dress, including one that's red.",
-    "timestamp": 336
+    "timestamp": 316
   },
   "transcript": [
     {
+      "speaker": "Izzy",
+      "text": "Red, orange, yellow, blue, and blue, and a dozen green. They looked...",
+      "timestamp": 0.42
+    },
+    {
       "speaker": "Dad",
-      "text": "You want to sit on my lap-lap?",
+      "text": "All right. Would you like to turn off the lamp?",
+      "timestamp": 9.12
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Red, orange, yellow, blue, and a dozen green. They looked purple, too.",
+      "timestamp": 11.62
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay. There's the stars. Now-",
+      "timestamp": 20.72
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Purple and pink, too",
+      "timestamp": 24.44
+    },
+    {
+      "speaker": "Dad",
+      "text": "... who should we-",
       "timestamp": 26
     },
     {
       "speaker": "Izzy",
-      "text": "I need to sit criss-cross so that's what I'm going to do.",
-      "timestamp": 29
+      "text": "Can I sit down next to you? A, a lap-lap?",
+      "timestamp": 26.3
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yes, please.",
+      "timestamp": 29.84
+    },
+    {
+      "speaker": "Izzy",
+      "text": "You need to sit criss-cross applesauce if I'm gonna do that.",
+      "timestamp": 30
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay.",
+      "timestamp": 33.98
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Criss-cross applesauce.",
+      "timestamp": 35.26
     },
     {
       "speaker": "Dad",
       "text": "There we go. Now, who would you like to tell a story about?",
-      "timestamp": 36
+      "timestamp": 37.1
     },
     {
       "speaker": "Izzy",
-      "text": "Dimitar and Icicle.",
-      "timestamp": 46
+      "text": "Um, Dimitar and Icicle.",
+      "timestamp": 45.18
     },
     {
       "speaker": "Dad",
-      "text": "And who's- who starts?",
-      "timestamp": 51
+      "text": "And who, who starts?",
+      "timestamp": 51.16
     },
     {
       "speaker": "Izzy",
-      "text": "Dimitar.",
-      "timestamp": 58
+      "text": "Um, Dimitar.",
+      "timestamp": 53.02
     },
     {
       "speaker": "Dad",
-      "text": "Well, once upon a time, ding-dong. And Dimitar said, \"Who is it?\"",
-      "timestamp": 60
+      "text": "Well, once upon a time-",
+      "timestamp": 59.66
     },
     {
       "speaker": "Izzy",
-      "text": "It's your friend Icicle.",
-      "timestamp": 67
+      "text": "Ding-dong",
+      "timestamp": 61.14
     },
     {
       "speaker": "Dad",
-      "text": "Oh, come on in, Icicle. And Dimitar invited Icicle, the gigantic white ice dragon, into his castle on the perfectly circular island.",
-      "timestamp": 70
+      "text": "... and Dimitar-",
+      "timestamp": 62.86
     },
     {
       "speaker": "Izzy",
-      "text": "And Icicle said, \"I have some fishies.\" And Dimitar said, \"I'll freeze one.\"",
-      "timestamp": 81
+      "text": "Dimitar",
+      "timestamp": 63.43
     },
     {
       "speaker": "Dad",
-      "text": "And then he ate it. And then Dimitar, you just had yours plain.",
-      "timestamp": 91
+      "text": "... Dimitar said, \"Who is it?\"",
+      "timestamp": 64.34
     },
     {
       "speaker": "Izzy",
-      "text": "Yeah, I don't like frozen as much. I like to eat them fresh or maybe salted sometimes or fried. Have you ever had fried fish, Icicle?",
-      "timestamp": 95
+      "text": "\"It's your friend, Icicle.\"",
+      "timestamp": 65.8
     },
     {
       "speaker": "Dad",
-      "text": "No, you only like frozen fish, huh? Well, you know what we have in common? We both like fish and we both like them crunchy. Crunch, crunch, crunch, crunch, crunch, crunch, crunch. And so Dimitar and Icicle had a lovely snack of fishies. And then...",
-      "timestamp": 106
+      "text": "\"Oh, come on in, Icicle.\" And Dimitar invited Icicle, the gigantic white ice dragon, into his castle on the perfectly circular island.",
+      "timestamp": 67.91
     },
     {
       "speaker": "Izzy",
-      "text": "Until...",
-      "timestamp": 125
+      "text": "And Dimitar said, \"I have some fishies.\" And Dimitar said, \"I'll freeze one.\" Freeze. And then, and then he ate it, and then, \"Dimitar, you just have yours plain.\"",
+      "timestamp": 78.96
     },
     {
       "speaker": "Dad",
-      "text": "Dun-dun-dun! What happened? Something happened.",
-      "timestamp": 127
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Ding dong!",
-      "timestamp": 130
+      "text": "\"Yeah, I don't like frozen as much. I like to eat them fresh or maybe salted sometimes, or fried. Have you ever had fried fish, Icicle? No? You only like frozen fish, huh? Well, you know what we have in common? We both like fish, and we both like them crunchy.",
+      "timestamp": 94.55
     },
     {
       "speaker": "Dad",
-      "text": "Oh, who is it? said Dimitar.",
-      "timestamp": 131
+      "text": "Crunch, crunch, crunch, crunch, crunch, crunch, crunch, crunch.\" And so Dima- Dimitar and Icicle had a lovely- ... snack of fishies. And then-",
+      "timestamp": 113
     },
     {
       "speaker": "Izzy",
-      "text": "It's Seeker. And Seeker said, \"I thought I could take Dimitar for a potion. And Icicle, you have a job. Your job is to freeze the mischief rats.\"",
-      "timestamp": 133
+      "text": "And then, until...",
+      "timestamp": 123.38
     },
     {
       "speaker": "Dad",
-      "text": "The mischief rats! said Icicle. Now, what did they do to deserve that?",
-      "timestamp": 146
+      "text": "Dun-dun-dun. What happened? Something happened. They heard-",
+      "timestamp": 125.67
     },
     {
       "speaker": "Izzy",
-      "text": "They don't unfreeze the ice cause they lost their power, cause lion stole took their power.",
-      "timestamp": 153
+      "text": "Ding-dong.",
+      "timestamp": 128.88
     },
     {
       "speaker": "Dad",
-      "text": "Now wait a- wait just a minute here, this sounds like a complicated story. You're saying these mischief rats once had the power to unfreeze the ice but they've lost that power because the lion stole- took it away?",
-      "timestamp": 164
+      "text": "Oh.",
+      "timestamp": 129.84
     },
     {
       "speaker": "Izzy",
-      "text": "Yeah, he stole it from their power switches inside of their tails, and that's what caused them to have that power.",
-      "timestamp": 177
+      "text": "They heard ding-dong.",
+      "timestamp": 130.24
     },
     {
       "speaker": "Dad",
-      "text": "My goodness! said Icicle. And he turned around to check his own tail to see if he had power switches because Icicle, as you know, being an ice dragon, has the power to use his freezing breath. But he did not find a power switch on his own tail, to his great relief. And then he said, \"Well, where are these mischief rats?\"",
-      "timestamp": 187
+      "text": "\"Oh, who is it?\" said Dimitar.",
+      "timestamp": 131.45
     },
     {
       "speaker": "Izzy",
-      "text": "They are in the basement of Dimitar's house.",
-      "timestamp": 208
+      "text": "\"It's Seeker.\" And Seeker said, \"I thought I could take Dimitar for a potion. And Icicle, you have a job. Your job is to freeze the mischief rats.\"",
+      "timestamp": 133.79
     },
     {
       "speaker": "Dad",
-      "text": "They're in the basement right now? My goodness!",
-      "timestamp": 212
+      "text": "\"The mischief rats?\" said Icicle.",
+      "timestamp": 145.8
     },
     {
       "speaker": "Izzy",
-      "text": "Right now. And they're waiting to be freeze by you.",
-      "timestamp": 215
+      "text": "\"You'll have to freeze them.\"",
+      "timestamp": 147.87
     },
     {
       "speaker": "Dad",
-      "text": "My basement? Mischief rats in my basement? I never go in the basement. I guess they're down there, they're probably eating our trash.",
-      "timestamp": 221
+      "text": "\"Now, what, what did they do to deserve that?\"",
+      "timestamp": 149.45
     },
     {
       "speaker": "Izzy",
-      "text": "Yep, they're eating your trash.",
-      "timestamp": 231
+      "text": "\"They don't unfreeze the ice 'cause they lost their power, 'cause Lion Stool took their power.\"",
+      "timestamp": 152.17
     },
     {
       "speaker": "Dad",
-      "text": "But the basement door is way too small for Icicle who's huge. Do you think you could just stick your head in there, Icicle? And what did Icicle say?",
-      "timestamp": 234
+      "text": "\"Now, wait, wait just a minute here. This sounds like a complicated story. You're saying these mischief rats once had the power to unfreeze the ice, but they've lost that power because the Lion Stool took it away?\"",
+      "timestamp": 164.1
     },
     {
       "speaker": "Izzy",
-      "text": "Um, Icicle said, \"I'll just unscrew the door and I'll walk down the steps and get into the basement.\"",
-      "timestamp": 242
+      "text": "\"Yeah, he stole it from... They have little power switches inside their tails, and, and that's what caused them to have that power.\"",
+      "timestamp": 176.78
     },
     {
       "speaker": "Dad",
-      "text": "Oh, good idea. And so Icicle unscrewed the door and walked down the steps, and what did he see there?",
-      "timestamp": 250
+      "text": "\"My goodness,\" said Icicle, and he turned around to check his own tail to see if he had power switches. Because Icicle, as you know, being an ice dragon, has the power to use his freezing breath. But he did not find a power switch on his own tail, to his great relief.",
+      "timestamp": 188.67
+    },
+    {
+      "speaker": "Dad",
+      "text": "And then he said, \"Well, where are these mischief rats?\"",
+      "timestamp": 203.4
     },
     {
       "speaker": "Izzy",
-      "text": "The rats!",
-      "timestamp": 255
+      "text": "\"They are in the basement of Dimitar's house.\"",
+      "timestamp": 207.01
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"They're in the basement right now? My goodness.\"",
+      "timestamp": 213.17
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"Right now. And they're waiting to be freezed by you.\"",
+      "timestamp": 215.7
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Dimitar said, \"My basement? Mischief rats in my basement?\"",
+      "timestamp": 220.84
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yes.",
+      "timestamp": 225.32
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"I never go in the basement. I guess they're down there. They're probably eating our trash.\"",
+      "timestamp": 225.33
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No. Yep, they're eating your trash.",
+      "timestamp": 229.78
+    },
+    {
+      "speaker": "Dad",
+      "text": "But the basement door is way too small for Icicle, who's huge. \"Do you think you could just stick your head in there, Icicle?\" And what did Icicle say?",
+      "timestamp": 233.72
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Um, Icicle said, \"I'll just unscrew the door, and then I'll walk down the steps and get into the basement.\"",
+      "timestamp": 240.84
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh, good idea.\" And so Icicle unscrewed the door and walked down the steps, and what did he see there?",
+      "timestamp": 248.89
+    },
+    {
+      "speaker": "Izzy",
+      "text": "The rats.",
+      "timestamp": 254.22
     },
     {
       "speaker": "Dad",
       "text": "And what were they doing?",
-      "timestamp": 256
+      "timestamp": 255.5
     },
     {
       "speaker": "Izzy",
-      "text": "Eating his trash!",
-      "timestamp": 258
+      "text": "Eating his trash.",
+      "timestamp": 257.06
     },
     {
       "speaker": "Dad",
-      "text": "No! And so what did Icicle do?",
-      "timestamp": 260
+      "text": "No. And so what did Icicle do?",
+      "timestamp": 259.58
     },
     {
       "speaker": "Izzy",
       "text": "He froze them.",
-      "timestamp": 263
+      "timestamp": 261.9
     },
     {
       "speaker": "Dad",
-      "text": "He went (blowing noise) with his frosty ice breath and all the mischief rats were frozen into blocks of ice. And they couldn't move, they were frozen solid. And Icicle came back up and he said, \"Uh, now what do we do with them?\"",
-      "timestamp": 264
+      "text": "He went with his frosty ice breath, and all the mischief rats were frozen into blocks of ice, and they couldn't move. They were frozen solid. And Icicle came back up, and he said, \"Uh, n- uh, now what do we do with them?\"",
+      "timestamp": 263.38
     },
     {
       "speaker": "Izzy",
-      "text": "Um, um, um, Dimitar went on a potion with Seeker. Seeker, um, um, you can't do the diamond-shaped one, do the circle-shaped one.",
-      "timestamp": 282
+      "text": "Um, um, um, um, Dimitar went on a potion with Seeker. \"Seeker, um, um, you can't do the diamond-shaped one. Do the circle-shaped one.\"",
+      "timestamp": 280.3
     },
     {
       "speaker": "Dad",
-      "text": "Oh, the circle-shaped potion? said Seeker. Which one though? I think I have a lot of circle-shaped potions. Do you mean this circle-shaped one that's kind of donut-shaped? Or this other circle-shaped one that's kind of swirly and full of...?",
-      "timestamp": 295
+      "text": "\"Oh, the circle-shaped potions?\" said Seeker.",
+      "timestamp": 294.96
     },
     {
       "speaker": "Izzy",
-      "text": "The circle-shaped bottle one. I want that circle-shaped like a bottle.",
-      "timestamp": 307
+      "text": "Yeah.",
+      "timestamp": 297.23
     },
     {
       "speaker": "Dad",
-      "text": "Well, I'm saying I've got a few circle-shaped bottles. This one's full of, like, the night sky and stars all swirling, and this one's white like the moon and...",
-      "timestamp": 313
+      "text": "\"Which one, though? I think I have a lot of circle-shaped potions. Do you mean this circle-shaped one that's kind of donut-shaped or this other circle-shaped one that's kind of swirly and full of black and white?\"",
+      "timestamp": 297.23
     },
     {
       "speaker": "Izzy",
-      "text": "No, no, no! I want the... I want it, I want it, I want the Mars planet one!",
-      "timestamp": 322
+      "text": "The circle-shaped bottle one.",
+      "timestamp": 306.6
     },
     {
       "speaker": "Dad",
-      "text": "Oh, why didn't you just say so? said Seeker. Okay, well this one is circular shaped and a deep red color, just like the planet Mars.",
-      "timestamp": 329
+      "text": "Well, yeah-",
+      "timestamp": 309.58
     },
     {
       "speaker": "Izzy",
-      "text": "Let's try that one. Because, Seeker, I want the planet potion because I have planets on my dress, including one that's red.",
-      "timestamp": 336
+      "text": "The one that's circle-shaped like a bottle.",
+      "timestamp": 309.78
     },
     {
       "speaker": "Dad",
-      "text": "And Seeker said, \"My goodness, what a beautiful dress! You know, my red cloak that I'm very proud of is very beautiful and it even has decorations, but it doesn't have any planets.\"",
-      "timestamp": 349
+      "text": "Well, I'm saying I've got a few circle-shaped bottles. This one's full of-",
+      "timestamp": 312.74
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I-",
+      "timestamp": 316
+    },
+    {
+      "speaker": "Dad",
+      "text": "... of, uh, like, the night sky and stars all swirling, and this one's-",
+      "timestamp": 316.01
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No, no, no, no",
+      "timestamp": 319.44
+    },
+    {
+      "speaker": "Dad",
+      "text": "... white, like the moon and-",
+      "timestamp": 320.38
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I wanted the, I wanted, I wanted, I wanted the Mars planet one.",
+      "timestamp": 321.72
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh, why didn't you just say so?\" said Seeker. \"Okay, well, this one is circle-shaped and a deep red color, just like the planet Mars.\"",
+      "timestamp": 326.16
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Let's try that one.",
+      "timestamp": 334.82
+    },
+    {
+      "speaker": "Dad",
+      "text": "And so Seeker-",
+      "timestamp": 336.36
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Uh, 'cause-",
+      "timestamp": 337.4
+    },
+    {
+      "speaker": "Dad",
+      "text": "... and Dimitar each took a sip",
+      "timestamp": 337.51
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... 'cause, Seeker, I wanted the planet potion 'cause I have planets on my dress, including one that's red.",
+      "timestamp": 338.72
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Seeker said, \"My goodness, what a beautiful dress. You know, my red cloak that I'm very proud of is very beautiful, and it even has decorations, but it doesn't have any planets.\"",
+      "timestamp": 347.9
     },
     {
       "speaker": "Izzy",
       "text": "Well, mine has planets.",
-      "timestamp": 359
+      "timestamp": 357.86
     },
     {
       "speaker": "Dad",
-      "text": "I like it a lot.",
-      "timestamp": 361
+      "text": "\"I like it a lot.\"",
+      "timestamp": 360.3
     },
     {
       "speaker": "Izzy",
-      "text": "And then there's a purple cloak you can borrow. Here, here's your purple cloak- here's a purple cloak.",
-      "timestamp": 363
+      "text": "And then there's a purple cloak you could borrow. Here, here's your purple cloak. Here's a purple cloak.",
+      "timestamp": 361.99
     },
     {
       "speaker": "Dad",
-      "text": "Oh, that's- that's- it has a snap in the back that I can do for you.",
-      "timestamp": 371
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, thanks! Oh, perfect. Oh, it fits just right. I love this purple cloak, said Seeker. Now, would you like to take a sip of this Mars potion?",
-      "timestamp": 378
+      "text": "Oh, thanks.",
+      "timestamp": 369.17
     },
     {
       "speaker": "Izzy",
-      "text": "Well... oh, meow-meow, I don't want to be me!",
-      "timestamp": 391
+      "text": "That, that's an, that's a ... It's a, it has, um, a snap in the back that I can do for you.",
+      "timestamp": 370.25
     },
     {
       "speaker": "Dad",
-      "text": "Who's that? Who's meowing?",
-      "timestamp": 399
+      "text": "Oh, thanks.",
+      "timestamp": 378.01
     },
     {
       "speaker": "Izzy",
-      "text": "It's me! It's- it's- it's Wobbly Whiskers the kitten!",
-      "timestamp": 401
+      "text": "Snap.",
+      "timestamp": 379.11
     },
     {
       "speaker": "Dad",
-      "text": "Look, said Seeker to Dimitar, there's a little kitten here. Do you want to come to Mars with us, Wobbly Whiskers?",
-      "timestamp": 409
+      "text": "Oh, perfect. Oh, it fits just right. I love this purple cloak, said Seeker. Now, would you like-",
+      "timestamp": 379.93
     },
     {
       "speaker": "Izzy",
-      "text": "Yeah, I never heard about planets! And- and- and I thought I could look there and I thought I could look for my mom there.",
-      "timestamp": 416
+      "text": "It has flowers on it.",
+      "timestamp": 384.06
     },
     {
       "speaker": "Dad",
-      "text": "Your mom? Well, I don't think your mom is on Mars probably, but you never know. So let's go. And Seeker took a sip of the Mars potion...",
-      "timestamp": 425
+      "text": "Oh, how nice. Would you like to take a sip of this, um, Mars potion?",
+      "timestamp": 385.47
     },
     {
       "speaker": "Izzy",
-      "text": "Or Seeker's being Mexico.",
-      "timestamp": 435
+      "text": "Well... Oh, mew, mew. Beak, beak. I don't want to be late.",
+      "timestamp": 390.05
     },
     {
       "speaker": "Dad",
-      "text": "Oh, so possible. And then Dimitar took a sip, and then Wobbly Whiskers took a sip, and then who said the rhyme?",
-      "timestamp": 438
+      "text": "Who's that? Who's mewing?",
+      "timestamp": 397.33
     },
     {
       "speaker": "Izzy",
-      "text": "Maybe Wobbly Whiskers did.",
-      "timestamp": 445
+      "text": "It's me. It's, it's, it's, it's, it's Wobbly Whiskers- ... the kitten.",
+      "timestamp": 399.85
     },
     {
       "speaker": "Dad",
-      "text": "Wobbly Whiskers did. What was the rhyme?",
-      "timestamp": 447
+      "text": "\"Oh, look,\" said Seeker to Dimitar. \"There's a little kitten here.\" \"Do you want to come to Mars with us, Wobbly Whiskers?\"",
+      "timestamp": 407.63
     },
     {
       "speaker": "Izzy",
-      "text": "Meow, meow, meow, meow.",
-      "timestamp": 449
+      "text": "Yeah, I never heard about planets.",
+      "timestamp": 414.65
     },
     {
       "speaker": "Dad",
-      "text": "Meow, meow, meow, meow. And then they all said, meow, meow, meow, meow. And then, poof! They poofed away from Dimitar's castle and poof! They appeared on the planet Mars. Now, were they on the top of an ancient dormant volcano? Or were they deep inside of a crater? Or were they on the polar ice caps of Mars where everything is cold and frozen?",
-      "timestamp": 453
+      "text": "Oh, well, yes.",
+      "timestamp": 417.77
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I mean, uh, and I thought I could look there, and I thought I could look for my mom there.",
+      "timestamp": 418.77
+    },
+    {
+      "speaker": "Dad",
+      "text": "Your mom?",
+      "timestamp": 425.17
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah.",
+      "timestamp": 426.67
+    },
+    {
+      "speaker": "Dad",
+      "text": "Well, I don't think your mom is on Mars probably, but you never know. So let's go. And so Seeker took a sip of the potion-",
+      "timestamp": 426.71
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Or she could be in Mexico.",
+      "timestamp": 433.49
+    },
+    {
+      "speaker": "Dad",
+      "text": "Also possible. And then, and then Dimitar took a sip, and then Wobbly Whiskers took a sip. And then who said the rhyme? Maybe Wobbly Whiskers did.",
+      "timestamp": 436.65
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Wobbly Whiskers did.",
+      "timestamp": 446.53
+    },
+    {
+      "speaker": "Dad",
+      "text": "What was the rhyme?",
+      "timestamp": 448.47
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Mew, mew, mew, mew.",
+      "timestamp": 449.51
+    },
+    {
+      "speaker": "Dad",
+      "text": "Mew, mew, mew, mew. And then they all said, \"Mew, m- mew, mew, mew.\" And then they poofed away from Dimitar's castle, and poof, they appeared on the planet Mars. Now, were they on the top of an ancient dormant volcano, or were they deep inside of a crater, or were they on the polar ice caps of Mars where everything is cold and frozen?",
+      "timestamp": 453.03
     },
     {
       "speaker": "Izzy",
       "text": "Um, they hopped everywhere looking for Mom until they spot a small black cat far away on the moon.",
-      "timestamp": 483
+      "timestamp": 482.19
     },
     {
       "speaker": "Dad",
-      "text": "On the moon? Oh, they've got to go to the moon! They just have to.",
-      "timestamp": 494
+      "text": "On the moon? Oh.",
+      "timestamp": 494.65
     },
     {
       "speaker": "Izzy",
-      "text": "Here Seeker, here's my big cardboard rocket ship.",
-      "timestamp": 498
+      "text": "We got to go to the moon.",
+      "timestamp": 496.49
     },
     {
       "speaker": "Dad",
-      "text": "Oh, thanks, said Seeker. I was wondering how they were going to get there. And so Seeker and Dimitar...",
-      "timestamp": 504
+      "text": "And s-",
+      "timestamp": 499.35
     },
     {
       "speaker": "Izzy",
-      "text": "I brought it. I also brought a black- I also brought a white computer and a black computer. There's one control panel and there's one to control a blue walkie-talkie. It can talk to aliens!",
-      "timestamp": 511
+      "text": "We just have to.",
+      "timestamp": 499.41
     },
     {
       "speaker": "Dad",
-      "text": "Amazing! Hey, do you know how to fly this thing? said Seeker. I only know how to fly my sky ship.",
-      "timestamp": 526
+      "text": "And Seeker says-",
+      "timestamp": 501.17
     },
     {
       "speaker": "Izzy",
-      "text": "Um, yeah. Just- just press the- the button that points up.",
-      "timestamp": 532
+      "text": "\"And here's,\" Here's Seeker. \"Here's my big cardboard rocket ship.\"",
+      "timestamp": 501.74
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh, thanks,\" said Seeker. \"I was wondering how we were gonna get there.\" And so Seeker and Dimitar-",
+      "timestamp": 506.28
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I brought it. I also brought a bla- I also brought a white computer and a black computer. There's one control panel, and there's one c- to control a blue walkie-talkie.",
+      "timestamp": 510.27
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh.",
+      "timestamp": 523.13
+    },
+    {
+      "speaker": "Izzy",
+      "text": "It can, it can talk to aliens.",
+      "timestamp": 523.43
+    },
+    {
+      "speaker": "Dad",
+      "text": "Amazing. \"Hey, do you know how to fly this thing?\" said Seeker. \"I only know how to fly my sky ship.\"",
+      "timestamp": 526.07
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Um, yeah. Just, just press it, the bre- the button that, that points up.",
+      "timestamp": 530.83
     },
     {
       "speaker": "Dad",
       "text": "Oh. And Seeker pressed the up button once everyone was safely on board and buckled up. And then what happened when he pressed it?",
-      "timestamp": 538
+      "timestamp": 537.37
     },
     {
       "speaker": "Izzy",
-      "text": "It flew to the moon! (rocket sound)",
-      "timestamp": 545
+      "text": "It flew to the moon.",
+      "timestamp": 545.47
     },
     {
       "speaker": "Dad",
-      "text": "It shot up off the surface of Mars, through the space between Mars and the moon, and then dodged the asteroids- zoom, zoom, zoom! And then, oh, here comes the moon, a big round gray and white and black circle appeared in the... in front of them and then they landed on the moon.",
-      "timestamp": 549
+      "text": "It shot up off the surface of Mars through the space between Mars and the Moon and then dodged the asteroids. Zoom, zoom, zoom. And then, oh, here comes the Moon. A big, round, gray and white and black, uh, circle appeared in the s- in front of them.",
+      "timestamp": 548.31
     },
     {
       "speaker": "Izzy",
-      "text": "And then- and then the white kitten ran straight to her mother. Meow, meow, meow, meow! And what did the mama say?",
-      "timestamp": 571
+      "text": "Vroom, vroom.",
+      "timestamp": 567.51
     },
     {
       "speaker": "Dad",
-      "text": "\"You found me! Thank goodness. Now can we please go home?\"",
-      "timestamp": 581
+      "text": "And then they landed on the Moon.",
+      "timestamp": 568.19
     },
     {
       "speaker": "Izzy",
-      "text": "Of course! And- and did you bring my fish snack?",
-      "timestamp": 586
+      "text": "And then, and then, and then the white kitten ran straight to her mother.",
+      "timestamp": 570.85
     },
     {
       "speaker": "Dad",
-      "text": "And Dimitar said, \"Uh-oh. No, no, no. We did have some fish snacks but I ate them all. Gulp, gulp, gulp, gulp, gulp.\"",
-      "timestamp": 591
+      "text": "Mew, mew, mew, mew, mew, mew.",
+      "timestamp": 577.73
     },
     {
       "speaker": "Izzy",
-      "text": "The mom said, \"I- I brought some fish snacks and here's a frozen one for Icicle and here's one for you, Dimitar, and here's one for you, Seeker, and... here's- and here's a whole box for you, kittens.\"",
-      "timestamp": 600
+      "text": "And what did the mama say?",
+      "timestamp": 578.58
     },
     {
       "speaker": "Dad",
-      "text": "Yum, yum, yum, yum, yum! said the kittens. And so everyone had their delicious fish snacks, and then they used the going home potion to go back home. And that's the end of our story.",
-      "timestamp": 614
+      "text": "\"You found me. Thank goodness. Now, can we please go home?\"",
+      "timestamp": 580.62
     },
     {
       "speaker": "Izzy",
-      "text": "The shadow puppets! The shadow puppets!",
-      "timestamp": 628
+      "text": "\"Of course.\"",
+      "timestamp": 585.02
+    },
+    {
+      "speaker": "Dad",
+      "text": "And so-",
+      "timestamp": 586.63
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"And, and, and did you bring my fish snack?\"",
+      "timestamp": 587.1
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Dimitar says, \"Uh-oh.\"",
+      "timestamp": 591.53
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"No, no, no, no, no.\"",
+      "timestamp": 593.14
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"We did have some fish snacks, but I, I ate them all.\"",
+      "timestamp": 594.12
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Oh. Um, um, the mom said, \"I, I brought some fish snack, and here's a frozen one for Icicle, and here's one for you, Dimitar, and here's one for you, Seeker.\"",
+      "timestamp": 597.19
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh, thank you.\"",
+      "timestamp": 608.98
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"And here's one, and here's a whole box for you kittens.\"",
+      "timestamp": 610.71
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yum, yum, yum, yum, yum, yum, yum.",
+      "timestamp": 613.75
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Kitten.",
+      "timestamp": 614.63
+    },
+    {
+      "speaker": "Dad",
+      "text": "And so everyone had their delicious fish snacks, and then they used the going home potion to go back home. And that's the end of our story.",
+      "timestamp": 616.13
+    },
+    {
+      "speaker": "Izzy",
+      "text": "First one to say shadow puppet, shadow puppet.",
+      "timestamp": 627.37
+    },
+    {
+      "speaker": "Dad",
+      "text": "All right. Very nice shadow puppets.",
+      "timestamp": 635.97
     }
   ],
   "characters": [
@@ -464,7 +759,19 @@
       "description": "Visible from Earth as a pockmarked sphere of gray, white, and black, this low-gravity waypoint for sun-bound crews is a playground of ancient space rocks and leaping Floofers; its silver dust now serves as a silent sanctuary for a misplaced book and the long-lost mother cat."
     }
   ],
-  "wordCount": 1388,
-  "izzyWordCount": 484,
-  "dadWordCount": 904
+  "wordCount": 1568,
+  "izzyWordCount": 603,
+  "dadWordCount": 965,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T15:27:03.457Z",
+    "speakerMap": {
+      "speaker_0": "Izzy",
+      "speaker_1": "Dad"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "high"
+  }
 }

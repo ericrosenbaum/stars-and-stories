@@ -6,238 +6,538 @@
   "audioFilename": "Cornell St 121.m4a",
   "highlightQuote": {
     "text": "Seeker, here you go, here's some blue plastic gloves for you to wear. Wear those and here's a Ziploc bag, now hold it, and now grab it and put it in.",
-    "timestamp": 193
+    "timestamp": 264.92
   },
   "transcript": [
     {
+      "speaker": "Izzy",
+      "text": "And you read. You read and then you write. You read and, you read and you read and you read. The bug fly wakes to the moon and the-",
+      "timestamp": 0.1
+    },
+    {
       "speaker": "Dad",
-      "text": "All right. Time for glars and glories, snars and snores.",
-      "timestamp": 16
+      "text": "All right. Time for-",
+      "timestamp": 15.74
     },
     {
       "speaker": "Izzy",
-      "text": "Tell a story.",
-      "timestamp": 27
+      "text": "Time",
+      "timestamp": 19.86
     },
     {
       "speaker": "Dad",
-      "text": "Well we need to turn out the lights.",
-      "timestamp": 31
+      "text": "... blars and blories, snars and snories",
+      "timestamp": 19.87
     },
     {
       "speaker": "Izzy",
-      "text": "You turn out the lights.",
-      "timestamp": 33
+      "text": "Tell a story",
+      "timestamp": 27.5
     },
     {
       "speaker": "Dad",
-      "text": "Okay, I'll turn out the light. Tonight now, who should our story be about tonight?",
-      "timestamp": 36
+      "text": "Well, we need to turn out the lights",
+      "timestamp": 31.4
     },
     {
       "speaker": "Izzy",
-      "text": "Hattie and Uncle Bill, Seeker, Tot.",
-      "timestamp": 49
+      "text": "You turn out the light",
+      "timestamp": 33.16
     },
     {
       "speaker": "Dad",
-      "text": "Uncle Bill, Seeker, and Tot. Well, once upon a time Seeker was in his castle.",
-      "timestamp": 57
+      "text": "Oh. Okay, I'll turn out the light.",
+      "timestamp": 35.45
     },
     {
       "speaker": "Izzy",
-      "text": "And ding dong.",
-      "timestamp": 74
+      "text": "Um-",
+      "timestamp": 39.2
     },
     {
       "speaker": "Dad",
-      "text": "And there was a ding dong at his door. And Seeker said, 'Oh, who is it?'",
-      "timestamp": 77
+      "text": "Tonight. Now-",
+      "timestamp": 39.5
     },
     {
       "speaker": "Izzy",
-      "text": "It's Tot and Uncle Bill.",
-      "timestamp": 83
+      "text": "Tell a story",
+      "timestamp": 42.86
     },
     {
       "speaker": "Dad",
-      "text": "Oh hi Tot, hi Uncle Bill, come on in. And Uncle Bill and Tot went into Seeker's house and they said, 'Seeker, Seeker, you've got to help us.' (That was Tot talking). And Uncle Bill said, 'It's okay Tot, I'm sure we can solve this problem. Yeah, we saw something and it was so weird.' And Seeker said, 'You saw something, what did you see?' 'A creature.' And Uncle Bill said, 'Well, we don't quite know what it was.' And what did the creature look like?",
-      "timestamp": 86
+      "text": "... who will our story be about tonight?",
+      "timestamp": 44.13
     },
     {
       "speaker": "Izzy",
-      "text": "It looked like a tiny mouse. It looked like a dead mouse. It looked like a dead mouse but I don't, but I don't know what it is, said Tot.",
-      "timestamp": 122
+      "text": "Hattie and, no, no, Uncle Bill, Seeker, Hattie",
+      "timestamp": 50.12
     },
     {
       "speaker": "Dad",
-      "text": "'A dead mouse?' said Seeker. 'Yeah, it looks like it but it's not.'",
-      "timestamp": 136
-    },
-    {
-      "speaker": "Dad",
-      "text": "'It's not? It's something else?'",
-      "timestamp": 142
+      "text": "Uncle Bill, Seeker, and Hattie. Well, one-",
+      "timestamp": 57.46
     },
     {
       "speaker": "Izzy",
-      "text": "'Yeah, it's alive, it's alive and it looks like a mouse but it's brown.'",
-      "timestamp": 144
+      "text": "It starts off with Seeker",
+      "timestamp": 65.14
     },
     {
       "speaker": "Dad",
-      "text": "'Maybe it's sick. I wonder if we can go and help it. Maybe we can help it feel better,' said Seeker. 'Okay let's go. Show me where you found it.' And Uncle Bill and Tot led Seeker out into the forest. And they walked along the path, up and over a little hill and across a stream into a little clearing in the forest. And there what did they see?",
-      "timestamp": 151
+      "text": "Okay. Once upon a time, Seeker was in his castle-",
+      "timestamp": 67.06
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And ding dong",
+      "timestamp": 71.86
+    },
+    {
+      "speaker": "Dad",
+      "text": "And what?",
+      "timestamp": 73.42
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And ding dong",
+      "timestamp": 74.56
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, and there was a di- a ding dong at his door, and Seeker said, \"Oh, who is it?\"",
+      "timestamp": 75.62
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"It's Tot and Uncle Bill.\"",
+      "timestamp": 82
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh, hi, Tot. Hi, Uncle Bill. Come on in.\" And Uncle Bill and Tot went into Seeker's house and they said, \"Seeker, Seeker, you gotta help us\"",
+      "timestamp": 85.55
+    },
+    {
+      "speaker": "Izzy",
+      "text": "What-",
+      "timestamp": 97.08
+    },
+    {
+      "speaker": "Dad",
+      "text": "That was Tot talking. And Uncle Bill said, \"It's okay, Tot. I'm sure we can solve this problem.\" \"Yeah, we saw something. It was so weird.\" And, and Seeker said, \"You saw something? What did you see?\" \"A creature.\" And Uncle Bill said, \"Well, we don't quite know what it was.\"",
+      "timestamp": 97.62
+    },
+    {
+      "speaker": "Dad",
+      "text": "And, and what did the creature look like?",
+      "timestamp": 119.56
+    },
+    {
+      "speaker": "Izzy",
+      "text": "It looked like a, a tiny mouse. It looked like a dead mouse.",
+      "timestamp": 122.36
+    },
+    {
+      "speaker": "Dad",
+      "text": "But-",
+      "timestamp": 128.9
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"It looked like a dead mouse, but I don't, but I don't know what it is,\" said Tot.",
+      "timestamp": 129.02
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh, a dead mouse?\" said Seeker.",
+      "timestamp": 136.98
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"Yeah, it looks like it, but it's not.\"",
+      "timestamp": 138.93
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"It's not?\"",
+      "timestamp": 141.84
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah.",
+      "timestamp": 143.12
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"It's, it's something else?\"",
+      "timestamp": 143.38
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"Yeah, it's alive. It's alive and it looks like a mouse, but it's brown.\"",
+      "timestamp": 144.63
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Maybe it's sick. I wonder if we can go and help it. Maybe we can, uh, help it feel better,\" said Seeker. \"Okay, let's go. Show me where you found it.\" And Uncle Bill and Tot led Seeker out into the forest, and they walked along the path up and over a little hill and across a stream into a little clearing in the forest, and there, what did they see?",
+      "timestamp": 150.91
     },
     {
       "speaker": "Izzy",
       "text": "I don't know.",
-      "timestamp": 177
+      "timestamp": 177.66
     },
     {
       "speaker": "Dad",
-      "text": "Oh, it was the dead mouse. Or was it dead? And Seeker bent down to the tiny little brown fur ball lying in the grass. And what happened next?",
-      "timestamp": 178
+      "text": "Oh, it was the dead mouse. Or was it dead? And Seeker bent down to the tiny little brown fur ball lying in the grass. And, and what happened next?",
+      "timestamp": 179.3
     },
     {
       "speaker": "Izzy",
-      "text": "Seeker, here you go, here's some blue plastic gloves for you to wear. Wear those and here's a Ziploc bag, now hold it, and now grab it and put it in.",
-      "timestamp": 193
+      "text": "\"Seeker, here you go. Here's the gloves. Here's some blue plastic gloves for you to wear. Wear those, and here's a Ziploc bag that'll hold it. And now grab it and put it in-",
+      "timestamp": 193.18
     },
     {
       "speaker": "Dad",
-      "text": "Oh, but what if the mouse isn't dead? Here, I'll pick it up gently and then we'll see what happens with the gloves. And Seeker put on the gloves and very gently and carefully he picked up the tiny little brown ball of fur and as soon as he did that, there was a little wiggle and another little wiggle and a little squeak. And Seeker said, 'Oh my goodness, I think this mouse is still alive. I hope we can save it. What do we do?'",
-      "timestamp": 212
+      "text": "Oh",
+      "timestamp": 210.76
     },
     {
       "speaker": "Izzy",
-      "text": "Hello, hello little mouse, hello. And the tiny little pair of eyes popped open and they said, 'I need help, oh.' Hello, my name is Isabella the cat superhero.",
-      "timestamp": 242
+      "text": "... the Ziploc baggie that'll hold it.\"",
+      "timestamp": 210.88
     },
     {
       "speaker": "Dad",
-      "text": "Are you a cat? Oh no! And the little tiny mouse tried to hide.",
-      "timestamp": 262
+      "text": "\"But what if the mouse isn't dead? Here, I'll pick it up gently and then we'll see what happens.\"",
+      "timestamp": 213.17
     },
     {
       "speaker": "Izzy",
-      "text": "I'm just pretending. Just pretending.",
-      "timestamp": 266
+      "text": "With the gloves.",
+      "timestamp": 219.16
     },
     {
       "speaker": "Dad",
-      "text": "Oh you're not a cat? Oh goodness. No, and I've also got my friend here, her name is Kitty, her name is Kitty.",
-      "timestamp": 272
+      "text": "And Seeker put on the gloves, and very gently and carefully he picked up the tiny little brown ball of fur. And as soon as he did that, there was a little wiggle, and another little wiggle, and a little squeak. And Seeker said, \"Oh my goodness, I think this mouse is still alive.",
+      "timestamp": 220.38
     },
     {
       "speaker": "Dad",
-      "text": "And Kitty, oh I don't feel very good, that's why I was lying down. Can you help me feel better? I might need someone who can help me find out what's wrong.",
-      "timestamp": 285
+      "text": "I hope we can save it.\"",
+      "timestamp": 240.02
     },
     {
       "speaker": "Izzy",
-      "text": "And also there's three people here that might want to help you. The one is Seeker, one is Tot... Tot the mouse.",
-      "timestamp": 300
+      "text": "Um, um-",
+      "timestamp": 241.94
     },
     {
       "speaker": "Dad",
-      "text": "Oh yeah, said Tot, yeah, but I don't know how to help because I'm not a veterinarian or a doctor. Do you know any doctors or veterinarians?",
-      "timestamp": 317
+      "text": "\"What do we do?\"",
+      "timestamp": 242.57
     },
     {
       "speaker": "Izzy",
-      "text": "No. And another one is named Uncle Bill.",
-      "timestamp": 329
+      "text": "Um, \"Hello. Hello, little mouse. Hello.\"",
+      "timestamp": 243.74
     },
     {
       "speaker": "Dad",
-      "text": "And Uncle Bill said, 'Oh, I know what to do. There's an animal hospital right here in town. We better take this little mouse to the hospital.'",
-      "timestamp": 340
+      "text": "And the, the tiny little pair of eyes popped open and they said, \"I need help.\"",
+      "timestamp": 249.42
     },
     {
       "speaker": "Izzy",
-      "text": "Yeah, with Dr. Izzy. So Dr. Izzy can check her.",
-      "timestamp": 351
+      "text": "\"Um, hello. My name is Isabella the s- the cat superhero.\"",
+      "timestamp": 256.21
     },
     {
       "speaker": "Dad",
-      "text": "And so they carefully carried the tiny mouse all the way down the path to the road. And then they got a ride along the road into town where they found the hospital and they went to the emergency room where who did they find to help them?",
-      "timestamp": 358
+      "text": "\"Are you a cat? Oh no.\"",
+      "timestamp": 262.65
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"No.\"",
+      "timestamp": 264.92
+    },
+    {
+      "speaker": "Dad",
+      "text": "And the little tiny mouse tried to hide.",
+      "timestamp": 264.94
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"I'm just, I'm just pretending. Just pretending.\"",
+      "timestamp": 267.73
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh. Oh, you're not a cat?\"",
+      "timestamp": 273.05
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"No, I-",
+      "timestamp": 274.54
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Thank goodness for that\"",
+      "timestamp": 274.87
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... I'm just, uh, um, and I've also got my friend here. Her name is Kitty. Her name is Kitty.\"",
+      "timestamp": 275.85
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh. And Ca- I, I don't feel very good. That's why I was lying down. C- can you help me feel better?\"",
+      "timestamp": 283.84
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"Uh...\"",
+      "timestamp": 293.99
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"I, I might need someone who can help me find out what's wrong.\"",
+      "timestamp": 296.12
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"There's also, there's three people here that y- that might wanna help you. Uh, one is Seeker, one is, o- one is Tot. To- um, Tot's a mouse. Tot's a mouse.\"",
+      "timestamp": 299.89
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"I am,\" said Tot. \"Yes, but I don't know how to help because I'm not a, a veterinarian or a doctor. Do you know any doctors or veterinarians?\"",
+      "timestamp": 318.19
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"No.\"",
+      "timestamp": 329.7
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Uh-oh.\"",
+      "timestamp": 331.07
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"Um, and, and another one is named, and another one is named Uncle Bill.\"",
+      "timestamp": 332.19
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Uncle Bill said, \"Oh, I, I, I know what to do. There's an animal hospital right here in town. We better take this little mouse to the hospital.\"",
+      "timestamp": 340.42
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"Yeah, with Dr. Izzy, so Dr. Izzy, so Dr. Izzy can check her.\"",
+      "timestamp": 352.58
+    },
+    {
+      "speaker": "Dad",
+      "text": "And so they carried, they carefully carried the tiny mouse- All the way down the path to the road and then they got a ride along the road into town where they found the hospital and they went to the emergency room where who did they find to help them?",
+      "timestamp": 359.36
     },
     {
       "speaker": "Izzy",
       "text": "Isabella the doctor.",
-      "timestamp": 378
+      "timestamp": 379.14
     },
     {
       "speaker": "Dad",
-      "text": "Ah, and Isabella the doctor said, 'What's up? Who did you bring with you? Is it a stuffy?'",
-      "timestamp": 381
+      "text": "Ah.",
+      "timestamp": 381.18
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And Isabella the doctor said, \"What's up? Who did you bring with you? Is it a stuffy?\"",
+      "timestamp": 382.2
     },
     {
       "speaker": "Dad",
-      "text": "And Uncle Bill said, 'No, I'm afraid this isn't a stuffy, this is a real mouse. But she seems very sick, we don't know what's wrong with her. I don't even know her name, what's your name tiny one?' And what was the tiny mouse's name?",
-      "timestamp": 388
+      "text": "And Uncle Bill said, \"No, I'm afraid this isn't a stuffy. This is a real mouse.\"",
+      "timestamp": 389.02
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Okay.",
+      "timestamp": 393.27
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"But she seems very sick. We don't know what's wrong with her. I don't even know her name. What's your name, tiny one?\" And what was the t- tiny mouse's name?",
+      "timestamp": 393.27
     },
     {
       "speaker": "Izzy",
       "text": "I don't know.",
-      "timestamp": 402
+      "timestamp": 402.06
     },
     {
       "speaker": "Dad",
-      "text": "And she said, 'My name's Buddy.' Oh, Buddy the mouse. And Uncle Bill said, 'Can you check her Dr. Izzy?'",
-      "timestamp": 405
+      "text": "And, and she said, \"M- my name's, um, Buddy.\" Oh, Buddy the Mouse. And Uncle Bill said, \"Can, can you check her, Dr. Izzy?\"",
+      "timestamp": 404.78
     },
     {
       "speaker": "Izzy",
-      "text": "I'll just put some ointment on you and some medicine. Nurse Daddy is coming in soon.",
-      "timestamp": 421
+      "text": "Um, yes. But, um, um, I'll just put some ointment on you and some medicine. Um, Nurse, um, Nurse Daddy is coming in soon.",
+      "timestamp": 419.4
     },
     {
       "speaker": "Dad",
-      "text": "Oh and in came Nurse Daddy and said, 'Here I am, what's going on with this patient here, Dr. Izzy?'",
-      "timestamp": 434
+      "text": "Oh, and in came Nurse Daddy and said, \"Here I am. W- what, what's going on with this patient here, Dr. Izzy?\"",
+      "timestamp": 435.46
     },
     {
       "speaker": "Izzy",
-      "text": "Her name is Buddy the mouse and she's a live mouse and she, I think she's sick.",
-      "timestamp": 442
+      "text": "Um, uh, her name is Buddy the Mouse and she's a, an alive mouse, and she's, I think she's sick.",
+      "timestamp": 442.36
     },
     {
       "speaker": "Dad",
-      "text": "Oh, and what kind of sick do we know? Did you check her ears and her nose and her mouth and her paws and listen to her heart and her breathing? Did you do those things?",
-      "timestamp": 450
+      "text": "Oh, what kind of sick? Do we know?",
+      "timestamp": 450.72
     },
     {
       "speaker": "Izzy",
-      "text": "I already listened to her heart, I gave her ointment, I gave her medicine. That's all I did.",
-      "timestamp": 461
+      "text": "Um.",
+      "timestamp": 453.84
     },
     {
       "speaker": "Dad",
-      "text": "And then there was a little squeak squeak. Oh and Nurse Daddy said, 'Oh, that's Buddy talking. I think she said she's thirsty, is that right?' Squeak. We better get her something to drink. And so Nurse Daddy went and got a tiny, tiny little cup of water and Buddy drank it up greedily. And she said, 'Oh, that's what I needed, maybe I was a little dehydrated.' Dehydrated is when you haven't had enough water. And Nurse Daddy said, 'Okay, I think you'll do a little bit better, between the ointment and getting some fluids and maybe a little rest. Here, let's get you a bed.' And so Nurse Daddy brought Buddy the mouse to a comfy cozy little bed. 'It's okay now, Dr. Izzy can help you go to sleep. Can you help our patient go to sleep please Dr. Izzy?'",
-      "timestamp": 479
+      "text": "Did you check her ears and her nose and her mouth?",
+      "timestamp": 455.32
     },
     {
       "speaker": "Izzy",
-      "text": "Rockabye Buddy the mousy... Rockabye Buddy the mousy... Rockabye Buddy the mousy... Rockabye Buddy the mousy...",
-      "timestamp": 536
+      "text": "Uh.",
+      "timestamp": 457.66
     },
     {
       "speaker": "Dad",
-      "text": "And pretty soon there was a tiny little zzzz because Buddy the mouse had fallen asleep. And she was certainly going to feel better once she woke up. And that's the end of our story.",
-      "timestamp": 570
+      "text": "And her paws and listen to her heart and her breathing? Did you do those things?",
+      "timestamp": 457.78
     },
     {
       "speaker": "Izzy",
-      "text": "Shadow puppets! Fly into the pool, and move to the rain. The sun is shining out on you. A crocodile, a ducky, a shark, a flower, and a... and a diamond... and a triangle... and a heart.",
-      "timestamp": 590
+      "text": "No. I already, I already, um, I, I listened to her heart, I gave her ointment, I gave her, I gave her medicine.",
+      "timestamp": 461.29
     },
     {
       "speaker": "Dad",
-      "text": "Okay, all done.",
-      "timestamp": 652
+      "text": "Oh, good.",
+      "timestamp": 478.22
+    },
+    {
+      "speaker": "Izzy",
+      "text": "That's all I did.",
+      "timestamp": 478.27
+    },
+    {
+      "speaker": "Dad",
+      "text": "And then there was a little-",
+      "timestamp": 480.7
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Squeak, squeak",
+      "timestamp": 481.56
+    },
+    {
+      "speaker": "Dad",
+      "text": "... g- oh. And, and Nurse Daddy said, \"Oh, that's Buddy talking. I think she said she's thirsty. Is that right?\"",
+      "timestamp": 483.2
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"Squeak.\"",
+      "timestamp": 489.59
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"We better get her something to drink.\" And so Nurse Daddy went and got a tiny, tiny, tiny little cup of water and Buddy went and drank it up greedily. And she said, \"Oh, that's what I needed. Maybe I was a little dehydrated.\" Dehydrated is when you haven't drunk enough water.",
+      "timestamp": 491.23
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Nurse Daddy said, \"Okay, I think you'll do a little bit better between the ointment and getting some fluids and maybe a little rest. Here, let's get you a bed.\" And so Nurse Daddy brought Buddy the Mouse to a comfy and cozy little bed and said, \"Okay, now Dr.",
+      "timestamp": 512.82
+    },
+    {
+      "speaker": "Dad",
+      "text": "Izzy can help you go to sleep.\" Can you, can you help our patient go to sleep please, Dr. Izzy?",
+      "timestamp": 530.48
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Of course I can. Rock-a-bye Buddy the Mouse-y. Rock-a-bye Buddy the Mouse-y. Rock-a-bye Buddy the, the Mouse-y. Rock-a-bye Buddy the Mouse-y.",
+      "timestamp": 536.81
+    },
+    {
+      "speaker": "Dad",
+      "text": "And pretty soon there was a tiny little because Buddy the Mouse had fallen asleep and she was certainly going to feel better once she woke up. And that's the end of our story.",
+      "timestamp": 572.78
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Shadow puppets. Why is so good mo- to the rain. The sun is shining out on you. A cro- crocodile, a ducky, a shark-",
+      "timestamp": 591.78
+    },
+    {
+      "speaker": "Dad",
+      "text": "Wow",
+      "timestamp": 623.3
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... a flower-",
+      "timestamp": 623.64
+    },
+    {
+      "speaker": "Dad",
+      "text": "I love it",
+      "timestamp": 625.48
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... and a, and a diamond.",
+      "timestamp": 627.5
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, a diamond. I see it.",
+      "timestamp": 634.14
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And a triangle.",
+      "timestamp": 635.62
+    },
+    {
+      "speaker": "Dad",
+      "text": "Ooh, nice triangle.",
+      "timestamp": 638.2
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And a heart.",
+      "timestamp": 640.82
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, yeah. Look at that. You made a heart, a heart shadow. Okay, all done.",
+      "timestamp": 644.58
     }
   ],
   "characters": [
@@ -309,7 +609,19 @@
       "description": "The room where Dr. Izzy performs the medical examination."
     }
   ],
-  "wordCount": 1130,
-  "izzyWordCount": 284,
-  "dadWordCount": 846
+  "wordCount": 1321,
+  "izzyWordCount": 437,
+  "dadWordCount": 884,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T15:27:26.660Z",
+    "speakerMap": {
+      "speaker_0": "Izzy",
+      "speaker_1": "Dad"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "high"
+  }
 }

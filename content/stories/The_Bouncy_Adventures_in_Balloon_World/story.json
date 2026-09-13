@@ -6,208 +6,363 @@
   "audioFilename": "Cornell St 111.m4a",
   "highlightQuote": {
     "text": "Balloon strawberries. They went outside to pick balloon strawberries and ate them.",
-    "timestamp": 99
+    "timestamp": 100.92
   },
   "transcript": [
     {
-      "text": "Once upon a time, Peacock the Wizard and Seeker were traveling through Balloon World, where they had just finished their second class about balloon twisting.",
-      "timestamp": 33,
-      "speaker": "Dad"
+      "speaker": "Dad",
+      "text": "Yeah. Now, where is the lantern though? Hmm.",
+      "timestamp": 0.12
     },
     {
-      "text": "No... just when we were making a mousie.",
       "speaker": "Izzy",
-      "timestamp": 53
+      "text": "The lantern's that way.",
+      "timestamp": 7.22
     },
     {
       "speaker": "Dad",
-      "timestamp": 60,
-      "text": "Well no, because then they finished their mice and then they learned how to make a mermaid balloon and everyone made their own mermaid balloon."
-    },
-    {
-      "timestamp": 72,
-      "speaker": "Izzy",
-      "text": "And then it was Circle."
+      "text": "Oh, here it is.",
+      "timestamp": 9.22
     },
     {
       "speaker": "Izzy",
-      "timestamp": 74,
-      "text": "But then it was snack. We should start at snack time. I forgot snack time. Let's start at snack time."
+      "text": "Oh. First we got something to do.",
+      "timestamp": 11.22
     },
     {
-      "text": "And so, after everyone finished making their own mermaid balloon sculpture out of a lot of different balloons, they were all pretty tired and hungry. And so the balloon teacher said, 'Okay everyone, it's snack time.' And what did they have for snack at Balloon School?",
-      "timestamp": 81,
-      "speaker": "Dad"
-    },
-    {
-      "timestamp": 99,
-      "speaker": "Izzy",
-      "text": "Balloon strawberries. They went outside to pick balloon strawberries and ate them."
-    },
-    {
-      "text": "Pop pop pop. 'I like these balloon strawberries,' said Seeker. 'They're not as filling as real strawberries, but they have a nice pop to them.'",
-      "timestamp": 108,
-      "speaker": "Dad"
-    },
-    {
-      "timestamp": 120,
       "speaker": "Dad",
-      "text": "And Peacock the Wizard said, 'Oh, let me magic some of these balloon strawberries into real juicy squishy strawberries. Foom!' And then he turned a balloon strawberry into a regular one and took a bite. Chomp."
+      "text": "This one.",
+      "timestamp": 16.64
     },
     {
       "speaker": "Izzy",
-      "timestamp": 134,
-      "text": "Just remember to taste one the balloon flavor. Do you want to taste one?"
+      "text": "It makes the light purple.",
+      "timestamp": 18.6
     },
     {
-      "text": "Who? Peacock?",
-      "timestamp": 138,
-      "speaker": "Dad"
-    },
-    {
-      "text": "Talking to Peacock.",
-      "speaker": "Izzy",
-      "timestamp": 140
-    },
-    {
-      "timestamp": 142,
       "speaker": "Dad",
-      "text": "Oh and Peacock the Wizard said, 'Oh okay, I'll try a balloon flavored one.' Pop pop pop. 'Mmm, it's pretty good. It does have a nice flavor. But it's full of air because it's a balloon.' And then snack time was over. And what was next?"
+      "text": "Oh, yeah, a little bit. That's cool. But now it's time for Stars and Stories.",
+      "timestamp": 21.16
     },
     {
+      "speaker": "Izzy",
+      "text": "Now, there.",
+      "timestamp": 29.22
+    },
+    {
+      "speaker": "Dad",
+      "text": "Who should, who should it be about tonight?",
+      "timestamp": 31.16
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Peacock and Seeker.",
+      "timestamp": 33.12
+    },
+    {
+      "speaker": "Dad",
+      "text": "Well, once upon a time, Peacock the Wizard and Seeker were traveling through Balloon World, where they had just fis- finished their second class about balloon twisting. That's-",
+      "timestamp": 35.12
+    },
+    {
+      "speaker": "Izzy",
+      "text": "That's not where we st- You started where we were making the mousey.",
+      "timestamp": 53.89
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh. Well, no, 'cause then they, they finished their mice, and then they learned how to make a mermaid balloon, and everyone made their own mermaid balloon.",
+      "timestamp": 59.64
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And then it was circle.",
+      "timestamp": 67.66
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, should we start there?",
+      "timestamp": 69.62
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No, then it was snack. We should start at snack time. I forgot snack time. Start at snack time.",
+      "timestamp": 72.8
+    },
+    {
+      "speaker": "Dad",
+      "text": "And so after everyone finished making their own mermaid balloon sculpture out of a lot of different balloons, they were all pretty tired and hungry. And so the, the balloon teacher said, \"Okay, everyone, it's snack time.\" And what did they have for snack at balloon school?",
+      "timestamp": 81.1
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Balloon strawberries. They went outside to pick balloon strawberries and ate them.",
+      "timestamp": 100.92
+    },
+    {
+      "speaker": "Dad",
+      "text": "Mm, pop, pop, pop. \"I like these balloon strawberries,\" said Seeker. \"They're not as filling as real strawberries, but they have a nice pop to them.\" And Peacock the Wizard said, \"Oh, let me magic some of these balloon strawberries into real juicy, squishy str- strawberries.\"",
+      "timestamp": 109.72
+    },
+    {
+      "speaker": "Dad",
+      "text": "And then he turned a balloon strawberry into a regular one and took a bite. Chomp.",
+      "timestamp": 128.42
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Test b- Remember to test one, the balloon flavor. Do you wanna test one?",
+      "timestamp": 135.2
+    },
+    {
+      "speaker": "Dad",
+      "text": "Who?",
+      "timestamp": 143.12
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Peacock. I'm talking to Peacock.",
+      "timestamp": 144.12
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, and Peacock the Wizard said, \"Oh, okay, I'll try a balloon-flavored one.\" Pop, pop, pop. \"Mm, it's pretty good. Yeah, it does have a nice flavor, but it's full of air 'cause it's a balloon.\" And then snack time was over, and what was next?",
+      "timestamp": 146.46
+    },
+    {
+      "speaker": "Izzy",
       "text": "It was circle and then outside.",
-      "speaker": "Izzy",
-      "timestamp": 162
-    },
-    {
-      "text": "Oh, what did they do at circle?",
-      "speaker": "Dad",
-      "timestamp": 169
-    },
-    {
-      "timestamp": 171,
-      "speaker": "Izzy",
-      "text": "They sang and then they went outside and then it was lunch and then it was circle and then and then and then outside."
-    },
-    {
-      "timestamp": 189,
-      "speaker": "Dad",
-      "text": "And then they played outside again. And what did Seeker and Peacock the Wizard play outside?"
-    },
-    {
-      "speaker": "Izzy",
-      "timestamp": 197,
-      "text": "And then they stayed out there all day."
+      "timestamp": 162.96
     },
     {
       "speaker": "Dad",
-      "timestamp": 199,
-      "text": "They stayed outside all day in Balloon World. And what did they do for their outside time in Balloon World? I don't know. Did they play on a balloon playground or use some balloon running around games or some play with balloon chalk or... Oh did they do some balloon bouncing?"
+      "text": "Oh. What did they do at circle?",
+      "timestamp": 169.58
     },
     {
-      "text": "Um, they went on their playground.",
       "speaker": "Izzy",
-      "timestamp": 223
+      "text": "They sang, and then they went outside. And then it was lunch, then it was circle, then it was out. Then it was lunch, so they picked carrots, and ate them all this. Then they said, \"That was,\" then it was-",
+      "timestamp": 172.88
     },
     {
-      "text": "Oh, the balloon playground. What's on the balloon playground? Is there a balloon climbing structure or balloon swing set?",
       "speaker": "Dad",
-      "timestamp": 225
+      "text": "And then what?",
+      "timestamp": 186.33
     },
     {
       "speaker": "Izzy",
-      "timestamp": 231,
-      "text": "Balloon swing set, balloon mountain, balloon seesaw, balloon trapeze, balloon house, and balloon everything."
+      "text": "... circle time, then it, and then outside.",
+      "timestamp": 186.33
     },
     {
-      "text": "And it's just like a regular playground but since it's made of balloons, it's a little bit bouncy and wobbly and squeaky. But the balloon playground was very well made and none of the balloons popped while they were playing on them.",
-      "timestamp": 239,
-      "speaker": "Dad"
+      "speaker": "Dad",
+      "text": "And then they played outside again. And what did Seeker and Peacock the Wizard play outside?",
+      "timestamp": 189.92
     },
     {
-      "timestamp": 258,
       "speaker": "Izzy",
-      "text": "And there was a balloon bouncer too."
+      "text": "And then they stayed out there all day.",
+      "timestamp": 195.38
     },
     {
-      "text": "A balloon bouncer. Oh yeah.",
-      "timestamp": 261,
-      "speaker": "Dad"
+      "speaker": "Dad",
+      "text": "They stayed outside all day in Balloon World. And what did they do for their outside time in Balloon World?",
+      "timestamp": 197.9
     },
     {
+      "speaker": "Izzy",
+      "text": "I don't know.",
+      "timestamp": 205.04
+    },
+    {
+      "speaker": "Dad",
+      "text": "Did they play on a balloon playground, or use, do some balloon running around games, or some play with balloon chalk, or... Uh-oh, baby's crying. Or did they just do some balloon bouncing?",
+      "timestamp": 205.94
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Um, um, they went on their playground.",
+      "timestamp": 221.02
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, the balloon playground. What's on the balloon playground? Is there a balloon climbing structure or a balloon swing set?",
+      "timestamp": 224.86
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Balloon swing set, balloon climbing structure, balloon mud kitchen, balloon seesaw.",
+      "timestamp": 230.98
+    },
+    {
+      "speaker": "Dad",
+      "text": "Wow. And they had so much fun.",
+      "timestamp": 236.28
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Balloon trapeze, balloon house, and balloon everything.",
+      "timestamp": 239.08
+    },
+    {
+      "speaker": "Dad",
+      "text": "And it's just like a regular playground, but since it's made of balloons, it's a little bit bouncy and wobbly and squeaky. But the balloon playground was very well made, and none of the balloons popped while they were playing on them. And then what was-",
+      "timestamp": 243.62
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And there was a balloon bouncer too.",
+      "timestamp": 259.66
+    },
+    {
+      "speaker": "Dad",
+      "text": "A balloon bouncer? Oh, yeah.",
+      "timestamp": 262.08
+    },
+    {
+      "speaker": "Izzy",
       "text": "And Seeker used the balloon bouncer.",
-      "timestamp": 264,
-      "speaker": "Izzy"
+      "timestamp": 264.58
     },
     {
-      "text": "And after they had been playing on the playground and playing and playing and playing and they tried everything on the playground, Seeker said, 'Wow, phew, that was a long day.'",
       "speaker": "Dad",
-      "timestamp": 266
+      "text": "And after they had been playing on the playground, and playing, and playing, and playing, and they tried everything on the playground, Seeker said, \"Wow. Whoof.\"",
+      "timestamp": 268.14
     },
     {
-      "timestamp": 277,
       "speaker": "Izzy",
-      "text": "And then mommy came. Just just one more thing to do and then your mommy will be here."
+      "text": "And then his mommy came.",
+      "timestamp": 276.12
     },
     {
-      "timestamp": 285,
       "speaker": "Dad",
-      "text": "Oh, what's the one more thing? said Seeker. I'm kind of tired."
+      "text": "\"That, that was a long day.\"",
+      "timestamp": 277.91
     },
     {
-      "timestamp": 287,
       "speaker": "Izzy",
-      "text": "Seesaw."
+      "text": "\"Just, just one more thing to do, and then your mommy will be here.\"",
+      "timestamp": 279.33
     },
     {
-      "timestamp": 289,
-      "speaker": "Izzy",
-      "text": "Seesaw, seesaw. And then his mommy wizard showed up."
-    },
-    {
-      "text": "Oh hi Mama Wizard. What's Seeker's mama's name?",
       "speaker": "Dad",
-      "timestamp": 294
+      "text": "\"Oh, what, what's the one more thing?\" said Seeker. \"I'm kind of tired.\"",
+      "timestamp": 283.53
     },
     {
+      "speaker": "Izzy",
+      "text": "Seesaw.",
+      "timestamp": 287.18
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh, okay.\"",
+      "timestamp": 287.19
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Seesaw, seesaw.",
+      "timestamp": 287.98
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Seeker went up-",
+      "timestamp": 289.74
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And then his mommy wizard showed up.",
+      "timestamp": 290.33
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, hi, Mama Wizard. What's Seeker's mama's name?",
+      "timestamp": 293.9
+    },
+    {
+      "speaker": "Izzy",
       "text": "Zozo.",
-      "timestamp": 300,
-      "speaker": "Izzy"
+      "timestamp": 298.54
     },
     {
-      "text": "Oh hi Mama Zozo.",
-      "timestamp": 303,
-      "speaker": "Dad"
-    },
-    {
-      "timestamp": 315,
       "speaker": "Dad",
-      "text": "And so Seeker and his mom got in there... oh, what kind of vehicle did Seeker's mom pick him up in?"
+      "text": "Zozo?",
+      "timestamp": 299.64
     },
     {
-      "text": "Seeker's mom was a fireman, so she picked Seeker up in a car, a red, a red car.",
-      "timestamp": 327,
-      "speaker": "Izzy"
-    },
-    {
-      "timestamp": 340,
-      "speaker": "Dad",
-      "text": "A red car, I see. And where did they go after school?"
-    },
-    {
-      "timestamp": 343,
       "speaker": "Izzy",
-      "text": "Home."
+      "text": "Yeah.",
+      "timestamp": 301.06
     },
     {
-      "text": "They went back home and they had dinner at home and they snuggled up and read a book. And what did Seeker's mom read to Seeker before bedtime? What book did they read?",
       "speaker": "Dad",
-      "timestamp": 344
+      "text": "Oh, hi, Mama Zozo. Where were we?",
+      "timestamp": 301.16
     },
     {
-      "timestamp": 374,
+      "speaker": "Izzy",
+      "text": "Dad, there was a hair in, in my thumb. I got it out.",
+      "timestamp": 303.6
+    },
+    {
       "speaker": "Dad",
-      "text": "Okay, that's the end. And then, oh you made it glow. Wow look at that. All right, and now it's time to turn on the lamp and time to go potty."
+      "text": "Oh, good. And so Seeker and his mom got in their... Oh, did, what did, what kind of vehicle did Seeker pick, did Seeker's mom pick him up in?",
+      "timestamp": 308.74
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Um, Seeker's mom was a fireman, so he picked Seeker up in a car, a red car.",
+      "timestamp": 324.88
+    },
+    {
+      "speaker": "Dad",
+      "text": "A red car? Oh, I see. And, um, where did they go after school?",
+      "timestamp": 335.3
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Home.",
+      "timestamp": 344.16
+    },
+    {
+      "speaker": "Dad",
+      "text": "They went back home, and they had dinner at home, and they snuggled up and read a book. And what did Seeker's mom read to Seeker before bedtime? What book did they read? A book about Chri-",
+      "timestamp": 344.92
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I hear the stars shaking in here.",
+      "timestamp": 363.13
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, I hear them. Yeah, they're shaking quietly.",
+      "timestamp": 366.84
+    },
+    {
+      "speaker": "Izzy",
+      "text": "You hear the phil phil?",
+      "timestamp": 368.72
+    },
+    {
+      "speaker": "Dad",
+      "text": "Mm-hmm. And, and, and what-",
+      "timestamp": 370.2
+    },
+    {
+      "speaker": "Izzy",
+      "text": "This is the end of our Stars and Stories 'cause I'm all out of stories. Stars and Stories.",
+      "timestamp": 374.4
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, okay. That's the end. And then, oh, you made it glow. Wow, look at that. All right, and now it's time to turn on the lamp. And time to go potty.",
+      "timestamp": 379.68
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Bye, Mike.",
+      "timestamp": 396.88
     }
   ],
   "characters": [
@@ -254,7 +409,19 @@
       "description": "The cozy residence where Seeker and his mother share dinner and bedtime stories."
     }
   ],
-  "wordCount": 678,
-  "izzyWordCount": 181,
-  "dadWordCount": 497
+  "wordCount": 889,
+  "izzyWordCount": 287,
+  "dadWordCount": 602,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T15:25:26.343Z",
+    "speakerMap": {
+      "speaker_0": "Dad",
+      "speaker_1": "Izzy"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "high"
+  }
 }

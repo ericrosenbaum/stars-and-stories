@@ -6,328 +6,450 @@
   "audioFilename": "Cornell St 124.m4a",
   "highlightQuote": {
     "text": "I'm Rainbow Mergirl says, um, so I have a kelp forest in my front yard and and today I was going to water it, but it's gone.",
-    "timestamp": 99
+    "timestamp": 98.5
   },
   "transcript": [
     {
       "speaker": "Dad",
-      "text": "There's the start. Are you listening to that?",
-      "timestamp": 81
+      "text": "Oh, there's the window shade. All right. There. Now there's the stars. Oh, you wanna see my lamp?",
+      "timestamp": 15.46
     },
     {
       "speaker": "Izzy",
-      "text": "I want to be a Mergirl in this problem line.",
-      "timestamp": 84
+      "text": "I want to be a mergirl pl- problem one.",
+      "timestamp": 81.5
     },
     {
       "speaker": "Dad",
-      "text": "A Mergirl problem? What kind of a problem do you think?",
-      "timestamp": 87
+      "text": "Oh, a mergirl problem. What kind of a problem do you think?",
+      "timestamp": 85.18
     },
     {
       "speaker": "Izzy",
-      "text": "Ding dong ding da... it's Rainbow Mergirl.",
-      "timestamp": 89
+      "text": "Ding-dong, Seeker.",
+      "timestamp": 87.62
     },
     {
       "speaker": "Dad",
-      "text": "Oh, come on in, Rainbow Mergirl. I haven't seen you in a while.",
-      "timestamp": 95
+      "text": "And Seeker said, \"Who is it?\"",
+      "timestamp": 90.4
     },
     {
       "speaker": "Izzy",
-      "text": "I'm Rainbow Mergirl says, um, so I have a kelp forest in my front yard and and today I was going to water it, but it's gone.",
-      "timestamp": 99
+      "text": "\"It's, it's Rainbow Mergirl.\"",
+      "timestamp": 92.49
     },
     {
       "speaker": "Dad",
-      "text": "Gone? What do you mean gone?",
-      "timestamp": 114
+      "text": "\"Oh, come on in, Rainbow Mergirl. I haven't seen you in a while.\"",
+      "timestamp": 95.45
     },
     {
       "speaker": "Izzy",
-      "text": "I mean gone. My kelp forest is gone.",
-      "timestamp": 116
+      "text": "Um, and Rainbow Mergirl says, um, \"My... So I have a kelp forest in my front yard, and t- I... and today I was going to water it, but it's gone.\"",
+      "timestamp": 98.5
     },
     {
       "speaker": "Dad",
-      "text": "Like someone chewed off some of the leaves?",
-      "timestamp": 120
+      "text": "\"Gone? What do you mean gone?\"",
+      "timestamp": 115.88
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"I mean gone, my merkelp forest is gone.\"",
+      "timestamp": 117.84
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Like someone chewed off some of the leaves?\"",
+      "timestamp": 122.39
     },
     {
       "speaker": "Izzy",
       "text": "No, like someone chewed off the whole kelp forest.",
-      "timestamp": 123
+      "timestamp": 125.3
     },
     {
       "speaker": "Dad",
       "text": "All the way down to the ground?",
-      "timestamp": 127
+      "timestamp": 128.92
     },
     {
       "speaker": "Izzy",
       "text": "Yeah.",
-      "timestamp": 129
+      "timestamp": 130.76
     },
     {
       "speaker": "Dad",
       "text": "Did they pull the roots out?",
-      "timestamp": 130
+      "timestamp": 131.4
     },
     {
       "speaker": "Izzy",
       "text": "I don't think they pulled the roots out.",
-      "timestamp": 132
+      "timestamp": 133.74
     },
     {
       "speaker": "Dad",
       "text": "Oh, so there's little stubs left in the sea floor?",
-      "timestamp": 134
+      "timestamp": 136.14
     },
     {
       "speaker": "Izzy",
       "text": "Yep.",
-      "timestamp": 137
+      "timestamp": 139.58
     },
     {
       "speaker": "Dad",
-      "text": "Well that's terrible news, Rainbow Mergirl. Who who do you think would do a thing like that?",
-      "timestamp": 138
+      "text": "Well, that's terrible news, Rainbow Mergirl. Who, who do you think would do a thing like that?",
+      "timestamp": 140.02
     },
     {
       "speaker": "Izzy",
-      "text": "The Kelpbasses.",
-      "timestamp": 144
+      "text": "The kelp basses.",
+      "timestamp": 145
     },
     {
       "speaker": "Dad",
-      "text": "Oh, the Kelpbasses. Now we've met them before. Ding ding ding. Didn't they eat up an entire kelp forest in your backyard once before?",
-      "timestamp": 147
+      "text": "Oh, the kelp basses. Now, we've met them before. D- didn't they eat up an entire kelp forest in your backyard once before?",
+      "timestamp": 147.36
     },
     {
       "speaker": "Izzy",
       "text": "Yep.",
+      "timestamp": 156.2
+    },
+    {
+      "speaker": "Dad",
+      "text": "Ugh, and they're back at it again. What should we do?",
       "timestamp": 157
     },
     {
-      "speaker": "Dad",
-      "text": "Ugh. And they're back at it again. What should we do?",
-      "timestamp": 159
-    },
-    {
       "speaker": "Izzy",
-      "text": "Ah, I know.",
-      "timestamp": 164
+      "text": "Ah. I know.",
+      "timestamp": 160.74
     },
     {
       "speaker": "Dad",
       "text": "Yeah?",
-      "timestamp": 166
+      "timestamp": 165.58
     },
     {
       "speaker": "Izzy",
       "text": "Get a book about them.",
-      "timestamp": 167
+      "timestamp": 166.38
     },
     {
       "speaker": "Dad",
-      "text": "Oh, I wouldn't have thought of about that idea, Seeker, but I do love getting books. Which library do you want to go to?",
-      "timestamp": 169
+      "text": "\"Oh, I wouldn't have thought about, of that idea,\" said Seeker, \"But I do love getting books. Which library do you wanna go to?\"",
+      "timestamp": 169.15
     },
     {
       "speaker": "Izzy",
-      "text": "Well, I guess I got one today. Oh wait, there's a Kelpbass behind me.",
-      "timestamp": 178
+      "text": "Well, I just got one today. Oh, wait, there's a kelp bass behind me.",
+      "timestamp": 179.3
     },
     {
       "speaker": "Dad",
-      "text": "There there it is, Seeker. How did you get into my house, Kelpbass?",
-      "timestamp": 185
+      "text": "\"There, there is?\" said Seeker. \"How did you get into my house, Kelp Bass?\"",
+      "timestamp": 185.21
     },
     {
       "speaker": "Izzy",
-      "text": "And what does the Kelpbass say?",
-      "timestamp": 191
+      "text": "And what does the kelp bass say?",
+      "timestamp": 192.35
     },
     {
       "speaker": "Dad",
-      "text": "Um... [coughs] excuse me. Because the Kelpbass was coughing. And Seeker said, 'Oh my goodness, Kelpbass, are you okay?' And the Kelpbass said, '[coughs] I can't... [coughs].'",
-      "timestamp": 193
+      "text": "Um, \"Ex- excuse me.\" Because the kelp bass was coughing. And Seeker said, \"Oh, my goodness, Kelp Bass, are you okay?\" And the kelp bass said, \"I can't...\" \"What's wrong?\" said Seeker. \"Rainbow Mergirl, do you know what's wrong with this kelp bass?\"",
+      "timestamp": 194.5
     },
     {
       "speaker": "Izzy",
-      "text": "What's wrong, Seeker? Rainbow Mergirl, do you know what's wrong with this Kelpbass?",
-      "timestamp": 211
+      "text": "Kelp Bass.",
+      "timestamp": 216.34
     },
     {
       "speaker": "Dad",
-      "text": "Kelpbass... I can't... Oh, what is it? What?",
-      "timestamp": 216
+      "text": "\"I can't s-...\" \"I can't...\" Oh, what is... What, what-",
+      "timestamp": 217.12
     },
     {
       "speaker": "Izzy",
-      "text": "Here, here, here, Kelpbass, here's a book about you.",
-      "timestamp": 221
+      "text": "Here, here-",
+      "timestamp": 221.58
     },
     {
       "speaker": "Dad",
-      "text": "No, I can't... No, that's... Oh, that is a very interesting book, but I can't read it right now because... [coughs]. And the Kelpbass flopped over on its side and its gills were opening and closing, but there was no water because they were in Seeker's living room in Seeker's castle.",
-      "timestamp": 225
+      "text": "What, what's the-",
+      "timestamp": 222.78
     },
     {
       "speaker": "Izzy",
-      "text": "Oh. And Rainbow Mergirl said, 'What about we swim to my castle?'",
-      "timestamp": 249
+      "text": "Here, Kelp Bass, here's a book about you.",
+      "timestamp": 223.46
     },
     {
       "speaker": "Dad",
-      "text": "Yes, please, Daisy. Help. I just need some water to breathe.",
-      "timestamp": 256
+      "text": "\"Oh, no, I can't. No, that's... Oh, that is a very interesting book, but I, I can't read it right now because...\" And the, and the kelp bass flopped over on its side, and its gills were opening and closing, but there was no water because they were in Seeker's living room, in Seeker's Castle.",
+      "timestamp": 226.13
     },
     {
       "speaker": "Izzy",
-      "text": "Whoa, whoa, whoa. Or at my house, or at my house.",
-      "timestamp": 262
+      "text": "Oh. And Rainbow Mergirl said, \"What about we swim to my castle?\"",
+      "timestamp": 247.06
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh. Y- yes, please take me there. Help. Oh, I just need some water to breathe.\"",
+      "timestamp": 255.37
+    },
+    {
+      "speaker": "Izzy",
+      "text": "We're out. We're out. We're out. We're at my house. We're at my house.",
+      "timestamp": 262.5
     },
     {
       "speaker": "Dad",
       "text": "Oh, how did they get to Rainbow Mergirl's house?",
-      "timestamp": 268
+      "timestamp": 267.5
     },
     {
       "speaker": "Izzy",
-      "text": "They just, it's just ten yards away, it's just five yards away.",
-      "timestamp": 270
+      "text": "They just... It's just 10 yards a- it's just five yards away.",
+      "timestamp": 269.72
     },
     {
       "speaker": "Dad",
-      "text": "Oh, so they walked there? Well, but the Kelpbass can't walk there.",
-      "timestamp": 276
+      "text": "Oh. So they walked there?",
+      "timestamp": 275.23
     },
     {
       "speaker": "Izzy",
-      "text": "No, no, Kelpbass swam there.",
-      "timestamp": 282
+      "text": "Yeah.",
+      "timestamp": 277.76
+    },
+    {
+      "speaker": "Dad",
+      "text": "Well, but the kelp bass can't walk there.",
+      "timestamp": 278.28
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Oh, no. Kelp, kelp bass swam there.",
+      "timestamp": 281.48
     },
     {
       "speaker": "Dad",
       "text": "But there's no water.",
-      "timestamp": 284
+      "timestamp": 284.34
     },
     {
       "speaker": "Izzy",
-      "text": "No, no, no, no. At her, Rainbow Mergirl's house, there was water.",
-      "timestamp": 286
+      "text": "No, no, no, no. At-",
+      "timestamp": 286.68
     },
     {
       "speaker": "Dad",
-      "text": "Oh, okay. There was water inside her living room.",
-      "timestamp": 296
+      "text": "Uh, did they help Kelp Bass somehow?",
+      "timestamp": 287.9
     },
     {
       "speaker": "Izzy",
-      "text": "And Kelpbass said, 'Oh my goodness, whew, that was a close one there, Seeker. Glub, glub, glub. Your house is way too dry.'",
-      "timestamp": 299
+      "text": "No, no. At Rainbow Mergirl's house, there was water.",
+      "timestamp": 290.6
     },
     {
       "speaker": "Dad",
-      "text": "And Seeker said, 'Well, I am a dwarf, you see, a kind of a gnome person and we breathe the air.'",
-      "timestamp": 312
+      "text": "Oh, oh, okay. So the-",
+      "timestamp": 295.5
     },
     {
       "speaker": "Izzy",
-      "text": "Air, disgusting! Wouldn't you just want to swim in a beautiful cool water all the time, like this wonderful Mergirl has in her house? It's so lovely and you can swim around this way and that and up and down and then if there's ever anything nice you want to nibble on, you can just nibble on it all day. Nibble, nibble, nibble, nibble.'",
-      "timestamp": 322
+      "text": "There was water inside her living room.",
+      "timestamp": 296.18
     },
     {
       "speaker": "Dad",
-      "text": "And Seeker said, 'Oh yes...'",
-      "timestamp": 343
+      "text": "And Kelp Bass said, \"Oh. Oh, my goodness. Woo, that was a close one there. Seeker, blub, blub, blub, your house is way too dry.\" And, and Seeker said, \"Well, I am a, a, a dwarf, you see. I look kind of like a little person. And, uh, we breathe the, the air.\"",
+      "timestamp": 299.58
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Kelp Bass said, \"Air? Disgusting. Wouldn't you just want to swim in the beautiful, cool water all the time, like this wonderful mergirl has in her house? It's so lovely, and you can swim around this way and that, and up and down. And then if there's ever anything nice you want to nibble on, you can just nibble on it all day.",
+      "timestamp": 320.26
+    },
+    {
+      "speaker": "Dad",
+      "text": "Nibble, nibble, nibble, nibble.\" And Seeker said, \"Oh, yes.\"",
+      "timestamp": 340.9
     },
     {
       "speaker": "Izzy",
-      "text": "But Rainbow Mergirl said, 'You ate my kelp forest!'",
-      "timestamp": 344
+      "text": "But Rainbow Mergirl said, \"You ate my kelp forest.\"",
+      "timestamp": 345.36
     },
     {
       "speaker": "Dad",
-      "text": "Oh, I did? Oh dear.",
-      "timestamp": 351
+      "text": "\"Oh. I, I did? Oh, dear, uh...\"",
+      "timestamp": 351.93
     },
     {
       "speaker": "Izzy",
       "text": "I think so.",
-      "timestamp": 353
+      "timestamp": 354.78
     },
     {
       "speaker": "Dad",
-      "text": "Well, can I get you a new kelp forest?",
-      "timestamp": 355
+      "text": "\"Well, uh, well, can I get you a new, uh, kelp forest?\"",
+      "timestamp": 356.34
     },
     {
       "speaker": "Izzy",
-      "text": "Well, what could we do about that? Well, maybe I just have to show you. Maybe I just need to talk to you about if if you pulled out the roots. Kelpbass, did you pull out the roots?",
-      "timestamp": 363
+      "text": "Well",
+      "timestamp": 362.9
     },
     {
       "speaker": "Dad",
-      "text": "Roots? No, I just nibbled the nice leafy parts, you see? Those are the delicious parts of the kelp, the leaves, the leaves, you know, they sway in the water and they're nice and soft and oh, I could use some kelp right... Do you have any kelp? I could use some kelp right now.",
-      "timestamp": 381
+      "text": "What could we do about that?",
+      "timestamp": 365.77
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Well, maybe I just have to show you. Maybe I just need to talk to you about if, if you pulled out the roots. Kelp Bass, did you pull out the roots?",
+      "timestamp": 367.87
+    },
+    {
+      "speaker": "Dad",
+      "text": "Roots? No, I just nibbled the, the nice leafy parts. You see, those are the delicious parts of the kelp, the leafs. The leaves, uh, uh, you know, that sway in the water and they're nice and soft and tender. Oh, I could use some kelp right n- do you have any kelp?",
+      "timestamp": 381.21
+    },
+    {
+      "speaker": "Dad",
+      "text": "I could use some kelp right now.",
+      "timestamp": 394.13
     },
     {
       "speaker": "Izzy",
       "text": "Oh, there's some fresh kelp from yesterday in my refrigerator.",
-      "timestamp": 396
+      "timestamp": 395.69
     },
     {
       "speaker": "Dad",
-      "text": "Oh, I'll take some. And Seeker said, 'Kelpbass, you're just eating all of Rainbow Mergirl's kelp. You must be just very hungry all the time.' And Kelpbass said, 'Yes, I'm a big, big fish, we gotta eat a lot of kelp.'",
-      "timestamp": 401
+      "text": "Oh, I'll take some. And Seeker said \"Kelp Bass, you're just eating all of Rainbow Mergirl's kelp. You must be s- just very hungry all the time.\" And Kelp Bass said, \"Yes, I'm a big, big fish. We gotta eat a lot of kelp.\"",
+      "timestamp": 399.99
     },
     {
       "speaker": "Izzy",
-      "text": "Well, Rainbow Mergirl said, 'Can you swim back to your house because yesterday when you were at the kelp store, I planted something for you in your backyard.'",
-      "timestamp": 413
+      "text": "\"Well,\" Mer- Rainbow Mergirl said, \"Can you swim back to your house? 'Cause, 'cause yesterday, uh, when you were at the kelp store, I planted something for you in your backyard.\"",
+      "timestamp": 412.84
     },
     {
       "speaker": "Dad",
-      "text": "You did? Said Kelpbass.",
-      "timestamp": 427
+      "text": "\"You did?\" said Kelp Bass.",
+      "timestamp": 428.46
     },
     {
       "speaker": "Izzy",
-      "text": "It's just, it's a whole farm of kelp.",
-      "timestamp": 429
+      "text": "It's just, it's a, it's a whole farm of kelp.",
+      "timestamp": 430.47
     },
     {
       "speaker": "Dad",
-      "text": "A whole farm of kelp just for me?",
-      "timestamp": 434
+      "text": "A whole farm of kelp just for me? Thank you.",
+      "timestamp": 436.37
     },
     {
       "speaker": "Izzy",
-      "text": "Yeah. Just for you. See, I'm just a fish, I don't have arms like you do, Rainbow Mergirl, or legs like you do, Seeker. So I can't really do any farming, I can't grow my own kelp, that's why I wander around eating other people's kelp which is so delicious. [Eating sounds] and he gobbles up Rainbow Mergirl's refrigerator and ate that too.",
-      "timestamp": 436
+      "text": "Yep, just for you.",
+      "timestamp": 439.82
+    },
+    {
+      "speaker": "Dad",
+      "text": "See, I, I'm just a fish. I don't have arms like you do, Rainbow Mergirl, or legs like you do, Seeker. So I can't really do any farming. I can't grow my own kelp. That's, that's why I wander around eating other people's kelp, which is so delicious. And he got some out of Rainbow Mergirl's refrigerator and ate that too.",
+      "timestamp": 441.09
+    },
+    {
+      "speaker": "Dad",
+      "text": "Ah.",
+      "timestamp": 460.47
     },
     {
       "speaker": "Izzy",
-      "text": "And and now Kelpbass, can you go to your house and see and see the farm of kelp?",
-      "timestamp": 461
+      "text": "And, and, and now, Kelp Bass, can you go to your house and see, and see the farm of kelp?",
+      "timestamp": 461.15
     },
     {
       "speaker": "Dad",
-      "text": "And Kelpbass went back to his house and saw the incredibly beautiful farm that Rainbow Mergirl had planted just for him and he said, 'Oh thanks, now I won't need to eat your kelp forest because I've got my own.'",
-      "timestamp": 469
+      "text": "And Kelp Bass went back to his house and saw the incredibly beautiful farm that Rainbow Mergirl had planted just for him. And he said, \"Oh, thanks. Now I won't need to eat, uh, your kelp forest 'cause I've got my own.\" And that's the end of the story.",
+      "timestamp": 468.59
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Whoever gets that first gets to turn off the light second. I do. I do it gets to s- to decide shadow puppets.",
+      "timestamp": 490.09
     },
     {
       "speaker": "Dad",
-      "text": "And that's the end of the story.",
-      "timestamp": 486
+      "text": "Oh, okay.",
+      "timestamp": 505.01
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I want... Sp- Now birdie. Now A.",
+      "timestamp": 508.03
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, did you make the letter A? Wow, that's cool.",
+      "timestamp": 538.23
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Uh, no. Now A. Now A. Now A. Now.",
+      "timestamp": 540.13
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, I can make a letter A.",
+      "timestamp": 546.47
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I didn't want you to do that.",
+      "timestamp": 549.87
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, okay.",
+      "timestamp": 551.89
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I see this picture. Let me see that picture.",
+      "timestamp": 557.67
+    },
+    {
+      "speaker": "Dad",
+      "text": "That's a picture of Lola in the snow.",
+      "timestamp": 563.19
     }
   ],
   "characters": [],
   "places": [],
-  "wordCount": 925,
-  "izzyWordCount": 440,
-  "dadWordCount": 485
+  "wordCount": 1111,
+  "izzyWordCount": 360,
+  "dadWordCount": 751,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T15:27:59.427Z",
+    "speakerMap": {
+      "speaker_0": "Dad",
+      "speaker_1": "Izzy"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "high"
+  }
 }

@@ -6,373 +6,578 @@
   "audioFilename": "Cornell St 114.m4a",
   "highlightQuote": {
     "text": "Let's name them Muska Scaphor, that's the red one's name, and Sinaphia for short for the blue one.",
-    "timestamp": 814
+    "timestamp": 494.75
   },
   "transcript": [
     {
-      "timestamp": 2,
       "speaker": "Dad",
-      "text": "All right. Would you turn the lights out please?"
+      "text": "All right. Would you turn the lights out, please?",
+      "timestamp": 2.48
     },
     {
       "speaker": "Izzy",
-      "timestamp": 7,
-      "text": "5, 4, 3, 2, 1, lights out!"
+      "text": "Five, four, three, two, one, lights out.",
+      "timestamp": 7.48
     },
     {
-      "text": "Star time. Seeker and Dimitar.",
       "speaker": "Dad",
-      "timestamp": 12
+      "text": "Star time. Whoa.",
+      "timestamp": 11.57
     },
     {
-      "text": "Dema-tar.",
       "speaker": "Izzy",
-      "timestamp": 21
+      "text": "Telling about Seeker and Dimitar.",
+      "timestamp": 15.18
     },
     {
       "speaker": "Dad",
-      "timestamp": 26,
-      "text": "And what kind of story do you want to tell? A chase adventure or a mystery adventure?"
+      "text": "Seeker and Dimitar.",
+      "timestamp": 19.39
     },
     {
+      "speaker": "Izzy",
+      "text": "Dimitar.",
+      "timestamp": 21.38
+    },
+    {
+      "speaker": "Dad",
+      "text": "And, um, what kind of story do you want to tell? A chase adventure or-",
+      "timestamp": 25.46
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No",
+      "timestamp": 29.38
+    },
+    {
+      "speaker": "Dad",
+      "text": "... a mystery adventure?",
+      "timestamp": 29.58
+    },
+    {
+      "speaker": "Izzy",
       "text": "No, a potion adventure.",
-      "timestamp": 30,
-      "speaker": "Izzy"
+      "timestamp": 30.96
     },
     {
       "speaker": "Dad",
-      "timestamp": 34,
-      "text": "Oh! Well, once upon a time, Seeker was in his house and he had just woken up from his afternoon nap and he was stretching."
+      "text": "Oh. Well, once upon a time, Seeker was in his house, and he had just woken up from his afternoon nap, and he was stretching.",
+      "timestamp": 33.38
     },
     {
-      "timestamp": 46,
       "speaker": "Izzy",
-      "text": "Ding dong."
+      "text": "Dong, ding, dong.",
+      "timestamp": 46.38
     },
     {
       "speaker": "Dad",
-      "timestamp": 48,
-      "text": "Oh ding dong, who is it? said Seeker."
-    },
-    {
-      "timestamp": 51,
-      "speaker": "Izzy",
-      "text": "It is Dimitar."
-    },
-    {
-      "text": "Hello old friend Dimitar. Come on in. Tell me how things have been for you lately, Dimitar.",
-      "timestamp": 54,
-      "speaker": "Dad"
+      "text": "\"Oh, dong, ding, dong. Who is it?\" said Seeker.",
+      "timestamp": 48.24
     },
     {
       "speaker": "Izzy",
-      "timestamp": 59,
-      "text": "Um, it has been fishy amazing."
+      "text": "It is Dimitar.",
+      "timestamp": 51.46
     },
     {
       "speaker": "Dad",
-      "timestamp": 104,
-      "text": "Fishy amazing? What do you mean by that?"
+      "text": "\"Hello, old friend, Dimitar. Come on in. Tell me how things have been for you lately, Dimitar.\"",
+      "timestamp": 54.04
     },
     {
       "speaker": "Izzy",
-      "timestamp": 107,
-      "text": "I mean everything tasted like fishies."
+      "text": "Um, it has been fishy amazing.",
+      "timestamp": 61.04
     },
     {
       "speaker": "Dad",
-      "timestamp": 112,
-      "text": "Oh well, if you like the taste of fishies then that must be great. I'm happy for you."
+      "text": "Fishy amazing? What do you mean by that?",
+      "timestamp": 64.26
     },
     {
-      "timestamp": 117,
       "speaker": "Izzy",
-      "text": "Well I'm interested in potions lately."
+      "text": "I mean everything tasted like fishies.",
+      "timestamp": 67.58
     },
     {
       "speaker": "Dad",
-      "timestamp": 121,
-      "text": "Potions? Well I happen to have quite a few of those in my potion closet. Should we try one right now, Dimitar?"
+      "text": "Oh, well, if you like the taste of fishies, then that must be great. I'm happy for you.",
+      "timestamp": 71.56
     },
     {
+      "speaker": "Izzy",
+      "text": "Well, I'm interested in potions lately.",
+      "timestamp": 75.28
+    },
+    {
+      "speaker": "Dad",
+      "text": "Potions? Well, I happen to have quite a few of those in my potion closet. Should we try one right now, Dimitar?",
+      "timestamp": 78.58
+    },
+    {
+      "speaker": "Izzy",
       "text": "Of course we should.",
-      "timestamp": 127,
-      "speaker": "Izzy"
+      "timestamp": 85.32
     },
     {
       "speaker": "Dad",
-      "timestamp": 130,
-      "text": "Now there's a whole new set of potions that I just got and I don't even know what they do. But they're in these weird shaped bottles, come and look. This one is a tall skinny bottle, this one's triangular for some reason, and this one's a hexagon shape, and this one's shaped like a spiral... they're very weird bottles... this one's diamond shaped and..."
+      "text": "Now, there's a whole new set of potions that I just got, and I don't even know what they do, but they're in these weird-shaped bottles. Come and look. This one is a tall, skinny bottle, and this one's triangular for some reason. And this one's a hexagon shape, and this one's shaped like a spiral.",
+      "timestamp": 87.88
     },
     {
-      "text": "I want the diamond shaped one.",
-      "timestamp": 153,
-      "speaker": "Izzy"
-    },
-    {
-      "text": "Oh, the diamond shaped one. And what color potion was inside the diamond shaped bottle?",
       "speaker": "Dad",
-      "timestamp": 156
+      "text": "They're very weird bottles. This one's diamond-shaped. And, uh-",
+      "timestamp": 108.48
     },
     {
       "speaker": "Izzy",
-      "timestamp": 201,
-      "text": "I don't know, sniff it Seeker, sniff it."
+      "text": "How about the diamond-shaped one?",
+      "timestamp": 112.91
     },
     {
-      "text": "Oh, and Seeker popped the cork on the diamond shaped potion bottle and he gave it a sniff. Mmm, what is that smell? It's so familiar, I don't recognize it. Here, Dimitar, give it a sniff.",
-      "timestamp": 211,
-      "speaker": "Dad"
+      "speaker": "Dad",
+      "text": "Oh, the diamond-shaped one. And what, what color potion was inside the diamond-shaped bottle?",
+      "timestamp": 115.2
     },
     {
       "speaker": "Izzy",
-      "timestamp": 224,
-      "text": "Fishy! Fishy delicious!"
+      "text": "I don't know. Sniff it, Seeker. Sniff it.",
+      "timestamp": 121.24
     },
     {
-      "timestamp": 227,
       "speaker": "Dad",
-      "text": "It smells like fishy delicious? Very interesting. And the potion inside the diamond shaped bottle was light blue and it had little glittering sparkles inside. Hmm, well this is puzzling, said Seeker, a fishy diamond potion. I think there's only one thing for us to do. You know what it is?"
+      "text": "Oh, and Sneaker, Seeker popped the cor- cork open.",
+      "timestamp": 125.04
     },
     {
       "speaker": "Izzy",
-      "timestamp": 254,
-      "text": "What?"
+      "text": "Not Sneaker.",
+      "timestamp": 130.78
     },
     {
-      "timestamp": 255,
       "speaker": "Dad",
-      "text": "Take a sip."
+      "text": "Not Sneaker. His name is Seeker. He popped the cork on the diamond-shaped potion bottle, and he gave it a sniff. \"Mm. What is that smell? It's so familiar. I, I don't recognize it. Here, Dimitar, give it a sniff.\"",
+      "timestamp": 131.45
     },
     {
       "speaker": "Izzy",
-      "timestamp": 256,
-      "text": "Don't drink the sparkles, be careful!"
+      "text": "Fishy.",
+      "timestamp": 143.88
     },
     {
-      "text": "Oh, I won't drink the sparkles, said Seeker, don't worry. And he took a sip and so did Dimitar and then Dimitar said the rhyme.",
-      "timestamp": 259,
-      "speaker": "Dad"
-    },
-    {
-      "text": "Sparkle, sparkle, sparkle, sparkle, sparkle, sparkle.",
-      "timestamp": 312,
-      "speaker": "Izzy"
-    },
-    {
-      "text": "Sparkle, sparkle, sparkle! And then there was a sparkle and a splash and a flash and they were in Underwater Coral Reef Gemstone World.",
       "speaker": "Dad",
-      "timestamp": 317
-    },
-    {
-      "timestamp": 336,
-      "speaker": "Izzy",
-      "text": "Who is living... who is living here?"
-    },
-    {
-      "timestamp": 342,
-      "speaker": "Dad",
-      "text": "Well, Dimitar tried to say who is living here but it came out as bubble noises. And Seeker said we're underwater, swim up, swim up. And so they swam up towards the surface until they were floating on the surface of the water and Seeker said, my beard's all wet. Are you okay Dimitar?"
+      "text": "Oh.",
+      "timestamp": 145.24
     },
     {
       "speaker": "Izzy",
-      "timestamp": 413,
-      "text": "Wait."
+      "text": "Fishy delicious.",
+      "timestamp": 145.32
     },
     {
-      "text": "What's the matter?",
       "speaker": "Dad",
-      "timestamp": 414
+      "text": "It smells like fishy delicious. Very interesting. Huh. And, and the potion inside the diamond-shaped bottle was light blue, and it had little glittering sparkles inside. \"Hmm. Well, this is puzzling,\" said Seeker. \"A fishy diamond potion. I think there's only one thing for us to do.\"",
+      "timestamp": 147.36
     },
     {
-      "text": "Achoo, achoo!",
-      "timestamp": 415,
-      "speaker": "Izzy"
-    },
-    {
-      "timestamp": 417,
       "speaker": "Dad",
-      "text": "Oh, gesundheit. Are you sneezing, Dimitar? Are you just sneezing because you're cold or because you're allergic to something?"
+      "text": "You know what it is.",
+      "timestamp": 172.64
     },
     {
+      "speaker": "Izzy",
+      "text": "What?",
+      "timestamp": 173.6
+    },
+    {
+      "speaker": "Dad",
+      "text": "Take a sip.",
+      "timestamp": 174.16
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Can't drink any of the sparkles. Be careful.",
+      "timestamp": 175.94
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh, I won't drink the sparkles,\" said Seeker, \"Don't worry.\" And he took a sip, and so did Dimitar. And then Dimitar said the rhyme.",
+      "timestamp": 179.19
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Sparkle, ca-sparkle, ca-sparkle. Sparkle, ca-sparkle, ca-sparkle.",
+      "timestamp": 191.12
+    },
+    {
+      "speaker": "Dad",
+      "text": "Sparkle, ca-sparkle, ca-sparkle.",
+      "timestamp": 196.72
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Sparkle.",
+      "timestamp": 200.04
+    },
+    {
+      "speaker": "Dad",
+      "text": "And then there was a sparkle and a splash and a flash, and they were in underwater coral reef gemstone world.",
+      "timestamp": 200.06
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Who is living? Who is living here?",
+      "timestamp": 216.02
+    },
+    {
+      "speaker": "Dad",
+      "text": "Well, Dimitar tried to say, \"Who is living here?\" But it came out as, \"Blub, blub, blub, blub, blub.\" And Seeker said, \"Blub, blub, blub, blub, blub. We're underwater. Blub, blub, blub. Swim up, swim up.\" And so they swum up towards the surface. Swim, swim, swim, paddling with their arms until they were floating on the surface of the water.",
+      "timestamp": 222.12
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Seeker said, \"My beard's all wet. Are you okay, Dimitar?\" And what did Dimitar say?",
+      "timestamp": 244.79
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Wait.",
+      "timestamp": 251.58
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"What's the matter?\"",
+      "timestamp": 253.28
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Achoo, achoo.",
+      "timestamp": 254.72
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh, gesundheit. Are you sneezing, Dimitar? You-\"",
+      "timestamp": 256.84
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah.",
+      "timestamp": 260.38
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Are you just sneezing 'cause you're cold or because you're allergic to something?\"",
+      "timestamp": 261.54
+    },
+    {
+      "speaker": "Izzy",
       "text": "I think I'm allergic to the coral.",
+      "timestamp": 266.5
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh, my goodness,\" said Seeker, \"You're allergic to the coral. We better get you out of the water quick.\" And Seeker looked around, and what did he see that could help them?",
+      "timestamp": 270.86
+    },
+    {
       "speaker": "Izzy",
-      "timestamp": 427
+      "text": "He saw three little rocks. Wait. Dimitar went achoo, achoo, over the rocks. Pitter patter, pitter patter.",
+      "timestamp": 281.82
     },
     {
       "speaker": "Dad",
-      "timestamp": 431,
-      "text": "Oh my goodness, said Seeker, you're allergic to the coral. We better get you out of the water quick. And Seeker looked around and what did he see that could help them?"
+      "text": "And Dimitar went achoo, achoo, pitter patter over to the rocks. And then they climbed up on the rocks, and Seeker climbed up and he pulled Dimitar up with him, and oof, they were out of the water.",
+      "timestamp": 291.92
     },
     {
-      "timestamp": 441,
       "speaker": "Izzy",
-      "text": "He saw some little rocks. Achoo, achoo, over the rocks."
-    },
-    {
-      "text": "And Dimitar went achoo, achoo, pitter-patter over to the rocks. And then they climbed up on the rocks and Seeker pulled Dimitar up with him and oof, they were out of the water.",
-      "speaker": "Dad",
-      "timestamp": 452
-    },
-    {
-      "text": "And then they jumped off the water to the sand. Jump, jump, jump until they got to the sand and they try another one.",
-      "timestamp": 504,
-      "speaker": "Izzy"
+      "text": "And then they jumped off and went off the beach again.",
+      "timestamp": 303.06
     },
     {
       "speaker": "Dad",
-      "timestamp": 523,
-      "text": "And Seeker said, whoa, another one?"
+      "text": "And they jumped and-",
+      "timestamp": 306.88
     },
     {
+      "speaker": "Izzy",
+      "text": "Jump, jump, jump until they got to sand, and raced Seeker.",
+      "timestamp": 307.92
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, they got to the sand, yes. And then-",
+      "timestamp": 312.9
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And they keep going on potion and, and they try another one.",
+      "timestamp": 314.95
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Seeker said, \"Whoa, another one.\"",
+      "timestamp": 322.12
+    },
+    {
+      "speaker": "Izzy",
       "text": "That doesn't make them allergic.",
-      "timestamp": 525,
-      "speaker": "Izzy"
+      "timestamp": 324.51
     },
     {
       "speaker": "Dad",
-      "timestamp": 527,
-      "text": "Well Dimitar, first of all, I think you should blow your nose. Here's a tissue. And you know what else? My beard is soaked, my cloak is soaked. How about you, are you still wet Dimitar?"
+      "text": "\"Well, Dimitar, first of all, I think you should blow your nose. Here's a tissue.\" And Dimitar went, \"And you know what else? My beard is soaked. My cloak is soaked. How about you? Are you still wet, Dimitar?\"",
+      "timestamp": 327.31
     },
     {
+      "speaker": "Izzy",
       "text": "Nope.",
-      "speaker": "Izzy",
-      "timestamp": 541
-    },
-    {
-      "text": "Oh that's good. You're just wearing your scales and those just drip dry right off, don't they? Well I gotta get changed, give me a minute.",
-      "timestamp": 544,
-      "speaker": "Dad"
-    },
-    {
-      "text": "Wait, I've got a purple cloak at home. Here Seeker. What do you think about that purple cloak? For now it has gems in the front and a snap in the back.",
-      "timestamp": 551,
-      "speaker": "Izzy"
-    },
-    {
-      "text": "Wow, said Seeker, this purple cloak with gems is amazing. Can I borrow it?",
-      "timestamp": 605,
-      "speaker": "Dad"
-    },
-    {
-      "speaker": "Izzy",
-      "timestamp": 609,
-      "text": "Of course you can, you can wear it for now."
-    },
-    {
-      "text": "And he put his wet red cloak in the laundry basket and tried on the purple gemstone cloak and it fit just right. He said, wow, how do I look?",
-      "timestamp": 612,
-      "speaker": "Dad"
-    },
-    {
-      "text": "Great! You look like a wizard.",
-      "speaker": "Izzy",
-      "timestamp": 619
+      "timestamp": 342.06
     },
     {
       "speaker": "Dad",
-      "timestamp": 622,
-      "text": "I am one. And he twisted his beard and all the water squished right out and one or two little tiny fishies..."
+      "text": "\"Oh, that's good. You're just wearing your scales and those just drip dry right off, don't they? Well, I gotta get changed. Give me a minute.\" And Seeker went-",
+      "timestamp": 342.84
     },
     {
       "speaker": "Izzy",
-      "timestamp": 633,
-      "text": "Fishies! Why did you come home?"
+      "text": "Wait. I've got, I've got a, a purple cloak at home. Here, here, Seeker. What do you think about that purple cloak?",
+      "timestamp": 350.57
     },
     {
-      "text": "Well they just must have swum into my beard when we were swimming in the ocean there.",
       "speaker": "Dad",
-      "timestamp": 640
+      "text": "A purple cloak.",
+      "timestamp": 357.8
     },
     {
-      "timestamp": 644,
       "speaker": "Izzy",
-      "text": "Why were you swimming fishies while we were swimming? Dimitar's allergic to the coral."
+      "text": "Now it has gems in the front and a snap in the back.",
+      "timestamp": 358.04
     },
     {
-      "timestamp": 653,
       "speaker": "Dad",
-      "text": "And they said, help us, help us, we need water."
+      "text": "\"Wow,\" said Seeker. \"This purple cloak with gems is amazing. Can I borrow it? Can I wear it?\"",
+      "timestamp": 362.01
     },
     {
-      "timestamp": 700,
       "speaker": "Izzy",
-      "text": "I'm sorry Dimitar... we can't go in the water. Dimitar's allergic to the coral."
+      "text": "Of course you can.",
+      "timestamp": 367.36
     },
     {
       "speaker": "Dad",
-      "timestamp": 713,
-      "text": "We just need a bowl of water or something."
+      "text": "\"Ah, thanks.\" And he put his wet red cloak in the laundry basket and tried on the purple gemstone cloak, and it fit just right. He said, \"Wow, how do I look?\"",
+      "timestamp": 368.88
     },
     {
-      "text": "Um, here's a fish tank. Put on a lid. Now you're in the water.",
       "speaker": "Izzy",
-      "timestamp": 715
+      "text": "Great.",
+      "timestamp": 379.37
     },
     {
-      "text": "Oh, swim, swim, swim. And the two little fishies were so happy. And what color were the little fishies?",
       "speaker": "Dad",
-      "timestamp": 722
+      "text": "Thanks.",
+      "timestamp": 380.21
     },
     {
+      "speaker": "Izzy",
+      "text": "You look like a wizard.",
+      "timestamp": 380.78
+    },
+    {
+      "speaker": "Dad",
+      "text": "I am one. And he twisted his beard and all the water squished right out-",
+      "timestamp": 383.09
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Ooh",
+      "timestamp": 389.2
+    },
+    {
+      "speaker": "Dad",
+      "text": "... and one or two little tiny fishies.",
+      "timestamp": 389.23
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Fishies? Wha- why did you come out?",
+      "timestamp": 393.45
+    },
+    {
+      "speaker": "Dad",
+      "text": "Well, they just must have swum into my beard when we were swimming in the ocean there.",
+      "timestamp": 397.61
+    },
+    {
+      "speaker": "Izzy",
+      "text": "While we were swimming, fishies, when we were swimming-",
+      "timestamp": 401.61
+    },
+    {
+      "speaker": "Dad",
+      "text": "And just, um-",
+      "timestamp": 405.91
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... there's, um, fishies, um, Dimitar's allergic to the coral.",
+      "timestamp": 407.2
+    },
+    {
+      "speaker": "Dad",
+      "text": "And they said, \"Help us. Help us. We need water. Help.\"",
+      "timestamp": 411.47
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I'm sorry, Dimitar, um, can't go in the w- water. I'm sorry, I, we can't, we can't, um, Dimitar can't go in the water. Dimitar, he's allergic to the coral.",
+      "timestamp": 418.27
+    },
+    {
+      "speaker": "Dad",
+      "text": "We just need a bowl of water or something.",
+      "timestamp": 431.17
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Um, um, here, um, here's a fish tank.",
+      "timestamp": 433.89
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, thanks.",
+      "timestamp": 437.21
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I'll put on a lid. Now you're in the water.",
+      "timestamp": 437.75
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, swim, swim, swim, swim, swim. And the two little fishies were so happy. And what color were the little fishies?",
+      "timestamp": 441.03
+    },
+    {
+      "speaker": "Izzy",
       "text": "One was blue, one was red.",
-      "speaker": "Izzy",
-      "timestamp": 727
-    },
-    {
-      "timestamp": 730,
-      "speaker": "Dad",
-      "text": "And Seeker said, wow look at those beautiful little fish. They look like tropical fish. I wonder if they're hungry."
-    },
-    {
-      "timestamp": 741,
-      "speaker": "Izzy",
-      "text": "Fish food. Fish food."
-    },
-    {
-      "text": "Oh yeah... Dimitar, do you have any fish food?",
-      "timestamp": 743,
-      "speaker": "Dad"
-    },
-    {
-      "timestamp": 746,
-      "speaker": "Izzy",
-      "text": "Okay. Here's a little bit of fish food, which is a little bit sparkly and it's all colored."
-    },
-    {
-      "text": "All colored, wow. And the two little fishies swam right up to the top and nibble nibble nibble, and then they swam around because they were so happy. And Seeker said, hey maybe we should name our little fishies.",
-      "timestamp": 801,
-      "speaker": "Dad"
-    },
-    {
-      "timestamp": 814,
-      "speaker": "Izzy",
-      "text": "Let's name them Muska Scaphor, that's the red one's name, and Sinaphia for short for the blue one."
-    },
-    {
-      "timestamp": 826,
-      "speaker": "Dad",
-      "text": "Muska Scaphor and Sinaphia?"
-    },
-    {
-      "timestamp": 829,
-      "speaker": "Izzy",
-      "text": "Yeah."
-    },
-    {
-      "timestamp": 830,
-      "speaker": "Dad",
-      "text": "Wow, those are beautiful names. Well, Dimitar, thanks for going on a little adventure with me. But I think it's time for me to have dinner. And that will be the end of Stars and Stories."
-    },
-    {
-      "timestamp": 858,
-      "speaker": "Izzy",
-      "text": "Shadow puppets! Shadow puppets! Sneaky llama. Birdy. This is a bird shape."
+      "timestamp": 447.39
     },
     {
       "speaker": "Dad",
-      "timestamp": 911,
-      "text": "Wow, that is a nice bird shadow you're doing. Flap, flap, flap."
+      "text": "And Seeker said, \"Wow, look at those beautiful little fish. They look like tropical fish. They're so brightly colored. I wonder if they're hungry. Do you want something to eat, little fishies?\"",
+      "timestamp": 449.65
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Fish food.",
+      "timestamp": 459.59
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, yeah, let's-",
+      "timestamp": 460.91
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Fish food",
+      "timestamp": 462.23
+    },
+    {
+      "speaker": "Dad",
+      "text": "... Dimitar, do you have any fish food?",
+      "timestamp": 462.24
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yep.",
+      "timestamp": 465.39
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay.",
+      "timestamp": 465.47
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Here, here, here's a little bit of, here's a little bit of, here's a little bit of the fish food. It, which is a little bit sparkly-",
+      "timestamp": 466.37
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh",
+      "timestamp": 479.05
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... and it's all colored.",
+      "timestamp": 479.06
+    },
+    {
+      "speaker": "Dad",
+      "text": "All colored, wow. And the two little fishies swim right up to the top where the fish food was and nibble, nibble, nibble, om-nom-nom-nom-nom-nom. And they swam around and around 'cause they were so happy. And Seeker said, \"Hey, maybe we should name our little fishies.",
+      "timestamp": 481.27
+    },
+    {
+      "speaker": "Dad",
+      "text": "I think they're our pets now.\"",
+      "timestamp": 493.19
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Let's name them Mooscafour, that's, that's the red one's name, and Sinafia for short for the blue one.",
+      "timestamp": 494.75
+    },
+    {
+      "speaker": "Dad",
+      "text": "Mooscat- scafour and Sinafia?",
+      "timestamp": 505.61
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah.",
+      "timestamp": 510.67
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Wow, those are beautiful names,\" said Seeker. \"Um, Dimitar, thanks for going on a little adventure with me and for, um, helping me adopt these new pet fish. I love them. Um, but I think it's time for me to have dinner, so if you'd like to join me, um, we can have a meal together.\"",
+      "timestamp": 511.33
+    },
+    {
+      "speaker": "Dad",
+      "text": "And that will be the end of Stars and Stories.",
+      "timestamp": 533.85
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Shadow puppets. Shadow puppets.",
+      "timestamp": 538.51
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay.",
+      "timestamp": 540.89
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Sneaky llama. Birdie.",
+      "timestamp": 541.65
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh.",
+      "timestamp": 548.83
+    },
+    {
+      "speaker": "Izzy",
+      "text": "These are birds in action.",
+      "timestamp": 549.61
+    },
+    {
+      "speaker": "Dad",
+      "text": "Wow, that is a nice bird shadow you're doing. Flap, flap, flap. All right.",
+      "timestamp": 551.81
     }
   ],
   "characters": [
@@ -414,7 +619,19 @@
       "description": "The circular island is ringed by a brilliant, sparkling shore of lemon-yellow sand, providing a warm sanctuary for weary adventurers to dry off and recover from their journey through the depths."
     }
   ],
-  "wordCount": 1079,
-  "izzyWordCount": 281,
-  "dadWordCount": 798
+  "wordCount": 1295,
+  "izzyWordCount": 349,
+  "dadWordCount": 946,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T15:26:10.882Z",
+    "speakerMap": {
+      "speaker_0": "Dad",
+      "speaker_1": "Izzy"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "low"
+  }
 }
