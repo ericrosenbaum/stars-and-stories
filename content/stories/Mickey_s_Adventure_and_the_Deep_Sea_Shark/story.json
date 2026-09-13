@@ -6,93 +6,138 @@
   "audioFilename": "Izzy’s bedtime stories and song.m4a",
   "highlightQuote": {
     "text": "You'll find out in our imagination another time because it's a long story.",
-    "timestamp": 154
+    "timestamp": 109.18
   },
   "transcript": [
     {
+      "speaker": "Dad",
+      "text": "Okay.",
+      "timestamp": 2.6
+    },
+    {
       "speaker": "Izzy",
-      "text": "Right there... Once upon a time there was a mouse named Mickey. He was away from her house. She had a big adventure so she didn't have to worry. The end.",
-      "timestamp": 6
+      "text": "Um.",
+      "timestamp": 3.36
+    },
+    {
+      "speaker": "Dad",
+      "text": "Can you read me a story please?",
+      "timestamp": 5.88
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Right there. Once upon a time, there was a mouse named Mickey. He was awake in her house. She had a big bed so she didn't have to worry. The end.",
+      "timestamp": 7.26
     },
     {
       "speaker": "Dad",
       "text": "Oh, I like that story. Do you have another one? I'm not sleeping yet.",
-      "timestamp": 21
+      "timestamp": 21.46
     },
     {
       "speaker": "Izzy",
-      "text": "Yeah, cause this one is about a... I'll just sing you a lullaby. Izzy cat, chicka, Minnie so high. I like to go to circus sometime and then I miss her. I miss her. She's my favorite. She's not Mickey Mouse house to me yet.",
-      "timestamp": 28
+      "text": "Yeah, 'cause this ... But I can sing you a lullaby. Izzy cat, Archie cow, Minnie as I have. I like to go to the circus sometimes at the diner. I miss Nana. I miss her. She's my favorite. She's not making my breakfast just yet.",
+      "timestamp": 28.22
     },
     {
       "speaker": "Dad",
-      "text": "Wow, that was a beautiful lullaby. Okay, could I just have one more story, do you think?",
-      "timestamp": 108
+      "text": "Wow, that was a beautiful lullaby. Okay. Can I just have one more story, do you think?",
+      "timestamp": 66.8
     },
     {
       "speaker": "Izzy",
-      "text": "I don't think so, but there could be a story about a mermaid. Once upon a time there was a mermaid named Jessica. She was in a submarine exploring the deep. She found a shark. The end.",
-      "timestamp": 123
+      "text": "I don't think so, but there could be a story about a mermaid.",
+      "timestamp": 76.38
     },
     {
       "speaker": "Dad",
-      "text": "I love that story. Can we do the next part? What happened after she found the shark?",
-      "timestamp": 143
+      "text": "Oh, okay.",
+      "timestamp": 81.14
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Once upon a time, there was a mermaid named Jessica. She was in a submarine exploring the deep. She found a shark. The end.",
+      "timestamp": 81.71
+    },
+    {
+      "speaker": "Dad",
+      "text": "I love that story. Can we do the next part? What happened after she found this shark?",
+      "timestamp": 94.94
     },
     {
       "speaker": "Izzy",
       "text": "I don't know.",
-      "timestamp": 148
+      "timestamp": 99.9
     },
     {
       "speaker": "Dad",
-      "text": "Oh. Was the shark friendly or mean?",
-      "timestamp": 151
+      "text": "Oh. Did, was the shark friendly or mean?",
+      "timestamp": 101.7
     },
     {
       "speaker": "Izzy",
-      "text": "I don't know. Oh, okay, that's just the ending. You'll find out in our imagination another time because it's a long story.",
-      "timestamp": 154
+      "text": "I don't know.",
+      "timestamp": 104.2
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, okay. That's okay.",
+      "timestamp": 105.46
+    },
+    {
+      "speaker": "Izzy",
+      "text": "That's just the ending.",
+      "timestamp": 107
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh.",
+      "timestamp": 109.06
+    },
+    {
+      "speaker": "Izzy",
+      "text": "We'll find out in our imagination another time 'cause it's a long story.",
+      "timestamp": 109.18
     },
     {
       "speaker": "Dad",
       "text": "Oh, it is?",
-      "timestamp": 204
+      "timestamp": 115.56
     },
     {
       "speaker": "Izzy",
-      "text": "So I'll just do part of it. The Minnie... um, that's it. Are you fast asleep?",
-      "timestamp": 206
+      "text": "So I'll just do part of it. So Minnie, um, that's it. Are you fast asleep?",
+      "timestamp": 116.54
     },
     {
       "speaker": "Dad",
-      "text": "Zzzzz. I'm sleeping.",
-      "timestamp": 212
+      "text": "Z. I'm sleeping.",
+      "timestamp": 126.44
     },
     {
       "speaker": "Izzy",
       "text": "Okay. Do you want a blanket?",
-      "timestamp": 215
+      "timestamp": 130.2
     },
     {
       "speaker": "Dad",
       "text": "Yes, please.",
-      "timestamp": 217
+      "timestamp": 135.32
     },
     {
       "speaker": "Izzy",
-      "text": "Here. There... that's on you. Who else would like a blanket? Mickey, would you like a blanket?",
-      "timestamp": 219
+      "text": "Here. There. That's on you. Who else would like a blanket? Mickey, would you like a blanket?",
+      "timestamp": 137.94
     },
     {
       "speaker": "Dad",
       "text": "Yes, please.",
-      "timestamp": 233
+      "timestamp": 155.44
     },
     {
       "speaker": "Izzy",
-      "text": "Go on this mat. Put that blanket on you.",
-      "timestamp": 235
+      "text": "Go on this bed. Put that blanket on you.",
+      "timestamp": 158.62
     }
   ],
   "characters": [
@@ -134,7 +179,19 @@
       "description": "A colorful destination mentioned in a song."
     }
   ],
-  "wordCount": 251,
+  "wordCount": 267,
   "izzyWordCount": 186,
-  "dadWordCount": 65
+  "dadWordCount": 81,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T15:08:29.536Z",
+    "speakerMap": {
+      "speaker_0": "Dad",
+      "speaker_1": "Izzy"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "low"
+  }
 }

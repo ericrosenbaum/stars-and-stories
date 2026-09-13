@@ -6,173 +6,258 @@
   "audioFilename": "Stars & Stories: Mole Submarine.m4a",
   "highlightQuote": {
     "text": "And some Band-Aids and dental flosses, did you pack those?",
-    "timestamp": 200
+    "timestamp": 200.17
   },
   "transcript": [
     {
       "speaker": "Dad",
-      "text": "Okay, I'm going to turn off the lamp. All right, now it's time for a short Stars and Story.",
-      "timestamp": 5
+      "text": "Okay, I'm gonna turn out the lamp. All right. Now it's time for a short Stars and Stories.",
+      "timestamp": 5.22
     },
     {
       "speaker": "Izzy",
-      "text": "What story, Stars and Story?",
-      "timestamp": 14
+      "text": "Let's do our Stars and Stories.",
+      "timestamp": 14.5
     },
     {
       "speaker": "Dad",
-      "text": "Yeah. Well, once upon a time...",
-      "timestamp": 18
+      "text": "Yeah. Well, once upon a time-",
+      "timestamp": 17.3
     },
     {
       "speaker": "Izzy",
-      "text": "Let's do a Disco and Thisco story.",
+      "text": "Let's do, let's do a Disco and Thisco story",
       "timestamp": 24
     },
     {
       "speaker": "Dad",
-      "text": "Once upon a time, Disco and Thisco decided to build their own submarine. What did they build it out of?",
-      "timestamp": 28
+      "text": "... Once upon a time, Disco and Thisco decided to build their own submarine. What did they build it out of?",
+      "timestamp": 27.58
     },
     {
       "speaker": "Izzy",
       "text": "Why are you building a submarine, guys?",
-      "timestamp": 36
+      "timestamp": 36.84
     },
     {
       "speaker": "Dad",
       "text": "Well, we want to explore the deep dark ocean.",
-      "timestamp": 40
+      "timestamp": 39.98
     },
     {
       "speaker": "Izzy",
-      "text": "With find sharks or clams?",
-      "timestamp": 42
+      "text": "And find sharks-",
+      "timestamp": 42.77
     },
     {
       "speaker": "Dad",
-      "text": "Oh, they have sharks and clams down there. Uh, no, we heard there was a kingdom of the sea mice down there, we wanted to visit.",
-      "timestamp": 44
+      "text": "Oh",
+      "timestamp": 44.72
     },
     {
       "speaker": "Izzy",
-      "text": "Or crabs, or you could even visit some lobsters, or even maybe some scuba divers, or tropical fish, even the Caribbean amphibians' house!",
-      "timestamp": 53
+      "text": "... or clams.",
+      "timestamp": 45
     },
     {
       "speaker": "Dad",
-      "text": "Wow, there's so many places to go in the ocean. We need to build our submarine first if we're going to go in there. Can you help us?",
-      "timestamp": 71
+      "text": "Oh, they have sharks and clams down there? Uh, no-",
+      "timestamp": 46.3
     },
     {
       "speaker": "Izzy",
-      "text": "I don't think so, because I'm going to bed soon, so I don't think I can do that, but I can do it at next morning because my nap helped me because it's a really big job building a submarine, so Dad has to help me.",
-      "timestamp": 79
+      "text": "We-",
+      "timestamp": 49.9
     },
     {
       "speaker": "Dad",
-      "text": "Oh, okay, you're right. Maybe we should all just go to bed and work on our submarine in the morning. And so everyone went to bed. (Snoring sounds)",
-      "timestamp": 98
+      "text": "... we heard there was a kingdom of the Sea Mice down there we wanted to visit.",
+      "timestamp": 50.27
     },
     {
       "speaker": "Izzy",
-      "text": "Actually Moles, you can work on it and then I'll chime in in the morning.",
-      "timestamp": 109
+      "text": "Or crabs. Or you could even visit some lobsters.",
+      "timestamp": 54.18
     },
     {
       "speaker": "Dad",
-      "text": "Oh, okay, that sounds good. And so the moles found a big plastic bottle, and they cut some holes in it for windows and a hole for a door, and then they sealed it up with the cap. And then they added a little propeller motor to the back and a periscope for the top. And Disco says, is there anything else we're missing? And Thisco says, well, we'll need some seats inside maybe. And Disco said, oh yeah, and snacks, we'd better bring some snacks. And they decided they were all ready to go to the ocean.",
-      "timestamp": 115
+      "text": "Oh.",
+      "timestamp": 59.5
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Or even maybe s- some scuba divers or tropical fish, maybe the Caribbean Amphibian's house.",
+      "timestamp": 59.65
+    },
+    {
+      "speaker": "Dad",
+      "text": "Wow. There's so many places to go in the ocean. We need to build our submarine first if we're gonna go in there. Can you help us?",
+      "timestamp": 70.2
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I don't think so, because I'm going to bed soon.",
+      "timestamp": 78.9
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh.",
+      "timestamp": 84.5
+    },
+    {
+      "speaker": "Izzy",
+      "text": "So I don't think I can do that, but I can do that next morning because me and Nana could help me because it's a really big job building a submarine, so Nana has to help me.",
+      "timestamp": 84.77
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, okay, you're right. Maybe we should all just go to bed and work on our submarine in the morning. And so everyone went to bed. Zzz.",
+      "timestamp": 98.48
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Actually, moles, you can work on it, and you, and then I'll chime in in the morning.",
+      "timestamp": 107.14
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay, that sounds good. And so the moles found, um, a big, um, plastic bottle, and they cut some holes in it for windows and a hole for a door. And then they sealed it up with the cap, and then they added a little propeller motor to the back and a periscope for the top, which lets you look out from your submarine and see what's above you, and they said, \"Okay, it's all ready.\"",
+      "timestamp": 113.7
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Thisco says, \"I, I...\" \"Is there anything else we're missing?\" And Disco says, \"Well, it needs some seats inside maybe.\" And Thisco said, \"Oh yeah, and snacks. We better bring some snacks.\" And Disco said, \"Oh, yeah.\" And so they added some seats and a steering wheel and some snacks, and then they decided they were all ready to go to the ocean.",
+      "timestamp": 146.16
     },
     {
       "speaker": "Izzy",
       "text": "You know we have to bring oxygen tanks.",
-      "timestamp": 167
+      "timestamp": 167.78
     },
     {
       "speaker": "Dad",
-      "text": "Oh yeah, said Disco, we forgot about that. What else do we need?",
-      "timestamp": 173
+      "text": "\"Oh yeah,\" said, said Disco, \"We forgot about that. What else do we need?\"",
+      "timestamp": 172.72
     },
     {
       "speaker": "Izzy",
-      "text": "Gadgets, controllers, and some things, and some other things like that.",
-      "timestamp": 180
+      "text": "Beds.",
+      "timestamp": 179.26
     },
     {
       "speaker": "Dad",
-      "text": "Oh okay, yeah, you need a lot of things to go on a submarine adventure. And so, their submarine was all ready, and they brought it to the ocean...",
-      "timestamp": 192
+      "text": "Be-",
+      "timestamp": 180.3
     },
     {
       "speaker": "Izzy",
-      "text": "And some Band-Aids and dental flosses, did you pack those?",
-      "timestamp": 200
+      "text": "Strollers and some things and some other things like that.",
+      "timestamp": 180.32
     },
     {
       "speaker": "Dad",
-      "text": "No, we forgot! And so they went to the store and they got those things too. And they said, okay, I think we're ready. Do you think we're ready?",
-      "timestamp": 208
+      "text": "Oh, okay. Yeah, you need a lot of things to go on a submarine adventure. And so their submarine was all ready, and they brought it to the ocean and-",
+      "timestamp": 188.66
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And some, and some Band-Aids and fl- and dental flosses. Did you pack those?",
+      "timestamp": 200.17
+    },
+    {
+      "speaker": "Dad",
+      "text": "No, we forgot. And so they went to the store, and they got those things, too. And they said, \"Okay, I think we're ready. Do you think we're ready?\"",
+      "timestamp": 207.4
     },
     {
       "speaker": "Izzy",
       "text": "Yes.",
-      "timestamp": 215
+      "timestamp": 215.34
     },
     {
       "speaker": "Dad",
-      "text": "So Disco and Thisco got in their submarine and they dove underwater, through the bright sparkling blue waves...",
-      "timestamp": 217
+      "text": "Okay. You're right. It was a big project making a submarine. And so Disco and Thisco got in their submarine, and they dove under the water through the bright sparkling blue waves.",
+      "timestamp": 216.66
     },
     {
       "speaker": "Izzy",
-      "text": "Do you want to try the coral reefs this time?",
-      "timestamp": 231
+      "text": "Do you wanna try the coral reefs this time?",
+      "timestamp": 231.36
     },
     {
       "speaker": "Dad",
-      "text": "Yeah, let's go to the coral reefs.",
-      "timestamp": 235
+      "text": "Yeah, let's go to the coral reefs. They-",
+      "timestamp": 236
     },
     {
       "speaker": "Izzy",
-      "text": "It's just down at 20 miles, and then we have to go in the trenches, and then under deep sea bridge, and then we'll be at the coral reefs, and we'll park there, and then we'll stop at the coffee shop on the way to the coral reefs, and then we're at the coral reefs and we can explore.",
-      "timestamp": 238
+      "text": "It's, it's just down at 20 miles, and then we have to go in the trenches and then under a deep sea bridge. And then we'll be at the coral reefs.",
+      "timestamp": 239.02
     },
     {
       "speaker": "Dad",
-      "text": "And they had an amazing adventure going 20 miles in and into the trenches and under the bridge and they stopped at the coffee shop and got a nice little treat. And then they parked at the coral reef. What did they see there?",
-      "timestamp": 270
+      "text": "Yeah.",
+      "timestamp": 256.87
     },
     {
       "speaker": "Izzy",
-      "text": "They're going to explore.",
-      "timestamp": 282
+      "text": "And we'll park there, and then we'll stop at the coffee shop on the way to the coral reefs. And then we can, and then we're at the coral reefs, and we can explore.",
+      "timestamp": 256.88
     },
     {
       "speaker": "Dad",
-      "text": "Yeah, they saw beautiful coral in pink and green and blue and orange and white and yellow, and they saw lots of fish, eels, lobsters, clams, sharks, and jellyfish. They even saw an octopus!",
-      "timestamp": 284
+      "text": "And they had an amazing adventure going 20 miles and into the trenches and under the bridge. And they stopped at the coffee shop and got a nice little treat and some coffee, and then they parked at the coral reef, and what did they see there?",
+      "timestamp": 269.52
     },
     {
       "speaker": "Izzy",
-      "text": "To visit the kingdom of the sea mice. The kingdom of the sea mice is right down at the very bottom, so we have to... and we can take out diving and tell them all about it.",
-      "timestamp": 308
+      "text": "They were gonna explore.",
+      "timestamp": 281.74
     },
     {
       "speaker": "Dad",
-      "text": "Yeah. And that's all the time we have for tonight's Stars and Stories. So maybe next time we'll do Disco and Thisco take their submarine down to the kingdom of the sea mice. And that's the end.",
-      "timestamp": 323
+      "text": "Yeah, they saw beautiful coral in pink and green and blue and orange and white and yellow, and they saw lots of tiny little fish and big fish and colorful fish. And they saw eels and lobsters and clams and sharks and jellyfish. They even saw an octopus.",
+      "timestamp": 283.98
+    },
+    {
+      "speaker": "Dad",
+      "text": "And what was their favorite thing at the coral reef?",
+      "timestamp": 305.36
     },
     {
       "speaker": "Izzy",
-      "text": "Can I do some shadow puppets please?",
-      "timestamp": 339
+      "text": "To visit the Kingdom of the Sea Mice. The Kingdom of the Sea Mice is way down at the b- very bottom, so we have to... And we can check out diving and tell them all about it.",
+      "timestamp": 308.18
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yeah. And that's all the time we have for tonight's Stars and Stories. So maybe next time we'll do Disco and Thisco take their submarine down to the Kingdom of the Sea Mice.",
+      "timestamp": 322.68
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Oh.",
+      "timestamp": 334.64
+    },
+    {
+      "speaker": "Dad",
+      "text": "And that's the end.",
+      "timestamp": 335.4
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Of Stars and Stories. Can I do some shadow puppets, please?",
+      "timestamp": 337.32
     },
     {
       "speaker": "Dad",
       "text": "Okay.",
-      "timestamp": 344
+      "timestamp": 343.5
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Please?",
+      "timestamp": 344.57
     }
   ],
   "characters": [
@@ -239,7 +324,19 @@
       "description": "A convenient stopping point for the explorers to get treats during their voyage."
     }
   ],
-  "wordCount": 701,
-  "izzyWordCount": 255,
-  "dadWordCount": 446
+  "wordCount": 816,
+  "izzyWordCount": 280,
+  "dadWordCount": 536,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T15:08:41.709Z",
+    "speakerMap": {
+      "speaker_0": "Dad",
+      "speaker_1": "Izzy"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "high"
+  }
 }

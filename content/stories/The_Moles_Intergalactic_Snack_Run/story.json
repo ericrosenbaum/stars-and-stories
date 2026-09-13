@@ -6,413 +6,643 @@
   "audioFilename": "Cornell St 69.m4a",
   "highlightQuote": {
     "text": "Zingos are little worms and ants, moles!",
-    "timestamp": 300
+    "timestamp": 181.85
   },
   "transcript": [
     {
       "speaker": "Dad",
-      "text": "All right. I'll turn on the stars, and turn off the light. Now where do you want to sit for stars and stories? Do you want to lie down?",
-      "timestamp": 0
+      "text": "All right. I'll turn on the stars and turn out the light. Now, where do you want to sit for stars and stories?",
+      "timestamp": 4.68
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I want-",
+      "timestamp": 12.92
+    },
+    {
+      "speaker": "Dad",
+      "text": "Do you want to lie down?",
+      "timestamp": 13.23
     },
     {
       "speaker": "Izzy",
       "text": "I want to stand.",
-      "timestamp": 13
+      "timestamp": 14.38
     },
     {
       "speaker": "Dad",
-      "text": "Oh, okay. I'm going to sit over here by the chair. You can come sit on my lap if you want.",
-      "timestamp": 16
+      "text": "Oh, okay. I'm gonna sit over here by the chair. You can come sit in my lap if you want.",
+      "timestamp": 16.14
     },
     {
       "speaker": "Izzy",
-      "text": "I want a Hattie Mousey story.",
-      "timestamp": 28
+      "text": "This is a, a Hattie Mousie story.",
+      "timestamp": 29.3
     },
     {
       "speaker": "Dad",
       "text": "Oh, a Hattie Mouse story.",
-      "timestamp": 34
+      "timestamp": 34.24
     },
     {
       "speaker": "Izzy",
-      "text": "Actually, I changed my mind for a mole story.",
-      "timestamp": 38
+      "text": "Actually, I changed my mind. A mole story.",
+      "timestamp": 37.56
     },
     {
       "speaker": "Dad",
-      "text": "Oh, a mole story. Now, once upon a time...",
-      "timestamp": 43
+      "text": "Oh, a mole story. Now, once upon a time-",
+      "timestamp": 41.58
     },
     {
       "speaker": "Izzy",
-      "text": "A mischief mole story.",
-      "timestamp": 45
+      "text": "A mischief mole story",
+      "timestamp": 44.94
     },
     {
       "speaker": "Dad",
-      "text": "The mischief moles, Disco and Disco, were digging a new tunnel, deep underneath the garden. Dig, dig, dig through the dirt. And suddenly, their claws came upon something new. Tap, tap, tap. It was something red, and it was round. And Disco said, \"What do you think that is?\"",
-      "timestamp": 47
+      "text": "... the mischief moles, Disco and Thisco, were digging a new tunnel deep underneath the garden. Dig, dig, dig through the dirt, and suddenly their claws came upon something new. Tap, tap, tap. It was something red and it was round. And Disco said, \"What do you think that is?\"",
+      "timestamp": 47.36
     },
     {
       "speaker": "Izzy",
       "text": "It must be a flower.",
-      "timestamp": 112
+      "timestamp": 71.9
     },
     {
       "speaker": "Dad",
-      "text": "And Disco said, \"No, it's not a flower. It almost looks like a button. I wonder if we should...\" and just as he was saying that, thinking to himself, \"I wonder if we should press it,\" you know what Disco did?",
-      "timestamp": 114
+      "text": "And Thisco said, \"No, it's not a flower. It almost looks like a button. I wonder if we should...\" But as, just as he was saying that, thinking to himself, \"I wonder if we should press it,\" you know what Disco did?",
+      "timestamp": 74.36
     },
     {
       "speaker": "Izzy",
       "text": "What?",
-      "timestamp": 128
+      "timestamp": 89.64
     },
     {
       "speaker": "Dad",
-      "text": "He pressed the button. Click. And then for a second, nothing happened. But then they heard a rumble, rumble, rumble, rumble. And the whole tunnel started to shake and shiver and rumble around them. And then they were shooting up out of the ground, sitting on top of a shiny metal space rocket! And what did they say about that?",
-      "timestamp": 129
+      "text": "He pressed the button. Click. And then for a second nothing happened, but then they heard a rumble, rumble, rumble, rumble, rumble, rumble, rumble, and the whole tunnel started to shake and shiver and rumble around them. And then they were shooting up out of the ground, sitting on top of a shiny metal space rocket.",
+      "timestamp": 90.28
+    },
+    {
+      "speaker": "Dad",
+      "text": "And what did they say about that?",
+      "timestamp": 120.12
     },
     {
       "speaker": "Izzy",
-      "text": "Yippee!",
-      "timestamp": 204
+      "text": "Yippie yay.",
+      "timestamp": 123.34
     },
     {
       "speaker": "Dad",
-      "text": "And Disco said, \"Wow, our very own space rocket was buried under the garden all this time and we didn't even know it.\" And Disco says, \"I wonder if we should go on a space mission.\" But you know what Disco was already doing?",
-      "timestamp": 206
+      "text": "And Disco said, \"Wow, our very own space rocket was buried under the garden all this time, and we didn't even know it.\" And Thisco says, \"I wonder if we should go on a space mission.\" But you know what Disco was already doing?",
+      "timestamp": 126.5
     },
     {
       "speaker": "Izzy",
       "text": "I don't know.",
-      "timestamp": 222
+      "timestamp": 141.18
     },
     {
       "speaker": "Dad",
       "text": "He had already opened the door and stuck his nose inside the rocket. And what was inside the rocket ship?",
-      "timestamp": 223
+      "timestamp": 142.06
     },
     {
       "speaker": "Izzy",
       "text": "I don't know.",
-      "timestamp": 230
+      "timestamp": 150.05
     },
     {
       "speaker": "Dad",
       "text": "Well, there was a control panel and two little mole-sized seats. And what else?",
-      "timestamp": 232
+      "timestamp": 151.64
     },
     {
       "speaker": "Izzy",
-      "text": "Some... some nut-things.",
-      "timestamp": 238
+      "text": "Some, some nothings.",
+      "timestamp": 160.3
     },
     {
       "speaker": "Dad",
       "text": "Well, where did they store the snacks on the rocket ship?",
-      "timestamp": 245
+      "timestamp": 169.34
     },
     {
       "speaker": "Izzy",
       "text": "They stored them in a cabinet.",
-      "timestamp": 249
+      "timestamp": 171.94
     },
     {
       "speaker": "Dad",
-      "text": "Yes, there's a cabinet for snacks. And what snacks did the rocket ship have?",
-      "timestamp": 253
+      "text": "Yes, there was a cabinet for snacks. And what snacks did the rocket ship have?",
+      "timestamp": 174.9
     },
     {
       "speaker": "Izzy",
       "text": "Zingos.",
-      "timestamp": 300
+      "timestamp": 181.85
     },
     {
       "speaker": "Dad",
-      "text": "What are Zingos?",
-      "timestamp": 301
+      "text": "What are zingos?",
+      "timestamp": 183.38
     },
     {
       "speaker": "Izzy",
       "text": "They're little, they're little, they're little worms and ants.",
-      "timestamp": 303
+      "timestamp": 185
     },
     {
       "speaker": "Dad",
-      "text": "And Disco said, \"Look at this! In this cabinet, there's Zingos.\" And Disco said, \"Oh, those are my favorite...\"",
-      "timestamp": 314
+      "text": "And Thisco said, \"Look at this. In this cabinet there's zingos.\" And Disco said, \"Oh, those are my favorite.\"",
+      "timestamp": 193.96
     },
     {
       "speaker": "Izzy",
-      "text": "Zingos are little worms and ants, moles!",
-      "timestamp": 318
+      "text": "Zingos are little worms and ants, moles.",
+      "timestamp": 198.86
     },
     {
       "speaker": "Dad",
-      "text": "Oh, that sounds delicious. And you know what else they found? A space phone. And Disco was looking at the space phone when suddenly he heard a sound. It was like this: [beeping]. And he said, \"What does that mean?\" And Disco said, \"I think the space phone is ringing. Do you want to answer it?\"",
-      "timestamp": 322
+      "text": "Oh, that sounds delicious. And you know what else they found?",
+      "timestamp": 202.62
     },
     {
       "speaker": "Izzy",
-      "text": "I'm already answering by telephone. I'm just in my rocket ship and I'm trying to answer it, and you're trying to answer it at the same time.",
-      "timestamp": 348
+      "text": "What?",
+      "timestamp": 208.26
     },
     {
       "speaker": "Dad",
-      "text": "Oh my goodness. Who's calling you, Isabella?",
-      "timestamp": 403
+      "text": "A space phone. And Disco was looking at the space phone when suddenly he heard a sound. It was like this, \"Blip, bloop, bloop, bloop.\" And he said, \"What does that mean?\" And Thisco said, \"I think the space phone is ringing. Do you want to answer it?\"",
+      "timestamp": 209.36
     },
     {
       "speaker": "Izzy",
-      "text": "Ah, I'm trying to call the person on the telephone. But I can't hear what I'm trying to say because Mole's calling on the telephone.",
-      "timestamp": 405
+      "text": "Well, I'm only answering my telephone-",
+      "timestamp": 227.78
     },
     {
       "speaker": "Dad",
-      "text": "And Disco said, \"Hello, hello, who's calling on the telephone? Is it someone up in space?\"",
-      "timestamp": 417
+      "text": "Oh",
+      "timestamp": 231.8
     },
     {
       "speaker": "Izzy",
-      "text": "Who is it? Who is it?",
-      "timestamp": 422
+      "text": "... instead of your telephone, and I'm just in my rocket ship and I'm trying to answer that, and you're trying to answer at the same time.",
+      "timestamp": 232.08
     },
     {
       "speaker": "Dad",
-      "text": "And a little voice said, \"Um, hello, hello! We need help! We need help! Help! Help! Help! Help!\" And Disco said, \"Who's that?\" And the little voice said, \"It's us, the Mookers. You know, the fuzzy, funny, furry floopers.\" And Disco said, \"The Mookers?\" \"Yeah, we live on the planet of the Mookers.\" And Disco and Disco said, \"I've never heard of that.\" \"Well, we need your help because we're very hungry. Do you have any snacks?\"",
-      "timestamp": 425
+      "text": "Oh, my goodness. Who's calling you, Isabella?",
+      "timestamp": 242.52
     },
     {
       "speaker": "Izzy",
-      "text": "Do you like worms or ants?",
-      "timestamp": 503
+      "text": "Uh, I'm trying to call the person on the telephone.",
+      "timestamp": 245.34
     },
     {
       "speaker": "Dad",
-      "text": "No.",
-      "timestamp": 507
+      "text": "Oh.",
+      "timestamp": 249.7
     },
     {
       "speaker": "Izzy",
-      "text": "What do you like?",
-      "timestamp": 508
+      "text": "And, but I can't hear what I'm trying to say because mole's calling on the telephone.",
+      "timestamp": 250
     },
     {
       "speaker": "Dad",
-      "text": "Us... um, sandwiches.",
-      "timestamp": 509
+      "text": "And Disco said, \"Hello? Hello? Who's calling on the telephone? Is it someone up in space?\"",
+      "timestamp": 256.88
     },
     {
       "speaker": "Izzy",
-      "text": "I don't know, but maybe you like Mooker food?",
-      "timestamp": 513
+      "text": "\"Who is it? Who is it?\"",
+      "timestamp": 262.51
     },
     {
       "speaker": "Dad",
-      "text": "Yeah, Mooker food. Mooker food is a sandwich.",
-      "timestamp": 516
+      "text": "Um, and a little voice said, \"Um, hello, hello. We need some help. We need some help. Help, help.\"",
+      "timestamp": 265.26
     },
     {
       "speaker": "Izzy",
-      "text": "Bingo! But we're far away on our own planet. Can you fly your rocket ship to us?",
-      "timestamp": 522
+      "text": "\"Hello, hello.\"",
+      "timestamp": 273.31
     },
     {
       "speaker": "Dad",
-      "text": "I don't know what direction you are and I did bring my map. Oh yeah, use your map and try to bring us a snack please. Thank you. Bye bye.",
-      "timestamp": 531
+      "text": "And Disco said, \"Who's that?\"",
+      "timestamp": 275.84
     },
     {
       "speaker": "Izzy",
-      "text": "Ah, but I didn't bring one. Not a single map's in my pocket.",
-      "timestamp": 541
+      "text": "I don't know.",
+      "timestamp": 277.7
     },
     {
       "speaker": "Dad",
-      "text": "And Disco said, \"That's okay. Do you have one, Disco?\" Ah, well we can look around the ship and see if we can find one. Hey, there's this other cabinet. Maybe there's maps in here.",
-      "timestamp": 548
+      "text": "And the little voice said, \"It's, it's us. The Mookers. You know, the fuzzy, funny, furry Floofers.\" And Disco said, \"The mo- the Mookers?\"",
+      "timestamp": 278.09
     },
     {
       "speaker": "Izzy",
-      "text": "Oh, I found one, I found one, I found one. Go down, go down, go down.",
-      "timestamp": 601
+      "text": "\"Yeah, we live on the Planet of the Mookers.\"",
+      "timestamp": 289.78
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Disco Disco said, \"I've never heard of that.\"",
+      "timestamp": 292.32
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"Well, we need your help because we're very hungry. Do you have any snacks?\" \"Do you like worms or ants?\"",
+      "timestamp": 295.59
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"No.\"",
+      "timestamp": 307.13
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"What do you like?\"",
+      "timestamp": 307.93
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Just, um, um, sandwiches.\"",
+      "timestamp": 308.97
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"I don't know, but maybe you like Mooker food.\"",
+      "timestamp": 313.66
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Yeah, Mooker f- Mooker, um, Mooker food is, is a sandwich.\"",
+      "timestamp": 318.11
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"Mm. Here you go.\"",
+      "timestamp": 322.51
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"But we're far away on our own planet. Can you fly your rocket ship to us?\"",
+      "timestamp": 325.57
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"Mm, I don't know what direction you are, and I did bring my map.\"",
+      "timestamp": 330.89
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh, yeah, use your map, and try to bring us a snack, please. Thank you. Bye-bye.\"",
+      "timestamp": 337.31
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"Uh, but I, I didn't bring one. Not a single map is in my pocket.\"",
+      "timestamp": 341.71
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Disco said, \"That's okay.\"",
+      "timestamp": 348.64
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"Do you have one, Disco?\"",
+      "timestamp": 350.43
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Uh, well, we can look around the ship and see if we can find one. Hey, here's this other cabinet. M- maybe there's maps in here.\" And-",
+      "timestamp": 352.68
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I, oh, I found one. I found one. I found one.",
+      "timestamp": 359.74
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, good.",
+      "timestamp": 363.72
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Slow down. Slow down. Slow down",
+      "timestamp": 364.46
     },
     {
       "speaker": "Dad",
       "text": "What does it show, Captain Izzy?",
-      "timestamp": 609
+      "timestamp": 368.52
     },
     {
       "speaker": "Izzy",
-      "text": "It shows that the Mooker planet... and there's Irma, and Uranus, and Mika, and Anna, and Sheila, and Mosha, and Akira, and Susy, and finally the planet of the Mookers is the Trongiand. So, and it's the right, and now I know, and now I know what direction, and now I know which planet, and now I know.",
-      "timestamp": 611
+      "text": "It shows that the Mooker planet, and there's Lima, and Uranus, and Mika, and Nana, and Sheila, and, and Mochan, and Kila, and Swazi.",
+      "timestamp": 370.34
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh-",
+      "timestamp": 393.94
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And finally, the planet of the Mookers is the Charaniat. So, and it's the right, and it... And now I know, and now I know which direction, and now I know which planet, and now I know.",
+      "timestamp": 393.96
     },
     {
       "speaker": "Dad",
       "text": "Oh, so you can help us get there, Captain Izzy? You can fly our rocket ship?",
-      "timestamp": 653
+      "timestamp": 413.26
     },
     {
       "speaker": "Izzy",
-      "text": "Yes. The right, the way. And the planet of the Mookers is Sauthica.",
-      "timestamp": 657
+      "text": "Yes.",
+      "timestamp": 417.34
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay.",
+      "timestamp": 418.62
+    },
+    {
+      "speaker": "Izzy",
+      "text": "The right's the way. And the planet of the Mookers is South Africa.",
+      "timestamp": 419.54
     },
     {
       "speaker": "Dad",
       "text": "Is what?",
-      "timestamp": 707
+      "timestamp": 426.48
     },
     {
       "speaker": "Izzy",
-      "text": "Sauthica is the planet of the Mookers and that's planet really close to our house. So we only have to fly on Cornell Street and then Kitridge, and then onto Causey, then on Marigold, and then that's the street of the Mookers. And there's their planet and if you see it, we're... we can help you out with the car.",
-      "timestamp": 708
+      "text": "South Africa is the planet of the Mookers, and that's the planet really close to our house.",
+      "timestamp": 427.62
     },
     {
       "speaker": "Dad",
-      "text": "No, the rocket.",
-      "timestamp": 741
+      "text": "Oh, it is?",
+      "timestamp": 433.7
     },
     {
       "speaker": "Izzy",
-      "text": "The rocket.",
-      "timestamp": 742
+      "text": "So we only have to fly onto Cornell Street and then Kittredge, and then, and then onto Cross Street.",
+      "timestamp": 434.04
     },
     {
       "speaker": "Dad",
-      "text": "Okay, Captain Izzy, get in the captain's chair and press the button to make the rocket ship blast off.",
-      "timestamp": 744
+      "text": "Oh, okay. W-",
+      "timestamp": 442.1
     },
     {
       "speaker": "Izzy",
-      "text": "Beep.",
-      "timestamp": 751
+      "text": "Then you're on Marigold, and then, and then that's the street of the Mookers.",
+      "timestamp": 443.67
     },
     {
       "speaker": "Dad",
-      "text": "And there's a big rumbling thunder sound and the rocket ship blasted off. And they flew up into the air, and the garden below them just became tinier and tinier. And then they saw all the forests and rivers and oceans of the planet Earth get smaller and smaller below them until they were up above the clouds and the planet Earth was just a tiny little ball beneath them. And then they went on Cornell Street, and then on Kitridge Street, Marigold Street, until they found the Mookers' street, which was also where their planet was. And what did the planet of the Mookers look like?",
-      "timestamp": 753
+      "text": "Oh.",
+      "timestamp": 450.82
     },
     {
       "speaker": "Izzy",
-      "text": "It was on Marigold Street. And I helped you out the car, Disco. I helped you out the car. Oh... Disco.",
-      "timestamp": 830
+      "text": "And there's their planet, and if you see it, we're, we can help you out of the car. No, the rocket.",
+      "timestamp": 451.16
     },
     {
       "speaker": "Dad",
-      "text": "What about me, said Disco?",
-      "timestamp": 843
+      "text": "Okay, Captain Izzy-",
+      "timestamp": 464.22
     },
     {
       "speaker": "Izzy",
-      "text": "I got you out already. You and Disco. I got you out already. So, Mookers, let me find the sandwich. Cause I got it. Here you go.",
-      "timestamp": 844
+      "text": "Uh",
+      "timestamp": 465.82
     },
     {
       "speaker": "Dad",
-      "text": "And the Mookers said, \"Thank you!\" And one sandwich was enough for lots and lots of Mookers because Mookers, as we know, are tiny fur-balls. Each of them is only the size of your big toe.",
-      "timestamp": 858
+      "text": "... get in the captain's chair and press the button to make the rocket ship blast off.",
+      "timestamp": 465.83
     },
     {
       "speaker": "Izzy",
-      "text": "I was reaching for this.",
-      "timestamp": 918
+      "text": "Boop.",
+      "timestamp": 473.28
+    },
+    {
+      "speaker": "Dad",
+      "text": "And there was a big rumbling thunder sound, and the rocket ship blasted off. And they flew up into the air, and the garden below them just became tinier and tinier. And then they saw all the forests and rivers and oceans of the planet Earth get smaller and smaller below them, until they were up above the clouds, and the planet Earth was just a tiny little ball beneath them.",
+      "timestamp": 475.36
+    },
+    {
+      "speaker": "Dad",
+      "text": "And then they went on Cornell Street, and then on Kittredge Street, and Marigold Street, until they found the Mookers' street, which was also where their planet was. And what did the planet of the Mookers look like?",
+      "timestamp": 498.88
+    },
+    {
+      "speaker": "Izzy",
+      "text": "It was on Marigold Street. And I helped you out the car, Disco. I helped you out the car.",
+      "timestamp": 512.34
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh-",
+      "timestamp": 520
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Oh",
+      "timestamp": 520.12
+    },
+    {
+      "speaker": "Dad",
+      "text": "... thank you",
+      "timestamp": 520.52
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... you're out, Disco.",
+      "timestamp": 520.9
+    },
+    {
+      "speaker": "Dad",
+      "text": "What about me, said Disco.",
+      "timestamp": 523.02
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I got you out already.",
+      "timestamp": 524.82
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay. You're out.",
+      "timestamp": 526.4
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And you, Disco. I got you out already. So, Mookers. Let me find a sandwich you guys want it. Here you go.",
+      "timestamp": 527.33
+    },
+    {
+      "speaker": "Dad",
+      "text": "And the Mookers said, \"Thank you.\" Om, nom, nom, nom, nom. And one sandwich was enough for lots and lots of Mookers, because Mookers, as we know, are tiny fur balls. Each of them is only the size of your big toe.",
+      "timestamp": 540.34
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I'm reaching, I was reaching for this.",
+      "timestamp": 559.68
     },
     {
       "speaker": "Dad",
       "text": "Oh, what did you bring over?",
-      "timestamp": 924
+      "timestamp": 563.44
     },
     {
       "speaker": "Izzy",
-      "text": "I was reaching for this because I have to put on a different show. Now I want to fly to the Odic Aquarium.",
-      "timestamp": 925
+      "text": "I was reaching for this, because I have to put it on a different shelf.",
+      "timestamp": 565.38
     },
     {
       "speaker": "Dad",
-      "text": "Oh, the Odic Aquarium?",
-      "timestamp": 938
+      "text": "Oh, okay.",
+      "timestamp": 569.44
     },
     {
       "speaker": "Izzy",
-      "text": "But already on the planet because it's close to the Mookers' house.",
-      "timestamp": 941
+      "text": "Up here. Now I want to fly to the Autec Aquarium.",
+      "timestamp": 570.04
     },
     {
       "speaker": "Dad",
-      "text": "Oh, okay. Let's fly there. Land. We landed.",
-      "timestamp": 946
+      "text": "Oh, the Autec Aquarium?",
+      "timestamp": 578.16
     },
     {
       "speaker": "Izzy",
-      "text": "Let's go to the Odic.",
-      "timestamp": 954
+      "text": "We're already on the planet, because it's close to the Mookers house.",
+      "timestamp": 581.29
     },
     {
       "speaker": "Dad",
-      "text": "And what's on this planet, Captain Izzy?",
-      "timestamp": 955
+      "text": "Oh, okay. Let's fly there.",
+      "timestamp": 585.62
     },
     {
       "speaker": "Izzy",
-      "text": "Dad, I need a light, Dad. I need a light.",
-      "timestamp": 958
+      "text": "Land. We landed. This is Autec.",
+      "timestamp": 588.78
     },
     {
       "speaker": "Dad",
-      "text": "Don't you have a flashlight in your bed-shelf?",
-      "timestamp": 1003
+      "text": "And, and what's on this planet, Captain Izzy?",
+      "timestamp": 594.24
     },
     {
       "speaker": "Izzy",
-      "text": "I do. I do. I do. I do.",
-      "timestamp": 1007
+      "text": "Dad, um, I need a light, Dad.",
+      "timestamp": 597.74
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh.",
+      "timestamp": 601.92
     },
     {
       "speaker": "Izzy",
-      "text": "Wait. Fishies. Oh, there's a spot. I see them.",
-      "timestamp": 1036
+      "text": "I need a light.",
+      "timestamp": 601.94
+    },
+    {
+      "speaker": "Dad",
+      "text": "Don't you have a flashlight in your bed shelf?",
+      "timestamp": 602.94
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I do. Yes, I do. I do. I do. I do.",
+      "timestamp": 608
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh.",
+      "timestamp": 617.14
+    },
+    {
+      "speaker": "Izzy",
+      "text": "What next?",
+      "timestamp": 629.46
+    },
+    {
+      "speaker": "Dad",
+      "text": "What do you see, Captain Izzy?",
+      "timestamp": 633.3
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Where? Oh, fishy. Oh, there are s- Oh. I see them.",
+      "timestamp": 636.74
     },
     {
       "speaker": "Dad",
       "text": "You see them? What do you see?",
-      "timestamp": 1045
+      "timestamp": 645.1
     },
     {
       "speaker": "Izzy",
-      "text": "I see lots of fishes, even one big Angler. Let's put that back up there.",
-      "timestamp": 1047
+      "text": "I see lots of fishes. Even one big angler. I'm gonna put that back up there.",
+      "timestamp": 646.9
     },
     {
       "speaker": "Dad",
-      "text": "And Disco and Disco said, \"You know, we're a little sleepy. This has been a great space mission, but I think it might be time to fly back home. Will you take us there, Captain Izzy?\"",
-      "timestamp": 1057
+      "text": "Okay. And Disco and Thisco said, \"You know, we're a little sleepy. This has been a great space mission, but I think it might be time to fly back home. Will you take us there, Captain Izzy?\"",
+      "timestamp": 653.28
     },
     {
       "speaker": "Izzy",
       "text": "Oh, we landed on Earth already.",
-      "timestamp": 1109
+      "timestamp": 668.44
     },
     {
       "speaker": "Dad",
-      "text": "Oh, thank goodness. Okay, we're going to get out of the ship and go back to our house. Thanks for the space mission, Captain Izzy. Goodnight. And that's the end of Stars and Stories.",
-      "timestamp": 1112
+      "text": "Oh, thank goodness. \"Okay. We're gonna get out of the ship and go back to our house. Thanks for the space mission, Captain Izzy. Good night.\" And that's the end of Stars and Storms.",
+      "timestamp": 672
     },
     {
       "speaker": "Izzy",
-      "text": "Can I do some shadow puppet?",
-      "timestamp": 1128
+      "text": "Can I do some shadow puppets?",
+      "timestamp": 688.84
     },
     {
       "speaker": "Dad",
       "text": "Yeah.",
-      "timestamp": 1130
+      "timestamp": 690.86
     },
     {
       "speaker": "Izzy",
-      "text": "Well, if you look up at the ceiling instead of down at the light, it'll be better.",
-      "timestamp": 1132
+      "text": "As Leon, I feel like it.",
+      "timestamp": 691.4
+    },
+    {
+      "speaker": "Dad",
+      "text": "Well, if you look up at the ceiling instead of down at the light, it'll be better. Oh, I'm a bird. Flap, flap, flap, flap, flap, flap, flap. Flap, flap, flap. Oh, yeah. I like how you're doing that. Okay. Let's do another.",
+      "timestamp": 693.66
     }
   ],
   "characters": [
@@ -474,7 +704,19 @@
       "description": "The home planet where the garden and the moles' house are located."
     }
   ],
-  "wordCount": 1360,
-  "izzyWordCount": 483,
-  "dadWordCount": 877
+  "wordCount": 1499,
+  "izzyWordCount": 552,
+  "dadWordCount": 947,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T15:09:23.049Z",
+    "speakerMap": {
+      "speaker_0": "Dad",
+      "speaker_1": "Izzy"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "low"
+  }
 }

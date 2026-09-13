@@ -11,143 +11,183 @@
   "transcript": [
     {
       "speaker": "Dad",
-      "text": "Now, once upon a time, Disco and Thisco were wandering through the forest when they found a little cottage they'd never seen before. And they hid in the bushes, and they watched carefully. And suddenly they started to twitch their noses. Do you know why they did that?",
-      "timestamp": 0.02
+      "text": "Now, once upon a time, Disco and Thisco were wandering through the forest when they found a little cottage they'd never seen before. And they hid in the bushes, and they watched carefully, and suddenly they started to twitch their noses. Do you know why they did that?",
+      "timestamp": 1.26
     },
     {
       "speaker": "Izzy",
       "text": "No.",
-      "timestamp": 0.23
+      "timestamp": 23.18
     },
     {
       "speaker": "Dad",
-      "text": "Because something smelled very nice. And then the little round door on the front of the cottage, it popped open. And guess who came out? It was a bunny, but it wasn't just any bunny. It was a bunny with purple hair on the top of her head and a bright red apron. And do you know why she was wearing an apron? Because she was baking. And she looked around and said, \"Hmm, I wonder if there's anybody out here.\" And she wrinkled up her little nose and went \"Sniff, sniff, sniff.\" And she said, \"Do I smell some moles?\" And what did Disco and Thisco do?",
-      "timestamp": 0.24
+      "text": "Because something smelled very nice. And then the little round door on the front of the cottage, it popped open, and guess who came out? It was a bunny. But it wasn't just any bunny. It was a bunny with purple hair on the top of her head and a bright red apron.",
+      "timestamp": 24.56
+    },
+    {
+      "speaker": "Dad",
+      "text": "Do you know why she was wearing an apron? Because she was baking. And she looked around and said, \"Hmm, I wonder if there's anybody out here.\" And she wrinkled up her little nose and went sniff, sniff, sniff. And she said, \"Do I smell some moles?\" And what did Disco and Thisco do?",
+      "timestamp": 53.06
     },
     {
       "speaker": "Izzy",
-      "text": "They said \"Yes\".",
-      "timestamp": 1.1
+      "text": "They said, \"Yes.\"",
+      "timestamp": 80.82
     },
     {
       "speaker": "Dad",
-      "text": "Oh, I heard a \"yes\". Are there little moles hiding in that bush? Come on out. My name is Auntie Mulberry.",
-      "timestamp": 1.14
+      "text": "\"Oh, I heard a yes. Are there little moles hiding in that bush? Come on out.\"",
+      "timestamp": 85.7
     },
     {
       "speaker": "Izzy",
-      "text": "And here's the next ring for this. We only got red, orange, yellow, green, but no blue.",
-      "timestamp": 1.36
+      "text": "Mm-hmm.",
+      "timestamp": 90.72
     },
     {
       "speaker": "Dad",
-      "text": "We're missing the blue ring, that's a good point. I'm not sure where it is.",
-      "timestamp": 1.51
+      "text": "\"My name is Auntie Mulberry.\" And I'm-",
+      "timestamp": 92.94
     },
     {
       "speaker": "Izzy",
-      "text": "You could make one out of pipe cleaners, that's a good idea. That is blue.",
-      "timestamp": 2.07
+      "text": "Dad, where's the next ring for this? We only got red, orange, yellow, green, but no blue.",
+      "timestamp": 97.3
     },
     {
       "speaker": "Dad",
-      "text": "Did you do it? Oh, you found the blue ring.",
-      "timestamp": 2.28
+      "text": "We're missing the blue ring. That's a good point. I'm not sure where it is.",
+      "timestamp": 109.36
+    },
+    {
+      "speaker": "Izzy",
+      "text": "We could make one out of pipe cleaners.",
+      "timestamp": 121.2
     },
     {
       "speaker": "Dad",
-      "text": "And Auntie Mulberry said, \"Excuse me, moles. Do you think you could help me with something?\"",
-      "timestamp": 2.4
+      "text": "We could make one out of pipe cleaners. That's a good idea. It is blue. Did you do it? Oh, you made a blue ring. And Auntie Mulberry said, \"Excuse me, moles, do you think you could help me with something?\"",
+      "timestamp": 126.12
     },
     {
       "speaker": "Izzy",
       "text": "What?",
-      "timestamp": 2.46
+      "timestamp": 165.86
     },
     {
       "speaker": "Dad",
-      "text": "Well, I am about to bake a very special magical pie. But I could use some help getting the ingredients. Do you think you could help me?",
-      "timestamp": 2.48
+      "text": "\"Well, I am about to bake a very special magical pie, but I could use some help getting the ingredients. Do you think you could help me?\"",
+      "timestamp": 167.26
     },
     {
       "speaker": "Izzy",
-      "text": "Yeah.",
-      "timestamp": 3.06
+      "text": "Yes.",
+      "timestamp": 183.64
     },
     {
       "speaker": "Dad",
-      "text": "Oh, thank you. Now, let me see. I've got this pie tin and I made the pie crust. But I need to put in something delicious and sweet. Can you find something sweet for me?",
-      "timestamp": 3.08
+      "text": "\"Oh, thank you. Now, let me see. I've got this pie tin and I made the pie crust, but I need to put in something delicious and sweet. Can you find something sweet for me?\"",
+      "timestamp": 184.44
     },
     {
       "speaker": "Izzy",
-      "text": "Look, here's raisins!",
-      "timestamp": 3.22
+      "text": "Oh, here's raisins.",
+      "timestamp": 201.53
     },
     {
       "speaker": "Dad",
-      "text": "Oh, raisins! Good idea. I see you happen to have your own snack that you're carrying with you. I'll put some raisins in the pie. Now, what else do I need? Oh, I need something crunchy and salty. Do you think you could find that?",
-      "timestamp": 3.24
+      "text": "\"Oh, raisins. Good idea. I see you happen to have your own snack that you're carrying with you. I'll put some raisins in the pie. Now, what else is there? Oh, we need something crunchy and salty. Do you think you could find that?\"",
+      "timestamp": 202.95
     },
     {
       "speaker": "Izzy",
       "text": "Oh, here's some crunchy and salty bacon.",
-      "timestamp": 3.43
+      "timestamp": 221.9
     },
     {
       "speaker": "Dad",
-      "text": "Oh, raisins and bacon... mmm, that sounds good. Now, a good pie also needs something squishy and slithery. Do you have anything like that?",
-      "timestamp": 3.45
+      "text": "\"Oh, raisins and bacon. Mm, that sounds good. Now, a good pie also needs something squishy and slithery. Do you have anything like that?\"",
+      "timestamp": 225.13
     },
     {
       "speaker": "Izzy",
-      "text": "A slithery and squishy... cotton-all.",
-      "timestamp": 3.53
+      "text": "Slithery and squishy. Cottonelle.",
+      "timestamp": 238.7
     },
     {
       "speaker": "Dad",
       "text": "A what?",
-      "timestamp": 4
+      "timestamp": 244.06
     },
     {
       "speaker": "Izzy",
-      "text": "Squishy... nice cotton-all.",
-      "timestamp": 4.02
+      "text": "Squishy. There's Cottonelle.",
+      "timestamp": 245.16
     },
     {
       "speaker": "Dad",
-      "text": "Cotton-all? What's that?",
-      "timestamp": 4.04
+      "text": "Cottonelle? What's that?",
+      "timestamp": 248.66
     },
     {
       "speaker": "Izzy",
-      "text": "That's called a match-a-cola... and blue straw... and yummy... and also slime. Here you go.",
-      "timestamp": 4.06
+      "text": "That's called a mashaka. They are soft and also slime. Here you go.",
+      "timestamp": 250
     },
     {
       "speaker": "Dad",
       "text": "Oh, thank you.",
-      "timestamp": 4.19
+      "timestamp": 263.86
     },
     {
       "speaker": "Izzy",
-      "text": "Who's that?",
-      "timestamp": 4.3
+      "text": "Oh, the bath's ready. It's Isabella.",
+      "timestamp": 265.28
     },
     {
       "speaker": "Dad",
-      "text": "Who's that? Hi, Isabella.",
-      "timestamp": 4.31
+      "text": "Who's there?",
+      "timestamp": 270.22
     },
     {
       "speaker": "Izzy",
-      "text": "Do you wanna play cats?",
-      "timestamp": 4.35
+      "text": "Isabella.",
+      "timestamp": 271.18
+    },
+    {
+      "speaker": "Dad",
+      "text": "Hi, Isabella.",
+      "timestamp": 272.44
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Can we play popcorn foot?",
+      "timestamp": 287.6
     },
     {
       "speaker": "Dad",
       "text": "Yes.",
-      "timestamp": 4.37
+      "timestamp": 289.25
+    },
+    {
+      "speaker": "Izzy",
+      "text": "What?",
+      "timestamp": 289.25
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yes.",
+      "timestamp": 289.25
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Oh, but we can't play without-",
+      "timestamp": 289.25
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay. Well, then",
+      "timestamp": 290.27
     }
   ],
   "characters": [
@@ -179,7 +219,20 @@
       "description": "A small home in the forest with a round door where magical baking takes place."
     }
   ],
-  "wordCount": 440,
-  "izzyWordCount": 78,
-  "dadWordCount": 362
+  "wordCount": 462,
+  "izzyWordCount": 81,
+  "dadWordCount": 381,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T15:09:42.404Z",
+    "speakerMap": {
+      "speaker_0": "Dad",
+      "speaker_1": "Izzy",
+      "speaker_2": "Dad"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "low"
+  }
 }

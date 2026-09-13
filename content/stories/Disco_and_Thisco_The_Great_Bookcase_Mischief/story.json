@@ -6,218 +6,328 @@
   "audioFilename": "Cornell St 67.m4a",
   "highlightQuote": {
     "text": "We can do any mischief under there. We could make it even dustier, or put toys under there so no one can find them, or we could knock over things under there.",
-    "timestamp": 347.1
+    "timestamp": 226.24
   },
   "transcript": [
     {
+      "speaker": "Izzy",
+      "text": "hanging from my big kid bed. I want to lie down first",
+      "timestamp": 0.09
+    },
+    {
       "speaker": "Dad",
-      "text": "All right, I'm going to turn out the light and then we'll do Stars and Story.",
-      "timestamp": 15.1
+      "text": "Oh, wow, look at that mobile. Did you make that at school or at home?",
+      "timestamp": 4.34
     },
     {
       "speaker": "Izzy",
-      "text": "Let's do a story always Disco and Thisco.",
-      "timestamp": 21.43
+      "text": "At home.",
+      "timestamp": 9.73
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, wow, what a cool project. All right, I'm gonna turn out the lights and then we'll do Stars and Stories.",
+      "timestamp": 10.14
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Let's do a story. Always Disco and Thisco.",
+      "timestamp": 21.82
     },
     {
       "speaker": "Dad",
       "text": "Always Disco and Thisco.",
-      "timestamp": 25
+      "timestamp": 25.78
     },
     {
       "speaker": "Izzy",
-      "text": "Disco and Thisco. It's time to do Stars and Story's mischief.",
-      "timestamp": 28.5
+      "text": "Disco and Thisco. Time to do Stars and Stories mischief.",
+      "timestamp": 28.98
     },
     {
       "speaker": "Dad",
       "text": "Ah, let's see.",
-      "timestamp": 36.1
+      "timestamp": 36
     },
     {
       "speaker": "Izzy",
-      "text": "You can do mischief under the chair and you have to actually I already explored under the chair. So you can put your headlamps on to explore under the bookcase.",
-      "timestamp": 37.5
+      "text": "You can do mischief under the chair, and you have to... Actually, I already explored under the chair. So you can put your headlamps on to explore under the bookcase.",
+      "timestamp": 37.32
     },
     {
       "speaker": "Dad",
-      "text": "And so Disco and Thisco put on their headlamps to explore under the bookcase. And they crawled carefully underneath.",
-      "timestamp": 50.4
-    },
-    {
-      "speaker": "Izzy",
-      "text": "And you can do any mischief you want and plan any mischief you want under the bookshelf.",
-      "timestamp": 58.2
-    },
-    {
-      "speaker": "Dad",
-      "text": "And they wondered if they would find any interesting books under there. And...",
-      "timestamp": 109.1
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Actually there's no books under there.",
-      "timestamp": 113.5
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, what's under there?",
-      "timestamp": 116.2
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Only dust. But you could do some mischief under there.",
-      "timestamp": 118.4
-    },
-    {
-      "speaker": "Dad",
-      "text": "Well, Disco and Thisco were just scraping around with their claws under the bookshelf in the dust, the way moles do, when suddenly, k-clunk, Disco's claw clunked into something. What did he clunk into?",
-      "timestamp": 125.1
-    },
-    {
-      "speaker": "Izzy",
-      "text": "I don't think it's anything, Disco.",
-      "timestamp": 140.4
-    },
-    {
-      "speaker": "Dad",
-      "text": "And Thisco said, 'Well maybe it's something. Let me point my headlamp at it.' And he pointed his lamp at it.",
-      "timestamp": 142.3
-    },
-    {
-      "speaker": "Izzy",
-      "text": "I think it's a piece of... Oh, it's just a little rock and a piece of gravel.",
-      "timestamp": 147.2
-    },
-    {
-      "speaker": "Dad",
-      "text": "A little rock and a piece of gravel? Are you sure? It looks like it has a handle on it, says Thisco. And Thisco says, 'Oh you're right. I wonder what will happen if I pull this handle?' And suddenly there was a vroom.",
-      "timestamp": 152.1
-    },
-    {
-      "speaker": "Izzy",
-      "text": "I think it's a car. A toy car.",
-      "timestamp": 206.4
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, it is a toy car, said Disco. Is it big enough for them to climb into and drive? It's a small toy car?",
-      "timestamp": 210.5
+      "text": "And so Disco and Thisco put on their headlamps to explore under the bookcase.",
+      "timestamp": 49.9
     },
     {
       "speaker": "Izzy",
       "text": "Yeah.",
-      "timestamp": 220.3
+      "timestamp": 54.8
     },
     {
       "speaker": "Dad",
-      "text": "Oh. Is it the kind that can pull back to wind it up and then let it go to make it go zoom, or some other kind of car?",
-      "timestamp": 221.2
+      "text": "And they crawled carefully underneath.",
+      "timestamp": 55.11
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And, and you can do any mischief you want and plan any mischief you want under the bookshelf.",
+      "timestamp": 57.8
+    },
+    {
+      "speaker": "Dad",
+      "text": "And they wondered if they would find any interesting books under there. And actually-",
+      "timestamp": 68.04
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Actually, there's no books under there",
+      "timestamp": 72.95
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, what's under there?",
+      "timestamp": 75.32
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Only dust.",
+      "timestamp": 77.56
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Disco-",
+      "timestamp": 79.84
+    },
+    {
+      "speaker": "Izzy",
+      "text": "But you could do some mischief under there.",
+      "timestamp": 80.06
+    },
+    {
+      "speaker": "Dad",
+      "text": "Well, Disco and Thisco were just scraping around with their claws under the bookshelf in the dust, the way moles do, when suddenly, c-clonk, Disco's claw clonked into something. What did he clonk into?",
+      "timestamp": 84.22
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I don't think it's anything, Disco.",
+      "timestamp": 97.28
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Thisco said, \"Well, maybe it's something. Let me point my headlamp at it.\" And he pointed his lamp at it-",
+      "timestamp": 100.16
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I think it's a piece of... Oh, it's just a little rock and a piece of gravel",
+      "timestamp": 105.62
+    },
+    {
+      "speaker": "Dad",
+      "text": "... \"A little rock and a piece of gravel? Are you sure?\"",
+      "timestamp": 111.16
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yes.",
+      "timestamp": 115.1
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"It looks like it has a handle on it,\" says Thisco. And Disco says, \"Oh, you're right. I wonder what will happen if I pull this handle.\" And suddenly there was a rrr.",
+      "timestamp": 115.18
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I think it's a car, a toy car.",
+      "timestamp": 125.52
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh, it is a toy car,\" said Disco. Is it big enough for them to climb into and drive? It's a small toy car?",
+      "timestamp": 129.22
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah.",
+      "timestamp": 139.02
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh. Is it the kind that can pull back to wind it up and then l- let it go to make it go zoom or some other kind of car?",
+      "timestamp": 139.98
     },
     {
       "speaker": "Izzy",
       "text": "It's just a pretend car that we play with outside.",
-      "timestamp": 228.4
+      "timestamp": 148.34
     },
     {
       "speaker": "Dad",
-      "text": "Oh. 'Should we take it for a drive?' says Disco.",
-      "timestamp": 232.1
+      "text": "Oh. \"Should we take it for a drive?\" says Thisco.",
+      "timestamp": 154.58
     },
     {
       "speaker": "Izzy",
-      "text": "Well how about we just do a little bit of mischief under the bookcase.",
-      "timestamp": 236.4
+      "text": "Well, how about we just do a little bit of mischief under the bookcase.",
+      "timestamp": 161.48
     },
     {
       "speaker": "Dad",
-      "text": "And Disco says, 'I'm gonna drive this car as fast as I can!' Vroom! And then suddenly he spun the wheel all the way to one side and the car started to spin and it made a loop-de-loop and it went zzz-zzz-zzz, spinning all the way around in a circle. And Thisco said, 'Wow, you're making rings in the dust by driving the car around and around in circles!' And Disco said, 'Haha, I'm gonna try the other way!' and he spun the wheel around the other way, and then zzz...",
-      "timestamp": 241.1
-    },
-    {
-      "speaker": "Izzy",
-      "text": "It might get... it might get out of battery, so try hopping off the car, Disco. That's enough with the car, that's enough with the car, Disco.",
-      "timestamp": 313.5
+      "text": "And Disco says, \"I'm gonna drive this car as fast as I can.\" Vroom. And then suddenly he spun the wheel all the way to one side and the car started to spin, and it made a loop-de-loop, and it went z- z- z- z-, spinning all the way around in a circle.",
+      "timestamp": 168.72
     },
     {
       "speaker": "Dad",
-      "text": "And then Disco turned off the car and it stopped. 'Whew, that was exciting,' says Disco, and he hopped out of the car.",
-      "timestamp": 323.2
+      "text": "And Thisco said, \"Wow, you're making rings in the dust by driving the car around and around in circles.\" And Disco said \"I'm gonna try it the other way.\" And he spun the other wheel around the other way and then z- z- z-",
+      "timestamp": 182.21
     },
     {
       "speaker": "Izzy",
-      "text": "But more mischief! Some mischief would be fine. Lots of mischief.",
-      "timestamp": 331.4
+      "text": "It might get out, it might get out of battery so try hopping off the car, Disco.",
+      "timestamp": 194.1
     },
     {
       "speaker": "Dad",
-      "text": "Ah, okay. 'There's all sorts to do. What other kinds of mischief can we do?' said Disco.",
-      "timestamp": 339.5
+      "text": "And went-",
+      "timestamp": 200.3
     },
     {
       "speaker": "Izzy",
-      "text": "We can do any mischief under there. We could make it even dustier, or put toys under there so no one can find them, or we could knock over things under there, or put things under there and then build a tower and knock them over. Or we can make the dolls lamp-o and then kick it. Those things would be mischievous.",
-      "timestamp": 347.1
+      "text": "That's enough with the car. That's enough with the car, Disco",
+      "timestamp": 200.41
+    },
+    {
+      "speaker": "Dad",
+      "text": "... oh, and then Disco turned off the car and it stopped. Z. \"Hoo, that was exciting,\" says Disco, and he hopped out of the car.",
+      "timestamp": 202.87
+    },
+    {
+      "speaker": "Izzy",
+      "text": "But more mischief. Some mischief would be fine.",
+      "timestamp": 211.04
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, okay.",
+      "timestamp": 215.94
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Lots of mischief.",
+      "timestamp": 216.46
+    },
+    {
+      "speaker": "Dad",
+      "text": "Well-",
+      "timestamp": 221.43
+    },
+    {
+      "speaker": "Izzy",
+      "text": "There's all sorts to do",
+      "timestamp": 221.44
+    },
+    {
+      "speaker": "Dad",
+      "text": "... \"What other kinds of mischief can we do?\" said Disco and Thisco.",
+      "timestamp": 223.64
+    },
+    {
+      "speaker": "Izzy",
+      "text": "We can do any mischief under there. We could make it even dustier or put toys under there so no one can find them-",
+      "timestamp": 226.24
+    },
+    {
+      "speaker": "Dad",
+      "text": "Ooh",
+      "timestamp": 236.78
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... or we could knock over things under there, or, or put things under there and then build a tower and knock them over.",
+      "timestamp": 237.1
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh.",
+      "timestamp": 249.18
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Or we can make the tall, slim pole and then kick it. That, those things would be mischievous.",
+      "timestamp": 249.2
     },
     {
       "speaker": "Dad",
       "text": "I see. And so Disco and Thisco, what did they choose?",
-      "timestamp": 417.1
+      "timestamp": 258.52
     },
     {
       "speaker": "Izzy",
-      "text": "I don't know what they choose. I think they chose all of those.",
-      "timestamp": 423.4
+      "text": "I don't know what they choose. I think they choosed all of those .",
+      "timestamp": 263.46
     },
     {
       "speaker": "Dad",
-      "text": "They did all the kinds of mischief and they spent all day building towers and knocking them down and making a mess and hiding things and running around. And then they felt very sleepy. And Disco said to Thisco, 'Gosh, I wonder what time it is.' And Thisco said, 'I think it might be time to go home and go to sleep.' And Disco said, 'Yeah, I think you're right.'",
-      "timestamp": 428.1
+      "text": "They did all the kinds of mischief, and they spent all day building towers and knocking them down, and making a mess, and hiding things, and running around. And then they felt very sleepy. And Disco said to Thisco, \"Gosh, I wonder what time it is.\" And Thisco said, \"I think it might be time to go home and go to sleep.\"",
+      "timestamp": 267.62
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Disco said, \"Yeah, I think you're right.\" We-",
+      "timestamp": 290.4
     },
     {
       "speaker": "Izzy",
-      "text": "Actually we have three more minutes. I think. Dad, how many more minutes?",
-      "timestamp": 454.4
+      "text": "Actually, we have three more minutes. I think, Dad, how many more minutes?",
+      "timestamp": 292.5
     },
     {
       "speaker": "Dad",
       "text": "Oh, no, we only have one more minute.",
-      "timestamp": 501.1
+      "timestamp": 299.52
     },
     {
       "speaker": "Izzy",
-      "text": "One more?",
-      "timestamp": 504.2
+      "text": "One more minute.",
+      "timestamp": 301.9
     },
     {
       "speaker": "Dad",
-      "text": "One more minute, yeah. And so Disco said [yawn]... and Thisco said, 'Yeah, that was a big yawn. You must be sleepy.' And Disco said, 'Yeah, I guess you're right.'",
-      "timestamp": 505.1
+      "text": "One more minute, yeah. And so Disco said and Thisco said, \"Yeah, that was a big yawn. You must be sleepy.\" And Disco said, \"Yeah, I guess you're right.\"",
+      "timestamp": 302.62
     },
     {
       "speaker": "Izzy",
-      "text": "Actually there's only one more minute to do mischief.",
-      "timestamp": 513.5
+      "text": "Actually, there's only one more minute to do mischief.",
+      "timestamp": 312.46
     },
     {
       "speaker": "Dad",
-      "text": "Yeah. And Thisco said, 'What could we do as like some last little sleepy mischief?' And Disco said, 'I know! Let's go over to that super dusty spot over there in the corner. Okay, lie down on your back, Thisco, and I'm gonna lie down on my back too. And then you just kick your arms and sweep your legs back and forth and sweep your arms up and down, and that makes a dust-mole butterfly, just like a snow angel.'",
-      "timestamp": 517.1
+      "text": "Yeah. And Thisco said, \"How, what could we do as, like, some last little sleepy mischief?\" And Disco said, \"I know. Let's go over to that super dusty spot over there in the corner, and you, okay, lie down on your back, Thisco, and I'm gonna lie down on my back too.",
+      "timestamp": 316.32
     },
     {
       "speaker": "Dad",
-      "text": "[coughing] 'Oh my gosh, we're kicking up so much dust!' And Thisco said, 'Yeah, this is mischief!'",
-      "timestamp": 544.1
+      "text": "And then, um, you just kick your arms and sweep your l- legs back and forth, and sweep your arms up and down, and that makes, um, a dust mole butterfly.\" Just like a snow angel. And then D- Thisco said, \"Oh, my gosh, we're kicking up so much dust.\" And th- Disco said, \"Yeah, this is mischief.\"",
+      "timestamp": 331.6
     },
     {
       "speaker": "Dad",
-      "text": "And so they stood up and they looked at their beautiful dust-mole butterflies that they made in the dust. And then they said, 'Okay, let's go home.' And so they walked all the way back home to their cozy little tunnel in the dirt, and they climbed in, and they each got in their own little beds under the covers. And Disco said, 'Goodnight, Thisco.' And Thisco said, 'Goodnight, Disco.' But Disco was already asleep. Zzzzz.",
-      "timestamp": 552.1
+      "text": "And so they stood up and they looked at their beautiful dust mole butterflies that they made in the dust, and then they said, \"Okay, let's go home.\" And so they walked all the way back home to their cozy little tunnel in the dirt, and they climbed in, and they each got in their own little beds under the covers.",
+      "timestamp": 355.12
     },
     {
       "speaker": "Dad",
-      "text": "And that's the end of our story.",
-      "timestamp": 624.1
+      "text": "And Disco said, \"Good night, Thisco.\" And Thisco said, \"Good night, Disco.\" But Disco was already asleep. Z. And that's the end of our story. All right, it's time to use the potty.",
+      "timestamp": 374.1
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Oh, how many-",
+      "timestamp": 392.22
     }
   ],
   "characters": [
@@ -244,7 +354,19 @@
       "description": "The subterranean home where Disco and Thisco return to sleep after their adventures."
     }
   ],
-  "wordCount": 927,
-  "izzyWordCount": 275,
-  "dadWordCount": 652
+  "wordCount": 1018,
+  "izzyWordCount": 306,
+  "dadWordCount": 712,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T15:08:53.956Z",
+    "speakerMap": {
+      "speaker_0": "Izzy",
+      "speaker_1": "Dad"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "low"
+  }
 }

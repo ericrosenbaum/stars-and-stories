@@ -6,213 +6,268 @@
   "audioFilename": "Cornell St 71.m4a",
   "highlightQuote": {
     "text": "You get two and a half.",
-    "timestamp": 544
+    "timestamp": 344.02
   },
   "transcript": [
     {
-      "speaker": "Dad",
-      "text": "Phone under basket. Then we'll put the blanket on the top.",
-      "timestamp": 0
+      "speaker": "Izzy",
+      "text": "Phone under-",
+      "timestamp": 0.1
     },
     {
       "speaker": "Dad",
-      "text": "Whoa. Hmm. It's very dark. I see some stars over there.",
-      "timestamp": 17
+      "text": "Mm-hmm",
+      "timestamp": 1.66
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... the basket. Well, then we'll put the blanket on the top",
+      "timestamp": 1.91
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay, let's see how it looks. Oh, hmm, it's very dark. I see some stars over there. Hmm.",
+      "timestamp": 16.46
     },
     {
       "speaker": "Izzy",
       "text": "But no stars up here.",
-      "timestamp": 28
+      "timestamp": 29.6
     },
     {
       "speaker": "Dad",
-      "text": "Oh, it's because I put the phone upside down. Silly daddy. Let's put it back on like you had it.",
-      "timestamp": 32
+      "text": "Oh, it's 'cause I put the phone upside down. Silly Daddy. Here, let's put it back on like you had it. There we go.",
+      "timestamp": 31.36
     },
     {
       "speaker": "Izzy",
-      "text": "Now I tell stories.",
-      "timestamp": 42
+      "text": "Now let's tell the story of Thisco.",
+      "timestamp": 42.34
     },
     {
       "speaker": "Dad",
-      "text": "Okay. Where do you want to sit? Where's the flashlight?",
-      "timestamp": 47
+      "text": "Okay, where do you wanna sit?",
+      "timestamp": 45.28
     },
     {
       "speaker": "Izzy",
-      "text": "It's in there, I think.",
-      "timestamp": 51
+      "text": "Where's the flashlight?",
+      "timestamp": 48.92
+    },
+    {
+      "speaker": "Dad",
+      "text": "It's, it's in there, I think. Okay. Now-",
+      "timestamp": 51.02
     },
     {
       "speaker": "Izzy",
-      "text": "Now we have space beauty and everything.",
-      "timestamp": 57
+      "text": "Now we have a big view of everything.",
+      "timestamp": 58.52
+    },
+    {
+      "speaker": "Dad",
+      "text": "Mm-hmm.",
+      "timestamp": 61.38
     },
     {
       "speaker": "Izzy",
-      "text": "Now it's just like space in a play tent.",
-      "timestamp": 102
+      "text": "Now it's just like we were doing at playtime.",
+      "timestamp": 62.3
     },
     {
       "speaker": "Dad",
-      "text": "Okay. Let's tell our story. You want to sit in my lap?",
-      "timestamp": 108
+      "text": "Yeah.",
+      "timestamp": 66.08
     },
     {
       "speaker": "Izzy",
-      "text": "I call it the timer ring.",
-      "timestamp": 151
+      "text": "I can see everything.",
+      "timestamp": 66.94
     },
     {
       "speaker": "Dad",
-      "text": "Oh, yeah. It's ringing for the timer, I see. Okay. Let's get going with our story.",
-      "timestamp": 155
+      "text": "Mm-hmm. Okay, let's tell our story, Izzy. You wanna sit in my lap?",
+      "timestamp": 68.78
     },
     {
       "speaker": "Izzy",
-      "text": "So when we hear the timer, that means it's time to clean up our stars and stories.",
-      "timestamp": 206
+      "text": "That's called a timer ring.",
+      "timestamp": 114.54
     },
     {
       "speaker": "Dad",
-      "text": "Okay. That's a good idea.",
-      "timestamp": 212
-    },
-    {
-      "speaker": "Dad",
-      "text": "Now, once upon a time, the Mischief Moles went out for a walk under the stars at night.",
-      "timestamp": 230
+      "text": "Oh yeah, it's ringing for the timer, I see. Okay, let's get going with our story. What kind of story-",
+      "timestamp": 117.96
     },
     {
       "speaker": "Izzy",
-      "text": "Mischief Moles, do you see any light?",
-      "timestamp": 239
+      "text": "So when we hear the timer that means it's time to clean up our stars and stories.",
+      "timestamp": 125.78
     },
     {
       "speaker": "Dad",
-      "text": "We do see a light. We were just walking looking at the stars, said Disco, and I saw someone moving a bright light around. Was that you with your flashlight, Izzy?",
-      "timestamp": 244
+      "text": "Okay, that's a good idea. Now, once upon a time, the Mischief Moles went out for a walk under the stars at night.",
+      "timestamp": 131.66
     },
     {
       "speaker": "Izzy",
-      "text": "Yes, that was me.",
-      "timestamp": 254
+      "text": "\"Mischief Moles, do you see any light?\"",
+      "timestamp": 160.03
     },
     {
       "speaker": "Dad",
-      "text": "Oh, it's a nice flashlight. What are you looking at with it?",
-      "timestamp": 257
+      "text": "\"We do see a light. We were just walking looking at the stars,\" said Disco, \"and I saw someone moving a bright light around. Was that you with your flashlight, Izzy?\"",
+      "timestamp": 163.57
     },
     {
       "speaker": "Izzy",
-      "text": "Um, I just realized something.",
-      "timestamp": 302
+      "text": "\"Yes, that was me.\"",
+      "timestamp": 173.37
     },
     {
       "speaker": "Dad",
-      "text": "What's that?",
-      "timestamp": 307
+      "text": "\"Oh, it's a nice flashlight. What are you looking at with it?\"",
+      "timestamp": 174.89
     },
     {
       "speaker": "Izzy",
-      "text": "Jane Alexander and Jane Alexander got lost. So I'm... that's why I got this flashlight on.",
-      "timestamp": 308
+      "text": "\"Um, I just realized something.\"",
+      "timestamp": 178.75
     },
     {
       "speaker": "Dad",
-      "text": "Jane and Alexander are lost? How are we going to find them again?",
-      "timestamp": 320
+      "text": "\"What's that?\"",
+      "timestamp": 182.95
     },
     {
       "speaker": "Izzy",
-      "text": "We have... I have this flashlight and it has enough light and batteries. So if we switch it on and off...",
-      "timestamp": 326
+      "text": "\"Jane and Alexander and, Jane and Alexander got lost. So, I'm, I, that's why I got this flashlight on.\"",
+      "timestamp": 184.52
     },
     {
       "speaker": "Dad",
-      "text": "Oh, it's blinking. I think if you click it twice again like that, it'll stop blinking. There. Oh. There.",
-      "timestamp": 337
+      "text": "\"Ah, Jane and Alexander are lost. How are we gonna find them again?\"",
+      "timestamp": 198.77
     },
     {
       "speaker": "Izzy",
-      "text": "So now if we see any Alexander or any Jane, we'll say kitty-kitty and they'll come to us.",
-      "timestamp": 353
+      "text": "\"We ha- I have this flashlight, and it has enough light and batteries, so if we switch it on and off...\"",
+      "timestamp": 204.05
     },
     {
       "speaker": "Dad",
-      "text": "Oh. Okay. Let's search. But we better stay together since it's dark. Okay everyone, maybe we should even hold hands. And Disco and Disco reached out their paws and they held hands. And then Disco reached out a paw to Izzy and they held hands. Okay. Let's go search through the forest in the dark.",
-      "timestamp": 404
+      "text": "Oh, it's blinking. I think if you click it twice again like that it'll stop blinking. There. Oh, there.",
+      "timestamp": 214.92
     },
     {
       "speaker": "Izzy",
-      "text": "Chicky handed out a hand from him and he held Dad's hand.",
-      "timestamp": 415
+      "text": "\"So now if we see any Alexander and Jane, say, 'Kitty, kitty,' and they'll come to us.\"",
+      "timestamp": 225.62
     },
     {
       "speaker": "Dad",
-      "text": "Oh, okay Chicky, I'll hold your hand. Good idea. Let's keep everyone together while we search. And what should we call out?",
-      "timestamp": 421
+      "text": "\"Oh, okay. Let's search, but we better stay together since it's dark. Okay, everyone, maybe we should even hold hands.\" And Disco and Thisco reached out their paws and they held hands, and then Disco reached out a paw to Izzy and they held hands. \"Okay, let's go search through the forest in the dark.\"",
+      "timestamp": 236.06
     },
     {
       "speaker": "Izzy",
-      "text": "So we can call out Jane or Alexander and we'll say kitty-kitty with... and we'll shake a bag... and I got the bag of treats and we'll shake it and say kitty-kitty and they'll come.",
-      "timestamp": 432
+      "text": "Chicky handed out a hand from him, and he held Dad's hand.",
+      "timestamp": 253.48
     },
     {
       "speaker": "Dad",
-      "text": "Kitty-kitty. Shake, shake, shake, shake, shake. Kitty-kitty. Shake, shake, shake, shake, shake. Oh. Now we better stop walking for a second so we can be quiet and we can listen to hear if there's any meowing. Let's listen.",
-      "timestamp": 446
+      "text": "\"Oh, okay, Chicky, I'll hold your hand. Good idea. Let's keep everyone together while we search. And what should we call out?\"",
+      "timestamp": 260.17
     },
     {
       "speaker": "Izzy",
-      "text": "Meow, meow, meow. Help us. Meow, meow, meow.",
-      "timestamp": 500
+      "text": "\"So we can call out Jane or Alexander, and we'll say, 'Kitty, kitty,' with, and we'll shake a bag, and I got the bag of treats, and we'll shake it-",
+      "timestamp": 270.18
     },
     {
       "speaker": "Dad",
-      "text": "Oh. I think I hear a meowing sound. But it's not from down here on the ground. It's up in that branch of a tree. Can you point your flashlight up there? There they are! Thank goodness!",
-      "timestamp": 505
+      "text": "Oh, yeah",
+      "timestamp": 280.72
     },
     {
       "speaker": "Izzy",
-      "text": "I got a ladder. I'll shake the bag of treats. Shake, shake, shake, shake, shake. Kitty-kitty, kitty-kitty, kitty-kitty.",
-      "timestamp": 518
+      "text": "... and say, 'Kitty, kitty,' and they'll come.\"",
+      "timestamp": 280.73
     },
     {
       "speaker": "Dad",
-      "text": "And Izzy put the ladder up to the tree and Jane and Alexander both ran down the ladder and they said meow meow meow. Thanks for helping us. Hey, can we have some of those treats?",
-      "timestamp": 527
+      "text": "Kitty, kitty. Shake, shake, shake, shake, shake. Kitty, kitty. Shake, shake, shake, shake, shake. Oh, now we better stop walking for a second so we're, we can be quiet and we can listen to hear if there's any mewing. Let's listen.",
+      "timestamp": 283.96
     },
     {
       "speaker": "Izzy",
-      "text": "Yeah. Okay. Thank you.",
-      "timestamp": 541
+      "text": "\"Mew, mew, mew. Help us. Mew, mew, mew.\"",
+      "timestamp": 299.44
     },
     {
       "speaker": "Dad",
-      "text": "How many do we get?",
-      "timestamp": 542
+      "text": "Oh, I think I hear a mewing sound, but it's not from down here on the ground. It's up in that branch of a tree. Can you point your flashlight up there? There they are. Thank goodness.",
+      "timestamp": 303.2
     },
     {
       "speaker": "Izzy",
-      "text": "You get two and a half.",
-      "timestamp": 544
+      "text": "Oh, I've got a ladder.",
+      "timestamp": 316.32
     },
     {
       "speaker": "Dad",
-      "text": "Two and a half treats? Says Alexander. Yum. Can I also have two and a half? Says Jane.",
-      "timestamp": 546
+      "text": "Izzy-",
+      "timestamp": 318.12
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I'll shake the bag of treats.",
+      "timestamp": 318.15
     },
     {
       "speaker": "Dad",
-      "text": "And they ate up their treats. And then what did Izzy the kid...",
-      "timestamp": 554
+      "text": "Shake, shake, shake, shake, shake.",
+      "timestamp": 319.92
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Kitty, kitty. Kitty, kitty. Kitty, kitty.",
+      "timestamp": 320.93
     },
     {
       "speaker": "Dad",
-      "text": "Oh! That's the timer! The jingle bells mean it's the end of Stars and Stories. Okay. Let's turn the lights back on. Take off the blanket.",
-      "timestamp": 600
+      "text": "And Izzy put the ladder up to the tree, and Jane and Alexander both ran down the l- and they said, \"Meow, meow, meow. Thanks for helping us. Hey, can we have some of those treats?\" Yeah? Okay, thank you. \"How many do we get?\"",
+      "timestamp": 325.54
+    },
+    {
+      "speaker": "Izzy",
+      "text": "We get two and a half.",
+      "timestamp": 341.58
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Two and a half treats,\" says Alexander. \"Yum.\" \"Can I also have two and a half?\" says Jane.",
+      "timestamp": 344.02
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Mm-hmm.",
+      "timestamp": 350.18
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yum, yum. And they ate up their treats. And then what did Izzy the Kiddo do?",
+      "timestamp": 352.38
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And then they...",
+      "timestamp": 356.59
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, that's the timer. The jingle bells mean it's the end of Stars and Stories. Okay, we'll turn the lights back on and take off the blanket",
+      "timestamp": 361.88
     }
   ],
   "characters": [
@@ -264,7 +319,19 @@
       "description": "The imaginative setting filled with 'space beauty' where the story unfolds."
     }
   ],
-  "wordCount": 637,
-  "izzyWordCount": 207,
-  "dadWordCount": 430
+  "wordCount": 691,
+  "izzyWordCount": 230,
+  "dadWordCount": 461,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T15:09:52.405Z",
+    "speakerMap": {
+      "speaker_0": "Izzy",
+      "speaker_1": "Dad"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "low"
+  }
 }
