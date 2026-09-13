@@ -6,7 +6,7 @@
   "audioFilename": "Cornell St 143.m4a",
   "highlightQuote": {
     "text": "there's something that you might wanna look at in my science book. It's called paper fish, but the fish aren't pretend, and they aren't yummy.",
-    "timestamp": 56.94
+    "timestamp": 99.98
   },
   "transcript": [
     {
@@ -81,18 +81,18 @@
     },
     {
       "speaker": "Izzy",
-      "text": "Seeker.",
+      "text": "Seeker-",
       "timestamp": 55.62
     },
     {
       "speaker": "Dad",
-      "text": "Here.",
+      "text": "Yeah",
       "timestamp": 56.94
     },
     {
       "speaker": "Izzy",
-      "text": "I can show you if we turn on the lamp.",
-      "timestamp": 57.02
+      "text": "... I can show you if we turn on the lamp.",
+      "timestamp": 56.95
     },
     {
       "speaker": "Dad",
@@ -101,28 +101,18 @@
     },
     {
       "speaker": "Izzy",
-      "text": "This is a messy experiment-",
-      "timestamp": 62.74
+      "text": "This is a messy experiment.",
+      "timestamp": 62.72
     },
     {
       "speaker": "Dad",
-      "text": "Yeah",
+      "text": "Yeah, that one looks like fun.",
       "timestamp": 65.2
     },
     {
       "speaker": "Izzy",
-      "text": "... Seeker.",
-      "timestamp": 65.4
-    },
-    {
-      "speaker": "Dad",
-      "text": "That one looks like fun.",
-      "timestamp": 65.44
-    },
-    {
-      "speaker": "Izzy",
-      "text": "You can do it by yourself.",
-      "timestamp": 67.04
+      "text": "Seeker, you can do it by yourself.",
+      "timestamp": 66.98
     },
     {
       "speaker": "Dad",
@@ -161,7 +151,7 @@
     },
     {
       "speaker": "Izzy",
-      "text": "Yes. So Dimitar, Dimitar, Dimitar, Dimitar.",
+      "text": "Yes. So, Dimitar, Dimitar, Dimitar, Dimitar.",
       "timestamp": 92.1
     },
     {
@@ -181,7 +171,7 @@
     },
     {
       "speaker": "Izzy",
-      "text": "... there's something that you might wanna look at in my science book. It's called paper fish, but the fish aren't pretend, and they aren't yummy.",
+      "text": "... there's something that you might want to look at in my science book. It's called paper fish, but the fish aren't pretend, and they aren't yummy.",
       "timestamp": 101.48
     },
     {
@@ -206,8 +196,8 @@
     },
     {
       "speaker": "Dad",
-      "text": "What, what are those, eggs? Those could be delicious. I eat eggs sometimes, too.",
-      "timestamp": 123.52
+      "text": "What, what are those eggs? Those could be delicious. I eat eggs sometimes, too.",
+      "timestamp": 123.53
     },
     {
       "speaker": "Izzy",
@@ -221,13 +211,13 @@
     },
     {
       "speaker": "Izzy",
-      "text": "... I'll, I'll get some fish for you, get some salmon, tuna, and put a bowl of it on the counter, and we can do the experiment while you eat just some salmon.",
+      "text": "... I'll get some fish for you, get some salmon, tuna, and put a bowl of it on the counter, and we can do the experiment while you eat just some salmon.",
       "timestamp": 130.72
     },
     {
       "speaker": "Dad",
       "text": "Well, that does sound delicious. I wouldn't turn down some salmon. Now, those do look like delicious little fish. There's a purple one and an orange one.",
-      "timestamp": 146.19
+      "timestamp": 146.18
     },
     {
       "speaker": "Izzy",
@@ -242,17 +232,17 @@
     {
       "speaker": "Izzy",
       "text": "Yeah.",
-      "timestamp": 158.22
+      "timestamp": 158.24
     },
     {
       "speaker": "Dad",
       "text": "What's-",
-      "timestamp": 158.58
+      "timestamp": 158.6
     },
     {
       "speaker": "Izzy",
       "text": "They're part of an experiment.",
-      "timestamp": 158.6
+      "timestamp": 158.63
     },
     {
       "speaker": "Dad",
@@ -292,12 +282,12 @@
     {
       "speaker": "Izzy",
       "text": "And then the fish will swim.",
-      "timestamp": 181.16
+      "timestamp": 181.18
     },
     {
       "speaker": "Dad",
-      "text": "Wow, I wanna try that. But I won't eat those fish 'cause they're paper.",
-      "timestamp": 184.94
+      "text": "Wow, I want to try that. But I won't eat those fish 'cause they're paper.",
+      "timestamp": 184.96
     },
     {
       "speaker": "Izzy",
@@ -311,13 +301,13 @@
     },
     {
       "speaker": "Izzy",
-      "text": "Um, ding dong, Seeker.",
-      "timestamp": 197.48
+      "text": "Um, ding-dong, Seeker.",
+      "timestamp": 197.46
     },
     {
       "speaker": "Dad",
       "text": "\"Who is it?\" said Seeker.",
-      "timestamp": 200.97
+      "timestamp": 200.96
     },
     {
       "speaker": "Izzy",
@@ -352,7 +342,7 @@
     {
       "speaker": "Izzy",
       "text": "... said Isabella, \"can I tell you something?\"",
-      "timestamp": 214.66
+      "timestamp": 214.68
     },
     {
       "speaker": "Dad",
@@ -376,18 +366,18 @@
     },
     {
       "speaker": "Dad",
-      "text": "Oh. Well, I-",
+      "text": "Oh, well, I-",
       "timestamp": 228.46
     },
     {
       "speaker": "Izzy",
-      "text": "He's just, he's just a little mouse.",
+      "text": "He's just, he's just a little mouse",
       "timestamp": 232.19
     },
     {
       "speaker": "Dad",
-      "text": "I think Tot might enjoy it, though. He is just a little mouse.",
-      "timestamp": 234.62
+      "text": "... I think Tot might enjoy it, though. He is just a little mouse.",
+      "timestamp": 234.48
     },
     {
       "speaker": "Izzy",
@@ -407,17 +397,17 @@
     {
       "speaker": "Dad",
       "text": "That's a good idea 'cause even though Tot is little, we could still find ways to do science with him that he might enjoy. Hmm.",
-      "timestamp": 245.65
+      "timestamp": 245.66
     },
     {
       "speaker": "Izzy",
-      "text": "So ch- Tot, do you wanna do messy experiments or not messy experiments?",
-      "timestamp": 257.14
+      "text": "So, ch- Tot, do you want to do messy experiments or not messy experiments?",
+      "timestamp": 257.2
     },
     {
       "speaker": "Dad",
-      "text": "Hmm. I like a mess, but only the kind of mess that you clean up by nibbling it, like when I jumped in the cheese ocean. That was a great kind of mess because then I got num, num, num, num, num, I nibble, nibble.",
-      "timestamp": 262.8
+      "text": "Hmm, I like a mess, but only the kind of mess that you clean up by nibbling it, like when I jumped in the cheese ocean. That was a great kind of mess because then I could nom, nom, nom, nom, nom and nibble, nibble.",
+      "timestamp": 262.86
     },
     {
       "speaker": "Izzy",
@@ -426,7 +416,7 @@
     },
     {
       "speaker": "Dad",
-      "text": "Oh, science is yucky? I don't know if I wanna do science then.",
+      "text": "Oh, science is yucky? I don't know if I want to do science then.",
       "timestamp": 287.04
     },
     {
@@ -456,8 +446,8 @@
     },
     {
       "speaker": "Dad",
-      "text": "O- okay, Tot. We'll find something for you.",
-      "timestamp": 311.75
+      "text": "Okay, Tot. We'll find something for you.",
+      "timestamp": 311.8
     },
     {
       "speaker": "Izzy",
@@ -466,33 +456,23 @@
     },
     {
       "speaker": "Dad",
-      "text": "Now, Daddy and Isabella did-",
-      "timestamp": 316.31
+      "text": "Now, Daddy and Isabella did this experiment.",
+      "timestamp": 316.08
     },
     {
       "speaker": "Izzy",
       "text": "Th-",
-      "timestamp": 317.39
-    },
-    {
-      "speaker": "Dad",
-      "text": "... this experiment.",
-      "timestamp": 317.4
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Yeah.",
-      "timestamp": 318.38
+      "timestamp": 318.34
     },
     {
       "speaker": "Dad",
       "text": "Do you remember this one?",
-      "timestamp": 318.87
+      "timestamp": 318.37
     },
     {
       "speaker": "Izzy",
-      "text": "So we can... Yeah. So we can show you this one 'cause it's not messy.",
-      "timestamp": 318.92
+      "text": "Yeah, so we can... Yeah. So we can show you this one 'cause it's not messy.",
+      "timestamp": 318.39
     },
     {
       "speaker": "Dad",
@@ -527,7 +507,7 @@
     {
       "speaker": "Dad",
       "text": "And, and what did we put in the plastic bottle? Do you remember?",
-      "timestamp": 337.06
+      "timestamp": 337.07
     },
     {
       "speaker": "Izzy",
@@ -556,7 +536,7 @@
     },
     {
       "speaker": "Dad",
-      "text": "Well, there was vinegar, and it was just like the volcanoes 'cause what happens when you mix the baking soda and vinegar for a volcano?",
+      "text": "Well, there was vinegar, and it was just like the volcanoes, 'cause what happens when you mix the baking soda and vinegar for a volcano?",
       "timestamp": 351.72
     },
     {
@@ -566,13 +546,13 @@
     },
     {
       "speaker": "Dad",
-      "text": "It does, and the reason it erupts is it makes ... bubbles. And the bubbles are because of the gas that comes out. And so what happened to the balloon?",
+      "text": "It does, and the reason it erupts is it makes- ... bubbles. And the bubbles are because of the gas that comes out. And so what happened to the balloon?",
       "timestamp": 361.68
     },
     {
       "speaker": "Izzy",
       "text": "The stuff blew up the balloon, Tot.",
-      "timestamp": 375.65
+      "timestamp": 375.63
     },
     {
       "speaker": "Dad",
@@ -587,7 +567,7 @@
     {
       "speaker": "Dad",
       "text": "Oh. And Seeker said, \"Yes, it was called carbon dioxide.\" And then Daddy tied a knot in the balloon, and the next day there was something funny about it. Do you remember?",
-      "timestamp": 386.98
+      "timestamp": 386.97
     },
     {
       "speaker": "Izzy",
@@ -601,7 +581,7 @@
     },
     {
       "speaker": "Izzy",
-      "text": "But Tot, can, can we find, like, um... But that one's pretty messy on the counter. So then let's not do it.",
+      "text": "But Tot, can, can we find like, um... But that one's pretty messy on the counter, so then let's not do it.",
       "timestamp": 415.29
     },
     {
@@ -616,13 +596,13 @@
     },
     {
       "speaker": "Dad",
-      "text": "Oh, yeah, the eggshell geodes. We, we were gonna do that one, but then we didn't. The rock candy we haven't done. Salt crystals. I'd like to do those crystal ones, but we'll have to find a good time to do them. Now, there were-",
-      "timestamp": 430.17
+      "text": "Oh, yeah, the eggshell geodes. We, we were gonna do that one, but then we didn't. The rock candy we haven't done. Salt crystals. I'd like to do those crystal ones, but we'll have to find a good time to do them. Now that we're-",
+      "timestamp": 430.19
     },
     {
       "speaker": "Izzy",
-      "text": "Okay, so Tot, a not messy one. So Daddy, let's try and find a not messy one, a really not messy.",
-      "timestamp": 445.15
+      "text": "Okay, so Tot, a not messy one. So Daddy, let's try and find a not messy one, a really not messy...",
+      "timestamp": 445.29
     },
     {
       "speaker": "Dad",
@@ -652,7 +632,7 @@
     {
       "speaker": "Izzy",
       "text": "And this-",
-      "timestamp": 475.17
+      "timestamp": 475.16
     },
     {
       "speaker": "Dad",
@@ -661,13 +641,13 @@
     },
     {
       "speaker": "Izzy",
-      "text": "Um, Daddy, I don't remember about this one 'cause it had milk and food coloring and a paper plate, Tot. That's all I remember, Daddy.",
+      "text": "Um, Daddy, I don't remember about this one, 'cause it had milk and food coloring and a paper plate, Tot. That's all I remember, Daddy.",
       "timestamp": 477.09
     },
     {
       "speaker": "Dad",
       "text": "I bet you could remember more.",
-      "timestamp": 487.73
+      "timestamp": 487.69
     },
     {
       "speaker": "Izzy",
@@ -676,18 +656,18 @@
     },
     {
       "speaker": "Dad",
-      "text": "Now, what happened?",
-      "timestamp": 489.09
+      "text": "Now, what happens-",
+      "timestamp": 489.07
     },
     {
       "speaker": "Izzy",
       "text": "Pom-poms.",
-      "timestamp": 489.85
+      "timestamp": 489.65
     },
     {
       "speaker": "Dad",
-      "text": "Yeah. Oh, we did use a pom-pom for that. That was your idea. I liked that idea. We put a little soap on the pom-pom and then dipped it in the milk that had the food coloring in it, and then what happened?",
-      "timestamp": 490.99
+      "text": "Yeah, oh, we did use a pom-pom for that. That was your idea. I liked that idea. We put a little soap on the pom-pom and then dipped it in the milk that had the food coloring in it, and then what happened?",
+      "timestamp": 490.97
     },
     {
       "speaker": "Izzy",
@@ -707,12 +687,12 @@
     {
       "speaker": "Dad",
       "text": "Oh, yeah, the rainbow. S- the, um, layers of liquids. That was an interesting one. It was tricky, though. It's not easy to do. Um, are you squeezing my toes?",
-      "timestamp": 522.27
+      "timestamp": 522.29
     },
     {
       "speaker": "Izzy",
       "text": "Uh, yeah.",
-      "timestamp": 532.99
+      "timestamp": 532.93
     },
     {
       "speaker": "Dad",
@@ -721,18 +701,18 @@
     },
     {
       "speaker": "Izzy",
-      "text": "Tot, we can't use, like... We can't do this one. It's not safe.",
-      "timestamp": 535.79
+      "text": "Tot, we can't use, like, we can't do this one. It's not safe.",
+      "timestamp": 535.83
     },
     {
       "speaker": "Dad",
       "text": "Oh, the fireproof balloon. That's for bigger kiddos, Tot. Sorry. Um-",
-      "timestamp": 542.41
+      "timestamp": 542.45
     },
     {
       "speaker": "Izzy",
       "text": "That's for bigger kids. Tot-",
-      "timestamp": 546.18
+      "timestamp": 546.24
     },
     {
       "speaker": "Dad",
@@ -746,8 +726,8 @@
     },
     {
       "speaker": "Dad",
-      "text": "Okay. Here's the magic bag that... You know, at first it didn't leak, but then it leaked when we punctured the Ziploc bag with the skewers with the green liquid in it. And we didn't make the milk plastic, although I'd like to do that and the corn starch goo at some point.",
-      "timestamp": 554.37
+      "text": "Oh, yeah, here's the magic bag that... You know, at first it didn't leak, but then it leaked when we punctured the Ziploc bag with the skewers with the green liquid in it. And we didn't make the milk plastic, although I'd like to do that and the corn starch goo at some point.",
+      "timestamp": 554.39
     },
     {
       "speaker": "Dad",
@@ -757,7 +737,7 @@
     {
       "speaker": "Izzy",
       "text": "Um, so we have to-",
-      "timestamp": 587.57
+      "timestamp": 587.55
     },
     {
       "speaker": "Dad",
@@ -772,7 +752,7 @@
     {
       "speaker": "Dad",
       "text": "And Tot says, \"What's that one? And why are those kids' hair standing up?\"",
-      "timestamp": 597.69
+      "timestamp": 597.67
     },
     {
       "speaker": "Izzy",
@@ -781,63 +761,53 @@
     },
     {
       "speaker": "Dad",
-      "text": "Well, it's a phenomenon called static electricity. We take a balloon, and then we rub it on something, like our rug or our hair or a sweater, and then it gets charged up, which means it can make your hair stand up and make little shocks appear when you, um, hold your finger near it.",
+      "text": "Well, it's a phenomenon called static electricity. We take a balloon, and then we rub it on something, like our rug or our hair or a sweater, and then it gets charged up, which means it can make your hair stand up and make little shocks appear. When you, um, hold your finger near it, it might make a little tiny blue spark.",
       "timestamp": 611.05
     },
     {
       "speaker": "Dad",
-      "text": "It might make a little tiny blue spark. And also, something happens with salt.",
-      "timestamp": 631.65
+      "text": "And also, something happens with salt.",
+      "timestamp": 633.79
     },
     {
       "speaker": "Izzy",
       "text": "What?",
-      "timestamp": 640.35
+      "timestamp": 640.31
     },
     {
       "speaker": "Dad",
       "text": "I think you did that o- that experiment all by yourself one time, Iz. What happens to the salt when you charge up the balloon and hold it over the salt?",
-      "timestamp": 641.71
+      "timestamp": 641.67
     },
     {
       "speaker": "Izzy",
-      "text": "I don't remember.",
-      "timestamp": 649.13
+      "text": "I don't remember. Um.",
+      "timestamp": 649.11
     },
     {
       "speaker": "Dad",
-      "text": "Oh.",
-      "timestamp": 653.13
+      "text": "Oh. I thought it was so cool, 'cause the salt jumped up from the table-",
+      "timestamp": 655.83
     },
     {
       "speaker": "Izzy",
-      "text": "Um.",
-      "timestamp": 654.63
-    },
-    {
-      "speaker": "Dad",
-      "text": "Well, I thought it was so cool 'cause the salt jumped up from the table-",
-      "timestamp": 655.91
-    },
-    {
-      "speaker": "Izzy",
-      "text": "But",
+      "text": "Ba- ba-",
       "timestamp": 659.27
     },
     {
       "speaker": "Dad",
-      "text": "... and stuck to the balloon.",
+      "text": "... and stuck to the balloon",
       "timestamp": 659.28
     },
     {
       "speaker": "Izzy",
-      "text": "Yeah.",
-      "timestamp": 660.55
+      "text": "... ba- yeah. Bobs up. The bebs. Bejebs. The bebs-bebs-bebs-bebs ba-ah-ah-ah-bebs.",
+      "timestamp": 660.51
     },
     {
       "speaker": "Dad",
       "text": "And Tot said, \"What kind of language is that, Isabella?\"",
-      "timestamp": 662.43
+      "timestamp": 672.09
     },
     {
       "speaker": "Izzy",
@@ -851,18 +821,18 @@
     },
     {
       "speaker": "Izzy",
-      "text": "Squackety-squeak",
+      "text": "Squackety-squeak.",
       "timestamp": 684.33
     },
     {
       "speaker": "Dad",
-      "text": "... most of my made-up words are just squeaks 'cause I'm a mouse.",
-      "timestamp": 686.09
+      "text": "Most of my made-up words are just squeaks 'cause I'm a mouse.",
+      "timestamp": 686.13
     },
     {
       "speaker": "Izzy",
       "text": "This red dragon won't eat you, Tot.",
-      "timestamp": 690.77
+      "timestamp": 690.79
     },
     {
       "speaker": "Dad",
@@ -871,17 +841,17 @@
     },
     {
       "speaker": "Izzy",
-      "text": "Hi. I'm Jar Jar.",
-      "timestamp": 698.51
+      "text": "Hi. I'm Jar-Jar.",
+      "timestamp": 698.59
     },
     {
       "speaker": "Dad",
-      "text": "Jar Jar? Okay.",
+      "text": "Jar-Jar? Okay.",
       "timestamp": 702.09
     },
     {
       "speaker": "Izzy",
-      "text": "I am trying to attack... I'm trying to attack that pirate ship, but every day I see one person in there, and I don't like people.",
+      "text": "I am trying to attack, I'm trying to attack that pirate ship, but every day I see one person in there, and I don't like people.",
       "timestamp": 704.89
     },
     {
@@ -897,7 +867,7 @@
     {
       "speaker": "Dad",
       "text": "Oh",
-      "timestamp": 725.64
+      "timestamp": 725.63
     },
     {
       "speaker": "Izzy",
@@ -906,7 +876,7 @@
     },
     {
       "speaker": "Dad",
-      "text": "Oh. Why would you why?  \"Red dragon, how come you don't like people?\" said Seeker. \"I'm a wizard, so you like me, I guess.\"",
+      "text": "Oh. Why would you why? \"Red Dragon, how come you don't like people?\" said Seeker. \"I'm a wizard, so you like me, I guess.\"",
       "timestamp": 733.76
     },
     {
@@ -921,8 +891,8 @@
     },
     {
       "speaker": "Izzy",
-      "text": "\"Uh, I like nice girls,\" said the dragon, \"but I don't like bad boy. I don't like boys.\"",
-      "timestamp": 753.47
+      "text": "Uh, \"I like nice girls,\" said the dragon, \"but I don't like bad boy. I don't like boys.\"",
+      "timestamp": 753.58
     },
     {
       "speaker": "Dad",
@@ -931,32 +901,37 @@
     },
     {
       "speaker": "Izzy",
-      "text": "\"'Cause only two boys, Emmet and Holden.\"",
+      "text": "'Cause only two boys, Emmet and Holden.",
       "timestamp": 767.2
     },
     {
       "speaker": "Dad",
       "text": "\"Oh, why don't you like them?\"",
-      "timestamp": 773.07
+      "timestamp": 773.06
     },
     {
       "speaker": "Izzy",
-      "text": "\"Because Holden tried to take one of my things, and Emmet pushed me.\"",
-      "timestamp": 775.01
+      "text": "Because Holden tried to take one of my things, and Emmet pushed me.",
+      "timestamp": 775.02
     },
     {
       "speaker": "Dad",
-      "text": "\"Oh, I'm sorry to hear that,\" said Seeker. \"Well, red dragon, um, it's hard to like everyone, especially when bad things happen. But people are basically good, you see, dragon, and it's okay to change your mind, too. Even if you think you don't like someone, they might be good deep down, and so it's okay to give them a second chance if you want to.\"",
-      "timestamp": 785.87
+      "text": "\"Oh, I'm sorry to hear that,\" said Seeker. \"Well, Red Dragon, um, it's hard to like everyone, especially when bad things happen. But people are basically good, you see, Dragon. And so it's okay to change your mind, too. Even if you think you don't like someone, they might be good deep down.",
+      "timestamp": 785.86
+    },
+    {
+      "speaker": "Dad",
+      "text": "And so it's okay to give them a second chance if you want to.\"",
+      "timestamp": 811.6
     },
     {
       "speaker": "Izzy",
       "text": "Tot.",
-      "timestamp": 822.5
+      "timestamp": 821.12
     },
     {
       "speaker": "Dad",
-      "text": "Yeah.",
+      "text": "Yeah?",
       "timestamp": 823.56
     },
     {
@@ -987,12 +962,12 @@
     {
       "speaker": "Dad",
       "text": "Oh, this-",
-      "timestamp": 841.26
+      "timestamp": 841.3
     },
     {
       "speaker": "Izzy",
       "text": "... remember one of the soft cheeses, one of the soft and stinky cheeses?",
-      "timestamp": 841.27
+      "timestamp": 841.54
     },
     {
       "speaker": "Dad",
@@ -1001,13 +976,13 @@
     },
     {
       "speaker": "Izzy",
-      "text": "Soft, stinky cheese",
+      "text": "Soft stinky cheese",
       "timestamp": 847.78
     },
     {
       "speaker": "Dad",
       "text": "... and Tot says, \"Oh, yeah, I remember, two, 'cause they all got in my fur.\"",
-      "timestamp": 849.88
+      "timestamp": 849.9
     },
     {
       "speaker": "Izzy",
@@ -1022,27 +997,27 @@
     {
       "speaker": "Izzy",
       "text": "Camembert. So this one's Camembert, Tot.",
-      "timestamp": 855.92
+      "timestamp": 855.94
     },
     {
       "speaker": "Dad",
-      "text": "Oh. Mm, thank you.  All that science was making me so hungry.",
-      "timestamp": 859.94
+      "text": "Oh. Hm, thank you. All that science was making me so hungry.",
+      "timestamp": 860.88
     },
     {
       "speaker": "Izzy",
       "text": "It's Camembert.",
-      "timestamp": 866.3
+      "timestamp": 866.32
     },
     {
       "speaker": "Dad",
-      "text": "I like it. It's so creamy and yummy and a little tangy.  Mm, soft cheese is the best.",
-      "timestamp": 868.16
+      "text": "I like it. It's so creamy and yummy and a little tangy. Mm, soft cheese is the best.",
+      "timestamp": 868.18
     },
     {
       "speaker": "Izzy",
       "text": "Um, um, Seeker?",
-      "timestamp": 878.46
+      "timestamp": 878.44
     },
     {
       "speaker": "Dad",
@@ -1056,38 +1031,18 @@
     },
     {
       "speaker": "Dad",
-      "text": "\"Oh, what a nice idea,\" said Seeker. \"I'll call them up right now.\"  Security cats. Oh. You're already here. That's fast.",
-      "timestamp": 893.54
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Meow, meow, meow.",
-      "timestamp": 903
-    },
-    {
-      "speaker": "Dad",
-      "text": "How did you get here so fast, security cats?",
-      "timestamp": 905.5
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Meow, meow, meow, meow, meow, meow, meow, meow, meow, meow, meow, meow.",
-      "timestamp": 908.93
-    },
-    {
-      "speaker": "Dad",
-      "text": "Well-",
-      "timestamp": 911.28
+      "text": "\"Oh, what a nice idea,\" said Seeker. \"I'll call them up right now.\" Security cats. Oh- ... you're already here. That's fast. How did you get here so fast, security cats? Well-",
+      "timestamp": 893.55
     },
     {
       "speaker": "Izzy",
       "text": "'Cause one was a, 'cause both were awake.",
-      "timestamp": 911.54
+      "timestamp": 911.52
     },
     {
       "speaker": "Dad",
-      "text": "Oh, for once you were both awake. \"Well,\" Seeker said, \"um, Tot the mouse, meet the security cats, Wobbly Whiskers and Sarum.\"",
-      "timestamp": 916
+      "text": "Oh, for once you were both awake. \"Well,\" Seeker said, \"um, Tot the mouse, meet the security cats, Wobbly Whiskers and Sarana.\"",
+      "timestamp": 915.98
     },
     {
       "speaker": "Izzy",
@@ -1101,13 +1056,13 @@
     },
     {
       "speaker": "Izzy",
-      "text": "We like, but we eat, um, we eat like, we eat like salmon.",
-      "timestamp": 931.82
+      "text": "We like... But we eat, um, we eat like, we eat like salmon.",
+      "timestamp": 931.84
     },
     {
       "speaker": "Dad",
-      "text": "\"Oh, I like salmon too,\" said Tot.  \"What else?\"",
-      "timestamp": 947.32
+      "text": "\"Oh, I like salmon, too,\" said Tot. \"What else?\"",
+      "timestamp": 947.3
     },
     {
       "speaker": "Izzy",
@@ -1116,13 +1071,13 @@
     },
     {
       "speaker": "Dad",
-      "text": "Oh, are you guys scratching each other to the top?  Why are you doing that?  And Seeker said, \"Security cats-  ... if you're gonna be s- roughhousing, please do it outside my castle, not inside.\"  And Tot said, \"Yeah, we're trying to do science in here, and also I have some cheese that I'm eating.",
-      "timestamp": 954.26
+      "text": "Oh, are you guys scratching each other to death? Why are you doing that? And Seeker said, \"Security cats- ... if you're gonna be s- roughhousing, please do it outside my castle, not inside.\" And Tot said, \"Yeah, we're trying to do science in here, and also I have some cheese that I'm eating.",
+      "timestamp": 954.28
     },
     {
       "speaker": "Dad",
       "text": "\"",
-      "timestamp": 972.94
+      "timestamp": 973.02
     },
     {
       "speaker": "Izzy",
@@ -1132,17 +1087,17 @@
     {
       "speaker": "Dad",
       "text": "Oh.",
-      "timestamp": 981.98
+      "timestamp": 981.94
     },
     {
       "speaker": "Izzy",
-      "text": "Oh. Now we're gonna go out.  Now we're on the deck. Scratch, scratch, scratch, scratch. Oh, we're on the roof deck. Roof deck, roof deck, we like the roof deck.",
+      "text": "Oh, now we're gonna go out. Now we're on the deck. Scratch, scratch, scratch, scratch. Oh, we're on the roof deck. Roof deck, roof deck, we like the roof deck.",
       "timestamp": 982.82
     },
     {
       "speaker": "Dad",
-      "text": "\"Oh, yes,\" said Seeker, \"I do have a nice roof deck on this castle. Now, security cats, would you like to come down and help us do some science 'cause we were about to do a science experiment with Tot.\"",
-      "timestamp": 1000.98
+      "text": "\"Oh, yes,\" said Seeker, \"I do have a nice roof deck on this castle. Now, security cats, would you like to come down and help us do some science? 'Cause we were about to do a science experiment with Tot.\"",
+      "timestamp": 1000.96
     },
     {
       "speaker": "Izzy",
@@ -1161,8 +1116,8 @@
     },
     {
       "speaker": "Dad",
-      "text": "Okay. And Tot said, \"Oh, I have an idea.\" And Seeker said, \"Yeah.\" And Tot said, \"Do you have any of those potion bottles?\" \"Well, they're, they're all filled with, you know, with potions, but I have some empty ones over here.\" Tot said, \"Yeah, bring over an empty one.\"",
-      "timestamp": 1033.74
+      "text": "Okay. And Tot said, \"Oh, I have an idea.\" And Seeker said, \"Yeah?\" And Tot said, \"Do you have any of those potion bottles?\" \"Well, they're, they're all filled with, you know, with potions, but I have some empty ones over here.\" Tot said, \"Yeah, bring over an empty one.\"",
+      "timestamp": 1033.5
     },
     {
       "speaker": "Dad",
@@ -1177,7 +1132,7 @@
     {
       "speaker": "Dad",
       "text": "\"Well, I'm not really sure\"",
-      "timestamp": 1059.08
+      "timestamp": 1059.06
     },
     {
       "speaker": "Izzy",
@@ -1186,12 +1141,12 @@
     },
     {
       "speaker": "Dad",
-      "text": "\"... but I think we could make something, um, if we had, if we just had some vinegar and baking soda and maybe, um, like some, some kind of cheese that we could mix in.\" And Seeker said, \"Oh my goodness. We are gonna make a baking soda and vinegar volcano with cheese in it.\"",
-      "timestamp": 1063.04
+      "text": "... \"but I think we could make something, um, if we had, if we just had some vinegar and baking soda and maybe, um, like some, some kind of cheese that we could mix in.\" And Seeker said, \"Oh my goodness. We are gonna make a baking soda and vinegar volcano with cheese in it.\"",
+      "timestamp": 1063.06
     },
     {
       "speaker": "Dad",
-      "text": "And Tot said, \"Yeah, but it'll be inside the potion bottle, see and then- Um, it'll get really foamy",
+      "text": "And Tot said, \"Yeah, but it'll be inside the potion bottle, see? And then- Um, it'll get really foamy",
       "timestamp": 1087.46
     },
     {
@@ -1211,38 +1166,38 @@
     },
     {
       "speaker": "Dad",
-      "text": "And Seeker said, \"Yeah, that's not a bad idea. We can do some outside science, and then, you know, it might even turn into a potion that we could use to go somewhere new. What do you think about that?\" And Tot said, \"Well-",
+      "text": "And Seeker said, \"Yeah, that's not a bad idea. We can do some outside science, and then, you know, it might even turn into a potion that we could use to go somewhere new. What do you think about that?\" And Tot said, \"Well-\"",
       "timestamp": 1107.86
     },
     {
       "speaker": "Izzy",
-      "text": "But maybe the cheese and vinegar world",
-      "timestamp": 1120.54
+      "text": "But maybe to Cheese and Vinegar World.",
+      "timestamp": 1120.65
     },
     {
       "speaker": "Dad",
-      "text": "\"Cheese and vinegar world,\" said Seeker. \"That's interesting. But once we put in the baking soda, it'll be foamy and bubbly, so maybe it'll be something else altogether. Hmm.\" Well, they all went outside, the security cats and Tot and Seeker and Isabella, and they got all their ingredients set up.",
-      "timestamp": 1125.34
+      "text": "\"Cheese and Vinegar World,\" said Seeker, \"That's interesting. But once we put in the baking soda, it'll be foamy and bubbly, so maybe it'll be something else altogether. Hmm.\" Well, they all went outside, the Security Cats, and Tot, and Seeker, and Isabella, and they got all their ingredients set up.",
+      "timestamp": 1125.36
     },
     {
       "speaker": "Dad",
       "text": "And Seeker said, \"Okay, Tot, this is your experiment. Go ahead.\"",
-      "timestamp": 1153.52
+      "timestamp": 1153.51
     },
     {
       "speaker": "Izzy",
-      "text": "And, and one of the security cats said, \"I've got this special glass that, like... Tot, first, don't open any of the things. Don't open the bottle.\"",
+      "text": "And, and one of the security cats said, \"I've got this special glass that like... Tot, first don't open any of the things. Don't open the bottle.\"",
       "timestamp": 1157.22
     },
     {
       "speaker": "Dad",
       "text": "No.",
-      "timestamp": 1174.57
+      "timestamp": 1174.58
     },
     {
       "speaker": "Izzy",
-      "text": "Please put it on this, like, this glass-",
-      "timestamp": 1174.66
+      "text": "\"Please put it on this, like, this glass-",
+      "timestamp": 1174.64
     },
     {
       "speaker": "Dad",
@@ -1256,23 +1211,23 @@
     },
     {
       "speaker": "Dad",
-      "text": "\"Uh, okay, okay. I'll put it on the glass,\" said Tot.",
+      "text": "\"Uh, okay. Okay, I'll put it on the glass,\" said Tot.",
       "timestamp": 1181.39
     },
     {
       "speaker": "Izzy",
-      "text": "Now-",
-      "timestamp": 1184.26
+      "text": "\"Now-",
+      "timestamp": 1184.2
     },
     {
       "speaker": "Dad",
       "text": "Now what?",
-      "timestamp": 1188.4
+      "timestamp": 1184.63
     },
     {
       "speaker": "Izzy",
-      "text": "... now get this little plate. Now put the bottle... Open the bottle and now you're ready to open everything. Um, now take the ball off the glass, please.",
-      "timestamp": 1188.65
+      "text": "... now get this little plate. Now put the bottle... Open the bottle and now you're ready to open everything. Um, now take the bottle off the glass, please.\"",
+      "timestamp": 1188.38
     },
     {
       "speaker": "Dad",
@@ -1281,8 +1236,8 @@
     },
     {
       "speaker": "Izzy",
-      "text": "Put the plate on. Now put the ball on the plate.",
-      "timestamp": 1205.74
+      "text": "\"Put the plate on. Now put the bottle on the plate.\"",
+      "timestamp": 1205.72
     },
     {
       "speaker": "Dad",
@@ -1291,8 +1246,8 @@
     },
     {
       "speaker": "Izzy",
-      "text": "And now you can open everything.",
-      "timestamp": 1211.42
+      "text": "\"And now you can open everything.\"",
+      "timestamp": 1211.4
     },
     {
       "speaker": "Dad",
@@ -1301,28 +1256,28 @@
     },
     {
       "speaker": "Izzy",
-      "text": "And I'm giving you, um... Seeker-",
+      "text": "And I'm giving you, um, Seeker-",
       "timestamp": 1220.02
     },
     {
       "speaker": "Dad",
       "text": "Yes",
-      "timestamp": 1223.32
+      "timestamp": 1223.3
     },
     {
       "speaker": "Izzy",
       "text": "... um, can you do the scooping for Tot, please?",
-      "timestamp": 1223.66
+      "timestamp": 1223.31
     },
     {
       "speaker": "Dad",
-      "text": "Oh, sure. Yeah, Tot's just a little mouse. I'll help him with the scooping. That's a good idea.",
+      "text": "Oh, sure, yeah. Tot's just a little mouse. I'll help him with the scooping. That's a good idea.",
       "timestamp": 1227.62
     },
     {
       "speaker": "Izzy",
       "text": "'Cause the boxes are huge, and he's small.",
-      "timestamp": 1231.59
+      "timestamp": 1231.58
     },
     {
       "speaker": "Dad",
@@ -1341,8 +1296,8 @@
     },
     {
       "speaker": "Izzy",
-      "text": "S- what kind of sticky cheese?",
-      "timestamp": 1257.04
+      "text": "S- What kind of sticky cheese?",
+      "timestamp": 1258.15
     },
     {
       "speaker": "Dad",
@@ -1367,7 +1322,7 @@
     {
       "speaker": "Dad",
       "text": "\"Wow, that sounds delicious,\" says Tot. And Seeker says, \"Yes.\"",
-      "timestamp": 1288.32
+      "timestamp": 1288.3
     },
     {
       "speaker": "Izzy",
@@ -1381,13 +1336,13 @@
     },
     {
       "speaker": "Izzy",
-      "text": "So you can eat the rest of later off your fur. And you can eat everything off for snack.",
+      "text": "So you can eat the rest off later off of Tot. And you can eat everything off for snack.",
       "timestamp": 1300.02
     },
     {
       "speaker": "Dad",
-      "text": "\"Okay,\" says Tot.  \"Mm, we do.\"",
-      "timestamp": 1309.27
+      "text": "\"Okay,\" says Tot. \"Mm, we do.\"",
+      "timestamp": 1309.5
     },
     {
       "speaker": "Izzy",
@@ -1396,18 +1351,18 @@
     },
     {
       "speaker": "Dad",
-      "text": "\"Okay,\" says Seeker. And he scooped the, um, baking soda into the bottle, and he scooped the soft, squishy, stinky blue cheese into the bottle,  and it made a squishy sound, and then he said, \"Okay, now who wants to pour in some vinegar and see what happens?\"",
+      "text": "\"Okay,\" says Seeker. And he scooped the, um, baking soda into the bottle, and he scooped the soft, squishy, stinky blue cheese into the bottle, plop. And it made a squishy sound. And then he said, \"Okay, now who wants to pour in some vinegar and see what happens?\"",
       "timestamp": 1323.46
     },
     {
       "speaker": "Izzy",
-      "text": "\"Me,\" said Wobbly Whisk.",
-      "timestamp": 1349.28
+      "text": "\"Me,\" said Wobbly Whiskers.",
+      "timestamp": 1349.18
     },
     {
       "speaker": "Dad",
-      "text": "Okay, Wobbly, pour it right in.  And at first, nothing much happened. The vinegar was just going right into the bottle. But pretty soon, as they watched closely, you know what happened? It started to go fizz, fizz, fizz, bubble, bubble, bubble, and then foam, foam, foam, and then it happened faster and faster.",
-      "timestamp": 1355.48
+      "text": "Okay, Wobbly, pour it right in. And at first, nothing much happened. The vinegar was just going right into the bottle. But pretty soon as they watched closely, you know what happened? It started to go fizz, fizz, fizz, bubble, bubble, bubble, and then foam, foam, foam, and then it happened faster and faster.",
+      "timestamp": 1355.46
     },
     {
       "speaker": "Izzy",
@@ -1432,7 +1387,7 @@
     {
       "speaker": "Izzy",
       "text": "Why?",
-      "timestamp": 1392.24
+      "timestamp": 1392.22
     },
     {
       "speaker": "Dad",
@@ -1441,13 +1396,13 @@
     },
     {
       "speaker": "Izzy",
-      "text": "A stinky, um... Next, should we make, um, a stinky baking soda, baking soda that has stinky blue cheese inside of it, and ba- and, and that stuff is gonna go inside of a balloon, and then we're gonna blow it up first and then put everything... Okay, so we hold the balloon open.",
-      "timestamp": 1402.5
+      "text": "A stinky, um, next should we make, um, a stinky baking soda, baking soda that has stinky blue cheese inside of it and ba- And, and that stuff is gonna go inside of a balloon, and then we're gonna blow it up first and then put everything... Okay, so we hold the balloon open.",
+      "timestamp": 1402.54
     },
     {
       "speaker": "Dad",
       "text": "Yeah.",
-      "timestamp": 1433.64
+      "timestamp": 1433.62
     },
     {
       "speaker": "Izzy",
@@ -1461,28 +1416,28 @@
     },
     {
       "speaker": "Izzy",
-      "text": "... and then we tie a knot in it-",
+      "text": "... and then we tie a knot in it.",
       "timestamp": 1445.94
     },
     {
       "speaker": "Dad",
-      "text": "Mm-hmm",
+      "text": "Mm-hmm.",
       "timestamp": 1449.06
     },
     {
       "speaker": "Izzy",
-      "text": "... and s- and we s- sleep overnight, and then- When we wake up in the morning, go back to check it-",
-      "timestamp": 1449.26
+      "text": "And s- and we s- sleep overnight, and then- When we wake up in the morning, go back to check it",
+      "timestamp": 1449.32
     },
     {
       "speaker": "Dad",
-      "text": "Oh",
-      "timestamp": 1464.29
+      "text": "Oh.",
+      "timestamp": 1464.35
     },
     {
       "speaker": "Izzy",
-      "text": "... and see what it does.",
-      "timestamp": 1465.17
+      "text": "And see what it does.",
+      "timestamp": 1465.21
     },
     {
       "speaker": "Dad",
@@ -1492,7 +1447,7 @@
     {
       "speaker": "Izzy",
       "text": "That it will deflate.",
-      "timestamp": 1469.15
+      "timestamp": 1469.17
     },
     {
       "speaker": "Dad",
@@ -1506,17 +1461,17 @@
     },
     {
       "speaker": "Dad",
-      "text": "\"Well,\" said Seeker, \"the balloon did deflate a little bit. You were right. Your hypothesis was correct. And also, everything was a little bit stinky because of all our cheese experiments.\"",
+      "text": "\"Well,\" said Seeker, \"the balloon did deflate a little bit. You were right. Your hypothesis was correct, and also everything was a little bit stinky because of all our cheese experiments.\"",
       "timestamp": 1498.77
     },
     {
       "speaker": "Izzy",
       "text": "I've got another cheese experiment that has only Gouda and cheddar.",
-      "timestamp": 1515.17
+      "timestamp": 1514.93
     },
     {
       "speaker": "Dad",
-      "text": "Oh, those are good kinds of cheese. And Tot's a-",
+      "text": "Oh, those are good kinds of cheese. And Tot said-",
       "timestamp": 1520.57
     },
     {
@@ -1526,12 +1481,12 @@
     },
     {
       "speaker": "Dad",
-      "text": "Oh, I like those cheeses",
-      "timestamp": 1522.67
+      "text": "\"Ooh, I like those cheeses.\"",
+      "timestamp": 1522.72
     },
     {
       "speaker": "Izzy",
-      "text": "... eating all the Gouda and cheddar. So I'll make, um, a Gouda and cheddar and shredded cheese mess, and you guys gotta eat it all up.",
+      "text": "... eating all the Gouda and cheddar. So I'll make, um, a Gouda and cheddar and shred cheese mess, and you guys gotta eat it all up.",
       "timestamp": 1523.44
     },
     {
@@ -1551,7 +1506,7 @@
     },
     {
       "speaker": "Izzy",
-      "text": "I'll spread it on the kitchen floor. Now everyone eat it, and then I'll do some more.",
+      "text": "I'll spread it on the kitchen floor. Now everyone eat it and then I'll do some more.",
       "timestamp": 1546.93
     },
     {
@@ -1562,11 +1517,11 @@
     {
       "speaker": "Izzy",
       "text": "Sprinkle, sprinkle, sprinkle, sprinkle, sprinkle, sprinkle, sprinkle.",
-      "timestamp": 1559.99
+      "timestamp": 1559.97
     },
     {
       "speaker": "Dad",
-      "text": "Om, nom, nom, nom, nom, nom, nom, nom.",
+      "text": "Om, nom, nom, nom, nom, nom, nom, nom, nom.",
       "timestamp": 1564.97
     },
     {
@@ -1587,17 +1542,17 @@
     {
       "speaker": "Dad",
       "text": "Oh, okay.",
-      "timestamp": 1572.85
+      "timestamp": 1572.83
     },
     {
       "speaker": "Izzy",
       "text": "Now we're out of cheese, so what should we do?",
-      "timestamp": 1575.01
+      "timestamp": 1574.99
     },
     {
       "speaker": "Dad",
       "text": "And Tot said, \"Well, we do have this potion that we made.\"",
-      "timestamp": 1578.93
+      "timestamp": 1578.91
     },
     {
       "speaker": "Izzy",
@@ -1606,8 +1561,8 @@
     },
     {
       "speaker": "Dad",
-      "text": "And a balloon, that's true. What can we do with those?",
-      "timestamp": 1587.43
+      "text": "And a balloon. That's true. What can we do with those?",
+      "timestamp": 1587.41
     },
     {
       "speaker": "Izzy",
@@ -1617,7 +1572,7 @@
     {
       "speaker": "Dad",
       "text": "\"Whoa. And then what?\" said Seeker.",
-      "timestamp": 1603.05
+      "timestamp": 1603.07
     },
     {
       "speaker": "Izzy",
@@ -1627,12 +1582,12 @@
     {
       "speaker": "Dad",
       "text": "Mm-hmm",
-      "timestamp": 1612.63
+      "timestamp": 1612.65
     },
     {
       "speaker": "Izzy",
       "text": "... and screw on the top, sleep overnight, see what happens in the morning.",
-      "timestamp": 1613.33
+      "timestamp": 1613.31
     },
     {
       "speaker": "Dad",
@@ -1641,8 +1596,8 @@
     },
     {
       "speaker": "Izzy",
-      "text": "It will... I don't... I don't know.",
-      "timestamp": 1623.53
+      "text": "It will... I don't ha- I don't know.",
+      "timestamp": 1623.51
     },
     {
       "speaker": "Dad",
@@ -1656,7 +1611,7 @@
     },
     {
       "speaker": "Dad",
-      "text": "Well, I think in the morning we'll just have a balloon in a potion bottle with some other yucky things in there. But Seeker says maybe if we shake it up just right and say a rhyme after we take a sip, it'll take us somewhere interesting. What do you think?",
+      "text": "Well, I think in the morning we'll just have a balloon in a potion bottle with some other yucky things in there. But Seeker says, \"Maybe if we shake it up just right and say a rhyme after we take a sip, it'll take us somewhere interesting.\" What do you think?",
       "timestamp": 1634.45
     },
     {
@@ -1667,7 +1622,7 @@
     {
       "speaker": "Dad",
       "text": "You don't think that'll become a magic potion?",
-      "timestamp": 1653.99
+      "timestamp": 1653.97
     },
     {
       "speaker": "Izzy",
@@ -1686,13 +1641,13 @@
     },
     {
       "speaker": "Dad",
-      "text": "If the security cats think it's worth a try, then we'll try it, said Seeker. And they all went to sleep one more time.",
-      "timestamp": 1665.73
+      "text": "If the, the security cats think it's worth a try, then we'll try it, said Seeker. And so they all went to sleep one more time.",
+      "timestamp": 1665.71
     },
     {
       "speaker": "Izzy",
       "text": "And, oh, they didn't make it yet.",
-      "timestamp": 1675.95
+      "timestamp": 1675.99
     },
     {
       "speaker": "Dad",
@@ -1702,12 +1657,12 @@
     {
       "speaker": "Izzy",
       "text": "Make, make, make, make, make, make, make. All done. Time to go to sleep. It's wake up time.",
-      "timestamp": 1684.19
+      "timestamp": 1684.21
     },
     {
       "speaker": "Dad",
-      "text": "And they woke up, and they checked the bottle. And what did they see?",
-      "timestamp": 1696.13
+      "text": "And they woke up, and they checked the bottle, and what did they see?",
+      "timestamp": 1696.11
     },
     {
       "speaker": "Izzy",
@@ -1716,22 +1671,32 @@
     },
     {
       "speaker": "Dad",
-      "text": "Oh. Seeker said, \"Oh, yes, I've got to do my very important shaking step.\" Shake, shake, shake, shake, shake, shake, shake, shake, shake, shake, shake, shake. And he looked at it and he said, \"Hmm.\" And he gave it another shake. Shake, shake, shake, shake, shake, shake.",
-      "timestamp": 1703.97
+      "text": "Oh, Seeker said, \"Oh, yes, I've got to do my very important shaking step.\" Shake, shake, shake, shake, shake, shake, shake, shake, shake, shake, shake, shake. And he looked at it and he said, \"Hmm.\" And he gave it another shake. Shake, shake, shake, shake, shake, shake, shake.",
+      "timestamp": 1703.99
     },
     {
       "speaker": "Dad",
-      "text": "And he said, \"Oh, interesting. Hmm.\" Shake, shake, shake, shake, shake, shake, shake. Shake, shake, shake, shake, shake, shake, shake.  Shake, shake, shake, shake, shake, shake, shake.  And now, I wonder where this will take us.  Um, and so-  Oh.",
+      "text": "And he said, \"Oh, interesting. Hmm.\" Shake, shake, shake, shake, shake, shake, shake, shake. Shake, shake, shake, shake, shake, shake, shake, shake. Shake, shake, shake, shake, shake, shake, shake. And now I wonder where this will take us. Um, and so...",
       "timestamp": 1714.39
     },
     {
       "speaker": "Izzy",
-      "text": "It's bubbling.",
-      "timestamp": 1743.23
+      "text": "There's",
+      "timestamp": 1739.11
     },
     {
       "speaker": "Dad",
-      "text": "Oh, yes, it was going blub-lub-lub and bubbling and foaming, and the balloon was floating around in there. And Seeker said, \"All right. I think its magic is ready. Let's take a sip.\" And did everyone take a sip?  And Wobbly Whiskers and Sarana and Tot and Isabella and Seeker all took a sip of the potion.",
+      "text": "Oh.",
+      "timestamp": 1739.71
+    },
+    {
+      "speaker": "Izzy",
+      "text": "It's bubbling.",
+      "timestamp": 1743.19
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, yes, it was going and bubbling and foaming, and the balloon was floating around in there. And Seeker said, \"All right. I think its magic is ready. Let's take a sip.\" And did everyone take a sip? And Wobbly Whiskers and Sarana and Tot and Isabella and Seeker all took a sip of the potion.",
       "timestamp": 1744.69
     },
     {
@@ -1746,18 +1711,18 @@
     },
     {
       "speaker": "Dad",
-      "text": "Zime, zime, zime, zime.",
-      "timestamp": 1772.58
+      "text": "The zime, zime, zime, zime.",
+      "timestamp": 1772.64
     },
     {
       "speaker": "Izzy",
       "text": "The zime, zime, zime.",
-      "timestamp": 1774.51
+      "timestamp": 1774.49
     },
     {
       "speaker": "Dad",
-      "text": "Zime, zime, zime. And then there was a whoosh, and they found themselves in a strange new place where they were floating in the blue sky, standing on top of a giant floating balloon, and all around there were other balloons floating around them. And you know what they saw high above them?",
-      "timestamp": 1774.66
+      "text": "The zime, zime, zime. And then there was a whoosh, and they found themselves in a strange new place where they were floating in the blue sky, standing on top of a giant floating balloon, and all around there were other balloons floating around them. And you know what they saw high above them?",
+      "timestamp": 1775.02
     },
     {
       "speaker": "Izzy",
@@ -1772,11 +1737,11 @@
     {
       "speaker": "Izzy",
       "text": "But what was the yellow thing?",
-      "timestamp": 1811.77
+      "timestamp": 1811.79
     },
     {
       "speaker": "Dad",
-      "text": "\"I, I don't know, but let's look around.\" And they were on a floating balloon, floating upwards through the air- And high above them were those cloud-like yellow things. And Seeker suddenly wrinkled his nose and said,  \"What is that smell?\" And everyone sniffed, sniffed, sniffed and said, and Tot said, \"Oh, I know, I know.\"",
+      "text": "\"I, I don't know, but let's look around.\" And they were on a floating balloon, floating upwards through the air- And high above them were those cloud-like yellow things. And Seeker suddenly wrinkled his nose and said, \"What is that smell?\" And everyone sniffed, sniffed, sniffed and said, and Tot said, \"Oh, I know, I know.\"",
       "timestamp": 1814.31
     },
     {
@@ -1791,13 +1756,13 @@
     },
     {
       "speaker": "Izzy",
-      "text": "It's cheese. Pee-yew, it's stinky blue cheese.",
-      "timestamp": 1842.67
+      "text": "It's cheese pee or it's stinky blue cheese.",
+      "timestamp": 1842.65
     },
     {
       "speaker": "Dad",
       "text": "I, but, but look-",
-      "timestamp": 1847.97
+      "timestamp": 1847.95
     },
     {
       "speaker": "Izzy",
@@ -1807,7 +1772,7 @@
     {
       "speaker": "Dad",
       "text": "... the cheese turned into cheese foam clouds, and we're headed right for them.",
-      "timestamp": 1849.77
+      "timestamp": 1849.81
     },
     {
       "speaker": "Izzy",
@@ -1826,13 +1791,13 @@
     },
     {
       "speaker": "Dad",
-      "text": "We  gotta go? Oh, 'cause there might be cheese rain?",
-      "timestamp": 1865.93
+      "text": "We gotta go? Oh, 'cause there might be cheese rain?",
+      "timestamp": 1865.95
     },
     {
       "speaker": "Izzy",
       "text": "Yeah.",
-      "timestamp": 1868.31
+      "timestamp": 1868.33
     },
     {
       "speaker": "Dad",
@@ -1842,26 +1807,26 @@
     {
       "speaker": "Izzy",
       "text": "Seeker, are you holding the Going Home Potions?",
-      "timestamp": 1879.55
+      "timestamp": 1879.53
     },
     {
       "speaker": "Dad",
       "text": "\"I do have Going Home Potions. I always do,\" said Seeker.",
-      "timestamp": 1882.48
+      "timestamp": 1882.46
     },
     {
       "speaker": "Izzy",
-      "text": "Okay,  then we should use those.",
-      "timestamp": 1885.37
+      "text": "Okay, then we should use those.",
+      "timestamp": 1885.35
     },
     {
       "speaker": "Dad",
-      "text": "\"Oh, well, we're not in any danger, and we might be able to fi- get a little closer to those cheese clouds and find out what they're like, even though they kinda smell bad. We can all hold our noses.\"",
-      "timestamp": 1888.24
+      "text": "Oh, well, we're not in any danger, and we might be able to fi- get a little closer to those cheese clouds and find out what they're like, even though they kinda smell bad. We can all hold our noses.",
+      "timestamp": 1888.37
     },
     {
       "speaker": "Izzy",
-      "text": "Well, I feel like going home. And I don't like things that are stinky, and I don't like even seeing them 'cause, 'cause my eyes... 'Cause I think they're... 'Cause when I look- 'cause I brought a telescope, and when I look through it, I see that it's very bright.",
+      "text": "Well, I feel like going home 'cause I don't like things that are stinky and I don't like even seeing them 'cause, 'cause my eyes... 'Cause I think they're... 'Cause when I look, 'cause I brought a telescope, and when I look through it, I see that it's very bright.",
       "timestamp": 1898.09
     },
     {
@@ -1896,7 +1861,7 @@
     },
     {
       "speaker": "Izzy",
-      "text": "I think I'm just gonna fly back to Seeker's castle. And remember, meet me there.",
+      "text": "I think I'm just gonna fly back to Seeker's Castle. And remember, meet me there.",
       "timestamp": 1953.33
     },
     {
@@ -1906,77 +1871,67 @@
     },
     {
       "speaker": "Izzy",
-      "text": "Fly, fly, fly, fly, fly. I'm home.",
-      "timestamp": 1962.61
+      "text": "Psh. Fly, fly, fly, fly, fly. I'm home-",
+      "timestamp": 1961.33
     },
     {
       "speaker": "Dad",
       "text": "And Isabella flew-",
-      "timestamp": 1966.64
+      "timestamp": 1966.65
     },
     {
       "speaker": "Izzy",
-      "text": "I'm at Seeker's castle",
-      "timestamp": 1968.15
+      "text": "... at Seeker's Castle",
+      "timestamp": 1968.27
     },
     {
       "speaker": "Dad",
-      "text": "... flew back to Seeker's castle.  And the rest of the crew floated up on their balloon, and pretty soon they were close enough to reach out and touch a big, fluffy, foamy, stinky, yellow cheese cloud. And Tot said, \"Wow, how are we gonna get some?\" And Wobbly Whiskers said, \"Um, I think I have a net here.",
+      "text": "... flew back to Seeker's Castle. And the rest of the crew floated up on their balloon, and pretty soon they were close enough to reach out and touch a big, fluffy, foamy, stinky, yellow cheese cloud. And Tot said, \"Wow, how are we gonna get some?\" And Wobbly Whiskers said, \"Um, I think I have a net here.",
       "timestamp": 1968.34
     },
     {
       "speaker": "Dad",
-      "text": "We, uh, we security cats are always prepared.\" And so they swung their net.",
+      "text": "We, uh, we Security Cats are always prepared.\" And so they swung their net-",
       "timestamp": 1989.47
     },
     {
       "speaker": "Izzy",
-      "text": "But one was scratching the other.",
+      "text": "But one was scratching the other-",
       "timestamp": 1994.61
     },
     {
       "speaker": "Dad",
-      "text": "Sarana-",
-      "timestamp": 1999.22
+      "text": "Sarana",
+      "timestamp": 1999.31
     },
     {
       "speaker": "Izzy",
-      "text": "And wasn't paying attention to what everyone said.",
-      "timestamp": 1999.23
+      "text": "... and wasn't paying attention to what everyone said.",
+      "timestamp": 1999.43
     },
     {
       "speaker": "Dad",
-      "text": "Oh, no.",
+      "text": "Oh, no. And Sarana was scratching Wobbly Whiskers while Wobbly Whiskers was trying to reach out with the net and-",
       "timestamp": 2003.99
     },
     {
       "speaker": "Izzy",
-      "text": "Uh-oh.",
-      "timestamp": 2005.17
-    },
-    {
-      "speaker": "Dad",
-      "text": "And Sarana was scratching Wobbly Whiskers while Wobbly Whiskers was trying to reach out with the net and-",
-      "timestamp": 2005.85
-    },
-    {
-      "speaker": "Izzy",
       "text": "And Wobbly Whiskers, no, Wobbly Whiskers was scratching Sarana while Sarana did the net.",
-      "timestamp": 2010.64
+      "timestamp": 2010.76
     },
     {
       "speaker": "Dad",
-      "text": "And Sarana tripped, and the net flew up in the air, and a huge blop of the cheese cloud got caught in the net and then fell right down, and you know where it fell?",
+      "text": "And Sarana tripped, and the net flew up in the air, and a huge blop of the cheese cloud got caught in the net, and then fell right down, and you know where it fell?",
       "timestamp": 2019.31
     },
     {
       "speaker": "Izzy",
       "text": "Where?",
-      "timestamp": 2030.05
+      "timestamp": 2030.03
     },
     {
       "speaker": "Dad",
-      "text": "Right on top of Tot. And so Tot was inside a big blop of the foamy, stinky cheese. And Tot said, \"Help.\"  \"Ah.\"  And in a few seconds, though, Tot managed to swim out. And he was licking his lips 'cause, , \"Mm, that's actually pretty good, but now I'm covered with it.",
+      "text": "Right on top of Tot. And so Tot was inside a big blop of the foamy, stinky cheese, and Tot said, \"Help.\" \"Ah.\" And in a few seconds, though- ... Tot managed to swim out, and he was licking his lips 'cause, \"Mm, that's actually pretty good, but now I'm covered with it.",
       "timestamp": 2030.51
     },
     {
@@ -1987,12 +1942,12 @@
     {
       "speaker": "Izzy",
       "text": "Yeah.",
-      "timestamp": 2055.03
+      "timestamp": 2054.97
     },
     {
       "speaker": "Dad",
       "text": "And s-",
-      "timestamp": 2055.85
+      "timestamp": 2055.9
     },
     {
       "speaker": "Izzy",
@@ -2012,27 +1967,27 @@
     {
       "speaker": "Dad",
       "text": "\"Oh, thank goodness,\" said Tot. And so they all-",
-      "timestamp": 2064.82
+      "timestamp": 2064.77
     },
     {
       "speaker": "Izzy",
-      "text": "Uh-oh.",
-      "timestamp": 2067.67
+      "text": "Uh-oh. Good boy.",
+      "timestamp": 2067.57
     },
     {
       "speaker": "Dad",
       "text": "And so they all went back using the Going Home Potion-",
-      "timestamp": 2071.53
+      "timestamp": 2072.73
     },
     {
       "speaker": "Izzy",
       "text": "Going",
-      "timestamp": 2076.46
+      "timestamp": 2075.82
     },
     {
       "speaker": "Dad",
       "text": "... and Tot took a bath.",
-      "timestamp": 2077.29
+      "timestamp": 2075.82
     },
     {
       "speaker": "Izzy",
@@ -2043,11 +1998,6 @@
       "speaker": "Dad",
       "text": "And that's the end of Stars and Stories.",
       "timestamp": 2081.31
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Stars and, Stars and Stories",
-      "timestamp": 2086.18
     }
   ],
   "characters": [
@@ -2104,7 +2054,19 @@
       "description": "The outdoor location where a past, slightly leaky, science experiment took place."
     }
   ],
-  "wordCount": 4566,
-  "izzyWordCount": 1651,
-  "dadWordCount": 2915
+  "wordCount": 4568,
+  "izzyWordCount": 1645,
+  "dadWordCount": 2923,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T15:32:05.160Z",
+    "speakerMap": {
+      "speaker_0": "Izzy",
+      "speaker_1": "Dad"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "high"
+  }
 }

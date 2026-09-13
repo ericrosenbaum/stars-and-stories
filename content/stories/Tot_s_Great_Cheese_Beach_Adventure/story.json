@@ -11,7 +11,7 @@
   "transcript": [
     {
       "speaker": "Dad",
-      "text": "Let's see. I'll set up the lantern over here. And you can... I'm gonna turn out the light. Actually, why don't you come over here before I turn out the light, 'cause it's gonna be pretty dark, and there's a lot of things on the floor. Come on over.",
+      "text": "Let's see. I'll set up the lantern over here. And you can... I'm gonna turn out the light. Actually, why don't you come over here before I turn out the light, 'cause it's gonna be pretty dark and there's a lot of things on the floor. Come on over.",
       "timestamp": 2.4
     },
     {
@@ -62,17 +62,17 @@
     {
       "speaker": "Dad",
       "text": "Okay, good idea",
-      "timestamp": 37.92
+      "timestamp": 37.94
     },
     {
       "speaker": "Izzy",
-      "text": "... with the blanket.",
+      "text": "... as a blanket.",
       "timestamp": 38.58
     },
     {
       "speaker": "Dad",
       "text": "All right, there's the stars. Let's start our story. Now, once upon a time, Seeker was giving someone a swimming lesson. Who was he teaching how to swim?",
-      "timestamp": 40.26
+      "timestamp": 40.22
     },
     {
       "speaker": "Izzy",
@@ -81,8 +81,8 @@
     },
     {
       "speaker": "Dad",
-      "text": "Maybe it was Tot the mouse.",
-      "timestamp": 60.86
+      "text": "Maybe it was Tot the Mouse.",
+      "timestamp": 60.84
     },
     {
       "speaker": "Izzy",
@@ -92,7 +92,7 @@
     {
       "speaker": "Dad",
       "text": "I do.",
-      "timestamp": 70.86
+      "timestamp": 70.9
     },
     {
       "speaker": "Izzy",
@@ -112,12 +112,12 @@
     {
       "speaker": "Dad",
       "text": "And he was out in the woods, and Seeker, um, helped-",
-      "timestamp": 80.85
+      "timestamp": 80.86
     },
     {
       "speaker": "Izzy",
       "text": "Thought-",
-      "timestamp": 85.6
+      "timestamp": 85.58
     },
     {
       "speaker": "Dad",
@@ -142,7 +142,7 @@
     {
       "speaker": "Izzy",
       "text": "And, and Isabella, and Isabella w- was with Seeker, and Isabella said, \"I just went to the pool yesterday, so I can, like, teach you how you can swim if you don't really wanna swim. You can just float on your back, which is pretty easy, um, maybe on a floaty board.\"",
-      "timestamp": 120.56
+      "timestamp": 120.49
     },
     {
       "speaker": "Dad",
@@ -176,7 +176,7 @@
     },
     {
       "speaker": "Dad",
-      "text": "Oh. Is there a mouse swimming pool anywhere near here?",
+      "text": "Oh. Is there a mouse swimming pool anywhere near-",
       "timestamp": 171.64
     },
     {
@@ -187,7 +187,7 @@
     {
       "speaker": "Dad",
       "text": "Oh, there is?",
-      "timestamp": 176.86
+      "timestamp": 176.88
     },
     {
       "speaker": "Izzy",
@@ -201,7 +201,7 @@
     },
     {
       "speaker": "Izzy",
-      "text": "Um-",
+      "text": "Um...",
       "timestamp": 186.12
     },
     {
@@ -222,7 +222,7 @@
     {
       "speaker": "Izzy",
       "text": "Okay, so it's, like, it has, like, swimming classes.",
-      "timestamp": 194.42
+      "timestamp": 194.31
     },
     {
       "speaker": "Dad",
@@ -241,68 +241,68 @@
     },
     {
       "speaker": "Izzy",
-      "text": "\"Just like me,\" said Isabella, \"I'm gonna take a swimming class too.\"",
+      "text": "\"Just like me,\" said Isabella. \"I'm gonna take a swimming class too.\"",
       "timestamp": 213.37
     },
     {
       "speaker": "Dad",
       "text": "\"Oh, wow. I wanna do it. Can we go right now?\"",
-      "timestamp": 218.67
+      "timestamp": 218.07
     },
     {
       "speaker": "Izzy",
-      "text": "\"No,  it's, it's not starting until tomorrow.\"",
+      "text": "\"No, it's, it's not starting until tomorrow.\"",
       "timestamp": 222.2
     },
     {
       "speaker": "Dad",
       "text": "Oh, okay. And so Tot went home.",
-      "timestamp": 227.6
+      "timestamp": 227.54
     },
     {
       "speaker": "Izzy",
-      "text": "Oh, wait-",
-      "timestamp": 231.5
+      "text": "Oh, wait, Tot.",
+      "timestamp": 231.52
     },
     {
       "speaker": "Dad",
       "text": "And then-",
-      "timestamp": 232.14
+      "timestamp": 232.54
     },
     {
       "speaker": "Izzy",
-      "text": "... Tot, Tot",
-      "timestamp": 232.53
+      "text": "Tot",
+      "timestamp": 233.28
     },
     {
       "speaker": "Dad",
       "text": "Uh, what?",
-      "timestamp": 233.3
+      "timestamp": 233.36
     },
     {
       "speaker": "Izzy",
       "text": "Um, do you wanna take a potion?",
-      "timestamp": 234.3
+      "timestamp": 234.32
     },
     {
       "speaker": "Dad",
       "text": "A potion? I don't know. What does the potion do?",
-      "timestamp": 236.74
+      "timestamp": 236.8
     },
     {
       "speaker": "Izzy",
       "text": "I don't know. Seeker, can you tell Tot about your potions?",
-      "timestamp": 240.5
+      "timestamp": 240.48
     },
     {
       "speaker": "Dad",
-      "text": "And Seeker said, \"Well, yes, I have a closet full of potions that take us to all sorts of different worlds. I don't think we've even been to all of the worlds that we might go to yet.\" And Tot said, \"Different worlds? I'm just a little mouse. Um, but I would-\"",
+      "text": "And Seeker said, \"Well, yes. I have a closet full of potions that take us to all sorts of different worlds. I don't think we've even been to all of the worlds that we might go to yet.\" And Tot said, \"Different worlds? I'm just a little mouse. Um, but I would l-\"",
       "timestamp": 244.96
     },
     {
       "speaker": "Izzy",
-      "text": "Well, Seeker, we can't take Cat World, which is l- which is a blue diamond potion, so that's a Cat World potion. So, and also don't do the Catville potion. So no-no to those potions. No, no.",
-      "timestamp": 263.49
+      "text": "Well, Seeker, we can't take Cat World, which is l- which is a blue dotted potion, so that's a Cat World potion. So, and also don't do the Catville potion. So no-no to those potions. No, no.",
+      "timestamp": 263.5
     },
     {
       "speaker": "Dad",
@@ -316,8 +316,8 @@
     },
     {
       "speaker": "Dad",
-      "text": "\"Wouldn't wanna take Tot the mouse to Cat World or Catville. How about...\" And Tot said, \"Oh, I know, I know, I know.\"",
-      "timestamp": 283.72
+      "text": "Wouldn't wanna take Tot the Mouse to Cat World or Catville. How about... And Tot said, \"Oh, I know, I know, I know.\"",
+      "timestamp": 283.74
     },
     {
       "speaker": "Izzy",
@@ -327,7 +327,7 @@
     {
       "speaker": "Dad",
       "text": "And Tot-",
-      "timestamp": 292.76
+      "timestamp": 292.8
     },
     {
       "speaker": "Izzy",
@@ -337,7 +337,7 @@
     {
       "speaker": "Dad",
       "text": "... had a very funny idea. What kind of a world would a mouse most like to go to, do you think?",
-      "timestamp": 293.37
+      "timestamp": 293.38
     },
     {
       "speaker": "Izzy",
@@ -351,7 +351,7 @@
     },
     {
       "speaker": "Izzy",
-      "text": "Well, Seeker, remember you do have some cheese, so... And remember you made cheese roll potion and put it on the yellow shelf, and I got it out yesterday.",
+      "text": "Well, Seeker, remember you do have some cheese, so... And remember you made cheese world potion and put it on the yellow shelf, and I got it out yesterday.",
       "timestamp": 303.66
     },
     {
@@ -362,7 +362,7 @@
     {
       "speaker": "Izzy",
       "text": "Yep, and put it on the special... Okay, so Tot's allergic to french fries, and-",
-      "timestamp": 317.06
+      "timestamp": 317.04
     },
     {
       "speaker": "Dad",
@@ -371,7 +371,7 @@
     },
     {
       "speaker": "Izzy",
-      "text": "Okay, so Cheese World has, like, about a million french fries when it's raining, and today is not raining in Cheese World, so no. So we can still go there and-",
+      "text": "Okay, so Cheese World has, like, about a million french fries when it's raining, and today is not raining in Cheese World, so no. So we can still go there, and, um-",
       "timestamp": 328.72
     },
     {
@@ -397,11 +397,11 @@
     {
       "speaker": "Dad",
       "text": "Oh, okay, sorry.",
-      "timestamp": 359.26
+      "timestamp": 359.24
     },
     {
       "speaker": "Izzy",
-      "text": "Okay, so... And that ... is like, um, a little  funny-  ... just to let you know.",
+      "text": "Okay, so, and that ... is like, um, a little funny Just to let you know.",
       "timestamp": 360.64
     },
     {
@@ -411,8 +411,8 @@
     },
     {
       "speaker": "Izzy",
-      "text": "And maybe, like, okay, okay, there's crocodiles and a cat bill, okay?",
-      "timestamp": 373.89
+      "text": "And maybe, like, ca- okay, there's crocodiles and catbill, 'kay?",
+      "timestamp": 373.49
     },
     {
       "speaker": "Dad",
@@ -421,7 +421,7 @@
     },
     {
       "speaker": "Izzy",
-      "text": "And a giant mooker on the mooker- on the foofa cloud.",
+      "text": "And a giant Mooker on the Mooker- on the Floof Cloud.",
       "timestamp": 385.81
     },
     {
@@ -432,7 +432,7 @@
     {
       "speaker": "Izzy",
       "text": "And also, cheese world is definitely, um, on the chair in the living room.",
-      "timestamp": 392.81
+      "timestamp": 392.83
     },
     {
       "speaker": "Dad",
@@ -441,13 +441,13 @@
     },
     {
       "speaker": "Izzy",
-      "text": "Okay, and I took it out and I took it and, and I already got it from there and put it on the counter, and I can go get it for you.",
+      "text": "Okay, and I took it out, and I took it and, and I already got it from there and put it on the counter, and I can go get it for you.",
       "timestamp": 409.75
     },
     {
       "speaker": "Dad",
       "text": "Oh, thanks.",
-      "timestamp": 420.77
+      "timestamp": 420.79
     },
     {
       "speaker": "Izzy",
@@ -456,43 +456,43 @@
     },
     {
       "speaker": "Dad",
-      "text": "Thank you. Okay. How do we, how do we do it? Do we just drink the potion?",
+      "text": "Thank you. Okay, how do we, how do we do it? Do we just drink the potion?",
       "timestamp": 424.51
     },
     {
       "speaker": "Izzy",
-      "text": "Yeah.  Oh.",
+      "text": "Yeah. Oh.",
       "timestamp": 428.73
     },
     {
       "speaker": "Dad",
-      "text": "And Seeker says, \"No, everyone takes one little sip. Don't drink it all, Tot.\" \"Oh,  okay.\" And then someone has to say the magical rhyme, and so they each took a sip of the potion.  And who said the rhyme? Did Isabella say it?",
-      "timestamp": 430.92
+      "text": "And Seeker says, \"No, everyone takes one little sip. Don't drink it all, Tot.\" \"Oh, okay.\" And then someone has to say the magical rhyme, and so they each took a sip of the potion. And who said the rhyme? Did Isabella say it?",
+      "timestamp": 430.95
     },
     {
       "speaker": "Izzy",
-      "text": "Mm-hmm. Salime, sume, sime, sume, bime.",
+      "text": "Mm-hmm. Sa-bime, sa-bime, sa-bime. Sa-bime, sa-bime, sa-bime.",
       "timestamp": 448.17
     },
     {
       "speaker": "Dad",
-      "text": "Salime, sume, sime, sume, bime.",
-      "timestamp": 452.13
+      "text": "Sa-bime, sa-bime, sa-bime.",
+      "timestamp": 454.6
     },
     {
       "speaker": "Izzy",
-      "text": "Salime, sume, sime, sume, bime.",
-      "timestamp": 455.11
+      "text": "Sa-bime, sa-bime, sa-bime.",
+      "timestamp": 454.6
     },
     {
       "speaker": "Dad",
-      "text": "Salime, sume, sime, sume, bime. And then with a squish, Seeker and Isabella and Tot the Mouse appeared in a world that was all delicious cheese as far as the eye can see. There were mountains of cheddar and great boulders of Gouda, and the road that they were standing on was-",
-      "timestamp": 456.06
+      "text": "Sa-bime, sa-bime, sa-bime. And then with a squish, Seeker, and Isabella- ... and Tot the Mouse appeared in a world that was all delicious cheese as far as the eye can see. There were mountains of cheddar and great boulders of Gouda, and the road that they were standing on was-",
+      "timestamp": 455.11
     },
     {
       "speaker": "Izzy",
       "text": "Was made of Parmesan",
-      "timestamp": 482.11
+      "timestamp": 482.38
     },
     {
       "speaker": "Dad",
@@ -502,17 +502,17 @@
     {
       "speaker": "Izzy",
       "text": "And the sidewalk was made of shredded cheese.",
-      "timestamp": 486.36
+      "timestamp": 486.35
     },
     {
       "speaker": "Dad",
       "text": "Oh, yeah, shredded cheese sidewalks.",
-      "timestamp": 489.91
+      "timestamp": 489.93
     },
     {
       "speaker": "Izzy",
       "text": "And is there any other kinds of cheeses, like mozzarella?",
-      "timestamp": 491.23
+      "timestamp": 491.25
     },
     {
       "speaker": "Dad",
@@ -526,7 +526,7 @@
     },
     {
       "speaker": "Dad",
-      "text": "Oh,  mozzarella cheese trains. Chugga-chugga, chugga-chugga, chugga-chugga, chugga-chugga, cheese cheese.",
+      "text": "Oh, mozzarella cheese trains. Chugga-chugga-chugga-chugga-chugga-chugga-chugga-chugga, cheese cheese.",
       "timestamp": 504.63
     },
     {
@@ -536,12 +536,12 @@
     },
     {
       "speaker": "Dad",
-      "text": "Chugga-chugga, chugga-chugga, chugga-chugga, chugga-chugga, cheese cheese. And Seeker said, \"What is that sound?\" And Tot said, \"Look, I think it's a train.\"",
+      "text": "Chugga-chugga-chugga-chugga-chugga-chugga-chugga-chugga, cheese cheese. And Seeker said, \"What is that sound?\" And Tot said, \"Look, I think it's a train.\"",
       "timestamp": 510.55
     },
     {
       "speaker": "Izzy",
-      "text": "It's a... But it's called a, a mozzarella train.",
+      "text": "It's a, but it's called a, a mozzarella train.",
       "timestamp": 518.83
     },
     {
@@ -556,18 +556,18 @@
     },
     {
       "speaker": "Dad",
-      "text": "Chugga-chugga",
+      "text": "Chugga-chugga-",
       "timestamp": 534.69
     },
     {
       "speaker": "Izzy",
-      "text": "... they aren't always going. Sometimes they stop for passengers.",
+      "text": "... they aren't always going. Sometimes they stop for passengers",
       "timestamp": 534.8
     },
     {
       "speaker": "Dad",
-      "text": "\"Oh, oh, it's slowing down,\" said Seeker.",
-      "timestamp": 540.4
+      "text": "... \"Oh, oh, it's slowing down,\" said Seeker.",
+      "timestamp": 540.37
     },
     {
       "speaker": "Izzy",
@@ -576,13 +576,13 @@
     },
     {
       "speaker": "Dad",
-      "text": "Chugga-chugga, chugga-chugga, chugga-chugga, chugga-",
+      "text": "Chugga-chugga-chugga-chugga-chugga-chugga-chugga",
       "timestamp": 543.09
     },
     {
       "speaker": "Izzy",
       "text": "... um, no, no, it's only gonna get Hattie.",
-      "timestamp": 544.12
+      "timestamp": 544.11
     },
     {
       "speaker": "Dad",
@@ -592,7 +592,7 @@
     {
       "speaker": "Izzy",
       "text": "Yeah. She, she's over there on that mountain waiting for the train, and it slowed down, and the doors are opening, and Hattie jumped in, and now the doors are closing.",
-      "timestamp": 549.25
+      "timestamp": 549.23
     },
     {
       "speaker": "Dad",
@@ -601,23 +601,13 @@
     },
     {
       "speaker": "Izzy",
-      "text": "Chugga, chugga, chugga, chugga, chugga, chugga, choo-choo. And, and cheese cheese.  Oh, that's a cheese train, another cheese train, so you gotta wait. Um, and that one is gonna pick up you guys.",
-      "timestamp": 568.91
+      "text": "Chugga-chugga-chugga-chugga-chugga-chugga-chugga, choo choo. And, and, cheese cheese. Oh, that's a cheese train, another cheese train, so you've gotta wait. Um, and that one is gonna pick up you guys.",
+      "timestamp": 569.18
     },
     {
       "speaker": "Dad",
-      "text": "Oh, another cheese train's coming, and it's stopping. Errr, go the brakes, and Seeker said, \"Okay, the door's opening. Come on, everybody.\" And Seeker and Isabella and Tot the Mouse-",
+      "text": "Oh, another cheese train's coming, and it's stopping. Errr, go the brakes, and Seeker said, \"Okay, the door's opening. Come on, everybody.\" And Seeker, and Isabella, and Tot the Mouse hopped onto the cheese train. \"All aboard,\" said the conductor, and chugga-chugga, cheese cheese.",
       "timestamp": 587.51
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Hopped",
-      "timestamp": 598.09
-    },
-    {
-      "speaker": "Dad",
-      "text": "... hopped onto the cheese train. \"All aboard,\" said the conductor, and chugga-chugga, cheese cheese.",
-      "timestamp": 598.28
     },
     {
       "speaker": "Izzy",
@@ -636,52 +626,42 @@
     },
     {
       "speaker": "Dad",
-      "text": "\"Oh, you can just go in the first row right there. Uh, we're headed to...\" Where are they headed? Uh-",
+      "text": "\"Oh, you can just go in the first row right there. Uh, we're headed to...\" Where are they headed? Uh.",
       "timestamp": 611.23
     },
     {
       "speaker": "Izzy",
-      "text": "Um, to the beach",
-      "timestamp": 619.7
+      "text": "Um, to the beach.",
+      "timestamp": 619.62
     },
     {
       "speaker": "Dad",
-      "text": "... oh, to the cheese beach, wow, where the sand is made of grated Parmesan and the ocean is melted cheese. And Tot said, \"Oh, wow, I can learn how to swim.\" And Seeker said, \"You know, I don't know if that would be the best thing to swim in, but we can try.\"",
-      "timestamp": 621.71
+      "text": "Oh, to the cheese beach. Wow. Where the sand is made of grated Parmesan and the ocean is melted cheese. And Tot said, \"Oh, wow, I can learn how to swim.\" And Seeker said, \"You know, I don't know if that would be the best thing to swim in, but we can try.\"",
+      "timestamp": 621.79
     },
     {
       "speaker": "Dad",
-      "text": "And Dimitar said, \"Here we go.\"",
+      "text": "And Dimitar said, \"Here we go. Cheese cheese.\" Chugga-chugga-chugga-chugga-chugga-chugga. And they-",
       "timestamp": 642.85
     },
     {
       "speaker": "Izzy",
-      "text": "Cheese cheese.",
-      "timestamp": 645.77
-    },
-    {
-      "speaker": "Dad",
-      "text": "Chugga-chugga, chugga-chugga, chugga-chugga. And they-",
-      "timestamp": 646.99
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Cheese cheese.",
+      "text": "Cheese cheese",
       "timestamp": 649.53
     },
     {
       "speaker": "Dad",
-      "text": "And they rode the cheese train.",
-      "timestamp": 651.15
+      "text": "... and they rode the cheese train.",
+      "timestamp": 651.13
     },
     {
       "speaker": "Izzy",
-      "text": "And Dimitar said one more thing. \"You may take a little nibble, but don't eat up the whole cheese train, 'cause then it won't be able to take passengers somewhere.\"",
+      "text": "And Dimitar said one more thing, \"You may take a little nibble, but don't eat up the whole cheese train 'cause then it won't be able to take passengers somewhere.\"",
       "timestamp": 652.65
     },
     {
       "speaker": "Dad",
-      "text": "Uh,  and Seeker said, \"Yes, that's true. Uh, you can nibble your seats, but don't nibble the walls or especially the floor of the train, 'cause it might just fall right apart.\" And Tot said, \"Okay. I mean, there's plenty of cheese here. I'll just give a little taste.\"",
+      "text": "Uh, and Seeker said, \"Yes, that's true. Uh, you can nibble your seats, but don't nibble the walls or especially the floor of the train 'cause it might just fall right apart.\" And Tot said, \"Okay. I mean, there's plenty of cheese here. I'll just give a little taste.\"",
       "timestamp": 665.93
     },
     {
@@ -691,23 +671,23 @@
     },
     {
       "speaker": "Izzy",
-      "text": "A seat.",
+      "text": "A seat-",
+      "timestamp": 685.4
+    },
+    {
+      "speaker": "Dad",
+      "text": "Or his seat",
       "timestamp": 685.43
     },
     {
-      "speaker": "Dad",
-      "text": "Or his seat?",
-      "timestamp": 685.46
-    },
-    {
       "speaker": "Izzy",
-      "text": "A teeny tiny... The back of his seat.",
-      "timestamp": 686.65
+      "text": "... a teeny tiny, the back of his seat.",
+      "timestamp": 686.59
     },
     {
       "speaker": "Dad",
-      "text": "\"Oh, this cheese is a little stale. I like fresh cheese, but it's, it's pretty good.\" And so finally they arrived, and Dimitar said, \"Here we are, uh, the cheese beach. Everybody off. Uh, last stop.\" And so Seeker and Isabella and Tot the Mouse hopped off the cheese train, and what did they see at the cheese beach?",
-      "timestamp": 689.74
+      "text": "\"Oh, this cheese is a little stale. I like fresh cheese, but it's, it's pretty good.\" And so finally they arrived, and Dimitar said, \"Here we are, uh, the cheese beach. Everybody off. Uh, last stop.\" And so Seeker, and Isabella, and Tot the Mouse hopped off the cheese train, and what did they see at the cheese beach?",
+      "timestamp": 690.79
     },
     {
       "speaker": "Izzy",
@@ -722,7 +702,7 @@
     {
       "speaker": "Izzy",
       "text": "But then they saw Elsa Pony walking out of the hotel",
-      "timestamp": 730.64
+      "timestamp": 730.62
     },
     {
       "speaker": "Dad",
@@ -732,11 +712,11 @@
     {
       "speaker": "Izzy",
       "text": "\"Hey, I am spending two days here.\"",
-      "timestamp": 739.41
+      "timestamp": 739.42
     },
     {
       "speaker": "Dad",
-      "text": "\"Oh, so it's like a little cheese be- beach vacation. Do, do, um, do you like to eat the cheese?\"",
+      "text": "\"Oh, so it's like a little Cheese Beach, Beach vacation. Do you, do, um, do you like to eat the cheese?\"",
       "timestamp": 744.95
     },
     {
@@ -751,28 +731,28 @@
     },
     {
       "speaker": "Izzy",
-      "text": "\"I, I like eating, like... I brought some of the treats I like, and I brought... Also, I brought some dinner and lunch and stuff and snacks.\"",
+      "text": "\"I, I like eating, like... I brought some of the treats I like and I brought... Also, I brought some dinner and lunch and stuff and snacks and...\"",
       "timestamp": 753.21
     },
     {
       "speaker": "Dad",
       "text": "\"Oh.\"",
-      "timestamp": 765.06
+      "timestamp": 765.07
     },
     {
       "speaker": "Izzy",
-      "text": "And then-",
-      "timestamp": 766.2
+      "text": "\"And...\"",
+      "timestamp": 766.19
     },
     {
       "speaker": "Dad",
-      "text": "And Tot said, \"I don't need any of that. I'm just gonna eat some of this sand.  Hey, it's actual cheese. Ooh, look at this, a cheese seashell. I wonder what kind of cheese this is.  Oh, I th- I think that's aged cheddar. Wow, oh, that's got such a nice flavor.",
-      "timestamp": 766.31
+      "text": "\"And Tot said, 'I don't need any of that. I'm just gonna eat some of this sand.' Hey, it's actual cheese. Ooh, look at this, a cheese seashell. I wonder what kind of cheese this is. Oh, I th- I think that's aged cheddar. Wow. Ooh, that's got such a nice flavor.\"",
+      "timestamp": 766.19
     },
     {
       "speaker": "Dad",
-      "text": "\" Um, and then Seeker said, \"Well, does anybody swim in the, in the cheese ocean here? It looks to be, uh, a soft cheese day at the ocean. There's some, some brie coming in and a little Camembert. It's actually kinda stinky. Maybe even a little bit of gor- Gorgonzola reefs out there.\"",
-      "timestamp": 786.42
+      "text": "Um, and then Seeker said, \"Well, does anybody swim in the, in the cheese ocean here? It looks to be, uh, a soft cheese day at the ocean. There's some, some brie coming in and a little Camembert. It's actually kinda stinky. Maybe even a little bit of gor- Gorgonzola reefs out there.\"",
+      "timestamp": 786.46
     },
     {
       "speaker": "Dad",
@@ -781,17 +761,17 @@
     },
     {
       "speaker": "Izzy",
-      "text": "What are all those animals?",
-      "timestamp": 810.24
+      "text": "\"What are all those animals?\"",
+      "timestamp": 810.23
     },
     {
       "speaker": "Dad",
-      "text": "Those, oh, those are kinds of cheese. I don't think you've tried all of them, Isabella. They are soft cheeses. Gorgonzola and brie and Camembert are delicious soft cheeses. And so since they're soft, I thought maybe they could be the ocean. And Tot said, \"Um, last one in's a stinky Gouda.\"",
-      "timestamp": 811.64
+      "text": "\"Those, oh, those are kinds of cheese. I don't think you've tried all of them, Isabella. They are soft cheeses. Gorgonzola and brie and Camembert are delicious soft cheeses. And so since they're soft, I thought maybe they could be the ocean.\" And Tot said, \"Um, last one in's a stinky Gouda.\"",
+      "timestamp": 811.63
     },
     {
       "speaker": "Dad",
-      "text": "And he ran straight down the beach and decided to jump and splash into the water, but it wasn't water, so it didn't go splash. You know what it did? It went  squish.  And, and Tot said, \"Hey, I'm swimming, I'm swimming.\" And he squished around and splashed around in the soft, molten cheese.",
+      "text": "And he ran straight down the beach and decided to jump and splash into the water. But it wasn't water, so it didn't go splash. You know what it did? It went squish. And Tot said, \"Hey, I'm swimming. I'm swimming.\" And he squished around and splashed around in the soft molten cheese.",
       "timestamp": 833.64
     },
     {
@@ -812,7 +792,7 @@
     {
       "speaker": "Izzy",
       "text": "Oh, um, okay. First we gotta, um, like, put our bellies on the cheese, or the water.",
-      "timestamp": 864.16
+      "timestamp": 864.18
     },
     {
       "speaker": "Dad",
@@ -822,7 +802,7 @@
     {
       "speaker": "Izzy",
       "text": "Um, and then kick our legs and do this-",
-      "timestamp": 873.82
+      "timestamp": 873.8
     },
     {
       "speaker": "Dad",
@@ -842,27 +822,27 @@
     {
       "speaker": "Izzy",
       "text": "And kicking your legs.",
-      "timestamp": 884.26
+      "timestamp": 884.24
     },
     {
       "speaker": "Dad",
-      "text": "\"Oh, and I'm kicking my legs. It's hard work 'cause this cheese is kinda gooey.\" And then what?",
+      "text": "\"Oh, and I'm kicking my legs. It's hard work, 'cause this cheese is kinda gooey.\" And then what?",
       "timestamp": 885.59
     },
     {
       "speaker": "Izzy",
       "text": "Nothing.",
-      "timestamp": 892.3
+      "timestamp": 892.22
     },
     {
       "speaker": "Dad",
-      "text": "\"Oh, I'm moving. I'm doing it. I'm swimming.  It makes a funny sound,\" squish, squish, squish.",
+      "text": "\"Oh, I'm moving. I'm doing it. I'm swimming.\" It makes a funny sound, squish, squish, squish.",
       "timestamp": 893.14
     },
     {
       "speaker": "Izzy",
-      "text": "\"Time to swim back,\" called Seeker.",
-      "timestamp": 899.19
+      "text": "\"Time to swim back,\" calls Seeker.",
+      "timestamp": 898.94
     },
     {
       "speaker": "Dad",
@@ -886,7 +866,7 @@
     },
     {
       "speaker": "Dad",
-      "text": "A cheese shark. Hmm, what kind of a cheese is a cheese shark? It's American cheese, so it's very gooey and sticky. And Tot said, \"Oh no, I see the cheese shark's fin.\"",
+      "text": "A cheese shark. Hmm, what kind of a cheese is a cheese shark? It's American cheese, so it's very gooey and sticky. And Tot said, \"Oh, no, I see the cheese shark's fin.\"",
       "timestamp": 924.24
     },
     {
@@ -897,27 +877,27 @@
     {
       "speaker": "Dad",
       "text": "\"Swim, swim, swim.\"",
-      "timestamp": 940.82
+      "timestamp": 940.55
     },
     {
       "speaker": "Izzy",
-      "text": "Okay. Um, and Isabella flew up into the air. She brought her cape, and she grabbed Tot out of the water and flew her back onto the beach.",
+      "text": "Okay. Um, and Isabella flew up into the air. She brought her cape and she grabbed Tot out of the water and flew her back onto the beach.",
       "timestamp": 942.38
     },
     {
       "speaker": "Dad",
       "text": "\"Oh, thank you,\" said Tot. \"You saved me.\"",
-      "timestamp": 956.47
+      "timestamp": 956.46
     },
     {
       "speaker": "Izzy",
-      "text": "\"Yep. I'm, I'm, I'm, I'm a cat superhero.\"",
-      "timestamp": 959.83
+      "text": "\"Yep, I'm, um, I'm, I'm a cat superhero.\"",
+      "timestamp": 959.82
     },
     {
       "speaker": "Dad",
       "text": "\"Really? Wow.\"",
-      "timestamp": 965.16
+      "timestamp": 965.07
     },
     {
       "speaker": "Izzy",
@@ -927,7 +907,7 @@
     {
       "speaker": "Dad",
       "text": "\"Oh, that's okay.\" And so Seeker said, \"Wow, we've had a big Cheese World beach adventure, but now-\"",
-      "timestamp": 972.37
+      "timestamp": 972.36
     },
     {
       "speaker": "Izzy",
@@ -941,12 +921,12 @@
     },
     {
       "speaker": "Izzy",
-      "text": "\"Hi. I- I'm landing right now right next to See- right next to Isabella.\"",
+      "text": "\"Hi. I'm landing right now, right next to Sea- right next to Isabella.\"",
       "timestamp": 986.14
     },
     {
       "speaker": "Dad",
-      "text": "And Seeker said, \"Oh, hi, Kitty. What are, what are you doing here in Cheese World?\"",
+      "text": "Then Seeker said, \"Oh, hi, Kitty. What are, what are you doing here in Cheese World?\"",
       "timestamp": 993.28
     },
     {
@@ -957,7 +937,7 @@
     {
       "speaker": "Dad",
       "text": "\"Who's that? Is that a cat? Help.\"",
-      "timestamp": 998.29
+      "timestamp": 998.3
     },
     {
       "speaker": "Izzy",
@@ -971,7 +951,7 @@
     },
     {
       "speaker": "Izzy",
-      "text": "\"She's friendly. She doesn't bite. She likes, like... She likes saving people.\"",
+      "text": "\"She's friendly. She doesn't bite. She likes, like, she likes saving people.\"",
       "timestamp": 1003.93
     },
     {
@@ -981,7 +961,7 @@
     },
     {
       "speaker": "Izzy",
-      "text": "\"Um, kinda like her cat crew. But her cat crew was real cats, but they're sleeping. They're sleeping. She didn't bring them to the beach.\"",
+      "text": "\"Um, kinda like her cat crew. But her cat crew has real cats, but they're sleeping. They're sleeping. She didn't bring them to the beach.\"",
       "timestamp": 1012.08
     },
     {
@@ -1001,17 +981,17 @@
     },
     {
       "speaker": "Izzy",
-      "text": "\"But she can bring, like, two of the big ones, but she can't bring Pumpkin or Pixie.\"",
+      "text": "\"But she can bring, like, two of the big ones. But she can't bring Pumpkin or Pixie.\"",
       "timestamp": 1029.75
     },
     {
       "speaker": "Dad",
-      "text": "\"Oh.\" Well, Seeker said, \"Nice to see you, Kitty, but we are just heading home because we had a big day at the beach and Tot learned how to swim, and then, um, Isabella rescued Tot from a cheese shark, so now we gotta go home. Here's the going home potion.\"",
+      "text": "\"Oh.\" Well, Seeker said, \"Nice to see you, Kitty, but we are just heading home because we had a big day at the beach and Tot learned how to swim and then, um, Isabella rescued Tot from a cheese shark, so now we gotta go home. Here's the going home potion.\"",
       "timestamp": 1036.87
     },
     {
       "speaker": "Dad",
-      "text": "And they all took a sip. And then in a blink, they were back in the living room of Seeker's castle, and Tot was a little sticky with cheese, but he had something to nibble on for later. And that is the end of Stars and Stories for tonight.",
+      "text": "And they all took a sip and then in a blink they were back in the living room of Seeker's Castle, and Tot was a little sticky with cheese, but he had something to nibble on for later. And that is the end of Stars and Stories for tonight.",
       "timestamp": 1055.46
     },
     {
@@ -1099,7 +1079,19 @@
       "description": "A beautiful vacation spot in Cheese World featuring grated Parmesan sand and an ocean of stinky, soft cheeses like brie and Camembert."
     }
   ],
-  "wordCount": 2492,
-  "izzyWordCount": 932,
-  "dadWordCount": 1560
+  "wordCount": 2468,
+  "izzyWordCount": 921,
+  "dadWordCount": 1547,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T15:31:42.303Z",
+    "speakerMap": {
+      "speaker_0": "Dad",
+      "speaker_1": "Izzy"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "high"
+  }
 }

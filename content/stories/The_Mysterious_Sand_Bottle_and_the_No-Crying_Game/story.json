@@ -17,12 +17,12 @@
     {
       "speaker": "Dad",
       "text": "Okay. I'll turn out the lights.",
-      "timestamp": 2.12
+      "timestamp": 2.1
     },
     {
       "speaker": "Izzy",
       "text": "No, Daddy, turn on the light. Back, back, back, back. Back on.",
-      "timestamp": 9.4
+      "timestamp": 9.38
     },
     {
       "speaker": "Dad",
@@ -47,7 +47,7 @@
     {
       "speaker": "Dad",
       "text": "Off and off. Ah, now we can see stars.",
-      "timestamp": 22.46
+      "timestamp": 22.48
     },
     {
       "speaker": "Izzy",
@@ -57,7 +57,7 @@
     {
       "speaker": "Dad",
       "text": "\"Yes,\" says Seeker.",
-      "timestamp": 29.58
+      "timestamp": 29.59
     },
     {
       "speaker": "Izzy",
@@ -77,7 +77,7 @@
     {
       "speaker": "Dad",
       "text": "And Seeker says, \"Oh, what's this treasure?\"",
-      "timestamp": 36.6
+      "timestamp": 36.56
     },
     {
       "speaker": "Izzy",
@@ -157,7 +157,7 @@
     {
       "speaker": "Dad",
       "text": "It's not.",
-      "timestamp": 77.48
+      "timestamp": 77.44
     },
     {
       "speaker": "Izzy",
@@ -167,7 +167,7 @@
     {
       "speaker": "Dad",
       "text": "Oh.",
-      "timestamp": 81.82
+      "timestamp": 81.8
     },
     {
       "speaker": "Izzy",
@@ -196,18 +196,18 @@
     },
     {
       "speaker": "Dad",
-      "text": "Might as well",
-      "timestamp": 99.31
+      "text": "Might spill, so-",
+      "timestamp": 99.3
     },
     {
       "speaker": "Izzy",
-      "text": "... there's shells in there which you will not wanna eat.",
-      "timestamp": 100.08
+      "text": "... there's shells in there, which you will not wanna eat.",
+      "timestamp": 100.09
     },
     {
       "speaker": "Dad",
       "text": "Oh, I see. It's true, most, most creatures don't like to eat shells.",
-      "timestamp": 103.98
+      "timestamp": 103.92
     },
     {
       "speaker": "Izzy",
@@ -226,13 +226,13 @@
     },
     {
       "speaker": "Dad",
-      "text": "Whoops",
+      "text": "Whoops.",
       "timestamp": 116.7
     },
     {
       "speaker": "Izzy",
-      "text": "... whoops.  So, um, this is the way we shake it. We can either shake it like this or shake it like this or shake it like this. Switching hands. You can shake with one hand, shake with the other, or shake switching hands, okay?",
-      "timestamp": 116.92
+      "text": "Whoops. Um, this is the way we shake it. We can either shake it like this or shake it like this, or shake it like this. Switching hands. You can shake with one hand, shake with the other, or shake switching hands, okay?",
+      "timestamp": 116.93
     },
     {
       "speaker": "Dad",
@@ -242,12 +242,12 @@
     {
       "speaker": "Izzy",
       "text": "Which one do you feel like is the best for you?",
-      "timestamp": 139.7
+      "timestamp": 139.72
     },
     {
       "speaker": "Dad",
-      "text": "Oh, switch hands. Shake, shake. Shake. Shake, shake. Shake, shake. Shake, shake.",
-      "timestamp": 142.9
+      "text": "I'll switch hands. Shake, shake. Shake. Shake, shake. Shake, shake. Shake, shake.",
+      "timestamp": 142.92
     },
     {
       "speaker": "Izzy",
@@ -266,18 +266,23 @@
     },
     {
       "speaker": "Dad",
-      "text": "Ah. Okay.",
-      "timestamp": 156.94
+      "text": "Ah, okay.",
+      "timestamp": 156.92
     },
     {
       "speaker": "Izzy",
-      "text": "Seeker, do you see how the...",
-      "timestamp": 162.64
+      "text": "Seeker, do you see how the potion is?",
+      "timestamp": 162.62
     },
     {
       "speaker": "Dad",
-      "text": "I do see many different colors of sand in there. But now that we've shaken it up so much, they seem to have mixed quite a bit. Sort of turned a reddish purple color, or a bluish, purplish, reddish color, or maybe pinkish. Boy, mixing up even more. They used to have layers of separate colors, but not anymore.",
+      "text": "I do see many different colors of sand in there. But now that we've shaken it up so much, they seem to have mixed quite a bit. It sort of turned a reddish purple color, or a bluish, purplish, reddish color, or maybe pinkish. Boy, mixing up even more.",
       "timestamp": 166.82
+    },
+    {
+      "speaker": "Dad",
+      "text": "They used to have layers of separate colors, but not anymore.",
+      "timestamp": 191.3
     },
     {
       "speaker": "Izzy",
@@ -307,7 +312,7 @@
     {
       "speaker": "Dad",
       "text": "Yes?",
-      "timestamp": 205.3
+      "timestamp": 205.31
     },
     {
       "speaker": "Izzy",
@@ -327,22 +332,22 @@
     {
       "speaker": "Dad",
       "text": "Oh, um-",
-      "timestamp": 236.38
+      "timestamp": 236.36
     },
     {
       "speaker": "Izzy",
       "text": "Where is it?",
-      "timestamp": 237.92
+      "timestamp": 237.94
     },
     {
       "speaker": "Dad",
       "text": "And Dimitar says-",
-      "timestamp": 238.21
+      "timestamp": 238.29
     },
     {
       "speaker": "Izzy",
       "text": "First Dimitar's turn to guess.",
-      "timestamp": 238.76
+      "timestamp": 238.88
     },
     {
       "speaker": "Dad",
@@ -367,7 +372,7 @@
     {
       "speaker": "Dad",
       "text": "I'm more of a bluish purple and it's-",
-      "timestamp": 247.56
+      "timestamp": 247.52
     },
     {
       "speaker": "Izzy",
@@ -406,12 +411,12 @@
     },
     {
       "speaker": "Izzy",
-      "text": "Be quiet. Raise your hand if you know where the potion is, if you know where the bottle is, and the flower. Or if you don't know it, don't raise your hand, and I'll give you a clue. Or if you raise your hand, give... I'll give you a cl- but raise your hand at the end of the game, please.",
+      "text": "Be quiet. Raise your hand if you know where the potion is, if you know where the ball is, and the flower. Or if you don't know it, don't raise your hand, and I'll give you a clue. Or if you raise your hand, give, I'll give you a cl- but raise your hand at the end of the game, please.",
       "timestamp": 306.58
     },
     {
       "speaker": "Izzy",
-      "text": "And I won't say it. I will... I'll put my hand out for stop.  And this will mean go, and this will mean stop. So if I want you to go... So if I want Dimitar to stop, I'll do this. But if I want Seeker to stop, I'll do this. If I want Dimitar to go or if I want Seeker to go, I'll do this or this.",
+      "text": "And I won't say it. I will... I'll put my hand out for stop. And this will mean go, and this will mean stop. So if I want you to go, so if I want Dimitar to stop, I'll do this. But if I want Seeker to stop, I'll do this. If I want Dimitar to go or if I want Seeker to go, I'll do this or this.",
       "timestamp": 335.24
     },
     {
@@ -436,13 +441,13 @@
     },
     {
       "speaker": "Izzy",
-      "text": "At the end of the game, I'll give you clues, and you all gotta find it before the last bell rings. And when the last bell rings, you freeze while I give you the clues. All right? Seeker's turn first, but don't be worried. There's other enemies out there.",
+      "text": "At the end of the game, I'll give you clues, and you all gotta find it before the last bell rings. And when the last bell rings, you freeze while I give you the clues. All right? Seeker's turn first, but don't be worried, there's other enemies out there.",
       "timestamp": 450.93
     },
     {
       "speaker": "Izzy",
       "text": "Go, Seeker.",
-      "timestamp": 479.69
+      "timestamp": 479.73
     },
     {
       "speaker": "Dad",
@@ -451,13 +456,13 @@
     },
     {
       "speaker": "Izzy",
-      "text": "No, no. Let's go again. Seeker. Now remember, um, I'll... Remember, um, so, um, this means stop to Dimitar. So, um, if Dimitar sees this, that means he stops. So, Daddy, um, I'll tell you something. Um, um, Dimitar is a very good listener except for when he doesn't know something, when he doesn't hear one of the rules, so, but he does know all the rules 'cause I said them nice and loud.",
+      "text": "No, no. Let's go again. See. Now remember, um, I'll... Remember, um, so, um, this means stop to Dimitar. So, um, if Dimitar sees this, that means he stops. So, Daddy, um, I'll tell you something. Um, um, Dimitar is a very good listener except for when he doesn't know something, when he doesn't hear one of the rules, so, but he does know all the rules 'cause I said them nice and loud.",
       "timestamp": 482.11
     },
     {
       "speaker": "Izzy",
       "text": "Okay? Can you say, um, Dad. Okay? So-",
-      "timestamp": 523.37
+      "timestamp": 523.35
     },
     {
       "speaker": "Dad",
@@ -467,7 +472,7 @@
     {
       "speaker": "Izzy",
       "text": "... uh, there you go. Um, so and does Dimitar see this?",
-      "timestamp": 530.09
+      "timestamp": 530.07
     },
     {
       "speaker": "Dad",
@@ -476,8 +481,8 @@
     },
     {
       "speaker": "Izzy",
-      "text": "And he stops. And then s- and Seeker's supposed to see this a- and go. First we need to sing the song. Um, Seeker, you sing with me. Where's the flower? Where's the potion?",
-      "timestamp": 539.89
+      "text": "And he stops, and then, and Seeker's supposed to see this a- and go. First we need to sing the song. Um, Seeker, you sing with me. Where's the flower? Where's the potion?",
+      "timestamp": 539.87
     },
     {
       "speaker": "Dad",
@@ -497,12 +502,12 @@
     {
       "speaker": "Izzy",
       "text": "Where's the bottle?",
-      "timestamp": 565.19
+      "timestamp": 565.23
     },
     {
       "speaker": "Dad",
       "text": "Where's the bottle?",
-      "timestamp": 565.23
+      "timestamp": 565.68
     },
     {
       "speaker": "Izzy",
@@ -526,8 +531,8 @@
     },
     {
       "speaker": "Izzy",
-      "text": "Now, just thinking. No, no, let's do this as our thinking one. So, um, so this can be... Let's sing the song. So... We need to do different songs. So, no.  I think we can't play this anymore. No, no, it's... No, Daddy, now we're all done. We'll start with stories.",
-      "timestamp": 573.13
+      "text": "Now, just thinking. No, no. Let's do this as our thinking one. So, um, so this can be... Let's sing the song. So... We need to do different songs. So, no. I think we can't play this anymore. No, no, it's... No, Daddy, now we're all done. We'll start with stories.",
+      "timestamp": 573.15
     },
     {
       "speaker": "Izzy",
@@ -607,12 +612,12 @@
     {
       "speaker": "Dad",
       "text": "We can do something else.",
-      "timestamp": 671.01
+      "timestamp": 671.07
     },
     {
       "speaker": "Izzy",
-      "text": "Mm. Mm. No, I wanna skip reading.",
-      "timestamp": 672.97
+      "text": "Mm. Mm. No, I want to skip reading.",
+      "timestamp": 671.97
     },
     {
       "speaker": "Dad",
@@ -621,13 +626,13 @@
     },
     {
       "speaker": "Izzy",
-      "text": "And I don't wanna do starting stories. Just straight to diaper and bed.",
-      "timestamp": 695.17
+      "text": "And I don't want to do starting stories. Just straight to diaper and bed.",
+      "timestamp": 695.15
     },
     {
       "speaker": "Dad",
       "text": "Okay. We can do that. Yeah.",
-      "timestamp": 700.09
+      "timestamp": 700.07
     },
     {
       "speaker": "Izzy",
@@ -637,12 +642,12 @@
     {
       "speaker": "Dad",
       "text": "All right. I'm gonna turn the light back on.",
-      "timestamp": 704.57
+      "timestamp": 704.61
     },
     {
       "speaker": "Izzy",
       "text": "No, I wanna just do it in the... No, oh, no. No.",
-      "timestamp": 707.19
+      "timestamp": 707.17
     },
     {
       "speaker": "Dad",
@@ -651,8 +656,8 @@
     },
     {
       "speaker": "Izzy",
-      "text": "No, no. No. No. No.   No, no.      No. Just turn... You were supposed to turn those off.",
-      "timestamp": 717.77
+      "text": "No, no, no, no, no. No, no.   No. Just turn... You were supposed to turn those off.",
+      "timestamp": 717.79
     },
     {
       "speaker": "Dad",
@@ -679,7 +684,19 @@
       "description": "A magical realm where colorful sand treasures originate and mysterious creatures dwell."
     }
   ],
-  "wordCount": 1251,
-  "izzyWordCount": 875,
-  "dadWordCount": 376
+  "wordCount": 1253,
+  "izzyWordCount": 876,
+  "dadWordCount": 377,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T15:33:51.495Z",
+    "speakerMap": {
+      "speaker_0": "Izzy",
+      "speaker_1": "Dad"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "high"
+  }
 }

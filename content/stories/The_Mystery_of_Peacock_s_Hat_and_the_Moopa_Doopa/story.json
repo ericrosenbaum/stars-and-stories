@@ -22,11 +22,11 @@
     {
       "speaker": "Dad",
       "text": "Yes.",
-      "timestamp": 23.44
+      "timestamp": 23.42
     },
     {
       "speaker": "Izzy",
-      "text": "You know the light on her.",
+      "text": "You know the light on her?",
       "timestamp": 25.18
     },
     {
@@ -46,28 +46,28 @@
     },
     {
       "speaker": "Izzy",
-      "text": "Um, a ding-dong Seeker. Seeker, Seeker, Seeker.",
-      "timestamp": 56.02
+      "text": "Um, a ding-dong seeker. Seeker, Seeker, Seeker.",
+      "timestamp": 56.08
     },
     {
       "speaker": "Dad",
-      "text": "On who is it? Who is it? Who is it, said Seeker, Seeker, Seeker.",
-      "timestamp": 59.9
+      "text": "On who is it, who is it, who is it, says Seeker, Seeker, Seeker.",
+      "timestamp": 59.88
     },
     {
       "speaker": "Izzy",
-      "text": "It's the security cat.",
-      "timestamp": 63.76
+      "text": "It's the security cats.",
+      "timestamp": 63.74
     },
     {
       "speaker": "Dad",
       "text": "Oh.",
-      "timestamp": 66.8
+      "timestamp": 66.86
     },
     {
       "speaker": "Izzy",
       "text": "Solving mysteries.",
-      "timestamp": 67.01
+      "timestamp": 67.21
     },
     {
       "speaker": "Dad",
@@ -77,7 +77,7 @@
     {
       "speaker": "Izzy",
       "text": "No. Is there any mystery?",
-      "timestamp": 79.06
+      "timestamp": 78.98
     },
     {
       "speaker": "Dad",
@@ -87,7 +87,7 @@
     {
       "speaker": "Izzy",
       "text": "Is there any mystery?",
-      "timestamp": 86.14
+      "timestamp": 86.33
     },
     {
       "speaker": "Dad",
@@ -97,12 +97,12 @@
     {
       "speaker": "Izzy",
       "text": "And what's today's-",
-      "timestamp": 97.68
+      "timestamp": 97.7
     },
     {
       "speaker": "Dad",
       "text": "Well-",
-      "timestamp": 100.4
+      "timestamp": 100.42
     },
     {
       "speaker": "Izzy",
@@ -111,18 +111,8 @@
     },
     {
       "speaker": "Dad",
-      "text": "I seem to recall we were in the middle of trying to solve a mystery the other day involving Peacock the Wizard.",
-      "timestamp": 103.28
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Wow.",
-      "timestamp": 113.1
-    },
-    {
-      "speaker": "Dad",
-      "text": "Do you remember what the problem was there?",
-      "timestamp": 113.78
+      "text": "... I seem to recall we were in the middle of trying to solve a mystery the other day involving Peacock the Wizard. Do you remember what the problem was there?",
+      "timestamp": 103.22
     },
     {
       "speaker": "Izzy",
@@ -131,18 +121,18 @@
     },
     {
       "speaker": "Dad",
-      "text": "That's right, and we found one very interesting clue.",
-      "timestamp": 118.76
+      "text": "That's right. And we found one very interesting clue.",
+      "timestamp": 118.74
     },
     {
       "speaker": "Izzy",
-      "text": "Wow. Which was what?",
+      "text": "Which was what?",
       "timestamp": 123
     },
     {
       "speaker": "Dad",
       "text": "It wasn't a dragonet scale.",
-      "timestamp": 127.78
+      "timestamp": 127.76
     },
     {
       "speaker": "Izzy",
@@ -152,7 +142,7 @@
     {
       "speaker": "Dad",
       "text": "Very interesting. And, and did we talk to Peacock about whether his hat was actually light blue?",
-      "timestamp": 146.26
+      "timestamp": 146.28
     },
     {
       "speaker": "Izzy",
@@ -162,7 +152,7 @@
     {
       "speaker": "Dad",
       "text": "It was my hat that I'm missing now, yes.",
-      "timestamp": 156
+      "timestamp": 156.04
     },
     {
       "speaker": "Izzy",
@@ -176,28 +166,28 @@
     },
     {
       "speaker": "Izzy",
-      "text": "Oh. Come see this. There's one button, and behind that rock, I see some light blue fabric.",
+      "text": "Oh. Come see this. There's one button, and behind that rock I see some light blue fabric.",
       "timestamp": 173.48
     },
     {
       "speaker": "Dad",
-      "text": "Yes, yes. Oh. Oh dear, that means my hat has been ripped by whoever was taking it. And did you find any other clues?",
+      "text": "Yes, yes. Oh, oh dear, that means my hat has been ripped by whoever was taking it. And did you find any other clues?",
       "timestamp": 182.16
     },
     {
       "speaker": "Izzy",
       "text": "Now I'm on a trail of rocks, and then three footprints, and then four purple feathers.",
-      "timestamp": 191.24
+      "timestamp": 191.26
     },
     {
       "speaker": "Dad",
       "text": "And Seeker said, \"My goodness. Let's look closely at these feathers.\" Has anyone got a magnifying glass?",
-      "timestamp": 201.8
+      "timestamp": 201.78
     },
     {
       "speaker": "Izzy",
       "text": "Yes.",
-      "timestamp": 207.14
+      "timestamp": 207.16
     },
     {
       "speaker": "Dad",
@@ -207,7 +197,7 @@
     {
       "speaker": "Izzy",
       "text": "I don't know.",
-      "timestamp": 212.64
+      "timestamp": 212.66
     },
     {
       "speaker": "Dad",
@@ -217,17 +207,17 @@
     {
       "speaker": "Izzy",
       "text": "Nothing",
-      "timestamp": 214.36
+      "timestamp": 215.3
     },
     {
       "speaker": "Dad",
       "text": "... describe-",
-      "timestamp": 215.14
+      "timestamp": 215.31
     },
     {
       "speaker": "Izzy",
-      "text": "I just see that they're dark purple. Peacock, was your... Was the top of your hat dark purple?",
-      "timestamp": 215.43
+      "text": "I just see that they're dark purple. Peacock, was your, was the top of your hat dark purple?",
+      "timestamp": 215.65
     },
     {
       "speaker": "Dad",
@@ -247,7 +237,7 @@
     {
       "speaker": "Izzy",
       "text": "I don't know.",
-      "timestamp": 238.14
+      "timestamp": 238.11
     },
     {
       "speaker": "Dad",
@@ -256,13 +246,13 @@
     },
     {
       "speaker": "Izzy",
-      "text": "Oh, I found a clue. A trail of rocks. Behind it, there's, mm, three footprints, and the footprints lead to another clue.",
+      "text": "Oh, I found a clue. A trail of rocks. Behind it there's, mm, three footprints, and the footprints lead to another clue.",
       "timestamp": 242.22
     },
     {
       "speaker": "Dad",
       "text": "What's the clue?",
-      "timestamp": 257.54
+      "timestamp": 257.4
     },
     {
       "speaker": "Izzy",
@@ -271,17 +261,17 @@
     },
     {
       "speaker": "Dad",
-      "text": "Oh. \"This is a complicated trail,\" said Seeker. Now, Wobbly Whiskers, Sarana, you're experts in using these clues to solve mysteries, so why don't you have a look at those footprints and, and tell us what you see.",
-      "timestamp": 264.08
+      "text": "\"Oh, this is a complicated trail,\" said Seeker. \"Now, Wobbly Whiskers, Sarana, you're experts in using these clues to solve mysteries, so why don't you have a look at those footprints and, and tell us what you see.\"",
+      "timestamp": 263.96
     },
     {
       "speaker": "Izzy",
-      "text": "They're mi- They're, they're dragonet footprints.",
-      "timestamp": 277.3
+      "text": "They're m- they're, they're dragonet footprints.",
+      "timestamp": 277.28
     },
     {
       "speaker": "Dad",
-      "text": "\"They are. Just as I suspected,\" said Seeker. Hmm.",
+      "text": "\"They are. Just as I suspected,\" said Seeker. \"Hmm.\"",
       "timestamp": 280.39
     },
     {
@@ -291,27 +281,27 @@
     },
     {
       "speaker": "Dad",
-      "text": "\"Oh dear, oh dear, oh dear,\" said Peacock the Wizard. \"Now that you know that it seems a dragonet has stolen it, could you please go and retrieve it for me?\" And Seeker says, \"Yes, I think we'll have to go to the Circular Island and see if anyone knows what happened.\"",
+      "text": "\"Oh dear, oh dear, oh dear,\" said Peacock the Wizard. \"Now that you know that it seems a dragonet has stole it, could you please go and retrieve it for me?\" And Seeker says, \"Yes, I think we'll have to go to the Circular Island and see if anyone knows what happened.\"",
       "timestamp": 301.68
     },
     {
       "speaker": "Dad",
-      "text": "\"Will you go with me?\" said Seeker to the security cats.",
-      "timestamp": 321.8
+      "text": "\"Will you go with me?\" said Seeker to the Security Cats.",
+      "timestamp": 321.79
     },
     {
       "speaker": "Izzy",
-      "text": "Security cat, security c- c- yeah.",
+      "text": "Security Cats, Security C- C- yeah.",
       "timestamp": 327.34
     },
     {
       "speaker": "Dad",
-      "text": "And Wobbly Whiskers says, \"This sounds like a case for the security cats.\" And Sarana said, \"Yeah, uh, I thi- I think so. W- Uh, where's this Circular Island? How do we get there?\" And Seeker said-",
+      "text": "And Wobbly Whiskers says, \"This sounds like a case for the Security Cats.\" And Sarana said, \"Yeah, uh, I, I think so. W- uh, where's this Circular Island? How do we get there?\" And Seeker said-",
       "timestamp": 331.12
     },
     {
       "speaker": "Izzy",
-      "text": "Well, we gotta go across a river then across the ocean and then, and then if you see a s- a, a circle, that means you're at the Circular Island.",
+      "text": "Well, we gotta go across a river, then across the ocean, m- and then, and then if you see a s- a, a circle, that means you're at the Circular Island.",
       "timestamp": 344.72
     },
     {
@@ -326,23 +316,23 @@
     },
     {
       "speaker": "Dad",
-      "text": "They're already there.  We better get there, too, Isabella. How are we gonna get there?",
+      "text": "They're already there. We better get there, too, Isabella. How are we gonna get there?",
       "timestamp": 373
     },
     {
       "speaker": "Izzy",
-      "text": "And Isabella pulled out a vehicle with a drawer in it, and they both jumped in the drawer, and Isabella steered it and it went down a tunnel and into the water-",
+      "text": "And Isabella pulled out a vehicle with a drawer in it, and they both jumped in the drawer. And Isabella steered it and it went down a tunnel and into the water.",
       "timestamp": 378.42
     },
     {
       "speaker": "Dad",
-      "text": "Yep",
-      "timestamp": 391.64
+      "text": "Yep.",
+      "timestamp": 391.65
     },
     {
       "speaker": "Izzy",
-      "text": "... and the fins popped out and, um, underwater and drove up when they were at the Circular Island.",
-      "timestamp": 391.65
+      "text": "And the fins popped out and, um, underwater and drove up when they were at the Circular Island.",
+      "timestamp": 391.68
     },
     {
       "speaker": "Dad",
@@ -356,12 +346,12 @@
     },
     {
       "speaker": "Dad",
-      "text": "The Moopa Doopa.  I love it. Well, let's park it on the beach and see if we can find the Security Cats and ask them if they've found anything out yet.",
+      "text": "The Moopa Doopa. I love it. Well, let's park it on the beach and see if we can find the Security Cats and ask them if they've found anything out yet.",
       "timestamp": 416.26
     },
     {
       "speaker": "Izzy",
-      "text": "Um, we're just asking the dragonettes. Icicle, Dimitar.",
+      "text": "Um, we're just asking around that, uh, Icicle, Dimitar.",
       "timestamp": 424.56
     },
     {
@@ -372,12 +362,12 @@
     {
       "speaker": "Izzy",
       "text": "Have you stole Peacock's light blue on the outside and purple on the, purple on the outside and light blue on the inside hat? Have you stolen it?",
-      "timestamp": 443.62
+      "timestamp": 443.58
     },
     {
       "speaker": "Dad",
-      "text": "\"No, I don't even like wearing hats,\" said Dimitar, \"but now that you mention it, you said, uh, purple on the outside?\"",
-      "timestamp": 459.63
+      "text": "\"No, I don't even like wearing hats,\" said Dimitar. \"But now that you mention it, you said, uh, purple on the outside?\"",
+      "timestamp": 459.72
     },
     {
       "speaker": "Izzy",
@@ -386,13 +376,13 @@
     },
     {
       "speaker": "Dad",
-      "text": "The... Oh.",
-      "timestamp": 468.88
+      "text": "The, oh.",
+      "timestamp": 468.9
     },
     {
       "speaker": "Izzy",
       "text": "Purple on the outside and, and light blue fabric on the inside, and light purple fabric.",
-      "timestamp": 468.92
+      "timestamp": 469.09
     },
     {
       "speaker": "Dad",
@@ -412,12 +402,12 @@
     {
       "speaker": "Izzy",
       "text": "No.",
-      "timestamp": 481.76
+      "timestamp": 481.72
     },
     {
       "speaker": "Dad",
       "text": "Oh, what shape was it?",
-      "timestamp": 482.78
+      "timestamp": 482.76
     },
     {
       "speaker": "Izzy",
@@ -446,7 +436,7 @@
     },
     {
       "speaker": "Dad",
-      "text": "Oh, and there they saw a, um, a light purple dragonette wearing a dark purple hat made of purple fabric, and the hat, it looked a little bit ripped, and there was blue on the inside. And he was dancing around impressing some other dragonettes.",
+      "text": "Oh, and there they saw a, um, a light purple dragonet wearing a dark purple hat made of purple fabric, and the hat, it looked a little bit ripped, and there was blue on the inside. And he was dancing around, impressing some other dragonets.",
       "timestamp": 505.52
     },
     {
@@ -456,28 +446,28 @@
     },
     {
       "speaker": "Dad",
-      "text": "Now, just a minute. I'm in the middle of something important.",
-      "timestamp": 531.58
+      "text": "Now just a minute. I'm in the middle of something important.",
+      "timestamp": 531.54
     },
     {
       "speaker": "Izzy",
       "text": "Well, I need to tell you something.",
-      "timestamp": 534.8
+      "timestamp": 534.82
     },
     {
       "speaker": "Dad",
       "text": "Uh-",
-      "timestamp": 537.54
+      "timestamp": 537.55
     },
     {
       "speaker": "Izzy",
       "text": "I'm really mad",
-      "timestamp": 537.58
+      "timestamp": 537.6
     },
     {
       "speaker": "Dad",
       "text": "... who, who, who are you to tell me something?",
-      "timestamp": 539.02
+      "timestamp": 539.04
     },
     {
       "speaker": "Izzy",
@@ -486,8 +476,8 @@
     },
     {
       "speaker": "Dad",
-      "text": "Now, that's quite an accusation, and here on the beach of the Circular Island, we like to settle situations like this with a little rhyming battle. Are you ready for that about the hat?",
-      "timestamp": 547.92
+      "text": "Now that's quite an accusation, and here on the beach of the Circular Island, we like to settle situations like this with a little rhyming battle. Are you ready for that about the hat?",
+      "timestamp": 547.94
     },
     {
       "speaker": "Izzy",
@@ -511,7 +501,7 @@
     },
     {
       "speaker": "Izzy",
-      "text": "Then go ahead, throw some rocks. Slide. Hattie got it.  Got the hat.",
+      "text": "Then go ahead, throw some rocks. Slide. Hattie got it. Got the hat.",
       "timestamp": 587.28
     },
     {
@@ -522,7 +512,7 @@
     {
       "speaker": "Izzy",
       "text": "Well, it can't. Zoom went Isabella. She went under the water, and what did Zeno do? She went down through the Mariana Trench and then up when she was at her house. And then what did Zeno say?",
-      "timestamp": 610.08
+      "timestamp": 610.1
     },
     {
       "speaker": "Dad",
@@ -531,7 +521,7 @@
     },
     {
       "speaker": "Izzy",
-      "text": "And, and, and, and Isabella says, \"Hi, Hattie,\" fix, fix, fix. And Hattie already fixed it up and gave it to Peacock and said, \"Peacock, you stay at my house for all the rest of the day.\" And Peacock took a nap.",
+      "text": "And, and, and, and Isabella says, \"Hi, Mouse Fixfixfix.\" And Mouse already fixed it up and gave it to Peacock and said, \"Peacock, you stay at my house for all the rest of the day.\" And Peacock took a nap.",
       "timestamp": 655.3
     },
     {
@@ -551,12 +541,12 @@
     },
     {
       "speaker": "Izzy",
-      "text": "Za- Zeno tries going as far down as he can, but he only went to the twilight.",
-      "timestamp": 684.3
+      "text": "Ze- Zeno tries going as far down as he can, but he only went to the twilight.",
+      "timestamp": 684.74
     },
     {
       "speaker": "Dad",
-      "text": "Yes, and Zeno said, \"You know what? I'm gonna try to get that hat back. I think I'm on the right track. I'm gonna dive down deep in the water like a quick-swimming otter.\" And he dove, splash, into the water, and he swum down, and he swum down, and he swum down further and further and further.",
+      "text": "Yes, and Zeno said, \"You know what? I'm gonna try to get that hat back. I think I'm on the right track. I'm gonna dive down deep in the water like a quick-swimming otter.\" And he dove, splash, into the water, and he swum down, and he swum down, and he swum down, further and further and further.",
       "timestamp": 693.9
     },
     {
@@ -567,7 +557,7 @@
     {
       "speaker": "Dad",
       "text": "And he says, \"Shoot, I guess I'll have to get a hat some other way, and that will have to wait for another day.\"",
-      "timestamp": 723.58
+      "timestamp": 723.56
     },
     {
       "speaker": "Izzy",
@@ -577,16 +567,16 @@
     {
       "speaker": "Dad",
       "text": "\"Wait a minute. Is this for me?\"",
-      "timestamp": 750.27
+      "timestamp": 750.28
     },
     {
       "speaker": "Izzy",
       "text": "Yes.",
-      "timestamp": 752.68
+      "timestamp": 752.66
     },
     {
       "speaker": "Dad",
-      "text": "\"How nice can you be? I love it. Thank you very much. I will wear it and show my friends and such.\"",
+      "text": "\"How nice can you be? I love it, thank you very much. I will wear it and show my friends and such.\"",
       "timestamp": 753.23
     },
     {
@@ -597,11 +587,11 @@
     {
       "speaker": "Dad",
       "text": "Yep, and we're done. That was fun.",
-      "timestamp": 771.74
+      "timestamp": 771.72
     },
     {
       "speaker": "Izzy",
-      "text": "And then that's the final",
+      "text": "And then that's the final round. And then Mom can let, ah.",
       "timestamp": 774.14
     }
   ],
@@ -669,7 +659,19 @@
       "description": "A home on Cornell Street with a basement containing bins of storybooks."
     }
   ],
-  "wordCount": 1558,
-  "izzyWordCount": 578,
-  "dadWordCount": 980
+  "wordCount": 1562,
+  "izzyWordCount": 582,
+  "dadWordCount": 980,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T15:35:17.017Z",
+    "speakerMap": {
+      "speaker_0": "Dad",
+      "speaker_1": "Izzy"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "high"
+  }
 }

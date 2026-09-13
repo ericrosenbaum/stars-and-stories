@@ -16,13 +16,13 @@
     },
     {
       "speaker": "Izzy",
-      "text": "I'm-",
-      "timestamp": 5.36
+      "text": "Yes",
+      "timestamp": 5.34
     },
     {
       "speaker": "Dad",
       "text": "... for the stars?",
-      "timestamp": 6.26
+      "timestamp": 6.16
     },
     {
       "speaker": "Izzy",
@@ -32,7 +32,7 @@
     {
       "speaker": "Dad",
       "text": "Now, what would you like to tell for your story?",
-      "timestamp": 10.64
+      "timestamp": 10.68
     },
     {
       "speaker": "Izzy",
@@ -42,11 +42,11 @@
     {
       "speaker": "Dad",
       "text": "Buzz, buzz, buzz, buzz.",
-      "timestamp": 17.6
+      "timestamp": 17.03
     },
     {
       "speaker": "Izzy",
-      "text": "I'm making up one kind of honey if you want to taste it.",
+      "text": "I'm setting up one kind of honey if you want to taste it.",
       "timestamp": 18.2
     },
     {
@@ -66,7 +66,7 @@
     },
     {
       "speaker": "Izzy",
-      "text": "It's also a little honey, a little coconut, a little kiwi, a little water, a little broccoli-  ... a little sprinkle.",
+      "text": "It's also a little honey, a little coconut, a little kiwi, a little water, a little broccoli. A little sprinkle.",
       "timestamp": 29.88
     },
     {
@@ -77,7 +77,7 @@
     {
       "speaker": "Izzy",
       "text": "A little different sprinkles.",
-      "timestamp": 44.37
+      "timestamp": 44.36
     },
     {
       "speaker": "Dad",
@@ -92,7 +92,7 @@
     {
       "speaker": "Dad",
       "text": "\"Buzz, buzz,\" said Qu- King Bee. \"Buzz, buzz,\" said Queen Bee.",
-      "timestamp": 58.46
+      "timestamp": 58.48
     },
     {
       "speaker": "Izzy",
@@ -106,7 +106,7 @@
     },
     {
       "speaker": "Izzy",
-      "text": "Yeah, uh-",
+      "text": "Get, uh-",
       "timestamp": 71.74
     },
     {
@@ -141,42 +141,37 @@
     },
     {
       "speaker": "Dad",
-      "text": "And the King and Queen both took a sip of the delicious honey mixture and they said, \"Buzz, buzzalicious.\" \"Wonderful. We've never tasted anything like it,\" said the Queen Bee. But then the King Bee became very serious. \"Now, you are clearly a very special worker bee, Isabuzza, and we need your help.\"",
+      "text": "And the King and Queen both took a sip of the delicious honey mixture and they said, \"Buzz, buzzalicious.\" \"Wonderful. We've never tasted anything like it,\" said the Queen Bee. But then the King Bee became very serious. \"Now, you are clearly a very special worker bee, Isabuzza, and we need your help.",
       "timestamp": 95.28
     },
     {
-      "speaker": "Izzy",
-      "text": "Why?",
-      "timestamp": 123.2
-    },
-    {
       "speaker": "Dad",
-      "text": "There is-",
-      "timestamp": 123.72
+      "text": "There is-\"",
+      "timestamp": 123.02
     },
     {
       "speaker": "Izzy",
-      "text": "'Cause I need to go to school tomorrow.",
-      "timestamp": 123.9
+      "text": "Why? 'Cause I need to go to school tomorrow.",
+      "timestamp": 123.21
     },
     {
       "speaker": "Dad",
-      "text": "Oh, dear. Well, then you will have to help us today, for the bees returning to their hi- to the hive and from their search for nectar are telling us that they can no longer find any flowers. Will you help us?",
+      "text": "Oh, dear. Well, then you will have to help us today, for the bees returning to their hi- to the hive in... from their search for nectar are telling us that they can no longer find any flowers. Will you help us?",
       "timestamp": 126.66
     },
     {
       "speaker": "Izzy",
       "text": "I will. I know where a delicious kind is. Oh, I know, because we turned off the lights.",
-      "timestamp": 148.18
+      "timestamp": 148.26
     },
     {
       "speaker": "Dad",
-      "text": "\"Oh. Oh dear,\" said the King Bee. \"Do whatever you need to do to help our bees find the flowers. Thank you, Isabuzza. Now go forth and buzz.\"",
-      "timestamp": 156.38
+      "text": "\"Oh. Oh, dear,\" said the King Bee. \"Do whatever you need to do to help our bees find the flowers. Thank you, Isabuzza. Now go forth and buzz.\"",
+      "timestamp": 156.36
     },
     {
       "speaker": "Izzy",
-      "text": "Buzz. Buzz.  I'm going to go to the bees. Where's the bees? Which direction?",
+      "text": "Buzz. Buzz. I'm going to go to the bees. Where's the bees? Which direction?",
       "timestamp": 169.8
     },
     {
@@ -202,7 +197,7 @@
     {
       "speaker": "Dad",
       "text": "Oh, thank you. Buzz, buzz, buzz, buzz, buzz. We didn't know where they were 'cause it's so dark.",
-      "timestamp": 196.8
+      "timestamp": 196.86
     },
     {
       "speaker": "Izzy",
@@ -221,8 +216,8 @@
     },
     {
       "speaker": "Dad",
-      "text": "Buzz, buzz, buzz, buzz. Buzz, buzz, buzz, buzz, buzz. And the bees buzzed out, following Isabuzza's instructions in her wiggle dance, and they found the flowers.",
-      "timestamp": 206.48
+      "text": "Buzz, buzz, buzz, buzz, buzz. Buzz, buzz, buzz, buzz, buzz. And the bees buzzed out, following Isabuzza's instructions in her wiggle dance, and they found the flowers.",
+      "timestamp": 209.38
     },
     {
       "speaker": "Izzy",
@@ -272,11 +267,11 @@
     {
       "speaker": "Dad",
       "text": "And how did they do it?",
-      "timestamp": 235.78
+      "timestamp": 235.76
     },
     {
       "speaker": "Izzy",
-      "text": "They made it with, a little bit of sprinkles. No, a little bit of coconut and kiwi.",
+      "text": "They made it with, a, a little bit of sprinkles. No, a little bit of coconut and kiwi.",
       "timestamp": 238.04
     },
     {
@@ -286,13 +281,13 @@
     },
     {
       "speaker": "Izzy",
-      "text": "King and Queen, um, um, my friend worker bees made some new honey if you want to try it.",
-      "timestamp": 268.51
+      "text": "King and Queen, um, um, my friend worker bees made some new honey if you wanna try it.",
+      "timestamp": 267.47
     },
     {
       "speaker": "Dad",
       "text": "And the King and Queen Bee tried it, and they were delighted.",
-      "timestamp": 280.36
+      "timestamp": 280.34
     },
     {
       "speaker": "Izzy",
@@ -321,13 +316,13 @@
     },
     {
       "speaker": "Dad",
-      "text": "What work have you done so far?",
-      "timestamp": 308.4
+      "text": "\"What work have you done so far?\"",
+      "timestamp": 308.36
     },
     {
       "speaker": "Izzy",
-      "text": "I've only done making honey, making honey, making honey, making honey, making honey-  ... making honey.",
-      "timestamp": 311.34
+      "text": "I've only done making honey, making honey, making honey, making honey, making honey- ... making honey.",
+      "timestamp": 311.32
     },
     {
       "speaker": "Dad",
@@ -342,7 +337,7 @@
     {
       "speaker": "Dad",
       "text": "That sounds like very good work. And have you done your work on finding things of different colors?",
-      "timestamp": 323.74
+      "timestamp": 323.72
     },
     {
       "speaker": "Izzy",
@@ -356,13 +351,13 @@
     },
     {
       "speaker": "Izzy",
-      "text": "Yeah. Buzz, buzz, buzz, that's one. Buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz. That's two. Buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz. That's three. Buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz That's four.",
-      "timestamp": 352.24
+      "text": "Yeah. Buzz, buzz, buzz. That's one. Buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz. That's two. Buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz. That's three. Buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz, buzz.",
+      "timestamp": 352.26
     },
     {
       "speaker": "Izzy",
-      "text": "That's five.  That's six.  Seven.  That's eight.  Nine.  10",
-      "timestamp": 376.17
+      "text": "That's four. That's five. That's six. Seven. That's eight. Nine. 10.",
+      "timestamp": 370.11
     },
     {
       "speaker": "Dad",
@@ -371,7 +366,7 @@
     },
     {
       "speaker": "Izzy",
-      "text": "I got through 10 zaps.",
+      "text": "I got through 10 zappings.",
       "timestamp": 395.29
     },
     {
@@ -382,7 +377,7 @@
     {
       "speaker": "Izzy",
       "text": "Oh, of course I did.",
-      "timestamp": 408.67
+      "timestamp": 408.65
     },
     {
       "speaker": "Dad",
@@ -411,42 +406,47 @@
     },
     {
       "speaker": "Izzy",
-      "text": "I'm flying through  oopsies-",
-      "timestamp": 417.63
+      "text": "I'm flying through oopsies-",
+      "timestamp": 417.64
     },
     {
       "speaker": "Dad",
-      "text": "Oh dear",
-      "timestamp": 420.7
+      "text": "Oh, dear",
+      "timestamp": 420.72
     },
     {
       "speaker": "Izzy",
       "text": "... daisies.",
-      "timestamp": 421.29
+      "timestamp": 421.31
     },
     {
       "speaker": "Dad",
-      "text": "We must be very careful not to bonk things when we fly. We bees are very precise with our flying.  And your next lesson is to buzz and fly at the same time. It is not easy.   Very good, Isabuzza. You've passed those tests, and now your final bee work before you can become an official worker bee-",
+      "text": "We must be very careful not to bonk things when we fly. We bees are very precise with our flying. And your next lesson is to buzz and fly at the same time. It is not easy. Very good, Izabuzza. You've passed those tests, and now your final bee work before you can become an official worker bee-",
       "timestamp": 422.03
     },
     {
       "speaker": "Izzy",
       "text": "Mm",
-      "timestamp": 458.31
+      "timestamp": 457.74
     },
     {
       "speaker": "Dad",
-      "text": "... is to buzz a little song while you fly. Can you do it?   \"Bravo, Buzz Buzz.\" And the king and queen bee and all the other bees clapped their little feet,  and said, \"Buzz Buzz, bravo. Conbuzzulations. You are now Isabuzza, an official worker bee.",
-      "timestamp": 458.32
-    },
-    {
-      "speaker": "Dad",
-      "text": "Welcome to our hive.\"",
-      "timestamp": 507.33
+      "text": "... is to buzz a little song while you fly. Can you do it?",
+      "timestamp": 457.74
     },
     {
       "speaker": "Izzy",
-      "text": "Well, the worker bee needs t- Well, the rest of the worker bees need to tell me the instructions on making honey, 'cause last time I did one, two, three, four, five, six, seven, eight jars of honey i- in a row. Oh, and then just dump them out in the whole same cup, in one cup, and then I, I kept doing it every day.",
+      "text": ".",
+      "timestamp": 466.52
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Bravo,\" Buzz Buzz. And the king and queen bee and all the other bees clapped their little feet, and said, \"Buzz Buzz, bravo. Conbuzzulations. You are now Izabuzza, an official worker bee. Welcome to our hive.\"",
+      "timestamp": 490.14
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Well, the worker bee needs t- Well, the rest of the worker bees need to tell me the instructions on making honey, 'cause last time I did one, two, three, four, five, six, seven, eight jars of honey i- in a row. Oh, and then just dumped them out in the whole same cup, in one cup, and then I, I kept doing it every day.",
       "timestamp": 508.5
     },
     {
@@ -457,7 +457,7 @@
     {
       "speaker": "Dad",
       "text": "And the king bee said, \"That is quite all right. You will learn as you make honey for the hive. All of the bees are here to help each other.\" Do you need to go potty, Iz?",
-      "timestamp": 546.43
+      "timestamp": 546.41
     },
     {
       "speaker": "Izzy",
@@ -466,8 +466,13 @@
     },
     {
       "speaker": "Dad",
-      "text": "Oh, okay. That's okay. Well, that is the end of Stars and Stories.  And now it is time to go  um, sit on the potty.",
+      "text": "Oh, okay. That's okay. Well, that is the end of Stars and Stories. And now it is time to go, um, sit on the potty.",
       "timestamp": 557.29
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No",
+      "timestamp": 577.88
     }
   ],
   "characters": [
@@ -499,7 +504,19 @@
       "description": "The dark destination where Isabuzza guides the other bees to harvest nectar."
     }
   ],
-  "wordCount": 1157,
-  "izzyWordCount": 501,
-  "dadWordCount": 656
+  "wordCount": 1166,
+  "izzyWordCount": 509,
+  "dadWordCount": 657,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T15:35:02.810Z",
+    "speakerMap": {
+      "speaker_0": "Dad",
+      "speaker_1": "Izzy"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "high"
+  }
 }
