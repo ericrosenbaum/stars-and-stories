@@ -1,21 +1,10 @@
-/** Smoke-test the configured model ids / API keys against the live APIs.
- * Checks whichever keys are present in tools/.env — Gemini, ElevenLabs, OpenAI. */
+/** Smoke-test the configured API keys / model ids against the live APIs:
+ * ElevenLabs (transcription), the Gemini image model (the only Gemini call
+ * left), and OpenAI (bake-off only). Checks whichever keys are present in tools/.env. */
 import 'dotenv/config';
 import { GoogleGenAI } from '@google/genai';
+import { imageModel } from './lib/gemini.ts';
 import { engineModel } from './lib/asr.ts';
-
-const apiKey = process.env.GEMINI_API_KEY || '';
-const textModel = process.env.GEMINI_TEXT_MODEL || 'gemini-3.5-flash';
-const imageModel = process.env.GEMINI_IMAGE_MODEL || 'gemini-3.1-flash-image-preview';
-
-async function checkText(ai: GoogleGenAI, model: string) {
-  try {
-    const res = await ai.models.generateContent({ model, contents: 'Reply with the single word: ok' });
-    console.log(res.text ? `✓ text model "${model}" works` : `✗ text model "${model}" responded with no text`);
-  } catch (e: any) {
-    console.log(`✗ text model "${model}" FAILED: ${e?.message || e}`);
-  }
-}
 
 async function checkImage(ai: GoogleGenAI, model: string) {
   try {
@@ -25,18 +14,23 @@ async function checkImage(ai: GoogleGenAI, model: string) {
       config: { imageConfig: { aspectRatio: '16:9', imageSize: '1K' } },
     });
     const ok = res.candidates?.[0]?.content?.parts?.some((p: any) => p.inlineData);
-    console.log(ok ? `✓ image model "${model}" works` : `✗ image model "${model}" returned no image`);
+    console.log(ok ? `✓ Gemini image model "${model}" works` : `✗ Gemini image model "${model}" returned no image`);
   } catch (e: any) {
-    console.log(`✗ image model "${model}" FAILED: ${e?.message || e}`);
+    console.log(`✗ Gemini image model "${model}" FAILED: ${e?.message || e}`);
   }
 }
 
-async function checkElevenLabs() {
+async function checkElevenLabs(model: string) {
   try {
-    const res = await fetch('https://api.elevenlabs.io/v1/user', {
+    // /v1/models needs no special permission and confirms the key + the STT model id.
+    const res = await fetch('https://api.elevenlabs.io/v1/models', {
       headers: { 'xi-api-key': process.env.ELEVENLABS_API_KEY! },
     });
-    console.log(res.ok ? '✓ ElevenLabs API key works' : `✗ ElevenLabs API key FAILED (HTTP ${res.status})`);
+    if (!res.ok) {
+      console.log(`✗ ElevenLabs API key FAILED (HTTP ${res.status})`);
+      return;
+    }
+    console.log(`✓ ElevenLabs API key works (transcription model: ${model})`);
   } catch (e: any) {
     console.log(`✗ ElevenLabs check FAILED: ${e?.message || e}`);
   }
@@ -55,20 +49,15 @@ async function checkOpenAI(model: string) {
   }
 }
 
-if (!apiKey && !process.env.ELEVENLABS_API_KEY && !process.env.OPENAI_API_KEY) {
-  console.error('No API keys set in tools/.env (GEMINI_API_KEY, ELEVENLABS_API_KEY, OPENAI_API_KEY).');
+const geminiKey = process.env.GEMINI_API_KEY || '';
+if (!geminiKey && !process.env.ELEVENLABS_API_KEY && !process.env.OPENAI_API_KEY) {
+  console.error('No API keys set in tools/.env (ELEVENLABS_API_KEY, GEMINI_API_KEY, OPENAI_API_KEY).');
   process.exit(1);
 }
 
-if (apiKey) {
-  const ai = new GoogleGenAI({ apiKey });
-  await checkText(ai, textModel);
-  await checkImage(ai, imageModel);
-  const transcribe = engineModel('gemini-flash');
-  if (transcribe !== textModel) await checkText(ai, transcribe);
-} else {
-  console.log('- skipping Gemini checks (GEMINI_API_KEY not set)');
-}
-if (process.env.ELEVENLABS_API_KEY) await checkElevenLabs();
+if (process.env.ELEVENLABS_API_KEY) await checkElevenLabs(engineModel('scribe-v2'));
+else console.log('- ELEVENLABS_API_KEY not set — transcription (npm run add / retranscribe) will not work');
+if (geminiKey) await checkImage(new GoogleGenAI({ apiKey: geminiKey }), imageModel());
+else console.log('- GEMINI_API_KEY not set — header/storyboard image generation will not work');
 if (process.env.OPENAI_API_KEY) await checkOpenAI(engineModel('openai-diarize'));
-console.log('\nIf a model failed, set GEMINI_TEXT_MODEL / GEMINI_IMAGE_MODEL / GEMINI_TRANSCRIBE_MODEL in tools/.env to a current model id.');
+console.log('\nIf the image model failed, set GEMINI_IMAGE_MODEL in tools/.env to a current model id.');

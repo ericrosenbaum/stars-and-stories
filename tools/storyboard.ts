@@ -5,15 +5,16 @@
  *   npx tsx storyboard.ts <story-slug> [options]
  *
  * Modes:
- *   (default)            plan the scenes with Gemini, then generate every frame
+ *   (none)               print the PLANNING BRIEF: story context plus the rules
+ *                        the Claude Code agent follows to write the scene plan
+ *   --plan <file.json>   install this plan ({ "scenes": [{ caption, quoteSpeaker,
+ *                        quoteText, imagePrompt }] }) and generate every frame
  *   --scene N            regenerate just frame N (using its neighbors as
  *                        continuity references); combine with --prompt to
  *                        replace that scene's image prompt first
- *   --plan-only          write/print the scene plan without generating images
+ *   --plan-only          with --plan: write the plan without generating images
  *
  * Options:
- *   --scenes N           ask the planner for exactly N scenes (default: model
- *                        decides, usually 6-12)
  *   --prompt "..."       with --scene N: use this exact prompt for the frame
  *   --no-webp            skip re-encoding the served webp(s)
  *   --no-build           don't rebuild the site data bundle afterwards
@@ -35,7 +36,8 @@ import { ROOT, CONTENT_STORIES_DIR, SITE_MEDIA_DIR, ensureDir } from './lib/path
 import { optimizeImage } from './lib/media.ts';
 import { loadCharacterRefImages } from './lib/refimages.ts';
 import { recoverQuoteTimestamp } from './lib/quote.ts';
-import { generateStoryboardPlan, generateImageFromPrompt, type FrameRef } from './lib/gemini.ts';
+import { generateImageFromPrompt, type FrameRef } from './lib/gemini.ts';
+import { storyboardPlanBrief } from './lib/prompt-guide.ts';
 import { buildSite } from './build-site.ts';
 import type { StoryRecord } from './lib/types.ts';
 
@@ -64,7 +66,7 @@ function flagValue(name: string): string | null {
   valueIdxs.add(idx + 1);
   return args[idx + 1] ?? null;
 }
-const scenesRaw = flagValue('--scenes');
+const planFile = flagValue('--plan');
 const sceneRaw = flagValue('--scene');
 const customPrompt = flagValue('--prompt');
 const positional = args.filter((a, i) => !a.startsWith('--') && !valueIdxs.has(i));
@@ -72,7 +74,7 @@ const slug = positional[0];
 
 function usage(): never {
   console.error(
-    'Usage: npx tsx storyboard.ts <story-slug> [--scenes N] [--scene N [--prompt "..."]] [--plan-only] [--no-webp] [--no-build]',
+    'Usage: npx tsx storyboard.ts <story-slug> [--plan <file.json> [--plan-only] | --scene N [--prompt "..."]] [--no-webp] [--no-build]',
   );
   process.exit(1);
 }
@@ -87,8 +89,15 @@ const parseCount = (raw: string | null, flag: string): number | null => {
   }
   return n;
 };
-const sceneCount = parseCount(scenesRaw, '--scenes');
 const sceneToRedo = parseCount(sceneRaw, '--scene');
+if (flags.has('--plan') && (!planFile || planFile.startsWith('--'))) {
+  console.error('--plan requires a file path.');
+  process.exit(1);
+}
+if (planFile !== null && sceneToRedo !== null) {
+  console.error('Use either --plan (whole storyboard) or --scene N (one frame), not both.');
+  process.exit(1);
+}
 if (customPrompt !== null && sceneToRedo === null) {
   console.error('--prompt only applies together with --scene N.');
   process.exit(1);
@@ -178,10 +187,35 @@ if (sceneToRedo !== null) {
     console.log('Rebuilding site data...');
     await buildSite();
   }
+} else if (planFile === null) {
+  // ---- no mode: print the brief the agent needs to write the plan ----
+  console.log(`\n${storyboardPlanBrief(story, refImages.map((r) => r.name))}`);
+  if (fs.existsSync(sbJsonPath)) console.log(`\nA storyboard already exists (${path.relative(ROOT, sbJsonPath)}); --plan replaces it entirely, --scene N redoes one frame.`);
+  process.exit(0);
 } else {
-  // ---- plan (and generate) the whole storyboard ----
-  console.log(`\nPlanning the storyboard with Gemini${sceneCount ? ` (${sceneCount} scenes)` : ''}...`);
-  const plan = await generateStoryboardPlan(story.summary, story.transcript, refImages, sceneCount ?? undefined);
+  // ---- install the agent's plan (and generate) the whole storyboard ----
+  interface PlannedScene {
+    caption: string;
+    quoteSpeaker: string;
+    quoteText: string;
+    imagePrompt: string;
+  }
+  let plan: PlannedScene[];
+  try {
+    const data = JSON.parse(fs.readFileSync(planFile, 'utf8'));
+    plan = Array.isArray(data) ? data : data?.scenes;
+    if (!Array.isArray(plan) || !plan.length) throw new Error('expected { "scenes": [...] } with at least one scene');
+    plan.forEach((p, i) => {
+      for (const k of ['caption', 'quoteSpeaker', 'quoteText', 'imagePrompt'] as const) {
+        if (typeof p?.[k] !== 'string' || !p[k].trim()) throw new Error(`scene ${i + 1} is missing "${k}"`);
+      }
+    });
+    if (plan.length > 16) throw new Error(`${plan.length} scenes is too many (max 16)`);
+  } catch (e: any) {
+    console.error(`Bad plan file ${planFile}: ${e?.message || e}`);
+    process.exit(1);
+  }
+  console.log(`\nInstalling a ${plan.length}-scene plan from ${planFile}...`);
 
   const scenes: StoryboardScene[] = plan.map((p, i) => {
     const timestamp = recoverQuoteTimestamp(p.quoteText, story.transcript);

@@ -51,6 +51,7 @@ import {
 import { recomputeEntityLinks } from './lib/entities.ts';
 import { computeWordCounts } from './lib/wordcount.ts';
 import { buildSite } from './build-site.ts';
+import { compileRules, makeFixer, type SpellingRule } from './lib/spellings.ts';
 import type { CanonicalEntity, EmbeddedEntity, StoryRecord } from './lib/types.ts';
 
 interface MergeSpec {
@@ -60,12 +61,6 @@ interface MergeSpec {
   descriptionFrom?: string;
   aliases?: string[];
   embedIn?: string[];
-}
-interface SpellingRule {
-  from: string;
-  to: string;
-  regex?: boolean;
-  caseSensitive?: boolean;
 }
 interface MergePlan {
   merges?: MergeSpec[];
@@ -116,53 +111,6 @@ function readJson<T>(file: string): JsonFile<T> {
 function writeJson(file: string, data: unknown, fmt: { indent: number; trailingNewline: boolean }, dryRun: boolean): void {
   if (dryRun) return;
   fs.writeFileSync(file, JSON.stringify(data, null, fmt.indent) + (fmt.trailingNewline ? '\n' : ''));
-}
-
-function escapeRegExp(s: string): string {
-  return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-}
-
-function preserveCase(matched: string, to: string): string {
-  if (matched.length > 1 && matched === matched.toUpperCase() && matched !== matched.toLowerCase()) {
-    return to.toUpperCase();
-  }
-  const first = matched[0];
-  if (first && first === first.toLowerCase() && first !== first.toUpperCase()) {
-    return to[0].toLowerCase() + to.slice(1);
-  }
-  return to;
-}
-
-interface CompiledRule extends SpellingRule {
-  rx: RegExp;
-  hits: number;
-}
-
-function compileRules(rules: SpellingRule[]): CompiledRule[] {
-  return rules.map((r) => {
-    if (!r.from || typeof r.to !== 'string') fail(`bad spelling rule: ${JSON.stringify(r)}`);
-    const flags = r.caseSensitive ? 'g' : 'gi';
-    const rx = r.regex ? new RegExp(r.from, flags) : new RegExp(`\\b${escapeRegExp(r.from)}\\b`, flags);
-    return { ...r, rx, hits: 0 };
-  });
-}
-
-function makeFixer(rules: CompiledRule[]) {
-  return (text: string): string => {
-    if (typeof text !== 'string' || !text) return text;
-    let out = text;
-    for (const r of rules) {
-      out = out.replace(r.rx, (...args: any[]) => {
-        r.hits++;
-        if (r.regex) {
-          // Expand $1..$9 group references manually so we can count hits.
-          return r.to.replace(/\$(\d)/g, (_, n) => args[Number(n)] ?? '');
-        }
-        return preserveCase(args[0], r.to);
-      });
-    }
-    return out;
-  };
 }
 
 /** Spell-fix every prose string in a JSON tree, skipping identifier keys. */
@@ -322,7 +270,12 @@ function main() {
   for (const id of removeIds) console.log(`  removed: ${byId.get(id)!.name} (${id})`);
 
   // ---- spellings ------------------------------------------------------------------
-  const rules = compileRules(plan.spellings ?? []);
+  let rules: ReturnType<typeof compileRules>;
+  try {
+    rules = compileRules(plan.spellings ?? []);
+  } catch (e: any) {
+    fail(e?.message || String(e));
+  }
   const fix = makeFixer(rules);
   for (const c of characters) {
     c.name = fix(c.name);

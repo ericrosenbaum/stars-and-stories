@@ -12,7 +12,7 @@ import path from 'node:path';
 import { ROOT, CONTENT_STORIES_DIR, SITE_MEDIA_DIR, ensureDir } from './paths.ts';
 import { optimizeImage } from './media.ts';
 import { loadCharacterRefImages } from './refimages.ts';
-import { generateImagePromptCandidates, generateImageFromPrompt } from './gemini.ts';
+import { generateImageFromPrompt } from './gemini.ts';
 import type { StoryRecord } from './types.ts';
 
 const WEBP_QUALITY = Number(process.env.WEBP_QUALITY || '72');
@@ -34,13 +34,15 @@ const candidatesDir = (slug: string) => path.join(CONTENT_STORIES_DIR, slug, 'ca
 const candidatesJsonPath = (slug: string) => path.join(candidatesDir(slug), 'candidates.json');
 
 /**
- * Generate a fresh batch of header-image candidates for a story. Replaces any
- * previous batch. Never touches the story's existing source.png/header.webp.
+ * Generate a fresh batch of header-image candidates for a story from prompts
+ * written by the Claude Code agent (`opts.prompts`, one candidate each) or one
+ * exact prompt rendered `count` times. Replaces any previous batch. Never
+ * touches the story's existing source.png/header.webp.
  */
 export async function generateHeaderCandidates(
   slug: string,
   story: StoryRecord,
-  opts: { feedback?: string; exactPrompt?: string; count?: number } = {},
+  opts: { prompts?: string[]; exactPrompt?: string; count?: number; feedback?: string } = {},
 ): Promise<CandidateSet> {
   const count = opts.count ?? 3;
   const refImages = loadCharacterRefImages(story.characters);
@@ -57,16 +59,17 @@ export async function generateHeaderCandidates(
     // three different treatments of the requested scene.
     prompts = Array.from({ length: count }, () => opts.exactPrompt!);
     console.log(`\nUsing the provided prompt for all ${count} candidates:\n${opts.exactPrompt}\n`);
-  } else {
-    console.log(`\nGenerating ${count} prompt candidates with Gemini${opts.feedback ? ' (incorporating your feedback)' : ''}...`);
-    prompts = await generateImagePromptCandidates(story.summary, story.transcript, refImages, {
-      count,
-      feedback: opts.feedback,
-    });
+  } else if (opts.prompts?.length) {
+    prompts = opts.prompts.filter((p) => typeof p === 'string' && p.trim());
+    if (!prompts.length) throw new Error('All provided prompts are empty.');
     prompts.forEach((p, i) => console.log(`\nPrompt ${i + 1}:\n${p}`));
+  } else {
+    throw new Error(
+      `No prompts. Write them first — \`npm run regen-image -- ${slug}\` prints the brief — then pass --prompts <file.json>.`,
+    );
   }
 
-  console.log(`\nGenerating ${prompts.length} candidate image(s) with Gemini...`);
+  console.log(`\nGenerating ${prompts.length} candidate image(s) with the Gemini image model...`);
   const images = await Promise.all(
     prompts.map((p) =>
       generateImageFromPrompt(p, refImages).catch((e) => {
@@ -111,10 +114,28 @@ export async function generateHeaderCandidates(
   console.log(`Review them:  open "${galleryPath}"`);
   console.log(`Then either:`);
   console.log(`  npm run regen-image -- ${slug} --select <n>        # use candidate n as the header`);
-  console.log(`  npm run regen-image -- ${slug} --suggest "..."     # new batch with your feedback`);
+  console.log(`  npm run regen-image -- ${slug} --prompts <file>   # new batch from new prompts`);
+  console.log(`  npm run regen-image -- ${slug} --reroll           # new batch from the same prompts`);
   console.log(`  npm run regen-image -- ${slug} --discard           # keep the existing image`);
 
   return { dir, galleryPath, items };
+}
+
+/**
+ * Re-run the CURRENT batch's prompts for a fresh set of treatments (the image
+ * model is nondeterministic). Used by the studio's "try again" button, which
+ * has no LLM to write new prompts with.
+ */
+export async function rerollHeaderCandidates(slug: string, story: StoryRecord): Promise<CandidateSet> {
+  const jsonPath = candidatesJsonPath(slug);
+  if (!fs.existsSync(jsonPath)) {
+    throw new Error(`No candidate batch for "${slug}" to re-roll. Write prompts and run: npm run regen-image -- ${slug} --prompts <file>`);
+  }
+  const { items } = JSON.parse(fs.readFileSync(jsonPath, 'utf8')) as { items: CandidateItem[] };
+  const prompts = items.map((it) => it.prompt).filter(Boolean);
+  if (!prompts.length) throw new Error(`The candidate batch for "${slug}" has no prompts recorded.`);
+  console.log(`Re-rolling ${prompts.length} prompt(s) from the current batch...`);
+  return generateHeaderCandidates(slug, story, { prompts });
 }
 
 /**
@@ -214,7 +235,7 @@ ${cards}
 </div>
 <footer>
   <p>Pick one: <code>npm run regen-image -- ${esc(slug)} --select &lt;n&gt;</code>
-  &nbsp;|&nbsp; New batch: <code>npm run regen-image -- ${esc(slug)} --suggest "..."</code>
+  &nbsp;|&nbsp; New batch: <code>npm run regen-image -- ${esc(slug)} --prompts &lt;file&gt;</code> or <code>--reroll</code>
   &nbsp;|&nbsp; Keep current: <code>npm run regen-image -- ${esc(slug)} --discard</code></p>
 </footer>
 </body>

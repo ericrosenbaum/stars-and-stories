@@ -11,6 +11,10 @@ export const CONTENT_STORIES_DIR = path.join(CONTENT_DIR, 'stories');
 export const CONTENT_CHARACTERS = path.join(CONTENT_DIR, 'characters.json');
 export const CONTENT_PLACES = path.join(CONTENT_DIR, 'places.json');
 export const CONTENT_MANIFEST = path.join(CONTENT_DIR, 'manifest.json');
+// Curated name-misspelling rules applied to every transcript (lib/spellings.ts).
+export const CONTENT_SPELLINGS = path.join(CONTENT_DIR, 'spellings.json');
+// Transcribed recordings awaiting the agent's analysis (gitignored; local flow state).
+export const CONTENT_DRAFTS_DIR = path.join(CONTENT_DIR, 'drafts');
 export const CONTENT_WORLD_DNA = path.join(CONTENT_DIR, 'world-dna.md');
 // A hand-authored standalone page, copied to site/public and served next to the
 // SPA (it is its own document, not a view). See content/dragonet-dossier.md.

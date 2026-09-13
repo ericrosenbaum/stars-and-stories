@@ -1,40 +1,67 @@
 /**
- * Transcription engine registry for the bake-off and retranscribe tools.
- * Every engine returns the same normalized TranscriptItem[] with speakers
- * already mapped to "Dad"/"Izzy" so downstream word counts and the site
- * work regardless of which engine produced the transcript.
+ * Transcription. ElevenLabs Scribe is THE engine for the archive: `npm run add`
+ * and `npm run retranscribe` always use it. OpenAI's diarizing model is kept
+ * only so `npm run bakeoff` can compare against it. Every engine returns the
+ * same normalized TranscriptItem[] with speakers mapped to "Dad"/"Izzy".
+ *
+ * Name consistency, without any LLM in the loop:
+ *  - Scribe receives the archive's canonical character/place names as
+ *    `keyterms` (lib/lexicon.ts: every recurring name, capped at 250 because
+ *    larger lists break Scribe's diarization), so familiar names come back in
+ *    the spelling the archive already uses.
+ *  - Every transcript then passes through the curated misspelling list in
+ *    content/spellings.json (lib/spellings.ts).
+ *  - Raw diarization labels (speaker_0/1) are mapped to Dad/Izzy by aligning
+ *    against the story's previous transcript when there is one (retranscribe),
+ *    otherwise from dialogue cues — see mapSpeakers().
  */
 import fs from 'node:fs';
 import path from 'node:path';
-import { Type } from '@google/genai';
-import { getAI, transcribeAudio, transcribeModel } from './gemini.ts';
 import { countWords, computeWordCounts } from './wordcount.ts';
-import type { NameLexicon } from './lexicon.ts';
+import { loadKeyterms } from './lexicon.ts';
+import { normalizeTranscriptSpellings } from './spellings.ts';
 import type { TranscriptItem } from './types.ts';
 
-export type EngineId = 'gemini-flash' | 'gemini-pro' | 'scribe-v2' | 'openai-diarize';
-export const ALL_ENGINES: EngineId[] = ['gemini-flash', 'gemini-pro', 'scribe-v2', 'openai-diarize'];
+export type EngineId = 'scribe-v2' | 'openai-diarize';
+export const ALL_ENGINES: EngineId[] = ['scribe-v2', 'openai-diarize'];
+/** The one engine the archive is transcribed with. */
+export const ARCHIVE_ENGINE: EngineId = 'scribe-v2';
 
-/**
- * Engine used by the primary pipeline (`npm run add`) and the default for
- * `npm run retranscribe`. Override per-run with `--engine`, or globally with
- * `TRANSCRIBE_ENGINE` in tools/.env (falls back to the default if unrecognized).
- */
-export function defaultEngine(): EngineId {
-  const env = process.env.TRANSCRIBE_ENGINE;
-  return env && (ALL_ENGINES as string[]).includes(env) ? (env as EngineId) : 'scribe-v2';
-}
+// FAKE_GEMINI=1 (the pipeline-wide "no paid API calls" switch) also stubs the
+// transcription call with a canned two-speaker transcript.
+const FAKE = !!process.env.FAKE_GEMINI && process.env.FAKE_GEMINI !== '0';
+
+export type SpeakerMapMethod = 'reference' | 'cues' | 'word-share' | 'fake';
 
 export interface EngineResult {
   engine: EngineId;
   model: string; // resolved model id
-  transcript: TranscriptItem[]; // speakers already mapped to Dad/Izzy
+  transcript: TranscriptItem[]; // speakers mapped to Dad/Izzy, spellings normalized
   counts: ReturnType<typeof computeWordCounts>; // total/Izzy/Dad word counts
-  rawSpeakerMap?: Record<string, string>; // e.g. { speaker_0: 'Dad' } (acoustic engines only)
-  speakerMapMethod?: 'gemini' | 'word-share'; // how the raw labels were mapped
+  rawSpeakerMap?: Record<string, string>; // e.g. { speaker_0: 'Dad' }
+  speakerMapMethod?: SpeakerMapMethod;
+  /** 'low' means the mapping deserves a human glance (signals disagreed or were weak). */
+  speakerMapConfidence?: 'high' | 'low';
+  /** How the mapping was decided (shares, cue counts) — printed when confidence is low. */
+  speakerMapNote?: string;
+  keytermCount: number;
+  /** Spelling rules that fired on this transcript ("from -> to": count). */
+  spellingFixes: Record<string, number>;
   elapsedMs: number;
   estimatedCostUsd: number | null;
   costNote: string; // the formula used, so estimates are auditable
+}
+
+/** The provider refused the request for want of credits/quota — stop the batch, don't retry. */
+export class QuotaExceededError extends Error {
+  constructor(
+    public engine: EngineId,
+    public status: number,
+    detail: string,
+  ) {
+    super(`${engine}: quota/credits exhausted (HTTP ${status}): ${detail}`);
+    this.name = 'QuotaExceededError';
+  }
 }
 
 /** MIME type for an audio file, by extension (bakeoff accepts any audio path). */
@@ -64,10 +91,6 @@ export async function audioDurationSec(audioPath: string): Promise<number | null
 
 export function engineModel(engine: EngineId): string {
   switch (engine) {
-    case 'gemini-flash':
-      return transcribeModel();
-    case 'gemini-pro':
-      return process.env.GEMINI_PRO_MODEL || 'gemini-3.1-pro-preview';
     case 'scribe-v2':
       return process.env.ELEVENLABS_STT_MODEL || 'scribe_v2';
     case 'openai-diarize':
@@ -76,57 +99,41 @@ export function engineModel(engine: EngineId): string {
 }
 
 export function engineAvailable(engine: EngineId): { ok: boolean; reason?: string } {
+  if (FAKE) return { ok: true };
   if (engine === 'scribe-v2') {
     return process.env.ELEVENLABS_API_KEY ? { ok: true } : { ok: false, reason: 'ELEVENLABS_API_KEY not set' };
   }
-  if (engine === 'openai-diarize') {
-    return process.env.OPENAI_API_KEY ? { ok: true } : { ok: false, reason: 'OPENAI_API_KEY not set' };
-  }
-  return process.env.GEMINI_API_KEY || process.env.API_KEY
-    ? { ok: true }
-    : { ok: false, reason: 'GEMINI_API_KEY not set' };
+  return process.env.OPENAI_API_KEY ? { ok: true } : { ok: false, reason: 'OPENAI_API_KEY not set' };
 }
 
-// Pricing as of 2026-07 — spot-check against the providers' pricing pages
-// before trusting an estimate to the cent. Gemini audio is billed at 32
-// tokens/second of input; the per-token audio rates below are the least
-// certain numbers here (Google's audio rate differs from the text rate).
-const GEMINI_AUDIO_TOKENS_PER_SEC = 32;
+// Pricing as of 2026-09 — spot-check against the providers' pricing pages
+// before trusting an estimate to the cent. Scribe adds 20% when keyterms are
+// sent (we always send them).
 const PRICING = {
-  'gemini-flash': { audioInPerM: 1.0, outPerM: 3.0 },
-  'gemini-pro': { audioInPerM: 2.0, outPerM: 12.0 },
-  'scribe-v2': { perHour: 0.22 },
+  'scribe-v2': { perHour: 0.22, keytermSurcharge: 1.2 },
   'openai-diarize': { perMinute: 0.006 },
 } as const;
 
 export function estimateCost(
   engine: EngineId,
   durationSec: number | null,
-  transcriptWords = 0,
+  keyterms = 0,
 ): { usd: number | null; note: string } {
   if (durationSec == null || !isFinite(durationSec) || durationSec <= 0) {
     return { usd: null, note: 'audio duration unknown — no estimate' };
   }
   const min = durationSec / 60;
   if (engine === 'scribe-v2') {
-    const usd = (durationSec / 3600) * PRICING[engine].perHour;
-    return { usd, note: `${min.toFixed(1)} min × $${PRICING[engine].perHour}/hr` };
+    const p = PRICING[engine];
+    const mult = keyterms ? p.keytermSurcharge : 1;
+    const usd = (durationSec / 3600) * p.perHour * mult;
+    return { usd, note: `${min.toFixed(1)} min × $${p.perHour}/hr${keyterms ? ' × 1.2 (keyterms)' : ''}` };
   }
-  if (engine === 'openai-diarize') {
-    const usd = min * PRICING[engine].perMinute;
-    return { usd, note: `${min.toFixed(1)} min × $${PRICING[engine].perMinute}/min` };
-  }
-  const p = PRICING[engine];
-  const inTokens = durationSec * GEMINI_AUDIO_TOKENS_PER_SEC;
-  const outTokens = Math.round(transcriptWords * 1.4) || Math.round(durationSec * 3);
-  const usd = (inTokens / 1e6) * p.audioInPerM + (outTokens / 1e6) * p.outPerM;
-  return {
-    usd,
-    note: `${inTokens.toLocaleString()} audio tokens × $${p.audioInPerM}/M + ~${outTokens.toLocaleString()} output tokens × $${p.outPerM}/M (estimated)`,
-  };
+  const usd = min * PRICING[engine].perMinute;
+  return { usd, note: `${min.toFixed(1)} min × $${PRICING[engine].perMinute}/min` };
 }
 
-// ---- acoustic engines ----
+// ---- engines ----
 
 interface RawSegment {
   rawSpeaker: string;
@@ -144,6 +151,16 @@ function dumpRaw(dir: string | undefined, engine: EngineId, data: unknown): stri
   } catch {
     return null;
   }
+}
+
+/** Throw QuotaExceededError for the provider's out-of-credits responses, a plain Error otherwise. */
+async function throwApiError(engine: EngineId, res: Response): Promise<never> {
+  const body = (await res.text()).slice(0, 500);
+  const quotaish = /quota|credit|exceed|insufficient|payment|billing|limit_reached/i.test(body);
+  if (res.status === 402 || res.status === 429 || (res.status === 401 && quotaish) || (res.status === 400 && quotaish)) {
+    throw new QuotaExceededError(engine, res.status, body);
+  }
+  throw new Error(`${engine === 'scribe-v2' ? 'ElevenLabs' : 'OpenAI'} API error ${res.status}: ${body}`);
 }
 
 /**
@@ -176,19 +193,26 @@ function foldScribeWords(words: any[]): RawSegment[] {
   return segments.map((s) => ({ ...s, text: s.text.trim() })).filter((s) => s.text);
 }
 
-async function runScribe(audioPath: string, model: string, rawDumpDir?: string): Promise<RawSegment[]> {
+async function runScribe(
+  audioPath: string,
+  model: string,
+  keyterms: string[],
+  rawDumpDir?: string,
+): Promise<RawSegment[]> {
   const form = new FormData();
   form.append('file', new Blob([fs.readFileSync(audioPath)], { type: mimeTypeFor(audioPath) }), path.basename(audioPath));
   form.append('model_id', model);
+  form.append('language_code', 'en');
   form.append('diarize', 'true');
+  form.append('num_speakers', '2'); // every recording is Dad + Izzy
+  form.append('tag_audio_events', 'false');
+  for (const term of keyterms) form.append('keyterms', term);
   const res = await fetch('https://api.elevenlabs.io/v1/speech-to-text', {
     method: 'POST',
     headers: { 'xi-api-key': process.env.ELEVENLABS_API_KEY! },
     body: form,
   });
-  if (!res.ok) {
-    throw new Error(`ElevenLabs API error ${res.status}: ${(await res.text()).slice(0, 300)}`);
-  }
+  if (!res.ok) await throwApiError('scribe-v2', res);
   const data: any = await res.json();
   if (!Array.isArray(data?.words) || !data.words.length) {
     const dumped = dumpRaw(rawDumpDir, 'scribe-v2', data);
@@ -219,9 +243,7 @@ async function runOpenAI(audioPath: string, model: string, rawDumpDir?: string):
     headers: { Authorization: `Bearer ${process.env.OPENAI_API_KEY}` },
     body: form,
   });
-  if (!res.ok) {
-    throw new Error(`OpenAI API error ${res.status}: ${(await res.text()).slice(0, 300)}`);
-  }
+  if (!res.ok) await throwApiError('openai-diarize', res);
   const data: any = await res.json();
   const segments = data?.segments;
   if (!Array.isArray(segments) || !segments.length) {
@@ -239,151 +261,251 @@ async function runOpenAI(audioPath: string, model: string, rawDumpDir?: string):
     .filter((s: RawSegment) => s.text);
 }
 
-// ---- speaker mapping (raw diarization labels -> Dad/Izzy) ----
-
-/**
- * Content-based mapping via a tiny Gemini text call. A "Dad talks more"
- * word-share heuristic is wrong on exactly the Izzy-led sessions the bake-off
- * targets, so word share is only the fallback.
- */
-async function mapSpeakersWithGemini(
-  samples: Map<string, { lines: string[]; words: number }>,
-): Promise<Record<string, string> | null> {
-  const raws = [...samples.keys()];
-  const sampleBlock = raws
-    .map((raw) => {
-      const s = samples.get(raw)!;
-      return `${raw} (${s.words} words total):\n${s.lines.map((l) => `- ${l}`).join('\n')}`;
-    })
-    .join('\n\n');
-  try {
-    const response = await getAI().models.generateContent({
-      model: process.env.GEMINI_TEXT_MODEL || 'gemini-3.5-flash',
-      contents: [
-        {
-          parts: [
-            {
-              text: `This transcript came from automatic speaker diarization of a storytelling session between exactly two people:
-              - "Dad" — an adult father. Tends to narrate in full sentences and often addresses his daughter by name or asks her questions.
-              - "Izzy" — his young daughter (a small child). Shorter lines, child vocabulary and grammar, may call him "Daddy" or "Dada".
-
-              Decide which real person each raw diarization label belongs to, based on the sample lines below.
-
-              ${sampleBlock}
-
-              Return JSON mapping EVERY raw label to either "Dad" or "Izzy".`,
-            },
-          ],
-        },
-      ],
-      config: {
-        responseMimeType: 'application/json',
-        responseSchema: {
-          type: Type.OBJECT,
-          properties: {
-            mappings: {
-              type: Type.ARRAY,
-              items: {
-                type: Type.OBJECT,
-                properties: {
-                  raw: { type: Type.STRING },
-                  speaker: { type: Type.STRING, enum: ['Dad', 'Izzy'] },
-                },
-                required: ['raw', 'speaker'],
-              },
-            },
-          },
-          required: ['mappings'],
-        },
-      },
-    });
-    const text = response.text;
-    if (!text) return null;
-    const map: Record<string, string> = {};
-    for (const m of JSON.parse(text)?.mappings ?? []) {
-      if (raws.includes(m.raw) && (m.speaker === 'Dad' || m.speaker === 'Izzy')) map[m.raw] = m.speaker;
-    }
-    if (raws.some((r) => !map[r])) return null; // must map every label
-    // Two-speaker recordings must have one Dad and one Izzy.
-    if (raws.length === 2 && new Set(Object.values(map)).size !== 2) return null;
-    return map;
-  } catch {
-    return null;
-  }
+function fakeSegments(): RawSegment[] {
+  return [
+    { rawSpeaker: 'speaker_0', text: 'Once upon a time there was a fake story. Izzy, who should be in it?', start: 0.5 },
+    { rawSpeaker: 'speaker_1', text: 'Seeker! And Hattie the Mouse, Daddy.', start: 4.2 },
+    { rawSpeaker: 'speaker_0', text: 'Seeker appeared, exactly as always, and knocked on the door of the hollow tree.', start: 8.9 },
+    { rawSpeaker: 'speaker_1', text: 'Then the Testing Turtle showed up for the first time.', start: 13.1 },
+    { rawSpeaker: 'speaker_0', text: 'The end.', start: 17.7 },
+  ];
 }
 
-async function mapSpeakers(
-  segments: RawSegment[],
-): Promise<{ map: Record<string, string>; method: 'gemini' | 'word-share' }> {
-  const samples = new Map<string, { lines: string[]; words: number }>();
-  for (const s of segments) {
-    let e = samples.get(s.rawSpeaker);
-    if (!e) samples.set(s.rawSpeaker, (e = { lines: [], words: 0 }));
-    e.words += countWords(s.text);
-    if (e.lines.length < 15) e.lines.push(s.text.slice(0, 200));
-  }
+// ---- speaker mapping (raw diarization labels -> Dad/Izzy) ----
 
-  const llmMap = await mapSpeakersWithGemini(samples);
-  if (llmMap) return { map: llmMap, method: 'gemini' };
+export interface SpeakerMapping {
+  map: Record<string, string>;
+  method: SpeakerMapMethod;
+  confidence: 'high' | 'low';
+  note: string;
+}
 
-  // Fallback: the speaker with the most words is Dad, the runner-up Izzy,
-  // any extra diarization labels keep a generic name.
-  const byWords = [...samples.entries()].sort((a, b) => b[1].words - a[1].words);
+const DAD_LABEL = 'Dad';
+const IZZY_LABEL = 'Izzy';
+
+/** Assign Dad to the top-ranked raw label, Izzy to the next, generic names to any extras. */
+function assignByRank(ranked: string[]): Record<string, string> {
   const map: Record<string, string> = {};
-  byWords.forEach(([raw], i) => {
-    map[raw] = i === 0 ? 'Dad' : i === 1 ? 'Izzy' : `Speaker ${i + 1}`;
+  ranked.forEach((raw, i) => {
+    map[raw] = i === 0 ? DAD_LABEL : i === 1 ? IZZY_LABEL : `Speaker ${i + 1}`;
   });
-  return { map, method: 'word-share' };
+  return map;
+}
+
+const normTokens = (text: string) =>
+  (text || '')
+    .toLowerCase()
+    .replace(/[^a-z0-9' ]+/g, ' ')
+    .split(/\s+/)
+    .filter((w) => w.length > 1);
+
+/**
+ * Retranscription: vote each raw label against the story's PREVIOUS transcript.
+ * Each new segment is matched to the old line with the most shared words within
+ * a ±45 s window (old timestamps can be coarse — some legacy transcripts have
+ * whole-second guesses — but the words are mostly the same), and that old
+ * line's Dad/Izzy label gets the segment's word count as a vote. Falls back to
+ * "the old line in effect at that time" when nothing matches textually.
+ * Returns null when the reference is unusable.
+ */
+function mapByReference(
+  segments: RawSegment[],
+  reference: TranscriptItem[],
+): SpeakerMapping | null {
+  const ref = reference
+    .filter((t) => typeof t.timestamp === 'number' && (t.speaker === DAD_LABEL || t.speaker === IZZY_LABEL))
+    .sort((a, b) => a.timestamp - b.timestamp)
+    .map((t) => ({ ...t, tokens: new Set(normTokens(t.text)) }));
+  if (ref.length < 4) return null;
+  const WINDOW = 45;
+  const votes = new Map<string, { Dad: number; Izzy: number }>();
+  let votedWords = 0;
+  let totalWords = 0;
+  let textMatches = 0;
+  for (const s of segments) {
+    const words = countWords(s.text);
+    totalWords += words;
+    const toks = normTokens(s.text);
+    let best: { score: number; speaker: string } | null = null;
+    for (const r of ref) {
+      if (Math.abs(r.timestamp - s.start) > WINDOW) continue;
+      let shared = 0;
+      for (const w of toks) if (r.tokens.has(w)) shared++;
+      const score = toks.length ? shared / toks.length : 0;
+      if (!best || score > best.score) best = { score, speaker: r.speaker };
+    }
+    let speaker: string | null = null;
+    if (best && best.score >= 0.34 && toks.length >= 2) {
+      speaker = best.speaker;
+      textMatches++;
+    } else {
+      // time fallback: the last old line starting at or before this segment
+      let active: TranscriptItem | null = null;
+      for (const r of ref) {
+        if (r.timestamp <= s.start) active = r;
+        else break;
+      }
+      if (active) speaker = active.speaker;
+    }
+    if (!speaker) continue;
+    const v = votes.get(s.rawSpeaker) ?? { Dad: 0, Izzy: 0 };
+    v[speaker as 'Dad' | 'Izzy'] += words;
+    votes.set(s.rawSpeaker, v);
+    votedWords += words;
+  }
+  const raws = [...new Set(segments.map((s) => s.rawSpeaker))];
+  if (!raws.every((r) => votes.has(r))) return null;
+  // Rank by "how Dad-like": share of words landing on old Dad lines.
+  const dadShare = (raw: string) => {
+    const v = votes.get(raw)!;
+    return (v.Dad + 0.5) / (v.Dad + v.Izzy + 1);
+  };
+  const ranked = [...raws].sort((a, b) => dadShare(b) - dadShare(a));
+  const map = assignByRank(ranked);
+  const shares = ranked.map((r) => dadShare(r));
+  const coverage = totalWords ? votedWords / totalWords : 0;
+  // Confident when the Dad label is clearly Dad-ish, the Izzy label clearly
+  // isn't, and most of the recording actually took part in the vote.
+  const confident = raws.length < 2 || (shares[0] >= 0.7 && shares[1] <= 0.3 && coverage >= 0.5);
+  return {
+    map,
+    method: 'reference',
+    confidence: confident ? 'high' : 'low',
+    note:
+      ranked.map((r, i) => `${r}: ${(shares[i] * 100).toFixed(0)}% on old Dad lines`).join(', ') +
+      `; ${textMatches}/${segments.length} segments matched by text, ${(coverage * 100).toFixed(0)}% of words voted`,
+  };
+}
+
+/**
+ * New recordings: dialogue cues. The speaker who says "Daddy/Dada" is Izzy;
+ * the one who says "Izzy" (or narrates to "sweetie", "kiddo") is Dad. Line
+ * length and word share break ties (Dad's turns run longer and he usually
+ * talks more — but not always, which is why they only break ties).
+ */
+function mapByCues(segments: RawSegment[]): SpeakerMapping {
+  const stats = new Map<string, { words: number; lines: number; dadCues: number; izzyCues: number }>();
+  const DAD_CUES = /\b(izzy|isabella|sweetie|sweetheart|kiddo|good job|great idea|do you want)\b/i;
+  // "Daddy Mouse", "Papa Mole", "Captain Daddy" are story characters (narrated by Dad) — skip those.
+  const IZZY_CUES = /\b(?<!captain |nurse )(daddy|dada|dadda)\b(?!\s+(mouse|mole|robot|space|rock))/i;
+  for (const s of segments) {
+    const e = stats.get(s.rawSpeaker) ?? { words: 0, lines: 0, dadCues: 0, izzyCues: 0 };
+    e.words += countWords(s.text);
+    e.lines++;
+    if (DAD_CUES.test(s.text)) e.dadCues++;
+    if (IZZY_CUES.test(s.text)) e.izzyCues++;
+    stats.set(s.rawSpeaker, e);
+  }
+  const raws = [...stats.keys()];
+  const cueScore = (r: string) => stats.get(r)!.dadCues - stats.get(r)!.izzyCues;
+  const meanLen = (r: string) => stats.get(r)!.words / Math.max(stats.get(r)!.lines, 1);
+  const anyCues = raws.some((r) => stats.get(r)!.dadCues || stats.get(r)!.izzyCues);
+  const ranked = [...raws].sort(
+    (a, b) => cueScore(b) - cueScore(a) || meanLen(b) - meanLen(a) || stats.get(b)!.words - stats.get(a)!.words,
+  );
+  const map = assignByRank(ranked);
+  let confidence: 'high' | 'low' = 'low';
+  if (raws.length < 2) confidence = 'high';
+  else if (anyCues) {
+    const gap = cueScore(ranked[0]) - cueScore(ranked[1]);
+    const agreesWithLength = meanLen(ranked[0]) >= meanLen(ranked[1]);
+    confidence = gap >= 3 && agreesWithLength ? 'high' : 'low';
+  }
+  const note = ranked
+    .map((r) => {
+      const e = stats.get(r)!;
+      return `${r}: ${e.words}w, ${meanLen(r).toFixed(1)}w/line, cues Dad ${e.dadCues}/Izzy ${e.izzyCues}`;
+    })
+    .join('; ');
+  return { map, method: anyCues ? 'cues' : 'word-share', confidence, note };
+}
+
+export function mapSpeakers(segments: RawSegment[], reference?: TranscriptItem[]): SpeakerMapping {
+  if (reference?.length) {
+    const byRef = mapByReference(segments, reference);
+    if (byRef) {
+      // Sanity check against the cues; disagreement is worth a human glance.
+      const byCues = mapByCues(segments);
+      const agree = Object.keys(byRef.map).every((r) => byRef.map[r] === byCues.map[r]);
+      if (!agree && byCues.confidence === 'high') {
+        return { ...byRef, confidence: 'low', note: `${byRef.note} | cues disagree: ${byCues.note}` };
+      }
+      return byRef;
+    }
+  }
+  return mapByCues(segments);
 }
 
 // ---- entry point ----
 
 const round2 = (n: number) => Math.round(n * 100) / 100;
 
+export interface RunEngineOptions {
+  /** Keyterms for Scribe. Default: loadKeyterms() (recurring canonical names, capped). Pass [] to send none. */
+  keyterms?: string[];
+  /** The story's previous transcript, for reference-based speaker mapping (retranscribe). */
+  referenceTranscript?: TranscriptItem[];
+  durationSec?: number | null;
+  rawDumpDir?: string;
+}
+
 /** Run one engine on one audio file. Throws with a clear message on failure. */
 export async function runEngine(
   engine: EngineId,
   audioPath: string,
-  opts: { lexicon?: NameLexicon; durationSec?: number | null; rawDumpDir?: string } = {},
+  opts: RunEngineOptions = {},
 ): Promise<EngineResult> {
   const avail = engineAvailable(engine);
   if (!avail.ok) throw new Error(`${engine} unavailable: ${avail.reason}`);
   const model = engineModel(engine);
+  const keyterms = opts.keyterms ?? loadKeyterms().terms;
   const start = Date.now();
 
-  let transcript: TranscriptItem[];
-  let rawSpeakerMap: Record<string, string> | undefined;
-  let speakerMapMethod: 'gemini' | 'word-share' | undefined;
-
-  if (engine === 'gemini-flash' || engine === 'gemini-pro') {
-    transcript = await transcribeAudio(audioPath, mimeTypeFor(audioPath), { model, lexicon: opts.lexicon });
+  let segments: RawSegment[];
+  let mapping: SpeakerMapping;
+  if (FAKE) {
+    await new Promise((r) => setTimeout(r, 800));
+    segments = fakeSegments();
+    mapping = { map: { speaker_0: DAD_LABEL, speaker_1: IZZY_LABEL }, method: 'fake', confidence: 'high', note: 'FAKE mode' };
   } else {
-    const segments =
+    segments =
       engine === 'scribe-v2'
-        ? await runScribe(audioPath, model, opts.rawDumpDir)
+        ? await runScribe(audioPath, model, keyterms, opts.rawDumpDir)
         : await runOpenAI(audioPath, model, opts.rawDumpDir);
-    const mapping = await mapSpeakers(segments);
-    rawSpeakerMap = mapping.map;
-    speakerMapMethod = mapping.method;
-    transcript = segments.map((s) => ({
-      speaker: mapping.map[s.rawSpeaker] || s.rawSpeaker,
-      text: s.text,
-      timestamp: round2(s.start),
-    }));
+    mapping = mapSpeakers(segments, opts.referenceTranscript);
   }
+
+  const raw: TranscriptItem[] = segments.map((s) => ({
+    speaker: mapping.map[s.rawSpeaker] || s.rawSpeaker,
+    text: s.text,
+    timestamp: round2(s.start),
+  }));
+  const { transcript, fixes } = normalizeTranscriptSpellings(raw);
 
   const elapsedMs = Date.now() - start;
   const counts = computeWordCounts(transcript);
-  const cost = estimateCost(engine, opts.durationSec ?? null, counts.wordCount);
+  const cost = estimateCost(engine, opts.durationSec ?? null, engine === 'scribe-v2' ? keyterms.length : 0);
   return {
     engine,
     model,
     transcript,
     counts,
-    rawSpeakerMap,
-    speakerMapMethod,
+    rawSpeakerMap: mapping.map,
+    speakerMapMethod: mapping.method,
+    speakerMapConfidence: mapping.confidence,
+    speakerMapNote: mapping.note,
+    keytermCount: engine === 'scribe-v2' ? keyterms.length : 0,
+    spellingFixes: fixes,
     elapsedMs,
     estimatedCostUsd: cost.usd,
     costNote: cost.note,
   };
+}
+
+/** One-line description of a mapping for CLI logs. */
+export function describeMapping(r: EngineResult): string {
+  const mapStr = Object.entries(r.rawSpeakerMap ?? {})
+    .map(([k, v]) => `${k} → ${v}`)
+    .join(', ');
+  return `${mapStr} (${r.speakerMapMethod}, ${r.speakerMapConfidence} confidence${r.speakerMapConfidence === 'low' && r.speakerMapNote ? `: ${r.speakerMapNote}` : ''})`;
 }

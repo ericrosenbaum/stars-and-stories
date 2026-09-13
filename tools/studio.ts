@@ -3,8 +3,10 @@
  *   npm run studio            then open the printed URL (or scan the QR code
  *                             from a phone on the same wifi)
  *
- * Upload a voice memo -> watch it transcribe -> review the 3 header-image
- * candidates -> pick one / request a new batch / skip -> publish (rebuild the
+ * Upload a voice memo -> watch it transcribe into a DRAFT (the analysis —
+ * title, summary, characters, quote, header prompts — is written by the Claude
+ * Code agent, not by an API; see CLAUDE.md) -> once finalized, review the
+ * header-image candidates -> pick one / re-roll / skip -> publish (rebuild the
  * site bundle, git commit, git push).
  *
  * Design notes:
@@ -31,9 +33,9 @@ import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
 import qrcode from 'qrcode-terminal';
 import { ROOT, TOOLS_DIR, CONTENT_STORIES_DIR } from './lib/paths.ts';
-import { addStory, checkDuplicate, DuplicateAudioError } from './lib/add-pipeline.ts';
+import { transcribeDraft, listDrafts, checkDuplicate, DuplicateAudioError } from './lib/add-pipeline.ts';
 import {
-  generateHeaderCandidates,
+  rerollHeaderCandidates,
   selectHeaderCandidate,
   discardHeaderCandidates,
   type CandidateItem,
@@ -263,7 +265,7 @@ async function handleUpload(req: http.IncomingMessage, res: http.ServerResponse,
     return;
   }
 
-  // Reject duplicates now, before any Gemini spend.
+  // Reject duplicates now, before any transcription spend.
   try {
     checkDuplicate(tmpPath, filename);
   } catch (e: any) {
@@ -278,25 +280,22 @@ async function handleUpload(req: http.IncomingMessage, res: http.ServerResponse,
 
   const job = startJob('add', undefined, async (job) => {
     try {
-      const result = await addStory(tmpPath, {
+      const result = await transcribeDraft(tmpPath, {
         sourceFilename: filename,
         date,
         fallbackMtime,
-        build: false, // deferred to publish
         onProgress: (stage, msg) => {
           job.stage = stage;
           jobLog(job, msg);
         },
       });
-      job.slug = result.slug;
-      if (result.candidatesError) {
-        jobLog(job, `Candidate generation failed (${result.candidatesError}). The story is saved — you can generate a new batch from the review list.`);
-      }
       return {
-        slug: result.slug,
-        title: result.record.title,
-        summary: result.record.summary,
-        candidatesError: result.candidatesError ?? null,
+        draftId: result.id,
+        lines: result.draft.transcript.length,
+        izzyWordCount: result.draft.izzyWordCount,
+        dadWordCount: result.draft.dadWordCount,
+        speakerMapConfidence: result.draft.transcription.speakerMapConfidence ?? null,
+        nextSteps: result.nextSteps,
       };
     } finally {
       fs.rmSync(tmpPath, { force: true });
@@ -317,12 +316,20 @@ function handleRegen(res: http.ServerResponse, body: any): void {
     sendJson(res, 404, { error: `No story found for slug "${body.slug}"` });
     return;
   }
-  const feedback = typeof body.feedback === 'string' && body.feedback.trim() ? body.feedback.trim() : undefined;
-  const exactPrompt = typeof body.exactPrompt === 'string' && body.exactPrompt.trim() ? body.exactPrompt.trim() : undefined;
+  // The studio has no LLM to write new prompts with, so "try again" re-rolls
+  // the current batch's prompts. New scenes come from Claude Code
+  // (`npm run regen-image -- <slug> --prompts <file>`).
+  if (!fs.existsSync(path.join(CONTENT_STORIES_DIR, slug, 'candidates', 'candidates.json'))) {
+    sendJson(res, 409, {
+      error: `No candidate batch to re-roll. In Claude Code: npm run regen-image -- ${slug} --prompts <file.json>`,
+      code: 'no-batch',
+    });
+    return;
+  }
   const job = startJob('regen', slug, async (job) => {
     job.stage = 'candidates';
-    jobLog(job, `Generating a new candidate batch for "${story.title}"${feedback ? ' (with your feedback)' : ''}...`);
-    await generateHeaderCandidates(slug, story, { feedback, exactPrompt });
+    jobLog(job, `Re-rolling the candidate batch for "${story.title}" (same prompts, new images)...`);
+    await rerollHeaderCandidates(slug, story);
     return { slug, title: story.title };
   });
   job ? sendJson(res, 202, { jobId: job.id }) : sendBusy(res);
@@ -480,7 +487,7 @@ const server = http.createServer(async (req, res) => {
     }
 
     if (req.method === 'GET' && p === '/api/state') {
-      sendJson(res, 200, { job: currentJob, pending: scanPending(), repo: await repoInfo() });
+      sendJson(res, 200, { job: currentJob, pending: scanPending(), drafts: listDrafts(), repo: await repoInfo() });
       return;
     }
 

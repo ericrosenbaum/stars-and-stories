@@ -3,8 +3,8 @@
  *   npx tsx bakeoff.ts <slug-or-audio-path> [more inputs...] [options]
  *
  * Options:
- *   --engines a,b,c   subset of: gemini-flash, gemini-pro, scribe-v2, openai-diarize
- *                     (default: all four; engines missing their API key are skipped)
+ *   --engines a,b     subset of: scribe-v2, openai-diarize
+ *                     (default: both; an engine missing its API key is skipped)
  *   --name label      name for the run directory (default: slug/file basename)
  *
  * Each input produces content/bakeoff/<name>-<stamp>/ (gitignored) with the
@@ -25,7 +25,7 @@ import {
   type EngineId,
   type EngineResult,
 } from './lib/asr.ts';
-import { loadNameLexicon } from './lib/lexicon.ts';
+import { loadKeyterms } from './lib/lexicon.ts';
 import { compareHtml, fmtTime, type FailedEngine } from './lib/compare-html.ts';
 
 // ---- args ----
@@ -78,7 +78,7 @@ function resolveAudio(input: string): { audioPath: string; label: string } {
 
 // ---- main ----
 const stamp = new Date().toISOString().replace(/[-:]/g, '').replace('T', '-').slice(0, 15);
-const lexicon = loadNameLexicon();
+const keyterms = loadKeyterms().terms;
 
 for (const input of inputs) {
   const { audioPath, label } = resolveAudio(input);
@@ -107,7 +107,7 @@ for (const input of inputs) {
     }
     process.stdout.write(`  ${engine}... `);
     try {
-      const result = await runEngine(engine, audioPath, { lexicon, durationSec, rawDumpDir: runDir });
+      const result = await runEngine(engine, audioPath, { keyterms, durationSec, rawDumpDir: runDir });
       results.push(result);
       fs.writeFileSync(path.join(runDir, `${engine}.json`), JSON.stringify(result, null, 2));
       console.log(`${result.transcript.length} lines in ${(result.elapsedMs / 1000).toFixed(1)}s`);
@@ -119,7 +119,7 @@ for (const input of inputs) {
   }
 
   if (!results.length && !failures.length) {
-    console.error('\nNo engines ran — set at least one API key (GEMINI_API_KEY, ELEVENLABS_API_KEY, OPENAI_API_KEY) in tools/.env.');
+    console.error('\nNo engines ran — set ELEVENLABS_API_KEY (and/or OPENAI_API_KEY) in tools/.env.');
     process.exit(1);
   }
 

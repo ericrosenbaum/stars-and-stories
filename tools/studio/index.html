@@ -129,7 +129,9 @@ function deriveScreen() {
     S.confirmKey = null;
     if (job.status === 'error') {
       S.screen = 'error';
-    } else if (job.kind === 'add' || job.kind === 'regen') {
+    } else if (job.kind === 'add') {
+      S.screen = 'draft';
+    } else if (job.kind === 'regen') {
       S.reviewSlug = job.slug || (job.result && job.result.slug) || null;
       S.screen = 'review';
     } else if (job.kind === 'select') {
@@ -202,8 +204,7 @@ function skipHeader(slug) {
   confirmable(`skip-${slug}`, () => act(async () => { await api('/api/skip', { method: 'POST', body: JSON.stringify({ slug }) }); openPublish(); }));
 }
 function regen(slug) {
-  const feedback = (document.getElementById('feedback') || {}).value || '';
-  act(() => api('/api/regen', { method: 'POST', body: JSON.stringify({ slug, feedback }) }));
+  act(() => api('/api/regen', { method: 'POST', body: JSON.stringify({ slug }) }));
 }
 function retryCandidates(slug) {
   act(() => api('/api/regen', { method: 'POST', body: JSON.stringify({ slug }) }));
@@ -261,6 +262,16 @@ function renderHome() {
     </div>`;
   }
 
+  const drafts = (S.state && S.state.drafts) || [];
+  if (drafts.length) {
+    html += `<h2>Awaiting analysis in Claude Code</h2>`;
+    for (const d of drafts) {
+      html += `<div class="card"><div class="t" style="font-weight:600">${esc(d.sourceFilename)}</div>
+        <div class="d" style="color:var(--muted);font-size:.8rem">${esc((d.date || '').slice(0, 10))} · ${d.lines} lines · Izzy ${d.izzyWordCount}w / Dad ${d.dadWordCount}w${d.speakerMapConfidence === 'low' ? ' · <b>check speaker labels</b>' : ''}${d.hasAnalysis ? ' · analysis.json written' : ''}</div>
+        <details><summary>How to finish this draft</summary><ol style="padding-left:1.2rem;margin:.4rem 0">${(d.nextSteps || []).map((st) => `<li>${esc(st)}</li>`).join('')}</ol></details></div>`;
+    }
+  }
+
   if (pending.length) {
     html += `<h2>Awaiting header review</h2>`;
     for (const p of pending) {
@@ -289,10 +300,9 @@ function renderHome() {
 }
 
 const ADD_STAGES = [
-  ['transcribe', 'Transcribing with Gemini'],
-  ['entities', 'Extracting characters & places'],
-  ['write', 'Saving the story'],
-  ['candidates', 'Generating 3 header candidates'],
+  ['date', 'Reading the recording date'],
+  ['transcribe', 'Transcribing with ElevenLabs Scribe'],
+  ['write', 'Saving the draft'],
 ];
 
 function renderProcessing(job) {
@@ -313,6 +323,17 @@ function renderProcessing(job) {
   app.innerHTML = html;
 }
 
+function renderDraft(job) {
+  const r = (job && job.result) || {};
+  let html = header('Transcribed — finish it in Claude Code.');
+  html += `<div class="card"><p><b>✓ Draft “${esc(r.draftId || '')}” saved.</b></p>
+    <p class="sub">${r.lines || 0} lines · Izzy ${r.izzyWordCount || 0} words / Dad ${r.dadWordCount || 0} words${r.speakerMapConfidence === 'low' ? ' · <b>speaker labels need a check</b>' : ''}</p>
+    <p class="sub">The title, summary, characters, quote and header prompts are written by the Claude Code agent (no API involved). Then the story shows up under “Awaiting header review”.</p>
+    <ol style="padding-left:1.2rem">${(r.nextSteps || []).map((st) => `<li style="margin:.3rem 0">${esc(st)}</li>`).join('')}</ol>
+    <button class="primary" onclick="goHome()">Back to start</button></div>`;
+  app.innerHTML = html;
+}
+
 function renderReview() {
   const p = pendingFor(S.reviewSlug);
   const job = S.state && S.state.job;
@@ -327,7 +348,7 @@ function renderReview() {
     } else {
       html += `<p class="sub">No candidate batch for this story.</p>`;
     }
-    html += `<button class="primary" onclick="retryCandidates('${esc(S.reviewSlug)}')">Generate candidates</button>
+    html += `<p class="sub">Header prompts are written in Claude Code: <code>npm run regen-image -- ${esc(S.reviewSlug)}</code> prints the brief.</p>
       <button onclick="openPublish()">Publish without a header</button>
       <button class="quiet" onclick="goHome()">Back</button></div>`;
     app.innerHTML = html;
@@ -353,9 +374,8 @@ function renderReview() {
   }
 
   html += `<div class="card"><b>Not quite right?</b>
-    <label>What should be different?</label>
-    <textarea id="feedback" placeholder="e.g. show the treehouse at night, make the turtle bigger…"></textarea>
-    <button onclick="regen('${esc(p.slug)}')">Generate a new batch</button>
+    <p class="sub" style="margin:.3rem 0 0">Re-rolling keeps the same prompts and draws them again. For a different scene, ask Claude Code to write new prompts (<code>npm run regen-image -- ${esc(p.slug)}</code>).</p>
+    <button onclick="regen('${esc(p.slug)}')">Try 3 more with the same prompts</button>
     ${confirmBtn(`skip-${p.slug}`, p.hasCurrentHeader ? 'Keep current image' : 'Skip header for now', p.hasCurrentHeader ? 'Tap again to keep the current image' : 'Tap again — story publishes without an image', `skipHeader('${esc(p.slug)}')`, '')}
     <button class="quiet" onclick="goHome()">Back</button>
   </div>`;
@@ -431,6 +451,7 @@ function render() {
     case 'processing': return renderProcessing(job);
     case 'publishing': return renderPublishing(job);
     case 'review': return renderReview();
+    case 'draft': return renderDraft(job);
     case 'publish': return renderPublish();
     case 'done': return renderDone();
     case 'error': return renderError();

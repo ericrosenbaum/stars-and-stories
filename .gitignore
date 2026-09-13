@@ -21,6 +21,8 @@ content/stories/**/source.png
 # Header-image candidate batches awaiting review, and storyboard source frames
 # (the storyboard.json plan next to them IS committed, like story.json).
 content/stories/**/candidates/
+# Transcribed recordings awaiting analysis (npm run add -> npm run finalize): local flow state.
+content/drafts/
 content/stories/**/storyboard/*.png
 # Same for character reference images: originals stay local, the optimized
 # site/public/media/characters/*.webp derived from them IS committed.
