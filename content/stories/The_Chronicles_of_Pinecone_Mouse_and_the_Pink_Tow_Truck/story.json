@@ -6,318 +6,368 @@
   "audioFilename": "Stars and stories - pinecone mouse.m4a",
   "highlightQuote": {
     "text": "Those songs, the Sesame Street songs are good for mice. They love those songs. It's the best.",
-    "timestamp": 341
+    "timestamp": 341.12
   },
   "transcript": [
     {
+      "speaker": "Izzy",
+      "text": "Stars. No, stars.",
+      "timestamp": 6.82
+    },
+    {
       "speaker": "Dad",
-      "text": "Here's the stars. Now it's almost time to go to sleep, so we can do a little bit of stars, and then it'll be time to go to sleep. I'm gonna turn out the light.",
-      "timestamp": 20
+      "text": "All right. Here's the stars. Now, it's almost time to go to sleep, so we can do a little bit of stars, and then it will be time to go to sleep.",
+      "timestamp": 17.12
     },
     {
       "speaker": "Izzy",
-      "text": "Stars!",
-      "timestamp": 33
+      "text": "A little bit more.",
+      "timestamp": 30
     },
     {
       "speaker": "Dad",
-      "text": "You want to sit on my lap?",
-      "timestamp": 43
+      "text": "I'm gonna turn out the light. Okay.",
+      "timestamp": 30.03
     },
     {
       "speaker": "Izzy",
-      "text": "I'm not going to read a book page. No book pages are in this.",
-      "timestamp": 80
+      "text": "Stars.",
+      "timestamp": 34.14
     },
     {
       "speaker": "Dad",
-      "text": "No book pages? Okay. What should we tell a story about?",
-      "timestamp": 86
+      "text": "Stars. Okay. You wanna sit on my lap? All right. Okay, get comfy and we'll do some stories.",
+      "timestamp": 34.9
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Are you not going to read a muck page?",
+      "timestamp": 77.72
+    },
+    {
+      "speaker": "Dad",
+      "text": "We-",
+      "timestamp": 81.97
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No muck pages are in the stars.",
+      "timestamp": 82
+    },
+    {
+      "speaker": "Dad",
+      "text": "No muck pages? Okay. What should we tell a story about?",
+      "timestamp": 84.42
     },
     {
       "speaker": "Izzy",
       "text": "A mouse.",
-      "timestamp": 91
+      "timestamp": 91.52
     },
     {
       "speaker": "Dad",
-      "text": "A what of what?",
-      "timestamp": 94
+      "text": "About a what?",
+      "timestamp": 93.78
     },
     {
       "speaker": "Izzy",
       "text": "A mouse.",
-      "timestamp": 95
+      "timestamp": 94.78
     },
     {
       "speaker": "Dad",
       "text": "Oh, what's the mouse's name?",
-      "timestamp": 96
+      "timestamp": 96.38
     },
     {
       "speaker": "Izzy",
-      "text": "I don't know. Pinecone mouse.",
-      "timestamp": 98
+      "text": "I don't know. Pine Cone Mouse.",
+      "timestamp": 98.78
     },
     {
       "speaker": "Dad",
-      "text": "Oh, Pinecone Mouse. Okay. Once upon a time, Pinecone Mouse woke up in her tiny house high up in a pine tree. And she was very hungry. So what did she decide to do?",
-      "timestamp": 102
+      "text": "Oh, Pine Cone Mouse? Okay. Once upon a time, Pine Cone Mouse woke up in her tiny house, high up in a pine tree, and she was very hungry. So what did she decide to do?",
+      "timestamp": 101.96
     },
     {
       "speaker": "Izzy",
-      "text": "She tried to go to the groce— she did go to the grocery store to buy some vegetable soup.",
-      "timestamp": 119
+      "text": "She tried to go to the grocery s- She did go to the grocery store to buy some vegetable soup.",
+      "timestamp": 119.38
     },
     {
       "speaker": "Dad",
-      "text": "Oh, and she bought some vegetable soup, and she brought it home, but she realized she had so much vegetable soup, it was more than she could eat. So she decided to invite over some friends. Who did she invite over?",
-      "timestamp": 132
+      "text": "Oh. And she bought some vegetable soup, and she brought it home. But she realized she had so much vegetable soup, it was more than she could eat. So she decided to invite over some friends. Who did she invite over?",
+      "timestamp": 131.16
     },
     {
       "speaker": "Izzy",
-      "text": "Some more pinecone mice.",
-      "timestamp": 145
+      "text": "Some more pine cone mice.",
+      "timestamp": 145.44
     },
     {
       "speaker": "Dad",
-      "text": "Oh, what were their names?",
-      "timestamp": 149
+      "text": "Oh, oh. What were their names?",
+      "timestamp": 148.82
     },
     {
       "speaker": "Izzy",
-      "text": "I don't know. Plotty Mouse and Mischief Mouse.",
-      "timestamp": 154
+      "text": "I don't know.",
+      "timestamp": 153.62
     },
     {
       "speaker": "Dad",
-      "text": "Oh, she invited over Plotty Mouse and Mischief Mouse, the pinecone mice. And everyone had—",
-      "timestamp": 158
+      "text": "Um-",
+      "timestamp": 155.62
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Plotty Mouse and Mischief Mouse.",
+      "timestamp": 155.65
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, she invited over Plotty Mouse and Mischief Mouse, the pine cone mice, and everyone had-",
+      "timestamp": 159.36
     },
     {
       "speaker": "Izzy",
       "text": "And Mistress Mouse.",
-      "timestamp": 165
+      "timestamp": 165.62
     },
     {
       "speaker": "Dad",
-      "text": "Oh, and Mistress Mouse also. And all the pinecone mice had a delicious meal of vegetable soup. And then they decided to go out for a walk together. And so they went walking in the woods. And all of a sudden they were surprised because they saw—",
-      "timestamp": 168
+      "text": "Oh, and Mistress Mouse also. And all the pine cone mice had a delicious meal of vegetable soup. And then they decided to go out for a walk together. And so they went walking in the woods, and all of a sudden they were surprised because they saw...",
+      "timestamp": 167.22
     },
     {
       "speaker": "Izzy",
-      "text": "A stick!",
-      "timestamp": 185
-    },
-    {
-      "speaker": "Dad",
       "text": "A stick.",
-      "timestamp": 187
-    },
-    {
-      "speaker": "Izzy",
-      "text": "And a knocked-over tree.",
-      "timestamp": 188
+      "timestamp": 184.6
     },
     {
       "speaker": "Dad",
-      "text": "And a knocked-over tree. And then what did they do?",
-      "timestamp": 190
+      "text": "A stick was in the-",
+      "timestamp": 187.18
     },
     {
       "speaker": "Izzy",
-      "text": "They bringed the stick home and they left the tree outside, and they just brought home the stick.",
-      "timestamp": 195
+      "text": "And a knocked over tree.",
+      "timestamp": 188.7
+    },
+    {
+      "speaker": "Dad",
+      "text": "And a knocked over tree. And then what did they do?",
+      "timestamp": 191.3
+    },
+    {
+      "speaker": "Izzy",
+      "text": "They bring the stick home, and they left the tree outside, and they just brought home the stick.",
+      "timestamp": 195.58
     },
     {
       "speaker": "Dad",
       "text": "Oh, they brought home the stick. And what did they do with it at home?",
-      "timestamp": 204
+      "timestamp": 205.28
     },
     {
       "speaker": "Izzy",
-      "text": "They put it somewhere safe so their cat stayed— so their friends' Mama Mouse could see it.",
-      "timestamp": 209
+      "text": "They put somewhere safe so their cat didn't eat it. And their friend Mama Mouse could see it.",
+      "timestamp": 209.34
     },
     {
       "speaker": "Dad",
-      "text": "Oh, that's a good idea. You don't want your cat—",
-      "timestamp": 221
+      "text": "Oh, that's a good idea. You don't want your cats-",
+      "timestamp": 219.42
     },
     {
       "speaker": "Izzy",
-      "text": "And Dad Mouse could see it.",
-      "timestamp": 223
+      "text": "And Dada Mouse could see it.",
+      "timestamp": 221.35
     },
     {
       "speaker": "Dad",
-      "text": "Yeah. Do another book about Mistress Mouse?",
-      "timestamp": 226
+      "text": "Yeah.",
+      "timestamp": 223.58
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Read another book about Mistress Mouse.",
+      "timestamp": 224.74
     },
     {
       "speaker": "Dad",
       "text": "Okay, let's make up another story about Mistress Mouse. One more and then it's time for bed. Once upon a time, Mistress Mouse was driving through the city in her little pink tow truck.",
-      "timestamp": 230
+      "timestamp": 229.18
     },
     {
       "speaker": "Izzy",
       "text": "With her crayons and paper.",
-      "timestamp": 242
+      "timestamp": 243.08
     },
     {
       "speaker": "Dad",
       "text": "Oh, why did she bring her crayons and paper this time?",
-      "timestamp": 246
+      "timestamp": 246.32
     },
     {
       "speaker": "Izzy",
-      "text": "Because her dad was— because, because they wanted to go to the cake store for some sprinkles and cake, so they had to drive the cake store with sprinkles and cake. It's a long drive.",
-      "timestamp": 252
+      "text": "Because, with her dad was, because, because they wanted to, to go to a cake store for some crayons and cake. So they had to drive to the cake store, sprinkles and cake. It's a long drive.",
+      "timestamp": 249.16
     },
     {
       "speaker": "Dad",
-      "text": "Oh, it was a long drive to the cake store to get sprinkles and cake. And so they brought their crayons and paper so they could draw in the car on the way? Um, what else did they do in the car on the way?",
-      "timestamp": 276
+      "text": "Oh, it was a long drive to the cake store to get sprinkles and cake, and so they brought their crayons and paper so that they could draw in the car on the way? Um, what else did they do in the car on the way?",
+      "timestamp": 276.54
     },
     {
       "speaker": "Izzy",
-      "text": "I don't know. They ate and drank on the way too.",
-      "timestamp": 291
+      "text": "I don't know. They ate and drank on the way, too.",
+      "timestamp": 289.9
     },
     {
       "speaker": "Dad",
-      "text": "Oh, that's a good idea. They had—",
-      "timestamp": 295
+      "text": "Oh, that's a good idea.",
+      "timestamp": 295.02
     },
     {
       "speaker": "Izzy",
-      "text": "They had those in their bag, and snacks too, and a cupcake.",
-      "timestamp": 297
+      "text": "They had those in their bag as snacks, too, and a cupcake.",
+      "timestamp": 296.22
     },
     {
       "speaker": "Dad",
       "text": "Oh.",
-      "timestamp": 302
+      "timestamp": 302.54
     },
     {
       "speaker": "Izzy",
-      "text": "And there were no cakes left.",
-      "timestamp": 304
+      "text": "And there were no cakes at the store.",
+      "timestamp": 303.5
     },
     {
       "speaker": "Dad",
       "text": "And did they sing any songs?",
-      "timestamp": 307
+      "timestamp": 307.47
     },
     {
       "speaker": "Izzy",
-      "text": "No, they had the CD and they listened to the song on the— it was purple.",
-      "timestamp": 309
+      "text": "No, they had a CD, and they listened to songs on the CD. It was purple.",
+      "timestamp": 309.74
     },
     {
       "speaker": "Dad",
       "text": "What was purple?",
-      "timestamp": 318
+      "timestamp": 317.56
     },
     {
       "speaker": "Izzy",
       "text": "The CD was purple.",
-      "timestamp": 319
+      "timestamp": 318.8
     },
     {
       "speaker": "Dad",
       "text": "Oh, what CD was it?",
-      "timestamp": 321
+      "timestamp": 320.98
     },
     {
       "speaker": "Izzy",
       "text": "It was a CD for mice.",
-      "timestamp": 324
+      "timestamp": 324.74
     },
     {
       "speaker": "Dad",
-      "text": "A CD for mice. Oh. What music did it have on it?",
-      "timestamp": 327
+      "text": "A CD for mice? Oh. What music did it have on it?",
+      "timestamp": 327.72
     },
     {
       "speaker": "Izzy",
       "text": "It had lots of kinds of music.",
-      "timestamp": 332
+      "timestamp": 332.12
     },
     {
       "speaker": "Dad",
-      "text": "Oh, what was the best song on it?",
-      "timestamp": 338
+      "text": "Oh. What was the best song on it?",
+      "timestamp": 336.72
     },
     {
       "speaker": "Izzy",
-      "text": "Those songs, the Sesame Street songs are good for mice. They love those songs. It's the best.",
-      "timestamp": 341
+      "text": "Their songs, the Sesame Street songs are good for mice. They love those songs the best.",
+      "timestamp": 341.12
     },
     {
       "speaker": "Dad",
-      "text": "Well anyway, Mistress Mouse made it to the cake store and got her cake and sprinkles, and then she got back in her car and she drove all the way home. And then what did she do?",
+      "text": "Oh. Well anyway, Mistress Mouse made it to the cake store and got her cake and sprinkles, and then she got back in her car and she drove all the way home. And then what did she do?",
       "timestamp": 352
     },
     {
       "speaker": "Izzy",
       "text": "She decorated it.",
-      "timestamp": 367
+      "timestamp": 366.44
     },
     {
       "speaker": "Dad",
       "text": "Oh, and then what?",
-      "timestamp": 369
+      "timestamp": 370.36
     },
     {
       "speaker": "Izzy",
-      "text": "She played with her mom and dad and soon they had to rest.",
-      "timestamp": 372
+      "text": "She played with her mom and da- and soon they had to rest.",
+      "timestamp": 372.36
     },
     {
       "speaker": "Dad",
       "text": "Soon they had to rest.",
-      "timestamp": 378
+      "timestamp": 377.7
     },
     {
       "speaker": "Izzy",
-      "text": "Then they was resting. Her mama was playing.",
-      "timestamp": 380
+      "text": "Soon, they was resting, and Mama was playing.",
+      "timestamp": 379.62
     },
     {
       "speaker": "Dad",
-      "text": "Oh. And then everyone brushed their teeth and changed into their pajamas and read a story and sang a lullaby and then they got into their beds. And then what did they do?",
-      "timestamp": 387
+      "text": "Oh. And then everyone brushed their teeth, and changed into their pajamas, and read a story, and sang a lullaby, and then they got into their beds. And then what did they do?",
+      "timestamp": 385.34
     },
     {
       "speaker": "Izzy",
       "text": "I don't know.",
-      "timestamp": 405
+      "timestamp": 405.06
     },
     {
       "speaker": "Dad",
-      "text": "I think they went to sleep. Zzzzz.",
-      "timestamp": 407
+      "text": "I think they went to sleep.",
+      "timestamp": 407.24
     },
     {
       "speaker": "Izzy",
-      "text": "Now that's the end.",
-      "timestamp": 413
+      "text": "Sleep. Now that's the end.",
+      "timestamp": 413.24
     },
     {
       "speaker": "Dad",
-      "text": "Now that's the end.",
-      "timestamp": 415
+      "text": "Now that's the end. That's right.",
+      "timestamp": 415.28
     },
     {
       "speaker": "Izzy",
       "text": "Now time to turn off the stars.",
-      "timestamp": 416
+      "timestamp": 416.58
     },
     {
       "speaker": "Dad",
-      "text": "Okay, let's turn off the stars. Thanks for doing stars and stories, Izzy.",
-      "timestamp": 420
+      "text": "Okay, let's turn off the stars. Thanks for doing stars and story, Lizzy.",
+      "timestamp": 420.66
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Now back like that.",
+      "timestamp": 427.48
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yeah. Put the blanket back. Good idea.",
+      "timestamp": 431.1
     }
   ],
   "characters": [
@@ -379,7 +429,19 @@
       "description": "A shop a long drive away that sells cakes and sprinkles."
     }
   ],
-  "wordCount": 745,
-  "izzyWordCount": 262,
-  "dadWordCount": 483
+  "wordCount": 800,
+  "izzyWordCount": 290,
+  "dadWordCount": 510,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T14:50:41.113Z",
+    "speakerMap": {
+      "speaker_0": "Izzy",
+      "speaker_1": "Dad"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "high"
+  }
 }

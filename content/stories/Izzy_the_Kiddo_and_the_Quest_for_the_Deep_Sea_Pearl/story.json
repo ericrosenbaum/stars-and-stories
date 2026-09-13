@@ -6,298 +6,363 @@
   "audioFilename": "Stars and stories - meta story (pout pout sesame recap).m4a",
   "highlightQuote": {
     "text": "I make them disappear. Then I can make them disappear, and I can make them undisappear.",
-    "timestamp": 143.1
+    "timestamp": 366.46
   },
   "transcript": [
     {
       "speaker": "Dad",
-      "text": "Oh. Do you like it?",
-      "timestamp": 25.8
+      "text": "All right.",
+      "timestamp": 12.26
+    },
+    {
+      "speaker": "Izzy",
+      "text": "How about I need that.",
+      "timestamp": 24.48
     },
     {
       "speaker": "Dad",
-      "text": "Should we tell a special stars and story story about the pretty new light?",
-      "timestamp": 32.4
+      "text": "Oh, do you like it?",
+      "timestamp": 27.36
     },
     {
       "speaker": "Izzy",
       "text": "Yes.",
+      "timestamp": 30.76
+    },
+    {
+      "speaker": "Dad",
+      "text": "Should we tell a special Stars and Stories story about the pretty new light?",
+      "timestamp": 32
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yes.",
+      "timestamp": 38.16
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay. Now who's gonna be in the story?",
       "timestamp": 39.1
     },
     {
-      "speaker": "Dad",
-      "text": "Okay. Now who's going to be in the story?",
-      "timestamp": 41.2
-    },
-    {
       "speaker": "Izzy",
-      "text": "Me, Izzy the Kiddo.",
-      "timestamp": 43.7
+      "text": "Me, Izzy Belle Kiddo.",
+      "timestamp": 43.92
     },
     {
       "speaker": "Dad",
-      "text": "Once upon a time, Izzy the Kiddo went on a quest to find a new light.",
-      "timestamp": 46.3
+      "text": "Once upon a time, Izzy the Kiddo went on a quest to find-",
+      "timestamp": 46.42
     },
     {
       "speaker": "Izzy",
-      "text": "Nope. She was at her house and Mom told, 'I'm going to buy you a new light.'",
-      "timestamp": 55.2
+      "text": "No",
+      "timestamp": 54.08
+    },
+    {
+      "speaker": "Dad",
+      "text": "... a new light.",
+      "timestamp": 54.34
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No. She was at her house, and Mom told, \"I'm going to buy you a new light.\"",
+      "timestamp": 55.58
     },
     {
       "speaker": "Dad",
       "text": "Oh, and then what happened?",
-      "timestamp": 105.1
+      "timestamp": 63.3
     },
     {
       "speaker": "Izzy",
       "text": "She did. She bought her a new light, and then she gave it to her.",
-      "timestamp": 108.3
+      "timestamp": 65.18
     },
     {
       "speaker": "Dad",
       "text": "Oh. And then what?",
-      "timestamp": 112.6
+      "timestamp": 71.22
     },
     {
       "speaker": "Izzy",
-      "text": "She used it and she brought it upstairs to her bedroom.",
-      "timestamp": 117.2
+      "text": "She used it, and she bring upstairs to her bed, bedroom.",
+      "timestamp": 77.1
     },
     {
       "speaker": "Dad",
-      "text": "Uh-huh. And she plugged it in.",
-      "timestamp": 124.4
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, you can make the stars move on the ceiling.",
-      "timestamp": 139.8
+      "text": "Uh-huh. And she plugged it in. Oh, you can make the stars move on the ceiling.",
+      "timestamp": 83.84
     },
     {
       "speaker": "Izzy",
-      "text": "I make them disappear. Then I can make them disappear, and I can make them undisappear.",
-      "timestamp": 143.1
+      "text": "And make them disappear.",
+      "timestamp": 102.62
     },
     {
       "speaker": "Dad",
-      "text": "You can make them undisappear? That's the same as making them appear. Yeah.",
-      "timestamp": 151.5
+      "text": "Yeah, you can-",
+      "timestamp": 104.98
     },
     {
       "speaker": "Izzy",
-      "text": "Appear. Appear. The stars appear on the ceiling.",
-      "timestamp": 157.6
+      "text": "But I can make them appear, and I can make 'em un-disappear.",
+      "timestamp": 105.28
+    },
+    {
+      "speaker": "Dad",
+      "text": "You can make them un-disappear. That's the same as making them appear. Yeah.",
+      "timestamp": 110.94
     },
     {
       "speaker": "Izzy",
-      "text": "And look, one is missing.",
-      "timestamp": 162.5
+      "text": "Appear. Appear.",
+      "timestamp": 116.5
     },
     {
       "speaker": "Dad",
-      "text": "Oh, it is? Huh, I wonder why.",
-      "timestamp": 166.1
+      "text": "The stars appear on the ceiling.",
+      "timestamp": 118.22
     },
     {
       "speaker": "Izzy",
-      "text": "Why, Dad?",
-      "timestamp": 170.8
+      "text": "And look, one's missing.",
+      "timestamp": 122.42
     },
     {
       "speaker": "Dad",
-      "text": "Here, look, we can make them turn by doing this. Stars are spinning, slowly turning.",
-      "timestamp": 172.7
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Dad, don't turn them.",
-      "timestamp": 183.2
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, okay.",
-      "timestamp": 185.4
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Why is that one missing?",
-      "timestamp": 186.5
-    },
-    {
-      "speaker": "Dad",
-      "text": "I don't know.",
-      "timestamp": 189.2
-    },
-    {
-      "speaker": "Izzy",
-      "text": "I'll have to ask Mama about it.",
-      "timestamp": 191.4
-    },
-    {
-      "speaker": "Dad",
-      "text": "Well, we got to finish Stars and Stories by telling the story. Do you want to come sit in my lap?",
-      "timestamp": 194.5
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Nope.",
-      "timestamp": 201.9
-    },
-    {
-      "speaker": "Dad",
-      "text": "Okay. Well, let's do our story this time about Izzy the Kiddo. And once upon a time...",
-      "timestamp": 203.6
-    },
-    {
-      "speaker": "Izzy",
-      "text": "No, about my story.",
-      "timestamp": 214.6
-    },
-    {
-      "speaker": "Dad",
-      "text": "Izzy the Kiddo went to the library. And she got to the library with her Dadda.",
-      "timestamp": 216.2
-    },
-    {
-      "speaker": "Izzy",
-      "text": "And it was the JP one.",
-      "timestamp": 226.3
-    },
-    {
-      "speaker": "Dad",
-      "text": "And it was the JP library. And they walked in and they saw something they were so excited to see. What did they see?",
-      "timestamp": 229.1
-    },
-    {
-      "speaker": "Izzy",
-      "text": "They saw Pout-Pout Fish with Bert and Ernie. That book was in that JP library.",
-      "timestamp": 237.4
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, the special book about Pout-Pout Fish meeting Bert and Ernie. And they were so excited because they'd never read that book before. So what did they do?",
-      "timestamp": 245.2
-    },
-    {
-      "speaker": "Izzy",
-      "text": "They saw, and they decided to read it.",
-      "timestamp": 253.1
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, so they decided to read. What's the title of the book? What's it called?",
-      "timestamp": 262.5
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Bert and Ernie with Pout-Pout Fish and Clam Lost Her Pearl in the Deep Deep Dark.",
-      "timestamp": 267.3
-    },
-    {
-      "speaker": "Dad",
-      "text": "Bert and Ernie with Pout-Pout Fish and Clam Lost Her Pearl in the Deep Deep Dark. And so they decided, Izzy the Kiddo and Dadda decided to read that book.",
-      "timestamp": 279.2
-    },
-    {
-      "speaker": "Izzy",
-      "text": "And they had my flashlight for the deep deep dark.",
-      "timestamp": 288.2
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, and Izzy the Kiddo had her flashlight.",
-      "timestamp": 292.6
-    },
-    {
-      "speaker": "Izzy",
-      "text": "But it goes out. Look.",
-      "timestamp": 295.5
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, try turning it. There you go. And in the story, Izzy the Kiddo leads Pout-Pout Fish and Bert and Ernie down and down and down into the deep, deep dark. And what do they find there?",
-      "timestamp": 301.1
-    },
-    {
-      "speaker": "Dad",
-      "text": "And Izzy the Kiddo uses her flashlight to help her see even though deep under the ocean it's so dark. And what does she find?",
-      "timestamp": 324.2
-    },
-    {
-      "speaker": "Izzy",
-      "text": "She doesn't find any creature at all because they are sleeping.",
-      "timestamp": 333.6
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, all the creatures were sleeping in the deep, deep dark.",
-      "timestamp": 340.6
-    },
-    {
-      "speaker": "Izzy",
-      "text": "But and Shore was sleeping too, and Pout-Pout. But Clam is staying awake because she lost her pearl and she can't go to sleep without it.",
-      "timestamp": 346.5
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh. And she says, 'Izzy the Kiddo, can you please help me find my pearl?' And Izzy says yes, and Bert and Ernie say we'll help too, and Pout-Pout Fish says yeah, me too. And so they all swam down as deep as they could down into the trench. And did they find the pearl there?",
-      "timestamp": 365.2
+      "text": "Oh, it is?",
+      "timestamp": 125.8
     },
     {
       "speaker": "Izzy",
       "text": "Yes.",
-      "timestamp": 381.2
+      "timestamp": 127.24
     },
     {
       "speaker": "Dad",
-      "text": "They dug the pearl out of the mud. And what did they do next?",
-      "timestamp": 382.4
+      "text": "Huh, I wonder why.",
+      "timestamp": 127.92
     },
     {
       "speaker": "Izzy",
-      "text": "Swam back up.",
-      "timestamp": 386.7
+      "text": "Why, Da?",
+      "timestamp": 130.6
     },
     {
       "speaker": "Dad",
-      "text": "They swam all the way back up to Ms. Clam. And then what happened?",
-      "timestamp": 391.5
+      "text": "Here, look, we can make them turn by doing this. The stars are spinning. Slowly turning.",
+      "timestamp": 131.7
     },
     {
       "speaker": "Izzy",
-      "text": "They gave it to her.",
-      "timestamp": 396.2
+      "text": "Dad, don't turn them.",
+      "timestamp": 142.62
     },
     {
       "speaker": "Dad",
-      "text": "They gave the pearl back to Ms. Clam. And what did Ms. Clam say?",
-      "timestamp": 398.3
+      "text": "Oh, okay.",
+      "timestamp": 144.58
     },
     {
       "speaker": "Izzy",
-      "text": "Thank you.",
-      "timestamp": 403.2
+      "text": "Why is that one missing?",
+      "timestamp": 146.44
     },
     {
       "speaker": "Dad",
-      "text": "And Bert and Ernie and Pout-Pout and Izzy said, 'You're welcome, we're happy to help.' And that was the end of Pout-Pout and Bert and Ernie in the Deep Deep Dark. And then what did Izzy and Daddy do at the library?",
-      "timestamp": 406.2
+      "text": "I don't know. All right.",
+      "timestamp": 148.28
     },
     {
       "speaker": "Izzy",
-      "text": "They brought their new book home.",
-      "timestamp": 424.4
+      "text": "Let's ask Mom about it.",
+      "timestamp": 152.03
     },
     {
       "speaker": "Dad",
-      "text": "Oh, they checked out their new book out of the library and they brought it home. Oh, thanks for putting your light away. And that's the end of the story. Okay, that's the end of Stars and Stories. Let me turn the light back on.",
-      "timestamp": 428.4
+      "text": "Well, we gotta finish Stars and Stories by telling a story. Do you wanna come sit in my lap?",
+      "timestamp": 155.82
     },
     {
       "speaker": "Izzy",
-      "text": "And let's turn that light off.",
-      "timestamp": 447.4
+      "text": "Nope.",
+      "timestamp": 161.42
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay. Well, let's do our story this time about Izzy the Kiddo. And once upon a time-",
+      "timestamp": 162.28
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No, it's about my story",
+      "timestamp": 174.66
+    },
+    {
+      "speaker": "Dad",
+      "text": "... Izzy the Kiddo went to the library. And she-",
+      "timestamp": 175.82
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yes",
+      "timestamp": 181.02
+    },
+    {
+      "speaker": "Dad",
+      "text": "... and she got to the library with her Dada, and-",
+      "timestamp": 181.03
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And it was the JP one",
+      "timestamp": 185.97
+    },
+    {
+      "speaker": "Dad",
+      "text": "... and it was the JP Library, and they walked in, and they saw something they were so excited to see. What did they see?",
+      "timestamp": 187.51
+    },
+    {
+      "speaker": "Izzy",
+      "text": "They saw Pout-Pout Fish with Bert and Ernie. That book is, was in that JP Library.",
+      "timestamp": 194.68
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, the special book about Pout-Pout Fish meeting Bert and Ernie, and they were so excited because they'd never read that book before. So what did they do?",
+      "timestamp": 203.54
+    },
+    {
+      "speaker": "Izzy",
+      "text": "They saw, and they s- and they, and they decided to read it.",
+      "timestamp": 213.04
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, so they decided to read... What's the title of the book? What's it called?",
+      "timestamp": 220.96
+    },
+    {
+      "speaker": "Izzy",
+      "text": "It's called Bert and Ernie with Pout-Pout Fish and Clam Lost Her Pearl in the Deep Deep Dark.",
+      "timestamp": 226.02
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, Bert and Ernie with Pout-Pout Fish and Clam Lost Her Pearl in the Deep Deep Dark. And so they decided, Izzy the Kiddo and Dada decided to read that book.",
+      "timestamp": 235.56
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And I have my flashlight for that.",
+      "timestamp": 247.76
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, and Izzy the Kiddo had her flashlight.",
+      "timestamp": 252.08
+    },
+    {
+      "speaker": "Izzy",
+      "text": "But it won't come out. It's stuck.",
+      "timestamp": 256
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, try turning it. There you go. And in the story, Izzy the Kiddo leads Pout-Pout Fish and Bert and Ernie down and down and down into the deep, deep dark, and what do they find there? Oh, and, and Izzy the Kiddo uses her flashlight to help her see, even though deep under the ocean it's so dark.",
+      "timestamp": 260.56
+    },
+    {
+      "speaker": "Dad",
+      "text": "And what does she find?",
+      "timestamp": 291.32
+    },
+    {
+      "speaker": "Izzy",
+      "text": "She doesn't find any creatures at all, because they're s- because they are sleeping.",
+      "timestamp": 292.8
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, all the creatures were sleeping in the deep, deep dark.",
+      "timestamp": 299.84
+    },
+    {
+      "speaker": "Izzy",
+      "text": "But, and Sugar was sleeping too, and Pout-Pout, and, but Clam is staying awake because she lost her pearl, and she can't go to sleep without it.",
+      "timestamp": 306.3
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh. And she says, \"Izzy the Kiddo, can you please help me find my pearl?\" And Izzy says, \"Yes.\" And Bert and Ernie says, say, \"We'll help too.\" And Pout-Pout Fish says, \"Yeah, me too.\" And so they all swam down as deep as they could, down into the trench.",
+      "timestamp": 323.94
+    },
+    {
+      "speaker": "Dad",
+      "text": "And did they find the pearl there?",
+      "timestamp": 339.18
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yes.",
+      "timestamp": 341.56
+    },
+    {
+      "speaker": "Dad",
+      "text": "They dug the pearl out of the mud, and what did they do next?",
+      "timestamp": 342.94
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Swam back, back up.",
+      "timestamp": 347.04
+    },
+    {
+      "speaker": "Dad",
+      "text": "They swam all the way back up to Miss Clam, and then what happened?",
+      "timestamp": 351.26
+    },
+    {
+      "speaker": "Izzy",
+      "text": "They gave it to Clam.",
+      "timestamp": 355.34
+    },
+    {
+      "speaker": "Dad",
+      "text": "They gave the pearl back to Miss Clam, and what did Miss Clam say?",
+      "timestamp": 358.12
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"Thank you.\"",
+      "timestamp": 362.92
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Bert and Ernie and Pout-Pout and Izzy said, \"You're welcome. We're happy to help.\" And that was the end of Pout-Pout and Bert and Ernie in the Deep, Deep Dark. And then what did Izzy and Daddy do at the library?",
+      "timestamp": 366.46
+    },
+    {
+      "speaker": "Izzy",
+      "text": "They bring their new book home.",
+      "timestamp": 383.26
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, they checked out their new book out of the library, and they brought it home. Oh, thanks for putting your light away. And that's the end of the story. Okay. That's the end of Stars and Stories. I'm gonna turn the light back on.",
+      "timestamp": 388.02
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And let's turn that light-",
+      "timestamp": 405.94
+    },
+    {
+      "speaker": "Dad",
+      "text": "And we'll turn that one off and turn oops, we'll turn my flashlight off",
+      "timestamp": 408
     }
   ],
   "characters": [
@@ -364,7 +429,19 @@
       "description": "A silt-choked abyss carved into the seabed, where the lost pearl lies buried beneath thick layers of primordial mud. This yawning chasm marks the gateway to the Deep-Deep Dark, a lightless void where the ocean floor gives way to the crushing pressure of the unknown."
     }
   ],
-  "wordCount": 746,
-  "izzyWordCount": 220,
-  "dadWordCount": 526
+  "wordCount": 794,
+  "izzyWordCount": 232,
+  "dadWordCount": 562,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T14:53:17.491Z",
+    "speakerMap": {
+      "speaker_0": "Dad",
+      "speaker_1": "Izzy"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "high"
+  }
 }

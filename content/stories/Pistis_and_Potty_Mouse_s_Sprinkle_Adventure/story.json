@@ -6,203 +6,658 @@
   "audioFilename": "Stars and stories - scratch, cookies.m4a",
   "highlightQuote": {
     "text": "They baked the cookie dough and they made the cookie dough, don't forget that part!",
-    "timestamp": 1006
+    "timestamp": 612.68
   },
   "transcript": [
     {
       "speaker": "Dad",
-      "text": "Okay, you got the flashlight on.",
-      "timestamp": 6
+      "text": "Okay, you got the flashlight on",
+      "timestamp": 5.76
     },
     {
       "speaker": "Izzy",
-      "text": "Tapo, tapo, tapo, tapo, tapo, tapo, tapo...",
-      "timestamp": 7.5
+      "text": "Babble, babble, babble. Babble, babble, babble. Babble, babble, babble",
+      "timestamp": 7.2
     },
     {
       "speaker": "Dad",
-      "text": "All right, let me turn out the light. Okay, time for stars and stories.",
-      "timestamp": 14
+      "text": "All right, let's turn off the light. Okay. Now let's do Stars and Stories.",
+      "timestamp": 11.04
     },
     {
       "speaker": "Izzy",
-      "text": "Wipe my nose. Excuse me, bear. I need Melissa's blanket.",
-      "timestamp": 39
+      "text": "I'm standing in cups over.",
+      "timestamp": 28.28
     },
     {
       "speaker": "Dad",
-      "text": "Oh, thank you. This is Melissa's blanket?",
-      "timestamp": 59
+      "text": "Oh.",
+      "timestamp": 31.53
     },
     {
       "speaker": "Izzy",
-      "text": "When she was a little girl. Yeah, when Melissa was a little girl. She had this blanket.",
-      "timestamp": 116
+      "text": "They're all doing that.",
+      "timestamp": 36.52
     },
     {
       "speaker": "Dad",
-      "text": "Wow. Did you say stars? All right. Where are more cups?",
-      "timestamp": 197
+      "text": "Oh, okay. Well, I'm ready for Stars and Stories whenever you are. I'm gonna sit right over here.",
+      "timestamp": 38.52
     },
     {
       "speaker": "Izzy",
-      "text": "Take those stories. Wipe my nose again, please.",
-      "timestamp": 222
+      "text": "Guys, excuse me, bear. Can you open ... Excuse me, bear.",
+      "timestamp": 44.68
     },
     {
       "speaker": "Dad",
-      "text": "All right. There. You want to sit on my lap?",
-      "timestamp": 230
+      "text": "Yeah?",
+      "timestamp": 59.54
     },
     {
       "speaker": "Izzy",
-      "text": "No, I want to stand for stars and stories.",
-      "timestamp": 237
+      "text": "Excuse me. Can you open blanket for me?",
+      "timestamp": 60.18
     },
     {
       "speaker": "Dad",
-      "text": "Okay. Let's tell a story about how...",
-      "timestamp": 240
+      "text": "Oh.",
+      "timestamp": 64.74
     },
     {
       "speaker": "Izzy",
-      "text": "Pistis Mouse. Pistis Mouse tried to go to the river in his little car. Yeah, that’s what that story is about.",
-      "timestamp": 243
+      "text": "Here comes the blankie.",
+      "timestamp": 66
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, thank you.",
+      "timestamp": 69.1
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Melissa's blanket.",
+      "timestamp": 70.98
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yeah, that's Melissa's blanket.",
+      "timestamp": 73.62
+    },
+    {
+      "speaker": "Izzy",
+      "text": "When she was a little girl ... Yeah, when Melissa was a girl, was a l- w- when she was a little girl ...",
+      "timestamp": 78.64
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yeah?",
+      "timestamp": 92.07
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah, when she was a little girl ...",
+      "timestamp": 92.1
+    },
+    {
+      "speaker": "Dad",
+      "text": "What did she do?",
+      "timestamp": 95.04
+    },
+    {
+      "speaker": "Izzy",
+      "text": "She had this, she had this blanket.",
+      "timestamp": 96.28
+    },
+    {
+      "speaker": "Dad",
+      "text": "Wow.",
+      "timestamp": 100.52
+    },
+    {
+      "speaker": "Izzy",
+      "text": "On my nose.",
+      "timestamp": 114.26
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay.",
+      "timestamp": 116.18
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Snot, snot, snot.",
+      "timestamp": 117.26
+    },
+    {
+      "speaker": "Dad",
+      "text": "Did you say snot, snot, snot? All right.",
+      "timestamp": 119.24
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Where are more cups?",
+      "timestamp": 125.62
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, I think you stacked them all up. Hey, it's time for Stars and Stories though. Let's get ready for stories.",
+      "timestamp": 127.84
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No, no. Is there any more cups?",
+      "timestamp": 133.72
+    },
+    {
+      "speaker": "Dad",
+      "text": "No, that's all the cups we have up here.",
+      "timestamp": 137.5
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Can you tell some stories? Wipe my nose again.",
+      "timestamp": 140.2
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay.",
+      "timestamp": 146.72
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Please.",
+      "timestamp": 149.58
+    },
+    {
+      "speaker": "Dad",
+      "text": "There. You wanna sit in my lap?",
+      "timestamp": 150.84
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No, I wanna stand here for Stars and Stories.",
+      "timestamp": 155.04
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay. Let's tell a story about how-",
+      "timestamp": 159.24
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Pista Mouse.",
+      "timestamp": 165.56
+    },
+    {
+      "speaker": "Dad",
+      "text": "Who?",
+      "timestamp": 168.16
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Pista Mouse.",
+      "timestamp": 169.54
+    },
+    {
+      "speaker": "Dad",
+      "text": "Pista Mouse?",
+      "timestamp": 171
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Pista Mouse tried to go to the river in his little car. Yeah, that's what that story is about.",
+      "timestamp": 172.02
     },
     {
       "speaker": "Dad",
       "text": "Oh, what happened next?",
-      "timestamp": 303
+      "timestamp": 182.8
     },
     {
       "speaker": "Izzy",
       "text": "I don't know.",
-      "timestamp": 305
+      "timestamp": 184.26
     },
     {
       "speaker": "Dad",
-      "text": "Hmm. Pistis Mouse tried to go to the river in his little car, but he got stuck. Why did he get stuck?",
-      "timestamp": 308
+      "text": "Hmm. Pista Mouse tried to go to the river in his little car, but he got stuck. Why did he get stuck?",
+      "timestamp": 186.4
     },
     {
       "speaker": "Izzy",
-      "text": "No, he didn't get stuck on the way. He just drove into some plants. Now, he's just driving in his car. He's just driving in his car.",
-      "timestamp": 312
+      "text": "No, he didn't get stuck on the way. He just drove into some plants.",
+      "timestamp": 192.7
+    },
+    {
+      "speaker": "Dad",
+      "text": "He drove into some plants? And then what happened?",
+      "timestamp": 199.98
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And just ... No. He was just d- driving in his car. He was just driving in his car.",
+      "timestamp": 204.62
     },
     {
       "speaker": "Dad",
       "text": "Was anybody else in the car with him?",
-      "timestamp": 336
+      "timestamp": 219.18
     },
     {
       "speaker": "Izzy",
-      "text": "I don't know. It was his mama and dada going to the store and Pistis Mouse was staying at home by himself with his nana.",
-      "timestamp": 338
+      "text": "I don't know. It was his mama and dada going to the s- and Pista Mouse was staying at home by himself with his nana.",
+      "timestamp": 221.22
     },
     {
       "speaker": "Dad",
-      "text": "Ah. And what was he doing with his nana?",
-      "timestamp": 355
+      "text": "Oh, and what was he doing with his nana?",
+      "timestamp": 235.14
     },
     {
       "speaker": "Izzy",
-      "text": "He was playing with his Legos. They made a building for their mice toys. Wipe my nose.",
-      "timestamp": 358
+      "text": "He was playing with his Legos.",
+      "timestamp": 237.98
     },
     {
       "speaker": "Dad",
-      "text": "What was the building for their mice toys?",
-      "timestamp": 412
+      "text": "Oh, what did they make out of Legos?",
+      "timestamp": 240.76
     },
     {
       "speaker": "Izzy",
-      "text": "It was a workplace. Scratch. They get with a computer.",
-      "timestamp": 415
+      "text": "They made a building for the mice toys. Wipe my nose.",
+      "timestamp": 243.08
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, okay. I'll wipe your nose. What was the building for their mice toys?",
+      "timestamp": 248.82
+    },
+    {
+      "speaker": "Izzy",
+      "text": "It was a workplace.",
+      "timestamp": 255.7
+    },
+    {
+      "speaker": "Dad",
+      "text": "A workplace? What kind of work did the mice do in their workplace?",
+      "timestamp": 259.08
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Scratch.",
+      "timestamp": 262.9
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, they did scratch? Oh, how did they do that?",
+      "timestamp": 264.56
+    },
+    {
+      "speaker": "Izzy",
+      "text": "He did it with a computer.",
+      "timestamp": 269.34
     },
     {
       "speaker": "Dad",
       "text": "Oh, cool. Did they like doing that?",
-      "timestamp": 434
+      "timestamp": 274.58
     },
     {
       "speaker": "Izzy",
-      "text": "Yeah, with the scratch cat. And what did they do when they were done with work? They played making pretend tea. Wipe my nose.",
-      "timestamp": 436
+      "text": "Yeah, with the scratch cat.",
+      "timestamp": 277.42
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, and what did they do, um, when they were done with work?",
+      "timestamp": 281.06
+    },
+    {
+      "speaker": "Izzy",
+      "text": "They played.",
+      "timestamp": 285.24
+    },
+    {
+      "speaker": "Dad",
+      "text": "What kind of things did they play?",
+      "timestamp": 287.78
+    },
+    {
+      "speaker": "Izzy",
+      "text": "They played making pretend tea.",
+      "timestamp": 290.2
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh.",
+      "timestamp": 295.68
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Wipe my nose.",
+      "timestamp": 295.72
     },
     {
       "speaker": "Dad",
       "text": "What flavor tea did they make?",
-      "timestamp": 456
+      "timestamp": 298.28
     },
     {
       "speaker": "Izzy",
-      "text": "Ginger tea. Ginger tea with hibiscus. That sounds great. Did they have any snacks with their tea? Yes.",
-      "timestamp": 458
+      "text": "Ginger tea.",
+      "timestamp": 302.34
     },
     {
       "speaker": "Dad",
-      "text": "We're going to do one more little story and then it's going to be time to use the potty if you need to, okay?",
-      "timestamp": 812
+      "text": "Oh, that sounds nice.",
+      "timestamp": 303.86
     },
     {
       "speaker": "Izzy",
-      "text": "It will be big. A story about an adventure.",
-      "timestamp": 821
+      "text": "With hibiscus.",
+      "timestamp": 306.56
     },
     {
       "speaker": "Dad",
-      "text": "A story about an adventure? Okay. Who's gone on the adventure?",
-      "timestamp": 829
+      "text": "Mm. Ginger tea with hibiscus, that sounds great. Did they have any snacks with their tea?",
+      "timestamp": 309.44
     },
     {
       "speaker": "Izzy",
-      "text": "Plotty the mouse.",
-      "timestamp": 831
+      "text": "Mm, yes. I'll just lean back right here and watch the stars.",
+      "timestamp": 315.32
     },
     {
       "speaker": "Dad",
-      "text": "Plotty the mouse? Okay. And where's Plotty going on the adventure?",
-      "timestamp": 835
+      "text": "Oh, nice.",
+      "timestamp": 326.36
     },
     {
       "speaker": "Izzy",
-      "text": "To a sprinkle store in his most tiny car, his pretend toy car. He's taking his mice toys in a little tea car... toy car. That's what he was doing.",
-      "timestamp": 838
+      "text": "Wow. Like ... Eclipse. Tight. Stars. Stars. Stars. Stars. Do you see that star? It's so long. So long, Dada",
+      "timestamp": 328.44
     },
     {
       "speaker": "Dad",
-      "text": "A sprinkle store. And what kind of sprinkles are they going to buy there?",
-      "timestamp": 920
+      "text": "Oh, yeah. It's a long star. You're right. There's stars all over.",
+      "timestamp": 365.52
     },
     {
       "speaker": "Izzy",
-      "text": "Glittering sprinkles. They're going to be brown with white frosting and they was going to buy pink sprinkles too to make a cat cookie, a star cookie, a radio cookie.",
-      "timestamp": 924
+      "text": "There's dot stars.",
+      "timestamp": 370.76
     },
     {
       "speaker": "Dad",
-      "text": "So they brought all their sprinkles home to make their cookies. And then what did they do?",
-      "timestamp": 1004
+      "text": "There's dot stars, and stripe stars, and triangle stars.",
+      "timestamp": 373.06
     },
     {
       "speaker": "Izzy",
-      "text": "They got the cookies out of the fridge. They baked the cookie dough and they made the cookie dough, don't forget that part! They made the cookies. They made the cookies.",
-      "timestamp": 1006
+      "text": "Where's the triangle ones?",
+      "timestamp": 377.44
+    },
+    {
+      "speaker": "Dad",
+      "text": "I see two triangle stars above the window there.",
+      "timestamp": 380.6
     },
     {
       "speaker": "Izzy",
-      "text": "Pistis mouse helping too. And their dad came along, said \"Could I have help make it?\"",
-      "timestamp": 1059
+      "text": "Where? Where, Dada?",
+      "timestamp": 384.52
+    },
+    {
+      "speaker": "Dad",
+      "text": "Up above your crib.",
+      "timestamp": 388.32
+    },
+    {
+      "speaker": "Izzy",
+      "text": "There it is. Wait, windows. There's some on my radiator there.",
+      "timestamp": 391.16
+    },
+    {
+      "speaker": "Dad",
+      "text": "On your radiator, yeah.",
+      "timestamp": 403.14
+    },
+    {
+      "speaker": "Izzy",
+      "text": "There's some on there. Where are Bernard? Did we leave them downstairs?",
+      "timestamp": 405.84
+    },
+    {
+      "speaker": "Dad",
+      "text": "I think so. I think they're playing in the parking garage.",
+      "timestamp": 419.62
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Mama has ... Mama will bring them in the morning.",
+      "timestamp": 426.7
+    },
+    {
+      "speaker": "Dad",
+      "text": "That's right.",
+      "timestamp": 437.06
+    },
+    {
+      "speaker": "Izzy",
+      "text": "But right now Mom's not here.",
+      "timestamp": 439.98
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yeah, she's resting.",
+      "timestamp": 443.98
+    },
+    {
+      "speaker": "Izzy",
+      "text": "A big star, a star, a star, a star, a star. Are stars down there? Are they down below?",
+      "timestamp": 446.56
+    },
+    {
+      "speaker": "Dad",
+      "text": "I don't think so.",
+      "timestamp": 469.58
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Will you read ... tell a story with my flashlight? Will you read ... borrow my flashlight?",
+      "timestamp": 473.12
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yeah.",
+      "timestamp": 482.96
+    },
+    {
+      "speaker": "Izzy",
+      "text": "To ... Where's the s- oh.",
+      "timestamp": 483.38
+    },
+    {
+      "speaker": "Dad",
+      "text": "All right, we're gonna do one more little story and then it's gonna be time to use-",
+      "timestamp": 489.6
+    },
+    {
+      "speaker": "Izzy",
+      "text": "It will be-",
+      "timestamp": 493.76
+    },
+    {
+      "speaker": "Dad",
+      "text": "To use the potty, if you need to, okay?",
+      "timestamp": 495.54
+    },
+    {
+      "speaker": "Izzy",
+      "text": "It will be big. Story b- about an adventure.",
+      "timestamp": 497.11
+    },
+    {
+      "speaker": "Dad",
+      "text": "A story about an adventure? Okay. Who's going on the adventure?",
+      "timestamp": 506
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Potty the Mouse.",
+      "timestamp": 510.58
+    },
+    {
+      "speaker": "Dad",
+      "text": "Potty the Mouse? Okay. And where is Potty going on the adventure?",
+      "timestamp": 512.46
+    },
+    {
+      "speaker": "Izzy",
+      "text": "To a, a, a sprinkle store.",
+      "timestamp": 516.9
+    },
+    {
+      "speaker": "Dad",
+      "text": "To a what kind of store?",
+      "timestamp": 524.62
+    },
+    {
+      "speaker": "Izzy",
+      "text": "A sprinkle store in his little tiny, tiny car, his pretend toy car. He was, he was taking his mice toys, their teeny tiny ... Some mice, his mice toy in their, in their little teeny car, his toy car. That's what he was doing.",
+      "timestamp": 526.18
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, he's taking his teeny tiny mice friends in their toy car to the what kind of store?",
+      "timestamp": 553.62
+    },
+    {
+      "speaker": "Izzy",
+      "text": "A sprinkle store.",
+      "timestamp": 558.28
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, a sprinkle store. And what kind of sprinkles are they gonna buy there?",
+      "timestamp": 559.76
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Glittering sprinkles.",
+      "timestamp": 564.48
+    },
+    {
+      "speaker": "Dad",
+      "text": "Wow. What color?",
+      "timestamp": 567.34
+    },
+    {
+      "speaker": "Izzy",
+      "text": "They're going to be brown with white frosting and, and, and they were going to buy pink sprinkles, too, to make a ca- a cat cookie.",
+      "timestamp": 569.5
+    },
+    {
+      "speaker": "Dad",
+      "text": "A cat cookie? That sounds amazing. So they brought all their-",
+      "timestamp": 588.54
+    },
+    {
+      "speaker": "Izzy",
+      "text": "A star cookie.",
+      "timestamp": 592.38
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh.",
+      "timestamp": 594.72
+    },
+    {
+      "speaker": "Izzy",
+      "text": "A radio cookie.",
+      "timestamp": 594.88
+    },
+    {
+      "speaker": "Dad",
+      "text": "Wow. So they brought all their sprinkles home to make their cookies, and then what did they do?",
+      "timestamp": 597.44
+    },
+    {
+      "speaker": "Izzy",
+      "text": "They got the cookies out of the fridge.",
+      "timestamp": 606.7
+    },
+    {
+      "speaker": "Dad",
+      "text": "Mm-hmm.",
+      "timestamp": 610.96
+    },
+    {
+      "speaker": "Izzy",
+      "text": "They baked the, the cookie dough, and they make the cookie dough. Don't forget that part.",
+      "timestamp": 612.68
+    },
+    {
+      "speaker": "Dad",
+      "text": "Don't forget that part, yeah. And then what?",
+      "timestamp": 622.72
+    },
+    {
+      "speaker": "Izzy",
+      "text": "They, um, make the cookies.",
+      "timestamp": 627.88
+    },
+    {
+      "speaker": "Dad",
+      "text": "Mm.",
+      "timestamp": 632.94
+    },
+    {
+      "speaker": "Izzy",
+      "text": "They baked the cookies.",
+      "timestamp": 633.12
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, they baked the cookies. And then what happened?",
+      "timestamp": 635.76
+    },
+    {
+      "speaker": "Izzy",
+      "text": "They were awesome cookies. And little ... And Pop, Mistress Mouse was helping too, and their dad came along, said, \"Could I help make it?\"",
+      "timestamp": 641.19
     },
     {
       "speaker": "Dad",
       "text": "And what did they say?",
-      "timestamp": 1109
+      "timestamp": 669.22
     },
     {
       "speaker": "Izzy",
-      "text": "You could! Of course! said his dad. Of course you could help. Yeah. And he said of course. And their dad helped them make the cookies. Now time to turn off the stars.",
-      "timestamp": 1111
+      "text": "\"You could, of course,\" said his dad.",
+      "timestamp": 670.96
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh.",
+      "timestamp": 678.3
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And, um, said, \"Of course you can help.\" Yeah, and he said, \"Of course.\" And, and their dad helped them make the cookies. Now, now it's time to turn off the stars.",
+      "timestamp": 678.68
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay. Sounds good. I'll turn my-",
+      "timestamp": 702.78
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Turn the stars-",
+      "timestamp": 711.56
     }
   ],
   "characters": [
@@ -259,7 +714,19 @@
       "description": "A specialty shop where mice purchase glittering pink and brown toppings for their baked goods."
     }
   ],
-  "wordCount": 549,
-  "izzyWordCount": 348,
-  "dadWordCount": 201
+  "wordCount": 1049,
+  "izzyWordCount": 575,
+  "dadWordCount": 474,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T14:51:20.645Z",
+    "speakerMap": {
+      "speaker_0": "Dad",
+      "speaker_1": "Izzy"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "low"
+  }
 }
