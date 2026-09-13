@@ -6,358 +6,608 @@
   "audioFilename": "* Mistress Mouse and the big race.m4a",
   "highlightQuote": {
     "text": "No, you don't need to go pee-pee, you can just go in your race car right away.",
-    "timestamp": 142.1
+    "timestamp": 140.96
   },
   "transcript": [
     {
       "speaker": "Izzy",
-      "text": "About Mistress Mouse.",
-      "timestamp": 10
+      "text": "What are you doing?",
+      "timestamp": 0.08
     },
     {
       "speaker": "Dad",
-      "text": "About Mistress Mouse again? Okay.",
-      "timestamp": 12
+      "text": "Just getting the stars set up all the way we want them to. Okay, let's make up a story-",
+      "timestamp": 1.66
     },
     {
       "speaker": "Izzy",
-      "text": "No no, about Mistress Mouse.",
-      "timestamp": 14.5
+      "text": "About Mischief Mouse.",
+      "timestamp": 9.88
+    },
+    {
+      "speaker": "Dad",
+      "text": "About Mischief Mouse again? Okay.",
+      "timestamp": 11.6
     },
     {
       "speaker": "Izzy",
-      "text": "And her race car!",
-      "timestamp": 20.3
+      "text": "No, no, about Mistress Mouse.",
+      "timestamp": 14.14
+    },
+    {
+      "speaker": "Dad",
+      "text": "About Mistress Mouse. Okay.",
+      "timestamp": 16.34
+    },
+    {
+      "speaker": "Izzy",
+      "text": "In her race car.",
+      "timestamp": 20.92
     },
     {
       "speaker": "Dad",
       "text": "Mistress Mouse in her race car. Once upon a time, Mistress Mouse was driving her race car. Where was she driving it?",
-      "timestamp": 24.1
+      "timestamp": 25.68
     },
     {
       "speaker": "Izzy",
-      "text": "No no no, she was at her house.",
-      "timestamp": 39.5
+      "text": "No, no, no. No, she was at her house.",
+      "timestamp": 39.38
     },
     {
       "speaker": "Dad",
-      "text": "Once upon a time Mistress Mouse was at her house. What was she doing there?",
-      "timestamp": 43.1
+      "text": "Oh, Mistress Mouse was at her house. Once upon a time, Mistress Mouse was at her house. What was she doing there?",
+      "timestamp": 43.04
     },
     {
       "speaker": "Izzy",
-      "text": "She was calling her phone.",
-      "timestamp": 51.2
+      "text": "She was, she was calling her phone.",
+      "timestamp": 49.74
     },
     {
       "speaker": "Dad",
       "text": "Oh, she picked up the phone and decided to call someone. Who did she call?",
-      "timestamp": 53
+      "timestamp": 53.02
     },
     {
       "speaker": "Izzy",
-      "text": "Nope, nope, nope. Someone said the race was today.",
-      "timestamp": 58.3
+      "text": "Nope, nope, nope, nope. Someone said, \"The race was today.\"",
+      "timestamp": 58.14
     },
     {
       "speaker": "Dad",
-      "text": "Oh, someone called Mistress Mouse and said 'the race is today!' And she said, 'Oh great! Where is it?' And what did they say?",
-      "timestamp": 65.2
+      "text": "Oh, someone called Mistress Mouse and said, \"The race is today.\" And she said, \"Oh, great, where is it?\" And what did they say?",
+      "timestamp": 64.2
     },
     {
       "speaker": "Izzy",
-      "text": "They said 'It's over hills and you have to get in your race car to drive there.'",
-      "timestamp": 74
+      "text": "They said, \"It's over hills becau- and you have to get in your race car to drive there.\"",
+      "timestamp": 72.8
     },
     {
       "speaker": "Dad",
-      "text": "Oh, I have to get in my race car and it's over hills, is that what you said?",
-      "timestamp": 81.3
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Yeah. And you have to go through the jungle and past the construction site and then all the way through the jungle.",
-      "timestamp": 85.5
-    },
-    {
-      "speaker": "Dad",
-      "text": "The jungle and then the construction site and then the jungle... that sounds like an amazing race. I'll be there! What time does it start?",
-      "timestamp": 95.1
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Lunch time, so you have to get in your race car.",
-      "timestamp": 105.4
-    },
-    {
-      "speaker": "Dad",
-      "text": "Okay, thank you, bye-bye. So she hung up her phone and she started to go out the door to get in her race car, but she realized something very important she had to do first. What was that?",
-      "timestamp": 108.5
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Hmm, I don't know.",
-      "timestamp": 120.2
-    },
-    {
-      "speaker": "Dad",
-      "text": "She had to have a snack. It's very important to have a snack first. So what did she have for a snack?",
-      "timestamp": 122.5
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Dried apple!",
-      "timestamp": 128.3
-    },
-    {
-      "speaker": "Dad",
-      "text": "She had some delicious dried apple. And what else?",
-      "timestamp": 131
-    },
-    {
-      "speaker": "Izzy",
-      "text": "I don't know.",
-      "timestamp": 135.2
-    },
-    {
-      "speaker": "Dad",
-      "text": "Um, some water. So she had some water and then she thought, 'Hmm, I wonder if I need to go pee-pee?'",
-      "timestamp": 136.5
-    },
-    {
-      "speaker": "Izzy",
-      "text": "No, you don't need to go pee-pee, you can just go in your race car right away.",
-      "timestamp": 142.1
-    },
-    {
-      "speaker": "Dad",
-      "text": "Okay, she decided just to go in her race car right away. So she went out her door and she opened the door of her race car and she got in and then she put the key in the ignition and then vroom, the motor of the race car started up and she backed it out of her driveway and then she drove over to the beginning of the race. At... the race was starting at the Hills.",
-      "timestamp": 146.3
-    },
-    {
-      "speaker": "Izzy",
-      "text": "No, no, no. It was starting at the finish line.",
-      "timestamp": 171.1
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, it was starting at the finish line! And so she drove all the way to the finish line and there were lots of other people driving their race cars because they all wanted to be in the race. And... who did she drive up next to that was also driving a car to be in the race?",
-      "timestamp": 176.2
-    },
-    {
-      "speaker": "Izzy",
-      "text": "She was driving a tow truck and it was Mischief Mouse.",
-      "timestamp": 193.1
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, Mischief Mouse pulled up next to Mistress Mouse. Yeah. They're both mice, they're both driving tow trucks, and they have very similar names, Mistress and Mischief.",
-      "timestamp": 196.4
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Nope, nope, nope.",
-      "timestamp": 212.5
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, sorry. Mistress Mouse was in her race car, not her tow truck. Excuse me.",
-      "timestamp": 214.2
-    },
-    {
-      "speaker": "Izzy",
-      "text": "And the other person borrowed her tow truck.",
-      "timestamp": 220.1
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, the other person... you're saying Mischief Mouse borrowed Mistress Mouse's tow truck?",
-      "timestamp": 224.2
+      "text": "Oh, I have to get in my race car, and it's over hills? Is that what you said?",
+      "timestamp": 79.98
     },
     {
       "speaker": "Izzy",
       "text": "Yeah.",
-      "timestamp": 229.3
+      "timestamp": 83.24
     },
     {
       "speaker": "Dad",
-      "text": "I see, I see. That was nice of Mistress Mouse to let Mischief Mouse borrow her tow truck. Um, and who else was in the race? Was anyone else racing against them?",
-      "timestamp": 230.1
+      "text": "Okay. Um, and-",
+      "timestamp": 84.32
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And you have to go through the jungle, then past the construction, and then all the way through the jungle.",
+      "timestamp": 85.87
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, the jungle and then the construction site and then the jungle? That sounds like an amazing race. I'll be there. What time does it start?",
+      "timestamp": 94.5
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Lunchtime, so, so you have to get in your race car.",
+      "timestamp": 102.96
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay. Thank you. Bye bye. So she hung up her phone, and then she started to go out the door to get in her race car, but she realized something very important she had to do first. What was that?",
+      "timestamp": 107.76
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Hmm, I don't know.",
+      "timestamp": 118.46
+    },
+    {
+      "speaker": "Dad",
+      "text": "She had to have a snack. It's very important to have a snack first. So what did she have for a snack?",
+      "timestamp": 120.16
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Dried apple.",
+      "timestamp": 127.38
+    },
+    {
+      "speaker": "Dad",
+      "text": "She had some delicious dried apple. And what else?",
+      "timestamp": 129.18
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I don't know.",
+      "timestamp": 132.84
+    },
+    {
+      "speaker": "Dad",
+      "text": "Um, some water. So she had some water. And then she thought, \"Hmm, I wonder if I need to go pee-pee.\"",
+      "timestamp": 134.7
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No, you don't need to go pee-pee. You can just go in your race car right away.",
+      "timestamp": 140.96
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, okay. She decided just to go in her race car right away, so she went out her door, and she opened the door of her race car, and she got in. And then she put the key in the ignition, and then vroom, the motor of the race car started up. And she backed it out of her driveway, vroom, and then she drove over to the beginning of the race at the, the race was starting at the hills.",
+      "timestamp": 145.46
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No, no. No, it was starting at the finish line.",
+      "timestamp": 169.94
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, it was starting at the finish line. And so she drove all the way to the finish line, and there were lots of other people driving their race cars 'cause they all wanted to be in the race. And, um, who did she drive up next to that was also driving a car to be in the race?",
+      "timestamp": 173.86
+    },
+    {
+      "speaker": "Izzy",
+      "text": "She was driving a tow truck, and it was Mischief Mouse.",
+      "timestamp": 190.66
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, Mistress Mouse pulled up next to-",
+      "timestamp": 194.88
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No, no",
+      "timestamp": 197.73
+    },
+    {
+      "speaker": "Dad",
+      "text": "... Mischief Mouse.",
+      "timestamp": 197.73
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah.",
+      "timestamp": 200.88
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yeah. They're both mice. They're both driving tow trucks, and they have very similar names, Mistress and Mischief. And they were driving-",
+      "timestamp": 200.95
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No, no",
+      "timestamp": 208.74
+    },
+    {
+      "speaker": "Dad",
+      "text": "... next to each other.",
+      "timestamp": 209.22
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Mischief. Nope, nope, nope.",
+      "timestamp": 209.76
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, sorry, Mistress Mouse was in her race car, not her tow truck. Excuse me.",
+      "timestamp": 212.66
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And, and the other person bar- borrowed her tow truck.",
+      "timestamp": 217.98
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, the other person borrowed it. You're saying Mischief Mouse borrowed Mistress Mouse's tow truck?",
+      "timestamp": 225.64
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah.",
+      "timestamp": 230.52
+    },
+    {
+      "speaker": "Dad",
+      "text": "I see. I see. That was nice of, uh, Mistress Mouse to let Mischief Mouse borrow her tow truck. Um, and who else was in the race? Was anyone else racing against them?",
+      "timestamp": 231.2
     },
     {
       "speaker": "Izzy",
       "text": "Yes.",
-      "timestamp": 242
+      "timestamp": 242.38
     },
     {
       "speaker": "Dad",
       "text": "Who was it?",
-      "timestamp": 244.1
+      "timestamp": 244.66
     },
     {
       "speaker": "Izzy",
-      "text": "Mischievous Mama Mouse.",
-      "timestamp": 247.3
+      "text": "Mischief, Mama Mouse.",
+      "timestamp": 246.3
     },
     {
       "speaker": "Dad",
-      "text": "Oh, Mama Mouse! Now Mama Mouse had a very special funny kind of car that was different from all the other cars. What kind of car did Mama Mouse drive?",
-      "timestamp": 249.2
+      "text": "Oh, Mama Mouse. Now, Mama Mouse had a very special, funny kind of car that was different from all the other cars. What kind of car did Mama Mouse drive?",
+      "timestamp": 249.18
     },
     {
       "speaker": "Izzy",
-      "text": "She drove a... she drove a nice car that was very funny.",
-      "timestamp": 260.1
+      "text": "She drove a, she drove a nice car-",
+      "timestamp": 257.9
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh",
+      "timestamp": 264.22
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... that was very funny.",
+      "timestamp": 264.9
     },
     {
       "speaker": "Dad",
       "text": "It was funny? What was funny about it?",
-      "timestamp": 267.3
+      "timestamp": 266.76
     },
     {
       "speaker": "Izzy",
-      "text": "Because it had so much stuff in it and it had a book about junk in it.",
-      "timestamp": 270.4
+      "text": "Because it had so much stuff in, in it. It had a book about junk in it.",
+      "timestamp": 269.45
     },
     {
       "speaker": "Dad",
-      "text": "Mama Mouse's car had a book about junk in it? Yeah. What color was her car?",
-      "timestamp": 276.5
+      "text": "Mama Mouse's car had a book about junk in it?",
+      "timestamp": 276.88
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah.",
+      "timestamp": 280.84
+    },
+    {
+      "speaker": "Dad",
+      "text": "What color was her car?",
+      "timestamp": 281.5
     },
     {
       "speaker": "Izzy",
       "text": "It was black and black.",
-      "timestamp": 284.2
+      "timestamp": 283.74
     },
     {
       "speaker": "Dad",
-      "text": "Black and black. And was it a small car or a big car?",
-      "timestamp": 286.3
+      "text": "Black and black. And was it, um, a small car or a big car?",
+      "timestamp": 286.06
     },
     {
       "speaker": "Izzy",
       "text": "It was a medium car.",
-      "timestamp": 291.1
+      "timestamp": 290.26
     },
     {
       "speaker": "Dad",
-      "text": "It was a medium-sized black and black car with a book about junk in it. So Mama Mouse drove up to enter the race. Okay, and did anyone else want to join the race, or was it just those?",
-      "timestamp": 294
+      "text": "Oh, it was a medium-sized black and black car with a book about junk in it. So Mama Mouse drove up to enter the race. Okay, and did anybody else want to join the race, or was it just those?",
+      "timestamp": 291.94
     },
     {
       "speaker": "Izzy",
-      "text": "It's just those.",
-      "timestamp": 305.2
+      "text": "It was just those.",
+      "timestamp": 304.5
     },
     {
       "speaker": "Dad",
-      "text": "Okay, and then it was time for the race to begin! The announcer said, 'On your mark, get ready, get set, start your engines, vroom vroom vroom, GO!' And then vroom, all the cars...",
-      "timestamp": 307.4
+      "text": "Okay. And then it was time for the race to begin, so the announcer said, \"On your mark. Get ready. Get set. Start your engines. Vroom, vroom, vroom. Go.\" And then vroom, all the cars-",
+      "timestamp": 306.26
     },
     {
       "speaker": "Izzy",
       "text": "And what else did the announcer say?",
-      "timestamp": 321.3
+      "timestamp": 319.82
     },
     {
       "speaker": "Dad",
-      "text": "The announcer said, 'And Mama Mouse takes the lead with her fast medium-sized black and black car!' And it zoomed up the hill and down the hill and into the jungle. And then all three cars were very close to each other. Mistress Mouse was...",
-      "timestamp": 324.5
+      "text": "Um, the announcer said, \"And Mama Mouse takes the lead with her fast, medium-sized black and black car,\" and it zoomed up the hill and down the hill and into the jungle. And then all three cars were very close to each other, never slowing down.",
+      "timestamp": 323
     },
     {
       "speaker": "Izzy",
-      "text": "And what else... what else did the announcer say?",
-      "timestamp": 341.1
+      "text": "And what else did the, what else did the announcer say?",
+      "timestamp": 338.84
     },
     {
       "speaker": "Dad",
-      "text": "And Mischief Mouse is coming up close behind Mama Mouse, and Mistress Mouse is coming up close behind Mischief Mouse. All three cars are very close in this very close race as we begin driving through the jungle.",
-      "timestamp": 343.4
+      "text": "\"And Mischief Mouse is coming up close behind Mama Mouse, and Mistress Mouse is coming up close behind Mischief Mouse. All three cars are very close in this very close race as we begin driving through the jungle.\"",
+      "timestamp": 342.84
     },
     {
       "speaker": "Izzy",
-      "text": "And what else... the announcer say?",
-      "timestamp": 354.2
+      "text": "And what else did the announcer say?",
+      "timestamp": 354.74
     },
     {
       "speaker": "Dad",
-      "text": "And then the announcer said, 'It's almost time that we pass out of the jungle into the next part of the race, which is the construction site, which is a very difficult part of the racecourse because it winds and turns and they might have to drive very carefully so that they don't drive off the road and crash into the buildings on the construction site and there's big bulldozers and diggers and cranes all over that they have to drive their cars around and zoom, swerve, squeal, squeak, vroom vroom, all the cars zoomed right through the construction site and as they came out the other end, it was Mischief Mouse in the lead, followed by Mistress Mouse and followed by Mama Mouse hot on their tail. They were all driving fast in their...",
-      "timestamp": 358.3
+      "text": "And then the announcer said, \"It's almost time to- that we pass out of the jungle into the next part of the race, which is the construction site,\" which is a very difficult part of the race course because it winds and turns, and the mice have to drive very carefully so that they don't drive off the road and crash into the buildings on the construction site.",
+      "timestamp": 360.17
+    },
+    {
+      "speaker": "Dad",
+      "text": "And there's big bulldozers and diggers and cranes all over that they have to drive their cars around. And zoom, swerve, squeal, squeak, vroom, vroom, all the cars zoomed right through the construction site. And as they came out the other end, it was Mischief Mouse in the lead, followed by Mistress Mouse and followed by Mama Mouse hot on their tail.",
+      "timestamp": 379.02
+    },
+    {
+      "speaker": "Dad",
+      "text": "They were all driving fast in their cars.",
+      "timestamp": 399.67
     },
     {
       "speaker": "Izzy",
       "text": "What else did the announcer say?",
-      "timestamp": 402.1
+      "timestamp": 401.49
     },
     {
       "speaker": "Dad",
-      "text": "And now it's time for all the cars to come into the jungle again, the last leg of the race. They vroomed into the jungle underneath the big tall jungle trees with monkeys on the branches going 'hoo hoo hoo' as they watch the race. And they drove through the hilly part of the jungle, up and down and then down along the side the river in the jungle, vroom, and then there was an elephant in the jungle going pbbt and they drove past the elephant, vroom. And finally, just as they're coming out of the jungle and around back to the finish line, and they are all going as fast as they can, vroom vroom vroom, racing, racing, racing, and then who's in the lead?",
-      "timestamp": 404.3
+      "text": "\"And now it's time for all the cars to come into the jungle again,\" the last leg of the race. They vroomed into the jungle underneath the big, tall jungle trees with monkeys on the branches going, \"Hoo, hoo, hoo,\" as they watched the race. And they drove through the, um, the hilly part of the jungle up and down and then down to the, alongside the river in the jungle.",
+      "timestamp": 403.75
+    },
+    {
+      "speaker": "Dad",
+      "text": "Vroom. And then there was a, um, elephant in the jungle going, \"Poop, poop, poop.\" And they drove past the elephant. Vroom. And finally, just as they're coming out of the jungle, who's in the lead?",
+      "timestamp": 428.81
     },
     {
       "speaker": "Izzy",
       "text": "Daddy Mouse.",
-      "timestamp": 443.1
+      "timestamp": 443.05
     },
     {
       "speaker": "Dad",
-      "text": "Daddy! A surprise entrance to the race is Daddy Mouse! And what kind of a car was Daddy Mouse driving?",
-      "timestamp": 445
+      "text": "Da- a surprise entrance to the race is Daddy Mouse. And what kind of a car was Daddy Mouse driving?",
+      "timestamp": 444.83
     },
     {
       "speaker": "Izzy",
       "text": "He was driving a penguin car.",
-      "timestamp": 453.2
+      "timestamp": 451.99
     },
     {
       "speaker": "Dad",
-      "text": "A penguin car! Wow, what color penguin car was he driving?",
-      "timestamp": 455.5
+      "text": "A penguin car? Wow, what color penguin car was he driving?",
+      "timestamp": 454.87
     },
     {
       "speaker": "Izzy",
-      "text": "He was driving an orange pink penguin car.",
-      "timestamp": 461.3
+      "text": "He was driving a orange peng- penguin car.",
+      "timestamp": 459.39
     },
     {
       "speaker": "Dad",
       "text": "An orange penguin car. How many wheels does a penguin car have?",
-      "timestamp": 466
+      "timestamp": 462.67
     },
     {
       "speaker": "Izzy",
       "text": "It has two.",
-      "timestamp": 469.1
+      "timestamp": 466.47
     },
     {
       "speaker": "Dad",
-      "text": "It has two wheels. Wow, that sounds amazing. So Daddy Mouse was a surprise leader in the race. He pulled out ahead of Mama Mouse and Mischief Mouse and Mistress Mouse and he's winning the race just as they come out of the jungle and around back to the finish line and they are all going as fast as they can, vroom vroom vroom, racing, racing, racing, and then the winner is...",
-      "timestamp": 471.2
+      "text": "It has two wheels. Wow, that sounds amazing. So Daddy Mouse was a surprise leader in the race. He pulled out ahead of Mama Mouse and Mischief Mouse and Mistress Mouse, and he's winning the race just as they come out of the jungle and around back to the finish line, and they are all going as fast as they can.",
+      "timestamp": 468.15
+    },
+    {
+      "speaker": "Dad",
+      "text": "Vroom, vroom, vroom, racing, racing, racing. And then the winner is...",
+      "timestamp": 485.25
     },
     {
       "speaker": "Izzy",
       "text": "Mistress Mouse.",
-      "timestamp": 490.1
+      "timestamp": 490.49
     },
     {
       "speaker": "Dad",
-      "text": "Wait, Mischief or Mistress?",
-      "timestamp": 492.3
+      "text": "M- was it, wait, Mischief or Mistress?",
+      "timestamp": 492.45
     },
     {
       "speaker": "Izzy",
       "text": "Mistress.",
-      "timestamp": 495.1
+      "timestamp": 494.59
     },
     {
       "speaker": "Dad",
-      "text": "Mistress Mouse wins the race! And what else did the announcer say?",
-      "timestamp": 496.2
+      "text": "Mistress Mouse wins the race.",
+      "timestamp": 495.99
+    },
+    {
+      "speaker": "Izzy",
+      "text": "What else did the announcer say?",
+      "timestamp": 497.74
     },
     {
       "speaker": "Dad",
-      "text": "The announcer said 'Congratulations to all of the racers, what a stunning race with a surprise ending. Come back next time for our next race on this amazing race track. The end.'",
-      "timestamp": 501.3
+      "text": "The, the announcer said, \"Congratulations to all of the racers. Uh, what a stunning race with a surprise ending. Come back next time for our next race on this amazing racetrack.\" The end. Okay, now it's time for a diaper.",
+      "timestamp": 499.89
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Dad, where...",
+      "timestamp": 526.57
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay, that's the first.",
+      "timestamp": 530.71
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Ah.",
+      "timestamp": 539.23
+    },
+    {
+      "speaker": "Dad",
+      "text": "Ah.",
+      "timestamp": 539.25
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Dad, why are you pulling my pants off?",
+      "timestamp": 539.45
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, because, um, you're gonna sleep just in your diaper.",
+      "timestamp": 542.29
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Why?",
+      "timestamp": 550.27
+    },
+    {
+      "speaker": "Dad",
+      "text": "Um, because since you wear your sleep sack, that's what keeps you just right so you're not too warm or not too cold.",
+      "timestamp": 552.29
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Or not too, or not too, or not too snowy.",
+      "timestamp": 562.93
+    },
+    {
+      "speaker": "Dad",
+      "text": "Not too snowy. Well...",
+      "timestamp": 572.15
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Or not too windy or not too cold or not too brr.",
+      "timestamp": 574.93
+    },
+    {
+      "speaker": "Dad",
+      "text": "Not too brr, brr, brr.",
+      "timestamp": 580.65
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Or not too sun, sun, sun, and not too gray, so gloomy, so moody, or so starry, and so sunny.",
+      "timestamp": 583.19
+    },
+    {
+      "speaker": "Dad",
+      "text": "Wow.",
+      "timestamp": 596.83
+    },
+    {
+      "speaker": "Izzy",
+      "text": "The sun, sun, uh, uh, uh.",
+      "timestamp": 599.03
+    },
+    {
+      "speaker": "Dad",
+      "text": "Mr. Sun, Sun, Mr. Golden Sun, please shine down on me.",
+      "timestamp": 601.82
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Dad, do you know...",
+      "timestamp": 606.1
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay, and then let's change your shirt, please.",
+      "timestamp": 609.61
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I know that. Dad, I want to do more stars and stories.",
+      "timestamp": 611.59
+    },
+    {
+      "speaker": "Dad",
+      "text": "All right. Well, I gotta check the time-",
+      "timestamp": 632.59
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No",
+      "timestamp": 633.89
+    },
+    {
+      "speaker": "Dad",
+      "text": "... 'cause I think it's probably getting close to bedtime, but I bet we have time for one more little one.",
+      "timestamp": 633.9
+    },
+    {
+      "speaker": "Izzy",
+      "text": "What? What? One last little what?",
+      "timestamp": 640.79
+    },
+    {
+      "speaker": "Dad",
+      "text": "One last little stars and story story. One last little made-up story. Here we go.",
+      "timestamp": 646.19
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Sit. Sit over there.",
+      "timestamp": 661.37
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okie dokie. I'll sit over there.",
+      "timestamp": 665.31
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I was saying sit over there.",
+      "timestamp": 669.65
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yeah.",
+      "timestamp": 672.21
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And then I will sit in your lap.",
+      "timestamp": 673.77
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, that's a good idea. Let's see what time's it. Okay",
+      "timestamp": 677.11
     }
   ],
   "characters": [
@@ -424,7 +674,19 @@
       "description": "A mirror-still waterway tracking the edge of the dense jungle path, known to locals as the challenging destination where Pistis Mouse ventures to test the mettle of his little car."
     }
   ],
-  "wordCount": 1327,
-  "izzyWordCount": 239,
-  "dadWordCount": 1088
+  "wordCount": 1629,
+  "izzyWordCount": 368,
+  "dadWordCount": 1261,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T14:37:01.792Z",
+    "speakerMap": {
+      "speaker_1": "Dad",
+      "speaker_0": "Izzy"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "low"
+  }
 }

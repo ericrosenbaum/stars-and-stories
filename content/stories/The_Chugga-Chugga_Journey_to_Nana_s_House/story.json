@@ -6,163 +6,178 @@
   "audioFilename": "Making up a story together about a train.m4a",
   "highlightQuote": {
     "text": "They go to the closet to hide. They brought their toys... fish toys and mouse toys.",
-    "timestamp": 220.14
+    "timestamp": 137.82
   },
   "transcript": [
     {
       "speaker": "Dad",
-      "text": "Izzy, let's... let's make up a story about a train.",
-      "timestamp": 0
+      "text": "Izzy, let's, let's make up a story about a train.",
+      "timestamp": 0.38
     },
     {
       "speaker": "Izzy",
-      "text": "About a story of a train.",
-      "timestamp": 8.35
+      "text": "Let's make up a story of a train.",
+      "timestamp": 7.96
     },
     {
       "speaker": "Dad",
-      "text": "Okay I'll start. Once upon a time there was a train. Your turn.",
-      "timestamp": 11.22
-    },
-    {
-      "speaker": "Dad",
-      "text": "What happened next?",
-      "timestamp": 18.14
-    },
-    {
-      "speaker": "Dad",
-      "text": "Someone got on the train, who was it?",
-      "timestamp": 23.41
+      "text": "Okay, I'll start. Once upon a time, there was a train. Your turn. What happened next? Someone got on the train. Who was it?",
+      "timestamp": 10.68
     },
     {
       "speaker": "Izzy",
       "text": "It was driving.",
-      "timestamp": 27.89
+      "timestamp": 28.08
     },
     {
       "speaker": "Dad",
-      "text": "It was driving, where was it going?",
-      "timestamp": 31.62
+      "text": "It was driving. Where was it going?",
+      "timestamp": 30.86
     },
     {
       "speaker": "Izzy",
       "text": "It was driving to Monica.",
-      "timestamp": 34.48
+      "timestamp": 33.78
     },
     {
       "speaker": "Dad",
-      "text": "To Monica? Who's that?",
-      "timestamp": 38.45
+      "text": "To Monica?",
+      "timestamp": 37.9
     },
     {
       "speaker": "Izzy",
-      "text": "No... Nana's house.",
-      "timestamp": 42.11
+      "text": "Yeah.",
+      "timestamp": 40.02
     },
     {
       "speaker": "Dad",
-      "text": "Oh it was going to Nana's house. Oh that's a long journey, it's far away. So the train was going to Nana's house. And what sound did it make?",
-      "timestamp": 48.55
+      "text": "Who's that?",
+      "timestamp": 40.54
     },
     {
       "speaker": "Izzy",
-      "text": "Choo choo!",
-      "timestamp": 60.21
+      "text": "Um, Nana's house.",
+      "timestamp": 44.96
     },
     {
       "speaker": "Dad",
-      "text": "And it went chugga chugga chugga chugga chugga chugga and then it went into a tunnel. A tunnel, and it was all dark. And it was going through the tunnel, and it was dark dark dark, chugga chugga chugga.",
-      "timestamp": 104.22
+      "text": "Oh, it was going to Nana's house. Oh, that's a long journey. It's far away. So, the train was going to Nana's house, and what sound did it make?",
+      "timestamp": 48.78
     },
     {
       "speaker": "Izzy",
-      "text": "And then it came out!",
-      "timestamp": 119.12
+      "text": "Choo-choo.",
+      "timestamp": 60.42
     },
     {
       "speaker": "Dad",
-      "text": "And then it came out! And what did it see then?",
-      "timestamp": 122.31
+      "text": "And it went chugga-chugga, chugga-chugga, chugga-chugga, chugga-chug. And then it went into, ah, a tunnel. A tunnel, and it was all dark, and it was going through the tunnel, and it was dark, dark, dark. Chugga-chugga, chugga-chugga, chugga-chugga.",
+      "timestamp": 62.96
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And then it came out.",
+      "timestamp": 75.76
+    },
+    {
+      "speaker": "Dad",
+      "text": "And then it came out. And what did it see then?",
+      "timestamp": 78.16
     },
     {
       "speaker": "Izzy",
       "text": "It went over a bridge.",
-      "timestamp": 126.18
+      "timestamp": 82.04
     },
     {
       "speaker": "Dad",
-      "text": "Oh! And what happened next?",
-      "timestamp": 129.54
+      "text": "Oh, and what happened next?",
+      "timestamp": 84.88
     },
     {
       "speaker": "Izzy",
       "text": "It drove.",
-      "timestamp": 133.47
+      "timestamp": 88.04
     },
     {
       "speaker": "Dad",
-      "text": "Mm-hm. And then it stopped.",
-      "timestamp": 138.22
+      "text": "Mm-hmm. And then it stopped.",
+      "timestamp": 91.24
     },
     {
       "speaker": "Izzy",
-      "text": "At Nana's house!",
-      "timestamp": 144.15
+      "text": "At Nana's house.",
+      "timestamp": 95.7
     },
     {
       "speaker": "Dad",
-      "text": "Hooray! We made it to Nana's house on the train. And then what happened?",
-      "timestamp": 147.28
+      "text": "Hooray, we made it to Nana's house on the train. And then what happened?",
+      "timestamp": 98.42
     },
     {
       "speaker": "Izzy",
-      "text": "Nana and Grandpa Rick said hello!",
-      "timestamp": 153.42
+      "text": "Nana came in and Grandpa Rick said, \"Hello.\"",
+      "timestamp": 106.64
     },
     {
       "speaker": "Dad",
-      "text": "Oh Nana and Grandpa Rick said hello! And then what did they all do?",
-      "timestamp": 159.22
+      "text": "Oh, Nana and Grandpa Rick said hello? And then what did they all do?",
+      "timestamp": 111.62
     },
     {
       "speaker": "Izzy",
-      "text": "Andrew came back.",
-      "timestamp": 204.18
+      "text": "And Andrew came back.",
+      "timestamp": 116.18
     },
     {
       "speaker": "Dad",
-      "text": "Oh Andrew came back. Mm-hm.",
-      "timestamp": 209.11
+      "text": "Oh, Andrew came back. Mm-hmm.",
+      "timestamp": 118.2
     },
     {
       "speaker": "Izzy",
       "text": "And Garfield and Ginger came back.",
-      "timestamp": 213.25
+      "timestamp": 119.5
     },
     {
       "speaker": "Dad",
-      "text": "Oh! What did Garfield and Ginger say?",
-      "timestamp": 216.51
+      "text": "Oh, and what did Garfield and Ginger say?",
+      "timestamp": 121.86
     },
     {
       "speaker": "Izzy",
-      "text": "They go to the closet to hide.",
-      "timestamp": 220.14
+      "text": "They go in the closet to hide.",
+      "timestamp": 127.3
     },
     {
       "speaker": "Dad",
-      "text": "Oh they went in the closet to hide. Why did they do that?",
-      "timestamp": 224.22
+      "text": "Oh, they went in the closet to hide. Why did they do that?",
+      "timestamp": 131.26
     },
     {
       "speaker": "Izzy",
-      "text": "They brought their toys... fish toys and mouse toys.",
-      "timestamp": 227.42
+      "text": "To play with their toys.",
+      "timestamp": 134.62
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, that's good.",
+      "timestamp": 136.46
     },
     {
       "speaker": "Izzy",
-      "text": "Because they are... show her Nana, Rick and hello... Uncle Steve.",
-      "timestamp": 232.12
+      "text": "Fish toys and mouse toys.",
+      "timestamp": 137.82
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, fish toys and mouse toys.",
+      "timestamp": 139.96
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Because, this is, because they build a shower and An Ant with an Ant. And hello. Under the, under the sea. These are the-",
+      "timestamp": 143.22
     }
   ],
   "characters": [
@@ -224,7 +239,19 @@
       "description": "A secluded hollow Izzy suggested for the moles’ exploration, though she initially warned of its sparse interior; it has since become a clandestine cache where the pets squirrel away their plush fish and mouse toys."
     }
   ],
-  "wordCount": 263,
-  "izzyWordCount": 76,
-  "dadWordCount": 187
+  "wordCount": 291,
+  "izzyWordCount": 95,
+  "dadWordCount": 196,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T14:34:32.123Z",
+    "speakerMap": {
+      "speaker_0": "Dad",
+      "speaker_1": "Izzy"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "low"
+  }
 }

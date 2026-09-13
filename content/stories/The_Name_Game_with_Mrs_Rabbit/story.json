@@ -6,88 +6,118 @@
   "audioFilename": "Baby sister’s name.m4a",
   "highlightQuote": {
     "text": "Ask Mrs. Rabbit. Ask Mrs. Rabbit.",
-    "timestamp": 47
+    "timestamp": 49.94
   },
   "transcript": [
     {
       "speaker": "Dad",
       "text": "Izzy, I have a different question to ask you.",
-      "timestamp": 0
+      "timestamp": 0.3
     },
     {
       "speaker": "Izzy",
       "text": "No.",
-      "timestamp": 2
+      "timestamp": 3.1
     },
     {
       "speaker": "Dad",
-      "text": "Well, Mama and I are thinking about what to name baby sister, and we're thinking about calling her Avery. What do you think?",
-      "timestamp": 4
+      "text": "Well, Mama-",
+      "timestamp": 4.22
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah",
+      "timestamp": 5.1
+    },
+    {
+      "speaker": "Dad",
+      "text": "... Mom and I are thinking about what to name baby sister, and we're thinking about calling her Avery. What do you think?",
+      "timestamp": 5.12
     },
     {
       "speaker": "Izzy",
       "text": "I do think.",
-      "timestamp": 17
+      "timestamp": 17.98
     },
     {
       "speaker": "Dad",
       "text": "What do you think about it? Do you like it?",
-      "timestamp": 20
+      "timestamp": 20.98
     },
     {
       "speaker": "Izzy",
-      "text": "Yeah.",
-      "timestamp": 22
+      "text": "Uh, yeah.",
+      "timestamp": 22.68
     },
     {
       "speaker": "Dad",
-      "text": "Do you want to try saying her name? It's Avery. Try saying it.",
-      "timestamp": 24
+      "text": "Do you wanna try saying her name? It's Avery. Try saying it.",
+      "timestamp": 25.14
     },
     {
       "speaker": "Izzy",
       "text": "Avery.",
-      "timestamp": 30
+      "timestamp": 30.86
     },
     {
       "speaker": "Dad",
-      "text": "Avery. Avery. Avery.",
-      "timestamp": 33
+      "text": "Avery.",
+      "timestamp": 32.02
     },
     {
       "speaker": "Izzy",
-      "text": "Avery. Avery. Avery.",
-      "timestamp": 36
+      "text": "Avery.",
+      "timestamp": 33.28
     },
     {
       "speaker": "Dad",
-      "text": "Could you sing it maybe?",
-      "timestamp": 38
+      "text": "Avery.",
+      "timestamp": 35.02
     },
     {
       "speaker": "Izzy",
-      "text": "Avery, Avery, Avery-ee-ee-ee, Avery.",
-      "timestamp": 39
+      "text": "Avery.",
+      "timestamp": 35.9
+    },
+    {
+      "speaker": "Dad",
+      "text": "Could you sing it, maybe?",
+      "timestamp": 36.76
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Avery, Avery, Avery-y-y-y.",
+      "timestamp": 38.5
     },
     {
       "speaker": "Dad",
       "text": "Yeah.",
-      "timestamp": 46
+      "timestamp": 46.18
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Avery.",
+      "timestamp": 47.54
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yeah.",
+      "timestamp": 49.08
     },
     {
       "speaker": "Izzy",
       "text": "Ask Mrs. Rabbit. Ask Mrs. Rabbit.",
-      "timestamp": 47
+      "timestamp": 49.94
     },
     {
       "speaker": "Dad",
       "text": "Mrs. Rabbit, do you like the name Avery?",
-      "timestamp": 54
+      "timestamp": 54.94
     },
     {
       "speaker": "Izzy",
       "text": "No, no, no.",
-      "timestamp": 58
+      "timestamp": 57.2
     }
   ],
   "characters": [
@@ -114,7 +144,19 @@
       "description": "The setting where the naming discussion takes place."
     }
   ],
-  "wordCount": 94,
-  "izzyWordCount": 22,
-  "dadWordCount": 72
+  "wordCount": 96,
+  "izzyWordCount": 23,
+  "dadWordCount": 73,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T14:34:34.076Z",
+    "speakerMap": {
+      "speaker_0": "Dad",
+      "speaker_1": "Izzy"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "low"
+  }
 }
