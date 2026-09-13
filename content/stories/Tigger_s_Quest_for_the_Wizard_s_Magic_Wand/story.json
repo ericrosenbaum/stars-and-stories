@@ -6,628 +6,473 @@
   "audioFilename": "Stars and stories - journey to the wizard’s castle 2.m4a",
   "highlightQuote": {
     "text": "Birds don't wear hats!",
-    "timestamp": 684.74
+    "timestamp": 684
   },
   "transcript": [
     {
       "speaker": "Dad",
-      "text": "Okay, there's the stars.",
-      "timestamp": 8
+      "text": "There's the stars.",
+      "timestamp": 9
     },
     {
       "speaker": "Izzy",
-      "text": "And now we have to take off.",
-      "timestamp": 11.6
+      "text": "Now I have to...",
+      "timestamp": 13
     },
     {
       "speaker": "Dad",
-      "text": "And we'll turn out the light.",
-      "timestamp": 16.82
+      "text": "And I'll turn out the light.",
+      "timestamp": 16
     },
     {
       "speaker": "Izzy",
-      "text": "Stars and stories. That's me. I want a lot of stories in this. And this is my own little spot in the shelf.",
-      "timestamp": 20.44
+      "text": "Stars and stories starting. I'm a little bit of stories and this is my own spot in the shelf.",
+      "timestamp": 19
     },
     {
       "speaker": "Dad",
-      "text": "Oh, okay. Mickey has his own spot in the shelf. Now, who should we tell a story about tonight, Ise?",
-      "timestamp": 37.08
+      "text": "Oh okay, Izzy's own spot in the shelf.",
+      "timestamp": 39
+    },
+    {
+      "speaker": "Dad",
+      "text": "Now, who should we tell a story about tonight?",
+      "timestamp": 52
     },
     {
       "speaker": "Izzy",
-      "text": "Eeyore.",
-      "timestamp": 53.04
+      "text": "Eeyore. No, maybe Tigger.",
+      "timestamp": 54
     },
     {
       "speaker": "Dad",
-      "text": "Eeyore?",
-      "timestamp": 54.46
+      "text": "Oh, a story about Tigger. Once upon a time, Tigger was bouncing along down the road. And along the road, coming from the other direction was someone surprising. Who did he bump into?",
+      "timestamp": 58
     },
     {
       "speaker": "Izzy",
-      "text": "No, maybe Tigger.",
-      "timestamp": 54.88
+      "text": "His friend Christopher Robin.",
+      "timestamp": 78
     },
     {
       "speaker": "Dad",
-      "text": "Oh, a story about Tigger. Once upon a time, Tigger was bouncing along down the road and along the road coming from the other direction-",
-      "timestamp": 56.84
+      "text": "Yeah, Tigger bumped into his friend Christopher Robin. And Christopher Robin said, \"Tigger, listen. I'm on an adventure. Will you come with me?\" And what did Tigger say?",
+      "timestamp": 87
     },
     {
       "speaker": "Izzy",
-      "text": "Look",
-      "timestamp": 72.1
+      "text": "I would sure!",
+      "timestamp": 105
     },
     {
       "speaker": "Dad",
-      "text": "... was someone surprising. Who did he bump into?",
-      "timestamp": 72.44
+      "text": "And Christopher Robin said, \"I'm on an adventure to go to the Wizard's castle. And it's going to be a long journey to get there. But once we get there, maybe the wizard will give us a magic wand.\" And what did Tigger say?",
+      "timestamp": 108
     },
     {
       "speaker": "Izzy",
-      "text": "Huh. His friend Christopher, uh, Robin.",
-      "timestamp": 76.86
+      "text": "Hmm, maybe he won't and maybe he will.",
+      "timestamp": 131
     },
     {
       "speaker": "Dad",
-      "text": "Yeah. Tigger bumped into his friend Christopher Robin, and Christopher Robin said, \"Tigger, listen, I'm on an adventure. Will you come with me?\" And what did Tigger say?",
-      "timestamp": 89.7
+      "text": "\"Maybe he won't and maybe he will, and that's the way it is with adventures,\" said Tigger. And Christopher Robin said, \"That's quite right. A healthy attitude, I think. You never can tell with wizards. Now, we've got to go a long way down this road until we get to a dead end. And at that point, we'll have to climb over a wall and go across a field. The castle's a long way after that, but that'll give us a good start.\" And so they walked all the way down to the end of the road and they tried to climb the wall, but it was too high. So what did they do?",
+      "timestamp": 135
     },
     {
       "speaker": "Izzy",
-      "text": "\"I would sure.\"",
-      "timestamp": 103.78
+      "text": "They tried a stool!",
+      "timestamp": 177
     },
     {
       "speaker": "Dad",
-      "text": "And Christopher Robin said, \"I am on an adventure to go to the wizard's castle, and it's going to be a long journey to get there. But once we get there, maybe the wizard will give us a magic wand.\" And what did Tigger say?",
-      "timestamp": 106.26
+      "text": "Right! Tigger said, \"Oh no, even I can't jump high enough to jump over this wall. We'd better find something to help us.\" And Christopher Robin said...",
+      "timestamp": 182
     },
     {
       "speaker": "Izzy",
-      "text": "\"Hmm. Maybe he won't, and maybe he will.\"",
-      "timestamp": 131.43
-    },
-    {
-      "speaker": "Dad",
-      "text": "\"Maybe he won't, and maybe he will, and that's the way it is with adventures,\" said Tigger. And Christopher Robin said, \"That's quite right. A healthy attitude, I think. You never can tell with wizards. Now, we've got to go a long way down this road until we get to a dead end, and at that point, we'll have to climb over a wall and go across a field.",
-      "timestamp": 136.5
-    },
-    {
-      "speaker": "Dad",
-      "text": "The castle's a long way after that, but that'll give us a good start.\" And so they walked all the way down to the end of the road, and they tried to climb the wall, but it was too high. So what did they do?",
-      "timestamp": 164.62
+      "text": "And Christopher Robin said, \"Let me run back to my house. Wait there.\" And Tigger said, \"Okay, I'll wait right there.\" And and Christopher Robin said, \"I'm going to get a stool.\" And Tigger said, \"Okay, I'll wait. Boing boing boing boing boing.\"",
+      "timestamp": 193
     },
     {
       "speaker": "Izzy",
-      "text": "They tried a stool.",
-      "timestamp": 176.24
-    },
-    {
-      "speaker": "Dad",
-      "text": "Right. Tigger said, \"Oh no, you and I can't jump high enough to jump over this wall. We better find something to help us.\" And Christopher Robin said-",
-      "timestamp": 181.18
-    },
-    {
-      "speaker": "Izzy",
-      "text": "And, and Christopher Robin says, \"Let me run back to my house. Wait there\"",
-      "timestamp": 189.54
-    },
-    {
-      "speaker": "Dad",
-      "text": "And Tigger said, \"Okay, I'll wait right here.\"",
-      "timestamp": 193.86
-    },
-    {
-      "speaker": "Izzy",
-      "text": "And, and Christopher Robin said, \"I'm going to get a stool.\"",
-      "timestamp": 195.22
-    },
-    {
-      "speaker": "Dad",
-      "text": "And Tigger said, \"Okay, I'll wait,\" boing, boing, boing, boing, boing. And so he waited, and then...",
-      "timestamp": 200.42
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Christopher Robin went to his own house and got a stool.",
-      "timestamp": 208.94
-    },
-    {
-      "speaker": "Dad",
-      "text": "Mm-hmm.",
-      "timestamp": 215.92
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Yep, and then he ran back, and then he runnin' back to Tigger.",
-      "timestamp": 216.58
+      "text": "Christopher Robin went to his own house and got a stool. Yeah, and then he ran back, and then he ran on back to Tigger.",
+      "timestamp": 209
     },
     {
       "speaker": "Dad",
       "text": "And then what did they do?",
-      "timestamp": 222.96
+      "timestamp": 225
     },
     {
       "speaker": "Izzy",
-      "text": "Tigger tried to jump off, off the wall, but it was too high.",
-      "timestamp": 226.06
+      "text": "Tigger tried to jump up off the wall, but it was too high. So what did he do next? He put so much things on top of the stool.",
+      "timestamp": 226
     },
     {
       "speaker": "Dad",
-      "text": "So what did he then do next?",
-      "timestamp": 233.9
+      "text": "Oh, and then he climbed all the way on top of the stack of things on the stool and jumped from there. And did it work this time?",
+      "timestamp": 244
     },
     {
       "speaker": "Izzy",
-      "text": "He, he put so much things, uh, on top of the stool.",
-      "timestamp": 236.2
+      "text": "Yes! It worked! Tigger jumped all the way up onto the wall and then jumped down the other side and he said, \"Hooray, I made it!\" And and Tigger said, \"Christopher Robin, can you try my stack of things?\"",
+      "timestamp": 252
     },
     {
       "speaker": "Dad",
-      "text": "Oh, and then he climbed all the way on top of the stack of things on the stool and jumped from there, and did it work this time?",
-      "timestamp": 243.94
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Yes.",
-      "timestamp": 250.42
-    },
-    {
-      "speaker": "Dad",
-      "text": "It worked. Tigger jumped all the way up onto the wall and then jumped down the other side, and he said, \"Hooray, I made it.\"",
-      "timestamp": 251.52
-    },
-    {
-      "speaker": "Izzy",
-      "text": "And Tigger, and Tigger said, \"Christopher Robin, can you try my stack of things?\"",
-      "timestamp": 257.1
-    },
-    {
-      "speaker": "Dad",
-      "text": "And Christopher Robin said, \"Well, all right. I'll, I'll try it. I'm a little nervous. Um, if you sing me a song to help me, maybe I'll be more brave. Will you sing me a song, Tigger?\"",
-      "timestamp": 265.46
+      "text": "And Christopher Robin said, \"Well, all right, I'll try it. I'm a little nervous. Um, if you sing me a song to help me, maybe I'll be more brave. Will you sing me a song, Tigger?\"",
+      "timestamp": 266
     },
     {
       "speaker": "Izzy",
       "text": "I will.",
-      "timestamp": 280.22
+      "timestamp": 279
     },
     {
       "speaker": "Dad",
-      "text": "Okay. Can you sing it please?",
-      "timestamp": 283.32
+      "text": "Okay, can you sing it, please?",
+      "timestamp": 281
     },
     {
       "speaker": "Izzy",
-      "text": "If maybe Jingle Bells.",
-      "timestamp": 285.28
+      "text": "Maybe Jingle Bells?",
+      "timestamp": 283
     },
     {
       "speaker": "Dad",
-      "text": "Oh, yes. I love that song.",
-      "timestamp": 287.94
+      "text": "Oh yes, I love that song.",
+      "timestamp": 286
     },
     {
       "speaker": "Izzy",
-      "text": "Read it, it go. And listen, and why are you not telling the story?",
-      "timestamp": 293.72
+      "text": "Wait, and why are you not telling the story?",
+      "timestamp": 295
     },
     {
       "speaker": "Dad",
-      "text": "\"Oh, I was waiting for Jingle Bells,\" said Christopher Robin. \"I'm waiting for my song to help me be brave. Will you sing it for me please, Tigger?\"",
-      "timestamp": 301.75
+      "text": "Oh, I was waiting for Jingle Bells, said Christopher Robin. I'm waiting for my song to help me be brave. Will you sing it for me, please, Tigger?",
+      "timestamp": 301
     },
     {
       "speaker": "Izzy",
-      "text": "I will.",
-      "timestamp": 309.66
+      "text": "I will. Okay, go ahead. Jingle bells, jingle bells, jingle all the way. Oh what fun it is to ride in a one-horse open sleigh. Oh jingle bells, jingle bells, jingle all the way. Oh what fun it is to ride in a one-horse open sleigh. Oh jingle bells, jingle bells, jingle all the way. Oh what fun it is to ride in a one-horse open sleigh. Oh jingle bells, jingle bells, jingle bells, jingle all the way. Oh what fun it is to ride in a one-horse open sleigh. Oh jingle bells, jingle bells...",
+      "timestamp": 308
     },
     {
       "speaker": "Dad",
-      "text": "Okay, go ahead.",
-      "timestamp": 311.22
+      "text": "And Christopher Robin jumped down with a thump on the other side of the wall right next to Tigger who was still singing happily. And Christopher Robin said, \"Well, thank you for singing that brave song. It really helped me be brave and I climbed up on the stool and onto the big pile of things and I hopped right over the wall very easily with your help. Thank you, Tigger.\" And what did Tigger say?",
+      "timestamp": 366
     },
     {
       "speaker": "Izzy",
-      "text": "Jingle bells, jingle bells, jingle all the way. Oh, what fun it is to ride in a one-horse sleigh. Oh, jingle bells, jingle bells, jingle all the way. Oh, what fun it is to ride in a one-horse open sleigh. Oh, jingle bells, jingle bells, jingle all the way.",
-      "timestamp": 315.04
+      "text": "Thank you for trying out my stack of things.",
+      "timestamp": 390
+    },
+    {
+      "speaker": "Dad",
+      "text": "And thank you for building it for us. Now, let's continue on on our adventure. From here, we have to walk on a path through the dark forest. And then once we come out the other side of the forest, at the top of a hill, we'll see it: the Wizard's castle. And so they entered the forest on the dark winding path and they walked along quietly in the cool light of the shade of the trees. And they heard birds chirping quietly in the trees - chirp, chirp, chirp - and they saw the sunlight filtering down between the leaves and their feet went crunch, crunch, crunch on the leaves and twigs as they walked along the path. And what else did they see in the forest?",
+      "timestamp": 393
     },
     {
       "speaker": "Izzy",
-      "text": "Oh, what fun it is to ride in a one-horse open sleigh. Oh, jingle bells, jingle bells, jingle bells, jingle all the way. Oh, what fun it is to ride in a one-horse open sleigh.",
-      "timestamp": 343.1
+      "text": "They saw twigs and worms and slugs and bugs!",
+      "timestamp": 451
     },
     {
       "speaker": "Dad",
-      "text": "And Christopher Robin jumped down with a thump on the other side of the wall right next to Tigger who was still singing happily. And Christopher Robin said, \"Well, thank you for singing that bracing song. It really helped me be brave, and I climbed up on the step- the stool and onto the big pile of things, and I hopped right over the wall very easily with your help.",
-      "timestamp": 368.04
-    },
-    {
-      "speaker": "Dad",
-      "text": "Thank you, Tigger.\" And what did Tigger say?",
-      "timestamp": 386.44
+      "text": "And they said, \"Oh, hello twigs, hello worms, hello slugs, hello bugs.\" For everyone in the forest was friendly. And so Christopher Robin became calm and happy as they walked through the forest. And Tigger started to hum to himself and boing. And he sang a happy little humming boinging song. \"Forest, forest, I love the forest. Forest, forest, I love it here.\" And Christopher Robin hummed along. And so in this way, they made their way along the path through the forest, in one side, all the way across, and out the other end. And when they came out of the forest back into the bright sunny day, they looked ahead of them and saw a hill. And you know what was at the top of the hill?",
+      "timestamp": 455
     },
     {
       "speaker": "Izzy",
-      "text": "\"Thank you for trying out my stack of things.\"",
-      "timestamp": 390.1
+      "text": "The Wizard's castle!",
+      "timestamp": 518
     },
     {
       "speaker": "Dad",
-      "text": "\"And thank you for building it for us. Now, let's continue on on our adventure. From here we have to walk on a path through the dark forest. And then once we come out the other side of the forest, at the top of a hill we'll see it, the wizard's castle.\"",
-      "timestamp": 393.83
-    },
-    {
-      "speaker": "Dad",
-      "text": "And so they entered the forest on the dark winding path, and they walked along quietly in the cool light of the shade of the trees. And they heard birds chirping quietly in the trees. Chirp, chirp, chirp. And they saw the sunlight filtering down between the leaves, and their feet went crunch, crunch, crunch on the leaves and twigs as they walked along the path.",
-      "timestamp": 415.1
-    },
-    {
-      "speaker": "Dad",
-      "text": "And what else did they see in the forest?",
-      "timestamp": 447.62
+      "text": "The castle was a beautiful tall gray stone building with tall turrets, which are a kind of skinny tower with a pointy roof on top, and there were little flags on top of the pointy roofs and there was one very big wooden door right in the center of the castle. It was a friendly looking castle. And it had a path leading right up to the door. And what did they do?",
+      "timestamp": 521
     },
     {
       "speaker": "Izzy",
-      "text": "Saw twigs and worms and slugs and bugs.",
-      "timestamp": 450.42
-    },
-    {
-      "speaker": "Dad",
-      "text": "And they said, \"Oh, hello twigs. Hello worms. Hello slugs. Hello bugs.\" For everyone in the forest was friendly. And so Christopher Robin became calm and happy as they walked through the forest. And Tigger started to hum to himself and boing. And he sang a happy little humming boinging song.",
-      "timestamp": 454.76
-    },
-    {
-      "speaker": "Dad",
-      "text": "\"Forest, forest, I like the forest. Forest, forest, I like it here.\" And Christopher Robin hummed along. And so in this way they made their way along the path through the forest in one side, all the way across, and out the other end. And when they came out of the forest back into the bright sunny day, they looked ahead of them and saw a hill.",
-      "timestamp": 475.54
-    },
-    {
-      "speaker": "Dad",
-      "text": "And you know what was at the top of the hill? Ah.",
-      "timestamp": 510.9
-    },
-    {
-      "speaker": "Izzy",
-      "text": "What?",
-      "timestamp": 518.1
-    },
-    {
-      "speaker": "Dad",
-      "text": "The, the wizard's castle. The castle was a beautiful tall gray stone building with tall turrets, which are a kind of skinny tower with a pointy roof on top. And there were little flags on top of the pointy roofs. And there was one very big wooden door right in the center of the castle.",
-      "timestamp": 518.62
-    },
-    {
-      "speaker": "Dad",
-      "text": "It was a friendly looking castle, and it had a path leading right up to the door. And what did they do?",
-      "timestamp": 543.5
-    },
-    {
-      "speaker": "Izzy",
-      "text": "They, they knocked on the door and the queen said, \"Hello, everyone. Thanks for inviting you both.\"",
-      "timestamp": 550.34
+      "text": "They knocked on the door and the Queen said, \"Hello everyone! Thanks for inviting you both.\"",
+      "timestamp": 550
     },
     {
       "speaker": "Dad",
       "text": "And Christopher Robin and Tigger said, \"Oh, thanks for inviting us here. May we come in?\"",
-      "timestamp": 561.56
+      "timestamp": 561
     },
     {
       "speaker": "Izzy",
-      "text": "\"You, you may.\"",
-      "timestamp": 568.95
+      "text": "You may.",
+      "timestamp": 569
     },
     {
       "speaker": "Dad",
-      "text": "\"Thank you.\" And so the queen led them inside. And what did they see inside the castle?",
-      "timestamp": 571.49
+      "text": "Thank you. And so the Queen led them inside. And what did they see inside the castle?",
+      "timestamp": 571
     },
     {
       "speaker": "Izzy",
-      "text": "They saw so much things they could do.",
-      "timestamp": 577.46
+      "text": "They saw so many things they can do.",
+      "timestamp": 577
     },
     {
       "speaker": "Dad",
       "text": "Like what?",
-      "timestamp": 581.5
+      "timestamp": 580
     },
     {
       "speaker": "Izzy",
-      "text": "Play with toys or eat snack or do some office time with the queen.",
-      "timestamp": 582.48
+      "text": "Like the toys or snacks, or do some office time with the Queen. And and their friend Eeyore said, \"I came here too!\"",
+      "timestamp": 581
     },
     {
       "speaker": "Dad",
-      "text": "Oh. And-",
-      "timestamp": 591.2
-    },
-    {
-      "speaker": "Izzy",
-      "text": "And their dad, Eeyore, said, \"I came here, too.\"",
-      "timestamp": 592.99
-    },
-    {
-      "speaker": "Dad",
-      "text": "Yes, Eeyore came here, too. And so what did Tigger and Christopher Robin decide to do?",
-      "timestamp": 600.26
+      "text": "Yes, Eeyore came here too. And so what did Tigger and Christopher Robin decide to do?",
+      "timestamp": 601
     },
     {
       "speaker": "Izzy",
       "text": "They decided to go and play in the office.",
-      "timestamp": 605.46
+      "timestamp": 605
     },
     {
       "speaker": "Dad",
-      "text": "Oh. The office was up a very long staircase that wound around and around and around. They said, \"Puff, puff, puff, our legs are getting tired.\" And the queen said, \"Oh, it's just a few more stairs higher. Keep going.\" And Christopher Robin and Tigger climbed and climbed-",
-      "timestamp": 609.2
+      "text": "Oh, the office was up a very long staircase that wound around and around and around. They said, \"Puff, puff, puff, our legs are getting tired.\" And the Queen said, \"Oh, it's just a few more stairs higher, keep going.\" And Christopher Robin and Tigger climbed and climbed all those stairs...",
+      "timestamp": 609
     },
     {
       "speaker": "Izzy",
-      "text": "And Eeyore",
-      "timestamp": 627.74
+      "text": "And Eeyore!",
+      "timestamp": 628
     },
     {
       "speaker": "Dad",
-      "text": "... the stone stairs. And Eeyore. Until they got all the way to the top of one of the towers, which is where the office was. And do you know whose office it was?",
-      "timestamp": 628.05
+      "text": "...and Eeyore, until they got all the way to the top of one of the towers, which is where the office was. And you know whose office it was?",
+      "timestamp": 629
     },
     {
       "speaker": "Izzy",
-      "text": "Yes.",
-      "timestamp": 637.23
+      "text": "Yes! It was the Wizard's office.",
+      "timestamp": 637
     },
     {
       "speaker": "Dad",
-      "text": "It was the wizard's office. And the wizard had a great many toys and-",
-      "timestamp": 638.28
+      "text": "And the Wizard had a great many toys. And who is the Wizard?",
+      "timestamp": 641
     },
     {
       "speaker": "Izzy",
-      "text": "And w- and who is the wizard?",
-      "timestamp": 645.73
+      "text": "The Wizard is a magical creature who happens to also be an animal.",
+      "timestamp": 648
     },
     {
       "speaker": "Dad",
-      "text": "The wizard is a magical creature who happens to also be an animal. What kind of animal is the wizard?",
-      "timestamp": 649.1
+      "text": "What kind of animal was the Wizard?",
+      "timestamp": 653
     },
     {
       "speaker": "Izzy",
       "text": "It was a kind of bird.",
-      "timestamp": 656.88
+      "timestamp": 655
     },
     {
       "speaker": "Dad",
-      "text": "The wizard was a bird. What color bird?",
-      "timestamp": 659.9
+      "text": "The Wizard was a bird. What color bird?",
+      "timestamp": 660
     },
     {
       "speaker": "Izzy",
       "text": "A pink and yellow bird.",
-      "timestamp": 664.06
+      "timestamp": 664
     },
     {
       "speaker": "Dad",
-      "text": "The wizard was a pink and yellow bird who could do wonderful magic. And what was the wizard's name?",
-      "timestamp": 666.5
+      "text": "The Wizard was a pink and yellow bird who could do wonderful magic. And what was the Wizard's name?",
+      "timestamp": 667
     },
     {
       "speaker": "Izzy",
       "text": "Peacock.",
-      "timestamp": 674.22
+      "timestamp": 673
     },
     {
       "speaker": "Dad",
       "text": "Peacock the Wizard, a pink and yellow bird who wore a funny little hat. What color was the hat?",
-      "timestamp": 676.26
+      "timestamp": 675
     },
     {
       "speaker": "Izzy",
-      "text": "Birds don't wear hats.",
-      "timestamp": 684.74
+      "text": "Birds don't wear hats!",
+      "timestamp": 684
     },
     {
       "speaker": "Dad",
-      "text": "Oh, you're right. Birds don't wear hats. Well, Peacock the Wizard saw his door opening, and in came Christopher Robin and Tigger, and he said-",
-      "timestamp": 686.58
+      "text": "Oh, you're right. Birds don't wear hats. Well, Peacock the Wizard saw his door opening and in came Christopher Robin and Tigger...",
+      "timestamp": 686
     },
     {
       "speaker": "Izzy",
-      "text": "And Eeyore",
-      "timestamp": 698.92
+      "text": "...and Eeyore!",
+      "timestamp": 699
     },
     {
       "speaker": "Dad",
-      "text": "... And Eeyore. And he said-",
-      "timestamp": 699.68
+      "text": "...and Eeyore. And he said, \"Welcome to my office everyone, I'm Peacock the Wizard. You're right on time.\"",
+      "timestamp": 700
     },
     {
       "speaker": "Izzy",
-      "text": "The dad",
-      "timestamp": 700.8
+      "text": "And Wizard, you don't have a hat. You don't have a hat.",
+      "timestamp": 709
     },
     {
       "speaker": "Dad",
-      "text": "... \"Welcome to my office, everyone. I'm Peacock the Wizard. You're right on time.\"",
-      "timestamp": 701.8
+      "text": "And Peacock the Wizard said, \"That's right, I may be a bird and that means I don't wear a hat. But because I am a wizard bird, that means if I want to I could. And do you know what?\"",
+      "timestamp": 713
     },
     {
       "speaker": "Izzy",
-      "text": "\"And wizard, you don't have hat. You don't have a hat.\"",
-      "timestamp": 708.51
+      "text": "And Wizard, I'm a person and I wear hats.",
+      "timestamp": 730
     },
     {
       "speaker": "Dad",
-      "text": "And Peacock the Wizard said, \"That's right. I may be a bird and that means I don't wear hats. But because I am a wizard bird, that means if I want to I could.\" And do you know-",
-      "timestamp": 713.82
+      "text": "\"Ah, so I see. Christopher Robin, you are a person. Now...\"",
+      "timestamp": 735
     },
     {
       "speaker": "Izzy",
-      "text": "... person and I wear hats",
-      "timestamp": 731.94
+      "text": "And me too, I am a person too.",
+      "timestamp": 741
     },
     {
       "speaker": "Dad",
-      "text": "Ah, so I see. Christopher Robin, you are a person. Now-",
-      "timestamp": 735.5
+      "text": "\"As I was saying,\" said Peacock the Wizard bird, \"Once upon a time I used to have a hat, but oh dear me, I've lost it. I wonder if you could help me with this problem.\"",
+      "timestamp": 745
     },
     {
       "speaker": "Izzy",
-      "text": "And me too. I am a person too.",
-      "timestamp": 740.34
+      "text": "We can! Me too!",
+      "timestamp": 760
     },
     {
       "speaker": "Dad",
-      "text": "\"As I was saying,\" said Peacock the Wizard Bird, \"Once upon a time I used to have a hat, but oh dear me, I've lost it. I wonder if you could help me with this problem.\"",
-      "timestamp": 744.1
+      "text": "\"Well, if you're willing to go on an adventure to help me find my lost hat, I could help you by giving you a tool to use along the way.\"",
+      "timestamp": 764
     },
     {
       "speaker": "Izzy",
-      "text": "We can. Me too.",
-      "timestamp": 760.82
+      "text": "Mickey! Mickey can help me! Mickey, Mickey!",
+      "timestamp": 776
     },
     {
       "speaker": "Dad",
-      "text": "Well, if you're willing to go on adventure, on an adventure to help me find my lost hat, I could help you by giving you a tool to use along the way.",
-      "timestamp": 764.48
+      "text": "\"Who's Mickey?\" says Peacock.",
+      "timestamp": 782
     },
     {
       "speaker": "Izzy",
-      "text": "Maybe Mickey can help me. Let me call to Mickey. Mickey!",
-      "timestamp": 775.76
+      "text": "Mickey is a stuffed Disney, he and he is a wonderful he can also do magic tricks, like this: my wand in my hand! Hello everyone, I can do magic tricks!",
+      "timestamp": 784
     },
     {
       "speaker": "Dad",
-      "text": "\"Oh, who's Mickey?\" says Peacock.",
-      "timestamp": 781.85
+      "text": "\"Wow,\" said Peacock the Wizard bird. \"Mickey can do magic tricks too. Now, perhaps all of you could help me find my lost hat.\"",
+      "timestamp": 801
     },
     {
       "speaker": "Izzy",
-      "text": "Mickey is a stuffy.",
-      "timestamp": 784.54
+      "text": "What, an old hat or a new hat?",
+      "timestamp": 812
     },
     {
       "speaker": "Dad",
-      "text": "Oh.",
-      "timestamp": 786.78
+      "text": "\"It's an old hat.\"",
+      "timestamp": 815
     },
     {
       "speaker": "Izzy",
-      "text": "And he, so, and he is a wonder. He can also do magic tricks like this by waving his hands. Hello, everyone. I can do magic tricks.",
-      "timestamp": 786.98
+      "text": "Oh Mickey, I better find you I better find a new hat for you, Bird.",
+      "timestamp": 818
     },
     {
       "speaker": "Dad",
-      "text": "\"Wow,\" said Peacock the Wizard Bird. \"Mickey can do magic tricks too. Now perhaps all of you could help me find my lost hat.\"",
-      "timestamp": 800.65
+      "text": "\"Oh, well thank you. Now, if you're willing to go on this quest, I will give to you a magic wand that will allow you to do magic. Do you accept this special tool?\"",
+      "timestamp": 826
     },
     {
       "speaker": "Izzy",
-      "text": "Was it a old hat or a new hat?",
-      "timestamp": 811.54
+      "text": "I do!",
+      "timestamp": 841
     },
     {
       "speaker": "Dad",
-      "text": "It's an old hat.",
-      "timestamp": 814.18
+      "text": "\"And let me show you how to use it.\"",
+      "timestamp": 842
     },
     {
       "speaker": "Izzy",
-      "text": "Oh, Mickey, I bar- I better find you, I better find a new hat for you, bird.",
-      "timestamp": 817.82
+      "text": "Show me, show me!",
+      "timestamp": 846
     },
     {
       "speaker": "Dad",
-      "text": "Oh, well, thank you. Now, if you're willing to go on this quest, I will give to you a magic wand that will allow you to do magic. Do you accept this special tool?",
-      "timestamp": 825.5
+      "text": "\"All you have to do is make up a rhyme. It has to be at least two words that rhyme with each other. They don't have to be real words even. And then you say your rhyme and you wave the magic wand in the air and it makes a funny sound, and then you can do your magic, such as transforming one thing into another. So for instance, hmm, let's take this chair right here. I will wave my magic wand and say, hmm, let's make up a rhyme. Can you make up a rhyme?\"",
+      "timestamp": 847
     },
     {
       "speaker": "Izzy",
-      "text": "I do.",
-      "timestamp": 840.76
+      "text": "Junk and gunk!",
+      "timestamp": 883
     },
     {
       "speaker": "Dad",
-      "text": "And let me show you how to use it.",
-      "timestamp": 842.23
+      "text": "\"Junk and gunk! Brring! And then the chair transforms into a bucket. Well, that's what the magic wand lets you do. Suppose I wanted to change the bucket back into a chair, I would simply have to come up with a new rhyme and transform it. You see? That's the magic wand. Now, here you are. And who would like to take it?\"",
+      "timestamp": 885
     },
     {
       "speaker": "Izzy",
-      "text": "Show me. Show me.",
-      "timestamp": 846.08
+      "text": "Me me me! And I want one too!",
+      "timestamp": 907
     },
     {
       "speaker": "Dad",
-      "text": "All you have to do is make up a rhyme. It has to be at least two words that rhyme with each other. They don't have to be real words even. And then you say your rhyme and you wave the magic wand in the air and it makes a funny sound, and then you can do your magic, such as transforming one thing into another.",
-      "timestamp": 848.56
-    },
-    {
-      "speaker": "Dad",
-      "text": "So for instance, hmm, let's take this chair right here. I will wave my wag- magic wand and say... Hmm, let's make up a rhyme. Can you make up a rhyme?",
-      "timestamp": 870.66
+      "text": "\"Okay, well I have just the one so I'll entrust it for now to Tigger or to Christopher Robin, or perhaps to Mickey or Eeyore.\"",
+      "timestamp": 913
     },
     {
       "speaker": "Izzy",
-      "text": "Like junk and gunk.",
-      "timestamp": 883.16
+      "text": "Or maybe me!",
+      "timestamp": 925
     },
     {
       "speaker": "Dad",
-      "text": "Junk and gunk. Bring. And then the chair transformed into a bucket. Well, that's what the magic wand lets me do. Supposing I wanted to change the bucket back into a chair, I would simply have to come up with a new rhyme and transform it. You see? That's the magic wand.",
-      "timestamp": 885.26
-    },
-    {
-      "speaker": "Dad",
-      "text": "Now, here you are. Any... Who would like to take it?",
-      "timestamp": 903.38
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Me, me, me. And I want one too.",
-      "timestamp": 907.8
-    },
-    {
-      "speaker": "Dad",
-      "text": "Okay. Well, I have just the one, so I will entrust it for now to Tigger or to Christopher Robin. Or perhaps to Mickey or Eeyore.",
-      "timestamp": 914.68
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Or maybe me.",
-      "timestamp": 925.14
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, Izzy the Kiddo can take the magic wand to go on the quest. And now I must say goodbye.",
-      "timestamp": 926.66
+      "text": "\"Oh, Izzy the kiddo can take the magic wand to go on the quest. And now, I must say goodbye.\"",
+      "timestamp": 927
     },
     {
       "speaker": "Izzy",
       "text": "Why?",
-      "timestamp": 935.3
+      "timestamp": 935
     },
     {
       "speaker": "Dad",
-      "text": "\"Because it is time for me to go to sleep,\" said Peacock the Wizard Bird. \"Good night.\" And so Peacock the Wizard Bird got in his bed to go to sleep and the party of adventurers went down the stairs and out the door of the castle to begin their next adventure.",
-      "timestamp": 936.28
-    },
-    {
-      "speaker": "Dad",
-      "text": "And that is the end of tonight's story.",
-      "timestamp": 953.58
+      "text": "\"Because it is time for me to go to sleep,\" said Peacock the Wizard bird. \"Goodnight.\" And so Peacock the Wizard bird got in his bed to go to sleep and the party of adventurers went down the stairs and out the door of the castle to begin their next adventure. And that is the end of tonight's story.",
+      "timestamp": 936
     },
     {
       "speaker": "Izzy",
-      "text": "And is it time for... And what's next on the list?",
-      "timestamp": 957.14
+      "text": "And what's next? Dragon next!",
+      "timestamp": 958
     },
     {
       "speaker": "Dad",
       "text": "Well, let's turn off the stars and turn on the light.",
-      "timestamp": 962.28
+      "timestamp": 961
     }
   ],
   "characters": [
@@ -689,19 +534,7 @@
       "description": "Located at the top of a winding staircase in a castle tower."
     }
   ],
-  "wordCount": 2084,
-  "izzyWordCount": 489,
-  "dadWordCount": 1595,
-  "transcription": {
-    "engine": "scribe-v2",
-    "model": "scribe_v2",
-    "keyterms": 250,
-    "at": "2026-09-13T14:39:02.232Z",
-    "speakerMap": {
-      "speaker_0": "Dad",
-      "speaker_1": "Izzy"
-    },
-    "speakerMapMethod": "reference",
-    "speakerMapConfidence": "high"
-  }
+  "wordCount": 2021,
+  "izzyWordCount": 529,
+  "dadWordCount": 1492
 }

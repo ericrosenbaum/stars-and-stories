@@ -6,413 +6,373 @@
   "audioFilename": "Stories about mice.m4a",
   "highlightQuote": {
     "text": "Ah-la-la-la-la-la-la-la, jingle I would said, the orange jingle I would said, that's how it goes.",
-    "timestamp": 281.82
+    "timestamp": 441.92
   },
   "transcript": [
     {
       "speaker": "Dad",
-      "text": "Okay. Do you want to make up a story together?",
-      "timestamp": 1
+      "text": "Okay, do you want to make up a story together?",
+      "timestamp": 0
     },
     {
       "speaker": "Izzy",
-      "text": "I want you to tell a story.",
-      "timestamp": 5.28
+      "text": "I want to tell a story.",
+      "timestamp": 5.41
     },
     {
       "speaker": "Dad",
-      "text": "You want me to tell a s- tell a story?",
-      "timestamp": 7.88
+      "text": "You want me to tell a story?",
+      "timestamp": 8.02
     },
     {
       "speaker": "Izzy",
-      "text": "A story about Surprise Mouse.",
-      "timestamp": 9.39
+      "text": "Story about Surprise Mouse.",
+      "timestamp": 9.58
     },
     {
       "speaker": "Dad",
-      "text": "Oh. Once upon a time, Surprise Mouse woke up in his fort, and he stretched, ah. And he got up and he went outside, and then he saw something very surprising. What did he see?",
-      "timestamp": 12.8
+      "text": "Oh. Once upon a time, Surprise Mouse woke up in his fort. And he stretched (yawn) and he got up and he went outside and then he saw something very surprising. What did he see?",
+      "timestamp": 13
     },
     {
       "speaker": "Izzy",
-      "text": "A mouse friend.",
-      "timestamp": 28.08
+      "text": "A mouse friend!",
+      "timestamp": 27.84
     },
     {
       "speaker": "Dad",
-      "text": "A mouse friend? Which mouse friend was it?",
-      "timestamp": 29.82
+      "text": "A mouse friend. Which mouse friend was it?",
+      "timestamp": 29.74
     },
     {
       "speaker": "Izzy",
       "text": "It was Plotty Mouse.",
-      "timestamp": 33.08
+      "timestamp": 33.2
     },
     {
       "speaker": "Dad",
-      "text": "It was Plotty Mouse, and Surprise Mouse said, \"Hi, Plotty Mouse. What you doing?\" But what did Plotty Mouse say?",
-      "timestamp": 35.06
+      "text": "It was Plotty Mouse and Surprise Mouse said \"Hi Plotty Mouse, what you doing?\" And what did Plotty Mouse say?",
+      "timestamp": 35.2
     },
     {
       "speaker": "Izzy",
-      "text": "\"I'm, I'm walking. You wanna walk with me?\"",
-      "timestamp": 44.97
+      "text": "I'm walking. Do you want to walk with me?",
+      "timestamp": 45.3
     },
     {
       "speaker": "Dad",
-      "text": "And Surprise Mouse said, \"Yes, I would love to walk with you. Where are you walking to?\"",
-      "timestamp": 48.94
+      "text": "And Surprise Mouse said \"Yes I would love to walk with you. Where are you walking to?\"",
+      "timestamp": 48.84
     },
     {
       "speaker": "Izzy",
-      "text": "The gro- no, no, no, the store.",
-      "timestamp": 53.32
+      "text": "The gro- no, no, the store.",
+      "timestamp": 53.47
     },
     {
       "speaker": "Dad",
       "text": "The store. What you gonna buy at the store?",
-      "timestamp": 57.98
+      "timestamp": 58.17
     },
     {
       "speaker": "Izzy",
-      "text": "We're gonna buy carrots.",
-      "timestamp": 62.22
+      "text": "What to buy carrots.",
+      "timestamp": 102.3
     },
     {
       "speaker": "Dad",
-      "text": "Carrots? That sounds good, 'cause I need some broccoli. So maybe we can go together, and I'll buy broccoli and you buy carrots. Let's go. And then Surprise Mouse and Plotty Mouse were walking together to the store, but suddenly they saw something very surprising on the sidewalk.",
-      "timestamp": 64.34
-    },
-    {
-      "speaker": "Dad",
-      "text": "What did they see?",
-      "timestamp": 79.62
+      "text": "Carrots. That sounds good because I need some broccoli, so maybe we can go together and I'll buy broccoli and you buy carrots. Let's go! And then Surprise Mouse and Plotty Mouse were walking together to the store but suddenly they saw something very surprising on the sidewalk. What did they see?",
+      "timestamp": 104.91
     },
     {
       "speaker": "Izzy",
-      "text": "They didn't see, see anything on the sidewalk.",
-      "timestamp": 80.38
+      "text": "They didn't see anything on the sidewalk.",
+      "timestamp": 121.9
     },
     {
       "speaker": "Dad",
-      "text": "They didn't? Huh, well, they kept walking and then they got to the traffic light, and then they waited for all the traffic to go by and the light to turn red, and then they crossed the street. And then they kept going, and then they made it to...",
-      "timestamp": 84.96
+      "text": "They didn't? Huh. Well, they kept walking and then they got to the traffic light. And then they waited for all the traffic to go by and the light to turn red and then they crossed the street and then they kept going and then they made it to...",
+      "timestamp": 125.13
     },
     {
       "speaker": "Izzy",
-      "text": "The store.",
-      "timestamp": 100.36
+      "text": "...the store!",
+      "timestamp": 140.48
     },
     {
       "speaker": "Dad",
-      "text": "And they went inside the store, and the first thing they saw was...",
-      "timestamp": 101.78
+      "text": "And they went inside the store. And the first thing they saw was...",
+      "timestamp": 142.17
     },
     {
       "speaker": "Izzy",
-      "text": "The broccoli.",
-      "timestamp": 106.28
+      "text": "...the broccoli!",
+      "timestamp": 146.4
     },
     {
       "speaker": "Dad",
-      "text": "And so Surprise Mouse said, \"Great, there's the broccoli.\" What were you gonna get again, Plotty Mouse?",
-      "timestamp": 108.08
+      "text": "And so Surprise Mouse said \"Great, there's the broccoli. What were you going to get again Plotty Mouse?\"",
+      "timestamp": 148.2
     },
     {
       "speaker": "Izzy",
       "text": "Carrots.",
-      "timestamp": 114.82
+      "timestamp": 154.67
     },
     {
       "speaker": "Dad",
-      "text": "And so Surprise Mouse and Plotty Mouse walked around looking for the carrots, but instead they found...",
-      "timestamp": 116.34
+      "text": "And so Surprise Mouse and Plotty Mouse walked around looking for the carrots. But instead they found...",
+      "timestamp": 156.45
     },
     {
       "speaker": "Izzy",
-      "text": "They didn't find anything in the grocery store.",
-      "timestamp": 122.96
+      "text": "They didn't find anything in grocery store.",
+      "timestamp": 203.49
     },
     {
       "speaker": "Dad",
-      "text": "They didn't find anything in the grocery store. Were there any carrots, though?",
-      "timestamp": 126.22
+      "text": "They didn't find anything in the grocery store? Were there any carrots though?",
+      "timestamp": 207.2
     },
     {
       "speaker": "Izzy",
       "text": "Yes.",
-      "timestamp": 129.84
+      "timestamp": 210.45
     },
     {
       "speaker": "Dad",
-      "text": "Oh, Plotty said, \"Aha, here are the carrots.\" And then they went to the checkout line, and, and then they bought their broccoli and their carrots. And then what did they do?",
-      "timestamp": 130.94
+      "text": "Oh, Plotty said \"Aha, here are the carrots.\" And then they went to the checkout line and then they bought their broccoli and their carrots. And then what did they do?",
+      "timestamp": 211.54
     },
     {
       "speaker": "Izzy",
       "text": "They went back home and ate.",
-      "timestamp": 143.1
+      "timestamp": 223.12
     },
     {
       "speaker": "Dad",
       "text": "They went back home and ate their vegetables. Did they have anything with them?",
-      "timestamp": 145.76
+      "timestamp": 225.86
     },
     {
       "speaker": "Izzy",
       "text": "They had some tomatoes.",
-      "timestamp": 149.59
+      "timestamp": 230.12
     },
     {
       "speaker": "Dad",
       "text": "Oh, and what else?",
-      "timestamp": 152.06
+      "timestamp": 232
     },
     {
       "speaker": "Izzy",
       "text": "Cucumber.",
-      "timestamp": 154.32
+      "timestamp": 234.33
     },
     {
       "speaker": "Dad",
-      "text": "Ooh, that's starting to sound good. What else was in their food?",
-      "timestamp": 155.9
+      "text": "Oh, that's starting to sound good. What else was in their food?",
+      "timestamp": 236.42
     },
     {
       "speaker": "Izzy",
       "text": "Spaghetti.",
-      "timestamp": 160.26
+      "timestamp": 240.54
     },
     {
       "speaker": "Dad",
-      "text": "Mm. Broccoli, carrots, tomato, cucumber, and spaghetti. What a delicious meal. And then what did they do after they ate?",
-      "timestamp": 161.92
+      "text": "Mmm, broccoli, carrots, tomato, cucumber and spaghetti. What a delicious meal. And then what did they do after they ate?",
+      "timestamp": 242.2
     },
     {
       "speaker": "Izzy",
       "text": "They played.",
-      "timestamp": 171.48
+      "timestamp": 251.52
     },
     {
       "speaker": "Dad",
       "text": "What did they play?",
-      "timestamp": 172.9
+      "timestamp": 252.62
     },
     {
       "speaker": "Izzy",
-      "text": "They played the noise game. Let's play another... Let's make up another story about Plotty Mouse and Mischief Mouse.",
-      "timestamp": 173.98
+      "text": "They played the dice game. Now let's make up another story about Plotty Mouse and Mischief Mouse.",
+      "timestamp": 254.91
     },
     {
       "speaker": "Dad",
       "text": "Oh, Plotty Mouse and Mischief Mouse.",
-      "timestamp": 184.5
+      "timestamp": 302.7
     },
     {
       "speaker": "Izzy",
       "text": "And Surprise Mouse.",
-      "timestamp": 186.88
+      "timestamp": 305.15
     },
     {
       "speaker": "Dad",
-      "text": "And Surprise Mouse. Plotty Mouse and Mischief Mouse and Surprise Mouse had a big problem one day. What was their problem?",
-      "timestamp": 188.5
+      "text": "Plotty Mouse and Mischief Mouse and Surprise Mouse had a big problem one day. What was their problem?",
+      "timestamp": 307.24
     },
     {
       "speaker": "Izzy",
       "text": "They didn't have any problem.",
-      "timestamp": 195.6
+      "timestamp": 315.68
     },
     {
       "speaker": "Dad",
-      "text": "They didn't? Oh, but for the, for the story, I was thinking we could start the story with them having a problem.",
-      "timestamp": 199.88
+      "text": "They didn't? Oh, but for the story I was thinking we could start the story with them having a problem.",
+      "timestamp": 318.52
     },
     {
       "speaker": "Izzy",
-      "text": "No, they didn't start with a problem.",
-      "timestamp": 205.48
+      "text": "No they didn't start with a problem.",
+      "timestamp": 324.96
     },
     {
       "speaker": "Dad",
       "text": "Oh. What happens in the story?",
-      "timestamp": 209.06
+      "timestamp": 329.84
     },
     {
       "speaker": "Izzy",
       "text": "They go on an adventure.",
-      "timestamp": 212.12
+      "timestamp": 332.32
     },
     {
       "speaker": "Dad",
-      "text": "Oh, they go on an adventure. Okay. Let's start over again. Surprise Mouse and Plotty Mouse and Mischief Mouse go on an adventure. Where are they gonna go?",
-      "timestamp": 214.66
+      "text": "Oh they go on an adventure. Okay, let's start over again. Surprise Mouse and Plotty Mouse and Mischief Mouse go on an adventure. Where are they going to go?",
+      "timestamp": 334.82
     },
     {
       "speaker": "Izzy",
-      "text": "They're gonna go to their nana's house. They're gonna drive in the car.",
-      "timestamp": 225.38
+      "text": "Going to go to their Nana's house. They're going to drive in the car.",
+      "timestamp": 345.83
     },
     {
       "speaker": "Dad",
-      "text": "They're gonna drive in the car to their nana's house. And they get in the car, and they drive, drive, drive, drive. And what do they do while they're driving?",
-      "timestamp": 233.92
+      "text": "They're going to drive in the car to their Nana's house. And they get in the car and they drive, drive, drive, drive. And what do they do while they're driving?",
+      "timestamp": 353.64
     },
     {
       "speaker": "Izzy",
       "text": "They listen to story music.",
-      "timestamp": 241.4
+      "timestamp": 400.95
     },
     {
       "speaker": "Dad",
-      "text": "Oh, what do they... what story music do they listen to?",
-      "timestamp": 244.86
+      "text": "Oh, what story music do they listen to?",
+      "timestamp": 404.28
     },
     {
       "speaker": "Izzy",
-      "text": "All the kinds.",
-      "timestamp": 248.44
+      "text": "Lots of all the kinds.",
+      "timestamp": 406.85
     },
     {
       "speaker": "Dad",
-      "text": "All the kinds? Like what?",
-      "timestamp": 250.78
-    },
-    {
-      "speaker": "Izzy",
-      "text": "I don't know.",
-      "timestamp": 252.94
-    },
-    {
-      "speaker": "Dad",
-      "text": "Maybe a Winnie the Pooh story?",
-      "timestamp": 255.72
+      "text": "All the kinds? Like what? Maybe a Winnie the Pooh story?",
+      "timestamp": 409.11
     },
     {
       "speaker": "Izzy",
       "text": "No.",
-      "timestamp": 258.1
+      "timestamp": 414.41
     },
     {
       "speaker": "Dad",
       "text": "Maybe a Daniel Tiger story?",
-      "timestamp": 259.28
+      "timestamp": 415.11
     },
     {
       "speaker": "Izzy",
       "text": "No.",
-      "timestamp": 260.68
+      "timestamp": 416.32
     },
     {
       "speaker": "Dad",
       "text": "Maybe a Frog and Toad story?",
-      "timestamp": 261.54
+      "timestamp": 416.94
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yes.",
+      "timestamp": 417.84
+    },
+    {
+      "speaker": "Dad",
+      "text": "Maybe a Pout-Pout Fish story?",
+      "timestamp": 419.64
     },
     {
       "speaker": "Izzy",
       "text": "No.",
-      "timestamp": 262.8
+      "timestamp": 421.13
     },
     {
       "speaker": "Dad",
-      "text": "Maybe a Paw Patrol story?",
-      "timestamp": 263.62
+      "text": "Maybe an enchanted goblin story?",
+      "timestamp": 422.37
     },
     {
       "speaker": "Izzy",
-      "text": "No.",
-      "timestamp": 264.9
+      "text": "No. Song about mice.",
+      "timestamp": 425.26
     },
     {
       "speaker": "Dad",
-      "text": "Maybe an Enchanted Goblin story?",
-      "timestamp": 265.74
+      "text": "A song about mice. Of course that's what the mice listen to in the car. A song about mice. They love songs about mice. How'd the song go?",
+      "timestamp": 430.43
     },
     {
       "speaker": "Izzy",
-      "text": "No. A song about mice.",
-      "timestamp": 268.5
+      "text": "Ah-la-la-la-la-la-la-la, jingle I would said, the orange jingle I would said, that's how it goes.",
+      "timestamp": 441.92
     },
     {
       "speaker": "Dad",
-      "text": "A song about mice. Of course, that's what the mice listen to in the car. A song about mice. They love songs about mice. How'd the song go?",
-      "timestamp": 273.04
+      "text": "Oh, well, they enjoyed their mice song in their mice car on the way to Nana Mouse's house. And they drove and drove and drove some more and then they stopped to pee and then they got back in the car and they drove and drove and drove and then they stopped to have a snack and then they got back in the car and drove and drove and drove and drove and drove and then finally they got to...",
+      "timestamp": 451.98
     },
     {
       "speaker": "Izzy",
-      "text": "La, la, la, la, la, la, la, la, la, la. Jingle write and says, the orange and the jingle write and says. That's how it goes.",
-      "timestamp": 281.82
+      "text": "...Nana's house!",
+      "timestamp": 508.43
     },
     {
       "speaker": "Dad",
-      "text": "Oh. Well, they enjoyed their mice song in their mice car on the way to Nana Mouse's house, and they drove and drove and drove some more, and then they stopped to pee. And then they got back in the car, and they drove and drove and drove, and then they stopped to have a snack.",
-      "timestamp": 291.8
-    },
-    {
-      "speaker": "Dad",
-      "text": "And then they got back in the car and drove and drove and drove and drove and drove and drove, and then finally they got to...",
-      "timestamp": 304.82
+      "text": "And they got out and Nana Mouse said \"Hello everyone, welcome to my house! Come on inside.\" And what did they see inside Nana Mouse's house?",
+      "timestamp": 510.66
     },
     {
       "speaker": "Izzy",
-      "text": "Nana's house.",
-      "timestamp": 309.8
-    },
-    {
-      "speaker": "Dad",
-      "text": "And they got out, and Nana Mouse said, \"Hello, everyone. Welcome to my house. Come on inside.\" And what did they see inside Nana Mouse's house?",
-      "timestamp": 311.22
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Lots, all these kind of toys.",
-      "timestamp": 320.64
+      "text": "Lots of all these kind of toys.",
+      "timestamp": 519.8
     },
     {
       "speaker": "Dad",
       "text": "Oh, what kind of toys?",
-      "timestamp": 323.62
+      "timestamp": 523.51
     },
     {
       "speaker": "Izzy",
-      "text": "All kind of toys.",
-      "timestamp": 325.56
+      "text": "All kinds of toys.",
+      "timestamp": 525.04
     },
     {
       "speaker": "Dad",
-      "text": "Oh. Did they play?",
-      "timestamp": 327.6
+      "text": "Oh, did they play?",
+      "timestamp": 527.28
     },
     {
       "speaker": "Izzy",
-      "text": "Yes, they played with their nana.",
-      "timestamp": 329.68
+      "text": "Yes they played with their Nana. The end. Now let's turn off the stories.",
+      "timestamp": 528.85
     },
     {
       "speaker": "Dad",
-      "text": "They played with their nana.",
-      "timestamp": 332.54
-    },
-    {
-      "speaker": "Izzy",
-      "text": "The end.",
-      "timestamp": 334.7
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh.",
-      "timestamp": 336.57
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Now let's turn off the stars.",
-      "timestamp": 336.58
-    },
-    {
-      "speaker": "Dad",
-      "text": "Okay. I'll flip them over, and we'll turn on our light",
-      "timestamp": 341.28
+      "text": "Okay. I'll flip them over and I'll turn on our light.",
+      "timestamp": 544.17
     }
   ],
   "characters": [
@@ -454,19 +414,7 @@
       "description": "A house filled with many toys, reached after a long car ride."
     }
   ],
-  "wordCount": 872,
-  "izzyWordCount": 198,
-  "dadWordCount": 674,
-  "transcription": {
-    "engine": "scribe-v2",
-    "model": "scribe_v2",
-    "keyterms": 250,
-    "at": "2026-09-13T14:36:29.229Z",
-    "speakerMap": {
-      "speaker_0": "Dad",
-      "speaker_1": "Izzy"
-    },
-    "speakerMapMethod": "reference",
-    "speakerMapConfidence": "low"
-  }
+  "wordCount": 838,
+  "izzyWordCount": 181,
+  "dadWordCount": 657
 }

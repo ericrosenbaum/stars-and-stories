@@ -281,23 +281,35 @@ export interface SpeakerMapping {
   method: SpeakerMapMethod;
   confidence: 'high' | 'low';
   note: string;
+  /** The two main raw labels as [Dad, Izzy]; extras are folded into one of them. */
+  mains?: string[];
 }
 
 const DAD_LABEL = 'Dad';
 const IZZY_LABEL = 'Izzy';
 
 /**
- * Dad = the most Dad-like raw label, Izzy = the next. Any further label is a
- * small extra cluster Scribe split off (noise, a cough, a third voice for a
- * moment) — fold it into whichever of the two it resembles more, so no words
- * fall outside the Izzy/Dad counts.
+ * The two LARGEST raw labels are the real speakers; between them the more
+ * Dad-like one is Dad. Any smaller label is an extra cluster Scribe split off
+ * (noise, a cough, a third voice for a moment) — fold it into whichever of the
+ * two it resembles, so no words fall outside the Izzy/Dad counts and a tiny
+ * Dad-like cluster can never steal the Izzy slot from the real Izzy.
+ * Returns the map plus the [Dad, Izzy] main labels.
  */
-function assignByRank(ranked: string[], dadLike: (raw: string) => boolean): Record<string, string> {
+function assignLabels(
+  raws: string[],
+  words: (raw: string) => number,
+  dadLike: (raw: string) => boolean,
+  moreDadLike: (a: string, b: string) => boolean,
+): { map: Record<string, string>; mains: string[] } {
+  const bySize = [...raws].sort((a, b) => words(b) - words(a));
+  const mains = bySize.slice(0, 2);
+  if (mains.length === 2 && !moreDadLike(mains[0], mains[1])) mains.reverse();
   const map: Record<string, string> = {};
-  ranked.forEach((raw, i) => {
-    map[raw] = i === 0 ? DAD_LABEL : i === 1 ? IZZY_LABEL : dadLike(raw) ? DAD_LABEL : IZZY_LABEL;
+  raws.forEach((raw) => {
+    map[raw] = raw === mains[0] ? DAD_LABEL : raw === mains[1] ? IZZY_LABEL : dadLike(raw) ? DAD_LABEL : IZZY_LABEL;
   });
-  return map;
+  return { map, mains };
 }
 
 const normTokens = (text: string) =>
@@ -325,6 +337,8 @@ function mapByReference(
     .sort((a, b) => a.timestamp - b.timestamp)
     .map((t) => ({ ...t, tokens: new Set(normTokens(t.text)) }));
   if (ref.length < 4) return null;
+  // A reference that is itself (nearly) one voice cannot say who is who.
+  if (minoritySpeakerShare(reference) < 0.08) return null;
   const WINDOW = 45;
   const votes = new Map<string, { Dad: number; Izzy: number }>();
   let votedWords = 0;
@@ -363,13 +377,13 @@ function mapByReference(
   }
   const raws = [...new Set(segments.map((s) => s.rawSpeaker))];
   if (!raws.every((r) => votes.has(r))) return null;
-  // Rank by "how Dad-like": share of words landing on old Dad lines.
+  // "How Dad-like": share of a label's words landing on old Dad lines.
   const dadShare = (raw: string) => {
     const v = votes.get(raw)!;
     return (v.Dad + 0.5) / (v.Dad + v.Izzy + 1);
   };
-  const ranked = [...raws].sort((a, b) => dadShare(b) - dadShare(a));
-  const map = assignByRank(ranked, (r) => dadShare(r) >= 0.5);
+  const size = (raw: string) => votes.get(raw)!.Dad + votes.get(raw)!.Izzy;
+  const { map, mains: ranked } = assignLabels(raws, size, (r) => dadShare(r) >= 0.5, (a, b) => dadShare(a) >= dadShare(b));
   const shares = ranked.map((r) => dadShare(r));
   const coverage = totalWords ? votedWords / totalWords : 0;
   // Confident when the two labels are clearly separated (Izzy's short
@@ -378,10 +392,13 @@ function mapByReference(
   const confident = raws.length < 2 || (shares[0] >= 0.6 && shares[0] - shares[1] >= 0.25 && coverage >= 0.5);
   return {
     map,
+    mains: ranked,
     method: 'reference',
     confidence: confident ? 'high' : 'low',
     note:
-      ranked.map((r, i) => `${r}: ${(shares[i] * 100).toFixed(0)}% on old Dad lines`).join(', ') +
+      raws
+        .map((r) => `${r}: ${size(r)}w, ${(dadShare(r) * 100).toFixed(0)}% on old Dad lines`)
+        .join(', ') +
       `; ${textMatches}/${segments.length} segments matched by text, ${(coverage * 100).toFixed(0)}% of words voted`,
   };
 }
@@ -409,11 +426,17 @@ function mapByCues(segments: RawSegment[]): SpeakerMapping {
   const cueScore = (r: string) => stats.get(r)!.dadCues - stats.get(r)!.izzyCues;
   const meanLen = (r: string) => stats.get(r)!.words / Math.max(stats.get(r)!.lines, 1);
   const anyCues = raws.some((r) => stats.get(r)!.dadCues || stats.get(r)!.izzyCues);
-  const ranked = [...raws].sort(
-    (a, b) => cueScore(b) - cueScore(a) || meanLen(b) - meanLen(a) || stats.get(b)!.words - stats.get(a)!.words,
+  const moreDadLike = (a: string, b: string) =>
+    cueScore(a) !== cueScore(b) ? cueScore(a) > cueScore(b) : meanLen(a) !== meanLen(b) ? meanLen(a) > meanLen(b) : stats.get(a)!.words >= stats.get(b)!.words;
+  const bySize = [...raws].sort((a, b) => stats.get(b)!.words - stats.get(a)!.words);
+  const mainsMeanLen = bySize.slice(0, 2).reduce((sum, r) => sum + meanLen(r), 0) / Math.min(bySize.length, 2);
+  const { map, mains: ranked } = assignLabels(
+    raws,
+    (r) => stats.get(r)!.words,
+    // extras: cue-positive or longer-than-average-lined clusters read as Dad, short-lined ones as Izzy
+    (r) => cueScore(r) > 0 || (cueScore(r) === 0 && meanLen(r) >= mainsMeanLen),
+    moreDadLike,
   );
-  // extras: long-lined clusters read as Dad, short-lined ones as Izzy
-  const map = assignByRank(ranked, (r) => cueScore(r) > 0 || (cueScore(r) === 0 && meanLen(r) >= meanLen(ranked[1])));
   let confidence: 'high' | 'low' = 'low';
   if (raws.length < 2) confidence = 'high';
   else if (anyCues) {
@@ -427,7 +450,7 @@ function mapByCues(segments: RawSegment[]): SpeakerMapping {
       return `${r}: ${e.words}w, ${meanLen(r).toFixed(1)}w/line, cues Dad ${e.dadCues}/Izzy ${e.izzyCues}`;
     })
     .join('; ');
-  return { map, method: anyCues ? 'cues' : 'word-share', confidence, note };
+  return { map, mains: ranked, method: anyCues ? 'cues' : 'word-share', confidence, note };
 }
 
 export function mapSpeakers(segments: RawSegment[], reference?: TranscriptItem[]): SpeakerMapping {
@@ -436,7 +459,8 @@ export function mapSpeakers(segments: RawSegment[], reference?: TranscriptItem[]
     if (byRef) {
       // Sanity check against the cues; disagreement is worth a human glance.
       const byCues = mapByCues(segments);
-      const agree = Object.keys(byRef.map).every((r) => byRef.map[r] === byCues.map[r]);
+      // Compare the two MAIN labels only — where a tiny extra cluster gets folded is not a disagreement.
+      const agree = (byRef.mains ?? Object.keys(byRef.map)).every((r) => byRef.map[r] === byCues.map[r]);
       if (!agree && byCues.confidence === 'high') {
         return { ...byRef, confidence: 'low', note: `${byRef.note} | cues disagree: ${byCues.note}` };
       }
