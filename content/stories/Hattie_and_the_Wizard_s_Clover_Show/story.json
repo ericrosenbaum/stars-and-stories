@@ -6,308 +6,468 @@
   "audioFilename": "Cornell St 28.m4a",
   "highlightQuote": {
     "text": "No. They don't have feet. They like to go on paper.",
-    "timestamp": 150.22
+    "timestamp": 84.58
   },
   "transcript": [
     {
       "speaker": "Izzy",
-      "text": "I guess this is my new sitting space.",
-      "timestamp": 0
+      "text": "This is my new sitting space",
+      "timestamp": 0.26
     },
     {
       "speaker": "Dad",
-      "text": "Oh, okay.",
-      "timestamp": 3.12
-    },
-    {
-      "speaker": "Dad",
-      "text": "I see, but be careful not to sit on the lion's head.",
-      "timestamp": 8.04
-    },
-    {
-      "speaker": "Dad",
-      "text": "Start.",
-      "timestamp": 15.22
+      "text": "Oh, okay",
+      "timestamp": 3.02
     },
     {
       "speaker": "Izzy",
-      "text": "(Playful noises and humming)",
-      "timestamp": 18.01
-    },
-    {
-      "speaker": "Izzy",
-      "text": "A clover. A happy clover with a...",
-      "timestamp": 24.55
+      "text": "I'll sit like this. See how I sit?",
+      "timestamp": 3.7
     },
     {
       "speaker": "Dad",
-      "text": "Okay, so you've got to sit the blue timer for our Stars and Stories tonight.",
-      "timestamp": 32.72
-    },
-    {
-      "speaker": "Dad",
-      "text": "Who should tonight's story be about?",
-      "timestamp": 58.11
+      "text": "I see. Oh, but careful not to sit on the lion's head. All right, let's turn out the light",
+      "timestamp": 7.56
     },
     {
       "speaker": "Izzy",
-      "text": "A clover and another clover.",
-      "timestamp": 63.45
+      "text": "Stars. Would you like to tell me a story?",
+      "timestamp": 15.34
     },
     {
       "speaker": "Dad",
-      "text": "A clover? And another clover? Who's talking in this story?",
-      "timestamp": 111
+      "text": "And stories",
+      "timestamp": 20.04
     },
     {
       "speaker": "Izzy",
-      "text": "Another clover and another clover.",
-      "timestamp": 116.24
+      "text": "A clover, a happy clover with another clover",
+      "timestamp": 24.16
     },
     {
       "speaker": "Dad",
-      "text": "Oh. Well, it looks like maybe our story is gonna be about Hattie the Mouse?",
-      "timestamp": 122.33
+      "text": "Okay, hold on. I gotta set the blue timer for our stars and stories time",
+      "timestamp": 32.82
     },
     {
       "speaker": "Izzy",
-      "text": "No! It's not! It's going to be about... two clovers!",
-      "timestamp": 127.18
+      "text": "Stars.",
+      "timestamp": 39.4
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay",
+      "timestamp": 43.2
+    },
+    {
+      "speaker": "Izzy",
+      "text": "High five. High five, said the little clover. High five. High five",
+      "timestamp": 44.46
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay. Who should tonight's story be about?",
+      "timestamp": 56.96
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I, a clover and another clover",
+      "timestamp": 63.06
+    },
+    {
+      "speaker": "Dad",
+      "text": "A clover?",
+      "timestamp": 68.6
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And another clover",
+      "timestamp": 69.76
+    },
+    {
+      "speaker": "Dad",
+      "text": "Who's talking in this story?",
+      "timestamp": 71.86
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Another clover and another clover",
+      "timestamp": 75.98
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh. Well, it looks like maybe our story's gonna be about Hattie-",
+      "timestamp": 79.54
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No",
+      "timestamp": 84.58
+    },
+    {
+      "speaker": "Dad",
+      "text": "... Hattie the Mouse",
+      "timestamp": 85
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No, it's not. It's going to be about two clovers",
+      "timestamp": 86.08
     },
     {
       "speaker": "Dad",
       "text": "Oh, what are the clovers' names?",
-      "timestamp": 133.09
+      "timestamp": 92.18
     },
     {
       "speaker": "Izzy",
-      "text": "They are just clovers.",
-      "timestamp": 135.54
+      "text": "They are just clovers",
+      "timestamp": 95.98
     },
     {
       "speaker": "Dad",
-      "text": "And where do they live?",
-      "timestamp": 140.41
+      "text": "Oh, and where do they live?",
+      "timestamp": 98.38
     },
     {
       "speaker": "Izzy",
-      "text": "No, they are sticker clovers.",
-      "timestamp": 142.22
+      "text": "No, they are sticker clovers",
+      "timestamp": 102.5
     },
     {
       "speaker": "Dad",
-      "text": "They are stickers. And are they gonna go on an adventure?",
-      "timestamp": 145.71
+      "text": "Oh, they're stickers. And are they gonna go on an adventure?",
+      "timestamp": 105.1
     },
     {
       "speaker": "Izzy",
-      "text": "No. They don't have feet. They like to go on paper.",
-      "timestamp": 150.22
+      "text": "No, they don't have feet. They like to go on paper",
+      "timestamp": 109.2
     },
     {
       "speaker": "Dad",
-      "text": "The clovers like to go on paper. Who's gonna stick them on the paper?",
-      "timestamp": 156.44
+      "text": "Oh, the clovers like to go on paper. Who's gonna stick them on the paper?",
+      "timestamp": 115.2
     },
     {
       "speaker": "Izzy",
-      "text": "Hattie Mouse.",
-      "timestamp": 159.08
+      "text": "Um, Hattie Mouse",
+      "timestamp": 119.82
     },
     {
       "speaker": "Dad",
-      "text": "Once upon a time, Hattie Mouse found two sparkly green clover stickers. And what did she do with them?",
-      "timestamp": 162.15
+      "text": "Hattie Mouse. Once upon a time, Hattie Mouse found two sparkly green clover stickers. And what did she do with them?",
+      "timestamp": 121.34
     },
     {
       "speaker": "Izzy",
-      "text": "She put them on paper.",
-      "timestamp": 211.23
+      "text": "She put them on paper",
+      "timestamp": 131.84
     },
     {
       "speaker": "Dad",
-      "text": "And then what?",
-      "timestamp": 215.34
+      "text": "Oh, and then what?",
+      "timestamp": 134.28
     },
     {
       "speaker": "Izzy",
-      "text": "She tried to play.",
-      "timestamp": 217.41
+      "text": "She tried to play",
+      "timestamp": 136.98
     },
     {
       "speaker": "Dad",
       "text": "She tried to play. Did she put anything else on the paper?",
-      "timestamp": 221.09
+      "timestamp": 140.28
     },
     {
       "speaker": "Izzy",
-      "text": "Yep, she did.",
-      "timestamp": 228.45
+      "text": "Yep, she did",
+      "timestamp": 149.42
     },
     {
       "speaker": "Dad",
       "text": "Oh, maybe she was making a letter to mail to someone. Who was she mailing it to?",
-      "timestamp": 234.12
+      "timestamp": 154.18
     },
     {
       "speaker": "Izzy",
-      "text": "(Singing about Hattie Mouse and a letter)",
-      "timestamp": 242
+      "text": "Mistress Mouse jumped the house and found a little rat trap. Over, rat trap. It's my pleasure. Rat trap, rat trap, it's my pleasure. Abba-bibba-ba. This is my choice. Choice is, this is my choice. Oh. You know what you're standing on your tail?",
+      "timestamp": 161.6
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, yeah, look",
+      "timestamp": 193.92
     },
     {
       "speaker": "Izzy",
-      "text": "You are standing on your tail!",
-      "timestamp": 311.23
+      "text": "But the mistress put her head and, hmm. Look right now. Jingle bell, jingle bell, jingle bell. Jingle bell, jingle bell. Jingle bell, jingle bell rock",
+      "timestamp": 196
     },
     {
       "speaker": "Dad",
-      "text": "Oh yeah, look.",
-      "timestamp": 314.15
+      "text": "Hey, maybe we can make up a song about stars and stories. Do you want to try doing that?",
+      "timestamp": 223.46
     },
     {
       "speaker": "Izzy",
-      "text": "(Singing Jingle Bells)",
-      "timestamp": 329.12
-    },
-    {
-      "speaker": "Dad",
-      "text": "Hey, maybe we can make up a song about Stars and Stories? Do you want to try doing that?",
-      "timestamp": 343.41
+      "text": "Stars and stories. Stars and stories. Stars and stories. Stars and stories. Stars and stories. Stars and, stars and stories. Oh, stars and stories. Stars and stories. Stars and, stars and stories. Stars and story-ory-ory. Stars and stories. Oh, and stories.",
+      "timestamp": 228.6
     },
     {
       "speaker": "Izzy",
-      "text": "Stars and stories, stars and stories, stars and stars and stories...",
-      "timestamp": 349.52
+      "text": "There we go. Now I sing stars and stories. Yeah",
+      "timestamp": 257.1
     },
     {
       "speaker": "Dad",
-      "text": "Once upon a time, Hattie Mouse was in her workshop—",
-      "timestamp": 494.33
+      "text": "Yeah",
+      "timestamp": 264.16
     },
     {
       "speaker": "Izzy",
-      "text": "No, no. The clover story.",
-      "timestamp": 497.12
+      "text": "I'm trying to find the, that, uh, where be. Let's find the, the main mouse. Bing-a-bong, bing-a-bong, bing-a-bing-a-bong. Bing-a-bong, bing-a-bong, bing mama. Bing-a-bong, bing-a-ba-bong. Oh, ding. Dad, would you like to tell a story?",
+      "timestamp": 265.2
     },
     {
       "speaker": "Dad",
-      "text": "Once upon a time, two clover stickers were on a piece of paper in Hattie the Mouse's workshop. And they happened to be on the piece of paper along with a message. And the message said: Dear Hattie the Mouse, this is your official invitation to the big show at the castle of Peacock the Wizard.",
-      "timestamp": 499.51
-    },
-    {
-      "speaker": "Dad",
-      "text": "The show is happening later today and you're invited to come and watch. Sincerely, Peacock the Wizard. And Hattie Mouse read the message and what did she do?",
-      "timestamp": 530.12
+      "text": "Okay. Once upon a time, Hattie Mouse was in her workshop-",
+      "timestamp": 292.47
     },
     {
       "speaker": "Izzy",
-      "text": "She go'd to the Wizard castle.",
-      "timestamp": 545.62
+      "text": "No, no, the clover story",
+      "timestamp": 296.9
     },
     {
       "speaker": "Dad",
-      "text": "So Hattie the Mouse closed up her workshop for the day and walked out into the forest and along the path and up the hill to Peacock the Wizard's castle. Who did she sit with?",
-      "timestamp": 550.15
+      "text": "Oh, once upon a time, two clover stickers were on a piece of paper in Hattie the Mouse's workshop, and they happened to be on the piece of paper along with a message, and the message said, \"Dear Hattie the Mouse, this is your official invitation to the big show at the castle of Peacock the Wizard.",
+      "timestamp": 299.5
+    },
+    {
+      "speaker": "Dad",
+      "text": "The show is happening later today, and you're invited to come and watch. Sincerely, Peacock the Wizard.\" And Hattie Mouse read the message, and what did she do?",
+      "timestamp": 329.23
     },
     {
       "speaker": "Izzy",
-      "text": "She sitted in the front. With Mischief Mouse.",
-      "timestamp": 626.44
+      "text": "She go to the wizard castle",
+      "timestamp": 344.3
     },
     {
       "speaker": "Dad",
-      "text": "And was anybody else there to watch the show with her?",
-      "timestamp": 633.21
+      "text": "So Hattie the Mouse closed up her workshop for the day and walked out into the forest and along the path and up the hill. And as she got closer and closer to Peacock the Wizard's Castle, she could see lots of other people were coming to the castle, too.",
+      "timestamp": 348.2
+    },
+    {
+      "speaker": "Dad",
+      "text": "They were all going to the show, and she was so excited And what did she do next?",
+      "timestamp": 365.64
     },
     {
       "speaker": "Izzy",
-      "text": "Yep. Mistress Mouse, Lily Mouse, and Jasper.",
-      "timestamp": 637.54
+      "text": "She saw that the show was about to begin.",
+      "timestamp": 371.46
     },
     {
       "speaker": "Dad",
-      "text": "And then all of a sudden, the crowd went quiet and the lights came on the stage and who came out to start the show?",
-      "timestamp": 643.12
+      "text": "The show was about to begin, and so she went inside and found a seat. Did she seat, sit way up front or in the back?",
+      "timestamp": 377.08
+    },
+    {
+      "speaker": "Izzy",
+      "text": "She sit in, in the front-",
+      "timestamp": 385.72
+    },
+    {
+      "speaker": "Dad",
+      "text": "She got a good seat in the-",
+      "timestamp": 388.78
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... with Mischief Mouse.",
+      "timestamp": 389.67
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, she sat next to her friend Mischief Mouse. And was anybody else there to watch the show with her?",
+      "timestamp": 391.42
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yep. Mistress Mouse, Lily Mouse, and Victor.",
+      "timestamp": 396.08
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh. And so there was a big crowd of people coming to watch the show, including lots of Hattie the Mouse's friends, but she had a good seat up front. And then all of a sudden, the crowd went quiet and the lights came on on the stage. And who came out to start the show?",
+      "timestamp": 402.58
     },
     {
       "speaker": "Izzy",
       "text": "First, the person that talked.",
-      "timestamp": 704.11
+      "timestamp": 424.4
     },
     {
       "speaker": "Dad",
-      "text": "The person that talked. And then a group of animals came out. What kind of animal were they?",
-      "timestamp": 708.45
+      "text": "The person that talked. A person came out and said, \"Welcome everyone to the Wizard Peacock's castle for the big show. We're so excited to have you. And now, without further ado, we'll let the show begin.\" And then she went off stage and the curtain opened and a group of animals came out.",
+      "timestamp": 427.5
+    },
+    {
+      "speaker": "Dad",
+      "text": "What kind of animal were they?",
+      "timestamp": 452.06
     },
     {
       "speaker": "Izzy",
       "text": "They were kiddos.",
-      "timestamp": 733.15
+      "timestamp": 454.52
     },
     {
       "speaker": "Dad",
-      "text": "And what were they singing?",
-      "timestamp": 735.62
+      "text": "Oh, a group of kiddos came out and they were all singing a song. What song were they singing?",
+      "timestamp": 456.14
     },
     {
       "speaker": "Izzy",
-      "text": "No, first they were singing... Baby Beluga in the deep blue sea, swim so wild and swim so free...",
-      "timestamp": 795.12
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Jingle bells, jingle bells, jingle all the way!",
-      "timestamp": 820.31
+      "text": "No, no, no, that's where you tell stories.",
+      "timestamp": 460.92
     },
     {
       "speaker": "Dad",
-      "text": "They clapped a lot for the song. And then it was time for dancing. Who came out to dance?",
-      "timestamp": 839.42
+      "text": "Oh.",
+      "timestamp": 466.72
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No, no, a show is where you tell stories.",
+      "timestamp": 466.98
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, the kiddos were telling a story. What was the story about?",
+      "timestamp": 469.98
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No, no, first they were singing.",
+      "timestamp": 472.98
+    },
+    {
+      "speaker": "Dad",
+      "text": "First they were singing. So what was the song?",
+      "timestamp": 479.8
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Baby beluga in the deep blue sea. Swims so wild and swims so... And the next one was, Jingle bells, jingle bells, jingle all the way. Oh, what fun it is to ride in a one horse open sleigh. Oh, jingle bells, jingle bells, jingle all the way. Oh, what fun it is to ride in a one horse open sleigh.",
+      "timestamp": 488.48
+    },
+    {
+      "speaker": "Izzy",
+      "text": "There.",
+      "timestamp": 518.12
+    },
+    {
+      "speaker": "Dad",
+      "text": "There. And then the kiddos finished singing and the audience clapped. Hooray. Hooray. They clapped a lot for the song because everyone loved it. And then it was time for the next part of the show, which was dancing. Who came out to dance?",
+      "timestamp": 518.45
     },
     {
       "speaker": "Izzy",
       "text": "All the other kiddos.",
-      "timestamp": 855.15
+      "timestamp": 534.76
     },
     {
       "speaker": "Dad",
       "text": "And what were they wearing?",
-      "timestamp": 857
+      "timestamp": 537.18
     },
     {
       "speaker": "Izzy",
-      "text": "They were wearing costumes with wings and funny shoes.",
-      "timestamp": 859.33
+      "text": "They were wearing costumes.",
+      "timestamp": 538.86
     },
     {
       "speaker": "Dad",
-      "text": "And they danced all around to the drums and what else?",
-      "timestamp": 923.15
+      "text": "Oh, what kind of costumes? Were they colorful costumes?",
+      "timestamp": 541.24
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah.",
+      "timestamp": 554.76
+    },
+    {
+      "speaker": "Dad",
+      "text": "Did they have hats?",
+      "timestamp": 555.22
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yep.",
+      "timestamp": 556.58
+    },
+    {
+      "speaker": "Dad",
+      "text": "Did they have funny shoes?",
+      "timestamp": 557.3
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yep.",
+      "timestamp": 558.9
+    },
+    {
+      "speaker": "Dad",
+      "text": "Did they have wings?",
+      "timestamp": 559.52
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yep.",
+      "timestamp": 560.56
+    },
+    {
+      "speaker": "Dad",
+      "text": "They had hats and funny shoes and wings, and they danced all around to, um, people playing drums. Dum, da, da, dum, dum, dum, da, da, dum, dum, dum, da, da, dum, dum, dum.",
+      "timestamp": 561.48
     },
     {
       "speaker": "Izzy",
       "text": "And a piano player.",
-      "timestamp": 931.54
+      "timestamp": 572.66
     },
     {
       "speaker": "Dad",
-      "text": "And then Wizard Peacock herself came out and said, 'Thank you everyone for coming to my show.' And so Hattie the Mouse went back home and went to sleep. The end.",
-      "timestamp": 949.22
-    },
-    {
-      "speaker": "Izzy",
-      "text": "(Laughs)",
-      "timestamp": 1023.11
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Naoie, naoie, naoie!",
-      "timestamp": 1030.55
+      "text": "And a piano player was playing. Ba, da, da, da, ding, ding, ding, ding, da, da, ding, ding, ding. And they were dancing and dancing and twirling and spinning and jumping. And then, da, da, da, that was the end of the dance. And now... Oops, that's our time.",
+      "timestamp": 574.5
     },
     {
       "speaker": "Dad",
-      "text": "All right, and now we turn off.",
-      "timestamp": 1039.23
+      "text": "Our time for the story is up. And so then all the kiddos that had been in the show came out onto the stage and took a bow, and everyone in the audience clapped again. Hooray, what a wonderful show. And then the Wizard Peacock herself came out and said, \"Thank you everyone for coming to my show.",
+      "timestamp": 592.2
+    },
+    {
+      "speaker": "Dad",
+      "text": "Have a good night.\" And so Hattie the Mouse said goodbye to all her friends and went back home and went to sleep. The end. And that's the end of Stars and Stories. Oops.",
+      "timestamp": 611.36
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Oh, no. Now we, now we, now we, now we, now we, now we-",
+      "timestamp": 627.58
+    },
+    {
+      "speaker": "Dad",
+      "text": "All right. And now-",
+      "timestamp": 637.06
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... now we",
+      "timestamp": 639.06
     }
   ],
   "characters": [
@@ -364,7 +524,19 @@
       "description": "Cloaking the surface of the green planet in a vast mantle of dense greenery, this whispering woodland serves as the lush setting of the 'Forest Friends' chronicle. It is a realm where creatures play eternal hide-and-seek between Hattie’s cozy clinic and the ancestral cradle of Finn’s companions. Along magical trails where Hattie and the Pakruder Worm harvest hat-making ingredients, winding paths veil secret gopher tunnels and hidden mole cottages, forming the essential route toward the wizard's castle. While its sun-drenched threshold remains a sanctuary for the Rainbow Giraffe and Mama Bird, the deeper, darker thickets harbor a somber mystery; it was within these sprawling, uncharted depths—the same eerie expanse where the sick creature was first spotted and Mossy was discovered—that Mole recently vanished into the shadows."
     }
   ],
-  "wordCount": 613,
-  "izzyWordCount": 182,
-  "dadWordCount": 431
+  "wordCount": 1230,
+  "izzyWordCount": 422,
+  "dadWordCount": 808,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T14:54:45.918Z",
+    "speakerMap": {
+      "speaker_0": "Izzy",
+      "speaker_1": "Dad"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "low"
+  }
 }

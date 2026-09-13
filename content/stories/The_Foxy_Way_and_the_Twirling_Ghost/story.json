@@ -6,268 +6,423 @@
   "audioFilename": "Cornell St 29.m4a",
   "highlightQuote": {
     "text": "First you have to pull the ear, and then you have to turn over, and then you have to walk. Do you know that? And there's a penguin step, too.",
-    "timestamp": 322.12
+    "timestamp": 203.68
   },
   "transcript": [
     {
       "speaker": "Dad",
-      "text": "Stars! You want to tell a story about?",
-      "timestamp": 25.12
+      "text": "Turn on the stars. Set our timer. Turn off the big light. Turn out the lamp. Stars.",
+      "timestamp": 10.2
     },
     {
       "speaker": "Izzy",
-      "text": "Wizard stars!",
-      "timestamp": 26.45
+      "text": "Let's tell a story.",
+      "timestamp": 26.26
     },
     {
       "speaker": "Dad",
-      "text": "Yeah. What do you want to tell a story about?",
-      "timestamp": 28.01
-    },
-    {
-      "speaker": "Dad",
-      "text": "Hmm. How about?",
-      "timestamp": 30.56
+      "text": "Yeah. What do you want to tell a story about? Hmm.",
+      "timestamp": 27.96
     },
     {
       "speaker": "Izzy",
-      "text": "Peacock the Wizard's castle one!",
-      "timestamp": 32.22
+      "text": "Like-",
+      "timestamp": 31.24
     },
     {
       "speaker": "Dad",
-      "text": "You want to work on the Wizard's castle one? Okay. I'm going to sit right here. Izzy the Kiddo's Wizard!",
-      "timestamp": 37.15
-    },
-    {
-      "speaker": "Dad",
-      "text": "Once upon a time, Peacock...",
-      "timestamp": 46.88
+      "text": "How about-",
+      "timestamp": 32.32
     },
     {
       "speaker": "Izzy",
-      "text": "Oh no! No the rest of it!",
-      "timestamp": 49.33
+      "text": "What if Izzy the Wizard's Castle one.",
+      "timestamp": 33.44
+    },
+    {
+      "speaker": "Dad",
+      "text": "You want to work on the Wizard's Castle one? Okay.",
+      "timestamp": 38.52
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah.",
+      "timestamp": 40.74
+    },
+    {
+      "speaker": "Dad",
+      "text": "I'm gonna sit right here.",
+      "timestamp": 41.12
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Let's do, with Peacock the Wizard.",
+      "timestamp": 43.94
+    },
+    {
+      "speaker": "Dad",
+      "text": "Once upon a time, Peacock the Wizard-",
+      "timestamp": 47.14
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No, no, the, no, the rest of it.",
+      "timestamp": 49.54
     },
     {
       "speaker": "Dad",
       "text": "The rest of it?",
-      "timestamp": 52.12
+      "timestamp": 52.66
     },
     {
       "speaker": "Izzy",
-      "text": "Yep. No, with your big bad, the Christopher Robin and Tigger.",
-      "timestamp": 53.45
+      "text": "Yep. No, with you're the dad and Christopher Robin and Tigger.",
+      "timestamp": 53.7
     },
     {
       "speaker": "Dad",
-      "text": "Hmm. Once upon a time, Izzy the Kiddo's phone rang and she picked it up and she said, 'Hello, who is it?' And it was...",
-      "timestamp": 59.81
+      "text": "Hmm. Once upon a time, Izzy the Kiddo's phone rang, and she picked it up and she said, \"Hello, who is it?\" And it was...",
+      "timestamp": 63.24
     },
     {
       "speaker": "Izzy",
-      "text": "Everyone at the Wizard's castle with Peacock the Wizard!",
-      "timestamp": 114.23
+      "text": "Everyone at the Wizard's Castle with Peacock the Wizard.",
+      "timestamp": 73.9
     },
     {
       "speaker": "Dad",
-      "text": "And Peacock the Wizard said, 'Hello Izzy, I have a quest for you to go on. I need you to go with a group of your friends in a car and drive a long way to a place where you can get special magical pieces to make hats with for Hattie the Mouse. Special glowing sparkling hat parts. Do you accept this quest, Izzy?'",
-      "timestamp": 119.56
+      "text": "And Peacock the Wizard said, \"Hello, Izzy. I have a quest for you to go on. I need you-",
+      "timestamp": 77.64
     },
     {
       "speaker": "Izzy",
-      "text": "I'm not sure about that. Right now I'm playing with my friends Hattie and Mistress. I'm playing a game with them.",
-      "timestamp": 149.02
+      "text": "Yep",
+      "timestamp": 86.06
+    },
+    {
+      "speaker": "Dad",
+      "text": "... to go with a group of your friends-",
+      "timestamp": 86.44
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Whoa",
+      "timestamp": 89.42
+    },
+    {
+      "speaker": "Dad",
+      "text": "... in a car and drive a long way to a place where you can get special, magical pieces to make hats with for Hattie the Mouse, special glowing, sparkling hat parts. Do you accept this quest, Izzy?\"",
+      "timestamp": 89.58
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I'm not sure about that.",
+      "timestamp": 109.14
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yeah.",
+      "timestamp": 111.52
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Right now I'm playing with my friends, Hattie and Mistress. I'm playing a game with them.",
+      "timestamp": 111.56
     },
     {
       "speaker": "Dad",
       "text": "Oh, what game are you playing?",
-      "timestamp": 158.45
+      "timestamp": 118.4
     },
     {
       "speaker": "Izzy",
-      "text": "I'm playing 'Foxy Foxy Foxy Foxy Is My Foxy Foxy Foxy Foxy Is My Foxy' and then a ghost comes and says, 'That's my toy!' That's the game they're playing with Mistress now and Hattie Mouse.",
-      "timestamp": 161.12
+      "text": "I'm playing foxy, foxy is my foxy. Foxy, foxy is my foxy. And then a ghost comes and says, \"That's my toy.\" That's the game that I'm playing with Mistress Mouse and Hattie Mouse.",
+      "timestamp": 120.3
     },
     {
       "speaker": "Dad",
-      "text": "I see. And then what happens?",
-      "timestamp": 222.11
+      "text": "I see, and then what happens?",
+      "timestamp": 140.46
     },
     {
       "speaker": "Izzy",
       "text": "They decide to share.",
-      "timestamp": 224.34
+      "timestamp": 143.9
     },
     {
       "speaker": "Dad",
-      "text": "Oh, sharing is excellent, Izzy the Kiddo. What are you sharing?",
-      "timestamp": 226.78
+      "text": "Oh, well, sharing is excellent, Izzy the Kiddo. What are you sharing?",
+      "timestamp": 147
     },
     {
       "speaker": "Izzy",
-      "text": "A game piece. They have to get back up onto the wall with a friend. His name is Pooh, Pooh Bear... Yep. Now that's, I'm playing the game with them. Mistress Mouse and Hattie. So, I'm not going to go on that quest for now. I'm still playing the game.",
-      "timestamp": 230.12
+      "text": "A, a game piece.",
+      "timestamp": 152.14
     },
     {
       "speaker": "Dad",
-      "text": "Well, that's quite alright. We can save...",
-      "timestamp": 301.12
+      "text": "I see.",
+      "timestamp": 154.18
     },
     {
       "speaker": "Izzy",
-      "text": "And it has directions. Maybe you could do it with your friends if you want. With your friends.",
-      "timestamp": 304.56
+      "text": "That, that to get back up onto the wall with its friends.",
+      "timestamp": 155.04
     },
     {
       "speaker": "Dad",
-      "text": "What are the directions?",
-      "timestamp": 313.45
+      "text": "Uh-huh. And-",
+      "timestamp": 160.12
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Stay-a-poo-dly. Yep. Yeah, that's, I'm playing the game with them, Mistress Mouse and Hattie.",
+      "timestamp": 162.07
+    },
+    {
+      "speaker": "Dad",
+      "text": "I see.",
+      "timestamp": 173.84
+    },
+    {
+      "speaker": "Izzy",
+      "text": "So I'm not going to go on that quest for now. I'm still playing the game.",
+      "timestamp": 174.18
+    },
+    {
+      "speaker": "Dad",
+      "text": "Well, that's quite all right. We can save the quest-",
+      "timestamp": 181.62
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And it has directions, and maybe you can do it with your friends if you want.",
+      "timestamp": 183.76
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, thank you.",
+      "timestamp": 191.58
+    },
+    {
+      "speaker": "Izzy",
+      "text": "With your friends if you want.",
+      "timestamp": 191.71
+    },
+    {
+      "speaker": "Dad",
+      "text": "What are the dir- what are the directions?",
+      "timestamp": 193.8
     },
     {
       "speaker": "Izzy",
       "text": "No, my game has the directions.",
-      "timestamp": 316.01
+      "timestamp": 197.04
     },
     {
       "speaker": "Dad",
-      "text": "Oh I see. Can you tell me the directions for the game?",
-      "timestamp": 318.44
+      "text": "Oh, I see. H- can you tell me the directions for the game?",
+      "timestamp": 199.76
     },
     {
       "speaker": "Izzy",
-      "text": "First you have to pull the ear, and then you have to turn over, and then you have to walk. Do you know that? And there's a penguin step, too. And you have to add the penguin to my game.",
-      "timestamp": 322.12
+      "text": "First you have to put a mobile in, then you have to pedal it over, and then you have to walk. You know that? And there's a penguin step, too, and you have to add the penguin to w- my game.",
+      "timestamp": 203.68
     },
     {
       "speaker": "Dad",
-      "text": "A penguin? I'm not sure I quite understood the directions. Can we start at the beginning again? What's step one?",
-      "timestamp": 339.88
+      "text": "The penguin?",
+      "timestamp": 219.08
     },
     {
       "speaker": "Izzy",
-      "text": "Nope. I'm playing it right now. Playing the game with my Hattie the Mouse and Mistress Mouse. So you can bring all of your friends with you.",
-      "timestamp": 349.45
-    },
-    {
-      "speaker": "Izzy",
-      "text": "And you can do it with your friends, okay?",
-      "timestamp": 401.12
+      "text": "Yep.",
+      "timestamp": 220.31
     },
     {
       "speaker": "Dad",
-      "text": "'Okay, thank you,' says Peacock the Wizard. 'I'll come right over and play with you. Goodbye.' And so, Peacock the Wizard hung up the phone and then he walked down out of his tower and out of his castle and down the road along the hill and through the forest and all the way to... well whose house were you at? Where are you playing your game, Izzy the Kiddo?",
-      "timestamp": 405.67
+      "text": "I'm not sure I quite understood the directions. Can we start at the beginning again? What's step one?",
+      "timestamp": 221.5
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No. I'm playing it right now.",
+      "timestamp": 228.22
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, okay.",
+      "timestamp": 231.44
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I'm playing the game with my, Hattie the Mouse and Mistress Mouse. So you can bring all of your friends with you, and you can do it with your friends, okay?",
+      "timestamp": 232.04
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Okay, thank you,\" says Peacock the Wizard. \"I'll come right over and play with you. Goodbye.\" And so Peacock the Wizard hung up the phone, and then he walked down out of his tower and out of his castle and down the road along the hill and through the forest and all the way to...",
+      "timestamp": 245.12
+    },
+    {
+      "speaker": "Dad",
+      "text": "Well, whose house were you at? Where are you playing your game, Izzy the Kiddo?",
+      "timestamp": 265.66
     },
     {
       "speaker": "Izzy",
       "text": "At Hattie's Workshop of Hats.",
-      "timestamp": 431.23
+      "timestamp": 271.44
     },
     {
       "speaker": "Dad",
-      "text": "Ah, at Hattie's Workshop. And so, Peacock the Wizard arrived at the door to Hattie's Workshop of Hats and knocked gently on the door. [Knocking sounds] 'Could I play your game that you're playing?'",
-      "timestamp": 435.89
+      "text": "Ah.",
+      "timestamp": 274.9
     },
     {
       "speaker": "Izzy",
-      "text": "And it also has directions. 'Could I play the game with you, Hattie and Mistress?'",
-      "timestamp": 454.12
+      "text": "Yeah.",
+      "timestamp": 275.14
     },
     {
       "speaker": "Dad",
-      "text": "And Peacock the Wizard asked politely, 'Could I play the game with you?' And what did they say?",
-      "timestamp": 500.23
+      "text": "At Hattie's Workshop. And so Peacock the Wizard arrived at the door to Hattie's Workshop of Hats and knocked gently on the door.",
+      "timestamp": 276.04
     },
     {
       "speaker": "Izzy",
-      "text": "No no, I said that. 'Could I play with you, Hattie and Mistress? Could I play with you, Hattie and Mistress?' And they said, 'Oh yes, Izzy the Kiddo, of course you can play.'",
-      "timestamp": 506.78
-    },
-    {
-      "speaker": "Izzy",
-      "text": "And the game has directions. 'Let's play it together! Let's play the game together!'",
-      "timestamp": 518.12
+      "text": "Could I play your game that you're playing? And it also has directions. Could I play the game with you, Hattie and Mistress?",
+      "timestamp": 288.86
     },
     {
       "speaker": "Dad",
-      "text": "And Peacock the Wizard said, 'Oh yes, let's play the game together!'",
-      "timestamp": 524.56
+      "text": "And, and Peacock the Wizard asked politely, \"Could I play the game with you?\" And what did they say?",
+      "timestamp": 300.44
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No, no. No, I said that. Could I play with you, Hattie and Mistress?",
+      "timestamp": 305.42
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh.",
+      "timestamp": 311.8
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Could I play with you, Hattie and Mistress?",
+      "timestamp": 311.86
+    },
+    {
+      "speaker": "Dad",
+      "text": "And they said, \"Oh, yes, Izzy the Kiddo, of course you can play.\"",
+      "timestamp": 314.12
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Uh, and the, and the game has directions. Let's play it together. Let's play the game together.",
+      "timestamp": 316.88
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Peacock the Wizard said, \"Oh, yes, let's play the game together.\" Now-",
+      "timestamp": 323.94
     },
     {
       "speaker": "Izzy",
       "text": "Yep, and with Hattie and Mistress.",
-      "timestamp": 528.01
+      "timestamp": 327.48
     },
     {
       "speaker": "Dad",
       "text": "And with Hattie and Mistress, yes. Now, the game begins by everyone standing up and holding hands.",
-      "timestamp": 532.45
+      "timestamp": 330.14
     },
     {
       "speaker": "Izzy",
-      "text": "No no no! No!",
-      "timestamp": 541.12
+      "text": "No, no. No. No.",
+      "timestamp": 340.4
     },
     {
       "speaker": "Dad",
       "text": "No? How do we begin?",
-      "timestamp": 543.89
+      "timestamp": 343.6
     },
     {
       "speaker": "Izzy",
-      "text": "You have to play the game... No, the dice game.",
-      "timestamp": 546.78
+      "text": "You have to play the di- no, no, the dice game.",
+      "timestamp": 347.12
     },
     {
       "speaker": "Dad",
-      "text": "Oh yes, of course, the dice game. Do we roll the dice?",
-      "timestamp": 552.12
+      "text": "Oh, yes, of course, the dice game. Do we roll the dice?",
+      "timestamp": 352.48
     },
     {
       "speaker": "Izzy",
-      "text": "No! You do not roll the dice!",
-      "timestamp": 556.34
+      "text": "No. We don't, not roll the dice.",
+      "timestamp": 355.12
     },
     {
       "speaker": "Dad",
       "text": "Oh, how do we play?",
-      "timestamp": 600.01
+      "timestamp": 358.98
     },
     {
       "speaker": "Izzy",
-      "text": "First, the foxy foxy ghost.",
-      "timestamp": 602.12
+      "text": "First is Box Box Ghost-",
+      "timestamp": 360.86
     },
     {
       "speaker": "Dad",
-      "text": "Foxy foxy ghost?",
-      "timestamp": 606.45
+      "text": "Fox, fox, ghost",
+      "timestamp": 365.71
     },
     {
       "speaker": "Izzy",
-      "text": "And they said it. And the other things are stars, and then they share. Yeah, then they decide to share and it also has directions. And then her mommy robot comes and says, 'You can do it with your friends if you want to. Yub yub yub yub, the foxy way and the ghost way, too. Nah nah nah nah nah nah nah.' That's what Robot Mommy said.",
-      "timestamp": 608.89
+      "text": "And they said, \"And the other things are stars.\" And then they share. Yeah, then they decide to share, and it also has directions.",
+      "timestamp": 367.47
     },
     {
       "speaker": "Dad",
-      "text": "Oh, I see. Hello Robot Mommy.",
-      "timestamp": 651.12
+      "text": "I see.",
+      "timestamp": 381.37
     },
     {
       "speaker": "Izzy",
-      "text": "Robot... and then they said, 'We're trying to share, you can do it the ghost way and the foxy way.' And then the ghost said, 'I was trying to do it the foxy way, but I could not do it like foxy. So you have to do it your own way. Maybe like twirling.'",
-      "timestamp": 657.45
+      "text": "And then, and then her mommy robot comes and says, \"You can do it yourself if you want to.\" Yep, yep, yep, yep, yep. The fox way and the ghost way, too. Yeah, yeah, yeah. Yeah, yeah, yeah, yeah, yeah. Yeah. Yeah. That's what Robot Mommy said.",
+      "timestamp": 383.23
     },
     {
       "speaker": "Dad",
-      "text": "Oh, by twirling. Okay, we're almost out of time for our story, and now we have to bring it to an end. And so they finished the directions and that's how they played their amazing game. Izzy the Kiddo and Hattie the Mouse and Mistress Mouse and Peacock the Wizard all had had a very fun time playing their game. But then they all realized that it was getting late and it was time to go home and go to sleep. And so each of the creatures went back to their own homes and got in their beds and got all tucked in to sleep. Goodnight everyone. The end.",
-      "timestamp": 729.11
+      "text": "O- oh, I, I see. Hello, Robot Mommy. And, um, and Pe-",
+      "timestamp": 410.79
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Robot. And then they said, \"We're trying to share. You can do it the ghost way and the fox way.\" \"I was trying to,\" the ghost says, \"I was trying to do it the fox way, but I could not do it like a fox. So you have to do it your own way. Maybe, like, twirl?\"",
+      "timestamp": 419.26
     },
     {
       "speaker": "Dad",
-      "text": "Okay, now we're done with stars and stories.",
-      "timestamp": 812.34
+      "text": "Oh, by twirling. Okay, we're almost out of time for our story, so now we have to bring it to an end. And so they finished the directions, and that's how they played their amazing game. Izzy the Kiddo and Hattie the Mouse and Mistress Mouse and Peacock the Wizard all had had a very fun time playing their game.",
+      "timestamp": 448.99
+    },
+    {
+      "speaker": "Dad",
+      "text": "But then they all realized that it was getting late and it was time to go home and go to sleep. And so each of the creatures went back to their own homes and got in their beds and got all tucked in to sleep. Good night, everyone.",
+      "timestamp": 470.83
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yes.",
+      "timestamp": 488.82
+    },
+    {
+      "speaker": "Dad",
+      "text": "The end. Okay, now we're done with stars and stories.",
+      "timestamp": 491.17
     }
   ],
   "characters": [
@@ -339,7 +494,19 @@
       "description": "Cloaking the surface of the green planet in a vast mantle of dense greenery, this whispering woodland serves as the lush setting of the 'Forest Friends' chronicle. It is a realm where creatures play eternal hide-and-seek between Hattie’s cozy clinic and the ancestral cradle of Finn’s companions. Along magical trails where Hattie and the Pakruder Worm harvest hat-making ingredients, winding paths veil secret gopher tunnels and hidden mole cottages, forming the essential route toward the wizard's castle. While its sun-drenched threshold remains a sanctuary for the Rainbow Giraffe and Mama Bird, the deeper, darker thickets harbor a somber mystery; it was within these sprawling, uncharted depths—the same eerie expanse where the sick creature was first spotted and Mossy was discovered—that Mole recently vanished into the shadows."
     }
   ],
-  "wordCount": 971,
-  "izzyWordCount": 467,
-  "dadWordCount": 504
+  "wordCount": 1039,
+  "izzyWordCount": 491,
+  "dadWordCount": 548,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T14:54:55.696Z",
+    "speakerMap": {
+      "speaker_0": "Dad",
+      "speaker_1": "Izzy"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "low"
+  }
 }

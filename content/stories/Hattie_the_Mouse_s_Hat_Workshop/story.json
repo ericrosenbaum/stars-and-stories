@@ -6,473 +6,558 @@
   "audioFilename": "Cornell St 31.m4a",
   "highlightQuote": {
     "text": "It has elephants on it, and you can take that blue hat home with you.",
-    "timestamp": 603
+    "timestamp": 520.17
   },
   "transcript": [
     {
+      "speaker": "Izzy",
+      "text": "Um, I want...",
+      "timestamp": 3.52
+    },
+    {
       "speaker": "Dad",
-      "text": "All right. Now we turn out the lights and the stars are on. So now it's time for...",
-      "timestamp": 17
+      "text": "All right, so now we turn out the lights and the stars are on. So now it's time for, what's it time for?",
+      "timestamp": 16.79
     },
     {
       "speaker": "Izzy",
-      "text": "Stars, stories, brio neo.",
-      "timestamp": 28
+      "text": "Stars, Stories, Brio, Neo.",
+      "timestamp": 29.44
     },
     {
       "speaker": "Dad",
-      "text": "Brio neo, what does that mean?",
-      "timestamp": 33
+      "text": "Brio Neo, what does that mean?",
+      "timestamp": 33.72
     },
     {
       "speaker": "Izzy",
-      "text": "That means nothing! Brrrrt.",
-      "timestamp": 36
+      "text": "That means stuffies.",
+      "timestamp": 35.76
     },
     {
       "speaker": "Dad",
-      "text": "Okay stuffies, okay Izzy. Come sit with Daddy and we'll do stars and stories.",
-      "timestamp": 41
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, hello Dino. Come and sit on my left leg.",
-      "timestamp": 49
-    },
-    {
-      "speaker": "Dad",
-      "text": "All right. What will tonight's Stars and Stories story be about?",
-      "timestamp": 56
+      "text": "Oh.",
+      "timestamp": 37.48
     },
     {
       "speaker": "Izzy",
-      "text": "Hattie the mouse.",
-      "timestamp": 61
+      "text": "Stuff.",
+      "timestamp": 38.72
     },
     {
       "speaker": "Dad",
-      "text": "Oh, Hattie the mouse. And what's she doing?",
-      "timestamp": 63
+      "text": "Okay, stuffies. Okay, Izzy, come sit with Daddy and we'll do Stars and Stories. Oh, hello Jane. Would you like to sit in my lap? Yes. All right. What will tonight's Stars and Stories story be about?",
+      "timestamp": 40.16
     },
     {
       "speaker": "Izzy",
-      "text": "Hattie making hats.",
-      "timestamp": 65
+      "text": "Hattie.",
+      "timestamp": 60.56
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, Hattie the Mouse. And what-",
+      "timestamp": 61.74
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Making hats.",
+      "timestamp": 63.23
     },
     {
       "speaker": "Dad",
       "text": "Hattie making hats. And how should we start our story?",
-      "timestamp": 67
+      "timestamp": 64.38
     },
     {
       "speaker": "Izzy",
-      "text": "First, she was going to make a hat for Victor.",
-      "timestamp": 111
+      "text": "First, she is going to make a hat for Victor.",
+      "timestamp": 71.42
     },
     {
       "speaker": "Dad",
-      "text": "Oh, once upon a time, Hattie the mouse was making a hat for Victor. Okay, do you want to tell the story?",
-      "timestamp": 115
+      "text": "Oh, once upon a time, Hattie the Mouse was making a hat for Victor. Okay. Do you want to tell the story, Iz?",
+      "timestamp": 75.66
     },
     {
       "speaker": "Izzy",
       "text": "No, I don't want to.",
-      "timestamp": 126
+      "timestamp": 85.54
     },
     {
       "speaker": "Dad",
       "text": "Oh, should I tell it?",
-      "timestamp": 128
+      "timestamp": 88.44
     },
     {
       "speaker": "Izzy",
       "text": "You should tell it.",
-      "timestamp": 131
+      "timestamp": 90.56
     },
     {
       "speaker": "Dad",
+      "text": "Oh, okay. Oh, who's this?",
+      "timestamp": 92.2
+    },
+    {
+      "speaker": "Izzy",
       "text": "Oscar.",
-      "timestamp": 133
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Oh, hi Oscar.",
-      "timestamp": 134
+      "timestamp": 93.84
     },
     {
       "speaker": "Dad",
-      "text": "All right, Oscar. Okay, I've got some new pictures on my lap.",
-      "timestamp": 136
+      "text": "Oh, hi Oscar. Okay. I've got so many creatures on my lap. Now then-",
+      "timestamp": 94.62
     },
     {
       "speaker": "Izzy",
-      "text": "You can see Avery's house on your knee.",
-      "timestamp": 141
+      "text": "Even if Avery can have to sit on your knee.",
+      "timestamp": 99.3
     },
     {
       "speaker": "Dad",
-      "text": "Oh, okay, perfect. Well, everybody's on my lap that's cozy.",
-      "timestamp": 144
+      "text": "Oh, okay. Perfect. Wow, everybody's on my lap. That's cozy.",
+      "timestamp": 105.04
     },
     {
       "speaker": "Izzy",
-      "text": "Dad, you can tell the story with us.",
-      "timestamp": 151
+      "text": "Dad, you, you can tell the story with us.",
+      "timestamp": 110.4
     },
     {
       "speaker": "Dad",
-      "text": "Okay, we'll all tell it together. Once upon a time, Hattie the mouse was in her workshop with her friend Victor the mouse. And they were talking about what kind of a hat Victor might like. And Hattie the mouse said, 'You know Victor, I could make you any kind of hat you...'",
-      "timestamp": 155
+      "text": "Okay, we'll all tell it together. Once upon a time, Hattie the Mouse was in her workshop with her friend Victor the Mouse, and they were talking about what kind of hat Victor might like. And Hattie the Mouse said, \"You know, Victor, I can make you any kind of hat you'd like.\"",
+      "timestamp": 114.68
     },
     {
       "speaker": "Izzy",
       "text": "Dad, do you have a scratch on this thumb?",
-      "timestamp": 213
+      "timestamp": 134.28
     },
     {
       "speaker": "Dad",
-      "text": "I don't think so.",
-      "timestamp": 221
+      "text": "Um, I don't think so.",
+      "timestamp": 141.64
     },
     {
       "speaker": "Izzy",
       "text": "But I see a little scrape up here.",
-      "timestamp": 223
+      "timestamp": 143.58
     },
     {
       "speaker": "Dad",
-      "text": "Oh, maybe I have a little scrape on my thumb, you're right.",
-      "timestamp": 226
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Yeah.",
-      "timestamp": 230
+      "text": "Oh, maybe I have a little scrape on my thumb. You're right.",
+      "timestamp": 146.54
     },
     {
       "speaker": "Izzy",
       "text": "Maybe you need a Band-Aid.",
-      "timestamp": 231
+      "timestamp": 150.16
     },
     {
       "speaker": "Dad",
-      "text": "I don't think I do, but thank you. I think it's healing already.",
-      "timestamp": 233
-    },
-    {
-      "speaker": "Dad",
-      "text": "And she said, 'Victor, I could make you a small hat, or a big hat, or a medium hat. I could make you...'",
-      "timestamp": 240
+      "text": "I don't think I do, but thank you. I think it's healing already. And she said, \"Victor, I could make you a small hat, or a big hat, or a medium hat. I could make you-",
+      "timestamp": 152.72
     },
     {
       "speaker": "Izzy",
-      "text": "Wait my nose, Daddy.",
-      "timestamp": 245
+      "text": "I wipe my nose, Daddy.",
+      "timestamp": 164.75
     },
     {
       "speaker": "Dad",
-      "text": "You need a nose wipe? Okay. Well, I have a lot of stuffies on my lap that I need to move first. Okay. And then could you get up and just for a second?",
-      "timestamp": 247
+      "text": "Oh, you need a nose wipe? Okay. Well, I have a lot of stuffies on my lap that need to move first. Okay. And then could you get up, please, just for a second?",
+      "timestamp": 166.3
     },
     {
       "speaker": "Izzy",
       "text": "I could.",
-      "timestamp": 255
+      "timestamp": 174.04
     },
     {
       "speaker": "Dad",
-      "text": "Whoops. Okay. There's your nose wipe. Do you need another one?",
-      "timestamp": 307
+      "text": "Okay.",
+      "timestamp": 175.04
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Took away some stuff.",
+      "timestamp": 181.6
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oops. Whoops. Okay. There's your nose wipe. Do you need another one?",
+      "timestamp": 184.48
     },
     {
       "speaker": "Izzy",
       "text": "No.",
-      "timestamp": 311
+      "timestamp": 190.44
     },
     {
       "speaker": "Dad",
-      "text": "Okay. All done? All right. Let's continue.",
-      "timestamp": 312
+      "text": "Okay. All done? All right, let's-",
+      "timestamp": 191.1
     },
     {
       "speaker": "Izzy",
-      "text": "All done.",
-      "timestamp": 314
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Sit lap. Sit house. Sit here. Now I have to sit so...",
-      "timestamp": 319
+      "text": "All done",
+      "timestamp": 192.6
     },
     {
       "speaker": "Dad",
-      "text": "Nice and cozy. You want to start over our story again?",
-      "timestamp": 340
+      "text": "... let's continue.",
+      "timestamp": 193.06
     },
     {
       "speaker": "Izzy",
-      "text": "Okay.",
-      "timestamp": 344
+      "text": "I will sit. Yeah. Lap. Jane has to sit here. You sit here and Oscar sit here. And I have to sit here.",
+      "timestamp": 196.9
     },
     {
       "speaker": "Dad",
-      "text": "Once upon a time, Hattie the mouse was sitting in her workshop with Victor mouse and they were talking about what kind of a hat Hattie could make for Victor. And she said, 'You know, I could make you a teeny tiny hat or an enormous hat. I could make you a hat out of Legos or out of blocks or out of paper or cardboard or fur or feathers...'",
-      "timestamp": 345
+      "text": "Okay. Oh, so cozy.",
+      "timestamp": 218.54
     },
     {
       "speaker": "Izzy",
-      "text": "Or anything!",
-      "timestamp": 407
+      "text": "Let's start over our story again.",
+      "timestamp": 221.7
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, okay. Once upon a time, Hattie the Mouse was sitting in her workshop with Victor Mouse and they were talking about what kind of a hat Hattie could make for Victor. And she said, \"You know, I could make you a teeny-tiny hat or an enormous hat. I could make you a hat out of Legos, or out of blocks, or out of paper, or cardboard, or fur-",
+      "timestamp": 224.6
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Or-",
+      "timestamp": 245
+    },
+    {
+      "speaker": "Dad",
+      "text": "... or feathers\"",
+      "timestamp": 245.25
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Or anything.",
+      "timestamp": 247.04
     },
     {
       "speaker": "Dad",
       "text": "And what did Victor say?",
-      "timestamp": 409
+      "timestamp": 248.7
     },
     {
       "speaker": "Izzy",
       "text": "I don't know.",
-      "timestamp": 412
+      "timestamp": 252.66
     },
     {
       "speaker": "Dad",
-      "text": "And Victor said, 'I don't know what kind of a hat I would like.' And Hattie mouse said, 'Well, that's okay. How about we try a few things and we can see what you like. Now here, for instance, is a tiny red hat made out of paper. I'll just pop it on your head and you can see if you like it. Just look in the mirror Victor, do you like this tiny red hat?' And what did Victor say?",
-      "timestamp": 414
+      "text": "And Victor said, \"I don't know what kind of a hat I would like.\" And Hattie Mouse said, \"Well, that's okay. How about we try a few things and we can see what you like. Now, here for instance, is a tiny red hat made out of paper. I'll just boop it on your head and you can see if you like it.",
+      "timestamp": 254.36
+    },
+    {
+      "speaker": "Dad",
+      "text": "Just look in the mirror, Victor. Do you like this tiny red hat?\" And what did Victor say?",
+      "timestamp": 272.92
     },
     {
       "speaker": "Izzy",
       "text": "Yes.",
-      "timestamp": 439
+      "timestamp": 279.46
     },
     {
       "speaker": "Dad",
-      "text": "He liked it? Okay. Well...",
-      "timestamp": 441
+      "text": "\"You like it? Okay. Well-\"",
+      "timestamp": 280.29
     },
     {
       "speaker": "Izzy",
-      "text": "And Hattie had a red hat too.",
-      "timestamp": 442
+      "text": "And Hattie had a red hat, too.",
+      "timestamp": 281.66
     },
     {
       "speaker": "Dad",
-      "text": "Hattie wears a tall pointy red hat, that's right. And she said, 'Well, just a minute. Let's try another one and see if you like it even better. Um, this is a tall swirly yellow hat made out of feathers. Do you want to try this one on?' And what did Victor say to that?",
-      "timestamp": 444
+      "text": "Hattie wears a tall, pointy red hat. That's right. And she said, \"Well, just a minute. Let's try another one and see if you like it even better. Um, this is a tall, swirly yellow hat made out of feathers. Do you want to try this one on?\" And what did Victor say to that?",
+      "timestamp": 284.28
     },
     {
       "speaker": "Izzy",
-      "text": "Now for my next one, I have a blue hat too, said Hattie.",
-      "timestamp": 506
+      "text": "\"Then for my next hat...\" \"I have a blue hat, too,\" said Hattie.",
+      "timestamp": 307.2
     },
     {
       "speaker": "Dad",
-      "text": "And Victor said, 'Oh, a blue hat? I'll try that one on.' But first try the yellow one on, Victor. 'Oh my,' he said, 'it's so tall. I'm afraid if I walk through a doorway I'll hit my little bump on the ceiling.' And Hattie mouse said, 'That's true. That's more of an outdoor hat since it's so tall.'",
-      "timestamp": 513
+      "text": "Oh, and Victor said, \"Oh, a blue hat. I'll try that one on.\"",
+      "timestamp": 314.1
     },
     {
       "speaker": "Izzy",
-      "text": "Victor, you'll have to take the hat off and try the red one. It's not mouse feathers.",
-      "timestamp": 541
+      "text": "\"But first try the yellow one on, Victor.\"",
+      "timestamp": 317.36
     },
     {
       "speaker": "Dad",
-      "text": "Oh yes, the red one is made of paper, I see, said Victor. And he put the tiny red hat on. He said, 'But it's so small. I'd like one that's a little bigger.'",
-      "timestamp": 548
+      "text": "Oh, Victor said, \"Oh, okay. Yes, I'll try the tall yellow swirly feather hat on. Oh my,\" he said, \"it's so tall. I'm afraid if I walk through a doorway that it'll bump on the ceiling.\" And Hattie Mouse said, \"That's true. That's more of an outdoor hat since it's so tall.\"",
+      "timestamp": 321.14
     },
     {
       "speaker": "Izzy",
-      "text": "Try the blue one. It's big!",
-      "timestamp": 556
+      "text": "\"Victor, you have to take the hat off and try the red one. It's not made of feathers.\"",
+      "timestamp": 340.46
     },
     {
       "speaker": "Dad",
-      "text": "Oh, the big blue hat? Tell me more about this blue hat, said Victor.",
-      "timestamp": 559
+      "text": "\"Oh, yes. The red one is made of paper. I see,\" said Victor. And he put the tiny red hat on and he said, \"But it's so small. I'd like one that's a little bigger.\"",
+      "timestamp": 347.87
     },
     {
       "speaker": "Izzy",
-      "text": "It has elephants on it, and you can take that blue hat home with you.",
-      "timestamp": 603
+      "text": "\"Try the blue one. It's big.\"",
+      "timestamp": 356.52
     },
     {
       "speaker": "Dad",
-      "text": "Oh, Victor said, 'It's a blue hat with elephants on it. What's this made of, Hattie?' And what did she say?",
-      "timestamp": 611
+      "text": "\"Oh, the big blue hat. Tell me more about this blue hat,\" said Victor",
+      "timestamp": 359.31
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Because there's elephants on it. And you can take that blue hat home with you",
+      "timestamp": 364.47
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh,\" Victor said, \"It's a blue hat with elephants on it. What's this made of, Hattie?\" And what did she say?",
+      "timestamp": 371.67
     },
     {
       "speaker": "Izzy",
       "text": "It's made of cardboard.",
-      "timestamp": 619
+      "timestamp": 378.53
     },
     {
       "speaker": "Dad",
-      "text": "Oh, it's cardboard. Wow. I do like it. Let me try it on, said Victor. And he popped it on his head and then he looked at himself in the mirror and said, 'Oh my, yes, I think it suits me very well. Um, and it even matches the blue color in my jacket.' And Victor said, 'Well, Hattie, I think I've made my choice. I like all of the hats very much, but this blue one with the elephants on it especially. I'll take it!' And what did Hattie mouse say?",
-      "timestamp": 631
+      "text": "\"Oh, it's cardboard. Wow, I, I do like it. Let me try it on,\" said Victor. And he popped it on his head, and then he looked at himself in the mirror and said, \"Oh my, yes. I think it suits me very well. Um, and it even matches the blue color in my jacket.\"",
+      "timestamp": 380.92
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Victor said, \"Well, Hattie, I think I've made my choice. I like all of the hats very much, but this blue one with the elephants on it especially. I'll take it.\" And what did Hattie Mouse say?",
+      "timestamp": 399.99
     },
     {
       "speaker": "Izzy",
-      "text": "Okay. You can take it too.",
-      "timestamp": 651
+      "text": "Okay. You can take it.",
+      "timestamp": 410.99
     },
     {
       "speaker": "Dad",
-      "text": "And Victor mouse said, 'Thank you.' And he left wearing his blue elephant hat and was very happy. And what happened next?",
-      "timestamp": 653
+      "text": "And Victor Mouse said, \"Thank you.\" And he left wearing his blue elephant hat and was very happy. And what happened next?",
+      "timestamp": 414.57
     },
     {
       "speaker": "Izzy",
-      "text": "Victor came back again with his elephant hat!",
-      "timestamp": 703
+      "text": "Victor came back again with, with his elephant hat.",
+      "timestamp": 425.35
     },
     {
       "speaker": "Dad",
-      "text": "He came back again! And now this time, what did he say to Hattie the mouse?",
-      "timestamp": 708
+      "text": "He came back again, and now this time, what did he say to Hattie the Mouse?",
+      "timestamp": 430.53
     },
     {
       "speaker": "Izzy",
       "text": "Do you have other hats for me?",
-      "timestamp": 714
+      "timestamp": 434.41
     },
     {
       "speaker": "Dad",
-      "text": "And she said, 'Oh yes, I do have other hats for you. What are you interested in, Victor?'",
-      "timestamp": 717
+      "text": "And she said, \"Oh, yes, I do have other hats for you. What, what are you interested in, Victor?\"",
+      "timestamp": 437.43
     },
     {
       "speaker": "Izzy",
-      "text": "And Victor said, 'I'm just interested at the blue hat with elephants on it.'",
-      "timestamp": 724
+      "text": "And, and Victor said, \"I'm just interested in that, that blue hat with elephants on it.\"",
+      "timestamp": 442.66
     },
     {
       "speaker": "Dad",
-      "text": "But Hattie said, 'Oh, you already have that one. Should I make you another one just like it so you have two?'",
-      "timestamp": 731
+      "text": "But Hattie said, \"Oh, you already have that one. Should I make you another one just like it so you have two?\"",
+      "timestamp": 452.05
     },
     {
       "speaker": "Izzy",
       "text": "Yes.",
-      "timestamp": 737
+      "timestamp": 457.19
     },
     {
       "speaker": "Dad",
-      "text": "And Hattie mouse said, 'Well, okay, I don't happen to have one on hand, but um, I'll make it for you right now.' And how did she make the hat?",
-      "timestamp": 738
+      "text": "And Hattie Mouse said, \"Well, okay. I don't happen to have one on hand, but I'll make it for you right now.\" And how did she make the hat?",
+      "timestamp": 458.45
     },
     {
       "speaker": "Izzy",
-      "text": "Very after she did in my lap instead.",
-      "timestamp": 750
+      "text": "Maybe Oscar can sit in my lap instead.",
+      "timestamp": 471.45
     },
     {
       "speaker": "Dad",
-      "text": "Oh, Oscar's in your lap, that's silly. And so Hattie found um some cardboard that was just the right shape and size and she cut and folded it and taped it together and then she got out her paints. What color paints did she use?",
-      "timestamp": 756
+      "text": "Oh, Oscar's in your lap. That looks cozy. And so Hattie found, um, some cardboard that was just the right shape and size, and she cut and folded it and taped it together, and then she got out her paints. What color paints did she use?",
+      "timestamp": 477.11
     },
     {
       "speaker": "Izzy",
-      "text": "She used blue and some elephant paint stamps and maybe some star ones too.",
-      "timestamp": 814
+      "text": "She used blue and some elephant paint.",
+      "timestamp": 493.17
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, what-",
+      "timestamp": 497.61
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Stamps.",
+      "timestamp": 497.97
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, some-",
+      "timestamp": 498.97
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And maybe some star ones too.",
+      "timestamp": 499.14
     },
     {
       "speaker": "Dad",
       "text": "Oh, some elephant stamps and some star stamps.",
-      "timestamp": 821
+      "timestamp": 501.81
     },
     {
       "speaker": "Izzy",
-      "text": "And maybe some moon stamps and sun stamps.",
-      "timestamp": 824
+      "text": "And maybe some moon stamps.",
+      "timestamp": 504.45
     },
     {
       "speaker": "Dad",
-      "text": "And moon stamps and sun stamps. And space stamps.",
-      "timestamp": 829
+      "text": "Oh, and moon stamps. That sounds like a nice-",
+      "timestamp": 506.91
     },
     {
       "speaker": "Izzy",
-      "text": "And space stamps, yeah.",
-      "timestamp": 832
+      "text": "And sun stamps.",
+      "timestamp": 508.95
     },
     {
       "speaker": "Dad",
-      "text": "Base stamps, yeah. And what color did she um make the stamps?",
-      "timestamp": 834
+      "text": "And sun stamps, yeah.",
+      "timestamp": 509.75
     },
     {
       "speaker": "Izzy",
-      "text": "Blue!",
-      "timestamp": 839
+      "text": "And our space stamps.",
+      "timestamp": 511.12
     },
     {
       "speaker": "Dad",
-      "text": "Blue? Oh, it was blue on blue. So first she painted the cardboard hat all in blue with her brush and then she collected all those stamps—the elephant stamps and also the sun and moon and stars and space stamps—and she stamped them all over the hat. And then she let it dry a little bit and she said, 'Victor, here it is.' And what did he say?",
-      "timestamp": 840
+      "text": "Space ones, yeah. And what color did she, um, make the stamps?",
+      "timestamp": 512.93
     },
     {
       "speaker": "Izzy",
-      "text": "Thank you. Now I have two!",
-      "timestamp": 903
+      "text": "Blue.",
+      "timestamp": 520.17
     },
     {
       "speaker": "Dad",
-      "text": "'Now I have two elephant hats,' said Victor. 'Well, that's great.' But he could only wear one at a time, so he put on one blue hat and carried the other and walked out of the shop whistling a tune.",
-      "timestamp": 905
+      "text": "Blue?",
+      "timestamp": 520.3
     },
     {
       "speaker": "Izzy",
-      "text": "Door came back again!",
-      "timestamp": 924
+      "text": "Yes.",
+      "timestamp": 521.17
     },
     {
       "speaker": "Dad",
-      "text": "Victor came back to Hattie the mouse's shop again! And what did he say this time?",
-      "timestamp": 927
-    },
-    {
-      "speaker": "Izzy",
-      "text": "This time, can I take off my blue hat and try another hat?",
-      "timestamp": 941
+      "text": "Oh, it was blue on blue. So first she painted the cardboard hat all in blue with her brush, and then she collected all those stamps, the elephant stamps, and also the sun and moon and stars and space stamps, and she stamped them all over the hat. And then she let it dry a little bit and she said, \"Victor, here it is.\"",
+      "timestamp": 521.77
     },
     {
       "speaker": "Dad",
-      "text": "And Hattie the mouse said, 'Of course you could try another hat on. But I see we're out of time for tonight's Stars and Stories because our blue timer is up.'",
-      "timestamp": 948
+      "text": "And what did he say?",
+      "timestamp": 542.21
     },
     {
       "speaker": "Izzy",
-      "text": "But hat up.",
-      "timestamp": 1001
+      "text": "Thank you. Now I have two.",
+      "timestamp": 543.61
     },
     {
       "speaker": "Dad",
-      "text": "So that means...",
-      "timestamp": 1002
+      "text": "\"Now I have two elephant hats,\" said Victor. Well, that's great, but he could only wear one at a time, so he put on one blue hat and carried the other and walked out of the shop whistling a tune. And then what happened?",
+      "timestamp": 546.15
     },
     {
       "speaker": "Izzy",
-      "text": "But Victor still at the Hattie workshop.",
-      "timestamp": 1003
+      "text": "Victor came back again.",
+      "timestamp": 565.11
     },
     {
       "speaker": "Dad",
-      "text": "Yeah, so we can continue another time.",
-      "timestamp": 1005
+      "text": "Victor came back to Hattie the Mouse's shop again. And what did he say this time?",
+      "timestamp": 569.81
     },
     {
       "speaker": "Izzy",
-      "text": "And Daddy?",
-      "timestamp": 1011
+      "text": "This time, could I take off my blue hat and try another hat on?",
+      "timestamp": 581.31
     },
     {
       "speaker": "Dad",
-      "text": "Yeah.",
-      "timestamp": 1012
+      "text": "Oh, Hattie the Mouse said, \"Of course you could try another hat on,\" but I see we're out of time for tonight's Stars and Stories because our blue timer is beeping.",
+      "timestamp": 590.01
     },
     {
       "speaker": "Izzy",
-      "text": "Brio neo, brio neo.",
-      "timestamp": 1013
+      "text": "But-",
+      "timestamp": 600.97
+    },
+    {
+      "speaker": "Dad",
+      "text": "So that means we will-",
+      "timestamp": 601.43
+    },
+    {
+      "speaker": "Izzy",
+      "text": "But Victor's still at the Hattie's Workshop.",
+      "timestamp": 602.66
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yeah, so we can continue another time. Okay.",
+      "timestamp": 606.67
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And Daddy.",
+      "timestamp": 612.21
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yeah?",
+      "timestamp": 614.29
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Mickey and Min- and Mick- and Minnie Mouse",
+      "timestamp": 617.37
     }
   ],
   "characters": [
@@ -514,7 +599,19 @@
       "description": "A fictional location situated on a knee, belonging to Avery."
     }
   ],
-  "wordCount": 1354,
-  "izzyWordCount": 275,
-  "dadWordCount": 1079
+  "wordCount": 1430,
+  "izzyWordCount": 312,
+  "dadWordCount": 1118,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T14:56:00.518Z",
+    "speakerMap": {
+      "speaker_0": "Izzy",
+      "speaker_1": "Dad"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "low"
+  }
 }

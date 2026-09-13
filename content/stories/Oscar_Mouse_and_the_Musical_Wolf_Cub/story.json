@@ -6,168 +6,438 @@
   "audioFilename": "Stars and stories - wolf cub rescue.m4a",
   "highlightQuote": {
     "text": "Oscar and the bird walked because they have feet.",
-    "timestamp": 536
+    "timestamp": 346.33
   },
   "transcript": [
     {
       "speaker": "Dad",
-      "text": "Once upon a time there was an old stone wall. And it was a quiet and a big and a mossy stone wall.",
-      "timestamp": 58
-    },
-    {
-      "speaker": "Dad",
-      "text": "It had been a cold winter with lots of snow and ice. But today the sun came out, and it was the beginning of spring and it started to get warm.",
-      "timestamp": 68
-    },
-    {
-      "speaker": "Dad",
-      "text": "And deep inside the cold stones of the stone wall, nestled among the cracks, there was a cozy burrow.",
-      "timestamp": 82
+      "text": "All right, I'm gonna get the star set up, and then we'll turn out the lights.",
+      "timestamp": 6.5
     },
     {
       "speaker": "Izzy",
-      "text": "Dad, I'm - Dad, go get the orange story.",
-      "timestamp": 102
+      "text": "Turn out the lights.",
+      "timestamp": 12
+    },
+    {
+      "speaker": "Dad",
+      "text": "And then...",
+      "timestamp": 14.12
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And where are the stars? Star- Let's do stars, and stars, and stars, and stories.",
+      "timestamp": 15.28
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yes.",
+      "timestamp": 27.1
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Would you like to tell a story?",
+      "timestamp": 27.14
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yeah.",
+      "timestamp": 31.1
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I would like a, a story.",
+      "timestamp": 31.54
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay. Would you like to sit in my lap?",
+      "timestamp": 34.22
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Dad, I'm going to change. No, I'm going to sit here.",
+      "timestamp": 35.6
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, okay.",
+      "timestamp": 40.88
+    },
+    {
+      "speaker": "Izzy",
+      "text": "First.",
+      "timestamp": 41.64
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh.",
+      "timestamp": 43.36
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Daddy, you don't want me to fall down?",
+      "timestamp": 44.76
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yeah, I don't want you to fall down. That's true. Oops. Oh, you kicked the lantern a little bit there. I'll fix it. Okay. Once upon a time, there was an old stone wall, and it was a quiet, and a big, and a mossy stone wall. It had been a cold winter with lots of snow and ice.",
+      "timestamp": 47.72
+    },
+    {
+      "speaker": "Dad",
+      "text": "But today, the sun came out, and it was the beginning of spring, and it started to get warm. And deep inside the cold stones of the stone wall, nestled among the cracks, there was a cozy burrow.",
+      "timestamp": 81.64
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Dad, I need... Dad, can you keep going with the story?",
+      "timestamp": 101.26
     },
     {
       "speaker": "Dad",
       "text": "Yeah. And who was asleep inside that little burrow inside the old stone wall?",
-      "timestamp": 107
+      "timestamp": 106.24
     },
     {
       "speaker": "Izzy",
-      "text": "Oscar Mouse, Oscar Mouse.",
-      "timestamp": 116
+      "text": "A mouse. Oscar Mouse.",
+      "timestamp": 114.18
     },
     {
       "speaker": "Dad",
-      "text": "Oscar Mouse was asleep inside his burrow in the old stone wall. But as he was sleeping, he felt the warmth of the sun on that day when the spring was just beginning, and he heard, what did he hear?",
-      "timestamp": 122
+      "text": "Oscar Mouse was asleep inside his burrow in the old stone wall. But as he was sleeping, he felt the warmth of the sun on that day when the spring was just beginning, and he heard... What did he hear?",
+      "timestamp": 119.5
     },
     {
       "speaker": "Izzy",
-      "text": "He heard chirp, chirp, chirp, chirp, chirp, chirp, that's my burrow!",
+      "text": "He heard, \"Chirp, chirp, chirp.\" \"Chirp, chirp, chirp. That's my burrow.\"",
       "timestamp": 143
     },
     {
       "speaker": "Dad",
-      "text": "Oh, he heard a bird chirping and saying 'that's my burrow.' And so what did Oscar do?",
-      "timestamp": 151
+      "text": "Oh, he heard a bird chirping and saying, \"That's my burrow.\" And so what did Oscar do?",
+      "timestamp": 151.06
     },
     {
       "speaker": "Izzy",
-      "text": "He tried to share.",
-      "timestamp": 162
+      "text": "He tried to, he, he tried to share.",
+      "timestamp": 156.88
     },
     {
       "speaker": "Dad",
-      "text": "He tried to share. And so, his way of sharing was to say, 'Okay bird, you can come in the burrow with me and we can be in here together.' And what was the bird's name?",
-      "timestamp": 165
+      "text": "He tried to share. And so his way of sharing was to say, \"Okay, bird, you can come in the burrow with me, and we can be in here together.\" And what was the bird's name?",
+      "timestamp": 162.04
     },
     {
       "speaker": "Izzy",
       "text": "Velociraptorning.",
-      "timestamp": 176
+      "timestamp": 175.16
     },
     {
       "speaker": "Dad",
-      "text": "Velociraptorning? And what was the short version of Velociraptorning's name?",
-      "timestamp": 183
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Vista Lam, Mr. Caro, Mr. Laro, and Jeff. Mr. Mouse.",
-      "timestamp": 190
-    },
-    {
-      "speaker": "Dad",
-      "text": "Well, at any rate, the bird with the long name said, 'Oh thank you Oscar, I would be happy to share your burrow. But I'm feeling a bit hungry for breakfast. Perhaps we could go find some food together.' And what did Oscar say?",
-      "timestamp": 201
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Dad, before the next part, I need my nail clipped.",
-      "timestamp": 230
-    },
-    {
-      "speaker": "Dad",
-      "text": "Now where were we? Oscar and the bird, what was the bird's name again?",
-      "timestamp": 343
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Mister Bublaganda and Brise. Mischief for short.",
-      "timestamp": 352
-    },
-    {
-      "speaker": "Dad",
-      "text": "Well, Oscar and the bird, whose name may have been Mischief or may have been something else, decided to go get some breakfast. And what did they decide to go eat?",
-      "timestamp": 364
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Some berries, the berries that came from the tree. The pretend berries that Mischief Mouse threw on the street for the bird.",
-      "timestamp": 375
-    },
-    {
-      "speaker": "Dad",
-      "text": "But those berries grew high up in a tree, so how would they get up there?",
-      "timestamp": 392
-    },
-    {
-      "speaker": "Izzy",
-      "text": "No, some of they were down on the street.",
-      "timestamp": 398
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, some of the berries had fallen down on the street, that's true. And so Oscar Mouse and the bird, they climbed up out of their burrow and scampered down the side of the old stone wall and across the field and through the bushes and out to the sidewalk where there was a tree.",
-      "timestamp": 403
-    },
-    {
-      "speaker": "Izzy",
-      "text": "No, some of them were on the street.",
-      "timestamp": 435
-    },
-    {
-      "speaker": "Dad",
-      "text": "And so they looked for some of the berries on the street, and did they find them?",
-      "timestamp": 438
+      "text": "Velociraptorning?",
+      "timestamp": 178.68
     },
     {
       "speaker": "Izzy",
       "text": "Yes.",
-      "timestamp": 439
+      "timestamp": 181.2
     },
     {
       "speaker": "Dad",
-      "text": "And they found the berries. And then they heard a funny sound nearby, just as they started to eat. What did they hear?",
-      "timestamp": 440
+      "text": "Oh. And what was the short version of Velociraptorning's name?",
+      "timestamp": 182
     },
     {
       "speaker": "Izzy",
-      "text": "Awoo! Awoo! Awoo! The wolves.",
-      "timestamp": 450
-    },
-    {
-      "speaker": "Izzy",
-      "text": "And they were just howling at the moon, so they decided to go and check out that noise when they were done with breakfast.",
-      "timestamp": 461
+      "text": "All the products. Velocylane by Estacado.",
+      "timestamp": 188.98
     },
     {
       "speaker": "Dad",
-      "text": "Right. When Oscar and the bird were done with breakfast, they decided to go and check out that noise. And what did they find?",
-      "timestamp": 470
+      "text": "What?",
+      "timestamp": 195.36
     },
     {
       "speaker": "Izzy",
-      "text": "They found a wolf just howling at the moon.",
-      "timestamp": 477
+      "text": "Estacado, Mr. Laurel, then James.",
+      "timestamp": 197.54
     },
     {
       "speaker": "Dad",
-      "text": "Just howling at the moon. And then the wolves, the wolves said, 'Oh hello Oscar Mouse and bird. We have a problem, maybe you can solve it for us.' What was their problem they had?",
-      "timestamp": 489
+      "text": "I, I didn't catch that.",
+      "timestamp": 202.38
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Mischief Mouse.",
+      "timestamp": 203.56
+    },
+    {
+      "speaker": "Dad",
+      "text": "Mischief Mouse. Well, at any rate, the bird with the long name said, \"Oh, thank you, Oscar. I would be happy to share your burrow. But I'm feeling a bit hungry for breakfast. Perhaps we could go find some food together.\" And what did Oscar say?",
+      "timestamp": 205.72
+    },
+    {
+      "speaker": "Izzy",
+      "text": "He s- Dad, before breakfast, I need my nail clipped.",
+      "timestamp": 224.36
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, you need your nail clipped?",
+      "timestamp": 233.84
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah.",
+      "timestamp": 236.02
+    },
+    {
+      "speaker": "Dad",
+      "text": "You know, I think I took the nail clipper out of this room, and I forgot to bring it back. Do you mind if I go run and get it?",
+      "timestamp": 237.34
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Sure.",
+      "timestamp": 243.7
+    },
+    {
+      "speaker": "Dad",
+      "text": "It'll just take me a minute.",
+      "timestamp": 246.62
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Oh. Actually, I'm home in the dark.",
+      "timestamp": 250.7
+    },
+    {
+      "speaker": "Dad",
+      "text": "All right, I'm back.",
+      "timestamp": 260.9
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Hmm. Dad, it, it needs clip right here.",
+      "timestamp": 262.18
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay. Just turn on the light so I can see. Where can I clip?",
+      "timestamp": 266.96
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Here.",
+      "timestamp": 271.04
+    },
+    {
+      "speaker": "Dad",
+      "text": "Which finger? This one? This one? Oh.",
+      "timestamp": 273.32
+    },
+    {
+      "speaker": "Izzy",
+      "text": "That one.",
+      "timestamp": 276.37
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, did your nail break a little bit? Okay, I'm gonna try, but that's not easy.",
+      "timestamp": 280.78
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Oh, that's it. That's it.",
+      "timestamp": 287.76
+    },
+    {
+      "speaker": "Dad",
+      "text": "Do I need to do it still? Is it okay?",
+      "timestamp": 294.04
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah.",
+      "timestamp": 300.1
+    },
+    {
+      "speaker": "Dad",
+      "text": "It's okay?",
+      "timestamp": 301.1
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Where?",
+      "timestamp": 302.18
+    },
+    {
+      "speaker": "Dad",
+      "text": "You want me to do it? There. I think I got it.",
+      "timestamp": 304.62
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Now another cl-",
+      "timestamp": 316.82
+    },
+    {
+      "speaker": "Dad",
+      "text": "You need another nail clipped?",
+      "timestamp": 319.18
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah.",
+      "timestamp": 321.24
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yeah?",
+      "timestamp": 322.14
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Here.",
+      "timestamp": 323.12
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, yeah, your nails are getting a little long.",
+      "timestamp": 331.52
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Now can you keep telling the story?",
+      "timestamp": 336.62
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay, sure.",
+      "timestamp": 338.52
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Stars off.",
+      "timestamp": 339.46
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay.",
+      "timestamp": 340.84
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Hey. A lot.",
+      "timestamp": 341.6
+    },
+    {
+      "speaker": "Dad",
+      "text": "Let's turn off the light. Now we have more stars.",
+      "timestamp": 341.77
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Hey.",
+      "timestamp": 346.33
+    },
+    {
+      "speaker": "Dad",
+      "text": "Now, where were we? Oscar and the bird. What was the bird's name again?",
+      "timestamp": 346.36
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Mischief, Bablada, and Varisas.",
+      "timestamp": 351.62
+    },
+    {
+      "speaker": "Dad",
+      "text": "Mischief, for sure. Well, Oscar and the bird, whose name may have been Mischief or may have been something else, decided to go get some breakfast. And what did they decide to go eat?",
+      "timestamp": 357.94
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Some berries. The berries that came from the tree.",
+      "timestamp": 371.38
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, they just-",
+      "timestamp": 379.02
+    },
+    {
+      "speaker": "Izzy",
+      "text": "The, the berries that were on the str- the pretend berry that Mr. Mouse threw on the street for the bird.",
+      "timestamp": 380.04
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, but those berries grew high up in a tree, so how would they get up there?",
+      "timestamp": 389.28
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No, some of they were down on the street.",
+      "timestamp": 397.62
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, some of the berries had fallen down on the street. That's true, because Izzy threw them there. And so Oscar Mouse and the bird, they climbed up out of their burrow and scampered down the side of the old stone wall and across the field and through the bushes and out to the sidewalk where there was a tree that they knew was growing some berries that they could eat for their breakfast.",
+      "timestamp": 401.44
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No, some of them were on the s- the street.",
+      "timestamp": 427.96
+    },
+    {
+      "speaker": "Dad",
+      "text": "And so they looked for some of the berries on the street, and did they find them?",
+      "timestamp": 431.56
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yes.",
+      "timestamp": 435.24
+    },
+    {
+      "speaker": "Dad",
+      "text": "And they found the berries. And then they heard a funny sound nearby just as they started to eat. What did they hear? And-",
+      "timestamp": 436.34
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Some wolves",
+      "timestamp": 453.9
+    },
+    {
+      "speaker": "Dad",
+      "text": "... they heard some wolves howling.",
+      "timestamp": 454.74
+    },
+    {
+      "speaker": "Izzy",
+      "text": "The, and they were just howling at the moon, so they decided to go and check out that noise when they were done with breakfast.",
+      "timestamp": 457.52
+    },
+    {
+      "speaker": "Dad",
+      "text": "Right. When Oscar and the bird were done with breakfast, they decided to go and check out that noise, and what did they find?",
+      "timestamp": 469.72
+    },
+    {
+      "speaker": "Izzy",
+      "text": "They found a wolf just howling at the m- moon.",
+      "timestamp": 476.75
+    },
+    {
+      "speaker": "Dad",
+      "text": "Just howling at the moon. And, and then the wolves, the wolves said, um, \"Oh, hello, Oscar Mouse and Bird. Um, we have a problem. Maybe you can solve it for us.\" What was their problem that they had?",
+      "timestamp": 484.88
     },
     {
       "speaker": "Izzy",
@@ -176,163 +446,358 @@
     },
     {
       "speaker": "Dad",
-      "text": "Their problem was they needed to find their tiny wolf cub. It was a baby, and the wolf cub was lost somewhere. They asked if Oscar and the bird could fly up and search.",
-      "timestamp": 505
+      "text": "Um, their problem was they needed to find their tiny wolf cub. It was a baby, and the wolf cub was lost somewhere. But-",
+      "timestamp": 503.88
     },
     {
       "speaker": "Izzy",
-      "text": "No, Oscar and the bird walked because they have feet.",
-      "timestamp": 536
+      "text": "It was lost",
+      "timestamp": 519.48
+    },
+    {
+      "speaker": "Dad",
+      "text": "... and they asked Oscar and the bird if Oscar and the bird could fly up together and search by looking from high up in the sky as they flew around together.",
+      "timestamp": 521.64
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No, Oscar and the bird walk. They walk because they have feet.",
+      "timestamp": 534.28
     },
     {
       "speaker": "Dad",
       "text": "Oh, they walk because they have feet to search for the baby wolf. And what was the baby wolf's name, the wolf cub?",
-      "timestamp": 544
+      "timestamp": 544.04
     },
     {
       "speaker": "Izzy",
-      "text": "Cub. And it was Cubby Chickendoll.",
-      "timestamp": 555
+      "text": "Cub.",
+      "timestamp": 553.12
     },
     {
       "speaker": "Dad",
-      "text": "Well, they set out to search for Cubby Chickendoll. As they searched, they grew a little bit tired because they were walking far and wide. But then they saw a music shop.",
-      "timestamp": 563
+      "text": "The wolf cub's name was Cub.",
+      "timestamp": 554.2
     },
     {
       "speaker": "Izzy",
-      "text": "Oh, it was at the music shop with all the vegetables... the music instruments.",
-      "timestamp": 594
+      "text": "And it was Cubby Chickendoll.",
+      "timestamp": 556.84
     },
     {
       "speaker": "Dad",
-      "text": "Well, it just so happened that Oscar Mouse and his friend the bird stumbled in to the music shop. What was the name of the music shop?",
-      "timestamp": 618
+      "text": "Cubby Chickendoll?",
+      "timestamp": 560
     },
     {
       "speaker": "Izzy",
-      "text": "Yestalam.",
-      "timestamp": 633
+      "text": "Yep.",
+      "timestamp": 561.62
     },
     {
       "speaker": "Dad",
-      "text": "Yestalam. And so they went right into the music shop, and they heard the musical instruments playing, but they also heard another sound, which was a tiny little...",
-      "timestamp": 640
+      "text": "Well, they set out to search for Cubby Chickendoll, and as they searched, they grew a little bit tired because they were walking far and wide, searching across the field and up and down the trees and through the bushes and along a stream, and they couldn't find a wolf cub anywhere they looked, so they-",
+      "timestamp": 562.74
     },
     {
       "speaker": "Izzy",
-      "text": "Bark, bark, bark, bark. It was the wolf that was lost.",
-      "timestamp": 662
+      "text": "But the, the, there was a little bit... It was, it was at the music shop-",
+      "timestamp": 591.04
     },
     {
       "speaker": "Dad",
-      "text": "It was the lost baby wolf cub! And so they ran in and searched around. Where was that barking coming from?",
-      "timestamp": 667
+      "text": "Oh",
+      "timestamp": 601.1
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... with the, w- with all the vegetables-",
+      "timestamp": 601.3
+    },
+    {
+      "speaker": "Dad",
+      "text": "It was at the-",
+      "timestamp": 605.56
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... and music instruments.",
+      "timestamp": 606.02
+    },
+    {
+      "speaker": "Dad",
+      "text": "It was, the music shop had musical instruments and vegetables?",
+      "timestamp": 609.58
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yep.",
+      "timestamp": 612.66
+    },
+    {
+      "speaker": "Dad",
+      "text": "And, and was the wolf cub there?",
+      "timestamp": 613.38
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yes.",
+      "timestamp": 616.28
+    },
+    {
+      "speaker": "Dad",
+      "text": "Well, it just so happened that Oscar Mouse and his friend the bird stumbled in as they searched-",
+      "timestamp": 618.24
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah, and-",
+      "timestamp": 627.98
+    },
+    {
+      "speaker": "Dad",
+      "text": "... to the music shop.",
+      "timestamp": 628.35
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yep.",
+      "timestamp": 629.66
+    },
+    {
+      "speaker": "Dad",
+      "text": "What was the name of the music shop?",
+      "timestamp": 631.12
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yes the Lamb.",
+      "timestamp": 633.48
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yes the Lamb? Oh, I see. And, and so they went right into the music shop, and they heard the musical instruments playing, the drums going bang, bang, bang, bang, bang, and the piano going tinkle, tinkle, tinkle, and the guitar going da, da, da, da, da, but they also heard another sound, which was a tiny little bark, bark, bark, and who was it?",
+      "timestamp": 636.26
+    },
+    {
+      "speaker": "Izzy",
+      "text": "It was the wolf that was lost.",
+      "timestamp": 662.52
+    },
+    {
+      "speaker": "Dad",
+      "text": "It was the lost baby wolf cub, and so they ran in and they, um, searched around, and where was that barking coming from? Was the wolf cub hiding under one of the musical instruments?",
+      "timestamp": 666.46
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yes.",
+      "timestamp": 678.1
+    },
+    {
+      "speaker": "Dad",
+      "text": "Which one?",
+      "timestamp": 678.64
     },
     {
       "speaker": "Izzy",
       "text": "The violin.",
-      "timestamp": 680
+      "timestamp": 679.9
     },
     {
       "speaker": "Dad",
-      "text": "The wolf cub was so small he was hiding under a violin. And Oscar peeked his head under and said, 'Excuse me, are you the lost wolf cub?'",
-      "timestamp": 685
+      "text": "The wolf cub was so small he was hiding under a violin, and Oscar peeked his head under and said, \"Excuse me, are you the lost wolf cub?\"",
+      "timestamp": 681.88
     },
     {
       "speaker": "Izzy",
-      "text": "I am. Can we take you back to your family? Yes, but I'm afraid I'll get lost again.",
-      "timestamp": 694
+      "text": "\"I am.\"",
+      "timestamp": 693.6
     },
     {
       "speaker": "Dad",
-      "text": "Oh, we know where to go. We'll make sure that you get back to your family safe and sound, and they'll feed you a nice big breakfast. How does that sound, wolf cub?",
-      "timestamp": 709
+      "text": "\"Can we take you back to your family?\"",
+      "timestamp": 695.44
     },
     {
       "speaker": "Izzy",
-      "text": "Good.",
-      "timestamp": 721
+      "text": "\"Yes, but I'm afraid I will get lost again if you take me back to my family.\"",
+      "timestamp": 697.79
     },
     {
       "speaker": "Dad",
-      "text": "Okay, let's go. So Oscar and the bird and the wolf cub, they made their way out of the music shop. And they took some vegetables along. What did they bring?",
-      "timestamp": 723
+      "text": "\"Oh, we know where to go. We won't get lost. We'll make sure that you get back to your family safe and sound, and they'll feed you a nice big breakfast. How's that sound, wolf cub?\"",
+      "timestamp": 707.81
     },
     {
       "speaker": "Izzy",
-      "text": "Pepper, salt, and more peppers.",
-      "timestamp": 740
+      "text": "\"Good.\"",
+      "timestamp": 721.02
     },
     {
       "speaker": "Dad",
-      "text": "Pepper, salt, and more peppers. And then they made their way back until they found the wolf pack. And what did the wolves say?",
-      "timestamp": 748
+      "text": "\"Okay, let's go.\" So Oscar and the bird and the wolf cub, they made their way out of the music shop- And they took some vegetables along just in case. What did they bring?",
+      "timestamp": 722.28
     },
     {
       "speaker": "Izzy",
-      "text": "We're so glad to see you, Wolf.",
-      "timestamp": 774
+      "text": "They bring pepper, salt and more peppers.",
+      "timestamp": 737.65
     },
     {
       "speaker": "Dad",
-      "text": "And the wolf cub yapped happily. He said, 'Bark bark bark bark bark, mama dad, yay, I'm so happy to be home!'",
-      "timestamp": 781
+      "text": "Oh, pepper, salt and more peppers. And then they made their way back across the field and over the stream and under the bushes and through the trees and across the sidewalk and down the path where they found the wolf pack. And the wolf pack was howling, \"Awoo, awoo,\" because they missed their baby wolf cub so much.",
+      "timestamp": 745.89
     },
     {
       "speaker": "Dad",
-      "text": "And then what did Oscar and the bird do?",
-      "timestamp": 792
+      "text": "But then Oscar and the bird and the wolf cub arrived, and what did the wolves say?",
+      "timestamp": 767.49
     },
     {
       "speaker": "Izzy",
-      "text": "And Mama had a problem. Mama had to pump.",
-      "timestamp": 803
+      "text": "\"We are so glad to see you both.\"",
+      "timestamp": 774.65
     },
     {
       "speaker": "Dad",
-      "text": "Mama had to pump, that's true. She had to make milk for her baby. And then Nana had a problem.",
-      "timestamp": 810
+      "text": "Oh, they said, \"We're so glad to see you.\" And the wolf cub yapped happily. He said, \" bark, bark, bark, bark, bark, bark, bark, bark, bark. Mama, Dada, yay, I'm so happy to be home.\" And then what did all of... What did Oscar and the bird do?",
+      "timestamp": 780.63
     },
     {
       "speaker": "Izzy",
-      "text": "Nana's problem was she had a broken dollhouse. By gluing it back together.",
-      "timestamp": 831
+      "text": "And they still had... And, and Mama had a problem.",
+      "timestamp": 800.03
     },
     {
       "speaker": "Dad",
-      "text": "Wow. Well, at the end of all this problem solving... and Emily had a problem.",
-      "timestamp": 845
+      "text": "Oh, what was Mama's problem?",
+      "timestamp": 806.01
     },
     {
       "speaker": "Izzy",
-      "text": "Emily's problem was she had a broken down sculpture. She also glued it back together.",
-      "timestamp": 850
+      "text": "Mama had to pump.",
+      "timestamp": 807.55
     },
     {
       "speaker": "Dad",
+      "text": "Oh. Mama had to pump. That's true. She had to make milk for her baby.",
+      "timestamp": 809.93
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Pump, pump, pump.",
+      "timestamp": 817.63
+    },
+    {
+      "speaker": "Dad",
+      "text": "Pump, pump, pump. And then-",
+      "timestamp": 819.11
+    },
+    {
+      "speaker": "Izzy",
+      "text": "'Cause Dada playing in the office a little bit with Mickey and bird, and then Nana had a problem.",
+      "timestamp": 820.81
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, what was Nana's problem?",
+      "timestamp": 830.21
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Nana's problem was she had a broken dollhouse.",
+      "timestamp": 831.77
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, so how did she solve it?",
+      "timestamp": 839.19
+    },
+    {
+      "speaker": "Izzy",
+      "text": "By gluing it back together.",
+      "timestamp": 841.45
+    },
+    {
+      "speaker": "Dad",
+      "text": "Wow. Well, at the end of all this problem solving-",
+      "timestamp": 844.35
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And Emily had a problem.",
+      "timestamp": 848.95
+    },
+    {
+      "speaker": "Dad",
+      "text": "What was Emily's problem?",
+      "timestamp": 851.47
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Emily's problem was she had a broken down sculpture.",
+      "timestamp": 852.93
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, and what did she do to solve her problem?",
+      "timestamp": 859.51
+    },
+    {
+      "speaker": "Izzy",
+      "text": "She also glued it back together.",
+      "timestamp": 861.77
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, how nice.",
+      "timestamp": 864.37
+    },
+    {
+      "speaker": "Izzy",
       "text": "And Papa had a problem.",
-      "timestamp": 866
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Papa's problem was he had a broken down art supplies kit. By gluing it back together.",
-      "timestamp": 867
+      "timestamp": 866.21
     },
     {
       "speaker": "Dad",
-      "text": "Well, back in the world of the story, Oscar and the bird made their way back home and snuggled up all nice and cozy inside their burrow.",
-      "timestamp": 889
+      "text": "And what, what did Papa probs- so what was Papa's problem?",
+      "timestamp": 870.17
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Papa's problem that... And he had a broken down art supplies kit.",
+      "timestamp": 873.55
+    },
+    {
+      "speaker": "Dad",
+      "text": "And how did he solve it?",
+      "timestamp": 882.01
+    },
+    {
+      "speaker": "Izzy",
+      "text": "By gluing it back together.",
+      "timestamp": 884.11
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh. Well, back in the world of the story, Oscar and the bird, very happy that they had brought the wolf cub back to his home, made their way back to theirs. They scampered up the old stone wall and back to their burrow, and they snuggled up all nice and cr- cozy inside their burrow.",
+      "timestamp": 887.41
     },
     {
       "speaker": "Izzy",
       "text": "And how about a story about Oscar now?",
-      "timestamp": 913
+      "timestamp": 912.09
     },
     {
       "speaker": "Dad",
-      "text": "Well, I think we're done with stars and stories for now.",
-      "timestamp": 916
+      "text": "Well, I think we're done with stars and stories for now. So let's turn on the lamp and turn out the stars.",
+      "timestamp": 915.77
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And turn out-",
+      "timestamp": 927.63
     }
   ],
   "characters": [
@@ -409,7 +874,19 @@
       "description": "A unique music shop filled with instruments and vegetables where the lost wolf cub is found."
     }
   ],
-  "wordCount": 1112,
-  "izzyWordCount": 273,
-  "dadWordCount": 839
+  "wordCount": 1829,
+  "izzyWordCount": 455,
+  "dadWordCount": 1374,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T14:53:41.641Z",
+    "speakerMap": {
+      "speaker_0": "Dad",
+      "speaker_1": "Izzy"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "high"
+  }
 }

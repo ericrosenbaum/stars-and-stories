@@ -6,383 +6,473 @@
   "audioFilename": "Stars and stories - Trip to Nana’s house.m4a",
   "highlightQuote": {
     "text": "I want chocolate chips with fried veggies inside tacos, tacos.",
-    "timestamp": 713
+    "timestamp": 433.24
   },
   "transcript": [
     {
       "speaker": "Dad",
-      "text": "Stars and stories. Do you want to sing it?",
-      "timestamp": 12
+      "text": "Okay. Now, let's make up a song for Stars and Stories like, ♪ Stars and Stories. ♪ Do you wanna sing it?",
+      "timestamp": 4.24
     },
     {
       "speaker": "Izzy",
       "text": "No.",
-      "timestamp": 19
+      "timestamp": 19.16
     },
     {
       "speaker": "Dad",
-      "text": "Stars and stories, stars and stories, stars and stories.",
-      "timestamp": 21
+      "text": "♪ Stars and Stories. Stars and Stories. Stars and Stories. ♪",
+      "timestamp": 21.1
     },
     {
       "speaker": "Izzy",
       "text": "Dad.",
-      "timestamp": 33
+      "timestamp": 32.76
     },
     {
       "speaker": "Dad",
-      "text": "Yeah?",
-      "timestamp": 34
+      "text": "Yeah? I like looking at the stars.",
+      "timestamp": 34.72
     },
     {
       "speaker": "Izzy",
-      "text": "I like looking at the stars.",
-      "timestamp": 44
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Dad, I want you to tell a story.",
-      "timestamp": 57
+      "text": "Dad, I want to tell a story.",
+      "timestamp": 56.9
     },
     {
       "speaker": "Dad",
-      "text": "Yes, what should we tell a story about? Um, Tinkering?",
-      "timestamp": 59
+      "text": "Yeah. Sh- shall we tell a story about, um, tinkering?",
+      "timestamp": 60.24
     },
     {
       "speaker": "Izzy",
       "text": "No.",
-      "timestamp": 106
+      "timestamp": 66.2
     },
     {
       "speaker": "Dad",
       "text": "Or about LEDs?",
-      "timestamp": 107
+      "timestamp": 67.08
     },
     {
       "speaker": "Izzy",
-      "text": "LEDs? I don't like LEDs.",
-      "timestamp": 109
+      "text": "LEDs. I don't like LEDs.",
+      "timestamp": 70.14
     },
     {
       "speaker": "Dad",
-      "text": "Oh, should we tell a story about Peacock the Wizard?",
-      "timestamp": 114
+      "text": "Oh. Should we tell a story about Peacock the Wizard?",
+      "timestamp": 73.8
     },
     {
       "speaker": "Izzy",
-      "text": "Yes. Yes, and all of his friends.",
-      "timestamp": 118
+      "text": "Yes.",
+      "timestamp": 77.12
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh.",
+      "timestamp": 78.58
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yes, and all his friends.",
+      "timestamp": 78.9
     },
     {
       "speaker": "Dad",
       "text": "Once upon a time...",
-      "timestamp": 121
+      "timestamp": 82
     },
     {
       "speaker": "Izzy",
-      "text": "His Sesame Street friends. Big Bird and everyone else.",
-      "timestamp": 125
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Even Big Bird and even little bird and my stuffie.",
-      "timestamp": 131
+      "text": "His Sesame Street friends. Bert and Ernie and everyone else.",
+      "timestamp": 84.26
     },
     {
       "speaker": "Dad",
-      "text": "Big bird and Little Bird? Okay. Once upon a time, everyone was over at Peacock the Wizard's castle having a picnic.",
-      "timestamp": 138
+      "text": "Oh. Once-",
+      "timestamp": 89.4
     },
     {
       "speaker": "Izzy",
-      "text": "No, they were inside playing.",
-      "timestamp": 146
+      "text": "Even Big Bird and even Little Bird-",
+      "timestamp": 90.71
     },
     {
       "speaker": "Dad",
-      "text": "They were inside the castle playing. And Peacock the Wizard said, \"I have a quest for all of you. If you can find three things that all start with the letter P, I will give to you a magical treasure. Can you do this for me?\"",
-      "timestamp": 152
+      "text": "Big Bird and Little Bird",
+      "timestamp": 94.04
     },
     {
       "speaker": "Izzy",
-      "text": "No, right now, Peacock the Wizard, I can't do it for you because right now I'm thinking about my Nana.",
-      "timestamp": 221
+      "text": "... even my stuffies.",
+      "timestamp": 94.73
     },
     {
       "speaker": "Dad",
-      "text": "Oh, I see, kiddo, said Peacock the Wizard. What are you thinking about her?",
-      "timestamp": 232
+      "text": "Okay. Once upon a time, everyone was over at Peacock the Wizard's castle having a picnic.",
+      "timestamp": 95.76
     },
     {
       "speaker": "Izzy",
-      "text": "Because I miss my Nana and I need Nana to buy more mice for me and more bunnies and more tables and more chairs.",
-      "timestamp": 239
+      "text": "No. They were inside playing.",
+      "timestamp": 105.92
     },
     {
       "speaker": "Dad",
-      "text": "Oh, I see, said Peacock the Wizard. That's why I can't go on the quest. I see, said Peacock the Wizard. Perhaps we can go on a different quest to visit Nana in our imaginations. Would you like to do that?",
-      "timestamp": 250
+      "text": "They were inside the castle playing. And Peacock the Wizard said, \"I have a quest for all of you. If you can find-",
+      "timestamp": 110.67
     },
     {
       "speaker": "Izzy",
-      "text": "I would! And does Nana have more tables and more chairs and more bunnies and mice?",
-      "timestamp": 305
+      "text": "What?",
+      "timestamp": 124.68
     },
     {
       "speaker": "Dad",
-      "text": "I believe that she does, but we will have to find out when we visit her. Now then, to go on this new quest to visit Nana in our imaginations, first we must decide how we will get to Nana's house. How will we travel there, kiddo?",
-      "timestamp": 318
+      "text": "... three things that all start with the letter P, I will give to you a magical treasure. Can you do this for me?\"",
+      "timestamp": 125.36
     },
     {
       "speaker": "Izzy",
-      "text": "Hmm, first take a left and then go to the right. That's the way you get to Nana's, and then you have to go to the taco place and the veggie store place, with the dried fruit, even the dried raspberries.",
-      "timestamp": 332
+      "text": "\"No, right now, Peacock the Wizard, I can't do it for you, because right now I'm thinking about my nana.\"",
+      "timestamp": 142.36
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh, I see, Izzy the Kiddo,\" said Peacock the Wizard. \"What are you thinking about her?\"",
+      "timestamp": 152.04
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"Because I miss my nana, and I need Nana to buy more mice for me, and more bunnies, and more tables and more chairs.\"",
+      "timestamp": 157.53
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh, I see.\"",
+      "timestamp": 170.94
+    },
+    {
+      "speaker": "Izzy",
+      "text": "That's why I can't go on a quest.",
+      "timestamp": 171.92
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"I see,\" said Peacock the Wizard. \"Perhaps we could go on a different quest, to visit Nana in our imaginations. Would you like to do that?\"",
+      "timestamp": 175.41
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I would. And does Nana have more tables and more chairs and more bunnies and mice?",
+      "timestamp": 184.98
+    },
+    {
+      "speaker": "Dad",
+      "text": "I believe that she does, but we will have to find out when we visit her. Now then, to go on this new ques- quest, to visit Nana in our imaginations, first we must decide how we will get to Nana's house. How will we travel there, Izzy the Kiddo?",
+      "timestamp": 194.06
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Hmm. First, take a left, and then go to the right. That's the way you get to Nana's, and then you have to go to the taco place, and the veggie store place with the dried fruits, even the dried raspberries.",
+      "timestamp": 212.88
     },
     {
       "speaker": "Dad",
       "text": "I see. It sounds like a long journey. Will we take a helicopter or a boat or a car?",
-      "timestamp": 351
+      "timestamp": 230.66
     },
     {
       "speaker": "Izzy",
       "text": "We will take a car.",
-      "timestamp": 358
+      "timestamp": 237.84
     },
     {
       "speaker": "Dad",
       "text": "And what color car shall we drive?",
-      "timestamp": 401
+      "timestamp": 240.8
     },
     {
       "speaker": "Izzy",
       "text": "A purple and pink car.",
-      "timestamp": 405
+      "timestamp": 245.38
     },
     {
       "speaker": "Dad",
-      "text": "A purple and pink car. Well, I happen to have a purple and pink car—",
-      "timestamp": 408
+      "text": "A purple and pink car. Well, I happen-",
+      "timestamp": 247.36
     },
     {
       "speaker": "Izzy",
       "text": "With blue stripes.",
-      "timestamp": 411
+      "timestamp": 249.13
     },
     {
       "speaker": "Dad",
-      "text": "With blue stripes. I happen to have a purple and pink car and I'll call Mistress Mouse up and see if she can paint the stripes on. Just a moment. Oh yes, she agrees. She'll do that right away. And meanwhile, let's pack some suitcases. What shall we pack for our journey?",
-      "timestamp": 413
+      "text": "With blue stripes. I happen to have a purple and pink car, and I'll call Mistress Mouse up and see if she can paint the stripes on. Just a moment. Oh, yes, she agrees. She'll do that right away. And meanwhile, let's pack some suitcases. What shall we pack for our journey?",
+      "timestamp": 250.46
     },
     {
       "speaker": "Izzy",
       "text": "Clothing and stuff like that.",
-      "timestamp": 430
+      "timestamp": 268.5
     },
     {
       "speaker": "Dad",
-      "text": "Okay, let's pack some clothing. And maybe some snacks?",
-      "timestamp": 432
+      "text": "Okay, let's pack some clothing and maybe some snacks.",
+      "timestamp": 271.48
     },
     {
       "speaker": "Izzy",
-      "text": "Yes, snacks are a good idea because I already have my fruit but I'm still a little bit hungry.",
-      "timestamp": 435
+      "text": "Yes, that's a good idea, because I already have my fruit, but I'm still a little bit hungry.",
+      "timestamp": 274.68
     },
     {
       "speaker": "Dad",
-      "text": "Okay, and some toys too. And maybe some books. Hmm, what book would you want to take with you to Nana's?",
-      "timestamp": 441
+      "text": "Okay, and some toys, too, and maybe some books. Hmm. What book would you want to take with you to Nana's?",
+      "timestamp": 281.6
     },
     {
       "speaker": "Izzy",
-      "text": "I would like my favorite book.",
-      "timestamp": 448
+      "text": "I like my favorite book.",
+      "timestamp": 288.72
     },
     {
       "speaker": "Dad",
       "text": "What's your favorite book?",
-      "timestamp": 451
+      "timestamp": 292
     },
     {
       "speaker": "Izzy",
-      "text": "The \"Goodnight, Goodnight, Construction Site\".",
-      "timestamp": 454
+      "text": "My favorite book is The Night, Night Construction Site.",
+      "timestamp": 294.48
     },
     {
       "speaker": "Dad",
-      "text": "Okay, let's take that one. And now it's time, since we've packed everything up and Mistress Mouse has painted the blue stripes on the purple and pink car for us to get in. \"I'll drive,\" said Peacock the Wizard, \"and you can get in the back, Izzy the kiddo. Is anyone else coming with us?\"",
-      "timestamp": 500
+      "text": "Okay, let's take that one. And now it's time, since we've packed everything up, and Mistress Mouse has painted the blue stripes on the purple and pink car, for us to get in. \"I'll drive,\" said Peacock the Wizard, \"and you can get in the back, Izzy the Kiddo.",
+      "timestamp": 299.22
+    },
+    {
+      "speaker": "Dad",
+      "text": "Is anyone else coming with us?\"",
+      "timestamp": 312.94
     },
     {
       "speaker": "Izzy",
       "text": "Yeah, all the friends.",
-      "timestamp": 514
+      "timestamp": 314.54
     },
     {
       "speaker": "Dad",
-      "text": "All the friends. Okay, everyone get in the car. And Big Bird and Little Bird and Cookie Monster and Bert and Ernie and Oscar the Grouch and Grover... everybody got in the car. And now the car was very full and Peacock the Wizard said, \"Okay everyone, buckle up, it's time to go!\" and he started the car, vroom! And they drove down the road, away from the Wizard's castle and onto the highway and they went fast, vroom vroom vroom vroom vroom. And they drove for a long time. And what did they do while they were driving?",
-      "timestamp": 516
+      "text": "All the friends. Okay, everyone get in the car. And Big Bird and Little Bird and Cookie Monster and Bert and Ernie and Oscar the Grouch and Grover, everybody got in the car. And now the car was very full, and Peacock the Wizard said, \"Okay, everyone, buckle up.",
+      "timestamp": 317.14
+    },
+    {
+      "speaker": "Dad",
+      "text": "It's time to go.\" And he started the car. Vroom. And they drove down the road, away from the wizard's castle, and onto the highway, and they went fast. Vroom, vroom, vroom, vroom, vroom, vroom, vroom. And they drove for a long time. And what did they do while they, while they were driving?",
+      "timestamp": 333.28
     },
     {
       "speaker": "Izzy",
-      "text": "They were listening to stories.",
-      "timestamp": 549
+      "text": "They were... They listened to story.",
+      "timestamp": 350.16
     },
     {
       "speaker": "Dad",
       "text": "Oh, what story did they listen to?",
-      "timestamp": 554
+      "timestamp": 354.42
     },
     {
       "speaker": "Izzy",
-      "text": "Ours with Bert and Ernie watching stars.",
-      "timestamp": 556
+      "text": "Stars with Bert and Ernie watching stars.",
+      "timestamp": 356.98
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh",
+      "timestamp": 360.72
     },
     {
       "speaker": "Izzy",
-      "text": "By telling stories and their imagination.",
-      "timestamp": 601
+      "text": "By telling stories",
+      "timestamp": 361.34
+    },
+    {
+      "speaker": "Dad",
+      "text": "That sounds nice",
+      "timestamp": 363.48
     },
     {
       "speaker": "Izzy",
-      "text": "And then Cookie turned off the stars.",
-      "timestamp": 606
+      "text": "And their imagination",
+      "timestamp": 363.88
+    },
+    {
+      "speaker": "Dad",
+      "text": "That sounds very nice",
+      "timestamp": 366
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Then Cookie turned off the stars",
+      "timestamp": 368.12
     },
     {
       "speaker": "Dad",
       "text": "Oh, he did? Why'd he do that?",
-      "timestamp": 611
+      "timestamp": 371.5
     },
     {
       "speaker": "Izzy",
-      "text": "Because he wanted to play Legos and he didn't see what he was going to play.",
-      "timestamp": 613
+      "text": "Because he wanted to play Legos and he didn't see what he was going to play",
+      "timestamp": 373.5
     },
     {
       "speaker": "Dad",
-      "text": "Oh, I see. And so in this way they passed the time in the car as they drive along the highway. And now it's time to take a stop. We're halfway to Nana's. Where are we going to stop?",
-      "timestamp": 619
+      "text": "Oh, I see. And so in this way, they pass the time in the car as they drive along the highway. And now it's time to take a stop. We're halfway to Nana's. Where are we gonna stop?",
+      "timestamp": 379
     },
     {
       "speaker": "Izzy",
-      "text": "First, some veggies.",
-      "timestamp": 633
+      "text": "For some veggies",
+      "timestamp": 393.76
     },
     {
       "speaker": "Dad",
-      "text": "We stop for some veggies? That sounds like an excellent place to stop. Okay, everybody get out and stretch your arms and stretch your legs a little bit. It's been a long drive. Okay, we'll pick up some veggies and anything else?",
-      "timestamp": 636
+      "text": "We stop for some veggies. That sounds like an excellent place to stop. Okay, everybody get out and stretch your arms and stretch your legs a little bit. It's been a long drive. Okay, and we'll pick up some veggies. Anything else?",
+      "timestamp": 395.52
     },
     {
       "speaker": "Izzy",
-      "text": "Yeah, dried raspberries.",
-      "timestamp": 651
+      "text": "Yeah. Dried raspberries",
+      "timestamp": 409.06
     },
     {
       "speaker": "Dad",
       "text": "What'd you say?",
-      "timestamp": 653
+      "timestamp": 412.3
     },
     {
       "speaker": "Izzy",
-      "text": "Dried raspberries.",
-      "timestamp": 654
+      "text": "Dried raspberries",
+      "timestamp": 413.14
     },
     {
       "speaker": "Dad",
-      "text": "Dried raspberries also. Yes, very good. Okay, we'll get those things. Oh, now it's time to get back in the car and drive. Vroom vroom vroom vroom vroom vroom.",
-      "timestamp": 656
+      "text": "Dried raspberries also, yes. Very good. Okay, we'll get those things. Oh, now it's time to get back in the car and drive. Vroom, vroom, vroom, vroom, vroom, vroom, vroom, vroom.",
+      "timestamp": 415.25
     },
     {
       "speaker": "Izzy",
-      "text": "The next stop is taco place.",
-      "timestamp": 703
+      "text": "The next stop is taco place",
+      "timestamp": 422.56
     },
     {
       "speaker": "Dad",
-      "text": "The next stop is taco place. Oh, we're here already actually. Here's the taco place. Everyone out! Okay, let's get some tacos. What kind of taco do you want, Izzy?",
-      "timestamp": 705
+      "text": "The next stop is taco place. Oh, we're here already, actually. Here's the taco place. Everybody out. Okay, let's get some tacos. What kind of taco do you want, Izzy?",
+      "timestamp": 424.84
     },
     {
       "speaker": "Izzy",
-      "text": "I want chocolate chips with fried veggies inside tacos, tacos.",
-      "timestamp": 713
+      "text": "I want chocolate chips with fried veggies inside tacos. Tacos.",
+      "timestamp": 433.24
     },
     {
       "speaker": "Dad",
-      "text": "Okay, a taco with chocolate chips and fried veggies. Perfect. And I'll have maybe the pork belly taco, I like that one. And some chips and guacamole. Okay, well that was a good stop everyone.",
-      "timestamp": 721
+      "text": "Okay. A taco with chocolate chips and fried veggies. Perfect. And I'll have, um, maybe the pork belly taco. I like that one. Om, nom, nom, nom, nom, nom, nom, nom. And some chips and guacamole. Om, nom, nom, nom, nom. Okay. Well, that was a good stop, everybody.",
+      "timestamp": 440.26
     },
     {
       "speaker": "Izzy",
-      "text": "Num num.",
-      "timestamp": 737
+      "text": "Nom, nom",
+      "timestamp": 456.72
     },
     {
       "speaker": "Dad",
-      "text": "Let's get back in the car and we'll drive a long way further on the highway, vroom vroom vroom vroom vroom. And then we're slowing down, we turn off the highway, we'll drive down the road, and then oh look, there's Nana's driveway. We turn onto Nana's driveway, we drive the car through the trees and up the hill and down the hill and then peeking between the trees is a beautiful house with a chimney making smoke. And there's Nana's house. And so we pull up in front and we get out of the car and we open the door and who do we see?",
-      "timestamp": 738
+      "text": "Let's get back in the car. And we'll drive a long way further on the highway. Vroom, vroom, vroom, vroom, vroom, vroom. And then we're slowing down, we turn off the highway, we'll drive down the road, and then, oh look, there's Nana's driveway. We turn onto Nana's driveway, and we drive the car through the trees, and up the hill and down the hill, and then peeking between the trees is a beautiful house with a chimney making smoke.",
+      "timestamp": 458.1
+    },
+    {
+      "speaker": "Dad",
+      "text": "And there's Nana's house. And so we pull up in front, and we get out of the car, and we open the door, and who do we see?",
+      "timestamp": 488.62
     },
     {
       "speaker": "Izzy",
-      "text": "Nana, Grandpa Rick, and Drew.",
-      "timestamp": 816
+      "text": "Nana, Grandpa Rick, Andrew",
+      "timestamp": 496.82
     },
     {
       "speaker": "Dad",
-      "text": "They're all there, your family.",
-      "timestamp": 820
+      "text": "They're all there, your family",
+      "timestamp": 499.94
     },
     {
       "speaker": "Izzy",
-      "text": "Even Grandpa Rick, no even Garfield and Ginger.",
-      "timestamp": 823
+      "text": "Even Grandpa Rick. Nope. Even Garfield and Ginger",
+      "timestamp": 502.08
     },
     {
       "speaker": "Dad",
-      "text": "Yeah, they're all here. And they're so happy to see you. They say, \"Welcome Izzy, we love you, we missed you so much!\" And then it's starting to get dark, so we have a little dinner and then we get ready for bed and we read one story with Nana. What do we read?",
-      "timestamp": 829
+      "text": "Yeah, they're all here. And i- they're so happy to see you. They say, \"Welcome, Izzy. We love you. We missed you so much.\" And then it's starting to get dark, so we have a little dinner, and then we get ready for bed, and we read one story with Nana.",
+      "timestamp": 509.22
+    },
+    {
+      "speaker": "Dad",
+      "text": "What do we read?",
+      "timestamp": 527.32
     },
     {
       "speaker": "Izzy",
-      "text": "The \"Goodnight, Goodnight, Construction Site\".",
-      "timestamp": 848
+      "text": "Big, The Night, The Night Construction Site",
+      "timestamp": 529.04
     },
     {
       "speaker": "Dad",
-      "text": "We read our one book and then we sing our lullaby. \"Isabella kiddo, it's time to sleep.\" And then it's time for bed. And so we all go to sleep at Nana's house. And that's the end of our story for the night.",
-      "timestamp": 853
+      "text": "We read our one book, and then we sing our lullaby. Isabella, kiddo, it's time to sleep. And then it's time for bed. And so we all go to sleep at Nana's house, and that's the end of our story for the night",
+      "timestamp": 533.16
     },
     {
-      "speaker": "Dad",
+      "speaker": "Izzy",
       "text": "Do we have time for one more story?",
-      "timestamp": 920
+      "timestamp": 559.76
     },
     {
       "speaker": "Dad",
-      "text": "Oh, we could tell one more very short story. What should we tell a short story about? Maybe Oscar Mouse?",
-      "timestamp": 923
+      "text": "Oh. One, we could tell one more very short story. What should we tell a short story about? Maybe Oscar Mouse?",
+      "timestamp": 563.26
     },
     {
       "speaker": "Izzy",
-      "text": "Yeah.",
-      "timestamp": 930
+      "text": "Yeah",
+      "timestamp": 570.58
     },
     {
       "speaker": "Dad",
-      "text": "Okay. A short story about Oscar Mouse. Once upon a time, Oscar Mouse was living in the attic and he wished for a different place to go and call his own. And so he searched all around the house until he finally found a dark cupboard.",
-      "timestamp": 933
+      "text": "Okay. A short story about Oscar Mouse. Once upon a time, Oscar Mouse was living in the attic, and he wished for a different place to go and call his own. And so he searched all around the house until he finally found a dark cupboard.",
+      "timestamp": 571.8
     },
     {
       "speaker": "Izzy",
-      "text": "Yeah, and inside the cupboard what did he find? Nothing. Just a tiny bit of a sugar can, and he curled up inside some newspaper and he fell fast asleep in it.",
-      "timestamp": 951
+      "text": "Yeah",
+      "timestamp": 592.18
     },
     {
       "speaker": "Dad",
-      "text": "And that's the end. That's our short Oscar story. Okay, and now it's time to turn the lights on and turn off the stars.",
-      "timestamp": 1006
+      "text": "And inside the cupboard, what did he find?",
+      "timestamp": 593.18
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Nothing. Just a tiny bit of sugar cane, and he curled up in some newspaper and fell fast asleep in it",
+      "timestamp": 595.84
+    },
+    {
+      "speaker": "Dad",
+      "text": "And that's the end. That's our short Oscar story. Okay, and now it's time to turn the light down and turn off the stars",
+      "timestamp": 606.48
     }
   ],
   "characters": [
@@ -494,7 +584,19 @@
       "description": "The location where Oscar Mouse finds a sugar can to use as a bed."
     }
   ],
-  "wordCount": 1318,
-  "izzyWordCount": 324,
-  "dadWordCount": 994
+  "wordCount": 1364,
+  "izzyWordCount": 328,
+  "dadWordCount": 1036,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T14:55:35.939Z",
+    "speakerMap": {
+      "speaker_0": "Dad",
+      "speaker_1": "Izzy"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "low"
+  }
 }
