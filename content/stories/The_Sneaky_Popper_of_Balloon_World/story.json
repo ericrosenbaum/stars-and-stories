@@ -6,438 +6,588 @@
   "audioFilename": "The Case of the Sneaky Popper.m4a",
   "highlightQuote": {
     "text": "We drink the potion and do the special rhyme called balloon baboon.",
-    "timestamp": 120
+    "timestamp": 79.96
   },
   "transcript": [
     {
-      "text": "Where's dog on them sometime?",
-      "timestamp": 0,
-      "speaker": "Izzy"
+      "speaker": "Izzy",
+      "text": "Wear a dog on them sometimes",
+      "timestamp": 0.06
     },
     {
-      "text": "You wear dog on your feet? That's silly.",
       "speaker": "Dad",
-      "timestamp": 2
+      "text": "You wear a dog on your feet?",
+      "timestamp": 2.6
     },
     {
-      "text": "I am a superhero in the key... he...",
-      "timestamp": 7,
-      "speaker": "Izzy"
+      "speaker": "Izzy",
+      "text": "Yes.",
+      "timestamp": 5.24
     },
     {
+      "speaker": "Dad",
+      "text": "That's silly.",
+      "timestamp": 5.54
+    },
+    {
+      "speaker": "Izzy",
+      "text": "It's on the feet. They go in the k- e - heap.",
+      "timestamp": 6.84
+    },
+    {
+      "speaker": "Dad",
       "text": "Okay, there's the stars. Now let's do a story.",
-      "timestamp": 14,
-      "speaker": "Dad"
+      "timestamp": 13.52
     },
     {
-      "text": "About balloon world and Uncle Bill.",
       "speaker": "Izzy",
-      "timestamp": 19
+      "text": "About Balloon World and Uncle Bill.",
+      "timestamp": 19.9
     },
     {
       "speaker": "Dad",
-      "timestamp": 23,
-      "text": "Uncle Bill. Once upon a time, Uncle Bill was just waking up and thinking about what to have for breakfast."
+      "text": "Oh, Uncle Bill. Once upon a time, Uncle Bill was just waking up and thinking about what to have for breakfast.",
+      "timestamp": 23.32
     },
     {
-      "timestamp": 33,
       "speaker": "Izzy",
-      "text": "Until ding-dong!"
-    },
-    {
-      "text": "Oh, ding-dong. \"Hmm,\" says Uncle Bill.",
-      "timestamp": 36,
-      "speaker": "Dad"
-    },
-    {
-      "text": "And Seeker says, \"Hi, I got a balloon world potion if you want to go with me after breakfast.\"",
-      "timestamp": 38,
-      "speaker": "Izzy"
+      "text": "Until ding dong.",
+      "timestamp": 32.78
     },
     {
       "speaker": "Dad",
-      "timestamp": 46,
-      "text": "\"Oh, good morning Seeker,\" says Uncle Bill. \"That sounds very interesting. I've never been to balloon world. What's it like there?\""
+      "text": "\"Oh, ding dong. Hmm,\" says Uncle Bill.",
+      "timestamp": 35.93
     },
     {
-      "timestamp": 53,
       "speaker": "Izzy",
-      "text": "Everything is made of balloons."
+      "text": "And Seeker says, \"Hi, I got Balloon World potion if you want to go with me after breakfast.\"",
+      "timestamp": 38.62
     },
     {
-      "text": "Wow! Huh. Well, let me just quickly grab some... what does Uncle Bill have for breakfast?",
       "speaker": "Dad",
-      "timestamp": 55
+      "text": "\"Oh, good morning, Seeker,\" says Uncle Bill. \"That sounds very interesting. I've never been to Balloon World. What's it like there?\"",
+      "timestamp": 46.65
     },
     {
-      "timestamp": 105,
       "speaker": "Izzy",
-      "text": "Toast and eggs."
+      "text": "Everything's made of balloons.",
+      "timestamp": 53.42
     },
     {
       "speaker": "Dad",
-      "timestamp": 107,
-      "text": "Oh yeah, I'll just have some eggs and toast. munching sounds And slip up my coffee. slurping sounds Okay Seeker, what do we do next?"
+      "text": "Wow. Huh, well, let me just quickly grab some, um... What does Uncle Bill have for breakfast?",
+      "timestamp": 55.68
     },
     {
-      "timestamp": 120,
       "speaker": "Izzy",
-      "text": "We drink the potion and do the special rhyme called balloon baboon."
+      "text": "Um, toast and eggs.",
+      "timestamp": 66.04
     },
     {
-      "timestamp": 125,
       "speaker": "Dad",
-      "text": "Oh, okay. Where's the potion? Oh, there it is. I'll have a sip. Balloon baboon, balloon baboon!"
+      "text": "Oh, yeah, I'll just have some eggs and toast, om-nom-nom-nom-nom-nom, and slurp up my coffee. Okay, Seeker, what do we do next?",
+      "timestamp": 69.59
     },
     {
-      "text": "Balloon baboon!",
-      "timestamp": 131,
-      "speaker": "Izzy"
-    },
-    {
-      "text": "And there was a loud pop, and Seeker and Uncle Bill appeared in balloon world. And where did they appear?",
-      "speaker": "Dad",
-      "timestamp": 134
-    },
-    {
-      "text": "In the castle room, in the castle hallway. And then Seeker shouted, \"Balloon dog, balloon dog!\"",
       "speaker": "Izzy",
-      "timestamp": 143
+      "text": "We drink the potion and do the special rite called Balloon Baboon.",
+      "timestamp": 79.96
     },
     {
-      "timestamp": 158,
       "speaker": "Dad",
-      "text": "And Squeaky the balloon dog came running down the castle hallway and said, \"Bark bark bark! I'm glad you're here, Seeker. Oh, who's this?\""
+      "text": "Oh, okay. Wh- where's the potion? Oh, there it is. I'll have a sip.",
+      "timestamp": 85.64
     },
     {
-      "timestamp": 205,
       "speaker": "Izzy",
-      "text": "It's Uncle Bill. He loves to build."
+      "text": "Balloon Baboon. Balloon Baboon.",
+      "timestamp": 89.88
     },
     {
-      "timestamp": 207,
       "speaker": "Dad",
-      "text": "\"Oh, thank goodness you're both here because we have a big problem.\""
+      "text": "Balloon Baboon. And there was a loud pop, and Seeker and Uncle Bill appeared in Balloon World. And where did they appear?",
+      "timestamp": 94.54
     },
     {
+      "speaker": "Izzy",
+      "text": "In the cast room, in the castle hallway. And then-",
+      "timestamp": 103.6
+    },
+    {
+      "speaker": "Dad",
+      "text": "And then-",
+      "timestamp": 111.58
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... Seeker shouted, \"Balloon Dog, Balloon Dog\"",
+      "timestamp": 111.75
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Squeaky the Balloon Dog came running down the castle hallway and said, \"Bark, bark, bark. I'm glad you're here, Seeker. Oh, who's this?\"",
+      "timestamp": 116.64
+    },
+    {
+      "speaker": "Izzy",
+      "text": "It's Uncle Bill. He loves to build.",
+      "timestamp": 124.72
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh, thank goodness you're both here, because we have a big problem.\"",
+      "timestamp": 127.06
+    },
+    {
+      "speaker": "Izzy",
       "text": "What?",
-      "speaker": "Izzy",
-      "timestamp": 213
+      "timestamp": 132.1
     },
     {
       "speaker": "Dad",
-      "timestamp": 214,
-      "text": "\"Well, I'll bring you to the king of balloon world to explain. Follow me.\" And Squeaky the balloon dog walked in front of them down the hallway to some big fancy doors that were made, of course, all out of balloons. And squeaked them open... squeak. And at the far end of a very big room with big beautiful windows sat on a huge throne, that's a fancy chair made out of balloons, the King of Balloon World. And what did the King of Balloon World look like?"
+      "text": "\"Well, I'll bring you to the King of Balloon World to explain. Follow me.\" And Squeaky the Balloon Dog walked in front of them down the hallway to some big fancy doors that were made, of course, all out of balloons, and squeaked them open. Squeak. And at the far end of a very big room with big beautiful windows sat on a huge throne, that's a fancy chair made out of balloons, the King of Balloon World.",
+      "timestamp": 133.48
     },
     {
-      "speaker": "Izzy",
-      "timestamp": 249,
-      "text": "A big balloon."
-    },
-    {
-      "timestamp": 252,
       "speaker": "Dad",
-      "text": "What color was he?"
+      "text": "And what did the King of Balloon World look like?",
+      "timestamp": 166.31
     },
     {
       "speaker": "Izzy",
-      "timestamp": 254,
-      "text": "Rainbow."
+      "text": "A big balloon.",
+      "timestamp": 169.72
     },
     {
+      "speaker": "Dad",
+      "text": "What color was he?",
+      "timestamp": 172.08
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Rainbow.",
+      "timestamp": 174.18
+    },
+    {
+      "speaker": "Dad",
       "text": "A big rainbow balloon. And what was his crown?",
-      "speaker": "Dad",
-      "timestamp": 255
+      "timestamp": 175.32
     },
     {
       "speaker": "Izzy",
-      "timestamp": 300,
-      "text": "Orange."
+      "text": "Orange.",
+      "timestamp": 180.68
     },
     {
-      "timestamp": 302,
       "speaker": "Dad",
-      "text": "Was it just orange?"
+      "text": "Was it orange? An orange ring of balloons sat upon his head, and he said, \"Welcome, visitors.\"",
+      "timestamp": 184.12
     },
     {
       "speaker": "Izzy",
-      "timestamp": 303,
-      "text": "An orange ring of balloons."
+      "text": "This is Uncle Bill. He loves building.",
+      "timestamp": 192.34
     },
     {
-      "text": "An orange ring of balloons sat upon his head. And he said, \"Welcome, visitors.\"",
       "speaker": "Dad",
-      "timestamp": 306
-    },
-    {
-      "text": "This is Uncle Bill, he loves building.",
-      "speaker": "Izzy",
-      "timestamp": 312
-    },
-    {
-      "timestamp": 314,
-      "speaker": "Dad",
-      "text": "\"Oh, welcome Uncle Bill and Seeker back to balloon world. We need your help today for we have a big, big problem.\""
-    },
-    {
-      "timestamp": 328,
-      "speaker": "Izzy",
-      "text": "Wait, this might involve Kitty and her cat crew and Isabella superhero. I'm calling them right now."
-    },
-    {
-      "timestamp": 338,
-      "speaker": "Dad",
-      "text": "Oh, well, let me explain the problem first."
+      "text": "\"Oh, welcome Uncle Bill and Seeker back to Balloon World. We need your help today, for we have a big, big problem.\" Now-",
+      "timestamp": 195.62
     },
     {
       "speaker": "Izzy",
-      "timestamp": 341,
-      "text": "Okay."
+      "text": "That might involve Kitty and her cat crew and Isabella Superhero. I'm calling them right now.",
+      "timestamp": 209.88
     },
     {
-      "timestamp": 342,
       "speaker": "Dad",
-      "text": "The problem is that we have here in balloon world a sneaky popper. Do you know what that is?"
-    },
-    {
-      "text": "Who?",
-      "timestamp": 351,
-      "speaker": "Izzy"
-    },
-    {
-      "text": "It's a someone mysterious who sneaks around and you know what they do?",
-      "timestamp": 352,
-      "speaker": "Dad"
-    },
-    {
-      "timestamp": 357,
-      "speaker": "Izzy",
-      "text": "Who?"
-    },
-    {
-      "text": "They pop balloons!",
-      "speaker": "Dad",
-      "timestamp": 358
-    },
-    {
-      "timestamp": 400,
-      "speaker": "Izzy",
-      "text": "Who's that?"
-    },
-    {
-      "timestamp": 401,
-      "speaker": "Dad",
-      "text": "We don't know, that's what you need... we need your help with to find the sneaky popper."
+      "text": "Oh, well, let me explain the problem first.",
+      "timestamp": 217.34
     },
     {
       "speaker": "Izzy",
-      "timestamp": 408,
-      "text": "Isabella Kitty, we need your help! There's a balloon popper!"
-    },
-    {
-      "text": "\"Oh, here we come,\" says Kitty. And before they knew it, they heard running down the hall of the balloon castle Kitty and her entire cat crew. And then zooming...",
-      "speaker": "Dad",
-      "timestamp": 414
-    },
-    {
-      "timestamp": 431,
-      "speaker": "Izzy",
-      "text": "Squeaky squeaky squeaky... Um, it's Isabella Kitty and her cat crew and Isabella's cat crew is too."
-    },
-    {
-      "text": "Wow, good thing we have all this help. Now, who's in charge? Is it you, superhero Izzy?",
-      "speaker": "Dad",
-      "timestamp": 443
-    },
-    {
-      "text": "No. No. Actually, I brought another... I brought me... I also brought Mia Mayhem and I also brought, I think so, one more important superhero that's a time stopper one called Mia Mayhem.",
-      "timestamp": 451,
-      "speaker": "Izzy"
-    },
-    {
-      "timestamp": 514,
-      "speaker": "Dad",
-      "text": "A time stopper? Well, what we've got to decide first..."
-    },
-    {
-      "speaker": "Izzy",
-      "timestamp": 522,
-      "text": "So that means she's in charge."
-    },
-    {
-      "text": "Oh, well, Mia Mayhem, we need your help finding the sneaky popper. So let me take everyone out to the scene where we know one of the balloons was popped. And Squeaky led everyone out of the castle and the King said, \"Thank you for your help. We need you to save Balloon World.\" And they all walked down the hall and out the huge front balloon doors.",
-      "speaker": "Dad",
-      "timestamp": 525
-    },
-    {
-      "timestamp": 557,
-      "speaker": "Izzy",
-      "text": "I have an idea, says Kitty. Um, it's that we just like the merry-go-round at the zoo, we can cover it up with plastic."
-    },
-    {
-      "text": "\"I don't think that would really work,\" said Mia Mayhem.",
-      "speaker": "Dad",
-      "timestamp": 610
-    },
-    {
-      "text": "\"Why not?\" said Squeaky the balloon dog.",
-      "timestamp": 614,
-      "speaker": "Izzy"
-    },
-    {
-      "timestamp": 617,
-      "speaker": "Dad",
-      "text": "\"Because if it had really sharp claws, then it would break the plastic.\""
-    },
-    {
-      "text": "Oh.",
-      "speaker": "Izzy",
-      "timestamp": 624
-    },
-    {
-      "timestamp": 625,
-      "speaker": "Dad",
-      "text": "You're right. We might need to find some other solution."
-    },
-    {
-      "text": "Or we could catch the one in the net and bring him to Kitty's special office for talking to people.",
-      "speaker": "Izzy",
-      "timestamp": 631
-    },
-    {
-      "text": "Oh, I see. That's another interesting idea. Well, let me show you right here across the street from the castle, there's a balloon farm where they grow lots of balloon fruits and vegetables. And right here in this row of balloon strawberries, don't they look delicious? They're like strawberries, they're bright red with green tops, but they're balloons actually. There's one here that's all in little tatters. It's not a balloon anymore because someone popped it. Now, we better look around for clues and see what we can find.",
-      "timestamp": 650,
-      "speaker": "Dad"
-    },
-    {
-      "text": "Found some footprints, said Kitty. Look, they lead that way!",
-      "timestamp": 731,
-      "speaker": "Izzy"
-    },
-    {
-      "timestamp": 737,
-      "speaker": "Dad",
-      "text": "Aha! Let's go that way."
-    },
-    {
-      "speaker": "Izzy",
-      "timestamp": 741,
-      "text": "Through a door and up the stairs, through a door and in then out, then enter then through, then over and then it disappeared."
-    },
-    {
-      "speaker": "Dad",
-      "timestamp": 751,
-      "text": "Huh! What disappeared?"
-    },
-    {
-      "timestamp": 753,
-      "speaker": "Izzy",
-      "text": "The popper."
-    },
-    {
-      "timestamp": 754,
-      "speaker": "Dad",
-      "text": "Oh, there's no sneaky popper to be found. And Squeaky the balloon dog said..."
-    },
-    {
-      "speaker": "Izzy",
-      "timestamp": 802,
-      "text": "And then she saw someone that had very sharp claws and Kitty caught it. That's what Kitty did at first. And then she tied it up in a knot. Oh. And then she brought to a special office in her house and said, \"Balloon popper.\" And then what did it say?"
-    },
-    {
-      "speaker": "Dad",
-      "timestamp": 826,
-      "text": "\"Meow meow. Who are you? I'm no balloon popper. I'm just a baby kitten.\""
-    },
-    {
-      "text": "Well, if you're a baby kitten, then you'll definitely... this is balloon world and all the balloons are trying to like protect this place because definitely the poppers... the kings want to know that... wants to know what you are, what you are, what's your owner, then we're going to have to return you to your owner.",
-      "speaker": "Izzy",
-      "timestamp": 835
-    },
-    {
-      "text": "\"Meow meow. But I'm just a kitten and I like to play with things and bat them around with my paws. And sometimes I scratch them by accident, but I didn't mean to. Like one time I was playing with a big beautiful strawberry and then went... pop. You know, now that I mention it, it kind of is a kind of pop sound.\"",
-      "timestamp": 927,
-      "speaker": "Dad"
-    },
-    {
-      "text": "It's a balloon.",
-      "speaker": "Izzy",
-      "timestamp": 947
-    },
-    {
-      "timestamp": 949,
-      "speaker": "Dad",
-      "text": "\"Oh my goodness, maybe I am the sneaky popper. Oh no, I'm so sorry. What can I do to make it better?\""
-    },
-    {
-      "speaker": "Izzy",
-      "timestamp": 958,
-      "text": "Isabella is a really good yarn player and she's got a lot of yarn and a rainbow snake and toy mice and the snow's getting melted that... um... we... you can take for some icies outside. So first she has a really long white string. So there's your white string. pop pop pop pop pop. There's your rainbow snake, there's your toy mouse."
-    },
-    {
-      "speaker": "Dad",
-      "timestamp": 1039,
-      "text": "And then there was a knock at the door... knock knock knock. That's the mice."
-    },
-    {
-      "text": "And Squeaky the balloon dog said, \"Excuse me, I hear a lot of commotion in there.\"",
-      "timestamp": 1043,
-      "speaker": "Izzy"
-    },
-    {
-      "speaker": "Izzy",
-      "timestamp": 1048,
-      "text": "We're just talking to the balloon popper who's a kitten I figured out. She was a kitten."
-    },
-    {
-      "speaker": "Dad",
-      "timestamp": 1056,
-      "text": "\"It was just a kitten all along,\" said Squeaky the balloon dog. \"Thank goodness. And what are we going to do with her so she doesn't pop our balloons anymore?\""
-    },
-    {
-      "text": "I just gave her some extra white string and stuff.",
-      "speaker": "Izzy",
-      "timestamp": 1102
-    },
-    {
-      "text": "\"Oh, that's a good solution. Let's go tell the King.\" And so they all went back to the balloon castle and the King of Balloon World said to them, \"Welcome everyone.\"",
-      "timestamp": 1109,
-      "speaker": "Dad"
-    },
-    {
-      "text": "Well, we did save itself. We gave the... and it was a kitten all along!",
-      "speaker": "Izzy",
-      "timestamp": 1121
-    },
-    {
-      "timestamp": 1130,
-      "speaker": "Dad",
-      "text": "\"The sneaky popper was a kitten all along!\""
-    },
-    {
-      "timestamp": 1134,
-      "speaker": "Izzy",
-      "text": "So I gave her some string that she's happily playing with."
-    },
-    {
-      "timestamp": 1141,
-      "speaker": "Dad",
-      "text": "\"What a wonderful solution to the problem. Thank you, Mia Mayhem, Superhero Izzy, Seeker, Uncle Bill, Kitty and her cat crew, and all the others including Squeaky the balloon dog who helped to save Balloon World. And to thank you, I will give you each a balloon of the color of your choosing to take home with you. And now I say goodbye.\""
-    },
-    {
-      "speaker": "Dad",
-      "timestamp": 1208,
-      "text": "And so they each got their own balloon to take home as a thank you gift from the King of Balloon World. And that's the end of our story."
-    },
-    {
-      "speaker": "Izzy",
-      "timestamp": 1217,
-      "text": "Now I go first, no shovel first."
-    },
-    {
       "text": "Okay.",
-      "timestamp": 1221,
-      "speaker": "Dad"
+      "timestamp": 220.12
+    },
+    {
+      "speaker": "Dad",
+      "text": "It, the problem is that we have here in Balloon World a sneaky popper. Do you know what that is?",
+      "timestamp": 220.9
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Who?",
+      "timestamp": 231.98
+    },
+    {
+      "speaker": "Dad",
+      "text": "It's a someone mysterious who sneaks around, and you know what they do.",
+      "timestamp": 233.24
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Who?",
+      "timestamp": 239.08
+    },
+    {
+      "speaker": "Dad",
+      "text": "They pop balloons.",
+      "timestamp": 239.84
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Who's that?",
+      "timestamp": 242.5
+    },
+    {
+      "speaker": "Dad",
+      "text": "We don't know. That's what you need, we need your help with, to find the sneaky popper.",
+      "timestamp": 243.94
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Isabella, Kitty, we need your help. There's a balloon popper.",
+      "timestamp": 251.56
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh, here we come,\" says Kitty. And before they knew it, they heard running down the hallway of the Balloon Castle Kitty and her entire cat crew and Boom-",
+      "timestamp": 257.33
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Um, um, um",
+      "timestamp": 270.18
+    },
+    {
+      "speaker": "Dad",
+      "text": "... Zooming",
+      "timestamp": 271.14
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... Squeaky, Squeaky, Squeaky, um, um, um, it's Isabella and Kitty and her cat crew and Isabella's cat crew is too.",
+      "timestamp": 271.68
+    },
+    {
+      "speaker": "Dad",
+      "text": "Wow, good thing we have all this help. Now, who's in charge? Is it you, Superhero Izzy?",
+      "timestamp": 283.14
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No, no, actually, I brought another, um, I brought me, um, um, I also brought Mia Mayhem and I also brought, I think s- uh, one more important superhero that's a time stopper one called Mia Mayhem.",
+      "timestamp": 289.74
+    },
+    {
+      "speaker": "Dad",
+      "text": "A time stopper. \"Well, what we've got to decide first,\" says Squeaky-",
+      "timestamp": 316.14
+    },
+    {
+      "speaker": "Izzy",
+      "text": "So that means she's in charge",
+      "timestamp": 322.21
+    },
+    {
+      "speaker": "Dad",
+      "text": "... \"Oh, well, Mia Mayhem-",
+      "timestamp": 325.14
+    },
+    {
+      "speaker": "Izzy",
+      "text": "That's right. Yeah, well",
+      "timestamp": 326.84
+    },
+    {
+      "speaker": "Dad",
+      "text": "... we need your help finding the sneaky popper. So let me take everyone out to the scene where we know one of the balloons was popped.\" And Squeaky led everyone out of the castle, and the king said, \"Thank you for your help. We need you to save Balloon World.\"",
+      "timestamp": 328.08
+    },
+    {
+      "speaker": "Dad",
+      "text": "And they all walked down the hall and out the huge front balloon doors.",
+      "timestamp": 352.2
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"I've got an idea,\" says Kitty. \"Um, um, it's that we, just like the merry-go-round at the zoo, we can cover it up with plastic.\" \"I don't think that would really work,\" said Mia Mayhem.",
+      "timestamp": 355.36
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Why not?\" said Squeaky the Balloon Dog.",
+      "timestamp": 372.67
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"'Cause if it had really sharp claws, then it would break the plastic.\"",
+      "timestamp": 375.41
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh. You're right. We might need to find some other solution.\"",
+      "timestamp": 384.84
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"Or we could catch the one in the net and, um, bring him to, um, Kitty's special office for talking to people.\"",
+      "timestamp": 390.9
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh, I see. That's another interesting idea. Well, let me show you right here across the street from the castle, there's a balloon farm where they grow lots of balloon fruits and vegetables. And right here in this row of balloon strawberries, you can see.",
+      "timestamp": 411.06
+    },
+    {
+      "speaker": "Dad",
+      "text": "Don't they look delicious? They're like strawberries. They're bright red with green tops, but they're balloons actually. There's one here that's all in little tatters. It's not a balloon anymore because someone popped it. Now, we better look around for clues.",
+      "timestamp": 429.51
+    },
+    {
+      "speaker": "Dad",
+      "text": "Let's see what we can find.\"",
+      "timestamp": 448.53
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"Found some footprints,\" said Kitty. \"Look, they lead that way.\"",
+      "timestamp": 450.47
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Ah, let's go that way.\"",
+      "timestamp": 454.91
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Through a door and up the stairs, through a door and in the, then out, then enter, then through, then over, then it disappeared.",
+      "timestamp": 456.21
+    },
+    {
+      "speaker": "Dad",
+      "text": "What disappeared?",
+      "timestamp": 471.61
+    },
+    {
+      "speaker": "Izzy",
+      "text": "The popper.",
+      "timestamp": 473.29
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, there's no sneaky popper to be found. And Squeaky the Balloon Dog said-",
+      "timestamp": 474.79
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And then she saw someone that had very sharp claws and she catched it. That's what Kitty did-",
+      "timestamp": 480.67
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh",
+      "timestamp": 490.91
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... at first, and then she tied it up in a knot.",
+      "timestamp": 491.41
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh.",
+      "timestamp": 495.89
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And then she got to a special office in her house and said, \"Balloon popper.\" And then what did it say?",
+      "timestamp": 496.95
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Meow, meow.\"",
+      "timestamp": 506.7
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"Who are you?\"",
+      "timestamp": 508.36
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"I'm no balloon popper. I'm just a baby kitten.\"",
+      "timestamp": 509.3
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"Hmm. Well, if you're a baby kitten, then you definitely don't... This is Balloon World and all the balloons are, um, are trying to, like, protect this place 'cause definitely the poppers, um, uh, the king wants to know that, wants to know what, um, you, what you are, what you are, what's your owner.",
+      "timestamp": 513.74
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Then we're gonna have to return you to your owner.\"",
+      "timestamp": 563.61
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Meow, meow, but I'm just a kitten. I like to play with things, bat them around with my paws, and sometimes I scratch them by accident, but I didn't mean to. Like, one time I was playing with a big beautiful strawberry and then went . You know, now that I mention it, it kind of is a kind of pop sound.\"",
+      "timestamp": 567.27
+    },
+    {
+      "speaker": "Izzy",
+      "text": "It's a balloon.",
+      "timestamp": 587.76
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh my goodness. Maybe I am the sneaky popper. Oh, no. I'm so sorry. What can I do to make it better?\"",
+      "timestamp": 589.32
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Isabella is a really good yarn player and she's got a lot of yarn-",
+      "timestamp": 596.81
+    },
+    {
+      "speaker": "Dad",
+      "text": "Ooh",
+      "timestamp": 605.07
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... and a rainbow snake, a toy mouse-",
+      "timestamp": 605.08
+    },
+    {
+      "speaker": "Dad",
+      "text": "Ooh",
+      "timestamp": 608.21
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... and the snow's getting melted down. Um, we, um, you can take her some micey's outside. So first, she has a really long white string. So there's your white string.",
+      "timestamp": 608.51
+    },
+    {
+      "speaker": "Dad",
+      "text": "Pop, pop, pop, pop, pop. Oh.",
+      "timestamp": 624.09
+    },
+    {
+      "speaker": "Izzy",
+      "text": "There's your rainbow snake.",
+      "timestamp": 625.75
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh.",
+      "timestamp": 627.03
+    },
+    {
+      "speaker": "Izzy",
+      "text": "There's your toy mouse.",
+      "timestamp": 627.35
+    },
+    {
+      "speaker": "Dad",
+      "text": "Jeez, jeez, jeez, jeez, jeez.",
+      "timestamp": 628.85
+    },
+    {
+      "speaker": "Izzy",
+      "text": "There, and there is your, um, and then she... Da, da, da, da.",
+      "timestamp": 629.54
+    },
+    {
+      "speaker": "Dad",
+      "text": "And then there was a knock at the door.",
+      "timestamp": 639.35
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Got some mice.",
+      "timestamp": 641.92
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Squeaky the Balloon Dog said, \"Excuse me. I hear a lot of commotion in there.\"",
+      "timestamp": 643.21
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"Um, we're just talking to the balloon popper who's a kitten, I figured out. She was a kitten.\"",
+      "timestamp": 647.6
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"It was just a kitten all along,\" said Squeaky the Balloon Dog. \"Thank goodness. And what are we gonna do with her so she doesn't pop our balloons anymore?\"",
+      "timestamp": 655.38
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"Um, I just gave her some extra white string and stuff.\"",
+      "timestamp": 662.51
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh, that's a good solution. Let's go tell the king.\" And so they all went back to the balloon castle, and the King of Balloon World said to them, \"Welcome, everyone.\"",
+      "timestamp": 669.48
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"Well, we, um, did save itself. We gave the... And it was a kitten all along.\"",
+      "timestamp": 681.57
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"The sneaky popper was a kitten all along.\"",
+      "timestamp": 690.3
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"So-",
+      "timestamp": 694.47
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Thank you\"",
+      "timestamp": 695.89
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... I gave her some string that she's happily playing with.\"",
+      "timestamp": 696.08
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"What a wonderful solution to the problem. Thank you, uh, Mia Mayhem, Superhero Izzy, Seeker, Uncle Bill, Kitty and her cat crew, and all the others, including Squeaky the Balloon Dog, who helped to save Balloon World. And to thank you, I will give you each a balloon of the color of your choosing to take home with you.",
+      "timestamp": 700.41
+    },
+    {
+      "speaker": "Dad",
+      "text": "And now I say goodbye.\" And so they each got their own balloon to take home as a thank you gift from the King of Balloon World. And that's the end of our story.",
+      "timestamp": 725.05
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Oh, I go first. Oh, no. Shadow puppet.",
+      "timestamp": 738.73
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay.",
+      "timestamp": 741.89
+    },
+    {
+      "speaker": "Izzy",
+      "text": "There's mine.",
+      "timestamp": 753.53
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay. Very nice",
+      "timestamp": 761.71
     }
   ],
   "characters": [
@@ -514,7 +664,19 @@
       "description": "A room in Kitty's house used for questioning suspects and finding solutions."
     }
   ],
-  "wordCount": 1454,
-  "izzyWordCount": 529,
-  "dadWordCount": 925
+  "wordCount": 1527,
+  "izzyWordCount": 581,
+  "dadWordCount": 946,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T15:24:41.795Z",
+    "speakerMap": {
+      "speaker_0": "Izzy",
+      "speaker_1": "Dad"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "low"
+  }
 }

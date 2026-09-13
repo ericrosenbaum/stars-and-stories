@@ -6,298 +6,413 @@
   "audioFilename": "Cornell St 106.m4a",
   "highlightQuote": {
     "text": "They flap! Flap, flap, flap, flap, flap, flap, flap. That means flying.",
-    "timestamp": 62
+    "timestamp": 61.96
   },
   "transcript": [
     {
-      "text": "I'm ready.",
       "speaker": "Izzy",
-      "timestamp": 3
-    },
-    {
-      "timestamp": 5,
-      "speaker": "Izzy",
-      "text": "Stars and stars, please gather stars."
-    },
-    {
-      "timestamp": 11,
-      "speaker": "Dad",
-      "text": "Do you want to turn off the light?"
-    },
-    {
-      "speaker": "Izzy",
-      "timestamp": 13,
-      "text": "Yeah."
+      "text": "Now I'm ready.",
+      "timestamp": 2.28
     },
     {
       "speaker": "Dad",
-      "timestamp": 22,
-      "text": "There's the stars. All right. Since where do you want to sit? I want to sit in a lap."
+      "text": "Okay.",
+      "timestamp": 4.66
     },
     {
       "speaker": "Izzy",
-      "timestamp": 25,
-      "text": "I want to sit in your lap."
+      "text": "Time to... We got our stars. Are you-",
+      "timestamp": 5.48
     },
     {
-      "text": "Oh good. I'll sit right here where you're standing and then you can go on my lap.",
-      "timestamp": 27,
-      "speaker": "Dad"
+      "speaker": "Dad",
+      "text": "Do you want to turn off the light?",
+      "timestamp": 11.58
     },
     {
-      "text": "Dimitar?",
       "speaker": "Izzy",
-      "timestamp": 35
+      "text": "Yeah. So, bootchy, bootchy, bootchy, bootchy.",
+      "timestamp": 14.38
     },
     {
+      "speaker": "Dad",
+      "text": "Okay. There's the stars. All right.",
+      "timestamp": 20.14
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Can... Where do you want to sit? I want to sit in your lap.",
+      "timestamp": 22.64
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, good. I'll sit right here, where you're standing, and then you can go right in my lap.",
+      "timestamp": 27.52
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Dimitar.",
+      "timestamp": 34.63
+    },
+    {
+      "speaker": "Dad",
       "text": "Yes?",
-      "timestamp": 36,
-      "speaker": "Dad"
+      "timestamp": 36.1
     },
     {
+      "speaker": "Izzy",
       "text": "Dimitar's mother said, \"Dimitar, it's another school day.\"",
-      "speaker": "Izzy",
-      "timestamp": 37
-    },
-    {
-      "text": "Oh boy!",
-      "timestamp": 42,
-      "speaker": "Dad"
-    },
-    {
-      "text": "Let's go to Cadasori.",
-      "timestamp": 44,
-      "speaker": "Izzy"
-    },
-    {
-      "text": "Okay. Got to pack your backpack.",
-      "timestamp": 46,
-      "speaker": "Dad"
-    },
-    {
-      "text": "Oh okay, backpack, backpack. Also your lunchbox.",
-      "speaker": "Izzy",
-      "timestamp": 48
-    },
-    {
-      "text": "Yep. Okay, I think I got everything. Let's go. Now, how do they get there? Do they take a car or do they fly or something else?",
-      "speaker": "Dad",
-      "timestamp": 52
-    },
-    {
-      "timestamp": 62,
-      "speaker": "Izzy",
-      "text": "They flap! Flap, flap, flap, flap, flap, flap, flap. That means flying."
-    },
-    {
-      "timestamp": 68,
-      "speaker": "Dad",
-      "text": "And what do they see on their way to Cadasori?"
-    },
-    {
-      "speaker": "Izzy",
-      "timestamp": 73,
-      "text": "Ginger, Garfield, and Alexander and Jane and Ginger."
+      "timestamp": 36.8
     },
     {
       "speaker": "Dad",
-      "timestamp": 81,
-      "text": "And what are they doing?"
+      "text": "Oh, boy.",
+      "timestamp": 42.12
     },
     {
-      "timestamp": 83,
       "speaker": "Izzy",
-      "text": "They're just driving."
+      "text": "\"Let's go to Catasorry.\"",
+      "timestamp": 43.52
     },
     {
       "speaker": "Dad",
-      "timestamp": 85,
-      "text": "They drive to Cadasori, I see. Now who drives the car?"
+      "text": "Okay.",
+      "timestamp": 45.6
     },
     {
-      "text": "Jane's the mother.",
       "speaker": "Izzy",
-      "timestamp": 91
+      "text": "You gotta pack your backpack.",
+      "timestamp": 46.44
     },
     {
-      "timestamp": 93,
       "speaker": "Dad",
-      "text": "Oh, Jane's the mother, I see. And who is faster? The flying dragonettes or the driving cats?"
+      "text": "Oh, okay. Backpack, backpack.",
+      "timestamp": 48.14
     },
     {
+      "speaker": "Izzy",
+      "text": "Also your lunchbox.",
+      "timestamp": 49.74
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yep. Okay, I think I got everything. Let's go. Now, how do they get there? Do they take a car, or do they fly or something else?",
+      "timestamp": 51.48
+    },
+    {
+      "speaker": "Izzy",
+      "text": "They flap.",
+      "timestamp": 61.96
+    },
+    {
+      "speaker": "Dad",
+      "text": "Flap, flap, flap, flap, flap, flap, flap, flap.",
+      "timestamp": 63.64
+    },
+    {
+      "speaker": "Izzy",
+      "text": "That means flying.",
+      "timestamp": 65.68
+    },
+    {
+      "speaker": "Dad",
+      "text": "And what do they see on their way to Catasorry?",
+      "timestamp": 69.05
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Ginger, Garfield-",
+      "timestamp": 72.58
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh",
+      "timestamp": 76.66
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... and Alexander, and Jane, and Ginger.",
+      "timestamp": 76.86
+    },
+    {
+      "speaker": "Dad",
+      "text": "And what are they doing?",
+      "timestamp": 80.8
+    },
+    {
+      "speaker": "Izzy",
+      "text": "They're just driving.",
+      "timestamp": 82.36
+    },
+    {
+      "speaker": "Dad",
+      "text": "They drive to Catasorry? I see. Now, who drives the car?",
+      "timestamp": 85.5
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Jane, the mother.",
+      "timestamp": 91.54
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, Jane's the mother. I see.",
+      "timestamp": 92.96
+    },
+    {
+      "speaker": "Izzy",
+      "text": "She drives.",
+      "timestamp": 95
+    },
+    {
+      "speaker": "Dad",
+      "text": "And who is faster, um, the flying dragonets or the driving cats?",
+      "timestamp": 96.24
+    },
+    {
+      "speaker": "Izzy",
       "text": "The cats.",
-      "timestamp": 102,
-      "speaker": "Izzy"
+      "timestamp": 101.96
     },
     {
       "speaker": "Dad",
-      "timestamp": 103,
-      "text": "The cats are faster? Oh."
-    },
-    {
-      "text": "No, no, they are slower, the dragons are faster.",
-      "speaker": "Izzy",
-      "timestamp": 105
-    },
-    {
-      "text": "And so, Dimitar and his mom went flap, flap, flap through the sky and they flew right over Jane's car because she was driving all the other cats to Cadasori. And then they landed. And where do they land at Cadasori?",
-      "timestamp": 109,
-      "speaker": "Dad"
+      "text": "The cats are faster? Oh. And s-",
+      "timestamp": 102.94
     },
     {
       "speaker": "Izzy",
-      "timestamp": 132,
-      "text": "In the parking lot."
-    },
-    {
-      "timestamp": 134,
-      "speaker": "Dad",
-      "text": "They land in the parking lot."
-    },
-    {
-      "text": "And then and then everyone was in a hurry at the same time with Dimitar.",
-      "timestamp": 136,
-      "speaker": "Izzy"
-    },
-    {
-      "timestamp": 142,
-      "speaker": "Dad",
-      "text": "Oh, so what happened? What were they in a hurry for?"
-    },
-    {
-      "text": "School!",
-      "speaker": "Izzy",
-      "timestamp": 148
-    },
-    {
-      "timestamp": 150,
-      "speaker": "Dad",
-      "text": "Oh, they were in a hurry for school. Now what's it like when they get to the door? What happens?"
-    },
-    {
-      "timestamp": 157,
-      "speaker": "Izzy",
-      "text": "The door opens and there pops Izzy."
-    },
-    {
-      "text": "Oh, Izzy's there? Is Izzy the teacher?",
-      "timestamp": 162,
-      "speaker": "Dad"
-    },
-    {
-      "timestamp": 164,
-      "speaker": "Izzy",
-      "text": "Yeah. \"Hello friends!\""
-    },
-    {
-      "timestamp": 169,
-      "speaker": "Dad",
-      "text": "Oh, \"Hi teacher Izzy,\" said Dimitar. What special things are we going to do at Cadasori today?"
-    },
-    {
-      "text": "Go to the planet map.",
-      "speaker": "Izzy",
-      "timestamp": 182
+      "text": "No, no, they are slower. The dragons are faster.",
+      "timestamp": 106.22
     },
     {
       "speaker": "Dad",
-      "timestamp": 185,
-      "text": "Yeah, we did that yesterday. That was great. Or maybe it was the day before."
+      "text": "And so Dimitar and his mom went flap, flap, flap through the sky, and they- ... flew right over Jane's car, 'cause she was driving all the other cats to Catasorry, and then they landed. And where did they land at Catasorry?",
+      "timestamp": 110.14
     },
     {
       "speaker": "Izzy",
-      "timestamp": 190,
-      "text": "Hmm, Dimitar, what work would you like to do? Necklace?"
-    },
-    {
-      "text": "Oh yes, some beadwork would be great. Maybe snow sculptures or snow-canos or...",
-      "speaker": "Dad",
-      "timestamp": 198
-    },
-    {
-      "timestamp": 205,
-      "speaker": "Izzy",
-      "text": "There isn't snow-canos in the classroom. Maybe when we go on the playground."
+      "text": "In the parking lot.",
+      "timestamp": 132.16
     },
     {
       "speaker": "Dad",
-      "timestamp": 209,
-      "text": "On the playground. Oh, okay. Or paper flowers? Could we do that? Or gratitude vessels?"
-    },
-    {
-      "timestamp": 220,
-      "speaker": "Izzy",
-      "text": "Hmm, what kind of work might we do today, do you think? We might do beadwork. Let's do beadwork! These beads aren't shiny, but they're cool."
-    },
-    {
-      "text": "I do like beads, says Dimitar. Okay, what do I do first?",
-      "speaker": "Dad",
-      "timestamp": 236
+      "text": "They land in the parking lot.",
+      "timestamp": 133.32
     },
     {
       "speaker": "Izzy",
-      "timestamp": 250,
-      "text": "First rule is to please, please someone has to cut the string."
+      "text": "And then, and then everyone was in a hurry at the same time as Dimitar.",
+      "timestamp": 135.6
     },
     {
       "speaker": "Dad",
-      "timestamp": 257,
-      "text": "Ah, well you know dragonettes have very sharp teeth. I could just bite it. Here, watch this. Chomp! And Dimitar bit the string right at the right spot with his sharp teeth."
+      "text": "Oh, so what happened? What were they in a hurry for?",
+      "timestamp": 144.22
     },
     {
       "speaker": "Izzy",
-      "timestamp": 269,
-      "text": "But that's too loud, Dimitar. Well, anyway we got to get a real piece."
+      "text": "School.",
+      "timestamp": 149.44
     },
     {
-      "text": "Oh, no we're not going to do real beads during stars and stories, let's just pretend, okay?",
       "speaker": "Dad",
-      "timestamp": 276
+      "text": "Oh, they were in a hurry for school. Now, what's it like when they get to the door? What happens?",
+      "timestamp": 150.26
     },
     {
       "speaker": "Izzy",
-      "timestamp": 282,
-      "text": "But we gotta do beads!"
+      "text": "The door opens. There pops Izzy.",
+      "timestamp": 156.26
     },
     {
+      "speaker": "Dad",
+      "text": "Oh, Izzy's there.",
+      "timestamp": 161.56
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah.",
+      "timestamp": 163.84
+    },
+    {
+      "speaker": "Dad",
+      "text": "Is, is Izzy the teacher?",
+      "timestamp": 163.88
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah.",
+      "timestamp": 165.72
+    },
+    {
+      "speaker": "Dad",
+      "text": "Mm-hmm.",
+      "timestamp": 166.82
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"Hello, friends.\"",
+      "timestamp": 168.86
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh, uh, hi, Teacher Izzy,\" said Dimitar.",
+      "timestamp": 170.99
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"Hi.\"",
+      "timestamp": 173.57
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"What, what special things are we gonna do at, at Catasorry today?\"",
+      "timestamp": 175.19
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"We did a planet map.\"",
+      "timestamp": 180.42
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Yeah, we did that yesterday. That was great. Or maybe it was the day before.\"",
+      "timestamp": 184.06
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"Hmm, Dimitar, what work would you like to do? Necklace?\"",
+      "timestamp": 189.24
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh, yes, some bead work would be great. Maybe snow sculptures or snowcanos or, um-",
+      "timestamp": 196.54
+    },
+    {
+      "speaker": "Izzy",
+      "text": "There isn't snowcanos in the classroom. Maybe when... Maybe there will be when we go on the playground.",
+      "timestamp": 202.6
+    },
+    {
+      "speaker": "Dad",
+      "text": "On the playground? Oh, okay. Or, um, paper flowers. Could we do that, or gratitude vessels?",
+      "timestamp": 209.22
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Hmm.",
+      "timestamp": 218.86
+    },
+    {
+      "speaker": "Dad",
+      "text": "What kind of work might we do today, do you think?",
+      "timestamp": 219.78
+    },
+    {
+      "speaker": "Izzy",
+      "text": "We might do... We'll do bead work. Let's do bead work.",
+      "timestamp": 222.06
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, okay.",
+      "timestamp": 227.86
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Here we go. These beads aren't shiny, but they're cool.",
+      "timestamp": 228.7
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"I do like beads,\" says Dimitar. Okay, what do I do first?",
+      "timestamp": 236.13
+    },
+    {
+      "speaker": "Izzy",
+      "text": "The first rule is to please, please, someone has to cut off the string.",
+      "timestamp": 248.52
+    },
+    {
+      "speaker": "Dad",
+      "text": "Ah. Well, you know, we dragonets have very sharp teeth. I could just bite it. Here, watch this. Chomp. And Dimitar bit the string right at the right spot with his sharp teeth.",
+      "timestamp": 256.52
+    },
+    {
+      "speaker": "Izzy",
+      "text": "But that's too loud, Dimitar. Well, w- anyway, gotta get a real piece.",
+      "timestamp": 268.28
+    },
+    {
+      "speaker": "Dad",
+      "text": "Huh? Oh, no, we're not gonna do real beads during Stars and Stories, Iz. Let's just pretend, okay?",
+      "timestamp": 275.94
+    },
+    {
+      "speaker": "Izzy",
+      "text": "But, but we gotta do beads.",
+      "timestamp": 282.52
+    },
+    {
+      "speaker": "Dad",
       "text": "Well, we're telling a story about Dimitar doing beads. We're not really doing beads.",
-      "timestamp": 286,
-      "speaker": "Dad"
+      "timestamp": 286.14
     },
     {
-      "text": "But I want to do beads. I'm disappointed. I just want to do beads.",
       "speaker": "Izzy",
-      "timestamp": 291
+      "text": "But I want to do beads.",
+      "timestamp": 291.06
     },
     {
-      "timestamp": 301,
       "speaker": "Dad",
-      "text": "It's interesting how the flashlight makes the beads glow, I like that. Well, we could do a little beading in the morning if there's time."
+      "text": "Yeah, I hear you.",
+      "timestamp": 293.86
     },
     {
-      "text": "No, I want to do beads now!",
       "speaker": "Izzy",
-      "timestamp": 314
+      "text": "I'm disappointed.",
+      "timestamp": 294.42
     },
     {
-      "text": "Do you want to do that instead of the rest of stars and stories?",
       "speaker": "Dad",
-      "timestamp": 317
+      "text": "Yeah, I hear that.",
+      "timestamp": 296.52
     },
     {
-      "timestamp": 320,
       "speaker": "Izzy",
-      "text": "Yeah."
+      "text": "Oh. Just wanna do beads.",
+      "timestamp": 299.34
     },
     {
-      "text": "Okay, we'll stop stars and stories.",
       "speaker": "Dad",
-      "timestamp": 322
+      "text": "Oh, it's interesting how the flashlight makes the beads glow like that. Um, well, we could do a little beading in the morning if there's time.",
+      "timestamp": 302.18
     },
     {
       "speaker": "Izzy",
-      "timestamp": 324,
-      "text": "As long as we can keep talking to Dimitar. Dimitar..."
+      "text": "No, I want to do beads now.",
+      "timestamp": 311.44
+    },
+    {
+      "speaker": "Dad",
+      "text": "Do you want to do that instead of the rest of Stars and Stories?",
+      "timestamp": 314.46
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah.",
+      "timestamp": 317.98
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay. We'll stop Stars and Stories.",
+      "timestamp": 318.5
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Only if we can keep talking with Dimitar. Dimitar-",
+      "timestamp": 323.36
     }
   ],
   "characters": [
@@ -359,7 +474,19 @@
       "description": "An outdoor area where students might make snow-canos."
     }
   ],
-  "wordCount": 613,
-  "izzyWordCount": 220,
-  "dadWordCount": 393
+  "wordCount": 659,
+  "izzyWordCount": 234,
+  "dadWordCount": 425,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T15:24:00.049Z",
+    "speakerMap": {
+      "speaker_0": "Izzy",
+      "speaker_1": "Dad"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "high"
+  }
 }

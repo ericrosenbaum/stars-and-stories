@@ -6,73 +6,78 @@
   "audioFilename": "Cornell St 102.m4a",
   "highlightQuote": {
     "text": "Music.",
-    "timestamp": 64
+    "timestamp": 64.46
   },
   "transcript": [
     {
-      "text": "Oh, I have a sore ear.",
       "speaker": "Izzy",
-      "timestamp": 0
+      "text": "I have a sore ear.",
+      "timestamp": 0.46
     },
     {
+      "speaker": "Dad",
       "text": "You have a sore ear? Okay. Well, Dr. Izzy will take a look.",
+      "timestamp": 4.7
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Can you-",
+      "timestamp": 12.58
+    },
+    {
       "speaker": "Dad",
-      "timestamp": 4
+      "text": "Oh, and here's your ear-o-scope.",
+      "timestamp": 14.28
     },
     {
-      "timestamp": 12,
       "speaker": "Izzy",
-      "text": "Can you..."
+      "text": "No, the, no the blue one's the ear-o-scope.",
+      "timestamp": 17.28
     },
     {
-      "text": "And here's your earoscope.",
-      "timestamp": 14,
-      "speaker": "Dad"
-    },
-    {
-      "timestamp": 17,
-      "speaker": "Izzy",
-      "text": "No, the blue one's the earoscope."
-    },
-    {
+      "speaker": "Dad",
       "text": "Here you go.",
-      "timestamp": 21,
-      "speaker": "Dad"
+      "timestamp": 21.9
     },
     {
-      "speaker": "Dad",
-      "timestamp": 26,
-      "text": "What did you see, Dr. Izzy?"
-    },
-    {
-      "timestamp": 28,
       "speaker": "Izzy",
-      "text": "I saw that it really was like a bit... definitely needed to come... definitely. Can you remember that one thing?"
+      "text": "There. Yeah, definitely.",
+      "timestamp": 25.22
     },
     {
-      "text": "Oh, the ears.",
       "speaker": "Dad",
-      "timestamp": 54
+      "text": "What did you see, Dr. Izzy?",
+      "timestamp": 27.52
     },
     {
+      "speaker": "Izzy",
+      "text": "I saw that it really was, like, that ... def- definitely needed to, um, defin- Can you remember that last thing?",
+      "timestamp": 28.68
+    },
+    {
+      "speaker": "Dad",
+      "text": "Um, oh, the ears.",
+      "timestamp": 54.62
+    },
+    {
+      "speaker": "Izzy",
       "text": "Yeah, the ears were really sore.",
-      "timestamp": 57,
-      "speaker": "Izzy"
-    },
-    {
-      "text": "Oh yeah, sore ear. What treatment do you recommend?",
-      "timestamp": 60,
-      "speaker": "Dad"
-    },
-    {
-      "text": "Music.",
-      "timestamp": 64,
-      "speaker": "Izzy"
+      "timestamp": 57.92
     },
     {
       "speaker": "Dad",
-      "timestamp": 66,
-      "text": "Music! Okay."
+      "text": "Oh, yeah, sore ear. What treatment do you recommend?",
+      "timestamp": 60.18
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Music.",
+      "timestamp": 64.46
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, music. Okay.",
+      "timestamp": 65.66
     }
   ],
   "characters": [
@@ -94,7 +99,19 @@
       "description": "A medical setting where patients receive examinations and unique prescriptions."
     }
   ],
-  "wordCount": 81,
-  "izzyWordCount": 41,
-  "dadWordCount": 40
+  "wordCount": 89,
+  "izzyWordCount": 46,
+  "dadWordCount": 43,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T15:22:32.448Z",
+    "speakerMap": {
+      "speaker_0": "Izzy",
+      "speaker_1": "Dad"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "high"
+  }
 }

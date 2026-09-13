@@ -6,468 +6,633 @@
   "audioFilename": "Seeker and too many cats.m4a",
   "highlightQuote": {
     "text": "Well, I just... I just can't stop them. Cats are in charge of their bodies.",
-    "timestamp": 304
+    "timestamp": 94.7
   },
   "transcript": [
     {
-      "text": "What should we tell a story about tonight?",
-      "timestamp": 23,
-      "speaker": "Dad"
+      "speaker": "Dad",
+      "text": "Now I'll turn out the light and there's the stars. Okay. What should we tell a story about tonight?",
+      "timestamp": 9.18
     },
     {
-      "text": "You think of one.",
       "speaker": "Izzy",
+      "text": "You think of w- who.",
       "timestamp": 28
     },
     {
-      "text": "Hmm... Seeker and... who else?",
       "speaker": "Dad",
-      "timestamp": 30
+      "text": "Hmm. Seeker and who else?",
+      "timestamp": 31.96
     },
     {
-      "timestamp": 40,
       "speaker": "Izzy",
-      "text": "I said you pick."
+      "text": "I said you pick.",
+      "timestamp": 39.52
     },
     {
-      "timestamp": 41,
       "speaker": "Dad",
-      "text": "Oh, Seeker and me? A story about Seeker and Daddy, that's a silly idea."
+      "text": "Oh, Seeker and me?",
+      "timestamp": 41.46
     },
     {
-      "text": "I don't think so. Maybe our silver cat story cat.",
       "speaker": "Izzy",
-      "timestamp": 46
+      "text": "No.",
+      "timestamp": 43.18
     },
     {
-      "timestamp": 52,
       "speaker": "Dad",
-      "text": "A silver cat story?"
+      "text": "A story about Seeker and Daddy, that's a silly idea.",
+      "timestamp": 43.5
     },
     {
-      "text": "No, no, no. Silver... Actually, what about Scratch Cat and Seeker?",
       "speaker": "Izzy",
-      "timestamp": 54
+      "text": "I don't think so. Maybe our silver cat story, cat.",
+      "timestamp": 45.94
     },
     {
       "speaker": "Dad",
-      "timestamp": 59,
-      "text": "Seeker and Scratch Cat. Well, once upon a time..."
+      "text": "A silver cat story.",
+      "timestamp": 51.18
     },
     {
-      "text": "Ding-dong, said Scratch Cat.",
-      "timestamp": 65,
-      "speaker": "Izzy"
+      "speaker": "Izzy",
+      "text": "No, no, no. Silver, actually, what about Scratch Cat and Seeker?",
+      "timestamp": 53.12
     },
     {
-      "timestamp": 69,
       "speaker": "Dad",
-      "text": "Meow-meow, which means 'Who's there?' said Scratch Cat."
+      "text": "Seeker and Scratch Cat. Well, once upon a time...",
+      "timestamp": 59.24
     },
     {
+      "speaker": "Izzy",
+      "text": "Ding-dong, Scratch Cat.",
+      "timestamp": 65.86
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, meow-meow, \"Which means 'Who's there?'\" said Scratch Cat.",
+      "timestamp": 68.9
+    },
+    {
+      "speaker": "Izzy",
       "text": "Actually, ding-dong.",
-      "timestamp": 73,
-      "speaker": "Izzy"
+      "timestamp": 74.68
     },
     {
-      "text": "Who's there?",
-      "timestamp": 75,
-      "speaker": "Dad"
+      "speaker": "Dad",
+      "text": "\"Who's there?\"",
+      "timestamp": 77.54
     },
     {
+      "speaker": "Izzy",
       "text": "Scratch Cat.",
-      "timestamp": 76,
-      "speaker": "Izzy"
+      "timestamp": 79.42
     },
     {
       "speaker": "Dad",
-      "timestamp": 77,
-      "text": "Oh, Scratch Cat's there. Hello, said Seeker. Come on in, Scratch Cat. Now, I'm happy to have you here because I need your help."
-    },
-    {
-      "text": "What is it? Is it a cat thing?",
-      "timestamp": 94,
-      "speaker": "Izzy"
-    },
-    {
-      "speaker": "Dad",
-      "timestamp": 98,
-      "text": "It's a cat thing. Well, the first cat thing is somebody left me all these kibbles at my house, and I'm a person, so I don't eat kibbles. Do you want any? You cats eat kibbles, right?"
+      "text": "\"Oh, Scratch Cat's there. Hello,\" said Seeker, \"Come on in, Scratch Cat. Now, I'm happy to have you here because I need your help.\"",
+      "timestamp": 80.77
     },
     {
       "speaker": "Izzy",
-      "timestamp": 114,
-      "text": "Yes. Now I know my perfect friends who love eating kibbles: Alexander and Jane."
+      "text": "What is it?",
+      "timestamp": 93.16
     },
     {
-      "timestamp": 127,
-      "speaker": "Izzy",
-      "text": "Hey, Alexander and Jane! Oh, ding-dong Seeker. Here's Silver and Finn, and here's Alexander and Jane."
-    },
-    {
-      "timestamp": 138,
       "speaker": "Dad",
-      "text": "Wow, suddenly my house is just full of cats. How many cats do we have? Let's see. We've got..."
+      "text": "Well-",
+      "timestamp": 94.7
     },
     {
-      "timestamp": 146,
       "speaker": "Izzy",
-      "text": "Oh, and Ginger!"
+      "text": "Is it a cat thing?",
+      "timestamp": 95.16
     },
     {
-      "text": "And Ginger! Oh my goodness, said Seeker.",
       "speaker": "Dad",
-      "timestamp": 147
+      "text": "Is what?",
+      "timestamp": 97.22
     },
     {
+      "speaker": "Izzy",
+      "text": "Is it a cat thing?",
+      "timestamp": 98.2
+    },
+    {
+      "speaker": "Dad",
+      "text": "It's a cat thing. Well, the first cat thing is somebody left me all these kibbles at my house, and I'm a person, so I don't eat kibbles. Do you want any? You'd go, cats eat kibbles, right?",
+      "timestamp": 99.32
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yes.",
+      "timestamp": 114.08
+    },
+    {
+      "speaker": "Dad",
+      "text": "Well, if you're hungry-",
+      "timestamp": 114.78
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And I know my perfect friends who will all eat the kibbles, Alexander and Jane.",
+      "timestamp": 115.48
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh.",
+      "timestamp": 124.02
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"Hey,\" say Alexander and Jane. \"Oh, ding-dong, Seeker.\"",
+      "timestamp": 124.55
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, uh-",
+      "timestamp": 130.98
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"Here's Silver and Finn, and here's Alexander and Jane.\"",
+      "timestamp": 132.32
+    },
+    {
+      "speaker": "Dad",
+      "text": "Wow, suddenly my house is just full of cats. How many cats do we have? Let's see. We've got, um-",
+      "timestamp": 136.66
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Oh, and Ginger.",
+      "timestamp": 144.06
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Gi- oh, my goodness, says Seeker.",
+      "timestamp": 145.6
+    },
+    {
+      "speaker": "Izzy",
       "text": "Oh, and Garfield.",
-      "speaker": "Izzy",
-      "timestamp": 149
-    },
-    {
-      "timestamp": 150,
-      "speaker": "Dad",
-      "text": "Wow, that's a lot of cats. How many have we got? We've got Scratch Cat, that's one, and then..."
-    },
-    {
-      "timestamp": 157,
-      "speaker": "Izzy",
-      "text": "And then also Nana's new cat."
+      "timestamp": 147.48
     },
     {
       "speaker": "Dad",
-      "timestamp": 161,
-      "text": "Oh my gosh, I can't even keep track. Ginger and Garfield, that's three..."
+      "text": "Wow, that's a lot of cats. How many have we got? We've got Scratch Cat, that's one, and then...",
+      "timestamp": 149.08
     },
     {
-      "text": "Alexander and Jane, that's five. And then Ginger and also...",
       "speaker": "Izzy",
-      "timestamp": 167
+      "text": "And then also Nana's new cats.",
+      "timestamp": 156.38
     },
     {
       "speaker": "Dad",
-      "timestamp": 179,
-      "text": "And what are Nana's new cats called? What are their names?"
-    },
-    {
-      "text": "Actually Garfield and Ginger. Oh, Smokey and also Tomcat.",
-      "timestamp": 184,
-      "speaker": "Izzy"
-    },
-    {
-      "text": "Tomcat. Oh, but I thought the other one was going to be named Peewee.",
-      "speaker": "Dad",
-      "timestamp": 190
-    },
-    {
-      "timestamp": 194,
-      "speaker": "Izzy",
-      "text": "Peewee and Tomcat. Yes, although Smokey is a very good name."
+      "text": "Oh, my gosh, I can't even keep track. Ginger and Garfield, that's three.",
+      "timestamp": 159.04
     },
     {
       "speaker": "Izzy",
-      "timestamp": 200,
-      "text": "I think we'll name them Smokey."
-    },
-    {
-      "timestamp": 202,
-      "speaker": "Dad",
-      "text": "And Seeker said, 'Well, have a seat everyone.' And he set up little chairs all around a little table, and on the table, he had put a bowl of kibble. But you know what those cats did?"
-    },
-    {
-      "timestamp": 221,
-      "speaker": "Izzy",
-      "text": "What?"
-    },
-    {
-      "text": "They didn't sit in the chair. They're cats! They ran around meowing and purring and...",
-      "timestamp": 222,
-      "speaker": "Dad"
-    },
-    {
-      "text": "Hey cats! Sit in the chairs, please!",
-      "timestamp": 228,
-      "speaker": "Izzy"
-    },
-    {
-      "text": "And Seeker said, 'You know what? I don't think chairs... I don't think chairs are the right thing for cats. The cats just want to be cats. They're just running around.'",
-      "speaker": "Dad",
-      "timestamp": 233
-    },
-    {
-      "text": "Hey cats, come have your kibble! Kibble time! Leap onto the table to a fresh bin of kibble!",
-      "speaker": "Izzy",
-      "timestamp": 239
+      "text": "And...",
+      "timestamp": 166.34
     },
     {
       "speaker": "Dad",
-      "timestamp": 249,
-      "text": "And the cats all went nom-nom-nom-nom and all the cats nibbled the kibble. And Seeker said, 'Where were we? I was going to tell you about something that you could help me with, Scratch Cat, but now my house is full of cats. So I have a new thing you can help me with.'"
+      "text": "Alexander and Jane, that's five. And then-",
+      "timestamp": 167.22
     },
     {
-      "text": "What is it? Actually, you can tell me. You can tell us.",
-      "timestamp": 269,
-      "speaker": "Izzy"
-    },
-    {
-      "text": "Well, there's too many cats in my house, said Seeker.",
-      "timestamp": 274,
-      "speaker": "Dad"
-    },
-    {
-      "text": "Actually, well the cats will hear you just if you tell it loud enough.",
       "speaker": "Izzy",
-      "timestamp": 278
-    },
-    {
-      "text": "There's too many cats!",
-      "timestamp": 284,
-      "speaker": "Dad"
-    },
-    {
-      "text": "Just if you tell it loud enough.",
-      "speaker": "Izzy",
-      "timestamp": 286
+      "text": "And Ginger and also...",
+      "timestamp": 172
     },
     {
       "speaker": "Dad",
-      "timestamp": 288,
-      "text": "But that's what I'm telling you! There's too many cats! Can you... can you help me get some peace and quiet from all these cats? They're just meowing and purring everywhere, all over my house, said Seeker."
-    },
-    {
-      "text": "Well, I just... I just can't stop them. Cats are in charge of their bodies.",
-      "speaker": "Izzy",
-      "timestamp": 304
-    },
-    {
-      "timestamp": 313,
-      "speaker": "Dad",
-      "text": "Oh, the cats are in charge of their bodies, said Seeker, so we can't just pick them up and carry them out of my house, I guess. What else can we do?"
+      "text": "And, and what are Nana's new cats called? What are their names?",
+      "timestamp": 179.49
     },
     {
       "speaker": "Izzy",
-      "timestamp": 323,
-      "text": "And then, look who came flying except Superhero Izzy!"
+      "text": "Actually, Garfield and Ginger. Oh, Smokey and also Top Cat.",
+      "timestamp": 182.98
     },
     {
-      "text": "Oh, Superhero Izzy! Thank goodness you're here.",
-      "timestamp": 331,
-      "speaker": "Dad"
+      "speaker": "Dad",
+      "text": "Top Cat. Oh, but I thought the other one was gonna be named Pee Wee.",
+      "timestamp": 191.02
     },
     {
       "speaker": "Izzy",
-      "timestamp": 335,
-      "text": "And her cat... and Kitty and Kitty's cat crew!"
+      "text": "Pee Wee and Top Cat.",
+      "timestamp": 196
     },
     {
-      "text": "More cats! Oh no, said Seeker.",
       "speaker": "Dad",
-      "timestamp": 341
-    },
-    {
-      "text": "Actually, but Kitty's cat crew says, 'My cat crew doesn't meow and purr, it talks!'",
-      "speaker": "Izzy",
-      "timestamp": 343
-    },
-    {
-      "timestamp": 353,
-      "speaker": "Dad",
-      "text": "You have a talking cat crew? said Seeker. Well, maybe you can help. Can you introduce me to your cat crew?"
-    },
-    {
-      "timestamp": 361,
-      "speaker": "Izzy",
-      "text": "Pixie, Pumpkin, Figaro, Katsumi."
-    },
-    {
-      "text": "Wow, nice to meet you all. Uh, I'd offer you some kibble, but I'm fresh out because I have a crowd of cats in my house.",
-      "speaker": "Dad",
-      "timestamp": 369
+      "text": "Yes, although Smokey is a very good name.",
+      "timestamp": 198.26
     },
     {
       "speaker": "Izzy",
-      "timestamp": 377,
-      "text": "And then, and then, and then look! And then the mailman delivers one more bag of kibble!"
+      "text": "I think we'll name him Smokey.",
+      "timestamp": 202.22
     },
     {
-      "text": "Oh no, more kibble, said Seeker, for the cat crew.",
-      "timestamp": 387,
-      "speaker": "Dad"
-    },
-    {
-      "text": "The cat... and then the cat crew dig a little hole in the top and eat all the kibble.",
-      "timestamp": 393,
-      "speaker": "Izzy"
-    },
-    {
-      "text": "Oh my goodness, I'm out of kibble again, said Seeker. Well, can anyone help me get all these cats out of my house?",
       "speaker": "Dad",
-      "timestamp": 399
+      "text": "Oh. And Seeker said, \"Well, have a seat, everyone.\" And he set up little chairs all around a little table, and on the table he had put a bowl of kibble. But you know what those cats did?",
+      "timestamp": 204.98
     },
     {
       "speaker": "Izzy",
-      "timestamp": 408,
-      "text": "Now you need to tell us the thing. And then the cats kept quiet."
-    },
-    {
-      "text": "Oh. Thank goodness. It was so noisy with the meowing and the purring, I couldn't think, said Seeker. Now I can think of an idea for how to get these cats out of here.",
-      "speaker": "Dad",
-      "timestamp": 418
-    },
-    {
-      "timestamp": 432,
-      "speaker": "Izzy",
-      "text": "No, I don't think you should get the cats out."
-    },
-    {
-      "speaker": "Dad",
-      "timestamp": 435,
-      "text": "You mean they just live here now? My house is just full of cats? Where am I going to live?"
-    },
-    {
-      "speaker": "Izzy",
-      "timestamp": 442,
-      "text": "I mean, Dad... Seeker, they'll leave after they're done with... with... with all your cat things."
-    },
-    {
-      "timestamp": 453,
-      "speaker": "Dad",
-      "text": "Well, that one's napping on the floor. Oh my gosh, I want to go to bed but there's five cats in my bed. And there's cats climbing up my walls and cats prowling around looking for more food. And look, that cat just opened the cabinet to try to find more kibble, but there's no more kibble, cats! How are we going to get them out of here? Hmm. Should we scoop them up in a net and bring them outside?"
-    },
-    {
-      "text": "No! No! No! We could make a nest with treats! And then Isabella gave her bag of treats to Seeker.",
-      "timestamp": 474,
-      "speaker": "Izzy"
-    },
-    {
-      "speaker": "Dad",
-      "timestamp": 489,
-      "text": "Oh, a bag of treats! That seems useful. And all the cats..."
-    },
-    {
-      "text": "And now, and now, and now Izzy made a nest for them. And then Seeker placed... then all the cats... and then, and then, and then Isabella counted the cats, and then, and then, and then she put the treats.",
-      "speaker": "Izzy",
-      "timestamp": 494
-    },
-    {
-      "text": "Oh. How many treats?",
-      "timestamp": 517,
-      "speaker": "Dad"
-    },
-    {
-      "text": "Seven treats.",
-      "timestamp": 521,
-      "speaker": "Izzy"
-    },
-    {
-      "text": "Seven treats. And I hope that nest that you're making, said Seeker, is outside my house.",
-      "speaker": "Dad",
-      "timestamp": 523
-    },
-    {
-      "timestamp": 529,
-      "speaker": "Izzy",
-      "text": "Actually, it's outside your house. And then the cats ran out the door, ate their treats, stepped into the nest, and then Isabella carried them and carried them away."
-    },
-    {
-      "speaker": "Dad",
-      "timestamp": 542,
-      "text": "Oh my goodness, said Seeker, finally! All the cats are out of my house. Thank goodness. Thanks for your help, Superhero Izzy."
-    },
-    {
-      "speaker": "Izzy",
-      "timestamp": 553,
-      "text": "And then Scratch... and then Scratch Cat just leaped into the house."
-    },
-    {
-      "speaker": "Dad",
-      "timestamp": 558,
-      "text": "Oh, you're back. Welcome back, Scratch Cat."
-    },
-    {
-      "timestamp": 564,
-      "speaker": "Izzy",
-      "text": "Heh heh heh."
-    },
-    {
-      "text": "Well, let's have a nice cup of tea together now that my house isn't full of all those cats anymore, except for just one, that's you. What kind of tea would you like, Scratch Cat?",
-      "speaker": "Dad",
-      "timestamp": 565
-    },
-    {
-      "speaker": "Izzy",
-      "timestamp": 575,
-      "text": "Kibble tea."
-    },
-    {
-      "timestamp": 577,
-      "speaker": "Dad",
-      "text": "Oh, kibble tea. That sounds delicious. I'll make..."
-    },
-    {
-      "timestamp": 580,
-      "speaker": "Izzy",
-      "text": "Actually, wet food."
-    },
-    {
-      "text": "Wet food tea? I'll make a nice pot of wet food tea for you, and I think I'll have some peppermint tea for me, said Seeker. And he made the two pots of tea, and Seeker and Scratch Cat sat down at the table to drink their tea together.",
-      "timestamp": 582,
-      "speaker": "Dad"
-    },
-    {
-      "timestamp": 598,
-      "speaker": "Izzy",
-      "text": "And then why were all the cats there, do you think?"
-    },
-    {
-      "speaker": "Dad",
-      "timestamp": 603,
-      "text": "And Seeker said, 'You know, I wish I knew. Suddenly my house was just full of cats.'"
-    },
-    {
-      "text": "Because they had so... because they thought your house was so cozy that they decided to take a nap everywhere in your house.",
-      "timestamp": 609,
-      "speaker": "Izzy"
-    },
-    {
-      "text": "They were just all over the place. It could have had something to do with all that kibble I had too, but now it's gone because they ate it all up. Well... oh, there's cat hair all over the place. I better sweep that up. Sweep, sweep, sweep, sweep.",
-      "speaker": "Dad",
-      "timestamp": 619
-    },
-    {
       "text": "What?",
-      "speaker": "Izzy",
-      "timestamp": 634
+      "timestamp": 220.98
     },
     {
-      "text": "There was cat... cat hair.",
       "speaker": "Dad",
-      "timestamp": 636
+      "text": "They didn't sit in the chairs. They're cats. They ran around mewing and purring and-",
+      "timestamp": 221.68
     },
     {
+      "speaker": "Izzy",
+      "text": "\"Hey, cats, sit in the chairs, please.\"",
+      "timestamp": 227.36
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Seeker said, \"You know what? I don't think chairs, I don't think chairs are the right thing for cats. The cats just want to be cats. They're just running around.\"",
+      "timestamp": 233.66
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"Hey, cats, come have your kibble.\"",
+      "timestamp": 241.16
+    },
+    {
+      "speaker": "Dad",
+      "text": "And the cats-",
+      "timestamp": 245.22
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"Kibble time. Leap onto the table to a fresh food kibble.\"",
+      "timestamp": 245.45
+    },
+    {
+      "speaker": "Dad",
+      "text": "And the cats all went om-nom, and all the cats nibbled the kibble. And Seeker said, \"Where were we? I was gonna tell you about something that you could help me with, Scratch Cat, but now my house is full of cats, so I have a new thing you can help me with.\"",
+      "timestamp": 251.95
+    },
+    {
+      "speaker": "Izzy",
+      "text": "What is it?",
+      "timestamp": 269.36
+    },
+    {
+      "speaker": "Dad",
+      "text": "Well-",
+      "timestamp": 270.86
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Actually, you can tell me. You can tell us.",
+      "timestamp": 271.14
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Well, there's too many cats in my house,\" said Seeker.",
+      "timestamp": 274.49
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Actually, well, the cats will hear you just if you tell it loud enough.",
+      "timestamp": 277.5
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"There's too many cats.\"",
+      "timestamp": 283.46
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Just if you tell it loud enough.",
+      "timestamp": 286.66
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"But that's what I'm telling you, there's too many cats.\" \"Um, can you, can you help me get some peace and quiet from all these cats?\"",
+      "timestamp": 289.57
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah.",
+      "timestamp": 297.55
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"They're just mewing and purring everywhere, all over my house,\" said Seeker.",
+      "timestamp": 297.55
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Well, I just can't, my, but I just can't stop them. Cats are in charge of their bodies.",
+      "timestamp": 302.22
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh, the cats are in charge of their bodies,\" said Seeker, \"So we can't just pick them up and carry them out of my house, I guess. What else could we do?\"",
+      "timestamp": 313.99
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And then look who came flying except Superhero Izzy.",
+      "timestamp": 324.42
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, Superhero Izzy, thank goodness you're here.",
+      "timestamp": 331.24
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And her ca- and Kitty, and Kitty's Cat Crew.",
+      "timestamp": 334.58
+    },
+    {
+      "speaker": "Dad",
+      "text": "More cats? \"Oh, no,\" said Seeker.",
+      "timestamp": 339.88
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Actually, but Kitty's Cat Crew says, \"My cat crew doesn't, uh, meow and purr. It, it talks.\"",
+      "timestamp": 343.24
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"You have a talking cat crew?\" said Seeker. \"Well, maybe you can help us.\"",
+      "timestamp": 354.57
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah.",
+      "timestamp": 358.68
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Can you introduce me to your cat crew?\"",
+      "timestamp": 359.27
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Pixie Pumpkin, Figaro, Katsumi",
+      "timestamp": 362.1
+    },
+    {
+      "speaker": "Dad",
+      "text": "Wow, nice to meet you all. Uh, I'd offer you some kibble, but I'm fresh out because I have a crowd of cats in my house.",
+      "timestamp": 368.88
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And they're, and then, and then, and then look. And then, and then the mailman delivers one more bag of kibble-",
+      "timestamp": 376.02
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, no, more kibble-",
+      "timestamp": 390.56
+    },
+    {
+      "speaker": "Izzy",
+      "text": "But-",
+      "timestamp": 392.46
+    },
+    {
+      "speaker": "Dad",
+      "text": "... said Seeker",
+      "timestamp": 392.72
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... but the c- cats- ... Cat Crew.",
+      "timestamp": 393.06
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay.",
+      "timestamp": 398.02
+    },
+    {
+      "speaker": "Izzy",
+      "text": "The cat, and then the Cat Crew dig a little hole in the top and ate all the kibble.",
+      "timestamp": 398.72
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh, my goodness. I'm out of kibble again,\" said Seeker. \"Well, can anyone help me get all these cats out of my house?\"",
+      "timestamp": 405.1
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No, no, you need to tell us the thing. And then the cats kept quiet.",
+      "timestamp": 411.34
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh. Ah, thank goodness. \"Whew. Now, it's was s- so noisy with the mewing and the purring, I couldn't think,\" said Seeker. \"Now I can think of an idea for how to get these cats out of here.\" Hmm.",
+      "timestamp": 419.62
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No, I don't think you should get the cats out.",
+      "timestamp": 431.98
+    },
+    {
+      "speaker": "Dad",
+      "text": "You mean they just live here now? My house is just full of cats? Where am I gonna live?",
+      "timestamp": 436.68
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I mean, they're, soon Seeker, they'll leave.",
+      "timestamp": 441.28
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, they will?",
+      "timestamp": 445.28
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Af- After they're done with, with, with, with all your cat things.",
+      "timestamp": 446.28
+    },
+    {
+      "speaker": "Dad",
+      "text": "Well, that one's napping on the floor. Oh, my gosh, I want to go to bed, but there's five cats in my bed, and there are cats climbing up my walls and cats prowling around looking for more food. And look, that cat just opened the cabinet to try to find more kibble, but there's no more kibble.",
+      "timestamp": 454.46
+    },
+    {
+      "speaker": "Dad",
+      "text": "Cats. How are we gonna get them out of here? Hmm. Should we scoop them up in a net and bring them outside?",
+      "timestamp": 468.76
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No, that... No.",
+      "timestamp": 474.82
+    },
+    {
+      "speaker": "Dad",
+      "text": "Should we-",
+      "timestamp": 479.82
+    },
+    {
+      "speaker": "Izzy",
+      "text": "We can make a nest with treats. And, and then Isabella gave her bag of treats to Seeker.",
+      "timestamp": 480.38
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, a bag of treats. That seems useful. And all the cats-",
+      "timestamp": 490.72
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And now, and now, and then Izzy made a nest for them, and then Seeker placed, and then all the cats, and then, and then, and then Isabella counted the cats, and then, and then, and then, and then she put the treats.",
+      "timestamp": 494.24
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, how many treats?",
+      "timestamp": 517.12
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Seven treats.",
+      "timestamp": 521.64
+    },
+    {
+      "speaker": "Dad",
+      "text": "Seven treats. \"And I hope that nest that you're making,\" said Seeker, \"is outside my house.\"",
+      "timestamp": 523.08
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Actually, it's outside your house.",
+      "timestamp": 528.26
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, good.",
+      "timestamp": 530.92
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And then the cats ran out the door, ate their treats, stepped into the nest, and then Isabella carried them and carried them away.",
+      "timestamp": 531.22
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh, my goodness,\" said Seeker. \"Finally, all the cats are out of my house. Thank goodness. Thanks for your help, Superhero Izzy.\"",
+      "timestamp": 542.79
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And then Scratch Cat, and then Scratch Cat just leaped into the house.",
+      "timestamp": 553.1
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, you're back. Welcome back, Scratch Cat. Well, let's have a nice cup of tea together now that my house isn't full of all those cats anymore, except for just one. That's you. What kind of tea would you like, Scratch Cat?",
+      "timestamp": 558.78
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Kibble tea.",
+      "timestamp": 575.36
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, kibble tea. That sounds delicious. I'll make-",
+      "timestamp": 576.54
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Actually, wet food tea.",
+      "timestamp": 579.22
+    },
+    {
+      "speaker": "Dad",
+      "text": "Wet food tea. \"I'll make a nice pot of wet food tea for you, and I think I'll have some peppermint tea for me,\" said Seeker. And he made the two pots of tea, and Seeker and Scratch Cat sat down at the table to drink their tea together.",
+      "timestamp": 581.12
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And then why were all the cats there, do you think?",
+      "timestamp": 598.16
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Seeker said, \"You know, I wish I knew. Suddenly my house was just full of cats. But-",
+      "timestamp": 602.9
+    },
+    {
+      "speaker": "Izzy",
+      "text": "'Cause they had so, 'cause they had, 'cause the, 'cause they thought your house was so cozy that they decided to take a nap everywhere in your house.",
+      "timestamp": 609.96
+    },
+    {
+      "speaker": "Dad",
+      "text": "They were just all over the place. It could have had something to do with all that kibble I had, too, but now it's gone 'cause they ate it all up. Well, oh, there's cat hair all over the place. I better sweep that up. Sweep, sweep, sweep, sweep.",
+      "timestamp": 620.74
+    },
+    {
+      "speaker": "Izzy",
+      "text": "What? There was cat?",
+      "timestamp": 633.74
+    },
+    {
+      "speaker": "Dad",
       "text": "Cat hair.",
-      "timestamp": 638,
-      "speaker": "Izzy"
+      "timestamp": 637.44
     },
     {
-      "text": "Yeah, there was cat hair all over my house from all the cats. Well, thanks for coming over, Scratch Cat. But now I have to go to sleep and thank goodness there are no more cats in my bed so I can curl up and get cozy all by myself.",
-      "speaker": "Dad",
-      "timestamp": 639
-    },
-    {
-      "timestamp": 655,
       "speaker": "Izzy",
-      "text": "And Scratch Cat says, 'Can I... can I stay at yours and have a sleepover?'"
+      "text": "Cat hair.",
+      "timestamp": 638.56
     },
     {
-      "text": "Oh, that sounds so nice, said Seeker. Okay, let's both brush our teeth. And they both brushed... spit! And then they got into their pajamas, and then they went to sleep. And that's the end of our story.",
       "speaker": "Dad",
-      "timestamp": 662
+      "text": "Yeah, there was cat hair all over my house from all the cats. Well, thanks for coming over, Scratch Cat. Uh, but now I have to go to sleep, and thank goodness there are no more cats in my bed, so I can curl up and get cozy all by myself.",
+      "timestamp": 639.86
     },
     {
-      "timestamp": 678,
       "speaker": "Izzy",
-      "text": "Dad, I just... [snoring sound]."
+      "text": "And Scratch Cat says, \"Can I, can I stay and cuddle you and have a sleepover?\"",
+      "timestamp": 655.1
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh, that sounds so nice,\" said Seeker. \"Okay, let's both brush our teeth.\" And they both brushed, pshoo, pshoo, pshoo, pshoo, pshoo, spit. And then they got into their pajamas, and they-",
+      "timestamp": 661.55
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Whoa",
+      "timestamp": 674.14
+    },
+    {
+      "speaker": "Dad",
+      "text": "... and then they went to sleep. And that's the end of our story.",
+      "timestamp": 674.15
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Dad, I just z-",
+      "timestamp": 677.92
     }
   ],
   "characters": [
@@ -569,7 +734,19 @@
       "description": "Perched at the edge of a mountain, this warm stone sanctuary—Seeker’s original residence and whimsical home shared with Uncle Crisco—has evolved from a secret vault into the purring, chaotic heart of a massive feline gala. Within its well-lit halls where Muppets gather for snacks and scientific discussions, lies a special hidden closet where Seeker brews an enchanted collection of potions that shimmer in every imaginable color."
     }
   ],
-  "wordCount": 1432,
-  "izzyWordCount": 478,
-  "dadWordCount": 954
+  "wordCount": 1529,
+  "izzyWordCount": 512,
+  "dadWordCount": 1017,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T15:21:26.035Z",
+    "speakerMap": {
+      "speaker_0": "Dad",
+      "speaker_1": "Izzy"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "high"
+  }
 }

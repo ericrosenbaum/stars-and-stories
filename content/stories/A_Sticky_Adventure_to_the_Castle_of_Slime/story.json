@@ -6,433 +6,753 @@
   "audioFilename": "Cornell St 108.m4a",
   "highlightQuote": {
     "text": "Slime bo-bime, slime bo-bime, slime bo-bime!",
-    "timestamp": 253
+    "timestamp": 497.65
   },
   "transcript": [
     {
-      "text": "Now we can see the stars, now we can see the stories.",
       "speaker": "Izzy",
-      "timestamp": 44
+      "text": "How can we put this neck warmer on you? No. Um, are you ready to look out?",
+      "timestamp": 0.78
     },
     {
-      "text": "Can we do a story about Seeker and Wizard Bobizard?",
-      "timestamp": 52,
-      "speaker": "Izzy"
-    },
-    {
-      "text": "Yes. Once upon a time, Seeker was at home in his castle until ding dong, ding dong. And he said, 'Oh, I think that was the doorbell. I wonder who could be here?'",
-      "timestamp": 57,
-      "speaker": "Dad"
+      "speaker": "Dad",
+      "text": "All right.",
+      "timestamp": 41.28
     },
     {
       "speaker": "Izzy",
-      "timestamp": 68,
-      "text": "Wizard Bobizard."
+      "text": "Now we can see the stars. Now we can see the stories. Can we do the story about Seeker and Wizard Bobizard?",
+      "timestamp": 43.52
     },
     {
-      "text": "And he said, 'Oh, well, hello Wizard Bobizard. Uh, what can I do for you today?'",
-      "timestamp": 70,
-      "speaker": "Dad"
+      "speaker": "Dad",
+      "text": "Yes. Once upon a time, Seeker was at home in his castle-",
+      "timestamp": 56.89
     },
     {
+      "speaker": "Izzy",
+      "text": "Until ding dong the wizard",
+      "timestamp": 63.92
+    },
+    {
+      "speaker": "Dad",
+      "text": "... and he said, \"Oh, I think that was the doorbell. I wonder who could be here.\"",
+      "timestamp": 66.6
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Uh, Wizard Bobizard.",
+      "timestamp": 70.74
+    },
+    {
+      "speaker": "Dad",
+      "text": "And he said, \"Oh, well, hello, Wizard Bobizard. Uh, what can I do for you today?\"",
+      "timestamp": 73.64
+    },
+    {
+      "speaker": "Izzy",
       "text": "An old new potion.",
-      "speaker": "Izzy",
-      "timestamp": 77
+      "timestamp": 81.9
     },
     {
       "speaker": "Dad",
-      "timestamp": 79,
-      "text": "An old new potion? An old not-new potion that you haven't drunk before. Ah, I see. You're very curious about my potion closet, aren't you? Well, I am too and it's nice to have an excuse to experiment with a friend. Well, come on downstairs and we'll go open up the potion closet and poke around and see what we can find. Hmm."
-    },
-    {
-      "text": "Well, I know what that one is. Oh, that's a Floofer Cloud potion. That's the Planet of the Mookers. There's a Volcano World potion.",
-      "speaker": "Dad",
-      "timestamp": 114
-    },
-    {
-      "timestamp": 123,
-      "speaker": "Izzy",
-      "text": "Volcano."
-    },
-    {
-      "text": "Oh, but that's not one we don't know about. We've taken that one before. And let's see, oh there's a Grassy World one and...",
-      "speaker": "Dad",
-      "timestamp": 124
+      "text": "An old new potion?",
+      "timestamp": 84.46
     },
     {
       "speaker": "Izzy",
-      "timestamp": 132,
-      "text": "Which one do we not know about?"
-    },
-    {
-      "text": "The Rainbow Forest one... well these are all ones we've tried lately. And oh the ocean one, I just did with Peacock the Wizard earlier. That was a nice one. Let's see. Hmm.",
-      "timestamp": 133,
-      "speaker": "Dad"
+      "text": "An old, an old not new, an old not new potion that you haven't drunk before.",
+      "timestamp": 87.02
     },
     {
       "speaker": "Dad",
-      "timestamp": 157,
-      "text": "Now this one is... it kind of looks kind of slimy and it doesn't look familiar. And it's orange and a little bit blue mixed in there. And it looks like..."
-    },
-    {
-      "speaker": "Izzy",
-      "timestamp": 169,
-      "text": "Oh that! I've done... I've done that. I did that this night."
-    },
-    {
-      "text": "And Seeker said, 'What did you do? What do you mean?'",
-      "speaker": "Dad",
-      "timestamp": 174
-    },
-    {
-      "text": "I just... I made it slimy mixed with water and then that made it really slimy and then I mixed blue in there and put it in an ice cube and then I tried to make it into a potion for you.",
-      "timestamp": 176,
-      "speaker": "Izzy"
-    },
-    {
-      "text": "Oh, so that's where this came from. Well so then, when you were at the grocery store this morning, I prepared up that potion.",
-      "timestamp": 190,
-      "speaker": "Dad"
-    },
-    {
-      "timestamp": 199,
-      "speaker": "Izzy",
-      "text": "And then when you came back, you looked in your potion closet, I think, and you saw a blue... something blue in your potion closet."
-    },
-    {
-      "timestamp": 209,
-      "speaker": "Dad",
-      "text": "And Wizard Bobizard said, 'My goodness! But what is this potion going to do, Isabella? Maybe we should...'"
-    },
-    {
-      "speaker": "Izzy",
-      "timestamp": 214,
-      "text": "It's gonna take us to Blue and Green Slime World. Yes."
-    },
-    {
-      "timestamp": 219,
-      "speaker": "Dad",
-      "text": "Oh, Slime World! I've never been there,' said Wizard Bobizard. And Seeker said, 'Me neither.' 'Well then let's take a sip.'"
-    },
-    {
-      "speaker": "Izzy",
-      "timestamp": 229,
-      "text": "Okay. Are you coming with us, Isabella? I think so."
+      "text": "Ah, I see. You're very curious about my potion closet, aren't you? Well, I am, too, and it's nice to have an excuse to experiment with a friend. Well, come on downstairs and we'll go open up the potion closet and poke around and see what we can find.",
+      "timestamp": 94.42
     },
     {
       "speaker": "Dad",
-      "timestamp": 235,
-      "text": "Oh, okay. And so Seeker took a sip and Wizard Bobizard took a sip and they handed the potion to Isabella. Would you like to do the rhyme, Izzy?"
+      "text": "Hmm. Well, I know what that one is. Oh, that's a Floofer Cloud Potion. That's the Planet of the Mookers. There's a Volcano World Potion.",
+      "timestamp": 110.86
     },
     {
       "speaker": "Izzy",
-      "timestamp": 253,
-      "text": "Slime bo-bime, slime bo-bime, slime bo-bime!"
-    },
-    {
-      "timestamp": 261,
-      "speaker": "Dad",
-      "text": "Slime bo-bime! And then there was a slurping sound. 'What creatures are in Slime World? Where are you?' And Seeker said, 'Now wait a minute, slow down. We've got to examine our surroundings because none of us have ever been to Slime World before. What do you notice first?'"
-    },
-    {
-      "text": "It's so bouncy!",
-      "speaker": "Izzy",
-      "timestamp": 281
-    },
-    {
-      "text": "Oh, but wait a minute. And Seeker bounced his foot up and down and then lifted his foot up and it went 'shloop' because the slime was sticking to his boot and then 'snap' it snapped back down. Hmm. It's going to be hard to walk around here. And he tried lifting his feet to walk and went 'shloop, shloop'. This slime is so sticky and gooey. And Wizard Bobizard said, 'Hmm, I wonder how we're going to get around.' And Seeker said, 'Yes, well, let's examine a little further. What color was the slimy ground?'",
-      "timestamp": 283,
-      "speaker": "Dad"
-    },
-    {
-      "timestamp": 319,
-      "speaker": "Izzy",
-      "text": "I don't know."
+      "text": "Volcano.",
+      "timestamp": 120.48
     },
     {
       "speaker": "Dad",
-      "timestamp": 322,
-      "text": "And Seeker said, 'Well, right here around my feet, it's kind of mostly orange.' And Wizard Bobizard says, 'Over here next to my feet, it's kind of blue.' And then in front of their feet there was a blue and orange area and then something small crawled up to Seeker's leg. 'Oh my goodness, what is this?'"
+      "text": "Oh, but that's not a... That's not one we don't know about. We've, we've taken that one before. And let's see. Oh, there's a Grassy World one. And, um-",
+      "timestamp": 122.26
     },
     {
       "speaker": "Izzy",
-      "timestamp": 349,
-      "text": "I am a creature!"
+      "text": "Which ones do we not know about?",
+      "timestamp": 132.26
     },
     {
       "speaker": "Dad",
-      "timestamp": 351,
-      "text": "Hello, creature! Nice to meet you. I am Seeker."
+      "text": "Uh, the Rainbow Forest one. Well, these are all ones that we've, we've tried lately. And, uh, oh, the Ocean one, we just, I just did with, uh, Peacock the Wizard earlier. That was a nice one. Let's see. Hmm.",
+      "timestamp": 134.36
     },
     {
       "speaker": "Izzy",
-      "timestamp": 354,
-      "text": "I am Sneeter."
+      "text": "Da, da, da.",
+      "timestamp": 149.9
     },
     {
       "speaker": "Dad",
-      "timestamp": 357,
-      "text": "Sneeter? Nice to meet you, Sneeter. Do you live here in this Slime World?"
+      "text": "Hmm.",
+      "timestamp": 152.44
     },
     {
-      "text": "Yep! And... who's that?",
       "speaker": "Izzy",
-      "timestamp": 361
+      "text": "Um, do, do, dum.",
+      "timestamp": 154.72
     },
     {
-      "timestamp": 365,
       "speaker": "Dad",
-      "text": "That's my friend Wizard Bobizard and that's my other friend Isabella. And Sneeter, what kind of a creature are you?"
+      "text": "Now, this one is, uh, it kinda looks kinda slimy. It doesn't look familiar, and it's- it's orange and a little bit blue mixed in there. And it looks like-",
+      "timestamp": 157.26
     },
     {
+      "speaker": "Izzy",
+      "text": "That I've done, I've done, I've done, I've done that. I-",
+      "timestamp": 170.96
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, you-",
+      "timestamp": 176.66
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I did the, I did that this night.",
+      "timestamp": 176.73
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Seeker said, \"What did you do? What do you mean?\"",
+      "timestamp": 179.46
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I just, I made it slimy mixed with water, then that made it really slimy, and then I mixed blue in there and put it in an ice cube, and then I tried to make it into a potion for you.",
+      "timestamp": 181.28
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, so that's where this came from.",
+      "timestamp": 196.92
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Well, well, so then when you were at the grocery store this morning, I prepared up that potion.",
+      "timestamp": 198.66
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh.",
+      "timestamp": 206.18
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And then when you came back, you looked in your potion closet, I think, and you saw a blue, something blue in your potion closet.",
+      "timestamp": 206.42
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Wizard-",
+      "timestamp": 216.94
+    },
+    {
+      "speaker": "Izzy",
+      "text": "That-",
+      "timestamp": 217.92
+    },
+    {
+      "speaker": "Dad",
+      "text": "... Bobizard said, \"My goodness. But what is this potion going to do, Isabella?\"",
+      "timestamp": 217.93
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Hmm.",
+      "timestamp": 223.26
+    },
+    {
+      "speaker": "Dad",
+      "text": "Maybe we should-",
+      "timestamp": 224.1
+    },
+    {
+      "speaker": "Izzy",
+      "text": "It's going to take us to Slime World.",
+      "timestamp": 224.54
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh.",
+      "timestamp": 229.24
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yes.",
+      "timestamp": 229.58
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Slime World? I've never been there,\" said Wizard Bobizard, and Seeker said, \"Me neither.\"",
+      "timestamp": 231.2
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Well then, let's take a sip.",
+      "timestamp": 234.93
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay. Are you coming with us, Isabella?",
+      "timestamp": 236.12
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I think so.",
+      "timestamp": 237.6
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, okay.",
+      "timestamp": 238.86
+    },
+    {
+      "speaker": "Izzy",
+      "text": "But...",
+      "timestamp": 239.66
+    },
+    {
+      "speaker": "Dad",
+      "text": "And so Seeker took a sip, and Wizard Bobizard took a sip, and they handed the potion to Isabella. Would you like to do the rhyme, Izzy?",
+      "timestamp": 241
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Slime Bobime, Slime Bobime, Slime Bobime.",
+      "timestamp": 257.64
+    },
+    {
+      "speaker": "Dad",
+      "text": "Slime Bobime. And then there was a...",
+      "timestamp": 260.57
+    },
+    {
+      "speaker": "Izzy",
+      "text": "What creatures are in Slime World? Where are you?",
+      "timestamp": 264.94
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Seeker said, \"Now, wait a minute. Slow down. We've got to examine our surroundings, because none of us have ever been to Slime World before. What do you notice first?\"",
+      "timestamp": 270.2
+    },
+    {
+      "speaker": "Izzy",
+      "text": "It's so bouncy.",
+      "timestamp": 281.64
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, but wait a minute. And Seeker bounced his foot up and down and then lifted his foot up, and it went because the slime was sticking to his boot, and then it snapped back down. \"Hmm. It's gonna be hard to walk around here.\" And he tried lifting his feet to walk, and it went .",
+      "timestamp": 284.04
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"This slime is so sticky and gooey.\" And Wizard Bobizard said, \"Hmm. I wonder how we're gonna get around.\" And Seeker said, \"Yes. Well, let's examine a little further.\" What color was the slimy ground?",
+      "timestamp": 304.22
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I know now.",
+      "timestamp": 319.8
+    },
+    {
+      "speaker": "Dad",
+      "text": "Hmm. And Seeker said, \"Well, right here around my feet it's kind of mostly orange.\" And Wizard Bobizard says-",
+      "timestamp": 321.52
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And, and Wizard Bobizard says, \"Over here next to my feet it's kind of blue.\" And then in front of the feet there was a blue and orange area, and then something small crawled up to Seeker's leg.",
+      "timestamp": 329.94
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, my goodness. What is this?",
+      "timestamp": 347.64
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I am a creature.",
+      "timestamp": 349.6
+    },
+    {
+      "speaker": "Dad",
+      "text": "Hello, creature. Nice to meet you. I am a Seeker.",
+      "timestamp": 351.74
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I am Sneeter.",
+      "timestamp": 354.76
+    },
+    {
+      "speaker": "Dad",
+      "text": "Sneeter?",
+      "timestamp": 356.74
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah.",
+      "timestamp": 357.94
+    },
+    {
+      "speaker": "Dad",
+      "text": "Nice to meet you, Sneeter. Do you live here on this Slime World? That's my friend Wizard Bobizard, and that's my other friend Isabella.",
+      "timestamp": 358.66
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Hello, nice to meet you.",
+      "timestamp": 370.15
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Sneeter, what kind of a creature are you?",
+      "timestamp": 372.03
+    },
+    {
+      "speaker": "Izzy",
       "text": "An alien.",
-      "speaker": "Izzy",
-      "timestamp": 374
+      "timestamp": 374.91
     },
     {
       "speaker": "Dad",
-      "timestamp": 376,
-      "text": "An alien! And what did Sneeter look like?"
-    },
-    {
-      "text": "A blue and green creature.",
-      "timestamp": 380,
-      "speaker": "Izzy"
-    },
-    {
-      "text": "No, he only had legs.",
-      "timestamp": 390,
-      "speaker": "Izzy"
-    },
-    {
-      "text": "Only legs, no arms. Did Sneeter have a tail?",
-      "timestamp": 393,
-      "speaker": "Dad"
+      "text": "An alien. And what did Sneeter look like?",
+      "timestamp": 376.25
     },
     {
       "speaker": "Izzy",
-      "timestamp": 396,
-      "text": "Yep."
+      "text": "A blue- ... and green creature.",
+      "timestamp": 379.89
     },
     {
-      "text": "A legs and a tail. And wings?",
-      "timestamp": 397,
-      "speaker": "Dad"
+      "speaker": "Dad",
+      "text": "Oh, a blue and green creature. And did Sneeter have arms and legs?",
+      "timestamp": 385.13
     },
     {
-      "timestamp": 399,
       "speaker": "Izzy",
-      "text": "No."
+      "text": "No, she only had legs.",
+      "timestamp": 390.49
     },
     {
+      "speaker": "Dad",
+      "text": "Only legs, and did sh-",
+      "timestamp": 392.55
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No arms",
+      "timestamp": 393.83
+    },
+    {
+      "speaker": "Dad",
+      "text": "... did Sneeter have a tail?",
+      "timestamp": 394.59
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yep.",
+      "timestamp": 396.43
+    },
+    {
+      "speaker": "Dad",
+      "text": "Legs and a tail. And wings?",
+      "timestamp": 397.39
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No.",
+      "timestamp": 399.79
+    },
+    {
+      "speaker": "Dad",
       "text": "No wings. And eyes?",
-      "timestamp": 400,
-      "speaker": "Dad"
+      "timestamp": 400.27
     },
     {
-      "timestamp": 402,
       "speaker": "Izzy",
-      "text": "Yes."
+      "text": "Yes.",
+      "timestamp": 402.21
     },
     {
+      "speaker": "Dad",
       "text": "And a mouth?",
-      "speaker": "Dad",
-      "timestamp": 402
+      "timestamp": 402.61
     },
     {
-      "timestamp": 403,
       "speaker": "Izzy",
-      "text": "Yes."
+      "text": "Yes.",
+      "timestamp": 403.57
     },
     {
-      "timestamp": 404,
       "speaker": "Dad",
-      "text": "And a nose and ears?"
+      "text": "And a nose?",
+      "timestamp": 403.95
     },
     {
-      "text": "Yes, a nose and ears. And also a body. And on his belly he was brown and on his back he was green.",
       "speaker": "Izzy",
-      "timestamp": 405
+      "text": "And ears.",
+      "timestamp": 405.01
     },
     {
-      "text": "Wow, Sneeter. You're a very interesting creature,' said Seeker. 'I've never seen someone like you. Are there more creatures like you?'",
       "speaker": "Dad",
-      "timestamp": 428
+      "text": "And ears.",
+      "timestamp": 405.83
     },
     {
-      "text": "Of course! But except they're all sleeping. You can hear them snoring. Actually, you can hear them saying zzz.",
       "speaker": "Izzy",
-      "timestamp": 438
+      "text": "Yeah, and a nose and ears, and also a body.",
+      "timestamp": 405.87
     },
     {
-      "timestamp": 450,
       "speaker": "Dad",
-      "text": "I see. Would you... um, show us around Slime World a little bit, Sneeter?"
+      "text": "And also a body.",
+      "timestamp": 409.51
     },
     {
-      "timestamp": 457,
       "speaker": "Izzy",
-      "text": "And then he hopped on one foot. Boing boing boing boing... Follow me on one foot!"
+      "text": "And on, and on his other, and on his belly he was green, and on his back he was... No, on his belly he was green, and n- no, on his belly he was p- he was brown, and on his back he was green.",
+      "timestamp": 410.17
     },
     {
-      "timestamp": 476,
       "speaker": "Dad",
-      "text": "Oh, okay,' said Seeker. 'Let's boing! Everybody boing!'"
+      "text": "Wow. \"Sneeter, you're a very interesting creature,\" said Seeker. \"I've never seen someone like you. Are there more creatures like you?\"",
+      "timestamp": 429.69
     },
     {
-      "text": "Now we're in the castle.",
       "speaker": "Izzy",
-      "timestamp": 488
+      "text": "Of course.",
+      "timestamp": 437.57
     },
     {
       "speaker": "Dad",
-      "timestamp": 492,
-      "text": "Oh, there's a castle in Slime World? What's the castle made of?"
+      "text": "Oh. And w-",
+      "timestamp": 438.67
     },
     {
+      "speaker": "Izzy",
+      "text": "But except they're all sleeping.",
+      "timestamp": 440.33
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, oh, I see.",
+      "timestamp": 442.91
+    },
+    {
+      "speaker": "Izzy",
+      "text": "You can hear them snoring. Actually, you can hear them saying, \"Vvr.\"",
+      "timestamp": 443.75
+    },
+    {
+      "speaker": "Dad",
+      "text": "I see. Would you, um, show us around Slime World a little bit, Sneeter?",
+      "timestamp": 449.51
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And then she hopped on one foot. Boing, boing, boing, boing, boing, boing, boing, boing, boing, boing, boing, boing, boing, boing, boing, boing, boing, boing, boing, boing, boing, boing, boing, boing, boing, boing, boing, boing, boing, boing. \"Follow me on one foot.\"",
+      "timestamp": 455.99
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh, okay,\" said Seeker.",
+      "timestamp": 477.27
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And let's boing, boing, boing, boing, boing-",
+      "timestamp": 478.95
+    },
+    {
+      "speaker": "Dad",
+      "text": "Everybody boing",
+      "timestamp": 480.03
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... boing, boing, boing, boing, boing, boing, boing, boing, boing, boing, boing, boing, boing, boing. Now we're in the castle.",
+      "timestamp": 482.55
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, there's a castle in Slime World? What's the castle made out of?",
+      "timestamp": 493.39
+    },
+    {
+      "speaker": "Izzy",
       "text": "Slime.",
+      "timestamp": 497.65
+    },
+    {
+      "speaker": "Dad",
+      "text": "It's a slime castle. And what's, what, what does the castle look like from the outside?",
+      "timestamp": 498.69
+    },
+    {
       "speaker": "Izzy",
-      "timestamp": 496
-    },
-    {
-      "text": "It's a slime castle. And what... what does the castle look like from the outside?",
-      "timestamp": 497,
-      "speaker": "Dad"
-    },
-    {
       "text": "Just a big ball.",
+      "timestamp": 505.49
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, it's a big ball. Does it have a door or windows or towers?",
+      "timestamp": 507.45
+    },
+    {
       "speaker": "Izzy",
-      "timestamp": 504
+      "text": "Yes, it does.",
+      "timestamp": 510.99
     },
     {
-      "text": "Oh, it's a big ball. Does it have a door or window or towers?",
-      "timestamp": 506,
-      "speaker": "Dad"
-    },
-    {
-      "timestamp": 511,
-      "speaker": "Izzy",
-      "text": "Yes, it does."
-    },
-    {
+      "speaker": "Dad",
       "text": "Oh, but it's a ball-shaped castle. And what color is it?",
-      "timestamp": 512,
-      "speaker": "Dad"
+      "timestamp": 511.97
     },
     {
-      "timestamp": 518,
       "speaker": "Izzy",
-      "text": "Orange and blue."
+      "text": "Orange and blue.",
+      "timestamp": 518.93
     },
     {
       "speaker": "Dad",
-      "timestamp": 520,
-      "text": "And so Seeker and Wizard Bobizard and Isabella followed Sneeter into the Slime World castle. Boing boing boing boing... and then..."
-    },
-    {
-      "text": "Lots of other creatures like him came boing-ing.",
-      "timestamp": 539,
-      "speaker": "Izzy"
-    },
-    {
-      "text": "Oh! And what is this kind of creature called?",
-      "timestamp": 545,
-      "speaker": "Dad"
-    },
-    {
-      "text": "A Snooper-ka-flooper. Boing boing! And then they went boing-ing up the stairs and in the bathroom and everywhere there was a Snooper-ka-flooper.",
-      "speaker": "Izzy",
-      "timestamp": 548
-    },
-    {
-      "text": "Wow, there's Snooper-ka-floopers all over the place in this Slime World castle,' said Seeker.",
-      "timestamp": 563,
-      "speaker": "Dad"
+      "text": "And so Seeker and Wizard Bobizard and Isabella followed Sneeter into the Slime World's-",
+      "timestamp": 521.27
     },
     {
       "speaker": "Izzy",
-      "timestamp": 570,
-      "text": "And they were just fuzzy balls. They were fuzzy balls like this."
+      "text": "Boing, boing, boing, boing",
+      "timestamp": 527.83
     },
     {
       "speaker": "Dad",
-      "timestamp": 577,
-      "text": "Oh, fuzzy balls? I thought they were little slime creatures like Sneeter."
+      "text": "... castle.",
+      "timestamp": 530.83
     },
     {
       "speaker": "Izzy",
-      "timestamp": 581,
-      "text": "No, Sneeter was a different creature and they were different creatures. And we are related to the Floofers and we're the Floofers' next cousins. We visit them all the time."
-    },
-    {
-      "text": "My goodness,' said Seeker. 'Fascinating. I had no idea that the Floofers had other cousins. And you've been to the Floofer Cloud?'",
-      "timestamp": 595,
-      "speaker": "Dad"
-    },
-    {
-      "text": "Yes! On a magic flying ladder.",
-      "speaker": "Izzy",
-      "timestamp": 609
+      "text": "Boing, boing, boing, boing, boing, boing, boing, boing, boing, boing, boing, boing, boing, boing, boing, boing, boing, boing, boing, boing. And then lots of other creatures like him came boinging.",
+      "timestamp": 531.49
     },
     {
       "speaker": "Dad",
-      "timestamp": 613,
-      "text": "You do?"
+      "text": "Oh. And what, what is this kind of creature called?",
+      "timestamp": 544.61
     },
     {
       "speaker": "Izzy",
-      "timestamp": 614,
-      "text": "Yeah."
+      "text": "A Snooper Kaflooper.",
+      "timestamp": 548.49
     },
     {
-      "timestamp": 615,
       "speaker": "Dad",
-      "text": "You have your own magic flying ladder and you use it to get from...?"
+      "text": "Oh, the Snooper Kaflooper.",
+      "timestamp": 550.93
     },
     {
       "speaker": "Izzy",
-      "timestamp": 618,
-      "text": "But it's just so slimy. It's just slimy so we can stick to it and never ever fall off."
+      "text": "Boing, boing, boing, boing, boing, boing, boing, boing, boing up the stairs. And in the bathroom and everywhere there was a Snooper Kaflooper.",
+      "timestamp": 553.61
     },
     {
-      "text": "Amazing. My ladder... I also have a magic flying ladder, but it's not sticky, but I can hold on with my hands. Wow, I had no idea so many wonderful things would be here in the Slime World for us to encounter. Um, is there a leader or a king or a ruler of the Slime World? Or do you all just live here in the castle together?",
-      "timestamp": 628,
-      "speaker": "Dad"
-    },
-    {
-      "speaker": "Izzy",
-      "timestamp": 656,
-      "text": "We got a queen, but she right now is talking to the bad guy Balloon Popper."
-    },
-    {
-      "text": "The bad guy Balloon Popper? Who's that?",
       "speaker": "Dad",
-      "timestamp": 668
-    },
-    {
-      "timestamp": 673,
-      "speaker": "Izzy",
-      "text": "The kitten, remember? The kitten."
-    },
-    {
-      "timestamp": 678,
-      "speaker": "Dad",
-      "text": "Oh, the kitten that was popping all the balloons in Balloon World."
+      "text": "\"Wow, there's Snooper Kafloopers all over the place in this Slime World castle,\" said Seeker.",
+      "timestamp": 563.37
     },
     {
       "speaker": "Izzy",
-      "timestamp": 682,
-      "text": "Yep. She just got lost in the Slime World and now the Queen talked her through about how to get back to where she lived. And then she said, 'My name is Jinjar.' And she hopped back to Izzy's house. She just boing boing boing... and then she was back at Izzy's."
+      "text": "And they were just fuzzy balls. They were fuzzy balls, like this.",
+      "timestamp": 570.55
     },
     {
-      "timestamp": 713,
       "speaker": "Dad",
-      "text": "Oh, thank goodness she got back to where she belongs,' said Seeker. 'Well, this has been a wonderful visit to Slime World and we met so many creatures and learned so many interesting facts about Slime World. I think it's time for us to head home, don't you, Wizard Bobizard?' And Wizard Bobizard said, 'Yep.' And Izzy said, 'Yep.' So we're going to take our going-home potion. And they all sipped, sip sip sip. And then pop they were back at Seeker's castle. And that is the end of stars and stories."
+      "text": "Oh, fuzzy balls. I thought they were little slime creatures like Sneeter.",
+      "timestamp": 576.15
     },
     {
-      "text": "Let's do shadow puppets! Let's do shadow puppets!",
-      "timestamp": 746,
-      "speaker": "Izzy"
+      "speaker": "Izzy",
+      "text": "No, Sneeter was a different creature, and they were different creatures. And we are related to the Floofers, and we're the Floofers' next col- cousin. We visit them all the time.",
+      "timestamp": 581.95
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"My goodness,\" said Seeker. \"Fascinating. I had no idea that the S- that the Floofers had other cousins. And you, and you've been to the f- to the Floofer Cloud?\"",
+      "timestamp": 595.25
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yes.",
+      "timestamp": 608.07
+    },
+    {
+      "speaker": "Dad",
+      "text": "W-",
+      "timestamp": 610.21
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I have a magic flying ladder.",
+      "timestamp": 610.45
+    },
+    {
+      "speaker": "Dad",
+      "text": "You do?",
+      "timestamp": 613.39
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah.",
+      "timestamp": 614.39
+    },
+    {
+      "speaker": "Dad",
+      "text": "You have your own magic flying ladder, and you use it to get from-",
+      "timestamp": 615.41
+    },
+    {
+      "speaker": "Izzy",
+      "text": "But it's just so slimey. It's just slimey, so we can stick to it and-",
+      "timestamp": 618.57
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh",
+      "timestamp": 625.97
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... never, ever fall off.",
+      "timestamp": 626.09
+    },
+    {
+      "speaker": "Dad",
+      "text": "Amazing. My ladder, I also have a magic flying ladder, but it's not sticky. But I can hold on with my hands. Wow, I had no idea so many wonderful things would be here in the Slime World for us to encounter. Um, is there a leader or a king or a ruler of the Slime World, or do you all just live here in the castle together?",
+      "timestamp": 628.95
+    },
+    {
+      "speaker": "Izzy",
+      "text": "We got a queen, but she right now is talking to Bad Guy Balloon Popper.",
+      "timestamp": 656.47
+    },
+    {
+      "speaker": "Dad",
+      "text": "The Bad Guy Balloon Popper?",
+      "timestamp": 667.89
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah.",
+      "timestamp": 670.79
+    },
+    {
+      "speaker": "Dad",
+      "text": "Who's that?",
+      "timestamp": 671.43
+    },
+    {
+      "speaker": "Izzy",
+      "text": "The kitten, remember? The kitten.",
+      "timestamp": 673.67
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, the kitten that was popping all the balloons in Balloon World.",
+      "timestamp": 678.65
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yep.",
+      "timestamp": 682.79
+    },
+    {
+      "speaker": "Dad",
+      "text": "I didn't know that that kitten could end up here in the Slime World.",
+      "timestamp": 683.95
+    },
+    {
+      "speaker": "Izzy",
+      "text": "He just got lost in the Slime World, and now the queen talked her through about how to get to, back to the, the Balloon World, back to where she lived.",
+      "timestamp": 688.13
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh.",
+      "timestamp": 700.27
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And, and then she said, \"My name is Ginger,\" and she hopped back to Izzy's house. She just boing, boing, boing, boing, boing. And then she was back at Izzy's.",
+      "timestamp": 701.15
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Oh, thank goodness she got back to where she belongs,\" said Seeker. \"Well, this has been a wonderful visit to Slime World, and we met so many creatures and learned so many interesting facts about Slime World. I think it's time for us to head home, don't you W- Wizard Bobizard?\"",
+      "timestamp": 714.28
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yep.",
+      "timestamp": 729.99
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Wizard Bobizard said, \"Yep,\" and Izzy said, \"Yep.\" \"So we're gonna take our Going Home Potion.\" And they all sipped, sip, sip, sip, and then they were back at Seeker's Castle. And that is the end of Star's story.",
+      "timestamp": 730.47
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Let's do shadow puppets. Let's do shadow puppets.",
+      "timestamp": 745.67
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay.",
+      "timestamp": 750.31
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Now... You make yours. You, you make yours.",
+      "timestamp": 758.63
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay. Hmm. Hmm.",
+      "timestamp": 769.85
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Pop, pop, pop, pop.",
+      "timestamp": 778.55
+    },
+    {
+      "speaker": "Dad",
+      "text": "Hello, I'm a shadow. Oh, maybe we can make it into a lantern fish. We have to have the lantern. Hold on, put it on. I'm a lantern fish, and here is my lantern sticking out.",
+      "timestamp": 780.25
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I am...",
+      "timestamp": 798.41
     }
   ],
   "characters": [
@@ -534,7 +854,19 @@
       "description": "Once the silent harbor of Jinjar’s return and the site of Rizzo and Izzy’s fateful council, this fortified sanctuary now serves as the primary destination reachable via a magical potion. Anchoring the company against the encroaching storm, the hallowed dwelling resembles a quaint hotel of labyrinthine rooms, featuring a celestial starry rug that blankets the ground where heroes once prepared for their departure to the dragon’s castle."
     }
   ],
-  "wordCount": 1404,
-  "izzyWordCount": 428,
-  "dadWordCount": 976
+  "wordCount": 1699,
+  "izzyWordCount": 690,
+  "dadWordCount": 1009,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T15:24:57.240Z",
+    "speakerMap": {
+      "speaker_0": "Izzy",
+      "speaker_1": "Dad"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "high"
+  }
 }
