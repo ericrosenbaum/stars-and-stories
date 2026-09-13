@@ -204,7 +204,10 @@ async function runScribe(
   form.append('model_id', model);
   form.append('language_code', 'en');
   form.append('diarize', 'true');
-  form.append('num_speakers', '2'); // every recording is Dad + Izzy
+  // NOT num_speakers=2: measured 2026-09-13, capping the speaker count made
+  // Scribe merge Dad and Izzy into one label on some recordings and keep a
+  // noise cluster as the "second speaker". Uncapped, the two real voices
+  // separate and any small extra cluster is folded in by mapSpeakers().
   form.append('tag_audio_events', 'false');
   for (const term of keyterms) form.append('keyterms', term);
   const res = await fetch('https://api.elevenlabs.io/v1/speech-to-text', {
@@ -283,11 +286,16 @@ export interface SpeakerMapping {
 const DAD_LABEL = 'Dad';
 const IZZY_LABEL = 'Izzy';
 
-/** Assign Dad to the top-ranked raw label, Izzy to the next, generic names to any extras. */
-function assignByRank(ranked: string[]): Record<string, string> {
+/**
+ * Dad = the most Dad-like raw label, Izzy = the next. Any further label is a
+ * small extra cluster Scribe split off (noise, a cough, a third voice for a
+ * moment) — fold it into whichever of the two it resembles more, so no words
+ * fall outside the Izzy/Dad counts.
+ */
+function assignByRank(ranked: string[], dadLike: (raw: string) => boolean): Record<string, string> {
   const map: Record<string, string> = {};
   ranked.forEach((raw, i) => {
-    map[raw] = i === 0 ? DAD_LABEL : i === 1 ? IZZY_LABEL : `Speaker ${i + 1}`;
+    map[raw] = i === 0 ? DAD_LABEL : i === 1 ? IZZY_LABEL : dadLike(raw) ? DAD_LABEL : IZZY_LABEL;
   });
   return map;
 }
@@ -361,12 +369,13 @@ function mapByReference(
     return (v.Dad + 0.5) / (v.Dad + v.Izzy + 1);
   };
   const ranked = [...raws].sort((a, b) => dadShare(b) - dadShare(a));
-  const map = assignByRank(ranked);
+  const map = assignByRank(ranked, (r) => dadShare(r) >= 0.5);
   const shares = ranked.map((r) => dadShare(r));
   const coverage = totalWords ? votedWords / totalWords : 0;
-  // Confident when the Dad label is clearly Dad-ish, the Izzy label clearly
-  // isn't, and most of the recording actually took part in the vote.
-  const confident = raws.length < 2 || (shares[0] >= 0.7 && shares[1] <= 0.3 && coverage >= 0.5);
+  // Confident when the two labels are clearly separated (Izzy's short
+  // interjections often land on a neighbouring old Dad line, so the "Izzy"
+  // label rarely scores near 0%), and most of the recording took part.
+  const confident = raws.length < 2 || (shares[0] >= 0.6 && shares[0] - shares[1] >= 0.25 && coverage >= 0.5);
   return {
     map,
     method: 'reference',
@@ -403,7 +412,8 @@ function mapByCues(segments: RawSegment[]): SpeakerMapping {
   const ranked = [...raws].sort(
     (a, b) => cueScore(b) - cueScore(a) || meanLen(b) - meanLen(a) || stats.get(b)!.words - stats.get(a)!.words,
   );
-  const map = assignByRank(ranked);
+  // extras: long-lined clusters read as Dad, short-lined ones as Izzy
+  const map = assignByRank(ranked, (r) => cueScore(r) > 0 || (cueScore(r) === 0 && meanLen(r) >= meanLen(ranked[1])));
   let confidence: 'high' | 'low' = 'low';
   if (raws.length < 2) confidence = 'high';
   else if (anyCues) {
@@ -434,6 +444,32 @@ export function mapSpeakers(segments: RawSegment[], reference?: TranscriptItem[]
     }
   }
   return mapByCues(segments);
+}
+
+// ---- diarization sanity ----
+
+/** Share of words held by the smaller of the two main speakers (0 = one voice). */
+export function minoritySpeakerShare(transcript: { speaker: string; text: string }[]): number {
+  const words = new Map<string, number>();
+  for (const t of transcript) words.set(t.speaker, (words.get(t.speaker) ?? 0) + countWords(t.text));
+  const sorted = [...words.values()].sort((a, b) => b - a);
+  const total = sorted.reduce((a, b) => a + b, 0);
+  return total && sorted.length > 1 ? sorted[1] / total : 0;
+}
+
+/**
+ * Did Scribe fold both voices into one label? Judged against the previous
+ * transcript when there is one (it knew the recording had two real voices),
+ * otherwise by an absolute floor on recordings long enough to matter.
+ */
+export function diarizationCollapsed(
+  transcript: { speaker: string; text: string }[],
+  reference?: { speaker: string; text: string }[],
+  durationSec?: number | null,
+): boolean {
+  const share = minoritySpeakerShare(transcript);
+  if (reference?.length) return share < 0.06 && minoritySpeakerShare(reference) >= 0.12;
+  return share < 0.04 && (durationSec ?? 0) > 180;
 }
 
 // ---- entry point ----

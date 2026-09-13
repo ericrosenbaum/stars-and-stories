@@ -24,7 +24,7 @@ import 'dotenv/config';
 import fs from 'node:fs';
 import path from 'node:path';
 import { CONTENT_STORIES_DIR, CONTENT_BAKEOFF_DIR, ROOT } from './lib/paths.ts';
-import { ARCHIVE_ENGINE, QuotaExceededError, audioDurationSec, describeMapping, runEngine } from './lib/asr.ts';
+import { ARCHIVE_ENGINE, QuotaExceededError, audioDurationSec, describeMapping, diarizationCollapsed, runEngine } from './lib/asr.ts';
 import { loadKeyterms } from './lib/lexicon.ts';
 import { computeWordCounts } from './lib/wordcount.ts';
 import { recoverQuoteTimestamp } from './lib/quote.ts';
@@ -93,6 +93,7 @@ let consecutiveFailures = 0;
 let totalCost = 0;
 const lowConfidence: string[] = [];
 const unanchored: string[] = [];
+const keptCollapsed: string[] = [];
 
 for (const [i, slug] of targets.entries()) {
   const audioPath = path.join(CONTENT_STORIES_DIR, slug, 'source.m4a');
@@ -107,13 +108,29 @@ for (const [i, slug] of targets.entries()) {
   const old = { lines: record.transcript.length, izzy: record.izzyWordCount, dad: record.dadWordCount };
 
   let result;
+  let collapsed = false;
   try {
-    result = await runEngine(ARCHIVE_ENGINE, audioPath, {
-      keyterms: keyterms.terms,
-      referenceTranscript: record.transcript,
-      durationSec: await audioDurationSec(audioPath),
-      rawDumpDir: path.join(CONTENT_BAKEOFF_DIR, `retranscribe-${slug}`), // gitignored scratch
-    });
+    const durationSec = await audioDurationSec(audioPath);
+    const run = (terms: string[]) =>
+      runEngine(ARCHIVE_ENGINE, audioPath, {
+        keyterms: terms,
+        referenceTranscript: record.transcript,
+        durationSec,
+        rawDumpDir: path.join(CONTENT_BAKEOFF_DIR, `retranscribe-${slug}`), // gitignored scratch
+      });
+    result = await run(keyterms.terms);
+    if (diarizationCollapsed(result.transcript, record.transcript)) {
+      // Both voices came back as one label. Try once more without keyterms
+      // (they have collapsed diarization in other runs); if that also fails,
+      // keep the previous transcript rather than publish a one-voice one.
+      console.warn('  diarization collapsed to one voice — retrying without keyterms...');
+      const retry = await run([]);
+      if (diarizationCollapsed(retry.transcript, record.transcript)) {
+        collapsed = true;
+      } else {
+        result = retry;
+      }
+    }
   } catch (e: any) {
     if (e instanceof QuotaExceededError) {
       console.error(`\n${e.message}`);
@@ -132,6 +149,23 @@ for (const [i, slug] of targets.entries()) {
     continue;
   }
   consecutiveFailures = 0;
+
+  if (collapsed) {
+    // Marked done (so --all moves on) but with the OLD transcript kept and a flag to revisit.
+    record.transcription = {
+      engine: result.engine,
+      model: result.model,
+      keyterms: result.keytermCount,
+      at: new Date().toISOString(),
+      speakerMapMethod: 'collapsed',
+      speakerMapConfidence: 'low',
+    };
+    fs.writeFileSync(storyJsonPath(slug), JSON.stringify(record, null, 2));
+    keptCollapsed.push(slug);
+    failed++;
+    console.warn('  KEPT the previous transcript: Scribe returned one voice with and without keyterms.');
+    continue;
+  }
 
   console.log(`  speakers: ${describeMapping(result)}`);
   if (result.speakerMapConfidence === 'low') lowConfidence.push(slug);
@@ -179,6 +213,9 @@ for (const [i, slug] of targets.entries()) {
 console.log(`\nRe-transcribed ${done} story(ies)${failed ? `, ${failed} failed/skipped` : ''}${totalCost ? `; estimated cost ~$${totalCost.toFixed(2)}` : ''}.`);
 if (lowConfidence.length) {
   console.log(`Low-confidence speaker mappings (check Dad/Izzy in these):\n  ${lowConfidence.join('\n  ')}`);
+}
+if (keptCollapsed.length) {
+  console.log(`Diarization collapsed (previous transcript kept, marked 'collapsed'):\n  ${keptCollapsed.join('\n  ')}`);
 }
 if (unanchored.length) {
   console.log(`Highlight quotes that no longer match a line verbatim (kept with their old timestamp):\n  ${unanchored.join('\n  ')}`);

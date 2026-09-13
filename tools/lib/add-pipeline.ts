@@ -35,7 +35,7 @@ import { recoverQuoteTimestamp } from './quote.ts';
 import { uniqueSlug } from './slug.ts';
 import { recomputeEntityLinks } from './entities.ts';
 import { generateHeaderCandidates, type CandidateSet } from './candidates.ts';
-import { ARCHIVE_ENGINE, audioDurationSec, describeMapping, runEngine } from './asr.ts';
+import { ARCHIVE_ENGINE, audioDurationSec, describeMapping, diarizationCollapsed, runEngine } from './asr.ts';
 import { loadCharacterRefImages } from './refimages.ts';
 import { headerPromptBrief } from './prompt-guide.ts';
 import { buildSite } from '../build-site.ts';
@@ -215,6 +215,10 @@ export async function transcribeDraft(audioPath: string, opts: TranscribeDraftOp
     rawDumpDir: path.join(CONTENT_BAKEOFF_DIR, `add-${id}`),
   });
   progress('transcribe', `Transcript: ${result.transcript.length} lines · ${result.keytermCount} keyterms sent · speakers ${describeMapping(result)}`);
+  if (diarizationCollapsed(result.transcript, undefined, durationSec)) {
+    result.speakerMapConfidence = 'low';
+    progress('transcribe', 'WARNING: nearly all words landed on one speaker — Scribe may have merged the two voices. Check transcript.txt before finalizing.');
+  }
   const fixes = Object.entries(result.spellingFixes);
   if (fixes.length) progress('transcribe', `Spelling fixes: ${fixes.map(([k, v]) => `${k} ×${v}`).join(', ')}`);
 
