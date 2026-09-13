@@ -2,7 +2,7 @@
   "id": "The_Flying_Friends_of_Strawberry_Island",
   "title": "The Flying Friends of Strawberry Island",
   "date": "2026-02-27T00:00:00.000Z",
-  "summary": "Dimetar, a young flying dragonet, enjoys a busy day at school on Circular Island. After a lunch of fish crackers and a restful nap with his purple cat stuffie, Sanina, he heads outside for playground time. While his other friends are grounded, he meets Zudy, a red and green dragonet visiting from Strawberry Island. The two take to the skies for a dizzying aerial display before their mothers, Allego and Demora, meet to arrange a cross-island playdate.",
+  "summary": "Dimitar, a young flying dragonet, enjoys a busy day at school on Circular Island. After a lunch of fish crackers and a restful nap with his purple cat stuffie, Sanina, he heads outside for playground time. While his other friends are grounded, he meets Zudy, a red and green dragonet visiting from Strawberry Island. The two take to the skies for a dizzying aerial display before their mothers, Allego and Demora, meet to arrange a cross-island playdate.",
   "audioFilename": "Dimitar at Catessori day 2.m4a",
   "highlightQuote": {
     "text": "Red and green, just like a strawberry.",
@@ -17,7 +17,7 @@
     {
       "speaker": "Dad",
       "timestamp": 39,
-      "text": "And who am I going to sit with, says Dimetar?"
+      "text": "And who am I going to sit with, says Dimitar?"
     },
     {
       "timestamp": 42,
@@ -35,7 +35,7 @@
       "text": "Kibble."
     },
     {
-      "text": "Oh, that's not my favorite thing. Well, said Dimetar, did you bring a lunch box?",
+      "text": "Oh, that's not my favorite thing. Well, said Dimitar, did you bring a lunch box?",
       "timestamp": 51,
       "speaker": "Dad"
     },
@@ -70,7 +70,7 @@
       "timestamp": 201
     },
     {
-      "text": "The teacher comes over and says, what you need Dimetar?",
+      "text": "The teacher comes over and says, what you need Dimitar?",
       "speaker": "Izzy",
       "timestamp": 209
     },
@@ -97,7 +97,7 @@
     {
       "speaker": "Dad",
       "timestamp": 343,
-      "text": "Sanina, so soft and snuggly. Dimetar lays down on his mat and gets cozy."
+      "text": "Sanina, so soft and snuggly. Dimitar lays down on his mat and gets cozy."
     },
     {
       "text": "The teacher covers him with his blanket with dragons.",
@@ -155,7 +155,7 @@
       "text": "Maybe a bit more slow."
     },
     {
-      "text": "Here comes Zudy and Dimetar's moms.",
+      "text": "Here comes Zudy and Dimitar's moms.",
       "timestamp": 647,
       "speaker": "Izzy"
     },
@@ -165,7 +165,7 @@
       "text": "My name is Allego, Zudy's mom."
     },
     {
-      "text": "And Dimetar's mom's name is Demora. We live on Circular Island. What island does your family live on?",
+      "text": "And Dimitar's mom's name is Demora. We live on Circular Island. What island does your family live on?",
       "timestamp": 707,
       "speaker": "Dad"
     },
@@ -194,12 +194,12 @@
     {
       "id": "7Hoc5QEzrC1TnQYmz2fS",
       "name": "Alexander",
-      "description": "A poised driver and student at Ginger Catasorry, this feline friend to Dimetar and Scratch Cat manages a digital Tamagotchi empire from the confines of a lunchbox. After recently representing Silver during the playdate, their steady paw was led far from the morning commute into the treacherous depths of the dark forest, where they navigated the shadows alongside Jane."
+      "description": "A poised driver and student at Ginger Catasorry, this feline friend to Dimitar and Scratch Cat manages a digital Tamagotchi empire from the confines of a lunchbox. After recently representing Silver during the playdate, their steady paw was led far from the morning commute into the treacherous depths of the dark forest, where they navigated the shadows alongside Jane."
     },
     {
       "id": "8Ntxx8fRkyFbYejZ2clG",
       "name": "Jane",
-      "description": "Dimetar’s matronly childhood companion is a kindhearted cat and daring ship’s pilot, a friend to Finn, Isabella, and Scratch Cat who navigates the expedition toward Mouse Castle and the road to Cadasori. Her cockpit is a warm sanctuary distinguished by a \"love you\" sticker and a cabin teeming with whiskered passengers, reflecting the same tenderness she first offered Silver. Though she maintains a bold pace, she is easily swayed by snacks at Seeker’s house or waylaid within the tangled depths of the dark forest. An adventurous spirit with whimsical desires, she currently dreams of a special little hat adorned with rainbow feathers, glitter, and a miniature fishy pond to crown her nautical ensemble."
+      "description": "Dimitar’s matronly childhood companion is a kindhearted cat and daring ship’s pilot, a friend to Finn, Isabella, and Scratch Cat who navigates the expedition toward Mouse Castle and the road to Cadasori. Her cockpit is a warm sanctuary distinguished by a \"love you\" sticker and a cabin teeming with whiskered passengers, reflecting the same tenderness she first offered Silver. Though she maintains a bold pace, she is easily swayed by snacks at Seeker’s house or waylaid within the tangled depths of the dark forest. An adventurous spirit with whimsical desires, she currently dreams of a special little hat adorned with rainbow feathers, glitter, and a miniature fishy pond to crown her nautical ensemble."
     },
     {
       "id": "fuEXSbGD7Rlz9IRa1lId",
@@ -209,17 +209,17 @@
     {
       "id": "BsQREuVyJB0gS9DwoBG1",
       "name": "The Teacher",
-      "description": "The educator at Dimetar's school who watches the children play and gets dizzy from the dragons' flying."
+      "description": "The educator at Dimitar's school who watches the children play and gets dizzy from the dragons' flying."
     },
     {
       "id": "jnVzcPQ66eyRPimZCwM9",
       "name": "Sanina",
-      "description": "Dimetar's soft, purple cat stuffie used for nap time."
+      "description": "Dimitar's soft, purple cat stuffie used for nap time."
     },
     {
       "id": "Upnp2HdA7JsCA4VHAoxZ",
       "name": "Zudy Dragon",
-      "description": "A red and green dragonet from Strawberry Island who meets Dimetar on the playground."
+      "description": "A red and green dragonet from Strawberry Island who meets Dimitar on the playground."
     },
     {
       "id": "qXZCu0VErhcEi7PsKrc1",
@@ -227,9 +227,9 @@
       "description": "Zudy Dragon's mother."
     },
     {
-      "id": "t6d7OQcPj9VpxwrdlFcj",
-      "name": "Demora",
-      "description": "Dimetar's mother."
+      "id": "ikIy1aMXG8trFETXNJSK",
+      "name": "Dimitar's Mother",
+      "description": "Dimitar's mother who flies him to school."
     }
   ],
   "places": [
@@ -246,7 +246,7 @@
     {
       "id": "5N5A8mtxA9n0UMP0GN0A",
       "name": "The School Playground",
-      "description": "The place where Dimetar and Zudy first meet and fly together."
+      "description": "The place where Dimitar and Zudy first meet and fly together."
     }
   ],
   "wordCount": 388,

@@ -61,7 +61,7 @@
     },
     {
       "speaker": "Dad",
-      "text": "Oh, a sparkle pop that goes in the mouth for people that get hurt? Okay. Got it, says Disco and Disco. And Hatty Mouse says 'What's my job?'.",
+      "text": "Oh, a sparkle pop that goes in the mouth for people that get hurt? Okay. Got it, says Disco and Disco. And Hattie Mouse says 'What's my job?'.",
       "timestamp": 65
     },
     {
@@ -161,7 +161,7 @@
     },
     {
       "speaker": "Dad",
-      "text": "Oh, he's doing sniffing research. That's very good, Lieutenant Finn Cat. Oh, it needs charging. Okay. Our space Yoda is out of space batteries. I can charge it. You can? Here I'll give you the cable. Plug it right in and then we'll sit it up on the shelf. Oh, Lieutenant Avery has dropped her space bug. Here you go.",
+      "text": "Oh, he's doing sniffing research. That's very good, Lieutenant Finncat. Oh, it needs charging. Okay. Our space Yoda is out of space batteries. I can charge it. You can? Here I'll give you the cable. Plug it right in and then we'll sit it up on the shelf. Oh, Lieutenant Avery has dropped her space bug. Here you go.",
       "timestamp": 270
     },
     {
@@ -472,9 +472,9 @@
       "description": "A steadfast mole friend who served as the group’s living anchor, keeping everyone united through the simple, vital act of holding hands; they have been spirited away to a distant planet and now await a rescue to restore the broken chain."
     },
     {
-      "id": "snHgdWb3e6sPQ0QtkRU0",
-      "name": "Pilot Isabella",
-      "description": "The skilled pilot of the crew's spaceship."
+      "id": "34xshXaYEDy8V1RTpXR7",
+      "name": "Isabella",
+      "description": "A towering Dimitar scholar and alchemist of Atsukeeseet, Mama Izzy is a clever kiddo at heart and a steadfast guardian of rooftop gardens and intricate dollhouses. Gifted with the power of flight, she navigates the open heights with aquatic grace, her massive frame often shielded by a special protective metal that glimmers even as she descends into the shadows. As a resourceful quartermaster, she employs red flashlights, gold-laced slimes, and pipe cleaners to mend a Lanternshark’s failing light, yet her generosity remains her hallmark; she freely shares her vast library, brokers homes for dragons, and teaches others to find the resonance in their own voices. Her most profound magic resides in her vast, soft blanket—a sanctuary of ultimate coziness—where she remains a brave, quick-witted protector to all who honor her singular request for absolute silence."
     },
     {
       "id": "dJbqXV5alhaxe82pM9Tn",
@@ -487,14 +487,14 @@
       "description": "A dedicated crew member reporting for duty on the mission."
     },
     {
-      "id": "AvWNayRdnLn38BJSGbdm",
-      "name": "Hatty Mouse",
-      "description": "A mouse whose job is to collect rocks from the surface of space."
+      "id": "tYBszLhCgH4IaUdPucp7",
+      "name": "Hattie the Mouse",
+      "description": "A nimble, friendly mouse of Possible Street and loyal friend to Izzy and Seeker, this brave artisan is the wife of Dimitar and mistress of the Workshop of Hats—a weathered hollow tree sanctuary on Cornell Street scented with cedar, ink, and peanut butter toast. Clad in her signature red cloak and pointy hat, she is a resourceful hatmaker whose spirit was forged against massive diggers and the rain-slicked Floofer Cloud. Within her paint-stained home, she carefully curates her husband’s library alongside her own hand-painted volumes while confronting a baffling supply mystery; the discovery of curious clover stickers signals a gathering shadow of intrigue she is determined to unravel."
     },
     {
-      "id": "sDo3r9MN7EX6KJRqwasF",
-      "name": "Lieutenant Avery",
-      "description": "A crew member who chews on her space bug and makes everyone's beds."
+      "id": "xM1XXMMaqO49QZMERkkE",
+      "name": "Avery",
+      "description": "Now christened [Name], this diminutive mole is the newest addition to Izzy’s family and Hattie’s velvety baby sister. A tiny voyager often depicted in portraits wearing oversized clothes, she is a slumbering resident aboard the ship, finding bliss in milk-filled dreams within her cozy \"house\" upon the storyteller’s knee. To protect [Name]’s fragile rest, the crew maintains a state of hushed reverence, ensuring the vessel remains a quiet sanctuary for its smallest, most loyal passenger."
     },
     {
       "id": "DamSsR4Fy0inv81ko6ap",
@@ -564,7 +564,7 @@
       "description": "An enigmatic alien world defined by its fuzzy yet curiously slimy surface, this planet serves as the ancestral cradle of the Mookers and the site of Chicky’s destined path. Strewn with the colossal remains of giant fossils, the realm was recently scouted by Seeker and Buddy and documented in the Seeker’s potion closet; it remains accessible only to those who imbibe a specific purple alchemical elixir."
     }
   ],
-  "wordCount": 1466,
+  "wordCount": 1465,
   "izzyWordCount": 378,
-  "dadWordCount": 1088
+  "dadWordCount": 1087
 }

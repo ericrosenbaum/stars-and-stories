@@ -143,6 +143,9 @@ async function mergeEntities(
   const canonical: CanonicalEntity[] = JSON.parse(fs.readFileSync(canonicalPath, 'utf8'));
   const byName = new Map<string, CanonicalEntity>();
   for (const e of canonical) byName.set(norm(e.name), e);
+  // Absorbed duplicates (see merge-characters.ts) are recorded as aliases so a
+  // re-extracted old spelling lands on the surviving entity. Names win over aliases.
+  for (const e of canonical) for (const a of e.aliases ?? []) if (!byName.has(norm(a))) byName.set(norm(a), e);
 
   const embedded: EmbeddedEntity[] = [];
   for (const ex of extracted) {

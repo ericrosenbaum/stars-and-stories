@@ -250,7 +250,13 @@
       "timestamp": 1247
     }
   ],
-  "characters": [],
+  "characters": [
+    {
+      "id": "1mtHGsyoBgbGF57FWXNr",
+      "name": "Floofer Kaploofer",
+      "description": "A white floofer who gets lost and stuck in orange sand."
+    }
+  ],
   "places": [],
   "wordCount": 1547,
   "izzyWordCount": 546,

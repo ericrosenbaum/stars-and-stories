@@ -221,17 +221,17 @@
     },
     {
       "speaker": "Izzy",
-      "text": "They were coloring a picture of Worry-Worry Whale and Finn Cat.",
+      "text": "They were coloring a picture of Worry-Worry Whale and Finncat.",
       "timestamp": 408
     },
     {
       "speaker": "Dad",
-      "text": "Of Worry-Worry Whale and Finn Cat. That sounds very nice.",
+      "text": "Of Worry-Worry Whale and Finncat. That sounds very nice.",
       "timestamp": 425
     },
     {
       "speaker": "Izzy",
-      "text": "And he told Worry-Worry Whale and Finn Cat 'We made a picture for you. Look, look, this is for you.'",
+      "text": "And he told Worry-Worry Whale and Finncat 'We made a picture for you. Look, look, this is for you.'",
       "timestamp": 428
     },
     {
@@ -592,9 +592,9 @@
       "description": "The 'worry-worry whale' who lives in the ocean."
     },
     {
-      "id": "WOTzRHWcwbB6vTWv7Pwt",
-      "name": "Pout-Pout",
-      "description": "A fish friend of Willa, Bert, and Ernie."
+      "id": "uKdcaP84hGYyNyyAS9ZV",
+      "name": "Pout-Pout Fish",
+      "description": "A underwater friend who helps Izzy search for a missing treasure."
     },
     {
       "id": "hyVrHx91vq3ufbDPuE7o",
@@ -612,14 +612,14 @@
       "description": "One of the friends who joins the group for breakfast."
     },
     {
-      "id": "qQ3TtWQA8QvDrLtArpwo",
-      "name": "Finn Cat",
-      "description": "A character featured in a coloring picture with Worry-Worry Whale."
+      "id": "Mu6WLmI69gayiEnG0383",
+      "name": "Finn",
+      "description": "A resident of Cat World and loyal companion to Mama, Finncat is a meticulous research collector who documents the world through investigative sniffing. Alongside their peer Silver, they navigate their domain with scholarly curiosity, often pausing mid-voyage for a sudden, dramatic flop. While currently thwarted by the formidable challenge of an unopened food can, this diligent scholar occasionally graces the room for a fleeting minute during storytelling, lending a brief, discerning presence to the narrative before returning to their investigations."
     },
     {
-      "id": "iIzaJbzGktRtzhFlGTrh",
-      "name": "Izzy the Kiddo",
-      "description": "Once a quiet dreamer sketching from a recovery bed, this brave explorer now leads her companions through Hattie’s workshop and the lightless abyss, guided by a beacon of special light. Clad in a rugged driving suit alongside Bluey and Fincat’s Mouse, she wields heavy hammers and a magic wand with logistical precision inherited from her Nana. From trading plastic bricks for rare mushrooms to orchestrating neighborhood cleanups, she balances specialized gear with a playful spirit. Choosing the spark of a game over the gravity of a traditional quest, she ensures her radiant creativity and guiding light remain her most powerful tools for navigating the unknown."
+      "id": "34xshXaYEDy8V1RTpXR7",
+      "name": "Isabella",
+      "description": "A towering Dimitar scholar and alchemist of Atsukeeseet, Mama Izzy is a clever kiddo at heart and a steadfast guardian of rooftop gardens and intricate dollhouses. Gifted with the power of flight, she navigates the open heights with aquatic grace, her massive frame often shielded by a special protective metal that glimmers even as she descends into the shadows. As a resourceful quartermaster, she employs red flashlights, gold-laced slimes, and pipe cleaners to mend a Lanternshark’s failing light, yet her generosity remains her hallmark; she freely shares her vast library, brokers homes for dragons, and teaches others to find the resonance in their own voices. Her most profound magic resides in her vast, soft blanket—a sanctuary of ultimate coziness—where she remains a brave, quick-witted protector to all who honor her singular request for absolute silence."
     },
     {
       "id": "JzFzPL1YWRKIlQl4vLH6",
@@ -674,7 +674,7 @@
       "description": "A silt-choked abyss carved into the seabed, where the lost pearl lies buried beneath thick layers of primordial mud. This yawning chasm marks the gateway to the Deep-Deep Dark, a lightless void where the ocean floor gives way to the crushing pressure of the unknown."
     }
   ],
-  "wordCount": 1437,
-  "izzyWordCount": 532,
-  "dadWordCount": 905
+  "wordCount": 1434,
+  "izzyWordCount": 530,
+  "dadWordCount": 904
 }

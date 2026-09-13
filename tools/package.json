@@ -17,7 +17,8 @@
     "forest-landscape": "tsx forest-landscape.ts",
     "storyboard": "tsx storyboard.ts",
     "world-dna": "tsx gen-world-dna.ts",
-    "verify-models": "tsx verify-models.ts"
+    "verify-models": "tsx verify-models.ts",
+    "merge-characters": "tsx merge-characters.ts"
   },
   "dependencies": {
     "@google/genai": "^1.29.0",

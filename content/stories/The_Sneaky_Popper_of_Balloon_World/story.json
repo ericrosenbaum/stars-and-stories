@@ -2,7 +2,7 @@
   "id": "The_Sneaky_Popper_of_Balloon_World",
   "title": "The Sneaky Popper of Balloon World",
   "date": "2026-03-08T00:00:00.000Z",
-  "summary": "Uncle Bill and Seeker travel to the vibrant Balloon World, a place made entirely of balloons, only to find it under threat from a mysterious 'Sneaky Popper.' They join forces with Squeaky the Balloon Dog and a team of feline superheroes, including the time-stopping Mea Mayhem and the courageous Kitty, to investigate the popped balloons. The trail leads them to a balloon farm where they eventually discover the culprit: a playful baby kitten who didn't mean any harm. By providing the kitten with toys and yarn to satisfy its playfulness, the heroes successfully save Balloon World and receive colorful balloons from the King as a reward.",
+  "summary": "Uncle Bill and Seeker travel to the vibrant Balloon World, a place made entirely of balloons, only to find it under threat from a mysterious 'Sneaky Popper.' They join forces with Squeaky the Balloon Dog and a team of feline superheroes, including the time-stopping Mia Mayhem and the courageous Kitty, to investigate the popped balloons. The trail leads them to a balloon farm where they eventually discover the culprit: a playful baby kitten who didn't mean any harm. By providing the kitten with toys and yarn to satisfy its playfulness, the heroes successfully save Balloon World and receive colorful balloons from the King as a reward.",
   "audioFilename": "The Case of the Sneaky Popper.m4a",
   "highlightQuote": {
     "text": "We drink the potion and do the special rhyme called balloon baboon.",
@@ -250,7 +250,7 @@
       "timestamp": 443
     },
     {
-      "text": "No. No. Actually, I brought another... I brought me... I also brought Mea Mayhem and I also brought, I think so, one more important superhero that's a time stopper one called Mea Mayhem.",
+      "text": "No. No. Actually, I brought another... I brought me... I also brought Mia Mayhem and I also brought, I think so, one more important superhero that's a time stopper one called Mia Mayhem.",
       "timestamp": 451,
       "speaker": "Izzy"
     },
@@ -265,7 +265,7 @@
       "text": "So that means she's in charge."
     },
     {
-      "text": "Oh, well, Mea Mayhem, we need your help finding the sneaky popper. So let me take everyone out to the scene where we know one of the balloons was popped. And Squeaky led everyone out of the castle and the King said, \"Thank you for your help. We need you to save Balloon World.\" And they all walked down the hall and out the huge front balloon doors.",
+      "text": "Oh, well, Mia Mayhem, we need your help finding the sneaky popper. So let me take everyone out to the scene where we know one of the balloons was popped. And Squeaky led everyone out of the castle and the King said, \"Thank you for your help. We need you to save Balloon World.\" And they all walked down the hall and out the huge front balloon doors.",
       "speaker": "Dad",
       "timestamp": 525
     },
@@ -275,7 +275,7 @@
       "text": "I have an idea, says Kitty. Um, it's that we just like the merry-go-round at the zoo, we can cover it up with plastic."
     },
     {
-      "text": "\"I don't think that would really work,\" said Mea Mayhem.",
+      "text": "\"I don't think that would really work,\" said Mia Mayhem.",
       "speaker": "Dad",
       "timestamp": 610
     },
@@ -422,7 +422,7 @@
     {
       "timestamp": 1141,
       "speaker": "Dad",
-      "text": "\"What a wonderful solution to the problem. Thank you, Mea Mayhem, Superhero Izzy, Seeker, Uncle Bill, Kitty and her cat crew, and all the others including Squeaky the balloon dog who helped to save Balloon World. And to thank you, I will give you each a balloon of the color of your choosing to take home with you. And now I say goodbye.\""
+      "text": "\"What a wonderful solution to the problem. Thank you, Mia Mayhem, Superhero Izzy, Seeker, Uncle Bill, Kitty and her cat crew, and all the others including Squeaky the balloon dog who helped to save Balloon World. And to thank you, I will give you each a balloon of the color of your choosing to take home with you. And now I say goodbye.\""
     },
     {
       "speaker": "Dad",
@@ -467,14 +467,14 @@
       "description": "Isabella’s loyal companion and a valiant superhero, this feline-costumed commander harnesses agile, cat-like powers to lead an intrepid crew through the drifting wonders of Balloon World. Bound by a mission of guardianship, she navigates the whimsical floating realm on daring adventures, rescuing lost treasures and protecting every creature she encounters."
     },
     {
-      "id": "7qmKmgntsmCHuqcMSoz9",
-      "name": "Superhero Izzy",
-      "description": "Isabella’s brave, caped alter-ego is a courageous guardian of the kaleidoscopic Rainbow Frasgle World. A soaring protector, she descends from the vibrant skies alongside a crew of talking cats to lend their whiskered wisdom and help Seeker restore order to the unfolding house chaos."
+      "id": "34xshXaYEDy8V1RTpXR7",
+      "name": "Isabella",
+      "description": "A towering Dimitar scholar and alchemist of Atsukeeseet, Mama Izzy is a clever kiddo at heart and a steadfast guardian of rooftop gardens and intricate dollhouses. Gifted with the power of flight, she navigates the open heights with aquatic grace, her massive frame often shielded by a special protective metal that glimmers even as she descends into the shadows. As a resourceful quartermaster, she employs red flashlights, gold-laced slimes, and pipe cleaners to mend a Lanternshark’s failing light, yet her generosity remains her hallmark; she freely shares her vast library, brokers homes for dragons, and teaches others to find the resonance in their own voices. Her most profound magic resides in her vast, soft blanket—a sanctuary of ultimate coziness—where she remains a brave, quick-witted protector to all who honor her singular request for absolute silence."
     },
     {
-      "id": "rtH5BvwJlmLzLpAwW6yZ",
-      "name": "Mea Mayhem",
-      "description": "An important superhero with the power to stop time who takes charge of the investigation."
+      "id": "gheVDt1Tzwk9e76OAq3q",
+      "name": "Mia Mayhem",
+      "description": "A superhero friend of Isabella."
     },
     {
       "id": "DaMaH5JqGqOEvkBmjshL",

@@ -38,6 +38,8 @@ export interface CanonicalEntity {
   description: string;
   storyIds: string[]; // slugs, recomputed
   firstAppearanceStoryId: string | null; // slug of earliest-dated appearance
+  /** Other names this entity has gone by (absorbed duplicates); matched by npm run add. */
+  aliases?: string[];
 }
 
 export interface ManifestEntry {

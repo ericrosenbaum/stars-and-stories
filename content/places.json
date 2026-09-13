@@ -110,8 +110,8 @@
   },
   {
     "id": "0yTGMod6OGgSN7hzIC64",
-    "name": "Haddy's House",
-    "description": "The home of Haddy the Mouse where she keeps her large collection of Legos.",
+    "name": "Hattie's House",
+    "description": "The home of Hattie the Mouse where she keeps her large collection of Legos.",
     "storyIds": [
       "Haddy_the_Mouse_and_the_Lego_Airplane"
     ],
@@ -149,7 +149,7 @@
   {
     "id": "1RGgCHP5acnLflkBFeUJ",
     "name": "Underground Tunnel",
-    "description": "Tucked behind Goofy the Gopher’s overstuffed armchair and a bookshelf of weathered lore lies a yawning, meticulously carved excavation. This plunging vertical shaft—the very site where industrious moles labored until their claws struck the cold hull of a buried rocket—spirals downward from the cozy retreat as a gateway into a vast and echoing subterranean world.",
+    "description": "Tucked behind Goober the Gopher’s overstuffed armchair and a bookshelf of weathered lore lies a yawning, meticulously carved excavation. This plunging vertical shaft—the very site where industrious moles labored until their claws struck the cold hull of a buried rocket—spirals downward from the cozy retreat as a gateway into a vast and echoing subterranean world.",
     "storyIds": [
       "The_Moles_Intergalactic_Snack_Run",
       "Seeker_s_Deep_Earth_Adventure",
@@ -298,7 +298,7 @@
   {
     "id": "38fiUXVOLWYovBlvsw2j",
     "name": "The Stream",
-    "description": "Tucked within the lush jungle near the mouth of Goofy’s tunnel, this refreshing basin offers a cool reprieve to any traveler patient enough to follow a local frog's lead. Its mirror-still surface serves as a somber sanctuary where Eeyore retreats on his birthday, spending the hours in quiet contemplation of his own reflection.",
+    "description": "Tucked within the lush jungle near the mouth of Goober’s tunnel, this refreshing basin offers a cool reprieve to any traveler patient enough to follow a local frog's lead. Its mirror-still surface serves as a somber sanctuary where Eeyore retreats on his birthday, spending the hours in quiet contemplation of his own reflection.",
     "storyIds": [
       "Stars_and_Stories_Piglet_s_Birthday_Surprise",
       "The_Great_Expedition_of_the_Sas-ma-ras-ma-fla-mas_Frog",
@@ -445,7 +445,7 @@
   {
     "id": "5N5A8mtxA9n0UMP0GN0A",
     "name": "The School Playground",
-    "description": "The place where Dimetar and Zudy first meet and fly together.",
+    "description": "The place where Dimitar and Zudy first meet and fly together.",
     "storyIds": [
       "The_Flying_Friends_of_Strawberry_Island"
     ],
@@ -613,7 +613,7 @@
   {
     "id": "75PM4XgjvW5zKopzyQQr",
     "name": "Big Pink Continent",
-    "description": "The faraway home of the Mer-Girls where Kelp Bass are common.",
+    "description": "The faraway home of the Mergirls where Kelp Bass are common.",
     "storyIds": [
       "The_Great_Kelp_Caper_of_the_Pink_Continent"
     ],
@@ -1028,8 +1028,8 @@
   },
   {
     "id": "BAi5HsKAMqzdfEuCZSfj",
-    "name": "The Murgirl House",
-    "description": "The home where Blue, Yellow, and Pink Murgirl live.",
+    "name": "The Mergirl House",
+    "description": "The home where Blue, Yellow, and Pink Mergirl live.",
     "storyIds": [
       "The_Mystery_of_the_Missing_Kelp_Forest"
     ],
@@ -1406,7 +1406,7 @@
   {
     "id": "Gk23eRfGsJBhFGtHJBuR",
     "name": "The Farm",
-    "description": "The place where Hatty and Finn obtained wool from a sheep.",
+    "description": "The place where Hattie and Finn obtained wool from a sheep.",
     "storyIds": [
       "Finn_the_Cat_s_Arctic_Rainbow_Quest"
     ],
@@ -1542,8 +1542,8 @@
   },
   {
     "id": "I5jv4xrFGt3nF95tObVm",
-    "name": "Seker's Castle",
-    "description": "The home and laboratory of the wizard Seker where the story begins and ends.",
+    "name": "Seeker's Castle",
+    "description": "The home and laboratory of the wizard Seeker where the story begins and ends.",
     "storyIds": [
       "The_Wizard_Seker_and_the_Magical_Can_Opener_of_Cat_World"
     ],
@@ -1561,7 +1561,7 @@
   {
     "id": "IAKZ5OWjNmAWg01plDh7",
     "name": "The Kelp Forest",
-    "description": "The backyard garden where the murgirls grow kelp for otters.",
+    "description": "The backyard garden where the mergirls grow kelp for otters.",
     "storyIds": [
       "The_Mystery_of_the_Missing_Kelp_Forest"
     ],
@@ -1979,7 +1979,7 @@
   },
   {
     "id": "MvP3sKKUtG10yKNPBIIM",
-    "name": "Dimatar's Tower",
+    "name": "Dimitar's Tower",
     "description": "The dragonet's home where Isabella visits.",
     "storyIds": [
       "Dimatar_s_Big_Day_at_Ginger_Catasorry"
@@ -2566,7 +2566,7 @@
   },
   {
     "id": "UM2pdFyoja3n6316QTTa",
-    "name": "Bunson",
+    "name": "Bunsen",
     "description": "The starting point of the story where Kitty and her crew visit.",
     "storyIds": [
       "The_Gopher_s_Squerret_Quest_in_Australia"
@@ -2624,7 +2624,7 @@
   {
     "id": "VXArQQkW5XynuKI5LAXg",
     "name": "Underwater Coral Reef Gemstone World",
-    "description": "A vibrant submerged realm that Seeker and Dematar visit by using a diamond-shaped potion.",
+    "description": "A vibrant submerged realm that Seeker and Dimitar visit by using a diamond-shaped potion.",
     "storyIds": [
       "The_Potion_of_the_Gemstone_Reef"
     ],
@@ -2641,7 +2641,7 @@
   },
   {
     "id": "Vs3SUFeCIpo41rty1kss",
-    "name": "Haddy's Hollow Tree",
+    "name": "Hattie's Hollow Tree",
     "description": "A workshop in the forest where the world's best hat maker creates colorful Play-Doh hats.",
     "storyIds": [
       "The_Wizard_s_Play-Doh_Hat_Quest"
@@ -2660,7 +2660,7 @@
   },
   {
     "id": "W4pzchGl5Zv9ZNa6E1dy",
-    "name": "Hatty's House",
+    "name": "Hattie's House",
     "description": "The home where Finn originally requested a hat to stay warm.",
     "storyIds": [
       "Finn_the_Cat_s_Arctic_Rainbow_Quest"
@@ -3101,7 +3101,7 @@
   {
     "id": "cYZn6rIkkC8gZ8pyp4KM",
     "name": "Crabby's House",
-    "description": "The residence of the murgirls' knowledgeable neighbor.",
+    "description": "The residence of the mergirls' knowledgeable neighbor.",
     "storyIds": [
       "The_Mystery_of_the_Missing_Kelp_Forest"
     ],
@@ -4508,7 +4508,7 @@
   {
     "id": "uanq1sjKTVvaORgJqc8Q",
     "name": "Bottom of the ocean",
-    "description": "The general underwater setting where the murgirls live.",
+    "description": "The general underwater setting where the mergirls live.",
     "storyIds": [
       "The_Mystery_of_the_Missing_Kelp_Forest"
     ],
@@ -4590,8 +4590,8 @@
   },
   {
     "id": "vufhjwL8VpLGduu3ptPs",
-    "name": "Haddy's Workshop",
-    "description": "The home base for Haddy the mouse.",
+    "name": "Hattie's Workshop",
+    "description": "The home base for Hattie the mouse.",
     "storyIds": [
       "Haddy_the_Mouse_and_the_Quest_for_the_Talking_Hat"
     ],
@@ -5047,7 +5047,7 @@
   {
     "id": "0d3b3f3e2fd842a2b61e",
     "name": "Fly World",
-    "description": "A insect-filled world where Finn Cat goes to hunt and catch flies.",
+    "description": "A insect-filled world where Finncat goes to hunt and catch flies.",
     "storyIds": [
       "The_Cozy_Potions_of_Sleepy_World"
     ],
@@ -5100,7 +5100,7 @@
   },
   {
     "id": "9008cfbe396447f4acb8",
-    "name": "Farmer Wabble's Island",
+    "name": "Farmer Wobble's Island",
     "description": "An island in Italy where a volcano erupts and must be frozen by Elsa Pony.",
     "storyIds": [
       "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission"

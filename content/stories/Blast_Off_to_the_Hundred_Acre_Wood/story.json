@@ -481,7 +481,7 @@
     },
     {
       "speaker": "Dad",
-      "text": "Okay, it's all fixed, Finn Cat. What would Finn Cat say? Meow! You're welcome, Finn.",
+      "text": "Okay, it's all fixed, Finncat. What would Finncat say? Meow! You're welcome, Finn.",
       "timestamp": 1436.4
     },
     {
@@ -591,12 +591,12 @@
     },
     {
       "speaker": "Izzy",
-      "text": "It was from Finn Cat and his tin foil posser was broken, it he made a marble run one time and it broken.",
+      "text": "It was from Finncat and his tin foil posser was broken, it he made a marble run one time and it broken.",
       "timestamp": 1732.1
     },
     {
       "speaker": "Dad",
-      "text": "Oh, his tin foil posser is broken? From his marble run? Finn Cat, we better help you out.",
+      "text": "Oh, his tin foil posser is broken? From his marble run? Finncat, we better help you out.",
       "timestamp": 1743.1
     },
     {
@@ -611,7 +611,7 @@
     },
     {
       "speaker": "Izzy",
-      "text": "His friend Dit Darnet. This is Dit Darnet. Dit Darnet um you have to fix Finn Cat's marble run and the pesten wire ended up in a twist.",
+      "text": "His friend Dit Darnet. This is Dit Darnet. Dit Darnet um you have to fix Finncat's marble run and the pesten wire ended up in a twist.",
       "timestamp": 1807.5
     },
     {
@@ -1234,12 +1234,12 @@
     {
       "id": "8Ntxx8fRkyFbYejZ2clG",
       "name": "Jane",
-      "description": "Dimetar’s matronly childhood companion is a kindhearted cat and daring ship’s pilot, a friend to Finn, Isabella, and Scratch Cat who navigates the expedition toward Mouse Castle and the road to Cadasori. Her cockpit is a warm sanctuary distinguished by a \"love you\" sticker and a cabin teeming with whiskered passengers, reflecting the same tenderness she first offered Silver. Though she maintains a bold pace, she is easily swayed by snacks at Seeker’s house or waylaid within the tangled depths of the dark forest. An adventurous spirit with whimsical desires, she currently dreams of a special little hat adorned with rainbow feathers, glitter, and a miniature fishy pond to crown her nautical ensemble."
+      "description": "Dimitar’s matronly childhood companion is a kindhearted cat and daring ship’s pilot, a friend to Finn, Isabella, and Scratch Cat who navigates the expedition toward Mouse Castle and the road to Cadasori. Her cockpit is a warm sanctuary distinguished by a \"love you\" sticker and a cabin teeming with whiskered passengers, reflecting the same tenderness she first offered Silver. Though she maintains a bold pace, she is easily swayed by snacks at Seeker’s house or waylaid within the tangled depths of the dark forest. An adventurous spirit with whimsical desires, she currently dreams of a special little hat adorned with rainbow feathers, glitter, and a miniature fishy pond to crown her nautical ensemble."
     },
     {
-      "id": "YPtZ5gENJ5sHjLqxrmSZ",
-      "name": "Finn Space Cat",
-      "description": "A feline space traveler with a broken alarm clock."
+      "id": "Mu6WLmI69gayiEnG0383",
+      "name": "Finn",
+      "description": "A resident of Cat World and loyal companion to Mama, Finncat is a meticulous research collector who documents the world through investigative sniffing. Alongside their peer Silver, they navigate their domain with scholarly curiosity, often pausing mid-voyage for a sudden, dramatic flop. While currently thwarted by the formidable challenge of an unopened food can, this diligent scholar occasionally graces the room for a fleeting minute during storytelling, lending a brief, discerning presence to the narrative before returning to their investigations."
     },
     {
       "id": "sSwwSCo8YhDHVDzOUFwU",
@@ -1297,14 +1297,14 @@
       "description": "A friendly and boisterous Super Sleuth from the Hundred Acre Wood, this bouncing adventurer zips into action on a scooter, bringing a whirlwind of enthusiasm to help his friends and aid the local mice."
     },
     {
-      "id": "oSbrrVeIKIYetDZjmnz4",
-      "name": "Pooh",
-      "description": "A honey-loving resident of the Hundred Acre Wood."
+      "id": "vzmFSbiTfd6faG7D4A5V",
+      "name": "Winnie the Pooh",
+      "description": "A hungry yet generous soul, this bear shares his honey and ladder with Hattie on their quest for the perfect golden harvest. By stilling his heart to hear the world’s quiet whispers, he has mastered the art of patient reflection, teaching his companions that even the greatest obstacles yield to the gentle power of waiting and thoughtful stillness."
     },
     {
-      "id": "2Bc8RJ5DI1ZxLY70uBKl",
-      "name": "Oscar Mouse",
-      "description": "Roused by the spring warmth of a forested green planet, this tiny mouse artisan dwells within a small house of weathered stone. Having migrated from a drafty attic to the crystalline sanctuary of a sugar can, he works deep within his dark, stony cupboard, meticulously mending every dent with the smooth application of squeak oil."
+      "id": "KcV31NhEyNs0rsKV5Ssl",
+      "name": "Oscar",
+      "description": "Hunkered in velvety shadows beside one of Mistress Mouse’s tattered stuffy mice, Lily’s brother illuminates a salvaged television with a scavenged flashlight, contentedly nibbling on oily debris. His focus drifts from the flickering screen to the miniature green car mired in a mud puddle—a casualty of the same reckless speed he employs when racing his yellow school bus. Between these high-stakes heats, he engineers sturdy Lego bridges that arch over the surrounding wreckage, all under the unblinking watch of his glass-eyed, plush sentinel."
     },
     {
       "id": "9cRKK1zWOwTARNGk1Fvt",
@@ -1329,7 +1329,7 @@
       "description": "Nestled in a gentle clearing within the Hundred Acre Wood, this cozy house serves as a primary landing site for wind-tossed travelers. It is a place of simple wonders where Piglet often retreats, seeking a steady hand to help inflate his colorful balloons before they drift above the treetops."
     }
   ],
-  "wordCount": 3420,
-  "izzyWordCount": 1433,
-  "dadWordCount": 1987
+  "wordCount": 3415,
+  "izzyWordCount": 1431,
+  "dadWordCount": 1984
 }

@@ -86,7 +86,7 @@
     },
     {
       "speaker": "Dad",
-      "text": "And Seeker said, 'Yeah, Finn Cat asked very nicely if he could have a potion, and I wasn't sure what he was going to ask for because what kind of a world would Finn Cat want to go to? But turns out that Fly World sounded very interesting to him. I guess he likes to catch those. And you know, he hasn't even come back yet. He must still be there catching flies.'",
+      "text": "And Seeker said, 'Yeah, Finncat asked very nicely if he could have a potion, and I wasn't sure what he was going to ask for because what kind of a world would Finncat want to go to? But turns out that Fly World sounded very interesting to him. I guess he likes to catch those. And you know, he hasn't even come back yet. He must still be there catching flies.'",
       "timestamp": 123
     },
     {
@@ -972,9 +972,9 @@
       "description": "A nimble, friendly mouse of Possible Street and loyal friend to Izzy and Seeker, this brave artisan is the wife of Dimitar and mistress of the Workshop of Hats—a weathered hollow tree sanctuary on Cornell Street scented with cedar, ink, and peanut butter toast. Clad in her signature red cloak and pointy hat, she is a resourceful hatmaker whose spirit was forged against massive diggers and the rain-slicked Floofer Cloud. Within her paint-stained home, she carefully curates her husband’s library alongside her own hand-painted volumes while confronting a baffling supply mystery; the discovery of curious clover stickers signals a gathering shadow of intrigue she is determined to unravel."
     },
     {
-      "id": "qQ3TtWQA8QvDrLtArpwo",
-      "name": "Finn Cat",
-      "description": "A character featured in a coloring picture with Worry-Worry Whale."
+      "id": "Mu6WLmI69gayiEnG0383",
+      "name": "Finn",
+      "description": "A resident of Cat World and loyal companion to Mama, Finncat is a meticulous research collector who documents the world through investigative sniffing. Alongside their peer Silver, they navigate their domain with scholarly curiosity, often pausing mid-voyage for a sudden, dramatic flop. While currently thwarted by the formidable challenge of an unopened food can, this diligent scholar occasionally graces the room for a fleeting minute during storytelling, lending a brief, discerning presence to the narrative before returning to their investigations."
     },
     {
       "id": "6cb44683839d46ea9891",
@@ -1004,14 +1004,14 @@
     {
       "id": "34xshXaYEDy8V1RTpXR7",
       "name": "Isabella",
-      "description": "A towering Dimatar scholar and alchemist of Atsukeeseet, Mama Izzy is a clever kiddo at heart and a steadfast guardian of rooftop gardens and intricate dollhouses. Gifted with the power of flight, she navigates the open heights with aquatic grace, her massive frame often shielded by a special protective metal that glimmers even as she descends into the shadows. As a resourceful quartermaster, she employs red flashlights, gold-laced slimes, and pipe cleaners to mend a Lanternshark’s failing light, yet her generosity remains her hallmark; she freely shares her vast library, brokers homes for dragons, and teaches others to find the resonance in their own voices. Her most profound magic resides in her vast, soft blanket—a sanctuary of ultimate coziness—where she remains a brave, quick-witted protector to all who honor her singular request for absolute silence."
+      "description": "A towering Dimitar scholar and alchemist of Atsukeeseet, Mama Izzy is a clever kiddo at heart and a steadfast guardian of rooftop gardens and intricate dollhouses. Gifted with the power of flight, she navigates the open heights with aquatic grace, her massive frame often shielded by a special protective metal that glimmers even as she descends into the shadows. As a resourceful quartermaster, she employs red flashlights, gold-laced slimes, and pipe cleaners to mend a Lanternshark’s failing light, yet her generosity remains her hallmark; she freely shares her vast library, brokers homes for dragons, and teaches others to find the resonance in their own voices. Her most profound magic resides in her vast, soft blanket—a sanctuary of ultimate coziness—where she remains a brave, quick-witted protector to all who honor her singular request for absolute silence."
     }
   ],
   "places": [
     {
       "id": "0d3b3f3e2fd842a2b61e",
       "name": "Fly World",
-      "description": "A insect-filled world where Finn Cat goes to hunt and catch flies."
+      "description": "A insect-filled world where Finncat goes to hunt and catch flies."
     },
     {
       "id": "cd59c6be9cc843e5a682",
@@ -1024,7 +1024,7 @@
       "description": "The vast underwater home of Willa and Pout-Pout."
     }
   ],
-  "wordCount": 2277,
+  "wordCount": 2275,
   "izzyWordCount": 916,
-  "dadWordCount": 1361
+  "dadWordCount": 1359
 }

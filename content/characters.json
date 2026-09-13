@@ -31,14 +31,26 @@
     "name": "Dad",
     "description": "Kitty’s father remains a pillar of steady eccentricity, an unflappable co-pilot and accommodating listener who balances technical logistics with a patient support for his daughter’s restless need for activity. He manages mission equipment with the same meticulous intensity he once brought to scanning the midnight undergrowth for missing cats, his stoicism famously underscored by the irony of a nagging knee complaint—diagnosed as overgrown toenails—that never wavers his resolve.",
     "storyIds": [
+      "Pistis_and_Potty_Mouse_s_Sprinkle_Adventure",
+      "Izzy_the_Kiddo_and_the_Quest_for_the_Deep_Sea_Pearl",
       "Stretching_Before_the_Story",
+      "Mission_to_the_Taco_Space_Station",
       "Captain_Izzy_s_Space_Boat_Launch",
       "Stars_and_Stories_The_Great_Cat_Rescue",
       "Kitty_s_Crew_and_the_Underground_Adventure",
       "Doctor_Izzy_s_Busy_Hospital_Day",
-      "The_Magic_of_Slime_School"
+      "The_Magic_of_Slime_School",
+      "Dr_Izzy_and_the_Forest_Rescue",
+      "The_Stinky_Cheese_Volcano_and_the_Komodo_Dragon_Quest"
     ],
-    "firstAppearanceStoryId": "Stretching_Before_the_Story"
+    "firstAppearanceStoryId": "Pistis_and_Potty_Mouse_s_Sprinkle_Adventure",
+    "aliases": [
+      "Daddy",
+      "Dadda",
+      "Captain Daddy",
+      "Nurse Daddy",
+      "The Father"
+    ]
   },
   {
     "id": "0jeVRgtCdieTG7G26htP",
@@ -104,20 +116,13 @@
     "firstAppearanceStoryId": "The_Silver_Kitten_s_Snuggle_Emergency"
   },
   {
-    "id": "1YuoOLhXGM6TPUPlUc5S",
-    "name": "Shiliko",
-    "description": "Dimitar's mother who helps organize the trip to the party.",
-    "storyIds": [
-      "The_Sardine_Bakery_and_the_Rainbow_Disco_Birthday"
-    ],
-    "firstAppearanceStoryId": "The_Sardine_Bakery_and_the_Rainbow_Disco_Birthday"
-  },
-  {
     "id": "1mtHGsyoBgbGF57FWXNr",
     "name": "Floofer Kaploofer",
     "description": "A white floofer who gets lost and stuck in orange sand.",
-    "storyIds": [],
-    "firstAppearanceStoryId": null
+    "storyIds": [
+      "The_Quest_for_Floofer_Kaploofer"
+    ],
+    "firstAppearanceStoryId": "The_Quest_for_Floofer_Kaploofer"
   },
   {
     "id": "1p0GcpyVeNGjJjKkv5NC",
@@ -138,15 +143,6 @@
     "firstAppearanceStoryId": "The_Potion_to_the_Little_Hotel_House"
   },
   {
-    "id": "1sxCnNAL4tmLo2BvRkRj",
-    "name": "Papamoles",
-    "description": "A character mentioned during the initial forest encounter.",
-    "storyIds": [
-      "Mossy_s_New_Home_at_River_Lake"
-    ],
-    "firstAppearanceStoryId": "Mossy_s_New_Home_at_River_Lake"
-  },
-  {
     "id": "1ybhkDhKldLUmaVqfyzl",
     "name": "Cubby Chickendoll",
     "description": "A tiny wolf cub who gets lost and is eventually found hiding under a violin.",
@@ -156,27 +152,6 @@
     "firstAppearanceStoryId": "Oscar_Mouse_and_the_Musical_Wolf_Cub"
   },
   {
-    "id": "28a83p1E0JemC1WILUe1",
-    "name": "Hatty",
-    "description": "A friend of Finn who sheared a sheep and knitted him a warm purple hat.",
-    "storyIds": [
-      "Finn_the_Cat_s_Arctic_Rainbow_Quest"
-    ],
-    "firstAppearanceStoryId": "Finn_the_Cat_s_Arctic_Rainbow_Quest"
-  },
-  {
-    "id": "2Bc8RJ5DI1ZxLY70uBKl",
-    "name": "Oscar Mouse",
-    "description": "Roused by the spring warmth of a forested green planet, this tiny mouse artisan dwells within a small house of weathered stone. Having migrated from a drafty attic to the crystalline sanctuary of a sugar can, he works deep within his dark, stony cupboard, meticulously mending every dent with the smooth application of squeak oil.",
-    "storyIds": [
-      "Mickey_and_Minnie_s_Interstellar_Forest_Adventure",
-      "Oscar_Mouse_and_the_Musical_Wolf_Cub",
-      "The_Imaginary_Road_Trip_to_Nana_s_House",
-      "Blast_Off_to_the_Hundred_Acre_Wood"
-    ],
-    "firstAppearanceStoryId": "Mickey_and_Minnie_s_Interstellar_Forest_Adventure"
-  },
-  {
     "id": "2FedFGcRkPfA4qCJ5Bun",
     "name": "Nana Mouse",
     "description": "The welcoming grandmother mouse who has many toys.",
@@ -184,17 +159,6 @@
       "The_Adventures_of_Surprise_Mouse_and_Friends"
     ],
     "firstAppearanceStoryId": "The_Adventures_of_Surprise_Mouse_and_Friends"
-  },
-  {
-    "id": "2JyDSTRTnxD1JqnvHHKk",
-    "name": "Wobbly Whisker",
-    "description": "A small kitten who gets lost on the Planet of the Mookers and becomes very sticky.",
-    "storyIds": [
-      "Wobbly_Whisker_s_Sticky_Adventure_on_Planet_Mooker",
-      "The_Magic_Star_Potion_and_the_Journey_to_Star_World",
-      "Wobbly_Whisker_and_the_Mountaintop_Fish_House-2"
-    ],
-    "firstAppearanceStoryId": "Wobbly_Whisker_s_Sticky_Adventure_on_Planet_Mooker"
   },
   {
     "id": "2NSHQU7v8NjH54HN4Qgh",
@@ -300,16 +264,39 @@
   {
     "id": "34xshXaYEDy8V1RTpXR7",
     "name": "Isabella",
-    "description": "A towering Dimatar scholar and alchemist of Atsukeeseet, Mama Izzy is a clever kiddo at heart and a steadfast guardian of rooftop gardens and intricate dollhouses. Gifted with the power of flight, she navigates the open heights with aquatic grace, her massive frame often shielded by a special protective metal that glimmers even as she descends into the shadows. As a resourceful quartermaster, she employs red flashlights, gold-laced slimes, and pipe cleaners to mend a Lanternshark’s failing light, yet her generosity remains her hallmark; she freely shares her vast library, brokers homes for dragons, and teaches others to find the resonance in their own voices. Her most profound magic resides in her vast, soft blanket—a sanctuary of ultimate coziness—where she remains a brave, quick-witted protector to all who honor her singular request for absolute silence.",
+    "description": "A towering Dimitar scholar and alchemist of Atsukeeseet, Mama Izzy is a clever kiddo at heart and a steadfast guardian of rooftop gardens and intricate dollhouses. Gifted with the power of flight, she navigates the open heights with aquatic grace, her massive frame often shielded by a special protective metal that glimmers even as she descends into the shadows. As a resourceful quartermaster, she employs red flashlights, gold-laced slimes, and pipe cleaners to mend a Lanternshark’s failing light, yet her generosity remains her hallmark; she freely shares her vast library, brokers homes for dragons, and teaches others to find the resonance in their own voices. Her most profound magic resides in her vast, soft blanket—a sanctuary of ultimate coziness—where she remains a brave, quick-witted protector to all who honor her singular request for absolute silence.",
     "storyIds": [
+      "Expedition_to_the_Deep-Deep_Dark",
+      "Izzy_the_Kiddo_and_the_Quest_for_the_Deep_Sea_Pearl",
+      "The_Wizard_s_Play-Doh_Hat_Quest",
+      "Hattie_s_Workshop_Puzzles_and_Purple_Hats",
+      "Victor_s_Muddy_Mishap",
+      "The_Foxy_Way_and_the_Twirling_Ghost",
+      "Daisy_s_Tiny_Dog_Birthday_Adventure",
+      "The_Big_Muck_Problem_One_Pile_at_a_Time",
+      "Hattie_s_Indigo_Mushroom_Adventure",
+      "The_Anglerfish_and_the_Hairy_Drawing",
+      "Haddy_the_Mouse_and_the_Lego_Airplane",
+      "Stretching_Before_the_Story",
       "Frasgle_and_the_Sticky_Situation",
       "Finn_the_Cat_s_Arctic_Rainbow_Quest",
       "The_Silver_Kitten_s_Snuggle_Emergency",
+      "Mission_to_the_Taco_Space_Station",
       "The_Magic_Forest_Photo_Tour",
+      "Mission_to_the_Astro-Orange_Restaurant",
+      "Captain_Izzy_s_Martian_Mission",
+      "Captain_Izzy_s_Space_Boat_Launch",
+      "Mission_to_the_Rainbow_Planet_Vupiter_Wupiter_Snupiter",
+      "Captain_Izzy_s_Galactic_School_Bus_Mission",
       "Peacock_s_Castle_and_the_Neighborhood_Photo_Project",
+      "Voyage_to_the_Kingdom_of_the_Sea_Mice",
+      "The_Moles_Intergalactic_Snack_Run",
       "Stars_and_Stories_The_Great_Cat_Rescue",
+      "The_Mischief_Moles_and_the_Plane_of_Fire",
       "Izzy_the_Kiddo_and_the_Crystal_Mountain_Rescue",
+      "The_Galactic_Search_for_Chicky",
       "Dimitar_and_the_Blueberry_Dragon_Pop",
+      "Mission_to_Silver_s_Planet",
       "Under_the_Bed_and_Over_the_Sky",
       "Ova_s_Birthday_and_the_Quiet_Mole_Exploration",
       "Magic_Mole_s_New_Apartment_and_the_Great_Nut_Feast",
@@ -320,17 +307,24 @@
       "Seeker_s_Tour_of_the_Rooftop_Garden_and_Dollhouse",
       "The_Giant_Rescue_on_Volcano_Island",
       "The_Savior_of_the_Castle",
+      "Kitty_s_Crew_and_the_Underground_Adventure",
       "Kitty_the_Cat_Superhero_and_the_Gopher_Tunnel_Visit",
       "The_Ice_Dragon_s_Sparkly_Castle_and_the_Great_Ice_Festival",
+      "Winterworld_Rescue_and_the_Magic_Shining_Hat",
       "The_Great_Kibble_Cat-astrophe",
       "A_Valentine_for_Gravity_Goldfish",
       "The_Floof-Berry_Mission_and_the_Great_Snowstorm",
+      "Doctor_Izzy_s_Busy_Hospital_Day",
+      "Dr_Izzy_s_Musical_Cure",
       "Dimatar_s_Big_Day_at_Ginger_Catasorry",
       "Dimitar_s_Flight_to_Cadasori",
       "The_Squeaky_Adventures_in_Balloon_World",
+      "The_Sneaky_Popper_of_Balloon_World",
       "A_Sticky_Adventure_to_the_Castle_of_Slime",
+      "Orange_Frasgle_and_the_Blackberry_Seed",
       "The_Magic_of_Slime_School",
       "Shark_Friends_and_the_Deep_Deep_Dark",
+      "Dr_Izzy_and_the_Forest_Rescue",
       "The_Sparkling_Dust_of_Book_World",
       "The_Salty_Solution_for_a_Frozen_Island",
       "The_Magic_Star_Potion_and_the_Journey_to_Star_World",
@@ -352,16 +346,32 @@
       "The_Great_Bee_Escape_From_Sprinkle_Honey_to_the_Mariana_Trench",
       "Frazgle_s_Gray_Mischief_and_the_Rainbow_Forest_Rescue"
     ],
-    "firstAppearanceStoryId": "Frasgle_and_the_Sticky_Situation"
+    "firstAppearanceStoryId": "Expedition_to_the_Deep-Deep_Dark",
+    "aliases": [
+      "Izzy the Kiddo",
+      "Izzy",
+      "Captain Izzy",
+      "Superhero Izzy",
+      "Dr. Izzy",
+      "Chief Engineer Isabella",
+      "Pilot Isabella",
+      "Isabella the Cat Superhero"
+    ]
   },
   {
     "id": "3HeJMPSGIcQ7pvQqLw57",
     "name": "Yellow Mergirl",
     "description": "A member of the Mergirls who live underwater.",
     "storyIds": [
-      "Shark_Friends_and_the_Deep_Deep_Dark"
+      "The_Mystery_of_the_Missing_Kelp_Forest",
+      "Shark_Friends_and_the_Deep_Deep_Dark",
+      "The_Grand_Coronation_and_Wedding_at_the_Darkness_Party"
     ],
-    "firstAppearanceStoryId": "Shark_Friends_and_the_Deep_Deep_Dark"
+    "firstAppearanceStoryId": "The_Mystery_of_the_Missing_Kelp_Forest",
+    "aliases": [
+      "Yellow Murgirl",
+      "Yellow Mermaid"
+    ]
   },
   {
     "id": "3HvLnhX7wJzuBrSOsOXI",
@@ -396,9 +406,14 @@
     "description": "An enthusiastic blur of multi-colored fluff, this alien assistant maintains the ship’s batteries with sticky, sap-coated precision. Though their only mode of communication is a series of thunderous roars, their dedication to the vessel’s power cells is as unmistakable as the fragrant, resinous trail they leave throughout the engine room.",
     "storyIds": [
       "Frasgle_and_the_Sticky_Situation",
-      "Captain_Izzy_s_Galactic_School_Bus_Mission"
+      "Captain_Izzy_s_Galactic_School_Bus_Mission",
+      "The_Bouncing_Floofers_of_the_Golden_Cloud",
+      "Frazgle_s_Gray_Mischief_and_the_Rainbow_Forest_Rescue"
     ],
-    "firstAppearanceStoryId": "Frasgle_and_the_Sticky_Situation"
+    "firstAppearanceStoryId": "Frasgle_and_the_Sticky_Situation",
+    "aliases": [
+      "Frazgle"
+    ]
   },
   {
     "id": "3OTpsk4fSYK31ZiRRJJR",
@@ -437,17 +452,6 @@
     "firstAppearanceStoryId": "The_Chugga-Chugga_Journey_to_Nana_s_House"
   },
   {
-    "id": "3pPWFGLLFq63XCFoHc9b",
-    "name": "Peacock",
-    "description": "Residing within the loftiest tower of a hilltop castle, this majestic bird wizard is draped in a vibrant mantle of pink and yellow feathers that shimmer with arcane grace.",
-    "storyIds": [
-      "Tigger_s_Quest_for_the_Wizard_s_Magic_Wand",
-      "Peacock_s_Castle_and_the_Neighborhood_Photo_Project",
-      "The_Magic_Star_Potion_and_the_Journey_to_Star_World"
-    ],
-    "firstAppearanceStoryId": "Tigger_s_Quest_for_the_Wizard_s_Magic_Wand"
-  },
-  {
     "id": "3sYa3scDaPUhXRqLdriM",
     "name": "Tulu",
     "description": "Another bird friend mentioned by Izzy during the book reading.",
@@ -473,7 +477,10 @@
       "Late_Night_Tea_with_Mrs_Piggy_and_the_Muppets",
       "The_Case_of_the_Carrot-Loving_Gophers"
     ],
-    "firstAppearanceStoryId": "Late_Night_Tea_with_Mrs_Piggy_and_the_Muppets"
+    "firstAppearanceStoryId": "Late_Night_Tea_with_Mrs_Piggy_and_the_Muppets",
+    "aliases": [
+      "Mrs. Piggy"
+    ]
   },
   {
     "id": "3xafqTEhYqPajbnTlUdH",
@@ -498,9 +505,13 @@
     "name": "Elliot",
     "description": "A guest invited on board the spaceship who enters through the special door.",
     "storyIds": [
-      "Mission_to_the_Taco_Space_Station"
+      "Mission_to_the_Taco_Space_Station",
+      "The_Mischief_Moles_and_the_Kingdom_of_the_Ants"
     ],
-    "firstAppearanceStoryId": "Mission_to_the_Taco_Space_Station"
+    "firstAppearanceStoryId": "Mission_to_the_Taco_Space_Station",
+    "aliases": [
+      "Elliot the Elephant"
+    ]
   },
   {
     "id": "4HR5ZWfGqablvtInIm6v",
@@ -566,19 +577,25 @@
     "name": "Peacock the Wizard",
     "description": "Once a deep-ocean companion to Seeker, this vibrant bird wizard now serves as the charismatic host of the magical castle’s grand show. From a cozy nest atop a soaring tower, they orchestrate wonder through balloon school arts—transmuting rubber into succulent strawberries—while proudly sporting a magnificent hat gifted by Hattie and Izzy. A playful visionary of dreamer magic and a tireless seeker of rare diamond-shaped potions, they use their stage to beckon heroes into a world of soaring imagination, often dispatching them on whimsical quests to recover enchanted new hats for their growing collection.",
     "storyIds": [
+      "Tigger_s_Quest_for_the_Wizard_s_Magic_Wand",
       "The_Wizard_s_Play-Doh_Hat_Quest",
       "Hattie_s_Workshop_Puzzles_and_Purple_Hats",
       "Hattie_and_the_Wizard_s_Clover_Show",
       "The_Foxy_Way_and_the_Twirling_Ghost",
       "The_Imaginary_Road_Trip_to_Nana_s_House",
       "The_Magic_Forest_Photo_Tour",
+      "Peacock_s_Castle_and_the_Neighborhood_Photo_Project",
       "A_Sticky_Adventure_to_the_Castle_of_Slime",
       "The_Bouncy_Adventures_in_Balloon_World",
       "Slime-Ka-Bye_The_Beard-Dweller_s_Deep_Sea_Adventure",
+      "The_Magic_Star_Potion_and_the_Journey_to_Star_World",
       "The_Super_Mouse_Crew_and_the_Wizard_s_Lost_Hat",
       "The_Mystery_of_Peacock_s_Hat_and_the_Moopa_Doopa"
     ],
-    "firstAppearanceStoryId": "The_Wizard_s_Play-Doh_Hat_Quest"
+    "firstAppearanceStoryId": "Tigger_s_Quest_for_the_Wizard_s_Magic_Wand",
+    "aliases": [
+      "Peacock"
+    ]
   },
   {
     "id": "4gDFqIJGS2B76WI0QQpe",
@@ -615,15 +632,6 @@
       "Seeker_s_Deep_Earth_Adventure"
     ],
     "firstAppearanceStoryId": "Seeker_s_Deep_Earth_Adventure"
-  },
-  {
-    "id": "5IIODxSVADdKg5ZAUpSy",
-    "name": "Seker",
-    "description": "A kind wizard who lives in a castle and possesses various magical teleportation potions.",
-    "storyIds": [
-      "The_Wizard_Seker_and_the_Magical_Can_Opener_of_Cat_World"
-    ],
-    "firstAppearanceStoryId": "The_Wizard_Seker_and_the_Magical_Can_Opener_of_Cat_World"
   },
   {
     "id": "5LDMtGfLzet8EiTkLudd",
@@ -700,9 +708,11 @@
   {
     "id": "6cxGgxg9xXKv9szIlXsb",
     "name": "Baby Oscar Mouse",
-    "description": "Haddy's baby sister who stays at the hospital and loves the baby lounge crackers.",
-    "storyIds": [],
-    "firstAppearanceStoryId": null
+    "description": "Hattie's baby sister who stays at the hospital and loves the baby lounge crackers.",
+    "storyIds": [
+      "Haddy_the_Mouse_and_the_Sparkly_Bissolam"
+    ],
+    "firstAppearanceStoryId": "Haddy_the_Mouse_and_the_Sparkly_Bissolam"
   },
   {
     "id": "6dZOkeIoG3CaPXfCtPxz",
@@ -712,15 +722,6 @@
       "Mossy_s_New_Home_at_River_Lake"
     ],
     "firstAppearanceStoryId": "Mossy_s_New_Home_at_River_Lake"
-  },
-  {
-    "id": "6f4k1KOHGSY7fBUwbO4f",
-    "name": "Lily Mouse",
-    "description": "Another mouse friend attending the Wizard's performance.",
-    "storyIds": [
-      "Hattie_and_the_Wizard_s_Clover_Show"
-    ],
-    "firstAppearanceStoryId": "Hattie_and_the_Wizard_s_Clover_Show"
   },
   {
     "id": "6q0NhDfURhzflxON8hqR",
@@ -754,7 +755,7 @@
   {
     "id": "7Hoc5QEzrC1TnQYmz2fS",
     "name": "Alexander",
-    "description": "A poised driver and student at Ginger Catasorry, this feline friend to Dimetar and Scratch Cat manages a digital Tamagotchi empire from the confines of a lunchbox. After recently representing Silver during the playdate, their steady paw was led far from the morning commute into the treacherous depths of the dark forest, where they navigated the shadows alongside Jane.",
+    "description": "A poised driver and student at Ginger Catasorry, this feline friend to Dimitar and Scratch Cat manages a digital Tamagotchi empire from the confines of a lunchbox. After recently representing Silver during the playdate, their steady paw was led far from the morning commute into the treacherous depths of the dark forest, where they navigated the shadows alongside Jane.",
     "storyIds": [
       "Stars_and_Stories_The_Great_Cat_Rescue",
       "Mission_to_Silver_s_Planet",
@@ -766,15 +767,6 @@
       "The_Grand_Coronation_and_Wedding_at_the_Darkness_Party"
     ],
     "firstAppearanceStoryId": "Stars_and_Stories_The_Great_Cat_Rescue"
-  },
-  {
-    "id": "7cB51LklfNRSFA0IhKTa",
-    "name": "Captain Averybug",
-    "description": "The pilot of the Mama Ship who meets the crew during their journey.",
-    "storyIds": [
-      "Mission_to_the_Taco_Space_Station"
-    ],
-    "firstAppearanceStoryId": "Mission_to_the_Taco_Space_Station"
   },
   {
     "id": "7iMuKNSLSdgu3PxVTzwI",
@@ -795,19 +787,6 @@
     "firstAppearanceStoryId": "Hattie_s_Giant_Robot_and_the_Rainbow_Gnome_Hat"
   },
   {
-    "id": "7qmKmgntsmCHuqcMSoz9",
-    "name": "Superhero Izzy",
-    "description": "Isabella’s brave, caped alter-ego is a courageous guardian of the kaleidoscopic Rainbow Frasgle World. A soaring protector, she descends from the vibrant skies alongside a crew of talking cats to lend their whiskered wisdom and help Seeker restore order to the unfolding house chaos.",
-    "storyIds": [
-      "Kitty_s_Crew_and_the_Underground_Adventure",
-      "Winterworld_Rescue_and_the_Magic_Shining_Hat",
-      "The_Great_Kibble_Cat-astrophe",
-      "The_Sneaky_Popper_of_Balloon_World",
-      "Orange_Frasgle_and_the_Blackberry_Seed"
-    ],
-    "firstAppearanceStoryId": "Kitty_s_Crew_and_the_Underground_Adventure"
-  },
-  {
     "id": "7tk6lyjyFOiH0SGQIQqp",
     "name": "Habattaly",
     "description": "One of the many friends gathered at Hattie's house.",
@@ -815,15 +794,6 @@
       "Hattie_s_Shell_Necklace_Adventure"
     ],
     "firstAppearanceStoryId": "Hattie_s_Shell_Necklace_Adventure"
-  },
-  {
-    "id": "8GxnvOJEuTctgELFXpuq",
-    "name": "Pink Murgirl",
-    "description": "The 'kiddo' mermaid who loves her backyard kelp forest.",
-    "storyIds": [
-      "The_Mystery_of_the_Missing_Kelp_Forest"
-    ],
-    "firstAppearanceStoryId": "The_Mystery_of_the_Missing_Kelp_Forest"
   },
   {
     "id": "8MXb6dIWAlAzOA7v86Tg",
@@ -837,7 +807,7 @@
   {
     "id": "8Ntxx8fRkyFbYejZ2clG",
     "name": "Jane",
-    "description": "Dimetar’s matronly childhood companion is a kindhearted cat and daring ship’s pilot, a friend to Finn, Isabella, and Scratch Cat who navigates the expedition toward Mouse Castle and the road to Cadasori. Her cockpit is a warm sanctuary distinguished by a \"love you\" sticker and a cabin teeming with whiskered passengers, reflecting the same tenderness she first offered Silver. Though she maintains a bold pace, she is easily swayed by snacks at Seeker’s house or waylaid within the tangled depths of the dark forest. An adventurous spirit with whimsical desires, she currently dreams of a special little hat adorned with rainbow feathers, glitter, and a miniature fishy pond to crown her nautical ensemble.",
+    "description": "Dimitar’s matronly childhood companion is a kindhearted cat and daring ship’s pilot, a friend to Finn, Isabella, and Scratch Cat who navigates the expedition toward Mouse Castle and the road to Cadasori. Her cockpit is a warm sanctuary distinguished by a \"love you\" sticker and a cabin teeming with whiskered passengers, reflecting the same tenderness she first offered Silver. Though she maintains a bold pace, she is easily swayed by snacks at Seeker’s house or waylaid within the tangled depths of the dark forest. An adventurous spirit with whimsical desires, she currently dreams of a special little hat adorned with rainbow feathers, glitter, and a miniature fishy pond to crown her nautical ensemble.",
     "storyIds": [
       "Hattie_the_Mouse_s_Custom_Hat_Shop",
       "Finn_the_Cat_s_Arctic_Rainbow_Quest",
@@ -884,24 +854,6 @@
     "firstAppearanceStoryId": "The_Mookers_the_Floofers_and_the_Solar_Mookball"
   },
   {
-    "id": "8bAh9T4guEA4alnNe08R",
-    "name": "Gingercat",
-    "description": "One of the cats that joins the adventure to Kibble World.",
-    "storyIds": [
-      "The_Thirty_Cats_of_Kibble_World"
-    ],
-    "firstAppearanceStoryId": "The_Thirty_Cats_of_Kibble_World"
-  },
-  {
-    "id": "8pZ9UPWbN2ixPP7FDsrQ",
-    "name": "Dadda",
-    "description": "Izzy's companion who visits the library with her and joins the deep-sea adventure.",
-    "storyIds": [
-      "Izzy_the_Kiddo_and_the_Quest_for_the_Deep_Sea_Pearl"
-    ],
-    "firstAppearanceStoryId": "Izzy_the_Kiddo_and_the_Quest_for_the_Deep_Sea_Pearl"
-  },
-  {
     "id": "8qniQqzEWEEIZ94CbgM1",
     "name": "Miceize the Jowse",
     "description": "A peculiar mouse featured in the expanding stories of Carland.",
@@ -922,11 +874,14 @@
   {
     "id": "98w8jduMp5901VdbxrbL",
     "name": "Victor",
-    "description": "Clad in blue shorts and a purple shirt, Lily’s brother is a tiny baby mouse and spirited cosmic stowaway who once served as a royal gardener within the Magic Forest’s glitter-shimmering houses. Now a rugged driver of a tow truck in the big car race, he balances his mechanical duties with a quest for a celestial watering can and the composition of percussive ‘bamp-bam-bum’ beats for space-faring worms. Though he treasures the sparkly art of Uncle Grisco and Haddy, his high-speed adventures often result in muddy messes that necessitate restorative baths, leaving him in singular pursuit of the perfect hat to complete his interstellar ensemble.",
+    "description": "Clad in blue shorts and a purple shirt, Lily’s brother is a tiny baby mouse and spirited cosmic stowaway who once served as a royal gardener within the Magic Forest’s glitter-shimmering houses. Now a rugged driver of a tow truck in the big car race, he balances his mechanical duties with a quest for a celestial watering can and the composition of percussive ‘bamp-bam-bum’ beats for space-faring worms. Though he treasures the sparkly art of Uncle Grisco and Hattie, his high-speed adventures often result in muddy messes that necessitate restorative baths, leaving him in singular pursuit of the perfect hat to complete his interstellar ensemble.",
     "storyIds": [
       "The_Many_Adventures_of_Mistress_Mouse",
+      "Mistress_Mouse_and_the_Construction_Site_Race",
       "Hattie_s_Workshop_Puzzles_and_Purple_Hats",
       "Victor_s_Muddy_Mishap",
+      "Hattie_the_Mouse_and_the_Massive_Shopping_List",
+      "Hattie_the_Mouse_s_Hat_Workshop",
       "Hattie_s_Shell_Necklace_Adventure",
       "Pakruder_Worm_s_New_Sound",
       "The_Magic_Forest_Photo_Tour",
@@ -934,7 +889,11 @@
       "The_Solar_Expedition_of_Stars_and_Snories",
       "The_Polka-Dotted_Car_and_the_Shadow_Lab"
     ],
-    "firstAppearanceStoryId": "The_Many_Adventures_of_Mistress_Mouse"
+    "firstAppearanceStoryId": "The_Many_Adventures_of_Mistress_Mouse",
+    "aliases": [
+      "Victor Mouse",
+      "Victor the Mouse"
+    ]
   },
   {
     "id": "9CxZexkCQSSFu6A9Lp4N",
@@ -971,15 +930,6 @@
       "Mistress_Mouse_and_the_Pink_Tow_Truck_Rescue"
     ],
     "firstAppearanceStoryId": "Mistress_Mouse_and_the_Pink_Tow_Truck_Rescue"
-  },
-  {
-    "id": "9VYYlgNTheZtjPQNWgWB",
-    "name": "Disco (Mole 1)",
-    "description": "A mischievous mole who enjoys digging and accidentally launches a space mission.",
-    "storyIds": [
-      "The_Moles_Intergalactic_Snack_Run"
-    ],
-    "firstAppearanceStoryId": "The_Moles_Intergalactic_Snack_Run"
   },
   {
     "id": "9cRKK1zWOwTARNGk1Fvt",
@@ -1043,7 +993,7 @@
   },
   {
     "id": "AVc3NwHd8Bntd23vTARY",
-    "name": "Papa Mer-Girl",
+    "name": "Papa Mergirl",
     "description": "A mermaid parent who helps the girls brainstorm what kind of creature could eat a whole forest.",
     "storyIds": [
       "The_Great_Kelp_Caper_of_the_Pink_Continent"
@@ -1069,13 +1019,6 @@
     "firstAppearanceStoryId": "Hattie_the_Mouse_and_the_Baby_Chipmunk_s_Snack"
   },
   {
-    "id": "AfbVkVgIEn20hy9L1isT",
-    "name": "Pooki the Pig",
-    "description": "A toy pig who joins Seeker on magical adventures.",
-    "storyIds": [],
-    "firstAppearanceStoryId": null
-  },
-  {
     "id": "AgbkYgXVfNDxCIw8fF6S",
     "name": "Nansa",
     "description": "A member of Mischief Mouse's family with a beautiful name.",
@@ -1085,15 +1028,6 @@
     "firstAppearanceStoryId": "Mistress_Mouse_and_the_Pink_Tow_Truck_Rescue"
   },
   {
-    "id": "AvWNayRdnLn38BJSGbdm",
-    "name": "Hatty Mouse",
-    "description": "A mouse whose job is to collect rocks from the surface of space.",
-    "storyIds": [
-      "The_Galactic_Search_for_Chicky"
-    ],
-    "firstAppearanceStoryId": "The_Galactic_Search_for_Chicky"
-  },
-  {
     "id": "B7GT6KqKkiPkETPbi7Li",
     "name": "Fiona",
     "description": "A friend of Izzy's from school.",
@@ -1101,17 +1035,6 @@
       "The_Potion_to_the_Little_Hotel_House"
     ],
     "firstAppearanceStoryId": "The_Potion_to_the_Little_Hotel_House"
-  },
-  {
-    "id": "BCa0JL5vmn81wPkxdyuS",
-    "name": "Dr. Izzy",
-    "description": "The dedicated physician at the animal hospital who treats Buddy, wielding a specialized blue earoscope with practiced precision to diagnose her patients.",
-    "storyIds": [
-      "Doctor_Izzy_s_Busy_Hospital_Day",
-      "Dr_Izzy_s_Musical_Cure",
-      "Dr_Izzy_and_the_Forest_Rescue"
-    ],
-    "firstAppearanceStoryId": "Doctor_Izzy_s_Busy_Hospital_Day"
   },
   {
     "id": "BKsbssrVo78Sl1veIs4F",
@@ -1189,7 +1112,7 @@
   {
     "id": "BsQREuVyJB0gS9DwoBG1",
     "name": "The Teacher",
-    "description": "The educator at Dimetar's school who watches the children play and gets dizzy from the dragons' flying.",
+    "description": "The educator at Dimitar's school who watches the children play and gets dizzy from the dragons' flying.",
     "storyIds": [
       "The_Flying_Friends_of_Strawberry_Island"
     ],
@@ -1266,27 +1189,6 @@
       "Hattie_and_the_Tower_of_Traffic_Cones"
     ],
     "firstAppearanceStoryId": "Hattie_and_the_Tower_of_Traffic_Cones"
-  },
-  {
-    "id": "CK5w0cwKVgsTKwIj6Lhy",
-    "name": "Magic Ladder",
-    "description": "A faithful, flying, and surprisingly smart ladder made of rope and wood.",
-    "storyIds": [
-      "The_Giant_Rescue_on_Volcano_Island"
-    ],
-    "firstAppearanceStoryId": "The_Giant_Rescue_on_Volcano_Island"
-  },
-  {
-    "id": "CKKrVjkxsjHD4nlz5RtX",
-    "name": "Minnie Mouse",
-    "description": "A gracious mouse and tireless caretaker who bridges the gap between her charming storefront, rugged construction sites, and the shimmering cosmos. Whether she is curating fine art supplies, clearing giant mud puddles as an expert digger driver, or piloting her vibrantly colorful rocket ship through the stars, she tends to her community with a unique blend of delicate charm, heavy-duty utility, and an explorer’s boundless spirit.",
-    "storyIds": [
-      "Mickey_and_Minnie_s_Interstellar_Forest_Adventure",
-      "The_Big_Muck_Problem_One_Pile_at_a_Time",
-      "Hattie_the_Artist_Mouse",
-      "The_Tale_of_the_Talking_Gluten-Free_Broccoli"
-    ],
-    "firstAppearanceStoryId": "Mickey_and_Minnie_s_Interstellar_Forest_Adventure"
   },
   {
     "id": "CLyYMh0eE90yZeFOX8hb",
@@ -1368,8 +1270,10 @@
     "name": "Bunsen",
     "description": "An obsessive chronometeorologist who views sleep as a luxury the world cannot afford, they spend their days and sunless nights tethered to a brass-bound \"time wind tracker.\" With eyes bloodshot from perpetual vigilance, they monitor the shifting currents of temporal drafts, sacrificing rest to calibrate their instruments and fortify their laboratory against the encroaching gale of an impending storm.",
     "storyIds": [
+      "Science_in_the_Bakery",
       "The_Floof-Berry_Mission_and_the_Great_Snowstorm",
       "The_Sleepy-Time_Science_Experiment",
+      "The_Gopher_s_Squerret_Quest_in_Australia",
       "The_Magic_Star_Potion_and_the_Journey_to_Star_World",
       "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission",
       "Seeker_s_Midnight_Adventure_and_the_Dancing_Pterodactyl",
@@ -1378,16 +1282,11 @@
       "The_Secret_of_the_Galapagos_Blub_Creatures",
       "The_Grand_Coronation_and_Wedding_at_the_Darkness_Party"
     ],
-    "firstAppearanceStoryId": "The_Floof-Berry_Mission_and_the_Great_Snowstorm"
-  },
-  {
-    "id": "CzXoA4tLtV7mrXJxtBRA",
-    "name": "Chief Engineer Isabella",
-    "description": "The mission's lead engineer who manages the spaceship's systems and medical emergencies.",
-    "storyIds": [
-      "Mission_to_the_Taco_Space_Station"
-    ],
-    "firstAppearanceStoryId": "Mission_to_the_Taco_Space_Station"
+    "firstAppearanceStoryId": "Science_in_the_Bakery",
+    "aliases": [
+      "Bunsen Honeydew",
+      "Bunson"
+    ]
   },
   {
     "id": "CzfJRCQFne13AnE6jArb",
@@ -1427,23 +1326,19 @@
     "firstAppearanceStoryId": "Hattie_and_the_Tower_of_Traffic_Cones"
   },
   {
-    "id": "DUvBP9sTgBj3RxNu4IkX",
-    "name": "Mama Kitten",
-    "description": "Wobbly Whiskers’ mother, a figure of maternal persistence, scours the towering, silent stacks of the library on the planet of the Mookers in a tireless search for her lost kitten.",
-    "storyIds": [
-      "Wobbly_Whisker_s_Sticky_Adventure_on_Planet_Mooker"
-    ],
-    "firstAppearanceStoryId": "Wobbly_Whisker_s_Sticky_Adventure_on_Planet_Mooker"
-  },
-  {
     "id": "DaMaH5JqGqOEvkBmjshL",
     "name": "Cat Crew",
     "description": "Kitty’s loyal clowder of feline companions, an inseparable team of friends who serve as her resourceful and steadfast helpers.",
     "storyIds": [
+      "The_Case_of_the_Carrot-Loving_Gophers",
       "The_Gopher_s_Squerret_Quest_in_Australia",
-      "The_Sneaky_Popper_of_Balloon_World"
+      "The_Sneaky_Popper_of_Balloon_World",
+      "Walkie-Talkies_for_the_Yellow_Jackets"
     ],
-    "firstAppearanceStoryId": "The_Gopher_s_Squerret_Quest_in_Australia"
+    "firstAppearanceStoryId": "The_Case_of_the_Carrot-Loving_Gophers",
+    "aliases": [
+      "The Cat Crew"
+    ]
   },
   {
     "id": "DamSsR4Fy0inv81ko6ap",
@@ -1453,15 +1348,6 @@
       "The_Galactic_Search_for_Chicky"
     ],
     "firstAppearanceStoryId": "The_Galactic_Search_for_Chicky"
-  },
-  {
-    "id": "DfUplxjR8gZT3CgQqDQr",
-    "name": "Yellow Murgirl",
-    "description": "The 'dadda' mermaid and part of the murgirl family.",
-    "storyIds": [
-      "The_Mystery_of_the_Missing_Kelp_Forest"
-    ],
-    "firstAppearanceStoryId": "The_Mystery_of_the_Missing_Kelp_Forest"
   },
   {
     "id": "Di4nI7dLjXtAb7lmahdV",
@@ -1502,7 +1388,7 @@
   {
     "id": "E0YiuwSVYjJCKGE7kMaQ",
     "name": "Mr. Slinger",
-    "description": "A tiny resident of the Wizard’s tower’s dusty alcoves, this mouse has become a living gallery for Haddy’s craft, its humble nest and small frame now elegantly adorned with miniature masterpieces and vibrant, hand-crafted decorations.",
+    "description": "A tiny resident of the Wizard’s tower’s dusty alcoves, this mouse has become a living gallery for Hattie’s craft, its humble nest and small frame now elegantly adorned with miniature masterpieces and vibrant, hand-crafted decorations.",
     "storyIds": [
       "The_Magic_Forest_Photo_Tour"
     ],
@@ -1563,31 +1449,6 @@
     "firstAppearanceStoryId": "Hattie_and_the_Tower_of_Traffic_Cones"
   },
   {
-    "id": "EhGIsH8oyI4FqrtyPbuj",
-    "name": "Sika",
-    "description": "A small adventurer who lives in a house/castle and makes magical potions.",
-    "storyIds": [],
-    "firstAppearanceStoryId": null
-  },
-  {
-    "id": "EjCn8BVt9QOjXrAFY3Lu",
-    "name": "Potty the Mouse",
-    "description": "A tiny mouse who takes his toy car to the sprinkle store for baking supplies.",
-    "storyIds": [
-      "Pistis_and_Potty_Mouse_s_Sprinkle_Adventure"
-    ],
-    "firstAppearanceStoryId": "Pistis_and_Potty_Mouse_s_Sprinkle_Adventure"
-  },
-  {
-    "id": "EkNQ60I3dSaHCdsZJLRX",
-    "name": "Hatty the Mouse",
-    "description": "A small mouse who loves to draw and is friends with Izzy the Kiddo.",
-    "storyIds": [
-      "The_Anglerfish_and_the_Hairy_Drawing"
-    ],
-    "firstAppearanceStoryId": "The_Anglerfish_and_the_Hairy_Drawing"
-  },
-  {
     "id": "EmTXyjbqMw3Tq5xFZIGG",
     "name": "Goldbug",
     "description": "A friend whose car breaks down on the side of the road with an engine problem and a missing wheel.",
@@ -1633,15 +1494,6 @@
     "firstAppearanceStoryId": "Captain_Izzy_s_Galactic_School_Bus_Mission"
   },
   {
-    "id": "FHd9XHh8v6EwSko2a0uR",
-    "name": "Bunsen Honeydew",
-    "description": "A green scientist known as Honeydew who owns a science laboratory decorated with skeletons and chemical jars.",
-    "storyIds": [
-      "Science_in_the_Bakery"
-    ],
-    "firstAppearanceStoryId": "Science_in_the_Bakery"
-  },
-  {
     "id": "FIOwtYlybnZDgN0qljbn",
     "name": "Elfie",
     "description": "One of Mistress Mouse's stuffy mice.",
@@ -1649,25 +1501,6 @@
       "The_Lego_Adventures_of_Mistress_Mouse_and_Other_Mouse"
     ],
     "firstAppearanceStoryId": "The_Lego_Adventures_of_Mistress_Mouse_and_Other_Mouse"
-  },
-  {
-    "id": "FK5EwwBbH0rwxMsrunlu",
-    "name": "Disca",
-    "description": "One of the characters visited by Papa Mole.",
-    "storyIds": [
-      "Zigzag_the_Dancing_Robot_and_the_Cornebyborn_Dance"
-    ],
-    "firstAppearanceStoryId": "Zigzag_the_Dancing_Robot_and_the_Cornebyborn_Dance"
-  },
-  {
-    "id": "FLlOOWdFW7SfrPjbPgSl",
-    "name": "Frazgle",
-    "description": "A growly relative of the Floofers who describes them as living pom-poms.",
-    "storyIds": [
-      "The_Bouncing_Floofers_of_the_Golden_Cloud",
-      "Frazgle_s_Gray_Mischief_and_the_Rainbow_Forest_Rescue"
-    ],
-    "firstAppearanceStoryId": "The_Bouncing_Floofers_of_the_Golden_Cloud"
   },
   {
     "id": "FNOler0o3misJm0PhYID",
@@ -1679,22 +1512,6 @@
     "firstAppearanceStoryId": "Daisy_s_Tiny_Dog_Birthday_Adventure"
   },
   {
-    "id": "FVt9tAmOqFfDYRddwyIN",
-    "name": "Captain Izzy",
-    "description": "A determined space explorer and brilliant researcher, this confident commander leads her mission into the stars with absolute authority. A master pilot of both spacecraft and deep-sea submersibles, she navigates glittering heavens and crushing depths with unerring precision. Her tireless quest to collect alien artifacts remains fueled by a singular, inquisitive goal: finding playmates across the universe.",
-    "storyIds": [
-      "Mission_to_the_Astro-Orange_Restaurant",
-      "Captain_Izzy_s_Martian_Mission",
-      "Captain_Izzy_s_Space_Boat_Launch",
-      "Mission_to_the_Rainbow_Planet_Vupiter_Wupiter_Snupiter",
-      "Captain_Izzy_s_Galactic_School_Bus_Mission",
-      "Voyage_to_the_Kingdom_of_the_Sea_Mice",
-      "The_Moles_Intergalactic_Snack_Run",
-      "Mission_to_Silver_s_Planet"
-    ],
-    "firstAppearanceStoryId": "Mission_to_the_Astro-Orange_Restaurant"
-  },
-  {
     "id": "FWriFOhZ5rDKbPkd9MwM",
     "name": "Rubber Ducky",
     "description": "A resident of the house who participates in the spring cleaning adventure.",
@@ -1702,15 +1519,6 @@
       "The_Big_Muck_Problem_One_Pile_at_a_Time"
     ],
     "firstAppearanceStoryId": "The_Big_Muck_Problem_One_Pile_at_a_Time"
-  },
-  {
-    "id": "FkVqaF197QrqOUai9T2f",
-    "name": "Goober",
-    "description": "A young kiddo gopher who likes playing games and eating broccoli.",
-    "storyIds": [
-      "Kitty_the_Cat_Superhero_and_the_Gopher_Tunnel_Visit"
-    ],
-    "firstAppearanceStoryId": "Kitty_the_Cat_Superhero_and_the_Gopher_Tunnel_Visit"
   },
   {
     "id": "FoMn3Ih3hsZCDOggb39u",
@@ -1772,15 +1580,6 @@
     "firstAppearanceStoryId": "Peacock_s_Castle_and_the_Neighborhood_Photo_Project"
   },
   {
-    "id": "GHUN5Hji7BrtM5WwhnmJ",
-    "name": "Victor the Mouse",
-    "description": "A mouse searching for the perfect headwear, who becomes fond of blue hats decorated with elephant stamps.",
-    "storyIds": [
-      "Hattie_the_Mouse_s_Hat_Workshop"
-    ],
-    "firstAppearanceStoryId": "Hattie_the_Mouse_s_Hat_Workshop"
-  },
-  {
     "id": "GME4A7qEkTXNb6R5bFws",
     "name": "Baby Raccoons",
     "description": "A family of ten small, nocturnal creatures who seek hats from Hattie.",
@@ -1808,9 +1607,13 @@
     "name": "Queso",
     "description": "A dog friend invited to the birthday party feast.",
     "storyIds": [
-      "Daisy_s_Tiny_Dog_Birthday_Adventure"
+      "Daisy_s_Tiny_Dog_Birthday_Adventure",
+      "Captain_Izzy_s_Galactic_School_Bus_Mission"
     ],
-    "firstAppearanceStoryId": "Daisy_s_Tiny_Dog_Birthday_Adventure"
+    "firstAppearanceStoryId": "Daisy_s_Tiny_Dog_Birthday_Adventure",
+    "aliases": [
+      "Queso Dog"
+    ]
   },
   {
     "id": "GZRGO06JU7GCkj7R9Zde",
@@ -1844,9 +1647,13 @@
     "name": "Scratch Cat",
     "description": "A friendly cat visitor who knocks on Seeker's door and eventually stays for a sleepover.",
     "storyIds": [
-      "The_Great_Kibble_Cat-astrophe"
+      "The_Great_Kibble_Cat-astrophe",
+      "The_Thirty_Cats_of_Kibble_World"
     ],
-    "firstAppearanceStoryId": "The_Great_Kibble_Cat-astrophe"
+    "firstAppearanceStoryId": "The_Great_Kibble_Cat-astrophe",
+    "aliases": [
+      "Scratchcat"
+    ]
   },
   {
     "id": "GtJB8PNKnJfA9tGJYBLZ",
@@ -1855,7 +1662,10 @@
     "storyIds": [
       "Mission_to_the_Taco_Space_Station"
     ],
-    "firstAppearanceStoryId": "Mission_to_the_Taco_Space_Station"
+    "firstAppearanceStoryId": "Mission_to_the_Taco_Space_Station",
+    "aliases": [
+      "Nercury"
+    ]
   },
   {
     "id": "GwYeS9OvSgxvUCRCDYBl",
@@ -1894,15 +1704,6 @@
       "The_Sleepy-Time_Science_Experiment"
     ],
     "firstAppearanceStoryId": "Expedition_to_the_Deep-Deep_Dark"
-  },
-  {
-    "id": "I5PVlYaND9365pEUzuyj",
-    "name": "Nercury",
-    "description": "A small bear crew member who required a band-aid and a kiss after an injury.",
-    "storyIds": [
-      "Mission_to_the_Taco_Space_Station"
-    ],
-    "firstAppearanceStoryId": "Mission_to_the_Taco_Space_Station"
   },
   {
     "id": "I8UqX09wA3oiHpX6Wda2",
@@ -2013,16 +1814,6 @@
     "firstAppearanceStoryId": "The_Anglerfish_and_the_Hairy_Drawing"
   },
   {
-    "id": "Iz5PxjmMqW9qIjzUCCHY",
-    "name": "Haddy the Mouse",
-    "description": "A master hat maker residing in a hollow tree, this creative mouse weaves shimmering masterpieces with a vibrant imagination and a nurturing heart. Whether she is brightening Izzy’s door with a heavy box of building blocks or tenderly watching over her baby sister, she moves with a grace that even a brief, surreal transformation into a mushroom could not dampen. A devoted friend and artisan, she remains a beacon of light, stitching care and sparkle into the world one whimsical creation at a time.",
-    "storyIds": [
-      "The_Wizard_s_Play-Doh_Hat_Quest",
-      "Haddy_the_Mouse_and_the_Lego_Airplane"
-    ],
-    "firstAppearanceStoryId": "The_Wizard_s_Play-Doh_Hat_Quest"
-  },
-  {
     "id": "J6Bloj3f3Me9E1rifqQq",
     "name": "Mistress Mouse",
     "description": "A polite three-year-old mouse and resourceful shopkeeper, this community cornerstone balances a bold artistic spirit with sharp mechanical grit. Whether crafting intricate Lego creations in her sunroom or piloting her signature pink tow truck to solve puzzles and assist neighbors, she is a master of the road and a multi-talented creator. From famously adorning cars with blue stripes to dominating the race track, her inventive soul is always on the move. Usually seen in a mushroom-adorned cardboard hat with an orange sparkle purse, this resourceful driver remains an essential, evocative fixture of every neighborhood adventure.",
@@ -2041,9 +1832,13 @@
       "A_Hat_for_Mistress_Mouse",
       "Hattie_the_Mouse_and_the_Rainbow_Mushroom_Mystery",
       "Hattie_s_Rain_Boots_and_the_Honey_Bee_s_Hat",
-      "Hattie_s_Rainy_Day_Birthday_Adventure"
+      "Hattie_s_Rainy_Day_Birthday_Adventure",
+      "The_Ice_Dragon_s_New_Hat"
     ],
-    "firstAppearanceStoryId": "The_Chronicles_of_Pinecone_Mouse_and_the_Pink_Tow_Truck"
+    "firstAppearanceStoryId": "The_Chronicles_of_Pinecone_Mouse_and_the_Pink_Tow_Truck",
+    "aliases": [
+      "Mistress"
+    ]
   },
   {
     "id": "JAwvdovmHfN233xrdolO",
@@ -2084,12 +1879,16 @@
   {
     "id": "JPVtHwtrxttY1JAtQfpJ",
     "name": "Buddy",
-    "description": "A tiny, sick brown mouse found in the forest clearing.",
+    "description": "Seeker’s resourceful mouse companion is a keen-eyed problem solver who joined the journey to the planet of the Mookers. Empowered by a transformative new potion, this tiny ally navigates extraterrestrial perils with sharp wit, serving as a vital anchor on their strange cosmic quest.",
     "storyIds": [
       "Dr_Izzy_and_the_Forest_Rescue",
+      "Wobbly_Whisker_s_Sticky_Adventure_on_Planet_Mooker",
       "The_Super_Mouse_Crew_and_the_Wizard_s_Lost_Hat"
     ],
-    "firstAppearanceStoryId": "Dr_Izzy_and_the_Forest_Rescue"
+    "firstAppearanceStoryId": "Dr_Izzy_and_the_Forest_Rescue",
+    "aliases": [
+      "Buddy the Mouse"
+    ]
   },
   {
     "id": "Jo7YvolOBWEUBtL3M2tn",
@@ -2106,6 +1905,9 @@
     "description": "A small white kitten, slick with the sticky, iridescent residue of the potion bottle she tumbled from, who joins the adventure in a desperate search for her lost mother.",
     "storyIds": [
       "The_Quest_for_the_Moon_Mother",
+      "Wobbly_Whisker_s_Sticky_Adventure_on_Planet_Mooker",
+      "The_Magic_Star_Potion_and_the_Journey_to_Star_World",
+      "Wobbly_Whisker_and_the_Mountaintop_Fish_House-2",
       "Seeker_and_the_Security_Cats_The_Potion_Caper",
       "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission",
       "The_Stinky_Cheese_Volcano_and_the_Floating_Balloon_Sky",
@@ -2113,7 +1915,10 @@
       "The_Case_of_the_Kidnapped_Dwarf_and_the_Magic_Ladder",
       "The_Mystery_of_Peacock_s_Hat_and_the_Moopa_Doopa"
     ],
-    "firstAppearanceStoryId": "The_Quest_for_the_Moon_Mother"
+    "firstAppearanceStoryId": "The_Quest_for_the_Moon_Mother",
+    "aliases": [
+      "Wobbly Whisker"
+    ]
   },
   {
     "id": "JzFzPL1YWRKIlQl4vLH6",
@@ -2129,9 +1934,13 @@
     "name": "Grandpa Rick",
     "description": "A family member who greets the group upon their arrival at Nana's house.",
     "storyIds": [
+      "The_Chugga-Chugga_Journey_to_Nana_s_House",
       "The_Imaginary_Road_Trip_to_Nana_s_House"
     ],
-    "firstAppearanceStoryId": "The_Imaginary_Road_Trip_to_Nana_s_House"
+    "firstAppearanceStoryId": "The_Chugga-Chugga_Journey_to_Nana_s_House",
+    "aliases": [
+      "Grampa Rick"
+    ]
   },
   {
     "id": "KE6TMx1r1UHFugCUwVX4",
@@ -2170,15 +1979,6 @@
     "firstAppearanceStoryId": "The_Sleepy-Time_Science_Experiment"
   },
   {
-    "id": "Kb2svHMpUVfdyy3CDvFI",
-    "name": "Dimitar the Dragon",
-    "description": "The hero of a great big book whose adventures are shared at bedtime.",
-    "storyIds": [
-      "Dimitar_the_Dragon_and_the_Sleepy_Moles"
-    ],
-    "firstAppearanceStoryId": "Dimitar_the_Dragon_and_the_Sleepy_Moles"
-  },
-  {
     "id": "KcV31NhEyNs0rsKV5Ssl",
     "name": "Oscar",
     "description": "Hunkered in velvety shadows beside one of Mistress Mouse’s tattered stuffy mice, Lily’s brother illuminates a salvaged television with a scavenged flashlight, contentedly nibbling on oily debris. His focus drifts from the flickering screen to the miniature green car mired in a mud puddle—a casualty of the same reckless speed he employs when racing his yellow school bus. Between these high-stakes heats, he engineers sturdy Lego bridges that arch over the surrounding wreckage, all under the unblinking watch of his glass-eyed, plush sentinel.",
@@ -2186,11 +1986,18 @@
       "The_Lego_Adventures_of_Mistress_Mouse_and_Other_Mouse",
       "The_Many_Adventures_of_Mistress_Mouse",
       "Mistress_Mouse_and_the_Construction_Site_Race",
+      "Mickey_and_Minnie_s_Interstellar_Forest_Adventure",
+      "Oscar_Mouse_and_the_Musical_Wolf_Cub",
+      "The_Imaginary_Road_Trip_to_Nana_s_House",
       "Hattie_the_Mouse_s_Hat_Workshop",
       "Hattie_s_Shell_Necklace_Adventure",
+      "Blast_Off_to_the_Hundred_Acre_Wood",
       "The_Mystery_of_the_Pool_Noodle_Nibbler"
     ],
-    "firstAppearanceStoryId": "The_Lego_Adventures_of_Mistress_Mouse_and_Other_Mouse"
+    "firstAppearanceStoryId": "The_Lego_Adventures_of_Mistress_Mouse_and_Other_Mouse",
+    "aliases": [
+      "Oscar Mouse"
+    ]
   },
   {
     "id": "Kg681ZCV4rwCDjPpXAqK",
@@ -2210,15 +2017,6 @@
       "Mossy_s_New_Home_at_River_Lake"
     ],
     "firstAppearanceStoryId": "Mossy_s_New_Home_at_River_Lake"
-  },
-  {
-    "id": "KyifbUstRhfb6zUq2CXU",
-    "name": "Bunson",
-    "description": "A friend of Kitty who lives in a house the crew visits.",
-    "storyIds": [
-      "The_Gopher_s_Squerret_Quest_in_Australia"
-    ],
-    "firstAppearanceStoryId": "The_Gopher_s_Squerret_Quest_in_Australia"
   },
   {
     "id": "L2EJ5BLvdFCLDVxKVkKh",
@@ -2257,15 +2055,6 @@
     "firstAppearanceStoryId": "Mossy_s_New_Home_at_River_Lake"
   },
   {
-    "id": "LGjihCp735EtC2UMzXp4",
-    "name": "Izzy",
-    "description": "A focused and determined young girl who insists on completing her workout before starting her nightly routine.",
-    "storyIds": [
-      "Stretching_Before_the_Story"
-    ],
-    "firstAppearanceStoryId": "Stretching_Before_the_Story"
-  },
-  {
     "id": "LggFZzUx7coKrbwlX5Yn",
     "name": "Grover",
     "description": "A furry blue monster who is part of the crew traveling to Nana's.",
@@ -2292,10 +2081,12 @@
     "description": "A sharp-witted resident of a circular island castle, this two-century-old purple dragonet carries a pirate’s salt-crusted legacy and a fierce devotion to his salvaged library. Formerly of the Cadasori galleries, Seeker’s grumpy companion now roams the deep to save his ancestral shores, though a recent volcanic disturbance has left him uncharacteristically sickened and frail. Driven by habit and a tireless appetite for fish, he bickers incessantly over snacks while guarding his remaining volumes with a brooding, protective intensity.",
     "storyIds": [
       "Dimitar_and_the_Blueberry_Dragon_Pop",
+      "Dimitar_the_Dragon_and_the_Sleepy_Moles",
       "The_Giant_Rescue_on_Volcano_Island",
       "The_Savior_of_the_Castle",
       "The_Sardine_Bakery_and_the_Rainbow_Disco_Birthday",
       "Dimitar_and_the_Castle_of_Ice_Fangsicle",
+      "The_Ice_Dragon_s_Sparkly_Castle_and_the_Great_Ice_Festival",
       "The_Ice_Dragon_s_New_Hat",
       "Dimatar_s_Big_Day_at_Ginger_Catasorry",
       "The_Flying_Friends_of_Strawberry_Island",
@@ -2316,9 +2107,17 @@
       "Bunsen_s_First_Day_at_Catasory",
       "The_Grand_Singing_Competition_of_Circular_Island",
       "The_Mysterious_Sand_Bottle_and_the_No-Crying_Game",
+      "The_Case_of_the_Kidnapped_Dwarf_and_the_Magic_Ladder",
       "The_Mystery_of_Peacock_s_Hat_and_the_Moopa_Doopa"
     ],
-    "firstAppearanceStoryId": "Dimitar_and_the_Blueberry_Dragon_Pop"
+    "firstAppearanceStoryId": "Dimitar_and_the_Blueberry_Dragon_Pop",
+    "aliases": [
+      "Demitar",
+      "Dimitar the Dragon",
+      "Dimetar",
+      "Dimatar",
+      "Dematar"
+    ]
   },
   {
     "id": "Lp27cnqwDbX2o6lODOQ7",
@@ -2381,24 +2180,6 @@
     "firstAppearanceStoryId": "Shark_Friends_and_the_Deep_Deep_Dark"
   },
   {
-    "id": "MVnobgAnwkNXhi3MzjyS",
-    "name": "Superhero Kitty",
-    "description": "The brave leader of the cat crew who organizes the trip to visit the gophers.",
-    "storyIds": [
-      "Kitty_s_Crew_and_the_Underground_Adventure"
-    ],
-    "firstAppearanceStoryId": "Kitty_s_Crew_and_the_Underground_Adventure"
-  },
-  {
-    "id": "Mcyt4wNwUFR7XNRkzsKs",
-    "name": "Grampa Rick",
-    "description": "Nana's husband who greets the arrivals at the house.",
-    "storyIds": [
-      "The_Chugga-Chugga_Journey_to_Nana_s_House"
-    ],
-    "firstAppearanceStoryId": "The_Chugga-Chugga_Journey_to_Nana_s_House"
-  },
-  {
     "id": "MdY66HzJldojIg0yqZAo",
     "name": "Monkey",
     "description": "A cheerful friend of Hattie who requests a portrait of himself to be drawn in markers.",
@@ -2412,16 +2193,25 @@
     "name": "Silver",
     "description": "Immortalized in the stone of the Great Library yet reborn in Cat World as a small, hungry kitten, Izzy is a brave companion who now traverses the heart of Limbo. Communicating through an ancient, rhythmic language of resonant purrs and wielding a masterfully handled magical can opener, this tiny spirit balances her arcane legacy with a newfound, desperately urgent need for snuggles.",
     "storyIds": [
+      "Hattie_the_Mouse_s_Custom_Hat_Shop",
       "The_Silver_Kitten_s_Snuggle_Emergency",
+      "Voyage_to_the_Kingdom_of_the_Sea_Mice",
       "The_Quest_to_Close_the_Limbo_Rift",
       "Mission_to_Silver_s_Planet",
       "Seeker_s_Stone-Carving_Expedition",
       "The_Potion_to_the_Little_Hotel_House",
       "The_Great_Kibble_Cat-astrophe",
       "The_Wizard_Seker_and_the_Magical_Can_Opener_of_Cat_World",
-      "Seeker_and_the_Security_Cats_The_Potion_Caper"
+      "The_Thirty_Cats_of_Kibble_World",
+      "An_Accidental_Trip_to_Nana_s_House",
+      "Seeker_and_the_Security_Cats_The_Potion_Caper",
+      "Prehistoric_Potion_Adventures"
     ],
-    "firstAppearanceStoryId": "The_Silver_Kitten_s_Snuggle_Emergency"
+    "firstAppearanceStoryId": "Hattie_the_Mouse_s_Custom_Hat_Shop",
+    "aliases": [
+      "Silver Cat",
+      "Silvercat"
+    ]
   },
   {
     "id": "MiHtviP3Pau5PCqPlxh5",
@@ -2455,14 +2245,30 @@
     "name": "Finn",
     "description": "A resident of Cat World and loyal companion to Mama, Finncat is a meticulous research collector who documents the world through investigative sniffing. Alongside their peer Silver, they navigate their domain with scholarly curiosity, often pausing mid-voyage for a sudden, dramatic flop. While currently thwarted by the formidable challenge of an unopened food can, this diligent scholar occasionally graces the room for a fleeting minute during storytelling, lending a brief, discerning presence to the narrative before returning to their investigations.",
     "storyIds": [
+      "Expedition_to_the_Deep-Deep_Dark",
+      "Finn_the_Cat_s_Arctic_Rainbow_Quest",
+      "The_Silver_Kitten_s_Snuggle_Emergency",
+      "The_Putt-Putt_Road_Trip_Adventure",
+      "Blast_Off_to_the_Hundred_Acre_Wood",
+      "Mission_to_the_Astro-Orange_Restaurant",
       "Voyage_to_the_Kingdom_of_the_Sea_Mice",
       "The_Mischiefy_Moles_and_the_Bookcase_of_Chaos",
       "The_Galactic_Search_for_Chicky",
       "The_Potion_to_the_Little_Hotel_House",
       "The_Great_Kibble_Cat-astrophe",
-      "The_Wizard_Seker_and_the_Magical_Can_Opener_of_Cat_World"
+      "The_Wizard_Seker_and_the_Magical_Can_Opener_of_Cat_World",
+      "An_Accidental_Trip_to_Nana_s_House",
+      "The_Cozy_Potions_of_Sleepy_World"
     ],
-    "firstAppearanceStoryId": "Voyage_to_the_Kingdom_of_the_Sea_Mice"
+    "firstAppearanceStoryId": "Expedition_to_the_Deep-Deep_Dark",
+    "aliases": [
+      "Finn Cat",
+      "Finncat",
+      "Finn-cat",
+      "Finn the Cat",
+      "Finn Space Cat",
+      "Fincat"
+    ]
   },
   {
     "id": "MwnWRUDmddVtwdEPyFSP",
@@ -2589,10 +2395,16 @@
     "storyIds": [
       "The_Dragonettes_and_the_Rainbow_Forest_Quest",
       "The_Gopher_s_Squerret_Quest_in_Australia",
+      "Seeker_and_the_Security_Cats_The_Potion_Caper",
+      "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission",
       "Mischief_Mouse_and_the_Quest_for_Square-Rots",
       "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness"
     ],
-    "firstAppearanceStoryId": "The_Dragonettes_and_the_Rainbow_Forest_Quest"
+    "firstAppearanceStoryId": "The_Dragonettes_and_the_Rainbow_Forest_Quest",
+    "aliases": [
+      "Farmer Wabble",
+      "Farmer Wobbly"
+    ]
   },
   {
     "id": "OALKOlbpKyMzrJGp5bNB",
@@ -2613,24 +2425,6 @@
     "firstAppearanceStoryId": "The_Great_Expedition_of_the_Sas-ma-ras-ma-fla-mas_Frog"
   },
   {
-    "id": "OBNRtfTFpgHGgfwhizNw",
-    "name": "Mookers",
-    "description": "The blue, friendly inhabitants of a very slimy planet.",
-    "storyIds": [
-      "Wobbly_Whisker_s_Sticky_Adventure_on_Planet_Mooker"
-    ],
-    "firstAppearanceStoryId": "Wobbly_Whisker_s_Sticky_Adventure_on_Planet_Mooker"
-  },
-  {
-    "id": "OIKwosITo8cee7Zaw6AA",
-    "name": "Nurse Daddy",
-    "description": "The medical assistant who helps Dr. Izzy care for the mouse.",
-    "storyIds": [
-      "Dr_Izzy_and_the_Forest_Rescue"
-    ],
-    "firstAppearanceStoryId": "Dr_Izzy_and_the_Forest_Rescue"
-  },
-  {
     "id": "OJR1LyAadmAzgLeb8UOc",
     "name": "Mercy Mouse",
     "description": "A friend of Mischief Mouse who unwraps a special surprise present.",
@@ -2649,6 +2443,7 @@
       "Disco_and_Thisco_s_Deep-Sea_Submarine_Adventure",
       "Disco_and_Thisco_The_Great_Bookcase_Mischief",
       "The_Busy_Day_of_Disco_and_Disco_Moles",
+      "The_Moles_Intergalactic_Snack_Run",
       "Mossy_s_New_Home_at_River_Lake",
       "Auntie_Mulberry_s_Magical_Mole_Pie",
       "Stars_and_Stories_The_Great_Cat_Rescue",
@@ -2675,16 +2470,11 @@
       "The_Security_Cats_and_the_Rainbow_Party",
       "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness"
     ],
-    "firstAppearanceStoryId": "The_Mischiefy_Moles_and_the_Bookcase_of_Chaos"
-  },
-  {
-    "id": "ONQBeo9nY4BsKrCUiofu",
-    "name": "The Father",
-    "description": "A character in the story who politely asks to join the baking session and helps finish the cookies.",
-    "storyIds": [
-      "Pistis_and_Potty_Mouse_s_Sprinkle_Adventure"
-    ],
-    "firstAppearanceStoryId": "Pistis_and_Potty_Mouse_s_Sprinkle_Adventure"
+    "firstAppearanceStoryId": "The_Mischiefy_Moles_and_the_Bookcase_of_Chaos",
+    "aliases": [
+      "Disco (Mole 1)",
+      "Disca"
+    ]
   },
   {
     "id": "OPxQnFooabni98ErfJL5",
@@ -2777,7 +2567,7 @@
   {
     "id": "P1VAjNwnHVgTC32CVtim",
     "name": "Curlustava",
-    "description": "Mrs. Piggy's sister, a pig Muppet who joins in the late-night visits.",
+    "description": "Miss Piggy's sister, a pig Muppet who joins in the late-night visits.",
     "storyIds": [
       "Late_Night_Tea_with_Mrs_Piggy_and_the_Muppets"
     ],
@@ -2809,25 +2599,6 @@
       "Hattie_and_the_Tower_of_Traffic_Cones"
     ],
     "firstAppearanceStoryId": "Hattie_and_the_Tower_of_Traffic_Cones"
-  },
-  {
-    "id": "Pe7Uox9raqm7KuM83I7k",
-    "name": "Wizard Bobizzard",
-    "description": "Another wizard mentioned who is familiar with Siffle Papiffle's adventures.",
-    "storyIds": [
-      "The_Floofer_s_Trampoline_and_the_Butterfly_Valentine"
-    ],
-    "firstAppearanceStoryId": "The_Floofer_s_Trampoline_and_the_Butterfly_Valentine"
-  },
-  {
-    "id": "PqOabscKBwuPCSynCMai",
-    "name": "Victor Mouse",
-    "description": "A daring racer who pilots a vibrant yellow and blue bananamobile through the muddiest shortcuts, this mouse is fueled by a fastidious and singular ambition. Every victory brings him closer to fulfilling an incredibly long, exacting manifest of acquisitions, ranging from tailored velvet waistcoats to mahogany bureaus and gilded parlor trim.",
-    "storyIds": [
-      "Mistress_Mouse_and_the_Construction_Site_Race",
-      "Hattie_the_Mouse_and_the_Massive_Shopping_List"
-    ],
-    "firstAppearanceStoryId": "Mistress_Mouse_and_the_Construction_Site_Race"
   },
   {
     "id": "Q2JIOhV8Rye8wPX54LaZ",
@@ -2888,9 +2659,13 @@
     "name": "Floofy",
     "description": "A talking 'Floofer' creature who serves as a hat for Graw the bird.",
     "storyIds": [
-      "Haddy_the_Mouse_and_the_Quest_for_the_Talking_Hat"
+      "Haddy_the_Mouse_and_the_Quest_for_the_Talking_Hat",
+      "The_Mookers_the_Floofers_and_the_Solar_Mookball"
     ],
-    "firstAppearanceStoryId": "Haddy_the_Mouse_and_the_Quest_for_the_Talking_Hat"
+    "firstAppearanceStoryId": "Haddy_the_Mouse_and_the_Quest_for_the_Talking_Hat",
+    "aliases": [
+      "Floofy the Floofer"
+    ]
   },
   {
     "id": "R4O6DOr9TotdacCCaaot",
@@ -3036,9 +2811,13 @@
     "name": "Second Disco",
     "description": "Another mole character named Disco who assists in digging and sweeping.",
     "storyIds": [
+      "The_Moles_Intergalactic_Snack_Run",
       "The_Best_Mole_Hole_Ever"
     ],
-    "firstAppearanceStoryId": "The_Best_Mole_Hole_Ever"
+    "firstAppearanceStoryId": "The_Moles_Intergalactic_Snack_Run",
+    "aliases": [
+      "Disco (Mole 2)"
+    ]
   },
   {
     "id": "SjLchv8ZzkQ3KiM72pEp",
@@ -3078,6 +2857,7 @@
       "The_Bouncy_Adventures_in_Balloon_World",
       "The_Magic_of_Slime_School",
       "The_Potion_of_the_Gemstone_Reef",
+      "The_Wizard_Seker_and_the_Magical_Can_Opener_of_Cat_World",
       "Slime-Ka-Bye_The_Beard-Dweller_s_Deep_Sea_Adventure",
       "The_Quest_for_the_Moon_Mother",
       "Shark_Friends_and_the_Deep_Deep_Dark",
@@ -3109,7 +2889,11 @@
       "The_Mystery_of_Peacock_s_Hat_and_the_Moopa_Doopa",
       "Frazgle_s_Gray_Mischief_and_the_Rainbow_Forest_Rescue"
     ],
-    "firstAppearanceStoryId": "The_Mischief_Moles_and_the_Plane_of_Fire"
+    "firstAppearanceStoryId": "The_Mischief_Moles_and_the_Plane_of_Fire",
+    "aliases": [
+      "Seker",
+      "Sika"
+    ]
   },
   {
     "id": "SjjjSnvs5cFDuVXuamIr",
@@ -3187,40 +2971,6 @@
       "The_Many_Adventures_of_Mistress_Mouse"
     ],
     "firstAppearanceStoryId": "The_Lego_Adventures_of_Mistress_Mouse_and_Other_Mouse"
-  },
-  {
-    "id": "TshuLJMOWWEnDDVz4OHL",
-    "name": "Hattie",
-    "description": "A clever mouse milliner and engineer of whimsy, she is a resourceful spirit who crafts exquisite hats and soulful portraits within her hollow tree stump workshop. Though a formidable presence famously counted among the thirty legendary cats, she is currently confined to her bed by illness, her usual treks through saturated woodlands for rare tape and lollipops temporarily halted. Even in her malaise, her sharp mind lingers on a recent, stinging disagreement with Dimitar over a fish, a rare shadow cast upon a heart otherwise known for its boundless generosity and creative light.",
-    "storyIds": [
-      "Hattie_the_Mouse_and_the_Baby_Chipmunk_s_Snack",
-      "Hattie_s_Rain_Boots_and_the_Honey_Bee_s_Hat",
-      "Hattie_the_Mouse_and_the_Starry_Hats",
-      "Hattie_s_Shell_Necklace_Adventure",
-      "The_Mystery_of_the_Snake_Store_Bups",
-      "Hattie_s_Magical_Rainbow_Tape_Quest",
-      "Hattie_Mouse_and_the_Mouse_Street_Doctors",
-      "Pakruder_Worm_s_New_Sound",
-      "Hattie_s_Block-Built_Nature_Walk_Adventure",
-      "Mischief_Mouse_and_the_Tiny_Lego_Hat",
-      "Dr_Izzy_and_the_Forest_Rescue",
-      "The_Thirty_Cats_of_Kibble_World",
-      "The_Rainbow_Fruit_World_and_the_Great_Lemon_Fish_Debate",
-      "Seeker_and_the_Security_Cats_The_Potion_Caper",
-      "Tot_s_Great_Cheese_Beach_Adventure",
-      "The_Super_Mouse_Crew_and_the_Wizard_s_Lost_Hat",
-      "The_Mystery_of_Peacock_s_Hat_and_the_Moopa_Doopa"
-    ],
-    "firstAppearanceStoryId": "Hattie_the_Mouse_and_the_Baby_Chipmunk_s_Snack"
-  },
-  {
-    "id": "Tx4bY33G8Wan2ehlU4rz",
-    "name": "Disco (Mole 2)",
-    "description": "The second mole who joins the intergalactic voyage.",
-    "storyIds": [
-      "The_Moles_Intergalactic_Snack_Run"
-    ],
-    "firstAppearanceStoryId": "The_Moles_Intergalactic_Snack_Run"
   },
   {
     "id": "TxpfqAJVbemNpVrBmmeq",
@@ -3338,18 +3088,9 @@
     "firstAppearanceStoryId": "Daisy_s_Tiny_Dog_Birthday_Adventure"
   },
   {
-    "id": "UitGJsx7gNicZm5r7ovX",
-    "name": "Goofy",
-    "description": "A gopher with big teeth who lives in a decorated underground tunnel in Australia.",
-    "storyIds": [
-      "The_Gopher_s_Squerret_Quest_in_Australia"
-    ],
-    "firstAppearanceStoryId": "The_Gopher_s_Squerret_Quest_in_Australia"
-  },
-  {
     "id": "Upnp2HdA7JsCA4VHAoxZ",
     "name": "Zudy Dragon",
-    "description": "A red and green dragonet from Strawberry Island who meets Dimetar on the playground.",
+    "description": "A red and green dragonet from Strawberry Island who meets Dimitar on the playground.",
     "storyIds": [
       "The_Flying_Friends_of_Strawberry_Island"
     ],
@@ -3406,6 +3147,7 @@
     "description": "The wise leader and industrious architect of the Mischief Moles, this polite elder visionary guides his kin from the attic’s shadowed heights toward the stars and across biting, crystalline ice. A master pathfinder who initiated their voyage upon unearthing an ancient tome, he balances the weight of celestial navigation with the tactile craft of carving a new tunnel home and the thoughtful devotion of planning whimsical days of activities for his children. Whether introducing surprise robots for play, anchoring meditations during a frozen trek, or sleep-sitting in his favorite chair, his tactical brilliance ensures their furthest discoveries remain rooted in the rhythmic, quiet peace of a sanctuary built by his own seasoned hands.",
     "storyIds": [
       "The_Busy_Day_of_Disco_and_Disco_Moles",
+      "Mossy_s_New_Home_at_River_Lake",
       "The_Best_Mole_Hole_Ever",
       "The_Mischief_Moles_and_the_Plane_of_Fire",
       "The_Legend_of_the_Ice_Gem",
@@ -3420,20 +3162,10 @@
       "Seeker_s_Deep_Earth_Adventure",
       "The_Red_Planet_Potion"
     ],
-    "firstAppearanceStoryId": "The_Busy_Day_of_Disco_and_Disco_Moles"
-  },
-  {
-    "id": "VZMXIzByHYaJqdVQYhk7",
-    "name": "Mickey Mouse",
-    "description": "Minnie’s musical companion and star-bound co-pilot is an industrious toy mouse who returns from school to mend the broken and fill the silence of the void with song. While he remains Izzy’s imagined confidant—a silent listener to her whispered anxieties regarding dwindling supplies—he also finds joy in companionship, proudly showcasing his intricate Lego creations to a trusted friend amidst the stars.",
-    "storyIds": [
-      "The_Lego_Adventures_of_Mistress_Mouse_and_Other_Mouse",
-      "Mickey_and_Minnie_s_Interstellar_Forest_Adventure",
-      "The_Big_Muck_Problem_One_Pile_at_a_Time",
-      "Hattie_s_Masterpiece_The_Elephant_Who_Could_Chirp",
-      "The_Tale_of_the_Talking_Gluten-Free_Broccoli"
-    ],
-    "firstAppearanceStoryId": "The_Lego_Adventures_of_Mistress_Mouse_and_Other_Mouse"
+    "firstAppearanceStoryId": "The_Busy_Day_of_Disco_and_Disco_Moles",
+    "aliases": [
+      "Papamoles"
+    ]
   },
   {
     "id": "VeXW13LWp3jZ5z8uAuC5",
@@ -3443,16 +3175,6 @@
       "The_Tale_of_the_Talking_Gluten-Free_Broccoli"
     ],
     "firstAppearanceStoryId": "The_Tale_of_the_Talking_Gluten-Free_Broccoli"
-  },
-  {
-    "id": "Vka956kxeTmPydlyH7ct",
-    "name": "The Cat Crew",
-    "description": "Kitty the Superhero's group of feline companions who assist in her adventures.",
-    "storyIds": [
-      "The_Case_of_the_Carrot-Loving_Gophers",
-      "Walkie-Talkies_for_the_Yellow_Jackets"
-    ],
-    "firstAppearanceStoryId": "The_Case_of_the_Carrot-Loving_Gophers"
   },
   {
     "id": "VpK9iG8TkTF5lhTbJlmm",
@@ -3469,9 +3191,13 @@
     "description": "Kitty’s mother, first seen sharing a quiet midday meal with her daughter, anchors Izzy’s world with a gift of celestial wonder: a special lamp that transforms the darkness into a swirling projection of stars.",
     "storyIds": [
       "Izzy_the_Kiddo_and_the_Quest_for_the_Deep_Sea_Pearl",
-      "Kitty_s_Crew_and_the_Underground_Adventure"
+      "Kitty_s_Crew_and_the_Underground_Adventure",
+      "The_Magic_of_Slime_School"
     ],
-    "firstAppearanceStoryId": "Izzy_the_Kiddo_and_the_Quest_for_the_Deep_Sea_Pearl"
+    "firstAppearanceStoryId": "Izzy_the_Kiddo_and_the_Quest_for_the_Deep_Sea_Pearl",
+    "aliases": [
+      "Izzy's Mom"
+    ]
   },
   {
     "id": "VxeZKrEr4cTWK1Tx8Lru",
@@ -3480,21 +3206,16 @@
     "storyIds": [
       "The_Moles_Intergalactic_Snack_Run",
       "The_Mookers_the_Floofers_and_the_Solar_Mookball",
+      "Wobbly_Whisker_s_Sticky_Adventure_on_Planet_Mooker",
       "The_Security_Cats_and_the_Rainbow_Party",
       "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness",
       "Bunsen_s_First_Day_at_Catasory",
       "The_Secret_of_the_Galapagos_Blub_Creatures"
     ],
-    "firstAppearanceStoryId": "The_Moles_Intergalactic_Snack_Run"
-  },
-  {
-    "id": "W2UpR30Bu2SPbOq0ukKC",
-    "name": "Blue Murgirl",
-    "description": "The 'mamma' mermaid who opens the door for the visitor.",
-    "storyIds": [
-      "The_Mystery_of_the_Missing_Kelp_Forest"
-    ],
-    "firstAppearanceStoryId": "The_Mystery_of_the_Missing_Kelp_Forest"
+    "firstAppearanceStoryId": "The_Moles_Intergalactic_Snack_Run",
+    "aliases": [
+      "Mookers"
+    ]
   },
   {
     "id": "WDV1XY6swZJOdOUkUb7x",
@@ -3522,15 +3243,6 @@
       "A_Shell_Hat_and_Jingle_Bells"
     ],
     "firstAppearanceStoryId": "A_Shell_Hat_and_Jingle_Bells"
-  },
-  {
-    "id": "WOTzRHWcwbB6vTWv7Pwt",
-    "name": "Pout-Pout",
-    "description": "A fish friend of Willa, Bert, and Ernie.",
-    "storyIds": [
-      "Expedition_to_the_Deep-Deep_Dark"
-    ],
-    "firstAppearanceStoryId": "Expedition_to_the_Deep-Deep_Dark"
   },
   {
     "id": "WVTQvVSxzReywQYmGNh8",
@@ -3584,7 +3296,7 @@
   {
     "id": "WfkMUeTFmHJBX5jBrLdN",
     "name": "Mouse Friends",
-    "description": "A group of teeny tiny mouse toys that join Potty the Mouse on his adventures.",
+    "description": "A group of teeny tiny mouse toys that join Plotty the Mouse on his adventures.",
     "storyIds": [
       "Pistis_and_Potty_Mouse_s_Sprinkle_Adventure"
     ],
@@ -3637,7 +3349,7 @@
   },
   {
     "id": "X1VQQnxaQpX33o2ZtGm4",
-    "name": "Fincat's Mouse",
+    "name": "Finncat's Mouse",
     "description": "The loyal companion to Izzy the Kiddo who joins the journey to find the wizard's hat.",
     "storyIds": [
       "The_Wizard_s_Play-Doh_Hat_Quest"
@@ -3648,15 +3360,6 @@
     "id": "XEjlXKpANotJ0wrxhfBP",
     "name": "Sansango Cantasa",
     "description": "An intrepid deep-sea explorer who dives into the high-pressure depths.",
-    "storyIds": [
-      "The_Chronicles_of_Carland_and_the_Sea_Mice"
-    ],
-    "firstAppearanceStoryId": "The_Chronicles_of_Carland_and_the_Sea_Mice"
-  },
-  {
-    "id": "XHGtCeR17zxu1ZtUxgBe",
-    "name": "Zanna",
-    "description": "A character who sets out to find a bouncy mence.",
     "storyIds": [
       "The_Chronicles_of_Carland_and_the_Sea_Mice"
     ],
@@ -3724,16 +3427,6 @@
     "firstAppearanceStoryId": "Mama_Mole_s_Sidewalk_Safari"
   },
   {
-    "id": "Xs1xGKlxs8VWYJFw2V6W",
-    "name": "Silvercat",
-    "description": "A seafaring resident of Kibble World, this feline explorer bridges the gap between the sun-drenched feasts of her homeland and the crushing silence of the abyss. Known for her hospitality, she invites visitors to partake in an overflowing bounty of kibble before leading her deep ocean exploration mission into the uncharted mysteries of the sea floor.",
-    "storyIds": [
-      "Voyage_to_the_Kingdom_of_the_Sea_Mice",
-      "The_Thirty_Cats_of_Kibble_World"
-    ],
-    "firstAppearanceStoryId": "Voyage_to_the_Kingdom_of_the_Sea_Mice"
-  },
-  {
     "id": "XxiTjG7AOywWBTmiZQ16",
     "name": "Flame Bird",
     "description": "A magical creature made of fire that guides the moles after the volcano erupts.",
@@ -3768,15 +3461,6 @@
       "Science_in_the_Bakery"
     ],
     "firstAppearanceStoryId": "Science_in_the_Bakery"
-  },
-  {
-    "id": "YPtZ5gENJ5sHjLqxrmSZ",
-    "name": "Finn Space Cat",
-    "description": "A feline space traveler with a broken alarm clock.",
-    "storyIds": [
-      "Blast_Off_to_the_Hundred_Acre_Wood"
-    ],
-    "firstAppearanceStoryId": "Blast_Off_to_the_Hundred_Acre_Wood"
   },
   {
     "id": "YclVGgnC1ZAOcNhmjS12",
@@ -3873,15 +3557,6 @@
     "firstAppearanceStoryId": "The_Case_of_the_Carrot-Loving_Gophers"
   },
   {
-    "id": "Zm1yooCoYBOaWM7aYUTT",
-    "name": "Haddy",
-    "description": "A hardworking mouse who owns a workshop and goes on magical quests.",
-    "storyIds": [
-      "Haddy_the_Mouse_and_the_Quest_for_the_Talking_Hat"
-    ],
-    "firstAppearanceStoryId": "Haddy_the_Mouse_and_the_Quest_for_the_Talking_Hat"
-  },
-  {
     "id": "ZuvMpmYl1kCray5wNDLG",
     "name": "Eea",
     "description": "A member of the Blind Mice family.",
@@ -3976,23 +3651,18 @@
     "firstAppearanceStoryId": "Pakruder_Worm_s_New_Sound"
   },
   {
-    "id": "aM4kZJfmrwmpmNBFfoeL",
-    "name": "Goober Gopher",
-    "description": "A friendly gopher who lives in a deep underground tunnel and loves speed nibbling tubers.",
-    "storyIds": [
-      "Kitty_s_Crew_and_the_Underground_Adventure"
-    ],
-    "firstAppearanceStoryId": "Kitty_s_Crew_and_the_Underground_Adventure"
-  },
-  {
     "id": "aQQqiHnd8UhJhG702oIU",
     "name": "Gagok",
     "description": "A magical paper bird and loyal companion to Seeker, this enchanted creature requires the essence of a specialized crystal to take wing and navigate the skies.",
     "storyIds": [
       "The_Best_Mole_Hole_Ever",
-      "The_Potion_to_Izzy_s_Attic"
+      "The_Potion_to_Izzy_s_Attic",
+      "The_Magic_Star_Potion_and_the_Journey_to_Star_World"
     ],
-    "firstAppearanceStoryId": "The_Best_Mole_Hole_Ever"
+    "firstAppearanceStoryId": "The_Best_Mole_Hole_Ever",
+    "aliases": [
+      "Gagak"
+    ]
   },
   {
     "id": "ajzLJSTJCYMksQ0j3oWx",
@@ -4004,17 +3674,6 @@
       "The_Anglerfish_and_the_Hairy_Drawing"
     ],
     "firstAppearanceStoryId": "Stars_and_Stories_Piglet_s_Birthday_Surprise"
-  },
-  {
-    "id": "atQJ9sqRg1UHyGdTygM6",
-    "name": "Izzy the kiddo",
-    "description": "The brave young protagonist who emerged from the earthen depths alongside the moles to aid Hattie, Isabella remains a steadfast visitor whose melodic songs of courage bolster her friends.",
-    "storyIds": [
-      "Hattie_s_Workshop_Puzzles_and_Purple_Hats",
-      "Victor_s_Muddy_Mishap",
-      "The_Mischief_Moles_and_the_Plane_of_Fire"
-    ],
-    "firstAppearanceStoryId": "Hattie_s_Workshop_Puzzles_and_Purple_Hats"
   },
   {
     "id": "azvPojc18tdUDlPiUsOv",
@@ -4055,7 +3714,7 @@
   {
     "id": "bMTGu08qPzSGlaIhIhWT",
     "name": "Mama Bear",
-    "description": "The colossal mother bear discovered at the first story’s conclusion, a well-meaning giant whose accidental grazing once laid waste to the murgirls' vibrant kelp forest.",
+    "description": "The colossal mother bear discovered at the first story’s conclusion, a well-meaning giant whose accidental grazing once laid waste to the mergirls' vibrant kelp forest.",
     "storyIds": [
       "Hattie_the_Mouse_and_the_Rainbow_Mushroom_Mystery",
       "The_Mystery_of_the_Missing_Kelp_Forest"
@@ -4067,10 +3726,14 @@
     "name": "Blue Mergirl",
     "description": "One of the Mergirls living in a cave on the sea floor.",
     "storyIds": [
+      "The_Mystery_of_the_Missing_Kelp_Forest",
       "Shark_Friends_and_the_Deep_Deep_Dark",
       "The_Tale_of_the_Discolored_Mergirl_and_the_Magic_Bubble_Bath"
     ],
-    "firstAppearanceStoryId": "Shark_Friends_and_the_Deep_Deep_Dark"
+    "firstAppearanceStoryId": "The_Mystery_of_the_Missing_Kelp_Forest",
+    "aliases": [
+      "Blue Murgirl"
+    ]
   },
   {
     "id": "bhbgHjvPdxN8vte6ppmR",
@@ -4090,15 +3753,6 @@
       "Hattie_and_the_Lego_Aquarium_Adventure"
     ],
     "firstAppearanceStoryId": "Oscar_Mouse_and_the_Musical_Wolf_Cub"
-  },
-  {
-    "id": "bwImmS9UNYEcBhTwQhM5",
-    "name": "Floofy the Floofer",
-    "description": "A bouncy creature who visits the Mookers.",
-    "storyIds": [
-      "The_Mookers_the_Floofers_and_the_Solar_Mookball"
-    ],
-    "firstAppearanceStoryId": "The_Mookers_the_Floofers_and_the_Solar_Mookball"
   },
   {
     "id": "bzaJxqFYvGsHwGG3K8C2",
@@ -4142,10 +3796,16 @@
     "name": "Pooky",
     "description": "A pig stuffie who sits in Dad's lap during the story.",
     "storyIds": [
+      "Spooky_Pooky_s_Handmade_Gifts",
       "Hattie_s_Shell_Necklace_Adventure",
-      "Blast_Off_to_the_Hundred_Acre_Wood"
+      "Blast_Off_to_the_Hundred_Acre_Wood",
+      "The_Cinnamon_Potion_and_the_Ant-Sized_Tree"
     ],
-    "firstAppearanceStoryId": "Hattie_s_Shell_Necklace_Adventure"
+    "firstAppearanceStoryId": "Spooky_Pooky_s_Handmade_Gifts",
+    "aliases": [
+      "Pooki the Pig",
+      "Spooky Pooky"
+    ]
   },
   {
     "id": "cSdO7bSNcV1lnzRLcyKi",
@@ -4168,7 +3828,7 @@
   {
     "id": "cb8gisBEtOc1t8avZ98k",
     "name": "The Millipede",
-    "description": "A resident of the Land of the Clouds who directs Haddy and Seeker toward the thunder cloud.",
+    "description": "A resident of the Land of the Clouds who directs Hattie and Seeker toward the thunder cloud.",
     "storyIds": [
       "Haddy_the_Mouse_and_the_Quest_for_the_Talking_Hat"
     ],
@@ -4176,7 +3836,7 @@
   },
   {
     "id": "cbX1oggzceLAjj2vtTLd",
-    "name": "Mama Mer-Girl",
+    "name": "Mama Mergirl",
     "description": "A mermaid parent who worries about the safety of her own kelp forest.",
     "storyIds": [
       "The_Great_Kelp_Caper_of_the_Pink_Continent"
@@ -4242,9 +3902,13 @@
     "name": "Hand Creature",
     "description": "The brave captain of the space mission.",
     "storyIds": [
+      "Captain_Izzy_s_Galactic_School_Bus_Mission",
       "The_Galactic_Search_for_Chicky"
     ],
-    "firstAppearanceStoryId": "The_Galactic_Search_for_Chicky"
+    "firstAppearanceStoryId": "Captain_Izzy_s_Galactic_School_Bus_Mission",
+    "aliases": [
+      "Hand-Creature"
+    ]
   },
   {
     "id": "cyge0Wr4vm2Xbyw7tHMX",
@@ -4256,23 +3920,22 @@
     "firstAppearanceStoryId": "Hattie_and_the_Tower_of_Traffic_Cones"
   },
   {
-    "id": "d0M8ECfDwvmPFeLWq8ts",
-    "name": "Winnie-the-Pooh",
-    "description": "A bear friend also known as Pooh-bear who joins the drawing session.",
-    "storyIds": [
-      "The_Anglerfish_and_the_Hairy_Drawing"
-    ],
-    "firstAppearanceStoryId": "The_Anglerfish_and_the_Hairy_Drawing"
-  },
-  {
     "id": "dBkNQkeYoUfbig6VKAdI",
     "name": "Pink Mergirl",
     "description": "A compassionate spirit of the deep, she serves as a beacon for sharks denied a natural glow, illuminating their path through the abyss before retreating to her grotto to find cozy comfort in the embrace of a plush seal stuffy.",
     "storyIds": [
+      "The_Mystery_of_the_Missing_Kelp_Forest",
+      "The_Great_Kelp_Caper_of_the_Pink_Continent",
       "Shark_Friends_and_the_Deep_Deep_Dark",
-      "The_Rainbow_Fruit_World_and_the_Great_Lemon_Fish_Debate"
+      "The_Rainbow_Fruit_World_and_the_Great_Lemon_Fish_Debate",
+      "The_Grand_Coronation_and_Wedding_at_the_Darkness_Party"
     ],
-    "firstAppearanceStoryId": "Shark_Friends_and_the_Deep_Deep_Dark"
+    "firstAppearanceStoryId": "The_Mystery_of_the_Missing_Kelp_Forest",
+    "aliases": [
+      "Pink Murgirl",
+      "Pink Mer-Girl",
+      "Pink Mermaid"
+    ]
   },
   {
     "id": "dJbqXV5alhaxe82pM9Tn",
@@ -4294,15 +3957,6 @@
     "firstAppearanceStoryId": "Hattie_and_the_Tower_of_Traffic_Cones"
   },
   {
-    "id": "dQDLalT1VUW1gDUZxBWL",
-    "name": "Pink Mer-Girl",
-    "description": "Rainbow Mer-Girl's friend who joins the search for the kelp thief.",
-    "storyIds": [
-      "The_Great_Kelp_Caper_of_the_Pink_Continent"
-    ],
-    "firstAppearanceStoryId": "The_Great_Kelp_Caper_of_the_Pink_Continent"
-  },
-  {
     "id": "dTgkDcJ1SnO6A6J9lh0D",
     "name": "Magic Mole Stuffie",
     "description": "A stuffed mole who has just moved into a new apartment featuring a piano and unique furniture.",
@@ -4310,16 +3964,6 @@
       "Magic_Mole_s_New_Apartment_and_the_Great_Nut_Feast"
     ],
     "firstAppearanceStoryId": "Magic_Mole_s_New_Apartment_and_the_Great_Nut_Feast"
-  },
-  {
-    "id": "dbkDmM9qzKPKh4qdoxzG",
-    "name": "Hattie the mouse",
-    "description": "A sociable companion to Mickey and Minnie, this mouse finds joy in gathering friends over hearty pots of homemade stew or setting off on spirited explorations, such as her recent journey through the shimmering wonders of a deep-sea aquarium.",
-    "storyIds": [
-      "Hattie_and_the_Lego_Aquarium_Adventure",
-      "The_Tale_of_the_Talking_Gluten-Free_Broccoli"
-    ],
-    "firstAppearanceStoryId": "Hattie_and_the_Lego_Aquarium_Adventure"
   },
   {
     "id": "diG2KbkJ21mBrbH5dn49",
@@ -4368,15 +4012,6 @@
     "firstAppearanceStoryId": "Mistress_Mouse_and_the_Great_Penguin_Car_Race"
   },
   {
-    "id": "eBGkFR5YUPna5jb4eAUm",
-    "name": "Lily Mousey",
-    "description": "A kind mouse doctor who helps heal injuries in the mouse community.",
-    "storyIds": [
-      "Hattie_Mouse_and_the_Mouse_Street_Doctors"
-    ],
-    "firstAppearanceStoryId": "Hattie_Mouse_and_the_Mouse_Street_Doctors"
-  },
-  {
     "id": "eEghCC8xTnaIou6Ii8tP",
     "name": "Holly",
     "description": "One of the orange traffic cones.",
@@ -4384,15 +4019,6 @@
       "Hattie_and_the_Tower_of_Traffic_Cones"
     ],
     "firstAppearanceStoryId": "Hattie_and_the_Tower_of_Traffic_Cones"
-  },
-  {
-    "id": "eGZKiOERzJ2bIk4Ugepk",
-    "name": "Hand-Creature",
-    "description": "A unique member of the space crew.",
-    "storyIds": [
-      "Captain_Izzy_s_Galactic_School_Bus_Mission"
-    ],
-    "firstAppearanceStoryId": "Captain_Izzy_s_Galactic_School_Bus_Mission"
   },
   {
     "id": "eIuMmsMjhXchwagwfcTW",
@@ -4422,15 +4048,6 @@
     "firstAppearanceStoryId": "The_Dragonettes_and_the_Rainbow_Forest_Quest"
   },
   {
-    "id": "eZjnknhVYz7y5mSwIE9n",
-    "name": "Spooky Pooky",
-    "description": "A creative and kind pig who enjoys reading and making gifts for his family and friends.",
-    "storyIds": [
-      "Spooky_Pooky_s_Handmade_Gifts"
-    ],
-    "firstAppearanceStoryId": "Spooky_Pooky_s_Handmade_Gifts"
-  },
-  {
     "id": "efZsiKQBdX6eXUOH4EO9",
     "name": "Princess of Mouseland",
     "description": "Adorned in a shimmering, star-dusted gown and a crown of deep sapphire, this royal mouse governs her miniature kingdom by bestowing ceremonial names upon every wheel of artisanal cheese. Beneath her whimsical duties lies a legacy of enchantment, as she is the sovereign owner of the magical vessel currently ferrying the adventurers across the realms.",
@@ -4457,24 +4074,6 @@
       "Captain_Izzy_s_Martian_Mission"
     ],
     "firstAppearanceStoryId": "Captain_Izzy_s_Martian_Mission"
-  },
-  {
-    "id": "emYCxjUi5YKq9rOn1Uwy",
-    "name": "Data Mouse",
-    "description": "A mouse racer who drives an orange carrot car and participates in the big construction site race.",
-    "storyIds": [
-      "Mistress_Mouse_and_the_Construction_Site_Race"
-    ],
-    "firstAppearanceStoryId": "Mistress_Mouse_and_the_Construction_Site_Race"
-  },
-  {
-    "id": "eokYhYvr2iCiQNG083bU",
-    "name": "Izzy's Mom",
-    "description": "A character in the story who helps the students mix their slime.",
-    "storyIds": [
-      "The_Magic_of_Slime_School"
-    ],
-    "firstAppearanceStoryId": "The_Magic_of_Slime_School"
   },
   {
     "id": "f9q8Srwjm0aaS6C4X3bX",
@@ -4609,12 +4208,16 @@
       "Dimatar_s_Big_Day_at_Ginger_Catasorry",
       "The_Flying_Friends_of_Strawberry_Island",
       "Dimitar_s_Flight_to_Cadasori",
+      "The_Thirty_Cats_of_Kibble_World",
       "Wobbly_Whisker_and_the_Mountaintop_Fish_House-2",
       "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness",
       "Bunsen_s_First_Day_at_Catasory",
       "The_Grand_Coronation_and_Wedding_at_the_Darkness_Party"
     ],
-    "firstAppearanceStoryId": "The_Chugga-Chugga_Journey_to_Nana_s_House"
+    "firstAppearanceStoryId": "The_Chugga-Chugga_Journey_to_Nana_s_House",
+    "aliases": [
+      "Gingercat"
+    ]
   },
   {
     "id": "fuul9zb9luBzIdYXESA2",
@@ -4652,6 +4255,7 @@
       "Science_in_the_Bakery",
       "The_Sleepy-Time_Science_Experiment",
       "The_Gopher_s_Squerret_Quest_in_Australia",
+      "The_Magic_Star_Potion_and_the_Journey_to_Star_World",
       "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission",
       "Seeker_s_Midnight_Adventure_and_the_Dancing_Pterodactyl",
       "The_Stinky_Cheese_Volcano_and_the_Komodo_Dragon_Quest",
@@ -4659,7 +4263,10 @@
       "The_Secret_of_the_Galapagos_Blub_Creatures",
       "The_Grand_Coronation_and_Wedding_at_the_Darkness_Party"
     ],
-    "firstAppearanceStoryId": "Late_Night_Tea_with_Mrs_Piggy_and_the_Muppets"
+    "firstAppearanceStoryId": "Late_Night_Tea_with_Mrs_Piggy_and_the_Muppets",
+    "aliases": [
+      "Beeker"
+    ]
   },
   {
     "id": "gaYYYbmxLvaGnRhHwIR6",
@@ -4675,10 +4282,14 @@
     "name": "Mia Mayhem",
     "description": "A superhero friend of Isabella.",
     "storyIds": [
+      "The_Sneaky_Popper_of_Balloon_World",
       "The_Salty_Solution_for_a_Frozen_Island",
       "Frazgle_s_Gray_Mischief_and_the_Rainbow_Forest_Rescue"
     ],
-    "firstAppearanceStoryId": "The_Salty_Solution_for_a_Frozen_Island"
+    "firstAppearanceStoryId": "The_Sneaky_Popper_of_Balloon_World",
+    "aliases": [
+      "Mea Mayhem"
+    ]
   },
   {
     "id": "gyJqGGdK9ijM09fVEBQ0",
@@ -4823,23 +4434,6 @@
     "firstAppearanceStoryId": "The_Mystery_of_the_Missing_Kelp_Forest"
   },
   {
-    "id": "iIzaJbzGktRtzhFlGTrh",
-    "name": "Izzy the Kiddo",
-    "description": "Once a quiet dreamer sketching from a recovery bed, this brave explorer now leads her companions through Hattie’s workshop and the lightless abyss, guided by a beacon of special light. Clad in a rugged driving suit alongside Bluey and Fincat’s Mouse, she wields heavy hammers and a magic wand with logistical precision inherited from her Nana. From trading plastic bricks for rare mushrooms to orchestrating neighborhood cleanups, she balances specialized gear with a playful spirit. Choosing the spark of a game over the gravity of a traditional quest, she ensures her radiant creativity and guiding light remain her most powerful tools for navigating the unknown.",
-    "storyIds": [
-      "Expedition_to_the_Deep-Deep_Dark",
-      "Izzy_the_Kiddo_and_the_Quest_for_the_Deep_Sea_Pearl",
-      "The_Wizard_s_Play-Doh_Hat_Quest",
-      "The_Foxy_Way_and_the_Twirling_Ghost",
-      "Daisy_s_Tiny_Dog_Birthday_Adventure",
-      "The_Big_Muck_Problem_One_Pile_at_a_Time",
-      "Hattie_s_Indigo_Mushroom_Adventure",
-      "The_Anglerfish_and_the_Hairy_Drawing",
-      "Haddy_the_Mouse_and_the_Lego_Airplane"
-    ],
-    "firstAppearanceStoryId": "Expedition_to_the_Deep-Deep_Dark"
-  },
-  {
     "id": "iJdhTSOsA1Aln5Stl2Yb",
     "name": "The Three Blind Mice",
     "description": "A group of tiny adventurers who accompany Papa Mole on the expedition.",
@@ -4878,12 +4472,20 @@
   },
   {
     "id": "ikIy1aMXG8trFETXNJSK",
-    "name": "Dimitar's mother",
+    "name": "Dimitar's Mother",
     "description": "Dimitar's mother who flies him to school.",
     "storyIds": [
+      "The_Sardine_Bakery_and_the_Rainbow_Disco_Birthday",
+      "Dimatar_s_Big_Day_at_Ginger_Catasorry",
+      "The_Flying_Friends_of_Strawberry_Island",
       "Dimitar_s_Flight_to_Cadasori"
     ],
-    "firstAppearanceStoryId": "Dimitar_s_Flight_to_Cadasori"
+    "firstAppearanceStoryId": "The_Sardine_Bakery_and_the_Rainbow_Disco_Birthday",
+    "aliases": [
+      "Dimatar's Mom",
+      "Demora",
+      "Shiliko"
+    ]
   },
   {
     "id": "ipC3maHp4z2ouFCZyg1Z",
@@ -4909,9 +4511,13 @@
     "description": "A troupe of adventurous little moles who attended Flutter’s birthday party in sturdy galoshes, fresh from exploring the forest’s hidden trails and mossy hollows.",
     "storyIds": [
       "Monch_the_Lizard_and_the_Minty_Meditation",
+      "Under_the_Bed_and_Over_the_Sky",
       "The_Sardine_Bakery_and_the_Rainbow_Disco_Birthday"
     ],
-    "firstAppearanceStoryId": "Monch_the_Lizard_and_the_Minty_Meditation"
+    "firstAppearanceStoryId": "Monch_the_Lizard_and_the_Minty_Meditation",
+    "aliases": [
+      "Mischief Moles"
+    ]
   },
   {
     "id": "jBjb0h2hvU9zQ41Tqmpo",
@@ -4991,6 +4597,10 @@
     "name": "Minnie",
     "description": "A wise veteran of briny depths and interstellar frontiers, Mickey’s resourceful mouse companion and confidant to the Princess of Mouseland guides Izzy and Hattie with a glowing lantern and ingenious Mystery Mousketools. Having recently breathed life into a towering guardian of interlocking bricks, this intrepid traveler now points the way toward the mountain’s peak, pausing to investigate the savory aroma of bacon-scented mushrooms while serving as a compassionate friend whose seasoned instincts help decipher Frasgle’s complex roars and sounds.",
     "storyIds": [
+      "Mickey_and_Minnie_s_Interstellar_Forest_Adventure",
+      "The_Big_Muck_Problem_One_Pile_at_a_Time",
+      "Hattie_the_Artist_Mouse",
+      "The_Tale_of_the_Talking_Gluten-Free_Broccoli",
       "The_Underground_Library_and_the_Big_Bubble_Bonanza",
       "Mickey_Minnie_and_Mole_s_Galactic_Bake-Off",
       "Frasgle_and_the_Sticky_Situation",
@@ -5010,7 +4620,10 @@
       "The_Mystery_of_the_Pool_Noodle_Nibbler",
       "The_Mischief_Moles_and_the_Kingdom_of_the_Ants"
     ],
-    "firstAppearanceStoryId": "The_Underground_Library_and_the_Big_Bubble_Bonanza"
+    "firstAppearanceStoryId": "Mickey_and_Minnie_s_Interstellar_Forest_Adventure",
+    "aliases": [
+      "Minnie Mouse"
+    ]
   },
   {
     "id": "jcfTF5jMOggl2mcKDvVe",
@@ -5024,7 +4637,7 @@
   {
     "id": "jnVzcPQ66eyRPimZCwM9",
     "name": "Sanina",
-    "description": "Dimetar's soft, purple cat stuffie used for nap time.",
+    "description": "Dimitar's soft, purple cat stuffie used for nap time.",
     "storyIds": [
       "The_Flying_Friends_of_Strawberry_Island"
     ],
@@ -5167,15 +4780,6 @@
     "firstAppearanceStoryId": "Hattie_and_the_Tower_of_Traffic_Cones"
   },
   {
-    "id": "lXUhBWRIotSA48Ztm1zd",
-    "name": "Elliot the Elephant",
-    "description": "An elephant who lost his precious gemstones.",
-    "storyIds": [
-      "The_Mischief_Moles_and_the_Kingdom_of_the_Ants"
-    ],
-    "firstAppearanceStoryId": "The_Mischief_Moles_and_the_Kingdom_of_the_Ants"
-  },
-  {
     "id": "lY5vplHGXdnI3V33E2pb",
     "name": "Dada Space Rock",
     "description": "Moueks' father, who is rescued from floating in deep space.",
@@ -5183,17 +4787,6 @@
       "Mission_to_the_Rainbow_Planet_Vupiter_Wupiter_Snupiter"
     ],
     "firstAppearanceStoryId": "Mission_to_the_Rainbow_Planet_Vupiter_Wupiter_Snupiter"
-  },
-  {
-    "id": "li8T63fyXXWRxPKFbuW1",
-    "name": "Silver Cat",
-    "description": "A cat who receives a medium-sized, sparkly silver cardboard hat from Hattie.",
-    "storyIds": [
-      "Hattie_the_Mouse_s_Custom_Hat_Shop",
-      "An_Accidental_Trip_to_Nana_s_House",
-      "Prehistoric_Potion_Adventures"
-    ],
-    "firstAppearanceStoryId": "Hattie_the_Mouse_s_Custom_Hat_Shop"
   },
   {
     "id": "loGRRI96lBKDzbci62kR",
@@ -5232,15 +4825,6 @@
     "firstAppearanceStoryId": "Mission_to_the_Astro-Orange_Restaurant"
   },
   {
-    "id": "lznI1w1MIL0mlKVRlxPO",
-    "name": "Queso Dog",
-    "description": "The ship's official translator who can understand the language of space fuzzballs.",
-    "storyIds": [
-      "Captain_Izzy_s_Galactic_School_Bus_Mission"
-    ],
-    "firstAppearanceStoryId": "Captain_Izzy_s_Galactic_School_Bus_Mission"
-  },
-  {
     "id": "m2iJWwOIOR6irJLbTte9",
     "name": "Snisko",
     "description": "A mole character from a story told within the main narrative.",
@@ -5254,7 +4838,9 @@
     "name": "Kitty",
     "description": "Isabella’s loyal companion and a valiant superhero, this feline-costumed commander harnesses agile, cat-like powers to lead an intrepid crew through the drifting wonders of Balloon World. Bound by a mission of guardianship, she navigates the whimsical floating realm on daring adventures, rescuing lost treasures and protecting every creature she encounters.",
     "storyIds": [
+      "Kitty_s_Crew_and_the_Underground_Adventure",
       "Kitty_the_Cat_Superhero_and_the_Gopher_Tunnel_Visit",
+      "The_Case_of_the_Carrot-Loving_Gophers",
       "The_Great_Kibble_Cat-astrophe",
       "The_Gopher_s_Squerret_Quest_in_Australia",
       "The_Sneaky_Popper_of_Balloon_World",
@@ -5265,7 +4851,11 @@
       "Tot_s_Great_Cheese_Beach_Adventure",
       "Frazgle_s_Gray_Mischief_and_the_Rainbow_Forest_Rescue"
     ],
-    "firstAppearanceStoryId": "Kitty_the_Cat_Superhero_and_the_Gopher_Tunnel_Visit"
+    "firstAppearanceStoryId": "Kitty_s_Crew_and_the_Underground_Adventure",
+    "aliases": [
+      "Kitty the Superhero",
+      "Superhero Kitty"
+    ]
   },
   {
     "id": "m48lAFTJqbk6DDDl4jAX",
@@ -5353,23 +4943,18 @@
     "firstAppearanceStoryId": "Shark_Friends_and_the_Deep_Deep_Dark"
   },
   {
-    "id": "mmCHz1UPbli3NguzcFIx",
-    "name": "Dimatar's Mom",
-    "description": "The dragonet's mother who arrives at the end of the day to pick him up.",
-    "storyIds": [
-      "Dimatar_s_Big_Day_at_Ginger_Catasorry"
-    ],
-    "firstAppearanceStoryId": "Dimatar_s_Big_Day_at_Ginger_Catasorry"
-  },
-  {
     "id": "mmTEpqkb96EW1czY0cs7",
     "name": "Crystal Mountain Caretaker",
     "description": "A mysterious companion and frequent subject of Seeker’s sketches, this enigmatic friend often arrives in the quiet company of Hattie the Mouse.",
     "storyIds": [
       "The_Bouncing_Floofers_of_the_Golden_Cloud",
-      "The_Potion_to_Izzy_s_Attic"
+      "The_Potion_to_Izzy_s_Attic",
+      "Frazgle_s_Gray_Mischief_and_the_Rainbow_Forest_Rescue"
     ],
-    "firstAppearanceStoryId": "The_Bouncing_Floofers_of_the_Golden_Cloud"
+    "firstAppearanceStoryId": "The_Bouncing_Floofers_of_the_Golden_Cloud",
+    "aliases": [
+      "The Caretaker of Crystal Mountain"
+    ]
   },
   {
     "id": "mveIAT6x3fyeeGRS2TlV",
@@ -5436,16 +5021,6 @@
     "firstAppearanceStoryId": "The_Sparkling_Dust_of_Book_World"
   },
   {
-    "id": "no2ybRaYPrycARio7zxq",
-    "name": "Finncat",
-    "description": "A feline space lieutenant with a penchant for flopping into the captain’s chair or onto a warm lap, he is currently found haunting the galley with a busy air, far too preoccupied with the kitchen's business to indulge in his usual repertoire of snuggles.",
-    "storyIds": [
-      "The_Silver_Kitten_s_Snuggle_Emergency",
-      "Mission_to_the_Astro-Orange_Restaurant"
-    ],
-    "firstAppearanceStoryId": "The_Silver_Kitten_s_Snuggle_Emergency"
-  },
-  {
     "id": "o02NspSBqUEV7e1MdoBk",
     "name": "Bert",
     "description": "Stepping from the quiet ink of a library book to join the trek into the deep dark, this classic figure from a shared basement apartment maintains the rhythmic precision and meditative focus of a sleep-story weaver. Formerly the host of grand pigeon galas who folded his roommate Ernie’s vibrant chaos into serene harmony, he now applies a caretaker’s grace to the encroaching shadows. Whether smoothing mud-stained hems into crisp geometries or sorting through the abyss’s chaotic clutter, he treats the exploration of the unknown as a soothing ritual—a singular, exacting discipline of folding the world’s wilder reaches back into a state of restorative order.",
@@ -5489,15 +5064,6 @@
     "firstAppearanceStoryId": "Seeker_s_Stone-Carving_Expedition"
   },
   {
-    "id": "oK6KtMuOMjQ8t62roBso",
-    "name": "Mistress",
-    "description": "A character who fixes cars.",
-    "storyIds": [
-      "The_Ice_Dragon_s_New_Hat"
-    ],
-    "firstAppearanceStoryId": "The_Ice_Dragon_s_New_Hat"
-  },
-  {
     "id": "oLVjPlu2FDyYxmbTD9rb",
     "name": "Felisa",
     "description": "The father (Dada) in Seeker's family.",
@@ -5511,18 +5077,13 @@
     "name": "Wizard Bobizard",
     "description": "Seeker's friend, a wizard who often experiments with potions.",
     "storyIds": [
+      "The_Floofer_s_Trampoline_and_the_Butterfly_Valentine",
       "A_Sticky_Adventure_to_the_Castle_of_Slime"
     ],
-    "firstAppearanceStoryId": "A_Sticky_Adventure_to_the_Castle_of_Slime"
-  },
-  {
-    "id": "oSbrrVeIKIYetDZjmnz4",
-    "name": "Pooh",
-    "description": "A honey-loving resident of the Hundred Acre Wood.",
-    "storyIds": [
-      "Blast_Off_to_the_Hundred_Acre_Wood"
-    ],
-    "firstAppearanceStoryId": "Blast_Off_to_the_Hundred_Acre_Wood"
+    "firstAppearanceStoryId": "The_Floofer_s_Trampoline_and_the_Butterfly_Valentine",
+    "aliases": [
+      "Wizard Bobizzard"
+    ]
   },
   {
     "id": "oeoYmq5YRjIbtSOZaeoW",
@@ -5594,9 +5155,17 @@
     "name": "Goober the Gopher",
     "description": "A friendly, non-dangerous gopher who lives in a tunnel and loves nibbling on garden vegetables.",
     "storyIds": [
-      "The_Case_of_the_Carrot-Loving_Gophers"
+      "Kitty_s_Crew_and_the_Underground_Adventure",
+      "Kitty_the_Cat_Superhero_and_the_Gopher_Tunnel_Visit",
+      "The_Case_of_the_Carrot-Loving_Gophers",
+      "The_Gopher_s_Squerret_Quest_in_Australia"
     ],
-    "firstAppearanceStoryId": "The_Case_of_the_Carrot-Loving_Gophers"
+    "firstAppearanceStoryId": "Kitty_s_Crew_and_the_Underground_Adventure",
+    "aliases": [
+      "Goober",
+      "Goober Gopher",
+      "Goofy"
+    ]
   },
   {
     "id": "pEuzcaYdoR7uiWolJR9b",
@@ -5699,15 +5268,6 @@
     "firstAppearanceStoryId": "Hattie_and_the_Lego_Aquarium_Adventure"
   },
   {
-    "id": "q7DzL3NWWe0qb2C8zrAF",
-    "name": "Isabella the Cat Superhero",
-    "description": "A persona Izzy takes on during the rescue.",
-    "storyIds": [
-      "Dr_Izzy_and_the_Forest_Rescue"
-    ],
-    "firstAppearanceStoryId": "Dr_Izzy_and_the_Forest_Rescue"
-  },
-  {
     "id": "qEumFQUNQCA3CSHBvgPV",
     "name": "Wibble",
     "description": "A very tall giraffe who enjoys blowing bubbles and is remarkably creative.",
@@ -5758,17 +5318,6 @@
     "firstAppearanceStoryId": "Dimitar_and_the_Blueberry_Dragon_Pop"
   },
   {
-    "id": "qQ3TtWQA8QvDrLtArpwo",
-    "name": "Finn Cat",
-    "description": "A character featured in a coloring picture with Worry-Worry Whale.",
-    "storyIds": [
-      "Expedition_to_the_Deep-Deep_Dark",
-      "An_Accidental_Trip_to_Nana_s_House",
-      "The_Cozy_Potions_of_Sleepy_World"
-    ],
-    "firstAppearanceStoryId": "Expedition_to_the_Deep-Deep_Dark"
-  },
-  {
     "id": "qS4RY1Vf5rU140IFoMda",
     "name": "Who the Owl",
     "description": "A friendly owl who provides air transportation for Hattie and Izzy.",
@@ -5776,13 +5325,6 @@
       "Hattie_s_Indigo_Mushroom_Adventure"
     ],
     "firstAppearanceStoryId": "Hattie_s_Indigo_Mushroom_Adventure"
-  },
-  {
-    "id": "qU9UBDMkPpOEHfZRmPWH",
-    "name": "Friendly Mooker",
-    "description": "A resident of the planet of the Mookers who greets Seeker and Buddy upon their arrival.",
-    "storyIds": [],
-    "firstAppearanceStoryId": null
   },
   {
     "id": "qXZCu0VErhcEi7PsKrc1",
@@ -5857,15 +5399,6 @@
     "firstAppearanceStoryId": "Hattie_the_Mouse_s_One-Step-at-a-Time_Bedtime"
   },
   {
-    "id": "rQnr3hcm3pqF0eiDYi3v",
-    "name": "Finn the Cat",
-    "description": "An adventurous cat who wears a special purple wool hat knitted by Hatty.",
-    "storyIds": [
-      "Finn_the_Cat_s_Arctic_Rainbow_Quest"
-    ],
-    "firstAppearanceStoryId": "Finn_the_Cat_s_Arctic_Rainbow_Quest"
-  },
-  {
     "id": "rRQWbKsQ7q4Jps5HInRx",
     "name": "Gina",
     "description": "A small, cerulean baby angler fish of the deep-sea family, now seen swaying gently as a passenger aboard the clattering playground trolley.",
@@ -5874,15 +5407,6 @@
       "Captain_Izzy_s_Galactic_School_Bus_Mission"
     ],
     "firstAppearanceStoryId": "Hattie_and_the_Lego_Aquarium_Adventure"
-  },
-  {
-    "id": "rUIbZjeYU1EsSNsjK4U9",
-    "name": "Buddy the Mouse",
-    "description": "Seeker’s resourceful mouse companion is a keen-eyed problem solver who joined the journey to the planet of the Mookers. Empowered by a transformative new potion, this tiny ally navigates extraterrestrial perils with sharp wit, serving as a vital anchor on their strange cosmic quest.",
-    "storyIds": [
-      "Wobbly_Whisker_s_Sticky_Adventure_on_Planet_Mooker"
-    ],
-    "firstAppearanceStoryId": "Wobbly_Whisker_s_Sticky_Adventure_on_Planet_Mooker"
   },
   {
     "id": "rXZED9gBoCQ5Qx6RjD9Q",
@@ -5903,15 +5427,6 @@
     "firstAppearanceStoryId": "Hattie_s_Grand_Playhouse_Construction"
   },
   {
-    "id": "rdXRWDqpiCZvl0lzVtFI",
-    "name": "Captain Daddy",
-    "description": "The co-pilot and mission captain who assists Isabella in navigating the stars.",
-    "storyIds": [
-      "Mission_to_the_Taco_Space_Station"
-    ],
-    "firstAppearanceStoryId": "Mission_to_the_Taco_Space_Station"
-  },
-  {
     "id": "reU6fpni7irnPaTRhiZ3",
     "name": "Pakruder Worm",
     "description": "A tiny worm who was initially squeaking like a mouse but searched for her own unique sound.",
@@ -5930,15 +5445,6 @@
     "firstAppearanceStoryId": "Hattie_s_Shell_Necklace_Adventure"
   },
   {
-    "id": "rqYeW9Lryv7Qrydehttj",
-    "name": "Mischief Moles",
-    "description": "A group of adventurous moles who invite Papa Mole to explore under a bed.",
-    "storyIds": [
-      "Under_the_Bed_and_Over_the_Sky"
-    ],
-    "firstAppearanceStoryId": "Under_the_Bed_and_Over_the_Sky"
-  },
-  {
     "id": "rsNtRhoadk1qER6L0tb5",
     "name": "Mama Robot",
     "description": "The baby robot's mother who waits for her at their multi-colored metal house.",
@@ -5946,15 +5452,6 @@
       "The_LED_Robot_and_the_Honey_Tree_of_Cornell_Street"
     ],
     "firstAppearanceStoryId": "The_LED_Robot_and_the_Honey_Tree_of_Cornell_Street"
-  },
-  {
-    "id": "rtH5BvwJlmLzLpAwW6yZ",
-    "name": "Mea Mayhem",
-    "description": "An important superhero with the power to stop time who takes charge of the investigation.",
-    "storyIds": [
-      "The_Sneaky_Popper_of_Balloon_World"
-    ],
-    "firstAppearanceStoryId": "The_Sneaky_Popper_of_Balloon_World"
   },
   {
     "id": "rwEgIDR63aE65Hguvjfq",
@@ -5986,17 +5483,23 @@
   {
     "id": "s3jYD8unEjcjpfKrt5U0",
     "name": "Lily",
-    "description": "The world’s tallest mouse is a guardian scholar of monumental power and studious grace, serving as the living pillar of a communal house where he hoists the massive roof with peerless strength. Between shifts at the Pepperoni Street tape store and classes at the local school, this friend of Mistress Mouse finds quiet joy building with Legos or coloring in the baby lounge alongside his many brothers. Adorned in his signature shell necklace and a fresh bespoke hat from Haddy, he remains a gentle soul whose immense physical duty is matched only by his dedicated, playful heart.",
+    "description": "The world’s tallest mouse is a guardian scholar of monumental power and studious grace, serving as the living pillar of a communal house where he hoists the massive roof with peerless strength. Between shifts at the Pepperoni Street tape store and classes at the local school, this friend of Mistress Mouse finds quiet joy building with Legos or coloring in the baby lounge alongside his many brothers. Adorned in his signature shell necklace and a fresh bespoke hat from Hattie, he remains a gentle soul whose immense physical duty is matched only by his dedicated, playful heart.",
     "storyIds": [
       "The_Many_Adventures_of_Mistress_Mouse",
       "Hattie_s_Workshop_Puzzles_and_Purple_Hats",
+      "Hattie_and_the_Wizard_s_Clover_Show",
       "Hattie_the_Mouse_and_the_Massive_Shopping_List",
       "Hattie_s_Shell_Necklace_Adventure",
       "Hattie_s_Magical_Rainbow_Tape_Quest",
+      "Hattie_Mouse_and_the_Mouse_Street_Doctors",
       "Pakruder_Worm_s_New_Sound",
       "Hattie_s_Grand_Playhouse_Construction"
     ],
-    "firstAppearanceStoryId": "The_Many_Adventures_of_Mistress_Mouse"
+    "firstAppearanceStoryId": "The_Many_Adventures_of_Mistress_Mouse",
+    "aliases": [
+      "Lily Mouse",
+      "Lily Mousey"
+    ]
   },
   {
     "id": "s9Nza2nEZkWrD7Y9bJoe",
@@ -6004,7 +5507,11 @@
     "description": "One of Mistress Mouse’s storied stuffy mice, this famous plush adventurer is a visionary benefactor who manifests fragrant blooms from magic Legos and pilots his Mousecar through lightless depths. Whether arming moles for Kitty’s investigations or securing solutions for Frasgle, he remains fiercely loyal to Minnie, Mole, Izzy, and Hattie. Accompanied by a cheerful infant and shadowed by a friend’s disappearance, his haste to reach the spires of Peacock’s castle has left him without essential provisions, miring him in a sudden, hungry peril.",
     "storyIds": [
       "The_Lego_Adventures_of_Mistress_Mouse_and_Other_Mouse",
+      "Mickey_and_Minnie_s_Interstellar_Forest_Adventure",
       "Tigger_s_Quest_for_the_Wizard_s_Magic_Wand",
+      "The_Big_Muck_Problem_One_Pile_at_a_Time",
+      "Hattie_s_Masterpiece_The_Elephant_Who_Could_Chirp",
+      "The_Tale_of_the_Talking_Gluten-Free_Broccoli",
       "The_Underground_Library_and_the_Big_Bubble_Bonanza",
       "Mickey_Minnie_and_Mole_s_Galactic_Bake-Off",
       "Frasgle_and_the_Sticky_Situation",
@@ -6026,7 +5533,10 @@
       "The_Mischief_Moles_and_the_Kingdom_of_the_Ants",
       "The_Case_of_the_Carrot-Loving_Gophers"
     ],
-    "firstAppearanceStoryId": "The_Lego_Adventures_of_Mistress_Mouse_and_Other_Mouse"
+    "firstAppearanceStoryId": "The_Lego_Adventures_of_Mistress_Mouse_and_Other_Mouse",
+    "aliases": [
+      "Mickey Mouse"
+    ]
   },
   {
     "id": "sChUyL2eKsZdOJvYztzO",
@@ -6036,15 +5546,6 @@
       "The_Moles_Great_Aquarium_Adventure"
     ],
     "firstAppearanceStoryId": "The_Moles_Great_Aquarium_Adventure"
-  },
-  {
-    "id": "sDo3r9MN7EX6KJRqwasF",
-    "name": "Lieutenant Avery",
-    "description": "A crew member who chews on her space bug and makes everyone's beds.",
-    "storyIds": [
-      "The_Galactic_Search_for_Chicky"
-    ],
-    "firstAppearanceStoryId": "The_Galactic_Search_for_Chicky"
   },
   {
     "id": "sEkvdP0nFpbENp3EM4Te",
@@ -6101,16 +5602,6 @@
     "firstAppearanceStoryId": "Hattie_the_Mouse_and_the_Starry_Hats"
   },
   {
-    "id": "shDtaLQKZTB2MBMpYU7f",
-    "name": "Pooh Bear",
-    "description": "A honey-loving Super Sleuth whose likeness is woven into the game upon the wall, renowned for his singular insight that the group’s direst problems are often rooted in nothing more than a collective, gnawing hunger.",
-    "storyIds": [
-      "The_Foxy_Way_and_the_Twirling_Ghost",
-      "Hattie_s_Magic_Mouse_Summoning"
-    ],
-    "firstAppearanceStoryId": "The_Foxy_Way_and_the_Twirling_Ghost"
-  },
-  {
     "id": "sjsW4L3Lb1WgvG6POcOM",
     "name": "Bepin",
     "description": "A mouse who helps the worm find the perfect sound.",
@@ -6124,18 +5615,13 @@
     "name": "Daddy Mouse",
     "description": "A surprise late entrant to the race who drives an orange two-wheeled penguin car.",
     "storyIds": [
-      "Mistress_Mouse_and_the_Great_Penguin_Car_Race"
+      "Mistress_Mouse_and_the_Great_Penguin_Car_Race",
+      "Mistress_Mouse_and_the_Construction_Site_Race"
     ],
-    "firstAppearanceStoryId": "Mistress_Mouse_and_the_Great_Penguin_Car_Race"
-  },
-  {
-    "id": "snHgdWb3e6sPQ0QtkRU0",
-    "name": "Pilot Isabella",
-    "description": "The skilled pilot of the crew's spaceship.",
-    "storyIds": [
-      "The_Galactic_Search_for_Chicky"
-    ],
-    "firstAppearanceStoryId": "The_Galactic_Search_for_Chicky"
+    "firstAppearanceStoryId": "Mistress_Mouse_and_the_Great_Penguin_Car_Race",
+    "aliases": [
+      "Data Mouse"
+    ]
   },
   {
     "id": "svpkfjVip3pI597CL2WQ",
@@ -6160,25 +5646,6 @@
     "firstAppearanceStoryId": "Ova_s_Birthday_and_the_Quiet_Mole_Exploration"
   },
   {
-    "id": "t1BMUvtqDYM4MOit4LAn",
-    "name": "Demitar",
-    "description": "A winged friend of Icicle who flies down the mountain to catch fish for the group.",
-    "storyIds": [
-      "The_Ice_Dragon_s_Sparkly_Castle_and_the_Great_Ice_Festival",
-      "The_Case_of_the_Kidnapped_Dwarf_and_the_Magic_Ladder"
-    ],
-    "firstAppearanceStoryId": "The_Ice_Dragon_s_Sparkly_Castle_and_the_Great_Ice_Festival"
-  },
-  {
-    "id": "t6d7OQcPj9VpxwrdlFcj",
-    "name": "Demora",
-    "description": "Dimetar's mother.",
-    "storyIds": [
-      "The_Flying_Friends_of_Strawberry_Island"
-    ],
-    "firstAppearanceStoryId": "The_Flying_Friends_of_Strawberry_Island"
-  },
-  {
     "id": "t9keuA4qVaL6u3MgY0WK",
     "name": "Ovage",
     "description": "Seeker's creative and interesting mother who encourages his curiosity and learning.",
@@ -6195,15 +5662,6 @@
       "Hattie_and_the_Tower_of_Traffic_Cones"
     ],
     "firstAppearanceStoryId": "Hattie_and_the_Tower_of_Traffic_Cones"
-  },
-  {
-    "id": "tF0YUCPAcTmjtFWymxd5",
-    "name": "Scratchcat",
-    "description": "One of the many cats that joins the adventure to Kibble World.",
-    "storyIds": [
-      "The_Thirty_Cats_of_Kibble_World"
-    ],
-    "firstAppearanceStoryId": "The_Thirty_Cats_of_Kibble_World"
   },
   {
     "id": "tFVd3BFrq5WN28O5P0FT",
@@ -6248,32 +5706,51 @@
     "name": "Hattie the Mouse",
     "description": "A nimble, friendly mouse of Possible Street and loyal friend to Izzy and Seeker, this brave artisan is the wife of Dimitar and mistress of the Workshop of Hats—a weathered hollow tree sanctuary on Cornell Street scented with cedar, ink, and peanut butter toast. Clad in her signature red cloak and pointy hat, she is a resourceful hatmaker whose spirit was forged against massive diggers and the rain-slicked Floofer Cloud. Within her paint-stained home, she carefully curates her husband’s library alongside her own hand-painted volumes while confronting a baffling supply mystery; the discovery of curious clover stickers signals a gathering shadow of intrigue she is determined to unravel.",
     "storyIds": [
+      "The_Wizard_s_Play-Doh_Hat_Quest",
       "Hattie_s_Workshop_Puzzles_and_Purple_Hats",
       "Victor_s_Muddy_Mishap",
       "Hattie_and_the_Wizard_s_Clover_Show",
       "The_Foxy_Way_and_the_Twirling_Ghost",
       "Hattie_the_Mouse_and_the_Massive_Shopping_List",
+      "Hattie_the_Mouse_and_the_Baby_Chipmunk_s_Snack",
       "Hattie_the_Mouse_s_Hat_Workshop",
       "A_Hat_for_Mistress_Mouse",
       "Hattie_the_Mouse_and_the_Rainbow_Mushroom_Mystery",
       "Hattie_and_the_Tower_of_Traffic_Cones",
+      "Hattie_s_Rain_Boots_and_the_Honey_Bee_s_Hat",
       "Hattie_s_Masterpiece_The_Elephant_Who_Could_Chirp",
+      "Hattie_the_Mouse_and_the_Starry_Hats",
       "Hattie_s_Indigo_Mushroom_Adventure",
+      "Hattie_s_Shell_Necklace_Adventure",
+      "The_Anglerfish_and_the_Hairy_Drawing",
       "Hattie_the_Artist_Mouse",
+      "The_Mystery_of_the_Snake_Store_Bups",
+      "Hattie_s_Magical_Rainbow_Tape_Quest",
+      "Hattie_Mouse_and_the_Mouse_Street_Doctors",
+      "Pakruder_Worm_s_New_Sound",
+      "Hattie_and_the_Lego_Aquarium_Adventure",
+      "Haddy_the_Mouse_and_the_Lego_Airplane",
       "Hattie_the_Mouse_and_the_Rainy_Day_Stove_Rescue",
+      "The_Tale_of_the_Talking_Gluten-Free_Broccoli",
+      "Hattie_Mouse_and_the_Big_Sister_Surprise",
+      "Hattie_s_Block-Built_Nature_Walk_Adventure",
       "Hattie_the_Mouse_s_One-Step-at-a-Time_Bedtime",
       "Hattie_the_Mouse_and_the_Backyard_Cleanup",
       "Hattie_the_Mouse_and_the_Poet_Worm",
       "Hattie_the_Mouse_s_Custom_Hat_Shop",
       "Hattie_s_Rainy_Day_Birthday_Adventure",
+      "Mischief_Mouse_and_the_Tiny_Lego_Hat",
       "Hattie_s_Grand_Playhouse_Construction",
       "Hattie_and_the_Mystery_of_the_Muddy_Mountain",
       "Hattie_s_Magic_Mouse_Summoning",
+      "Finn_the_Cat_s_Arctic_Rainbow_Quest",
       "A_Shell_Hat_and_Jingle_Bells",
       "Hattie_s_Giant_Robot_and_the_Rainbow_Gnome_Hat",
       "Hattie_and_the_Celestial_Shooting_Star",
       "The_Magic_Forest_Photo_Tour",
+      "Haddy_the_Mouse_and_the_Quest_for_the_Talking_Hat",
       "Hattie_s_Flight_to_the_Songo_Feast",
+      "The_Galactic_Search_for_Chicky",
       "The_Bouncing_Floofers_of_the_Golden_Cloud",
       "The_Giant_Rescue_on_Volcano_Island",
       "Late_Night_Tea_with_Mrs_Piggy_and_the_Muppets",
@@ -6281,13 +5758,29 @@
       "Winterworld_Rescue_and_the_Magic_Shining_Hat",
       "The_Ice_Dragon_s_New_Hat",
       "Orange_Frasgle_and_the_Blackberry_Seed",
+      "Dr_Izzy_and_the_Forest_Rescue",
+      "The_Thirty_Cats_of_Kibble_World",
+      "The_Rainbow_Fruit_World_and_the_Great_Lemon_Fish_Debate",
       "The_Sparkling_Dust_of_Book_World",
       "The_Salty_Solution_for_a_Frozen_Island",
       "The_Security_Cats_and_the_Rainbow_Party",
+      "Seeker_and_the_Security_Cats_The_Potion_Caper",
       "The_Cozy_Potions_of_Sleepy_World",
-      "The_Case_of_the_Kidnapped_Dwarf_and_the_Magic_Ladder"
+      "Tot_s_Great_Cheese_Beach_Adventure",
+      "The_Case_of_the_Kidnapped_Dwarf_and_the_Magic_Ladder",
+      "The_Super_Mouse_Crew_and_the_Wizard_s_Lost_Hat",
+      "The_Mystery_of_Peacock_s_Hat_and_the_Moopa_Doopa"
     ],
-    "firstAppearanceStoryId": "Hattie_s_Workshop_Puzzles_and_Purple_Hats"
+    "firstAppearanceStoryId": "The_Wizard_s_Play-Doh_Hat_Quest",
+    "aliases": [
+      "Hattie",
+      "Hattie Mouse",
+      "Haddy",
+      "Haddy the Mouse",
+      "Hatty",
+      "Hatty Mouse",
+      "Hatty the Mouse"
+    ]
   },
   {
     "id": "tcB6SlnuXxAbTY7UppL7",
@@ -6377,9 +5870,13 @@
     "name": "Pout-Pout Fish",
     "description": "A underwater friend who helps Izzy search for a missing treasure.",
     "storyIds": [
+      "Expedition_to_the_Deep-Deep_Dark",
       "Izzy_the_Kiddo_and_the_Quest_for_the_Deep_Sea_Pearl"
     ],
-    "firstAppearanceStoryId": "Izzy_the_Kiddo_and_the_Quest_for_the_Deep_Sea_Pearl"
+    "firstAppearanceStoryId": "Expedition_to_the_Deep-Deep_Dark",
+    "aliases": [
+      "Pout-Pout"
+    ]
   },
   {
     "id": "uQEZZmrQ0L5piWiOYasO",
@@ -6451,18 +5948,13 @@
     "description": "A wandering soul with a penchant for long rambles and the crisp snap of garden carrots. A loyal companion to Pinecone Mouse, they are a spirited fixture at every vegetable soup feast, relishing the steam of a shared pot and the earthy sweetness of harvested roots.",
     "storyIds": [
       "The_Chronicles_of_Pinecone_Mouse_and_the_Pink_Tow_Truck",
+      "Pistis_and_Potty_Mouse_s_Sprinkle_Adventure",
       "The_Adventures_of_Surprise_Mouse_and_Friends"
     ],
-    "firstAppearanceStoryId": "The_Chronicles_of_Pinecone_Mouse_and_the_Pink_Tow_Truck"
-  },
-  {
-    "id": "vjfWSIveRhkLLMzGJZb5",
-    "name": "Hattie Mouse",
-    "description": "An excited older sister mouse who prepares for her new sibling's arrival.",
-    "storyIds": [
-      "Hattie_Mouse_and_the_Big_Sister_Surprise"
-    ],
-    "firstAppearanceStoryId": "Hattie_Mouse_and_the_Big_Sister_Surprise"
+    "firstAppearanceStoryId": "The_Chronicles_of_Pinecone_Mouse_and_the_Pink_Tow_Truck",
+    "aliases": [
+      "Potty the Mouse"
+    ]
   },
   {
     "id": "vlv9V9fWLovxQ774G5EJ",
@@ -6479,10 +5971,19 @@
     "description": "A hungry yet generous soul, this bear shares his honey and ladder with Hattie on their quest for the perfect golden harvest. By stilling his heart to hear the world’s quiet whispers, he has mastered the art of patient reflection, teaching his companions that even the greatest obstacles yield to the gentle power of waiting and thoughtful stillness.",
     "storyIds": [
       "Stars_and_Stories_Piglet_s_Birthday_Surprise",
+      "The_Foxy_Way_and_the_Twirling_Ghost",
       "Hattie_s_Rain_Boots_and_the_Honey_Bee_s_Hat",
-      "The_LED_Robot_and_the_Honey_Tree_of_Cornell_Street"
+      "The_Anglerfish_and_the_Hairy_Drawing",
+      "The_LED_Robot_and_the_Honey_Tree_of_Cornell_Street",
+      "Hattie_s_Magic_Mouse_Summoning",
+      "Blast_Off_to_the_Hundred_Acre_Wood"
     ],
-    "firstAppearanceStoryId": "Stars_and_Stories_Piglet_s_Birthday_Surprise"
+    "firstAppearanceStoryId": "Stars_and_Stories_Piglet_s_Birthday_Surprise",
+    "aliases": [
+      "Winnie-the-Pooh",
+      "Pooh",
+      "Pooh Bear"
+    ]
   },
   {
     "id": "w1a9qLY6N2NJO5UVGsTZ",
@@ -6505,7 +6006,7 @@
   {
     "id": "wJlnLZH7AQPyNT2a4V7K",
     "name": "Sinaphia",
-    "description": "A blue tropical fish who, along with Muska Scaphor, was adopted as a pet by Seeker and Dematar.",
+    "description": "A blue tropical fish who, along with Muska Scaphor, was adopted as a pet by Seeker and Dimitar.",
     "storyIds": [
       "The_Potion_of_the_Gemstone_Reef"
     ],
@@ -6543,9 +6044,13 @@
     "name": "Smokey",
     "description": "One of Nana's new cats who ends up joining the feline gathering.",
     "storyIds": [
-      "The_Great_Kibble_Cat-astrophe"
+      "The_Great_Kibble_Cat-astrophe",
+      "An_Accidental_Trip_to_Nana_s_House"
     ],
-    "firstAppearanceStoryId": "The_Great_Kibble_Cat-astrophe"
+    "firstAppearanceStoryId": "The_Great_Kibble_Cat-astrophe",
+    "aliases": [
+      "Smoky"
+    ]
   },
   {
     "id": "wuFNOnwkxuq5fcMrte2j",
@@ -6618,12 +6123,18 @@
       "Hattie_the_Mouse_s_Hat_Workshop",
       "The_Anglerfish_and_the_Hairy_Drawing",
       "Hattie_Mouse_and_the_Big_Sister_Surprise",
+      "Mission_to_the_Taco_Space_Station",
       "Captain_Izzy_s_Martian_Mission",
       "Hattie_s_Flight_to_the_Songo_Feast",
+      "The_Galactic_Search_for_Chicky",
       "The_Potion_to_the_Little_Hotel_House",
       "The_Security_Cats_and_the_Rainbow_Party"
     ],
-    "firstAppearanceStoryId": "The_Name_Game_with_Mrs_Rabbit"
+    "firstAppearanceStoryId": "The_Name_Game_with_Mrs_Rabbit",
+    "aliases": [
+      "Lieutenant Avery",
+      "Captain Averybug"
+    ]
   },
   {
     "id": "xRemibgVPkihcpkI09TQ",
@@ -6681,15 +6192,6 @@
     "firstAppearanceStoryId": "The_Mystery_of_the_Snake_Store_Bups"
   },
   {
-    "id": "xv1tS7FZv4TjVS3Nh2OM",
-    "name": "Kitty the Superhero",
-    "description": "An adventurous superhero who leads a cat crew and investigates animal habitats.",
-    "storyIds": [
-      "The_Case_of_the_Carrot-Loving_Gophers"
-    ],
-    "firstAppearanceStoryId": "The_Case_of_the_Carrot-Loving_Gophers"
-  },
-  {
     "id": "xy3JVguF943NJ6QdAIrw",
     "name": "Balloonie",
     "description": "A silver balloon who goes on the adventure and stays at the castle.",
@@ -6715,15 +6217,6 @@
       "The_Mystery_of_the_Missing_Kelp_Forest"
     ],
     "firstAppearanceStoryId": "The_Mystery_of_the_Missing_Kelp_Forest"
-  },
-  {
-    "id": "yFmaqNS5IhMKUtMkEBMf",
-    "name": "Finn-cat",
-    "description": "The family cat who needs to be moved downstairs before the story starts.",
-    "storyIds": [
-      "The_Putt-Putt_Road_Trip_Adventure"
-    ],
-    "firstAppearanceStoryId": "The_Putt-Putt_Road_Trip_Adventure"
   },
   {
     "id": "yLzXRTiXuXkfZG3c24il",
@@ -6829,9 +6322,15 @@
     "name": "Wobbly Whiskers' Mother",
     "description": "A small black cat who is eventually located on the moon.",
     "storyIds": [
-      "The_Quest_for_the_Moon_Mother"
+      "The_Quest_for_the_Moon_Mother",
+      "Wobbly_Whisker_s_Sticky_Adventure_on_Planet_Mooker",
+      "The_Magic_Star_Potion_and_the_Journey_to_Star_World"
     ],
-    "firstAppearanceStoryId": "The_Quest_for_the_Moon_Mother"
+    "firstAppearanceStoryId": "The_Quest_for_the_Moon_Mother",
+    "aliases": [
+      "Wobbly Whisker's mom",
+      "Mama Kitten"
+    ]
   },
   {
     "id": "zdR5DIViaBpbNseSgP2D",
@@ -6859,33 +6358,6 @@
       "Tigger_s_Quest_for_the_Wizard_s_Magic_Wand"
     ],
     "firstAppearanceStoryId": "Tigger_s_Quest_for_the_Wizard_s_Magic_Wand"
-  },
-  {
-    "id": "9aeda0579c6343b89c03",
-    "name": "Beeker",
-    "description": "Bunsen's assistant who communicates using squeaky 'meep' sounds.",
-    "storyIds": [
-      "The_Magic_Star_Potion_and_the_Journey_to_Star_World"
-    ],
-    "firstAppearanceStoryId": "The_Magic_Star_Potion_and_the_Journey_to_Star_World"
-  },
-  {
-    "id": "43a26bd766af42b386a7",
-    "name": "Gagak",
-    "description": "A winged bird creature who wishes to stick stars on his wings.",
-    "storyIds": [
-      "The_Magic_Star_Potion_and_the_Journey_to_Star_World"
-    ],
-    "firstAppearanceStoryId": "The_Magic_Star_Potion_and_the_Journey_to_Star_World"
-  },
-  {
-    "id": "9d426f029a694da5a17a",
-    "name": "Wobbly Whisker's mom",
-    "description": "Wobbly Whisker's loving mother who reunites with him in Star World.",
-    "storyIds": [
-      "The_Magic_Star_Potion_and_the_Journey_to_Star_World"
-    ],
-    "firstAppearanceStoryId": "The_Magic_Star_Potion_and_the_Journey_to_Star_World"
   },
   {
     "id": "db93b18689054729997e",
@@ -6924,27 +6396,9 @@
     "firstAppearanceStoryId": "An_Accidental_Trip_to_Nana_s_House"
   },
   {
-    "id": "f9b5cf2de8ea498bb1fa",
-    "name": "Sanana",
-    "description": "Seeker's pet goldfish who lives back at the castle and loves to be talked to.",
-    "storyIds": [
-      "An_Accidental_Trip_to_Nana_s_House"
-    ],
-    "firstAppearanceStoryId": "An_Accidental_Trip_to_Nana_s_House"
-  },
-  {
     "id": "a07bd03b205d465eb552",
     "name": "Ripper Rick",
     "description": "A family member downstairs at Nana's house whose presence makes the lower floor quite noisy.",
-    "storyIds": [
-      "An_Accidental_Trip_to_Nana_s_House"
-    ],
-    "firstAppearanceStoryId": "An_Accidental_Trip_to_Nana_s_House"
-  },
-  {
-    "id": "4684912eefa2406b8efc",
-    "name": "Smoky",
-    "description": "A resident or pet hanging out in the noisy downstairs of Nana's house.",
     "storyIds": [
       "An_Accidental_Trip_to_Nana_s_House"
     ],
@@ -6982,9 +6436,13 @@
     "name": "Security Cats",
     "description": "The helpful hosts of the rainbow party who recently successfully rescued a stolen scallop shell.",
     "storyIds": [
-      "The_Security_Cats_and_the_Rainbow_Party"
+      "The_Security_Cats_and_the_Rainbow_Party",
+      "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness"
     ],
-    "firstAppearanceStoryId": "The_Security_Cats_and_the_Rainbow_Party"
+    "firstAppearanceStoryId": "The_Security_Cats_and_the_Rainbow_Party",
+    "aliases": [
+      "The Security Cats"
+    ]
   },
   {
     "id": "e3e5d5cbc9a8433e902e",
@@ -7019,18 +6477,17 @@
     "description": "The other Security Cat who assists in gathering clues and investigating the crime scene.",
     "storyIds": [
       "Seeker_and_the_Security_Cats_The_Potion_Caper",
+      "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission",
+      "The_Stinky_Cheese_Volcano_and_the_Floating_Balloon_Sky",
+      "The_Case_of_the_Kidnapped_Dwarf_and_the_Magic_Ladder",
       "The_Mystery_of_Peacock_s_Hat_and_the_Moopa_Doopa"
     ],
-    "firstAppearanceStoryId": "Seeker_and_the_Security_Cats_The_Potion_Caper"
-  },
-  {
-    "id": "69bf3e94f0b94b9b8cb3",
-    "name": "Farmer Wobbly",
-    "description": "A woodchuck who lives on a square island and generously gifts Seeker carrots from his bountiful harvest.",
-    "storyIds": [
-      "Seeker_and_the_Security_Cats_The_Potion_Caper"
-    ],
-    "firstAppearanceStoryId": "Seeker_and_the_Security_Cats_The_Potion_Caper"
+    "firstAppearanceStoryId": "Seeker_and_the_Security_Cats_The_Potion_Caper",
+    "aliases": [
+      "Sarona",
+      "Serana",
+      "Sirana"
+    ]
   },
   {
     "id": "95f26b70643c49ab8c53",
@@ -7168,24 +6625,6 @@
     "firstAppearanceStoryId": "The_Tale_of_the_Discolored_Mergirl_and_the_Magic_Bubble_Bath"
   },
   {
-    "id": "f931a6bcd2d6422ab2f4",
-    "name": "Farmer Wabble",
-    "description": "A woodchuck farmer who doesn't go to school, sells squirets, and lives on an island in Italy with an active volcano.",
-    "storyIds": [
-      "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission"
-    ],
-    "firstAppearanceStoryId": "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission"
-  },
-  {
-    "id": "30b9f1486f5e4e2dab01",
-    "name": "Sirana",
-    "description": "A security cat who joins Wobbly Whiskers and Seeker to go to Icicle's cold castle.",
-    "storyIds": [
-      "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission"
-    ],
-    "firstAppearanceStoryId": "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission"
-  },
-  {
     "id": "68a894e7632846bfa1b5",
     "name": "Princess Mango",
     "description": "A royal character who appears during the investigation of Chicky's jar mission.",
@@ -7260,24 +6699,6 @@
     "firstAppearanceStoryId": "The_Stinky_Cheese_Volcano_and_the_Floating_Balloon_Sky"
   },
   {
-    "id": "21be27c8863b41469a34",
-    "name": "Sarona",
-    "description": "A clumsy but helpful security cat who uses a net to catch a cheese cloud.",
-    "storyIds": [
-      "The_Stinky_Cheese_Volcano_and_the_Floating_Balloon_Sky"
-    ],
-    "firstAppearanceStoryId": "The_Stinky_Cheese_Volcano_and_the_Floating_Balloon_Sky"
-  },
-  {
-    "id": "d2e20ba0d75b45a28c26",
-    "name": "Daddy",
-    "description": "A helpful character who explains the immense size of Komodo dragons using 'Isabellas' as a unit of measurement.",
-    "storyIds": [
-      "The_Stinky_Cheese_Volcano_and_the_Komodo_Dragon_Quest"
-    ],
-    "firstAppearanceStoryId": "The_Stinky_Cheese_Volcano_and_the_Komodo_Dragon_Quest"
-  },
-  {
     "id": "4e4e945662fe4ddc9433",
     "name": "Frozen Mango",
     "description": "A superhero friend of Mischief Mouse who has zebra-like powers and wears a zebra cape.",
@@ -7319,15 +6740,6 @@
     "id": "a1aa6fce4d73484e8bbd",
     "name": "Queen Mermaid",
     "description": "A superhero grown-up mergirl who loves adventure, explores the Mariana Trench, and believes that thwacking is a kind way to get attention.",
-    "storyIds": [
-      "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness"
-    ],
-    "firstAppearanceStoryId": "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness"
-  },
-  {
-    "id": "a9bd0af4dc9944d3a61d",
-    "name": "The Security Cats",
-    "description": "A group of detective felines who always have a plan.",
     "storyIds": [
       "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness"
     ],
@@ -7379,15 +6791,6 @@
     "firstAppearanceStoryId": "The_Grand_Singing_Competition_of_Circular_Island"
   },
   {
-    "id": "b5346fdd5a90429e85ab",
-    "name": "Serana",
-    "description": "A member of the Security Cats who uses a magnifying glass to inspect clues.",
-    "storyIds": [
-      "The_Case_of_the_Kidnapped_Dwarf_and_the_Magic_Ladder"
-    ],
-    "firstAppearanceStoryId": "The_Case_of_the_Kidnapped_Dwarf_and_the_Magic_Ladder"
-  },
-  {
     "id": "d811cb56d90d489ea94e",
     "name": "Zola",
     "description": "A green-and-orange scaled dragonet from Circular Island who behaves suspiciously on the phone.",
@@ -7410,9 +6813,13 @@
     "name": "The Magic Ladder",
     "description": "A sentient, flying wooden ladder that communicates in Ladderish.",
     "storyIds": [
+      "The_Giant_Rescue_on_Volcano_Island",
       "The_Case_of_the_Kidnapped_Dwarf_and_the_Magic_Ladder"
     ],
-    "firstAppearanceStoryId": "The_Case_of_the_Kidnapped_Dwarf_and_the_Magic_Ladder"
+    "firstAppearanceStoryId": "The_Giant_Rescue_on_Volcano_Island",
+    "aliases": [
+      "Magic Ladder"
+    ]
   },
   {
     "id": "cd86f80541404a37a4ea",
@@ -7455,9 +6862,15 @@
     "name": "Zana",
     "description": "A goldfish living in Seeker's castle who eats dried shrimp twice a day.",
     "storyIds": [
+      "The_Chronicles_of_Carland_and_the_Sea_Mice",
+      "An_Accidental_Trip_to_Nana_s_House",
       "The_Super_Mouse_Crew_and_the_Wizard_s_Lost_Hat"
     ],
-    "firstAppearanceStoryId": "The_Super_Mouse_Crew_and_the_Wizard_s_Lost_Hat"
+    "firstAppearanceStoryId": "The_Chronicles_of_Carland_and_the_Sea_Mice",
+    "aliases": [
+      "Sanana",
+      "Zanna"
+    ]
   },
   {
     "id": "1c70515194c04828917f",
@@ -7527,11 +6940,14 @@
   {
     "id": "f2ad2c6d249c4438b5c2",
     "name": "Theresa",
-    "description": "Also known as Toriso, she is the mother of the mermaid sisters who wears a paper and tape dress with a yellow dot, and later marries Frozen Mango.",
+    "description": "Also known as Theresa, she is the mother of the mermaid sisters who wears a paper and tape dress with a yellow dot, and later marries Frozen Mango.",
     "storyIds": [
       "The_Grand_Coronation_and_Wedding_at_the_Darkness_Party"
     ],
-    "firstAppearanceStoryId": "The_Grand_Coronation_and_Wedding_at_the_Darkness_Party"
+    "firstAppearanceStoryId": "The_Grand_Coronation_and_Wedding_at_the_Darkness_Party",
+    "aliases": [
+      "Toriso"
+    ]
   },
   {
     "id": "65cfb693e7f0499cb287",
@@ -7543,36 +6959,9 @@
     "firstAppearanceStoryId": "The_Grand_Coronation_and_Wedding_at_the_Darkness_Party"
   },
   {
-    "id": "dd287841e259470bac13",
-    "name": "Yellow Mermaid",
-    "description": "A sister to Pink Mermaid and daughter of Theresa who wears a purple and blue costume and loves the color purple.",
-    "storyIds": [
-      "The_Grand_Coronation_and_Wedding_at_the_Darkness_Party"
-    ],
-    "firstAppearanceStoryId": "The_Grand_Coronation_and_Wedding_at_the_Darkness_Party"
-  },
-  {
-    "id": "fe2e964f4a5e41b1abb6",
-    "name": "Pink Mermaid",
-    "description": "A sister to Yellow Mermaid and daughter of Theresa who wears a tail costume, officiates the wedding, and loves necklaces.",
-    "storyIds": [
-      "The_Grand_Coronation_and_Wedding_at_the_Darkness_Party"
-    ],
-    "firstAppearanceStoryId": "The_Grand_Coronation_and_Wedding_at_the_Darkness_Party"
-  },
-  {
     "id": "0d42134fab1843e8979e",
     "name": "The Lost Floofer",
     "description": "A mischievous young creature who gets stuck in a deep hole while searching for strawberries.",
-    "storyIds": [
-      "Frazgle_s_Gray_Mischief_and_the_Rainbow_Forest_Rescue"
-    ],
-    "firstAppearanceStoryId": "Frazgle_s_Gray_Mischief_and_the_Rainbow_Forest_Rescue"
-  },
-  {
-    "id": "1135f9d44763496f9fa8",
-    "name": "The Caretaker of Crystal Mountain",
-    "description": "A wise guardian who offers shelter to the forest creatures and helps Isabella identify the gray monster.",
     "storyIds": [
       "Frazgle_s_Gray_Mischief_and_the_Rainbow_Forest_Rescue"
     ],

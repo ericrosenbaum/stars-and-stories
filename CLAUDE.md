@@ -50,6 +50,20 @@ transcript + word counts of an existing story (title/date/summary/entities/
 header image preserved). Both tools need the story's local `source.m4a`, which
 exists only on the recording Mac — they fail with a clear message elsewhere.
 
+## Character registry cleanups are plan-driven and user-reviewed
+
+Duplicate characters (spelling/casing/"X the Mouse" variants) are merged with
+`cd tools && npm run merge-characters -- ../content/merge-plans/<plan>.json`
+(`--dry-run` first), never by editing `characters.json` or story files by
+hand. Write the plan (schema in the header of `tools/merge-characters.ts`),
+propose the merges to the user grouped by confidence, and only include a merge
+or canonical-name choice the user has confirmed — "same name, different story"
+and persona questions (Izzy vs Captain Izzy) are the user's call. Surviving
+entities carry `aliases` (the absorbed names), which `npm run add` matches, so
+merges stick for future stories. Story slugs are never renamed; the hand-authored
+essays (world-dna, dragonet dossier, linguistics report) are not spell-fixed.
+Commit the plan file under `content/merge-plans/` with the resulting changes.
+
 ## The studio (web GUI)
 
 `cd tools && npm run studio` serves a local web app (LAN-reachable, QR code

@@ -2,7 +2,7 @@
   "id": "An_Accidental_Trip_to_Nana_s_House",
   "title": "An Accidental Trip to Nana's House",
   "date": "2026-06-23T00:26:52.000Z",
-  "summary": "Seeker the wizard meets Isabella, who shows him her dollhouse-cleaning and garden flags. Seeking to explore, Seeker whips up a potion using grass, soft red flowers, water, and a pinch of dirt from Isabella's backyard. After drinking the potion, they are unexpectedly transported in the dark of night to Isabella's Nana's house instead. Assisted by the cat Gorp, who sniffs the air and identifies the scent of other cats and Nana's wild bear, Seeker learns about Nana's house. Isabella shows Seeker around the room, highlighting her blue dollhouse and a cozy block castle housing sleeping bunnies Silona and Syleaf. Relieved to hear that his goldfish Sanana is being fed by an automatic fish feeder back home, Seeker decides to stay the night. He settles into a room in the blue dollhouse and drifts to sleep under a brown cloak as Isabella sings him a sweet, soothing lullaby.",
+  "summary": "Seeker the wizard meets Isabella, who shows him her dollhouse-cleaning and garden flags. Seeking to explore, Seeker whips up a potion using grass, soft red flowers, water, and a pinch of dirt from Isabella's backyard. After drinking the potion, they are unexpectedly transported in the dark of night to Isabella's Nana's house instead. Assisted by the cat Gorp, who sniffs the air and identifies the scent of other cats and Nana's wild bear, Seeker learns about Nana's house. Isabella shows Seeker around the room, highlighting her blue dollhouse and a cozy block castle housing sleeping bunnies Silona and Syleaf. Relieved to hear that his goldfish Zana is being fed by an automatic fish feeder back home, Seeker decides to stay the night. He settles into a room in the blue dollhouse and drifts to sleep under a brown cloak as Isabella sings him a sweet, soothing lullaby.",
   "audioFilename": "Fletcher Rd 13.m4a",
   "highlightQuote": {
     "text": "It means that I really need to clean my dollhouses a lot. That's what I need. That's what my flag means.",
@@ -311,7 +311,7 @@
     },
     {
       "speaker": "Dad",
-      "text": "It smells like Isabella's house because I can smell Silver Cat and Finn Cat in there. And I think maybe they had chicken for dinner recently. Or maybe there's some in the trash can. Or maybe it's the neighbor, I don't know. But we're...",
+      "text": "It smells like Isabella's house because I can smell Silver Cat and Finncat in there. And I think maybe they had chicken for dinner recently. Or maybe there's some in the trash can. Or maybe it's the neighbor, I don't know. But we're...",
       "timestamp": 602
     },
     {
@@ -511,17 +511,17 @@
     },
     {
       "speaker": "Izzy",
-      "text": "But there's, but there's a fish feeder. Uh, and his goldfish's name's Sanana.",
+      "text": "But there's, but there's a fish feeder. Uh, and his goldfish's name's Zana.",
       "timestamp": 948
     },
     {
       "speaker": "Dad",
-      "text": "Sanana, uh-huh.",
+      "text": "Zana, uh-huh.",
       "timestamp": 957
     },
     {
       "speaker": "Izzy",
-      "text": "Yeah, Sanana might get hungry.",
+      "text": "Yeah, Zana might get hungry.",
       "timestamp": 958
     },
     {
@@ -551,7 +551,7 @@
     },
     {
       "speaker": "Izzy",
-      "text": "Yeah, and talks to the fish. The fish... Sanana really likes to be talked to a lot, you know.",
+      "text": "Yeah, and talks to the fish. The fish... Zana really likes to be talked to a lot, you know.",
       "timestamp": 1025
     },
     {
@@ -631,12 +631,12 @@
     },
     {
       "speaker": "Izzy",
-      "text": "Smoky, Tommy.",
+      "text": "Smokey, Tommy.",
       "timestamp": 1123
     },
     {
       "speaker": "Dad",
-      "text": "Smoky and Tommy, wow.",
+      "text": "Smokey and Tommy, wow.",
       "timestamp": 1128
     },
     {
@@ -759,7 +759,7 @@
     {
       "id": "34xshXaYEDy8V1RTpXR7",
       "name": "Isabella",
-      "description": "A towering Dimatar scholar and alchemist of Atsukeeseet, Mama Izzy is a clever kiddo at heart and a steadfast guardian of rooftop gardens and intricate dollhouses. Gifted with the power of flight, she navigates the open heights with aquatic grace, her massive frame often shielded by a special protective metal that glimmers even as she descends into the shadows. As a resourceful quartermaster, she employs red flashlights, gold-laced slimes, and pipe cleaners to mend a Lanternshark’s failing light, yet her generosity remains her hallmark; she freely shares her vast library, brokers homes for dragons, and teaches others to find the resonance in their own voices. Her most profound magic resides in her vast, soft blanket—a sanctuary of ultimate coziness—where she remains a brave, quick-witted protector to all who honor her singular request for absolute silence."
+      "description": "A towering Dimitar scholar and alchemist of Atsukeeseet, Mama Izzy is a clever kiddo at heart and a steadfast guardian of rooftop gardens and intricate dollhouses. Gifted with the power of flight, she navigates the open heights with aquatic grace, her massive frame often shielded by a special protective metal that glimmers even as she descends into the shadows. As a resourceful quartermaster, she employs red flashlights, gold-laced slimes, and pipe cleaners to mend a Lanternshark’s failing light, yet her generosity remains her hallmark; she freely shares her vast library, brokers homes for dragons, and teaches others to find the resonance in their own voices. Her most profound magic resides in her vast, soft blanket—a sanctuary of ultimate coziness—where she remains a brave, quick-witted protector to all who honor her singular request for absolute silence."
     },
     {
       "id": "mBIH27W3X9kTRJqcv58P",
@@ -767,14 +767,14 @@
       "description": "The dignified mole matriarch and grandmother to Hattie, Pistis, and Isabella, this pillar of watchful wisdom resides at the end of the train line, tackling life’s problems \"one at a time.\" From engineering mouse-scale Lego structures to the meticulous restoration of dollhouses using patient glue and tiny pencils, her steady paws bridge the gap between architectural feats and delicate artistry. Whether discerning potential as a trolley passenger or welcoming weary travelers into her sanctuary, her quiet authority is so legendary that she graces the cover of Hattie’s book in a rare, peaceful slumber. Even in rest, she remains the heart of their world—a steady warmth anchoring every journey’s end, her sharp eyes softening for Izzy’s mushroom-textured crafts."
     },
     {
-      "id": "li8T63fyXXWRxPKFbuW1",
-      "name": "Silver Cat",
-      "description": "A cat who receives a medium-sized, sparkly silver cardboard hat from Hattie."
+      "id": "MfFxZFePC8S3GBYAt5MS",
+      "name": "Silver",
+      "description": "Immortalized in the stone of the Great Library yet reborn in Cat World as a small, hungry kitten, Izzy is a brave companion who now traverses the heart of Limbo. Communicating through an ancient, rhythmic language of resonant purrs and wielding a masterfully handled magical can opener, this tiny spirit balances her arcane legacy with a newfound, desperately urgent need for snuggles."
     },
     {
-      "id": "qQ3TtWQA8QvDrLtArpwo",
-      "name": "Finn Cat",
-      "description": "A character featured in a coloring picture with Worry-Worry Whale."
+      "id": "Mu6WLmI69gayiEnG0383",
+      "name": "Finn",
+      "description": "A resident of Cat World and loyal companion to Mama, Finncat is a meticulous research collector who documents the world through investigative sniffing. Alongside their peer Silver, they navigate their domain with scholarly curiosity, often pausing mid-voyage for a sudden, dramatic flop. While currently thwarted by the formidable challenge of an unopened food can, this diligent scholar occasionally graces the room for a fleeting minute during storytelling, lending a brief, discerning presence to the narrative before returning to their investigations."
     },
     {
       "id": "Fvp2dcX2TbwUiy19ge91",
@@ -797,9 +797,9 @@
       "description": "Another baby bunny living in the block house who enjoys hopping around at bedtime."
     },
     {
-      "id": "f9b5cf2de8ea498bb1fa",
-      "name": "Sanana",
-      "description": "Seeker's pet goldfish who lives back at the castle and loves to be talked to."
+      "id": "09ade82f574546d69070",
+      "name": "Zana",
+      "description": "A goldfish living in Seeker's castle who eats dried shrimp twice a day."
     },
     {
       "id": "a07bd03b205d465eb552",
@@ -807,9 +807,9 @@
       "description": "A family member downstairs at Nana's house whose presence makes the lower floor quite noisy."
     },
     {
-      "id": "4684912eefa2406b8efc",
-      "name": "Smoky",
-      "description": "A resident or pet hanging out in the noisy downstairs of Nana's house."
+      "id": "whCEuNwQnpSX9C2ZNLIR",
+      "name": "Smokey",
+      "description": "One of Nana's new cats who ends up joining the feline gathering."
     },
     {
       "id": "0016d153e23240c283a7",
@@ -844,7 +844,7 @@
       "description": "A small block structure at Nana's house where a family of bunnies, including babies Silona and Syleaf, sleep."
     }
   ],
-  "wordCount": 1649,
+  "wordCount": 1648,
   "izzyWordCount": 627,
-  "dadWordCount": 1022
+  "dadWordCount": 1021
 }

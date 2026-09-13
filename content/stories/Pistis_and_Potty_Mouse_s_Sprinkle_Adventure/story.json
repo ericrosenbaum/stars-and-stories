@@ -1,8 +1,8 @@
 {
   "id": "Pistis_and_Potty_Mouse_s_Sprinkle_Adventure",
-  "title": "Pistis and Potty Mouse's Sprinkle Adventure",
+  "title": "Pistis and Plotty Mouse's Sprinkle Adventure",
   "date": "2024-12-27T00:00:00.000Z",
-  "summary": "Pistis Mouse stays home with Nana while his parents go to the store, spending his time building a complex Lego workplace where mice can learn computer programming. Later, Potty the Mouse embarks on a grand adventure in a miniature toy car, traveling to a specialty store to procure glittering pink sprinkles. Together with his tiny friends, he returns home to bake an array of creative cookies shaped like cats, stars, and radios, even inviting a father mouse to join in the kitchen fun.",
+  "summary": "Pistis Mouse stays home with Nana while his parents go to the store, spending his time building a complex Lego workplace where mice can learn computer programming. Later, Plotty the Mouse embarks on a grand adventure in a miniature toy car, traveling to a specialty store to procure glittering pink sprinkles. Together with his tiny friends, he returns home to bake an array of creative cookies shaped like cats, stars, and radios, even inviting a father mouse to join in the kitchen fun.",
   "audioFilename": "Stars and stories - scratch, cookies.m4a",
   "highlightQuote": {
     "text": "They baked the cookie dough and they made the cookie dough, don't forget that part!",
@@ -156,12 +156,12 @@
     },
     {
       "speaker": "Izzy",
-      "text": "Potty the mouse.",
+      "text": "Plotty the mouse.",
       "timestamp": 831
     },
     {
       "speaker": "Dad",
-      "text": "Potty the mouse? Okay. And where's Potty going on the adventure?",
+      "text": "Plotty the mouse? Okay. And where's Plotty going on the adventure?",
       "timestamp": 835
     },
     {
@@ -212,9 +212,9 @@
       "description": "An adventurous mouse who enjoys driving his car and building workspaces for his toys."
     },
     {
-      "id": "EjCn8BVt9QOjXrAFY3Lu",
-      "name": "Potty the Mouse",
-      "description": "A tiny mouse who takes his toy car to the sprinkle store for baking supplies."
+      "id": "vMoXlZM9aDS5Z2fuJses",
+      "name": "Plotty Mouse",
+      "description": "A wandering soul with a penchant for long rambles and the crisp snap of garden carrots. A loyal companion to Pinecone Mouse, they are a spirited fixture at every vegetable soup feast, relishing the steam of a shared pot and the earthy sweetness of harvested roots."
     },
     {
       "id": "mBIH27W3X9kTRJqcv58P",
@@ -234,12 +234,12 @@
     {
       "id": "WfkMUeTFmHJBX5jBrLdN",
       "name": "Mouse Friends",
-      "description": "A group of teeny tiny mouse toys that join Potty the Mouse on his adventures."
+      "description": "A group of teeny tiny mouse toys that join Plotty the Mouse on his adventures."
     },
     {
-      "id": "ONQBeo9nY4BsKrCUiofu",
-      "name": "The Father",
-      "description": "A character in the story who politely asks to join the baking session and helps finish the cookies."
+      "id": "0d2IFKxiH8Da8XzWrBn3",
+      "name": "Dad",
+      "description": "Kitty’s father remains a pillar of steady eccentricity, an unflappable co-pilot and accommodating listener who balances technical logistics with a patient support for his daughter’s restless need for activity. He manages mission equipment with the same meticulous intensity he once brought to scanning the midnight undergrowth for missing cats, his stoicism famously underscored by the irony of a nagging knee complaint—diagnosed as overgrown toenails—that never wavers his resolve."
     }
   ],
   "places": [

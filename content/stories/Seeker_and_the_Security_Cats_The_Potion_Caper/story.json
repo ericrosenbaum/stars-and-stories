@@ -336,7 +336,7 @@
     },
     {
       "speaker": "Izzy",
-      "text": "And they were tiny, tiny, that you couldn't even see them, so Wobbly Whisker used a magnifying glass.",
+      "text": "And they were tiny, tiny, that you couldn't even see them, so Wobbly Whiskers used a magnifying glass.",
       "timestamp": 350
     },
     {
@@ -611,7 +611,7 @@
     },
     {
       "speaker": "Izzy",
-      "text": "And Farmer Wobbly, too.",
+      "text": "And Farmer Wobble, too.",
       "timestamp": 631
     },
     {
@@ -631,12 +631,12 @@
     },
     {
       "speaker": "Dad",
-      "text": "Oh, thanks Wobbly. I mean, thanks, um, Farmer Wobbly.",
+      "text": "Oh, thanks Wobbly. I mean, thanks, um, Farmer Wobble.",
       "timestamp": 653
     },
     {
       "speaker": "Dad",
-      "text": "And Farmer Wobbly said, \"No problem. We've got a big crop of carrots this year, more than we can even eat. Hope you like them.\"",
+      "text": "And Farmer Wobble said, \"No problem. We've got a big crop of carrots this year, more than we can even eat. Hope you like them.\"",
       "timestamp": 660
     },
     {
@@ -949,7 +949,7 @@
     {
       "id": "34xshXaYEDy8V1RTpXR7",
       "name": "Isabella",
-      "description": "A towering Dimatar scholar and alchemist of Atsukeeseet, Mama Izzy is a clever kiddo at heart and a steadfast guardian of rooftop gardens and intricate dollhouses. Gifted with the power of flight, she navigates the open heights with aquatic grace, her massive frame often shielded by a special protective metal that glimmers even as she descends into the shadows. As a resourceful quartermaster, she employs red flashlights, gold-laced slimes, and pipe cleaners to mend a Lanternshark’s failing light, yet her generosity remains her hallmark; she freely shares her vast library, brokers homes for dragons, and teaches others to find the resonance in their own voices. Her most profound magic resides in her vast, soft blanket—a sanctuary of ultimate coziness—where she remains a brave, quick-witted protector to all who honor her singular request for absolute silence."
+      "description": "A towering Dimitar scholar and alchemist of Atsukeeseet, Mama Izzy is a clever kiddo at heart and a steadfast guardian of rooftop gardens and intricate dollhouses. Gifted with the power of flight, she navigates the open heights with aquatic grace, her massive frame often shielded by a special protective metal that glimmers even as she descends into the shadows. As a resourceful quartermaster, she employs red flashlights, gold-laced slimes, and pipe cleaners to mend a Lanternshark’s failing light, yet her generosity remains her hallmark; she freely shares her vast library, brokers homes for dragons, and teaches others to find the resonance in their own voices. Her most profound magic resides in her vast, soft blanket—a sanctuary of ultimate coziness—where she remains a brave, quick-witted protector to all who honor her singular request for absolute silence."
     },
     {
       "id": "LifAA3sbn1hjOS5sC7WI",
@@ -957,14 +957,14 @@
       "description": "A sharp-witted resident of a circular island castle, this two-century-old purple dragonet carries a pirate’s salt-crusted legacy and a fierce devotion to his salvaged library. Formerly of the Cadasori galleries, Seeker’s grumpy companion now roams the deep to save his ancestral shores, though a recent volcanic disturbance has left him uncharacteristically sickened and frail. Driven by habit and a tireless appetite for fish, he bickers incessantly over snacks while guarding his remaining volumes with a brooding, protective intensity."
     },
     {
-      "id": "69bf3e94f0b94b9b8cb3",
-      "name": "Farmer Wobbly",
-      "description": "A woodchuck who lives on a square island and generously gifts Seeker carrots from his bountiful harvest."
+      "id": "O9ybVnbrJIhCBlSsBjYw",
+      "name": "Farmer Wobble",
+      "description": "A farmer with a comically absurd name who meticulously tends to his harvest of squerrets upon the geometric shores of Perfectly Square Island."
     },
     {
-      "id": "TshuLJMOWWEnDDVz4OHL",
-      "name": "Hattie",
-      "description": "A clever mouse milliner and engineer of whimsy, she is a resourceful spirit who crafts exquisite hats and soulful portraits within her hollow tree stump workshop. Though a formidable presence famously counted among the thirty legendary cats, she is currently confined to her bed by illness, her usual treks through saturated woodlands for rare tape and lollipops temporarily halted. Even in her malaise, her sharp mind lingers on a recent, stinging disagreement with Dimitar over a fish, a rare shadow cast upon a heart otherwise known for its boundless generosity and creative light."
+      "id": "tYBszLhCgH4IaUdPucp7",
+      "name": "Hattie the Mouse",
+      "description": "A nimble, friendly mouse of Possible Street and loyal friend to Izzy and Seeker, this brave artisan is the wife of Dimitar and mistress of the Workshop of Hats—a weathered hollow tree sanctuary on Cornell Street scented with cedar, ink, and peanut butter toast. Clad in her signature red cloak and pointy hat, she is a resourceful hatmaker whose spirit was forged against massive diggers and the rain-slicked Floofer Cloud. Within her paint-stained home, she carefully curates her husband’s library alongside her own hand-painted volumes while confronting a baffling supply mystery; the discovery of curious clover stickers signals a gathering shadow of intrigue she is determined to unravel."
     }
   ],
   "places": [

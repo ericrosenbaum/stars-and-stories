@@ -190,6 +190,34 @@ When the prompt mentions such a character it tags them `(as in the image referen
 Originals (`content/characters/**/reference.*`) are kept out of git like the other
 source media; the optimized webp under `site/public/media/characters` is committed.
 
+### Merging duplicate characters
+
+The registry accumulates duplicates as the transcription and analysis passes
+hear a name differently across stories (Hattie / Haddy / Hatty, Dimitar /
+Dimatar / Demitar, "Finn" / "Finn Cat" / "Finncat"...). Clean them up with a
+reviewed merge plan rather than by hand:
+
+```bash
+cd tools
+npm run merge-characters -- ../content/merge-plans/<plan>.json --dry-run   # preview
+npm run merge-characters -- ../content/merge-plans/<plan>.json             # apply + rebuild
+```
+
+A plan (see `content/merge-plans/` for a real one, and the header comment of
+`tools/merge-characters.ts` for the schema) lists which entity survives each
+merge, which entities it absorbs, and word-level spelling rules. Applying it
+rewrites the embedded character refs in every `story.json`, fixes the spellings
+in titles, summaries, highlight quotes, transcripts and descriptions (and in the
+denormalized copies inside `worlds.json`, `forest.json` and storyboard captions),
+recomputes word counts, retires the losing reference images to
+`content/characters/_retired/<id>/`, and records every absorbed name as an
+`aliases` entry on the survivor so that `npm run add` and `npm run import-images`
+match the old spelling next time instead of creating a new duplicate.
+
+Story slugs (folder names and URLs) are never renamed, and the hand-authored
+essays (`world-dna.md`, the dragonet dossier, the linguistics report) are left
+alone — they document the spelling variation deliberately.
+
 ### Choosing / regenerating a story's header image
 
 Header images go through a candidate-review flow — the existing header is never

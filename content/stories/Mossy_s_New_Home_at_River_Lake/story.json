@@ -26,12 +26,12 @@
     },
     {
       "speaker": "Izzy",
-      "text": "That's Papamoles.",
+      "text": "That's Papa Mole.",
       "timestamp": 30
     },
     {
       "speaker": "Dad",
-      "text": "Well it wasn't Papamoles, and Disco looked over and said 'Hey, what's that little piece of moss doing over there? Is it moving?'",
+      "text": "Well it wasn't Papa Mole, and Disco looked over and said 'Hey, what's that little piece of moss doing over there? Is it moving?'",
       "timestamp": 32
     },
     {
@@ -262,9 +262,9 @@
       "description": "A South American Marcella Moss who traveled a long way by airplane to find a new home."
     },
     {
-      "id": "1sxCnNAL4tmLo2BvRkRj",
-      "name": "Papamoles",
-      "description": "A character mentioned during the initial forest encounter."
+      "id": "VYVBXOPsAcnEcYCBSrqK",
+      "name": "Papa Mole",
+      "description": "The wise leader and industrious architect of the Mischief Moles, this polite elder visionary guides his kin from the attic’s shadowed heights toward the stars and across biting, crystalline ice. A master pathfinder who initiated their voyage upon unearthing an ancient tome, he balances the weight of celestial navigation with the tactile craft of carving a new tunnel home and the thoughtful devotion of planning whimsical days of activities for his children. Whether introducing surprise robots for play, anchoring meditations during a frozen trek, or sleep-sitting in his favorite chair, his tactical brilliance ensures their furthest discoveries remain rooted in the rhythmic, quiet peace of a sanctuary built by his own seasoned hands."
     }
   ],
   "places": [
@@ -289,7 +289,7 @@
       "description": "Mossy’s perfect new home situated right by River Lake."
     }
   ],
-  "wordCount": 556,
-  "izzyWordCount": 149,
-  "dadWordCount": 407
+  "wordCount": 558,
+  "izzyWordCount": 150,
+  "dadWordCount": 408
 }

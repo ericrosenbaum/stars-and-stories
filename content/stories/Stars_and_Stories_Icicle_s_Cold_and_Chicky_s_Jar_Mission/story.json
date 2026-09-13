@@ -2,7 +2,7 @@
   "id": "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission",
   "title": "Stars and Stories: Icicle's Cold and Chicky's Jar Mission",
   "date": "2026-07-10T01:26:52.519Z",
-  "summary": "Seeker the adventurer is worried about his friend Icicle, a friendly ice dragon who is sick in his mountain Ice Castle. To cheer him up, Seeker recruits the security cats, Wobbly Whiskers and Sirana, to fly in his skyship to the castle. Along the way, they prepare with winter gear and a protective flower bouquet from Isabella. Before a massive snowstorm hits, builders Bunsen and Beaker secure the castle with brick walls, while Isabella reinforces the garage. Upon arrival, the group comforts Icicle and tells him the story of 'Chicky's Jar Mission,' a mystery where the security cats discovered that Isabella had accidentally trapped Chicky in a cozy jar to shield her from a previous storm. As the snowstorm rages outside, Icicle goes to sleep, while news arrives of a volcanic eruption on Farmer Wabble's island in Italy, prompting the freezing-breath hero Elsa Pony to rush from the North Mountain to save the day.",
+  "summary": "Seeker the adventurer is worried about his friend Icicle, a friendly ice dragon who is sick in his mountain Ice Castle. To cheer him up, Seeker recruits the security cats, Wobbly Whiskers and Sarana, to fly in his skyship to the castle. Along the way, they prepare with winter gear and a protective flower bouquet from Isabella. Before a massive snowstorm hits, builders Bunsen and Beaker secure the castle with brick walls, while Isabella reinforces the garage. Upon arrival, the group comforts Icicle and tells him the story of 'Chicky's Jar Mission,' a mystery where the security cats discovered that Isabella had accidentally trapped Chicky in a cozy jar to shield her from a previous storm. As the snowstorm rages outside, Icicle goes to sleep, while news arrives of a volcanic eruption on Farmer Wobble's island in Italy, prompting the freezing-breath hero Elsa Pony to rush from the North Mountain to save the day.",
   "audioFilename": "Cornell St 139.m4a",
   "highlightQuote": {
     "text": "He didn't... he didn't go to school. He only sells squirets.",
@@ -166,12 +166,12 @@
     },
     {
       "speaker": "Izzy",
-      "text": "With Farmer Wabble.",
+      "text": "With Farmer Wobble.",
       "timestamp": 103
     },
     {
       "speaker": "Dad",
-      "text": "Oh, Farmer Wabble was there?",
+      "text": "Oh, Farmer Wobble was there?",
       "timestamp": 105
     },
     {
@@ -216,7 +216,7 @@
     },
     {
       "speaker": "Dad",
-      "text": "And Seeker said, 'I wonder if anyone is willing to help me, because I would like to do something nice for Icicle, to help him feel better. You see, he's very sick and all by himself, except for Farmer Wabble. And I think it would be nice if someone came over to his house to keep him company and maybe even tell him a little story.' Does anybody know any interesting stories that Icicle might like?",
+      "text": "And Seeker said, 'I wonder if anyone is willing to help me, because I would like to do something nice for Icicle, to help him feel better. You see, he's very sick and all by himself, except for Farmer Wobble. And I think it would be nice if someone came over to his house to keep him company and maybe even tell him a little story.' Does anybody know any interesting stories that Icicle might like?",
       "timestamp": 128
     },
     {
@@ -281,12 +281,12 @@
     },
     {
       "speaker": "Dad",
-      "text": "Meow, meow. This sounds like a job for the security cats. Come on, Sirana, let's go.",
+      "text": "Meow, meow. This sounds like a job for the security cats. Come on, Sarana, let's go.",
       "timestamp": 209
     },
     {
       "speaker": "Dad",
-      "text": "And Sirana said, 'I'm just waking up from my nap, and I think we're going to need winter coats and maybe hats and even mittens if we're going to go up to that cold, cold place.'",
+      "text": "And Sarana said, 'I'm just waking up from my nap, and I think we're going to need winter coats and maybe hats and even mittens if we're going to go up to that cold, cold place.'",
       "timestamp": 217
     },
     {
@@ -726,7 +726,7 @@
     },
     {
       "speaker": "Dad",
-      "text": "And Sirana was taking a nap, I think, and then there was a ding-dong, and it was... Wait, who was it?",
+      "text": "And Sarana was taking a nap, I think, and then there was a ding-dong, and it was... Wait, who was it?",
       "timestamp": 957
     },
     {
@@ -1026,7 +1026,7 @@
     },
     {
       "speaker": "Izzy",
-      "text": "...on Farmer Wabble's island, and it's got erupt right now, and Elsa Pony is going to freeze it as quick as she can.",
+      "text": "...on Farmer Wobble's island, and it's got erupt right now, and Elsa Pony is going to freeze it as quick as she can.",
       "timestamp": 1254
     },
     {
@@ -1202,9 +1202,9 @@
       "description": "A titanic and ancient white ice dragon, this towering companion to Dimitar commands the skies with freezing breath and vast, powerful wings. From a shimmering ice palace atop a remote mountain peak, he presides over his crystalline domain with a timeless and frigid majesty, sustained exclusively by a diet of frozen fish."
     },
     {
-      "id": "f931a6bcd2d6422ab2f4",
-      "name": "Farmer Wabble",
-      "description": "A woodchuck farmer who doesn't go to school, sells squirets, and lives on an island in Italy with an active volcano."
+      "id": "O9ybVnbrJIhCBlSsBjYw",
+      "name": "Farmer Wobble",
+      "description": "A farmer with a comically absurd name who meticulously tends to his harvest of squerrets upon the geometric shores of Perfectly Square Island."
     },
     {
       "id": "JuCyySSWo7fn6YvKkV9g",
@@ -1212,14 +1212,14 @@
       "description": "A small white kitten, slick with the sticky, iridescent residue of the potion bottle she tumbled from, who joins the adventure in a desperate search for her lost mother."
     },
     {
-      "id": "30b9f1486f5e4e2dab01",
-      "name": "Sirana",
-      "description": "A security cat who joins Wobbly Whiskers and Seeker to go to Icicle's cold castle."
+      "id": "a3e45292fb484bca84b1",
+      "name": "Sarana",
+      "description": "The other Security Cat who assists in gathering clues and investigating the crime scene."
     },
     {
       "id": "34xshXaYEDy8V1RTpXR7",
       "name": "Isabella",
-      "description": "A towering Dimatar scholar and alchemist of Atsukeeseet, Mama Izzy is a clever kiddo at heart and a steadfast guardian of rooftop gardens and intricate dollhouses. Gifted with the power of flight, she navigates the open heights with aquatic grace, her massive frame often shielded by a special protective metal that glimmers even as she descends into the shadows. As a resourceful quartermaster, she employs red flashlights, gold-laced slimes, and pipe cleaners to mend a Lanternshark’s failing light, yet her generosity remains her hallmark; she freely shares her vast library, brokers homes for dragons, and teaches others to find the resonance in their own voices. Her most profound magic resides in her vast, soft blanket—a sanctuary of ultimate coziness—where she remains a brave, quick-witted protector to all who honor her singular request for absolute silence."
+      "description": "A towering Dimitar scholar and alchemist of Atsukeeseet, Mama Izzy is a clever kiddo at heart and a steadfast guardian of rooftop gardens and intricate dollhouses. Gifted with the power of flight, she navigates the open heights with aquatic grace, her massive frame often shielded by a special protective metal that glimmers even as she descends into the shadows. As a resourceful quartermaster, she employs red flashlights, gold-laced slimes, and pipe cleaners to mend a Lanternshark’s failing light, yet her generosity remains her hallmark; she freely shares her vast library, brokers homes for dragons, and teaches others to find the resonance in their own voices. Her most profound magic resides in her vast, soft blanket—a sanctuary of ultimate coziness—where she remains a brave, quick-witted protector to all who honor her singular request for absolute silence."
     },
     {
       "id": "Ccw78Qp6CQVT9QPLRtcX",
@@ -1285,7 +1285,7 @@
     },
     {
       "id": "9008cfbe396447f4acb8",
-      "name": "Farmer Wabble's Island",
+      "name": "Farmer Wobble's Island",
       "description": "An island in Italy where a volcano erupts and must be frozen by Elsa Pony."
     }
   ],

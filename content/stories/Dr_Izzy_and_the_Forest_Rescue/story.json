@@ -257,19 +257,19 @@
       "description": "A mouse friend who accompanies Uncle Bill and Seeker."
     },
     {
-      "id": "TshuLJMOWWEnDDVz4OHL",
-      "name": "Hattie",
-      "description": "A clever mouse milliner and engineer of whimsy, she is a resourceful spirit who crafts exquisite hats and soulful portraits within her hollow tree stump workshop. Though a formidable presence famously counted among the thirty legendary cats, she is currently confined to her bed by illness, her usual treks through saturated woodlands for rare tape and lollipops temporarily halted. Even in her malaise, her sharp mind lingers on a recent, stinging disagreement with Dimitar over a fish, a rare shadow cast upon a heart otherwise known for its boundless generosity and creative light."
+      "id": "tYBszLhCgH4IaUdPucp7",
+      "name": "Hattie the Mouse",
+      "description": "A nimble, friendly mouse of Possible Street and loyal friend to Izzy and Seeker, this brave artisan is the wife of Dimitar and mistress of the Workshop of Hats—a weathered hollow tree sanctuary on Cornell Street scented with cedar, ink, and peanut butter toast. Clad in her signature red cloak and pointy hat, she is a resourceful hatmaker whose spirit was forged against massive diggers and the rain-slicked Floofer Cloud. Within her paint-stained home, she carefully curates her husband’s library alongside her own hand-painted volumes while confronting a baffling supply mystery; the discovery of curious clover stickers signals a gathering shadow of intrigue she is determined to unravel."
     },
     {
       "id": "JPVtHwtrxttY1JAtQfpJ",
       "name": "Buddy",
-      "description": "A tiny, sick brown mouse found in the forest clearing."
+      "description": "Seeker’s resourceful mouse companion is a keen-eyed problem solver who joined the journey to the planet of the Mookers. Empowered by a transformative new potion, this tiny ally navigates extraterrestrial perils with sharp wit, serving as a vital anchor on their strange cosmic quest."
     },
     {
-      "id": "q7DzL3NWWe0qb2C8zrAF",
-      "name": "Isabella the Cat Superhero",
-      "description": "A persona Izzy takes on during the rescue."
+      "id": "34xshXaYEDy8V1RTpXR7",
+      "name": "Isabella",
+      "description": "A towering Dimitar scholar and alchemist of Atsukeeseet, Mama Izzy is a clever kiddo at heart and a steadfast guardian of rooftop gardens and intricate dollhouses. Gifted with the power of flight, she navigates the open heights with aquatic grace, her massive frame often shielded by a special protective metal that glimmers even as she descends into the shadows. As a resourceful quartermaster, she employs red flashlights, gold-laced slimes, and pipe cleaners to mend a Lanternshark’s failing light, yet her generosity remains her hallmark; she freely shares her vast library, brokers homes for dragons, and teaches others to find the resonance in their own voices. Her most profound magic resides in her vast, soft blanket—a sanctuary of ultimate coziness—where she remains a brave, quick-witted protector to all who honor her singular request for absolute silence."
     },
     {
       "id": "m3FnAZHrN84q3gxsKVQe",
@@ -277,14 +277,9 @@
       "description": "Isabella’s loyal companion and a valiant superhero, this feline-costumed commander harnesses agile, cat-like powers to lead an intrepid crew through the drifting wonders of Balloon World. Bound by a mission of guardianship, she navigates the whimsical floating realm on daring adventures, rescuing lost treasures and protecting every creature she encounters."
     },
     {
-      "id": "BCa0JL5vmn81wPkxdyuS",
-      "name": "Dr. Izzy",
-      "description": "The dedicated physician at the animal hospital who treats Buddy, wielding a specialized blue earoscope with practiced precision to diagnose her patients."
-    },
-    {
-      "id": "OIKwosITo8cee7Zaw6AA",
-      "name": "Nurse Daddy",
-      "description": "The medical assistant who helps Dr. Izzy care for the mouse."
+      "id": "0d2IFKxiH8Da8XzWrBn3",
+      "name": "Dad",
+      "description": "Kitty’s father remains a pillar of steady eccentricity, an unflappable co-pilot and accommodating listener who balances technical logistics with a patient support for his daughter’s restless need for activity. He manages mission equipment with the same meticulous intensity he once brought to scanning the midnight undergrowth for missing cats, his stoicism famously underscored by the irony of a nagging knee complaint—diagnosed as overgrown toenails—that never wavers his resolve."
     }
   ],
   "places": [

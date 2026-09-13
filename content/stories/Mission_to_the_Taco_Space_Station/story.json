@@ -2,7 +2,7 @@
   "id": "Mission_to_the_Taco_Space_Station",
   "title": "Mission to the Taco Space Station",
   "date": "2025-08-17T00:00:00.000Z",
-  "summary": "A daring spaceship mission ventures into the far reaches of space. Chief Engineer Isabella leads a crew—including a brave fox and bear assistants Mercury and Nercury—as they navigate shipboard fires, orbital maneuvers, and medical emergencies. The mission takes a tasty turn when they discover a floating space station that spells out \"TACOS\" on its sensors. After docking to enjoy square and triangle-shaped delicacies, the crew continues their deep-space exploration, eventually encountering the mysterious Mama Ship and its captain. Through mechanical repairs and first-aid rescues, the crew proves that no problem is too \"long\" to solve.",
+  "summary": "A daring spaceship mission ventures into the far reaches of space. Chief Engineer Isabella leads a crew—including a brave fox and bear assistants Mercury and Mercury—as they navigate shipboard fires, orbital maneuvers, and medical emergencies. The mission takes a tasty turn when they discover a floating space station that spells out \"TACOS\" on its sensors. After docking to enjoy square and triangle-shaped delicacies, the crew continues their deep-space exploration, eventually encountering the mysterious Mama Ship and its captain. Through mechanical repairs and first-aid rescues, the crew proves that no problem is too \"long\" to solve.",
   "audioFilename": "Space mission to get tacos.m4a",
   "highlightQuote": {
     "text": "Hello, we're coming... we're coming to the place where we get our tacos. I want a square-shaped taco, please... with sprinkles on it, okay?",
@@ -176,7 +176,7 @@
     },
     {
       "speaker": "Dad",
-      "text": "Oh, okay. Little bear, we're going to put a band-aid on you, okay? There. Now, remember the little bears' names are Mercury and Nercury, is that right?",
+      "text": "Oh, okay. Little bear, we're going to put a band-aid on you, okay? There. Now, remember the little bears' names are Mercury and Mercury, is that right?",
       "timestamp": 511
     },
     {
@@ -186,12 +186,12 @@
     },
     {
       "speaker": "Dad",
-      "text": "Okay, Nercury, you're getting the band-aid.",
+      "text": "Okay, Mercury, you're getting the band-aid.",
       "timestamp": 524
     },
     {
       "speaker": "Dad",
-      "text": "Oh, and Nercury says, \"Oh, it hurts, I need a kiss!\" Who's going to give Nercury a kiss?",
+      "text": "Oh, and Mercury says, \"Oh, it hurts, I need a kiss!\" Who's going to give Mercury a kiss?",
       "timestamp": 536
     },
     {
@@ -201,7 +201,7 @@
     },
     {
       "speaker": "Dad",
-      "text": "Nercury says, \"Thank you.\" Oh, why are you tapping me like that?",
+      "text": "Mercury says, \"Thank you.\" Oh, why are you tapping me like that?",
       "timestamp": 544
     },
     {
@@ -231,7 +231,7 @@
     },
     {
       "speaker": "Dad",
-      "text": "Phew, that was two emergencies in a row, says Fox. We did a really good job putting out that fire and rescuing our two bear crew members, Nercury and Mercury, and everyone's feeling better. Good job, Chief Engineer Isabella.",
+      "text": "Phew, that was two emergencies in a row, says Fox. We did a really good job putting out that fire and rescuing our two bear crew members, Mercury and Mercury, and everyone's feeling better. Good job, Chief Engineer Isabella.",
       "timestamp": 612
     },
     {
@@ -601,7 +601,7 @@
     },
     {
       "speaker": "Dad",
-      "text": "Oh, that is the first aid kit. That's how we gave first aid to Nercury and Mercury, the two bears.",
+      "text": "Oh, that is the first aid kit. That's how we gave first aid to Mercury and Mercury, the two bears.",
       "timestamp": 1700
     },
     {
@@ -642,14 +642,14 @@
   ],
   "characters": [
     {
-      "id": "CzXoA4tLtV7mrXJxtBRA",
-      "name": "Chief Engineer Isabella",
-      "description": "The mission's lead engineer who manages the spaceship's systems and medical emergencies."
+      "id": "34xshXaYEDy8V1RTpXR7",
+      "name": "Isabella",
+      "description": "A towering Dimitar scholar and alchemist of Atsukeeseet, Mama Izzy is a clever kiddo at heart and a steadfast guardian of rooftop gardens and intricate dollhouses. Gifted with the power of flight, she navigates the open heights with aquatic grace, her massive frame often shielded by a special protective metal that glimmers even as she descends into the shadows. As a resourceful quartermaster, she employs red flashlights, gold-laced slimes, and pipe cleaners to mend a Lanternshark’s failing light, yet her generosity remains her hallmark; she freely shares her vast library, brokers homes for dragons, and teaches others to find the resonance in their own voices. Her most profound magic resides in her vast, soft blanket—a sanctuary of ultimate coziness—where she remains a brave, quick-witted protector to all who honor her singular request for absolute silence."
     },
     {
-      "id": "rdXRWDqpiCZvl0lzVtFI",
-      "name": "Captain Daddy",
-      "description": "The co-pilot and mission captain who assists Isabella in navigating the stars."
+      "id": "0d2IFKxiH8Da8XzWrBn3",
+      "name": "Dad",
+      "description": "Kitty’s father remains a pillar of steady eccentricity, an unflappable co-pilot and accommodating listener who balances technical logistics with a patient support for his daughter’s restless need for activity. He manages mission equipment with the same meticulous intensity he once brought to scanning the midnight undergrowth for missing cats, his stoicism famously underscored by the irony of a nagging knee complaint—diagnosed as overgrown toenails—that never wavers his resolve."
     },
     {
       "id": "SVcUTaAgt6vdQ9zf6otw",
@@ -662,19 +662,14 @@
       "description": "A small bear crew member who survived falling out of the rocket ship."
     },
     {
-      "id": "I5PVlYaND9365pEUzuyj",
-      "name": "Nercury",
-      "description": "A small bear crew member who required a band-aid and a kiss after an injury."
-    },
-    {
       "id": "44HxqUdjrfnxzwK0eCBQ",
       "name": "Elliot",
       "description": "A guest invited on board the spaceship who enters through the special door."
     },
     {
-      "id": "7cB51LklfNRSFA0IhKTa",
-      "name": "Captain Averybug",
-      "description": "The pilot of the Mama Ship who meets the crew during their journey."
+      "id": "xM1XXMMaqO49QZMERkkE",
+      "name": "Avery",
+      "description": "Now christened [Name], this diminutive mole is the newest addition to Izzy’s family and Hattie’s velvety baby sister. A tiny voyager often depicted in portraits wearing oversized clothes, she is a slumbering resident aboard the ship, finding bliss in milk-filled dreams within her cozy \"house\" upon the storyteller’s knee. To protect [Name]’s fragile rest, the crew maintains a state of hushed reverence, ensuring the vessel remains a quiet sanctuary for its smallest, most loyal passenger."
     }
   ],
   "places": [

@@ -30,6 +30,8 @@ if (!fs.existsSync(invCharsDir)) {
 
 const canonical: CanonicalEntity[] = JSON.parse(fs.readFileSync(CONTENT_CHARACTERS, 'utf8'));
 const byName = new Map(canonical.map((c) => [norm(c.name), c]));
+// Absorbed duplicate names (merge-characters.ts) also resolve to the survivor.
+for (const c of canonical) for (const a of c.aliases ?? []) if (!byName.has(norm(a))) byName.set(norm(a), c);
 
 let matched = 0;
 const unmatched: string[] = [];

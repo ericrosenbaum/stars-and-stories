@@ -173,7 +173,7 @@
         },
         {
           "slug": "Wobbly_Whisker_s_Sticky_Adventure_on_Planet_Mooker",
-          "title": "Wobbly Whisker's Sticky Adventure on Planet Mooker",
+          "title": "Wobbly Whiskers' Sticky Adventure on Planet Mooker",
           "date": "2026-05-02T00:23:16.000Z"
         },
         {
@@ -213,7 +213,7 @@
         },
         {
           "slug": "Haddy_the_Mouse_and_the_Quest_for_the_Talking_Hat",
-          "title": "Haddy the Mouse and the Quest for the Talking Hat",
+          "title": "Hattie the Mouse and the Quest for the Talking Hat",
           "date": "2025-10-19T00:00:00.000Z"
         },
         {
@@ -238,7 +238,7 @@
         },
         {
           "slug": "Late_Night_Tea_with_Mrs_Piggy_and_the_Muppets",
-          "title": "Late Night Tea with Mrs. Piggy and the Muppets",
+          "title": "Late Night Tea with Miss Piggy and the Muppets",
           "date": "2026-01-09T00:00:00.000Z"
         },
         {
@@ -739,7 +739,7 @@
         },
         {
           "speaker": "Dad",
-          "text": "I've never heard of any of these places, says Dimatar. I just live on the Perfectly Circular Island.",
+          "text": "I've never heard of any of these places, says Dimitar. I just live on the Perfectly Circular Island.",
           "slug": "Dimatar_s_Big_Day_at_Ginger_Catasorry",
           "timestamp": 335
         },
@@ -763,7 +763,7 @@
         },
         {
           "slug": "Dimatar_s_Big_Day_at_Ginger_Catasorry",
-          "title": "Dimatar's Big Day at Ginger Catasorry",
+          "title": "Dimitar's Big Day at Ginger Catasorry",
           "date": "2026-02-26T00:00:00.000Z"
         },
         {
@@ -863,7 +863,7 @@
       "ring": 2,
       "storyCount": 4,
       "earliestDate": "2025-09-21T00:00:00.000Z",
-      "curatedDescription": "A vibrant submerged realm of coral and sparkling gemstones, reached by drinking a light-blue, fishy-smelling potion with little glittering sparkles from a diamond-shaped bottle. Seeker and Dematar appear beneath the surface, but Dematar's sudden coral allergy forces a sneezing retreat up onto the rocks and sand. Back on the surface, two little tropical fish, one red and one blue, turn up tangled in Seeker's beard and are adopted as pets.",
+      "curatedDescription": "A vibrant submerged realm of coral and sparkling gemstones, reached by drinking a light-blue, fishy-smelling potion with little glittering sparkles from a diamond-shaped bottle. Seeker and Dimitar appear beneath the surface, but Dimitar's sudden coral allergy forces a sneezing retreat up onto the rocks and sand. Back on the surface, two little tropical fish, one red and one blue, turn up tangled in Seeker's beard and are adopted as pets.",
       "potion": {
         "name": "Diamond-shaped potion",
         "rhyme": "Sparkle, sparkle, sparkle, sparkle, sparkle, sparkle.",
@@ -1054,8 +1054,8 @@
         "Seeker",
         "Isabella",
         "Bunsen",
-        "Beeker",
-        "Wobbly Whisker",
+        "Beaker",
+        "Wobbly Whiskers",
         "Mookers",
         "Ancient Star"
       ],
@@ -1267,7 +1267,7 @@
         "The Mookers",
         "Seeker",
         "Buddy the Mouse",
-        "Wobbly Whisker",
+        "Wobbly Whiskers",
         "Mama Kitten",
         "Librarian Mooker",
         "Floofers"
@@ -1275,7 +1275,7 @@
       "quotes": [
         {
           "speaker": "Izzy",
-          "text": "I'm Wobbly Whisker and I can't find my mommy again.",
+          "text": "I'm Wobbly Whiskers and I can't find my mommy again.",
           "slug": "Wobbly_Whisker_s_Sticky_Adventure_on_Planet_Mooker",
           "timestamp": 142
         },
@@ -1295,7 +1295,7 @@
       "stories": [
         {
           "slug": "Haddy_the_Mouse_and_the_Quest_for_the_Talking_Hat",
-          "title": "Haddy the Mouse and the Quest for the Talking Hat",
+          "title": "Hattie the Mouse and the Quest for the Talking Hat",
           "date": "2025-10-19T00:00:00.000Z"
         },
         {
@@ -1320,7 +1320,7 @@
         },
         {
           "slug": "Wobbly_Whisker_s_Sticky_Adventure_on_Planet_Mooker",
-          "title": "Wobbly Whisker's Sticky Adventure on Planet Mooker",
+          "title": "Wobbly Whiskers' Sticky Adventure on Planet Mooker",
           "date": "2026-05-02T00:23:16.000Z"
         }
       ],
@@ -1535,7 +1535,7 @@
       "ring": 5,
       "storyCount": 2,
       "earliestDate": "2026-04-07T00:58:19.000Z",
-      "curatedDescription": "A tactile, fur-filled dimension reachable only through specialized teleportation potions, a plush realm for those who master alchemical teleportation. It is home to cats who speak in meows, purrs, and the occasional 'hate,' including a kitten named Silver who cannot open her own cans of food. To help, the wizard Seker leaves behind a magical can opener that makes a 'snergle' sound, so the cats of Cat World can learn to feed themselves.",
+      "curatedDescription": "A tactile, fur-filled dimension reachable only through specialized teleportation potions, a plush realm for those who master alchemical teleportation. It is home to cats who speak in meows, purrs, and the occasional 'hate,' including a kitten named Silver who cannot open her own cans of food. To help, the wizard Seeker leaves behind a magical can opener that makes a 'snergle' sound, so the cats of Cat World can learn to feed themselves.",
       "potion": {
         "name": null,
         "rhyme": "Cat-ka-pat, cat-ka-pat.",
@@ -1543,7 +1543,7 @@
       },
       "arrivalFrom": "Seeker's Castle / Potion Closet",
       "characters": [
-        "Seker",
+        "Seeker",
         "Dimitar",
         "Silver",
         "Gorp",
@@ -1567,7 +1567,7 @@
       "stories": [
         {
           "slug": "The_Wizard_Seker_and_the_Magical_Can_Opener_of_Cat_World",
-          "title": "The Wizard Seker and the Magical Can Opener of Cat World",
+          "title": "The Wizard Seeker and the Magical Can Opener of Cat World",
           "date": "2026-04-07T00:58:19.000Z"
         },
         {
@@ -1949,7 +1949,7 @@
       "characters": [
         "The Floofers",
         "Ziggety Ziggety Zack",
-        "Frazgle",
+        "Frasgle",
         "Seeker",
         "Hattie the Mouse",
         "Crystal Mountain Caretaker"
