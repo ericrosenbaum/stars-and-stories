@@ -6,108 +6,198 @@
   "audioFilename": "Cornell St 80.m4a",
   "highlightQuote": {
     "text": "Meow, meow, I'm a little hungry. Do you have anything for a kitty?",
-    "timestamp": 76.4
+    "timestamp": 82.36
   },
   "transcript": [
     {
       "speaker": "Dad",
-      "text": "Once upon a time...",
-      "timestamp": 13
+      "text": "Here we go. And now, turn out the light. Okay. Once upon a time-",
+      "timestamp": 1.24
     },
     {
       "speaker": "Izzy",
-      "text": "Ding dong! Ding dong! Ding dong!",
-      "timestamp": 15
+      "text": "Ding-dong.",
+      "timestamp": 15.04
     },
     {
       "speaker": "Dad",
-      "text": "Disco and Disco were in their house and the doorbell rang. They looked out the door and they didn't see anyone.",
-      "timestamp": 17.2
+      "text": "Oh.",
+      "timestamp": 16.3
     },
     {
       "speaker": "Izzy",
-      "text": "And Popomal came in.",
-      "timestamp": 22.5
+      "text": "Ding-dong, ding-dong.",
+      "timestamp": 16.58
     },
     {
       "speaker": "Dad",
-      "text": "Popomal came in and he said...",
-      "timestamp": 24.2
-    },
-    {
-      "speaker": "Dad",
-      "text": "Wait, we're trying to do a very short stars and stories and then it's time for Mama.",
-      "timestamp": 26.5
-    },
-    {
-      "speaker": "Dad",
-      "text": "And Popomal said, \"There is a kitten here who would like to come over and get some pets. Could this kitten come in your house, Disco and Disco?\"",
-      "timestamp": 45.3
+      "text": "Mischief Moles were in their house and the doorbell rang, and there was... They looked out the door and they didn't see anyone.",
+      "timestamp": 17.31
     },
     {
       "speaker": "Izzy",
-      "text": "Yeah, Disco and Disco will come inside our house.",
-      "timestamp": 56.2
+      "text": "And Papa Mole came in.",
+      "timestamp": 22.37
     },
     {
       "speaker": "Dad",
-      "text": "Meow, meow. Yes, please! And the kitten came inside. And then what did Disco and Disco do?",
-      "timestamp": 58.7
+      "text": "Papa Mole came in and he said-",
+      "timestamp": 24.61
+    },
+    {
+      "speaker": "Dad",
+      "text": "Isabella, are you getting this ready for Mama?",
+      "timestamp": 26.64
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yeah, we were trying to do a very short Stars and Stories-",
+      "timestamp": 28.34
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay",
+      "timestamp": 31.06
+    },
+    {
+      "speaker": "Dad",
+      "text": "... and then it's time for bed.",
+      "timestamp": 31.62
+    },
+    {
+      "speaker": "Dad",
+      "text": "Isabella, do you have your dodo or do I need to go find it?",
+      "timestamp": 32.03
+    },
+    {
+      "speaker": "Dad",
+      "text": "It's here.",
+      "timestamp": 34.4
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay. Thank you.",
+      "timestamp": 35.4
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, we didn't do the humidifier though.",
+      "timestamp": 36.36
+    },
+    {
+      "speaker": "Dad",
+      "text": "We're gonna use this one tonight.",
+      "timestamp": 38.06
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay.",
+      "timestamp": 39.66
+    },
+    {
+      "speaker": "Dad",
+      "text": "Um.",
+      "timestamp": 42
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Ooh, ooh, ooh, ooh, ooh.",
+      "timestamp": 43.14
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Papa Mole said, \"There's a kitten here who would like to come over and get some pets. Can this kitten come in your house, Disco Thisco?\"",
+      "timestamp": 45.58
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah. The kitten, \"Do you want to come inside our house?\"",
+      "timestamp": 56.76
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Meow, meow. Yes, please.\" And the kitten came inside. And then what did Disco Thisco do?",
+      "timestamp": 61.15
     },
     {
       "speaker": "Izzy",
       "text": "Gave the kitten pets.",
-      "timestamp": 66.2
+      "timestamp": 69
     },
     {
       "speaker": "Dad",
       "text": "And the kitten said, \"Purr, purr, purr, purr, purr. Thank you for the pets.\" And then what did they do?",
-      "timestamp": 68.4
+      "timestamp": 71.42
     },
     {
       "speaker": "Izzy",
-      "text": "What did they do? The kitten said, \"Meow, meow, I'm a little hungry. Do you have anything for a kitty?\"",
-      "timestamp": 76.4
+      "text": "What did they do?",
+      "timestamp": 77.68
+    },
+    {
+      "speaker": "Dad",
+      "text": "The kitten said-",
+      "timestamp": 79.58
     },
     {
       "speaker": "Izzy",
-      "text": "Yes, some treats and kibble!",
-      "timestamp": 86.3
+      "text": "The end Catasorry living in my house",
+      "timestamp": 80.65
     },
     {
       "speaker": "Dad",
-      "text": "Om nom nom crunch crunch crunch crunch crunch. What food?",
-      "timestamp": 89.5
+      "text": "... \"Meow, meow. I'm a little hungry. Do you have anything for a kitty?\"",
+      "timestamp": 82.36
     },
     {
       "speaker": "Izzy",
-      "text": "Oh, it's my favorite! Thank you, said the kitten.",
-      "timestamp": 93.8
+      "text": "\"Here's some treats.\"",
+      "timestamp": 86.23
     },
     {
       "speaker": "Dad",
-      "text": "And then the kitten said, \"Yawn. Could I have some gentle pets, please? I'm feeling a little sleepy.\"",
-      "timestamp": 98.5
+      "text": "Om-nom-nom.",
+      "timestamp": 88.34
     },
     {
       "speaker": "Izzy",
-      "text": "Here's a cat pet.",
-      "timestamp": 107.4
+      "text": "And kibble.",
+      "timestamp": 88.37
     },
     {
       "speaker": "Dad",
-      "text": "Oh, thank you. And the little kitten curled up... twinkle twinkle little star, how I wonder what you are. Up above the world so high, like a diamond in the sky. Twinkle twinkle little star, how I wonder what you are.",
-      "timestamp": 109
+      "text": "Oh, om-nom-nom. Crunch, crunch, crunch, crunch.",
+      "timestamp": 89.64
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And wet food.",
+      "timestamp": 91.98
     },
     {
       "speaker": "Dad",
-      "text": "And Izzy said \"zzz\" because she had fallen asleep. And that's the end of stars and stories.",
-      "timestamp": 151.2
+      "text": "\"Oh, om-nom-nom-nom-nom. That's my favorite. Thank you,\" said the kitten. And then the kitten said, \"Could I have some gentle pets, please? I'm feeling a little sleepy.\"",
+      "timestamp": 93.09
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Here's a cat bed.",
+      "timestamp": 105.84
     },
     {
       "speaker": "Dad",
-      "text": "And now it's time for Mama to help you get ready for bed.",
-      "timestamp": 161.5
+      "text": "\"Oh, thank you.\" And the little kitten curled up.",
+      "timestamp": 108.3
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Twinkle, twinkle, little tw- Twinkle, twinkle, little star. How I wonder what you are. Up above the world so high, like a diamond in the sky. Twinkle, twinkle, little star. How I wonder what you are.",
+      "timestamp": 113.16
+    },
+    {
+      "speaker": "Dad",
+      "text": "And the kitten said, \"\" because she had fallen asleep. And that's the end of Stars and Stories. And now it's time for Mama to help you get ready for bed",
+      "timestamp": 150.48
     }
   ],
   "characters": [
@@ -134,7 +224,20 @@
       "description": "The cozy home belonging to Disco and Disco where they receive their visitors."
     }
   ],
-  "wordCount": 273,
-  "izzyWordCount": 61,
-  "dadWordCount": 212
+  "wordCount": 348,
+  "izzyWordCount": 87,
+  "dadWordCount": 261,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T15:12:43.490Z",
+    "speakerMap": {
+      "speaker_0": "Dad",
+      "speaker_1": "Izzy",
+      "speaker_2": "Dad"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "high"
+  }
 }

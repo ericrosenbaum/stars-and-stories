@@ -11,18 +11,18 @@
   "transcript": [
     {
       "speaker": "Dad",
-      "text": "You're right, that wasn't really the ending. The moles have to get tucked in. And so what did the moles say?",
-      "timestamp": 0
+      "text": "You're right. That wasn't really the ending. The moles have to get tucked in. And so what did the moles say?",
+      "timestamp": 0.24
     },
     {
       "speaker": "Izzy",
-      "text": "Sleepy time.",
-      "timestamp": 5
+      "text": "We're sleepy.",
+      "timestamp": 5.8
     },
     {
       "speaker": "Dad",
-      "text": "And Papa Mole said, 'Okay.' And he closed the great big book of Dimitar the Dragon and said, 'We'll continue this another night. Goodnight Disco, goodnight Disco, I love you.'",
-      "timestamp": 7
+      "text": "And Papa Mole said, \"Okay.\" And he closed the great big book of Dimitar the Dragon and said, \"We'll continue this another night.\" Good night, Disco. Good night, Disco. I love you",
+      "timestamp": 7.2
     }
   ],
   "characters": [
@@ -54,7 +54,19 @@
       "description": "The cozy home where the mole family gathers to hear stories and sleep."
     }
   ],
-  "wordCount": 53,
+  "wordCount": 55,
   "izzyWordCount": 2,
-  "dadWordCount": 51
+  "dadWordCount": 53,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T15:12:32.057Z",
+    "speakerMap": {
+      "speaker_0": "Dad",
+      "speaker_1": "Izzy"
+    },
+    "speakerMapMethod": "word-share",
+    "speakerMapConfidence": "low"
+  }
 }

@@ -6,213 +6,333 @@
   "audioFilename": "Cornell St 79.m4a",
   "highlightQuote": {
     "text": "Down to landoff, everybody!",
-    "timestamp": 121.2
+    "timestamp": 128.12
   },
   "transcript": [
     {
       "speaker": "Izzy",
-      "text": "Blast off!",
-      "timestamp": 0
+      "text": "Blast off.",
+      "timestamp": 0.72
     },
     {
       "speaker": "Dad",
-      "text": "Blast off! Captain Izzy, where are we going?",
-      "timestamp": 1.7
+      "text": "Blast off. Captain Izzy, where are we going?",
+      "timestamp": 2.06
     },
     {
       "speaker": "Izzy",
-      "text": "To Silver's Planet!",
-      "timestamp": 6.5
+      "text": "To Silver's planet.",
+      "timestamp": 6.48
     },
     {
       "speaker": "Dad",
-      "text": "Wow, to Silver's Planet! Did she need us to bring her something?",
-      "timestamp": 8.9
+      "text": "Wow, to Silver's planet. Did she need us to bring her something?",
+      "timestamp": 9.52
     },
     {
       "speaker": "Izzy",
-      "text": "No. She wants... I want to have a playdate with Silver.",
-      "timestamp": 14.5
+      "text": "No.",
+      "timestamp": 14.86
     },
     {
       "speaker": "Dad",
-      "text": "Oh, you want to have a playdate with Silver. Okay. We're flying through space towards Silver's Planet. Oh no, look out Captain Izzy! There's a big rock in space. We've got to fly around it!",
-      "timestamp": 20.8
+      "text": "Oh.",
+      "timestamp": 15.94
     },
     {
       "speaker": "Izzy",
-      "text": "I'm pushing those buttons right now!",
-      "timestamp": 35.1
+      "text": "She wants... I want to have a play date with Silver.",
+      "timestamp": 16.32
     },
     {
       "speaker": "Dad",
-      "text": "Oh, good! We turned the spaceship and avoided the danger. Oh! We're getting a message, Captain Izzy. What does it say?",
-      "timestamp": 38.6
+      "text": "Oh, you want to have a play date with Silver? Okay. We're flying through space towards Silver's planet. Oh no, look out. Captain Izzy, there's a big rock in space. We gotta fly around it.",
+      "timestamp": 20.58
     },
     {
       "speaker": "Izzy",
-      "text": "Marsay.",
-      "timestamp": 51.1
+      "text": "I'm pushing those buttons right now.",
+      "timestamp": 35.44
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, good. We turned the spaceship and avoided the danger. Oh, beep, beep, beep, beep, beep, beep, beep, beep, beep, beep, beep, beep. We're getting a message, Captain Izzy. What does it say?",
+      "timestamp": 38.28
+    },
+    {
+      "speaker": "Izzy",
+      "text": "What did I say?",
+      "timestamp": 53.28
     },
     {
       "speaker": "Dad",
       "text": "What did you say?",
-      "timestamp": 53.5
+      "timestamp": 55.99
     },
     {
       "speaker": "Izzy",
       "text": "What's wrong, Silver? What's wrong?",
-      "timestamp": 56.5
+      "timestamp": 58.02
     },
     {
       "speaker": "Dad",
       "text": "What's wrong, Silver? That's what the message says?",
-      "timestamp": 58.5
+      "timestamp": 64.66
     },
     {
       "speaker": "Izzy",
-      "text": "No. It said, 'Silver, what's wrong?' And Silver said 'Meow, meow, I want to play!'",
-      "timestamp": 64
+      "text": "No.",
+      "timestamp": 67.5
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh. Was the message a meow from Silver?",
+      "timestamp": 68.88
+    },
+    {
+      "speaker": "Izzy",
+      "text": "It said, \"Silver, what's wrong?\"",
+      "timestamp": 71.78
+    },
+    {
+      "speaker": "Dad",
+      "text": "And Silver said, \"Meow, meow, I want to play.\"",
+      "timestamp": 75.42
     },
     {
       "speaker": "Izzy",
       "text": "We're just coming. It takes us a slow time.",
-      "timestamp": 73.2
+      "timestamp": 79.24
     },
     {
       "speaker": "Dad",
-      "text": "It does take us a little while to get to Silver's Planet. But look, there it is up ahead. Slow down our spaceship so we can land.",
-      "timestamp": 81.5
+      "text": "It does take us a little while to get to Silver's planet, but look, there it is up ahead. S- slow down our spaceship so we can land.",
+      "timestamp": 83.7
     },
     {
       "speaker": "Izzy",
       "text": "Still doing some research.",
-      "timestamp": 84.1
+      "timestamp": 97.98
     },
     {
       "speaker": "Dad",
       "text": "Oh, what are you doing research about?",
-      "timestamp": 97.2
+      "timestamp": 100.48
     },
     {
       "speaker": "Izzy",
       "text": "Space rocks.",
-      "timestamp": 101.1
+      "timestamp": 103.04
     },
     {
       "speaker": "Dad",
-      "text": "Space rocks. That's very important. What did you find out about them? Did you talk to the space rocks? Or find out what they're made of? Or make friends with them?",
-      "timestamp": 103.5
+      "text": "Space rocks, that's very important. What did you find out about them? Did you talk to the space rocks or find out what they're made of or make friends with them?",
+      "timestamp": 104.44
     },
     {
       "speaker": "Izzy",
-      "text": "Down to landoff!",
-      "timestamp": 121.2
+      "text": "Down to land off.",
+      "timestamp": 123.64
     },
     {
       "speaker": "Dad",
       "text": "What'd you say?",
-      "timestamp": 128.5
+      "timestamp": 126.86
     },
     {
       "speaker": "Izzy",
-      "text": "Down to landoff! Down to landoff! Down to landoff, everybody!",
-      "timestamp": 131.2
+      "text": "Down to land off. Down, take to land off. Down to land off, everybody.",
+      "timestamp": 128.12
     },
     {
       "speaker": "Dad",
-      "text": "Down to landoff? Oh, is that like blast off but when you land? Down to landing! And we landed safely on Silver's Planet.",
-      "timestamp": 146.5
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Where's Silver?",
-      "timestamp": 159.2
-    },
-    {
-      "speaker": "Dad",
-      "text": "We have to pretend she's here. Maybe we can use Leo Lion to pretend to be Silver.",
-      "timestamp": 161.5
-    },
-    {
-      "speaker": "Izzy",
-      "text": "No, we'll pretend she's Silver.",
-      "timestamp": 169.5
-    },
-    {
-      "speaker": "Dad",
-      "text": "Oh, yes. Alexander. Oh, do you hear that? What does that mean, Captain Izzy? Silver, why are you purring about? Can I have some pets please? Thank you. Did you bring me any treats?",
-      "timestamp": 172.5
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Here's some treats.",
-      "timestamp": 193.5
-    },
-    {
-      "speaker": "Dad",
-      "text": "Thank you. Um, what do you want to do on this playdate? Did you bring me any space rocks?",
-      "timestamp": 200.2
+      "text": "Down to land off. Oh, is that like blast off but when you land?",
+      "timestamp": 143.86
     },
     {
       "speaker": "Izzy",
       "text": "Yeah.",
-      "timestamp": 205.5
+      "timestamp": 146.98
     },
     {
       "speaker": "Dad",
-      "text": "Oh, oh those are nice space rocks. Thank you. Where did you get them?",
-      "timestamp": 208.5
+      "text": "Oh. Down to landing, and we landed. Okay, we landed safely on Silver's planet.",
+      "timestamp": 147.56
     },
     {
       "speaker": "Izzy",
-      "text": "From space.",
-      "timestamp": 210.5
+      "text": "Where's Silver?",
+      "timestamp": 158.66
     },
     {
       "speaker": "Dad",
-      "text": "From space? Wow, that's the best kind. Thank you. Well, what do you want to play? I don't have much time for a playdate because it's almost time for me to go to sleep. Maybe we could play a little jump-jump-jump-jump-jump? Oh, let's sing a song. But I don't know any songs. Do you know any songs?",
-      "timestamp": 221.2
+      "text": "We have to pretend she's here. Maybe we can use Leo Lion to pretend to be Silver.",
+      "timestamp": 160.5
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yes. No, we'll pretend she's Silver.",
+      "timestamp": 166.86
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, yes, Alexander.",
+      "timestamp": 170.64
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Silver.",
+      "timestamp": 173.5
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, do you hear that? What does that mean, Captain Izzy?",
+      "timestamp": 174.26
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Silver, what are you purring about?",
+      "timestamp": 179.58
+    },
+    {
+      "speaker": "Dad",
+      "text": "Can I have some pets, please? Meow, meow, thank you. Did you bring me any treats?",
+      "timestamp": 182.68
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Some treats.",
+      "timestamp": 196.54
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yum. Thank you.",
+      "timestamp": 198.22
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Um, what, what do you want to do on this play date?",
+      "timestamp": 201.38
+    },
+    {
+      "speaker": "Dad",
+      "text": "Did you bring me any space rocks?",
+      "timestamp": 206.54
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah.",
+      "timestamp": 208.8
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, oh, those are nice space rocks. Thank you. Where did you get them?",
+      "timestamp": 209.66
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Got them from space.",
+      "timestamp": 213.56
+    },
+    {
+      "speaker": "Dad",
+      "text": "From spa- Wow, that's the best kind. Thank you.",
+      "timestamp": 215.18
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Well, what do you want to play?",
+      "timestamp": 219.92
+    },
+    {
+      "speaker": "Dad",
+      "text": "I don't have much time for a play date 'cause it's almost time for me to go to sleep. Maybe we could play a little jump, jump, jump, jump, jump. Oh, let's sing a song. Oh, but I don't know any songs. Do you know any songs?",
+      "timestamp": 222.44
     },
     {
       "speaker": "Izzy",
       "text": "Baby Beluga.",
-      "timestamp": 241.5
+      "timestamp": 241.32
     },
     {
       "speaker": "Dad",
-      "text": "Oh yeah, that's a good one. But I can't remember the words. Oh, we could make some up. Could you make up a song about cats for me, please?",
-      "timestamp": 244.5
+      "text": "Oh yeah, that's a good one.",
+      "timestamp": 243.5
     },
     {
       "speaker": "Izzy",
-      "text": "What does the cat say? Meow, meow, meow, meow. What do they like to eat? The cats, the cats they say meow. Silver and the Silver... wow... and the Silver... and the Silver cat... I really still songs. I love apart...",
-      "timestamp": 253
+      "text": "But can't remember the words.",
+      "timestamp": 246.24
     },
     {
       "speaker": "Dad",
-      "text": "Okay, I think that's enough singing. That was wonderful, thank you, says Silver. Now it's time for me to go to sleep. Would you give me some gentle pets while I lie down so I can fall asleep? Thank you.",
-      "timestamp": 370.5
+      "text": "Oh, hmm, we could make some up. Could you make up a song about cats for me, please?",
+      "timestamp": 249.52
     },
     {
       "speaker": "Izzy",
-      "text": "Actually, you're going to go to sleep with me.",
-      "timestamp": 381.5
+      "text": "What does the cat say? \"Meow, meow, meow, meow, meow. Oh, they like treats.\"",
+      "timestamp": 256.42
     },
     {
       "speaker": "Dad",
-      "text": "Oh, okay Captain Izzy. But do you want to fly back to Earth first?",
-      "timestamp": 393.5
+      "text": "Oh, is there more to the song?",
+      "timestamp": 268
     },
     {
       "speaker": "Izzy",
-      "text": "Yes, let's fly back to Earth.",
-      "timestamp": 396.5
+      "text": "One little cat like two meats, cat meats. Oh, ca- cats sometimes they shake. And then they'll shake real high. And then they'll shake so like Silver on the window sill. And then some Africa. And then some cats are really still songs and a sil- abar. And some Rainbow Disco.",
+      "timestamp": 269.32
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Mama Nana Chanta. Whoa, whoa. And a bangy bang gong and gong go yellow. And then just a sad song. Some cats like cheese. Some will go, \"Meow.\" The kittens still going up and some will...",
+      "timestamp": 336.57
     },
     {
       "speaker": "Dad",
-      "text": "Do you want to do the countdown, Captain Izzy, or should I? You should. Okay. 3, 2, 1, blast off! And we blasted off from Silver Kitten's Planet and flew all the way back to Earth. Oh, there's our house. Let's land right behind it. And we landed our rocket ship right behind our house. Okay, let's get out and go inside because it's time for bed, everybody. And that's the end of our space mission.",
-      "timestamp": 404.5
+      "text": "Okay, I think that's enough singing. \"That was wonderful. Thank you,\" says Silver. \"Now it's time for me to go to sleep. Would you give me some gentle pets while I lie down so I can fall asleep? Thank you.\"",
+      "timestamp": 368.3
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Actually, you're gonna go to sleep with me.",
+      "timestamp": 380.44
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, okay, Captain Izzy.",
+      "timestamp": 383.34
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I'm not really tired, but do you want to fly back to Earth with me?",
+      "timestamp": 386.66
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yes, let's fly back to Earth. Do you want to do the countdown, Captain Izzy? Or should I?",
+      "timestamp": 391.18
+    },
+    {
+      "speaker": "Izzy",
+      "text": "You should.",
+      "timestamp": 404.9
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay. Three, two, one. Blast off. And we blasted off from Silver Kitten's planet and flew all the way back to Earth. Oh, there's our house. Let's land right behind it. And we landed our rocket ship right behind our house. Okay, let's get out and go inside 'cause it's time for bed, everybody.",
+      "timestamp": 405.72
+    },
+    {
+      "speaker": "Dad",
+      "text": "And that's the end of our space mission.",
+      "timestamp": 433.4
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Playtime. Then maybe we could do called Out for Stars",
+      "timestamp": 436.6
     }
   ],
   "characters": [
@@ -254,7 +374,19 @@
       "description": "The weightless, black void beyond Earth’s atmosphere is a vast expanse of drifting giant rocks that serves as Captain Izzy’s silent laboratory. Now the final destination of the robot's mission, this lethal frontier requires a specialized suit to navigate its airless and crushing stillness."
     }
   ],
-  "wordCount": 621,
-  "izzyWordCount": 142,
-  "dadWordCount": 479
+  "wordCount": 753,
+  "izzyWordCount": 256,
+  "dadWordCount": 497,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T15:13:01.074Z",
+    "speakerMap": {
+      "speaker_0": "Izzy",
+      "speaker_1": "Dad"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "high"
+  }
 }

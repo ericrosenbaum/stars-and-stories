@@ -6,353 +6,493 @@
   "audioFilename": "Stars & Stories: Papa Mole’s Robot.m4a",
   "highlightQuote": {
     "text": "It's a dance move. Cornebyborn!",
-    "timestamp": 341
+    "timestamp": 425.18
   },
   "transcript": [
     {
-      "speaker": "Dad",
-      "text": "What are all of those cards?",
-      "timestamp": 8
-    },
-    {
       "speaker": "Izzy",
-      "text": "Then let me show you what these cards are. Oh, there's one heart card, a star card, a face card, a star card, a face card, oh, a heart card, a star, a face card, a star card.",
-      "timestamp": 12
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Dad, now you be the narrator and I'll ever since I put them...",
-      "timestamp": 38
-    },
-    {
-      "speaker": "Izzy",
-      "text": "You can put them back up on the shelf.",
-      "timestamp": 45
+      "text": "There's this card, and this card, and this, this card, and this, this card, and the-",
+      "timestamp": 0.26
     },
     {
       "speaker": "Dad",
-      "text": "Okie-doke. Are you ready for stars and stories?",
-      "timestamp": 51
+      "text": "What are all of those cards?",
+      "timestamp": 8.36
     },
     {
       "speaker": "Izzy",
-      "text": "No, I need to get my position.",
-      "timestamp": 55
+      "text": "Dad, Dad, let me show you what the cards are.",
+      "timestamp": 12.62
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, okay. And then we will get to the stories.",
+      "timestamp": 15.28
+    },
+    {
+      "speaker": "Izzy",
+      "text": "So Dad, there's one heart card.",
+      "timestamp": 16.19
+    },
+    {
+      "speaker": "Dad",
+      "text": "Mm-hmm.",
+      "timestamp": 19.94
+    },
+    {
+      "speaker": "Izzy",
+      "text": "A star card, a face card, a star card, a face card, a, a heart card, a sta- a face card, a star card. Dada, now you read them. Now you go. I can never them. You j- you can put them back up on the shelf.",
+      "timestamp": 22.08
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okey-doke.",
+      "timestamp": 51.9
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Um-",
+      "timestamp": 52.84
+    },
+    {
+      "speaker": "Dad",
+      "text": "Are you ready for Stars and Stories?",
+      "timestamp": 52.86
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No, I need to get in my position.",
+      "timestamp": 55.32
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, okay.",
+      "timestamp": 57.72
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Dada?",
+      "timestamp": 61.08
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yes.",
+      "timestamp": 61.96
     },
     {
       "speaker": "Izzy",
       "text": "Can I lay down on the floor?",
-      "timestamp": 104
+      "timestamp": 62.5
     },
     {
       "speaker": "Dad",
-      "text": "Yeah, that's a good place to do stars and stories. That's a good place to lay down because we can look up and see the stars. Here, I'll lay down right next to you.",
-      "timestamp": 108
+      "text": "Yeah, that's a good place to do Stars and Stories. Okay. That's a good place to lay down, 'cause we can look up and see the stars. Here, I'll lie down right next to you.",
+      "timestamp": 66.84
     },
     {
       "speaker": "Izzy",
-      "text": "Ding dong dong dong.",
-      "timestamp": 125
+      "text": "Ding, dong, dong, dong, dong.",
+      "timestamp": 84.98
     },
     {
       "speaker": "Dad",
       "text": "Who is it?",
-      "timestamp": 128
+      "timestamp": 87.9
     },
     {
       "speaker": "Izzy",
       "text": "Papa Mole.",
-      "timestamp": 130
+      "timestamp": 90.26
     },
     {
       "speaker": "Dad",
-      "text": "Hello, Papa Mole, said Disco and Disco. What entertaining thing are you bringing to us today?",
-      "timestamp": 133
+      "text": "\"Hello, Papa Mole,\" said Disco and Thisco. \"What entertaining thing are you bringing to us today?\"",
+      "timestamp": 92.18
     },
     {
       "speaker": "Izzy",
-      "text": "Keep telling the story then you'll find out, says Papa Mole.",
-      "timestamp": 141
+      "text": "\"Keep telling the story and then you'll find out,\" says Papa Mole.",
+      "timestamp": 100.98
     },
     {
       "speaker": "Dad",
-      "text": "And Disco says, telling the story? Are we inside of a story right now?",
-      "timestamp": 147
+      "text": "And Disco says, \"Telling the story? Are we inside of a story right now?\"",
+      "timestamp": 105.4
     },
     {
       "speaker": "Izzy",
-      "text": "No, actually keep telling the story then you'll find out.",
-      "timestamp": 151
-    },
-    {
-      "speaker": "Izzy",
-      "text": "I'm just trying to tell you to keep telling the story and then you'll find out.",
-      "timestamp": 202
+      "text": "No, actually, \"Keep telling the story and then you'll find out.\"",
+      "timestamp": 109.28
     },
     {
       "speaker": "Dad",
-      "text": "You weren't saying what Papa Mole said or what Disco said? Yeah, that's true. Well, Papa Mole said, I have a little robot to play with.",
-      "timestamp": 209
+      "text": "Oh. Well, Papa Mole said-",
+      "timestamp": 114.36
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I was just trying to, Dad.",
+      "timestamp": 117.64
+    },
+    {
+      "speaker": "Dad",
+      "text": "What'd you say?",
+      "timestamp": 120.06
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I was just trying to tell you- ... telling the story and then you'll find out.",
+      "timestamp": 120.96
+    },
+    {
+      "speaker": "Dad",
+      "text": "You weren't saying what Papa Mole said or what Disco said. Yeah, that's true. Well, Papa Mole said, \"I have a little robot to play with.\"",
+      "timestamp": 125.62
+    },
+    {
+      "speaker": "Izzy",
+      "text": "What? Papa Mole?",
+      "timestamp": 140.56
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yeah.",
+      "timestamp": 143.86
     },
     {
       "speaker": "Izzy",
       "text": "Did Papa Mole say that?",
-      "timestamp": 221
+      "timestamp": 144.08
     },
     {
       "speaker": "Dad",
       "text": "He did.",
-      "timestamp": 223
+      "timestamp": 145.24
     },
     {
       "speaker": "Izzy",
       "text": "Where?",
-      "timestamp": 225
+      "timestamp": 147.78
     },
     {
       "speaker": "Dad",
       "text": "It's right here in my pocket. Here, I'll come inside and we can play with it on the floor.",
-      "timestamp": 227
+      "timestamp": 148.98
     },
     {
       "speaker": "Izzy",
       "text": "Can you show me how it works?",
-      "timestamp": 232
+      "timestamp": 152.98
     },
     {
       "speaker": "Dad",
-      "text": "Yeah, I just turn it on and then we can talk to it about what we want it to do and then it can do things. It can't do everything that we say, but it can do some things.",
-      "timestamp": 235
+      "text": "Yeah. I just turn it on, and then we can, um, talk to it about what we want it to do, and then it can do things. It can't do everything that we say, but it can do some things. And he-",
+      "timestamp": 155.98
     },
     {
       "speaker": "Izzy",
       "text": "Like what?",
-      "timestamp": 251
+      "timestamp": 169.83
     },
     {
       "speaker": "Dad",
-      "text": "He took out the robot and it looked kind of like a little person with big feet and short legs and a round body and a little head with big eyes and a mouth and two little arms. And he said, let me show you, said Papa Mole. Okay, robot, say a made-up word. And the robot said, bleep-bloop, flibbertigibbet. And Papa Mole said, okay, wave hello. And the robot waved its arm up and down and went, hello, hello.",
-      "timestamp": 252
+      "text": "He took out the robot, and it looked kind of like a little person with big feet and short legs, and a round body, and a little head with big eyes and a mouth, and two little arms. And he said, \"Let me show you,\" said Papa Mole. \"Okay, robot, say a made-up word.\"",
+      "timestamp": 170.52
+    },
+    {
+      "speaker": "Dad",
+      "text": "And the robot said, \"Boop, boop, boop. Flibberty gibbet.\" Um, and Papa Mole said, \"Okay, wave hello.\" And the robot waved its arm up and down and went, \"Hello, hello.\" And what did Disco and Thisco say?",
+      "timestamp": 193.76
     },
     {
       "speaker": "Izzy",
-      "text": "And what did Disco and Disco say? So Disco said, Cornebyborn!",
-      "timestamp": 332
+      "text": "So Disco said, \"Corner be born.\"",
+      "timestamp": 213.36
     },
     {
       "speaker": "Dad",
-      "text": "And Papa Mole said, what does that mean?",
-      "timestamp": 339
+      "text": "And Papa Mole said, \"What does that mean?\"",
+      "timestamp": 217.94
     },
     {
       "speaker": "Izzy",
-      "text": "It's a dance move.",
-      "timestamp": 341
+      "text": "It's, it's a dance move.",
+      "timestamp": 219.66
     },
     {
       "speaker": "Dad",
-      "text": "Cornebyborn? I don't think the robot knows how to do that.",
-      "timestamp": 343
+      "text": "Corner be born? I don't think the robot knows how to do that. But if-",
+      "timestamp": 221.42
     },
     {
       "speaker": "Izzy",
       "text": "I can show you.",
-      "timestamp": 347
+      "timestamp": 224.62
     },
     {
       "speaker": "Dad",
-      "text": "And Papa Mole said, well, that's a very nice dance.",
-      "timestamp": 354
+      "text": "Oh. And Papa Mole said, \"Well, that's a very nice dance.\"",
+      "timestamp": 226.26
     },
     {
       "speaker": "Izzy",
-      "text": "That's called Cornebyborn.",
-      "timestamp": 356
+      "text": "Cor- that's called corner be born.",
+      "timestamp": 236.32
     },
     {
       "speaker": "Dad",
-      "text": "Cornebyborn? And you have to, if you want the robot to dance, you have to tell it how to move its arms and legs.",
-      "timestamp": 400
+      "text": "Oh, corner be born? And you'll have to, um, if you want the robot to dance, you have to tell it how to move its arms and legs.",
+      "timestamp": 238.7
     },
     {
       "speaker": "Izzy",
-      "text": "Cornebyborn. Come here robot. Actually, come here robot, actually come here robot. We need a name for him. Maybe we can name him Zigzag. Zigzag, actually.",
-      "timestamp": 409
+      "text": "Corner be born. C- come here, corner be born. Actually, come here robot. Actually, come here robot. W- we need a name for him. Maybe we can name him Zigzag. Zigzag.",
+      "timestamp": 248.6
     },
     {
       "speaker": "Dad",
-      "text": "And the robot said, okay, my name is Zigzag. Here I come. And the robot walked over, bleep, bleep, bleep, bleep, to Disco and Disco.",
-      "timestamp": 426
+      "text": "And the robot said, \"Okay, my name is Zigzag. Here I come.\" And the robot walked over, bzz, bzz, bzz, bzz, to Disco and said-",
+      "timestamp": 265.04
     },
     {
       "speaker": "Izzy",
       "text": "Can I show you?",
-      "timestamp": 432
+      "timestamp": 277.85
     },
     {
       "speaker": "Dad",
       "text": "Are you showing me how to dance?",
-      "timestamp": 438
+      "timestamp": 277.87
     },
     {
       "speaker": "Izzy",
-      "text": "Yeah, I'm showing you how to do the Cornebyborn. Can you do it?",
-      "timestamp": 441
+      "text": "Yeah, I'm showing you how to do the corner be born.",
+      "timestamp": 279.96
     },
     {
       "speaker": "Dad",
-      "text": "Okay, I will try. And the robot bent its knees, boop, and then straightened them out, boop, and went down and then up. And then it clapped its hands, bzz-clap, bzz-clap. And then it did the knee trick again, down, up, down, up, and then it did clap, clap.",
-      "timestamp": 444
+      "text": "Oh.",
+      "timestamp": 282.98
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Can you do it?",
+      "timestamp": 283.04
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay, I will try. It's ... And the robot bent its knees, zsh, and then straightened them out, zzt, and it went down and then up. And then it clapped its hands, bzz, clk, bzz, clk. And then it did it, the knee trick again. Down, up, down, up, and then it did clap, clap.",
+      "timestamp": 284.06
     },
     {
       "speaker": "Dad",
       "text": "Did I do it correctly?",
-      "timestamp": 503
+      "timestamp": 301.88
     },
     {
       "speaker": "Izzy",
       "text": "Yeah, you did.",
-      "timestamp": 505
+      "timestamp": 304.04
     },
     {
       "speaker": "Dad",
       "text": "Thank you for teaching me. What else would you like me to do?",
-      "timestamp": 507
+      "timestamp": 306.8
     },
     {
       "speaker": "Izzy",
-      "text": "Actually, Disco said that and then Disco said, do the slide down the slide.",
-      "timestamp": 512
+      "text": "Actually, Disco said that, and then Thisco said, \"Do the slide down the slide.\"",
+      "timestamp": 310.34
     },
     {
       "speaker": "Dad",
       "text": "Where is the slide?",
-      "timestamp": 519
+      "timestamp": 320.8
     },
     {
       "speaker": "Izzy",
       "text": "Pretend slide.",
-      "timestamp": 521
+      "timestamp": 322.44
     },
     {
       "speaker": "Dad",
-      "text": "Okay, I will pretend to slide. And the robot walked forward, bzz-bzz-bzz-bzz, and dropped its body down lower and lower so it looked like it was going down a slide and it said, wheee, thump! And then it stood up again and said, I did it.",
-      "timestamp": 523
+      "text": "Okay, I will pretend to slide. And the robot walked forward, bzz, bzz, bzz, and dropped its body down lower and lower so it looked like it was going down a slide. And it said, \"Wee. Thump.\" And then it stood up again and said, \"I did it.\" What?",
+      "timestamp": 324.06
     },
     {
       "speaker": "Izzy",
-      "text": "And then Mama Mole said, stand up robot and walk around and do exercises.",
-      "timestamp": 543
+      "text": "And then Mama Mole, \"Now stand up, robot, and walk around and do exercises.\"",
+      "timestamp": 345.34
     },
     {
       "speaker": "Dad",
-      "text": "And the robot said, okay, I will do exercises and walk around. Walk, walk, walk. Wait, what is an exercise?",
-      "timestamp": 557
+      "text": "And the robot said, \"Okay, I will do exercises and walk around.\" Walk, walk, walk. \"Wait, what is an exercise?\"",
+      "timestamp": 357.84
     },
     {
       "speaker": "Izzy",
-      "text": "Exercise is a move like stretching. Stretching. Can I show you how to stretch?",
-      "timestamp": 603
+      "text": "Exercise is a move like stretching",
+      "timestamp": 368.2
+    },
+    {
+      "speaker": "Dad",
+      "text": "Stretching.",
+      "timestamp": 372.44
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Can I show you how to stretch?",
+      "timestamp": 373.14
     },
     {
       "speaker": "Dad",
       "text": "Yes, please teach me.",
-      "timestamp": 612
+      "timestamp": 375.64
     },
     {
       "speaker": "Izzy",
-      "text": "You just stretch. Oh, I see!",
-      "timestamp": 613
+      "text": "Yes.",
+      "timestamp": 378.2
     },
     {
       "speaker": "Dad",
-      "text": "And the robot raised both arms high to the ceiling. Stretch, stretch.",
-      "timestamp": 625
+      "text": "Oh, I see. And the robot raised both arms high to the ceiling. Stretch, stretch.",
+      "timestamp": 380.72
     },
     {
       "speaker": "Izzy",
-      "text": "Mama Mole said that and Mama Mole said, bend your legs and sit down. Take a break and drink some water.",
-      "timestamp": 632
+      "text": "Mom Mole said that, and they all said, \"Bend your legs and sit down.\"",
+      "timestamp": 391.56
     },
     {
       "speaker": "Dad",
-      "text": "And the robot bent its legs and then clonk, it sat down and said, I cannot drink water, but I will pretend. Drink, drink, drink, ahhh. Drink, drink, drink, ahhh.",
-      "timestamp": 646
+      "text": "And the robot bent its legs.",
+      "timestamp": 400.9
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Take a break and drink some water.",
+      "timestamp": 402.5
+    },
+    {
+      "speaker": "Dad",
+      "text": "And then clunk, it sat down and said, \"I cannot drink water, but I will pretend.\" Drink, drink, drink, ah. Drink, drink, drink, ah.",
+      "timestamp": 405.28
     },
     {
       "speaker": "Izzy",
       "text": "Dad, is my water bottle in bed?",
-      "timestamp": 657
+      "timestamp": 417.21
     },
     {
       "speaker": "Dad",
-      "text": "I don't know. We'll find out after stars and stories.",
-      "timestamp": 706
+      "text": "I don't know. We'll find out after Stars Stories.",
+      "timestamp": 419.58
     },
     {
       "speaker": "Izzy",
-      "text": "No, I don't think it's the end of stars and stories.",
-      "timestamp": 713
+      "text": "Yeah, it is.",
+      "timestamp": 421.82
     },
     {
       "speaker": "Dad",
-      "text": "Okay, how about we have the moles teach the robot how to do one more thing? And then it'll be the end.",
-      "timestamp": 718
+      "text": "Oh, is this the end of Stars and Stories?",
+      "timestamp": 423.3
     },
     {
       "speaker": "Izzy",
-      "text": "Can you do a Rainbow Disco?",
-      "timestamp": 725
+      "text": "I-",
+      "timestamp": 425.18
     },
     {
       "speaker": "Dad",
-      "text": "A Rainbow Disco? What is that?",
-      "timestamp": 731
+      "text": "Oh, there's your water bottle. You found it",
+      "timestamp": 425.54
+    },
+    {
+      "speaker": "Izzy",
+      "text": "No, I don't think it's the end of Stars and Stories.",
+      "timestamp": 432.92
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay, let's... How about we have, um, the moles teach the robot how to do one more thing, and then it'll be the end.",
+      "timestamp": 436.8
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Can you do a rainbow disco?",
+      "timestamp": 444.58
+    },
+    {
+      "speaker": "Dad",
+      "text": "A rainbow disco? What is that?",
+      "timestamp": 451.58
     },
     {
       "speaker": "Izzy",
       "text": "It's a...",
-      "timestamp": 733
+      "timestamp": 454.08
     },
     {
       "speaker": "Dad",
-      "text": "And the robot said, wow, that is a complicated dance move. I think maybe only people can do that, but I could try. And it started to jump up and down and hop around on its legs and wave its hands in the air and spin and it went faster and faster. Dance, dance, dance, dance, dance, dance. Oh no! And then it toppled over, bonk! And then it said, oh dear, I have fallen down while trying to dance. Maybe I should leave dancing to the humans. And then it stood up again.",
-      "timestamp": 744
+      "text": "And the robot said, \"Wow, that is a complicated dance move. I think maybe only people can do that, but I could try.\" And it started to jump up and down and hop around on, on, on its legs and wave its hands in the air and spin. And it went faster and faster.",
+      "timestamp": 465.06
+    },
+    {
+      "speaker": "Dad",
+      "text": "Dance, dance, dance, dance, dance, dance, dance. Oh, no. And then it toppled over, bonk. And then it said, \"Oh, dear, I have fallen down while trying to dance. Maybe I should leave dancing to the humans.\" And then it stood up again.",
+      "timestamp": 482.3
     },
     {
       "speaker": "Izzy",
-      "text": "Then Disco said, can you please draw with your fingernails on the sketchboard?",
-      "timestamp": 820
+      "text": "Rainbow Disco said, \"Can you please draw with your fingernails on the board?\"",
+      "timestamp": 499.8
     },
     {
       "speaker": "Dad",
-      "text": "Yes, I can draw with my fingers. I do not have fingernails because I am a robot. What would you like me to draw?",
-      "timestamp": 827
+      "text": "Yes, I can draw with my fingers. I do not have fingernails 'cause I am a robot. What would you like me to draw?",
+      "timestamp": 506.82
     },
     {
       "speaker": "Izzy",
       "text": "A robot friend.",
-      "timestamp": 833
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Like a Nana robot.",
-      "timestamp": 837
+      "timestamp": 514.18
     },
     {
       "speaker": "Dad",
-      "text": "Oh, yes, I do have a Nana robot. And so the robot drew a set of squares and rectangles that looked just like a robot. And he said, this is my Nana robot. But now my batteries have run out, so I must recharge and go to sleep. And the robot sat down and plugged himself in and said, zzzzz. The end of stars and stories?",
-      "timestamp": 839
-    },
-    {
-      "speaker": "Dad",
-      "text": "Yeah. Okay.",
-      "timestamp": 908
+      "text": "Okay.",
+      "timestamp": 517.12
     },
     {
       "speaker": "Izzy",
+      "text": "Like your Nano Robot.",
+      "timestamp": 518.12
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, yes, I do have a Nano Robot. And so the robot drew a set of squares and rectangles that looked just like a robot. And he said, \"This is my Nano Robot. But now my batteries have run out, so I must recharge and go to sleep.\" And the robot sat down and plugged himself in and said, \"Zzz.\"",
+      "timestamp": 520.58
+    },
+    {
+      "speaker": "Izzy",
+      "text": "I love Stars and Stories.",
+      "timestamp": 548.74
+    },
+    {
+      "speaker": "Dad",
       "text": "Yeah.",
-      "timestamp": 910
+      "timestamp": 551.64
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Let's keep reading.",
+      "timestamp": 552.32
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay",
+      "timestamp": 556.54
     }
   ],
   "characters": [
@@ -389,7 +529,19 @@
       "description": "Uncle Grisco’s subterranean sanctum, a sprawling burrow of packed earth and reinforced timber, has been reimagined as a vibrant communal hub. Beneath its low, amber-lit ceilings, the scent of damp clay mingles with the ozone of a whirring robot that serves as both a metallic playmate and a rhythmic guide. Here, amidst the clatter of clockwork and repurposed scrap, the group gathers to master intricate new dances, their shadows flickering against the cavern walls in a spirited fusion of technology and grace."
     }
   ],
-  "wordCount": 1057,
-  "izzyWordCount": 318,
-  "dadWordCount": 739
+  "wordCount": 1179,
+  "izzyWordCount": 363,
+  "dadWordCount": 816,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T15:13:42.209Z",
+    "speakerMap": {
+      "speaker_0": "Izzy",
+      "speaker_1": "Dad"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "low"
+  }
 }

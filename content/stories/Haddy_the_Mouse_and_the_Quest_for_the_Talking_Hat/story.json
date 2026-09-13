@@ -6,288 +6,538 @@
   "audioFilename": "Cornell St 75.m4a",
   "highlightQuote": {
     "text": "Why do we need a hat that can talk?",
-    "timestamp": 409.2
+    "timestamp": 409.05
   },
   "transcript": [
     {
       "speaker": "Izzy",
-      "text": "Ginger. Ginger. Ginger. Dada.",
-      "timestamp": 0
+      "text": "Where's, where's, where's Ginger? Where's Ginger, Dada?",
+      "timestamp": 0.06
     },
     {
       "speaker": "Dad",
-      "text": "Where's Ginger? Good question. She needs to go in her special cage.",
-      "timestamp": 8.5
+      "text": "Where's Ginger? Good question. She needs to go in her special cage. Is she downstairs? Oh, geez.",
+      "timestamp": 9.66
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Oh, geez.",
+      "timestamp": 26.74
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, boy.",
+      "timestamp": 28.02
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Oh, boy. Oh s- no. Oh, boy.",
+      "timestamp": 29.44
     },
     {
       "speaker": "Dad",
       "text": "Where did you last see Ginger?",
-      "timestamp": 33.4
+      "timestamp": 33.16
     },
     {
       "speaker": "Izzy",
-      "text": "At the CVS. Yeah, that's where you bought Ginger. And where I first found her was on the table in the sunroom.",
-      "timestamp": 41.8
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Yeah. But always about Hattie.",
-      "timestamp": 210.2
+      "text": "At the CVS.",
+      "timestamp": 42.17
     },
     {
       "speaker": "Dad",
-      "text": "Once upon a time, there was a knock at Hattie the workshop's door. And a voice said, 'Excuse me, I've heard this is the workshop of Hattie the mouse. Is she available?'",
-      "timestamp": 251.3
+      "text": "At the CVS. Yeah, that's where you bought Ginger.",
+      "timestamp": 43.27
     },
     {
       "speaker": "Izzy",
-      "text": "Yes.",
-      "timestamp": 281.5
+      "text": "And I, where I first come-",
+      "timestamp": 45.98
     },
     {
       "speaker": "Dad",
-      "text": "'May I come in?'",
-      "timestamp": 282.8
+      "text": "Mm-hmm",
+      "timestamp": 48.84
     },
     {
       "speaker": "Izzy",
-      "text": "Yes.",
-      "timestamp": 284.2
+      "text": "... was on the table in the sunroom.",
+      "timestamp": 49.1
     },
     {
       "speaker": "Dad",
-      "text": "'Well, I'm a bit big to come in, so I'll stay out here.' And through the door, she could see the face of a kind and wise dwarf. Now, a dwarf is a creature like a person, but smaller, though much bigger than a mouse. And this, of course, was Seeker, the dwarf with the big braided beard and a long red cloak and many potions. And he said, 'I seek you out, Hattie the mouse, because I have a quest for you. I would like you to find for me a hat that can talk. And there are no such hats here in the forest. You'll have to find one in a far-away place. But I have a whole closet full of potions that can take you to different places. I just don't know which one to go to. So you will have to choose. Do you accept this quest?'",
-      "timestamp": 285.1
+      "text": "On the... You think she's on the table in the sunroom?",
+      "timestamp": 55.42
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yeah.",
+      "timestamp": 57.68
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay. I'll go find her. Okay, you stay here. I'll run down.",
+      "timestamp": 58.28
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Wait right there. Shh. There. There's Daddy. Shh. We're gonna get Ginger downstairs. Really?",
+      "timestamp": 85.46
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yeah.",
+      "timestamp": 113.23
+    },
+    {
+      "speaker": "Izzy",
+      "text": "You sure they left her straight in the box?",
+      "timestamp": 113.31
+    },
+    {
+      "speaker": "Dad",
+      "text": "I think so. Ginger too?",
+      "timestamp": 121.92
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yes, she's in the box.",
+      "timestamp": 157.56
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh.",
+      "timestamp": 158.31
+    },
+    {
+      "speaker": "Izzy",
+      "text": "She's in the box.",
+      "timestamp": 158.31
+    },
+    {
+      "speaker": "Dad",
+      "text": "You looked already?",
+      "timestamp": 161.18
+    },
+    {
+      "speaker": "Izzy",
+      "text": "There's a box-",
+      "timestamp": 163.22
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay",
+      "timestamp": 164.46
+    },
+    {
+      "speaker": "Izzy",
+      "text": "... on the bench. She's inside of the box.",
+      "timestamp": 164.79
+    },
+    {
+      "speaker": "Dad",
+      "text": "I understand. Thank you. Okay, Ginger, you gotta come out of the box and go in your special cage.",
+      "timestamp": 166.38
+    },
+    {
+      "speaker": "Izzy",
+      "text": "This is her special cage.",
+      "timestamp": 185.42
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, that is? Okay. And it goes, it goes in the shelf. Oops. Okay, Ginger, you gotta stay in here. All right. Now, are we gonna do Stars and Stories?",
+      "timestamp": 186.88
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Yep.",
+      "timestamp": 210.96
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yeah.",
+      "timestamp": 211.07
+    },
+    {
+      "speaker": "Izzy",
+      "text": "But always about Ha- Hattie.",
+      "timestamp": 211.72
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, about Hattie. Okay. And, uh, you wanna come down? Okay. Sit first. There you go. All right. Would you like to settle in?",
+      "timestamp": 214.8
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Always about Hattie.",
+      "timestamp": 242.76
+    },
+    {
+      "speaker": "Dad",
+      "text": "Yeah, it's always about Hattie. All right. Well, let's begin. Can I lie down here with you?",
+      "timestamp": 244.74
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Tell, tell, tell, t- t- tell, tell, tell, tell, tell.",
+      "timestamp": 255.34
+    },
+    {
+      "speaker": "Dad",
+      "text": "Okay. Okay. Once upon a time, there was a knock at Hattie the Workshop's door. And, and a voice said, \"Excuse me, I've heard this is the workshop of Hattie the Mouse. Is she available?\" And what did Hattie say?",
+      "timestamp": 262.11
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"Yes.\"",
+      "timestamp": 285.2
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"May I come in?\"",
+      "timestamp": 287.04
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"Yes.\"",
+      "timestamp": 288.19
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"Well, I'm, I'm a bit big to come in, so I'll stay out here.\" And through the door she could see the face of a kind and wise dwarf. Now, a dwarf is a creature like a person, but smaller, though much bigger than a mouse. And this, of course, was Seeker, the dwarf with a big braided beard and a long red cloak and many potions.",
+      "timestamp": 288.19
+    },
+    {
+      "speaker": "Dad",
+      "text": "And he said, \"I seek you out, Hattie the Mouse, because I have a quest for you. I would like you to find for me a hat that can talk. And there are no such hats here in the forest. You'll have to find one in a faraway place. But I have a whole closet full of potions that can take you to different places.",
+      "timestamp": 317.26
+    },
+    {
+      "speaker": "Dad",
+      "text": "I just don't know which one to go to, so you will have to choose. Do you accept this quest?\"",
+      "timestamp": 342.76
     },
     {
       "speaker": "Izzy",
       "text": "Uh-huh.",
-      "timestamp": 354.6
+      "timestamp": 349.26
     },
     {
       "speaker": "Dad",
-      "text": "'Well, come with me then and I will show you my closet full of potions.' And so Hattie and Seeker traveled to Seeker's house, which was a house made of stone at the edge of a mountain.",
-      "timestamp": 355.7
+      "text": "\"Well, come with me then and I will show you my closet full of potions.\" And so Hattie and Seeker traveled to Seeker's house, which was a house made of stone at the edge of a mountain Inside of Seeker's house, there were many interesting things, a beautiful kitchen and workshops, and a place to look out over the mountains from high above in a tower.",
+      "timestamp": 350.33
+    },
+    {
+      "speaker": "Dad",
+      "text": "But inside one of his special magic workshops was a closet with many shelves, and on each shelf were many little bottles of different sizes and shapes. And each bottle had a different colored liquid, and these were magical potions. And so Seeker said to Hattie, \"Okay, you may choose a potion to take you someplace to help us find this hat that can talk.",
+      "timestamp": 379.27
+    },
+    {
+      "speaker": "Dad",
+      "text": "Now, which one do you choose, Hattie?\"",
+      "timestamp": 407.11
     },
     {
       "speaker": "Izzy",
       "text": "Why do we need a hat that can talk?",
-      "timestamp": 409.2
+      "timestamp": 409.05
     },
     {
       "speaker": "Dad",
-      "text": "That is a good question. 'I need a hat for my friend...'",
-      "timestamp": 414.3
+      "text": "That is a good question. I need a hat for my friend. Uh, who is Seeker's friend?",
+      "timestamp": 415.19
     },
     {
       "speaker": "Izzy",
       "text": "Afiska.",
-      "timestamp": 424.5
+      "timestamp": 424.61
     },
     {
       "speaker": "Dad",
-      "text": "Afiska is a person?",
-      "timestamp": 425.6
+      "text": "Afiska.",
+      "timestamp": 425.91
     },
     {
       "speaker": "Izzy",
-      "text": "Afiska is a person.",
-      "timestamp": 428.4
+      "text": "And it is a person too.",
+      "timestamp": 427.13
     },
     {
       "speaker": "Dad",
-      "text": "And she has her own quest that will take her on a long journey. And she will need a hat because it's a journey to some place cold and rainy. And she needs it to talk because she needs someone to keep her company and help her on her quest. So where do you think we can find a talking hat? Perhaps this purple potion that will take us to the Planet of the Mookers? Or this silvery potion that will take us to the Sparkling Silver Desert? Or this white foamy potion that will take us to the Land of the Clouds?'",
-      "timestamp": 429.5
+      "text": "Afiska is a person, and she has her own quest that will take her on a long journey. And she will need a hat because it's a journey to someplace cold and rainy, and it- she needs it to talk because she needs someone to keep her company and help her on her quest.",
+      "timestamp": 429.7
+    },
+    {
+      "speaker": "Dad",
+      "text": "So where do you think we can find a talking hat? Perhaps this purple potion that will take us to the Planet of the Mookers, or this silvery potion that will take us to the Sparkling Silver Desert, or this white foamy potion that will take us to the Land of the Clouds.",
+      "timestamp": 449.73
+    },
+    {
+      "speaker": "Dad",
+      "text": "Where do you think we should go?",
+      "timestamp": 476.03
     },
     {
       "speaker": "Izzy",
-      "text": "The Land of the Clouds.",
-      "timestamp": 478.2
+      "text": "To the Land of the Clouds.",
+      "timestamp": 478.61
     },
     {
       "speaker": "Dad",
-      "text": "Ah yes, the Land of the Clouds. I wonder what kind of talking hats they might have there. Now, I happen to know that the Land of the Clouds is a tricky place to be if you can't fly. So let's take with us some magical thing that can help us fly. Do you think we should bring a magic carpet or some wings or a potion of flying?'",
-      "timestamp": 482.1
+      "text": "Ah, yes, the Land of the Clouds. I wonder what kind of talking hats they might have there. Now, I happen to know that the Land of the Clouds is a tricky place to be if you can't fly. So let's take with us some magical thing that can help us fly. Do you think we should bring a magic carpet, or some wings, or a potion of flying?",
+      "timestamp": 481.65
     },
     {
       "speaker": "Izzy",
       "text": "Some airplanes.",
-      "timestamp": 505.4
+      "timestamp": 505.11
     },
     {
       "speaker": "Dad",
-      "text": "Some airplanes! Oh. All right. I happen to have these two tiny airplanes. I can fly in one and you can fly in the other. How does that sound?",
-      "timestamp": 506.9
+      "text": "Some airplanes? Oh. All right. I happen to have these two tiny airplanes. I can fly in one, and you can fly in the other. How does that sound?",
+      "timestamp": 506.73
     },
     {
       "speaker": "Izzy",
-      "text": "Good. Now Hattie, you go in that one and Seeker, you go in that one.",
-      "timestamp": 518.2
+      "text": "Sounds good.",
+      "timestamp": 517.75
     },
     {
       "speaker": "Dad",
-      "text": "So Hattie's in one and Seeker's in the other. And Seeker said, 'Okay, now we take our potions to take us to the Land of the Clouds. And remember, each time we need to make up a rhyme.'",
-      "timestamp": 528.8
+      "text": "Now-",
+      "timestamp": 518.73
     },
     {
       "speaker": "Izzy",
-      "text": "Singer, singer, shutter-t-dangers todayers.",
-      "timestamp": 541.8
+      "text": "So Hattie, you are gonna fly in that one, and you are gonna fly in that one.",
+      "timestamp": 519.35
+    },
+    {
+      "speaker": "Dad",
+      "text": "So Hattie's in one and Seeker's in the other. And Seeker said, \"Okay, now, we take our potions to take us to the Land of the Clouds. And remember, each time you need to make up a rhyme.\"",
+      "timestamp": 528.09
+    },
+    {
+      "speaker": "Izzy",
+      "text": "So it's gonna be zipper, tinger, shacker, dais.",
+      "timestamp": 541.15
     },
     {
       "speaker": "Dad",
       "text": "Oh, one more time.",
-      "timestamp": 547.4
+      "timestamp": 546.53
     },
     {
       "speaker": "Izzy",
-      "text": "Finger, finger on my finger.",
-      "timestamp": 549.2
+      "text": "Tinger, dinger, on the tingler.",
+      "timestamp": 547.71
     },
     {
       "speaker": "Dad",
       "text": "And then a third time will take us there. Close your eyes and we'll say it. Say the rhyme again.",
-      "timestamp": 553.5
+      "timestamp": 551.41
     },
     {
       "speaker": "Izzy",
-      "text": "Finger, finger on my finger.",
-      "timestamp": 560.4
+      "text": "Tingle, fingle, on the tingle.",
+      "timestamp": 559.95
     },
     {
       "speaker": "Dad",
-      "text": "And then, whoosh! Hattie and Seeker in their two little airplanes were whisked away from Seeker's workshop to a beautiful, bright place. And all above and all around was the sparkling bright blue sky filled with fluffy white clouds. And their airplanes started to fall. And Seeker said, 'Hattie, press the button to start your plane!' And he started his [Engine sound] and the propeller started to spin and his airplane started to fly. And what did Hattie do?",
-      "timestamp": 563.2
+      "text": "And then whoosh. Hattie and Seeker and their two little airplanes were whisked away from Seeker's workshop to a beautiful, bright place. And all above and all around was the sparkling bright blue sky filled with fluffy white clouds. And their airplanes started to fall, and Seeker said, \"Hattie, press the button to start your plane,\" and he started his, and it went vroom.",
+      "timestamp": 562.96
+    },
+    {
+      "speaker": "Dad",
+      "text": "And the propeller started to spin, and his airplane started to fly. And what did Hattie do?",
+      "timestamp": 592.57
     },
     {
       "speaker": "Izzy",
-      "text": "She pulled the button.",
-      "timestamp": 602.3
+      "text": "Pressed the landed button.",
+      "timestamp": 600.87
     },
     {
       "speaker": "Dad",
-      "text": "And she pressed her button [Engine sound]. And Seeker said, 'No, no, we can't land here. There is no land. There's only clouds. If you go up, there's more clouds. If you go down, there's more clouds. But there's interesting creatures that live here. Perhaps we can find them and see if any of them could be a hat.' And so they flew in and out of the clouds. And what kind of creatures did they meet?",
-      "timestamp": 604.4
+      "text": "And she pressed her button, vroom, and Seeker said, \"No, no, we can't land here. There is no land. There's only clouds. If you go up, there's more clouds. If you go down, there's more clouds. But there's interesting creatures that live here. Perhaps we can find them and see if any of them could be a hat.\"",
+      "timestamp": 603.87
+    },
+    {
+      "speaker": "Dad",
+      "text": "And so they flew in and out of the clouds. Whoosh, whoosh, whoosh. And what kind of creatures did they meet?",
+      "timestamp": 622.55
     },
     {
       "speaker": "Izzy",
-      "text": "A lizard, spider, and a millipede.",
-      "timestamp": 633.2
+      "text": "Lizard.",
+      "timestamp": 633.11
     },
     {
       "speaker": "Dad",
-      "text": "A lizard and a spider and a millipede. Why yes, the Land of the Clouds has flying lizards and spiders and butterflies and flying millipedes. And they're all floating through the clouds. And they said, 'Hello, creatures!' And the creatures said, 'Hello, visitors!' And so which one did they talk to? Did they talk to a flying lizard or a butterfly or a millipede?",
-      "timestamp": 641.2
+      "text": "Ah, yes, of course. The-",
+      "timestamp": 634.91
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Spider and a millipede.",
+      "timestamp": 636.63
+    },
+    {
+      "speaker": "Dad",
+      "text": "Oh, a lizard and a spider and a millipede. Why, yes, the Land of the Clouds has flying lizards-",
+      "timestamp": 639.63
+    },
+    {
+      "speaker": "Izzy",
+      "text": "And butter- and butterflies",
+      "timestamp": 645.75
+    },
+    {
+      "speaker": "Dad",
+      "text": "... and butterflies, flies, and flying millipedes. And they were all floating through the clouds. And they said, \"Hello, creatures.\" And the creatures said, \"Hello, visitors.\" And so which one did they talk to? Did they talk to a flying lizard or a butterfly or a millipede?",
+      "timestamp": 648.37
     },
     {
       "speaker": "Izzy",
       "text": "Millipede.",
-      "timestamp": 670.5
+      "timestamp": 668.15
     },
     {
       "speaker": "Dad",
-      "text": "And the millipede said, 'Hello. What are you doing here in my cloud land?'",
-      "timestamp": 671.8
+      "text": "And the millipede said- \"Hello. What are you doing here in my cloud land?\"",
+      "timestamp": 668.82
     },
     {
       "speaker": "Izzy",
-      "text": "Just seeing if anybody could be a talking hat.",
-      "timestamp": 681.5
+      "text": "Just seeing if anybody could be talking hat.",
+      "timestamp": 680.79
     },
     {
       "speaker": "Dad",
-      "text": "'If anybody could be a talking hat? Oh, hmm. I don't know anybody that's hat-shaped. But I bet if you go over to that thunder cloud, you might find somebody.'",
-      "timestamp": 685.8
-    },
-    {
-      "speaker": "Izzy",
-      "text": "Okay.",
-      "timestamp": 699.5
-    },
-    {
-      "speaker": "Dad",
-      "text": "And there was a big thunder cloud full of little bolts of lightning and underneath was rain pouring out. And in and out of the thunder cloud, little shapes were darting back and forth at the edges. And Seeker said, 'We should fly closer to see what we can see over there.' And so together they flew their airplanes closer to the thunder cloud. And Seeker said, 'Wait, we shouldn't go too close. There's a lot of wind there because it's a storm. It could be dangerous. But maybe there's someone interesting that we could meet.' And just at that moment, whoosh! From above and behind them flew past an enormous white bird with great white wings. It was even bigger than the airplanes they were flying. And Seeker said, 'You there! Come help us!' And the great white bird wheeled around with a squawk and flew back down to talk to Hattie and Seeker. And the bird said, 'Hello! Hi! Graw! What brings you to this Land of Clouds?'",
-      "timestamp": 701.4
-    },
-    {
-      "speaker": "Izzy",
-      "text": "We need a talking hat for Seeker's friend.",
-      "timestamp": 783.2
-    },
-    {
-      "speaker": "Dad",
-      "text": "'Oh, a talking hat! Well, I happen to have a friend who is a hat. I'm wearing it right now, you see? Because I like to fly in and out of this great storm, but I do not like to get water in my eyes. And so I wear this creature upon my head. It is a Floofer. Say hello to everyone, Floofy the Floofer.' And Floofy said, 'Um, hi. I'm just a hat. But I like it here on Graw's head.'",
-      "timestamp": 788.5
-    },
-    {
-      "speaker": "Izzy",
-      "text": "And then stay there, we'll find another one.",
-      "timestamp": 841.5
-    },
-    {
-      "speaker": "Dad",
-      "text": "'Oh, well, thank you! That's very nice of you. I do have lots of Floofer friends that don't have anyone's heads to be hats for. We live at the top of the thunder cloud.'",
-      "timestamp": 844.8
+      "text": "If anybody could be a talking hat? Oh. Hmm. I don't know anybody that's hat-shaped, but I bet if you go over to that thundercloud, you might find somebody.",
+      "timestamp": 684.47
     },
     {
       "speaker": "Izzy",
       "text": "Okay.",
-      "timestamp": 861.5
+      "timestamp": 699.11
     },
     {
       "speaker": "Dad",
-      "text": "And Graw said, 'Let's all fly up there and find the Floofers.' And so they flew their airplanes following Graw, the great white bird with his Floofer hat, all the way to the top of the thunder cloud. And there they saw spinning around in a big circle lots of Floofers. The Floofers were kind of like flying jellyfish. They looked a little bit like tiny clouds themselves, but they had little tendrils hanging down the bottom, tentacles just like jellyfish, but for flying in the air. And all of them were a little bit hat-shaped, but none of them were on anybody's head. And so what did Hattie do now?",
-      "timestamp": 862.8
+      "text": "And there was a big thundercloud full of little bolts of lightning, boom, boom, boom, and underneath was rain pouring out. And in and out of the thundercloud, little shapes were darting back and forth at the edges. And Seeker said, \"We should fly closer to see what we can see over there.\"",
+      "timestamp": 701.61
+    },
+    {
+      "speaker": "Dad",
+      "text": "So together they flew their airplanes closer to the thundercloud and Seeker said, \"Wait, we shouldn't go too close. There's a lot of wind there because it's a storm. Could be dangerous, but maybe there's someone interesting that we could meet.\" And just at that moment, whoosh, from above and behind them flew past an enormous white bird with great white wings.",
+      "timestamp": 730.31
+    },
+    {
+      "speaker": "Dad",
+      "text": "It was even bigger than the airplanes they were flying. And Seeker said, \"You there, come help us.\" And the great, great white bird wheeled around with a squawk, \"Rawr, rawr,\" and flew back down to talk to Hattie and Seeker. And the bird said, \"Hello.\"",
+      "timestamp": 753.73
     },
     {
       "speaker": "Izzy",
-      "text": "She picked one.",
-      "timestamp": 910.5
+      "text": "\"Hi, Graw.\"",
+      "timestamp": 777.07
     },
     {
       "speaker": "Dad",
-      "text": "She picked one of the Floofers and said, 'Excuse me, Floofer, would you like to be a hat for someone?'",
-      "timestamp": 912.6
+      "text": "\"What brings you to this land of clouds?\"",
+      "timestamp": 779.79
     },
     {
       "speaker": "Izzy",
-      "text": "Yes!",
-      "timestamp": 920.2
+      "text": "\"Um, me and a talking hat are Seeker's friend.\"",
+      "timestamp": 783.43
     },
     {
       "speaker": "Dad",
-      "text": "'You would? Would you like to come right onto my head and try it out?'",
-      "timestamp": 921.5
+      "text": "\"Oh, a talking hat. Well, I happen to have a friend who is a hat. I'm wearing it right now, you see, because I like to fly in and out of this great storm, but I do not like to get water in my eyes, and so I wear this creature upon my head. It is a floofer.",
+      "timestamp": 788.14
+    },
+    {
+      "speaker": "Dad",
+      "text": "Say hello to everyone, Floofy the Floofer.\" And Floofy said, \"Um, hi. I'm just, I'm just a hat. Um, but I, I like it here on, on Graw's head. Um-\"",
+      "timestamp": 821.15
     },
     {
       "speaker": "Izzy",
-      "text": "Yes!",
-      "timestamp": 927.4
+      "text": "\"And you may stay there and we will find another one.\"",
+      "timestamp": 839.84
     },
     {
       "speaker": "Dad",
-      "text": "And this Floofer, what was this Floofer's name?",
-      "timestamp": 928.5
+      "text": "\"Oh. Well, I do have... Thank you. That's very nice of you. I do have lots of floofer friends that don't have anyone's hats, anyone's heads to be hats for. We, we live, um, at the top of the thundercloud.\"",
+      "timestamp": 843.84
     },
     {
       "speaker": "Izzy",
-      "text": "Floofer Fershika.",
-      "timestamp": 933.2
+      "text": "\"Okay.\"",
+      "timestamp": 860.71
     },
     {
       "speaker": "Dad",
-      "text": "Floofer Fershika hopped right onto Hattie's head. And she said, 'Oh,' Hattie said, 'Can I call you Fershika?' And the hat said, 'Yes! I love being a hat!' And so Seeker and Hattie flew their airplanes back down away from the storm cloud to where it was safer. And then Seeker said, 'Okay, let's drink our potions to bring us home. Goodbye, Graw! Thank you! Fershika, you can come with us, just have a sip.' And so they all went back to Seeker's workshop. And Seeker said, 'Well, thank you for your help, Hattie.'",
-      "timestamp": 935.4
+      "text": "\"So let's...\" And Graw said, \"Let's all fly up there and find the floofers.\" And so they flew their airplanes following Graw, the great white bird with his floofy hat, all the way to the top of the thundercloud. And there they saw, spinning around in a big circle, lots of the floofers.",
+      "timestamp": 861.78
+    },
+    {
+      "speaker": "Dad",
+      "text": "The floofers were kind of like flying jellyfish. They looked a little bit like tiny clouds themselves, but they had little tendrils hanging down the bottom, tentacles just like jellyfish, but for flying in the air. And all of them were a little bit hat-shaped, but none of them were on anybody's head.",
+      "timestamp": 888.73
+    },
+    {
+      "speaker": "Dad",
+      "text": "And so what did Hattie do now?",
+      "timestamp": 907.33
     },
     {
       "speaker": "Izzy",
-      "text": "Where's your friend?",
-      "timestamp": 974.6
+      "text": "She got it. She got it.",
+      "timestamp": 909.61
     },
     {
       "speaker": "Dad",
-      "text": "Well, we'll have to tell that part in another Stars and Stories, because that's the end for now.",
-      "timestamp": 976.2
+      "text": "She picked one of the floofers and said, \"Excuse me, Floofer, would you like to be a hat for someone?\"",
+      "timestamp": 912.81
+    },
+    {
+      "speaker": "Izzy",
+      "text": "\"Yes.\"",
+      "timestamp": 919.99
+    },
+    {
+      "speaker": "Dad",
+      "text": "\"You would? Would you like to come right onto my head and try it out?\" \"Yes.\" And this floofer, what's, what was this floofer's name?",
+      "timestamp": 921.16
+    },
+    {
+      "speaker": "Izzy",
+      "text": "Floofer Furshika.",
+      "timestamp": 932.63
+    },
+    {
+      "speaker": "Dad",
+      "text": "Floofer Furshika hopped right onto Hattie's head, and she said, \"Oh,\" Ha- Hattie said, \"can I call you Furshika?\" And the hat said, \"Yes. I love being a hat.\" And so Seeker and Hattie flew in their airplanes back down away from the storm cloud to where it was safer.",
+      "timestamp": 934.49
+    },
+    {
+      "speaker": "Dad",
+      "text": "And then Seeker said, \"Okay, let's drink our potions to bring us home. Goodbye, Graw. Thank you. Furshika, you can come with us. Just have a sip.\" And so they all went back to Seeker's workshop. And Seeker said, \"Well, thank you for your help, Hattie.\"",
+      "timestamp": 956.69
+    },
+    {
+      "speaker": "Izzy",
+      "text": "It's your friend.",
+      "timestamp": 974.28
+    },
+    {
+      "speaker": "Dad",
+      "text": "Well, we'll have to tell that part in another Stars in story, because that's the end for now.",
+      "timestamp": 976.23
     }
   ],
   "characters": [
@@ -359,7 +609,19 @@
       "description": "A stormy area within the cloud land, home to Graw and the Floofers."
     }
   ],
-  "wordCount": 1469,
-  "izzyWordCount": 132,
-  "dadWordCount": 1337
+  "wordCount": 1854,
+  "izzyWordCount": 224,
+  "dadWordCount": 1630,
+  "transcription": {
+    "engine": "scribe-v2",
+    "model": "scribe_v2",
+    "keyterms": 250,
+    "at": "2026-09-13T15:11:52.549Z",
+    "speakerMap": {
+      "speaker_0": "Izzy",
+      "speaker_1": "Dad"
+    },
+    "speakerMapMethod": "reference",
+    "speakerMapConfidence": "high"
+  }
 }
