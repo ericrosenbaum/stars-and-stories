@@ -43,6 +43,7 @@ import type { StoryRecord } from './lib/types.ts';
 
 const WEBP_QUALITY = Number(process.env.WEBP_QUALITY || '72');
 const WEBP_WIDTH = Number(process.env.WEBP_WIDTH || '1280');
+const IMAGE_SIZE = process.env.HEADER_IMAGE_SIZE || '2K'; // generate above the served width
 
 interface StoryboardScene {
   index: number;
@@ -139,7 +140,7 @@ function frameRefFromScene(scene: StoryboardScene): FrameRef | null {
 }
 
 async function renderScene(scene: StoryboardScene, frameRefs: FrameRef[]): Promise<boolean> {
-  const dataUrl = await generateImageFromPrompt(scene.prompt, refImages, 1, frameRefs).catch((e) => {
+  const dataUrl = await generateImageFromPrompt(scene.prompt, refImages, 1, frameRefs, { imageSize: IMAGE_SIZE }).catch((e) => {
     console.warn(`  scene ${scene.index} failed: ${e?.message || e}`);
     return null;
   });

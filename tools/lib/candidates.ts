@@ -17,6 +17,8 @@ import type { StoryRecord } from './types.ts';
 
 const WEBP_QUALITY = Number(process.env.WEBP_QUALITY || '72');
 const WEBP_WIDTH = Number(process.env.WEBP_WIDTH || '1280');
+// Generate above the served width so header.webp is a downscale, not an upscale.
+const IMAGE_SIZE = process.env.HEADER_IMAGE_SIZE || '2K';
 
 export interface CandidateItem {
   n: number;
@@ -72,7 +74,7 @@ export async function generateHeaderCandidates(
   console.log(`\nGenerating ${prompts.length} candidate image(s) with the Gemini image model...`);
   const images = await Promise.all(
     prompts.map((p) =>
-      generateImageFromPrompt(p, refImages).catch((e) => {
+      generateImageFromPrompt(p, refImages, 1, [], { imageSize: IMAGE_SIZE }).catch((e) => {
         console.warn(`  candidate failed: ${e?.message || e}`);
         return null;
       }),

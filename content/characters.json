@@ -344,7 +344,8 @@
       "The_Super_Mouse_Crew_and_the_Wizard_s_Lost_Hat",
       "The_Mystery_of_Peacock_s_Hat_and_the_Moopa_Doopa",
       "The_Great_Bee_Escape_From_Sprinkle_Honey_to_the_Mariana_Trench",
-      "Frazgle_s_Gray_Mischief_and_the_Rainbow_Forest_Rescue"
+      "Frazgle_s_Gray_Mischief_and_the_Rainbow_Forest_Rescue",
+      "The_Sparkly_Rock_That_Woke_Up"
     ],
     "firstAppearanceStoryId": "Expedition_to_the_Deep-Deep_Dark",
     "aliases": [
@@ -764,7 +765,8 @@
       "Dimatar_s_Big_Day_at_Ginger_Catasorry",
       "The_Flying_Friends_of_Strawberry_Island",
       "Dimitar_s_Flight_to_Cadasori",
-      "The_Grand_Coronation_and_Wedding_at_the_Darkness_Party"
+      "The_Grand_Coronation_and_Wedding_at_the_Darkness_Party",
+      "The_Sparkly_Rock_That_Woke_Up"
     ],
     "firstAppearanceStoryId": "Stars_and_Stories_The_Great_Cat_Rescue"
   },
@@ -2205,7 +2207,8 @@
       "The_Thirty_Cats_of_Kibble_World",
       "An_Accidental_Trip_to_Nana_s_House",
       "Seeker_and_the_Security_Cats_The_Potion_Caper",
-      "Prehistoric_Potion_Adventures"
+      "Prehistoric_Potion_Adventures",
+      "The_Sparkly_Rock_That_Woke_Up"
     ],
     "firstAppearanceStoryId": "Hattie_the_Mouse_s_Custom_Hat_Shop",
     "aliases": [
@@ -2887,7 +2890,8 @@
       "Walkie-Talkies_for_the_Yellow_Jackets",
       "The_Super_Mouse_Crew_and_the_Wizard_s_Lost_Hat",
       "The_Mystery_of_Peacock_s_Hat_and_the_Moopa_Doopa",
-      "Frazgle_s_Gray_Mischief_and_the_Rainbow_Forest_Rescue"
+      "Frazgle_s_Gray_Mischief_and_the_Rainbow_Forest_Rescue",
+      "The_Sparkly_Rock_That_Woke_Up"
     ],
     "firstAppearanceStoryId": "The_Mischief_Moles_and_the_Plane_of_Fire",
     "aliases": [
@@ -4949,7 +4953,8 @@
     "storyIds": [
       "The_Bouncing_Floofers_of_the_Golden_Cloud",
       "The_Potion_to_Izzy_s_Attic",
-      "Frazgle_s_Gray_Mischief_and_the_Rainbow_Forest_Rescue"
+      "Frazgle_s_Gray_Mischief_and_the_Rainbow_Forest_Rescue",
+      "The_Sparkly_Rock_That_Woke_Up"
     ],
     "firstAppearanceStoryId": "The_Bouncing_Floofers_of_the_Golden_Cloud",
     "aliases": [
@@ -6649,7 +6654,8 @@
     "description": "A stray bunny rabbit found in the woods who gets adopted by Seeker.",
     "storyIds": [
       "Seeker_s_Midnight_Adventure_and_the_Dancing_Pterodactyl",
-      "The_Grand_Coronation_and_Wedding_at_the_Darkness_Party"
+      "The_Grand_Coronation_and_Wedding_at_the_Darkness_Party",
+      "The_Sparkly_Rock_That_Woke_Up"
     ],
     "firstAppearanceStoryId": "Seeker_s_Midnight_Adventure_and_the_Dancing_Pterodactyl"
   },
@@ -6966,5 +6972,14 @@
       "Frazgle_s_Gray_Mischief_and_the_Rainbow_Forest_Rescue"
     ],
     "firstAppearanceStoryId": "Frazgle_s_Gray_Mischief_and_the_Rainbow_Forest_Rescue"
+  },
+  {
+    "id": "630c306faec246ab9508",
+    "name": "The Gemstone Creatures",
+    "description": "Tiny living rocks of white crystal flecked with purple sparkles, decorated all over with painted flowers and mussels instead of clothing. They sleep for long stretches, wake with blinking eyes and a wide yawn, and bob and wobble as they walk. Born at the Crystal Mountain, a group of them had been napping on Znerbert Mountain until Silver carried one home to Seeker's castle.",
+    "storyIds": [
+      "The_Sparkly_Rock_That_Woke_Up"
+    ],
+    "firstAppearanceStoryId": "The_Sparkly_Rock_That_Woke_Up"
   }
 ]

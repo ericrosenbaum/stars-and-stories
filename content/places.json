@@ -4250,7 +4250,8 @@
       "The_Stinky_Cheese_Volcano_and_the_Floating_Balloon_Sky",
       "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness",
       "The_Case_of_the_Kidnapped_Dwarf_and_the_Magic_Ladder",
-      "The_Super_Mouse_Crew_and_the_Wizard_s_Lost_Hat"
+      "The_Super_Mouse_Crew_and_the_Wizard_s_Lost_Hat",
+      "The_Sparkly_Rock_That_Woke_Up"
     ],
     "firstAppearanceStoryId": "A_Sticky_Adventure_to_the_Castle_of_Slime"
   },
@@ -4378,7 +4379,8 @@
       "The_Best_Mole_Hole_Ever",
       "The_Bouncing_Floofers_of_the_Golden_Cloud",
       "Seeker_and_the_Security_Cats_The_Potion_Caper",
-      "Frazgle_s_Gray_Mischief_and_the_Rainbow_Forest_Rescue"
+      "Frazgle_s_Gray_Mischief_and_the_Rainbow_Forest_Rescue",
+      "The_Sparkly_Rock_That_Woke_Up"
     ],
     "firstAppearanceStoryId": "The_Best_Mole_Hole_Ever"
   },
@@ -5386,5 +5388,14 @@
       "Frazgle_s_Gray_Mischief_and_the_Rainbow_Forest_Rescue"
     ],
     "firstAppearanceStoryId": "Frazgle_s_Gray_Mischief_and_the_Rainbow_Forest_Rescue"
+  },
+  {
+    "id": "50c725cbc12d4da09aff",
+    "name": "Znerbert Mountain",
+    "description": "A mountain that rattles and shakes — from the wind, not from monsters — where a colony of gemstone creatures slept until the shaking sent them away. Silver climbed to its top and came down dirty from rolling all the way home.",
+    "storyIds": [
+      "The_Sparkly_Rock_That_Woke_Up"
+    ],
+    "firstAppearanceStoryId": "The_Sparkly_Rock_That_Woke_Up"
   }
 ]

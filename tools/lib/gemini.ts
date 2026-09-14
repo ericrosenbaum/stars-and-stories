@@ -29,7 +29,10 @@ async function fakeImageDataUrl(dims?: { w: number; h: number }): Promise<string
 }
 
 // Override via GEMINI_IMAGE_MODEL in .env if the default is no longer valid.
-export const imageModel = () => process.env.GEMINI_IMAGE_MODEL || 'gemini-3.1-flash-image-preview';
+// gemini-3.1-flash-image ("Nano Banana 2") is the newest generation and, tested
+// 2026-09-14 on this archive's pen-and-ink style, renders cleaner line work and
+// better faces than the older gemini-3-pro-image ("Nano Banana Pro") tier.
+export const imageModel = () => process.env.GEMINI_IMAGE_MODEL || 'gemini-3.1-flash-image';
 
 export function getAI(): GoogleGenAI {
   const apiKey = process.env.GEMINI_API_KEY || process.env.API_KEY || '';
