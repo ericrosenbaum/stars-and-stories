@@ -345,7 +345,8 @@
       "The_Mystery_of_Peacock_s_Hat_and_the_Moopa_Doopa",
       "The_Great_Bee_Escape_From_Sprinkle_Honey_to_the_Mariana_Trench",
       "Frazgle_s_Gray_Mischief_and_the_Rainbow_Forest_Rescue",
-      "The_Sparkly_Rock_That_Woke_Up"
+      "The_Sparkly_Rock_That_Woke_Up",
+      "The_Potion_Factory_and_the_Journey_to_Bead_World"
     ],
     "firstAppearanceStoryId": "Expedition_to_the_Deep-Deep_Dark",
     "aliases": [
@@ -2110,7 +2111,8 @@
       "The_Grand_Singing_Competition_of_Circular_Island",
       "The_Mysterious_Sand_Bottle_and_the_No-Crying_Game",
       "The_Case_of_the_Kidnapped_Dwarf_and_the_Magic_Ladder",
-      "The_Mystery_of_Peacock_s_Hat_and_the_Moopa_Doopa"
+      "The_Mystery_of_Peacock_s_Hat_and_the_Moopa_Doopa",
+      "The_Potion_Factory_and_the_Journey_to_Bead_World"
     ],
     "firstAppearanceStoryId": "Dimitar_and_the_Blueberry_Dragon_Pop",
     "aliases": [
@@ -2891,7 +2893,8 @@
       "The_Super_Mouse_Crew_and_the_Wizard_s_Lost_Hat",
       "The_Mystery_of_Peacock_s_Hat_and_the_Moopa_Doopa",
       "Frazgle_s_Gray_Mischief_and_the_Rainbow_Forest_Rescue",
-      "The_Sparkly_Rock_That_Woke_Up"
+      "The_Sparkly_Rock_That_Woke_Up",
+      "The_Potion_Factory_and_the_Journey_to_Bead_World"
     ],
     "firstAppearanceStoryId": "The_Mischief_Moles_and_the_Plane_of_Fire",
     "aliases": [
@@ -2972,7 +2975,8 @@
     "description": "A spirited mouse racer who navigates grueling long-distance courses through tangled jungles and exotic zoos with a carefree heart. Unburdened by any worldly troubles, he finds bliss in the adrenaline of the track and the quiet precision of building with Legos, living a life of seamless, architectural joy.",
     "storyIds": [
       "The_Lego_Adventures_of_Mistress_Mouse_and_Other_Mouse",
-      "The_Many_Adventures_of_Mistress_Mouse"
+      "The_Many_Adventures_of_Mistress_Mouse",
+      "The_Potion_Factory_and_the_Journey_to_Bead_World"
     ],
     "firstAppearanceStoryId": "The_Lego_Adventures_of_Mistress_Mouse_and_Other_Mouse"
   },
@@ -5774,7 +5778,8 @@
       "Tot_s_Great_Cheese_Beach_Adventure",
       "The_Case_of_the_Kidnapped_Dwarf_and_the_Magic_Ladder",
       "The_Super_Mouse_Crew_and_the_Wizard_s_Lost_Hat",
-      "The_Mystery_of_Peacock_s_Hat_and_the_Moopa_Doopa"
+      "The_Mystery_of_Peacock_s_Hat_and_the_Moopa_Doopa",
+      "The_Potion_Factory_and_the_Journey_to_Bead_World"
     ],
     "firstAppearanceStoryId": "The_Wizard_s_Play-Doh_Hat_Quest",
     "aliases": [
@@ -6981,5 +6986,41 @@
       "The_Sparkly_Rock_That_Woke_Up"
     ],
     "firstAppearanceStoryId": "The_Sparkly_Rock_That_Woke_Up"
+  },
+  {
+    "id": "34d966a77f2044db9a32",
+    "name": "Baby Mouse",
+    "description": "A little mouse who sells flowers at the potion factory, since flowers make good potion ingredients.",
+    "storyIds": [
+      "The_Potion_Factory_and_the_Journey_to_Bead_World"
+    ],
+    "firstAppearanceStoryId": "The_Potion_Factory_and_the_Journey_to_Bead_World"
+  },
+  {
+    "id": "d6553ab295d84bd1bd6c",
+    "name": "Seashell the Mouse",
+    "description": "A mouse who sells top-quality potion wood at the potion factory.",
+    "storyIds": [
+      "The_Potion_Factory_and_the_Journey_to_Bead_World"
+    ],
+    "firstAppearanceStoryId": "The_Potion_Factory_and_the_Journey_to_Bead_World"
+  },
+  {
+    "id": "36b523f1657f4d3b911e",
+    "name": "Zoe the Rose",
+    "description": "A friendly little rose creature of Bead World, with a green stem, thorns, arms and legs, and a cute face on one of her petals.",
+    "storyIds": [
+      "The_Potion_Factory_and_the_Journey_to_Bead_World"
+    ],
+    "firstAppearanceStoryId": "The_Potion_Factory_and_the_Journey_to_Bead_World"
+  },
+  {
+    "id": "93c6b630594a4a368cb3",
+    "name": "Stringy the Necklace",
+    "description": "A necklace of Bead World who loses her clasp and calls out for help.",
+    "storyIds": [
+      "The_Potion_Factory_and_the_Journey_to_Bead_World"
+    ],
+    "firstAppearanceStoryId": "The_Potion_Factory_and_the_Journey_to_Bead_World"
   }
 ]
