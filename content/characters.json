@@ -346,7 +346,8 @@
       "The_Great_Bee_Escape_From_Sprinkle_Honey_to_the_Mariana_Trench",
       "Frazgle_s_Gray_Mischief_and_the_Rainbow_Forest_Rescue",
       "The_Sparkly_Rock_That_Woke_Up",
-      "The_Potion_Factory_and_the_Journey_to_Bead_World"
+      "The_Potion_Factory_and_the_Journey_to_Bead_World",
+      "Blemus_The_Gravity_Goldfish_Is_Coming"
     ],
     "firstAppearanceStoryId": "Expedition_to_the_Deep-Deep_Dark",
     "aliases": [
@@ -1283,7 +1284,8 @@
       "The_Stinky_Cheese_Volcano_and_the_Komodo_Dragon_Quest",
       "Bunsen_s_First_Day_at_Catasory",
       "The_Secret_of_the_Galapagos_Blub_Creatures",
-      "The_Grand_Coronation_and_Wedding_at_the_Darkness_Party"
+      "The_Grand_Coronation_and_Wedding_at_the_Darkness_Party",
+      "Blemus_The_Gravity_Goldfish_Is_Coming"
     ],
     "firstAppearanceStoryId": "Science_in_the_Bakery",
     "aliases": [
@@ -2743,7 +2745,8 @@
     "storyIds": [
       "The_Salty_Solution_for_a_Frozen_Island",
       "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission",
-      "Tot_s_Great_Cheese_Beach_Adventure"
+      "Tot_s_Great_Cheese_Beach_Adventure",
+      "Blemus_The_Gravity_Goldfish_Is_Coming"
     ],
     "firstAppearanceStoryId": "The_Salty_Solution_for_a_Frozen_Island"
   },
@@ -2894,7 +2897,8 @@
       "The_Mystery_of_Peacock_s_Hat_and_the_Moopa_Doopa",
       "Frazgle_s_Gray_Mischief_and_the_Rainbow_Forest_Rescue",
       "The_Sparkly_Rock_That_Woke_Up",
-      "The_Potion_Factory_and_the_Journey_to_Bead_World"
+      "The_Potion_Factory_and_the_Journey_to_Bead_World",
+      "Blemus_The_Gravity_Goldfish_Is_Coming"
     ],
     "firstAppearanceStoryId": "The_Mischief_Moles_and_the_Plane_of_Fire",
     "aliases": [
@@ -4269,7 +4273,8 @@
       "The_Stinky_Cheese_Volcano_and_the_Komodo_Dragon_Quest",
       "Bunsen_s_First_Day_at_Catasory",
       "The_Secret_of_the_Galapagos_Blub_Creatures",
-      "The_Grand_Coronation_and_Wedding_at_the_Darkness_Party"
+      "The_Grand_Coronation_and_Wedding_at_the_Darkness_Party",
+      "Blemus_The_Gravity_Goldfish_Is_Coming"
     ],
     "firstAppearanceStoryId": "Late_Night_Tea_with_Mrs_Piggy_and_the_Muppets",
     "aliases": [
@@ -4292,7 +4297,8 @@
     "storyIds": [
       "The_Sneaky_Popper_of_Balloon_World",
       "The_Salty_Solution_for_a_Frozen_Island",
-      "Frazgle_s_Gray_Mischief_and_the_Rainbow_Forest_Rescue"
+      "Frazgle_s_Gray_Mischief_and_the_Rainbow_Forest_Rescue",
+      "Blemus_The_Gravity_Goldfish_Is_Coming"
     ],
     "firstAppearanceStoryId": "The_Sneaky_Popper_of_Balloon_World",
     "aliases": [
@@ -4324,7 +4330,8 @@
     "storyIds": [
       "The_Solar_Expedition_of_Stars_and_Snories",
       "Seeker_s_Guide_to_Volcanoes_Space_and_Sunlight",
-      "A_Valentine_for_Gravity_Goldfish"
+      "A_Valentine_for_Gravity_Goldfish",
+      "Blemus_The_Gravity_Goldfish_Is_Coming"
     ],
     "firstAppearanceStoryId": "The_Solar_Expedition_of_Stars_and_Snories"
   },
@@ -4857,7 +4864,8 @@
       "The_Salty_Solution_for_a_Frozen_Island",
       "The_Adventures_of_Pumpkin_and_the_Potion_Closet",
       "Tot_s_Great_Cheese_Beach_Adventure",
-      "Frazgle_s_Gray_Mischief_and_the_Rainbow_Forest_Rescue"
+      "Frazgle_s_Gray_Mischief_and_the_Rainbow_Forest_Rescue",
+      "Blemus_The_Gravity_Goldfish_Is_Coming"
     ],
     "firstAppearanceStoryId": "Kitty_s_Crew_and_the_Underground_Adventure",
     "aliases": [
@@ -5903,7 +5911,8 @@
     "description": "Zoe's cat.",
     "storyIds": [
       "The_Salty_Solution_for_a_Frozen_Island",
-      "Frazgle_s_Gray_Mischief_and_the_Rainbow_Forest_Rescue"
+      "Frazgle_s_Gray_Mischief_and_the_Rainbow_Forest_Rescue",
+      "Blemus_The_Gravity_Goldfish_Is_Coming"
     ],
     "firstAppearanceStoryId": "The_Salty_Solution_for_a_Frozen_Island"
   },
@@ -7022,5 +7031,77 @@
       "The_Potion_Factory_and_the_Journey_to_Bead_World"
     ],
     "firstAppearanceStoryId": "The_Potion_Factory_and_the_Journey_to_Bead_World"
+  },
+  {
+    "id": "4fcfe9005af54157a2db",
+    "name": "The Giant Bee",
+    "description": "A friendly bee as big as Isabella who lives in Bee World, offers rides on its back and threatens to sting Gravity Goldfish.",
+    "storyIds": [
+      "Blemus_The_Gravity_Goldfish_Is_Coming"
+    ],
+    "firstAppearanceStoryId": "Blemus_The_Gravity_Goldfish_Is_Coming"
+  },
+  {
+    "id": "14464aa2a3814363b26c",
+    "name": "Anne Pony",
+    "description": "A pony friend of Isabella's who comes along with Elsa Pony to help solve big problems.",
+    "storyIds": [
+      "Blemus_The_Gravity_Goldfish_Is_Coming"
+    ],
+    "firstAppearanceStoryId": "Blemus_The_Gravity_Goldfish_Is_Coming"
+  },
+  {
+    "id": "4cb92b97f0a1422e8ef8",
+    "name": "Crystal Pony",
+    "description": "A new pony friend of Isabella's who joins the team gathering to face Gravity Goldfish.",
+    "storyIds": [
+      "Blemus_The_Gravity_Goldfish_Is_Coming"
+    ],
+    "firstAppearanceStoryId": "Blemus_The_Gravity_Goldfish_Is_Coming"
+  },
+  {
+    "id": "ce33788991844a999280",
+    "name": "Queen Pony",
+    "description": "A royal pony who answers Isabella's call for help.",
+    "storyIds": [
+      "Blemus_The_Gravity_Goldfish_Is_Coming"
+    ],
+    "firstAppearanceStoryId": "Blemus_The_Gravity_Goldfish_Is_Coming"
+  },
+  {
+    "id": "b69800e6e0b648afbb5e",
+    "name": "The Kind Demons",
+    "description": "Isabella's new work friends: kind, singing demons famous for a song that begins \"My little soda pop.\"",
+    "storyIds": [
+      "Blemus_The_Gravity_Goldfish_Is_Coming"
+    ],
+    "firstAppearanceStoryId": "Blemus_The_Gravity_Goldfish_Is_Coming"
+  },
+  {
+    "id": "6ad1efc808d54e5f999d",
+    "name": "Cherry",
+    "description": "A new superhero friend of Isabella's who rides her horse, Helper Horse.",
+    "storyIds": [
+      "Blemus_The_Gravity_Goldfish_Is_Coming"
+    ],
+    "firstAppearanceStoryId": "Blemus_The_Gravity_Goldfish_Is_Coming"
+  },
+  {
+    "id": "1de2ee83b81c4f3eaa5c",
+    "name": "Helper Horse",
+    "description": "Cherry the superhero's trusty horse.",
+    "storyIds": [
+      "Blemus_The_Gravity_Goldfish_Is_Coming"
+    ],
+    "firstAppearanceStoryId": "Blemus_The_Gravity_Goldfish_Is_Coming"
+  },
+  {
+    "id": "c4b7f8326b414bfca114",
+    "name": "Rainbow Disco",
+    "description": "A unicorn friend who joins Isabella's team of helpers.",
+    "storyIds": [
+      "Blemus_The_Gravity_Goldfish_Is_Coming"
+    ],
+    "firstAppearanceStoryId": "Blemus_The_Gravity_Goldfish_Is_Coming"
   }
 ]

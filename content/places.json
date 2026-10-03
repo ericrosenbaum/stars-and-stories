@@ -77,7 +77,8 @@
       "A_Sticky_Adventure_to_the_Castle_of_Slime",
       "Slime-Ka-Bye_The_Beard-Dweller_s_Deep_Sea_Adventure",
       "Shark_Friends_and_the_Deep_Deep_Dark",
-      "The_Adventures_of_Pumpkin_and_the_Potion_Closet"
+      "The_Adventures_of_Pumpkin_and_the_Potion_Closet",
+      "Blemus_The_Gravity_Goldfish_Is_Coming"
     ],
     "firstAppearanceStoryId": "A_Sticky_Adventure_to_the_Castle_of_Slime"
   },
@@ -4252,7 +4253,8 @@
       "The_Case_of_the_Kidnapped_Dwarf_and_the_Magic_Ladder",
       "The_Super_Mouse_Crew_and_the_Wizard_s_Lost_Hat",
       "The_Sparkly_Rock_That_Woke_Up",
-      "The_Potion_Factory_and_the_Journey_to_Bead_World"
+      "The_Potion_Factory_and_the_Journey_to_Bead_World",
+      "Blemus_The_Gravity_Goldfish_Is_Coming"
     ],
     "firstAppearanceStoryId": "A_Sticky_Adventure_to_the_Castle_of_Slime"
   },
@@ -5425,5 +5427,14 @@
       "The_Potion_Factory_and_the_Journey_to_Bead_World"
     ],
     "firstAppearanceStoryId": "The_Potion_Factory_and_the_Journey_to_Bead_World"
+  },
+  {
+    "id": "8298f09a68b0444683f8",
+    "name": "Bee World",
+    "description": "A world reached by a red swirly potion, where visitors shrink to bee size beneath a forest of towering yellow flowers.",
+    "storyIds": [
+      "Blemus_The_Gravity_Goldfish_Is_Coming"
+    ],
+    "firstAppearanceStoryId": "Blemus_The_Gravity_Goldfish_Is_Coming"
   }
 ]
