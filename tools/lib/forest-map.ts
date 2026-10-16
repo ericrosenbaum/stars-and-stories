@@ -43,30 +43,52 @@ const candidatesJsonPath = () => path.join(candidatesDir(), 'candidates.json');
 const SKETCH_INSTRUCTION =
   'The attached image is a schematic layout map. Treat it as the EXACT geographic ground truth: ' +
   'every region, path, water course, and circled site must appear at the same position, size, and ' +
-  'shape in your painting. The colored text notes on the schematic are drawing instructions for what ' +
-  'terrain belongs there — follow them, but do NOT render any of that text.';
+  'shape in your painting. Colored dots mark named sites; paint only the terrain there, never the dots.';
+
+// How the model should treat a candidate it is asked to revise (--edit).
+const EDIT_INSTRUCTION =
+  'The attached image is a finished map painting. Reproduce it as faithfully as possible — same ' +
+  'composition, geography, positions, palette, and linework everywhere — changing ONLY what the ' +
+  'requested edits below describe.';
+
+/** Prompt for revising an existing candidate: the edits plus the standing exclusions. */
+export function landscapeEditPrompt(edits: string): string {
+  return `Requested edits: ${edits}
+
+Everything else stays exactly as it is. The image must still contain NO text of any kind (no letters,
+numbers, labels, borders, or legends), NO buildings or structures, and NO people, animals, or creatures.
+Portrait orientation, full-bleed edge to edge, no margin or frame.`;
+}
 
 /** The Tolkien-atlas base prompt, with optional user feedback woven in. */
 export function landscapePrompt(feedback?: string): string {
-  const base = `Paint a hand-drawn fantasy woodland map in the style of a classic Tolkien-esque atlas:
+  const base = `Paint a hand-drawn fantasy storybook map in the style of a classic Tolkien-esque atlas:
 aged parchment ground, fine sepia ink linework, dense hand-drawn hatching and stippling, muted
 watercolor washes of moss green, umber, and slate blue, soft vignetted edges.
 
-Landscape features only:
-- A snow-capped mountain range across the top, with foothills below it.
-- Rolling deciduous forest filling the middle ground — individually drawn clustered treetops, denser
-  and darker where the schematic marks a thicket, with pine/evergreen groves where marked.
-- A river winding down, smaller streams, a pond and a reedy swamp where marked; a dirt road and faint
-  foot trails shown as gaps threading between the trees.
-- The bottom portion of the image, below the single grassy ground line, is an underground cross-section
-  (cutaway) seen side-on: layered brown soil strata, tree roots reaching down, and winding EMPTY tunnels
-  connecting rounded EMPTY burrow chambers exactly where the schematic places them.
+Landscape features only, in four regions exactly where the schematic places them:
+- THE MOUNTAINS across the whole top of the map: a snow-capped range with one tallest, pointiest peak above the
+  clouds, a glittering mountain of multi-colored crystal among them, and foothills below that reach down to the coast on the right.
+- THE WOODS filling the middle and lower left: rolling deciduous forest of individually drawn clustered
+  treetops, with an open green hill, a huge old hollow tree in a small clearing, a sunny meadow at the
+  forest edge, and a rocky headland where the woods meet the sea. Faint foot trails thread between the
+  trees as gaps where the schematic draws them.
+- THE OCEAN, a bay on the right that begins below the mountains (it never reaches the top edge), with gentle hatched waves and a sandy beach where it meets the
+  land. Four islands, each recognizable by its shape: a perfectly round island with a small volcano in
+  its center, a perfectly square island with neat square fields, an island whose coastline is shaped like
+  a strawberry (a real island of land with a sandy beach rim and trees, not a floating fruit), and an
+  island whose forest grows in concentric rainbow rings (red on the outermost ring, then orange, yellow,
+  green, blue, and purple at the center) with a pink and gold beach.
+- THE UNDERGROUND: the bottom portion of the image, below the single grassy ground line, is an
+  underground cross-section (cutaway) seen side-on: layered brown soil strata, tree roots reaching down,
+  and winding EMPTY tunnels connecting rounded EMPTY burrow chambers exactly where the schematic places
+  them, with a honeycomb of many small chambers at the deepest level.
 
 STRICT EXCLUSIONS — the image must contain:
 - NO text of any kind: no letters, numbers, labels, runes, compass roses, cartouches, borders, title
   banners, or map legends.
 - NO buildings or structures: no castles, towers, houses, bridges, or ruins — even where the schematic
-  marks a named site, draw only the natural terrain (a peak, a hill, a clearing, a large rock, a cave mouth).
+  marks a named site, draw only the natural terrain (a peak, a hill, a clearing, a hollow tree, a cliff).
 - NO people, animals, or creatures.
 
 Portrait orientation, full-bleed edge to edge, no margin or frame.`;
@@ -79,7 +101,11 @@ async function rasterizeSketch(): Promise<Buffer> {
       `No layout sketch at ${path.relative(ROOT, FOREST_SKETCH_SVG)}. Generate one first: npm run forest-sketch`,
     );
   }
-  return sharp(FOREST_SKETCH_SVG, { density: 220 })
+  // Strip every <text> (place labels and the red notes) before rasterizing: the
+  // model copies visible lettering into the painting, and the prompt already
+  // describes what each region holds.
+  const svg = fs.readFileSync(FOREST_SKETCH_SVG, 'utf8').replace(/<text\b[\s\S]*?<\/text>/g, '');
+  return sharp(Buffer.from(svg), { density: 220 })
     .resize(RASTER_W, RASTER_H, { fit: 'fill' })
     .png()
     .toBuffer();
@@ -96,15 +122,23 @@ export interface LandscapeItem {
  * previous batch. Never touches content/forest-map/landscape.png.
  */
 export async function generateLandscapeCandidates(
-  opts: { feedback?: string; exactPrompt?: string; imageSize?: string; count?: number } = {},
+  opts: { feedback?: string; exactPrompt?: string; imageSize?: string; count?: number; edit?: { n: number; edits: string } } = {},
 ): Promise<{ dir: string; galleryPath: string; items: LandscapeItem[] }> {
   const count = opts.count ?? 3;
   const imageSize = opts.imageSize ?? '2K';
   const sketchPng = await rasterizeSketch();
-  const conditionImage = { data: sketchPng.toString('base64'), mimeType: 'image/png', instruction: SKETCH_INSTRUCTION };
 
-  const prompt = opts.exactPrompt ?? landscapePrompt(opts.feedback);
-  console.log(`\nPrompt (${imageSize}, 3:4), conditioned on the layout sketch:\n${prompt}\n`);
+  // --edit conditions on a candidate of the current batch instead of the sketch
+  // (read before the batch directory is replaced below).
+  let conditionImage = { data: sketchPng.toString('base64'), mimeType: 'image/png', instruction: SKETCH_INSTRUCTION };
+  let prompt = opts.exactPrompt ?? landscapePrompt(opts.feedback);
+  if (opts.edit) {
+    const base = path.join(candidatesDir(), `candidate-${opts.edit.n}.png`);
+    if (!fs.existsSync(base)) throw new Error(`No candidate ${opts.edit.n} in the current batch to edit.`);
+    conditionImage = { data: fs.readFileSync(base).toString('base64'), mimeType: 'image/png', instruction: EDIT_INSTRUCTION };
+    prompt = landscapeEditPrompt(opts.edit.edits);
+  }
+  console.log(`\nPrompt (${imageSize}, 3:4), conditioned on ${opts.edit ? `candidate ${opts.edit.n}` : 'the layout sketch'}:\n${prompt}\n`);
   console.log(`Generating ${count} landscape candidate(s) with Gemini...`);
 
   const images = await Promise.all(

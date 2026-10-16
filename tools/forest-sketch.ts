@@ -28,11 +28,45 @@ import path from 'node:path';
 
 // ---- shared geometry / palette (mirrors site/src/forest.js ZONE) ----
 const ZONE_FILL: Record<string, string> = {
-  canopy: '#4f7a43',
-  surface: '#6c9147',
-  water: '#4f89ab',
-  landmark: '#a8783f',
+  woods: '#5b8a43',
   underground: '#8a5f3c',
+  ocean: '#3f7fa6',
+  mountains: '#7a7f9a',
+};
+// The ocean: a bay on the right, from below the mountains down to the beach.
+const OCEAN_D =
+  'M 1000,455 C 900,445 770,455 722,505 C 694,545 700,620 712,690 C 724,790 760,865 820,908 ' +
+  'C 870,940 940,958 1000,962 Z';
+// The mountain range across the whole top, its foothills reaching the coast on the right.
+const MOUNTAINS_D =
+  'M 0,0 L 1000,0 L 1000,445 C 900,435 800,425 725,385 C 630,330 520,290 440,300 C 330,320 200,300 0,330 Z';
+// Island outlines, keyed by location id: what makes each one recognizable.
+const ISLAND_SHAPE: Record<string, (x: number, y: number) => string> = {
+  'circular-island': (x, y) => `<circle cx="${x}" cy="${y}" r="62"/>`,
+  'square-island': (x, y) => `<rect x="${x - 42}" y="${y - 42}" width="84" height="84"/>`,
+  'strawberry-island': (x, y) =>
+    `<path d="M ${x},${y + 46} C ${x - 40},${y + 14} ${x - 44},${y - 30} ${x - 18},${y - 36} C ${x - 6},${y - 40} ${x + 6},${y - 40} ${x + 18},${y - 36} C ${x + 44},${y - 30} ${x + 40},${y + 14} ${x},${y + 46} Z"/>`,
+  // Concentric rings of forest color, red outermost.
+  'rainbow-island': (x, y) =>
+    ['#e05a4a', '#ee9a45', '#efd35a', '#7cb95b', '#5b8fd0', '#9a6cc4']
+      .map((c, i) => `<ellipse cx="${x}" cy="${y}" rx="${66 - i * 10}" ry="${46 - i * 7}" fill="${c}" stroke="none"/>`)
+      .join(''),
+};
+// Drawing instructions per place (red notes; followed by the model, never drawn).
+const PLACE_NOTE: Record<string, string> = {
+  'icicles-palace': 'the tallest, pointiest snowy peak, above the clouds',
+  'crystal-mountain': 'a mountain of glittering multi-colored crystal (purple, pink, rainbow)',
+  'peacocks-tower': 'a great open green hill rising above the treetops',
+  'seekers-castle': 'rocky sea cliff, edge of the woods',
+  'hatties-workshop': 'a huge old hollow tree in a small clearing, heart of the woods',
+  'isabellas-house': 'a sunny open meadow at the edge of the woods',
+  'circular-island': 'round island, small volcano in center',
+  'square-island': 'square island, square fields',
+  'strawberry-island': 'a real island shaped like a strawberry: beach rim, trees',
+  'rainbow-island': 'forest in concentric rainbow rings, red outermost',
+  'mole-family-tunnel': 'large cozy rounded burrow chamber',
+  'uncle-griscos-laboratory': 'large rounded burrow chamber',
+  'ant-kingdom': 'deepest level: a big honeycomb of many small ant chambers',
 };
 // Path stroke by kind: waterways blue, roads/trails tan, tunnels wide + dark.
 const PATH_STYLE: Record<string, { stroke: string; width: number; dash?: string }> = {
@@ -50,7 +84,6 @@ interface Loc {
   x: number;
   y: number;
   size: string;
-  body?: boolean;
 }
 interface Pth {
   id: string;
@@ -78,13 +111,14 @@ function buildSketch(forest: Forest): string {
   const { width: CW, height: CH, groundY: GY } = forest.meta.canvas;
   const locs = forest.locations;
   const paths = forest.paths;
-  const byId = (id: string) => locs.find((l) => l.id === id);
 
-  // --- frame: broad terrain bands ---
+  // --- frame: the four regions (woods = the white land left over) ---
   const frame = [
     `<rect x="0" y="0" width="${CW}" height="${CH}" fill="#ffffff"/>`,
-    `<!-- mountain band -->`,
-    `<rect x="0" y="0" width="${CW}" height="260" fill="#dce4ee"/>`,
+    `<!-- the mountains -->`,
+    `<path d="${MOUNTAINS_D}" fill="#dce4ee"/>`,
+    `<!-- the ocean -->`,
+    `<path d="${OCEAN_D}" fill="#cfe3ef" stroke="#4f89ab" stroke-width="3"/>`,
     `<!-- underground band (below the ground line) -->`,
     `<rect x="0" y="${GY}" width="${CW}" height="${CH - GY}" fill="#e9dcc4"/>`,
     `<!-- GROUND LINE -->`,
@@ -97,16 +131,17 @@ function buildSketch(forest: Forest): string {
     const st = PATH_STYLE[p.kind] || PATH_STYLE.trail;
     const dash = st.dash ? ` stroke-dasharray="${st.dash}"` : '';
     pathEls.push(`<path id="path--${esc(p.id)}" d="${esc(p.d)}" stroke="${st.stroke}" stroke-width="${st.width}"${dash}/>`);
-    const [sx, sy] = pathStart(p.d);
-    const lbl = p.label || p.kind;
-    pathEls.push(`<text x="${sx.toFixed(0)}" y="${(sy - 6).toFixed(0)}" fill="#6b5c42" font-size="12">${esc(lbl)}</text>`);
+    if (p.label) {
+      const [sx, sy] = pathStart(p.d);
+      pathEls.push(`<text x="${sx.toFixed(0)}" y="${(sy - 6).toFixed(0)}" fill="#6b5c42" font-size="12">${esc(p.label)}</text>`);
+    }
   }
 
   // --- markers (circle + label; circles are what --sync reads back) ---
   const markerEls: string[] = [];
   for (const l of locs) {
     const r = l.size === 'major' ? 14 : 9;
-    const fill = ZONE_FILL[l.zone] || ZONE_FILL.surface;
+    const fill = ZONE_FILL[l.zone] || ZONE_FILL.woods;
     markerEls.push(
       `<circle id="loc--${esc(l.id)}" cx="${l.x}" cy="${l.y}" r="${r}" fill="${fill}" stroke="#ffffff" stroke-width="2"/>`,
     );
@@ -119,21 +154,23 @@ function buildSketch(forest: Forest): string {
   const notes: string[] = [];
   const note = (x: number, y: number, text: string) =>
     notes.push(`<text x="${x}" y="${y}" text-anchor="middle">${esc(text)}</text>`);
-  note(CW / 2, 60, 'snow-capped mountain range — jagged peaks up here, foothills below');
-  note(CW / 2, 560, 'rolling deciduous forest fills the woodland floor');
-  const dd = byId('deep-dark-forest');
-  if (dd) note(dd.x, dd.y, 'dense dark forest thicket');
-  const pine = byId('pine-tree');
-  if (pine) note(pine.x, pine.y - 30, 'pine / evergreen grove');
-  note(CW / 2, GY - 12, 'GROUND LINE — below is a side-on underground soil cross-section');
-  note(CW / 2, (GY + CH) / 2, 'winding tunnels linking empty burrow chambers · soil strata · tree roots reaching down');
-  // Water bodies get a soft outline + a named hint (linear water is a path, skip).
-  const waterEls: string[] = [];
+  note(330, 40, 'snow-capped mountain range: jagged peaks, foothills below');
+  note(860, 480, 'open ocean, gentle waves');
+  note(340, 560, 'rolling deciduous forest fills the woods');
+  note(860, 935, 'sandy beach');
+  note(CW / 2, GY - 12, 'GROUND LINE: below is a side-on underground soil cross-section');
+  note(CW / 2, GY + 40, 'tunnels linking empty burrow chambers · soil strata · tree roots reaching down');
   for (const l of locs) {
-    if (l.zone !== 'water' || l.body === false) continue;
-    const big = l.size === 'major';
-    const rx = big ? 78 : 54, ry = big ? 50 : 36;
-    waterEls.push(`<ellipse cx="${l.x}" cy="${l.y}" rx="${rx}" ry="${ry}" fill="#cfe3ef" stroke="#4f89ab" stroke-width="2" opacity="0.85"/>`);
+    const text = PLACE_NOTE[l.id];
+    // Keep notes on the canvas (15px italic ≈ 7px per character).
+    if (text) note(Math.max(text.length * 3.6, Math.min(l.x, CW - text.length * 3.6)), l.y + 44, text);
+  }
+  // Islands: land shapes in the ocean (ocean-zone places only).
+  const islandEls: string[] = [];
+  for (const l of locs) {
+    if (l.zone !== 'ocean') continue;
+    const shape = ISLAND_SHAPE[l.id] ?? ((x: number, y: number) => `<ellipse cx="${x}" cy="${y}" rx="55" ry="40"/>`);
+    islandEls.push(shape(l.x, l.y));
   }
 
   return `<?xml version="1.0" encoding="UTF-8"?>
@@ -160,9 +197,9 @@ function buildSketch(forest: Forest): string {
     ${frame}
   </g>
 
-  <!-- ===== water bodies (ponds / lake / swamp) ===== -->
-  <g id="water">
-    ${waterEls.join('\n    ')}
+  <!-- ===== islands in the ocean ===== -->
+  <g id="islands" fill="#f1e6c8" stroke="#a8783f" stroke-width="2">
+    ${islandEls.join('\n    ')}
   </g>
 
   <!-- ===== paths: roads, trails, waterways, tunnels ===== -->

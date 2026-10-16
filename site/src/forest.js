@@ -17,15 +17,12 @@ export function mountForest(root, data, resolveImage, landscapeUrl) {
   resolveImage = resolveImage || function () { return null; };
 
   var ZONE = {
-    canopy:      { raw: "#4f7a43", label: "Treetops & Nests" },
-    surface:     { raw: "#6c9147", label: "Forest Floor" },
-    water:       { raw: "#4f89ab", label: "Ponds & Streams" },
-    landmark:    { raw: "#a8783f", label: "Hills & Castles" },
-    underground: { raw: "#8a5f3c", label: "Down in the Burrows" }
+    woods:       { raw: "#5b8a43", label: "The Woods" },
+    underground: { raw: "#8a5f3c", label: "The Underground" },
+    ocean:       { raw: "#3f7fa6", label: "The Ocean" },
+    mountains:   { raw: "#7a7f9a", label: "The Mountains" }
   };
-  var ZONE_ORDER = ["canopy", "surface", "water", "landmark", "underground"];
-  // Which legend zone dims/undims each linear feature's label when filtering.
-  var KIND_ZONE = { road: "surface", trail: "surface", river: "water", stream: "water", tunnel: "underground" };
+  var ZONE_ORDER = ["woods", "underground", "ocean", "mountains"]; // halo gradients
 
   var meta = data.meta || {};
   var canvas = meta.canvas || { width: 1000, height: 1400, groundY: 1000 };
@@ -50,11 +47,8 @@ export function mountForest(root, data, resolveImage, landscapeUrl) {
   root.innerHTML =
     '<div class="stage"></div>' +
     '<header class="masthead">' +
-      '<p class="eyebrow">A Woodland Atlas</p>' +
       '<h1>' + esc(meta.title || "The Forest") + '</h1>' +
-      '<p class="sub">' + esc(meta.subtitle || "") + '</p>' +
     '</header>' +
-    '<aside class="legend" aria-label="Legend"><h2>The Territories</h2><ul class="legend-list"></ul></aside>' +
     '<div class="hint">Scroll to zoom · drag to wander · tap a place ❧</div>' +
     '<p class="credit">' + esc(meta.note || "") + '</p>' +
     '<div class="scrim" hidden></div>' +
@@ -64,7 +58,6 @@ export function mountForest(root, data, resolveImage, landscapeUrl) {
   var codex = root.querySelector(".codex");
   var scrim = root.querySelector(".scrim");
   var hint = root.querySelector(".hint");
-  var legendList = root.querySelector(".legend-list");
 
   var svg = document.createElementNS(SVGNS, "svg");
   svg.setAttribute("class", "woodland");
@@ -111,21 +104,24 @@ export function mountForest(root, data, resolveImage, landscapeUrl) {
   // ---------- markers ----------
   // Small vector glyphs (24x24 space, drawn at marker center when no image).
   var GLYPH = {
-    canopy: "M12 3 C 7 8 5 13 12 21 C 19 13 17 8 12 3 M12 8 L 12 18",
-    surface: "M4 12 L 12 4 L 20 12 M6.5 10.5 V 19 H 17.5 V 10.5",
-    water: "M12 3 C 8 9 5.5 12 5.5 15.5 A 6.5 6.5 0 0 0 18.5 15.5 C 18.5 12 16 9 12 3",
-    landmark: "M5 20 V 8 H 8 V 5 H 10 V 8 H 14 V 5 H 16 V 8 H 19 V 20 M 9.5 20 V 14 H 14.5 V 20",
-    underground: "M4 19 A 8 8 0 0 1 20 19 M 8.5 19 A 3.5 3.5 0 0 1 15.5 19"
+    woods: "M12 3 C 7 8 5 13 12 21 C 19 13 17 8 12 3 M12 8 L 12 18",
+    underground: "M4 19 A 8 8 0 0 1 20 19 M 8.5 19 A 3.5 3.5 0 0 1 15.5 19",
+    ocean: "M3 10 C 6 7 9 7 12 10 C 15 13 18 13 21 10 M3 16 C 6 13 9 13 12 16 C 15 19 18 19 21 16",
+    mountains: "M2 20 L 9 7 L 13 14 L 16 10 L 22 20 Z"
   };
   var locEls = {}, selId = null, didPan = false;
   locations.forEach(function (loc) {
-    var r = radiusOf(loc), zc = ZONE[loc.zone] || ZONE.surface;
+    var r = radiusOf(loc), zc = ZONE[loc.zone] || ZONE.woods;
+    // The marker can sit beside its place (loc.marker = {dx, dy}) so it doesn't
+    // cover a small painted feature like an island; loc.x/y stays the place itself.
+    var mx = loc.x + ((loc.marker && loc.marker.dx) || 0);
+    var my = loc.y + ((loc.marker && loc.marker.dy) || 0);
     var g = el("g", { class: "loc", tabindex: "0", role: "button" });
     g.setAttribute("aria-label", loc.name);
     g.dataset.id = loc.id; g.dataset.zone = loc.zone;
     if (loc.size !== "major") g.classList.add("small-lbl");
 
-    g.appendChild(el("circle", { class: "halo", cx: loc.x, cy: loc.y, r: r * 2.1, fill: "url(#fHalo-" + loc.zone + ")" }));
+    g.appendChild(el("circle", { class: "halo", cx: mx, cy: my, r: r * 2.1, fill: "url(#fHalo-" + loc.zone + ")" }));
 
     var face = resolveImage(loc, "art") || resolveImage(loc, "vignette");
     if (face) {
@@ -135,28 +131,20 @@ export function mountForest(root, data, resolveImage, landscapeUrl) {
       im.setAttributeNS(XLINK, "href", face);
       im.setAttribute("href", face);
       pat.appendChild(im); defs.appendChild(pat);
-      g.appendChild(el("circle", { class: "disc-bg", cx: loc.x, cy: loc.y, r: r, fill: "url(#" + patId + ")" }));
+      g.appendChild(el("circle", { class: "disc-bg", cx: mx, cy: my, r: r, fill: "url(#" + patId + ")" }));
     } else {
-      g.appendChild(el("circle", { class: "disc-bg", cx: loc.x, cy: loc.y, r: r, fill: zc.raw }));
+      g.appendChild(el("circle", { class: "disc-bg", cx: mx, cy: my, r: r, fill: zc.raw }));
       var gs = (r * 2 * 0.62) / 24; // glyph scale into the disc
-      var gl = el("path", { d: GLYPH[loc.zone] || GLYPH.surface, fill: "none", stroke: "#fdf6e3", "stroke-width": 2.2, "stroke-linecap": "round", "stroke-linejoin": "round" });
-      gl.setAttribute("transform", "translate(" + (loc.x - 12 * gs) + " " + (loc.y - 12 * gs) + ") scale(" + gs + ")");
+      var gl = el("path", { d: GLYPH[loc.zone] || GLYPH.woods, fill: "none", stroke: "#fdf6e3", "stroke-width": 2.2, "stroke-linecap": "round", "stroke-linejoin": "round" });
+      gl.setAttribute("transform", "translate(" + (mx - 12 * gs) + " " + (my - 12 * gs) + ") scale(" + gs + ")");
       g.appendChild(gl);
     }
     // Sticker rims: parchment inner, zone-colored outer.
-    g.appendChild(el("circle", { class: "rim-in", cx: loc.x, cy: loc.y, r: r, fill: "none", stroke: "#fdf6e3", "stroke-width": 3.4 }));
-    g.appendChild(el("circle", { class: "rim", cx: loc.x, cy: loc.y, r: r + 2.4, fill: "none", stroke: zc.raw, "stroke-width": 1.8 }));
+    g.appendChild(el("circle", { class: "rim-in", cx: mx, cy: my, r: r, fill: "none", stroke: "#fdf6e3", "stroke-width": 3.4 }));
+    g.appendChild(el("circle", { class: "rim", cx: mx, cy: my, r: r + 2.4, fill: "none", stroke: zc.raw, "stroke-width": 1.8 }));
 
-    var count = (loc.stories || []).length;
-    if (count >= 3) {
-      var bx = loc.x + r * 0.74, by = loc.y - r * 0.74;
-      g.appendChild(el("circle", { cx: bx, cy: by, r: 9.5, fill: zc.raw, stroke: "#fdf6e3", "stroke-width": 2 }));
-      var bt = el("text", { x: bx, y: by, class: "badge-count" }); bt.textContent = count; g.appendChild(bt);
-    }
-
-    var above = loc.zone === "canopy";
-    var lblY = above ? loc.y - r - 10 : loc.y + r + 17;
-    var t = el("text", { class: "label", x: loc.x, y: lblY, "text-anchor": "middle", "font-size": loc.size === "major" ? 15.5 : 12 });
+    var lblY = my + r + 21;
+    var t = el("text", { class: "label", x: mx, y: lblY, "text-anchor": "middle", "font-size": loc.size === "major" ? 19 : 15 });
     t.textContent = loc.name;
     g.appendChild(t);
 
@@ -168,7 +156,6 @@ export function mountForest(root, data, resolveImage, landscapeUrl) {
   });
 
   // Labels that ride along the linear features (river, road, the mole train line).
-  var pathEls = []; // for filtering: {el, zone}
   paths.forEach(function (p) {
     if (!p.label) return;
     var t = el("text", { class: "path-label", dy: p.kind === "tunnel" ? -18 : -8 });
@@ -178,33 +165,7 @@ export function mountForest(root, data, resolveImage, landscapeUrl) {
     tp.textContent = p.label;
     t.appendChild(tp);
     layerLabels.appendChild(t);
-    pathEls.push({ el: t, zone: KIND_ZONE[p.kind] || "surface" });
   });
-
-  // ---------- legend + filter ----------
-  var counts = {};
-  locations.forEach(function (l) { counts[l.zone] = (counts[l.zone] || 0) + 1; });
-  var activeFilter = null;
-  ZONE_ORDER.forEach(function (z) {
-    var li = document.createElement("li");
-    li.dataset.zone = z;
-    li.innerHTML = '<span class="dot" style="background:' + ZONE[z].raw + ';color:' + ZONE[z].raw + '"></span><span>' + ZONE[z].label + '</span><span class="n">' + (counts[z] || 0) + '</span>';
-    li.addEventListener("click", function () { toggleFilter(z); });
-    legendList.appendChild(li);
-  });
-  function toggleFilter(z) {
-    activeFilter = (activeFilter === z) ? null : z;
-    svg.classList.toggle("filtered", !!activeFilter);
-    locations.forEach(function (l) {
-      locEls[l.id].classList.toggle("off", !!activeFilter && l.zone !== activeFilter);
-    });
-    pathEls.forEach(function (pe) {
-      pe.el.classList.toggle("off", !!activeFilter && pe.zone !== activeFilter);
-    });
-    Array.prototype.forEach.call(legendList.children, function (li) {
-      li.classList.toggle("dim", !!activeFilter && li.dataset.zone !== z);
-    });
-  }
 
   // ---------- codex ----------
   function openCodex(id) {
@@ -212,7 +173,7 @@ export function mountForest(root, data, resolveImage, landscapeUrl) {
     if (!loc) return;
     if (selId && locEls[selId]) locEls[selId].classList.remove("sel");
     selId = id; locEls[id].classList.add("sel");
-    var zc = ZONE[loc.zone] || ZONE.surface;
+    var zc = ZONE[loc.zone] || ZONE.woods;
     var hero = resolveImage(loc, "art") || resolveImage(loc, "image");
     var h = "";
     h += '<button class="cx-close" type="button" aria-label="Close">×</button>';

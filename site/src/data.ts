@@ -124,12 +124,12 @@ export interface WorldsDoc {
 export interface ForestLocation {
   id: string;
   name: string;
-  zone: 'canopy' | 'surface' | 'water' | 'landmark' | 'underground';
+  zone: 'woods' | 'underground' | 'ocean' | 'mountains';
   x: number;
   y: number;
   size: 'major' | 'minor';
-  /** false = a marker on linear water (river/stream): no pond blob is drawn. */
-  body?: boolean;
+  /** Draw the marker offset from x/y (beside a small feature, e.g. an island). */
+  marker?: { dx: number; dy: number };
   placeIds: string[];
   curatedDescription: string;
   quotes: WorldQuote[];

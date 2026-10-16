@@ -10,6 +10,8 @@
  *   --prompt "..."   generate the candidates from this exact prompt instead of
  *                    the built-in Tolkien-atlas prompt
  *   --suggest "..."  generate a new batch, weaving this feedback into the prompt
+ *   --edit N "..."   generate a new batch of revisions of candidate N from the
+ *                    current batch, changing only what the edits describe
  *   --select N       promote candidate N to content/forest-map/landscape.png +
  *                    the served webp, then delete the batch (the only mode that
  *                    replaces the landscape)
@@ -42,6 +44,8 @@ function flagValue(name: string): string | null {
 }
 const customPrompt = flagValue('--prompt');
 const suggestion = flagValue('--suggest');
+const editRaw = flagValue('--edit');
+const editText = editRaw !== null ? args[args.indexOf('--edit') + 2] ?? null : null;
 const selectRaw = flagValue('--select');
 const sizeRaw = flagValue('--size');
 
@@ -56,9 +60,13 @@ for (const [flag, value] of [
     process.exit(1);
   }
 }
-const modes = ['--prompt', '--suggest', '--select', '--discard'].filter((f) => flags.has(f));
+if (flags.has('--edit') && (!Number.isInteger(Number(editRaw)) || !editText || editText.startsWith('--'))) {
+  console.error('--edit expects a candidate number and the edits in quotes: --edit 3 "..."');
+  process.exit(1);
+}
+const modes = ['--prompt', '--suggest', '--edit', '--select', '--discard'].filter((f) => flags.has(f));
 if (modes.length > 1) {
-  console.error(`Choose only one of --prompt / --suggest / --select / --discard (got ${modes.join(' + ')}).`);
+  console.error(`Choose only one of --prompt / --suggest / --edit / --select / --discard (got ${modes.join(' + ')}).`);
   process.exit(1);
 }
 
@@ -96,6 +104,7 @@ if (selectRaw !== null) {
   await generateLandscapeCandidates({
     exactPrompt: customPrompt ?? undefined,
     feedback: suggestion ?? undefined,
+    edit: editRaw !== null ? { n: Number(editRaw), edits: editText! } : undefined,
     imageSize,
   });
 }

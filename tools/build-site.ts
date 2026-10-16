@@ -17,6 +17,7 @@ import {
   CONTENT_WORLDS,
   CONTENT_FOREST,
   CONTENT_FOREST_ART_DIR,
+  CONTENT_FOREST_MAP_DIR,
   FOREST_LANDSCAPE_PNG,
   SITE_MEDIA_FOREST_DIR,
   SITE_PUBLIC_DIR,
@@ -210,6 +211,19 @@ export async function buildSite({ force = false } = {}): Promise<void> {
         encodedForestArt++;
       }
       loc.art = `media/forest/${loc.id}.webp`;
+    }
+    // Hand-cropped marker portraits: content/forest-map/icons/<location-id>.png
+    // becomes the location's vignette (the face painted into its map marker).
+    for (const loc of forest.locations ?? []) {
+      const src = path.join(CONTENT_FOREST_MAP_DIR, 'icons', `${loc.id}.png`);
+      if (!fs.existsSync(src)) continue;
+      const out = path.join(SITE_MEDIA_FOREST_DIR, 'icons', `${loc.id}.webp`);
+      if (force || !fs.existsSync(out)) {
+        ensureDir(path.dirname(out));
+        await optimizeImage(src, out, 256, WEBP_QUALITY);
+        encodedForestArt++;
+      }
+      loc.vignette = `media/forest/icons/${loc.id}.webp`;
     }
     // The Tolkien-style landscape backdrop (optional — the viewer falls back to
     // the legacy procedural renderer when meta.landscape is absent). Encode the
