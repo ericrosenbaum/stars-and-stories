@@ -18,10 +18,12 @@ export function mountOrrery(root, data, resolveImage) {
     "alien-planet":   { raw: "#82abd8", label: "Cosmic & Alien Worlds" },
     "whimsical-world":{ raw: "#cd8cc6", label: "Whimsical Worlds" }
   };
-  var CAT_ORDER = ["home-base", "earthly", "elemental-plane", "alien-planet", "whimsical-world"];
-  var RING_R = { 1: 146, 2: 236, 3: 312, 4: 384, 5: 452 };
-  var RING_CAT = { 1: "home-base", 2: "earthly", 3: "elemental-plane", 4: "alien-planet", 5: "whimsical-world" };
-  var RING_OFFSET = { 1: -90, 2: -66, 3: -102, 4: -78, 5: -90 };
+  // Three orbits around the center world: under the sea and back in time,
+  // then the whimsical worlds, then outer space.
+  var RINGS = [1, 2, 3];
+  var RING_R = { 1: 170, 2: 315, 3: 455 };
+  var RING_CAT = { 1: "earthly", 2: "whimsical-world", 3: "alien-planet" };
+  var RING_OFFSET = { 1: -90, 2: -75, 3: -54 };
   var CX = 500, CY = 500;
   var SHORT = {
     "seekers-castle": "Seeker’s Castle",
@@ -55,30 +57,15 @@ export function mountOrrery(root, data, resolveImage) {
     '<canvas class="stars"></canvas>' +
     '<div class="stage"></div>' +
     '<header class="masthead">' +
-      '<p class="eyebrow">A Celestial Atlas</p>' +
       '<h1>' + esc(meta.title || "The Stars & Stories Cosmos") + '</h1>' +
-      '<p class="sub">' + esc(meta.subtitle || "") + '</p>' +
     '</header>' +
-    '<aside class="legend" aria-label="Legend"><h2>The Rings</h2><ul class="legend-list"></ul></aside>' +
-    '<div class="hint">Scroll to zoom · drag to pan · tap a world ✦</div>' +
-    '<p class="credit">Every voyage folds back into pajamas and blankets.</p>' +
     '<div class="scrim" hidden></div>' +
-    '<aside class="codex" aria-label="World codex" hidden aria-hidden="true"></aside>' +
-    '<section class="intro"><div class="card">' +
-      '<p class="eyebrow">Stars &amp; Stories</p>' +
-      '<h1>A Map of the Multiverse</h1>' +
-      '<p class="law">“' + esc(meta.law || "") + '”</p>' +
-      '<p class="note">' + esc(meta.note || "") + '</p>' +
-      '<button type="button">Enter the cosmos</button>' +
-    '</div></section>';
+    '<aside class="codex" aria-label="World codex" hidden aria-hidden="true"></aside>';
 
   var stage = root.querySelector(".stage");
   var canvas = root.querySelector(".stars");
   var codex = root.querySelector(".codex");
   var scrim = root.querySelector(".scrim");
-  var hint = root.querySelector(".hint");
-  var legendList = root.querySelector(".legend-list");
-  var intro = root.querySelector(".intro");
 
   var svg = document.createElementNS(SVGNS, "svg");
   svg.setAttribute("class", "orrery");
@@ -125,7 +112,7 @@ export function mountOrrery(root, data, resolveImage) {
   var layerRoutes = el("g"), layerOrbits = el("g"), layerPlanets = el("g");
   svg.appendChild(layerRoutes); svg.appendChild(layerOrbits); svg.appendChild(layerPlanets);
 
-  [1, 2, 3, 4, 5].forEach(function (r) {
+  RINGS.forEach(function (r) {
     layerOrbits.appendChild(el("circle", { class: "orbit", cx: CX, cy: CY, r: RING_R[r], stroke: CAT[RING_CAT[r]].raw }));
   });
   addRadial("cosmoHomeGlow", [["0%", "#fff3d6", 0.95], ["30%", "#ebb661", 0.55], ["100%", "#ebb661", 0]]);
@@ -134,7 +121,7 @@ export function mountOrrery(root, data, resolveImage) {
 
   // ring rotation groups (for the hover-orbit effect)
   var ringGroups = {};
-  [1, 2, 3, 4, 5].forEach(function (r) { var g = el("g"); g.setAttribute("class", "ring-rot"); ringGroups[r] = g; layerPlanets.appendChild(g); });
+  RINGS.forEach(function (r) { var g = el("g"); g.setAttribute("class", "ring-rot"); ringGroups[r] = g; layerPlanets.appendChild(g); });
   var homeGroup = el("g"); layerPlanets.appendChild(homeGroup);
 
   var routeEls = {}, planetEls = {}, labelEls = {};
@@ -153,7 +140,6 @@ export function mountOrrery(root, data, resolveImage) {
     var g = el("g", { class: "planet", tabindex: "0", role: "button" });
     g.setAttribute("aria-label", w.name);
     g.dataset.id = w.id; g.dataset.cat = w.category;
-    if (w.role === "world" && w.ring >= 3) g.classList.add("small-lbl");
 
     var haloId = "cosmoHalo-" + w.id;
     addRadial(haloId, [["0%", cc.raw, 0.6], ["55%", cc.raw, 0.22], ["100%", cc.raw, 0]]);
@@ -184,8 +170,8 @@ export function mountOrrery(root, data, resolveImage) {
     }
 
     var isHome = w.role !== "world";
-    var lblY = w._y + r + (isHome ? 20 : 15);
-    var fs = isHome ? 16 : Math.max(10.5, Math.min(15, r * 0.55));
+    var lblY = w._y + r + (isHome ? 22 : 18);
+    var fs = isHome ? 19 : Math.max(13.5, Math.min(18, r * 0.66));
     var t = el("text", { class: "label", x: w._x, y: lblY, "text-anchor": "middle", "font-size": fs });
     t.textContent = SHORT[w.id] || w.name;
     g.appendChild(t);
@@ -201,15 +187,15 @@ export function mountOrrery(root, data, resolveImage) {
   });
 
   // ---------- hover-orbit motion ----------
-  var ringCur = { 1: 0, 2: 0, 3: 0, 4: 0, 5: 0 };
-  var ringTarget = { 1: 0, 2: 0, 3: 0, 4: 0, 5: 0 };
+  var ringCur = {}, ringTarget = {};
+  RINGS.forEach(function (k) { ringCur[k] = 0; ringTarget[k] = 0; });
   var MAXDEG = 8, orbitRAF = null;
   function setHoverRing(ring) {
-    for (var k = 1; k <= 5; k++) {
-      if (ring == null) { ringTarget[k] = 0; continue; }
+    RINGS.forEach(function (k) {
+      if (ring == null) { ringTarget[k] = 0; return; }
       var sizeFactor = RING_R[1] / RING_R[k];     // bigger rings turn fewer degrees
       ringTarget[k] = MAXDEG * sizeFactor * (k === ring ? 1.0 : 0.4);
-    }
+    });
     if (!orbitRAF) orbitRAF = requestAnimationFrame(orbitStep);
   }
   function applyRing(k) {
@@ -218,11 +204,11 @@ export function mountOrrery(root, data, resolveImage) {
   }
   function orbitStep() {
     var moving = false;
-    for (var k = 1; k <= 5; k++) {
+    RINGS.forEach(function (k) {
       var d = ringTarget[k] - ringCur[k];
       if (Math.abs(d) > 0.01) { ringCur[k] += d * 0.14; moving = true; } else { ringCur[k] = ringTarget[k]; }
       applyRing(k);
-    }
+    });
     // keep labels upright: counter-rotate about their own anchor
     for (var id in labelEls) {
       var L = labelEls[id];
@@ -238,30 +224,6 @@ export function mountOrrery(root, data, resolveImage) {
       ri.line.setAttribute("x2", p.x); ri.line.setAttribute("y2", p.y);
     }
     if (moving) { orbitRAF = requestAnimationFrame(orbitStep); } else { orbitRAF = null; }
-  }
-
-  // ---------- legend + filter ----------
-  var counts = {};
-  worlds.forEach(function (w) { counts[w.category] = (counts[w.category] || 0) + 1; });
-  var activeFilter = null;
-  CAT_ORDER.forEach(function (cat) {
-    var li = document.createElement("li");
-    li.dataset.cat = cat;
-    li.innerHTML = '<span class="dot" style="background:' + CAT[cat].raw + ';color:' + CAT[cat].raw + '"></span><span>' + CAT[cat].label + '</span><span class="n">' + (counts[cat] || 0) + '</span>';
-    li.addEventListener("click", function () { toggleFilter(cat); });
-    legendList.appendChild(li);
-  });
-  function toggleFilter(cat) {
-    activeFilter = (activeFilter === cat) ? null : cat;
-    svg.classList.toggle("filtered", !!activeFilter);
-    worlds.forEach(function (w) {
-      var on = !activeFilter || w.category === activeFilter || w.role === "home";
-      planetEls[w.id].classList.toggle("off", !on);
-      if (routeEls[w.id]) routeEls[w.id].classList.toggle("off", !on);
-    });
-    Array.prototype.forEach.call(legendList.children, function (li) {
-      li.classList.toggle("dim", !!activeFilter && li.dataset.cat !== cat);
-    });
   }
 
   // ---------- codex ----------
@@ -319,7 +281,6 @@ export function mountOrrery(root, data, resolveImage) {
     requestAnimationFrame(function () { codex.classList.add("show"); scrim.classList.add("show"); });
     codex.scrollTop = 0;
     codex.querySelector(".cx-close").addEventListener("click", closeCodex);
-    if (hint) hint.style.opacity = "0";
   }
   function closeCodex() {
     codex.classList.remove("show"); scrim.classList.remove("show"); codex.setAttribute("aria-hidden", "true");
@@ -372,11 +333,9 @@ export function mountOrrery(root, data, resolveImage) {
   function resetZoom() { cam = { x: baseView.x, y: baseView.y, w: baseView.w, h: baseView.h }; applyCam(); }
   svg.addEventListener("dblclick", resetZoom);
 
-  // ---------- intro ----------
-  function hideIntro() { intro.classList.add("hide"); }
-  intro.querySelector("button").addEventListener("click", hideIntro);
+  // ---------- keys ----------
   function onKey(e) {
-    if (e.key === "Escape") { if (!codex.hidden) closeCodex(); else hideIntro(); }
+    if (e.key === "Escape") { if (!codex.hidden) closeCodex(); }
     else if (e.key === "0") resetZoom();
   }
   document.addEventListener("keydown", onKey);
