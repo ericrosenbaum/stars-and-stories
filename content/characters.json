@@ -347,7 +347,8 @@
       "Frazgle_s_Gray_Mischief_and_the_Rainbow_Forest_Rescue",
       "The_Sparkly_Rock_That_Woke_Up",
       "The_Potion_Factory_and_the_Journey_to_Bead_World",
-      "Blemus_The_Gravity_Goldfish_Is_Coming"
+      "Blemus_The_Gravity_Goldfish_Is_Coming",
+      "Frankar_and_the_Spinning_Lantern"
     ],
     "firstAppearanceStoryId": "Expedition_to_the_Deep-Deep_Dark",
     "aliases": [
@@ -1918,7 +1919,8 @@
       "The_Stinky_Cheese_Volcano_and_the_Floating_Balloon_Sky",
       "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness",
       "The_Case_of_the_Kidnapped_Dwarf_and_the_Magic_Ladder",
-      "The_Mystery_of_Peacock_s_Hat_and_the_Moopa_Doopa"
+      "The_Mystery_of_Peacock_s_Hat_and_the_Moopa_Doopa",
+      "Frankar_and_the_Spinning_Lantern"
     ],
     "firstAppearanceStoryId": "The_Quest_for_the_Moon_Mother",
     "aliases": [
@@ -2898,7 +2900,8 @@
       "Frazgle_s_Gray_Mischief_and_the_Rainbow_Forest_Rescue",
       "The_Sparkly_Rock_That_Woke_Up",
       "The_Potion_Factory_and_the_Journey_to_Bead_World",
-      "Blemus_The_Gravity_Goldfish_Is_Coming"
+      "Blemus_The_Gravity_Goldfish_Is_Coming",
+      "Frankar_and_the_Spinning_Lantern"
     ],
     "firstAppearanceStoryId": "The_Mischief_Moles_and_the_Plane_of_Fire",
     "aliases": [
@@ -4886,7 +4889,8 @@
       "The_Magic_Star_Potion_and_the_Journey_to_Star_World",
       "The_Security_Cats_and_the_Rainbow_Party",
       "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission",
-      "The_Adventures_of_Pumpkin_and_the_Potion_Closet"
+      "The_Adventures_of_Pumpkin_and_the_Potion_Closet",
+      "Frankar_and_the_Spinning_Lantern"
     ],
     "firstAppearanceStoryId": "Dimitar_and_the_Castle_of_Ice_Fangsicle"
   },
@@ -6456,7 +6460,8 @@
     "description": "The helpful hosts of the rainbow party who recently successfully rescued a stolen scallop shell.",
     "storyIds": [
       "The_Security_Cats_and_the_Rainbow_Party",
-      "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness"
+      "The_Underground_Rescue_and_Gorp_s_Lesson_in_Kindness",
+      "Frankar_and_the_Spinning_Lantern"
     ],
     "firstAppearanceStoryId": "The_Security_Cats_and_the_Rainbow_Party",
     "aliases": [
@@ -6499,7 +6504,8 @@
       "Stars_and_Stories_Icicle_s_Cold_and_Chicky_s_Jar_Mission",
       "The_Stinky_Cheese_Volcano_and_the_Floating_Balloon_Sky",
       "The_Case_of_the_Kidnapped_Dwarf_and_the_Magic_Ladder",
-      "The_Mystery_of_Peacock_s_Hat_and_the_Moopa_Doopa"
+      "The_Mystery_of_Peacock_s_Hat_and_the_Moopa_Doopa",
+      "Frankar_and_the_Spinning_Lantern"
     ],
     "firstAppearanceStoryId": "Seeker_and_the_Security_Cats_The_Potion_Caper",
     "aliases": [
@@ -6834,7 +6840,8 @@
     "description": "A sentient, flying wooden ladder that communicates in Ladderish.",
     "storyIds": [
       "The_Giant_Rescue_on_Volcano_Island",
-      "The_Case_of_the_Kidnapped_Dwarf_and_the_Magic_Ladder"
+      "The_Case_of_the_Kidnapped_Dwarf_and_the_Magic_Ladder",
+      "Frankar_and_the_Spinning_Lantern"
     ],
     "firstAppearanceStoryId": "The_Giant_Rescue_on_Volcano_Island",
     "aliases": [
@@ -7103,5 +7110,14 @@
       "Blemus_The_Gravity_Goldfish_Is_Coming"
     ],
     "firstAppearanceStoryId": "Blemus_The_Gravity_Goldfish_Is_Coming"
+  },
+  {
+    "id": "1c9f0fa3310244e9b4f1",
+    "name": "Frankar",
+    "description": "Seeker's little brother, a dwarf slightly taller and skinnier than Seeker, with neatly combed shoulder-length black hair, black mustachios, a long straight black beard and a neat white cloak; newly escaped from the Plane of Fire, he can only sleep in a room that glows and flickers like flames, and likes his toast burnt.",
+    "storyIds": [
+      "Frankar_and_the_Spinning_Lantern"
+    ],
+    "firstAppearanceStoryId": "Frankar_and_the_Spinning_Lantern"
   }
 ]

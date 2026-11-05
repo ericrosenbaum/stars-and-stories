@@ -7,7 +7,7 @@
 import type { StoryRecord } from './types.ts';
 
 export const STYLE_REQUIREMENT =
-  'A stylish black and white pen and ink illustration on a white background. Use elegant, clean line work. Render a complete scene, but keep the background relatively simple and uncluttered so the characters remain the clear focus. Avoid overly busy or dense textures.';
+  'A stylish black and white pen and ink illustration on a white background, strictly grayscale with no color. Use elegant, clean line work. Render a complete scene, but keep the background relatively simple and uncluttered so the characters remain the clear focus. Avoid overly busy or dense textures.';
 
 export const COPYRIGHT_RULE =
   'Never use copyrighted names or trademarked characters in a prompt. If "Mickey" or "Minnie" appear in the story, describe them as "a cheerful cartoon mouse" / "a friendly animated mouse" instead.';

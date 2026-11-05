@@ -35,7 +35,8 @@ regenerating a header, follow this loop:
 
 House rules for every image prompt (header, storyboard frame):
 - Style, stated in the prompt: a stylish black and white pen and ink
-  illustration on a white background; elegant, clean line work; a complete
+  illustration on a white background, strictly grayscale with no color;
+  elegant, clean line work; a complete
   scene with a relatively simple, uncluttered background so the characters are
   the clear focus; no busy or dense textures.
 - ONE specific moment per prompt; a strong central composition; the setting
@@ -46,6 +47,9 @@ House rules for every image prompt (header, storyboard frame):
   Never use that phrase for anyone else.
 - No copyrighted or trademarked characters by name: Mickey/Minnie become "a
   cheerful cartoon mouse" / "a friendly animated mouse".
+
+Header images are REQUIRED to be grayscale: the candidate step desaturates
+every image as it saves it (`tools/lib/candidates.ts`), so never bypass it.
 
 Never overwrite `content/stories/<slug>/source.png` or the served `header.webp`
 by any other means, and never select a candidate without the user's explicit

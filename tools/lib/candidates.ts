@@ -9,6 +9,7 @@
  */
 import fs from 'node:fs';
 import path from 'node:path';
+import sharp from 'sharp';
 import { ROOT, CONTENT_STORIES_DIR, SITE_MEDIA_DIR, ensureDir } from './paths.ts';
 import { optimizeImage } from './media.ts';
 import { loadCharacterRefImages } from './refimages.ts';
@@ -89,16 +90,18 @@ export async function generateHeaderCandidates(
   ensureDir(dir);
 
   const items: CandidateItem[] = [];
-  images.forEach((dataUrl, i) => {
+  for (const [i, dataUrl] of images.entries()) {
     if (!dataUrl) {
       console.warn(`  candidate ${i + 1}: no image returned, skipped.`);
-      return;
+      continue;
     }
     const n = items.length + 1;
     const file = `candidate-${n}.png`;
-    fs.writeFileSync(path.join(dir, file), Buffer.from(dataUrl.split(',')[1], 'base64'));
+    // Header images must be grayscale: desaturate here, whatever the model drew,
+    // so the gallery shows exactly what --select will publish.
+    await sharp(Buffer.from(dataUrl.split(',')[1], 'base64')).grayscale().png().toFile(path.join(dir, file));
     items.push({ n, file, prompt: prompts[i] });
-  });
+  }
 
   fs.writeFileSync(
     candidatesJsonPath(slug),
