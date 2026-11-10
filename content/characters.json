@@ -348,7 +348,8 @@
       "The_Sparkly_Rock_That_Woke_Up",
       "The_Potion_Factory_and_the_Journey_to_Bead_World",
       "Blemus_The_Gravity_Goldfish_Is_Coming",
-      "Frankar_and_the_Spinning_Lantern"
+      "Frankar_and_the_Spinning_Lantern",
+      "No_Thunderstorms_in_Seeker_s_Castle"
     ],
     "firstAppearanceStoryId": "Expedition_to_the_Deep-Deep_Dark",
     "aliases": [
@@ -2901,7 +2902,8 @@
       "The_Sparkly_Rock_That_Woke_Up",
       "The_Potion_Factory_and_the_Journey_to_Bead_World",
       "Blemus_The_Gravity_Goldfish_Is_Coming",
-      "Frankar_and_the_Spinning_Lantern"
+      "Frankar_and_the_Spinning_Lantern",
+      "No_Thunderstorms_in_Seeker_s_Castle"
     ],
     "firstAppearanceStoryId": "The_Mischief_Moles_and_the_Plane_of_Fire",
     "aliases": [
@@ -4561,7 +4563,8 @@
     "description": "A purple shiny balloon dog who works at the Balloon Twisting School.",
     "storyIds": [
       "The_Squeaky_Adventures_in_Balloon_World",
-      "The_Sneaky_Popper_of_Balloon_World"
+      "The_Sneaky_Popper_of_Balloon_World",
+      "No_Thunderstorms_in_Seeker_s_Castle"
     ],
     "firstAppearanceStoryId": "The_Squeaky_Adventures_in_Balloon_World"
   },
@@ -6564,7 +6567,8 @@
     "name": "Shrew-like",
     "description": "A tiny shrew-like prehistoric creature who hitches a ride back in Jane's pocket and moves into Isabella's dollhouse.",
     "storyIds": [
-      "Prehistoric_Potion_Adventures"
+      "Prehistoric_Potion_Adventures",
+      "No_Thunderstorms_in_Seeker_s_Castle"
     ],
     "firstAppearanceStoryId": "Prehistoric_Potion_Adventures"
   },
@@ -7116,7 +7120,8 @@
     "name": "Frankar",
     "description": "Seeker's little brother, a dwarf slightly taller and skinnier than Seeker, with neatly combed shoulder-length black hair, black mustachios, a long straight black beard and a neat white cloak; newly escaped from the Plane of Fire, he can only sleep in a room that glows and flickers like flames, and likes his toast burnt.",
     "storyIds": [
-      "Frankar_and_the_Spinning_Lantern"
+      "Frankar_and_the_Spinning_Lantern",
+      "No_Thunderstorms_in_Seeker_s_Castle"
     ],
     "firstAppearanceStoryId": "Frankar_and_the_Spinning_Lantern"
   }

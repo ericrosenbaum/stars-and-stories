@@ -37,6 +37,7 @@
     { "from": "Griscko", "to": "Grisco" },
     { "from": "Grisko", "to": "Grisco" },
     { "from": "Cadasori", "to": "Catasorry" },
-    { "from": "\\bMrs\\.? Piggy\\b", "to": "Miss Piggy", "regex": true }
+    { "from": "\\bMrs\\.? Piggy\\b", "to": "Miss Piggy", "regex": true },
+    { "from": "True Like", "to": "Shrew-like", "caseSensitive": true }
   ]
 }

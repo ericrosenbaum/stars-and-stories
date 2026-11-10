@@ -2728,7 +2728,8 @@
     "description": "A scorching, sparkly realm filled with volcanoes, campfires, and bright floating lights.",
     "storyIds": [
       "The_Mischief_Moles_and_the_Plane_of_Fire",
-      "Frankar_and_the_Spinning_Lantern"
+      "Frankar_and_the_Spinning_Lantern",
+      "No_Thunderstorms_in_Seeker_s_Castle"
     ],
     "firstAppearanceStoryId": "The_Mischief_Moles_and_the_Plane_of_Fire"
   },
@@ -4256,7 +4257,8 @@
       "The_Sparkly_Rock_That_Woke_Up",
       "The_Potion_Factory_and_the_Journey_to_Bead_World",
       "Blemus_The_Gravity_Goldfish_Is_Coming",
-      "Frankar_and_the_Spinning_Lantern"
+      "Frankar_and_the_Spinning_Lantern",
+      "No_Thunderstorms_in_Seeker_s_Castle"
     ],
     "firstAppearanceStoryId": "A_Sticky_Adventure_to_the_Castle_of_Slime"
   },
