@@ -45,10 +45,19 @@ const candidatesJsonPath = (slug: string) => path.join(candidatesDir(slug), 'can
 export async function generateHeaderCandidates(
   slug: string,
   story: StoryRecord,
-  opts: { prompts?: string[]; exactPrompt?: string; count?: number; feedback?: string } = {},
+  opts: { prompts?: string[]; exactPrompt?: string; editInstruction?: string; count?: number; feedback?: string } = {},
 ): Promise<CandidateSet> {
   const count = opts.count ?? 3;
-  const refImages = loadCharacterRefImages(story.characters);
+  // Edit mode: the current header is the base image and the instruction says
+  // what to change; only the characters the instruction names get a reference.
+  let editBase: { data: string; mimeType: string } | null = null;
+  if (opts.editInstruction) {
+    const sourcePng = path.join(CONTENT_STORIES_DIR, slug, 'source.png');
+    if (!fs.existsSync(sourcePng)) throw new Error(`"${slug}" has no header image to edit — generate one with --prompts first.`);
+    editBase = { data: fs.readFileSync(sourcePng).toString('base64'), mimeType: 'image/png' };
+  }
+  const edit = opts.editInstruction?.toLowerCase();
+  const refImages = loadCharacterRefImages(story.characters).filter((r) => !edit || edit.includes(r.name.toLowerCase()));
   console.log(`\nReference images (${refImages.length}):`);
   if (refImages.length) {
     for (const r of refImages) console.log(`  - ${r.name}  (${path.relative(ROOT, r.path)})`);
@@ -57,7 +66,10 @@ export async function generateHeaderCandidates(
   }
 
   let prompts: string[];
-  if (opts.exactPrompt) {
+  if (opts.editInstruction) {
+    prompts = Array.from({ length: count }, () => opts.editInstruction!);
+    console.log(`\nEditing the current header (${count} candidates) with this instruction:\n${opts.editInstruction}\n`);
+  } else if (opts.exactPrompt) {
     // The image model is nondeterministic, so the same prompt still yields
     // three different treatments of the requested scene.
     prompts = Array.from({ length: count }, () => opts.exactPrompt!);
@@ -75,7 +87,7 @@ export async function generateHeaderCandidates(
   console.log(`\nGenerating ${prompts.length} candidate image(s) with the Gemini image model...`);
   const images = await Promise.all(
     prompts.map((p) =>
-      generateImageFromPrompt(p, refImages, 1, [], { imageSize: IMAGE_SIZE }).catch((e) => {
+      generateImageFromPrompt(p, refImages, 1, [], editBase ? { imageSize: IMAGE_SIZE, plainPrompt: true, conditionImage: { ...editBase, instruction: editPreamble(refImages.map((r) => r.name)) } } : { imageSize: IMAGE_SIZE }).catch((e) => {
         console.warn(`  candidate failed: ${e?.message || e}`);
         return null;
       }),
@@ -106,7 +118,7 @@ export async function generateHeaderCandidates(
   fs.writeFileSync(
     candidatesJsonPath(slug),
     JSON.stringify(
-      { createdAt: new Date().toISOString(), ...(opts.feedback ? { feedback: opts.feedback } : {}), items },
+      { createdAt: new Date().toISOString(), ...(opts.feedback ? { feedback: opts.feedback } : {}), ...(opts.editInstruction ? { edit: true } : {}), items },
       null,
       2,
     ),
@@ -126,6 +138,14 @@ export async function generateHeaderCandidates(
   return { dir, galleryPath, items };
 }
 
+/** How the attached images are to be used in edit mode (base image first, then the references). */
+function editPreamble(refNames: string[]): string {
+  const refs = refNames.length
+    ? ` The ${refNames.length === 1 ? 'next attached image is the character reference' : `next ${refNames.length} attached images are the character references, in this order,`} for ${refNames.join(', ')}.`
+    : '';
+  return `The FIRST attached image is an existing illustration. EDIT it: reproduce it exactly — the same composition, framing, setting, props, lighting, line work and every other character, unchanged — and change ONLY what the instruction below asks for.${refs} Keep the result a black and white pen and ink illustration, strictly grayscale, with no text.`;
+}
+
 /**
  * Re-run the CURRENT batch's prompts for a fresh set of treatments (the image
  * model is nondeterministic). Used by the studio's "try again" button, which
@@ -136,7 +156,8 @@ export async function rerollHeaderCandidates(slug: string, story: StoryRecord): 
   if (!fs.existsSync(jsonPath)) {
     throw new Error(`No candidate batch for "${slug}" to re-roll. Write prompts and run: npm run regen-image -- ${slug} --prompts <file>`);
   }
-  const { items } = JSON.parse(fs.readFileSync(jsonPath, 'utf8')) as { items: CandidateItem[] };
+  const { items, edit } = JSON.parse(fs.readFileSync(jsonPath, 'utf8')) as { items: CandidateItem[]; edit?: boolean };
+  if (edit) return generateHeaderCandidates(slug, story, { editInstruction: items[0]?.prompt });
   const prompts = items.map((it) => it.prompt).filter(Boolean);
   if (!prompts.length) throw new Error(`The candidate batch for "${slug}" has no prompts recorded.`);
   console.log(`Re-rolling ${prompts.length} prompt(s) from the current batch...`);

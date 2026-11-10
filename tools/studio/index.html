@@ -328,7 +328,7 @@ function renderDraft(job) {
   let html = header('Transcribed — finish it in Claude Code.');
   html += `<div class="card"><p><b>✓ Draft “${esc(r.draftId || '')}” saved.</b></p>
     <p class="sub">${r.lines || 0} lines · Izzy ${r.izzyWordCount || 0} words / Dad ${r.dadWordCount || 0} words${r.speakerMapConfidence === 'low' ? ' · <b>speaker labels need a check</b>' : ''}</p>
-    <p class="sub">The title, summary, characters, quote and header prompts are written by the Claude Code agent (no API involved). Then the story shows up under “Awaiting header review”.</p>
+    <p class="sub">The title, summary, characters and header prompts are written by the Claude Code agent, which also asks you to choose the pull quote (no API involved). Then the story shows up under “Awaiting header review”.</p>
     <ol style="padding-left:1.2rem">${(r.nextSteps || []).map((st) => `<li style="margin:.3rem 0">${esc(st)}</li>`).join('')}</ol>
     <button class="primary" onclick="goHome()">Back to start</button></div>`;
   app.innerHTML = html;

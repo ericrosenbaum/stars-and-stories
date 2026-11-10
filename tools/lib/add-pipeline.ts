@@ -31,7 +31,7 @@ import {
 } from './paths.ts';
 import { sha256File } from './media.ts';
 import { computeWordCounts } from './wordcount.ts';
-import { recoverQuoteTimestamp } from './quote.ts';
+import { recoverQuoteTimestamp, findQuoteLine } from './quote.ts';
 import { uniqueSlug } from './slug.ts';
 import { recomputeEntityLinks } from './entities.ts';
 import { generateHeaderCandidates, type CandidateSet } from './candidates.ts';
@@ -161,8 +161,9 @@ export function nextStepsFor(id: string, draft: DraftRecord): string[] {
   const conf = draft.transcription.speakerMapConfidence;
   return [
     `Read ${rel(path.join(draftDir(id), 'transcript.txt'))}${conf === 'low' ? ' — CHECK the Dad/Izzy labels (low-confidence mapping); set "swapSpeakers": true in the analysis if they are backwards' : ''}.`,
-    `Write ${rel(analysisPath(id))}: { "title", "summary", "characters": [{ "name", "description" }], "places": [...], "highlightQuote": { "text" }, "headerPrompts": [3 prompts] } — reuse canonical names from content/characters.json (aliases count) and copy the quote verbatim from an Izzy line.`,
-    `npm run finalize -- ${id} --dry-run   (shows which characters/places are new), then without --dry-run.`,
+    `Write ${rel(analysisPath(id))}: { "title", "summary", "characters": [{ "name", "description" }], "places": [...], "quoteOptions": [4 pull-quote options], "headerPrompts": [3 prompts] } — reuse canonical names from content/characters.json (aliases count) and copy each quote option verbatim from an Izzy line.`,
+    `npm run finalize -- ${id} --dry-run   (shows which characters/places are new and where each quote option anchors).`,
+    `Ask the user to choose the pull quote from the options, write their choice to "highlightQuote": { "text" } (null if they want none), then npm run finalize -- ${id}.`,
   ];
 }
 
@@ -329,6 +330,11 @@ export function readAnalysis(id: string): StoryAnalysis {
     if (!isStr(a.highlightQuote?.text) || !a.highlightQuote.text.trim()) problems.push('"highlightQuote.text" must be a non-empty string (or set highlightQuote to null)');
     else if (a.highlightQuote.text.length > 500) problems.push('"highlightQuote.text" is over 500 characters');
   }
+  if (a?.quoteOptions != null) {
+    if (!Array.isArray(a.quoteOptions) || !a.quoteOptions.length || !a.quoteOptions.every((s: unknown) => isStr(s) && s.trim())) {
+      problems.push('"quoteOptions" must be a non-empty array of strings (or omit it)');
+    } else if (a.quoteOptions.some((s: string) => s.length > 500)) problems.push('a "quoteOptions" entry is over 500 characters');
+  }
   if (a?.headerPrompts != null) {
     if (!Array.isArray(a.headerPrompts) || !a.headerPrompts.length || !a.headerPrompts.every((s: unknown) => isStr(s) && s.trim())) {
       problems.push('"headerPrompts" must be a non-empty array of strings (or omit it)');
@@ -341,7 +347,9 @@ export function readAnalysis(id: string): StoryAnalysis {
     summary: a.summary.trim(),
     characters: a.characters.map((e: any) => ({ name: e.name.trim(), description: (e.description || '').trim() })),
     places: a.places.map((e: any) => ({ name: e.name.trim(), description: (e.description || '').trim() })),
-    highlightQuote: a.highlightQuote ? { text: a.highlightQuote.text.trim(), timestamp: a.highlightQuote.timestamp ?? null } : null,
+    quoteOptions: a.quoteOptions?.map((s: string) => s.trim()),
+    // undefined = the user has not chosen yet; null = they chose to have no quote
+    highlightQuote: a.highlightQuote ? { text: a.highlightQuote.text.trim(), timestamp: a.highlightQuote.timestamp ?? null } : a.highlightQuote === null ? null : undefined,
     swapSpeakers: !!a.swapSpeakers,
     headerPrompts: a.headerPrompts?.map((s: string) => s.trim()),
   };
@@ -417,11 +425,21 @@ export interface FinalizeResult {
   characters: { matched: EntityPlan['matched']; created: string[] };
   places: { matched: EntityPlan['matched']; created: string[] };
   quoteAnchored: boolean | null; // null = no quote
+  /** False while analysis.json has no "highlightQuote" key yet — the user still has to pick one. */
+  quoteChosen: boolean;
+  /** The agent's shortlist, each located in the transcript (timestamp/speaker null = not found verbatim). */
+  quoteOptions: QuoteOptionReport[];
   hasHeaderPrompts: boolean;
   candidates: CandidateSet | null;
   /** Candidate generation failure (or missing prompts) is non-fatal; the message lands here. */
   candidatesError?: string;
   dryRun: boolean;
+}
+
+export interface QuoteOptionReport {
+  text: string;
+  timestamp: number | null;
+  speaker: string | null;
 }
 
 export async function finalizeStory(id: string, opts: FinalizeOptions = {}): Promise<FinalizeResult> {
@@ -452,7 +470,24 @@ export async function finalizeStory(id: string, opts: FinalizeOptions = {}): Pro
     quoteAnchored = recovered != null;
     const timestamp = recovered ?? (typeof analysis.highlightQuote.timestamp === 'number' ? analysis.highlightQuote.timestamp : null);
     highlightQuote = { text: analysis.highlightQuote.text, timestamp };
-    progress('entities', quoteAnchored ? `Quote anchored at ${fmtTime(recovered!)}.` : 'WARNING: the highlight quote does not match a transcript line — copy it verbatim from transcript.txt.');
+    progress('entities', quoteAnchored ? `Chosen quote anchored at ${fmtTime(recovered!)}.` : 'WARNING: the highlight quote does not match a transcript line — copy it verbatim from transcript.txt.');
+  }
+
+  // The pull quote is the user's choice: the agent only shortlists. Locate each
+  // option so the dry run can show it is verbatim (and whose line it is).
+  const quoteChosen = analysis.highlightQuote !== undefined;
+  const quoteOptions: QuoteOptionReport[] = (analysis.quoteOptions ?? []).map((text) => {
+    const line = findQuoteLine(text, transcript);
+    return { text, timestamp: line?.timestamp ?? null, speaker: line?.speaker ?? null };
+  });
+  quoteOptions.forEach((o, i) => {
+    const where = o.timestamp == null ? 'NOT FOUND in one transcript line — copy it verbatim' : `${fmtTime(o.timestamp)} ${o.speaker ?? '?'}${o.speaker && o.speaker !== 'Izzy' ? ' (not an Izzy line)' : ''}`;
+    progress('entities', `Quote option ${i + 1} [${where}]: "${o.text}"`);
+  });
+  if (!quoteChosen) {
+    const how = `ask the user to choose the pull quote${quoteOptions.length ? ' from the options above' : ' (add "quoteOptions" to the analysis first)'}, then set "highlightQuote": { "text": ... } in ${rel(analysisPath(id))} (null for no quote)`;
+    if (!dryRun) throw new Error(`No pull quote chosen yet: ${how}.`);
+    progress('entities', `Pull quote not chosen yet — ${how}.`);
   }
 
   const manifest = readManifest();
@@ -486,6 +521,8 @@ export async function finalizeStory(id: string, opts: FinalizeOptions = {}): Pro
     characters: { matched: chars.matched, created: chars.created },
     places: { matched: places.matched, created: places.created },
     quoteAnchored,
+    quoteChosen,
+    quoteOptions,
     hasHeaderPrompts: !!analysis.headerPrompts?.length,
     candidates: null,
     dryRun,

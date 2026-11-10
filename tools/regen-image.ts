@@ -11,6 +11,9 @@
  *                      content/stories/<slug>/candidates/ + a gallery.html.
  *                      The existing header is NOT touched.
  *   --prompt "..."     generate 3 treatments of this one exact prompt
+ *   --edit "..."       generate 3 EDITS of the current header: the existing image
+ *                      is kept as it is and only what the instruction asks for
+ *                      changes (characters named in it get their reference image)
  *   --reroll           generate a fresh batch from the CURRENT batch's prompts
  *   --select N         promote candidate N to source.png + header.webp and
  *                      delete the batch (the only mode that replaces the header)
@@ -52,13 +55,14 @@ function flagValue(name: string): string | null {
 }
 const promptsFile = flagValue('--prompts');
 const customPrompt = flagValue('--prompt');
+const editInstruction = flagValue('--edit');
 const selectRaw = flagValue('--select');
 const positional = args.filter((a, i) => !a.startsWith('--') && !valueIdxs.has(i));
 const slug = positional[0];
 
 function usage(): never {
   console.error(
-    'Usage: npx tsx regen-image.ts <story-slug> [--prompts <file.json> | --prompt "..." | --reroll | --select N | --discard] [--no-webp] [--no-build]',
+    'Usage: npx tsx regen-image.ts <story-slug> [--prompts <file.json> | --prompt "..." | --edit "..." | --reroll | --select N | --discard] [--no-webp] [--no-build]',
   );
   process.exit(1);
 }
@@ -67,14 +71,15 @@ if (!slug || slug.startsWith('--')) usage();
 for (const [flag, value] of [
   ['--prompts', promptsFile],
   ['--prompt', customPrompt],
+  ['--edit', editInstruction],
   ['--select', selectRaw],
 ] as const) {
   if (flags.has(flag) && (!value || value.startsWith('--'))) {
-    console.error(`${flag} requires a value${flag === '--prompt' ? ' (wrap it in quotes)' : ''}.`);
+    console.error(`${flag} requires a value${flag === '--prompt' || flag === '--edit' ? ' (wrap it in quotes)' : ''}.`);
     process.exit(1);
   }
 }
-const modes = ['--prompts', '--prompt', '--reroll', '--select', '--discard'].filter((f) => flags.has(f));
+const modes = ['--prompts', '--prompt', '--edit', '--reroll', '--select', '--discard'].filter((f) => flags.has(f));
 if (modes.length > 1) {
   console.error(`Choose only one of ${modes.join(' / ')}.`);
   process.exit(1);
@@ -137,6 +142,13 @@ if (selectRaw !== null) {
 } else if (flags.has('--reroll')) {
   try {
     await rerollHeaderCandidates(slug, story);
+  } catch (e: any) {
+    console.error(e?.message || e);
+    process.exit(1);
+  }
+} else if (editInstruction !== null) {
+  try {
+    await generateHeaderCandidates(slug, story, { editInstruction });
   } catch (e: any) {
     console.error(e?.message || e);
     process.exit(1);

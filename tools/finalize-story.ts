@@ -12,7 +12,9 @@
  * with `npm run regen-image -- <slug> --select N`). The draft is deleted.
  *
  * --dry-run validates the analysis and prints what would be created (which
- * entities are new, whether the quote anchors) without writing anything.
+ * entities are new, where each pull-quote option anchors) without writing
+ * anything. The real run refuses until the user's chosen pull quote is in
+ * analysis.highlightQuote (null = no quote).
  */
 import 'dotenv/config';
 import { finalizeStory, listDrafts, analysisPath } from './lib/add-pipeline.ts';
@@ -51,9 +53,15 @@ try {
   });
   if (result.dryRun) {
     console.log(`\nSlug: ${result.slug}`);
-    console.log(`Quote: ${result.quoteAnchored === null ? 'none' : result.quoteAnchored ? 'anchored' : 'NOT anchored (fix the text)'}`);
+    console.log(
+      `Quote: ${!result.quoteChosen ? 'NOT CHOSEN YET (the user picks from the options above)' : result.quoteAnchored === null ? 'none (by choice)' : result.quoteAnchored ? 'chosen, anchored' : 'chosen, NOT anchored (fix the text)'}`,
+    );
     console.log(`Header prompts: ${result.hasHeaderPrompts ? "present" : "MISSING (no candidates will be generated)"}`);
-    console.log(`\nLooks right? Run: npm run finalize -- ${id}`);
+    console.log(
+      result.quoteChosen
+        ? `\nLooks right? Run: npm run finalize -- ${id}`
+        : `\nNext: have the user choose the pull quote, write it to "highlightQuote" in analysis.json, then run: npm run finalize -- ${id}`,
+    );
   } else {
     if (result.candidates) {
       console.log(`\nHeader image pending review — the story is published without one until you pick a candidate.`);

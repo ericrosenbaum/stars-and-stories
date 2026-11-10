@@ -55,3 +55,14 @@ export function recoverQuoteTimestamp(
   }
   return best.score >= 0.6 ? best.ts : null;
 }
+
+/**
+ * Strict lookup for a quote the agent proposes: the transcript line that
+ * contains it verbatim (ignoring case and punctuation), or null. No fuzzy
+ * fallback — a paraphrase must not pass as a real line.
+ */
+export function findQuoteLine(quote: string, transcript: TranscriptItem[]): TranscriptItem | null {
+  const q = norm(quote);
+  if (!q) return null;
+  return transcript.find((item) => norm(item.text).includes(q)) ?? null;
+}

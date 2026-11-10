@@ -33,6 +33,15 @@ regenerating a header, follow this loop:
      to step 2 (`--reroll` redraws the same prompts if they just want variants)
    - keep current → `npm run regen-image -- <slug> --discard`
 
+Editing an existing header (e.g. redrawing one character after they gain a
+reference image) is the same loop with a different step 2:
+`npm run regen-image -- <slug> --edit "<instruction>"` generates 3 edits of the
+CURRENT header — the scene is kept and only what the instruction asks for
+changes. Name the character(s) to redraw in the instruction: only named
+characters get their reference image attached. Say explicitly what must stay
+unchanged, and check each candidate for stray changes elsewhere before showing
+them. (`--reroll` on an edit batch redraws the same edit.)
+
 House rules for every image prompt (header, storyboard frame):
 - Style, stated in the prompt: a stylish black and white pen and ink
   illustration on a white background, strictly grayscale with no color;
@@ -102,7 +111,7 @@ The pipeline has no LLM API. `npm run add -- <memo.m4a>` transcribes into
      "summary": "a blurb for the story itself (no meta-commentary about Dad and Izzy telling it), max ~1000 chars",
      "characters": [{ "name": "Hattie the Mouse", "description": "one sentence; used only for NEW entities" }],
      "places": [{ "name": "The Workshop", "description": "..." }],
-     "highlightQuote": { "text": "a short, funny/clever/unusual Izzy line, copied VERBATIM from one transcript line" },
+     "quoteOptions": ["4 short, funny/clever/unusual Izzy lines, each copied VERBATIM from one transcript line"],
      "swapSpeakers": false,
      "headerPrompts": ["...", "...", "..."]
    }
@@ -113,17 +122,29 @@ The pipeline has no LLM API. `npm run add -- <memo.m4a>` transcribes into
      `content/characters.json` / `places.json` when the entity exists — check
      `aliases` too — so it links to the existing entry; descriptions of existing
      entities are left unchanged. Describe only genuinely new ones.
-   - The quote must match a transcript line verbatim (finalize anchors its
-     timestamp by exact match and warns otherwise).
+   - `quoteOptions`: the pull-quote shortlist — 4 clearly different Izzy lines
+     (different moments, not variations of one), best first. Each must match a
+     transcript line verbatim (finalize anchors the timestamp by exact match).
+     Do NOT write `highlightQuote` yourself: the user chooses it in step 4.
    - Set `swapSpeakers: true` if the Dad/Izzy labels are backwards (the draft
      flags a low-confidence mapping).
    - `headerPrompts`: 3 prompts following the house rules above; omit to skip
      candidates (add a header later via `npm run regen-image`).
 3. `npm run finalize -- <id> --dry-run` — shows which characters/places would
    be NEW; double-check each new name is not an existing character under a
-   different spelling. Then `npm run finalize -- <id>`, which writes the story,
-   updates the registries and manifest, rebuilds the site and generates the
-   header candidates → continue with the header-image loop above.
+   different spelling. It also lists each quote option with its timestamp and
+   speaker; replace any marked NOT FOUND or "not an Izzy line".
+4. The user chooses the pull quote. Ask with AskUserQuestion: the quote
+   options as the choices (full text in the label or description, with the
+   timestamp), your pick first. "Other" covers a line they dictate themselves,
+   a request for a fresh shortlist (write new `quoteOptions` and ask again), or
+   no quote at all. Write the answer to the analysis as
+   `"highlightQuote": { "text": "..." }` (`null` for no quote) — never without
+   the user's explicit choice; `npm run finalize` refuses to run until the key
+   is there.
+5. `npm run finalize -- <id>`, which writes the story, updates the registries
+   and manifest, rebuilds the site and generates the header candidates →
+   continue with the header-image loop above.
 
 ## Character registry cleanups are plan-driven and user-reviewed
 

@@ -69,8 +69,18 @@ export interface StoryAnalysis {
   summary: string;
   characters: { name: string; description: string }[];
   places: { name: string; description: string }[];
-  /** Verbatim Izzy line; the timestamp is recovered from the transcript when omitted. */
-  highlightQuote: { text: string; timestamp?: number | null } | null;
+  /**
+   * The pull-quote shortlist the agent proposes (verbatim Izzy lines). The user
+   * picks one; the dry run shows where each anchors in the transcript.
+   */
+  quoteOptions?: string[];
+  /**
+   * The pull quote THE USER chose (from quoteOptions, or one they dictated);
+   * null = they chose to have none. Left out until they have chosen — finalize
+   * refuses to publish without it. The timestamp is recovered from the
+   * transcript when omitted.
+   */
+  highlightQuote?: { text: string; timestamp?: number | null } | null;
   /** Set when the Dad/Izzy speaker mapping in the draft is backwards. */
   swapSpeakers?: boolean;
   /** Three header-image prompts (house style); omitted = no candidates generated at finalize. */

@@ -80,11 +80,15 @@ only remaining Gemini call is the image model):
    for the data). Drafts are gitignored flow state.
 2. **Analyze** — in Claude Code, read the transcript and write
    `content/drafts/<id>/analysis.json` with the title, summary, characters,
-   places, highlight quote and three header-image prompts. CLAUDE.md has the
-   schema and the rules (reuse canonical names, quote Izzy verbatim, house
-   illustration style).
-3. **Finalize** — `npm run finalize -- <id> --dry-run` shows which characters
-   and places are new; `npm run finalize -- <id>` writes
+   places, a shortlist of pull-quote options and three header-image prompts.
+   CLAUDE.md has the schema and the rules (reuse canonical names, quote Izzy
+   verbatim, house illustration style).
+3. **Choose the pull quote** — `npm run finalize -- <id> --dry-run` shows which
+   characters and places are new and where each quote option sits in the
+   transcript; Claude Code then asks you to pick one (or dictate your own, or
+   have none) and records it as `highlightQuote`. Finalize refuses to publish
+   until that choice is made.
+4. **Finalize** — `npm run finalize -- <id>` writes
    `content/stories/<slug>/`, merges the entities into the registries
    (matching canonical names and aliases), updates the manifest, rebuilds
    `site/public`, and generates the three header candidates for review.
@@ -125,7 +129,8 @@ cd tools
 npm run add -- "/path/to/My New Story.m4a"       # options: --date 2026-06-20
 #   -> content/drafts/My_New_Story/{transcript.txt, draft.json, source.m4a}
 #   ...write content/drafts/My_New_Story/analysis.json (Claude Code)...
-npm run finalize -- My_New_Story --dry-run       # check new vs existing entities
+npm run finalize -- My_New_Story --dry-run       # check new vs existing entities + quote options
+#   ...you choose the pull quote; Claude Code writes it to analysis.json...
 npm run finalize -- My_New_Story                 # options: --no-image  --no-build
 npm run finalize -- --list                       # drafts awaiting analysis
 ```
