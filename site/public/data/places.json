@@ -2443,7 +2443,8 @@
     "name": "Uncle Bill's House",
     "description": "The place where Seeker visits Uncle Bill for breakfast before their journey.",
     "storyIds": [
-      "The_Sneaky_Popper_of_Balloon_World"
+      "The_Sneaky_Popper_of_Balloon_World",
+      "Two_Seekers_and_the_Star_Lantern"
     ],
     "firstAppearanceStoryId": "The_Sneaky_Popper_of_Balloon_World"
   },
@@ -4258,7 +4259,8 @@
       "The_Potion_Factory_and_the_Journey_to_Bead_World",
       "Blemus_The_Gravity_Goldfish_Is_Coming",
       "Frankar_and_the_Spinning_Lantern",
-      "No_Thunderstorms_in_Seeker_s_Castle"
+      "No_Thunderstorms_in_Seeker_s_Castle",
+      "Two_Seekers_and_the_Star_Lantern"
     ],
     "firstAppearanceStoryId": "A_Sticky_Adventure_to_the_Castle_of_Slime"
   },
@@ -5449,5 +5451,32 @@
       "Frankar_and_the_Spinning_Lantern"
     ],
     "firstAppearanceStoryId": "Frankar_and_the_Spinning_Lantern"
+  },
+  {
+    "id": "f2c93d836fce43469c39",
+    "name": "Taelgar",
+    "description": "A world of dwarves and powerful magic where another Seeker and Frankar live; its characters also turn up in the Stars and Stories world.",
+    "storyIds": [
+      "Two_Seekers_and_the_Star_Lantern"
+    ],
+    "firstAppearanceStoryId": "Two_Seekers_and_the_Star_Lantern"
+  },
+  {
+    "id": "582e3f43a74e48b68cd0",
+    "name": "Seeker's Castle in Taelgar",
+    "description": "The Taelgar Seeker's castle near the city of Tollen, with Frankar's workshop on the top floor, the children's bedroom downstairs, and a brand-new potion closet built by Isabella.",
+    "storyIds": [
+      "Two_Seekers_and_the_Star_Lantern"
+    ],
+    "firstAppearanceStoryId": "Two_Seekers_and_the_Star_Lantern"
+  },
+  {
+    "id": "bbab9f2af0304cc698e9",
+    "name": "Tollen",
+    "description": "A city in the world of Taelgar, near Seeker's castle.",
+    "storyIds": [
+      "Two_Seekers_and_the_Star_Lantern"
+    ],
+    "firstAppearanceStoryId": "Two_Seekers_and_the_Star_Lantern"
   }
 ]

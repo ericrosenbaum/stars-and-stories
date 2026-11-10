@@ -38,6 +38,11 @@
     { "from": "Grisko", "to": "Grisco" },
     { "from": "Cadasori", "to": "Catasorry" },
     { "from": "\\bMrs\\.? Piggy\\b", "to": "Miss Piggy", "regex": true },
-    { "from": "True Like", "to": "Shrew-like", "caseSensitive": true }
+    { "from": "True Like", "to": "Shrew-like", "caseSensitive": true },
+    { "from": "Talgar", "to": "Taelgar" },
+    { "from": "Telgar", "to": "Taelgar" },
+    { "from": "Telgars", "to": "Taelgars" },
+    { "from": "Tolan", "to": "Tollen" },
+    { "from": "Seekar", "to": "Seeker" }
   ]
 }

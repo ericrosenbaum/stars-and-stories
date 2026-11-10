@@ -349,7 +349,8 @@
       "The_Potion_Factory_and_the_Journey_to_Bead_World",
       "Blemus_The_Gravity_Goldfish_Is_Coming",
       "Frankar_and_the_Spinning_Lantern",
-      "No_Thunderstorms_in_Seeker_s_Castle"
+      "No_Thunderstorms_in_Seeker_s_Castle",
+      "Two_Seekers_and_the_Star_Lantern"
     ],
     "firstAppearanceStoryId": "Expedition_to_the_Deep-Deep_Dark",
     "aliases": [
@@ -595,7 +596,8 @@
       "Slime-Ka-Bye_The_Beard-Dweller_s_Deep_Sea_Adventure",
       "The_Magic_Star_Potion_and_the_Journey_to_Star_World",
       "The_Super_Mouse_Crew_and_the_Wizard_s_Lost_Hat",
-      "The_Mystery_of_Peacock_s_Hat_and_the_Moopa_Doopa"
+      "The_Mystery_of_Peacock_s_Hat_and_the_Moopa_Doopa",
+      "Two_Seekers_and_the_Star_Lantern"
     ],
     "firstAppearanceStoryId": "Tigger_s_Quest_for_the_Wizard_s_Magic_Wand",
     "aliases": [
@@ -2049,7 +2051,8 @@
       "The_Magic_of_Slime_School",
       "Dr_Izzy_and_the_Forest_Rescue",
       "The_Magic_Star_Potion_and_the_Journey_to_Star_World",
-      "The_Security_Cats_and_the_Rainbow_Party"
+      "The_Security_Cats_and_the_Rainbow_Party",
+      "Two_Seekers_and_the_Star_Lantern"
     ],
     "firstAppearanceStoryId": "Haddy_the_Mouse_and_the_Lego_Airplane"
   },
@@ -2117,7 +2120,8 @@
       "The_Mysterious_Sand_Bottle_and_the_No-Crying_Game",
       "The_Case_of_the_Kidnapped_Dwarf_and_the_Magic_Ladder",
       "The_Mystery_of_Peacock_s_Hat_and_the_Moopa_Doopa",
-      "The_Potion_Factory_and_the_Journey_to_Bead_World"
+      "The_Potion_Factory_and_the_Journey_to_Bead_World",
+      "Two_Seekers_and_the_Star_Lantern"
     ],
     "firstAppearanceStoryId": "Dimitar_and_the_Blueberry_Dragon_Pop",
     "aliases": [
@@ -2903,7 +2907,8 @@
       "The_Potion_Factory_and_the_Journey_to_Bead_World",
       "Blemus_The_Gravity_Goldfish_Is_Coming",
       "Frankar_and_the_Spinning_Lantern",
-      "No_Thunderstorms_in_Seeker_s_Castle"
+      "No_Thunderstorms_in_Seeker_s_Castle",
+      "Two_Seekers_and_the_Star_Lantern"
     ],
     "firstAppearanceStoryId": "The_Mischief_Moles_and_the_Plane_of_Fire",
     "aliases": [
@@ -3674,7 +3679,8 @@
     "storyIds": [
       "The_Best_Mole_Hole_Ever",
       "The_Potion_to_Izzy_s_Attic",
-      "The_Magic_Star_Potion_and_the_Journey_to_Star_World"
+      "The_Magic_Star_Potion_and_the_Journey_to_Star_World",
+      "Two_Seekers_and_the_Star_Lantern"
     ],
     "firstAppearanceStoryId": "The_Best_Mole_Hole_Ever",
     "aliases": [
@@ -5794,7 +5800,8 @@
       "The_Case_of_the_Kidnapped_Dwarf_and_the_Magic_Ladder",
       "The_Super_Mouse_Crew_and_the_Wizard_s_Lost_Hat",
       "The_Mystery_of_Peacock_s_Hat_and_the_Moopa_Doopa",
-      "The_Potion_Factory_and_the_Journey_to_Bead_World"
+      "The_Potion_Factory_and_the_Journey_to_Bead_World",
+      "Two_Seekers_and_the_Star_Lantern"
     ],
     "firstAppearanceStoryId": "The_Wizard_s_Play-Doh_Hat_Quest",
     "aliases": [
@@ -7121,8 +7128,45 @@
     "description": "Seeker's little brother, a dwarf slightly taller and skinnier than Seeker, with neatly combed shoulder-length black hair, black mustachios, a long straight black beard and a neat white cloak; newly escaped from the Plane of Fire, he can only sleep in a room that glows and flickers like flames, and likes his toast burnt.",
     "storyIds": [
       "Frankar_and_the_Spinning_Lantern",
-      "No_Thunderstorms_in_Seeker_s_Castle"
+      "No_Thunderstorms_in_Seeker_s_Castle",
+      "Two_Seekers_and_the_Star_Lantern"
     ],
     "firstAppearanceStoryId": "Frankar_and_the_Spinning_Lantern"
+  },
+  {
+    "id": "487965cf56bf480cb20c",
+    "name": "Taelgar Seeker",
+    "description": "The Seeker of the world of Taelgar: a regular dwarf, not a little Lego person, who lives in a castle near the city of Tollen and tells Stars and Stories stories to his two children, Kalani and Razabo.",
+    "storyIds": [
+      "Two_Seekers_and_the_Star_Lantern"
+    ],
+    "firstAppearanceStoryId": "Two_Seekers_and_the_Star_Lantern"
+  },
+  {
+    "id": "b07fcc1a7f454fd6bbe4",
+    "name": "Taelgar Frankar",
+    "description": "The Frankar of the world of Taelgar, Taelgar Seeker's brother, whose top-floor workshop experiment with a star-and-moon lantern opened a portal into the Stars and Stories world.",
+    "storyIds": [
+      "Two_Seekers_and_the_Star_Lantern"
+    ],
+    "firstAppearanceStoryId": "Two_Seekers_and_the_Star_Lantern"
+  },
+  {
+    "id": "b67ecefc7afc4d1fabf7",
+    "name": "Kalani",
+    "description": "Taelgar Seeker's daughter, who slips out at bedtime with her brother Razabo to build the tallest tower in the world at Uncle Bill's house.",
+    "storyIds": [
+      "Two_Seekers_and_the_Star_Lantern"
+    ],
+    "firstAppearanceStoryId": "Two_Seekers_and_the_Star_Lantern"
+  },
+  {
+    "id": "8aa0c396948849738f95",
+    "name": "Razabo",
+    "description": "Taelgar Seeker's son, who slips out at bedtime with his sister Kalani to build the tallest tower in the world at Uncle Bill's house.",
+    "storyIds": [
+      "Two_Seekers_and_the_Star_Lantern"
+    ],
+    "firstAppearanceStoryId": "Two_Seekers_and_the_Star_Lantern"
   }
 ]
